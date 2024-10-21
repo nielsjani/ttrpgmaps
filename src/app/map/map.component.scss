@@ -28,8 +28,29 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 button:hover {
   background-color: #155a9c;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  margin: 20px;
+  //margin-right: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+}
+
+.card p {
+  margin: 0;
 }

@@ -4,5 +4,10 @@
   </div>
   <div class="right-column">
     <button (click)="togglePopups()">Toggle points of interest names</button>
+    <div *ngIf="selectedPoi" class="card">
+      <h2>{{ selectedPoi.title }}</h2>
+      <p>{{ selectedPoi.description }}</p>
+      <button *ngIf="selectedPoi.subMapId" [routerLink]="['/sword-coast-leuven', selectedPoi.subMapId]">Go to the location's map</button>
+    </div>
   </div>
 </div>

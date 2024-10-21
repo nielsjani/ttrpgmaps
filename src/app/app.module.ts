@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { SwordCoastLeuvenComponent } from './sword-coast-leuven/sword-coast-leuven.component';
 import { HomeComponent } from './home/home.component';
+import { SwordCoastLeuvenSubmapComponent } from './sword-coast-leuven-submap/sword-coast-leuven-submap.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
     SwordCoastLeuvenComponent,
-    HomeComponent
+    HomeComponent,
+    SwordCoastLeuvenSubmapComponent
   ],
   imports: [
     BrowserModule,

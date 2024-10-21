@@ -2,6 +2,7 @@ import {AfterViewInit, Component, Input} from '@angular/core';
 import * as L from 'leaflet';
 import {LatLngExpression, Marker, Point} from "leaflet";
 import {MarkerData} from "../types/MarkerData";
+import {PoiData} from "../types/PoiData";
 
 @Component({
   selector: 'app-map',
@@ -13,6 +14,8 @@ export class MapComponent implements AfterViewInit {
   private markers: Marker[] = [];
   @Input() mapId!: string;
   @Input() markerDatas!: MarkerData[];
+  @Input() poiDatas: PoiData[] = [];
+  selectedPoi: PoiData | undefined;
 
   private initMap(): void {
     this.map = L.map(this.mapId, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
@@ -47,7 +50,7 @@ export class MapComponent implements AfterViewInit {
     let options: any = marker.options;
     options['id'] = id;
 
-    marker.on('click', e => console.log(e));
+    marker.on('click', e => this.changeSelectedPoi(e.target.options.id));
 
     this.markers.push(marker);
   }
@@ -61,4 +64,7 @@ export class MapComponent implements AfterViewInit {
   }
 
 
+  private changeSelectedPoi(id: number) {
+    this.selectedPoi = this.poiDatas.find(poiData => poiData.id === id);
+  }
 }

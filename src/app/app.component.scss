@@ -1,0 +1,41 @@
+.content {
+  margin-top: 30px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+}
+
+.toolbar img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.toolbar .nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.toolbar-title {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toolbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+
+.spacer {
+  flex: 1;
+}

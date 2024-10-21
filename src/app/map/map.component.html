@@ -1,3 +1,8 @@
-
-<div id="map" style="height: 90vh; width: 60%;"></div>
-
+<div class="container">
+  <div class="left-column">
+    <div [id]="mapId"></div>
+  </div>
+  <div class="right-column">
+    <button (click)="togglePopups()">Toggle points of interest names</button>
+  </div>
+</div>

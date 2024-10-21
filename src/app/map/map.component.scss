@@ -1,13 +1,35 @@
-//.map-container {
-//  height: 75%;
-//
-//}
-//
-//.map-frame {
-//  border: 2px solid black;
-//  height: 75%;
-//}
+#map-forgotten-realms {
+  height: 80vh;
+  width: 100%;
+  margin-left: 20px;
+}
 
-//#map {
-//  height: 180px;
-//}
+.container {
+  display: flex;
+}
+
+.left-column {
+  width: 60%;
+}
+
+.right-column {
+ padding-left: 10px;
+  margin-left: 20px;
+  width: 40%;
+}
+
+
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #155a9c;
+}

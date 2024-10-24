@@ -23,8 +23,26 @@ export class MapComponent implements AfterViewInit {
   }
 
   private initMap(): void {
-    this.map = L.map(this.mapName, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
+    this.initializeMap();
+    this.addMapImage();
+    this.addMarkers();
+  }
 
+  private initializeMap() {
+    this.map = L.map(this.mapName, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
+    this.map.on('click', (event: any) => console.log(event.latlng.lat + ', ' + event.latlng.lng));
+  }
+
+  private addMarkers() {
+    this.markerDatas.forEach(markerData =>
+      this.createMarker(
+        markerData.id,
+        markerData.iconName,
+        [markerData.locationX, markerData.locationY],
+        markerData.popupText));
+  }
+
+  private addMapImage() {
     const leftTopX = -90;
     const leftTopY = -300;
 
@@ -33,12 +51,6 @@ export class MapComponent implements AfterViewInit {
     const imageBounds: L.LatLngBoundsExpression = [[leftTopX, leftTopY], [leftTopX + 400, leftTopY + 400]];
 
     L.imageOverlay(imageUrl, imageBounds, {}).addTo(this.map);
-    this.markerDatas.forEach(markerData =>
-      this.createMarker(
-        markerData.id,
-        markerData.iconName,
-        [markerData.locationX, markerData.locationY],
-        markerData.popupText));
   }
 
   private createMarker(id: number, iconName: string, location: LatLngExpression, popupText: string) {

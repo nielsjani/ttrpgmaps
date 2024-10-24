@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {SwordCoastLeuvenComponent} from "./sword-coast-leuven/sword-coast-leuven.component";
+import {MapContainerComponent} from "./map-container/map-container.component";
 import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: ':mapId/:subMapId', component: SwordCoastLeuvenComponent },
-  { path: ':mapId', component: SwordCoastLeuvenComponent },
+  { path: ':mapId/:subMapId', component: MapContainerComponent },
+  { path: ':mapId', component: MapContainerComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

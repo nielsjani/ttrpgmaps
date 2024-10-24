@@ -18,6 +18,10 @@ export class MapComponent implements AfterViewInit {
   selectedPoi: PoiData | undefined;
   @Input('router-root') routerRoot!: string;
 
+  ngAfterViewInit(): void {
+    this.initMap();
+  }
+
   private initMap(): void {
     this.map = L.map(this.mapName, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
 
@@ -35,7 +39,6 @@ export class MapComponent implements AfterViewInit {
         markerData.iconName,
         [markerData.locationX, markerData.locationY],
         markerData.popupText));
-
   }
 
   private createMarker(id: number, iconName: string, location: LatLngExpression, popupText: string) {
@@ -59,11 +62,6 @@ export class MapComponent implements AfterViewInit {
   togglePopups() {
     this.markers.forEach(marker => marker.isPopupOpen() ? marker.closePopup() : marker.openPopup());
   }
-
-  ngAfterViewInit(): void {
-    this.initMap();
-  }
-
 
   private changeSelectedPoi(id: number) {
     this.selectedPoi = this.poiDatas.find(poiData => poiData.id === id);

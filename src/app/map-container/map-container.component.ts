@@ -5,11 +5,11 @@ import {ActivatedRoute} from "@angular/router";
 import {MapDataService} from "../data/map-data.service";
 
 @Component({
-  selector: 'app-sword-coast-leuven',
-  templateUrl: './sword-coast-leuven.component.html',
-  styleUrls: ['./sword-coast-leuven.component.scss']
+  selector: 'app-map-container',
+  templateUrl: './map-container.component.html',
+  styleUrls: ['./map-container.component.scss']
 })
-export class SwordCoastLeuvenComponent implements OnInit {
+export class MapContainerComponent implements OnInit {
 
   forgottenRealmsMarkers: MarkerData[] = [];
   forgottenRealmsPoiDatas: PoiData[] = [];

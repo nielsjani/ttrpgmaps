@@ -12,18 +12,19 @@ import {PoiData} from "../types/PoiData";
 export class MapComponent implements AfterViewInit {
   private map: any;
   private markers: Marker[] = [];
-  @Input() mapId!: string;
+  @Input() mapName!: string;
   @Input() markerDatas!: MarkerData[];
   @Input() poiDatas: PoiData[] = [];
   selectedPoi: PoiData | undefined;
+  @Input('router-root') routerRoot!: string;
 
   private initMap(): void {
-    this.map = L.map(this.mapId, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
+    this.map = L.map(this.mapName, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, -100], 2);
 
     const leftTopX = -90;
     const leftTopY = -300;
 
-    const imageUrl = 'assets/map-sword-coast.jpg';
+    const imageUrl = 'assets/' + this.mapName + '.jpg';
     //X and Y are switched?
     const imageBounds: L.LatLngBoundsExpression = [[leftTopX, leftTopY], [leftTopX + 400, leftTopY + 400]];
 

@@ -1,13 +1,13 @@
 <div class="container">
   <div class="left-column">
-    <div [id]="mapId"></div>
+    <div class="mapWrapper" [id]="mapName"></div>
   </div>
   <div class="right-column">
     <button (click)="togglePopups()">Toggle points of interest names</button>
     <div *ngIf="selectedPoi" class="card">
       <h2>{{ selectedPoi.title }}</h2>
       <p [innerHTML]="selectedPoi.description"></p>
-      <button *ngIf="selectedPoi.subMapId" [routerLink]="['/sword-coast-leuven', selectedPoi.subMapId]">Go to the location's map</button>
+      <button *ngIf="selectedPoi.subMapId" [routerLink]="['/', routerRoot, selectedPoi.subMapId]">Go to the location's map</button>
     </div>
   </div>
 </div>

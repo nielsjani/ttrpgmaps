@@ -2,6 +2,7 @@ import {MapData} from "../types/map-data";
 import {MarkerData} from "../types/MarkerData";
 import {PoiData} from "../types/PoiData";
 import {PhandalinMapData} from "./phandalin-map-data";
+import {MapMetaData} from "../types/map-meta-data";
 
 export class SwordCoastMapData implements MapData {
 
@@ -74,8 +75,8 @@ export class SwordCoastMapData implements MapData {
     return mapData;
   }
 
-  getMapName(): string {
-    return "map-sword-coast";
+  getMapMetaData(): MapMetaData {
+    return new MapMetaData("map-sword-coast", [[-80, -80], [63.5, 80]]);
   }
 
 }

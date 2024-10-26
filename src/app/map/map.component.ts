@@ -3,6 +3,7 @@ import * as L from 'leaflet';
 import {LatLngExpression, Marker, Point} from "leaflet";
 import {MarkerData} from "../types/MarkerData";
 import {PoiData} from "../types/PoiData";
+import {MapMetaData} from "../types/map-meta-data";
 
 @Component({
   selector: 'app-map',
@@ -12,7 +13,7 @@ import {PoiData} from "../types/PoiData";
 export class MapComponent implements AfterViewInit {
   private map: any;
   private markers: Marker[] = [];
-  @Input() mapName!: string;
+  @Input() mapMetaData!: MapMetaData;
   @Input() markerDatas!: MarkerData[];
   @Input() poiDatas: PoiData[] = [];
   selectedPoi: PoiData | undefined;
@@ -29,7 +30,8 @@ export class MapComponent implements AfterViewInit {
   }
 
   private initializeMap() {
-    this.map = L.map(this.mapName, {minZoom: 2, maxZoom: 5, wheelPxPerZoomLevel: 150}).setView([-55, 10], 3);
+    this.map = L.map(this.mapMetaData.mapName, {minZoom: this.mapMetaData.minZoom, maxZoom: this.mapMetaData.maxZoom, wheelPxPerZoomLevel: this.mapMetaData.pxlPerZoom})
+      .setView(this.mapMetaData.startingCenter, this.mapMetaData.startingZoom);
     this.map.on('click', (event: any) => {
       console.log(event.latlng.lat + ', ' + event.latlng.lng);
       this.getImageInfo();
@@ -59,9 +61,9 @@ export class MapComponent implements AfterViewInit {
   private addMapImage() {
     //2150 w x 3000 h = 0.72
 
-    const imageUrl = 'assets/maps/' + this.mapName + '.jpg';
+    const imageUrl = 'assets/maps/' + this.mapMetaData.mapName + '.jpg';
     // left bottom, right top
-    const imageBounds: L.LatLngBoundsExpression = [[-80, -80], [63.5, 80]];
+    const imageBounds: L.LatLngBoundsExpression = this.mapMetaData.imageBounds;
 
     let imageOverlay = L.imageOverlay(imageUrl, imageBounds, {});
     imageOverlay.addTo(this.map);

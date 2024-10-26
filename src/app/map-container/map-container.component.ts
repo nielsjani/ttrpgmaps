@@ -3,6 +3,7 @@ import {MarkerData} from "../types/MarkerData";
 import {PoiData} from "../types/PoiData";
 import {ActivatedRoute} from "@angular/router";
 import {MapDataService} from "../data/map-data.service";
+import {MapMetaData} from "../types/map-meta-data";
 
 @Component({
   selector: 'app-map-container',
@@ -13,7 +14,7 @@ export class MapContainerComponent implements OnInit {
 
   forgottenRealmsMarkers: MarkerData[] = [];
   forgottenRealmsPoiDatas: PoiData[] = [];
-  mapName: string = '';
+  mapMetaData: MapMetaData = undefined as any;
   mapId: string = '';
 
   constructor(private route: ActivatedRoute) {
@@ -25,7 +26,7 @@ export class MapContainerComponent implements OnInit {
     if (!mapData) {
       throw new Error(`Map data not found for id: ${this.mapId}`);
     }
-    this.mapName = mapData.getMapName();
+    this.mapMetaData = mapData.getMapMetaData();
     this.forgottenRealmsMarkers = mapData.getMarkerData();
     this.forgottenRealmsPoiDatas = mapData.getPoiData();
   }

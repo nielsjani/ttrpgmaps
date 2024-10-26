@@ -29,8 +29,22 @@ export class MapComponent implements AfterViewInit {
   }
 
   private initializeMap() {
-    this.map = L.map(this.mapName, {minZoom: 1, maxZoom: 4, wheelPxPerZoomLevel: 150}).setView([0, 0], 2);
-    this.map.on('click', (event: any) => console.log(event.latlng.lat + ', ' + event.latlng.lng));
+    this.map = L.map(this.mapName, {minZoom: 2, maxZoom: 5, wheelPxPerZoomLevel: 150}).setView([-55, 10], 3);
+    this.map.on('click', (event: any) => {
+      console.log(event.latlng.lat + ', ' + event.latlng.lng);
+      this.getImageInfo();
+    });
+  }
+
+  private getImageInfo() {
+    const style = document.querySelector('.leaflet-overlay-pane')?.querySelector('img')?.style.cssText;
+    const widthMatch = style?.match(/width:\s*([^;]+)/);
+    const heightMatch = style?.match(/height:\s*([^;]+)/);
+
+    const width = widthMatch ? widthMatch[1] : 'not found';
+    const height = heightMatch ? heightMatch[1] : 'not found';
+
+    console.log('Width:', width, 'Height:', height, 'Ratio:', parseFloat(width) / parseFloat(height));
   }
 
   private addMarkers() {
@@ -43,18 +57,11 @@ export class MapComponent implements AfterViewInit {
   }
 
   private addMapImage() {
-    const leftTopX = -90;
-    const leftTopY = -300;
-
     //2150 w x 3000 h = 0.72
 
     const imageUrl = 'assets/maps/' + this.mapName + '.jpg';
     // left bottom, right top
-    const imageBounds: L.LatLngBoundsExpression = [[-80, -80], [80,80]];
-
-//h 146
-    //w 240
-
+    const imageBounds: L.LatLngBoundsExpression = [[-80, -80], [63.5, 80]];
 
     let imageOverlay = L.imageOverlay(imageUrl, imageBounds, {});
     imageOverlay.addTo(this.map);

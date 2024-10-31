@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, Input} from '@angular/core';
 import * as L from 'leaflet';
-import {LatLngExpression, Marker, Point} from "leaflet";
+import {LatLngExpression, Map, Marker, Point} from 'leaflet';
 import {MarkerData} from "../types/MarkerData";
 import {PoiData} from "../types/PoiData";
 import {MapMetaData} from "../types/map-meta-data";
@@ -11,12 +11,14 @@ import {MapMetaData} from "../types/map-meta-data";
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements AfterViewInit {
-  private map: any;
+
+  private map: Map = undefined as any;
   private markers: Marker[] = [];
+  selectedPoi: PoiData | undefined;
+
   @Input() mapMetaData!: MapMetaData;
   @Input() markerDatas!: MarkerData[];
   @Input() poiDatas: PoiData[] = [];
-  selectedPoi: PoiData | undefined;
   @Input('router-root') routerRoot!: string;
 
   ngAfterViewInit(): void {
@@ -59,9 +61,7 @@ export class MapComponent implements AfterViewInit {
   }
 
   private addMapImage() {
-    //2150 w x 3000 h = 0.72
-
-    const imageUrl = 'assets/maps/' + this.mapMetaData.mapName + '.jpg';
+    const imageUrl = 'assets/maps/' + this.mapMetaData.mapName;
     // left bottom, right top
     const imageBounds: L.LatLngBoundsExpression = this.mapMetaData.imageBounds;
 
@@ -72,7 +72,7 @@ export class MapComponent implements AfterViewInit {
   private createMarker(id: number, iconName: string, location: LatLngExpression, popupText: string) {
     const icon = L.icon({
       iconUrl: 'assets/icons/' + iconName,
-      iconSize: [40, 40]
+      iconSize: [50, 50]
     });
 
     const marker = L.marker(location, {icon: icon}).addTo(this.map);

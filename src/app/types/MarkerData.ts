@@ -1,3 +1,5 @@
+import {MarkerCategory} from "./marker-category";
+
 export class MarkerData {
 
   constructor(
@@ -5,7 +7,8 @@ export class MarkerData {
     public iconName: string,
     public locationX: number,
     public locationY: number,
-    public popupText: string
+    public popupText: string,
+    public category: MarkerCategory = MarkerCategory.NONE
   ) {
   }
 }

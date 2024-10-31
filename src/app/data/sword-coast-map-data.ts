@@ -76,7 +76,7 @@ export class SwordCoastMapData implements MapData {
   }
 
   getMapMetaData(): MapMetaData {
-    return new MapMetaData("map-sword-coast", [[-80, -80], [63.5, 80]]);
+    return new MapMetaData("map-sword-coast.jpg", [[-80, -80], [63.5, 80]]);
   }
 
 }

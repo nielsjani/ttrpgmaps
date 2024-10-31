@@ -61,7 +61,7 @@ export class PhandalinMapData implements MapData {
   getMapMetaData(): MapMetaData {
     //1.39534883721
 
-    return new MapMetaData("map-phandalin", [[-80, -80], [3.75, 120]], [-53.32, 24.24], 2, 4, 150, 3);
+    return new MapMetaData("map-phandalin.jpg", [[-80, -80], [3.75, 120]], [-53.32, 24.24], 2, 4, 150, 3);
   }
 
 }

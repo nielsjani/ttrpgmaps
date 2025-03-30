@@ -11,4 +11,8 @@ export class CharacterDataService {
   updateStartData(value: StartData) {
     console.log(value)
   }
+
+  updateClassChoice(classChoice: any) {
+    console.log(classChoice);
+  }
 }

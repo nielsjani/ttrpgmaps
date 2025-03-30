@@ -1,0 +1,10 @@
+<div class="class-cards" *ngIf="!presentClassSubClassSelection">
+  <div class="class-card" *ngFor="let clazz of classes" (click)="submit(clazz.id)">
+    <h2>{{ clazz.name }}</h2>
+    <p>{{ clazz.description }}</p>
+  </div>
+</div>
+
+<div *ngIf="presentClassSubClassSelection">
+  Select a subclass
+</div>

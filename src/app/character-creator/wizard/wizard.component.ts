@@ -49,4 +49,9 @@ export class WizardComponent implements OnInit {
     this.wizardService.updateStartData($event);
     this.navigateToNextStep();
   }
+
+  handleClassChoice($event: string) {
+    this.wizardService.updateClassChoice($event);
+    this.navigateToNextStep();
+  }
 }

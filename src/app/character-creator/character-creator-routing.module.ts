@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {WizardStartComponent} from "./wizard/wizard-start.component";
+import {WizardComponent} from "./wizard/wizard.component";
 
 const routes: Routes = [
-  { path: 'wizard/2014/start', component: WizardStartComponent },
+  { path: 'wizard/2014/start', component: WizardComponent },
 ];
 
 @NgModule({

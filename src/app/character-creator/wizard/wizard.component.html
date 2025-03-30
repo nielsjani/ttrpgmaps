@@ -1,0 +1,13 @@
+<!-- src/app/character-creator/wizard/wizard-start.component.html -->
+<app-wizard-progress-bar [currentStep]="currentStep"></app-wizard-progress-bar>
+
+<app-start-step [characterForm]="characterForm"
+                [isFormSubmitted]="isFormSubmitted"
+                (formSubmitted)="handleStartFormSubmit($event)"
+                *ngIf="currentStep === 0">
+  <div class="form-navigation">
+    <i *ngIf="currentStep > 0" class="fas fa-arrow-left" (click)="previousStep()"></i>
+    <div class="spacer"></div>
+    <i *ngIf="currentStep < 6" class="fas fa-arrow-right" (click)="nextStep()"></i>
+  </div>
+</app-start-step>

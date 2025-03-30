@@ -1,15 +1,8 @@
-<!-- src/app/character-creator/wizard/wizard-start.component.html -->
-<app-wizard-progress-bar [currentStep]="currentStep"> </app-wizard-progress-bar>
-
 <form [formGroup]="characterForm" (ngSubmit)="onSubmit()">
-  <div class="form-navigation">
-    <i *ngIf="currentStep > 0" class="fas fa-arrow-left"></i>
-    <div class="spacer"></div>
-    <i *ngIf="currentStep < 6" class="fas fa-arrow-right" (click)="onSubmit()"></i>
-  </div>
+  <ng-content></ng-content>
   <div class="form-group">
     <label for="name">Name:</label>
-    <input id="name" formControlName="name" type="text" />
+    <input id="name" formControlName="name" type="text"/>
     <div *ngIf="characterForm.get('name')?.invalid && characterForm.touched && isFormSubmitted">
       <small class="error">Name is required.</small>
     </div>
@@ -20,5 +13,5 @@
       <option value="POINT_BUY">Point buy</option>
     </select>
   </div>
-  <button type="submit">Next</button>
+  <button type="submit">Choose class</button>
 </form>

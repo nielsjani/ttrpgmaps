@@ -1,0 +1,21 @@
+.wizard-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.step.active {
+  color: #007bff;
+}

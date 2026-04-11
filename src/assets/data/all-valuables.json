@@ -1,0 +1,2992 @@
+{
+  "_meta": {
+    "sources": [
+      "data/items.json",
+      "data/items-base.json",
+      "data/magicvariants.json"
+    ],
+    "counts": {
+      "items": 2416,
+      "itemGroups": 108,
+      "baseItems": 230,
+      "genericVariants": 214,
+      "specificVariants": 3420,
+      "total": 6388
+    },
+    "categories": {
+      "Item": "Regular item entries from items.json",
+      "Item Group": "Item group entries from items.json",
+      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
+      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
+      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
+    }
+  },
+  "item": [
+    {
+      "name": "Alexandrite",
+      "source": "DMG",
+      "reprintedAs": [
+        "Alexandrite|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A transparent dark green gemstone."
+      ]
+    },
+    {
+      "name": "Alexandrite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A dark green gemstone."
+      ]
+    },
+    {
+      "name": "Amber",
+      "source": "DMG",
+      "reprintedAs": [
+        "Amber|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent watery gold to rich gold gemstone."
+      ]
+    },
+    {
+      "name": "Amber",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A watery gold to rich gold gemstone."
+      ]
+    },
+    {
+      "name": "Amethyst",
+      "source": "DMG",
+      "reprintedAs": [
+        "Amethyst|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent deep purple gemstone."
+      ]
+    },
+    {
+      "name": "Amethyst",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A deep purple gemstone."
+      ]
+    },
+    {
+      "name": "Amulet of dinosaur feathers (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Aquamarine",
+      "source": "DMG",
+      "reprintedAs": [
+        "Aquamarine|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A transparent pale blue-green gemstone."
+      ]
+    },
+    {
+      "name": "Aquamarine",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A pale blue green gemstone."
+      ]
+    },
+    {
+      "name": "Azurite",
+      "source": "DMG",
+      "reprintedAs": [
+        "Azurite|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque mottled deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Azurite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A mottled deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Banded Agate",
+      "source": "DMG",
+      "reprintedAs": [
+        "Banded Agate|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A translucent striped brown, blue, white, or red gemstone."
+      ]
+    },
+    {
+      "name": "Banded Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A striped brown, blue, white, or red gemstone."
+      ]
+    },
+    {
+      "name": "Bejeweled gold bracelet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bejeweled ivory drinking horn with gold filigree",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bejeweled ivory drinking horn with gold filigree|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Bejeweled ivory drinking horn with gold filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Bejeweled ivory drinking horn with gold inlay (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Black Opal",
+      "source": "DMG",
+      "reprintedAs": [
+        "Black Opal|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A translucent dark green with black mottling and golden flecks gemstone."
+      ]
+    },
+    {
+      "name": "Black Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A dark green with black mottling and golden flecks gemstone."
+      ]
+    },
+    {
+      "name": "Black Pearl",
+      "source": "DMG",
+      "reprintedAs": [
+        "Black Pearl|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "An opaque pure black gemstone."
+      ]
+    },
+    {
+      "name": "Black Pearl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A pure black gemstone."
+      ]
+    },
+    {
+      "name": "Black Sapphire",
+      "source": "DMG",
+      "reprintedAs": [
+        "Black Sapphire|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A translucent lustrous black with glowing highlights gemstone."
+      ]
+    },
+    {
+      "name": "Black Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A lustrous black with glowing highlights gemstone."
+      ]
+    },
+    {
+      "name": "Black velvet mask stitched with silver thread",
+      "source": "DMG",
+      "reprintedAs": [
+        "Black velvet mask stitched with silver thread|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Black velvet mask stitched with silver thread",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Bloodstone",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bloodstone|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque dark gray with red flecks gemstone."
+      ]
+    },
+    {
+      "name": "Bloodstone",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A dark gray with red flecks gemstone."
+      ]
+    },
+    {
+      "name": "Blue Quartz",
+      "source": "DMG",
+      "reprintedAs": [
+        "Blue Quartz|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A transparent pale blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A pale blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Sapphire",
+      "source": "DMG",
+      "reprintedAs": [
+        "Blue Sapphire|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A transparent blue-white to medium blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A medium blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Spinel",
+      "source": "DMG",
+      "reprintedAs": [
+        "Blue Spinel|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A transparent deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Spinel",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Bottle stopper cork embossed with gold leaf and set with amethysts",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bottle stopper cork embossed with gold leaf and set with amethysts|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Bottle stopper cork embossed with gold leaf and set with amethysts",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Box of turquoise animal figurines",
+      "source": "DMG",
+      "reprintedAs": [
+        "Box of turquoise animal figurines|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Box of turquoise animal figurines",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Brass mug with jade inlay",
+      "source": "DMG",
+      "reprintedAs": [
+        "Brass mug with jade inlay|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Brass mug with jade inlay",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bronze crown",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bronze crown|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bronze crown",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bronze spyglass (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bundle of sheet music representing the lost dirges of a famous composer",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Carnelian",
+      "source": "DMG",
+      "reprintedAs": [
+        "Carnelian|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque orange to red-brown gemstone."
+      ]
+    },
+    {
+      "name": "Carnelian",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A orange to red brown gemstone."
+      ]
+    },
+    {
+      "name": "Carved bone statuette",
+      "source": "DMG",
+      "reprintedAs": [
+        "Carved bone statuette|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Carved bone statuette",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Carved harp of exotic wood with ivory inlay and zircon gems",
+      "source": "DMG",
+      "reprintedAs": [
+        "Carved wooden harp with ivory inlay and zircon gems|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Carved ivory statuette",
+      "source": "DMG",
+      "reprintedAs": [
+        "Carved ivory statuette|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Carved ivory statuette",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Carved jade statuette (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Carved wooden harp with ivory inlay and zircon gems",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Ceremonial electrum dagger with a black pearl in the pommel",
+      "source": "DMG",
+      "reprintedAs": [
+        "Detailed, life-sized dragonborn skull cast in electrum|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Ceremonial gold armor with black pearls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Ceremonial silver dagger with gold pommel and black pearl (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Chalcedony",
+      "source": "DMG",
+      "reprintedAs": [
+        "Chalcedony|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque white gemstone."
+      ]
+    },
+    {
+      "name": "Chalcedony",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoberyl",
+      "source": "DMG",
+      "reprintedAs": [
+        "Chrysoberyl|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent yellow-green to pale green gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoberyl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A yellow green to pale green gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoprase",
+      "source": "DMG",
+      "reprintedAs": [
+        "Chrysoprase|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A translucent green gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoprase",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A green gemstone."
+      ]
+    },
+    {
+      "name": "Citrine",
+      "source": "DMG",
+      "reprintedAs": [
+        "Citrine|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A transparent pale yellow-brown gemstone."
+      ]
+    },
+    {
+      "name": "Citrine",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A pale yellow brown gemstone."
+      ]
+    },
+    {
+      "name": "Cloth-of-gold vestments",
+      "source": "DMG",
+      "reprintedAs": [
+        "Cloth-of-gold vestments|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Cloth-of-gold vestments",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Cloth-of-gold vestments (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Copper (cp)",
+      "source": "PHB",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1,
+      "entries": [
+        "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+        "With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+        "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
+        "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
+        "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+        "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
+      ]
+    },
+    {
+      "name": "Copper Alms-Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1
+    },
+    {
+      "name": "Copper chalice with silver filigree",
+      "source": "DMG",
+      "reprintedAs": [
+        "Copper chalice with silver filigree|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Copper chalice with silver filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Copper stein with silver filigree (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Copper Zib",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1
+    },
+    {
+      "name": "Coral",
+      "source": "DMG",
+      "reprintedAs": [
+        "Coral|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "An opaque crimson gemstone."
+      ]
+    },
+    {
+      "name": "Coral",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A crimson gemstone."
+      ]
+    },
+    {
+      "name": "Detailed, life-sized dragonborn skull cast in electrum",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Diamond",
+      "source": "DMG",
+      "reprintedAs": [
+        "Diamond|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A transparent blue-white, canary, pink, brown, or blue gemstone."
+      ]
+    },
+    {
+      "name": "Diamond",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A blue white, canary, pink, brown, or blue gemstone."
+      ]
+    },
+    {
+      "name": "Dragon",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        "Gold coin, half again as large as a {@item nib|wdh} (1 dragon = 100 {@item nib|wdh|nibs})"
+      ]
+    },
+    {
+      "name": "Electrum (ep)",
+      "source": "PHB",
+      "type": "$C",
+      "rarity": "none",
+      "value": 50,
+      "entries": [
+        "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+        "With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+        "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
+        "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
+        "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+        "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
+      ]
+    },
+    {
+      "name": "Electrum 50-Zib Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Embroidered glove set with jewel chips",
+      "source": "DMG",
+      "reprintedAs": [
+        "Embroidered glove set with jewel chips|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered glove set with jewel chips",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered silk and velvet mantle set with numerous moonstones",
+      "source": "DMG",
+      "reprintedAs": [
+        "Embroidered silk and velvet mantle set with numerous moonstones|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered silk and velvet mantle set with numerous moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered silk handkerchief",
+      "source": "DMG",
+      "reprintedAs": [
+        "Embroidered silk handkerchief|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Embroidered silk handkerchief",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Emerald",
+      "source": "DMG",
+      "reprintedAs": [
+        "Emerald|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A transparent deep bright green gemstone."
+      ]
+    },
+    {
+      "name": "Emerald",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A deep bright green gemstone."
+      ]
+    },
+    {
+      "name": "Eye Agate",
+      "source": "DMG",
+      "reprintedAs": [
+        "Eye Agate|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A translucent circles of gray, white, brown, blue, or green gemstone."
+      ]
+    },
+    {
+      "name": "Eye Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A circles of gray, white, brown, blue, or green gemstone."
+      ]
+    },
+    {
+      "name": "Eye patch decorated with tiny blue sapphires and moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Eye patch with a mock eye set in blue sapphire and moonstone",
+      "source": "DMG",
+      "reprintedAs": [
+        "Eye patch decorated with tiny blue sapphires and moonstones|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Eye patch with a mock eye set in blue sapphire and moonstone (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Feathered mantle with emerald clasp (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fine gold chain set with a fire opal",
+      "source": "DMG",
+      "reprintedAs": [
+        "Fine gold chain set with a fire opal|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fine gold chain set with a fire opal",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fine gold chain with fire opals (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fine robe with dinosaur feathers and silver embroidery (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Fine steel rapier with gold filigree hilt (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Finely articulated jade glove (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fire Opal",
+      "source": "DMG",
+      "reprintedAs": [
+        "Fire Opal|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A translucent fiery red gemstone."
+      ]
+    },
+    {
+      "name": "Fire Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A fiery red gemstone."
+      ]
+    },
+    {
+      "name": "Garnet",
+      "source": "DMG",
+      "reprintedAs": [
+        "Garnet|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent red, brown-green, or violet gemstone."
+      ]
+    },
+    {
+      "name": "Garnet",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A red, brown green, or violet gemstone."
+      ]
+    },
+    {
+      "name": "Gilded royal coach or funeral barge",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold (gp)",
+      "source": "PHB",
+      "type": "$C",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+        "With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+        "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
+        "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
+        "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+        "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
+      ]
+    },
+    {
+      "name": "Gold 5-Zino Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Gold basin with rubies (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold bird cage with electrum filigree",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold birdcage with electrum filigree|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold birdcage with electrum filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold bracelet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold chalice (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold chalice set with emeralds (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold circlet set with four aquamarines",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold circlet set with four aquamarines|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold circlet set with four aquamarines",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold comb shaped like a dragon with red garnets as eyes",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold cup set with emeralds",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold cup set with emeralds|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold cup set with emeralds",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold dragon comb set with red garnets as eyes",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold comb shaped like a dragon with red garnets as eyes|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold idol",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold jewelry box with platinum filigree",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold jewelry box with platinum filigree|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold jewelry box with platinum filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold jewelry box with platinum filigree (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold locket with a painted portrait inside",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold locket with a painted portrait inside|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold locket with a painted portrait inside",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold locket with a painted portrait inside (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold music box",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold music box|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold music box",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold music box (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold pendant with black onyx (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold ring set with bloodstones",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold ring set with bloodstones|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold ring set with bloodstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold ring with turquoise (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold statuette set with rubies",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold Zino",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Gold-plated ceremonial helmet and pauldrons (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold-plated sextant with topaz (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Handheld mirror set in a painted wooden frame",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Harbor Moon",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Platinum crescent inset with electrum, about three inches long with a hole large enough for a {@item nib|wdh} to fit in (1 harbor moon = 5,000 {@item nib|wdh|nibs})"
+      ]
+    },
+    {
+      "name": "Hematite",
+      "source": "DMG",
+      "reprintedAs": [
+        "Hematite|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque gray-black gemstone."
+      ]
+    },
+    {
+      "name": "Hematite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A gray black gemstone."
+      ]
+    },
+    {
+      "name": "Jacinth",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jacinth|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A transparent fiery orange gemstone."
+      ]
+    },
+    {
+      "name": "Jacinth",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A fiery orange gemstone."
+      ]
+    },
+    {
+      "name": "Jade",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jade|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A translucent light green, deep green, or white gemstone."
+      ]
+    },
+    {
+      "name": "Jade",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A light green, deep green, or white gemstone."
+      ]
+    },
+    {
+      "name": "Jade bowl (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Jade breastplate (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jade game board with gold playing pieces",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jade game board with solid gold playing pieces",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jade game board with gold playing pieces|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jade headpiece (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Jade sword with amber (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Jade totem with diamond eyes (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jasper",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jasper|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque blue, black, or brown gemstone."
+      ]
+    },
+    {
+      "name": "Jasper",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A blue, black, or brown gemstone."
+      ]
+    },
+    {
+      "name": "Jet",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jet|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "An opaque deep black gemstone."
+      ]
+    },
+    {
+      "name": "Jet",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A deep black gemstone."
+      ]
+    },
+    {
+      "name": "Jeweled anklet",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jeweled anklet|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Jeweled anklet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Jeweled anklet (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Jeweled gold crown",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jeweled gold crown|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jeweled gold crown",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jeweled platinum ring",
+      "source": "DMG",
+      "reprintedAs": [
+        "Jeweled platinum ring|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jeweled platinum ring",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Lapis Lazuli",
+      "source": "DMG",
+      "reprintedAs": [
+        "Lapis Lazuli|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque light and dark blue with yellow flecks gemstone."
+      ]
+    },
+    {
+      "name": "Lapis Lazuli",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light and dark blue with yellow flecks gemstone."
+      ]
+    },
+    {
+      "name": "Large gold bracelet",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bejeweled gold bracelet|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Large gold bracelet (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Large jade totem (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Large well-made tapestry",
+      "source": "DMG",
+      "reprintedAs": [
+        "Well-made tapestry that is 10 feet by 10 feet|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Large well-made tapestry (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Lute crafted of exotic wood with mother-of-pearl inlay and zircon gems (Brazen Coalition)",
+      "source": "PSX",
+      "baseItem": "lute|phb",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Malachite",
+      "source": "DMG",
+      "reprintedAs": [
+        "Malachite|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque striated light and dark green gemstone."
+      ]
+    },
+    {
+      "name": "Malachite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A striated light and dark green gemstone."
+      ]
+    },
+    {
+      "name": "Marble font with gold inlay (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Masterpiece painting in mahogany frame with gold inlay (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Moonstone",
+      "source": "DMG",
+      "reprintedAs": [
+        "Moonstone|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A translucent white with pale blue glow gemstone."
+      ]
+    },
+    {
+      "name": "Moonstone",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white with pale-blue glow gemstone."
+      ]
+    },
+    {
+      "name": "Moss Agate",
+      "source": "DMG",
+      "reprintedAs": [
+        "Moss Agate|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A translucent pink or yellow-white with mossy gray or green markings gemstone."
+      ]
+    },
+    {
+      "name": "Moss Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A pink or yellow white with mossy gray or green markings gemstone."
+      ]
+    },
+    {
+      "name": "Necklace of electrum medallions with red and blue tourmalines (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Necklace of jade and pink pearls (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Necklace string of small pink pearls",
+      "source": "DMG",
+      "reprintedAs": [
+        "Necklace string of small pink pearls|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Necklace string of small pink pearls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Nib",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1,
+      "entries": [
+        "Copper coin about the size of a thumbnail (1 nib = 1 common copper coin)"
+      ]
+    },
+    {
+      "name": "Obsidian",
+      "source": "DMG",
+      "reprintedAs": [
+        "Obsidian|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque black gemstone."
+      ]
+    },
+    {
+      "name": "Obsidian",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A black gemstone."
+      ]
+    },
+    {
+      "name": "Obsidian statuette with gold fittings and inlay",
+      "source": "DMG",
+      "reprintedAs": [
+        "Obsidian statuette with gold fittings and inlay|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Obsidian statuette with gold fittings and inlay",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Old masterpiece painting",
+      "source": "DMG",
+      "reprintedAs": [
+        "Old masterpiece painting|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Old masterpiece painting",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Onyx",
+      "source": "DMG",
+      "reprintedAs": [
+        "Onyx|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque black and white banded, or pure black or white gemstone."
+      ]
+    },
+    {
+      "name": "Onyx",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A bands of black and white, or pure black or white gemstone."
+      ]
+    },
+    {
+      "name": "Opal",
+      "source": "DMG",
+      "reprintedAs": [
+        "Opal|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A translucent pale blue with green and golden mottling gemstone."
+      ]
+    },
+    {
+      "name": "Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A pale blue with green and golden mottling gemstone."
+      ]
+    },
+    {
+      "name": "Painted gold child's sarcophagus",
+      "source": "DMG",
+      "reprintedAs": [
+        "Set of gold nesting dolls|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Painted gold war mask",
+      "source": "DMG",
+      "reprintedAs": [
+        "Painted gold war mask|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Painted gold war mask",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Pair of engraved bone dice",
+      "source": "DMG",
+      "reprintedAs": [
+        "Pair of engraved bone dice|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Pair of engraved bone dice",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Pair of engraved bone dice (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Pearl",
+      "source": "DMG",
+      "reprintedAs": [
+        "Pearl|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "An opaque lustrous white, yellow, or pink gemstone."
+      ]
+    },
+    {
+      "name": "Pearl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A lustrous white, yellow, or pink gemstone."
+      ]
+    },
+    {
+      "name": "Peridot",
+      "source": "DMG",
+      "reprintedAs": [
+        "Peridot|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A transparent rich olive green gemstone."
+      ]
+    },
+    {
+      "name": "Peridot",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A rich olive green gemstone."
+      ]
+    },
+    {
+      "name": "Pewter mug with green spinels (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Platinum (pp)",
+      "source": "PHB",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+        "With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+        "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
+        "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
+        "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+        "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
+      ]
+    },
+    {
+      "name": "Platinum 10-Zino Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Platinum 100-Zino Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 10000
+    },
+    {
+      "name": "Platinum bracelet set with a sapphire",
+      "source": "DMG",
+      "reprintedAs": [
+        "Platinum bracelet set with an emerald|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Platinum bracelet set with an emerald",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Platinum headdress with topaz sun symbol (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Platinum ring with yellow sapphire (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Platinum staff topped with amber (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Quartz",
+      "source": "DMG",
+      "reprintedAs": [
+        "Quartz|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A transparent white, smoky gray, or yellow gemstone."
+      ]
+    },
+    {
+      "name": "Quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white, smoky gray, or yellow gemstone."
+      ]
+    },
+    {
+      "name": "Rhodochrosite",
+      "source": "DMG",
+      "reprintedAs": [
+        "Rhodochrosite|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque light pink gemstone."
+      ]
+    },
+    {
+      "name": "Rhodochrosite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light pink gemstone."
+      ]
+    },
+    {
+      "name": "Ruby",
+      "source": "DMG",
+      "reprintedAs": [
+        "Ruby|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A transparent clear red to deep crimson gemstone."
+      ]
+    },
+    {
+      "name": "Ruby",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A clear red to deep crimson gemstone."
+      ]
+    },
+    {
+      "name": "Sardonyx",
+      "source": "DMG",
+      "reprintedAs": [
+        "Sardonyx|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "An opaque bands of red and white gemstone."
+      ]
+    },
+    {
+      "name": "Sardonyx",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A bands of red and white gemstone."
+      ]
+    },
+    {
+      "name": "Set of gold nesting dolls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Shard",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 10,
+      "entries": [
+        "Silver coin, slightly smaller than the nib (1 shard = 10 {@item nib|wdh|nibs})"
+      ]
+    },
+    {
+      "name": "Silk robe with gold embroidery",
+      "source": "DMG",
+      "reprintedAs": [
+        "Silk vestments with gold embroidery|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silk vestments with gold embroidery",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silver (sp)",
+      "source": "PHB",
+      "type": "$C",
+      "rarity": "none",
+      "value": 10,
+      "entries": [
+        "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+        "With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+        "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
+        "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
+        "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+        "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
+      ]
+    },
+    {
+      "name": "Silver 25-Zib Coin",
+      "source": "GGR",
+      "type": "$C",
+      "rarity": "none",
+      "value": 25
+    },
+    {
+      "name": "Silver and gold brooch",
+      "source": "DMG",
+      "reprintedAs": [
+        "Silver and gold brooch|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver and gold brooch",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver chalice set with moonstones",
+      "source": "DMG",
+      "reprintedAs": [
+        "Silver chalice set with moonstones|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver chalice set with moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver ewer",
+      "source": "DMG",
+      "reprintedAs": [
+        "Silver ewer|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Silver ewer",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Silver headdress with amber and red-coral feathers (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver medallion (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Silver necklace with a gemstone pendant",
+      "source": "DMG",
+      "reprintedAs": [
+        "Silver necklace with a gemstone pendant|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silver necklace with a gemstone pendant",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silver necklace with an amber pendant (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silver shoulder piece with amber and garnet (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver-plated steel longsword with jet set in hilt",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bundle of sheet music representing the lost dirges of a famous composer|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Small gold bracelet",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold bracelet|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Small gold idol",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold idol|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Small gold statuette set with rubies",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gold statuette set with rubies|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Small mirror set in a painted wooden frame",
+      "source": "DMG",
+      "reprintedAs": [
+        "Handheld mirror set in a painted wooden frame|XDMG"
+      ],
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Spinel",
+      "source": "DMG",
+      "reprintedAs": [
+        "Spinel|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent red, red-brown, or deep green gemstone."
+      ]
+    },
+    {
+      "name": "Spinel",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A red, red brown, or deep green gemstone."
+      ]
+    },
+    {
+      "name": "Star rose quartz",
+      "source": "DMG",
+      "reprintedAs": [
+        "Star rose quartz|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A translucent rosy stone with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star rose quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A rosy stone with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Ruby",
+      "source": "DMG",
+      "reprintedAs": [
+        "Star Ruby|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A translucent ruby with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Ruby",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A ruby with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Sapphire",
+      "source": "DMG",
+      "reprintedAs": [
+        "Star Sapphire|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A translucent blue sapphire with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A blue sapphire with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Sun",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "Platinum coin, twice as large as a {@item nib|wdh} (1 sun = 1,000 {@item nib|wdh|nibs})"
+      ]
+    },
+    {
+      "name": "Sun amulet on a beaded chain (Sun Empire)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Taol",
+      "source": "WDH",
+      "type": "$C",
+      "rarity": "none",
+      "value": 200,
+      "entries": [
+        "Brass coin, about two inches square with a hold large enough for a {@item nib|wdh} to fit in (1 taol = 200 {@item nib|wdh|nibs})"
+      ]
+    },
+    {
+      "name": "Tiger Eye",
+      "source": "DMG",
+      "reprintedAs": [
+        "Tiger Eye|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A translucent brown with golden center gemstone."
+      ]
+    },
+    {
+      "name": "Tiger Eye",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A brown with golden center gemstone."
+      ]
+    },
+    {
+      "name": "Tiny jade figurine (River Heralds)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Topaz",
+      "source": "DMG",
+      "reprintedAs": [
+        "Topaz|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A transparent golden yellow gemstone."
+      ]
+    },
+    {
+      "name": "Topaz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A golden yellow gemstone."
+      ]
+    },
+    {
+      "name": "Tourmaline",
+      "source": "DMG",
+      "reprintedAs": [
+        "Tourmaline|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A transparent pale green, blue, brown, or red gemstone."
+      ]
+    },
+    {
+      "name": "Tourmaline",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A pale green, blue, brown, or red gemstone."
+      ]
+    },
+    {
+      "name": "Treasure chest crafted of exotic wood with gold fittings and opals (Brazen Coalition)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Turquoise",
+      "source": "DMG",
+      "reprintedAs": [
+        "Turquoise|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "An opaque light blue-green gemstone."
+      ]
+    },
+    {
+      "name": "Turquoise",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light blue green gemstone."
+      ]
+    },
+    {
+      "name": "Velvet doublet with gold buttons (Legion of Dusk)",
+      "source": "PSX",
+      "type": "$A|DMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Well-made tapestry that is 10 feet by 10 feet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Yellow Sapphire",
+      "source": "DMG",
+      "reprintedAs": [
+        "Yellow Sapphire|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A transparent fiery yellow or yellow-green gemstone."
+      ]
+    },
+    {
+      "name": "Yellow Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A fiery yellow or yellow green gemstone."
+      ]
+    },
+    {
+      "name": "Zircon",
+      "source": "DMG",
+      "reprintedAs": [
+        "Zircon|XDMG"
+      ],
+      "type": "$G|DMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A transparent pale blue-green gemstone."
+      ]
+    },
+    {
+      "name": "Zircon",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A pale blue green gemstone."
+      ]
+    },
+    {
+      "name": "Adamantine Bar",
+      "source": "WDH",
+      "type": "TG",
+      "rarity": "none",
+      "value": 100000
+    },
+    {
+      "name": "Canvas (1 sq. yd.)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Canvas (1 sq. yd.)|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Canvas (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Chicken",
+      "source": "PHB",
+      "reprintedAs": [
+        "Chicken|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Chicken",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Cinnamon",
+      "source": "PHB",
+      "reprintedAs": [
+        "Cinnamon|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Cinnamon",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Cloves",
+      "source": "PHB",
+      "reprintedAs": [
+        "Cloves|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Cloves",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Copper",
+      "source": "PHB",
+      "reprintedAs": [
+        "Copper|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Copper",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Cotton Cloth (1 sq. yd.)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Cotton Cloth (1 sq. yd.)|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Cotton Cloth (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Cow",
+      "source": "PHB",
+      "reprintedAs": [
+        "Cow|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Cow",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Flour",
+      "source": "PHB",
+      "reprintedAs": [
+        "Flour|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Flour",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Ginger",
+      "source": "PHB",
+      "reprintedAs": [
+        "Ginger|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Ginger",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Goat",
+      "source": "PHB",
+      "reprintedAs": [
+        "Goat|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Goat",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Gold",
+      "source": "PHB",
+      "reprintedAs": [
+        "Gold|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 5000
+    },
+    {
+      "name": "Gold",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 5000
+    },
+    {
+      "name": "Iron",
+      "source": "PHB",
+      "reprintedAs": [
+        "Iron|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Iron",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Linen (1 sq. yd.)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Linen (1 sq. yd.)|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Linen (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Ox",
+      "source": "PHB",
+      "reprintedAs": [
+        "Ox|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Ox",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Pepper",
+      "source": "PHB",
+      "reprintedAs": [
+        "Pepper|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Pepper",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Pig",
+      "source": "PHB",
+      "reprintedAs": [
+        "Pig|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Pig",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Platinum",
+      "source": "PHB",
+      "reprintedAs": [
+        "Platinum|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 50000
+    },
+    {
+      "name": "Platinum",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50000
+    },
+    {
+      "name": "Saffron",
+      "source": "PHB",
+      "reprintedAs": [
+        "Saffron|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Saffron",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Salt",
+      "source": "PHB",
+      "reprintedAs": [
+        "Salt|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 5
+    },
+    {
+      "name": "Salt",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 5
+    },
+    {
+      "name": "Sheep",
+      "source": "PHB",
+      "reprintedAs": [
+        "Sheep|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Sheep",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Silk",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Silk (1 sq. yd.)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Silk|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Silver",
+      "source": "PHB",
+      "reprintedAs": [
+        "Silver|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Silver",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Wheat",
+      "source": "PHB",
+      "reprintedAs": [
+        "Wheat|XDMG"
+      ],
+      "type": "TG",
+      "rarity": "none",
+      "value": 1
+    },
+    {
+      "name": "Wheat",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1
+    }
+  ]
+}

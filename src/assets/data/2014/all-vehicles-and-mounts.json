@@ -15,42 +15,12 @@
     ]
   },
   {
-    "name": "Ffolk Sailing Ship",
-    "source": "FRAiF",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 2000000,
-    "crew": 20,
-    "vehAc": 15,
-    "vehHp": 400,
-    "vehDmgThresh": 20,
-    "vehSpeed": 2,
-    "capPassenger": 20,
-    "capCargo": 100
-  },
-  {
     "name": "Galley",
     "source": "DMG",
     "reprintedAs": [
       "Galley|XPHB"
     ],
     "type": "SHP",
-    "rarity": "none",
-    "value": 3000000,
-    "crew": 80,
-    "vehAc": 15,
-    "vehHp": 500,
-    "vehDmgThresh": 20,
-    "vehSpeed": 4,
-    "capCargo": 150,
-    "seeAlsoVehicle": [
-      "Galley"
-    ]
-  },
-  {
-    "name": "Galley",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
     "rarity": "none",
     "value": 3000000,
     "crew": 80,
@@ -87,23 +57,6 @@
     ]
   },
   {
-    "name": "Keelboat",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 300000,
-    "crew": 1,
-    "vehAc": 15,
-    "vehHp": 100,
-    "vehDmgThresh": 10,
-    "vehSpeed": 1,
-    "capPassenger": 6,
-    "capCargo": 0.5,
-    "seeAlsoVehicle": [
-      "Keelboat"
-    ]
-  },
-  {
     "name": "Longship",
     "source": "DMG",
     "reprintedAs": [
@@ -122,37 +75,6 @@
     "seeAlsoVehicle": [
       "Longship"
     ]
-  },
-  {
-    "name": "Longship",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 1000000,
-    "crew": 40,
-    "vehAc": 15,
-    "vehHp": 300,
-    "vehDmgThresh": 15,
-    "vehSpeed": 3,
-    "capPassenger": 150,
-    "capCargo": 10,
-    "seeAlsoVehicle": [
-      "Longship"
-    ]
-  },
-  {
-    "name": "Norlander Longship",
-    "source": "FRAiF",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 2000000,
-    "crew": 50,
-    "vehAc": 17,
-    "vehHp": 300,
-    "vehDmgThresh": 15,
-    "vehSpeed": 6,
-    "capPassenger": 100,
-    "capCargo": 10
   },
   {
     "name": "Rowboat",
@@ -176,58 +98,12 @@
     ]
   },
   {
-    "name": "Rowboat",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 5000,
-    "crew": 1,
-    "vehAc": 11,
-    "vehHp": 50,
-    "vehSpeed": 1.5,
-    "capPassenger": 3,
-    "seeAlsoVehicle": [
-      "Rowboat"
-    ]
-  },
-  {
-    "name": "Rusted Hulk",
-    "source": "FRAiF",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 5000000,
-    "crew": 60,
-    "vehAc": 18,
-    "vehHp": 500,
-    "vehDmgThresh": 25,
-    "vehSpeed": 2,
-    "capPassenger": 90,
-    "capCargo": 250
-  },
-  {
     "name": "Sailing Ship",
     "source": "DMG",
     "reprintedAs": [
       "Sailing Ship|XPHB"
     ],
     "type": "SHP",
-    "rarity": "none",
-    "value": 1000000,
-    "crew": 20,
-    "vehAc": 15,
-    "vehHp": 300,
-    "vehDmgThresh": 15,
-    "vehSpeed": 2,
-    "capPassenger": 20,
-    "capCargo": 100,
-    "seeAlsoVehicle": [
-      "Sailing Ship"
-    ]
-  },
-  {
-    "name": "Sailing Ship",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
     "rarity": "none",
     "value": 1000000,
     "crew": 20,
@@ -260,47 +136,6 @@
     "seeAlsoVehicle": [
       "Warship"
     ]
-  },
-  {
-    "name": "Warship",
-    "source": "XPHB",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 2500000,
-    "crew": 60,
-    "vehAc": 15,
-    "vehHp": 500,
-    "vehDmgThresh": 20,
-    "vehSpeed": 2.5,
-    "capPassenger": 60,
-    "capCargo": 200,
-    "seeAlsoVehicle": [
-      "Warship"
-    ]
-  },
-  {
-    "name": "Whaleboat",
-    "source": "FRAiF",
-    "type": "SHP|XPHB",
-    "rarity": "none",
-    "value": 50000,
-    "crew": 6,
-    "vehAc": 13,
-    "vehHp": 100,
-    "vehDmgThresh": 10,
-    "vehSpeed": 3,
-    "capPassenger": 1
-  },
-  {
-    "name": "Axe Beak",
-    "source": "FRHoF",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 5000,
-    "entries": [
-      "Use the {@creature Axe Beak|XMM} stat block."
-    ],
-    "hasFluff": true
   },
   {
     "name": "Axe Beak",
@@ -348,15 +183,6 @@
     "speed": 50
   },
   {
-    "name": "Camel",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 5000,
-    "carryingCapacity": 450,
-    "speed": 50
-  },
-  {
     "name": "Damselfly Ship",
     "source": "AAG",
     "type": "SPC|AAG",
@@ -399,30 +225,12 @@
     "speed": 40
   },
   {
-    "name": "Draft Horse",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 5000,
-    "carryingCapacity": 540,
-    "speed": 40
-  },
-  {
     "name": "Elephant",
     "source": "PHB",
     "reprintedAs": [
       "Elephant|XPHB"
     ],
     "type": "MNT",
-    "rarity": "none",
-    "value": 20000,
-    "carryingCapacity": 1320,
-    "speed": 40
-  },
-  {
-    "name": "Elephant",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
     "rarity": "none",
     "value": 20000,
     "carryingCapacity": 1320,
@@ -448,17 +256,6 @@
     "seeAlsoVehicle": [
       "Flying Fish Ship|AAG"
     ]
-  },
-  {
-    "name": "Flying Snake",
-    "source": "FRHoF",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 2500,
-    "entries": [
-      "Pet flying snakes use the {@creature Flying Snake|XMM} stat block."
-    ],
-    "hasFluff": true
   },
   {
     "name": "Hammerhead Ship",
@@ -540,15 +337,6 @@
     "speed": 40
   },
   {
-    "name": "Mastiff",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 2500,
-    "carryingCapacity": 195,
-    "speed": 40
-  },
-  {
     "name": "Moorbounder",
     "source": "EGW",
     "type": "MNT",
@@ -566,15 +354,6 @@
       "Mule|XPHB"
     ],
     "type": "MNT",
-    "rarity": "none",
-    "value": 800,
-    "carryingCapacity": 420,
-    "speed": 40
-  },
-  {
-    "name": "Mule",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
     "rarity": "none",
     "value": 800,
     "carryingCapacity": 420,
@@ -634,30 +413,12 @@
     "speed": 40
   },
   {
-    "name": "Pony",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 3000,
-    "carryingCapacity": 225,
-    "speed": 40
-  },
-  {
     "name": "Riding Horse",
     "source": "PHB",
     "reprintedAs": [
       "Riding Horse|XPHB"
     ],
     "type": "MNT",
-    "rarity": "none",
-    "value": 7500,
-    "carryingCapacity": 480,
-    "speed": 60
-  },
-  {
-    "name": "Riding Horse",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
     "rarity": "none",
     "value": 7500,
     "carryingCapacity": 480,
@@ -701,17 +462,6 @@
     "seeAlsoVehicle": [
       "Shrike Ship|AAG"
     ]
-  },
-  {
-    "name": "Sled Dog",
-    "source": "FRHoF",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 5000,
-    "entries": [
-      "A sled dog uses the {@creature Wolf|XMM} stat block (see the Monster Manual). A sled dog pulling a sled alone must take a {@variantrule Short Rest|XPHB} after pulling a sled for 1 hour; otherwise, it gains 1 {@condition Exhaustion|XPHB} level."
-    ],
-    "hasFluff": true
   },
   {
     "name": "Sled Dog",
@@ -844,15 +594,6 @@
     "speed": 60
   },
   {
-    "name": "Warhorse",
-    "source": "XPHB",
-    "type": "MNT|XPHB",
-    "rarity": "none",
-    "value": 40000,
-    "carryingCapacity": 540,
-    "speed": 60
-  },
-  {
     "name": "Wasp Ship",
     "source": "AAG",
     "type": "SPC|AAG",
@@ -889,19 +630,6 @@
     "capCargo": 1
   },
   {
-    "name": "Airship",
-    "source": "XPHB",
-    "type": "AIR|XPHB",
-    "rarity": "none",
-    "value": 4000000,
-    "crew": 10,
-    "vehAc": 13,
-    "vehHp": 300,
-    "vehSpeed": 8,
-    "capPassenger": 20,
-    "capCargo": 1
-  },
-  {
     "name": "Carriage",
     "source": "PHB",
     "reprintedAs": [
@@ -912,26 +640,12 @@
     "value": 10000
   },
   {
-    "name": "Carriage",
-    "source": "XPHB",
-    "type": "VEH|XPHB",
-    "rarity": "none",
-    "value": 10000
-  },
-  {
     "name": "Cart",
     "source": "PHB",
     "reprintedAs": [
       "Cart|XPHB"
     ],
     "type": "VEH",
-    "rarity": "none",
-    "value": 1500
-  },
-  {
-    "name": "Cart",
-    "source": "XPHB",
-    "type": "VEH|XPHB",
     "rarity": "none",
     "value": 1500
   },
@@ -970,24 +684,6 @@
     ]
   },
   {
-    "name": "Chariot",
-    "source": "XPHB",
-    "type": "VEH|XPHB",
-    "rarity": "none",
-    "value": 25000
-  },
-  {
-    "name": "Covered Wagon",
-    "source": "FRHoF",
-    "type": "VEH|XPHB",
-    "rarity": "none",
-    "value": 25000,
-    "entries": [
-      "This vehicle is a {@item Wagon|XPHB} covered by durable canvas. A creature has {@variantrule Cover|XPHB|Three-Quarters Cover} while riding inside this vehicle."
-    ],
-    "hasFluff": true
-  },
-  {
     "name": "Dogsled",
     "source": "IDRotF",
     "type": "VEH",
@@ -1022,26 +718,12 @@
     "value": 2000
   },
   {
-    "name": "Sled",
-    "source": "XPHB",
-    "type": "VEH|XPHB",
-    "rarity": "none",
-    "value": 2000
-  },
-  {
     "name": "Wagon",
     "source": "PHB",
     "reprintedAs": [
       "Wagon|XPHB"
     ],
     "type": "VEH",
-    "rarity": "none",
-    "value": 3500
-  },
-  {
-    "name": "Wagon",
-    "source": "XPHB",
-    "type": "VEH|XPHB",
     "rarity": "none",
     "value": 3500
   }

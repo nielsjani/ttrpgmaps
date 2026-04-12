@@ -1,0 +1,1259 @@
+{
+  "_meta": {
+    "sources": [
+      "data/items.json",
+      "data/items-base.json",
+      "data/magicvariants.json"
+    ],
+    "counts": {
+      "items": 2416,
+      "itemGroups": 108,
+      "baseItems": 230,
+      "genericVariants": 214,
+      "specificVariants": 3420,
+      "total": 6388
+    },
+    "categories": {
+      "Item": "Regular item entries from items.json",
+      "Item Group": "Item group entries from items.json",
+      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
+      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
+      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
+    }
+  },
+  "item": [
+    {
+      "name": "Alexandrite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A dark green gemstone."
+      ]
+    },
+    {
+      "name": "Amber",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A watery gold to rich gold gemstone."
+      ]
+    },
+    {
+      "name": "Amethyst",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A deep purple gemstone."
+      ]
+    },
+    {
+      "name": "Aquamarine",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A pale blue green gemstone."
+      ]
+    },
+    {
+      "name": "Azurite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A mottled deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Banded Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A striped brown, blue, white, or red gemstone."
+      ]
+    },
+    {
+      "name": "Bejeweled gold bracelet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bejeweled ivory drinking horn with gold filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Black Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A dark green with black mottling and golden flecks gemstone."
+      ]
+    },
+    {
+      "name": "Black Pearl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A pure black gemstone."
+      ]
+    },
+    {
+      "name": "Black Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A lustrous black with glowing highlights gemstone."
+      ]
+    },
+    {
+      "name": "Black velvet mask stitched with silver thread",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Bloodstone",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A dark gray with red flecks gemstone."
+      ]
+    },
+    {
+      "name": "Blue Quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A pale blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A medium blue gemstone."
+      ]
+    },
+    {
+      "name": "Blue Spinel",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A deep blue gemstone."
+      ]
+    },
+    {
+      "name": "Bottle stopper cork embossed with gold leaf and set with amethysts",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Box of turquoise animal figurines",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Brass mug with jade inlay",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bronze crown",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Bundle of sheet music representing the lost dirges of a famous composer",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Carnelian",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A orange to red brown gemstone."
+      ]
+    },
+    {
+      "name": "Carved bone statuette",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Carved ivory statuette",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Carved wooden harp with ivory inlay and zircon gems",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Ceremonial gold armor with black pearls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Chalcedony",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoberyl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A yellow green to pale green gemstone."
+      ]
+    },
+    {
+      "name": "Chrysoprase",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A green gemstone."
+      ]
+    },
+    {
+      "name": "Citrine",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A pale yellow brown gemstone."
+      ]
+    },
+    {
+      "name": "Cloth-of-gold vestments",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Copper chalice with silver filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Coral",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A crimson gemstone."
+      ]
+    },
+    {
+      "name": "Detailed, life-sized dragonborn skull cast in electrum",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Diamond",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A blue white, canary, pink, brown, or blue gemstone."
+      ]
+    },
+    {
+      "name": "Embroidered glove set with jewel chips",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered silk and velvet mantle set with numerous moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Embroidered silk handkerchief",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Emerald",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A deep bright green gemstone."
+      ]
+    },
+    {
+      "name": "Eye Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A circles of gray, white, brown, blue, or green gemstone."
+      ]
+    },
+    {
+      "name": "Eye patch decorated with tiny blue sapphires and moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fine gold chain set with a fire opal",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Fire Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A fiery red gemstone."
+      ]
+    },
+    {
+      "name": "Garnet",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A red, brown green, or violet gemstone."
+      ]
+    },
+    {
+      "name": "Gilded royal coach or funeral barge",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold birdcage with electrum filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold bracelet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold circlet set with four aquamarines",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold comb shaped like a dragon with red garnets as eyes",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold cup set with emeralds",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold idol",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Gold jewelry box with platinum filigree",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Gold locket with a painted portrait inside",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Gold music box",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Gold ring set with bloodstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Gold statuette set with rubies",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Handheld mirror set in a painted wooden frame",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Hematite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A gray black gemstone."
+      ]
+    },
+    {
+      "name": "Jacinth",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A fiery orange gemstone."
+      ]
+    },
+    {
+      "name": "Jade",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A light green, deep green, or white gemstone."
+      ]
+    },
+    {
+      "name": "Jade game board with gold playing pieces",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jasper",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A blue, black, or brown gemstone."
+      ]
+    },
+    {
+      "name": "Jet",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A deep black gemstone."
+      ]
+    },
+    {
+      "name": "Jeweled anklet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Jeweled gold crown",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Jeweled platinum ring",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Lapis Lazuli",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light and dark blue with yellow flecks gemstone."
+      ]
+    },
+    {
+      "name": "Malachite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A striated light and dark green gemstone."
+      ]
+    },
+    {
+      "name": "Moonstone",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white with pale-blue glow gemstone."
+      ]
+    },
+    {
+      "name": "Moss Agate",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A pink or yellow white with mossy gray or green markings gemstone."
+      ]
+    },
+    {
+      "name": "Necklace string of small pink pearls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Obsidian",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A black gemstone."
+      ]
+    },
+    {
+      "name": "Obsidian statuette with gold fittings and inlay",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Old masterpiece painting",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Onyx",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A bands of black and white, or pure black or white gemstone."
+      ]
+    },
+    {
+      "name": "Opal",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A pale blue with green and golden mottling gemstone."
+      ]
+    },
+    {
+      "name": "Painted gold war mask",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Pair of engraved bone dice",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Pearl",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A lustrous white, yellow, or pink gemstone."
+      ]
+    },
+    {
+      "name": "Peridot",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A rich olive green gemstone."
+      ]
+    },
+    {
+      "name": "Platinum bracelet set with an emerald",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 250000
+    },
+    {
+      "name": "Quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A white, smoky gray, or yellow gemstone."
+      ]
+    },
+    {
+      "name": "Rhodochrosite",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light pink gemstone."
+      ]
+    },
+    {
+      "name": "Ruby",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 500000,
+      "entries": [
+        "A clear red to deep crimson gemstone."
+      ]
+    },
+    {
+      "name": "Sardonyx",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A bands of red and white gemstone."
+      ]
+    },
+    {
+      "name": "Set of gold nesting dolls",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 750000
+    },
+    {
+      "name": "Silk vestments with gold embroidery",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Silver and gold brooch",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver chalice set with moonstones",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 75000
+    },
+    {
+      "name": "Silver ewer",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 2500
+    },
+    {
+      "name": "Silver necklace with a gemstone pendant",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Spinel",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A red, red brown, or deep green gemstone."
+      ]
+    },
+    {
+      "name": "Star rose quartz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A rosy stone with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Ruby",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A ruby with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Star Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A blue sapphire with white star-shaped center gemstone."
+      ]
+    },
+    {
+      "name": "Tiger Eye",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A brown with golden center gemstone."
+      ]
+    },
+    {
+      "name": "Topaz",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 50000,
+      "entries": [
+        "A golden yellow gemstone."
+      ]
+    },
+    {
+      "name": "Tourmaline",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "A pale green, blue, brown, or red gemstone."
+      ]
+    },
+    {
+      "name": "Turquoise",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "A light blue green gemstone."
+      ]
+    },
+    {
+      "name": "Well-made tapestry that is 10 feet by 10 feet",
+      "source": "XDMG",
+      "type": "$A|XDMG",
+      "rarity": "none",
+      "value": 25000
+    },
+    {
+      "name": "Yellow Sapphire",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "A fiery yellow or yellow green gemstone."
+      ]
+    },
+    {
+      "name": "Zircon",
+      "source": "XDMG",
+      "type": "$G|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "A pale blue green gemstone."
+      ]
+    },
+    {
+      "name": "Canvas (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Chicken",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Cinnamon",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Cloves",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Copper",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Cotton Cloth (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Cow",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Flour",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Ginger",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Goat",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Gold",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 5000
+    },
+    {
+      "name": "Iron",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Linen (1 sq. yd.)",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Ox",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Pepper",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Pig",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Platinum",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 50000
+    },
+    {
+      "name": "Saffron",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Salt",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 5
+    },
+    {
+      "name": "Sheep",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Silk",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Silver",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Wheat",
+      "source": "XDMG",
+      "type": "TG|XDMG",
+      "rarity": "none",
+      "value": 1
+    },
+    {
+      "name": "Ale (mug)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 4,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Bread (loaf)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 2,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Cheese (wedge)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 10,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Common Wine (bottle)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 20,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Dice Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 10,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragonchess Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fine Wine (bottle)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 1000,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gold Bar (5-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 25000,
+      "barDimensions": {
+        "l": 5,
+        "w": 2,
+        "h": 0.75
+      }
+    },
+    {
+      "name": "Playing Cards",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 50,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silver Bar (2-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "barDimensions": {
+        "l": 5,
+        "w": 2,
+        "h": 0.5
+      }
+    },
+    {
+      "name": "Silver Bar (5-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 2500,
+      "barDimensions": {
+        "l": 6,
+        "w": 2,
+        "h": 1
+      }
+    },
+    {
+      "name": "Three-Dragon Ante Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

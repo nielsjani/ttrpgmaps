@@ -1,0 +1,514 @@
+[
+  {
+    "name": "Scroll of Protection (Aberrations)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Aberration",
+    "detail2": "Aberrations",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Beasts)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Beast",
+    "detail2": "Beasts",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Celestials)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Celestial",
+    "detail2": "Celestials",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Constructs)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Construct",
+    "detail2": "Constructs",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Dragons)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Dragon",
+    "detail2": "Dragons",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Elementals)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Elemental",
+    "detail2": "Elementals",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Fey)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Fey",
+    "detail2": "Fey",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Fiends)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Fiend",
+    "detail2": "Fiends",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Giants)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Giant",
+    "detail2": "Giants",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Humanoids)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Humanoid",
+    "detail2": "Humanoids",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Monstrosities)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Monstrosity",
+    "detail2": "Monstrosities",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Oozes)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Ooze",
+    "detail2": "Oozes",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Plants)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Plant",
+    "detail2": "Plants",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Protection (Undead)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "detail1": "Undead",
+    "detail2": "Undead",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Scroll of Protection|XDMG}"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Animal Lord)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, an {@creature Animal Lord|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Animal Lord|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Animal Lord|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Blob of Annihilation)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, a {@creature Blob of Annihilation|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Blob of Annihilation|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Blob of Annihilation|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Colossus)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, a {@creature Colossus|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Colossus|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Colossus|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Elemental Cataclysm)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, an {@creature Elemental Cataclysm|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Elemental Cataclysm|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Elemental Cataclysm|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Empyrean)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, an {@creature Empyrean|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Empyrean|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Empyrean|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Kraken)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, a {@creature Kraken|XMM} appears in an unoccupied space in water that you can see within 1 mile of yourself. A {@creature kraken|XMM} requires a body of water large enough to contain it, or the summoning fails and the scroll is wasted",
+      "The {@creature Kraken|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Kraken|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Scroll of Titan Summoning (Tarrasque)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "When you take a {@action Magic|XPHB} action to read this scroll, a {@creature Tarrasque|XMM} appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself.",
+      "The {@creature Tarrasque|XMM} is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the {@creature Tarrasque|XMM} is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Cantrip)",
+    "source": "XDMG",
+    "otherSources": [
+      {
+        "source": "XPHB"
+      }
+    ],
+    "type": "SC|XPHB",
+    "rarity": "common",
+    "value": 3000,
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 10} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is {@hit 5}."
+    ],
+    "spellScrollLevel": 0,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 1)",
+    "source": "XDMG",
+    "otherSources": [
+      {
+        "source": "XPHB"
+      }
+    ],
+    "type": "SC|XPHB",
+    "rarity": "common",
+    "value": 5000,
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 11} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is {@hit 5}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 1 spell is copied in this way, the copier must succeed on a {@dc 11} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 1,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 2)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "uncommon",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 12} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is {@hit 5}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 2 spell is copied in this way, the copier must succeed on a {@dc 12} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 2,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 3)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "uncommon",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 13} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 15, and the attack bonus is {@hit 7}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 3 spell is copied in this way, the copier must succeed on a {@dc 13} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 3,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 4)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "rare",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 14} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 15, and the attack bonus is {@hit 7}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 4 spell is copied in this way, the copier must succeed on a {@dc 14} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 4,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 5)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "rare",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 15} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 17, and the attack bonus is {@hit 9}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 5 spell is copied in this way, the copier must succeed on a {@dc 15} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 5,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 6)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "very rare",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 16} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 17, and the attack bonus is {@hit 9}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 6 spell is copied in this way, the copier must succeed on a {@dc 16} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 6,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 7)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "very rare",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 17} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 18, and the attack bonus is {@hit 10}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 7 spell is copied in this way, the copier must succeed on a {@dc 17} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 7,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 8)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "very rare",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 18} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 18, and the attack bonus is {@hit 10}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 8 spell is copied in this way, the copier must succeed on a {@dc 18} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 8,
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Level 9)",
+    "source": "XDMG",
+    "type": "SC|XPHB",
+    "rarity": "legendary",
+    "entries": [
+      "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+      "If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 19} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+      "If the spell requires a saving throw or an attack roll, the spell save DC is 19, and the attack bonus is {@hit 11}.",
+      {
+        "type": "entries",
+        "name": "Copying a Scroll into a Spellbook",
+        "entries": [
+          "A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 9 spell is copied in this way, the copier must succeed on a {@dc 19} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+        ]
+      }
+    ],
+    "spellScrollLevel": 9,
+    "miscTags": [
+      "CNS"
+    ]
+  }
+]

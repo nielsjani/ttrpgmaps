@@ -1,0 +1,105 @@
+.rarity-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.disabled-row {
+    opacity: 0.45;
+  }
+}
+
+.rarity-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  min-width: 160px;
+
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+}
+
+.rarity-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.badge-none        { background: #e0e0e0; color: #333; }
+.badge-uncommon    { background: #4caf50; color: white; }
+.badge-rare        { background: #2196f3; color: white; }
+.badge-very-rare   { background: #9c27b0; color: white; }
+.badge-legendary   { background: #ff9800; color: white; }
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counter-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #1976d2;
+  background: white;
+  color: #1976d2;
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover:not(:disabled) {
+    background: #1976d2;
+    color: white;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.count-display {
+  min-width: 32px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.reroll-dice-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+.dice-expr {
+  font-size: 0.78rem;
+  color: #888;
+  font-family: monospace;
+}
+

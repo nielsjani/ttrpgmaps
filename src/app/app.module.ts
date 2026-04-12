@@ -8,6 +8,7 @@ import {MapContainerComponent} from './map-container/map-container.component';
 import {HomeComponent} from './home/home.component';
 import {CharacterCreatorModule} from "./character-creator/character-creator.module";
 import {CharacterCreatorRoutingModule} from "./character-creator/character-creator-routing.module";
+import {ShopGeneratorModule} from "./shop-generator/shop-generator.module";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {CharacterCreatorRoutingModule} from "./character-creator/character-creat
   imports: [
     BrowserModule,
     CharacterCreatorRoutingModule,
+    ShopGeneratorModule,
     AppRoutingModule,
     CharacterCreatorModule
   ],

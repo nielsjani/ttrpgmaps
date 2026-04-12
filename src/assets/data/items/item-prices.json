@@ -1,0 +1,22 @@
+{
+  "uncommon": {
+    "basePrice": 5000,
+    "modifier": 3,
+    "randomNumberMax": 6
+  },
+  "rare": {
+    "basePrice": 50000,
+    "modifier": 3,
+    "randomNumberMax": 6
+  },
+  "very rare": {
+    "basePrice": 500000,
+    "modifier": 3,
+    "randomNumberMax": 6
+  },
+  "legendary": {
+    "basePrice": 5000000,
+    "modifier": 3,
+    "randomNumberMax": 6
+  }
+}

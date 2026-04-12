@@ -35,6 +35,19 @@
   cursor: pointer;
 }
 
+.shop-link {
+  font-weight: 600;
+  background: rgba(255,255,255,0.15);
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.15s;
+
+  &:hover {
+    background: rgba(255,255,255,0.3);
+    text-decoration: none !important;
+  }
+}
+
 
 .spacer {
   flex: 1;

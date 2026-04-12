@@ -1,0 +1,15 @@
+<div class="rarity-row" [class.disabled-row]="!enabled">
+  <label class="rarity-toggle">
+    <input type="checkbox" [checked]="enabled" (change)="toggleEnabled()" />
+    <span class="rarity-label" [class]="'badge badge-' + rarity.replace(' ', '-')">{{ label }}</span>
+  </label>
+
+  <div class="counter-controls" *ngIf="enabled">
+    <button class="counter-btn" (click)="decrement()" [disabled]="count === 0">−</button>
+    <span class="count-display">{{ count }}</span>
+    <button class="counter-btn" (click)="increment()">+</button>
+    <button class="reroll-dice-btn" (click)="reroll()" title="Reroll ({{ defaultExpression }})">🎲</button>
+    <span class="dice-expr">{{ defaultExpression }}</span>
+  </div>
+</div>
+

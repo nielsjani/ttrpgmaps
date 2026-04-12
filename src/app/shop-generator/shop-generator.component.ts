@@ -4,6 +4,73 @@ import { PriceCalculatorService } from './services/price-calculator.service';
 import { ItemData } from './types/item-data';
 import { ShopItem } from './types/shop-item';
 import { RarityConfig } from './types/rarity-config';
+import { ShopInstance } from './types/shop-instance';
+
+// ─── Export constants ─────────────────────────────────────────────────────────
+
+const EXPORT_CSS = `
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f5f5;margin:0;padding:24px;color:#333}
+.container{max-width:980px;margin:0 auto}
+.page-title{font-size:2rem;font-weight:700;color:#1976d2;margin:0 0 28px}
+.shop-section{background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);padding:24px;margin-bottom:28px}
+.shop-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:14px;border-bottom:2px solid #e0e0e0}
+.shop-title{margin:0;font-size:1.4rem;font-weight:700;color:#333}
+.shop-subtitle{font-size:0.95rem;color:#888;font-weight:400}
+.item-count{font-size:.85rem;color:#666;background:#f0f0f0;padding:2px 10px;border-radius:12px;margin-left:auto}
+.items-table{width:100%;border-collapse:collapse;font-size:.92rem}
+.items-table th{text-align:left;padding:10px 12px;background:#f5f5f5;font-weight:600;color:#555;border-bottom:2px solid #e0e0e0;white-space:nowrap}
+.items-table td{padding:10px 12px;border-bottom:1px solid #f0f0f0;vertical-align:middle}
+.item-row{cursor:pointer;transition:background .12s}
+.item-row:hover td,.item-row.expanded td{background:#e8f4fd}
+.expand-icon{color:#90a4ae;font-size:.75rem;width:24px;text-align:center;padding-right:0!important}
+.item-name{font-weight:500;color:#222}
+.price-col{text-align:right}
+.item-price{text-align:right;font-family:monospace;font-weight:600;color:#2e7d32}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 10px;border-radius:12px;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap}
+.badge-none{background:#e0e0e0;color:#555}
+.badge-uncommon{background:#4caf50;color:#fff}
+.badge-rare{background:#2196f3;color:#fff}
+.badge-very-rare{background:#9c27b0;color:#fff}
+.badge-legendary{background:#ff9800;color:#fff}
+.detail-row td{padding:0!important;border-bottom:2px solid #1976d2!important}
+.detail-cell{background:#f0f7ff}
+.item-detail{padding:16px 20px}
+.detail-meta{display:flex;gap:14px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+.detail-source{font-size:.82rem;color:#555;background:#e3f2fd;padding:2px 10px;border-radius:10px}
+.detail-attune{font-size:.82rem;color:#7b4f00;background:#fff3cd;border:1px solid #ffe08a;padding:2px 10px;border-radius:10px}
+.item-stats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.stat-chip{display:inline-block;font-size:.78rem;font-weight:600;padding:2px 10px;border-radius:10px;background:#f0f4ff;color:#3a3a5c;border:1px solid #c5cdf5}
+.stat-chip--type{background:#e8f5e9;color:#1b5e20;border-color:#a5d6a7}
+.stat-chip--warn{background:#fff8e1;color:#7b4f00;border-color:#ffe082}
+.entry-block p{margin:0 0 8px;font-size:.92rem;line-height:1.6;color:#333}
+.entry-block ul{margin:4px 0 10px 20px;padding:0}
+.entry-block li{font-size:.92rem;margin-bottom:4px}
+.entry-section-name{font-weight:700;color:#1a237e;margin:10px 0 2px;font-size:.92rem}
+.entry-inset{border-left:3px solid #90caf9;background:#e8f4fd;border-radius:0 6px 6px 0;padding:8px 14px;margin:8px 0}
+.no-description{color:#999;font-style:italic;font-size:.9rem}
+.entry-table{border-collapse:collapse;font-size:.85rem;margin:8px 0 12px}
+.entry-table th{background:#dce8f5;padding:4px 10px;text-align:left;font-weight:600;border:1px solid #b0c4de}
+.entry-table td{padding:4px 10px;border:1px solid #cdd9e8}
+.table-caption{font-weight:600;margin-bottom:4px}
+.click-hint{font-size:.8rem;color:#999;margin:0 0 8px;font-style:italic}
+`;
+
+const EXPORT_JS = `
+function toggleDetail(id){
+  var row=document.getElementById(id);
+  var icon=document.getElementById('icon-'+id);
+  if(row.style.display==='none'){
+    row.style.display='table-row';
+    icon.textContent='▾';
+  } else {
+    row.style.display='none';
+    icon.textContent='▸';
+  }
+}
+`;
+
+// ─── Component ────────────────────────────────────────────────────────────────
 
 @Component({
   selector: 'app-shop-generator',
@@ -11,30 +78,14 @@ import { RarityConfig } from './types/rarity-config';
   styleUrls: ['./shop-generator.component.scss']
 })
 export class ShopGeneratorComponent implements OnInit {
-  edition: '2014' | '2024' = '2014';
-  selectedShopType: string = 'all-adventuring-gear';
+
+  shops: ShopInstance[] = [];
   shopTypes: ShopType[] = [];
+  bookTitles: BookTitles = {};
 
   readonly HALF_PRICE_SHOPS = ['all-potions', 'all-poisons-and-explosives', 'all-scrolls'];
 
-  rarityConfigs: RarityConfig[] = [
-    { rarity: 'none',      label: 'Mundane',   count: 0, enabled: true, defaultExpression: '1D20+10' },
-    { rarity: 'uncommon',  label: 'Uncommon',  count: 0, enabled: true, defaultExpression: '1D12+6'  },
-    { rarity: 'rare',      label: 'Rare',      count: 0, enabled: true, defaultExpression: '1D6-3'   },
-    { rarity: 'very rare', label: 'Very Rare', count: 0, enabled: true, defaultExpression: '1D4-2'   },
-    { rarity: 'legendary', label: 'Legendary', count: 0, enabled: true, defaultExpression: '1D4-3'   },
-  ];
-
-  shopItems: ShopItem[] = [];
-  allItems: ItemData[] = [];
-  isGenerating: boolean = false;
-  generated: boolean = false;
-  errorMessage: string = '';
-  bookTitles: BookTitles = {};
-
   private idCounter = 0;
-
-  selectedItemId: string | null = null;
 
   constructor(
     public shopDataService: ShopDataService,
@@ -45,37 +96,76 @@ export class ShopGeneratorComponent implements OnInit {
     this.shopTypes = this.shopDataService.shopTypes;
     this.priceCalc.loadPrices().subscribe();
     this.shopDataService.getBookTitles().subscribe(titles => this.bookTitles = titles);
+    this.addShop();
   }
 
-  onRarityConfigChange(event: { rarity: string; count: number; enabled: boolean }): void {
-    const cfg = this.rarityConfigs.find(r => r.rarity === event.rarity);
+  // ── Shop management ──────────────────────────────────────────────────────────
+
+  addShop(): void {
+    this.shops.push(this.createShopInstance());
+  }
+
+  removeShop(shop: ShopInstance): void {
+    this.shops = this.shops.filter(s => s.id !== shop.id);
+  }
+
+  private createShopInstance(): ShopInstance {
+    return {
+      id: this.nextId(),
+      name: 'My Shop',
+      edition: '2014',
+      selectedShopType: 'all-adventuring-gear',
+      rarityConfigs: [
+        { rarity: 'none',      label: 'Mundane',   count: 0, enabled: true, defaultExpression: '1D20+10' },
+        { rarity: 'uncommon',  label: 'Uncommon',  count: 0, enabled: true, defaultExpression: '1D12+6'  },
+        { rarity: 'rare',      label: 'Rare',      count: 0, enabled: true, defaultExpression: '1D6-3'   },
+        { rarity: 'very rare', label: 'Very Rare', count: 0, enabled: true, defaultExpression: '1D4-2'   },
+        { rarity: 'legendary', label: 'Legendary', count: 0, enabled: true, defaultExpression: '1D4-3'   },
+      ],
+      shopItems: [],
+      allItems: [],
+      isGenerating: false,
+      generated: false,
+      errorMessage: '',
+      selectedItemId: null,
+      configCollapsed: false,
+    };
+  }
+
+  // ── Rarity counters ──────────────────────────────────────────────────────────
+
+  onRarityConfigChange(event: { rarity: string; count: number; enabled: boolean }, shop: ShopInstance): void {
+    const cfg = shop.rarityConfigs.find(r => r.rarity === event.rarity);
     if (cfg) {
       cfg.count = event.count;
       cfg.enabled = event.enabled;
     }
   }
 
-  generateShop(): void {
-    this.isGenerating = true;
-    this.errorMessage = '';
-    this.shopDataService.getItems(this.edition, this.selectedShopType).subscribe({
+  // ── Generate ─────────────────────────────────────────────────────────────────
+
+  generateShop(shop: ShopInstance): void {
+    shop.isGenerating = true;
+    shop.errorMessage = '';
+    this.shopDataService.getItems(shop.edition, shop.selectedShopType).subscribe({
       next: (items) => {
-        this.allItems = items;
-        this.shopItems = this.buildShopItems(items);
-        this.generated = true;
-        this.isGenerating = false;
+        shop.allItems = items;
+        shop.shopItems = this.buildShopItems(items, shop);
+        shop.generated = true;
+        shop.isGenerating = false;
+        shop.configCollapsed = true;
       },
-      error: (_err) => {
-        this.errorMessage = 'Failed to load items. Please try again.';
-        this.isGenerating = false;
+      error: () => {
+        shop.errorMessage = 'Failed to load items. Please try again.';
+        shop.isGenerating = false;
       }
     });
   }
 
-  private buildShopItems(allItems: ItemData[]): ShopItem[] {
+  private buildShopItems(allItems: ItemData[], shop: ShopInstance): ShopItem[] {
     const result: ShopItem[] = [];
-    const priceMultiplier = this.HALF_PRICE_SHOPS.includes(this.selectedShopType) ? 0.5 : 1;
-    for (const cfg of this.rarityConfigs) {
+    const priceMultiplier = this.HALF_PRICE_SHOPS.includes(shop.selectedShopType) ? 0.5 : 1;
+    for (const cfg of shop.rarityConfigs) {
       if (!cfg.enabled || cfg.count <= 0) continue;
       const pool = allItems.filter(i => (i.rarity ?? 'none').toLowerCase() === cfg.rarity);
       if (pool.length === 0) continue;
@@ -102,21 +192,21 @@ export class ShopGeneratorComponent implements OnInit {
     return (item.rarity ?? 'none').toLowerCase() === 'none' && item.value == null;
   }
 
-  removeItem(id: string): void {
-    this.shopItems = this.shopItems.filter(si => si.id !== id);
+  // ── Item actions ─────────────────────────────────────────────────────────────
+
+  removeItem(shop: ShopInstance, id: string): void {
+    shop.shopItems = shop.shopItems.filter(si => si.id !== id);
   }
 
-  rerollPrice(id: string): void {
-    const si = this.shopItems.find(s => s.id === id);
-    if (si) {
-      si.calculatedPrice = this.priceCalc.calculatePrice(si.item.rarity, si.item.value);
-    }
+  rerollPrice(shop: ShopInstance, id: string): void {
+    const si = shop.shopItems.find(s => s.id === id);
+    if (si) si.calculatedPrice = this.priceCalc.calculatePrice(si.item.rarity, si.item.value);
   }
 
-  rerollItem(id: string): void {
-    const si = this.shopItems.find(s => s.id === id);
+  rerollItem(shop: ShopInstance, id: string): void {
+    const si = shop.shopItems.find(s => s.id === id);
     if (!si) return;
-    const pool = this.allItems.filter(
+    const pool = shop.allItems.filter(
       i => (i.rarity ?? 'none').toLowerCase() === (si.item.rarity ?? 'none').toLowerCase()
     );
     if (pool.length === 0) return;
@@ -126,19 +216,25 @@ export class ShopGeneratorComponent implements OnInit {
     si.calculatedPrice = this.priceCalc.calculatePrice(newItem.rarity, newItem.value);
   }
 
-  setPrice(id: string, event: Event): void {
-    const si = this.shopItems.find(s => s.id === id);
+  setPrice(shop: ShopInstance, id: string, event: Event): void {
+    const si = shop.shopItems.find(s => s.id === id);
     if (!si) return;
     const gp = parseFloat((event.target as HTMLInputElement).value);
     si.calculatedPrice = isNaN(gp) || gp < 0 ? 0 : Math.round(gp * 100);
   }
 
+  selectItem(shop: ShopInstance, id: string): void {
+    shop.selectedItemId = shop.selectedItemId === id ? null : id;
+  }
+
+  // ── Formatting helpers ───────────────────────────────────────────────────────
+
   formatPrice(cp: number): string {
     return this.priceCalc.formatPrice(cp);
   }
 
-  getRarityLabel(rarity: string): string {
-    const cfg = this.rarityConfigs.find(r => r.rarity === (rarity ?? 'none').toLowerCase());
+  getRarityLabel(shop: ShopInstance, rarity: string): string {
+    const cfg = shop.rarityConfigs.find(r => r.rarity === (rarity ?? 'none').toLowerCase());
     return cfg ? cfg.label : rarity;
   }
 
@@ -146,76 +242,254 @@ export class ShopGeneratorComponent implements OnInit {
     return (rarity ?? 'none').toLowerCase().replace(' ', '-');
   }
 
+  getShopTypeLabel(file: string): string {
+    return this.shopTypes.find(st => st.file === file)?.label ?? file;
+  }
+
+  get anyGenerated(): boolean {
+    return this.shops.some(s => s.generated && s.shopItems.length > 0);
+  }
+
   private nextId(): string {
-    return 'item-' + Date.now() + '-' + (this.idCounter++);
+    return 'i' + Date.now() + (this.idCounter++);
   }
 
-  selectItem(id: string): void {
-    this.selectedItemId = this.selectedItemId === id ? null : id;
+  // ── Item display helpers ─────────────────────────────────────────────────────
+
+  private readonly PROPERTY_LABELS: Record<string, string> = {
+    '2H': 'Two-Handed', 'A': 'Ammunition', 'AF': 'Automatic', 'AFDMG': 'Automatic',
+    'B': 'Burst Fire', 'BFDMG': 'Burst Fire', 'F': 'Finesse', 'H': 'Heavy',
+    'L': 'Light', 'LD': 'Loading', 'R': 'Reach', 'RLD': 'Reload',
+    'S': 'Special', 'T': 'Thrown', 'V': 'Versatile',
+    '2HXPHB': 'Two-Handed', 'AXPHB': 'Ammunition', 'AFXDMG': 'Automatic',
+    'BFXDMG': 'Burst Fire', 'FXPHB': 'Finesse', 'HXPHB': 'Heavy',
+    'LXPHB': 'Light', 'LDXPHB': 'Loading', 'RXPHB': 'Reach',
+    'RLDXDMG': 'Reload', 'SXPHB': 'Special', 'TXPHB': 'Thrown', 'VXPHB': 'Versatile',
+  };
+
+  private readonly DMG_TYPE_LABELS: Record<string, string> = {
+    'B': 'Bludgeoning', 'P': 'Piercing', 'S': 'Slashing',
+    'A': 'Acid', 'C': 'Cold', 'F': 'Fire', 'L': 'Lightning',
+    'N': 'Necrotic', 'O': 'Poison', 'Py': 'Psychic', 'Y': 'Psychic',
+    'R': 'Radiant', 'T': 'Thunder', 'Fo': 'Force',
+  };
+
+  isWeapon(item: ItemData): boolean { return !!item.weaponCategory; }
+  isArmor(item: ItemData): boolean  { return !!item.armor; }
+
+  getWeaponPropertyLabels(item: ItemData): string[] {
+    if (!Array.isArray(item.property)) return [];
+    return item.property.map((p: any) => {
+      const code: string = typeof p === 'string' ? p : (p?.uid ?? '');
+      const note: string | undefined = typeof p === 'object' ? p?.note : undefined;
+      const label = this.PROPERTY_LABELS[code] ?? code;
+      return note ? `${label} (${note})` : label;
+    }).filter(Boolean);
   }
 
-  /** Translates a source abbreviation (e.g. "DMG") to its full title. Falls back to the raw abbreviation. */
+  getDmgTypeLabel(code: string): string { return this.DMG_TYPE_LABELS[code] ?? code; }
+
+  getArmorTypeLabel(item: ItemData): string {
+    if (!item.type) return '';
+    const base = item.type.split('|')[0];
+    if (base.startsWith('LA')) return 'Light Armor';
+    if (base.startsWith('MA')) return 'Medium Armor';
+    if (base.startsWith('HA')) return 'Heavy Armor';
+    if (base.startsWith('S'))  return 'Shield';
+    return base;
+  }
+
+  getTotalAc(item: ItemData): number | null {
+    if (item.ac == null) return null;
+    const bonus = item.bonusAc ? parseInt(item.bonusAc, 10) : 0;
+    return item.ac + (isNaN(bonus) ? 0 : bonus);
+  }
+
+  getAttunementLabel(item: ItemData): string | null {
+    if (!item.reqAttune) return null;
+    if (item.reqAttune === true) return 'Requires Attunement';
+    return 'Requires Attunement ' + item.reqAttune;
+  }
+
+  formatAmmoType(ammoType: string): string {
+    return ammoType.replace(/(xphb|xdmg|xmm|phb|dmg|mm)$/i, '').trim();
+  }
+
+  capitalizeFirst(s: string): string {
+    return s ? s.charAt(0).toUpperCase() + s.slice(1) : '';
+  }
+
   getSourceTitle(source: string): string {
     return this.bookTitles[source] ?? source;
   }
 
-  /** Returns an array of HTML strings representing the item's description entries.
-   *  Prefers _fullEntries (richer data) over entries when both are present. */
   getEntryHtml(item: ItemData): string[] {
-    return this.buildEntryLines(item['_fullEntries'] ?? item.entries ?? []);
+    return this.buildEntryLines(item['_fullEntries'] ?? item.entries ?? [], item);
   }
 
-  private buildEntryLines(entries: any[]): string[] {
+  private buildEntryLines(entries: any[], item: ItemData): string[] {
     const lines: string[] = [];
     for (const entry of entries) {
       if (typeof entry === 'string') {
-        lines.push('<p>' + this.cleanText(entry) + '</p>');
-
+        lines.push('<p>' + this.cleanText(entry, item) + '</p>');
       } else if (entry?.type === 'list' && Array.isArray(entry.items)) {
         const lis = entry.items
-          .map((i: any) => `<li>${this.cleanText(typeof i === 'string' ? i : JSON.stringify(i))}</li>`)
+          .map((i: any) => `<li>${this.cleanText(typeof i === 'string' ? i : JSON.stringify(i), item)}</li>`)
           .join('');
         lines.push('<ul>' + lis + '</ul>');
-
       } else if (entry?.type === 'table' && Array.isArray(entry.rows)) {
-        let html = entry.caption ? `<p class="table-caption">${this.cleanText(entry.caption)}</p>` : '';
+        let html = entry.caption ? `<p class="table-caption">${this.cleanText(entry.caption, item)}</p>` : '';
         html += '<table class="entry-table"><thead><tr>';
-        for (const col of (entry.colLabels ?? [])) {
-          html += `<th>${this.cleanText(String(col))}</th>`;
-        }
+        for (const col of (entry.colLabels ?? [])) html += `<th>${this.cleanText(String(col), item)}</th>`;
         html += '</tr></thead><tbody>';
         for (const row of entry.rows) {
           html += '<tr>';
-          for (const cell of (Array.isArray(row) ? row : [])) {
-            html += `<td>${this.cleanText(typeof cell === 'string' ? cell : JSON.stringify(cell))}</td>`;
-          }
+          for (const cell of (Array.isArray(row) ? row : []))
+            html += `<td>${this.cleanText(typeof cell === 'string' ? cell : JSON.stringify(cell), item)}</td>`;
           html += '</tr>';
         }
         html += '</tbody></table>';
         lines.push(html);
-
       } else if (entry?.type === 'entries' && Array.isArray(entry.entries)) {
-        // Named sub-section
-        const header = entry.name ? `<p class="entry-section-name">${this.cleanText(entry.name)}</p>` : '';
-        lines.push(header + this.buildEntryLines(entry.entries).join(''));
-
+        const header = entry.name ? `<p class="entry-section-name">${this.cleanText(entry.name, item)}</p>` : '';
+        lines.push(header + this.buildEntryLines(entry.entries, item).join(''));
       } else if (entry?.type === 'inset' && Array.isArray(entry.entries)) {
-        // Callout / sidebar box
-        const header = entry.name ? `<p class="entry-section-name">${this.cleanText(entry.name)}</p>` : '';
-        lines.push(`<div class="entry-inset">${header}${this.buildEntryLines(entry.entries).join('')}</div>`);
-
+        const header = entry.name ? `<p class="entry-section-name">${this.cleanText(entry.name, item)}</p>` : '';
+        lines.push(`<div class="entry-inset">${header}${this.buildEntryLines(entry.entries, item).join('')}</div>`);
       } else if (Array.isArray(entry?.entries)) {
-        // Fallback: any other object with an entries array
-        lines.push(...this.buildEntryLines(entry.entries));
+        lines.push(...this.buildEntryLines(entry.entries, item));
       }
     }
     return lines;
   }
 
-  /** Strips 5etools {@tag text} markers from description text. */
-  private cleanText(text: string): string {
+  private cleanText(text: string, item?: ItemData): string {
     return text
+      .replace(/\{=(\w+)\}/g, (_, field) => { const v = item?.[field]; return v != null ? String(v) : ''; })
+      .replace(/\{#\w+[^}]*\}/g, '')
       .replace(/\{@dc (\d+)\}/g, 'DC $1')
       .replace(/\{@\w+ ([^|}]+)(?:\|[^}]*)?\}/g, '$1');
+  }
+
+  // ── Export ───────────────────────────────────────────────────────────────────
+
+  exportToHtml(): void {
+    const generatedShops = this.shops.filter(s => s.generated && s.shopItems.length > 0);
+    if (generatedShops.length === 0) return;
+
+    const shopsHtml = generatedShops.map(s => this.buildExportShopSection(s)).join('\n');
+    const doc = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop Inventories</title>
+<style>${EXPORT_CSS}</style>
+</head>
+<body>
+<div class="container">
+<h1 class="page-title">🏪 Shop Inventories</h1>
+${shopsHtml}
+</div>
+<script>${EXPORT_JS}</script>
+</body>
+</html>`;
+
+    const blob = new Blob([doc], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'shop-inventories.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  private buildExportShopSection(shop: ShopInstance): string {
+    const shopName = shop.name.trim() || 'Unnamed Shop';
+    const typeLabel = this.getShopTypeLabel(shop.selectedShopType);
+    const count = shop.shopItems.length;
+    const rows = shop.shopItems.map((si, idx) => this.buildExportItemRow(si, shop, idx)).join('\n');
+
+    return `<section class="shop-section">
+<div class="shop-header">
+  <h2 class="shop-title">${this.esc(shopName)} <span class="shop-subtitle">— ${this.esc(typeLabel)} Inventory</span></h2>
+  <span class="item-count">${count} item${count !== 1 ? 's' : ''}</span>
+</div>
+<p class="click-hint">Click a row to view item description.</p>
+<table class="items-table">
+<thead><tr><th></th><th>Name</th><th>Rarity</th><th class="price-col">Price</th></tr></thead>
+<tbody>
+${rows}
+</tbody>
+</table>
+</section>`;
+  }
+
+  private buildExportItemRow(si: ShopItem, shop: ShopInstance, idx: number): string {
+    const rowId = `d-${shop.id}-${idx}`;
+    const rarityClass = this.getRarityClass(si.item.rarity);
+    const rarityLabel = this.getRarityLabel(shop, si.item.rarity);
+    const price = this.esc(this.formatPrice(si.calculatedPrice));
+    const detail = this.buildExportDetailHtml(si.item);
+
+    return `<tr class="item-row" onclick="toggleDetail('${rowId}')">
+  <td class="expand-icon" id="icon-${rowId}">▸</td>
+  <td class="item-name">${this.esc(si.item.name)}</td>
+  <td><span class="badge badge-${rarityClass}">${this.esc(rarityLabel)}</span></td>
+  <td class="item-price">${price}</td>
+</tr>
+<tr id="${rowId}" class="detail-row" style="display:none">
+  <td colspan="4" class="detail-cell"><div class="item-detail">${detail}</div></td>
+</tr>`;
+  }
+
+  private buildExportDetailHtml(item: ItemData): string {
+    let html = '<div class="detail-meta">';
+    html += `<span class="detail-source">📖 ${this.esc(this.getSourceTitle(item.source))}</span>`;
+    const attune = this.getAttunementLabel(item);
+    if (attune) html += `<span class="detail-attune">✨ ${this.esc(attune)}</span>`;
+    html += '</div>';
+
+    if (this.isArmor(item)) {
+      html += '<div class="item-stats">';
+      html += `<span class="stat-chip stat-chip--type">${this.esc(this.getArmorTypeLabel(item))}</span>`;
+      const ac = this.getTotalAc(item);
+      if (ac !== null) html += `<span class="stat-chip">AC ${ac}</span>`;
+      if (item.strength) html += `<span class="stat-chip">Min. STR ${this.esc(String(item.strength))}</span>`;
+      if (item.stealth) html += `<span class="stat-chip stat-chip--warn">Stealth Disadvantage</span>`;
+      html += '</div>';
+    }
+
+    if (this.isWeapon(item)) {
+      html += '<div class="item-stats">';
+      html += `<span class="stat-chip stat-chip--type">${this.esc(this.capitalizeFirst(item.weaponCategory ?? ''))} Weapon</span>`;
+      if (item.dmg1 && item.dmgType)
+        html += `<span class="stat-chip">${this.esc(item.dmg1)} ${this.esc(this.getDmgTypeLabel(item.dmgType))}</span>`;
+      if (item.range) html += `<span class="stat-chip">Range ${this.esc(item.range)} ft.</span>`;
+      for (const prop of this.getWeaponPropertyLabels(item))
+        html += `<span class="stat-chip">${this.esc(prop)}</span>`;
+      if (item.ammoType) html += `<span class="stat-chip">Ammo: ${this.esc(this.formatAmmoType(item.ammoType))}</span>`;
+      html += '</div>';
+    }
+
+    const entries = this.getEntryHtml(item);
+    if (entries.length > 0) {
+      html += `<div class="entry-block">${entries.join('')}</div>`;
+    } else {
+      html += '<p class="no-description">No description available.</p>';
+    }
+    return html;
+  }
+
+  /** HTML-escape a plain-text string for safe embedding. */
+  private esc(text: string): string {
+    return (text ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 }

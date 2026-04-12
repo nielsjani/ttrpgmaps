@@ -1,25 +1,162 @@
 .shop-generator-page {
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
+  padding: 24px 16px 64px;
   font-family: sans-serif;
 }
 
-/* ===== PAGE TITLE ===== */
+/* ===== PAGE HEADER ===== */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
 .page-title {
   font-size: 1.8rem;
   font-weight: 700;
   color: #1976d2;
-  margin: 0 0 24px;
+  margin: 0;
 }
 
-/* ===== CONFIG PANEL ===== */
-.config-panel {
+.page-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ===== PAGE-LEVEL BUTTONS ===== */
+.add-shop-btn {
+  background: white;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+  border-radius: 6px;
+  padding: 9px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: #1976d2;
+    color: white;
+  }
+}
+
+.export-btn {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+
+  &:hover {
+    background: #1b5e20;
+    transform: translateY(-1px);
+  }
+}
+
+/* ===== SHOP CARDS ===== */
+.shops-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.shop-card {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 24px;
-  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+/* ── Card header ── */
+.shop-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: #f5f7fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shop-name-input {
+  flex: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a237e;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 5px 10px;
+  background: transparent;
+  transition: border-color 0.15s, background 0.15s;
+  min-width: 0;
+
+  &:focus {
+    outline: none;
+    border-color: #1976d2;
+    background: white;
+  }
+
+  &::placeholder {
+    color: #aaa;
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+.shop-card-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.toggle-config-btn {
+  background: white;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+
+  &:hover {
+    background: #e3f2fd;
+    border-color: #90caf9;
+    color: #1565c0;
+  }
+}
+
+.remove-shop-btn {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #ffcdd2;
+  }
+}
+
+/* ── Configuration body ── */
+.config-body {
+  padding: 20px 24px 24px;
+  border-bottom: 1px solid #efefef;
 }
 
 .form-group {
@@ -40,6 +177,7 @@
 .radio-group {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .radio-option {
@@ -62,12 +200,10 @@
     font-weight: 600;
   }
 
-  &:hover {
-    border-color: #1976d2;
-  }
+  &:hover { border-color: #1976d2; }
 }
 
-/* Half-price badge next to shop select */
+/* Half-price badge */
 .half-price-badge {
   display: inline-block;
   margin-left: 10px;
@@ -139,21 +275,19 @@
 
 /* ===== RESULTS PANEL ===== */
 .results-panel {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 24px;
+  padding: 20px 24px 24px;
 }
 
 .results-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 
 .results-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #333;
   margin: 0;
@@ -170,7 +304,7 @@
 .empty-results {
   color: #666;
   font-style: italic;
-  padding: 16px 0;
+  padding: 12px 0;
 }
 
 .click-hint {
@@ -260,6 +394,46 @@
   font-style: italic;
 }
 
+.detail-attune {
+  font-size: 0.82rem;
+  color: #7b4f00;
+  background: #fff3cd;
+  border: 1px solid #ffe08a;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+/* ===== ITEM STAT CHIPS ===== */
+.item-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.stat-chip {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 10px;
+  background: #f0f4ff;
+  color: #3a3a5c;
+  border: 1px solid #c5cdf5;
+
+  &--type {
+    background: #e8f5e9;
+    color: #1b5e20;
+    border-color: #a5d6a7;
+  }
+
+  &--warn {
+    background: #fff8e1;
+    color: #7b4f00;
+    border-color: #ffe082;
+  }
+}
+
 .entry-block {
   color: #333;
   line-height: 1.6;
@@ -310,7 +484,6 @@
   font-size: 0.9rem;
 }
 
-/* Named sub-section header (type: "entries" / "inset") */
 .entry-section-name {
   font-weight: 700;
   color: #1a237e;
@@ -318,7 +491,6 @@
   font-size: 0.92rem !important;
 }
 
-/* Inset / sidebar callout box */
 .entry-inset {
   border-left: 3px solid #90caf9;
   background: #e8f4fd;
@@ -338,7 +510,6 @@
   font-weight: 500;
   color: #222;
 }
-
 
 .item-price {
   text-align: right;
@@ -372,7 +543,6 @@
     background: white;
   }
 
-  /* Hide number spin arrows */
   &::-webkit-inner-spin-button,
   &::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 }
@@ -420,21 +590,17 @@
 .remove-btn {
   background: #ffebee;
   color: #c62828;
-
   &:hover { background: #ffcdd2; }
 }
 
 .reroll-btn {
   background: #e3f2fd;
   color: #1565c0;
-
   &:hover { background: #bbdefb; }
 }
 
 .reprice-btn {
   background: #f3e5f5;
   color: #6a1b9a;
-
   &:hover { background: #e1bee7; }
 }
-

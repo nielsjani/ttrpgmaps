@@ -1,151 +1,217 @@
 <div class="shop-generator-page">
 
-  <!-- ===== CONFIGURATION PANEL ===== -->
-  <section class="config-panel">
+  <!-- ===== PAGE HEADER ===== -->
+  <div class="page-header">
     <h1 class="page-title">🏪 Shop Generator</h1>
+    <div class="page-actions">
+      <button class="add-shop-btn" (click)="addShop()">＋ Add Shop</button>
+      <button class="export-btn" *ngIf="anyGenerated" (click)="exportToHtml()">
+        📄 Export to HTML
+      </button>
+    </div>
+  </div>
 
-    <!-- Edition -->
-    <div class="form-group">
-      <label class="form-label">Rules Edition</label>
-      <div class="radio-group">
-        <label class="radio-option" [class.selected]="edition === '2014'">
-          <input type="radio" name="edition" value="2014" [(ngModel)]="edition" />
-          D&amp;D 5e 2014
-        </label>
-        <label class="radio-option" [class.selected]="edition === '2024'">
-          <input type="radio" name="edition" value="2024" [(ngModel)]="edition" />
-          D&amp;D 5e 2024
-        </label>
+  <!-- ===== SHOP CARDS ===== -->
+  <div class="shops-list">
+    <div class="shop-card" *ngFor="let shop of shops">
+
+      <!-- ── Card header ── -->
+      <div class="shop-card-header">
+        <input
+          class="shop-name-input"
+          [(ngModel)]="shop.name"
+          placeholder="Shop name…"
+          maxlength="60"
+        />
+        <div class="shop-card-controls">
+          <button
+            class="toggle-config-btn"
+            (click)="shop.configCollapsed = !shop.configCollapsed"
+            [title]="shop.configCollapsed ? 'Show configuration' : 'Hide configuration'"
+          >
+            ⚙ {{ shop.configCollapsed ? 'Configure' : 'Hide Config' }}
+          </button>
+          <button
+            class="remove-shop-btn"
+            (click)="removeShop(shop)"
+            title="Remove this shop"
+            *ngIf="shops.length > 1"
+          >✕</button>
+        </div>
       </div>
-    </div>
 
-    <!-- Shop Type -->
-    <div class="form-group">
-      <label class="form-label" for="shopType">Shop Type</label>
-      <select id="shopType" class="shop-select" [(ngModel)]="selectedShopType">
-        <option *ngFor="let st of shopTypes" [value]="st.file">{{ st.label }}</option>
-      </select>
-      <span *ngIf="HALF_PRICE_SHOPS.includes(selectedShopType)" class="half-price-badge">½ price</span>
-    </div>
+      <!-- ── Configuration ── -->
+      <div class="config-body" [hidden]="shop.configCollapsed">
 
-    <!-- Rarity Counts -->
-    <div class="form-group">
-      <label class="form-label">Items per Rarity</label>
-      <div class="rarity-list">
-        <app-rarity-counter
-          *ngFor="let cfg of rarityConfigs"
-          [rarity]="cfg.rarity"
-          [label]="cfg.label"
-          [defaultExpression]="cfg.defaultExpression"
-          (configChange)="onRarityConfigChange($event)"
-        ></app-rarity-counter>
+        <!-- Edition -->
+        <div class="form-group">
+          <label class="form-label">Rules Edition</label>
+          <div class="radio-group">
+            <label class="radio-option" [class.selected]="shop.edition === '2014'">
+              <input type="radio" [name]="'edition-' + shop.id" value="2014" [(ngModel)]="shop.edition" />
+              D&amp;D 5e 2014
+            </label>
+            <label class="radio-option" [class.selected]="shop.edition === '2024'">
+              <input type="radio" [name]="'edition-' + shop.id" value="2024" [(ngModel)]="shop.edition" />
+              D&amp;D 5e 2024
+            </label>
+          </div>
+        </div>
+
+        <!-- Shop Type -->
+        <div class="form-group">
+          <label class="form-label" [for]="'shopType-' + shop.id">Shop Type</label>
+          <select [id]="'shopType-' + shop.id" class="shop-select" [(ngModel)]="shop.selectedShopType">
+            <option *ngFor="let st of shopTypes" [value]="st.file">{{ st.label }}</option>
+          </select>
+          <span *ngIf="HALF_PRICE_SHOPS.includes(shop.selectedShopType)" class="half-price-badge">½ price</span>
+        </div>
+
+        <!-- Rarity Counts -->
+        <div class="form-group">
+          <label class="form-label">Items per Rarity</label>
+          <div class="rarity-list">
+            <app-rarity-counter
+              *ngFor="let cfg of shop.rarityConfigs"
+              [rarity]="cfg.rarity"
+              [label]="cfg.label"
+              [defaultExpression]="cfg.defaultExpression"
+              (configChange)="onRarityConfigChange($event, shop)"
+            ></app-rarity-counter>
+          </div>
+        </div>
+
+        <!-- Generate Button -->
+        <button class="generate-btn" (click)="generateShop(shop)" [disabled]="shop.isGenerating">
+          <span *ngIf="!shop.isGenerating">🎲 Generate Shop</span>
+          <span *ngIf="shop.isGenerating">⏳ Generating…</span>
+        </button>
+
+        <div *ngIf="shop.errorMessage" class="error-msg">{{ shop.errorMessage }}</div>
       </div>
-    </div>
 
-    <!-- Generate Button -->
-    <button class="generate-btn" (click)="generateShop()" [disabled]="isGenerating">
-      <span *ngIf="!isGenerating">🎲 Generate Shop</span>
-      <span *ngIf="isGenerating">⏳ Generating…</span>
-    </button>
+      <!-- ── Results ── -->
+      <section class="results-panel" *ngIf="shop.generated">
+        <div class="results-header">
+          <h2 class="results-title">
+            {{ (shop.name.trim() || 'Unnamed Shop') }} — {{ getShopTypeLabel(shop.selectedShopType) }} Inventory
+          </h2>
+          <span class="item-count">{{ shop.shopItems.length }} item{{ shop.shopItems.length !== 1 ? 's' : '' }}</span>
+        </div>
 
-    <div *ngIf="errorMessage" class="error-msg">{{ errorMessage }}</div>
-  </section>
+        <div *ngIf="shop.shopItems.length === 0" class="empty-results">
+          No items found for the selected configuration. Try adjusting the rarity counts or shop type.
+        </div>
 
-  <!-- ===== RESULTS PANEL ===== -->
-  <section class="results-panel" *ngIf="generated">
-    <div class="results-header">
-      <h2 class="results-title">Generated Shop Inventory</h2>
-      <span class="item-count">{{ shopItems.length }} item{{ shopItems.length !== 1 ? 's' : '' }}</span>
-    </div>
+        <div class="items-table-wrapper" *ngIf="shop.shopItems.length > 0">
+          <p class="click-hint">Click a row to view the item description.</p>
+          <table class="items-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Rarity</th>
+                <th class="price-col">Price</th>
+                <th class="actions-col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let si of shop.shopItems">
 
-    <div *ngIf="shopItems.length === 0" class="empty-results">
-      No items found for the selected configuration. Try adjusting the rarity counts or shop type.
-    </div>
+                <!-- Main item row -->
+                <tr
+                  class="item-row"
+                  [class.expanded]="shop.selectedItemId === si.id"
+                  (click)="selectItem(shop, si.id)"
+                >
+                  <td class="expand-icon">{{ shop.selectedItemId === si.id ? '▾' : '▸' }}</td>
+                  <td class="item-name">{{ si.item.name }}</td>
+                  <td>
+                    <span class="badge" [ngClass]="'badge-' + getRarityClass(si.item.rarity)">
+                      {{ getRarityLabel(shop, si.item.rarity) }}
+                    </span>
+                  </td>
+                  <td class="item-price" (click)="$event.stopPropagation()">
+                    <ng-container *ngIf="!si.priceEditable">
+                      {{ formatPrice(si.calculatedPrice) }}
+                    </ng-container>
+                    <div *ngIf="si.priceEditable" class="price-input-wrap">
+                      <input
+                        type="number"
+                        class="price-input"
+                        min="0"
+                        step="0.01"
+                        [value]="si.calculatedPrice > 0 ? si.calculatedPrice / 100 : null"
+                        (change)="setPrice(shop, si.id, $event)"
+                        placeholder="?"
+                      />
+                      <span class="price-unit">gp</span>
+                    </div>
+                  </td>
+                  <td class="item-actions" (click)="$event.stopPropagation()">
+                    <button class="action-btn remove-btn" (click)="removeItem(shop, si.id)" title="Remove item">🗑</button>
+                    <button class="action-btn reroll-btn" (click)="rerollItem(shop, si.id)" title="Reroll item">↻ Item</button>
+                    <button
+                      class="action-btn reprice-btn"
+                      (click)="rerollPrice(shop, si.id)"
+                      title="Reroll price"
+                      *ngIf="!si.priceEditable"
+                    >↻ Price</button>
+                  </td>
+                </tr>
 
-    <div class="items-table-wrapper" *ngIf="shopItems.length > 0">
-      <p class="click-hint">Click a row to view the item description.</p>
-      <table class="items-table">
-        <thead>
-          <tr>
-            <th></th>
-            <th>Name</th>
-            <th>Rarity</th>
-            <th class="price-col">Price</th>
-            <th class="actions-col">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <ng-container *ngFor="let si of shopItems">
+                <!-- Expandable detail row -->
+                <tr *ngIf="shop.selectedItemId === si.id" class="detail-row">
+                  <td colspan="5" class="detail-cell">
+                    <div class="item-detail">
+                      <div class="detail-meta">
+                        <span class="detail-source">📖 {{ getSourceTitle(si.item.source) }}</span>
+                        <span class="detail-attune" *ngIf="getAttunementLabel(si.item)">
+                          ✨ {{ getAttunementLabel(si.item) }}
+                        </span>
+                      </div>
 
-            <!-- Main item row -->
-            <tr
-              class="item-row"
-              [class.expanded]="selectedItemId === si.id"
-              (click)="selectItem(si.id)"
-            >
-              <td class="expand-icon">{{ selectedItemId === si.id ? '▾' : '▸' }}</td>
-              <td class="item-name">{{ si.item.name }}</td>
-              <td>
-                <span class="badge" [ngClass]="'badge-' + getRarityClass(si.item.rarity)">
-                  {{ getRarityLabel(si.item.rarity) }}
-                </span>
-              </td>
-              <td class="item-price" (click)="$event.stopPropagation()">
-                <ng-container *ngIf="!si.priceEditable">
-                  {{ formatPrice(si.calculatedPrice) }}
-                </ng-container>
-                <div *ngIf="si.priceEditable" class="price-input-wrap">
-                  <input
-                    type="number"
-                    class="price-input"
-                    min="0"
-                    step="0.01"
-                    [value]="si.calculatedPrice > 0 ? si.calculatedPrice / 100 : null"
-                    (change)="setPrice(si.id, $event)"
-                    placeholder="?"
-                  />
-                  <span class="price-unit">gp</span>
-                </div>
-              </td>
-              <td class="item-actions" (click)="$event.stopPropagation()">
-                <button class="action-btn remove-btn" (click)="removeItem(si.id)" title="Remove item">🗑</button>
-                <button class="action-btn reroll-btn" (click)="rerollItem(si.id)" title="Reroll item">↻ Item</button>
-                <button
-                  class="action-btn reprice-btn"
-                  (click)="rerollPrice(si.id)"
-                  title="Reroll price"
-                  *ngIf="!si.priceEditable"
-                >↻ Price</button>
-              </td>
-            </tr>
+                      <!-- Armor stats -->
+                      <div class="item-stats" *ngIf="isArmor(si.item)">
+                        <span class="stat-chip stat-chip--type">{{ getArmorTypeLabel(si.item) }}</span>
+                        <span class="stat-chip" *ngIf="getTotalAc(si.item) !== null">AC {{ getTotalAc(si.item) }}</span>
+                        <span class="stat-chip" *ngIf="si.item.strength">Min. STR {{ si.item.strength }}</span>
+                        <span class="stat-chip stat-chip--warn" *ngIf="si.item.stealth">Stealth Disadvantage</span>
+                      </div>
 
-            <!-- Expandable detail row -->
-            <tr *ngIf="selectedItemId === si.id" class="detail-row">
-              <td colspan="5" class="detail-cell">
-                <div class="item-detail">
-                  <div class="detail-meta">
-                    <span class="detail-source">📖 {{ getSourceTitle(si.item.source) }}</span>
-                    <span class="detail-type" *ngIf="si.item.type">Type: {{ si.item.type }}</span>
-                  </div>
-                  <ng-container *ngIf="getEntryHtml(si.item).length > 0; else noDesc">
-                    <div
-                      *ngFor="let html of getEntryHtml(si.item)"
-                      class="entry-block"
-                      [innerHTML]="html"
-                    ></div>
-                  </ng-container>
-                  <ng-template #noDesc>
-                    <p class="no-description">No description available.</p>
-                  </ng-template>
-                </div>
-              </td>
-            </tr>
+                      <!-- Weapon stats -->
+                      <div class="item-stats" *ngIf="isWeapon(si.item)">
+                        <span class="stat-chip stat-chip--type">{{ capitalizeFirst(si.item.weaponCategory ?? '') }} Weapon</span>
+                        <span class="stat-chip" *ngIf="si.item.dmg1 && si.item.dmgType">
+                          {{ si.item.dmg1 }} {{ getDmgTypeLabel(si.item.dmgType) }}
+                        </span>
+                        <span class="stat-chip" *ngIf="si.item.range">Range {{ si.item.range }} ft.</span>
+                        <span class="stat-chip" *ngFor="let prop of getWeaponPropertyLabels(si.item)">{{ prop }}</span>
+                        <span class="stat-chip" *ngIf="si.item.ammoType">Ammo: {{ formatAmmoType(si.item.ammoType) }}</span>
+                      </div>
 
-          </ng-container>
-        </tbody>
-      </table>
-    </div>
-  </section>
+                      <ng-container *ngIf="getEntryHtml(si.item).length > 0; else noDesc">
+                        <div
+                          *ngFor="let html of getEntryHtml(si.item)"
+                          class="entry-block"
+                          [innerHTML]="html"
+                        ></div>
+                      </ng-container>
+                      <ng-template #noDesc>
+                        <p class="no-description">No description available.</p>
+                      </ng-template>
+                    </div>
+                  </td>
+                </tr>
+
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div><!-- /shop-card -->
+  </div><!-- /shops-list -->
 
 </div>
 

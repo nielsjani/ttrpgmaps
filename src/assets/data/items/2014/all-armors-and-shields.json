@@ -2,9 +2,6 @@
   {
     "name": "Breastplate",
     "source": "PHB",
-    "reprintedAs": [
-      "Breastplate|XPHB"
-    ],
     "type": "MA",
     "rarity": "none",
     "value": 40000,
@@ -17,9 +14,6 @@
   {
     "name": "Chain Mail",
     "source": "PHB",
-    "reprintedAs": [
-      "Chain Mail|XPHB"
-    ],
     "type": "HA",
     "rarity": "none",
     "value": 7500,
@@ -34,9 +28,6 @@
   {
     "name": "Chain Shirt",
     "source": "PHB",
-    "reprintedAs": [
-      "Chain Shirt|XPHB"
-    ],
     "type": "MA",
     "rarity": "none",
     "value": 5000,
@@ -49,9 +40,6 @@
   {
     "name": "Half Plate Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Half Plate Armor|XPHB"
-    ],
     "type": "MA",
     "rarity": "none",
     "value": 75000,
@@ -65,9 +53,6 @@
   {
     "name": "Hide Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Hide Armor|XPHB"
-    ],
     "type": "MA",
     "rarity": "none",
     "value": 1000,
@@ -80,9 +65,6 @@
   {
     "name": "Leather Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Leather Armor|XPHB"
-    ],
     "type": "LA",
     "rarity": "none",
     "value": 1000,
@@ -95,9 +77,6 @@
   {
     "name": "Padded Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Padded Armor|XPHB"
-    ],
     "type": "LA",
     "rarity": "none",
     "value": 500,
@@ -111,9 +90,6 @@
   {
     "name": "Plate Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Plate Armor|XPHB"
-    ],
     "type": "HA",
     "rarity": "none",
     "value": 150000,
@@ -128,9 +104,6 @@
   {
     "name": "Ring Mail",
     "source": "PHB",
-    "reprintedAs": [
-      "Ring Mail|XPHB"
-    ],
     "type": "HA",
     "rarity": "none",
     "value": 3000,
@@ -144,9 +117,6 @@
   {
     "name": "Scale Mail",
     "source": "PHB",
-    "reprintedAs": [
-      "Scale Mail|XPHB"
-    ],
     "type": "MA",
     "rarity": "none",
     "value": 5000,
@@ -173,9 +143,6 @@
   {
     "name": "Splint Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Splint Armor|XPHB"
-    ],
     "type": "HA",
     "rarity": "none",
     "value": 20000,
@@ -190,9 +157,6 @@
   {
     "name": "Studded Leather Armor",
     "source": "PHB",
-    "reprintedAs": [
-      "Studded Leather Armor|XPHB"
-    ],
     "type": "LA",
     "rarity": "none",
     "value": 4500,
@@ -218,9 +182,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -243,9 +204,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -268,9 +226,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -293,9 +248,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
@@ -317,9 +269,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -342,9 +291,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -367,9 +313,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -392,9 +335,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -417,9 +357,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
@@ -441,9 +378,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -466,9 +400,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -491,9 +422,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -516,9 +444,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -541,9 +466,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -566,9 +488,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -591,9 +510,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
@@ -615,9 +531,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -644,9 +557,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "stealth": false,
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
@@ -669,9 +579,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "breastplate|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
@@ -1059,9 +966,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -1086,9 +990,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -1113,9 +1014,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -1140,9 +1038,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
@@ -1166,9 +1061,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1193,9 +1085,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1220,9 +1109,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1247,9 +1133,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1274,9 +1157,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
@@ -1300,9 +1180,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1327,9 +1204,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1354,9 +1228,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1381,9 +1252,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1408,9 +1276,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1435,9 +1300,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -1462,9 +1324,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
@@ -1488,9 +1347,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -1518,9 +1374,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
@@ -1544,9 +1397,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "chain mail|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
@@ -2041,9 +1891,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2066,9 +1913,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2091,9 +1935,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2116,9 +1957,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
@@ -2140,9 +1978,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2165,9 +2000,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2190,9 +2022,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2215,9 +2044,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2240,9 +2066,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
@@ -2264,9 +2087,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2289,9 +2109,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2314,9 +2131,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2339,9 +2153,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2364,9 +2175,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2389,9 +2197,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -2414,9 +2219,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
@@ -2438,9 +2240,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -2467,9 +2266,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "stealth": false,
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
@@ -2492,9 +2288,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "chain shirt|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
@@ -2881,9 +2674,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2907,9 +2697,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2933,9 +2720,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -2959,9 +2743,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
@@ -2984,9 +2765,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3010,9 +2788,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3036,9 +2811,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3062,9 +2834,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3088,9 +2857,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
@@ -3113,9 +2879,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3139,9 +2902,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3165,9 +2925,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3191,9 +2948,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3217,9 +2971,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3243,9 +2994,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3269,9 +3017,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
@@ -3294,9 +3039,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -3324,9 +3066,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
@@ -3349,9 +3088,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "half plate armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
@@ -3751,9 +3487,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -3776,9 +3509,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -3801,9 +3531,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -3826,9 +3553,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3851,9 +3575,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3876,9 +3597,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3901,9 +3619,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3926,9 +3641,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
@@ -3950,9 +3662,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -3975,9 +3684,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4000,9 +3706,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4025,9 +3728,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4050,9 +3750,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4075,9 +3772,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4100,9 +3794,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
@@ -4124,9 +3815,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -4153,9 +3841,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "hide armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
@@ -4455,9 +4140,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -4480,9 +4162,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -4505,9 +4184,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -4530,9 +4206,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4555,9 +4228,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4580,9 +4250,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4605,9 +4272,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4630,9 +4294,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4655,9 +4316,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4680,9 +4338,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4705,9 +4360,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4730,9 +4382,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4755,9 +4404,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -4780,9 +4426,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
@@ -4804,9 +4447,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -4833,9 +4473,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "leather armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
@@ -5132,9 +4769,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5158,9 +4792,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5184,9 +4815,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5210,9 +4838,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5236,9 +4861,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5262,9 +4884,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5288,9 +4907,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5314,9 +4930,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5340,9 +4953,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5366,9 +4976,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5392,9 +4999,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5418,9 +5022,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5444,9 +5045,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5470,9 +5068,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Padded armor consists of quilted layers of cloth and batting."
@@ -5495,9 +5090,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -5525,9 +5117,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "padded armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Padded armor consists of quilted layers of cloth and batting."
@@ -5836,9 +5425,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5863,9 +5449,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5890,9 +5473,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -5917,9 +5497,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
@@ -5943,9 +5520,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5970,9 +5544,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -5997,9 +5568,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6024,9 +5592,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6051,9 +5616,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
@@ -6077,9 +5639,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6104,9 +5663,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6131,9 +5687,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6158,9 +5711,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6185,9 +5735,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6212,9 +5759,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6239,9 +5783,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
@@ -6265,9 +5806,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -6295,9 +5833,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
@@ -6321,9 +5856,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "plate armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
@@ -6819,9 +6351,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -6845,9 +6374,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -6871,9 +6397,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -6897,9 +6420,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
@@ -6922,9 +6442,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6948,9 +6465,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -6974,9 +6488,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7000,9 +6511,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7026,9 +6534,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
@@ -7051,9 +6556,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7077,9 +6579,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7103,9 +6602,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7129,9 +6625,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7155,9 +6648,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7181,9 +6671,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7207,9 +6694,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
@@ -7232,9 +6716,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -7262,9 +6743,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
@@ -7287,9 +6765,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "ring mail|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
@@ -7768,9 +7243,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -7794,9 +7266,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -7820,9 +7289,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -7846,9 +7312,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
@@ -7871,9 +7334,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7897,9 +7357,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7923,9 +7380,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7949,9 +7403,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -7975,9 +7426,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
@@ -8000,9 +7448,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8026,9 +7471,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8052,9 +7494,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8078,9 +7517,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8104,9 +7540,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8130,9 +7563,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8156,9 +7586,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
@@ -8181,9 +7608,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -8211,9 +7635,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
@@ -8236,9 +7657,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "scale mail|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
@@ -8639,9 +8057,6 @@
     "_baseSource": "SCAG",
     "_variantName": "+1 Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -8665,9 +8080,6 @@
     "_baseSource": "SCAG",
     "_variantName": "+2 Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -8691,9 +8103,6 @@
     "_baseSource": "SCAG",
     "_variantName": "+3 Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -8717,9 +8126,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Adamantine Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
@@ -8773,9 +8179,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8799,9 +8202,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8825,9 +8225,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8851,9 +8248,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8899,9 +8293,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Gleaming",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
@@ -8924,9 +8315,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8950,9 +8338,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -8976,9 +8361,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9002,9 +8384,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9028,9 +8407,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9078,9 +8454,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9163,9 +8536,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Cast-Off Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
@@ -9378,9 +8748,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Mariner's Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -9432,9 +8799,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Mithral Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
@@ -9530,9 +8894,6 @@
     "_baseSource": "SCAG",
     "_variantName": "Smoldering Armor",
     "baseItem": "spiked armor|scag",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
@@ -9556,9 +8917,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -9583,9 +8941,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -9610,9 +8965,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -9637,9 +8989,6 @@
     "_baseSource": "PHB",
     "_variantName": "Adamantine Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Adamantine Armor|XDMG"
-    ],
     "_fullEntries": [
       "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
       "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
@@ -9663,9 +9012,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9690,9 +9036,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9717,9 +9060,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9744,9 +9084,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9771,9 +9108,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Gleaming",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Gleaming|XDMG"
-    ],
     "_fullEntries": [
       "This armor never gets dirty.",
       "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
@@ -9797,9 +9131,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9824,9 +9155,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9851,9 +9179,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9878,9 +9203,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9905,9 +9227,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9932,9 +9251,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -9959,9 +9275,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
@@ -9985,9 +9298,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -10015,9 +9325,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mithral Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Mithral Armor|XDMG"
-    ],
     "_fullEntries": [
       "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
       "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
@@ -10041,9 +9348,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "splint armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
@@ -10538,9 +9842,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "+1 Armor|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -10563,9 +9864,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "+2 Armor|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -10588,9 +9886,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "+3 Armor|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -10613,9 +9908,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Acid Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Acid Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10638,9 +9930,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Cold Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Cold Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10663,9 +9952,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Fire Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Fire Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10688,9 +9974,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Force Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Force Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10713,9 +9996,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Lightning Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Lightning Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10738,9 +10018,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Necrotic Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Necrotic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10763,9 +10040,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Poison Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Poison Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10788,9 +10062,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Psychic Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Psychic Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10813,9 +10084,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Radiant Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Radiant Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10838,9 +10106,6 @@
     "_baseSource": "PHB",
     "_variantName": "Armor of Thunder Resistance",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Armor of Thunder Resistance|XDMG"
-    ],
     "reqAttune": true,
     "_fullEntries": [
       "{#itemEntry Armor of Resistance}",
@@ -10863,9 +10128,6 @@
     "_baseSource": "PHB",
     "_variantName": "Cast-Off Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Cast-Off Armor|XDMG"
-    ],
     "_fullEntries": [
       "You can doff this armor as an action.",
       "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
@@ -10887,9 +10149,6 @@
     "_baseSource": "PHB",
     "_variantName": "Mariner's Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Mariner's Armor|XDMG"
-    ],
     "modifySpeed": {
       "equal": {
         "swim": "walk"
@@ -10916,9 +10175,6 @@
     "_baseSource": "PHB",
     "_variantName": "Smoldering Armor",
     "baseItem": "studded leather armor|phb",
-    "reprintedAs": [
-      "Smoldering Armor|XDMG"
-    ],
     "_fullEntries": [
       "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
       "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
@@ -11201,9 +10457,6 @@
   {
     "name": "Animated Shield",
     "source": "DMG",
-    "reprintedAs": [
-      "Animated Shield|XDMG"
-    ],
     "type": "S",
     "rarity": "very rare",
     "reqAttune": true,
@@ -11215,9 +10468,6 @@
   {
     "name": "Arrow-Catching Shield",
     "source": "DMG",
-    "reprintedAs": [
-      "Arrow-Catching Shield|XDMG"
-    ],
     "type": "S",
     "rarity": "rare",
     "reqAttune": true,
@@ -11405,9 +10655,6 @@
   {
     "name": "Sentinel Shield",
     "source": "DMG",
-    "reprintedAs": [
-      "Sentinel Shield|XDMG"
-    ],
     "type": "S",
     "rarity": "uncommon",
     "ac": 2,
@@ -11418,9 +10665,6 @@
   {
     "name": "Shield of Expression",
     "source": "XGE",
-    "reprintedAs": [
-      "Shield of Expression|XDMG"
-    ],
     "type": "S",
     "rarity": "common",
     "ac": 2,
@@ -11442,9 +10686,6 @@
   {
     "name": "Shield of Missile Attraction",
     "source": "DMG",
-    "reprintedAs": [
-      "Shield of Missile Attraction|XDMG"
-    ],
     "type": "S",
     "rarity": "rare",
     "reqAttune": true,
@@ -11656,9 +10897,6 @@
   {
     "name": "Spellguard Shield",
     "source": "DMG",
-    "reprintedAs": [
-      "Spellguard Shield|XDMG"
-    ],
     "type": "S",
     "rarity": "very rare",
     "reqAttune": true,
@@ -11696,9 +10934,6 @@
   {
     "name": "Shield",
     "source": "PHB",
-    "reprintedAs": [
-      "Shield|XPHB"
-    ],
     "type": "S",
     "rarity": "none",
     "value": 1000,
@@ -11722,9 +10957,6 @@
     "_baseSource": "PHB",
     "_variantName": "+1 Shield (*)",
     "baseItem": "shield|phb",
-    "reprintedAs": [
-      "+1 Shield (*)|XDMG"
-    ],
     "bonusAc": "+1",
     "_fullEntries": [
       "While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
@@ -11746,9 +10978,6 @@
     "_baseSource": "PHB",
     "_variantName": "+2 Shield (*)",
     "baseItem": "shield|phb",
-    "reprintedAs": [
-      "+2 Shield (*)|XDMG"
-    ],
     "bonusAc": "+2",
     "_fullEntries": [
       "While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
@@ -11770,9 +10999,6 @@
     "_baseSource": "PHB",
     "_variantName": "+3 Shield (*)",
     "baseItem": "shield|phb",
-    "reprintedAs": [
-      "+3 Shield (*)|XDMG"
-    ],
     "bonusAc": "+3",
     "_fullEntries": [
       "While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
@@ -11782,9 +11008,6 @@
   {
     "name": "Black Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Black Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "acid"
@@ -11802,9 +11025,6 @@
   {
     "name": "Blue Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Blue Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "lightning"
@@ -11822,9 +11042,6 @@
   {
     "name": "Brass Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Brass Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "fire"
@@ -11884,9 +11101,6 @@
   {
     "name": "Bronze Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Bronze Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "lightning"
@@ -11904,9 +11118,6 @@
   {
     "name": "Copper Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Copper Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "acid"
@@ -11924,9 +11135,6 @@
   {
     "name": "Dragonguard",
     "source": "LMoP",
-    "reprintedAs": [
-      "Dragonguard|PaBTSO"
-    ],
     "type": "MA",
     "rarity": "rare",
     "ac": 14,
@@ -11953,12 +11161,6 @@
   {
     "name": "Elven Chain",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Elven Chain|XDMG",
-        "tag": "item"
-      }
-    ],
     "type": "MA",
     "rarity": "rare",
     "ac": 13,
@@ -11971,9 +11173,6 @@
   {
     "name": "Gold Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Gold Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "fire"
@@ -11991,9 +11190,6 @@
   {
     "name": "Green Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Green Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "poison"
@@ -12011,9 +11207,6 @@
   {
     "name": "Red Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Red Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "fire"
@@ -12043,9 +11236,6 @@
   {
     "name": "Silver Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "Silver Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "cold"
@@ -12123,9 +11313,6 @@
   {
     "name": "White Dragon Scale Mail",
     "source": "DMG",
-    "reprintedAs": [
-      "White Dragon Scale Mail|XDMG"
-    ],
     "type": "MA",
     "resist": [
       "cold"
@@ -12143,9 +11330,6 @@
   {
     "name": "Armor of Invulnerability",
     "source": "DMG",
-    "reprintedAs": [
-      "Armor of Invulnerability|XDMG"
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "rarity": "legendary",
@@ -12160,12 +11344,6 @@
   {
     "name": "Armor of Vulnerability (Bludgeoning)",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Armor of Vulnerability (Bludgeoning)|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "resist": [
@@ -12195,12 +11373,6 @@
   {
     "name": "Armor of Vulnerability (Piercing)",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Armor of Vulnerability (Piercing)|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "resist": [
@@ -12230,12 +11402,6 @@
   {
     "name": "Armor of Vulnerability (Slashing)",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Armor of Vulnerability (Slashing)|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "resist": [
@@ -12265,12 +11431,6 @@
   {
     "name": "Demon Armor",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Demon Armor|XDMG",
-        "tag": "item"
-      }
-    ],
     "type": "HA",
     "rarity": "very rare",
     "reqAttune": true,
@@ -12294,12 +11454,6 @@
   {
     "name": "Dwarven Plate",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Dwarven Plate|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "rarity": "very rare",
@@ -12314,12 +11468,6 @@
   {
     "name": "Efreeti Chain",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Efreeti Chain|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "chain mail|phb",
     "type": "HA",
     "immune": [
@@ -12382,12 +11530,6 @@
   {
     "name": "Plate Armor of Etherealness",
     "source": "DMG",
-    "reprintedAs": [
-      {
-        "uid": "Plate Armor of Etherealness (*)|XDMG",
-        "tag": "item"
-      }
-    ],
     "baseItem": "plate armor|phb",
     "type": "HA",
     "rarity": "legendary",
@@ -12586,9 +11728,6 @@
   {
     "name": "Glamoured Studded Leather",
     "source": "DMG",
-    "reprintedAs": [
-      "Glamoured Studded Leather|XDMG"
-    ],
     "type": "LA",
     "rarity": "rare",
     "ac": 12,

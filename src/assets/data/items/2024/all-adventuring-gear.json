@@ -1,26 +1,4 @@
 {
-  "_meta": {
-    "sources": [
-      "data/items.json",
-      "data/items-base.json",
-      "data/magicvariants.json"
-    ],
-    "counts": {
-      "items": 2416,
-      "itemGroups": 108,
-      "baseItems": 230,
-      "genericVariants": 214,
-      "specificVariants": 3420,
-      "total": 6388
-    },
-    "categories": {
-      "Item": "Regular item entries from items.json",
-      "Item Group": "Item group entries from items.json",
-      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
-      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
-      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
-    }
-  },
   "item": [
     {
       "name": "Acid",

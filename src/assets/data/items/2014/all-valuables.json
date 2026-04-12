@@ -1,33 +1,8 @@
 {
-  "_meta": {
-    "sources": [
-      "data/items.json",
-      "data/items-base.json",
-      "data/magicvariants.json"
-    ],
-    "counts": {
-      "items": 2416,
-      "itemGroups": 108,
-      "baseItems": 230,
-      "genericVariants": 214,
-      "specificVariants": 3420,
-      "total": 6388
-    },
-    "categories": {
-      "Item": "Regular item entries from items.json",
-      "Item Group": "Item group entries from items.json",
-      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
-      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
-      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
-    }
-  },
   "item": [
     {
       "name": "Alexandrite",
       "source": "DMG",
-      "reprintedAs": [
-        "Alexandrite|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -38,9 +13,6 @@
     {
       "name": "Amber",
       "source": "DMG",
-      "reprintedAs": [
-        "Amber|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -51,9 +23,6 @@
     {
       "name": "Amethyst",
       "source": "DMG",
-      "reprintedAs": [
-        "Amethyst|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -71,9 +40,6 @@
     {
       "name": "Aquamarine",
       "source": "DMG",
-      "reprintedAs": [
-        "Aquamarine|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -84,9 +50,6 @@
     {
       "name": "Azurite",
       "source": "DMG",
-      "reprintedAs": [
-        "Azurite|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -97,9 +60,6 @@
     {
       "name": "Banded Agate",
       "source": "DMG",
-      "reprintedAs": [
-        "Banded Agate|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -110,9 +70,6 @@
     {
       "name": "Bejeweled ivory drinking horn with gold filigree",
       "source": "DMG",
-      "reprintedAs": [
-        "Bejeweled ivory drinking horn with gold filigree|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -127,9 +84,6 @@
     {
       "name": "Black Opal",
       "source": "DMG",
-      "reprintedAs": [
-        "Black Opal|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -140,9 +94,6 @@
     {
       "name": "Black Pearl",
       "source": "DMG",
-      "reprintedAs": [
-        "Black Pearl|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -153,9 +104,6 @@
     {
       "name": "Black Sapphire",
       "source": "DMG",
-      "reprintedAs": [
-        "Black Sapphire|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 500000,
@@ -166,9 +114,6 @@
     {
       "name": "Black velvet mask stitched with silver thread",
       "source": "DMG",
-      "reprintedAs": [
-        "Black velvet mask stitched with silver thread|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -176,9 +121,6 @@
     {
       "name": "Bloodstone",
       "source": "DMG",
-      "reprintedAs": [
-        "Bloodstone|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -189,9 +131,6 @@
     {
       "name": "Blue Quartz",
       "source": "DMG",
-      "reprintedAs": [
-        "Blue Quartz|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -202,9 +141,6 @@
     {
       "name": "Blue Sapphire",
       "source": "DMG",
-      "reprintedAs": [
-        "Blue Sapphire|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -215,9 +151,6 @@
     {
       "name": "Blue Spinel",
       "source": "DMG",
-      "reprintedAs": [
-        "Blue Spinel|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -228,9 +161,6 @@
     {
       "name": "Bottle stopper cork embossed with gold leaf and set with amethysts",
       "source": "DMG",
-      "reprintedAs": [
-        "Bottle stopper cork embossed with gold leaf and set with amethysts|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -238,9 +168,6 @@
     {
       "name": "Box of turquoise animal figurines",
       "source": "DMG",
-      "reprintedAs": [
-        "Box of turquoise animal figurines|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -248,9 +175,6 @@
     {
       "name": "Brass mug with jade inlay",
       "source": "DMG",
-      "reprintedAs": [
-        "Brass mug with jade inlay|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -258,9 +182,6 @@
     {
       "name": "Bronze crown",
       "source": "DMG",
-      "reprintedAs": [
-        "Bronze crown|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -275,9 +196,6 @@
     {
       "name": "Carnelian",
       "source": "DMG",
-      "reprintedAs": [
-        "Carnelian|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -288,9 +206,6 @@
     {
       "name": "Carved bone statuette",
       "source": "DMG",
-      "reprintedAs": [
-        "Carved bone statuette|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -298,9 +213,6 @@
     {
       "name": "Carved harp of exotic wood with ivory inlay and zircon gems",
       "source": "DMG",
-      "reprintedAs": [
-        "Carved wooden harp with ivory inlay and zircon gems|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -308,9 +220,6 @@
     {
       "name": "Carved ivory statuette",
       "source": "DMG",
-      "reprintedAs": [
-        "Carved ivory statuette|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -325,9 +234,6 @@
     {
       "name": "Ceremonial electrum dagger with a black pearl in the pommel",
       "source": "DMG",
-      "reprintedAs": [
-        "Detailed, life-sized dragonborn skull cast in electrum|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -342,9 +248,6 @@
     {
       "name": "Chalcedony",
       "source": "DMG",
-      "reprintedAs": [
-        "Chalcedony|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -355,9 +258,6 @@
     {
       "name": "Chrysoberyl",
       "source": "DMG",
-      "reprintedAs": [
-        "Chrysoberyl|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -368,9 +268,6 @@
     {
       "name": "Chrysoprase",
       "source": "DMG",
-      "reprintedAs": [
-        "Chrysoprase|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -381,9 +278,6 @@
     {
       "name": "Citrine",
       "source": "DMG",
-      "reprintedAs": [
-        "Citrine|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -394,9 +288,6 @@
     {
       "name": "Cloth-of-gold vestments",
       "source": "DMG",
-      "reprintedAs": [
-        "Cloth-of-gold vestments|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -433,9 +324,6 @@
     {
       "name": "Copper chalice with silver filigree",
       "source": "DMG",
-      "reprintedAs": [
-        "Copper chalice with silver filigree|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -457,9 +345,6 @@
     {
       "name": "Coral",
       "source": "DMG",
-      "reprintedAs": [
-        "Coral|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -470,9 +355,6 @@
     {
       "name": "Diamond",
       "source": "DMG",
-      "reprintedAs": [
-        "Diamond|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 500000,
@@ -515,9 +397,6 @@
     {
       "name": "Embroidered glove set with jewel chips",
       "source": "DMG",
-      "reprintedAs": [
-        "Embroidered glove set with jewel chips|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -525,9 +404,6 @@
     {
       "name": "Embroidered silk and velvet mantle set with numerous moonstones",
       "source": "DMG",
-      "reprintedAs": [
-        "Embroidered silk and velvet mantle set with numerous moonstones|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -535,9 +411,6 @@
     {
       "name": "Embroidered silk handkerchief",
       "source": "DMG",
-      "reprintedAs": [
-        "Embroidered silk handkerchief|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -545,9 +418,6 @@
     {
       "name": "Emerald",
       "source": "DMG",
-      "reprintedAs": [
-        "Emerald|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -558,9 +428,6 @@
     {
       "name": "Eye Agate",
       "source": "DMG",
-      "reprintedAs": [
-        "Eye Agate|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -571,9 +438,6 @@
     {
       "name": "Eye patch with a mock eye set in blue sapphire and moonstone",
       "source": "DMG",
-      "reprintedAs": [
-        "Eye patch decorated with tiny blue sapphires and moonstones|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -595,9 +459,6 @@
     {
       "name": "Fine gold chain set with a fire opal",
       "source": "DMG",
-      "reprintedAs": [
-        "Fine gold chain set with a fire opal|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -633,9 +494,6 @@
     {
       "name": "Fire Opal",
       "source": "DMG",
-      "reprintedAs": [
-        "Fire Opal|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -646,9 +504,6 @@
     {
       "name": "Garnet",
       "source": "DMG",
-      "reprintedAs": [
-        "Garnet|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -688,9 +543,6 @@
     {
       "name": "Gold bird cage with electrum filigree",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold birdcage with electrum filigree|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -712,9 +564,6 @@
     {
       "name": "Gold circlet set with four aquamarines",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold circlet set with four aquamarines|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -722,9 +571,6 @@
     {
       "name": "Gold cup set with emeralds",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold cup set with emeralds|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -732,9 +578,6 @@
     {
       "name": "Gold dragon comb set with red garnets as eyes",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold comb shaped like a dragon with red garnets as eyes|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -742,9 +585,6 @@
     {
       "name": "Gold jewelry box with platinum filigree",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold jewelry box with platinum filigree|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -759,9 +599,6 @@
     {
       "name": "Gold locket with a painted portrait inside",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold locket with a painted portrait inside|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -776,9 +613,6 @@
     {
       "name": "Gold music box",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold music box|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -800,9 +634,6 @@
     {
       "name": "Gold ring set with bloodstones",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold ring set with bloodstones|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -848,9 +679,6 @@
     {
       "name": "Hematite",
       "source": "DMG",
-      "reprintedAs": [
-        "Hematite|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -861,9 +689,6 @@
     {
       "name": "Jacinth",
       "source": "DMG",
-      "reprintedAs": [
-        "Jacinth|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 500000,
@@ -874,9 +699,6 @@
     {
       "name": "Jade",
       "source": "DMG",
-      "reprintedAs": [
-        "Jade|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -901,9 +723,6 @@
     {
       "name": "Jade game board with solid gold playing pieces",
       "source": "DMG",
-      "reprintedAs": [
-        "Jade game board with gold playing pieces|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -932,9 +751,6 @@
     {
       "name": "Jasper",
       "source": "DMG",
-      "reprintedAs": [
-        "Jasper|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -945,9 +761,6 @@
     {
       "name": "Jet",
       "source": "DMG",
-      "reprintedAs": [
-        "Jet|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -958,9 +771,6 @@
     {
       "name": "Jeweled anklet",
       "source": "DMG",
-      "reprintedAs": [
-        "Jeweled anklet|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -975,9 +785,6 @@
     {
       "name": "Jeweled gold crown",
       "source": "DMG",
-      "reprintedAs": [
-        "Jeweled gold crown|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -985,9 +792,6 @@
     {
       "name": "Jeweled platinum ring",
       "source": "DMG",
-      "reprintedAs": [
-        "Jeweled platinum ring|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -995,9 +799,6 @@
     {
       "name": "Lapis Lazuli",
       "source": "DMG",
-      "reprintedAs": [
-        "Lapis Lazuli|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1008,9 +809,6 @@
     {
       "name": "Large gold bracelet",
       "source": "DMG",
-      "reprintedAs": [
-        "Bejeweled gold bracelet|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -1032,9 +830,6 @@
     {
       "name": "Large well-made tapestry",
       "source": "DMG",
-      "reprintedAs": [
-        "Well-made tapestry that is 10 feet by 10 feet|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -1057,9 +852,6 @@
     {
       "name": "Malachite",
       "source": "DMG",
-      "reprintedAs": [
-        "Malachite|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1084,9 +876,6 @@
     {
       "name": "Moonstone",
       "source": "DMG",
-      "reprintedAs": [
-        "Moonstone|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1097,9 +886,6 @@
     {
       "name": "Moss Agate",
       "source": "DMG",
-      "reprintedAs": [
-        "Moss Agate|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1124,9 +910,6 @@
     {
       "name": "Necklace string of small pink pearls",
       "source": "DMG",
-      "reprintedAs": [
-        "Necklace string of small pink pearls|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -1144,9 +927,6 @@
     {
       "name": "Obsidian",
       "source": "DMG",
-      "reprintedAs": [
-        "Obsidian|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1157,9 +937,6 @@
     {
       "name": "Obsidian statuette with gold fittings and inlay",
       "source": "DMG",
-      "reprintedAs": [
-        "Obsidian statuette with gold fittings and inlay|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1167,9 +944,6 @@
     {
       "name": "Old masterpiece painting",
       "source": "DMG",
-      "reprintedAs": [
-        "Old masterpiece painting|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -1177,9 +951,6 @@
     {
       "name": "Onyx",
       "source": "DMG",
-      "reprintedAs": [
-        "Onyx|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1190,9 +961,6 @@
     {
       "name": "Opal",
       "source": "DMG",
-      "reprintedAs": [
-        "Opal|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -1203,9 +971,6 @@
     {
       "name": "Painted gold child's sarcophagus",
       "source": "DMG",
-      "reprintedAs": [
-        "Set of gold nesting dolls|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -1213,9 +978,6 @@
     {
       "name": "Painted gold war mask",
       "source": "DMG",
-      "reprintedAs": [
-        "Painted gold war mask|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1223,9 +985,6 @@
     {
       "name": "Pair of engraved bone dice",
       "source": "DMG",
-      "reprintedAs": [
-        "Pair of engraved bone dice|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -1240,9 +999,6 @@
     {
       "name": "Pearl",
       "source": "DMG",
-      "reprintedAs": [
-        "Pearl|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -1253,9 +1009,6 @@
     {
       "name": "Peridot",
       "source": "DMG",
-      "reprintedAs": [
-        "Peridot|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -1302,9 +1055,6 @@
     {
       "name": "Platinum bracelet set with a sapphire",
       "source": "DMG",
-      "reprintedAs": [
-        "Platinum bracelet set with an emerald|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 250000
@@ -1333,9 +1083,6 @@
     {
       "name": "Quartz",
       "source": "DMG",
-      "reprintedAs": [
-        "Quartz|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1346,9 +1093,6 @@
     {
       "name": "Rhodochrosite",
       "source": "DMG",
-      "reprintedAs": [
-        "Rhodochrosite|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1359,9 +1103,6 @@
     {
       "name": "Ruby",
       "source": "DMG",
-      "reprintedAs": [
-        "Ruby|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 500000,
@@ -1372,9 +1113,6 @@
     {
       "name": "Sardonyx",
       "source": "DMG",
-      "reprintedAs": [
-        "Sardonyx|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1395,9 +1133,6 @@
     {
       "name": "Silk robe with gold embroidery",
       "source": "DMG",
-      "reprintedAs": [
-        "Silk vestments with gold embroidery|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -1427,9 +1162,6 @@
     {
       "name": "Silver and gold brooch",
       "source": "DMG",
-      "reprintedAs": [
-        "Silver and gold brooch|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1437,9 +1169,6 @@
     {
       "name": "Silver chalice set with moonstones",
       "source": "DMG",
-      "reprintedAs": [
-        "Silver chalice set with moonstones|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1447,9 +1176,6 @@
     {
       "name": "Silver ewer",
       "source": "DMG",
-      "reprintedAs": [
-        "Silver ewer|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -1471,9 +1197,6 @@
     {
       "name": "Silver necklace with a gemstone pendant",
       "source": "DMG",
-      "reprintedAs": [
-        "Silver necklace with a gemstone pendant|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 25000
@@ -1495,9 +1218,6 @@
     {
       "name": "Silver-plated steel longsword with jet set in hilt",
       "source": "DMG",
-      "reprintedAs": [
-        "Bundle of sheet music representing the lost dirges of a famous composer|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1505,9 +1225,6 @@
     {
       "name": "Small gold bracelet",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold bracelet|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -1515,9 +1232,6 @@
     {
       "name": "Small gold idol",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold idol|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 75000
@@ -1525,9 +1239,6 @@
     {
       "name": "Small gold statuette set with rubies",
       "source": "DMG",
-      "reprintedAs": [
-        "Gold statuette set with rubies|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 750000
@@ -1535,9 +1246,6 @@
     {
       "name": "Small mirror set in a painted wooden frame",
       "source": "DMG",
-      "reprintedAs": [
-        "Handheld mirror set in a painted wooden frame|XDMG"
-      ],
       "type": "$A|DMG",
       "rarity": "none",
       "value": 2500
@@ -1545,9 +1253,6 @@
     {
       "name": "Spinel",
       "source": "DMG",
-      "reprintedAs": [
-        "Spinel|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -1558,9 +1263,6 @@
     {
       "name": "Star rose quartz",
       "source": "DMG",
-      "reprintedAs": [
-        "Star rose quartz|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1571,9 +1273,6 @@
     {
       "name": "Star Ruby",
       "source": "DMG",
-      "reprintedAs": [
-        "Star Ruby|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -1584,9 +1283,6 @@
     {
       "name": "Star Sapphire",
       "source": "DMG",
-      "reprintedAs": [
-        "Star Sapphire|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -1624,9 +1320,6 @@
     {
       "name": "Tiger Eye",
       "source": "DMG",
-      "reprintedAs": [
-        "Tiger Eye|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1644,9 +1337,6 @@
     {
       "name": "Topaz",
       "source": "DMG",
-      "reprintedAs": [
-        "Topaz|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 50000,
@@ -1657,9 +1347,6 @@
     {
       "name": "Tourmaline",
       "source": "DMG",
-      "reprintedAs": [
-        "Tourmaline|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 10000,
@@ -1677,9 +1364,6 @@
     {
       "name": "Turquoise",
       "source": "DMG",
-      "reprintedAs": [
-        "Turquoise|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 1000,
@@ -1697,9 +1381,6 @@
     {
       "name": "Yellow Sapphire",
       "source": "DMG",
-      "reprintedAs": [
-        "Yellow Sapphire|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 100000,
@@ -1710,9 +1391,6 @@
     {
       "name": "Zircon",
       "source": "DMG",
-      "reprintedAs": [
-        "Zircon|XDMG"
-      ],
       "type": "$G|DMG",
       "rarity": "none",
       "value": 5000,
@@ -1730,9 +1408,6 @@
     {
       "name": "Canvas (1 sq. yd.)",
       "source": "PHB",
-      "reprintedAs": [
-        "Canvas (1 sq. yd.)|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 10
@@ -1740,9 +1415,6 @@
     {
       "name": "Chicken",
       "source": "PHB",
-      "reprintedAs": [
-        "Chicken|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 2
@@ -1750,9 +1422,6 @@
     {
       "name": "Cinnamon",
       "source": "PHB",
-      "reprintedAs": [
-        "Cinnamon|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 200
@@ -1760,9 +1429,6 @@
     {
       "name": "Cloves",
       "source": "PHB",
-      "reprintedAs": [
-        "Cloves|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 300
@@ -1770,9 +1436,6 @@
     {
       "name": "Copper",
       "source": "PHB",
-      "reprintedAs": [
-        "Copper|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 50
@@ -1780,9 +1443,6 @@
     {
       "name": "Cotton Cloth (1 sq. yd.)",
       "source": "PHB",
-      "reprintedAs": [
-        "Cotton Cloth (1 sq. yd.)|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 50
@@ -1790,9 +1450,6 @@
     {
       "name": "Cow",
       "source": "PHB",
-      "reprintedAs": [
-        "Cow|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 1000
@@ -1800,9 +1457,6 @@
     {
       "name": "Flour",
       "source": "PHB",
-      "reprintedAs": [
-        "Flour|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 2
@@ -1810,9 +1464,6 @@
     {
       "name": "Ginger",
       "source": "PHB",
-      "reprintedAs": [
-        "Ginger|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 100
@@ -1820,9 +1471,6 @@
     {
       "name": "Goat",
       "source": "PHB",
-      "reprintedAs": [
-        "Goat|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 100
@@ -1830,9 +1478,6 @@
     {
       "name": "Gold",
       "source": "PHB",
-      "reprintedAs": [
-        "Gold|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 5000
@@ -1840,9 +1485,6 @@
     {
       "name": "Iron",
       "source": "PHB",
-      "reprintedAs": [
-        "Iron|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 10
@@ -1850,9 +1492,6 @@
     {
       "name": "Linen (1 sq. yd.)",
       "source": "PHB",
-      "reprintedAs": [
-        "Linen (1 sq. yd.)|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 500
@@ -1860,9 +1499,6 @@
     {
       "name": "Ox",
       "source": "PHB",
-      "reprintedAs": [
-        "Ox|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 1500
@@ -1870,9 +1506,6 @@
     {
       "name": "Pepper",
       "source": "PHB",
-      "reprintedAs": [
-        "Pepper|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 200
@@ -1880,9 +1513,6 @@
     {
       "name": "Pig",
       "source": "PHB",
-      "reprintedAs": [
-        "Pig|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 300
@@ -1890,9 +1520,6 @@
     {
       "name": "Platinum",
       "source": "PHB",
-      "reprintedAs": [
-        "Platinum|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 50000
@@ -1900,9 +1527,6 @@
     {
       "name": "Saffron",
       "source": "PHB",
-      "reprintedAs": [
-        "Saffron|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 1500
@@ -1910,9 +1534,6 @@
     {
       "name": "Salt",
       "source": "PHB",
-      "reprintedAs": [
-        "Salt|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 5
@@ -1920,9 +1541,6 @@
     {
       "name": "Sheep",
       "source": "PHB",
-      "reprintedAs": [
-        "Sheep|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 200
@@ -1930,9 +1548,6 @@
     {
       "name": "Silk (1 sq. yd.)",
       "source": "PHB",
-      "reprintedAs": [
-        "Silk|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 1000
@@ -1940,9 +1555,6 @@
     {
       "name": "Silver",
       "source": "PHB",
-      "reprintedAs": [
-        "Silver|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 500
@@ -1950,9 +1562,6 @@
     {
       "name": "Wheat",
       "source": "PHB",
-      "reprintedAs": [
-        "Wheat|XDMG"
-      ],
       "type": "TG",
       "rarity": "none",
       "value": 1
@@ -1970,9 +1579,6 @@
     {
       "name": "Ale (mug)",
       "source": "PHB",
-      "reprintedAs": [
-        "Ale (mug)|XPHB"
-      ],
       "type": "FD",
       "rarity": "none",
       "value": 4,
@@ -1993,9 +1599,6 @@
     {
       "name": "Common Wine (pitcher)",
       "source": "PHB",
-      "reprintedAs": [
-        "Common Wine (bottle)|XPHB"
-      ],
       "type": "FD",
       "rarity": "none",
       "value": 20,
@@ -2006,9 +1609,6 @@
     {
       "name": "Dice Set",
       "source": "PHB",
-      "reprintedAs": [
-        "Dice Set|XPHB"
-      ],
       "type": "GS",
       "rarity": "none",
       "value": 10
@@ -2016,9 +1616,6 @@
     {
       "name": "Dragonchess Set",
       "source": "PHB",
-      "reprintedAs": [
-        "Dragonchess Set|XPHB"
-      ],
       "type": "GS",
       "rarity": "none",
       "value": 100
@@ -2026,9 +1623,6 @@
     {
       "name": "Fine Wine (bottle)",
       "source": "PHB",
-      "reprintedAs": [
-        "Fine Wine (bottle)|XPHB"
-      ],
       "type": "FD",
       "rarity": "none",
       "value": 1000,
@@ -2039,9 +1633,6 @@
     {
       "name": "Hunk of Cheese",
       "source": "PHB",
-      "reprintedAs": [
-        "Cheese (wedge)|XPHB"
-      ],
       "type": "FD",
       "rarity": "none",
       "value": 10,
@@ -2052,9 +1643,6 @@
     {
       "name": "Loaf of Bread",
       "source": "PHB",
-      "reprintedAs": [
-        "Bread (loaf)|XPHB"
-      ],
       "type": "FD",
       "rarity": "none",
       "value": 2,
@@ -2065,9 +1653,6 @@
     {
       "name": "Playing Card Set",
       "source": "PHB",
-      "reprintedAs": [
-        "Playing Cards|XPHB"
-      ],
       "type": "GS",
       "rarity": "none",
       "value": 50
@@ -2087,9 +1672,6 @@
     {
       "name": "Three-Dragon Ante Set",
       "source": "PHB",
-      "reprintedAs": [
-        "Three-Dragon Ante Set|XPHB"
-      ],
       "type": "GS",
       "rarity": "none",
       "value": 100

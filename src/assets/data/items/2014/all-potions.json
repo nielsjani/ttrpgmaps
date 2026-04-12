@@ -30,9 +30,6 @@
   {
     "name": "Elixir of Health",
     "source": "DMG",
-    "reprintedAs": [
-      "Elixir of Health|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -57,9 +54,6 @@
   {
     "name": "Oil of Etherealness",
     "source": "DMG",
-    "reprintedAs": [
-      "Oil of Etherealness|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -75,9 +69,6 @@
   {
     "name": "Oil of Sharpness",
     "source": "DMG",
-    "reprintedAs": [
-      "Oil of Sharpness|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "bonusWeapon": "+3",
@@ -91,9 +82,6 @@
   {
     "name": "Oil of Slipperiness",
     "source": "DMG",
-    "reprintedAs": [
-      "Oil of Slipperiness|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -110,9 +98,6 @@
   {
     "name": "Philter of Love",
     "source": "DMG",
-    "reprintedAs": [
-      "Philter of Love|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -125,9 +110,6 @@
   {
     "name": "Potion of Acid Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Acid Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "acid"
@@ -156,9 +138,6 @@
   {
     "name": "Potion of Animal Friendship",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Animal Friendship|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -213,9 +192,6 @@
   {
     "name": "Potion of Clairvoyance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Clairvoyance|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -231,9 +207,6 @@
   {
     "name": "Potion of Climbing",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Climbing|XDMG"
-    ],
     "type": "P",
     "rarity": "common",
     "modifySpeed": {
@@ -251,9 +224,6 @@
   {
     "name": "Potion of Cloud Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Cloud Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "ability": {
@@ -272,9 +242,6 @@
   {
     "name": "Potion of Cold Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Cold Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "cold"
@@ -290,9 +257,6 @@
   {
     "name": "Potion of Comprehension",
     "source": "WDMM",
-    "reprintedAs": [
-      "Potion of Comprehension|XDMG"
-    ],
     "type": "P",
     "rarity": "common",
     "entries": [
@@ -305,9 +269,6 @@
   {
     "name": "Potion of Diminution",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Diminution|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -335,9 +296,6 @@
   {
     "name": "Potion of Fire Breath",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Fire Breath|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -350,9 +308,6 @@
   {
     "name": "Potion of Fire Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Fire Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "ability": {
@@ -371,9 +326,6 @@
   {
     "name": "Potion of Fire Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Fire Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "fire"
@@ -389,9 +341,6 @@
   {
     "name": "Potion of Flying",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Flying|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "modifySpeed": {
@@ -409,9 +358,6 @@
   {
     "name": "Potion of Force Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Force Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "force"
@@ -427,9 +373,6 @@
   {
     "name": "Potion of Frost Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Frost Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "ability": {
@@ -448,9 +391,6 @@
   {
     "name": "Potion of Gaseous Form",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Gaseous Form|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -480,9 +420,6 @@
   {
     "name": "Potion of Greater Healing",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Greater Healing|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -495,9 +432,6 @@
   {
     "name": "Potion of Growth",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Growth|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -518,9 +452,6 @@
         "source": "PHB"
       }
     ],
-    "reprintedAs": [
-      "Potion of Healing|XDMG"
-    ],
     "type": "P",
     "rarity": "common",
     "value": 5000,
@@ -534,9 +465,6 @@
   {
     "name": "Potion of Heroism",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Heroism|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -552,9 +480,6 @@
   {
     "name": "Potion of Hill Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Hill Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "ability": {
@@ -573,9 +498,6 @@
   {
     "name": "Potion of Invisibility",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Invisibility|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "entries": [
@@ -588,9 +510,6 @@
   {
     "name": "Potion of Invulnerability",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Invulnerability|XDMG"
-    ],
     "type": "P",
     "resist": [
       "acid",
@@ -618,9 +537,6 @@
   {
     "name": "Potion of Lightning Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Lightning Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "lightning"
@@ -636,9 +552,6 @@
   {
     "name": "Potion of Longevity",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Longevity|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "entries": [
@@ -712,9 +625,6 @@
   {
     "name": "Potion of Mind Reading",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Mind Reading|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -730,9 +640,6 @@
   {
     "name": "Potion of Necrotic Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Necrotic Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "necrotic"
@@ -748,9 +655,6 @@
   {
     "name": "Potion of Poison",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Poison|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [
@@ -764,9 +668,6 @@
   {
     "name": "Potion of Poison Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Poison Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "poison"
@@ -823,9 +724,6 @@
   {
     "name": "Potion of Psychic Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Psychic Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "psychic"
@@ -841,9 +739,6 @@
   {
     "name": "Potion of Radiant Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Radiant Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "radiant"
@@ -859,9 +754,6 @@
   {
     "name": "Potion of Speed",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Speed|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "entries": [
@@ -877,9 +769,6 @@
   {
     "name": "Potion of Stone Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Stone Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "ability": {
@@ -898,9 +787,6 @@
   {
     "name": "Potion of Storm Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Storm Giant Strength|XDMG"
-    ],
     "type": "P",
     "rarity": "legendary",
     "ability": {
@@ -919,9 +805,6 @@
   {
     "name": "Potion of Superior Healing",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Superior Healing|XDMG"
-    ],
     "type": "P",
     "rarity": "rare",
     "entries": [
@@ -934,9 +817,6 @@
   {
     "name": "Potion of Supreme Healing",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Supreme Healing|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "entries": [
@@ -949,9 +829,6 @@
   {
     "name": "Potion of Thunder Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Thunder Resistance|XDMG"
-    ],
     "type": "P",
     "resist": [
       "thunder"
@@ -967,9 +844,6 @@
   {
     "name": "Potion of Vitality",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Vitality|XDMG"
-    ],
     "type": "P",
     "rarity": "very rare",
     "entries": [
@@ -994,9 +868,6 @@
   {
     "name": "Potion of Water Breathing",
     "source": "DMG",
-    "reprintedAs": [
-      "Potion of Water Breathing|XDMG"
-    ],
     "type": "P",
     "rarity": "uncommon",
     "entries": [

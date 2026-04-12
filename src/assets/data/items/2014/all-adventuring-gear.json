@@ -1,26 +1,4 @@
 {
-  "_meta": {
-    "sources": [
-      "data/items.json",
-      "data/items-base.json",
-      "data/magicvariants.json"
-    ],
-    "counts": {
-      "items": 2416,
-      "itemGroups": 108,
-      "baseItems": 230,
-      "genericVariants": 214,
-      "specificVariants": 3420,
-      "total": 6388
-    },
-    "categories": {
-      "Item": "Regular item entries from items.json",
-      "Item Group": "Item group entries from items.json",
-      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
-      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
-      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
-    }
-  },
   "item": [
     {
       "name": "Abacus",
@@ -32,9 +10,6 @@
     {
       "name": "Acid (vial)",
       "source": "PHB",
-      "reprintedAs": [
-        "Acid|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2500,
@@ -119,9 +94,6 @@
     {
       "name": "Alchemist's Fire (flask)",
       "source": "PHB",
-      "reprintedAs": [
-        "Alchemist's Fire|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 5000,
@@ -160,9 +132,6 @@
     {
       "name": "Antitoxin (vial)",
       "source": "PHB",
-      "reprintedAs": [
-        "Antitoxin|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 5000,
@@ -241,9 +210,6 @@
     {
       "name": "Backpack",
       "source": "PHB",
-      "reprintedAs": [
-        "Backpack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -269,9 +235,6 @@
     {
       "name": "Ball Bearings (bag of 1,000)",
       "source": "PHB",
-      "reprintedAs": [
-        "Ball Bearings|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -289,9 +252,6 @@
     {
       "name": "Barrel",
       "source": "PHB",
-      "reprintedAs": [
-        "Barrel|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -573,9 +533,6 @@
     {
       "name": "Basket",
       "source": "PHB",
-      "reprintedAs": [
-        "Basket|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 40,
@@ -591,9 +548,6 @@
     {
       "name": "Bedroll",
       "source": "PHB",
-      "reprintedAs": [
-        "Bedroll|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100
@@ -601,9 +555,6 @@
     {
       "name": "Bell",
       "source": "PHB",
-      "reprintedAs": [
-        "Bell|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100
@@ -637,9 +588,6 @@
     {
       "name": "Blanket",
       "source": "PHB",
-      "reprintedAs": [
-        "Blanket|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50
@@ -670,9 +618,6 @@
     {
       "name": "Block and Tackle",
       "source": "PHB",
-      "reprintedAs": [
-        "Block and Tackle|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -683,9 +628,6 @@
     {
       "name": "Book",
       "source": "PHB",
-      "reprintedAs": [
-        "Book|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2500,
@@ -696,9 +638,6 @@
     {
       "name": "Bucket",
       "source": "PHB",
-      "reprintedAs": [
-        "Bucket|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 5,
@@ -709,9 +648,6 @@
     {
       "name": "Bullseye Lantern",
       "source": "PHB",
-      "reprintedAs": [
-        "Bullseye Lantern|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1000,
@@ -729,9 +665,6 @@
     {
       "name": "Burglar's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Burglar's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1600,
@@ -801,9 +734,6 @@
     {
       "name": "Caltrops (bag of 20)",
       "source": "PHB",
-      "reprintedAs": [
-        "Caltrops|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -821,9 +751,6 @@
     {
       "name": "Candle",
       "source": "PHB",
-      "reprintedAs": [
-        "Candle|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1,
@@ -853,9 +780,6 @@
     {
       "name": "Chain (10 feet)",
       "source": "PHB",
-      "reprintedAs": [
-        "Chain|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -873,9 +797,6 @@
     {
       "name": "Chest",
       "source": "PHB",
-      "reprintedAs": [
-        "Chest|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -891,9 +812,6 @@
     {
       "name": "Climber's Kit",
       "source": "PHB",
-      "reprintedAs": [
-        "Climber's Kit|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2500,
@@ -922,9 +840,6 @@
     {
       "name": "Component Pouch",
       "source": "PHB",
-      "reprintedAs": [
-        "Component Pouch|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2500,
@@ -935,9 +850,6 @@
     {
       "name": "Costume Clothes",
       "source": "PHB",
-      "reprintedAs": [
-        "Costume|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500
@@ -955,9 +867,6 @@
     {
       "name": "Crossbow Bolt Case",
       "source": "PHB",
-      "reprintedAs": [
-        "Crossbow Bolt Case|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -975,9 +884,6 @@
     {
       "name": "Crowbar",
       "source": "PHB",
-      "reprintedAs": [
-        "Crowbar|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -988,9 +894,6 @@
     {
       "name": "Diplomat's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Diplomat's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 3900,
@@ -1039,9 +942,6 @@
     {
       "name": "Dungeoneer's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Dungeoneer's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1200,
@@ -1142,9 +1042,6 @@
     {
       "name": "Entertainer's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Entertainer's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 4000,
@@ -1185,9 +1082,6 @@
     {
       "name": "Explorer's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Explorer's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1000,
@@ -1671,9 +1565,6 @@
     {
       "name": "Fine Clothes",
       "source": "PHB",
-      "reprintedAs": [
-        "Fine Clothes|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1500
@@ -1691,9 +1582,6 @@
     {
       "name": "Flask",
       "source": "PHB",
-      "reprintedAs": [
-        "Flask|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2,
@@ -1864,9 +1752,6 @@
     {
       "name": "Glass Bottle",
       "source": "PHB",
-      "reprintedAs": [
-        "Glass Bottle|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -1936,9 +1821,6 @@
     {
       "name": "Grappling Hook",
       "source": "PHB",
-      "reprintedAs": [
-        "Grappling Hook|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200
@@ -1946,9 +1828,6 @@
     {
       "name": "Grenade Launcher",
       "source": "DMG",
-      "reprintedAs": [
-        "Grenade Launcher|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "age": "modern",
@@ -1966,9 +1845,6 @@
     {
       "name": "Healer's Kit",
       "source": "PHB",
-      "reprintedAs": [
-        "Healer's Kit|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -1979,9 +1855,6 @@
     {
       "name": "Hempen Rope (50 feet)",
       "source": "PHB",
-      "reprintedAs": [
-        "Rope|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -1992,9 +1865,6 @@
     {
       "name": "Holy Water (flask)",
       "source": "PHB",
-      "reprintedAs": [
-        "Holy Water|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2500,
@@ -2009,9 +1879,6 @@
     {
       "name": "Hooded Lantern",
       "source": "PHB",
-      "reprintedAs": [
-        "Hooded Lantern|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -2464,9 +2331,6 @@
     {
       "name": "Hunting Trap",
       "source": "PHB",
-      "reprintedAs": [
-        "Hunting Trap|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -2602,9 +2466,6 @@
     {
       "name": "Ink (1-ounce bottle)",
       "source": "PHB",
-      "reprintedAs": [
-        "Ink|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1000,
@@ -2615,9 +2476,6 @@
     {
       "name": "Ink Pen",
       "source": "PHB",
-      "reprintedAs": [
-        "Ink Pen|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2
@@ -2647,9 +2505,6 @@
     {
       "name": "Iron Pot",
       "source": "PHB",
-      "reprintedAs": [
-        "Iron Pot|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -2660,9 +2515,6 @@
     {
       "name": "Iron Spike",
       "source": "PHB",
-      "reprintedAs": [
-        "Iron Spike|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10
@@ -2670,9 +2522,6 @@
     {
       "name": "Iron Spikes (10)",
       "source": "PHB",
-      "reprintedAs": [
-        "Iron Spikes|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -2686,9 +2535,6 @@
     {
       "name": "Jug",
       "source": "PHB",
-      "reprintedAs": [
-        "Jug|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 2,
@@ -2773,9 +2619,6 @@
     {
       "name": "Ladder (10-foot)",
       "source": "PHB",
-      "reprintedAs": [
-        "Ladder|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10,
@@ -2786,9 +2629,6 @@
     {
       "name": "Lamp",
       "source": "PHB",
-      "reprintedAs": [
-        "Lamp|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50,
@@ -2805,9 +2645,6 @@
     {
       "name": "Lock",
       "source": "PHB",
-      "reprintedAs": [
-        "Lock|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1000,
@@ -2868,9 +2705,6 @@
     {
       "name": "Magnifying Glass",
       "source": "PHB",
-      "reprintedAs": [
-        "Magnifying Glass|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10000,
@@ -2881,9 +2715,6 @@
     {
       "name": "Manacles",
       "source": "PHB",
-      "reprintedAs": [
-        "Manacles|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -2894,9 +2725,6 @@
     {
       "name": "Map or Scroll Case",
       "source": "PHB",
-      "reprintedAs": [
-        "Map or Scroll Case|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -3119,9 +2947,6 @@
     {
       "name": "Oil (flask)",
       "source": "PHB",
-      "reprintedAs": [
-        "Oil|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10,
@@ -3145,9 +2970,6 @@
     {
       "name": "Paper (one sheet)",
       "source": "PHB",
-      "reprintedAs": [
-        "Paper|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 20
@@ -3173,9 +2995,6 @@
     {
       "name": "Parchment (one sheet)",
       "source": "PHB",
-      "reprintedAs": [
-        "Parchment|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10
@@ -3183,9 +3002,6 @@
     {
       "name": "Perfume (vial)",
       "source": "PHB",
-      "reprintedAs": [
-        "Perfume|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500,
@@ -3261,9 +3077,6 @@
     {
       "name": "Pole (10-foot)",
       "source": "PHB",
-      "reprintedAs": [
-        "Pole|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 5
@@ -3271,9 +3084,6 @@
     {
       "name": "Portable Ram",
       "source": "PHB",
-      "reprintedAs": [
-        "Portable Ram|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 400,
@@ -3284,9 +3094,6 @@
     {
       "name": "Pouch",
       "source": "PHB",
-      "reprintedAs": [
-        "Pouch|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50,
@@ -3328,9 +3135,6 @@
     {
       "name": "Priest's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Priest's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1900,
@@ -3483,9 +3287,6 @@
     {
       "name": "Quiver",
       "source": "PHB",
-      "reprintedAs": [
-        "Quiver|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -3513,9 +3314,6 @@
     {
       "name": "Rations (1 day)",
       "source": "PHB",
-      "reprintedAs": [
-        "Rations|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50,
@@ -3529,9 +3327,6 @@
     {
       "name": "Robes",
       "source": "PHB",
-      "reprintedAs": [
-        "Robe|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100
@@ -3585,9 +3380,6 @@
     {
       "name": "Sack",
       "source": "PHB",
-      "reprintedAs": [
-        "Sack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1,
@@ -3660,9 +3452,6 @@
     {
       "name": "Scholar's Pack",
       "source": "PHB",
-      "reprintedAs": [
-        "Scholar's Pack|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 4000,
@@ -3762,9 +3551,6 @@
     {
       "name": "Shovel",
       "source": "PHB",
-      "reprintedAs": [
-        "Shovel|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200
@@ -3772,9 +3558,6 @@
     {
       "name": "Signal Whistle",
       "source": "PHB",
-      "reprintedAs": [
-        "Signal Whistle|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 5
@@ -4144,9 +3927,6 @@
     {
       "name": "Spyglass",
       "source": "PHB",
-      "reprintedAs": [
-        "Spyglass|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100000,
@@ -4157,9 +3937,6 @@
     {
       "name": "Steel Mirror",
       "source": "PHB",
-      "reprintedAs": [
-        "Mirror|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 500
@@ -4215,9 +3992,6 @@
     {
       "name": "Tinderbox",
       "source": "PHB",
-      "reprintedAs": [
-        "Tinderbox|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50,
@@ -4237,9 +4011,6 @@
     {
       "name": "Torch",
       "source": "PHB",
-      "reprintedAs": [
-        "Torch|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 1,
@@ -4259,9 +4030,6 @@
     {
       "name": "Traveler's Clothes",
       "source": "PHB",
-      "reprintedAs": [
-        "Traveler's Clothes|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200
@@ -5347,9 +5115,6 @@
     {
       "name": "Trinket",
       "source": "PHB",
-      "reprintedAs": [
-        "Trinket|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "entries": [
@@ -5776,9 +5541,6 @@
     {
       "name": "Two-Person Tent",
       "source": "PHB",
-      "reprintedAs": [
-        "Tent|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200,
@@ -5789,9 +5551,6 @@
     {
       "name": "Vial",
       "source": "PHB",
-      "reprintedAs": [
-        "Vial|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 100,
@@ -5802,9 +5561,6 @@
     {
       "name": "Waterskin",
       "source": "PHB",
-      "reprintedAs": [
-        "Waterskin|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "weightNote": "(full)",
@@ -6003,9 +5759,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Alchemist's Supplies|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 5000,
@@ -6084,9 +5837,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Brewer's Supplies|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 2000,
@@ -6164,9 +5914,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Calligrapher's Supplies|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 1000,
@@ -6240,9 +5987,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Carpenter's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -6339,9 +6083,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Cartographer's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 1500,
@@ -6423,9 +6164,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Cobbler's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 500,
@@ -6498,9 +6236,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Cook's Utensils|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -6583,9 +6318,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Glassblower's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 3000,
@@ -6651,9 +6383,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Jeweler's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -6721,9 +6450,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Leatherworker's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 500,
@@ -6789,9 +6515,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Mason's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -6866,9 +6589,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Painter's Supplies|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 1000,
@@ -6934,9 +6654,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Potter's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -7008,9 +6725,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Smith's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 2000,
@@ -7081,9 +6795,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Tinker's Tools|XPHB"
-      ],
       "type": "AT",
       "rarity": "none",
       "value": 5000,
@@ -7153,9 +6864,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Weaver's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -7233,9 +6941,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Woodcarver's Tools|XPHB"
       ],
       "type": "AT",
       "rarity": "none",
@@ -7329,9 +7034,6 @@
     {
       "name": "Bagpipes",
       "source": "PHB",
-      "reprintedAs": [
-        "Bagpipes|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 3000,
@@ -7349,9 +7051,6 @@
     {
       "name": "Drum",
       "source": "PHB",
-      "reprintedAs": [
-        "Drum|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 600,
@@ -7360,9 +7059,6 @@
     {
       "name": "Dulcimer",
       "source": "PHB",
-      "reprintedAs": [
-        "Dulcimer|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 2500,
@@ -7371,9 +7067,6 @@
     {
       "name": "Flute",
       "source": "PHB",
-      "reprintedAs": [
-        "Flute|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 200,
@@ -7400,9 +7093,6 @@
     {
       "name": "Horn",
       "source": "PHB",
-      "reprintedAs": [
-        "Horn|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 300,
@@ -7420,9 +7110,6 @@
     {
       "name": "Lute",
       "source": "PHB",
-      "reprintedAs": [
-        "Lute|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 3500,
@@ -7431,9 +7118,6 @@
     {
       "name": "Lyre",
       "source": "PHB",
-      "reprintedAs": [
-        "Lyre|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 3000,
@@ -7442,9 +7126,6 @@
     {
       "name": "Pan Flute",
       "source": "PHB",
-      "reprintedAs": [
-        "Pan Flute|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 1200,
@@ -7453,9 +7134,6 @@
     {
       "name": "Shawm",
       "source": "PHB",
-      "reprintedAs": [
-        "Shawm|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 200,
@@ -7464,9 +7142,6 @@
     {
       "name": "Shawm",
       "source": "SCAG",
-      "reprintedAs": [
-        "Shawm|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "entries": [
@@ -7515,9 +7190,6 @@
     {
       "name": "Viol",
       "source": "PHB",
-      "reprintedAs": [
-        "Viol|XPHB"
-      ],
       "type": "INS",
       "rarity": "none",
       "value": 3000,
@@ -7535,9 +7207,6 @@
     {
       "name": "Yarting",
       "source": "SCAG",
-      "reprintedAs": [
-        "Yarting|FRHoF"
-      ],
       "type": "INS",
       "rarity": "none",
       "entries": [
@@ -7560,9 +7229,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Disguise Kit|XPHB"
       ],
       "type": "T",
       "rarity": "none",
@@ -7650,9 +7316,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Forgery Kit|XPHB"
       ],
       "type": "T",
       "rarity": "none",
@@ -7743,9 +7406,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Herbalism Kit|XPHB"
-      ],
       "type": "T",
       "rarity": "none",
       "value": 500,
@@ -7828,9 +7488,6 @@
           "source": "XGE"
         }
       ],
-      "reprintedAs": [
-        "Navigator's Tools|XPHB"
-      ],
       "type": "T",
       "rarity": "none",
       "value": 2500,
@@ -7891,9 +7548,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Poisoner's Kit|XPHB"
       ],
       "type": "T",
       "rarity": "none",
@@ -7977,9 +7631,6 @@
         {
           "source": "XGE"
         }
-      ],
-      "reprintedAs": [
-        "Thieves' Tools|XPHB"
       ],
       "type": "T",
       "rarity": "none",

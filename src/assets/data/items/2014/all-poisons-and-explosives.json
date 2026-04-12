@@ -1,33 +1,8 @@
 {
-  "_meta": {
-    "sources": [
-      "data/items.json",
-      "data/items-base.json",
-      "data/magicvariants.json"
-    ],
-    "counts": {
-      "items": 2416,
-      "itemGroups": 108,
-      "baseItems": 230,
-      "genericVariants": 214,
-      "specificVariants": 3420,
-      "total": 6388
-    },
-    "categories": {
-      "Item": "Regular item entries from items.json",
-      "Item Group": "Item group entries from items.json",
-      "Base Item": "Non-magical equipment (weapons, armour, etc.) from items-base.json",
-      "Generic Variant": "Magic item templates (e.g. '+1 Weapon') from magicvariants.json",
-      "Specific Variant": "Auto-generated combinations of a base item + magic variant (e.g. '+1 Longsword')"
-    }
-  },
   "item": [
     {
       "name": "Assassin's Blood",
       "source": "DMG",
-      "reprintedAs": [
-        "Assassin's Blood|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 15000,
@@ -45,9 +20,6 @@
     {
       "name": "Basic Poison (vial)",
       "source": "PHB",
-      "reprintedAs": [
-        "Basic Poison|XPHB"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 10000,
@@ -119,9 +91,6 @@
     {
       "name": "Burnt Othur Fumes",
       "source": "DMG",
-      "reprintedAs": [
-        "Burnt Othur Fumes|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 50000,
@@ -139,9 +108,6 @@
     {
       "name": "Carrion Crawler Mucus",
       "source": "DMG",
-      "reprintedAs": [
-        "Carrion Crawler Mucus|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 20000,
@@ -159,9 +125,6 @@
     {
       "name": "Drow Poison",
       "source": "DMG",
-      "reprintedAs": [
-        "Lolth's Sting|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 20000,
@@ -194,9 +157,6 @@
     {
       "name": "Essence of Ether",
       "source": "DMG",
-      "reprintedAs": [
-        "Essence of Ether|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 30000,
@@ -249,9 +209,6 @@
     {
       "name": "Malice",
       "source": "DMG",
-      "reprintedAs": [
-        "Malice|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 25000,
@@ -269,9 +226,6 @@
     {
       "name": "Midnight Tears",
       "source": "DMG",
-      "reprintedAs": [
-        "Midnight Tears|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 150000,
@@ -289,9 +243,6 @@
     {
       "name": "Oil of Taggit",
       "source": "DMG",
-      "reprintedAs": [
-        "Oil of Taggit|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 40000,
@@ -309,9 +260,6 @@
     {
       "name": "Pale Tincture",
       "source": "DMG",
-      "reprintedAs": [
-        "Pale Tincture|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 25000,
@@ -329,9 +277,6 @@
     {
       "name": "Purple Worm Poison",
       "source": "DMG",
-      "reprintedAs": [
-        "Purple Worm Poison|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 200000,
@@ -349,9 +294,6 @@
     {
       "name": "Serpent Venom",
       "source": "DMG",
-      "reprintedAs": [
-        "Serpent Venom|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 20000,
@@ -388,9 +330,6 @@
     {
       "name": "Torpor",
       "source": "DMG",
-      "reprintedAs": [
-        "Torpor|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 60000,
@@ -408,9 +347,6 @@
     {
       "name": "Truth Serum",
       "source": "DMG",
-      "reprintedAs": [
-        "Truth Serum|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 15000,
@@ -431,9 +367,6 @@
     {
       "name": "Wyvern Poison",
       "source": "DMG",
-      "reprintedAs": [
-        "Wyvern Poison|XDMG"
-      ],
       "type": "G",
       "rarity": "none",
       "value": 120000,
@@ -451,9 +384,6 @@
     {
       "name": "Bomb",
       "source": "DMG",
-      "reprintedAs": [
-        "Bomb|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "value": 15000,
@@ -478,9 +408,6 @@
     {
       "name": "Dynamite (stick)",
       "source": "DMG",
-      "reprintedAs": [
-        "Dynamite Stick|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "age": "modern",
@@ -496,9 +423,6 @@
     {
       "name": "Fragmentation Grenade",
       "source": "DMG",
-      "reprintedAs": [
-        "Fragmentation Grenade|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "age": "modern",
@@ -513,9 +437,6 @@
     {
       "name": "Gunpowder Horn",
       "source": "DMG",
-      "reprintedAs": [
-        "Gunpowder (powder horn)|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "value": 3500,
@@ -537,9 +458,6 @@
     {
       "name": "Gunpowder Keg",
       "source": "DMG",
-      "reprintedAs": [
-        "Gunpowder (keg)|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "value": 25000,
@@ -571,9 +489,6 @@
     {
       "name": "Smoke Grenade",
       "source": "DMG",
-      "reprintedAs": [
-        "Smoke Grenade|XDMG"
-      ],
       "type": "EXP|DMG",
       "rarity": "none",
       "age": "modern",

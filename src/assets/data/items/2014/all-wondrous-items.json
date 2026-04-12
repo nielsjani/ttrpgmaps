@@ -146,9 +146,6 @@
   {
     "name": "+1 Wraps of Unarmed Prowess",
     "source": "BMT",
-    "reprintedAs": [
-      "+1 Wraps of Unarmed Power|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "bonusWeapon": "+1",
@@ -303,9 +300,6 @@
   {
     "name": "+2 Wraps of Unarmed Prowess",
     "source": "BMT",
-    "reprintedAs": [
-      "+2 Wraps of Unarmed Power|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "bonusWeapon": "+2",
@@ -460,9 +454,6 @@
   {
     "name": "+3 Wraps of Unarmed Prowess",
     "source": "BMT",
-    "reprintedAs": [
-      "+3 Wraps of Unarmed Power|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "bonusWeapon": "+3",
@@ -599,9 +590,6 @@
   {
     "name": "Alchemy Jug",
     "source": "DMG",
-    "reprintedAs": [
-      "Alchemy Jug|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -916,9 +904,6 @@
   {
     "name": "Amulet of Health",
     "source": "DMG",
-    "reprintedAs": [
-      "Amulet of Health|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -937,9 +922,6 @@
   {
     "name": "Amulet of Proof against Detection and Location",
     "source": "DMG",
-    "reprintedAs": [
-      "Amulet of Proof against Detection and Location|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -1077,9 +1059,6 @@
   {
     "name": "Amulet of the Planes",
     "source": "DMG",
-    "reprintedAs": [
-      "Amulet of the Planes|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -1093,9 +1072,6 @@
   {
     "name": "Apparatus of Kwalish",
     "source": "DMG",
-    "reprintedAs": [
-      "Apparatus of Kwalish|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -1498,9 +1474,6 @@
   {
     "name": "Bag of Beans",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Beans|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -1573,9 +1546,6 @@
   {
     "name": "Bag of Devouring",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Devouring|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -1588,9 +1558,6 @@
   {
     "name": "Bag of Holding",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Holding|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -1611,9 +1578,6 @@
   {
     "name": "Bag of Tricks, Gray",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Tricks, Gray|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -1671,9 +1635,6 @@
   {
     "name": "Bag of Tricks, Rust",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Tricks, Rust|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -1731,9 +1692,6 @@
   {
     "name": "Bag of Tricks, Tan",
     "source": "DMG",
-    "reprintedAs": [
-      "Bag of Tricks, Tan|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -1963,9 +1921,6 @@
   {
     "name": "Bead of Force",
     "source": "DMG",
-    "reprintedAs": [
-      "Bead of Force|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -1980,9 +1935,6 @@
   {
     "name": "Bead of Nourishment",
     "source": "XGE",
-    "reprintedAs": [
-      "Bead of Nourishment|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -1996,9 +1948,6 @@
   {
     "name": "Bead of Refreshment",
     "source": "XGE",
-    "reprintedAs": [
-      "Bead of Refreshment|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -2102,9 +2051,6 @@
   {
     "name": "Belt of Cloud Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Cloud Giant Strength|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -2120,9 +2066,6 @@
   {
     "name": "Belt of Dwarvenkind",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Dwarvenkind|XDMG"
-    ],
     "resist": [
       "poison"
     ],
@@ -2157,9 +2100,6 @@
   {
     "name": "Belt of Fire Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Fire Giant Strength|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2175,9 +2115,6 @@
   {
     "name": "Belt of Frost Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Frost Giant Strength|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2193,9 +2130,6 @@
   {
     "name": "Belt of Hill Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Hill Giant Strength|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2214,9 +2148,6 @@
   {
     "name": "Belt of Stone Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Stone Giant Strength|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2232,9 +2163,6 @@
   {
     "name": "Belt of Storm Giant Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Belt of Storm Giant Strength|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -2563,9 +2491,6 @@
   {
     "name": "Book of Exalted Deeds",
     "source": "DMG",
-    "reprintedAs": [
-      "Book of Exalted Deeds|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": "by a creature of good alignment",
     "reqAttuneTags": [
@@ -2637,9 +2562,6 @@
   {
     "name": "Book of Vile Darkness",
     "source": "DMG",
-    "reprintedAs": [
-      "Book of Vile Darkness|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": true,
     "wondrous": true,
@@ -2740,9 +2662,6 @@
   {
     "name": "Boots of Elvenkind",
     "source": "DMG",
-    "reprintedAs": [
-      "Boots of Elvenkind|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -2755,9 +2674,6 @@
   {
     "name": "Boots of False Tracks",
     "source": "XGE",
-    "reprintedAs": [
-      "Boots of False Tracks|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -2767,9 +2683,6 @@
   {
     "name": "Boots of Levitation",
     "source": "DMG",
-    "reprintedAs": [
-      "Boots of Levitation|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2788,9 +2701,6 @@
   {
     "name": "Boots of Speed",
     "source": "DMG",
-    "reprintedAs": [
-      "Boots of Speed|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -2810,9 +2720,6 @@
   {
     "name": "Boots of Striding and Springing",
     "source": "DMG",
-    "reprintedAs": [
-      "Boots of Striding and Springing|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -2844,9 +2751,6 @@
   {
     "name": "Boots of the Winterlands",
     "source": "DMG",
-    "reprintedAs": [
-      "Boots of the Winterlands|XDMG"
-    ],
     "resist": [
       "cold"
     ],
@@ -2899,9 +2803,6 @@
   {
     "name": "Bowl of Commanding Water Elementals",
     "source": "DMG",
-    "reprintedAs": [
-      "Bowl of Commanding Water Elementals|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -2957,9 +2858,6 @@
   {
     "name": "Bracers of Archery",
     "source": "DMG",
-    "reprintedAs": [
-      "Bracers of Archery|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -3012,9 +2910,6 @@
   {
     "name": "Bracers of Defense",
     "source": "DMG",
-    "reprintedAs": [
-      "Bracers of Defense|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -3029,9 +2924,6 @@
   {
     "name": "Brazier of Commanding Fire Elementals",
     "source": "DMG",
-    "reprintedAs": [
-      "Brazier of Commanding Fire Elementals|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -3091,9 +2983,6 @@
   {
     "name": "Brooch of Shielding",
     "source": "DMG",
-    "reprintedAs": [
-      "Brooch of Shielding|XDMG"
-    ],
     "resist": [
       "force"
     ],
@@ -3121,9 +3010,6 @@
   {
     "name": "Broom of Flying",
     "source": "DMG",
-    "reprintedAs": [
-      "Broom of Flying|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -3152,9 +3038,6 @@
   {
     "name": "Candle of Invocation",
     "source": "DMG",
-    "reprintedAs": [
-      "Candle of Invocation|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -3232,9 +3115,6 @@
   {
     "name": "Candle of the Deep",
     "source": "XGE",
-    "reprintedAs": [
-      "Candle of the Deep|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -3254,9 +3134,6 @@
   {
     "name": "Cap of Water Breathing",
     "source": "DMG",
-    "reprintedAs": [
-      "Cap of Water Breathing|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -3289,9 +3166,6 @@
   {
     "name": "Cape of the Mountebank",
     "source": "DMG",
-    "reprintedAs": [
-      "Cape of the Mountebank|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -3345,9 +3219,6 @@
   {
     "name": "Carpet of Flying, 3 ft. Ã— 5 ft.",
     "source": "DMG",
-    "reprintedAs": [
-      "Carpet of Flying, 3 ft. Ã— 5 ft.|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -3358,9 +3229,6 @@
   {
     "name": "Carpet of Flying, 4 ft. Ã— 6 ft.",
     "source": "DMG",
-    "reprintedAs": [
-      "Carpet of Flying, 4 ft. Ã— 6 ft.|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -3371,9 +3239,6 @@
   {
     "name": "Carpet of Flying, 5 ft. Ã— 7 ft.",
     "source": "DMG",
-    "reprintedAs": [
-      "Carpet of Flying, 5 ft. Ã— 7 ft.|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -3384,9 +3249,6 @@
   {
     "name": "Carpet of Flying, 6 ft. Ã— 9 ft.",
     "source": "DMG",
-    "reprintedAs": [
-      "Carpet of Flying, 6 ft. Ã— 9 ft.|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -3479,9 +3341,6 @@
   {
     "name": "Cauldron of Rebirth",
     "source": "TCE",
-    "reprintedAs": [
-      "Cauldron of Rebirth|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": "by a druid or warlock",
     "reqAttuneTags": [
@@ -3505,9 +3364,6 @@
   {
     "name": "Censer of Controlling Air Elementals",
     "source": "DMG",
-    "reprintedAs": [
-      "Censer of Controlling Air Elementals|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -3525,9 +3381,6 @@
   {
     "name": "Charlatan's Die",
     "source": "XGE",
-    "reprintedAs": [
-      "Charlatan's Die|XDMG"
-    ],
     "rarity": "common",
     "reqAttune": true,
     "wondrous": true,
@@ -3577,9 +3430,6 @@
   {
     "name": "Chime of Opening",
     "source": "DMG",
-    "reprintedAs": [
-      "Chime of Opening|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -3663,9 +3513,6 @@
   {
     "name": "Circlet of Blasting",
     "source": "DMG",
-    "reprintedAs": [
-      "Circlet of Blasting|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -3747,9 +3594,6 @@
   {
     "name": "Cloak of Arachnida",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of Arachnida|XDMG"
-    ],
     "resist": [
       "poison"
     ],
@@ -3785,9 +3629,6 @@
   {
     "name": "Cloak of Billowing",
     "source": "XGE",
-    "reprintedAs": [
-      "Cloak of Billowing|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -3797,9 +3638,6 @@
   {
     "name": "Cloak of Displacement",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of Displacement|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -3810,9 +3648,6 @@
   {
     "name": "Cloak of Elvenkind",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of Elvenkind|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -3826,9 +3661,6 @@
   {
     "name": "Cloak of Invisibility",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of Invisibility|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -3840,9 +3672,6 @@
   {
     "name": "Cloak of Many Fashions",
     "source": "XGE",
-    "reprintedAs": [
-      "Cloak of Many Fashions|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -3852,9 +3681,6 @@
   {
     "name": "Cloak of Protection",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of Protection|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -3870,9 +3696,6 @@
   {
     "name": "Cloak of the Bat",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of the Bat|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -3894,9 +3717,6 @@
   {
     "name": "Cloak of the Manta Ray",
     "source": "DMG",
-    "reprintedAs": [
-      "Cloak of the Manta Ray|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "modifySpeed": {
@@ -3914,9 +3734,6 @@
   {
     "name": "Clockwork Amulet",
     "source": "XGE",
-    "reprintedAs": [
-      "Clockwork Amulet|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -3927,9 +3744,6 @@
   {
     "name": "Clothes of Mending",
     "source": "XGE",
-    "reprintedAs": [
-      "Clothes of Mending|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -4407,9 +4221,6 @@
   {
     "name": "Crystal Ball",
     "source": "DMG",
-    "reprintedAs": [
-      "Crystal Ball|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -4423,9 +4234,6 @@
   {
     "name": "Crystal Ball of Mind Reading",
     "source": "DMG",
-    "reprintedAs": [
-      "Crystal Ball of Mind Reading|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -4441,9 +4249,6 @@
   {
     "name": "Crystal Ball of Telepathy",
     "source": "DMG",
-    "reprintedAs": [
-      "Crystal Ball of Telepathy|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -4465,9 +4270,6 @@
   {
     "name": "Crystal Ball of True Seeing",
     "source": "DMG",
-    "reprintedAs": [
-      "Crystal Ball of True Seeing|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -4522,9 +4324,6 @@
   {
     "name": "Cube of Force",
     "source": "DMG",
-    "reprintedAs": [
-      "Cube of Force|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -4616,9 +4415,6 @@
   {
     "name": "Cubic Gate",
     "source": "DMG",
-    "reprintedAs": [
-      "Cubic Gate|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -4662,9 +4458,6 @@
   {
     "name": "Daern's Instant Fortress",
     "source": "DMG",
-    "reprintedAs": [
-      "Daern's Instant Fortress|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -4829,9 +4622,6 @@
   {
     "name": "Dark Shard Amulet",
     "source": "XGE",
-    "reprintedAs": [
-      "Dark Shard Amulet|XDMG"
-    ],
     "rarity": "common",
     "reqAttune": "by a warlock",
     "reqAttuneTags": [
@@ -4857,9 +4647,6 @@
   {
     "name": "Decanter of Endless Water",
     "source": "DMG",
-    "reprintedAs": [
-      "Decanter of Endless Water|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -4922,9 +4709,6 @@
   {
     "name": "Deck of Illusions",
     "source": "DMG",
-    "reprintedAs": [
-      "Deck of Illusions|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -5912,9 +5696,6 @@
   {
     "name": "Deck of Many Things",
     "source": "BMT",
-    "reprintedAs": [
-      "Deck of Many Things|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -5981,9 +5762,6 @@
   {
     "name": "Deck of Many Things",
     "source": "DMG",
-    "reprintedAs": [
-      "Deck of Many Things|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "ability": {
@@ -7691,9 +7469,6 @@
   {
     "name": "Demonomicon of Iggwilv",
     "source": "TCE",
-    "reprintedAs": [
-      "Demonomicon of Iggwilv|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": true,
     "wondrous": true,
@@ -7902,9 +7677,6 @@
   {
     "name": "Dimensional Shackles",
     "source": "DMG",
-    "reprintedAs": [
-      "Dimensional Shackles|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -8150,9 +7922,6 @@
   {
     "name": "Dread Helm",
     "source": "XGE",
-    "reprintedAs": [
-      "Dread Helm|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -8162,9 +7931,6 @@
   {
     "name": "Driftglobe",
     "source": "DMG",
-    "reprintedAs": [
-      "Driftglobe|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8242,9 +8008,6 @@
   {
     "name": "Dust of Disappearance",
     "source": "DMG",
-    "reprintedAs": [
-      "Dust of Disappearance|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8257,9 +8020,6 @@
   {
     "name": "Dust of Dryness",
     "source": "DMG",
-    "reprintedAs": [
-      "Dust of Dryness|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8271,9 +8031,6 @@
   {
     "name": "Dust of Sneezing and Choking",
     "source": "DMG",
-    "reprintedAs": [
-      "Dust of Sneezing and Choking|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8301,9 +8058,6 @@
   {
     "name": "Ear Horn of Hearing",
     "source": "XGE",
-    "reprintedAs": [
-      "Ear Horn of Hearing|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -8365,9 +8119,6 @@
   {
     "name": "Efreeti Bottle",
     "source": "DMG",
-    "reprintedAs": [
-      "Efreeti Bottle|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -8613,9 +8364,6 @@
   {
     "name": "Elemental Gem, Blue Sapphire",
     "source": "DMG",
-    "reprintedAs": [
-      "Elemental Gem, Blue Sapphire|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8632,9 +8380,6 @@
   {
     "name": "Elemental Gem, Emerald",
     "source": "DMG",
-    "reprintedAs": [
-      "Elemental Gem, Emerald|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8651,9 +8396,6 @@
   {
     "name": "Elemental Gem, Red Corundum",
     "source": "DMG",
-    "reprintedAs": [
-      "Elemental Gem, Red Corundum|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8670,9 +8412,6 @@
   {
     "name": "Elemental Gem, Yellow Diamond",
     "source": "DMG",
-    "reprintedAs": [
-      "Elemental Gem, Yellow Diamond|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8703,9 +8442,6 @@
   {
     "name": "Enduring Spellbook",
     "source": "XGE",
-    "reprintedAs": [
-      "Enduring Spellbook|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -8719,9 +8455,6 @@
       {
         "source": "EGW"
       }
-    ],
-    "reprintedAs": [
-      "Ersatz Eye|XDMG"
     ],
     "rarity": "common",
     "wondrous": true,
@@ -8757,9 +8490,6 @@
   {
     "name": "Eversmoking Bottle",
     "source": "DMG",
-    "reprintedAs": [
-      "Eversmoking Bottle|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8770,9 +8500,6 @@
   {
     "name": "Eye of Vecna",
     "source": "DMG",
-    "reprintedAs": [
-      "Eye of Vecna|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": true,
     "wondrous": true,
@@ -8863,9 +8590,6 @@
   {
     "name": "Eyes of Charming",
     "source": "DMG",
-    "reprintedAs": [
-      "Eyes of Charming|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -8886,9 +8610,6 @@
   {
     "name": "Eyes of Minute Seeing",
     "source": "DMG",
-    "reprintedAs": [
-      "Eyes of Minute Seeing|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -8898,9 +8619,6 @@
   {
     "name": "Eyes of the Eagle",
     "source": "DMG",
-    "reprintedAs": [
-      "Eyes of the Eagle|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -9050,9 +8768,6 @@
   {
     "name": "Figurine of Wondrous Power, Bronze Griffon",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Bronze Griffon|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9071,9 +8786,6 @@
   {
     "name": "Figurine of Wondrous Power, Ebony Fly",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Ebony Fly|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9092,9 +8804,6 @@
   {
     "name": "Figurine of Wondrous Power, Golden Lions",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Golden Lions|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9113,9 +8822,6 @@
   {
     "name": "Figurine of Wondrous Power, Ivory Goats",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Ivory Goats|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9142,9 +8848,6 @@
   {
     "name": "Figurine of Wondrous Power, Marble Elephant",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Marble Elephant|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9163,9 +8866,6 @@
   {
     "name": "Figurine of Wondrous Power, Obsidian Steed",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Obsidian Steed|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -9185,9 +8885,6 @@
   {
     "name": "Figurine of Wondrous Power, Onyx Dog",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Onyx Dog|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9206,9 +8903,6 @@
   {
     "name": "Figurine of Wondrous Power, Serpentine Owl",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Serpentine Owl|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9227,9 +8921,6 @@
   {
     "name": "Figurine of Wondrous Power, Silver Raven",
     "source": "DMG",
-    "reprintedAs": [
-      "Figurine of Wondrous Power, Silver Raven|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -9383,9 +9074,6 @@
   {
     "name": "Folding Boat",
     "source": "DMG",
-    "reprintedAs": [
-      "Folding Boat|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -9507,9 +9195,6 @@
   {
     "name": "Gauntlets of Ogre Power",
     "source": "DMG",
-    "reprintedAs": [
-      "Gauntlets of Ogre Power|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -9593,9 +9278,6 @@
   {
     "name": "Gem of Brightness",
     "source": "DMG",
-    "reprintedAs": [
-      "Gem of Brightness|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -9620,9 +9302,6 @@
   {
     "name": "Gem of Seeing",
     "source": "DMG",
-    "reprintedAs": [
-      "Gem of Seeing|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -9694,9 +9373,6 @@
   {
     "name": "Gloves of Missile Snaring",
     "source": "DMG",
-    "reprintedAs": [
-      "Gloves of Missile Snaring|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -9726,9 +9402,6 @@
   {
     "name": "Gloves of Swimming and Climbing",
     "source": "DMG",
-    "reprintedAs": [
-      "Gloves of Swimming and Climbing|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -9742,9 +9415,6 @@
   {
     "name": "Gloves of Thievery",
     "source": "DMG",
-    "reprintedAs": [
-      "Gloves of Thievery|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -9822,9 +9492,6 @@
   {
     "name": "Goggles of Night",
     "source": "DMG",
-    "reprintedAs": [
-      "Goggles of Night|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -10048,9 +9715,6 @@
   {
     "name": "Hand of Vecna",
     "source": "DMG",
-    "reprintedAs": [
-      "Hand of Vecna|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": true,
     "wondrous": true,
@@ -10218,9 +9882,6 @@
   {
     "name": "Hat of Disguise",
     "source": "DMG",
-    "reprintedAs": [
-      "Hat of Disguise|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -10239,9 +9900,6 @@
   {
     "name": "Hat of Vermin",
     "source": "XGE",
-    "reprintedAs": [
-      "Hat of Vermin|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -10262,9 +9920,6 @@
   {
     "name": "Hat of Wizardry",
     "source": "XGE",
-    "reprintedAs": [
-      "Hat of Wizardry|XDMG"
-    ],
     "rarity": "common",
     "reqAttune": "by a wizard",
     "reqAttuneTags": [
@@ -10290,9 +9945,6 @@
   {
     "name": "Headband of Intellect",
     "source": "DMG",
-    "reprintedAs": [
-      "Headband of Intellect|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -10382,9 +10034,6 @@
   {
     "name": "Helm of Brilliance",
     "source": "DMG",
-    "reprintedAs": [
-      "Helm of Brilliance|XDMG"
-    ],
     "resist": [
       "fire"
     ],
@@ -10434,9 +10083,6 @@
   {
     "name": "Helm of Comprehending Languages",
     "source": "DMG",
-    "reprintedAs": [
-      "Helm of Comprehending Languages|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -10579,9 +10225,6 @@
   {
     "name": "Helm of Telepathy",
     "source": "DMG",
-    "reprintedAs": [
-      "Helm of Telepathy|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -10606,9 +10249,6 @@
   {
     "name": "Helm of Teleportation",
     "source": "DMG",
-    "reprintedAs": [
-      "Helm of Teleportation|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -10783,9 +10423,6 @@
   {
     "name": "Heward's Handy Haversack",
     "source": "DMG",
-    "reprintedAs": [
-      "Heward's Handy Haversack|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -10806,9 +10443,6 @@
   {
     "name": "Heward's Handy Spice Pouch",
     "source": "XGE",
-    "reprintedAs": [
-      "Heward's Handy Spice Pouch|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -10966,9 +10600,6 @@
   {
     "name": "Horn of Blasting",
     "source": "DMG",
-    "reprintedAs": [
-      "Horn of Blasting|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "rare",
@@ -10984,9 +10615,6 @@
   {
     "name": "Horn of Silent Alarm",
     "source": "XGE",
-    "reprintedAs": [
-      "Horn of Silent Alarm|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "common",
@@ -10998,9 +10626,6 @@
   {
     "name": "Horn of Valhalla, Brass",
     "source": "DMG",
-    "reprintedAs": [
-      "Horn of Valhalla, Brass|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "rare",
@@ -11014,9 +10639,6 @@
   {
     "name": "Horn of Valhalla, Bronze",
     "source": "DMG",
-    "reprintedAs": [
-      "Horn of Valhalla, Bronze|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "very rare",
@@ -11030,9 +10652,6 @@
   {
     "name": "Horn of Valhalla, Iron",
     "source": "DMG",
-    "reprintedAs": [
-      "Horn of Valhalla, Iron|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "legendary",
@@ -11046,9 +10665,6 @@
   {
     "name": "Horn of Valhalla, Silver",
     "source": "DMG",
-    "reprintedAs": [
-      "Horn of Valhalla, Silver|XDMG"
-    ],
     "baseItem": "horn|phb",
     "type": "INS",
     "rarity": "rare",
@@ -11062,9 +10678,6 @@
   {
     "name": "Horseshoes of a Zephyr",
     "source": "DMG",
-    "reprintedAs": [
-      "Horseshoes of a Zephyr|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -11074,9 +10687,6 @@
   {
     "name": "Horseshoes of Speed",
     "source": "DMG",
-    "reprintedAs": [
-      "Horseshoes of Speed|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -11470,9 +11080,6 @@
   {
     "name": "Instrument of Illusions",
     "source": "XGE",
-    "reprintedAs": [
-      "Instrument of Illusions|XDMG"
-    ],
     "type": "INS",
     "rarity": "common",
     "reqAttune": true,
@@ -11484,9 +11091,6 @@
   {
     "name": "Instrument of Scribing",
     "source": "XGE",
-    "reprintedAs": [
-      "Instrument of Scribing|XDMG"
-    ],
     "type": "INS",
     "rarity": "common",
     "reqAttune": true,
@@ -11499,9 +11103,6 @@
   {
     "name": "Instrument of the Bards, Anstruth Harp",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Anstruth Harp|XDMG"
-    ],
     "type": "INS",
     "rarity": "very rare",
     "reqAttune": "by a bard",
@@ -11535,9 +11136,6 @@
   {
     "name": "Instrument of the Bards, Canaith Mandolin",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Canaith Mandolin|XDMG"
-    ],
     "type": "INS",
     "rarity": "rare",
     "reqAttune": "by a bard",
@@ -11571,9 +11169,6 @@
   {
     "name": "Instrument of the Bards, Cli Lyre",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Cli Lyre|XDMG"
-    ],
     "baseItem": "lyre|phb",
     "type": "INS",
     "rarity": "rare",
@@ -11608,9 +11203,6 @@
   {
     "name": "Instrument of the Bards, Doss Lute",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Doss Lute|XDMG"
-    ],
     "baseItem": "lute|phb",
     "type": "INS",
     "rarity": "uncommon",
@@ -11645,9 +11237,6 @@
   {
     "name": "Instrument of the Bards, Fochlucan Bandore",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Fochlucan Bandore|XDMG"
-    ],
     "type": "INS",
     "rarity": "uncommon",
     "reqAttune": "by a bard",
@@ -11682,9 +11271,6 @@
   {
     "name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Mac-Fuirmidh Cittern|XDMG"
-    ],
     "type": "INS",
     "rarity": "uncommon",
     "reqAttune": "by a bard",
@@ -11718,9 +11304,6 @@
   {
     "name": "Instrument of the Bards, Ollamh Harp",
     "source": "DMG",
-    "reprintedAs": [
-      "Instrument of the Bards, Ollamh Harp|XDMG"
-    ],
     "type": "INS",
     "rarity": "legendary",
     "reqAttune": "by a bard",
@@ -11768,9 +11351,6 @@
   {
     "name": "Ioun Stone, Absorption",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Absorption|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11785,9 +11365,6 @@
   {
     "name": "Ioun Stone, Agility",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Agility|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11804,9 +11381,6 @@
   {
     "name": "Ioun Stone, Awareness",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Awareness|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11820,9 +11394,6 @@
   {
     "name": "Ioun Stone, Fortitude",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Fortitude|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11839,9 +11410,6 @@
   {
     "name": "Ioun Stone, Greater Absorption",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Greater Absorption|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -11869,9 +11437,6 @@
   {
     "name": "Ioun Stone, Insight",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Insight|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11888,9 +11453,6 @@
   {
     "name": "Ioun Stone, Intellect",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Intellect|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11920,9 +11482,6 @@
   {
     "name": "Ioun Stone, Leadership",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Leadership|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11939,9 +11498,6 @@
   {
     "name": "Ioun Stone, Mastery",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Mastery|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -11970,9 +11526,6 @@
   {
     "name": "Ioun Stone, Protection",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Protection|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -11987,9 +11540,6 @@
   {
     "name": "Ioun Stone, Regeneration",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Regeneration|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -12017,9 +11567,6 @@
   {
     "name": "Ioun Stone, Reserve",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Reserve|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -12049,9 +11596,6 @@
   {
     "name": "Ioun Stone, Strength",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Strength|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -12081,9 +11625,6 @@
   {
     "name": "Ioun Stone, Sustenance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ioun Stone, Sustenance|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -12097,9 +11638,6 @@
   {
     "name": "Iron Bands of Bilarro",
     "source": "DMG",
-    "reprintedAs": [
-      "Iron Bands of Bilarro|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -12112,9 +11650,6 @@
   {
     "name": "Iron Flask",
     "source": "DMG",
-    "reprintedAs": [
-      "Iron Flask|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -12396,9 +11931,6 @@
   {
     "name": "Keoghtom's Ointment",
     "source": "DMG",
-    "reprintedAs": [
-      "Keoghtom's Ointment|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -12618,9 +12150,6 @@
   {
     "name": "Lantern of Revealing",
     "source": "DMG",
-    "reprintedAs": [
-      "Lantern of Revealing|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -12955,9 +12484,6 @@
   {
     "name": "Lock of Trickery",
     "source": "XGE",
-    "reprintedAs": [
-      "Lock of Trickery|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -13325,9 +12851,6 @@
   {
     "name": "Mantle of Spell Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Mantle of Spell Resistance|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -13338,9 +12861,6 @@
   {
     "name": "Manual of Bodily Health",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Bodily Health|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -13353,9 +12873,6 @@
   {
     "name": "Manual of Clay Golems",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Clay Golems|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -13366,9 +12883,6 @@
   {
     "name": "Manual of Flesh Golems",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Flesh Golems|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -13379,9 +12893,6 @@
   {
     "name": "Manual of Gainful Exercise",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Gainful Exercise|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -13394,9 +12905,6 @@
   {
     "name": "Manual of Iron Golems",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Iron Golems|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -13407,9 +12915,6 @@
   {
     "name": "Manual of Quickness of Action",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Quickness of Action|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -13422,9 +12927,6 @@
   {
     "name": "Manual of Stone Golems",
     "source": "DMG",
-    "reprintedAs": [
-      "Manual of Stone Golems|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -13608,9 +13110,6 @@
   {
     "name": "Medallion of Thoughts",
     "source": "DMG",
-    "reprintedAs": [
-      "Medallion of Thoughts|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -13871,9 +13370,6 @@
   {
     "name": "Mirror of Life Trapping",
     "source": "DMG",
-    "reprintedAs": [
-      "Mirror of Life Trapping|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -14275,9 +13771,6 @@
   {
     "name": "Mystery Key",
     "source": "XGE",
-    "reprintedAs": [
-      "Mystery Key|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -14309,9 +13802,6 @@
   {
     "name": "Nature's Mantle",
     "source": "TCE",
-    "reprintedAs": [
-      "Nature's Mantle|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": "by a druid or ranger",
     "reqAttuneTags": [
@@ -14350,9 +13840,6 @@
   {
     "name": "Necklace of Adaptation",
     "source": "DMG",
-    "reprintedAs": [
-      "Necklace of Adaptation|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -14366,9 +13853,6 @@
   {
     "name": "Necklace of Fireballs",
     "source": "DMG",
-    "reprintedAs": [
-      "Necklace of Fireballs|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -14386,9 +13870,6 @@
   {
     "name": "Necklace of Prayer Beads",
     "source": "DMG",
-    "reprintedAs": [
-      "Necklace of Prayer Beads|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": "by a cleric, druid, or paladin",
     "reqAttuneTags": [
@@ -14533,9 +14014,6 @@
   {
     "name": "Nolzur's Marvelous Pigments",
     "source": "DMG",
-    "reprintedAs": [
-      "Nolzur's Marvelous Pigments|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "entries": [
@@ -14720,9 +14198,6 @@
   {
     "name": "Orb of Direction",
     "source": "XGE",
-    "reprintedAs": [
-      "Orb of Direction|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -14732,9 +14207,6 @@
   {
     "name": "Orb of Dragonkind",
     "source": "DMG",
-    "reprintedAs": [
-      "Orb of Dragonkind|XDMG"
-    ],
     "rarity": "artifact",
     "reqAttune": true,
     "wondrous": true,
@@ -14940,9 +14412,6 @@
   {
     "name": "Orb of Time",
     "source": "XGE",
-    "reprintedAs": [
-      "Orb of Time|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -15274,9 +14743,6 @@
   {
     "name": "Pearl of Power",
     "source": "DMG",
-    "reprintedAs": [
-      "Pearl of Power|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": "by a spellcaster",
     "reqAttuneTags": [
@@ -15381,9 +14847,6 @@
   {
     "name": "Perfume of Bewitching",
     "source": "XGE",
-    "reprintedAs": [
-      "Perfume of Bewitching|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -15396,9 +14859,6 @@
   {
     "name": "Periapt of Health",
     "source": "DMG",
-    "reprintedAs": [
-      "Periapt of Health|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -15408,9 +14868,6 @@
   {
     "name": "Periapt of Proof against Poison",
     "source": "DMG",
-    "reprintedAs": [
-      "Periapt of Proof against Poison|XDMG"
-    ],
     "immune": [
       "poison"
     ],
@@ -15426,9 +14883,6 @@
   {
     "name": "Periapt of Wound Closure",
     "source": "DMG",
-    "reprintedAs": [
-      "Periapt of Wound Closure|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -15451,9 +14905,6 @@
   {
     "name": "Pipe of Smoke Monsters",
     "source": "XGE",
-    "reprintedAs": [
-      "Pipe of Smoke Monsters|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -15463,9 +14914,6 @@
   {
     "name": "Pipes of Haunting",
     "source": "DMG",
-    "reprintedAs": [
-      "Pipes of Haunting|XDMG"
-    ],
     "type": "INS",
     "rarity": "uncommon",
     "wondrous": true,
@@ -15489,9 +14937,6 @@
   {
     "name": "Pipes of the Sewers",
     "source": "DMG",
-    "reprintedAs": [
-      "Pipes of the Sewers|XDMG"
-    ],
     "type": "INS",
     "rarity": "uncommon",
     "reqAttune": true,
@@ -15643,9 +15088,6 @@
   {
     "name": "Pole of Angling",
     "source": "XGE",
-    "reprintedAs": [
-      "Pole of Angling|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -15655,9 +15097,6 @@
   {
     "name": "Pole of Collapsing",
     "source": "XGE",
-    "reprintedAs": [
-      "Pole of Collapsing|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -15667,9 +15106,6 @@
   {
     "name": "Portable Hole",
     "source": "DMG",
-    "reprintedAs": [
-      "Portable Hole|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -15725,9 +15161,6 @@
       {
         "source": "IMR"
       }
-    ],
-    "reprintedAs": [
-      "Pot of Awakening|XDMG"
     ],
     "rarity": "common",
     "wondrous": true,
@@ -15899,9 +15332,6 @@
       {
         "source": "EGW"
       }
-    ],
-    "reprintedAs": [
-      "Prosthetic Limb|XDMG"
     ],
     "rarity": "common",
     "wondrous": true,
@@ -16118,9 +15548,6 @@
   {
     "name": "Quaal's Feather Token, Anchor",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Anchor|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16137,9 +15564,6 @@
   {
     "name": "Quaal's Feather Token, Bird",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Bird|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16156,9 +15580,6 @@
   {
     "name": "Quaal's Feather Token, Fan",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Fan|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16175,9 +15596,6 @@
   {
     "name": "Quaal's Feather Token, Swan Boat",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Swan Boat|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16194,9 +15612,6 @@
   {
     "name": "Quaal's Feather Token, Tree",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Tree|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16213,9 +15628,6 @@
   {
     "name": "Quaal's Feather Token, Whip",
     "source": "DMG",
-    "reprintedAs": [
-      "Quaal's Feather Token, Whip|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16249,9 +15661,6 @@
   {
     "name": "Quiver of Ehlonna",
     "source": "DMG",
-    "reprintedAs": [
-      "Quiver of Ehlonna|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -16448,9 +15857,6 @@
   {
     "name": "Robe of Eyes",
     "source": "DMG",
-    "reprintedAs": [
-      "Robe of Eyes|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -16471,9 +15877,6 @@
   {
     "name": "Robe of Scintillating Colors",
     "source": "DMG",
-    "reprintedAs": [
-      "Robe of Scintillating Colors|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -16501,9 +15904,6 @@
   {
     "name": "Robe of Stars",
     "source": "DMG",
-    "reprintedAs": [
-      "Robe of Stars|XDMG"
-    ],
     "rarity": "very rare",
     "reqAttune": true,
     "wondrous": true,
@@ -16537,9 +15937,6 @@
   {
     "name": "Robe of the Archmagi",
     "source": "DMG",
-    "reprintedAs": [
-      "Robe of the Archmagi|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": "by a sorcerer, warlock, or wizard",
     "reqAttuneTags": [
@@ -16572,9 +15969,6 @@
   {
     "name": "Robe of Useful Items",
     "source": "DMG",
-    "reprintedAs": [
-      "Robe of Useful Items|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -16715,9 +16109,6 @@
   {
     "name": "Rope of Climbing",
     "source": "DMG",
-    "reprintedAs": [
-      "Rope of Climbing|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -16732,9 +16123,6 @@
   {
     "name": "Rope of Entanglement",
     "source": "DMG",
-    "reprintedAs": [
-      "Rope of Entanglement|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -16746,9 +16134,6 @@
   {
     "name": "Rope of Mending",
     "source": "XGE",
-    "reprintedAs": [
-      "Rope of Mending|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -16790,9 +16175,6 @@
   {
     "name": "Ruby of the War Mage",
     "source": "XGE",
-    "reprintedAs": [
-      "Ruby of the War Mage|XDMG"
-    ],
     "rarity": "common",
     "reqAttune": "by a spellcaster",
     "reqAttuneTags": [
@@ -16866,9 +16248,6 @@
   {
     "name": "Saddle of the Cavalier",
     "source": "DMG",
-    "reprintedAs": [
-      "Saddle of the Cavalier|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -16946,9 +16325,6 @@
   {
     "name": "Scarab of Protection",
     "source": "DMG",
-    "reprintedAs": [
-      "Scarab of Protection|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -17110,9 +16486,6 @@
   {
     "name": "Sending Stones",
     "source": "DMG",
-    "reprintedAs": [
-      "Sending Stones|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -17710,9 +17083,6 @@
   {
     "name": "Slippers of Spider Climbing",
     "source": "DMG",
-    "reprintedAs": [
-      "Slippers of Spider Climbing|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -17856,9 +17226,6 @@
   {
     "name": "Sovereign Glue",
     "source": "DMG",
-    "reprintedAs": [
-      "Sovereign Glue|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -18242,9 +17609,6 @@
   {
     "name": "Sphere of Annihilation",
     "source": "DMG",
-    "reprintedAs": [
-      "Sphere of Annihilation|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -18326,9 +17690,6 @@
   {
     "name": "Stone of Controlling Earth Elementals",
     "source": "DMG",
-    "reprintedAs": [
-      "Stone of Controlling Earth Elementals|XDMG"
-    ],
     "rarity": "rare",
     "wondrous": true,
     "entries": [
@@ -18483,9 +17844,6 @@
       "Luckstone"
     ],
     "source": "DMG",
-    "reprintedAs": [
-      "Stone of Good Luck|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -18639,9 +17997,6 @@
   {
     "name": "Talisman of Pure Good",
     "source": "DMG",
-    "reprintedAs": [
-      "Talisman of Pure Good|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": "by a creature of good alignment",
     "reqAttuneTags": [
@@ -18665,9 +18020,6 @@
   {
     "name": "Talisman of the Sphere",
     "source": "DMG",
-    "reprintedAs": [
-      "Talisman of the Sphere|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": true,
     "wondrous": true,
@@ -18678,9 +18030,6 @@
   {
     "name": "Talisman of Ultimate Evil",
     "source": "DMG",
-    "reprintedAs": [
-      "Talisman of Ultimate Evil|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": "by a creature of evil alignment",
     "reqAttuneTags": [
@@ -18704,9 +18053,6 @@
   {
     "name": "Talking Doll",
     "source": "XGE",
-    "reprintedAs": [
-      "Talking Doll|XDMG"
-    ],
     "rarity": "common",
     "reqAttune": true,
     "wondrous": true,
@@ -18726,9 +18072,6 @@
   {
     "name": "Tankard of Sobriety",
     "source": "XGE",
-    "reprintedAs": [
-      "Tankard of Sobriety|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -19734,9 +19077,6 @@
   {
     "name": "Tome of Clear Thought",
     "source": "DMG",
-    "reprintedAs": [
-      "Tome of Clear Thought|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -19749,9 +19089,6 @@
   {
     "name": "Tome of Leadership and Influence",
     "source": "DMG",
-    "reprintedAs": [
-      "Tome of Leadership and Influence|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -19764,9 +19101,6 @@
   {
     "name": "Tome of the Stilled Tongue",
     "source": "DMG",
-    "reprintedAs": [
-      "Tome of the Stilled Tongue|XDMG"
-    ],
     "rarity": "legendary",
     "reqAttune": "by a wizard",
     "reqAttuneTags": [
@@ -19788,9 +19122,6 @@
   {
     "name": "Tome of Understanding",
     "source": "DMG",
-    "reprintedAs": [
-      "Tome of Understanding|XDMG"
-    ],
     "rarity": "very rare",
     "wondrous": true,
     "ability": {
@@ -19824,9 +19155,6 @@
   {
     "name": "Universal Solvent",
     "source": "DMG",
-    "reprintedAs": [
-      "Universal Solvent|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -19896,9 +19224,6 @@
   {
     "name": "Veteran's Cane",
     "source": "XGE",
-    "reprintedAs": [
-      "Veteran's Cane|XDMG"
-    ],
     "rarity": "common",
     "wondrous": true,
     "entries": [
@@ -20092,9 +19417,6 @@
   {
     "name": "Well of Many Worlds",
     "source": "DMG",
-    "reprintedAs": [
-      "Well of Many Worlds|XDMG"
-    ],
     "rarity": "legendary",
     "wondrous": true,
     "entries": [
@@ -20334,9 +19656,6 @@
   {
     "name": "Wind Fan",
     "source": "DMG",
-    "reprintedAs": [
-      "Wind Fan|XDMG"
-    ],
     "rarity": "uncommon",
     "wondrous": true,
     "entries": [
@@ -20353,9 +19672,6 @@
   {
     "name": "Winged Boots",
     "source": "DMG",
-    "reprintedAs": [
-      "Winged Boots|XDMG"
-    ],
     "rarity": "uncommon",
     "reqAttune": true,
     "wondrous": true,
@@ -20375,9 +19691,6 @@
   {
     "name": "Wings of Flying",
     "source": "DMG",
-    "reprintedAs": [
-      "Wings of Flying|XDMG"
-    ],
     "rarity": "rare",
     "reqAttune": true,
     "wondrous": true,
@@ -21947,9 +21260,6 @@
   {
     "name": "+1 Rod of the Pact Keeper",
     "source": "DMG",
-    "reprintedAs": [
-      "+1 Rod of the Pact Keeper|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "uncommon",
     "reqAttune": "by a warlock",
@@ -21968,9 +21278,6 @@
   {
     "name": "+2 Rod of the Pact Keeper",
     "source": "DMG",
-    "reprintedAs": [
-      "+2 Rod of the Pact Keeper|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "rare",
     "reqAttune": "by a warlock",
@@ -21989,9 +21296,6 @@
   {
     "name": "+3 Rod of the Pact Keeper",
     "source": "DMG",
-    "reprintedAs": [
-      "+3 Rod of the Pact Keeper|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "very rare",
     "reqAttune": "by a warlock",
@@ -22032,9 +21336,6 @@
   {
     "name": "Immovable Rod",
     "source": "DMG",
-    "reprintedAs": [
-      "Immovable Rod|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "uncommon",
     "entries": [
@@ -22044,9 +21345,6 @@
   {
     "name": "Rod of Absorption",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Absorption|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "very rare",
     "reqAttune": true,
@@ -22060,9 +21358,6 @@
   {
     "name": "Rod of Alertness",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Alertness|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "very rare",
     "reqAttune": true,
@@ -22165,9 +21460,6 @@
   {
     "name": "Rod of Lordly Might",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Lordly Might|XDMG"
-    ],
     "baseItem": "mace|phb",
     "type": "RD|DMG",
     "typeAlt": "M",
@@ -22215,9 +21507,6 @@
   {
     "name": "Rod of Resurrection",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Resurrection|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "legendary",
     "reqAttune": "by a cleric, druid, or paladin",
@@ -22261,9 +21550,6 @@
   {
     "name": "Rod of Rulership",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Rulership|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -22274,9 +21560,6 @@
   {
     "name": "Rod of Security",
     "source": "DMG",
-    "reprintedAs": [
-      "Rod of Security|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "very rare",
     "entries": [
@@ -22381,9 +21664,6 @@
   {
     "name": "Tentacle Rod",
     "source": "DMG",
-    "reprintedAs": [
-      "Tentacle Rod|XDMG"
-    ],
     "type": "RD|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -22951,9 +22231,6 @@
   {
     "name": "Ring of Acid Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Acid Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "acid"
@@ -22968,9 +22245,6 @@
   {
     "name": "Ring of Air Elemental Command",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Elemental Command (Air)|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "lightning"
@@ -23035,9 +22309,6 @@
   {
     "name": "Ring of Animal Influence",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Animal Influence|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "entries": [
@@ -23064,9 +22335,6 @@
   {
     "name": "Ring of Cold Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Cold Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "cold"
@@ -23098,9 +22366,6 @@
   {
     "name": "Ring of Djinni Summoning",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Djinni Summoning|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "legendary",
     "reqAttune": true,
@@ -23113,9 +22378,6 @@
   {
     "name": "Ring of Earth Elemental Command",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Elemental Command (Earth)|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "acid"
@@ -23152,9 +22414,6 @@
   {
     "name": "Ring of Evasion",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Evasion|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23165,9 +22424,6 @@
   {
     "name": "Ring of Feather Falling",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Feather Falling|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23178,9 +22434,6 @@
   {
     "name": "Ring of Fire Elemental Command",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Elemental Command (Fire)|XDMG"
-    ],
     "type": "RG|DMG",
     "immune": [
       "fire"
@@ -23221,9 +22474,6 @@
   {
     "name": "Ring of Fire Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Fire Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "fire"
@@ -23238,9 +22488,6 @@
   {
     "name": "Ring of Force Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Force Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "force"
@@ -23255,9 +22502,6 @@
   {
     "name": "Ring of Free Action",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Free Action|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23271,9 +22515,6 @@
   {
     "name": "Ring of Invisibility",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Invisibility|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "legendary",
     "reqAttune": true,
@@ -23284,9 +22525,6 @@
   {
     "name": "Ring of Jumping",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Jumping|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "uncommon",
     "reqAttune": true,
@@ -23305,9 +22543,6 @@
   {
     "name": "Ring of Lightning Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Lightning Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "lightning"
@@ -23322,9 +22557,6 @@
   {
     "name": "Ring of Mind Shielding",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Mind Shielding|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "uncommon",
     "reqAttune": true,
@@ -23340,9 +22572,6 @@
   {
     "name": "Ring of Necrotic Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Necrotic Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "necrotic"
@@ -23374,9 +22603,6 @@
   {
     "name": "Ring of Poison Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Poison Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "poison"
@@ -23391,9 +22617,6 @@
   {
     "name": "Ring of Protection",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Protection|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23409,9 +22632,6 @@
   {
     "name": "Ring of Psychic Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Psychic Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "psychic"
@@ -23436,9 +22656,6 @@
   {
     "name": "Ring of Radiant Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Radiant Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "radiant"
@@ -23505,9 +22722,6 @@
   {
     "name": "Ring of Regeneration",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Regeneration|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "very rare",
     "reqAttune": true,
@@ -23518,9 +22732,6 @@
   {
     "name": "Ring of Shooting Stars",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Shooting Stars|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "very rare",
     "reqAttune": "outdoors at night",
@@ -23571,9 +22782,6 @@
   {
     "name": "Ring of Spell Storing",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Spell Storing|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23586,9 +22794,6 @@
   {
     "name": "Ring of Spell Turning",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Spell Turning|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "legendary",
     "reqAttune": true,
@@ -23599,9 +22804,6 @@
   {
     "name": "Ring of Swimming",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Swimming|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "uncommon",
     "modifySpeed": {
@@ -23616,9 +22818,6 @@
   {
     "name": "Ring of Telekinesis",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Telekinesis|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "very rare",
     "reqAttune": true,
@@ -23664,9 +22863,6 @@
   {
     "name": "Ring of the Ram",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of the Ram|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,
@@ -23681,9 +22877,6 @@
   {
     "name": "Ring of Three Wishes",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Three Wishes|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "legendary",
     "entries": [
@@ -23700,9 +22893,6 @@
   {
     "name": "Ring of Thunder Resistance",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Thunder Resistance|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "thunder"
@@ -23737,9 +22927,6 @@
   {
     "name": "Ring of Warmth",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Warmth|XDMG"
-    ],
     "type": "RG|DMG",
     "resist": [
       "cold"
@@ -23753,9 +22940,6 @@
   {
     "name": "Ring of Water Elemental Command",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Elemental Command (Water)|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "legendary",
     "reqAttune": true,
@@ -23791,9 +22975,6 @@
   {
     "name": "Ring of Water Walking",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of Water Walking|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "uncommon",
     "entries": [
@@ -23896,9 +23077,6 @@
   {
     "name": "Ring of X-ray Vision",
     "source": "DMG",
-    "reprintedAs": [
-      "Ring of X-ray Vision|XDMG"
-    ],
     "type": "RG|DMG",
     "rarity": "rare",
     "reqAttune": true,

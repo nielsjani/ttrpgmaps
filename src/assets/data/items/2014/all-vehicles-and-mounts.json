@@ -17,9 +17,6 @@
   {
     "name": "Galley",
     "source": "DMG",
-    "reprintedAs": [
-      "Galley|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 3000000,
@@ -36,9 +33,6 @@
   {
     "name": "Keelboat",
     "source": "DMG",
-    "reprintedAs": [
-      "Keelboat|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 300000,
@@ -59,9 +53,6 @@
   {
     "name": "Longship",
     "source": "DMG",
-    "reprintedAs": [
-      "Longship|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 1000000,
@@ -79,9 +70,6 @@
   {
     "name": "Rowboat",
     "source": "DMG",
-    "reprintedAs": [
-      "Rowboat|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 5000,
@@ -100,9 +88,6 @@
   {
     "name": "Sailing Ship",
     "source": "DMG",
-    "reprintedAs": [
-      "Sailing Ship|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 1000000,
@@ -120,9 +105,6 @@
   {
     "name": "Warship",
     "source": "DMG",
-    "reprintedAs": [
-      "Warship|XPHB"
-    ],
     "type": "SHP",
     "rarity": "none",
     "value": 2500000,
@@ -140,9 +122,6 @@
   {
     "name": "Axe Beak",
     "source": "IDRotF",
-    "reprintedAs": [
-      "Axe Beak|FRHoF"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 5000,
@@ -173,9 +152,6 @@
   {
     "name": "Camel",
     "source": "PHB",
-    "reprintedAs": [
-      "Camel|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 5000,
@@ -215,9 +191,6 @@
   {
     "name": "Draft Horse",
     "source": "PHB",
-    "reprintedAs": [
-      "Draft Horse|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 5000,
@@ -227,9 +200,6 @@
   {
     "name": "Elephant",
     "source": "PHB",
-    "reprintedAs": [
-      "Elephant|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 20000,
@@ -327,9 +297,6 @@
   {
     "name": "Mastiff",
     "source": "PHB",
-    "reprintedAs": [
-      "Mastiff|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 2500,
@@ -350,9 +317,6 @@
   {
     "name": "Mule",
     "source": "PHB",
-    "reprintedAs": [
-      "Mule|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 800,
@@ -403,9 +367,6 @@
   {
     "name": "Pony",
     "source": "PHB",
-    "reprintedAs": [
-      "Pony|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 3000,
@@ -415,9 +376,6 @@
   {
     "name": "Riding Horse",
     "source": "PHB",
-    "reprintedAs": [
-      "Riding Horse|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 7500,
@@ -466,9 +424,6 @@
   {
     "name": "Sled Dog",
     "source": "IDRotF",
-    "reprintedAs": [
-      "Sled Dog|FRHoF"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 5000,
@@ -584,9 +539,6 @@
   {
     "name": "Warhorse",
     "source": "PHB",
-    "reprintedAs": [
-      "Warhorse|XPHB"
-    ],
     "type": "MNT",
     "rarity": "none",
     "value": 40000,
@@ -616,9 +568,6 @@
   {
     "name": "Airship",
     "source": "DMG",
-    "reprintedAs": [
-      "Airship|XPHB"
-    ],
     "type": "AIR|DMG",
     "rarity": "none",
     "value": 2000000,
@@ -632,9 +581,6 @@
   {
     "name": "Carriage",
     "source": "PHB",
-    "reprintedAs": [
-      "Carriage|XPHB"
-    ],
     "type": "VEH",
     "rarity": "none",
     "value": 10000
@@ -642,9 +588,6 @@
   {
     "name": "Cart",
     "source": "PHB",
-    "reprintedAs": [
-      "Cart|XPHB"
-    ],
     "type": "VEH",
     "rarity": "none",
     "value": 1500
@@ -656,9 +599,6 @@
       {
         "source": "MOT"
       }
-    ],
-    "reprintedAs": [
-      "Chariot|XPHB"
     ],
     "type": "VEH",
     "rarity": "none",
@@ -710,9 +650,6 @@
   {
     "name": "Sled",
     "source": "PHB",
-    "reprintedAs": [
-      "Sled|XPHB"
-    ],
     "type": "VEH",
     "rarity": "none",
     "value": 2000
@@ -720,9 +657,6 @@
   {
     "name": "Wagon",
     "source": "PHB",
-    "reprintedAs": [
-      "Wagon|XPHB"
-    ],
     "type": "VEH",
     "rarity": "none",
     "value": 3500

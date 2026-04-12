@@ -20,9 +20,6 @@
   {
     "name": "Scroll of Protection from Aberrations",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Aberrations)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -35,9 +32,6 @@
   {
     "name": "Scroll of Protection from Beasts",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Beasts)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -50,9 +44,6 @@
   {
     "name": "Scroll of Protection from Celestials",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Celestials)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -65,9 +56,6 @@
   {
     "name": "Scroll of Protection from Elementals",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Elementals)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -80,9 +68,6 @@
   {
     "name": "Scroll of Protection from Fey",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Fey)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -95,9 +80,6 @@
   {
     "name": "Scroll of Protection from Fiends",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Fiends)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -110,9 +92,6 @@
   {
     "name": "Scroll of Protection from Plants",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Plants)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -125,9 +104,6 @@
   {
     "name": "Scroll of Protection from Undead",
     "source": "DMG",
-    "reprintedAs": [
-      "Scroll of Protection (Undead)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -140,9 +116,6 @@
   {
     "name": "Scroll of Tarrasque Summoning",
     "source": "IDRotF",
-    "reprintedAs": [
-      "Scroll of Titan Summoning (Tarrasque)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "legendary",
     "entries": [
@@ -168,9 +141,6 @@
   {
     "name": "Spell Scroll (1st Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 1)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "common",
     "entries": [
@@ -188,9 +158,6 @@
   {
     "name": "Spell Scroll (2nd Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 2)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "uncommon",
     "entries": [
@@ -208,9 +175,6 @@
   {
     "name": "Spell Scroll (3rd Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 3)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "uncommon",
     "entries": [
@@ -228,9 +192,6 @@
   {
     "name": "Spell Scroll (4th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 4)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -248,9 +209,6 @@
   {
     "name": "Spell Scroll (5th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 5)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "rare",
     "entries": [
@@ -268,9 +226,6 @@
   {
     "name": "Spell Scroll (6th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 6)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "very rare",
     "entries": [
@@ -288,9 +243,6 @@
   {
     "name": "Spell Scroll (7th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 7)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "very rare",
     "entries": [
@@ -308,9 +260,6 @@
   {
     "name": "Spell Scroll (8th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 8)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "very rare",
     "entries": [
@@ -328,9 +277,6 @@
   {
     "name": "Spell Scroll (9th Level)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Level 9)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "legendary",
     "entries": [
@@ -348,9 +294,6 @@
   {
     "name": "Spell Scroll (Cantrip)",
     "source": "DMG",
-    "reprintedAs": [
-      "Spell Scroll (Cantrip)|XDMG"
-    ],
     "type": "SC|DMG",
     "rarity": "common",
     "entries": [

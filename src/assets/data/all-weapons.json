@@ -80175,5 +80175,1207 @@
       "Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
       "Sling Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
     ]
+  },
+  {
+    "name": "Energy Cell",
+    "source": "DMG",
+    "reprintedAs": [
+      "Energy Cell|XDMG"
+    ],
+    "type": "AF|DMG",
+    "rarity": "none",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "none",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "Modern Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "none",
+    "age": "modern",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "Modern Bullets (10)",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "none",
+    "age": "modern",
+    "bulletFirearm": true,
+    "packContents": [
+      {
+        "item": "modern bullet",
+        "quantity": 10
+      }
+    ],
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "Renaissance Bullet",
+    "source": "DMG",
+    "reprintedAs": [
+      "Firearm Bullet|XPHB"
+    ],
+    "type": "AF|DMG",
+    "rarity": "none",
+    "value": 30,
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "Renaissance Bullets (10)",
+    "source": "DMG",
+    "reprintedAs": [
+      "Firearm Bullets (10)|XPHB"
+    ],
+    "type": "AF|DMG",
+    "rarity": "none",
+    "value": 300,
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "packContents": [
+      {
+        "item": "renaissance bullet",
+        "quantity": 10
+      }
+    ],
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": []
+  },
+  {
+    "name": "+1 Energy Cell",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "uncommon",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+1 Ammunition",
+    "baseItem": "energy cell|dmg",
+    "reprintedAs": [
+      "+1 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+1",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+2 Energy Cell",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+2 Ammunition",
+    "baseItem": "energy cell|dmg",
+    "reprintedAs": [
+      "+2 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+2",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+3 Energy Cell",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "very rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+3 Ammunition",
+    "baseItem": "energy cell|dmg",
+    "reprintedAs": [
+      "+3 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+3",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "Walloping Energy Cell",
+    "source": "XGE",
+    "type": "AF|DMG",
+    "rarity": "common",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_baseSource": "DMG",
+    "_variantName": "Walloping Ammunition",
+    "baseItem": "energy cell|dmg",
+    "reprintedAs": [
+      "Walloping Ammunition|XDMG"
+    ],
+    "_fullEntries": [
+      "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
+    ]
+  },
+  {
+    "name": "+1 Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "uncommon",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+1 Ammunition",
+    "baseItem": "energy cell|xdmg",
+    "bonusWeapon": "+1",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+2 Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+2 Ammunition",
+    "baseItem": "energy cell|xdmg",
+    "bonusWeapon": "+2",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+3 Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "very rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "+3 Ammunition",
+    "baseItem": "energy cell|xdmg",
+    "bonusWeapon": "+3",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "Adamantine Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "uncommon",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "Adamantine Weapon",
+    "baseItem": "energy cell|xdmg",
+    "_fullEntries": [
+      "This weapon or piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this weapon or piece of ammunition hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
+    ]
+  },
+  {
+    "name": "Energy Cell of Slaying",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "very rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "Ammunition of Slaying",
+    "baseItem": "energy cell|xdmg",
+    "_fullEntries": [
+      "This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one.",
+      "After dealing its extra damage to a creature, the ammunition becomes nonmagical.",
+      {
+        "type": "table",
+        "colStyles": [
+          "col-2 text-center",
+          "col-10"
+        ],
+        "colLabels": [
+          "1d100",
+          "Creature Type"
+        ],
+        "rows": [
+          [
+            "01-10",
+            "Aberrations"
+          ],
+          [
+            "11-15",
+            "Beasts"
+          ],
+          [
+            "16-20",
+            "Celestials"
+          ],
+          [
+            "21-25",
+            "Constructs"
+          ],
+          [
+            "26-35",
+            "Dragons"
+          ],
+          [
+            "36-45",
+            "Elementals"
+          ],
+          [
+            "46-50",
+            "Humanoids"
+          ],
+          [
+            "51-60",
+            "Fey"
+          ],
+          [
+            "61-70",
+            "Fiends"
+          ],
+          [
+            "71-75",
+            "Giants"
+          ],
+          [
+            "76-80",
+            "Monstrosities"
+          ],
+          [
+            "81-85",
+            "Oozes"
+          ],
+          [
+            "86-90",
+            "Plants"
+          ],
+          [
+            "91-00",
+            "Undead"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bloodseeker Energy Cell",
+    "source": "BMT",
+    "type": "AF|XDMG",
+    "rarity": "very rare",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_baseSource": "XDMG",
+    "_variantName": "Bloodseeker Ammunition",
+    "baseItem": "energy cell|xdmg",
+    "_fullEntries": [
+      "Ranged attack rolls made with this ammunition have advantage against any creature that doesn't have all its hit points."
+    ]
+  },
+  {
+    "name": "Walloping Energy Cell",
+    "source": "XDMG",
+    "type": "AF|XDMG",
+    "rarity": "common",
+    "age": "futuristic",
+    "cellEnergy": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Energy Cell",
+    "_variantName": "Walloping Ammunition",
+    "baseItem": "energy cell|xdmg",
+    "_fullEntries": [
+      "A creature hit by this ammunition must succeed on a {@dc 10} Strength saving throw or have the {@condition Prone|XPHB} condition."
+    ]
+  },
+  {
+    "name": "+1 Modern Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "uncommon",
+    "age": "modern",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Modern Bullet",
+    "_variantName": "+1 Ammunition",
+    "baseItem": "modern bullet|dmg",
+    "reprintedAs": [
+      "+1 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+1",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+2 Modern Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "rare",
+    "age": "modern",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Modern Bullet",
+    "_variantName": "+2 Ammunition",
+    "baseItem": "modern bullet|dmg",
+    "reprintedAs": [
+      "+2 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+2",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+3 Modern Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "very rare",
+    "age": "modern",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Modern Bullet",
+    "_variantName": "+3 Ammunition",
+    "baseItem": "modern bullet|dmg",
+    "reprintedAs": [
+      "+3 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+3",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "Walloping Modern Bullet",
+    "source": "XGE",
+    "type": "AF|DMG",
+    "rarity": "common",
+    "age": "modern",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Modern Bullet",
+    "_baseSource": "DMG",
+    "_variantName": "Walloping Ammunition",
+    "baseItem": "modern bullet|dmg",
+    "reprintedAs": [
+      "Walloping Ammunition|XDMG"
+    ],
+    "_fullEntries": [
+      "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
+    ]
+  },
+  {
+    "name": "+1 Renaissance Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "uncommon",
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Renaissance Bullet",
+    "_variantName": "+1 Ammunition",
+    "baseItem": "renaissance bullet|dmg",
+    "reprintedAs": [
+      "+1 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+1",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+2 Renaissance Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "rare",
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Renaissance Bullet",
+    "_variantName": "+2 Ammunition",
+    "baseItem": "renaissance bullet|dmg",
+    "reprintedAs": [
+      "+2 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+2",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "+3 Renaissance Bullet",
+    "source": "DMG",
+    "type": "AF|DMG",
+    "rarity": "very rare",
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Renaissance Bullet",
+    "_variantName": "+3 Ammunition",
+    "baseItem": "renaissance bullet|dmg",
+    "reprintedAs": [
+      "+3 Ammunition|XDMG"
+    ],
+    "bonusWeapon": "+3",
+    "_fullEntries": [
+      "You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+    ]
+  },
+  {
+    "name": "Walloping Renaissance Bullet",
+    "source": "XGE",
+    "type": "AF|DMG",
+    "rarity": "common",
+    "age": "renaissance",
+    "bulletFirearm": true,
+    "miscTags": [
+      "CNS"
+    ],
+    "entries": [],
+    "__prop": "item",
+    "_isEnhanced": false,
+    "_baseName": "Renaissance Bullet",
+    "_baseSource": "DMG",
+    "_variantName": "Walloping Ammunition",
+    "baseItem": "renaissance bullet|dmg",
+    "reprintedAs": [
+      "Walloping Ammunition|XDMG"
+    ],
+    "_fullEntries": [
+      "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
+    ]
+  },
+  {
+    "name": "Bit and bridle",
+    "source": "PHB",
+    "type": "TAH",
+    "rarity": "none",
+    "value": 200
+  },
+  {
+    "name": "Exotic Saddle",
+    "source": "PHB",
+    "reprintedAs": [
+      "Exotic Saddle|XPHB"
+    ],
+    "type": "TAH",
+    "rarity": "none",
+    "value": 6000,
+    "entries": [
+      "An exotic saddle is required for riding any aquatic or flying mount."
+    ]
+  },
+  {
+    "name": "Exotic Saddle",
+    "source": "XPHB",
+    "type": "TAH|XPHB",
+    "rarity": "none",
+    "value": 6000,
+    "entries": [
+      "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. An Exotic Saddle is required for riding an aquatic or a flying mount."
+    ]
+  },
+  {
+    "name": "Feed (per day)",
+    "source": "PHB",
+    "reprintedAs": [
+      "Feed (per day)|XPHB"
+    ],
+    "type": "TAH",
+    "rarity": "none",
+    "value": 5
+  },
+  {
+    "name": "Feed (per day)",
+    "source": "XPHB",
+    "type": "TAH|XPHB",
+    "rarity": "none",
+    "value": 5
+  },
+  {
+    "name": "Military Saddle",
+    "source": "PHB",
+    "reprintedAs": [
+      "Military Saddle|XPHB"
+    ],
+    "type": "TAH",
+    "rarity": "none",
+    "value": 2000,
+    "entries": [
+      "A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted."
+    ]
+  },
+  {
+    "name": "Military Saddle",
+    "source": "XPHB",
+    "type": "TAH|XPHB",
+    "rarity": "none",
+    "value": 2000,
+    "entries": [
+      "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives {@variantrule Advantage|XPHB} on any ability check you make to remain mounted."
+    ]
+  },
+  {
+    "name": "Pack Saddle",
+    "source": "PHB",
+    "type": "TAH",
+    "rarity": "none",
+    "value": 500
+  },
+  {
+    "name": "Riding Saddle",
+    "source": "PHB",
+    "reprintedAs": [
+      "Riding Saddle|XPHB"
+    ],
+    "type": "TAH",
+    "rarity": "none",
+    "value": 1000
+  },
+  {
+    "name": "Riding Saddle",
+    "source": "XPHB",
+    "type": "TAH|XPHB",
+    "rarity": "none",
+    "value": 1000,
+    "entries": [
+      "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle."
+    ]
+  },
+  {
+    "name": "Saddlebags",
+    "source": "PHB",
+    "type": "TAH",
+    "rarity": "none",
+    "value": 400
+  },
+  {
+    "name": "Stabling (per day)",
+    "source": "PHB",
+    "reprintedAs": [
+      "Stabling (per day)|XPHB"
+    ],
+    "type": "TAH",
+    "rarity": "none",
+    "value": 50
+  },
+  {
+    "name": "Stabling (per day)",
+    "source": "XPHB",
+    "type": "TAH|XPHB",
+    "rarity": "none",
+    "value": 5
+  },
+  {
+    "name": "Barding",
+    "type": "TAH",
+    "requires": [
+      {
+        "armor": true
+      }
+    ],
+    "inherits": {
+      "nameSuffix": " Barding",
+      "nameRemove": " Armor",
+      "source": "PHB",
+      "type": "TAH",
+      "rarity": "none",
+      "weightMult": 2,
+      "weightExpression": "[[baseItem.weight]] * 2",
+      "valueMult": 4,
+      "valueExpression": "[[baseItem.value]] * 4",
+      "barding": true,
+      "entries": [
+        "Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+      ]
+    },
+    "_isInherited": true,
+    "nameRemove": " Armor",
+    "source": "PHB",
+    "rarity": "none",
+    "weightMult": 2,
+    "weightExpression": "[[baseItem.weight]] * 2",
+    "valueMult": 4,
+    "valueExpression": "[[baseItem.value]] * 4",
+    "barding": true
+  },
+  {
+    "name": "Amulet",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Amulet|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500
+  },
+  {
+    "name": "Amulet",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500,
+    "entries": [
+      "For an Amulet to be an effective Holy Symbol, it must be worn or held."
+    ]
+  },
+  {
+    "name": "Ascendant Dragon-Touched Focus",
+    "source": "FTD",
+    "_copy": {
+      "name": "Wakened Dragon-Touched Focus",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "type": "SCF",
+    "rarity": "legendary",
+    "entries": [
+      "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.",
+      "You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.",
+      "The focus gains an additional property determined by the family of the dragon in whose hoard it became Stirring:",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Chromatic",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell that deals acid, cold, fire, lightning, or poison damage, roll a {@dice d6}, and you gain a bonus equal to the number rolled to one of the spell's damage rolls."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Gem",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15 feet of you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Metallic",
+            "entries": [
+              "When a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw."
+            ]
+          }
+        ]
+      },
+      "While you are holding a Wakened focus, you can use it to cast certain spells. Once the item is used to cast a given spell, it can't be used to cast that spell again until the next dawn. The spells are determined by the family of the dragon in whose hoard it became Wakened.",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Chromatic",
+            "entries": [
+              "{@spell Hold monster}, {@spell Rime's binding ice|FTD}"
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Gem",
+            "entries": [
+              "{@spell Rary's telepathic bond}, {@spell Raulothim's psychic lance|FTD}"
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Metallic",
+            "entries": [
+              "{@spell Fizban's platinum shield|FTD}, {@spell legend lore}"
+            ]
+          }
+        ]
+      },
+      "When you cast a spell of 1st level or higher while holding this focus, you can treat the spell as if it were cast using a 9th-level spell slot. Once this property is used, it can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Emblem",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Emblem|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500
+  },
+  {
+    "name": "Emblem",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500,
+    "entries": [
+      "For an Emblem to be an effective Holy Symbol, it must be borne on fabric (such as a tabard or banner) or a {@item Shield|XPHB}."
+    ]
+  },
+  {
+    "name": "Reliquary",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Reliquary|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500
+  },
+  {
+    "name": "Reliquary",
+    "group": [
+      "Holy Symbol"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "holy",
+    "rarity": "none",
+    "value": 500,
+    "entries": [
+      "For a Reliquary to be an effective Holy Symbol, it must be held."
+    ]
+  },
+  {
+    "name": "Sprig of Mistletoe",
+    "group": [
+      "Druidic Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Sprig of Mistletoe|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "druid",
+    "rarity": "none",
+    "value": 100
+  },
+  {
+    "name": "Sprig of Mistletoe",
+    "group": [
+      "Druidic Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "druid",
+    "rarity": "none",
+    "value": 100
+  },
+  {
+    "name": "Stirring Dragon-Touched Focus",
+    "source": "FTD",
+    "_copy": {
+      "name": "Slumbering Dragon-Touched Focus",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "type": "SCF",
+    "rarity": "rare",
+    "entries": [
+      "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.",
+      "You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.",
+      "The focus gains an additional property determined by the family of the dragon in whose hoard it became Stirring:",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Chromatic",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell that deals acid, cold, fire, lightning, or poison damage, roll a {@dice d6}, and you gain a bonus equal to the number rolled to one of the spell's damage rolls."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Gem",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15 feet of you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Metallic",
+            "entries": [
+              "When a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Totem",
+    "group": [
+      "Druidic Focus"
+    ],
+    "source": "PHB",
+    "type": "SCF",
+    "scfType": "druid",
+    "rarity": "none",
+    "value": 100
+  },
+  {
+    "name": "Wakened Dragon-Touched Focus",
+    "source": "FTD",
+    "_copy": {
+      "name": "Stirring Dragon-Touched Focus",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "type": "SCF",
+    "rarity": "very rare",
+    "entries": [
+      "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.",
+      "You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.",
+      "The focus gains an additional property determined by the family of the dragon in whose hoard it became Stirring:",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Chromatic",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell that deals acid, cold, fire, lightning, or poison damage, roll a {@dice d6}, and you gain a bonus equal to the number rolled to one of the spell's damage rolls."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Gem",
+            "entries": [
+              "Whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15 feet of you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Metallic",
+            "entries": [
+              "When a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw."
+            ]
+          }
+        ]
+      },
+      "While you are holding a Wakened focus, you can use it to cast certain spells. Once the item is used to cast a given spell, it can't be used to cast that spell again until the next dawn. The spells are determined by the family of the dragon in whose hoard it became Wakened.",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Chromatic",
+            "entries": [
+              "{@spell Hold monster}, {@spell Rime's binding ice|FTD}"
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Gem",
+            "entries": [
+              "{@spell Rary's telepathic bond}, {@spell Raulothim's psychic lance|FTD}"
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Metallic",
+            "entries": [
+              "{@spell Fizban's platinum shield|FTD}, {@spell legend lore}"
+            ]
+          }
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "fizban's platinum shield|ftd",
+          "hold monster",
+          "legend lore",
+          "rary's telepathic bond",
+          "raulothim's psychic lance|ftd",
+          "rime's binding ice|ftd"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Yew Wand",
+    "group": [
+      "Druidic Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Yew Wand|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "druid",
+    "rarity": "none",
+    "value": 1000
+  },
+  {
+    "name": "Yew Wand",
+    "group": [
+      "Druidic Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "druid",
+    "rarity": "none",
+    "value": 1000
+  },
+  {
+    "name": "Crystal",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Crystal|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
+  },
+  {
+    "name": "Crystal",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
+  },
+  {
+    "name": "Orb",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Orb|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 2000,
+    "entries": []
+  },
+  {
+    "name": "Orb",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 2000,
+    "entries": []
+  },
+  {
+    "name": "Rod",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Rod|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
+  },
+  {
+    "name": "Rod",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
+  },
+  {
+    "name": "Wand",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "PHB",
+    "reprintedAs": [
+      "Wand|XPHB"
+    ],
+    "type": "SCF",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
+  },
+  {
+    "name": "Wand",
+    "group": [
+      "Arcane Focus"
+    ],
+    "source": "XPHB",
+    "type": "SCF|XPHB",
+    "scfType": "arcane",
+    "rarity": "none",
+    "value": 1000,
+    "entries": []
   }
 ]

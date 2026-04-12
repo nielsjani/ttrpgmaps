@@ -1,0 +1,430 @@
+[
+  {
+    "name": "Adjustable Stilts",
+    "source": "WDH",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "The stilts take 1 minute to put on or remove. They increase the height of any humanoid wearing them by 2 to 5 feet. Each stilt weighs 8 pounds and is 1 foot long when fully collapsed."
+    ]
+  },
+  {
+    "name": "Arcanaloth's Music Box",
+    "source": "ToA",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "value": 75000,
+    "entries": [
+      "This music box is made of dark wood with gold filigree. Each of its five sides is sculpted with the image of a horned woman playing a different {@item musical instrument|PHB}: a {@item dulcimer|PHB}, a {@item flute|PHB}, a harp, a {@item lyre|PHB}, and a {@item viol|PHB}. While touching the box, you can use an action to make it play music featuring one of the instruments shown, which can be heard up to 60 feet away. You can also use an action to stop the music."
+    ]
+  },
+  {
+    "name": "Backpack Parachute",
+    "source": "WDH",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "A humanoid wearing this piece of gear can deploy the parachute as a reaction while falling, or as an action otherwise. The parachute requires at least a 10-foot cube of unoccupied space in which to deploy, and it doesn't open fast enough to slow a fall of less than 60 feet. If it has sufficient time and space to deploy properly, the parachute allows its wearer to land without taking falling damage. Once it has been used, the parachute takes 10 minutes to repack."
+    ]
+  },
+  {
+    "name": "Barking Box",
+    "source": "WDH",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "This metal cube, 6 inches on a side, has a crank on top. Using an action to wind the crank activates the box for 8 hours. While activated, the box barks whenever it detects vibrations within 15 feet of it, as long as the box and the source of the vibrations are in contact with the same ground or substance. A switch on one side of the box sets the device to emit either a small dog's bark or a large dog's bark."
+    ]
+  },
+  {
+    "name": "Circlet of Human Perfection",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "uncommon",
+    "reqAttune": "by a humanoid",
+    "reqAttuneTags": [
+      {
+        "creatureType": "humanoid"
+      }
+    ],
+    "entries": [
+      "The Circlet of Human Perfection transforms its attuned wearer into an attractive human of average height and weight. The circlet chooses the physical characteristics of the form, such as age, gender, skin color, hair color, and voice. Except for size, the wearer's statistics and racial traits don't change, nor do items worn or carried by the wearer. Removing the circlet ends the effect."
+    ]
+  },
+  {
+    "name": "Clockwork Dog",
+    "source": "SKT",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This Tiny clockwork dog made of copper and tin comes with a copper wind-up key. As an action, you can use the key to wind the dog, after which it follows you for 12 hours. At the end of that duration, the clockwork dog stops until wound again. The dog has AC 5, 1 hit point, and a walking speed of 30 feet."
+    ]
+  },
+  {
+    "name": "Command Amulet",
+    "source": "XMM",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "Each {@creature Shield Guardian|XMM} is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet's wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet's wearer, half of any damage the wearer takes (round up) is transferred to the guardian.",
+      "A shield guardian's command amulet might be passed down through a magic-using society or family for generations."
+    ]
+  },
+  {
+    "name": "Conch of Safe Rest",
+    "source": "TTP",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "You can use an action to blow this pearlescent conch like a {@item horn|PHB}, creating an effect identical with that of a {@spell Leomund's tiny hut} spell. The conch disappears once the spell takes effect. The effect ends if you leave the spell's area."
+    ]
+  },
+  {
+    "name": "Dancing Monkey Fruit",
+    "source": "ToA",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "value": 500,
+    "entries": [
+      "This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a {@dc 14} Constitution saving throw or begin a comic dance that lasts for 1 minute. Humanoids that can't be {@condition poisoned} are immune to this magical effect.",
+      "The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Dexterity saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition poisoned} condition for 1 hour."
+    ]
+  },
+  {
+    "name": "Dragon's Blood",
+    "source": "ERLW",
+    "type": "OTH",
+    "rarity": "none",
+    "entries": [
+      "Introduced into Sharn by Daask, dragon's blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug's effects are potentially dangerous and always unpredictable. This isn't something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a {@spell fireball} in a crowded street. The specific effects of dragon's blood are up to you, but you can take inspiration from the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}."
+    ]
+  },
+  {
+    "name": "Dreamlily",
+    "source": "ERLW",
+    "type": "OTH",
+    "rarity": "none",
+    "entries": [
+      "A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
+    ],
+    "miscTags": [
+      "CNS"
+    ]
+  },
+  {
+    "name": "Faerie Dust",
+    "source": "SKT",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "A pinch of this dust can substitute for the material components of any enchantment spell of 3rd level or lower. If a pinch of faerie dust is sprinkled on a creature, roll percentile dice and consult the Faerie Dust table to determine the effect.",
+      {
+        "type": "table",
+        "caption": "Faerie Dust",
+        "colLabels": [
+          "d100",
+          "Magical Effect"
+        ],
+        "colStyles": [
+          "col-2 text-center",
+          "col-10"
+        ],
+        "rows": [
+          [
+            "01-70",
+            "The creature sprinkled with dust gains a flying speed of 60 feet for 10 minutes."
+          ],
+          [
+            "71-80",
+            "The creature sprinkled with dust must succeed on a {@dc 11} Constitution saving throw or fall {@condition unconscious} for 1 minute. The creature awakens if it takes damage or if it is shaken or slapped as an action."
+          ],
+          [
+            "81-90",
+            "The creature sprinkled with dust must succeed on a {@dc 11} Wisdom saving throw or be affected by a {@spell confusion} spell."
+          ],
+          [
+            "91-00",
+            "The creature sprinkled with dust becomes {@condition invisible} for 1 hour. Any equipment it is wearing or carrying is {@condition invisible} as long as it is on the creature's person. The effect on the creature ends if it attacks, deals any damage, or casts a spell."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Falkir's Helm of Pigheadedness",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "curse": true,
+    "entries": [
+      "This steel helm is shaped like the head of a boar. Once you don the helm, it can't be removed until you die or until a {@spell remove curse} spell or similar magic is cast on it. If you wear the helm and are a humanoid, you gain the following flaw until the helm is removed: \"I'm exceedingly stubborn and think I'm right all the time.\" (This flaw supersedes any conflicting flaw.)"
+    ]
+  },
+  {
+    "name": "Flensing Claws (Huge)",
+    "source": "VGM",
+    "type": "OTH",
+    "rarity": "unknown",
+    "dmg1": "2d8",
+    "dmgType": "S",
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Large)",
+    "source": "VGM",
+    "type": "OTH",
+    "rarity": "unknown",
+    "dmg1": "1d12",
+    "dmgType": "S",
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Medium)",
+    "source": "VGM",
+    "type": "OTH",
+    "rarity": "unknown",
+    "dmg1": "1d10",
+    "dmgType": "S",
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Small)",
+    "source": "VGM",
+    "type": "OTH",
+    "rarity": "unknown",
+    "dmg1": "1d8",
+    "dmgType": "S",
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Gravenhollow Compass Ring",
+    "source": "OotA",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This gold ring is fitted with a star ruby worth 1,000 gp. A {@spell detect magic} spell reveals that the gem radiates a faint aura of divination magic. The gem's star-shaped core is a magical compass that guides the ring's wearer along the safest, shortest route to Gravenhollow."
+    ]
+  },
+  {
+    "name": "Green Copper Ewer",
+    "source": "CoS",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "Any poisonous liquid poured into the ewer is instantly transformed into an equal amount of sweet wine. Furthermore, a creature that grasps the ewer's handle can command the ewer to fill with 1 gallon of wine, and it can't produce more wine until the next dawn."
+    ]
+  },
+  {
+    "name": "Hag Eye",
+    "source": "MM",
+    "reprintedAs": [
+      "Hag Eye|XDMG"
+    ],
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+      "A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+    ]
+  },
+  {
+    "name": "Heartstone",
+    "source": "MM",
+    "type": "OTH",
+    "rarity": "very rare",
+    "entries": [
+      "This lustrous black gem allows a {@creature night hag} to become ethereal while it is in her possession. The touch of a heartstone also cures any disease. Crafting a heartstone takes 30 days."
+    ]
+  },
+  {
+    "name": "Jade Serpent Staff",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This staff is broken into five pieces, each worth 100 gp for the jade alone. The entire staff can be restored with {@spell mending} cantrips; each casting of the spell repairs one break in the staff. If the staff is made whole, it transforms from an object into an animated jade serpent that has the statistics of a {@creature giant poisonous snake}, with these changes:",
+      {
+        "type": "list",
+        "items": [
+          "The serpent is a construct that understands and obeys whoever was holding the staff when it transformed.",
+          "It has immunity to poison damage and the {@condition poisoned} condition. It doesn't require air, food, drink, or sleep.",
+          "When it drops to 0 hit points, roll a {@dice d6}. On a roll of 1, the snake turns to dust and is destroyed. On any other roll, it changes back into a staff and breaks into {@dice 1d4 + 1} pieces that must be magically mended before the staff can be used again."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maddgoth's Helm",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "very rare",
+    "reqAttune": "by a humanoid",
+    "reqAttuneTags": [
+      {
+        "creatureType": "humanoid"
+      }
+    ],
+    "entries": [
+      "While you wear this helm and are inside Maddgoth's castle, on its roof, or in its courtyard, you have immunity to all damage. If the helm is taken from the castle, it turns to dust and is destroyed."
+    ]
+  },
+  {
+    "name": "Master's Amulet",
+    "source": "MM",
+    "reprintedAs": [
+      "Command Amulet|XMM"
+    ],
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "Every {@creature shield guardian} has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
+      "A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
+      "A spellcaster can store a single spell within a shield guardian, which can then cast the spell on command or under specific conditions. Many a wizard has been rendered helpless by enemies, only to surprise those foes when its shield guardian unleashes potent magical power."
+    ]
+  },
+  {
+    "name": "Matchless Pipe",
+    "source": "WDH",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself."
+    ]
+  },
+  {
+    "name": "Mind Flayer Skull",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "While you have the skull in your possession, you are {@condition invisible} to mind flayers, as is anything you are wearing or carrying."
+    ]
+  },
+  {
+    "name": "Nimblewright Detector",
+    "source": "WDH",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "To activate the nimblewright detector, a character must hold down its trigger. When the activated device comes within 500 feet of a nimblewright other than Nim, the umbrella begins to spin, whir, and click. The spinning, whirring, and clicking accelerates as the distance to the target lessens, reaching maximum velocity and volume when a nimblewright other than Nim is within 30 feet of the device."
+    ]
+  },
+  {
+    "name": "Pearl of Undead Detection",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "value": 50000,
+    "entries": [
+      "This black pearl glows faintly when undead are within 120 feet of it."
+    ]
+  },
+  {
+    "name": "Petrified Grung Egg",
+    "source": "ToA",
+    "type": "OTH",
+    "resist": [
+      "poison"
+    ],
+    "rarity": "unknown (magic)",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "While this egg is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the egg, it can't be used again until the next dawn.",
+      "Additionally, while you are attuned to the egg, you gain resistance to poison damage.",
+      "The egg turns to dust and is destroyed if it leaves the Tomb of the Nine Gods."
+    ]
+  },
+  {
+    "name": "Shatterstick",
+    "source": "BGDIA",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "A shatterstick is a nonmagical, 12-inch-long, 4-pound stake made of blue-tinged infernal iron mined on Cania, the eighth layer of the Nine Hells. When embedded in earth or pounded into solid rock, the stake emits a seismic vibration in a 20-foot radius centered on itself for 1 minute, shaking the ground in that area for the duration. When the effects ends, the shatterstick breaks apart, becoming useless, and all structures within 20 feet of it take 35 ({@damage 10d6}) bludgeoning damage."
+    ]
+  },
+  {
+    "name": "Soul Bag",
+    "source": "MM",
+    "type": "OTH",
+    "rarity": "very rare",
+    "entries": [
+      "When an evil humanoid dies as a result of a {@creature night hag}'s Nightmare Haunting, the hag catches the soul in this black sack made of stitched flesh. A soul bag can hold only one evil soul at a time, and only the night hag who crafted the bag can catch a soul with it. Crafting a soul bag takes 7 days and a humanoid sacrifice (whose flesh is used to make the bag)."
+    ]
+  },
+  {
+    "name": "Statuette of Saint Markovia",
+    "source": "CoS",
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "value": 25000,
+    "bonusSavingThrow": "+1",
+    "entries": [
+      "This golden statuette grants any good-aligned creature that carries it a +1 bonus to saving throws."
+    ]
+  },
+  {
+    "name": "Tangler Grenade",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "none",
+    "entries": [
+      "A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by sticky white webs. As an action, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful {@dc 20} Strength ({@skill Athletics}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {@condition restrained} by them."
+    ]
+  },
+  {
+    "name": "Tankard of Plenty",
+    "source": "HotDQ",
+    "otherSources": [
+      {
+        "source": "ToD"
+      }
+    ],
+    "type": "OTH",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This golden stein is decorated with dancing dwarves and grain patterns. Speaking the command word (\"Illefarn\") while grasping the handle fills the tankard with three pints of rich dwarven ale. This power can be used up to three times per day."
+    ]
+  },
+  {
+    "name": "Vial of Stardust",
+    "source": "WDMM",
+    "type": "OTH",
+    "rarity": "unknown",
+    "entries": [
+      "Any creature that sprinkles the contents of a Vial of Stardust over itself gains the ability to cast the {@spell dream} spell once as an action (spell save {@dc 15}), requiring no components."
+    ],
+    "attachedSpells": [
+      "dream"
+    ]
+  },
+  {
+    "name": "White Dragon Cape",
+    "source": "TftYP",
+    "type": "OTH",
+    "resist": [
+      "cold"
+    ],
+    "rarity": "unknown (magic)",
+    "entries": [
+      "You have resistance to cold damage while wearing this cape."
+    ]
+  }
+]

@@ -20413,5 +20413,1010 @@
     "_fullEntries": [
       "While holding this Shield, you have a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, in addition to the Shield's normal bonus to AC."
     ]
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Black Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "acid"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "acid"
+    ],
+    "detail1": "black",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Blue Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "lightning"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "lightning"
+    ],
+    "detail1": "blue",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Brass Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "fire"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "fire"
+    ],
+    "detail1": "brass",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Breastplate of Balance",
+    "source": "BMT",
+    "baseItem": "breastplate|PHB",
+    "type": "MA",
+    "rarity": "rare",
+    "reqAttune": true,
+    "ac": 14,
+    "entries": [
+      "This burnished copper breastplate looks as if it were made of interlocking gears. Merchant's scales are emblazoned across the chest.",
+      "The armor has 4 charges. You can use the charges in the following ways while wearing the armor:",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Equalize",
+            "entries": [
+              "When you or a creature you can see within 60 feet of yourself is about to roll a {@dice d20} with advantage or disadvantage, you can expend 1 charge and take a reaction to prevent the roll from being affected by advantage or disadvantage."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Expunge Imbalance",
+            "entries": [
+              "As a bonus action, you can expend 2 charges to cast the {@spell Lesser Restoration} spell from the armor."
+            ]
+          }
+        ]
+      },
+      "The armor regains {@dice 1d4} expended charges daily at dawn.",
+      "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "2": [
+          "lesser restoration"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Bronze Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "lightning"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "lightning"
+    ],
+    "detail1": "bronze",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Copper Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "acid"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "acid"
+    ],
+    "detail1": "copper",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Dragonguard",
+    "source": "LMoP",
+    "reprintedAs": [
+      "Dragonguard|PaBTSO"
+    ],
+    "type": "MA",
+    "rarity": "rare",
+    "ac": 14,
+    "bonusAc": "+1",
+    "entries": [
+      "You have a +1 bonus to AC while wearing this armor.",
+      "This +1 breastplate has a gold dragon motif worked into its design. Created for a human hero of Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of creatures that have the dragon type."
+    ]
+  },
+  {
+    "name": "Dragonguard",
+    "source": "PaBTSO",
+    "baseItem": "breastplate|PHB",
+    "type": "MA",
+    "rarity": "rare",
+    "ac": 14,
+    "bonusAc": "+1",
+    "entries": [
+      "You have a +1 bonus to AC while wearing this armor.",
+      "This breastplate has a gold dragon motif worked into its design. Created for a human hero of old Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of Dragons.",
+      "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+    ]
+  },
+  {
+    "name": "Elven Chain",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Elven Chain|XDMG",
+        "tag": "item"
+      }
+    ],
+    "type": "MA",
+    "rarity": "rare",
+    "ac": 13,
+    "grantsProficiency": true,
+    "bonusAc": "+1",
+    "entries": [
+      "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor."
+    ]
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Gold Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "fire"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "fire"
+    ],
+    "detail1": "gold",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Green Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "poison"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "poison"
+    ],
+    "detail1": "green",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Red Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "fire"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "fire"
+    ],
+    "detail1": "red",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Serpent Scale Armor",
+    "source": "CM",
+    "baseItem": "scale mail|PHB",
+    "type": "MA",
+    "rarity": "uncommon",
+    "ac": 14,
+    "dexterityMax": null,
+    "entries": [
+      "This suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity ({@skill Stealth}) checks."
+    ]
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "Silver Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "cold"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "cold"
+    ],
+    "detail1": "silver",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Stonebreaker's Breastplate",
+    "source": "BGG",
+    "baseItem": "breastplate|PHB",
+    "type": "MA",
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "ac": 14,
+    "entries": [
+      "This breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.",
+      "While wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.",
+      {
+        "type": "entries",
+        "name": "Invoking the Rune",
+        "entries": [
+          "As an action, you can invoke the breastplate's rune to cast the {@spell wall of stone} spell (save {@dc 14}) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain {@status concentration} on the spell.",
+          "Once the rune has been invoked, it can't be invoked again until the next dawn.",
+          "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "wall of stone"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Survival Mantle",
+    "source": "VGM",
+    "type": "MA",
+    "rarity": "unknown",
+    "ac": 15,
+    "stealth": true,
+    "entries": [
+      "This carapace-like augmentation encases portions of the wearer's shoulders, neck, and chest. A survival mantle is equivalent to a suit of nonmagical half plate armor and takes just as long to don or doff. It can't be worn with other kinds of armor.",
+      "A creature wearing a survival mantle can breathe normally in any environment (including a vacuum) and has advantage on saving throws against harmful gases (such as those created by a {@spell cloudkill} spell, a {@spell stinking cloud} spell, inhaled poisons, and the breath weapons of some dragons)."
+    ]
+  },
+  {
+    "name": "Vanrak's Mithral Shirt",
+    "source": "WDMM",
+    "baseItem": "chain shirt|phb",
+    "type": "MA",
+    "rarity": "uncommon",
+    "ac": 13,
+    "strength": null,
+    "stealth": false,
+    "entries": [
+      "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't.",
+      "While you wear this armor, you gain {@sense darkvision} out to a range of 60 feet."
+    ]
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "source": "DMG",
+    "reprintedAs": [
+      "White Dragon Scale Mail|XDMG"
+    ],
+    "type": "MA",
+    "resist": [
+      "cold"
+    ],
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
+      "Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "source": "XDMG",
+    "baseItem": "scale mail|xphb",
+    "type": "MA|XPHB",
+    "resist": [
+      "cold"
+    ],
+    "detail1": "white",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 14,
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "{#itemEntry Dragon Scale Mail|XDMG}"
+    ]
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "source": "DMG",
+    "reprintedAs": [
+      "Armor of Invulnerability|XDMG"
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "source": "XDMG",
+    "baseItem": "plate armor|xphb",
+    "type": "HA|XPHB",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage while you wear this armor.",
+      {
+        "type": "entries",
+        "name": "Metal Shell",
+        "entries": [
+          "You can take a {@action Magic|XPHB} action to give yourself {@variantrule Immunity|XPHB} to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor of Vulnerability (Bludgeoning)",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Armor of Vulnerability (Bludgeoning)|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "resist": [
+      "bludgeoning"
+    ],
+    "vulnerable": [
+      "piercing",
+      "slashing"
+    ],
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you have resistance to bludgeoning damage.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to piercing and slashing damage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor of Vulnerability (Piercing)",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Armor of Vulnerability (Piercing)|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "resist": [
+      "piercing"
+    ],
+    "vulnerable": [
+      "bludgeoning",
+      "slashing"
+    ],
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you have resistance to piercing damage.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and slashing damage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor of Vulnerability (Slashing)",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Armor of Vulnerability (Slashing)|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "resist": [
+      "slashing"
+    ],
+    "vulnerable": [
+      "bludgeoning",
+      "piercing"
+    ],
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you have resistance to slashing damage.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and piercing damage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Demon Armor",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Demon Armor|XDMG",
+        "tag": "item"
+      }
+    ],
+    "type": "HA",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "bonusWeapon": "+1",
+    "bonusAc": "+1",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of {@dice 1d8}.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "Once you don this cursed armor, you can't doff it unless you are targeted by the {@spell remove curse} spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dwarven Plate",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Dwarven Plate|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "rarity": "very rare",
+    "ac": 18,
+    "strength": "15",
+    "bonusAc": "+2",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
+    ]
+  },
+  {
+    "name": "Efreeti Chain",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Efreeti Chain|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "chain mail|phb",
+    "type": "HA",
+    "immune": [
+      "fire"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "ac": 16,
+    "strength": "13",
+    "bonusAc": "+3",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground."
+    ]
+  },
+  {
+    "name": "Infernal Plate Armor",
+    "source": "CoA",
+    "baseItem": "plate armor|PHB",
+    "type": "HA",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "bonusAc": "+2",
+    "stealth": true,
+    "entries": [
+      "While wearing this armor, you gain a +2 bonus to AC.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "Once you wear this armor, and are attuned to it, you can't remove it. Only the {@spell Remove Curse} spell allows you to end the attunement and finally doff it. While wearing the armor, you're vulnerable to the following damage types: force, lightning, psychic, radiant, and thunder."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Corrupting",
+        "entries": [
+          "This item corrupts. See the \"{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}\" section."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Obsidian Flint Dragon Plate",
+    "source": "BGDIA",
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "rarity": "legendary",
+    "ac": 18,
+    "strength": "15",
+    "bonusAc": "+2",
+    "stealth": true,
+    "entries": [
+      "You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the {@condition grappled} condition on yourself."
+    ]
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "source": "DMG",
+    "reprintedAs": [
+      {
+        "uid": "Plate Armor of Etherealness (*)|XDMG",
+        "tag": "item"
+      }
+    ],
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "etherealness"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Plate of Knight's Fellowship",
+    "source": "BMT",
+    "baseItem": "plate armor|PHB",
+    "type": "HA",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "ac": 18,
+    "strength": "15",
+    "stealth": true,
+    "entries": [
+      "This gleaming set of silver-and-gold plate armor never tarnishes.",
+      "While wearing this armor, you can use a bonus action to summon the spirit of a warrior to your aid. The spirit's corporeal form manifests in an unoccupied space of your choice within 30 feet of you, and it uses the {@creature knight} stat block. The spirit disappears when it drops to 0 hit points or after 1 minute, whichever comes first.",
+      "The spirit is an ally to you and your companions. In combat, the spirit shares your initiative count but takes its turn immediately after yours. The spirit obeys your commands (no action required by you); if you don't issue any commands, the spirit takes the {@action Dodge} action and uses its movement to avoid danger.",
+      "Once this bonus action is used, it can't be used again until the next dawn.",
+      "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+    ]
+  },
+  {
+    "name": "Powered Armor",
+    "source": "LLK",
+    "baseItem": "plate armor|phb",
+    "type": "HA",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "age": "futuristic",
+    "ac": 18,
+    "ability": {
+      "static": {
+        "str": 18
+      }
+    },
+    "bonusAc": "+1",
+    "entries": [
+      "Powered armor resembles a suit of unusual plate armor, with finely articulated joints connected by an oily, black, leather-like material. The armor has been worked to create the appearance of a heavily muscled warrior, and its great helm is unusual in that it has no openingsâ€”only a broad glass plate in the front with a second piece of glass above it. Strange plates, tubing, and large metal bosses adorn the armor in seemingly random fashion. On the back of the armor's left gauntlet is a rectangular metal box, from which projects a short rod tipped with a cone-shaped red crystal.",
+      "While wearing this armor, you gain the following benefits:",
+      {
+        "type": "list",
+        "items": [
+          "You have a +1 bonus to AC.",
+          "Your Strength score is 18 (this has no effect if your Strength is already 18 or higher).",
+          "You have advantage on death saving throws."
+        ]
+      },
+      "The armor has further capabilities that can be powered either by {@item energy cell||energy cells} or by your own life energy. You can use a bonus action to draw power from an energy cell or sacrifice hit points to gain one of the following benefits:",
+      {
+        "type": "list",
+        "items": [
+          "Emit a force field to gain {@dice 2d6 + 5} temporary hit points (1 charge or 5 hit points).",
+          "Activate boosters to gain a flying speed of 15 feet for 1 minute (1 charge or 5 hit points).",
+          "Fire arm-mounted laser: {@atk rw} {@hit 8} to hit, range 120 feet, one target. {@h}{@damage 2d6} radiant damage (1 charge or 5 hit points).",
+          "Translate any writing you can see in any nonmagical language, to a total of one thousand words over 1 minute (1 charge or 5 hit points).",
+          "Fill the armor with air, allowing you to breathe normally in any environment for up to 1 hour (1 charge or 5 hit points).",
+          "Gain {@sense darkvision} to a range of 60 feet for up to 1 hour (1 charge or 5 hit points)."
+        ]
+      },
+      "The armor can accept only one energy cell at a time. It is found with one energy cell attached, containing {@dice 2d10} charges.",
+      {
+        "type": "inset",
+        "name": "Powered Armor Options",
+        "entries": [
+          "Depending on where and how it appears in the adventure, you might wish to modify the features of Kwalish's legendary powered armor.",
+          {
+            "type": "entries",
+            "name": "Automatic Defenses",
+            "entries": [
+              "Unless Kwalish deactivates the suit's automatic defenses, no one can approach the armor without setting those defenses off. Treat the armor as a {@creature shield guardian} that has stored a {@spell magic missile} spell cast using a 4th-level spell slot. When the armor is reduced to 0 hit points, its defenses are rendered inert and it can be safely approached."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Battle of Wills",
+            "entries": [
+              "When donned by a new user, the armor deems itself superior and attempts to take possession of that user. The user must succeed on a {@dc 13} Charisma saving throw or be possessed by the armor. While possessed, the user is {@condition incapacitated} and loses control of its body but retains its awareness. The armor uses the possessed user's statistics (as adjusted by the armor), but doesn't gain access to the user's knowledge, features, or proficiencies.",
+              "Freeing a creature trapped inside the armor first requires defeating the armor's automatic defenses (as above). The trapped creature can also attempt a {@dc 20} Charisma saving throw each day at dawn. On a successful save, the armor no longer controls the creature and can be safely donned by that creature at any time."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Stasis",
+            "entries": [
+              "Whenever a creature wearing the armor drops to 0 hit points, the armor places that creature into a state of stasis. While in this state, the creature is stable and does not make death saving throws, but the armor takes control of the creature (as above). Additionally, the armor attempts to assume the identity of the user, assuring their allies that nothing is amiss. Freeing the user first requires defeating the armor's automatic defenses (as above). A creature in stasis does not make Charisma saving throws to break the armor's control."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Alternative Power",
+            "entries": [
+              "Powered armor originally required energy cells to fuel it, but was adapted by Kwalish to be fueled by the life energy of the creature wearing it. You might decide that the armor can also draw power from additional sources, or that energy cells can be recharged with the aid of a tinker, inventor, or artificer. It might also be possible for allies to connect to the armor through the use of magic that generates a conduit something like an astral silver cord. While so connected, a willing ally can give up hit points as a reaction to fuel the armor's abilities."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Powered Armor",
+    "source": "QftIS",
+    "type": "HA",
+    "rarity": "none",
+    "age": "futuristic",
+    "entries": [
+      "This suit of technologically advanced plate armor includes an under-suit that can fully seal, a helmet with a full face mask and crystal lenses in the eyeholes, and a set of gauntlets. The armor is powered by an {@item energy cell} stored in a compartment on the thigh plate.",
+      "Placing a full {@item energy cell} in the armor gives the armor 24 charges. A suit of powered armor functions as a suit of normal plate armor, even when it has 0 charges remaining.",
+      {
+        "type": "entries",
+        "name": "Activating the Armor",
+        "entries": [
+          "As an action, you can expend any number of the armor's charges to activate it; the armor remains active for 1 hour per charge expended. You can use a bonus action to deactivate the armor early, but doing so doesn't recover any expended charges.",
+          "While the armor is active, you gain the following benefits:"
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Augmented Physicality",
+        "entries": [
+          "You have advantage on Strength checks, and your carrying capacity is doubled."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Environmental Adaptation",
+        "entries": [
+          "The armor seals airtight and provides its own atmosphere. You can breathe normally in any environment and withstand extreme temperatures, and you're unaffected by harmful gases, as well as contact and inhaled poisons."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Force Field",
+        "entries": [
+          "When you would take damage, you can use your reaction to expend 1 of the armor's charges to deploy a defensive force field. Roll {@dice 3d10} and reduce the damage taken by the total rolled."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Propulsion",
+        "entries": [
+          "As a bonus action, you can expend 1 of the armor's charges to gain a flying speed equal to your walking speed for 1 minute. If you're airborne when this duration ends, you fall."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Replacing the Energy Cell",
+        "entries": [
+          "While the armor has charges remaining, its {@item energy cell} can't be removed. Once the armor has 0 charges, you can replace the {@item energy cell} with a new cell by using an action or a bonus action."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scorpion Armor",
+    "source": "ToA",
+    "type": "HA",
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 18,
+    "strength": "15",
+    "entries": [
+      "This suit of plate armor is fashioned from {@creature giant scorpion} chitin. While wearing this armor, you gain the following benefits:",
+      {
+        "type": "list",
+        "items": [
+          "The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't {@condition incapacitated}.",
+          "The armor doesn't impose disadvantage on your Dexterity ({@skill Stealth}) checks.",
+          "The armor doesn't impose disadvantage on saving throws made to resist the effects of extreme heat (see chapter 5 of the Dungeon Master's Guide)."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed. Whenever you don or doff it, you must make a {@dc 15} Constitution saving throw, taking 100 ({@damage 10d10 + 45}) poison damage on a failed save, or half as much damage on a successful one. Only a {@spell wish} spell can remove the armor's curse."
+        ]
+      }
+    ]
   }
 ]

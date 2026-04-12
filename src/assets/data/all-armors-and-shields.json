@@ -21418,5 +21418,258 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "source": "DMG",
+    "reprintedAs": [
+      "Glamoured Studded Leather|XDMG"
+    ],
+    "type": "LA",
+    "rarity": "rare",
+    "ac": 12,
+    "bonusAc": "+1",
+    "entries": [
+      "While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+    ]
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "source": "XDMG",
+    "baseItem": "studded leather armor|xphb",
+    "type": "LA|XPHB",
+    "rarity": "rare",
+    "ac": 12,
+    "bonusAc": "+1",
+    "entries": [
+      "While wearing this armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}. You can also take a {@variantrule Bonus Action|XPHB} to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks likeâ€”including color, style, and accessoriesâ€”but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor."
+    ]
+  },
+  {
+    "name": "Heward's Hireling Armor",
+    "source": "LLK",
+    "baseItem": "leather armor|phb",
+    "type": "LA",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 11,
+    "bonusAc": "+1",
+    "entries": [
+      "A number of Kwalish's experiments were attempts to research the works of the legendary mage Heward, who first crafted what he named hireling armor. While wearing this armor, you gain a +1 bonus to AC. In addition, the armor's animated straps can assist with the drawing and sheathing of weapons, such that you can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+      "This armor also has six pockets, each of which is an extradimensional space. Each pocket can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The armor always weighs 10 pounds, regardless of its pockets' contents. Placing an object into one of the armor's pockets follows the normal rules for interacting with objects. Retrieving an item from a pocket of the armor requires you to use an action. When you reach into a pocket for a specific item, the item is always magically on top.",
+      "Placing the armor inside an extradimensional space created by a {@item bag of holding}, a {@item Heward's handy haversack}, or a similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+    ],
+    "containerCapacity": {
+      "weight": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "weightless": true
+    }
+  },
+  {
+    "name": "Hide of the Feral Guardian (Dormant)",
+    "source": "EGW",
+    "baseItem": "studded leather armor|PHB",
+    "type": "LA",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "property": [
+      "Vst|EGW"
+    ],
+    "ac": 12,
+    "bonusWeapon": "+1",
+    "bonusAc": "+1",
+    "entries": [
+      "It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.",
+      {
+        "type": "entries",
+        "name": "Dormant",
+        "entries": [
+          "While wearing the armor in its dormant state, you gain the following benefits:",
+          {
+            "type": "list",
+            "items": [
+              "The armor grants you a +1 bonus to AC.",
+              "While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.",
+              "As an action, you can use the armor to cast {@spell polymorph} on yourself, transforming into a {@creature giant owl} while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn."
+            ]
+          }
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "polymorph"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Hunter's Coat",
+    "source": "EGW",
+    "baseItem": "leather armor|PHB",
+    "type": "LA",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "ac": 11,
+    "bonusAc": "+1",
+    "entries": [
+      "You have a +1 bonus to AC while wearing this armor.",
+      "The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra {@damage 1d10} necrotic damage to the target. The coat regains {@dice 1d3} expended charges daily at dawn.",
+      "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+    ]
+  },
+  {
+    "name": "Leather Golem Armor",
+    "source": "LLK",
+    "baseItem": "leather armor|phb",
+    "type": "LA",
+    "resist": [
+      "lightning"
+    ],
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 11,
+    "bonusAc": "+1",
+    "bonusSavingThrow": "+1",
+    "entries": [
+      "Strange rituals have repurposed the body of a flesh golem into this partially sentient suit of leather armor. While wearing this armor, you gain a +1 bonus to AC and to saving throws against spells and other magical effects. In addition, you gain the following properties:",
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "entries",
+            "name": "Immutable Form",
+            "entries": [
+              "You are immune to any spell or effect that would alter your form."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Lightning Absorption",
+            "entries": [
+              "You gain resistance to lightning damage. Whenever you take lightning damage, you gain 5 temporary hit points."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the armor. In addition, while you wear the cursed armor, you gain the following properties:",
+          {
+            "type": "list",
+            "items": [
+              {
+                "type": "entries",
+                "name": "Aversion of Fire",
+                "entries": [
+                  "If you take fire damage, you have disadvantage on attack rolls and ability checks until the end of your next turn."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Berserk",
+                "entries": [
+                  "Whenever a critical hit is made against you, roll a {@dice d6}. On a 6, the armor causes you to go berserk. On each of your turns while berserk, you attack the nearest creature you can see. If no creature is near enough to move to and attack, you attack an object, with preference for an object smaller than yourself. Once the armor causes you to go berserk, it cannot be removed. You continue to attack until you are {@condition incapacitated} or until another creature is able to calm you with appropriate magic (such as a {@spell calm emotions} spell) or a successful {@dc 15} Charisma ({@skill Persuasion}) check."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Voidwalker Armor",
+    "source": "BMT",
+    "baseItem": "studded leather armor|PHB",
+    "type": "LA",
+    "rarity": "rare",
+    "reqAttune": true,
+    "curse": true,
+    "ac": 12,
+    "entries": [
+      "This black studded leather armor bears a red sheen. While wearing this armor, you can use a bonus action to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection's space. The projection disappears at the end of your turn. Once you use this bonus action, it can't be used again until the next dawn.",
+      {
+        "type": "entries",
+        "name": "Curse",
+        "entries": [
+          "This armor is cursed, and attuning to it extends the curse to you. As long as you remain cursed, you're unwilling to part with the armor. Taking it off fails to end the curse. While cursed in this way, you feel disconnected from your body, continuously hearing whispers that call for you to join them. Whenever you finish a long rest while cursed, you must make a {@dc 11} Charisma saving throw. On a failed save, your soul is drawn from your body and trapped in an object on a different plane of existence. The object and location of this object are chosen by the DM (but might be the House of Cards; see chapter 18). While your soul is trapped in this way, your body is inert and doesn't age or require sustenance. Destroying the object frees your soul; otherwise, only a {@spell Wish} spell can restore your soul to your body."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hide of the Feral Guardian (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Hide of the Feral Guardian (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the armor reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The AC bonus of the armor increases to +2.",
+                  "While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).",
+                  "When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature cave bear}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2",
+    "bonusAc": "+2"
+  },
+  {
+    "name": "Hide of the Feral Guardian (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Hide of the Feral Guardian (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the armor reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The AC bonus of the armor increases to +3.",
+                  "While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).",
+                  "When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature guardian wolf|EGW}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3",
+    "bonusAc": "+3"
   }
 ]

@@ -1696,5 +1696,20 @@
     "miscTags": [
       "CNS"
     ]
+  },
+  {
+    "name": "Potion of Growth",
+    "source": "XDMG",
+    "rarity": "uncommon",
+    "entries": [
+      "When you drink this potion, you gain the \"enlarge\" effect of the {@spell Enlarge/Reduce|XPHB} spell for 10 minutes (no {@status Concentration|XPHB} required).",
+      "The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
+    ],
+    "attachedSpells": [
+      "enlarge/reduce|xphb"
+    ],
+    "miscTags": [
+      "CNS"
+    ]
   }
 ]

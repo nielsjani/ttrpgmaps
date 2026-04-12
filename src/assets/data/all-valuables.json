@@ -2987,6 +2987,360 @@
       "type": "TG|XDMG",
       "rarity": "none",
       "value": 1
+    },
+    {
+      "name": "Ale (gallon)",
+      "source": "PHB",
+      "type": "FD",
+      "rarity": "none",
+      "value": 20,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Ale (mug)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Ale (mug)|XPHB"
+      ],
+      "type": "FD",
+      "rarity": "none",
+      "value": 4,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Ale (mug)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 4,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Bread (loaf)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 2,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Cheese (wedge)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 10,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Chunk of Meat",
+      "source": "PHB",
+      "type": "FD",
+      "rarity": "none",
+      "value": 30,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Common Wine (bottle)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 20,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Common Wine (pitcher)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Common Wine (bottle)|XPHB"
+      ],
+      "type": "FD",
+      "rarity": "none",
+      "value": 20,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Dice Set",
+      "source": "PHB",
+      "reprintedAs": [
+        "Dice Set|XPHB"
+      ],
+      "type": "GS",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Dice Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 10,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragonchess Set",
+      "source": "PHB",
+      "reprintedAs": [
+        "Dragonchess Set|XPHB"
+      ],
+      "type": "GS",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Dragonchess Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fine Wine (bottle)",
+      "source": "PHB",
+      "reprintedAs": [
+        "Fine Wine (bottle)|XPHB"
+      ],
+      "type": "FD",
+      "rarity": "none",
+      "value": 1000,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Fine Wine (bottle)",
+      "source": "XPHB",
+      "type": "FD|XPHB",
+      "rarity": "none",
+      "value": 1000,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gold Bar (5-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 25000,
+      "barDimensions": {
+        "l": 5,
+        "w": 2,
+        "h": 0.75
+      }
+    },
+    {
+      "name": "Hunk of Cheese",
+      "source": "PHB",
+      "reprintedAs": [
+        "Cheese (wedge)|XPHB"
+      ],
+      "type": "FD",
+      "rarity": "none",
+      "value": 10,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Loaf of Bread",
+      "source": "PHB",
+      "reprintedAs": [
+        "Bread (loaf)|XPHB"
+      ],
+      "type": "FD",
+      "rarity": "none",
+      "value": 2,
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Playing Card Set",
+      "source": "PHB",
+      "reprintedAs": [
+        "Playing Cards|XPHB"
+      ],
+      "type": "GS",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Playing Cards",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 50,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silver Bar (2-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 1000,
+      "barDimensions": {
+        "l": 5,
+        "w": 2,
+        "h": 0.5
+      }
+    },
+    {
+      "name": "Silver Bar (5-pound)",
+      "source": "XDMG",
+      "type": "TB|XDMG",
+      "rarity": "none",
+      "value": 2500,
+      "barDimensions": {
+        "l": 6,
+        "w": 2,
+        "h": 1
+      }
+    },
+    {
+      "name": "Tej",
+      "source": "ToA",
+      "type": "FD",
+      "rarity": "none",
+      "entries": [
+        "Tej is an amber-colored, fermented drink made from honey. It's more common and popular in Chult than beer or ale. A mug of tej costs 4 cp in Port Nyanzaru or 6 cp in Fort Beluarian. A 1-gallon cask costs 2 sp in the city or 3 sp at the fort."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Three-Dragon Ante Set",
+      "source": "PHB",
+      "reprintedAs": [
+        "Three-Dragon Ante Set|XPHB"
+      ],
+      "type": "GS",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Three-Dragon Ante Set",
+      "source": "XPHB",
+      "type": "GS|XPHB",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "name": "Ability:",
+              "type": "item",
+              "entries": [
+                "Wisdom"
+              ]
+            },
+            {
+              "name": "Utilize:",
+              "type": "item",
+              "entries": [
+                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Three-Dragon Ante Set",
+      "source": "LLK",
+      "_copy": {
+        "name": "Three-Dragon Ante Set",
+        "source": "PHB",
+        "_mod": {
+          "entries": {
+            "mode": "appendArr",
+            "items": "One card in this deck is enchanted to appear as whatever specific card its owner commands. This magic works only 25 percent of the time, but the deck is worth 500 gp to any serious gambler who doesn't mind the riskâ€”or who isn't told about it."
+          }
+        }
+      },
+      "value": null
     }
   ]
 }

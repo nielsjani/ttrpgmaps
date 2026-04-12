@@ -767,6 +767,227 @@
       "miscTags": [
         "CNS"
       ]
+    },
+    {
+      "name": "Bomb",
+      "source": "DMG",
+      "reprintedAs": [
+        "Bomb|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "value": 15000,
+      "age": "renaissance",
+      "entries": [
+        "As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 12} Dexterity saving throw or take {@damage 3d6} fire damage."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Bomb",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@damage 3d6} Fire damage on a failed save or half as much damage on a successful one."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Concussion Grenade",
+      "source": "QftIS",
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "entries": [
+        "{#itemEntry Grenade|DMG}",
+        "This grenade explodes in a concussive blast that fills a 20-foot-radius sphere. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking ({@damage 6d6}) force damage on a failed save or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Dynamite (stick)",
+      "source": "DMG",
+      "reprintedAs": [
+        "Dynamite Stick|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "age": "modern",
+      "entries": [
+        "As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a {@dc 12} Dexterity saving throw, taking {@damage 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+        "A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by {@damage 1d6} (to a maximum of {@damage 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
+        "Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Dynamite Stick",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "valueRarity": "rare",
+      "age": "modern",
+      "entries": [
+        "An an action, you can light a Dynamite Stick and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@damage 3d6} Force damage on a failed save or half as much damage on a successful one.",
+        "It takes 1 minute to bind two or more Dynamite Sticks together so they explode at the same time. Each stick after the first increases the damage by {@dice 1d6} (to a maximum of {@dice 10d6}) and the effect's radius by 5 feet (to a maximum of 20 feet).",
+        "It takes 1 minute to rig dynamite with a longer fuse so it explodes after a longer period of time, such as 1 minute or 10 minutes."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Fragmentation Grenade",
+      "source": "DMG",
+      "reprintedAs": [
+        "Fragmentation Grenade|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "age": "modern",
+      "entries": [
+        "{#itemEntry Grenade|DMG}",
+        "Each creature within 20 feet of an exploding fragmentation grenade must make a {@dc 15} Dexterity saving throw, taking {@damage 5d6} piercing damage on a failed save, or half as much damage on a successful one."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Fragmentation Grenade",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "valueRarity": "rare",
+      "age": "modern",
+      "entries": [
+        "{#itemEntry Grenade|XDMG}",
+        "Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 15} Dexterity saving throw, taking 17 ({@damage 5d6}) Piercing damage on a failed save or half as much damage on a successful one."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gunpowder (keg)",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "value": 25000,
+      "entries": [
+        "Setting fire to a keg full of Gunpowder causes it to explode. When a keg explodes, each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the keg makes a {@dc 12} Dexterity saving throw, taking 24 ({@damage 7d6}) Fire damage on a failed save or half as much damage on a successful one."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gunpowder (powder horn)",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "value": 3500,
+      "entries": [
+        "Setting fire to a powder horn full of Gunpowder causes it to explode. When a powder horn explodes, each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the powder horn makes a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage on a failed save or half as much damage on a successful one."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gunpowder Horn",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gunpowder (powder horn)|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "value": 3500,
+      "age": "renaissance",
+      "entries": [
+        "Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
+        "Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 3d6} for a powder horn). A successful {@dc 12} Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+      ],
+      "light": [
+        {
+          "bright": 30,
+          "dim": 60
+        }
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Gunpowder Keg",
+      "source": "DMG",
+      "reprintedAs": [
+        "Gunpowder (keg)|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "value": 25000,
+      "age": "renaissance",
+      "entries": [
+        "Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
+        "Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 7d6} for a keg). A successful {@dc 12} Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+      ],
+      "light": [
+        {
+          "bright": 30,
+          "dim": 60
+        }
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Sleep Grenade",
+      "source": "QftIS",
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "entries": [
+        "{#itemEntry Grenade|DMG}",
+        "This grenade releases a cloud of soporific mist that fills a 20-foot-radius sphere, then dissipates. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or have the {@condition unconscious} condition for 1 hour. The condition ends on a creature early if the creature takes damage or if another creature uses an action to shake it awake."
+      ]
+    },
+    {
+      "name": "Smoke Grenade",
+      "source": "DMG",
+      "reprintedAs": [
+        "Smoke Grenade|XDMG"
+      ],
+      "type": "EXP|DMG",
+      "rarity": "none",
+      "age": "modern",
+      "entries": [
+        "{#itemEntry Grenade|DMG}",
+        "One round after a smoke grenade lands, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    },
+    {
+      "name": "Smoke Grenade",
+      "source": "XDMG",
+      "type": "EXP|XDMG",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "{#itemEntry Grenade|XDMG}",
+        "The area of the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} is {@variantrule Heavily Obscured|XPHB} by smoke for 1 minute. A strong wind (such as the {@spell Gust of Wind|XPHB} spell) disperses the smoke."
+      ],
+      "miscTags": [
+        "CNS"
+      ]
     }
   ]
 }

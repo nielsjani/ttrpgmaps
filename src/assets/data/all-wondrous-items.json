@@ -28984,5 +28984,2942 @@
     "entries": [
       "This rod ends in three rubbery tentacles. While holding the rod, you can take a {@action Magic|XPHB} action to direct the tentacles to stretch outward, each one attacking a creature you can see within 15 feet of yourself. For each tentacle, make a melee attack roll with a +9 bonus. A tentacle deals {@damage 1d6} Psychic damage on a hit. If you hit the same target with all three tentacles, the target must succeed on a {@dc 15} Dexterity saving throw or have the {@condition Restrained|XPHB} condition until you have the {@condition Incapacitated|XPHB} condition, until you take a {@variantrule Bonus Action|XPHB} to release the target, or until the target is no longer within 15 feet of you. While {@condition Restrained|XPHB} in this way, the target takes {@damage 3d6} Psychic damage at the start of each of its turns. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success."
     ]
+  },
+  {
+    "name": "Book of Vile Darkness (Variant)",
+    "source": "KftGV",
+    "_copy": {
+      "name": "Book of Vile Darkness",
+      "source": "DMG",
+      "_mod": {
+        "entries": {
+          "mode": "replaceArr",
+          "replace": {
+            "index": 7
+          },
+          "items": [
+            "The Book of Vile Darkness has the following properties:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Circle of Death",
+                  "entries": [
+                    "While attuned to the book, you can cast {@spell circle of death} (save {@dc 20}) from it as an action. After you cast the spell, roll a {@dice d6}. On a roll of 1-5, you can't use this property again until the next dawn."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Condition Immunities",
+                  "entries": [
+                    "While attuned to the book, you can't be {@condition charmed} or {@condition frightened}."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Evil Presence",
+                  "entries": [
+                    "The book houses an evil spirit that is hostile toward you. When you become attuned to the book, the spirit tries to leave the book and enter your body. If you fail a {@dc 20} Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding spirit is banished using magic such as the {@spell dispel evil and good} spell. The banished spirit returns to the book."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Cloak of Billowing",
+    "source": "WttHC",
+    "_copy": {
+      "name": "Cloak of Billowing",
+      "source": "XDMG",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": {
+            "type": "entries",
+            "name": "Special Use:",
+            "entries": [
+              "You have advantage on Charisma ({@skill Performance|XPHB}) checks you make to amuse Humanoid onlookers while the cloak is billowing."
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Danoth's Visor (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Danoth's Visor (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When Danoth's Visor reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "You see {@condition invisible} creatures and objects within 60 feet of you as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+                  "As a bonus action, you can speak a command word and use the goggles to see into and through solid matter. This vision has a radius of 60 feet and lasts for 1 minute. To you, solid objects within that radius appear transparent. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead. This property can't be used again until the next dawn.",
+                  "As a bonus action, you can speak a command word to switch the goggles into spyglass mode. While in this mode, creatures and objects viewed through the goggles are magnified to twice their size. Speaking the command word again reverts the goggles to their normal operation."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
+  },
+  {
+    "name": "Dread Helm",
+    "source": "WttHC",
+    "_copy": {
+      "name": "Dread Helm",
+      "source": "XDMG",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": {
+            "type": "entries",
+            "name": "Special Use:",
+            "entries": [
+              "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Intimidation|XPHB}) checks you make to intimidate a Humanoid who sees you wearing this helm."
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Grimoire Infinitus (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Grimoire Infinitus (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the Grimoire Infinitus reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "While you carry the spellbook, you have advantage on saving throws against spells and magical effects.",
+                  "When you prepare wizard spells using the grimoire as your spellbook, the number of spells you can prepare increases by 1 again."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
+  },
+  {
+    "name": "Infiltrator's Key (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Infiltrator's Key (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the Infiltrator's Key reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "While holding the key, you can use a bonus action to transform the key into a magic dagger or back into a key. While the key is in the form of a dagger, you gain a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack.",
+                  "While holding the key, you can use an action to cast one of the following spells from it: {@spell alter self}, {@spell invisibility}, {@spell knock}, or {@spell pass without trace}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2",
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "alter self",
+          "invisibility",
+          "knock",
+          "pass without trace"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Jewel of Three Prayers (Awakened)",
+    "source": "CRCotN",
+    "_copy": {
+      "name": "Jewel of Three Prayers (Dormant)",
+      "source": "CRCotN",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened State",
+            "entries": [
+              "In this state, the jewel has received the blessing of Avandra the Change Bringer. Three delicate spires unfurl from the jewel's center, like the buds of flowers opening in the spring. Three lapis lazuli stones rest like dewdrops on these spires.",
+              {
+                "type": "list",
+                "items": [
+                  "The following benefits of the jewel improve:",
+                  "The bonus that the jewel confers to your AC increases to +2.",
+                  "Its number of charges increases to 5."
+                ]
+              },
+              "The jewel gains the following additional properties, which you can use while wearing or holding it:",
+              {
+                "type": "list",
+                "items": [
+                  "You can expend 1 of the jewel's charges (no action required) to end one of the following conditions on yourself: {@condition grappled}, {@condition paralyzed}, or {@condition restrained}.",
+                  "When another creature you can see within 60 feet of you fails a saving throw, you can expend 1 of the jewel's charges as a reaction to enable that creature to reroll the saving throw, potentially turning a failure into a success. The creature must use the new roll."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusAc": "+2"
+  },
+  {
+    "name": "Professor Skant",
+    "source": "IDRotF",
+    "_copy": {
+      "name": "Professor Orb",
+      "source": "WDMM"
+    },
+    "entries": [
+      "The {@item professor orb|WDMM} owned by Vellynne Harpell and stolen by Nass Lantomir calls itself Professor Skant. It is lawful good, and it has a Wisdom of 11 and a Charisma of 9 {@note (as a professor orb, it has an Intelligence of 18)}. It speaks and reads Common, Draconic, Elvish, and Loross (the dead language of the Empire of Netheril). Professor Skant is a chatterbox and assumes all humanoids are dunderheads. When elaborating on its areas of expertise, it adopts an unintentionally patronizing tone. It has the following four areas of expertise:",
+      {
+        "type": "list",
+        "items": [
+          "The history of Netheril (see the \"{@adventure Fate of Netheril|IDRotF|17|Fate of Netheril}\" sidebar)",
+          "Vampirism and the traits of vampires",
+          "Rituals surrounding the making, bottling, and drinking of Elverquisst (a rare, ruby-colored elven liquor distilled from sunshine and rare summer fruits)",
+          "The {@creature tarrasque} (see the Monster Manual)"
+        ]
+      },
+      "When making an Intelligence check to recall lore from any of its areas of expertise, the orb has a +9 bonus to its roll (including its Intelligence modifier).",
+      "Professor Skant takes the form of a smooth, solid, 5-pound sphere of smoky gray quartz about the size of a grapefruit. Close examination reveals two or more pinpricks of silver light deep inside the sphere.",
+      "Professor Skant can see and hear normally out to a range of 60 feet. Unlike most sentient items, the orb has no will of its own and can't initiate a conflict with the creature in possession of it.",
+      "In addition to the knowledge it possesses, Professor Skant can cast the {@spell mage hand} cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence."
+    ]
+  },
+  {
+    "name": "Prosthetic Limb",
+    "source": "FRHoF",
+    "_copy": {
+      "name": "Prosthetic Limb",
+      "source": "XDMG"
+    },
+    "value": 0,
+    "hasFluff": true
+  },
+  {
+    "name": "Stirring Dragon Vessel",
+    "source": "FTD",
+    "_copy": {
+      "name": "Slumbering Dragon Vessel",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "rare",
+    "entries": [
+      "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.",
+      "As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, mead, a {@item potion of healing}, a {@item potion of greater healing}, a {@item potion of climbing}, or a {@item potion of fire breath}. Once this property is used, it can't be used until the next dawn. A potion you create in this way loses its magical properties if it isn't imbibed within 24 hours."
+    ]
+  },
+  {
+    "name": "Stirring Scaled Ornament",
+    "source": "FTD",
+    "_copy": {
+      "name": "Slumbering Scaled Ornament",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "rare",
+    "bonusAc": "+1",
+    "entries": [
+      "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
+      "You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself."
+    ]
+  },
+  {
+    "name": "Stormgirdle (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Stormgirdle (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "While wearing the Stormgirdle in its awakened state, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "Your Strength score becomes 23 if it isn't already 23 or higher.",
+                  "Your Storm Avatar's lightning strike deals {@damage 4d6} lightning damage (instead of {@dice 3d6}).",
+                  "While transformed into a Storm Avatar, you gain a flying speed of 30 feet and can hover."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
+  },
+  {
+    "name": "Verminshroud (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Verminshroud (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "While wearing the Verminshroud in its awakened state, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "You have resistance to poison damage.",
+                  "You can use an action to cast the {@spell insect plague} spell (save {@dc 15}) from the Verminshroud, requiring no material components. This property can't be used again until the next dawn.",
+                  "When you cast the {@spell polymorph} spell using the Verminshroud, you can transform into a {@creature giant wasp}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "resist": [
+      "poison"
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "insect plague",
+          "polymorph"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Wreath of the Prism (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Wreath of the Prism (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "Once the Wreath of the Prism reaches an awakened state, it gains the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "You can affect creatures of challenge rating 10 or lower with the wreath.",
+                  "The save DC of the wreath's spell increases to 15."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
+  },
+  {
+    "name": "Adventurer's Ring",
+    "source": "FRHoF",
+    "type": "RG|XDMG",
+    "rarity": "common",
+    "entries": [
+      "While the cover on this ring is open, the ring produces a flame that creates no heat and consumes no fuel. It sheds {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} for an additional 20 feet. As a {@variantrule Bonus Action|XPHB}, you can close the cover, smothering the flame, or open it again."
+    ],
+    "light": [
+      {
+        "bright": 20,
+        "dim": 40
+      }
+    ],
+    "hasFluff": true
+  },
+  {
+    "name": "Azorius Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Azorius, allows you to cast {@spell ensnaring strike}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Azorius's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "ensnaring strike"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Boros Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Boros, allows you to cast {@spell heroism}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Boros' recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "heroism"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Dimir Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Dimir, allows you to cast {@spell disguise self}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Dimir's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "disguise self"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Golgari Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Golgari, allows you to cast {@spell entangle}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Golgari's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "entangle"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Gruul Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Gruul, allows you to cast {@spell compelled duel}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Gruul's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "compelled duel"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Horned Ring",
+    "source": "WDMM",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "Allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
+    ]
+  },
+  {
+    "name": "Izzet Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Izzet, allows you to cast {@spell chaos bolt|XGE}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Izzet's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "chaos bolt|XGE"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mind Sharpener",
+    "source": "EFA",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "The item has 4 charges. When you fail a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} and expend 1 of the item's charges to succeed instead. The item regains {@dice 1d4} expended charges daily at dawn."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ]
+  },
+  {
+    "name": "Netherese Ring of Protection",
+    "source": "PaBTSO",
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "bonusAc": "+1",
+    "bonusSavingThrow": "+4",
+    "entries": [
+      "You gain a +1 bonus to AC and saving throws while wearing this ring.",
+      "The ring is made from a single piece of mystical green glass that's stronger than steel. It has the added property of making the wearer less likely to drop or lose anything held in the hand the ring is on. The wearer receives a +4 bonus to saving throws or checks made to avoid dropping or being disarmed of any item held in that hand."
+    ]
+  },
+  {
+    "name": "Orzhov Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Orzhov, allows you to cast {@spell command}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Orzhov's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "command"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rakdos Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Rakdos, allows you to cast {@spell hellish rebuke}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Rakdos' recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "hellish rebuke"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Acid Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "acid"
+    ],
+    "detail1": "pearl",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "acid"
+    ],
+    "detail1": "pearl",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Air Elemental Command",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Elemental Command (Air)|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "lightning"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "modifySpeed": {
+      "equal": {
+        "fly": "walk"
+      }
+    },
+    "entries": [
+      "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Air, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.",
+      "The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
+      "You can expend 2 of the ring's charges to cast {@spell dominate monster} on an {@creature air elemental}. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.",
+      "If you help slay an {@creature air elemental} while attuned to the ring, you gain access to the following additional properties:",
+      {
+        "type": "list",
+        "items": [
+          "You have resistance to lightning damage.",
+          "You have a flying speed equal to your walking speed and can hover.",
+          "You can cast the following spells from the ring, expending the necessary number of charges: {@spell chain lightning} (3 charges), {@spell gust of wind} (2 charges), or {@spell wind wall} (1 charge)."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "wind wall"
+        ],
+        "2": [
+          "dominate monster",
+          "gust of wind"
+        ],
+        "3": [
+          "chain lightning"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Amity",
+    "source": "BGG",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring is carved from hematite and bears an engraving of the friend rune.",
+      "When you first attune to this ring, you can touch one willing creature and form a magical bond between the two of you. While this bond lasts, whenever you are subjected to a spell or magical effect that restores hit points, the bonded creature also receives the benefits of the spell or effect.",
+      "You can bond with a different creature whenever you finish a long rest, provided that you can touch the creature and the creature is willing.",
+      "A creature can benefit from only one ring of amity's bond at a time. The bond ends if either you or the creature travels to a different plane of existence, if you bond with a different creature at the end of a long rest, or if you sever the bond as a bonus action.",
+      {
+        "type": "entries",
+        "name": "Invoking the Rune",
+        "entries": [
+          "When the bonded creature hits a target with an attack roll, you can use your reaction to invoke the ring's rune if you are within 60 feet of the bonded creature. The bonded creature's attack is then turned into a critical hit.",
+          "Once the rune has been invoked, it can't be invoked again until the next dawn."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Animal Influence|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "entries": [
+      "This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:",
+      {
+        "type": "list",
+        "items": [
+          "{@spell Animal friendship} (save {@dc 13})",
+          "{@spell Fear} (save {@dc 13}), targeting only beasts that have an Intelligence of 3 or lower",
+          "{@spell Speak with animals}"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "animal friendship",
+          "fear",
+          "speak with animals"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "entries": [
+      "This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save {@dc 13}) from it:",
+      {
+        "type": "list",
+        "items": [
+          "{@spell Animal Friendship|XPHB}",
+          "{@spell Fear|XPHB} (affects Beasts only)",
+          "{@spell Speak with Animals|XPHB}"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "animal friendship|xphb",
+          "fear|xphb",
+          "speak with animals|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Cold Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "cold"
+    ],
+    "detail1": "tourmaline",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "cold"
+    ],
+    "detail1": "tourmaline",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Collecting",
+    "source": "CoA",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring you can use it to cast the {@spell Leomund's Tiny Hut} spell as an action. Once this property is used, it can't be used again until the next dawn. Additionally, as a bonus action, you can use the ring to disintegrate any nonmagical piece of art (drawing, painting, or sculpture) within 60 feet that is no larger than Medium-sized. That art now appears inside the tiny hut, for you to appreciate whenever you desire. If you try to remove this art from the tiny hut, it vanishes forever. You can steadily improve this space, but only be denying such beauty to the rest of the world. For every 1,000 gp of art acquired, the tiny hut increases in size by adding another foot to its radius and lasts one additional hour."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "leomund's tiny hut"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Djinni Summoning|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can speak its command word as an action to summon a particular {@creature djinni} from the Elemental Plane of Air. The {@creature djinni} appears in an unoccupied space you choose within 120 feet of you. It remains as long as you concentrate (as if {@status concentration||concentrating} on a spell), to a maximum of 1 hour, or until it drops to 0 hit points. It then returns to its home plane.",
+      "While summoned, the {@creature djinni} is friendly to you and your companions. It obeys any commands you give it, no matter what language you use. If you fail to command it, the {@creature djinni} defends itself against attackers but takes no other actions.",
+      "After the {@creature djinni} departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the {@creature djinni} dies."
+    ]
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@creature Djinni|XMM} from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
+      "While summoned, the djinni is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.",
+      "After the djinni departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.",
+      "Rings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem."
+    ]
+  },
+  {
+    "name": "Ring of Earth Elemental Command",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Elemental Command (Earth)|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "acid"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Earth and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Earth.",
+      "The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
+      "You can expend 2 of the ring's charges to cast {@spell dominate monster} on an {@creature earth elemental}. In addition, you can move in {@quickref difficult terrain||3} that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.",
+      "If you help slay an {@creature earth elemental} while attuned to the ring, you gain access to the following additional properties:",
+      {
+        "type": "list",
+        "items": [
+          "You have resistance to acid damage.",
+          "You can move through solid earth or rock as if those areas were {@quickref difficult terrain||3}. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.",
+          "You can cast the following spells from the ring, expending the necessary number of charges: {@spell stone shape} (2 charges), {@spell stoneskin} (3 charges), or {@spell wall of stone} (3 charges)."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "2": [
+          "dominate monster",
+          "stone shape"
+        ],
+        "3": [
+          "stoneskin",
+          "wall of stone"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Elemental Command (Air)",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "lightning"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "grantsLanguage": true,
+    "modifySpeed": {
+      "equal": {
+        "fly": "walk"
+      }
+    },
+    "entries": [
+      "The Ring of Elemental Command (air) is linked to the Elemental Plane of Air. Every Ring of Elemental Command has the following two properties:",
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "item",
+            "name": "Elemental Bane",
+            "entries": [
+              "While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Elemental Compulsion",
+            "entries": [
+              "While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Elemental Focus",
+        "entries": [
+          "While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:",
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "Air",
+                "entries": [
+                  "You know Auran, you have {@variantrule Resistance|XPHB} to Lightning damage, and you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Spellcasting",
+        "entries": [
+          "The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Chain Lightning|XPHB} (3 charges), {@spell Feather Fall|XPHB} (0 charges), {@spell Gust of Wind|XPHB} (2 charges), {@spell Wind Wall|XPHB} (1 charge)"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "0": [
+          "feather fall|xphb"
+        ],
+        "1": [
+          "wind wall|xphb"
+        ],
+        "2": [
+          "gust of wind|xphb"
+        ],
+        "3": [
+          "chain lightning|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Elemental Command (Earth)",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "acid"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "grantsLanguage": true,
+    "entries": [
+      "The Ring of Elemental Command (earth) is linked to the Elemental Plane of Earth. Every Ring of Elemental Command has the following two properties:",
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "item",
+            "name": "Elemental Bane",
+            "entries": [
+              "While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Elemental Compulsion",
+            "entries": [
+              "While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Elemental Focus",
+        "entries": [
+          "While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:",
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "Earth",
+                "entries": [
+                  "You know Terran, and you have {@variantrule Resistance|XPHB} to Acid damage. Terrain composed of rubble, rocks, or dirt isn't {@variantrule Difficult Terrain|XPHB} for you. In addition, you can move through solid earth or rock as if those areas were {@variantrule Difficult Terrain|XPHB} without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Spellcasting",
+        "entries": [
+          "The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Earthquake|XPHB} (5 charges), {@spell Stone Shape|XPHB} (2 charges), {@spell Stoneskin|XPHB} (3 charges), {@spell Wall of Stone|XPHB} (3 charges)"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "2": [
+          "stone shape|xphb"
+        ],
+        "3": [
+          "stoneskin|xphb",
+          "wall of stone|xphb"
+        ],
+        "5": [
+          "earthquake|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Elemental Command (Fire)",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "immune": [
+      "fire"
+    ],
+    "resist": [
+      "fire"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "grantsLanguage": true,
+    "entries": [
+      "The Ring of Elemental Command (fire) is linked to the Elemental Plane of Fire. Every Ring of Elemental Command has the following two properties:",
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "item",
+            "name": "Elemental Bane",
+            "entries": [
+              "While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Elemental Compulsion",
+            "entries": [
+              "While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Elemental Focus",
+        "entries": [
+          "While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:",
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "Fire",
+                "entries": [
+                  "You know Ignan, and you have {@variantrule Immunity|XPHB} to Fire damage."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Spellcasting",
+        "entries": [
+          "The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Burning Hands|XPHB} (1 charge), {@spell Fireball|XPHB} (2 charges), {@spell Fire Storm|XPHB} (4 charges), {@spell Wall of Fire|XPHB} (3 charges)"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "burning hands|xphb"
+        ],
+        "2": [
+          "fireball|xphb"
+        ],
+        "3": [
+          "wall of fire|xphb"
+        ],
+        "4": [
+          "fire storm|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Elemental Command (Water)",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "grantsLanguage": true,
+    "entries": [
+      "The Ring of Elemental Command (water) is linked to the Elemental Plane of Water. Every Ring of Elemental Command has the following two properties:",
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "item",
+            "name": "Elemental Bane",
+            "entries": [
+              "While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Elemental Compulsion",
+            "entries": [
+              "While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Elemental Focus",
+        "entries": [
+          "While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:",
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "Water",
+                "entries": [
+                  "You know Aquan, you gain a {@variantrule Swim Speed|XPHB} of 60 feet, and you can breathe underwater."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Spellcasting",
+        "entries": [
+          "The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Create or Destroy Water|XPHB} (1 charge), {@spell Ice Storm|XPHB} (2 charges), {@spell Tsunami|XPHB} (5 charges), {@spell Wall of Ice|XPHB} (3 charges), {@spell Water Walk|XPHB} (2 charges)"
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "create or destroy water|xphb"
+        ],
+        "2": [
+          "ice storm|xphb",
+          "water walk|xphb"
+        ],
+        "3": [
+          "wall of ice|xphb"
+        ],
+        "5": [
+          "tsunami|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Evasion",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Evasion|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead."
+    ]
+  },
+  {
+    "name": "Ring of Evasion",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a {@variantrule Reaction|XPHB} to expend 1 charge to succeed on that save instead."
+    ]
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Feather Falling|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
+    ]
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ]
+  },
+  {
+    "name": "Ring of Fire Elemental Command",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Elemental Command (Fire)|XDMG"
+    ],
+    "type": "RG|DMG",
+    "immune": [
+      "fire"
+    ],
+    "resist": [
+      "fire"
+    ],
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Fire and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Fire.",
+      "The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
+      "You can expend 2 of the ring's charges to cast {@spell dominate monster} on a {@creature fire elemental}. In addition, you have resistance to fire damage. You can also speak and understand Ignan.",
+      "If you help slay a {@creature fire elemental} while attuned to the ring, you gain access to the following additional properties:",
+      {
+        "type": "list",
+        "items": [
+          "You are immune to fire damage.",
+          "You can cast the following spells from the ring, expending the necessary number of charges: {@spell burning hands} (1 charge), {@spell fireball} (2 charges), and {@spell wall of fire} (3 charges)."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "burning hands"
+        ],
+        "2": [
+          "dominate monster",
+          "fireball"
+        ],
+        "3": [
+          "wall of fire"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Fire Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "fire"
+    ],
+    "detail1": "garnet",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "fire"
+    ],
+    "detail1": "garnet",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Force Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "force"
+    ],
+    "detail1": "sapphire",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "force"
+    ],
+    "detail1": "sapphire",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Free Action",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Free Action|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "While you wear this ring, {@quickref difficult terrain||3} doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralyzed} or {@condition restrained}."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Free Action",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "While you wear this ring, {@variantrule Difficult Terrain|XPHB} doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the {@condition Paralyzed|XPHB} or {@condition Restrained|XPHB} condition."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Invisibility",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Invisibility|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can turn {@condition invisible} as an action. Anything you are wearing or carrying is {@condition invisible} with you. You remain {@condition invisible} until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again."
+    ]
+  },
+  {
+    "name": "Ring of Invisibility",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can take a {@action Magic|XPHB} action to give yourself the {@condition Invisible|XPHB} condition. You remain {@condition Invisible|XPHB} until the ring is removed or until you take a {@variantrule Bonus Action|XPHB} to become visible again."
+    ]
+  },
+  {
+    "name": "Ring of Jumping",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Jumping|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ],
+    "attachedSpells": {
+      "will": [
+        "jump"
+      ]
+    }
+  },
+  {
+    "name": "Ring of Jumping",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can cast {@spell Jump|XPHB} from it, but can target only yourself when you do so."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ],
+    "attachedSpells": {
+      "will": [
+        "jump|xphb"
+      ]
+    }
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Lightning Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "lightning"
+    ],
+    "detail1": "citrine",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "lightning"
+    ],
+    "detail1": "citrine",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Mind Shielding|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
+      "You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
+      "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
+      "You can take a {@action Magic|XPHB} action to cause the ring to become imperceptible until you take another {@action Magic|XPHB} action to make it perceptible, until you remove the ring, or until you die.",
+      "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Necrotic Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "necrotic"
+    ],
+    "detail1": "jet",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "necrotic"
+    ],
+    "detail1": "jet",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Obscuring",
+    "source": "EGW",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the {@spell fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no {@status concentration} required)."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "fog cloud"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Poison Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "poison"
+    ],
+    "detail1": "amethyst",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "poison"
+    ],
+    "detail1": "amethyst",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Protection",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Protection|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "bonusAc": "+1",
+    "bonusSavingThrow": "+1",
+    "entries": [
+      "You gain a +1 bonus to AC and saving throws while wearing this ring."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Protection",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "bonusAc": "+1",
+    "bonusSavingThrow": "+1",
+    "entries": [
+      "You gain a +1 bonus to {@variantrule Armor Class|XPHB} and saving throws while wearing this ring."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Psychic Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "psychic"
+    ],
+    "detail1": "jade",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "psychic"
+    ],
+    "detail1": "jade",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Puzzler's Wit",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "entries": [
+      "This gold ring bears a fluorite stone and is enchanted to sharpen the wearer's mind.",
+      "The ring has 3 charges and regains {@dice 1d4 - 1} expended charges daily at dawn. When you make an Intelligence check, you can expend 1 charge to grant yourself advantage on the check."
+    ]
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Radiant Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "radiant"
+    ],
+    "detail1": "topaz",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "radiant"
+    ],
+    "detail1": "topaz",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Red Fury",
+    "source": "CRCotN",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "modifySpeed": {
+      "equal": {
+        "swim": "walk"
+      }
+    },
+    "entries": [
+      "This ring has a stripe of ruidium running through it. While wearing the ring, you gain the following benefits:",
+      {
+        "type": "list",
+        "items": [
+          "You can breathe water.",
+          "You gain a swimming speed equal to your walking speed."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ruidium Rage",
+        "entries": [
+          "As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are {@condition incapacitated}:",
+          {
+            "type": "list",
+            "items": [
+              "You have advantage on Strength checks and Strength saving throws.",
+              "When you hit with an attack, you can add your proficiency bonus to the damage roll.",
+              "Difficult terrain doesn't cost you extra movement, and you are immune to the {@condition paralyzed} and {@condition restrained} conditions."
+            ]
+          },
+          "You can't use this property of the ring again until you finish a long rest."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ruidium Corruption",
+        "entries": [
+          "When you use the Ruidium Rage property of the ring, you must make a {@dc 20} Charisma saving throw. On a failed save, you gain 1 level of {@condition exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "If Ruidium Is Destroyed",
+        "entries": [
+          "If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the ring of red fury becomes a {@item ring of free action}."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ring of Regeneration",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Regeneration|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you regain {@dice 1d6} hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after {@dice 1d6 + 1} days if you have at least 1 hit point the whole time."
+    ]
+  },
+  {
+    "name": "Ring of Regeneration",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you regain {@dice 1d6} {@variantrule Hit Points|XPHB} every 10 minutes if you have at least 1 {@variantrule Hit Points|XPHB|Hit Point}. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after {@dice 1d6 + 1} days if you have at least 1 {@variantrule Hit Points|XPHB|Hit Point} the whole time."
+    ]
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Shooting Stars|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": "outdoors at night",
+    "entries": [
+      "While wearing this ring in dim light or darkness, you can cast {@spell dancing lights} and {@spell light} from the ring at will. Casting either spell from the ring requires an action.",
+      "The ring has 6 charges for the following other properties. The ring regains {@dice 1d6} expended charges daily at dawn.",
+      {
+        "name": "Faerie Fire",
+        "type": "entries",
+        "entries": [
+          "You can expend 1 charge as an action to cast {@spell faerie fire} from the ring."
+        ]
+      },
+      {
+        "name": "Ball Lightning",
+        "type": "entries",
+        "entries": [
+          "You can expend 2 charges as an action to create one to four 3-foot-diameter spheres of lightning. The more spheres you create, the less powerful each sphere is individually.",
+          "Each sphere appears in an unoccupied space you can see within 120 feet of you. The spheres last as long as you concentrate (as if {@status concentration||concentrating} on a spell), up to 1 minute. Each sphere sheds dim light in a 30-foot radius.",
+          "As a bonus action, you can move each sphere up to 30 feet, but no farther than 120 feet away from you. When a creature other than you comes within 5 feet of a sphere, the sphere discharges lightning at that creature and disappears. That creature must make a {@dc 15} Dexterity saving throw. On a failed save, the creature takes lightning damage based on the number of spheres you created. (4 spheres = {@damage 2d4}, 3 spheres = {@damage 2d6}, 2 spheres = {@damage 5d4}, 1 sphere = {@damage 4d12})"
+        ]
+      },
+      {
+        "name": "Shooting Stars",
+        "type": "entries",
+        "entries": [
+          "You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a {@dc 15} Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "light": [
+      {
+        "dim": 30
+      }
+    ],
+    "attachedSpells": {
+      "will": [
+        "dancing lights",
+        "light"
+      ],
+      "charges": {
+        "1": [
+          "faerie fire"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "You can cast {@spell Dancing Lights|XPHB} or {@spell Light|XPHB} from the ring.",
+      "The ring has 6 charges and regains {@dice 1d6} expended charges daily at dawn. You can expend its charges to use the properties below.",
+      {
+        "type": "entries",
+        "name": "Faerie Fire",
+        "entries": [
+          "You can expend 1 charge to cast {@spell Faerie Fire|XPHB} from the ring."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Lightning Spheres",
+        "entries": [
+          "You can expend 2 charges as a {@action Magic|XPHB} action to create up to four 3-foot-diameter spheres of lightning.",
+          "Each sphere appears in an unoccupied space you can see within 120 feet of yourself. The spheres last as long as you maintain {@status Concentration|XPHB}, up to 1 minute. Each sphere sheds {@variantrule Dim Light|XPHB} in a 30-foot radius.",
+          "As a {@variantrule Bonus Action|XPHB}, you can move each sphere up to 30 feet, but no farther than 120 feet away from yourself. The first time the sphere comes within 5 feet of a creature other than you that isn't behind {@variantrule Cover|XPHB|Total Cover}, the sphere discharges lightning at that creature and disappears. That creature makes a {@dc 15} Dexterity saving throw. On a failed save, the creature takes Lightning damage based on the number of spheres you created, as shown in the following table. On a successful save, the creature takes half as much damage.",
+          {
+            "type": "table",
+            "colStyles": [
+              "col-2 text-center",
+              "col-10"
+            ],
+            "colLabels": [
+              "Number of Spheres",
+              "Lightning Damage"
+            ],
+            "rows": [
+              [
+                "1",
+                "{@damage 4d12}"
+              ],
+              [
+                "2",
+                "{@damage 5d4}"
+              ],
+              [
+                "3",
+                "{@damage 2d6}"
+              ],
+              [
+                "4",
+                "{@damage 2d4}"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Shooting Stars",
+        "entries": [
+          "You can expend 1 to 3 charges as a {@action Magic|XPHB} action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} originating from that point is showered in sparks and makes a {@dc 15} Dexterity saving throw, taking {@damage 5d4} Radiant damage on a failed save or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "light": [
+      {
+        "dim": 30
+      }
+    ],
+    "attachedSpells": {
+      "will": [
+        "dancing lights|xphb",
+        "light|xphb"
+      ],
+      "charges": {
+        "1": [
+          "faerie fire|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Spell Storing|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains {@dice 1d6 - 1} levels of stored spells chosen by the DM.",
+      "Any creature can cast a spell of 1st through 5th level into the ring by touching the ring as the spell is cast. The spell has no effect, other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+      "While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space."
+    ]
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains {@dice 1d6 - 1} levels of stored spells chosen by the DM.",
+      "Any creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+      "While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space."
+    ]
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Spell Turning|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster."
+    ]
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have {@variantrule Advantage|XPHB} on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a {@variantrule Reaction|XPHB} to deflect the spell back at the spell's caster; the caster must make a saving throw against the spell using their own spell save DC."
+    ]
+  },
+  {
+    "name": "Ring of Swimming",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Swimming|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "modifySpeed": {
+      "static": {
+        "swim": 40
+      }
+    },
+    "entries": [
+      "You have a swimming speed of 40 feet while wearing this ring."
+    ]
+  },
+  {
+    "name": "Ring of Swimming",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "modifySpeed": {
+      "static": {
+        "swim": 40
+      }
+    },
+    "entries": [
+      "You have a {@variantrule Swim Speed|XPHB} of 40 feet while wearing this ring."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ]
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Telekinesis|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried."
+    ],
+    "attachedSpells": {
+      "will": [
+        "telekinesis"
+      ]
+    }
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can cast {@spell Telekinesis|XPHB} from it."
+    ],
+    "attachedSpells": {
+      "will": [
+        "telekinesis|xphb"
+      ]
+    }
+  },
+  {
+    "name": "Ring of Temporal Salvation",
+    "source": "EGW",
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed."
+    ]
+  },
+  {
+    "name": "Ring of the Copycat",
+    "source": "CoA",
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "You gain the ability to channel energy from allies to cast spells, even if you normally can't. When an ally within 60 feet of you casts a spell that you normally can't cast and that requires 10 gp or fewer in material components, you may use a reaction to cast that spell. When cast in this way, the spell is cast using your ally's spellcasting ability, spell save DC, and spell attack bonus, as needed. You decide this cloned spell's target, as specified in the spell's description, and the spell originates from you. After you use this ability, your ally can't cast this spell again until they finish a long rest."
+    ]
+  },
+  {
+    "name": "Ring of the Orator",
+    "source": "PaBTSO",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 6 charges. While you wear it, you can expend 1 of its charges to project your voice to be heard clearly by all creatures within 1 mile of yourself, regardless of intervening noise, for 1 minute. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks this projection. If you project your voice while speaking a language the listening creatures don't understand, you can make the creatures understand what you're saying. You must be able to see the creatures to make them understand. The ring regains {@dice 1d6} expended charges daily at dawn."
+    ]
+  },
+  {
+    "name": "Ring of the Ram",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of the Ram|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to make a ranged spell attack against one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} force damage and is pushed 5 feet away from you.",
+      "Alternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of the Ram",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can take a {@action Magic|XPHB} action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} Force damage and is pushed 5 feet away from you.",
+      "Alternatively, you can expend 1 to 3 of the ring's charges as a {@action Magic|XPHB} action to try to break a nonmagical object you can see within 60 feet of yourself that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Three Wishes|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "entries": [
+      "While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "wish"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "legendary",
+    "entries": [
+      "While wearing this ring, you can expend 1 of its 3 charges to cast {@spell Wish|XPHB} from it. The ring becomes nonmagical when you use the last charge."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "wish|xphb"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Thunder Resistance|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "thunder"
+    ],
+    "detail1": "spinel",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "{#itemEntry Ring of Resistance}"
+    ]
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "thunder"
+    ],
+    "detail1": "spinel",
+    "rarity": "rare",
+    "entries": [
+      "{#itemEntry Ring of Resistance|XDMG}"
+    ]
+  },
+  {
+    "name": "Ring of Treachery",
+    "source": "CoA",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": true,
+    "entries": [
+      "This ring has 3 charges. While wearing this ring, when you're damaged, you may use a reaction to expend a charge and transfer that damage to a random creature (which could include an ally) within 60 feet. All charges are restored when you finish a long rest."
+    ]
+  },
+  {
+    "name": "Ring of Truth Telling",
+    "source": "WDH",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have advantage on Wisdom ({@skill Insight}) checks to determine whether someone is lying to you."
+    ]
+  },
+  {
+    "name": "Ring of Warmth",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Warmth|XDMG"
+    ],
+    "type": "RG|DMG",
+    "resist": [
+      "cold"
+    ],
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit."
+    ]
+  },
+  {
+    "name": "Ring of Warmth",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "resist": [
+      "cold"
+    ],
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "If you take Cold damage while wearing this ring, the ring reduces the damage you take by {@dice 2d8}.",
+      "In addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower."
+    ]
+  },
+  {
+    "name": "Ring of Water Elemental Command",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Elemental Command (Water)|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Water and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.",
+      "The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
+      "You can expend 2 of the ring's charges to cast {@spell dominate monster} on a {@creature water elemental}. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.",
+      "If you help slay a {@creature water elemental} while attuned to the ring, you gain access to the following additional properties:",
+      {
+        "type": "list",
+        "items": [
+          "You can breathe underwater and have a swimming speed equal to your walking speed.",
+          "You can cast the following spells from the ring, expending the necessary number of charges: {@spell create or destroy water} (1 charge), {@spell control water} (3 charges), {@spell ice storm} (2 charges), or {@spell wall of ice} (3 charges)."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "create or destroy water"
+        ],
+        "2": [
+          "dominate monster",
+          "ice storm"
+        ],
+        "3": [
+          "control water",
+          "wall of ice"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of Water Walking",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of Water Walking|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "entries": [
+      "While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground."
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ]
+  },
+  {
+    "name": "Ring of Water Walking",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "entries": [
+      "While wearing this ring, you cast {@spell Water Walk|XPHB} from it, targeting only yourself."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ],
+    "optionalfeatures": [
+      "replicate magic item|tce"
+    ],
+    "attachedSpells": {
+      "will": [
+        "water walk|xphb"
+      ]
+    }
+  },
+  {
+    "name": "Ring of Winter",
+    "source": "ToA",
+    "type": "RG|DMG",
+    "immune": [
+      "cold"
+    ],
+    "rarity": "artifact",
+    "reqAttune": true,
+    "sentient": true,
+    "entries": [
+      "{@creature Artus Cimber|ToA} has kept this item in his possession for over a century. The Ring of Winter is a golden band that resizes to fit snugly on the finger of its wearer. A thin layer of frost coats the outside of the ring, which normal heat can't melt. The ring feels ice cold to the touch and initially numbs the hand that wears it, but this cold ceases to be felt by one who is attuned to this ring.",
+      "The Ring of Winter is sentient and tries to take control of any creature that wears it (see \"Sentient Magic Items\" chapter 7 of the Dungeon Master's Guide). If it succeeds, the ring compels its wearer to cause undue harm to everyone and everything around it, in a cold-hearted attempt to incur the wrath of enemies and bring the wearer's doom.",
+      {
+        "type": "entries",
+        "name": "Sentience",
+        "entries": [
+          "The Ring of Winter is a sentient chaotic evil item with an Intelligence of 14, a Wisdom of 14, and a Charisma of 17. The ring communicates by transmitting emotion to the creature carrying or wielding it, and it has hearing and normal vision out to a range of 60 feet. The ring craves destruction, and it likes inflicting indiscriminate harm on others."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Nondetection",
+        "entries": [
+          "The Ring of Winter defies attempts to magically locate it. Neither the ring nor its wearer can be targeted by any divination magic or perceived through magical scrying sensors."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Frozen Time",
+        "entries": [
+          "As long as you wear the ring, you don't age naturally. This effect is similar to suspended animation, in that your age doesn't catch up to you once the ring is removed. The ring doesn't protect its wearer from magical or supernatural aging effects, such as the Horrifying Visage of a {@creature ghost}."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Cold Immunity",
+        "entries": [
+          "While attuned to and wearing the ring, you have immunity to cold damage and don't suffer any ill effects from extreme cold (see chapter 5 of the Dungeon's Master Guide)."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Magic",
+        "entries": [
+          "The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While wearing the ring, you can expend the necessary number of charges to activate one of the following properties:",
+          {
+            "type": "list",
+            "items": [
+              "You can expend 1 charge as an action and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point you can see within 300 feet of you. The temperature in that area drops 20 degrees per minute, to a minimum of -30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless you use the ring to end it as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
+              "You can cast one of the following spells from the ring (spell save {@dc 17}) by expending the necessary number of charges: {@spell Bigby's hand} (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), {@spell cone of cold} (2 charges), flesh to ice (3 charges; as {@spell flesh to stone} except that the target turns to solid ice with the density and durability of stone), {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge; the spikes are made of ice), or {@spell wall of ice} (2 charges).",
+              "You can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition charmed}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, and {@condition poisoned}. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of you. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Other Properties",
+        "entries": [
+          "The Ring of Winter is rumored to possess other properties that can be activated only by an evil being whose will the ring can't break. Frost giants have long believed that the ring can be used to freeze entire worlds, while a {@creature djinni} in the service of a Calishite pasha once claimed that the ring could be used to summon and control white dragons, as well as the mighty ice primordial named Cryonax."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Destroying the Ring",
+        "entries": [
+          "The ring is nigh indestructible, resisting even the most intense magical heat. If it is placed on the finger of the powerful archfey known as the Summer Queen, the ring melts away and is destroyed forever."
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "sleet storm",
+          "spike growth"
+        ],
+        "2": [
+          "bigby's hand",
+          "cone of cold",
+          "ice storm",
+          "wall of ice"
+        ],
+        "3": [
+          "flesh to stone",
+          "otiluke's freezing sphere"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "source": "DMG",
+    "reprintedAs": [
+      "Ring of X-ray Vision|XDMG"
+    ],
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.",
+      "Whenever you use the ring again before taking a long rest, you must succeed on a {@dc 15} Constitution saving throw or gain one level of {@condition exhaustion}."
+    ]
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "source": "XDMG",
+    "type": "RG|XDMG",
+    "rarity": "rare",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can take a {@action Magic|XPHB} action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.",
+      "Whenever you use the ring again before taking a {@variantrule Long Rest|XPHB}, you must succeed on a {@dc 15} Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level."
+    ]
+  },
+  {
+    "name": "Sage's Signet (Bear)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Enlarge/Reduce} and {@spell Polymorph} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "enlarge/reduce",
+          "polymorph"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Sage's Signet (Hart)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Aura of Vitality} and {@spell Mass Cure Wounds} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "aura of vitality",
+          "mass cure wounds"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Sage's Signet (Lion)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Destructive Wave} and {@spell Fireball} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "destructive wave",
+          "fireball"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Sage's Signet (Serpent)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Fear} and {@spell Hex} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "fear",
+          "hex"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Sage's Signet (Songbird)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Charm Person} and {@spell Hypnotic Pattern} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "charm person",
+          "hypnotic pattern"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Sage's Signet (Wolf)",
+    "source": "BMT",
+    "type": "RG|DMG",
+    "rarity": "very rare",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+      "While wearing the Sage's Signet, you can cast the {@spell Freedom of Movement} and {@spell Pass without Trace} once each from the ring using your Intelligence as the spellcasting ability. Once you cast each spell from the ring, the ring can't cast the spell again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "augury",
+          "freedom of movement",
+          "pass without trace"
+        ]
+      },
+      "ability": "int"
+    }
+  },
+  {
+    "name": "Selesnya Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Selesnya, allows you to cast {@spell charm person}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Selesnya's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "charm person"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Simic Guild Signet",
+    "source": "GGR",
+    "type": "RG|DMG",
+    "rarity": "uncommon",
+    "reqAttune": true,
+    "entries": [
+      "This ring, adorned with the symbol of Simic, allows you to cast {@spell expeditious retreat}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Simic's recognition and favor.",
+      "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save {@dc 13})."
+    ],
+    "attachedSpells": {
+      "charges": {
+        "1": [
+          "expeditious retreat"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Spell-Refueling Ring",
+    "source": "EFA",
+    "type": "RG|XDMG",
+    "rarity": "uncommon",
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+      {
+        "spellcasting": true
+      }
+    ],
+    "entries": [
+      "While wearing this ring, you can recover one expended spell slot as a {@variantrule Bonus Action|XPHB}. The recovered slot can be of level 3 or lower. Once used, the ring can't be used again until the next dawn."
+    ],
+    "classFeatures": [
+      "replicate magic item|artificer|efa|2|efa"
+    ]
+  },
+  {
+    "name": "Stonky's ring",
+    "source": "CM",
+    "type": "RG|DMG",
+    "rarity": "unknown (magic)",
+    "reqAttune": true,
+    "entries": [
+      "While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried.",
+      "Any character who attunes to the ring gains control of Stonky's creations, though the {@creature skitterwidget|cm|skitterwidgets} ignore commands spoken more than 30 feet away from them."
+    ],
+    "attachedSpells": {
+      "will": [
+        "telekinesis"
+      ]
+    }
+  },
+  {
+    "name": "Teleporter Ring",
+    "source": "WDH",
+    "type": "RG|DMG",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "As an action, a creature wearing a teleporter ring can activate the teleportation circle either in area K22 or area E1, teleporting itself and up to six other willing creatures from one circle to the other."
+    ]
+  },
+  {
+    "name": "Ascendant Dragon Vessel",
+    "source": "FTD",
+    "_copy": {
+      "name": "Wakened Dragon Vessel",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "legendary",
+    "entries": [
+      "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.",
+      "As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, mead, wine, whiskey, a {@item potion of healing}, a {@item potion of greater healing}, a {@item potion of superior healing}, a {@item potion of supreme healing}, a {@item potion of climbing}, a {@item potion of fire breath}, a {@item potion of flying}, or a {@item potion of dragon's majesty|FTD}. Once this property is used, it can't be used until the next dawn. A potion you create in this way loses its magical properties if it isn't imbibed within 24 hours."
+    ]
+  },
+  {
+    "name": "Ascendant Scaled Ornament",
+    "source": "FTD",
+    "_copy": {
+      "name": "Wakened Scaled Ornament",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "legendary",
+    "modifySpeed": {
+      "equal": {
+        "fly": "walk"
+      }
+    },
+    "entries": [
+      "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
+      "You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself.",
+      "When you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn.",
+      "While you are wearing the ornament, you gain a flying speed equal to your walking speed and can hover. While you are flying using this speed, spectral dragon wings appear on your back."
+    ]
+  },
+  {
+    "name": "Danoth's Visor (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Danoth's Visor (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When Danoth's Visor reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "You automatically detect illusions you can see and automatically succeed on saving throws against them. In addition, you see a bright aura around any creature that isn't in its true form.",
+                  "As an action, you can cast the {@spell antimagic field} spell from the visor. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "attachedSpells": [
+      "antimagic field"
+    ]
+  },
+  {
+    "name": "Grimoire Infinitus (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Grimoire Infinitus (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the Grimoire Infinitus reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "You can now use your Arcane Recovery feature twice between long rests, rather than once.",
+                  "When you prepare wizard spells using the grimoire as your spellbook, the number of spells you can prepare increases by 1 again."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
+  },
+  {
+    "name": "Infiltrator's Key (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Infiltrator's Key (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the Infiltrator's Key reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "As a bonus action, you can touch the key to a floor, wall, or ceiling that is no more than 5 feet thick and cause a magical opening to appear in the surface. When you create the opening, you choose its length and width, up to 10 feet for each dimension. The opening lasts until the key passes through it to the other side, at which point it disappears (if a creature is in the opening when the doorway closes, the creature is safely shunted to the nearest unoccupied space). The key can't be used to create another opening until the next dawn.",
+                  "While holding the key, you can use an action to cast one of the following spells from it: {@spell dimension door}, {@spell gaseous form}, or {@spell mislead}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3",
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "alter self",
+          "dimension door",
+          "gaseous form",
+          "invisibility",
+          "knock",
+          "mislead",
+          "pass without trace"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Jewel of Three Prayers (Exalted)",
+    "source": "CRCotN",
+    "_copy": {
+      "name": "Jewel of Three Prayers (Awakened)",
+      "source": "CRCotN",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted State",
+            "entries": [
+              "In this state, the jewel has received the blessing of Corellon the Arch Heart. A gleaming emerald surrounded by a halo of gold appears on the jewel.",
+              "The following benefits of the jewel improve:",
+              {
+                "type": "list",
+                "items": [
+                  "The bonus that the jewel confers to your AC increases to +3.",
+                  "Its number of charges increases to 7."
+                ]
+              },
+              "The jewel gains the following additional properties, which you can use while wearing or holding it:",
+              {
+                "type": "list",
+                "items": [
+                  "You gain the ability to breathe water, and you gain a swimming speed equal to your walking speed.",
+                  "Each of your allies within 30 feet of you gains the ability to breathe water and gains a swimming speed equal to its walking speed.",
+                  "As a bonus action, you can expend 1 of the jewel's charges to target yourself or one willing creature you can see within 15 feet of yourself. The target teleports to an unoccupied space of your choice within 15 feet of yourself, along with any equipment the target is wearing or carrying. The target appears in a flash of golden radiance, and each creature of your choice within 5 feet of the target's new location must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes {@damage 4d10} radiant damage and is {@condition blinded} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition blinded}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusAc": "+3",
+    "modifySpeed": {
+      "equal": {
+        "swim": "walk"
+      }
+    }
+  },
+  {
+    "name": "Primal Amulet",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This beaded jade necklace bears an ancient symbol of the River Heralds. When worn, the primal amulet allows its wearer to cast {@spell speak with animals}, {@spell locate object}, and {@spell pass without trace}. Once the amulet has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+    ]
+  },
+  {
+    "name": "Sorcerous Spyglass",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This elegant brass {@item spyglass|phb} features an intricate lens mechanism. A creature looking through the sorcerous spyglass has advantage on Wisdom ({@skill Perception}) checks to detect things that can be seen. In addition, the user can view magical auras while looking through the spyglass, as if under the effect of a {@spell detect magic} spell."
+    ]
+  },
+  {
+    "name": "Stormgirdle (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Stormgirdle (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "While wearing the Stormgirdle in its exalted state, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "Your Strength score becomes 25 if it isn't already 25 or higher.",
+                  "Your Storm Avatar's lightning strike deals {@damage 5d6} lightning damage (instead of {@dice 3d6}).",
+                  "You can cast the {@spell control weather} spell from the girdle. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "control weather"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Vanquisher's Banner",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This battle-worn but unbroken standard bears the insignia of one of the forces of the Legion of Dusk. A creature that holds the vanquisher's banner can use a bonus action to grant an ally advantage on the ally's next attack roll, saving throw, or ability check."
+    ]
+  },
+  {
+    "name": "Verminshroud (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Verminshroud (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "While wearing the Verminshroud in its exalted state, you gain the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "You gain a climbing speed equal to your walking speed.",
+                  "Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a {@dc 17} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
+                  "When you cast the {@spell polymorph} spell using the Verminshroud, you can transform into a {@creature giant scorpion}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "modifySpeed": {
+      "equal": {
+        "climb": "walk"
+      }
+    },
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "insect plague",
+          "polymorph"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Vial of Thought Capture",
+    "source": "AZfyT",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This dark blue vial allows you to read another's surface thoughts and capture them as thought strands, storing the strands within the vial. As an action, you can activate the vial to target a creature you can see within 10 feet of you to learn its surface thoughts and pull the thoughts learned out of the creature's head as a tangible glowing string of energy known as a thought strand. The strands can be stored in the vial for up to 24 hours or until the vial reaches capacity, in which case the oldest strands dissipate. A creature affected by the vial knows that its thoughts are being probed.",
+      "The vial can also store thought strands created by the {@spell encode thoughts|ggr} cantrip. It does not extend the duration of those strands beyond 8 hours, but stored strands do not disappear if you cast {@spell encode thoughts|ggr} again during the duration of the cantrip.",
+      "The vial has 3 charges and can store up to 3 thought strands. It regains all its charges daily at dusk."
+    ]
+  },
+  {
+    "name": "Wakened Dragon Vessel",
+    "source": "FTD",
+    "_copy": {
+      "name": "Stirring Dragon Vessel",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "very rare",
+    "entries": [
+      "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.",
+      "As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, mead, wine, a {@item potion of healing}, a {@item potion of greater healing}, a {@item potion of superior healing}, a {@item potion of climbing}, a {@item potion of fire breath}, or a {@item potion of flying}. Once this property is used, it can't be used until the next dawn. A potion you create in this way loses its magical properties if it isn't imbibed within 24 hours."
+    ]
+  },
+  {
+    "name": "Wakened Scaled Ornament",
+    "source": "FTD",
+    "_copy": {
+      "name": "Stirring Scaled Ornament",
+      "source": "FTD",
+      "_preserve": {}
+    },
+    "rarity": "very rare",
+    "entries": [
+      "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
+      "You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself.",
+      "When you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn."
+    ]
+  },
+  {
+    "name": "Wreath of the Prism (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Wreath of the Prism (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "Once the Wreath of the Prism reaches an exalted state, it gains the following benefits:",
+              {
+                "type": "list",
+                "items": [
+                  "You can affect creatures of challenge rating 15 or lower with the wreath.",
+                  "The save DC of the wreath's spell increases to 17."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    }
   }
 ]

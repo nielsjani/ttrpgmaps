@@ -1,0 +1,1048 @@
+[
+  {
+    "name": "Canoe",
+    "source": "ToA",
+    "type": "SHP",
+    "rarity": "none",
+    "value": 5000,
+    "crew": 1,
+    "vehAc": 11,
+    "vehHp": 50,
+    "vehSpeed": 2,
+    "capPassenger": 6,
+    "entries": [
+      "A canoe can be purchased in Port Nyanzaru for 50 gp. It holds up to six Medium creatures and has a maximum speed of 2 mph. It is otherwise identical to a {@item rowboat}."
+    ]
+  },
+  {
+    "name": "Ffolk Sailing Ship",
+    "source": "FRAiF",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 20,
+    "vehAc": 15,
+    "vehHp": 400,
+    "vehDmgThresh": 20,
+    "vehSpeed": 2,
+    "capPassenger": 20,
+    "capCargo": 100
+  },
+  {
+    "name": "Galley",
+    "source": "DMG",
+    "reprintedAs": [
+      "Galley|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 3000000,
+    "crew": 80,
+    "vehAc": 15,
+    "vehHp": 500,
+    "vehDmgThresh": 20,
+    "vehSpeed": 4,
+    "capCargo": 150,
+    "seeAlsoVehicle": [
+      "Galley"
+    ]
+  },
+  {
+    "name": "Galley",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 3000000,
+    "crew": 80,
+    "vehAc": 15,
+    "vehHp": 500,
+    "vehDmgThresh": 20,
+    "vehSpeed": 4,
+    "capCargo": 150,
+    "seeAlsoVehicle": [
+      "Galley"
+    ]
+  },
+  {
+    "name": "Keelboat",
+    "source": "DMG",
+    "reprintedAs": [
+      "Keelboat|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 300000,
+    "crew": 1,
+    "vehAc": 15,
+    "vehHp": 100,
+    "vehDmgThresh": 10,
+    "vehSpeed": 1,
+    "capPassenger": 6,
+    "capCargo": 0.5,
+    "entries": [
+      "Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores."
+    ],
+    "seeAlsoVehicle": [
+      "Keelboat"
+    ]
+  },
+  {
+    "name": "Keelboat",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 300000,
+    "crew": 1,
+    "vehAc": 15,
+    "vehHp": 100,
+    "vehDmgThresh": 10,
+    "vehSpeed": 1,
+    "capPassenger": 6,
+    "capCargo": 0.5,
+    "seeAlsoVehicle": [
+      "Keelboat"
+    ]
+  },
+  {
+    "name": "Longship",
+    "source": "DMG",
+    "reprintedAs": [
+      "Longship|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 1000000,
+    "crew": 40,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 3,
+    "capPassenger": 150,
+    "capCargo": 10,
+    "seeAlsoVehicle": [
+      "Longship"
+    ]
+  },
+  {
+    "name": "Longship",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 1000000,
+    "crew": 40,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 3,
+    "capPassenger": 150,
+    "capCargo": 10,
+    "seeAlsoVehicle": [
+      "Longship"
+    ]
+  },
+  {
+    "name": "Norlander Longship",
+    "source": "FRAiF",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 50,
+    "vehAc": 17,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 6,
+    "capPassenger": 100,
+    "capCargo": 10
+  },
+  {
+    "name": "Rowboat",
+    "source": "DMG",
+    "reprintedAs": [
+      "Rowboat|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 5000,
+    "crew": 1,
+    "vehAc": 11,
+    "vehHp": 50,
+    "vehSpeed": 1.5,
+    "capPassenger": 3,
+    "entries": [
+      "Keelboats and rowboats are used on lakes and rivers, If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."
+    ],
+    "seeAlsoVehicle": [
+      "Rowboat"
+    ]
+  },
+  {
+    "name": "Rowboat",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 5000,
+    "crew": 1,
+    "vehAc": 11,
+    "vehHp": 50,
+    "vehSpeed": 1.5,
+    "capPassenger": 3,
+    "seeAlsoVehicle": [
+      "Rowboat"
+    ]
+  },
+  {
+    "name": "Rusted Hulk",
+    "source": "FRAiF",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 5000000,
+    "crew": 60,
+    "vehAc": 18,
+    "vehHp": 500,
+    "vehDmgThresh": 25,
+    "vehSpeed": 2,
+    "capPassenger": 90,
+    "capCargo": 250
+  },
+  {
+    "name": "Sailing Ship",
+    "source": "DMG",
+    "reprintedAs": [
+      "Sailing Ship|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 1000000,
+    "crew": 20,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 2,
+    "capPassenger": 20,
+    "capCargo": 100,
+    "seeAlsoVehicle": [
+      "Sailing Ship"
+    ]
+  },
+  {
+    "name": "Sailing Ship",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 1000000,
+    "crew": 20,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 2,
+    "capPassenger": 20,
+    "capCargo": 100,
+    "seeAlsoVehicle": [
+      "Sailing Ship"
+    ]
+  },
+  {
+    "name": "Warship",
+    "source": "DMG",
+    "reprintedAs": [
+      "Warship|XPHB"
+    ],
+    "type": "SHP",
+    "rarity": "none",
+    "value": 2500000,
+    "crew": 60,
+    "vehAc": 15,
+    "vehHp": 500,
+    "vehDmgThresh": 20,
+    "vehSpeed": 2.5,
+    "capPassenger": 60,
+    "capCargo": 200,
+    "seeAlsoVehicle": [
+      "Warship"
+    ]
+  },
+  {
+    "name": "Warship",
+    "source": "XPHB",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 2500000,
+    "crew": 60,
+    "vehAc": 15,
+    "vehHp": 500,
+    "vehDmgThresh": 20,
+    "vehSpeed": 2.5,
+    "capPassenger": 60,
+    "capCargo": 200,
+    "seeAlsoVehicle": [
+      "Warship"
+    ]
+  },
+  {
+    "name": "Whaleboat",
+    "source": "FRAiF",
+    "type": "SHP|XPHB",
+    "rarity": "none",
+    "value": 50000,
+    "crew": 6,
+    "vehAc": 13,
+    "vehHp": 100,
+    "vehDmgThresh": 10,
+    "vehSpeed": 3,
+    "capPassenger": 1
+  },
+  {
+    "name": "Axe Beak",
+    "source": "FRHoF",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 5000,
+    "entries": [
+      "Use the {@creature Axe Beak|XMM} stat block."
+    ],
+    "hasFluff": true
+  },
+  {
+    "name": "Axe Beak",
+    "source": "IDRotF",
+    "reprintedAs": [
+      "Axe Beak|FRHoF"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 5000,
+    "entries": [
+      "An {@creature axe beak}'s splayed toes allow it to run across snow, and it can carry as much weight as a mule. A domesticated axe beak can be purchased in Ten-Towns for 50 gp."
+    ]
+  },
+  {
+    "name": "Bombard",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 5000000,
+    "crew": 12,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 20,
+    "vehSpeed": 4,
+    "capCargo": 150,
+    "entries": [
+      "Bombards are built by giff. The major feature of each ship is an enormous cannon that fires massive cannon balls capable of blowing other ships to smithereens. (The cannon is included in the cost of the ship.) A bombard can carry up to fourteen giant cannon balls, each of which weighs 10 tons. These cannon balls make up most of the weight of the ship's cargo. A winch mounted on the aft deck is used to load the cannon balls on board.",
+      "A bombard can float and sail on water, but it can't land safely on the ground (its keel would cause it to roll on its side)."
+    ],
+    "seeAlsoVehicle": [
+      "Bombard|AAG"
+    ]
+  },
+  {
+    "name": "Camel",
+    "source": "PHB",
+    "reprintedAs": [
+      "Camel|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 5000,
+    "carryingCapacity": 480,
+    "speed": 50
+  },
+  {
+    "name": "Camel",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 5000,
+    "carryingCapacity": 450,
+    "speed": 50
+  },
+  {
+    "name": "Damselfly Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 9,
+    "vehAc": 19,
+    "vehHp": 200,
+    "vehDmgThresh": 15,
+    "vehSpeed": 8,
+    "capCargo": 5,
+    "entries": [
+      "This swift but cramped ship is made mostly of metal. It can't float on water, but its legs enable it to land safely on the ground. A sliding hatch just behind the wings allows access to the ship's mangonel turret. The ship's cargo hold can easily be turned into crew cabins or another weapon deck.",
+      "Damselfly ships are often used as courier vessels and armored transports. Explorers and pirates like them because they're fast and sturdy. Military leaders use them as command ships for the same reasons.",
+      "Damselfly ship owners are a proud lot, fond of painting their ships in colorful patterns as well as customizing their vessels with special equipment. Large, private gatherings of damselfly ship owners are not uncommon; they use these get-togethers to show off their ships and to race one another through asteroid belts and other obstacle courses, either for rewards or bragging rights."
+    ],
+    "seeAlsoVehicle": [
+      "Damselfly Ship|AAG"
+    ]
+  },
+  {
+    "name": "Donkey",
+    "source": "PHB",
+    "type": "MNT",
+    "rarity": "none",
+    "value": 800,
+    "carryingCapacity": 420,
+    "speed": 40
+  },
+  {
+    "name": "Draft Horse",
+    "source": "PHB",
+    "reprintedAs": [
+      "Draft Horse|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 5000,
+    "carryingCapacity": 540,
+    "speed": 40
+  },
+  {
+    "name": "Draft Horse",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 5000,
+    "carryingCapacity": 540,
+    "speed": 40
+  },
+  {
+    "name": "Elephant",
+    "source": "PHB",
+    "reprintedAs": [
+      "Elephant|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 20000,
+    "carryingCapacity": 1320,
+    "speed": 40
+  },
+  {
+    "name": "Elephant",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 20000,
+    "carryingCapacity": 1320,
+    "speed": 40
+  },
+  {
+    "name": "Flying Fish Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 10,
+    "vehAc": 15,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4.5,
+    "capCargo": 13,
+    "entries": [
+      "Aside from space galleons, flying fish ships are the most common vessels in Wildspace, favorites among merchants and adventurers alike.",
+      "A flying fish ship can float and sail on water, but it isn't built to land on the ground (the ventral fins would snap under the weight of the ship during landing, and the keel would cause the ship to roll to one side).",
+      "Typical weapons on a flying fish ship include a forward-mounted mangonel and an aft-mounted ballista."
+    ],
+    "seeAlsoVehicle": [
+      "Flying Fish Ship|AAG"
+    ]
+  },
+  {
+    "name": "Flying Snake",
+    "source": "FRHoF",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 2500,
+    "entries": [
+      "Pet flying snakes use the {@creature Flying Snake|XMM} stat block."
+    ],
+    "hasFluff": true
+  },
+  {
+    "name": "Hammerhead Ship",
+    "source": "AAG",
+    "otherSources": [
+      {
+        "source": "SjA"
+      }
+    ],
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 4000000,
+    "crew": 15,
+    "vehAc": 15,
+    "vehHp": 400,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4,
+    "capCargo": 30,
+    "entries": [
+      "Hammerhead ships are popular craft, especially among pirates and merchants carrying heavy cargo. They can float on water and sail across it, but they aren't built to land on the ground (their keels would cause them to tip to one side). Standard weapons on a hammerhead ship include fore and aft mangonels, a ballista, and a reinforced bow for ramming."
+    ],
+    "seeAlsoVehicle": [
+      "Hammerhead Ship|AAG"
+    ]
+  },
+  {
+    "name": "Lamprey Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 15,
+    "vehAc": 15,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4,
+    "capCargo": 6,
+    "entries": [
+      "Lamprey ships are antiquated, being among the oldest spelljamming ships still in use. Psurlons (see Boo's Astral Menagerie) are particularly fond of them.",
+      "Using the metal grappling jaws built into its bow, a lamprey ship can attach itself to another ship, which is a critical feature during boarding actions. Other standard weapons include four ballistae on the main deck.",
+      "A lamprey can float on water, though it can't land safely on the ground. Lamprey ships that land on the ground have the distressing habit of rolling over, as more than a few crews have discovered to their dismay."
+    ],
+    "seeAlsoVehicle": [
+      "Lamprey Ship|AAG"
+    ]
+  },
+  {
+    "name": "Living Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2500000,
+    "crew": 5,
+    "vehAc": 15,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4.5,
+    "capCargo": 10,
+    "entries": [
+      "Druids, rangers, and clerics devoted to gods of nature are often found aboard living ships, as are Wildspace explorers who don't want to have to worry about their ship's air envelope becoming fouled during a long voyage.",
+      "This ship's main distinctive feature is the fully grown {@creature treant} on the aft deck. The treant has a speed of 0 because its roots are woven into the deck; it and the ship are inseparable. If the ship is reduced to 0 hit points, the treant dies of shock. The ship can function if its treant dies, but the treant can never be replaced with another.",
+      "When the treant finishes a long rest, it repairs the ship's hull, enabling the ship to regain {@dice 4d12} hit points, and refreshes the ship's air envelope (turning deadly air into foul air, or foul air into fresh air).",
+      "A living ship can float on water and sail across it, but it can't land safely on the ground (its keel would cause it to roll on its side). Its standard weaponry is an aft-mounted ballista."
+    ],
+    "seeAlsoVehicle": [
+      "Living Ship|AAG"
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "source": "PHB",
+    "reprintedAs": [
+      "Mastiff|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 2500,
+    "carryingCapacity": 195,
+    "speed": 40
+  },
+  {
+    "name": "Mastiff",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 2500,
+    "carryingCapacity": 195,
+    "speed": 40
+  },
+  {
+    "name": "Moorbounder",
+    "source": "EGW",
+    "type": "MNT",
+    "rarity": "none",
+    "value": 40000,
+    "entries": [
+      "Beasts of burden are common throughout Xhorhas, and often horses and other riding animals are the best or only option. For those who require speed and have a little more coin to spend, the best option is often a moorbounder. However, moorbounders that haven't undergone proper training or established bonds of trust with their masters tend to attack and even eat their riders.",
+      "Moorbounders can cost anywhere from 300 to 500 gp each. They're often cheaper and more abundant in towns on the wastes than in cities like Rosohna."
+    ]
+  },
+  {
+    "name": "Mule",
+    "source": "PHB",
+    "reprintedAs": [
+      "Mule|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 800,
+    "carryingCapacity": 420,
+    "speed": 40
+  },
+  {
+    "name": "Mule",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 800,
+    "carryingCapacity": 420,
+    "speed": 40
+  },
+  {
+    "name": "Nautiloid",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 5000000,
+    "crew": 20,
+    "vehAc": 15,
+    "vehHp": 400,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4.5,
+    "capCargo": 17,
+    "entries": [
+      "Built and used by mind flayers, nautiloids are designed exclusively for space travel. They can't float on water, nor can they land safely on the ground.",
+      "As an action, a creature attuned to a nautiloid's spelljamming helm and in physical contact with the ship can transport the nautiloid and all creatures and objects aboard it to a different plane of existence, at or near a destination envisioned by the spelljammer (or to a random location on the plane if no destination is envisioned). This property is a feature of the ship, not the spelljamming helm. Each time this property is used, roll a {@dice d6}. On a 5â€“6, the property recharges after 1 minute; otherwise, it can't be used again for 24 hours."
+    ],
+    "seeAlsoVehicle": [
+      "Nautiloid|AAG"
+    ]
+  },
+  {
+    "name": "Nightspider",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 5000000,
+    "crew": 25,
+    "vehAc": 19,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4.5,
+    "capCargo": 50,
+    "entries": [
+      "Neogi terrorize Wildspace in ships of their own construction, which others call nightspiders. These vessels often wait in ambush for other ships. Once a target ship is identified, the neogi try to steal its spelljamming helm and capture its crew.",
+      "A nightspider's crew usually consists of nineteen neogi and up to a half-dozen umber hulks, which the neogi use as shock troops.",
+      "Nightspiders are designed for space travel alone and can't float on water or land safely on the ground (the weight of the ship would snap its spindly legs, destroying its weblike rigging in the process). Standard weaponry on a nightspider includes four ballistae (two forward-facing and two aft-facing) and a forward-facing mangonel."
+    ],
+    "seeAlsoVehicle": [
+      "Nightspider|AAG"
+    ]
+  },
+  {
+    "name": "Pony",
+    "source": "PHB",
+    "reprintedAs": [
+      "Pony|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 3000,
+    "carryingCapacity": 225,
+    "speed": 40
+  },
+  {
+    "name": "Pony",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 3000,
+    "carryingCapacity": 225,
+    "speed": 40
+  },
+  {
+    "name": "Riding Horse",
+    "source": "PHB",
+    "reprintedAs": [
+      "Riding Horse|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 7500,
+    "carryingCapacity": 480,
+    "speed": 60
+  },
+  {
+    "name": "Riding Horse",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 7500,
+    "carryingCapacity": 480,
+    "speed": 60
+  },
+  {
+    "name": "Scorpion Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2500000,
+    "crew": 12,
+    "vehAc": 19,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 3.5,
+    "capCargo": 12,
+    "entries": [
+      "Scorpion ships are archaic metal warships that have never lost their popularity, largely because of their versatility. Articulated legs enable a scorpion ship to land safely on the ground and move across a solid surface at a walking speed of 30 feet. The ship can't float on water, however. A ballista is mounted on the top deck, and a mangonel is perched on the end of the tail. The ship's two claws are relatively inefficient in combat, but a claw that grabs a creature can quickly take it out of action."
+    ],
+    "seeAlsoVehicle": [
+      "Scorpion Ship|AAG"
+    ]
+  },
+  {
+    "name": "Shrike Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 11,
+    "vehAc": 15,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 8,
+    "capCargo": 20,
+    "entries": [
+      "This swift vessel is a relatively recent design, quickly gaining popularity with merchants and pirates. A shrike ship's legs enable it to land safely on the ground. The ship can float but isn't built for traveling on water and sinks quickly in rough seas.",
+      "Standard weaponry on a shrike ship includes three ballistaeâ€”one on the forecastle, one in the middle of the top deck, and one on the sterncastle. In a desperate situation, the ship's reinforced bow can be used as a piercing ram."
+    ],
+    "seeAlsoVehicle": [
+      "Shrike Ship|AAG"
+    ]
+  },
+  {
+    "name": "Sled Dog",
+    "source": "FRHoF",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 5000,
+    "entries": [
+      "A sled dog uses the {@creature Wolf|XMM} stat block (see the Monster Manual). A sled dog pulling a sled alone must take a {@variantrule Short Rest|XPHB} after pulling a sled for 1 hour; otherwise, it gains 1 {@condition Exhaustion|XPHB} level."
+    ],
+    "hasFluff": true
+  },
+  {
+    "name": "Sled Dog",
+    "source": "IDRotF",
+    "reprintedAs": [
+      "Sled Dog|FRHoF"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 5000,
+    "entries": [
+      "A sled dog (use the {@creature wolf} stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.",
+      "Sled dogs must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of {@condition exhaustion}."
+    ]
+  },
+  {
+    "name": "Space Galleon",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 3000000,
+    "crew": 20,
+    "vehAc": 15,
+    "vehHp": 400,
+    "vehDmgThresh": 15,
+    "vehSpeed": 4,
+    "capCargo": 20,
+    "entries": [
+      "The space galleon is a mainstay among the host of vessels that ply Wildspace and the Astral Sea. Space galleons can easily pass for ordinary seafaring galleons. Because they can land on water and move across it like their namesakes, they can sail into ports on terrestrial worlds without attracting undue attention. Like an ordinary galleon, a space galleon isn't built to land on the ground (its keel would cause it to roll on its side). The ship's standard weaponry includes two forward-mounted ballistae and an aft-mounted mangonel."
+    ],
+    "seeAlsoVehicle": [
+      "Space Galleon|AAG"
+    ]
+  },
+  {
+    "name": "Squid Ship",
+    "source": "AAG",
+    "otherSources": [
+      {
+        "source": "SjA"
+      }
+    ],
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2500000,
+    "crew": 13,
+    "vehAc": 15,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 3.5,
+    "capCargo": 20,
+    "entries": [
+      "Among the oldest types of spelljamming vessels, squid ships are popular with privateers and are often used as patrol ships. Standard weapons on a squid ship include a forward-mounted mangonel, two aft-mounted ballistae, and a reinforced bow for ramming. The tentacles that extend from the bow account for nearly half the ship's keel length.",
+      "Squid ships can float and sail on water, and they can land on the ground."
+    ],
+    "seeAlsoVehicle": [
+      "Squid Ship|AAG"
+    ]
+  },
+  {
+    "name": "Star Moth",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 4000000,
+    "crew": 13,
+    "vehAc": 13,
+    "vehHp": 400,
+    "vehDmgThresh": 15,
+    "vehSpeed": 5.5,
+    "capCargo": 30,
+    "entries": [
+      "Star moths are ships constructed and flown by astral elves, who don't like it when these ships end up in the hands of others.",
+      "A star moth's hull is fashioned from a grown and sculpted organic substance, and its enormous, decorative wings are made of shimmering crystal. The vessel is built for space travel, but its design does enable it to float on water or land safely on the ground. Standard weaponry includes two ballistae nestled in the star moth's eye holes and a mangonel mounted above the bridge."
+    ],
+    "seeAlsoVehicle": [
+      "Star Moth|AAG"
+    ]
+  },
+  {
+    "name": "Turtle Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 4000000,
+    "crew": 16,
+    "vehAc": 19,
+    "vehHp": 300,
+    "vehDmgThresh": 15,
+    "vehSpeed": 3,
+    "capCargo": 30,
+    "entries": [
+      "A turtle ship is encased in a protective metal shell, as befits its name, and bristles with weapons. In addition to its roomy quarters, it can carry a decent- sized payload, making it popular among traders and others who need a lot of cargo space. The ship can land on the ground, and it floats on water. Sliding panels can be closed to make the hull airtight, enabling the ship to travel underwater safely, even to great depths. If the ship takes damage while on or under the water, interior hatches can be sealed to prevent the ship from flooding completely.",
+      "Standard weaponry on a turtle ship includes three forward-mounted ballistae and a rear-facing mangonel. These weapons can't be used while the ship is underwater."
+    ],
+    "seeAlsoVehicle": [
+      "Turtle Ship|AAG"
+    ]
+  },
+  {
+    "name": "Tyrant Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "crew": 10,
+    "vehAc": 17,
+    "vehHp": 300,
+    "vehDmgThresh": 20,
+    "vehSpeed": 4.5,
+    "capCargo": 20,
+    "entries": [
+      "Beholders carve tyrant ships out of stone using their disintegration rays and use these ships to wander the Astral Plane, looking for worlds to conquer and rival beholders to destroy. No two tyrant ships look alike, but they all have one or more features reminiscent of their creators, such as a bulbous shape and eyestalks.",
+      "A spherical chamber on the ship's command deck functions as a spelljamming helm that only beholders can attune to. Any beholder that occupies this chamber can attune to it. Reducing a tyrant ship to 0 hit points not only destroys it but also destroys the ship's spelljamming helm and eyestalk cannons.",
+      "A tyrant ship can't float on water, but it can safely land on the ground."
+    ],
+    "seeAlsoVehicle": [
+      "Tyrant Ship|AAG"
+    ]
+  },
+  {
+    "name": "Warhorse",
+    "source": "PHB",
+    "reprintedAs": [
+      "Warhorse|XPHB"
+    ],
+    "type": "MNT",
+    "rarity": "none",
+    "value": 40000,
+    "carryingCapacity": 540,
+    "speed": 60
+  },
+  {
+    "name": "Warhorse",
+    "source": "XPHB",
+    "type": "MNT|XPHB",
+    "rarity": "none",
+    "value": 40000,
+    "carryingCapacity": 540,
+    "speed": 60
+  },
+  {
+    "name": "Wasp Ship",
+    "source": "AAG",
+    "type": "SPC|AAG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 5,
+    "vehAc": 15,
+    "vehHp": 250,
+    "vehDmgThresh": 15,
+    "vehSpeed": 5.5,
+    "capCargo": 10,
+    "entries": [
+      "Wasp ships are lightweight wooden vessels capable of landing safely on the ground, but not on water. They appeal to adventurers because they're affordable and don't require a large crew. Pirates like them because they're swift. Aristocrats are fond of using them as flying yachts because the ship's cargo hold can be easily converted into posh living quarters.",
+      "The ship's raised back provides high ground for a weapon emplacement, which is typically equipped with a ballista."
+    ],
+    "seeAlsoVehicle": [
+      "Wasp Ship|AAG"
+    ]
+  },
+  {
+    "name": "Airship",
+    "source": "DMG",
+    "reprintedAs": [
+      "Airship|XPHB"
+    ],
+    "type": "AIR|DMG",
+    "rarity": "none",
+    "value": 2000000,
+    "crew": 10,
+    "vehAc": 13,
+    "vehHp": 300,
+    "vehSpeed": 8,
+    "capPassenger": 20,
+    "capCargo": 1
+  },
+  {
+    "name": "Airship",
+    "source": "XPHB",
+    "type": "AIR|XPHB",
+    "rarity": "none",
+    "value": 4000000,
+    "crew": 10,
+    "vehAc": 13,
+    "vehHp": 300,
+    "vehSpeed": 8,
+    "capPassenger": 20,
+    "capCargo": 1
+  },
+  {
+    "name": "Carriage",
+    "source": "PHB",
+    "reprintedAs": [
+      "Carriage|XPHB"
+    ],
+    "type": "VEH",
+    "rarity": "none",
+    "value": 10000
+  },
+  {
+    "name": "Carriage",
+    "source": "XPHB",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 10000
+  },
+  {
+    "name": "Cart",
+    "source": "PHB",
+    "reprintedAs": [
+      "Cart|XPHB"
+    ],
+    "type": "VEH",
+    "rarity": "none",
+    "value": 1500
+  },
+  {
+    "name": "Cart",
+    "source": "XPHB",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 1500
+  },
+  {
+    "name": "Chariot",
+    "source": "PHB",
+    "additionalSources": [
+      {
+        "source": "MOT"
+      }
+    ],
+    "reprintedAs": [
+      "Chariot|XPHB"
+    ],
+    "type": "VEH",
+    "rarity": "none",
+    "value": 25000,
+    "additionalEntries": [
+      {
+        "type": "inset",
+        "name": "Chariots",
+        "source": "MOT",
+        "entries": [
+          "Chariots and the creatures pulling them work like controlled mounts, as described in the mounted combat rules in the {@book Player's Handbook|PHB|9|Mounted Combat}, but with the following differences:",
+          {
+            "type": "list",
+            "items": [
+              "Mounting or dismounting a chariot costs you 5 feet of movement, rather than a number of feet equal to half your speed.",
+              "Being mounted on a chariot grants you {@quickref Cover||3||half cover}.",
+              "A chariot's speed is equal to the speed of the slowest creature pulling it.",
+              "If multiple creatures are pulling the chariot, they all act on the same initiative, and they must take the same action on their turn."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chariot",
+    "source": "XPHB",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 25000
+  },
+  {
+    "name": "Covered Wagon",
+    "source": "FRHoF",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 25000,
+    "entries": [
+      "This vehicle is a {@item Wagon|XPHB} covered by durable canvas. A creature has {@variantrule Cover|XPHB|Three-Quarters Cover} while riding inside this vehicle."
+    ],
+    "hasFluff": true
+  },
+  {
+    "name": "Dogsled",
+    "source": "IDRotF",
+    "type": "VEH",
+    "rarity": "none",
+    "value": 2000,
+    "entries": [
+      "An empty sled costs 20 gp, weighs 300 pounds, and has room at the back for one driver."
+    ]
+  },
+  {
+    "name": "Skyship",
+    "source": "EGW",
+    "type": "AIR|DMG",
+    "rarity": "none",
+    "value": 10000000,
+    "crewMin": 6,
+    "crewMax": 10,
+    "vehSpeed": 10,
+    "capPassenger": 30,
+    "capCargo": 10,
+    "travelCost": 200,
+    "shippingCost": 100
+  },
+  {
+    "name": "Sled",
+    "source": "PHB",
+    "reprintedAs": [
+      "Sled|XPHB"
+    ],
+    "type": "VEH",
+    "rarity": "none",
+    "value": 2000
+  },
+  {
+    "name": "Sled",
+    "source": "XPHB",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 2000
+  },
+  {
+    "name": "Wagon",
+    "source": "PHB",
+    "reprintedAs": [
+      "Wagon|XPHB"
+    ],
+    "type": "VEH",
+    "rarity": "none",
+    "value": 3500
+  },
+  {
+    "name": "Wagon",
+    "source": "XPHB",
+    "type": "VEH|XPHB",
+    "rarity": "none",
+    "value": 3500
+  }
+]

@@ -81377,5 +81377,749 @@
     "rarity": "none",
     "value": 1000,
     "entries": []
+  },
+  {
+    "name": "Blade of Broken Mirrors (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Blade of Broken Mirrors (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the dagger reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "While holding the weapon, you can use an action to cast one of the following spells from it (save {@dc 15}): {@spell fabricate}, {@spell hallucinatory terrain}, {@spell major image}, or {@spell phantasmal killer}. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2",
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "fabricate",
+          "hallucinatory terrain",
+          "major image",
+          "phantasmal killer"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Charred Wand of Magic Missiles",
+    "source": "WDH",
+    "_copy": {
+      "name": "Wand of Magic Missiles",
+      "source": "DMG",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": "Each time you expend a charge from this wand, there is a {@chance 50} chance that nothing happens and the charge is wasted."
+        }
+      }
+    }
+  },
+  {
+    "name": "Devlin's Staff of Striking",
+    "source": "ToA",
+    "_copy": {
+      "name": "Staff of Striking",
+      "source": "DMG",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": "If you attune to this staff, you transform into a goat-humanoid hybrid over the course of 3 days. Tieflings are immune to this curse. Throughout the first day, shaggy fur begins to grow all over your body. After 24 hours, your eyes become goat-like, and stumpy horns sprout from your brow. On the last day, your fingers and toes meld into double digits, and the horns grow to full length. This transformation doesn't prevent you from wielding weapons or casting spells. {@spell Remove curse}, {@spell greater restoration}, or any other effect that ends a curse restores your original appearance, but only a {@spell wish} spell can rid the staff of its power to transform those who attune to it."
+        }
+      }
+    },
+    "curse": true
+  },
+  {
+    "name": "Grovelthrash (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Grovelthrash (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the warhammer reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "You gain a burrowing speed equal to your walking speed. You can use your burrowing speed to move through sand, loose earth, mud, or ice, not solid rock.",
+                  "When a creature you can see within 30 feet of you hits you with an attack while you are wielding the warhammer, you can use your reaction to deal an amount of psychic damage to that creature equal to the damage you took from the attack. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2",
+    "modifySpeed": {
+      "equal": {
+        "burrow": "walk"
+      }
+    }
+  },
+  {
+    "name": "Jakarion's Staff of Frost",
+    "source": "CoS",
+    "_copy": {
+      "name": "Staff of Frost",
+      "source": "DMG",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": "Imprinted on this staff is a fragment of a dead wizard's personality. The first character who touches the staff gains the following flaw: \"I crave power above all else, and will do anything to obtain more of it.\" This flaw trumps any conflicting personality trait."
+        }
+      }
+    }
+  },
+  {
+    "name": "Lash of Shadows (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Lash of Shadows (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the whip reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "The saving throw DC for the weapon's poisons increases to 15.",
+                  "The weapon gains a new poison option called Ghoul's Blood. A creature that fails the saving throw against this poison is {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2"
+  },
+  {
+    "name": "Mace of the Black Crown (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Mace of the Black Crown (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the mace reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2, and the extra fire damage dealt by the weapon when it is ignited increases to {@dice 2d6}.",
+                  "The weapon's Summon Devil feature can also be used to summon a {@creature bearded devil}.",
+                  "You have resistance to poison damage while holding this weapon."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2"
+  },
+  {
+    "name": "Ruin's Wake (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Ruin's Wake (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the spear reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2, and the extra piercing damage dealt by the weapon increases to {@damage 2d8}.",
+                  "When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a {@dc 15} Dexterity saving throw, taking {@damage 8d6} lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2"
+  },
+  {
+    "name": "Silken Spite (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Silken Spite (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "The rapier grants the following benefits in its awakened state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "The saving throw DC for the weapon's poison increases to 15.",
+                  "While holding the rapier, you can use an action to cast one of the following spells from it (save {@dc 15}): {@spell cloudkill}, {@spell darkness}, {@spell levitate}, or {@spell web}. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2",
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "cloudkill",
+          "darkness",
+          "levitate",
+          "web"
+        ]
+      }
+    }
+  },
+  {
+    "name": "The Bloody End (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "The Bloody End (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the morningstar reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "The saving throw DC for spells cast from the morningstar increases to 15.",
+                  "When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of you until the end of your next turn. This property can't be used again until the next dawn.",
+                  "When a creature hits you with a melee attack, you can use your reaction to deal {@damage 1d6} psychic damage to the attacker."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+2"
+  },
+  {
+    "name": "Will of the Talon (Awakened)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Will of the Talon (Dormant)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "When the war pick reaches an awakened state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "The saving throw DC for the war pick's Breath Weapon property increases to 15, and that property deals {@damage 4d6} damage on a failed save, or half as much damage on a successful one.",
+                  "The saving throw DC for the war pick's Frightful Presence property increases to 15.",
+                  "While carrying the weapon, you have resistance to acid, cold, fire, lightning, and poison damage."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "resist": [
+      "acid",
+      "cold",
+      "fire",
+      "lightning",
+      "poison"
+    ],
+    "bonusWeapon": "+2"
+  },
+  {
+    "name": "Wyllow's Staff of Flowers",
+    "source": "WDMM",
+    "_copy": {
+      "name": "Staff of Flowers",
+      "source": "XGE",
+      "_mod": {
+        "entries": {
+          "mode": "appendArr",
+          "items": "Wyllow's staff is peculiar in that it can't create roses, which the archdruid dislikes. If a rose is chosen, a daisy grows instead."
+        }
+      }
+    },
+    "reqAttune": true
+  },
+  {
+    "name": "Mind Lash",
+    "source": "VGM",
+    "type": "M",
+    "rarity": "rare",
+    "reqAttune": "by a mind flayer",
+    "property": [
+      "F",
+      "R"
+    ],
+    "dmg1": "1d4",
+    "dmgType": "S",
+    "entries": [
+      "In the hands of any creature other than a {@creature mind flayer}, a mind lash functions as a normal whip. In the hands of an illithid, this magic weapon strips away a creature's will to survive as it also strips away flesh, dealing an extra {@damage 2d4} psychic damage to any target it hits. Any creature that takes psychic damage from the mind lash must also succeed on a {@dc 15} Wisdom saving throw or have disadvantage on Intelligence, Wisdom, and Charisma saving throws for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ]
+  },
+  {
+    "name": "Saint Markovia's Thighbone",
+    "source": "CoS",
+    "type": "M",
+    "rarity": "rare",
+    "reqAttune": true,
+    "dmg1": "1d6",
+    "dmgType": "B",
+    "entries": [
+      "Saint Markovia's thighbone has the properties of a {@item mace of disruption}. If it scores one or more hits against a {@creature vampire} or a {@creature vampire spawn} in the course of a single battle, the thighbone crumbles into dust once the battle concludes.",
+      "As a youth, Markovia followed her heart and became a priest of the Morninglord soon after her eighteenth birthday. She proved to be a charismatic proselytizer and, before the age of thirty, had gained a reputation for allowing no evil to stand before her.",
+      "Markovia had long considered Strahd a mad tyrant, but only after his transformation into a {@creature vampire} did she dare to challenge him. As she rallied her followers and prepared to march on Castle Ravenloft, Strahd sent a group of {@creature vampire spawn} to her abbey. They confronted Markovia and were destroyed to a one.",
+      "Suffused with confidence born of a righteous victory, Markovia advanced on Castle Ravenloft. A great battle raged from the catacombs to the parapets. In the end, Markovia never returned to Barovia, and Strahd long afterward walked with a limp and a grimace of pain. It is said that he trapped Markovia in a crypt beneath his castle, and her remains linger there yet.",
+      "The essence of Markovia's saintliness passed partly into her bones as the rest of her body decomposed. Her remaining thighbone is imbued with power that inflicts grievous injury on the undead.",
+      "{@item Mace of Disruption}. When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@damage 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a {@dc 15} Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
+      "While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+    ],
+    "light": [
+      {
+        "bright": 20,
+        "dim": 40
+      }
+    ]
+  },
+  {
+    "name": "Blade of Broken Mirrors (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Blade of Broken Mirrors (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the dagger reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "The saving throw DC for spells cast from the dagger increases to 17.",
+                  "While holding the dagger, you can turn {@condition invisible} as an action. Anything you are wearing or carrying is {@condition invisible} with you. You remain {@condition invisible} until you stop holding the dagger, until you attack or cast a spell that forces a creature to make a saving throw, or until you use a bonus action to become visible again."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Dowsing Dagger",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "A curved jade blade fashioned by the River Heralds, this {@item +1 dagger} can detect the presence of fresh water within 200 feet of the wielder."
+    ]
+  },
+  {
+    "name": "Grovelthrash (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Grovelthrash (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the warhammer reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "When you have fewer hit points than half your hit point maximum, the warhammer deals an extra {@damage 2d6} bludgeoning damage on a hit. You can burrow through solid rock at half your burrowing speed and leave a 5-foot-diameter tunnel in your wake.",
+                  "As an action, you can use the warhammer to cast one of the following spells from it (save {@dc 17}): {@spell earthquake}, {@spell meld into stone}, or {@spell stone shape}. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3",
+    "attachedSpells": {
+      "daily": {
+        "1": [
+          "earthquake",
+          "meld into stone",
+          "stone shape"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Lash of Shadows (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Lash of Shadows (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the whip reaches an exalted state, it gains the following additional properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "The saving throw DC for the weapon's poisons increases to 17.",
+                  "The weapon gains a new poison option called Cockatrice Tears. A creature that fails the saving throw against this poison begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} for 24 hours."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Mace of the Black Crown (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Mace of the Black Crown (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the mace reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3, and the extra fire damage dealt by the weapon when it is ignited increases to {@dice 3d6}. Fire damage dealt by the mace ignores resistance to fire damage.",
+                  "The weapon's Summon Devil feature can also be used to summon a {@creature barbed devil}.",
+                  "You have resistance to fire damage while you hold this weapon."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Pirate's Cutlass",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "This {@item +1 shortsword} is a terrifying weapon with a serrated edge. It grants its wielder advantage on Charisma ({@skill Intimidation}) checks when brandished."
+    ]
+  },
+  {
+    "name": "Prying Blade",
+    "source": "XMtS",
+    "rarity": "unknown (magic)",
+    "entries": [
+      "A hooked blade useful on board a ship or as a cutting tool in the wilderness, this {@item +1 shortsword} grants its wielder advantage on Strength ({@skill Athletics}) checks to climb or to escape while {@condition restrained}."
+    ]
+  },
+  {
+    "name": "Ruin's Wake (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Ruin's Wake (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the spear reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "While holding the spear, you can let out a battle cry as a bonus action. Each creature you choose within 30 feet of you gains advantage on attack rolls until the start of your next turn. This property can't be used again until the next dawn.",
+                  "When you reduce a creature to 0 hit points with an attack from the spear, you can regain hit points equal to the damage you dealt with the attack. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Silken Spite (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Silken Spite (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "The rapier grants the following benefits in its exalted state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "The saving throw DC for the weapon's poison and spells cast from the weapon increases to 17.",
+                  "Magical darkness doesn't impede your {@sense darkvision}.",
+                  "While holding the weapon in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. This property can't be used again until the next dawn."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "The Bloody End (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "The Bloody End (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the morningstar reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "Add {@spell dominate monster} to the list of spells that can be cast from the morningstar.",
+                  "The saving throw DC for spells cast from the morningstar, as well as for creatures to avoid being {@condition frightened} by it, increases to 17.",
+                  "When you use your reaction to deal psychic damage to a creature that hits you with a melee attack, the amount of psychic damage increases to {@damage 2d6}."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Topaz Annihilator",
+    "source": "FTD",
+    "type": "R",
+    "rarity": "legendary",
+    "reqAttune": true,
+    "property": [
+      "2H"
+    ],
+    "range": "100/300",
+    "dmg1": "2d6",
+    "dmgType": "N",
+    "entries": [
+      "This magic ranged weapon resembles a {@item musket|DMG}, but in lieu of any ammunition, it holds a glowing yellow scale from a topaz dragon in its heart.",
+      "The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals {@damage 2d6} necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a {@spell true resurrection} or {@spell wish} spell.",
+      "While the weapon is on your person, you can use an action to cast the {@spell disintegrate} spell (save {@dc 18}). Once this property is used, it can't be used again until the next dawn."
+    ],
+    "attachedSpells": {
+      "daily": {
+        "1e": [
+          "disintegrate"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Will of the Talon (Exalted)",
+    "source": "EGW",
+    "_copy": {
+      "name": "Will of the Talon (Awakened)",
+      "source": "EGW",
+      "_mod": {
+        "entries": {
+          "mode": "insertArr",
+          "index": -1,
+          "items": {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "When the war pick reaches an exalted state, it gains the following properties:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "The saving throw DC for the war pick's Breath Weapon property increases to 17, and that property deals {@damage 5d6} damage on a failed save, or half as much damage on a successful one.",
+                  "The saving throw DC for the war pick's Frightful Presence property increases to 17."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "_preserve": {}
+    },
+    "bonusWeapon": "+3"
+  },
+  {
+    "name": "Witchlight Vane",
+    "source": "WBtW",
+    "baseItem": "mace|phb",
+    "typeAlt": "M",
+    "rarity": "legendary",
+    "reqAttune": "by a mister light or his handpicked successor",
+    "sentient": true,
+    "bonusWeapon": "+3",
+    "entries": [
+      "This ornate rod is topped by a pair of butterfly wings and incorporates bits of red glass into its length. It weighs 3 pounds.",
+      {
+        "type": "entries",
+        "name": "Magic Weapon",
+        "entries": [
+          "In the hands of one who is attuned to it, the vane can be wielded as a magic mace that grants a +3 bonus to attack and damage rolls made with it. In addition, the vane deals an extra {@damage 1d8} radiant damage on a hit."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Sense Mood",
+        "entries": [
+          "While the vane is inside the perimeter of the Witchlight Carnival, it can sense the mood of every creature in the carnival that has an Intelligence of 4 or higher. As an action, a creature attuned to the vane can use it to pinpoint the location of the happiest creature in the carnival.",
+          "The butterfly shape at the top of the vane spins slowly clockwise when spirits in the carnival are generally high; if the general mood in the carnival is dour, the top of the vane spins slowly counterclockwise."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Sentience",
+        "entries": [
+          "The vane is a sentient, chaotic good wondrous item with an Intelligence of 11, a Wisdom of 14, and a Charisma of 14. It has hearing and normal vision out to a range of 30 feet, and it communicates by transmitting emotion to the creature attuned to it. Its purpose is to make sure everyone in the Witchlight Carnival is having a good time."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Additional Properties",
+        "entries": [
+          "The vane has the following additional properties:",
+          {
+            "type": "list",
+            "items": [
+              "The creature holding the vane has vulnerability to lightning damage.",
+              "The creature attuned to the vane can't be {@condition blinded}, {@condition deafened}, {@condition petrified}, or {@condition stunned}.",
+              "While carrying the vane, the creature attuned to it can cast the {@spell dancing lights}, {@spell polymorph}, or {@spell ray of frost} spell as an action, requiring no spell components and using Charisma as the spellcasting ability. After the vane's {@spell polymorph} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the vane can't be used to cast this spell again until the next dawn."
+            ]
+          }
+        ]
+      }
+    ],
+    "attachedSpells": {
+      "other": [
+        "dancing lights",
+        "polymorph",
+        "ray of frost"
+      ],
+      "ability": "cha"
+    }
   }
 ]

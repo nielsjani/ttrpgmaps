@@ -54,6 +54,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .entry-table td{padding:4px 10px;border:1px solid #cdd9e8}
 .table-caption{font-weight:600;margin-bottom:4px}
 .click-hint{font-size:.8rem;color:#999;margin:0 0 8px;font-style:italic}
+.discount-badge{display:inline-block;font-size:.85rem;font-weight:700;background:#fce4ec;color:#c62828;border:1px solid #ef9a9a;padding:3px 12px;border-radius:12px;white-space:nowrap}
+.price-discounted{font-family:monospace;font-weight:700;color:#c62828}
+.price-original{font-family:monospace;font-size:.8rem;color:#999;text-decoration:line-through}
 `;
 
 const EXPORT_JS = `
@@ -82,6 +85,7 @@ export class ShopGeneratorComponent implements OnInit {
   shops: ShopInstance[] = [];
   shopTypes: ShopType[] = [];
   bookTitles: BookTitles = {};
+  globalDiscount = 0;
 
   readonly HALF_PRICE_SHOPS = ['all-potions', 'all-poisons-and-explosives', 'all-scrolls'];
 
@@ -103,6 +107,44 @@ export class ShopGeneratorComponent implements OnInit {
 
   addShop(): void {
     this.shops.push(this.createShopInstance());
+  }
+
+  generateOneOfEach(): void {
+    const edition = this.shops.length > 0 ? this.shops[0].edition : '2014';
+    this.shops = [];
+    for (const shopType of this.shopTypes) {
+      const shop = this.createShopInstance();
+      shop.name = shopType.label;
+      shop.selectedShopType = shopType.file;
+      shop.edition = edition;
+      for (const cfg of shop.rarityConfigs) {
+        cfg.count = this.evalDiceExpression(cfg.defaultExpression);
+      }
+      this.shops.push(shop);
+    }
+    for (const shop of [...this.shops]) {
+      this.generateShop(shop);
+    }
+  }
+
+  onGlobalDiscountChange(value: number): void {
+    this.globalDiscount = value;
+    for (const shop of this.shops) {
+      shop.discount = value;
+    }
+  }
+
+  private evalDiceExpression(expr: string): number {
+    const match = expr.match(/^(\d+)[Dd](\d+)([+-]\d+)?$/);
+    if (!match) return 0;
+    const numDice = parseInt(match[1], 10);
+    const dieSize = parseInt(match[2], 10);
+    const modifier = match[3] ? parseInt(match[3], 10) : 0;
+    let total = modifier;
+    for (let i = 0; i < numDice; i++) {
+      total += Math.floor(Math.random() * dieSize) + 1;
+    }
+    return Math.max(0, total);
   }
 
   removeShop(shop: ShopInstance): void {
@@ -129,6 +171,8 @@ export class ShopGeneratorComponent implements OnInit {
       errorMessage: '',
       selectedItemId: null,
       configCollapsed: false,
+      excludeUnknownPrice: true,
+      discount: this.globalDiscount,
     };
   }
 
@@ -167,7 +211,11 @@ export class ShopGeneratorComponent implements OnInit {
     const priceMultiplier = this.HALF_PRICE_SHOPS.includes(shop.selectedShopType) ? 0.5 : 1;
     for (const cfg of shop.rarityConfigs) {
       if (!cfg.enabled || cfg.count <= 0) continue;
-      const pool = allItems.filter(i => (i.rarity ?? 'none').toLowerCase() === cfg.rarity);
+      const pool = allItems.filter(i => {
+        const matchesRarity = (i.rarity ?? 'none').toLowerCase() === cfg.rarity;
+        const hasUnknownPrice = this.isMundaneUnknown(i);
+        return matchesRarity && !(shop.excludeUnknownPrice && hasUnknownPrice);
+      });
       if (pool.length === 0) continue;
       const selected = this.pickRandom(pool, cfg.count);
       for (const item of selected) {
@@ -231,6 +279,11 @@ export class ShopGeneratorComponent implements OnInit {
 
   formatPrice(cp: number): string {
     return this.priceCalc.formatPrice(cp);
+  }
+
+  getEffectivePrice(shop: ShopInstance, si: ShopItem): number {
+    const discount = shop.discount ?? 0;
+    return Math.round(si.calculatedPrice * (1 - discount / 100));
   }
 
   getRarityLabel(shop: ShopInstance, rarity: string): string {
@@ -411,10 +464,14 @@ ${shopsHtml}
     const typeLabel = this.getShopTypeLabel(shop.selectedShopType);
     const count = shop.shopItems.length;
     const rows = shop.shopItems.map((si, idx) => this.buildExportItemRow(si, shop, idx)).join('\n');
+    const discountBadge = shop.discount > 0
+      ? `<span class="discount-badge">🏷 ${shop.discount}% off</span>`
+      : '';
 
     return `<section class="shop-section">
 <div class="shop-header">
   <h2 class="shop-title">${this.esc(shopName)} <span class="shop-subtitle">— ${this.esc(typeLabel)} Inventory</span></h2>
+  ${discountBadge}
   <span class="item-count">${count} item${count !== 1 ? 's' : ''}</span>
 </div>
 <p class="click-hint">Click a row to view item description.</p>
@@ -431,14 +488,23 @@ ${rows}
     const rowId = `d-${shop.id}-${idx}`;
     const rarityClass = this.getRarityClass(si.item.rarity);
     const rarityLabel = this.getRarityLabel(shop, si.item.rarity);
-    const price = this.esc(this.formatPrice(si.calculatedPrice));
+    const effectivePrice = this.getEffectivePrice(shop, si);
     const detail = this.buildExportDetailHtml(si.item);
+
+    let priceHtml: string;
+    if (shop.discount > 0 && !si.priceEditable) {
+      const original = this.esc(this.formatPrice(si.calculatedPrice));
+      const discounted = this.esc(this.formatPrice(effectivePrice));
+      priceHtml = `<span class="price-discounted">${discounted}</span><br><span class="price-original">${original}</span>`;
+    } else {
+      priceHtml = this.esc(this.formatPrice(effectivePrice));
+    }
 
     return `<tr class="item-row" onclick="toggleDetail('${rowId}')">
   <td class="expand-icon" id="icon-${rowId}">▸</td>
   <td class="item-name">${this.esc(si.item.name)}</td>
   <td><span class="badge badge-${rarityClass}">${this.esc(rarityLabel)}</span></td>
-  <td class="item-price">${price}</td>
+  <td class="item-price">${priceHtml}</td>
 </tr>
 <tr id="${rowId}" class="detail-row" style="display:none">
   <td colspan="4" class="detail-cell"><div class="item-detail">${detail}</div></td>

@@ -15,5 +15,7 @@ export interface ShopInstance {
   errorMessage: string;
   selectedItemId: string | null;
   configCollapsed: boolean;
+  excludeUnknownPrice: boolean;
+  discount: number;
 }
 

@@ -5,10 +5,23 @@
     <h1 class="page-title">🏪 Shop Generator</h1>
     <div class="page-actions">
       <button class="add-shop-btn" (click)="addShop()">＋ Add Shop</button>
+      <button class="one-of-each-btn" (click)="generateOneOfEach()">🎲 One of Each</button>
       <button class="export-btn" *ngIf="anyGenerated" (click)="exportToHtml()">
         📄 Export to HTML
       </button>
     </div>
+  </div>
+
+  <!-- ===== GLOBAL DISCOUNT BAR ===== -->
+  <div class="global-discount-bar">
+    <span class="global-discount-label">🌐 Global Discount</span>
+    <input
+      type="range" min="0" max="100" step="1"
+      class="discount-slider"
+      [value]="globalDiscount"
+      (input)="onGlobalDiscountChange(+$any($event.target).value)"
+    />
+    <span class="discount-value">{{ globalDiscount }}%</span>
   </div>
 
   <!-- ===== SHOP CARDS ===== -->
@@ -81,6 +94,27 @@
           </div>
         </div>
 
+        <!-- Exclude unknown prices -->
+        <div class="form-group checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" [(ngModel)]="shop.excludeUnknownPrice" />
+            Exclude items with unknown prices
+          </label>
+        </div>
+
+        <!-- Discount -->
+        <div class="form-group">
+          <label class="form-label">Discount: <strong>{{ shop.discount }}%</strong></label>
+          <div class="slider-row">
+            <input
+              type="range" min="0" max="100" step="1"
+              class="discount-slider"
+              [(ngModel)]="shop.discount"
+            />
+            <span class="discount-value">{{ shop.discount }}%</span>
+          </div>
+        </div>
+
         <!-- Generate Button -->
         <button class="generate-btn" (click)="generateShop(shop)" [disabled]="shop.isGenerating">
           <span *ngIf="!shop.isGenerating">🎲 Generate Shop</span>
@@ -133,7 +167,8 @@
                   </td>
                   <td class="item-price" (click)="$event.stopPropagation()">
                     <ng-container *ngIf="!si.priceEditable">
-                      {{ formatPrice(si.calculatedPrice) }}
+                      <span [class.discounted]="shop.discount > 0">{{ formatPrice(getEffectivePrice(shop, si)) }}</span>
+                      <span class="original-price" *ngIf="shop.discount > 0">{{ formatPrice(si.calculatedPrice) }}</span>
                     </ng-container>
                     <div *ngIf="si.priceEditable" class="price-input-wrap">
                       <input

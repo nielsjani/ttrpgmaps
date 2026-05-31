@@ -1,0 +1,51 @@
+<div class="umr-detail-page">
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a routerLink="/starfinder">Starfinder</a>
+    <span class="sep">›</span>
+    <a routerLink="/starfinder/universal-monster-rules">Universal Monster Rules</a>
+    <span class="sep">›</span>
+    <span>{{ rule?.name || slug }}</span>
+  </div>
+
+  <div class="state-msg"       *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <ng-container *ngIf="rule && !loading">
+    <div class="rule-block">
+
+      <!-- Header -->
+      <div class="rule-header">
+        <h1>{{ rule.name }}</h1>
+        <span class="type-chip" *ngIf="rule.ability_type"
+              [title]="abilityTypeLabel">
+          {{ rule.ability_type }} &mdash; {{ abilityTypeLabel }}
+        </span>
+      </div>
+
+      <!-- Source -->
+      <div class="source-row" *ngIf="rule.source">
+        <span class="lbl">Source</span> {{ rule.source }}
+      </div>
+
+      <!-- Description -->
+      <div class="section">
+        <div class="section-head">Description</div>
+        <div class="section-body">
+          <p class="desc-para" *ngFor="let para of descriptionParagraphs">{{ para }}</p>
+          <p class="no-desc" *ngIf="descriptionParagraphs.length === 0">No description available.</p>
+        </div>
+      </div>
+
+      <!-- External link -->
+      <div class="source-footer" *ngIf="rule.source_url">
+        <a [href]="rule.source_url" target="_blank" rel="noopener noreferrer">
+          View on Archives of Nethys ↗
+        </a>
+      </div>
+
+    </div>
+  </ng-container>
+</div>
+

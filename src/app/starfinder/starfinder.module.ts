@@ -11,6 +11,8 @@ import { EnemiesStarshipsComponent } from './enemies-starships/enemies-starships
 import { StarfinderEntryListComponent } from './entry-list/starfinder-entry-list.component';
 import { StarfinderDetailComponent } from './detail/starfinder-detail.component';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { UniversalMonsterRulesComponent } from './universal-monster-rules/universal-monster-rules.component';
+import { UmrDetailComponent } from './universal-monster-rules/umr-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     StarfinderEntryListComponent,
     StarfinderDetailComponent,
     SafeHtmlPipe,
+    UniversalMonsterRulesComponent,
+    UmrDetailComponent,
   ],
   imports: [
     CommonModule,
@@ -30,4 +34,3 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
   ]
 })
 export class StarfinderModule { }
-

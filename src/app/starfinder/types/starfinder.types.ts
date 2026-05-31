@@ -65,4 +65,11 @@ export interface StarfinderDetail {
   imageUrl?: string;
 }
 
-
+export interface UniversalMonsterRule {
+  name: string;
+  source_url?: string;
+  source?: string;
+  ability_type?: string;   // Ex | Su | Sp
+  description?: string;
+  slug?: string;           // derived client-side
+}

@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { StarfinderEntry, StarfinderDetail } from '../types/starfinder.types';
+import { map } from 'rxjs/operators';
+import { StarfinderEntry, StarfinderDetail, UniversalMonsterRule } from '../types/starfinder.types';
 
 @Injectable({ providedIn: 'root' })
 export class StarfinderDataService {
@@ -18,5 +19,14 @@ export class StarfinderDataService {
       `${this.base}/${category}/${encodeURIComponent(slug)}.json`
     );
   }
-}
 
+  getUniversalMonsterRules(): Observable<UniversalMonsterRule[]> {
+    return this.http.get<UniversalMonsterRule[]>(`${this.base}/universal-monster-rules.json`).pipe(
+      map(rules => rules.map(r => ({ ...r, slug: this.toSlug(r.name) })))
+    );
+  }
+
+  toSlug(name: string): string {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+}

@@ -1,0 +1,59 @@
+<div class="umr-page">
+  <a class="back-link" routerLink="/starfinder">← Back to Starfinder</a>
+  <h1>📖 Universal Monster Rules</h1>
+  <p class="intro">
+    Special abilities and traits that appear across multiple Starfinder creatures.
+  </p>
+
+  <!-- Filter bar -->
+  <div class="filter-bar">
+    <div class="filter-group search-group">
+      <label class="filter-label">Search by name</label>
+      <input
+        class="search-input"
+        type="text"
+        [(ngModel)]="searchText"
+        placeholder="e.g. Grab, Breath Weapon…"
+        autocomplete="off">
+    </div>
+    <div class="results-info" *ngIf="!loading && !error">
+      Showing <strong>{{ filteredRules.length }}</strong> of {{ rules.length }} rules
+    </div>
+  </div>
+
+  <!-- States -->
+  <div class="state-msg" *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <!-- Table -->
+  <div class="table-wrapper" *ngIf="!loading && !error">
+    <table class="umr-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rule of filteredRules">
+          <td class="name-cell">
+            <a [routerLink]="[rule.slug]">{{ rule.name }}</a>
+          </td>
+          <td class="type-cell">
+            <span class="type-badge" *ngIf="rule.ability_type"
+                  [title]="abilityTypeLabel(rule.ability_type)">
+              {{ rule.ability_type }}
+            </span>
+            <span *ngIf="!rule.ability_type" class="no-type">—</span>
+          </td>
+          <td class="source-cell">{{ rule.source || '—' }}</td>
+        </tr>
+        <tr *ngIf="filteredRules.length === 0">
+          <td colspan="3" class="no-results">No rules match "{{ searchText }}"</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

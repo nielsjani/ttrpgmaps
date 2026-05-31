@@ -9,6 +9,7 @@ import {HomeComponent} from './home/home.component';
 import {CharacterCreatorModule} from "./character-creator/character-creator.module";
 import {CharacterCreatorRoutingModule} from "./character-creator/character-creator-routing.module";
 import {ShopGeneratorModule} from "./shop-generator/shop-generator.module";
+import {StarfinderModule} from "./starfinder/starfinder.module";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {ShopGeneratorModule} from "./shop-generator/shop-generator.module";
     BrowserModule,
     CharacterCreatorRoutingModule,
     ShopGeneratorModule,
+    StarfinderModule,
     AppRoutingModule,
     CharacterCreatorModule
   ],

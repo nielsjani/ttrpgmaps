@@ -1,0 +1,52 @@
+{
+  "name": "Rheonnaghan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Rheonnaghan&Family=None",
+  "source": "Starfinder #18: Assault on the Crucible pg. 59",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "NG",
+  "size": "Gargantuan",
+  "creature_type": "outsider (native)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+26",
+  "hp": "268",
+  "eac": "29",
+  "kac": "31",
+  "fort": "+17",
+  "ref": "+17",
+  "will": "+15",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "slam +29 (8d6+20 B)",
+  "ranged": "coronal flare +25 (5d8+15 F; critical burn 2d8)",
+  "space": "20 ft.",
+  "reach": "20 ft.",
+  "offensive_abilities": "penumbral reflection",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "+7",
+    "int": "+3",
+    "wis": "+3",
+    "cha": "+9"
+  },
+  "skills": "Acrobatics +26 (+34 to fly), Intimidate +26, Physical Science +31",
+  "languages": "Aquan, Auran, Common, Ignan, Terran",
+  "other_abilities": "stellar alignment",
+  "environment": "vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Coronal Flare (Su)",
+      "description": "A rheonnaghan can unleash a blast of fire infused with positive energy as an attack with a range increment of 60 feet. This attack has the bright weapon special property, counts as magic, and ignores any energy resistance of undead creatures. When a rheonnaghan is fully photon-attuned, they can fire up to three of these flares as a full action, taking a –5 penalty to each attack roll; this counts as a zenith revelation power."
+    },
+    {
+      "name": "Penumbral Reflection (Su)",
+      "description": "Rheonnaghans can sometimes reflect ranged attacks made against them back at their enemies. When a rheonnaghan is fighting defensively, they can, as a reaction, reflect one ranged attack that misses them, selecting a new target within 30 feet and making a ranged attack roll at a total bonus of +21. If this attack hits, the new target is damaged as if it had been the intended target of the original ranged attack.\nWhen a rheonnaghan is fully graviton-attuned and successfully redirects a ranged attack as a reaction, they can reflect additional ranged attacks until the beginning of their next turn. The rheonnaghan takes a cumulative –2 penalty to each redirecting attack roll after the first. If any reflected attack misses, the rheonnaghan can’t make further redirect attempts this turn. Using penumbral reflection in this manner counts as a zenith revelation power."
+    }
+  ],
+  "description": "Many scholars believe that the heart of every star contains a link to the Positive Energy Plane. Though this theory is difficult to verify, temporary portals to the Positive Energy Plane have been recorded deep within the Pact Worlds’ sun, as well as the suns of other advanced civilizations. Rarely, a crystalline mass that precipitated from the surrounding plasma coalesces around such a rift, similar to the way an oyster forms a pearl. The abundant energy radiating from the Positive Energy Plane sometimes infuses this matter with life and ejects it from the star, giving birth to an enigmatic native outsider known as a rheonnaghan.\nAppearing as pulsing geometric shapes of pure energy, rheonnaghans have an almost unshakable fascination with the suns of the galaxy. Though they aren’t immune to the heat and radiation produced by stars, they tend to hover in close proximity to them in order to study their cosmic phenomena, and are sometimes mistaken for mystical pieces of solar ejecta. Most rheonnaghans naturally develop solarian-like powers, and some retain the crystalline cocoons from which they were born, using them to conduct experiments into their own nature.\nThough rheonnaghans are rare, the planar scientists who study them agree that no two are alike—each exhibits their own unique geometric form. No one has yet discerned the meaning of the differences in rheonnaghan’s shapes, though many theories have been posited, ranging from age to a representation of the galactic coordinates of the sun from which the outsider was born. When asked about it, rheonnaghans don’t seem to understand the question and become offended at their existence being reduced to simple mathematics.\nA typical rheonnaghan stretches approximately 20 feet across but weighs next to nothing.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRheonnaghan\nSource\nStarfinder #18: Assault on the Crucible pg. 59\nRheonnaghan CR 15\nXP 51,200\nNG Gargantuan outsider (native)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+26\nDefense\nHP\n268\nEAC\n29;\nKAC\n31\nFort\n+17;\nRef\n+17;\nWill\n+15\nDefensive Abilities\nvoid adaptation\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\nslam +29 (8d6+20 B)\nRanged\ncoronal flare +25 (5d8+15 F; critical burn 2d8)\nSpace\n20 ft.;\nReach\n20 ft.\nOffensive Abilities\npenumbral reflection\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n+7;\nINT\n+3;\nWIS\n+3;\nCHA\n+9\nSkills\nAcrobatics +26 (+34 to fly), Intimidate +26, Physical Science +31\nLanguages\nAquan, Auran, Common, Ignan, Terran\nOther Abilities\nstellar alignment\nEcology\nEnvironment\nvacuum\nOrganization\nsolitary\nSpecial Abilities\nCoronal Flare (Su)\nA rheonnaghan can unleash a blast of fire infused with positive energy as an attack with a range increment of 60 feet. This attack has the bright weapon special property, counts as magic, and ignores any energy resistance of undead creatures. When a rheonnaghan is fully photon-attuned, they can fire up to three of these flares as a full action, taking a –5 penalty to each attack roll; this counts as a zenith revelation power.\nPenumbral Reflection (Su)\nRheonnaghans can sometimes reflect ranged attacks made against them back at their enemies. When a rheonnaghan is fighting defensively, they can, as a reaction, reflect one ranged attack that misses them, selecting a new target within 30 feet and making a ranged attack roll at a total bonus of +21. If this attack hits, the new target is damaged as if it had been the intended target of the original ranged attack.\nWhen a rheonnaghan is fully graviton-attuned and successfully redirects a ranged attack as a reaction, they can reflect additional ranged attacks until the beginning of their next turn. The rheonnaghan takes a cumulative –2 penalty to each redirecting attack roll after the first. If any reflected attack misses, the rheonnaghan can’t make further redirect attempts this turn. Using penumbral reflection in this manner counts as a zenith revelation power.\nDescription\nMany scholars believe that the heart of every star contains a link to the Positive Energy Plane. Though this theory is difficult to verify, temporary portals to the Positive Energy Plane have been recorded deep within the Pact Worlds’ sun, as well as the suns of other advanced civilizations. Rarely, a crystalline mass that precipitated from the surrounding plasma coalesces around such a rift, similar to the way an oyster forms a pearl. The abundant energy radiating from the Positive Energy Plane sometimes infuses this matter with life and ejects it from the star, giving birth to an enigmatic native outsider known as a rheonnaghan.\nAppearing as pulsing geometric shapes of pure energy, rheonnaghans have an almost unshakable fascination with the suns of the galaxy. Though they aren’t immune to the heat and radiation produced by stars, they tend to hover in close proximity to them in order to study their cosmic phenomena, and are sometimes mistaken for mystical pieces of solar ejecta. Most rheonnaghans naturally develop solarian-like powers, and some retain the crystalline cocoons from which they were born, using them to conduct experiments into their own nature.\nThough rheonnaghans are rare, the planar scientists who study them agree that no two are alike—each exhibits their own unique geometric form. No one has yet discerned the meaning of the differences in rheonnaghan’s shapes, though many theories have been posited, ranging from age to a representation of the galactic coordinates of the sun from which the outsider was born. When asked about it, rheonnaghans don’t seem to understand the question and become offended at their existence being reduced to simple mathematics.\nA typical rheonnaghan stretches approximately 20 feet across but weighs next to nothing.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

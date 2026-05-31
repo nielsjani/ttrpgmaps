@@ -1,0 +1,54 @@
+{
+  "name": "Planar Scion, Sylph",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sylph&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+1",
+  "ref": "+4",
+  "will": "+5",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "tactical baton +6 (1d4+2 B)",
+  "ranged": "static arc pistol +8 (1d6+2 E; critical arc 2)",
+  "offensive_abilities": "trick attack +1d4",
+  "spell_like_abilities": {
+    "caster_info": "CL 2nd",
+    "spells": "1/day—\nflight\n(1st level)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +13, Computers +8, Piloting +13, Stealth +8",
+  "feats": "Mobility",
+  "languages": "Auran, Celestial, Common",
+  "other_abilities": "air affinity, operative exploits (uncanny mobility), specialization (daredevil)",
+  "gear": "freebooter armor, static arc pistol with 2 batteries (20 charges each), tactical baton, hacking tool kit",
+  "environment": "any",
+  "organization": "solitary, pair, or gang (3–6)",
+  "special_abilities": [
+    {
+      "name": "Air Affinity (Ex)",
+      "description": "Sylphs have a +2 racial bonus to Acrobatics checks and, if able to fly, maneuverability one step better than normal."
+    }
+  ],
+  "description": "Slyphs are descendants of species and creatures from the Material Plane that have strong connections to the Plane of Air, such as djinn. They can also arise in areas that have strong influences from the Plane of Air. Though sylphs can pass for other kinds of humanoids, they tend to be slender, and all have complex blue markings swirling across their skin. Sylphs are naturally reserved and they avoid attention.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nSylph Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion, Sylph\nSource\nStarfinder #14: Soldiers of Brass pg. 59\nSylph CR 2\nXP 600\nSylph operative\nNG Medium outsider (native)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+1;\nRef\n+4;\nWill\n+5\nDefensive Abilities\nevasion;\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +6 (1d4+2 B)\nRanged\nstatic arc pistol +8 (1d6+2 E; critical arc 2)\nOffensive Abilities\ntrick attack +1d4\nSylph Spell-Like Abilities\n(CL 2nd)\n1/day—\nflight\n(1st level)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n-1;\nINT\n+2;\nWIS\n+0;\nCHA\n+1\nFeats\nMobility\nSkills\nAcrobatics +13, Computers +8, Piloting +13, Stealth +8\nLanguages\nAuran, Celestial, Common\nOther Abilities\nair affinity, operative exploits (uncanny mobility), specialization (daredevil)\nGear\nfreebooter armor, static arc pistol with 2 batteries (20 charges each), tactical baton, hacking tool kit\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or gang (3–6)\nSpecial Abilities\nAir Affinity (Ex)\nSylphs have a +2 racial bonus to Acrobatics checks and, if able to fly, maneuverability one step better than normal.\nDescription\nSlyphs are descendants of species and creatures from the Material Plane that have strong connections to the Plane of Air, such as djinn. They can also arise in areas that have strong influences from the Plane of Air. Though sylphs can pass for other kinds of humanoids, they tend to be slender, and all have complex blue markings swirling across their skin. Sylphs are naturally reserved and they avoid attention.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nSylph Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Ilthisarian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ilthisarian&Family=None",
+  "source": "Starfinder #5: The Thirteenth Gate pg. 56",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "monstrous humanoid (ilthisarian)",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+7",
+  "immunities": "poison",
+  "speed": "30 ft., swim 20 ft.",
+  "melee": "bite +11 (1d6+7 P)",
+  "ranged": "static arc pistol +9 (1d6+4 E; critical arc 2)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +15 (+23 to swim), Engineering +15, Intimidate +10, Physical Science +10, Survival +15",
+  "languages": "Ilthisarian",
+  "gear": "casual stationwear, static arc pistol with battery (20 charges)",
+  "environment": "any swamp (Arshalin)",
+  "organization": "solitary, pair, or nest (3–8)",
+  "special_abilities": [
+    {
+      "name": "Deadly Grasp (Ex)",
+      "description": "When an ilthisarian succeeds at a combat maneuver to maintain a grapple, it can make a melee attack with its bite as a move action."
+    },
+    {
+      "name": "Redundant Vitals (Ex)",
+      "description": "Ilthisarian receive a +4 racial bonus to saving throws against effects that target specific organs, such as the wound and severe wound critical hit effects."
+    }
+  ],
+  "description": "Ilthisarians are multiheaded, serpentlike humanoids with forked tails instead of legs. Though they are most comfortable in the marshy environments of the planet Arshalin (see page 44), ilthisarians can remain active in a wide range of climates.",
+  "extra_content": "The following extra content was found for this creature:\n-\nIlthisarian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nIlthisarian\nSource\nStarfinder #5: The Thirteenth Gate pg. 56\nIlthisarian CR 4\nXP 1,200\nLN Large monstrous humanoid (ilthisarian)\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n45\nEAC\n16;\nKAC\n17\nFort\n+5;\nRef\n+5;\nWill\n+7\nDefensive Abilities\nredundant vitals, unflankable;\nImmunities\npoison\nOffense\nSpeed\n30 ft., swim 20 ft.\nMelee\nbite +11 (1d6+7 P)\nRanged\nstatic arc pistol +9 (1d6+4 E; critical arc 2)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+0;\nCON\n+1;\nINT\n+3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +15 (+23 to swim), Engineering +15, Intimidate +10, Physical Science +10, Survival +15\nLanguages\nIlthisarian\nGear\ncasual stationwear, static arc pistol with battery (20 charges)\nEcology\nEnvironment\nany swamp (Arshalin)\nOrganization\nsolitary, pair, or nest (3–8)\nSpecial Abilities\nDeadly Grasp (Ex)\nWhen an ilthisarian succeeds at a combat maneuver to maintain a grapple, it can make a melee attack with its bite as a move action.\nRedundant Vitals (Ex)\nIlthisarian receive a +4 racial bonus to saving throws against effects that target specific organs, such as the wound and severe wound critical hit effects.\nDescription\nIlthisarians are multiheaded, serpentlike humanoids with forked tails instead of legs. Though they are most comfortable in the marshy environments of the planet Arshalin (see page 44), ilthisarians can remain active in a wide range of climates.\nExtra Content\nThe following extra content was found for this creature:\n-\nIlthisarian Race Entry",
+  "type": "monstrous humanoid (ilthisarian)",
+  "category": "alien"
+}

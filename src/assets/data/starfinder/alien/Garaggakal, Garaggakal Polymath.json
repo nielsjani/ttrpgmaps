@@ -1,0 +1,57 @@
+{
+  "name": "Garaggakal, Garaggakal Polymath",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Garaggakal Polymath&Family=Garaggakal",
+  "source": "Alien Archive 2 pg. 55",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+8",
+  "senses": "blindsight (emotion) 60 ft., darkvision 60 ft., sense through (emotion) 60 ft.;",
+  "perception": "+25",
+  "hp": "255",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+14",
+  "immunities": "radiation",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "bite +28 (8d6+20 P plus analyzed strike)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "leech life (DC 20)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+8",
+    "con": "+4",
+    "int": "+3",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +30 (+38 to fly), Athletics +25, Stealth +30, Survival +25",
+  "languages": "Garaggakal (can’t speak any language); telepathy 100 ft.",
+  "other_abilities": "no breath, phase through",
+  "environment": "any (the Drift)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Analyzed Strike (Ex)",
+      "description": "A garaggakal polymath has spent centuries analyzing the species it has encountered in the Drift, and it uses this knowledge to target its prey’s most sensitive and vulnerable areas. Any creature that takes damage from the garaggakal’s bite attack must succeed at a DC 20 Fortitude save or become off-kilter (in zero gravity) or off-target for 1 round (in gravity)."
+    },
+    {
+      "name": "Leech Life (Su)",
+      "description": "As a standard action, a garaggakal polymath can spend 1 Resolve Point to leech the life from one target within 30 feet. This deals 14d6 damage (Fortitude DC 20 half), and the garaggakal gains temporary Hit Points equal to the amount of damage dealt."
+    },
+    {
+      "name": "Phase Through (Su)",
+      "description": "A garaggakal can momentarily shift out of phase with reality. As a full action, a garaggakal can spend 1 Resolve Point to phase through up to 15 feet of solid matter. If it attempts to phase through something that is more than 15 feet thick, the attempt fails, but the action and Resolve Points are still expended. A garaggakal cannot phase through force effects, such as force fields."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGaraggakal\nSource\nAlien Archive 2 pg. 55\nThe Drift remains very much a mystery to explorers and scholars in the Pact Worlds, and scientists have only recently discovered life-forms native to it. The garaggakal, sometimes called a “Drift wraith” by those spacefarers fortunate enough to have survived an encounter with these predators, is one such species. A garaggakal is mostly humanoid in form, with rubbery, yellowish skin, translucent wings, and a long reptilian tail. A garaggakal’s head is little more than a gaping, lamprey-like mouth filled with curved teeth. An average garaggakal has a 20-foot wingspan and stands around 8 feet tall, though its tail can more than double that length, and it weighs approximately 400 pounds. A garaggakal polymath can be 15 feet tall or more, weighing as much as 1,000 pounds.\nGaraggakals freely roam the Drift on their diaphanous wings, hunting whatever living prey they can find. Garaggakals seem to divide all life into two categories: predators (such as themselves) and prey (everything else). To a garaggakal, the best way to learn more about a newly discovered species is to kill, dissect, and eat it—and not necessarily in that order.\nGaraggakals are ambush predators. When a garaggakal encounters a living creature in the Drift, it stalks its prey, using stealth and its innate ability to phase through solid matter to approach undetected, before draining its victim’s life force from a distance. Garaggakals have been known to stalk entire starships, phasing through a vessel’s hull to hunt and feed on the crew inside.\nWhen it comes time to reproduce, a garaggakal seeks out an area of intense radiation somewhere in the Drift, where it absorbs enough energy to undergo cytogenesis, literally creating new cells from the Drift’s planar energies to “build” its offspring. Upon completion, the process results in a fully grown adult garaggakal.\nGaraggakals increase in size and strength as they age. A garaggakal can live for centuries, growing to more than twice its normal adult size. Called garaggakal polymaths, these elder creatures have a burning curiosity that drives them on ever-longer journeys through the Drift.\nAliens in the \"Garaggakal\" Family\nName\nCR\nGaraggakal\n5\nGaraggakal Polymath\n14\nGaraggakal, Garaggakal Polymath\nSource\nAlien Archive 2 pg. 54\nGaraggakal Polymath CR 14\nXP 38,400\nCE Large outsider (extraplanar)\nInit\n+8;\nSenses\nblindsight (emotion) 60 ft., darkvision 60 ft., sense through (emotion) 60 ft.;\nPerception\n+25\nDefense\nHP\n255;\nRP\n5\nEAC\n28;\nKAC\n30\nFort\n+16;\nRef\n+16;\nWill\n+14\nImmunities\nradiation\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nbite +28 (8d6+20 P plus analyzed strike)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nleech life (DC 20)\nStatistics\nSTR\n+6;\nDEX\n+8;\nCON\n+4;\nINT\n+3;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +30 (+38 to fly), Athletics +25, Stealth +30, Survival +25\nLanguages\nGaraggakal (can’t speak any language); telepathy 100 ft.\nOther Abilities\nno breath, phase through\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary\nSpecial Abilities\nAnalyzed Strike (Ex)\nA garaggakal polymath has spent centuries analyzing the species it has encountered in the Drift, and it uses this knowledge to target its prey’s most sensitive and vulnerable areas. Any creature that takes damage from the garaggakal’s bite attack must succeed at a DC 20 Fortitude save or become off-kilter (in zero gravity) or off-target for 1 round (in gravity).\nLeech Life (Su)\nAs a standard action, a garaggakal polymath can spend 1 Resolve Point to leech the life from one target within 30 feet. This deals 14d6 damage (Fortitude DC 20 half), and the garaggakal gains temporary Hit Points equal to the amount of damage dealt.\nPhase Through (Su)\nA garaggakal can momentarily shift out of phase with reality. As a full action, a garaggakal can spend 1 Resolve Point to phase through up to 15 feet of solid matter. If it attempts to phase through something that is more than 15 feet thick, the attempt fails, but the action and Resolve Points are still expended. A garaggakal cannot phase through force effects, such as force fields.",
+  "type": "outsider (extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Garaggakal.png"
+}

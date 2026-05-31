@@ -1,0 +1,59 @@
+{
+  "name": "Xaxmellia",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Xaxmellia&Family=None",
+  "source": "Starfinder #17: Solar Strike pg. 61",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "N",
+  "size": "Colossal",
+  "creature_type": "magical beast (colossus)",
+  "init": "+5",
+  "senses": "blindsense (thought) 120 ft., blindsight (sound) 60 ft.;",
+  "perception": "+29",
+  "hp": "340",
+  "eac": "31",
+  "kac": "33",
+  "fort": "+21",
+  "ref": "+21",
+  "will": "+15",
+  "immunities": "acid, poison;",
+  "resistances": "fire 30, sonic 30",
+  "weaknesses": "vulnerable to cold",
+  "speed": "50 ft., burrow 20 ft., fly 100 ft. (Ex, average), swim 100 ft.",
+  "melee": "bite +32 (3d12+25 A & P) or claw +32 (3d12+25 S) or tail +32 (3d10+25 P; critical knockdown)",
+  "ranged": "bite +29 (3d12+25 A & P), 2 claws +29 (3d12+25 S), tail +29 (3d10+25 P; critical knockdown)",
+  "space": "50 ft.",
+  "reach": "50 ft.",
+  "offensive_abilities": "acidic breath weapon (120-ft. line, 17d6 A, DC 22, usable every 1d4 hours), demolish structures, sonic breath weapon (90-ft. cone, 17d6 So and deafened 1 minute, DC 22 for half and no deafened, usable every 1d4 rounds), wing buffet",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "+11",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +29, Athletics +29, Intimidate +29, Survival +29",
+  "languages": "Ancient Daimalkan (can’t speak any language)",
+  "other_abilities": "amphibious, massive",
+  "environment": "any (Daimalko)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Demolish Structures (Ex)",
+      "description": "A xaxmellia has an exoskeleton that is harder than most metals, and it can therefore use its body against urban structures with deadly effect. A xaxmellia’s natural weapons ignore the hardness of all structures not made of adamantine alloy or a harder material. Against structures made of such materials, a xaxmellia’s natural weapons ignore half of the structure’s hardness."
+    },
+    {
+      "name": "Destructive Rain (Su)",
+      "description": "While the xaxmellia has half its Hit Points or fewer or the bleeding condition, the acidic blood pouring and scales falling from its body create a rain of destruction within 30 feet of the creature. Those in this area take 3d12 acid and bludgeoning damage each round (Reflex DC 22 half)."
+    },
+    {
+      "name": "Wing Buffet (Ex)",
+      "description": "As a full action, a xaxmellia can flap its wings to slash at nearby creatures and stir up a debris-filled wind. When using this ability, a xaxmellia can make two claw attacks, using its multiattack attack bonus. Additionally, each Huge or smaller creature within 120 feet of the xaxmellia must attempt a DC 22 Fortitude saving throw or be knocked prone and pushed 1d4 × 10 feet away from the xaxmellia. Dust obscures the area, so creatures within 5 feet of an attacker have concealment against that attacker, and creatures farther away from an attacker have total concealment against that attacker. The dust remains in the air until the end of the xaxmellia’s next turn."
+    }
+  ],
+  "description": "Xaxmellias are kaiju native to Daimalko. The first rose from an acidic lake in the caldera of a quiescent volcano, and the volcano erupted soon after. These colossi are capable of burrowing through soil and rubble in a bizarre corkscrew fashion, using this ability to hide and then ambushing prey, including rival kaiju.\nThe typical xaxmellia is 70 feet tall.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nXaxmellia\nSource\nStarfinder #17: Solar Strike pg. 61\nXaxmellia CR 17\nXP 102,400\nN Colossal magical beast (colossus)\nInit\n+5;\nSenses\nblindsense (thought) 120 ft., blindsight (sound) 60 ft.;\nPerception\n+29\nAura\ndestructive rain (30 ft., DC 22)\nDefense\nHP\n340\nEAC\n31;\nKAC\n33\nFort\n+21;\nRef\n+21;\nWill\n+15\nDefensive Abilities\nregeneration 15 (cold);\nImmunities\nacid, poison;\nResistances\nfire 30, sonic 30\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n50 ft., burrow 20 ft., fly 100 ft. (Ex, average), swim 100 ft.\nMelee\nbite +32 (3d12+25 A & P) or claw +32 (3d12+25 S) or tail +32 (3d10+25 P; critical knockdown)\nRanged\nbite +29 (3d12+25 A & P), 2 claws +29 (3d12+25 S), tail +29 (3d10+25 P; critical knockdown)\nSpace\n50 ft.;\nReach\n50 ft.\nOffensive Abilities\nacidic breath weapon (120-ft. line, 17d6 A, DC 22, usable every 1d4 hours), demolish structures, sonic breath weapon (90-ft. cone, 17d6 So and deafened 1 minute, DC 22 for half and no deafened, usable every 1d4 rounds), wing buffet\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n+11;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +29, Athletics +29, Intimidate +29, Survival +29\nLanguages\nAncient Daimalkan (can’t speak any language)\nOther Abilities\namphibious, massive\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary\nSpecial Abilities\nDemolish Structures (Ex)\nA xaxmellia has an exoskeleton that is harder than most metals, and it can therefore use its body against urban structures with deadly effect. A xaxmellia’s natural weapons ignore the hardness of all structures not made of adamantine alloy or a harder material. Against structures made of such materials, a xaxmellia’s natural weapons ignore half of the structure’s hardness.\nDestructive Rain (Su)\nWhile the xaxmellia has half its Hit Points or fewer or the bleeding condition, the acidic blood pouring and scales falling from its body create a rain of destruction within 30 feet of the creature. Those in this area take 3d12 acid and bludgeoning damage each round (Reflex DC 22 half).\nWing Buffet (Ex)\nAs a full action, a xaxmellia can flap its wings to slash at nearby creatures and stir up a debris-filled wind. When using this ability, a xaxmellia can make two claw attacks, using its multiattack attack bonus. Additionally, each Huge or smaller creature within 120 feet of the xaxmellia must attempt a DC 22 Fortitude saving throw or be knocked prone and pushed 1d4 × 10 feet away from the xaxmellia. Dust obscures the area, so creatures within 5 feet of an attacker have concealment against that attacker, and creatures farther away from an attacker have total concealment against that attacker. The dust remains in the air until the end of the xaxmellia’s next turn.\nDescription\nXaxmellias are kaiju native to Daimalko. The first rose from an acidic lake in the caldera of a quiescent volcano, and the volcano erupted soon after. These colossi are capable of burrowing through soil and rubble in a bizarre corkscrew fashion, using this ability to hide and then ambushing prey, including rival kaiju.\nThe typical xaxmellia is 70 feet tall.",
+  "type": "magical beast (colossus)",
+  "category": "alien"
+}

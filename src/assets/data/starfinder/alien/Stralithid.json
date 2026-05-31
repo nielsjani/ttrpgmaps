@@ -1,0 +1,70 @@
+{
+  "name": "Stralithid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Stralithid&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 60",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "+8",
+  "senses": "blindsight (motion) 120 ft.., kinetic sight, sightless;",
+  "perception": "+15",
+  "hp": "110",
+  "eac": "21",
+  "kac": "23",
+  "fort": "+8",
+  "ref": "+12",
+  "will": "+11",
+  "weaknesses": "sonic overload",
+  "speed": "20 ft., burrow 40 ft.",
+  "melee": "telekinetic burst +20 (3d4+14 B, P, or S; critical staggered [DC 16])",
+  "ranged": "telekinetic lance +20 (3d6+8 B, P, or S; critical staggered [DC 16])",
+  "offensive_abilities": "kinetic entanglement, telekinetic trap",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "At will—\ntelekinesis\n(DC 19)"
+  },
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "—",
+    "wis": "+1",
+    "cha": "+6"
+  },
+  "skills": "Stealth +20",
+  "languages": "Terran (can’t speak any language)",
+  "environment": "any land (Weydana-7)",
+  "organization": "solitary, pair, quilt (3–5)",
+  "special_abilities": [
+    {
+      "name": "Kinetic Entanglement (Ex)",
+      "description": "As a standard action, a stralithid can create a telekinetic link between itself and another creature within 120 feet; the effect lasts for 1 minute or until the stralithid uses this ability again. When the targeted creature is within 120 feet of the stralithid and attempts to take a physical action, the stralithid can use its reaction to absorb the action’s kinetic force. The targeted creature must attempt a DC 18 Fortitude save. On a failure, the target takes 4d6 force damage and loses the triggering action; the stralithid gains the effects of haste until the end of its next turn, and the kinetic entanglement ends."
+    },
+    {
+      "name": "Kinetic Sight (Ex)",
+      "description": "A stralithid can use its blindsight to perceive targets of its kinetic entanglement and telekinetic trap abilities, even if the creature is motionless."
+    },
+    {
+      "name": "Sonic Overload (Ex)",
+      "description": "A stralithid that takes sonic damage or fails to save against a sonic effect must succeed at a DC 16 Fortitude save or be stunned for 1 round, overwhelmed by minute vibrations."
+    },
+    {
+      "name": "Telekinetic Absorption (Ex)",
+      "description": "A stralithid is immune to effects with the force trait."
+    },
+    {
+      "name": "Telekinetic Lance (Ex)",
+      "description": "A stralithid’s telekinetic lance is a ranged attack with a range of 120 feet and the staggered critical hit effect."
+    },
+    {
+      "name": "Telekinetic Trap (Ex)",
+      "description": "As a full action, a stralithid can infuse a 30-foot-radius sphere within 120 feet with an intricate pattern of invisible kinetic energy that lasts for 1 round. A non-stralithid that enters or begins its turn in the pattern’s area must succeed at a DC 18 Fortitude save or be staggered for 1d4 rounds."
+    }
+  ],
+  "description": "Stralithids are subterranean telekinetic creatures that dwell in Weydana-7’s vast regolith seas. When the creature feeds, it extends tendrils hundreds of feet to the surface of the regolith sea, where the stralithid absorbs kinetic energy from nearby activity, primarily meteoroid impacts.\nStralithids also feed off the motion of Weydana-7’s other fauna, creating nearly invisible traps of shifting kinetic energy to stun prey. They hunt collector crabs (page 54), goading the creatures into traps to drain them dry and to lay eggs in the corpses.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStralithid\nSource\nStarfinder #45: The Culling Shadow pg. 60\nStralithid CR 8\nXP 4,800\nN Medium magical beast\nInit\n+8;\nSenses\nblindsight (motion) 120 ft.., kinetic sight, sightless;\nPerception\n+15\nDefense\nHP\n110\nEAC\n21;\nKAC\n23\nFort\n+8;\nRef\n+12;\nWill\n+11\nDefensive Abilities\ntelekinetic absorption\nWeaknesses\nsonic overload\nOffense\nSpeed\n20 ft., burrow 40 ft.\nMelee\ntelekinetic burst +20 (3d4+14 B, P, or S; critical staggered [DC 16])\nRanged\ntelekinetic lance +20 (3d6+8 B, P, or S; critical staggered [DC 16])\nOffensive Abilities\nkinetic entanglement, telekinetic trap\nSpell-Like Abilities\n(CL 8th)\nAt will—\ntelekinesis\n(DC 19)\nStatistics\nSTR\n-1;\nDEX\n+4;\nCON\n+2;\nINT\n—;\nWIS\n+1;\nCHA\n+6\nSkills\nStealth +20\nLanguages\nTerran (can’t speak any language)\nEcology\nEnvironment\nany land (Weydana-7)\nOrganization\nsolitary, pair, quilt (3–5)\nSpecial Abilities\nKinetic Entanglement (Ex)\nAs a standard action, a stralithid can create a telekinetic link between itself and another creature within 120 feet; the effect lasts for 1 minute or until the stralithid uses this ability again. When the targeted creature is within 120 feet of the stralithid and attempts to take a physical action, the stralithid can use its reaction to absorb the action’s kinetic force. The targeted creature must attempt a DC 18 Fortitude save. On a failure, the target takes 4d6 force damage and loses the triggering action; the stralithid gains the effects of haste until the end of its next turn, and the kinetic entanglement ends.\nKinetic Sight (Ex)\nA stralithid can use its blindsight to perceive targets of its kinetic entanglement and telekinetic trap abilities, even if the creature is motionless.\nSonic Overload (Ex)\nA stralithid that takes sonic damage or fails to save against a sonic effect must succeed at a DC 16 Fortitude save or be stunned for 1 round, overwhelmed by minute vibrations.\nTelekinetic Absorption (Ex)\nA stralithid is immune to effects with the force trait.\nTelekinetic Lance (Ex)\nA stralithid’s telekinetic lance is a ranged attack with a range of 120 feet and the staggered critical hit effect.\nTelekinetic Trap (Ex)\nAs a full action, a stralithid can infuse a 30-foot-radius sphere within 120 feet with an intricate pattern of invisible kinetic energy that lasts for 1 round. A non-stralithid that enters or begins its turn in the pattern’s area must succeed at a DC 18 Fortitude save or be staggered for 1d4 rounds.\nDescription\nStralithids are subterranean telekinetic creatures that dwell in Weydana-7’s vast regolith seas. When the creature feeds, it extends tendrils hundreds of feet to the surface of the regolith sea, where the stralithid absorbs kinetic energy from nearby activity, primarily meteoroid impacts.\nStralithids also feed off the motion of Weydana-7’s other fauna, creating nearly invisible traps of shifting kinetic energy to stun prey. They hunt collector crabs (page 54), goading the creatures into traps to drain them dry and to lay eggs in the corpses.",
+  "type": "magical beast",
+  "category": "alien"
+}

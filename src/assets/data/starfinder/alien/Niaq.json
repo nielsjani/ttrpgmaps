@@ -1,0 +1,46 @@
+{
+  "name": "Niaq",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Niaq&Family=None",
+  "source": "Starfinder #11: The Penumbra Protocol pg. 57",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "blindsight (heat) 360 ft., sightless;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+7",
+  "resistances": "cold 10",
+  "speed": "20 ft., fly 90 ft. (Ex, average)",
+  "melee": "feeding lance +17 (1d8+11 P plus infection)",
+  "ranged": "quill volley +15 (2d6+6 P plus infection)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +13, Stealth +18, Survival +13",
+  "environment": "any cold (Verces)",
+  "organization": "solitary, pair, or wing (3–5)",
+  "special_abilities": [
+    {
+      "name": "Infection (Ex)",
+      "description": "A creature injured by a niaq’s feeding lance or quills is exposed to niaq virus.\nNiaq Virus\nType\ndisease (injury);\nSave\nFortitude DC 14\nTrack\nphysical (see below);\nFrequency\n1/round\nEffect\nprogression track is Confused—Weakened—Debilitated—Immobile; victim experiences intense euphoria and bizarre hallucinations throughout the infection. An immobile victim also gains cold resistance 10 and slows the frequency to 1/day. Special When victims reach the end state, their blood can be used to infect others with the virus, or it can be treated to become an addictive but noninfectious drug called niaqui.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "Niaqs hunt in the frigid wastes of Verces’s Darkside, soaring silently through snowy skies. Shaped like a pterodactyl, a niaq is white with a network of black-blooded veins that extend across its body. Instead of eyes, the creature has a mane of cilia that sense minute variations in temperature, allowing it to distinguish heat signatures of prey and the nearby topography. For a mouth, the creature has a feeding lance, which is a tight cylinder of long, hollow quills. Each of a niaq’s wings has a fringe of similar but shorter quills that the creature can launch as projectiles with a flick of a wing.\nThe feeding lance and quills can infect prey with a virus that lives symbiotically within the niaq. Victims diseased in this manner suffer hallucinogenic effects, which make them not only easy prey for the niaq, but living factories for the natural drug the virus produces. Genetic differences between niaqs and their prey allow a feeding niaq to experience the euphoria the drug produces in prey, since the niaq is immune to the effect of the virus in its own system. A niaq therefore carries prey back to its lair, usually a cave or hollow in the Darkside’s ice and snow. Niaqs keep prey alive and immobilized, sipping the drug-laced blood from their victims’ bloodstream, earning niaqs their local nickname of “sippers.”\nThe drug the niaq virus produces is called niaqui. Illegal due to its manufacturing method, this drug is found in black markets throughout the Pact Worlds. Criminal syndicates kidnap victims and infect them, turning them into production hosts. The drug dealers then purify extracted fluids to kill the virus and ensure clients can become addicted but can’t produce the drug themselves.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNiaq\nSource\nStarfinder #11: The Penumbra Protocol pg. 57\nNiaq CR 6\nXP 2,400\nN Large magical beast\nInit\n+3;\nSenses\nblindsight (heat) 360 ft., sightless;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+10;\nWill\n+7\nResistances\ncold 10\nOffense\nSpeed\n20 ft., fly 90 ft. (Ex, average)\nMelee\nfeeding lance +17 (1d8+11 P plus infection)\nRanged\nquill volley +15 (2d6+6 P plus infection)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-3;\nWIS\n+1;\nCHA\n-1\nSkills\nAcrobatics +13, Stealth +18, Survival +13\nEcology\nEnvironment\nany cold (Verces)\nOrganization\nsolitary, pair, or wing (3–5)\nSpecial Abilities\nInfection (Ex)\nA creature injured by a niaq’s feeding lance or quills is exposed to niaq virus.\nNiaq Virus\nType\ndisease (injury);\nSave\nFortitude DC 14\nTrack\nphysical (see below);\nFrequency\n1/round\nEffect\nprogression track is Confused—Weakened—Debilitated—Immobile; victim experiences intense euphoria and bizarre hallucinations throughout the infection. An immobile victim also gains cold resistance 10 and slows the frequency to 1/day. Special When victims reach the end state, their blood can be used to infect others with the virus, or it can be treated to become an addictive but noninfectious drug called niaqui.\nCure\n2 consecutive saves\nDescription\nNiaqs hunt in the frigid wastes of Verces’s Darkside, soaring silently through snowy skies. Shaped like a pterodactyl, a niaq is white with a network of black-blooded veins that extend across its body. Instead of eyes, the creature has a mane of cilia that sense minute variations in temperature, allowing it to distinguish heat signatures of prey and the nearby topography. For a mouth, the creature has a feeding lance, which is a tight cylinder of long, hollow quills. Each of a niaq’s wings has a fringe of similar but shorter quills that the creature can launch as projectiles with a flick of a wing.\nThe feeding lance and quills can infect prey with a virus that lives symbiotically within the niaq. Victims diseased in this manner suffer hallucinogenic effects, which make them not only easy prey for the niaq, but living factories for the natural drug the virus produces. Genetic differences between niaqs and their prey allow a feeding niaq to experience the euphoria the drug produces in prey, since the niaq is immune to the effect of the virus in its own system. A niaq therefore carries prey back to its lair, usually a cave or hollow in the Darkside’s ice and snow. Niaqs keep prey alive and immobilized, sipping the drug-laced blood from their victims’ bloodstream, earning niaqs their local nickname of “sippers.”\nThe drug the niaq virus produces is called niaqui. Illegal due to its manufacturing method, this drug is found in black markets throughout the Pact Worlds. Criminal syndicates kidnap victims and infect them, turning them into production hosts. The drug dealers then purify extracted fluids to kill the virus and ensure clients can become addicted but can’t produce the drug themselves.",
+  "type": "magical beast",
+  "category": "alien"
+}

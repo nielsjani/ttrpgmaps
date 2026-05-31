@@ -1,0 +1,54 @@
+{
+  "name": "Dormakhabu",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dormakhabu&Family=None",
+  "source": "Starfinder #29: The Cradle Infestation pg. 55",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration (gray)",
+  "init": "+0",
+  "senses": "blindsense (scent) 60 ft., darkvision 120 ft.;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+12",
+  "weaknesses": "light blindness, vulnerable to sonic",
+  "speed": "40 ft., burrow 20 ft.",
+  "melee": "tentacle +23 (4d6+19 B plus grab) or bite +23 (2d8+19 P; critical 2d6 bleed)",
+  "ranged": "acidic spit +20 (3d8+11 A; critical 1d6 corrode)",
+  "offensive_abilities": "telepathic howl (DC 18)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+1",
+    "con": "+5",
+    "int": "-3",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +20, Athletics +25, Intimidate +20",
+  "other_abilities": "tracking (scent)",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–10)",
+  "special_abilities": [
+    {
+      "name": "Acidic Spit (Ex)",
+      "description": "As a ranged attack, a dormakhabu can spit a thin stream of acid from its mouth with a range increment of 30 feet."
+    },
+    {
+      "name": "Phase (Su)",
+      "description": "Dormakhabus exist slightly out of phase with the Material Plane. A dormakhabu can pass through walls or material objects (but not corporeal creatures), as long as it begins and ends its turn outside of any wall or obstacle. In addition, a dormakhabu always benefits from a 20% miss chance against attacks and effects targeting it directly and takes only half damage from area effects. Force effects, however, function normally against a dormakhabu."
+    },
+    {
+      "name": "Telepathic Howl (Ex)",
+      "description": "As a full action, a dormakhabu can unleash a wave of telepathic energy. All creatures within 60 feet must succeed at a DC 17 Will save or become confused for 1d4 rounds. Creatures with telepathy or limited telepathy take a –2 penalty to this saving throw. A dormakhabu can use this ability every 1d4 rounds."
+    }
+  ],
+  "description": "This six-legged beast resembles a slender alligator with three eyestalks on top of its head and a ridge of bony plates running down its spine. Its front two limbs end in sturdy claws capable of digging through earth and stone. Under its eyestalks, a dormakhabu also has a long and powerful tentacle, which it uses to drag hapless creatures toward its wide mouth full of sharp teeth, located in the center of its torso. Due to the dormakhabu’s rubbery skin and ability to phase through solid matter, many scholars theorize that this unusual aberration originates from the same world or dimension as the aliens known as grays. Despite these similarities and possible shared origins, dormakhabus have not been reported to cooperate with the bulbous-headed humanoids.\nThe only evidence of the strife between the two species comes from an unsubstantiated infosphere report in which an unnamed witness claimed to have been held captive by grays in some kind of underground facility on an asteroid. This person alleges to have seen a creature with a description matching that of a dormakhabu burrow up from the stone floor and unleash a terrifying psychic tremor that flooded the minds of the grays and their captives alike.\nBeset by confusing and nightmarish visions, the witness watched in horror as the dormakhabu spit acid on their incapacitated gray captors before rushing to grab an alien with its tentacle and stuffing the unfortunate victim into its maw. Thanks to the chaos, the witness said, they were able to escape with their life and memories intact. However, no solid evidence for this story has been found.\nIf true, the question remains as to why or how a dormakhabu can track and hunt grays with such fervor. However, those who believe in the existence of the grays are grateful to hear that the mysterious infiltrators are not without their own natural predators.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDormakhabu\nSource\nStarfinder #29: The Cradle Infestation pg. 55\nDormakhabu CR 11\nXP 12,800\nN Medium aberration (gray)\nInit\n+0;\nSenses\nblindsense (scent) 60 ft., darkvision 120 ft.;\nPerception\n+20\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+13;\nRef\n+13;\nWill\n+12\nDefensive Abilities\nphase\nWeaknesses\nlight blindness, vulnerable to sonic\nOffense\nSpeed\n40 ft., burrow 20 ft.\nMelee\ntentacle +23 (4d6+19 B plus grab) or bite +23 (2d8+19 P; critical 2d6 bleed)\nRanged\nacidic spit +20 (3d8+11 A; critical 1d6 corrode)\nOffensive Abilities\ntelepathic howl (DC 18)\nStatistics\nSTR\n+8;\nDEX\n+1;\nCON\n+5;\nINT\n-3;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +20, Athletics +25, Intimidate +20\nOther Abilities\ntracking (scent)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–10)\nSpecial Abilities\nAcidic Spit (Ex)\nAs a ranged attack, a dormakhabu can spit a thin stream of acid from its mouth with a range increment of 30 feet.\nPhase (Su)\nDormakhabus exist slightly out of phase with the Material Plane. A dormakhabu can pass through walls or material objects (but not corporeal creatures), as long as it begins and ends its turn outside of any wall or obstacle. In addition, a dormakhabu always benefits from a 20% miss chance against attacks and effects targeting it directly and takes only half damage from area effects. Force effects, however, function normally against a dormakhabu.\nTelepathic Howl (Ex)\nAs a full action, a dormakhabu can unleash a wave of telepathic energy. All creatures within 60 feet must succeed at a DC 17 Will save or become confused for 1d4 rounds. Creatures with telepathy or limited telepathy take a –2 penalty to this saving throw. A dormakhabu can use this ability every 1d4 rounds.\nDescription\nThis six-legged beast resembles a slender alligator with three eyestalks on top of its head and a ridge of bony plates running down its spine. Its front two limbs end in sturdy claws capable of digging through earth and stone. Under its eyestalks, a dormakhabu also has a long and powerful tentacle, which it uses to drag hapless creatures toward its wide mouth full of sharp teeth, located in the center of its torso. Due to the dormakhabu’s rubbery skin and ability to phase through solid matter, many scholars theorize that this unusual aberration originates from the same world or dimension as the aliens known as grays. Despite these similarities and possible shared origins, dormakhabus have not been reported to cooperate with the bulbous-headed humanoids.\nThe only evidence of the strife between the two species comes from an unsubstantiated infosphere report in which an unnamed witness claimed to have been held captive by grays in some kind of underground facility on an asteroid. This person alleges to have seen a creature with a description matching that of a dormakhabu burrow up from the stone floor and unleash a terrifying psychic tremor that flooded the minds of the grays and their captives alike.\nBeset by confusing and nightmarish visions, the witness watched in horror as the dormakhabu spit acid on their incapacitated gray captors before rushing to grab an alien with its tentacle and stuffing the unfortunate victim into its maw. Thanks to the chaos, the witness said, they were able to escape with their life and memories intact. However, no solid evidence for this story has been found.\nIf true, the question remains as to why or how a dormakhabu can track and hunt grays with such fervor. However, those who believe in the existence of the grays are grateful to hear that the mysterious infiltrators are not without their own natural predators.",
+  "type": "aberration (gray)",
+  "category": "alien"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Scyphozoan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Scyphozoan&Family=None",
+  "source": "Starfinder #5: The Thirteenth Gate pg. 59",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+2",
+  "senses": "blindsense (vibration) 30 ft.;",
+  "perception": "+8",
+  "hp": "42",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+5",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "tentacle +7 (1d4+3 A & B)",
+  "ranged": "tactical arc emitter +9 (1d4+3 E)",
+  "offensive_abilities": "overload, target tracking",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Computers +13, Engineering +13, Life Science +8, Medicine +13, Physical Science +8",
+  "languages": "Common, Scyphozoan",
+  "other_abilities": "amphibious, artificial intelligence (exocortex), custom rig, mechanic tricks (energy shield [7 HP, 3 minutes])",
+  "gear": "scyphozoan bio-weave (functions as graphite carbon skin), tactical arc emitter with 1 battery (20 charges)",
+  "environment": "temperate aquatic or urban (Primoria)",
+  "organization": "solitary, pair, or bloom (3–18)",
+  "special_abilities": [
+    {
+      "name": "Acidic Tentacles (Ex)",
+      "description": "As a swift action, a scyphozoan can make one of her prehensile tentacles secrete acid; her unarmed strikes with that tentacle count as having the corrosive weapon fusion, except the ability is not magical. While the effect is activated, the scyphozoan is considered armed, and the attack doesn’t count as archaic, but the scyphozoan cannot hold an item in that tentacle.\nStarting at 3rd level, a scyphozoan adds 1-1/2 × her character level to the damage while the effect is activated. A scyphozoan can deactivate the effect as a swift action."
+    }
+  ],
+  "description": "Scyphozoans evolved from a species of large amphibious sea jellies, which hunted on land and in water along the coastlines of Primoria’s temperate zones (see page 48). A scyphozoan has a soft and translucent body, with several ambulatory tentacles as well as two prehensile tentacles. In water, a scyphozoan swims by expanding and contracting its bell, which propels the creature forward. The bell and tentacles are sensitive to vibrations in the air or water, allowing the scyphozoan to sense nearby creatures even if she can’t see them. A scyphozoan is approximately 7 feet tall and weighs up to 200 pounds. Other species find it difficult to tell male and female scyphozoans apart because the two sexes exhibit few differing characteristics.",
+  "extra_content": "The following extra content was found for this creature:\n-\nScyphozoan Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScyphozoan\nSource\nStarfinder #5: The Thirteenth Gate pg. 59\nScyphozoan CR 3\nXP 800\nScyphozoan mechanic\nN Medium aberration\nInit\n+2;\nSenses\nblindsense (vibration) 30 ft.;\nPerception\n+8\nDefense\nHP\n42\nEAC\n14;\nKAC\n15\nFort\n+5;\nRef\n+5;\nWill\n+5\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\ntentacle +7 (1d4+3 A & B)\nRanged\ntactical arc emitter +9 (1d4+3 E)\nOffensive Abilities\noverload, target tracking\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+4;\nWIS\n+0;\nCHA\n+0\nSkills\nComputers +13, Engineering +13, Life Science +8, Medicine +13, Physical Science +8\nLanguages\nCommon, Scyphozoan\nOther Abilities\namphibious, artificial intelligence (exocortex), custom rig, mechanic tricks (energy shield [7 HP, 3 minutes])\nGear\nscyphozoan bio-weave (functions as graphite carbon skin), tactical arc emitter with 1 battery (20 charges)\nEcology\nEnvironment\ntemperate aquatic or urban (Primoria)\nOrganization\nsolitary, pair, or bloom (3–18)\nSpecial Abilities\nAcidic Tentacles (Ex)\nAs a swift action, a scyphozoan can make one of her prehensile tentacles secrete acid; her unarmed strikes with that tentacle count as having the corrosive weapon fusion, except the ability is not magical. While the effect is activated, the scyphozoan is considered armed, and the attack doesn’t count as archaic, but the scyphozoan cannot hold an item in that tentacle.\nStarting at 3rd level, a scyphozoan adds 1-1/2 × her character level to the damage while the effect is activated. A scyphozoan can deactivate the effect as a swift action.\nDescription\nScyphozoans evolved from a species of large amphibious sea jellies, which hunted on land and in water along the coastlines of Primoria’s temperate zones (see page 48). A scyphozoan has a soft and translucent body, with several ambulatory tentacles as well as two prehensile tentacles. In water, a scyphozoan swims by expanding and contracting its bell, which propels the creature forward. The bell and tentacles are sensitive to vibrations in the air or water, allowing the scyphozoan to sense nearby creatures even if she can’t see them. A scyphozoan is approximately 7 feet tall and weighs up to 200 pounds. Other species find it difficult to tell male and female scyphozoans apart because the two sexes exhibit few differing characteristics.\nExtra Content\nThe following extra content was found for this creature:\n-\nScyphozoan Race Entry",
+  "type": "aberration",
+  "category": "alien"
+}

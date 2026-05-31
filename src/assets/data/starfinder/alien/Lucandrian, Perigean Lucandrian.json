@@ -1,0 +1,65 @@
+{
+  "name": "Lucandrian, Perigean Lucandrian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Perigean Lucandrian&Family=Lucandrian",
+  "source": "Alien Archive 3 pg. 68",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+4",
+  "senses": "blindsense (vibration) 30 ft., low-light vision;",
+  "perception": "+17",
+  "hp": "115",
+  "eac": "22",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+12",
+  "dr": "5/cold iron",
+  "immunities": "cold",
+  "speed": "40 ft., fly 40 ft. (Su, perfect)",
+  "melee": "gravity slam +14 (3d4 B; critical staggered)",
+  "ranged": "gravity shot +16 (2d8+9 P; critical staggered)",
+  "offensive_abilities": "cold radiance, psychokinetic grip",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th",
+    "spells": "3/day—\npsychokinetic strangulation\n(DC 20),\nslow\n(DC 20)\n6/day—\ndirected denial of strength attack\n(DC 19),\nflight\n(2nd level),\nforce blast\n(DC 19),\nhold person\n(DC 19)\nAt will—\npsychokinetic hand\n,\nreflecting armor\n(DC 18)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+3",
+    "cha": "+6"
+  },
+  "skills": "Acrobatics +17 (+25 to fly), Bluff +22, Mysticism +22, Physical Science +17",
+  "languages": "Common",
+  "other_abilities": "limited spaceflight",
+  "gear": "21 small arm rounds",
+  "environment": "any lunar",
+  "organization": "solitary, pair, or circle (3–6)",
+  "special_abilities": [
+    {
+      "name": "Cold Radiance (Su)",
+      "description": "Lucandrians can cause any weapon they wield to deal half its damage as cold damage, which makes the weapon neither archaic nor nonlethal. If the weapon already deals two damage types, this effect replaces one with cold. In addition, lucandrians can grant weapons they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the lucandrian chooses only one to apply on a critical hit."
+    },
+    {
+      "name": "Gravity Shot (Su)",
+      "description": "A perigean lucandrian uses gravity to launch a projectile, such as a small arm round, at supersonic speed with a range increment of 60 feet."
+    },
+    {
+      "name": "Limited Spaceflight (Su)",
+      "description": "A lucandrian can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days. The fey always arrives at its intended destination."
+    },
+    {
+      "name": "Psychokinetic Grip (Su)",
+      "description": "A perigean lucandrian can use\npsychokinetic hand\nto immobilize, lift, and move a Medium or smaller creature, ignoring the weight limit of the spell. The target can attempt a DC 18 Fortitude save to negate the effect and can repeat the attempt each time the lucandrian concentrates on the spell. A creature can be lifted only up to 5 feet off the ground with this ability."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLucandrian\nSource\nAlien Archive 3 pg. 68\nLucandrians were once humanoidshaped beings of light who took solid form over the ages. They can vary widely in appearance, but they are typically 6 feet tall and around 165 pounds. Most have pale skin tinted in a pastel color, such as blue or purple, but some are stone gray or bone white.\nThese fey derive their powers from moons. Most have abilities related to reffected light, and as lucandrians mature, they can develop other lunar magic. Perigean lucandrians, for instance, cultivate gravitational powers.\nBecause of their nature, lucandrians are drawn to worlds that have numerous moons, such as Liavara and Bretheda. However, their curiosity, manifested as scholarly interest, makes them natural explorers. Young lucandrians search the galaxy for trinkets and amusements, as well as lunar influences, to develop new powers. Mature lucandrians are more introspective, prone to spending long periods in contemplation or creating unique objects. Lucandrians enjoy charting the nighttime sky, nurturing crystal gardens, and decorating their dwellings.\nThough lucandrians are an overall-peaceful species, they can be territorial, which has led to clashes with those interested in commercializing the moons on which these fey dwell. Lucandrians sometimes set their sights on inscrutable personal aims as they explore or develop their supernatural capabilities, bringing them into conflict with those around them. Lucandrians also fight to protect their secrets. Offering help, honest respect, or a gift can head off such clashes. Lucandrians treasure and defend young creatures of any species, perhaps because lucandrian offspring are difficult to create. Prospective parents combine tiny bits of soul with dust from a moon in a complex magical process, placing the mixture into an ovoid crystalline vessel. This “egg” gestates for 27 days. If the ritual is successful, a new lucandrian coalesces inside the vessel at that time, emerging as a small, yet fully formed lucandrian another 27 days later.\nAliens in the \"Lucandrian\" Family\nName\nCR\nAlbedo Lucandrian\n3\nPerigean Lucandrian\n9\nLucandrian, Perigean Lucandrian\nSource\nAlien Archive 3 pg. 68\nPerigean Lucandrian CR 9\nXP 6,400\nN Medium fey\nInit\n+4;\nSenses\nblindsense (vibration) 30 ft., low-light vision;\nPerception\n+17\nDefense\nHP\n115\nEAC\n22;\nKAC\n22\nFort\n+10;\nRef\n+10;\nWill\n+12\nDefensive Abilities\nvoid adaptation;\nDR\n5/cold iron;\nImmunities\ncold\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, perfect)\nMelee\ngravity slam +14 (3d4 B; critical staggered)\nRanged\ngravity shot +16 (2d8+9 P; critical staggered)\nOffensive Abilities\ncold radiance, psychokinetic grip\nSpell-Like Abilities\n(CL 9th)\n3/day—\npsychokinetic strangulation\n(DC 20),\nslow\n(DC 20)\n6/day—\ndirected denial of strength attack\n(DC 19),\nflight\n(2nd level),\nforce blast\n(DC 19),\nhold person\n(DC 19)\nAt will—\npsychokinetic hand\n,\nreflecting armor\n(DC 18)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+1;\nINT\n+1;\nWIS\n+3;\nCHA\n+6\nSkills\nAcrobatics +17 (+25 to fly), Bluff +22, Mysticism +22, Physical Science +17\nLanguages\nCommon\nOther Abilities\nlimited spaceflight\nGear\n21 small arm rounds\nEcology\nEnvironment\nany lunar\nOrganization\nsolitary, pair, or circle (3–6)\nSpecial Abilities\nCold Radiance (Su)\nLucandrians can cause any weapon they wield to deal half its damage as cold damage, which makes the weapon neither archaic nor nonlethal. If the weapon already deals two damage types, this effect replaces one with cold. In addition, lucandrians can grant weapons they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the lucandrian chooses only one to apply on a critical hit.\nGravity Shot (Su)\nA perigean lucandrian uses gravity to launch a projectile, such as a small arm round, at supersonic speed with a range increment of 60 feet.\nLimited Spaceflight (Su)\nA lucandrian can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days. The fey always arrives at its intended destination.\nPsychokinetic Grip (Su)\nA perigean lucandrian can use\npsychokinetic hand\nto immobilize, lift, and move a Medium or smaller creature, ignoring the weight limit of the spell. The target can attempt a DC 18 Fortitude save to negate the effect and can repeat the attempt each time the lucandrian concentrates on the spell. A creature can be lifted only up to 5 feet off the ground with this ability.",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Lucandrian_Perigean.png"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Gray Bounder",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gray Bounder&Family=None",
+  "source": "Starfinder #26: Flight of the Sleepers pg. 55",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "aberration (gray)",
+  "init": "+5",
+  "senses": "darkvision 30 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+5",
+  "speed": "40 ft.",
+  "melee": "bite +12 (1d6+7 P plus psychic terror) or tail +12 (1d4+7 P plus psychic terror)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+1",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +15, Athletics +10, Sense Motive +10, Stealth +10",
+  "languages": "Aklo (can’t speak any language); telepathy 30 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or conspiracy (3–8)",
+  "special_abilities": [
+    {
+      "name": "Phase (Su)",
+      "description": "Gray bounders exist slightly out of phase with the Material Plane. A gray bounder can pass through walls or material objects (but not corporeal creatures) if it begins and ends its turn outside a wall or obstacle. In addition, a gray bounder benefits from a 20% miss chance against attacks and effects targeting it directly and takes only half damage from area effects. Force effects, however, function normally against a gray bounder."
+    },
+    {
+      "name": "Pounce (Ex)",
+      "description": "When a gray bounder charges, it can make a full attack in place of the normal melee attack."
+    },
+    {
+      "name": "Psychic Terror (Su)",
+      "description": "An aggressive gray bounder infects its prey with psychic fear. A creature hit by a gray bounder’s melee attacks must succeed at a DC 13 Will saving throw or become shaken for 1d4 rounds. A target that fails the saving throw effect becomes immune to any gray bounder’s terror for 1 hour or until any gray bounder scores a critical hit against the target. This is a mind-affecting, emotion, and fear effect."
+    }
+  ],
+  "description": "Few know of what some theorists call the doglike gray bounders, but these alien quadrupeds are rarely encountered far from grays or places where grays have been. Scientists who study grays theorize that gray bounders are native to the gray home world. The species are similar and share genetic material. While specific bounders might show signs of augmentation or bioengineering, some evidence suggests that bounders were naturally domesticated by grays for their own nefarious purposes.\nGray bounders are more cunning than dogs, though, and far more malevolent. Unlike their gray masters, gray bounders are muscular, fast, and agile. They move with little of the deliberation a gray normally employs. Instead, gray bounders are jittery and in near-constant motion, as though endlessly looking for a position from which to leap on potential prey. When they stalk or strike prey, gray bounders can be cruel, toying with targets for as long as possible before finishing them off.\nGray bounders can’t speak or make vocalizations of any kind, much like grays. These monstrosities are, however, clever enough to carry out complex plans and improvise based on what they know of their masters’ inscrutable plans. A typical gray bounder stands 3 feet tall at the shoulder and weighs 90 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGray Bounder\nSource\nStarfinder #26: Flight of the Sleepers pg. 55\nGray Bounder CR 4\nXP 1,200\nNE Small aberration (gray)\nInit\n+5;\nSenses\ndarkvision 30 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n14;\nKAC\n16\nFort\n+6;\nRef\n+6;\nWill\n+5\nDefensive Abilities\nphase\nOffense\nSpeed\n40 ft.\nMelee\nbite +12 (1d6+7 P plus psychic terror) or tail +12 (1d4+7 P plus psychic terror)\nOffensive Abilities\npounce\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+1;\nINT\n-3;\nWIS\n+0;\nCHA\n-1\nSkills\nAcrobatics +15, Athletics +10, Sense Motive +10, Stealth +10\nLanguages\nAklo (can’t speak any language); telepathy 30 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or conspiracy (3–8)\nSpecial Abilities\nPhase (Su)\nGray bounders exist slightly out of phase with the Material Plane. A gray bounder can pass through walls or material objects (but not corporeal creatures) if it begins and ends its turn outside a wall or obstacle. In addition, a gray bounder benefits from a 20% miss chance against attacks and effects targeting it directly and takes only half damage from area effects. Force effects, however, function normally against a gray bounder.\nPounce (Ex)\nWhen a gray bounder charges, it can make a full attack in place of the normal melee attack.\nPsychic Terror (Su)\nAn aggressive gray bounder infects its prey with psychic fear. A creature hit by a gray bounder’s melee attacks must succeed at a DC 13 Will saving throw or become shaken for 1d4 rounds. A target that fails the saving throw effect becomes immune to any gray bounder’s terror for 1 hour or until any gray bounder scores a critical hit against the target. This is a mind-affecting, emotion, and fear effect.\nDescription\nFew know of what some theorists call the doglike gray bounders, but these alien quadrupeds are rarely encountered far from grays or places where grays have been. Scientists who study grays theorize that gray bounders are native to the gray home world. The species are similar and share genetic material. While specific bounders might show signs of augmentation or bioengineering, some evidence suggests that bounders were naturally domesticated by grays for their own nefarious purposes.\nGray bounders are more cunning than dogs, though, and far more malevolent. Unlike their gray masters, gray bounders are muscular, fast, and agile. They move with little of the deliberation a gray normally employs. Instead, gray bounders are jittery and in near-constant motion, as though endlessly looking for a position from which to leap on potential prey. When they stalk or strike prey, gray bounders can be cruel, toying with targets for as long as possible before finishing them off.\nGray bounders can’t speak or make vocalizations of any kind, much like grays. These monstrosities are, however, clever enough to carry out complex plans and improvise based on what they know of their masters’ inscrutable plans. A typical gray bounder stands 3 feet tall at the shoulder and weighs 90 pounds.",
+  "type": "aberration (gray)",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Gathol",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gathol&Family=None",
+  "source": "The Liberation of Locus-1 pg. 60",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "humanoid (gathol)",
+  "init": "+0",
+  "senses": "low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+6",
+  "ref": "+5",
+  "will": "+2",
+  "dr": "1/—",
+  "resistances": "all 1, cold 5",
+  "speed": "30 ft.",
+  "melee": "claws +11 (1d4+5 S) or entropic strike +11 (1d4+4 A or B) or liquidator disintegration lash +11 (1d6+5 A; critical corrode 1d6)",
+  "ranged": "flash compliance ray +9 (1d6+3 F; critical blind)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with liquidator disintegration lash)",
+  "offensive_abilities": "entropic strike",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+0",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Athletics +13 (+19 to climb), Intimidate +8, Medicine +8",
+  "feats": "Diehard, Improved Combat Maneuver (trip)",
+  "languages": "Azlanti, Gathol, Tromlin",
+  "other_abilities": "aspect insight (exergy), entropic pool, reactive (1/day), vanguard disciplines (metabolic stability)",
+  "gear": "regimental dress I (jump jets), basic tactical shield, flash compliance ray with 2 batteries (20 charges each), liquidator disintegration lash AR with 1 battery (20 charges)",
+  "environment": "any",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Stony Plates (Ex)",
+      "description": "Owing to a mineral-rich omnivorous diet and unique fur growth, gathols have osseus calcifications laced with harder minerals plating its body. These plates provide gathols DR 1/— and energy resistance 1, which stacks with other sources of DR and energy resistance. Also, a gathol has a +2 racial bonus to saving throws against critical hit effects. When a gathol is hit by a critical hit, the gathol rolls 1d20; if the unmodified result is a 20, the critical hit becomes a normal hit."
+    }
+  ],
+  "description": "Gathols are hulking, hearty natives of Ghaggath, a mountainous planet in the Thenekral system. Gathol tribes warred with each other for generations before the Azlanti arrived; they then joined forces to bitterly fight the invaders. Now, however, they’re second-class citizens of the Azlanti Star Empire, leading the Alien Cohort into battle.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGathol Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGathol\nSource\nThe Liberation of Locus-1 pg. 60\nGathol CR 3\nXP 800\nGathol vanguard\nNE Medium humanoid (gathol)\nInit\n+0;\nSenses\nlow-light vision;\nPerception\n+8\nDefense\nHP\n40;\nRP\n3\nEAC\n14;\nKAC\n16\nFort\n+6;\nRef\n+5;\nWill\n+2; +2 vs. critical hit effects, +4 vs. thin atmosphere\nDefensive Abilities\nmitigate, stony plates;\nDR\n1/—;\nResistances\nall 1, cold 5\nOffense\nSpeed\n30 ft.\nMelee\nclaws +11 (1d4+5 S) or entropic strike +11 (1d4+4 A or B) or liquidator disintegration lash +11 (1d6+5 A; critical corrode 1d6)\nRanged\nflash compliance ray +9 (1d6+3 F; critical blind)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with liquidator disintegration lash)\nOffensive Abilities\nentropic strike\nStatistics\nSTR\n+2;\nDEX\n+0;\nCON\n+4;\nINT\n+0;\nWIS\n+1;\nCHA\n+1\nFeats\nDiehard, Improved Combat Maneuver (trip)\nSkills\nAthletics +13 (+19 to climb), Intimidate +8, Medicine +8\nLanguages\nAzlanti, Gathol, Tromlin\nOther Abilities\naspect insight (exergy), entropic pool, reactive (1/day), vanguard disciplines (metabolic stability)\nGear\nregimental dress I (jump jets), basic tactical shield, flash compliance ray with 2 batteries (20 charges each), liquidator disintegration lash AR with 1 battery (20 charges)\nEcology\nEnvironment\nany\nOrganization\nany\nSpecial Abilities\nStony Plates (Ex)\nOwing to a mineral-rich omnivorous diet and unique fur growth, gathols have osseus calcifications laced with harder minerals plating its body. These plates provide gathols DR 1/— and energy resistance 1, which stacks with other sources of DR and energy resistance. Also, a gathol has a +2 racial bonus to saving throws against critical hit effects. When a gathol is hit by a critical hit, the gathol rolls 1d20; if the unmodified result is a 20, the critical hit becomes a normal hit.\nDescription\nGathols are hulking, hearty natives of Ghaggath, a mountainous planet in the Thenekral system. Gathol tribes warred with each other for generations before the Azlanti arrived; they then joined forces to bitterly fight the invaders. Now, however, they’re second-class citizens of the Azlanti Star Empire, leading the Alien Cohort into battle.\nExtra Content\nThe following extra content was found for this creature:\n-\nGathol Race Entry",
+  "type": "humanoid (gathol)",
+  "category": "alien"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Liquid Arsenate",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Liquid Arsenate&Family=None",
+  "source": "Starfinder #38: Crash and Burn pg. 60",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "ooze",
+  "init": "+4",
+  "senses": "blindsight (vibration) 60 ft., sightless;;",
+  "perception": "+14",
+  "hp": "108",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "electricity, ooze immunities Weaknesses vulnerable to cold",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "pseudopod +17 (1d8+11 B plus concentrated arsenic [DC 17])",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with pseudopod)",
+  "offensive_abilities": "mindless",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "+2",
+    "int": "—",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Athletics +14 (+22 to climb), Stealth +19",
+  "environment": "any underground or urban",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Concentrated Arsenic (Ex)",
+      "description": "A liquid arensate’s pseudopod inflicts a concentrated dose of the poison arsenic. Though the DC is still 17, the poison type becomes injury, the onset time becomes immediate, and the frequency becomes 1/round for 4 rounds. The concentrated arsenic produced by more powerful liquid arsenates might have a higher save DC."
+    }
+  ],
+  "description": "When technomancers and other chemical engineers experiment with concentrating poisons into spells and hybrid weapons, sometimes the resulting magical waste product becomes infused with life, resulting in an ooze known as liquid arsenate. A churning mass of noxious magical waste, a liquid arsenate mindlessly seeks out living creatures to poison. The ooze doesn’t consume any corpses it leaves behind; most biochemists posit that liquid arsenate maintains its cohesion through magic alone.\nSome unscrupulous techno-alchemists intentionally create these oozes or seek them out to harvest the concentrated arsenic that forms on their surfaces. Unfortunately, such endeavors work better in theory than in practice, as a captured liquid arsenate is more likely to turn on its keepers than remain docile. Black-market poisoners constantly look for ways to safely contain liquid arsenates without diluting their poison, but so far, none have been able to devise a reliable method of captivity. It’s a popular opinion among those who favor harsh justice that liquid arsenate farmers who end up bludgeoned and poisoned by the dangerous oozes more than deserve their fate.\nOn average, a liquid arsenate is about 3 feet in diameter and no more than half a foot thick at the middle. It has a silvery sheen and occasionally forms crystalline striations along its surface, though these are quickly subsumed into the ooze proper. Despite its small size, a liquid arsenate can stretch its pseudopods to surprising lengths, though this elasticity is rendered quite brittle when introduced to below-freezing temperatures. As such, savvy ooze hunters know to arm themselves with cryo-based weapons if they think they might encounter a liquid arsenate.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLiquid Arsenate\nSource\nStarfinder #38: Crash and Burn pg. 60\nLiquid Arsenate CR 7\nXP 3,200\nN Small ooze\nInit\n+4;\nSenses\nblindsight (vibration) 60 ft., sightless;;\nPerception\n+14\nDefense\nHP\n108\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+7;\nWill\n+4\nImmunities\nelectricity, ooze immunities Weaknesses vulnerable to cold\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\npseudopod +17 (1d8+11 B plus concentrated arsenic [DC 17])\nMultiattack\n3 pseudopods +11 (1d8+11 B plus concentrated arsenic [DC 17])\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with pseudopod)\nOffensive Abilities\nmindless\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n+2;\nINT\n—;\nWIS\n+1;\nCHA\n-3\nSkills\nAthletics +14 (+22 to climb), Stealth +19\nEcology\nEnvironment\nany underground or urban\nOrganization\nsolitary\nSpecial Abilities\nConcentrated Arsenic (Ex)\nA liquid arensate’s pseudopod inflicts a concentrated dose of the poison arsenic. Though the DC is still 17, the poison type becomes injury, the onset time becomes immediate, and the frequency becomes 1/round for 4 rounds. The concentrated arsenic produced by more powerful liquid arsenates might have a higher save DC.\nDescription\nWhen technomancers and other chemical engineers experiment with concentrating poisons into spells and hybrid weapons, sometimes the resulting magical waste product becomes infused with life, resulting in an ooze known as liquid arsenate. A churning mass of noxious magical waste, a liquid arsenate mindlessly seeks out living creatures to poison. The ooze doesn’t consume any corpses it leaves behind; most biochemists posit that liquid arsenate maintains its cohesion through magic alone.\nSome unscrupulous techno-alchemists intentionally create these oozes or seek them out to harvest the concentrated arsenic that forms on their surfaces. Unfortunately, such endeavors work better in theory than in practice, as a captured liquid arsenate is more likely to turn on its keepers than remain docile. Black-market poisoners constantly look for ways to safely contain liquid arsenates without diluting their poison, but so far, none have been able to devise a reliable method of captivity. It’s a popular opinion among those who favor harsh justice that liquid arsenate farmers who end up bludgeoned and poisoned by the dangerous oozes more than deserve their fate.\nOn average, a liquid arsenate is about 3 feet in diameter and no more than half a foot thick at the middle. It has a silvery sheen and occasionally forms crystalline striations along its surface, though these are quickly subsumed into the ooze proper. Despite its small size, a liquid arsenate can stretch its pseudopods to surprising lengths, though this elasticity is rendered quite brittle when introduced to below-freezing temperatures. As such, savvy ooze hunters know to arm themselves with cryo-based weapons if they think they might encounter a liquid arsenate.",
+  "type": "ooze",
+  "category": "alien"
+}

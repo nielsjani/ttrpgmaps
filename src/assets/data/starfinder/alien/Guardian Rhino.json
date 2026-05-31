@@ -1,0 +1,62 @@
+{
+  "name": "Guardian Rhino",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Guardian Rhino&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 58",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid (shapechanger)",
+  "init": "+4",
+  "senses": "blindsight (scent) 30 ft.;",
+  "perception": "+25",
+  "hp": "215",
+  "eac": "27",
+  "kac": "28",
+  "fort": "+12",
+  "ref": "+14",
+  "will": "+18",
+  "dr": "10/–",
+  "sr": "25",
+  "immunities": "sleep, stunned;",
+  "speed": "30 ft.",
+  "melee": "unarmed strike +23 (6d6+20 B)",
+  "ranged": "magic ray +21 (5d4+14; see text)",
+  "offensive_abilities": "ferocious charge",
+  "spells": "(CL 14th)\n5th (3/day)—\nbaleful polymorph\n(DC 24),\ncrush skull\n(DC 24)\n4th (6/day)—\ncosmic eddy\n(DC 23),\ndeath ward\n,\nmystic cure\n,\nreincarnate\n3rd (at will)—\nbestow curse\n(DC 22),\ndispel magic",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+3",
+    "int": "+2",
+    "wis": "+3",
+    "cha": "+8"
+  },
+  "skills": "Athletics +25, Mysticism +30, Sense Motive +30, Survival +25",
+  "languages": "Common; telepathy 30 ft.",
+  "other_abilities": "change shape (rhino), park guardian",
+  "environment": "any ( Jatembe Park)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Change Shape (Su)",
+      "description": "When in rhino form, Guardian Rhino’s size increases to Large and his speed increases to 40 ft.; his unarmed strike damage changes to inflict bludgeoning and piercing damage and gains the critical effect 2d6 bleed; he also gains the trample ability (4d6+22 B and P, DC 22)."
+    },
+    {
+      "name": "Magic Ray (Su)",
+      "description": "Guardian Rhino’s magic ray has a range of 100 feet and a maximum of five range increments, and does not provoke attacks of opportunity. Each time Guardian Rhino attacks with his magic ray, he chooses whether the ray deals acid, cold, electricity, fire, or sonic damage. When Guardian Rhino takes a full action to multiattack, he can replace any number of his melee attacks with magic ray attacks that have an attack bonus of +16."
+    },
+    {
+      "name": "Magic Warrior (Ex)",
+      "description": "Guardian Rhino does not provoke attacks of opportunity when he casts spells."
+    },
+    {
+      "name": "Park Guardian (Sp)",
+      "description": "While within Jatembe Park, Guardian Rhino can cast\nclairaudience/clairvoyance\n,\n, and\nteleport\nas spell-like abilities at will (CL 14th). When he casts\nclairaudience/clairvoyance\nor\nteleport\n, the range for these spells is anywhere within Jatembe Park."
+    }
+  ],
+  "description": "Among the greatest of Absalom Station’s landmarks, Jatembe Park is known for its many oddities and is the subject of countless ghost tales. Among these is the story of Guardian Rhino, an ancient and immortal creature who is said to have lurked within the park since Absalom Station’s construction. Legend states that Guardian Rhino served Old-Mage Jatembe on lost Golarion during the Age of Legends; he appears as a powerfully built man with dark umber skin, archaic clothing, and a ritual mask built from wood and bone to resemble a rhinoceros. Guardian Rhino is said to stalk the park at night, punishing the wicked. When trespassers defile the park or threaten those who belong there, he punishes them with a powerful curse that transforms them into trees.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGuardian Rhino\nSource\nStarfinder #30: Puppets Without Strings pg. 58\nGuardian Rhino CR 14\nXP 38,400\nLN Medium monstrous humanoid (shapechanger)\nInit\n+4;\nSenses\nblindsight (scent) 30 ft.;\nPerception\n+25\nDefense\nHP\n215\nEAC\n27;\nKAC\n28\nFort\n+12;\nRef\n+14;\nWill\n+18\nDefensive Abilities\nmagic warrior, regeneration 5 (fire and unholy);\nDR\n10/–;\nImmunities\nsleep, stunned;\nSR\n25\nOffense\nSpeed\n30 ft.\nMelee\nunarmed strike +23 (6d6+20 B)\nMultiattack\n4 unarmed strikes +18 (3d6+20 B)\nRanged\nmagic ray +21 (5d4+14; see text)\nOffensive Abilities\nferocious charge\nMystic Spells Known\n(CL 14th)\n5th (3/day)—\nbaleful polymorph\n(DC 24),\ncrush skull\n(DC 24)\n4th (6/day)—\ncosmic eddy\n(DC 23),\ndeath ward\n,\nmystic cure\n,\nreincarnate\n3rd (at will)—\nbestow curse\n(DC 22),\ndispel magic\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+3;\nINT\n+2;\nWIS\n+3;\nCHA\n+8\nSkills\nAthletics +25, Mysticism +30, Sense Motive +30, Survival +25\nLanguages\nCommon; telepathy 30 ft.\nOther Abilities\nchange shape (rhino), park guardian\nEcology\nEnvironment\nany ( Jatembe Park)\nOrganization\nsolitary\nSpecial Abilities\nChange Shape (Su)\nWhen in rhino form, Guardian Rhino’s size increases to Large and his speed increases to 40 ft.; his unarmed strike damage changes to inflict bludgeoning and piercing damage and gains the critical effect 2d6 bleed; he also gains the trample ability (4d6+22 B and P, DC 22).\nMagic Ray (Su)\nGuardian Rhino’s magic ray has a range of 100 feet and a maximum of five range increments, and does not provoke attacks of opportunity. Each time Guardian Rhino attacks with his magic ray, he chooses whether the ray deals acid, cold, electricity, fire, or sonic damage. When Guardian Rhino takes a full action to multiattack, he can replace any number of his melee attacks with magic ray attacks that have an attack bonus of +16.\nMagic Warrior (Ex)\nGuardian Rhino does not provoke attacks of opportunity when he casts spells.\nPark Guardian (Sp)\nWhile within Jatembe Park, Guardian Rhino can cast\nclairaudience/clairvoyance\n,\n, and\nteleport\nas spell-like abilities at will (CL 14th). When he casts\nclairaudience/clairvoyance\nor\nteleport\n, the range for these spells is anywhere within Jatembe Park.\nDescription\nAmong the greatest of Absalom Station’s landmarks, Jatembe Park is known for its many oddities and is the subject of countless ghost tales. Among these is the story of Guardian Rhino, an ancient and immortal creature who is said to have lurked within the park since Absalom Station’s construction. Legend states that Guardian Rhino served Old-Mage Jatembe on lost Golarion during the Age of Legends; he appears as a powerfully built man with dark umber skin, archaic clothing, and a ritual mask built from wood and bone to resemble a rhinoceros. Guardian Rhino is said to stalk the park at night, punishing the wicked. When trespassers defile the park or threaten those who belong there, he punishes them with a powerful curse that transforms them into trees.",
+  "type": "monstrous humanoid (shapechanger)",
+  "category": "alien"
+}

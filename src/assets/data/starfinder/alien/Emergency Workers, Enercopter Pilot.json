@@ -1,0 +1,47 @@
+{
+  "name": "Emergency Workers, Enercopter Pilot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Enercopter Pilot&Family=Emergency Workers",
+  "source": "Interstellar Species pg. 162",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CG",
+  "size": "Small",
+  "creature_type": "humanoid (worlanisi)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "135",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+12",
+  "weaknesses": "psychic reverb",
+  "speed": "30 ft., climb 20 ft., fly 60 ft. (average)",
+  "melee": "buzzblade dueling sword +17 (2d6+12 S)",
+  "ranged": "screamer decoupler +19 (1d10+9 A; critical demoralize)",
+  "offensive_abilities": "lucky stunt",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Bluff +17, Computers +22, Engineering +22, Piloting +22, Stealth +17",
+  "languages": "Common, Worlanisi, up to 4 others; limited telepathy 60 ft.",
+  "other_abilities": "multiarmed (4) , worlanisi gamble , worlanisi luck",
+  "gear": "d-suit III (forcepack), buzzblade dueling sword with 1 battery (20 charges), screamer decoupler with 2 batteries (40 charges each),",
+  "special_abilities": [
+    {
+      "name": "Lucky Stunt (Ex)",
+      "description": "When performing a vehicle stunt, an enercopter pilot rolls the Piloting check twice and uses the better result."
+    }
+  ],
+  "description": "When disaster strikes beyond reach of intact infrastructure, aerial support is crucial to delivering supplies, surveying damage, and extracting survivors. Enercopter pilots are airborne daredevils who brave narrow landing zones, hazardous weather, and live fire to save lives. Although the stat block below doesn’t include a vehicle, these pilots are typically encountered with a recon enercopter (Armory 138).",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEmergency Workers\nSource\nInterstellar Species pg. 162\nEmergency workers administer medical care, handle hazardous materials, evacuate disaster victims, and provide myriad other services in the wake of tragedy. They can be selfless idealists, exhausted municipal workers, or mercenaries who don’t lift a finger unless they’re under contract. Whatever their motivations, emergency workers are capable, resourceful, and tough, able to work long hours under difficult conditions.\nAliens in the \"Emergency Workers\" Family\nName\nCR\nElite Rescuer\n10\nEnercopter Pilot\n9\nHazard Professional\n6\nHazard Response Crew\n3\nEmergency Workers, Enercopter Pilot\nSource\nInterstellar Species pg. 162\nEnercopter Pilot CR 9\nXP 6,400\nWorlanisi\nCG Small humanoid (worlanisi)\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n135\nEAC\n22;\nKAC\n23\nFort\n+10;\nRef\n+8;\nWill\n+12; –1 vs. mind-affecting effects\nWeaknesses\npsychic reverb\nOffense\nSpeed\n30 ft., climb 20 ft., fly 60 ft. (average)\nMelee\nbuzzblade dueling sword +17 (2d6+12 S)\nRanged\nscreamer decoupler +19 (1d10+9 A; critical demoralize)\nOffensive Abilities\nlucky stunt\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+0;\nINT\n+4;\nWIS\n+0;\nCHA\n+1\nSkills\nBluff +17, Computers +22, Engineering +22, Piloting +22, Stealth +17\nLanguages\nCommon, Worlanisi, up to 4 others; limited telepathy 60 ft.\nOther Abilities\nmultiarmed (4) , worlanisi gamble , worlanisi luck\nGear\nd-suit III (forcepack), buzzblade dueling sword with 1 battery (20 charges), screamer decoupler with 2 batteries (40 charges each),\nmk 3 serum of healing\n;\nAugmentations\nadvanced darkvision capacitors\nSpecial Abilities\nLucky Stunt (Ex)\nWhen performing a vehicle stunt, an enercopter pilot rolls the Piloting check twice and uses the better result.\nDescription\nWhen disaster strikes beyond reach of intact infrastructure, aerial support is crucial to delivering supplies, surveying damage, and extracting survivors. Enercopter pilots are airborne daredevils who brave narrow landing zones, hazardous weather, and live fire to save lives. Although the stat block below doesn’t include a vehicle, these pilots are typically encountered with a recon enercopter (Armory 138).",
+  "type": "humanoid (worlanisi)",
+  "environment": "—",
+  "category": "alien"
+}

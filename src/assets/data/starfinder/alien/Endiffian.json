@@ -1,0 +1,51 @@
+{
+  "name": "Endiffian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Endiffian&Family=None",
+  "source": "Starfinder #7: The Reach of Empire pg. 56",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "humanoid (endiffian, shapechanger)",
+  "init": "+5",
+  "perception": "+14",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+5",
+  "will": "+6",
+  "speed": "40 ft.",
+  "melee": "survival knife +7 (1d4+3 S)",
+  "ranged": "thunderstrike sonic pistol +9 (1d8+3 So; critical deafen [DC 14]) or tactical shirren-eye rifle +9 (1d10+3 P)",
+  "offensive_abilities": "trick attack +1d8",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +9, Athletics +9 (+11 to climb), Bluff +14, Culture +9, Diplomacy +9 Disguise +14, Sense Motive +14",
+  "languages": "Common, Endiffian",
+  "other_abilities": "enveloping grip, operative exploits (field treatment [9 HP]), simulacrum, specialization (spy)",
+  "gear": "casual stationwear, survival knife, tactical shirren-eye rifle with 10 sniper rounds, thunderstrike sonic pistol with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary or cell (2-5)",
+  "special_abilities": [
+    {
+      "name": "Enveloping Grip (Ex)",
+      "description": "Endiffians gain a +2 racial bonus to grapple combat maneuvers and Athletics checks to climb, and they gain a +2 racial bonus to AC against disarm combat maneuvers."
+    },
+    {
+      "name": "Simulacrum (Ex)",
+      "description": "An endiffian can spend 1 minute to physically alter her form to look like any Medium humanoid with two arms and two legs, as long as she has seen a similar creature before. She can attempt to either mimic a specific creature she has seen or appear as a creature of her own design of that chosen species. The endiffian gains a +10 bonus to Disguise checks to appear as that creature, and the DC of this Disguise check is not modified as a result of altering major features or being disguised as a different race of humanoid. The endiffian can remain in her altered form indefinitely."
+    }
+  ],
+  "description": "Endiffians have humanoid skeletons, with two arms and two legs, but their flesh is incredibly elastic, allowing them to re-form their appearances at a cellular level. They can even modify the shape of individual cells to absorb or reflect visible light, allowing them to reproduce a wide variety of colors. This allows endiffians to reshape themselves into simulacra of virtually any humanoid. Endiffian hands are also extremely malleable, allowing them to easily mold their grip to suit their purposes, whether scaling a cliff face or maintaining a solid grip on a favorite pistol.\nEndiffians often find employment as agents of subterfuge, while also pursuing schemes of their own. Particularly mischievous endiffians especially enjoy appearing as reptoids, stirring anxieties about the mysterious race while providing a distraction from the disguised endiffian’s own clandestine plots.\nToward the end of her life, an endiffian’s pliant flesh turns pale and brittle, networks of cracks forming in the places that she reshaped most often. Elders often take pride in this fine latticework that represents their lifetime of change, but the rare aged endiffian with exceptionally smooth skin can easily find work as a trusted advisor or diplomat.\nThe average endiffian is 6 feet tall and weighs 280 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nEndiffian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEndiffian\nSource\nStarfinder #7: The Reach of Empire pg. 56\nEndiffian CR 3\nXP 800\nEndiffian operative\nCN Medium humanoid (endiffian, shapechanger)\nInit\n+5;\nPerception\n+14\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+2;\nRef\n+5;\nWill\n+6\nDefensive Abilities\nevasion\nOffense\nSpeed\n40 ft.\nMelee\nsurvival knife +7 (1d4+3 S)\nRanged\nthunderstrike sonic pistol +9 (1d8+3 So; critical deafen [DC 14]) or tactical shirren-eye rifle +9 (1d10+3 P)\nOffensive Abilities\ntrick attack +1d8\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n+2;\nWIS\n+1;\nCHA\n+1\nSkills\nAcrobatics +9, Athletics +9 (+11 to climb), Bluff +14, Culture +9, Diplomacy +9 Disguise +14, Sense Motive +14\nLanguages\nCommon, Endiffian\nOther Abilities\nenveloping grip, operative exploits (field treatment [9 HP]), simulacrum, specialization (spy)\nGear\ncasual stationwear, survival knife, tactical shirren-eye rifle with 10 sniper rounds, thunderstrike sonic pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary or cell (2-5)\nSpecial Abilities\nEnveloping Grip (Ex)\nEndiffians gain a +2 racial bonus to grapple combat maneuvers and Athletics checks to climb, and they gain a +2 racial bonus to AC against disarm combat maneuvers.\nSimulacrum (Ex)\nAn endiffian can spend 1 minute to physically alter her form to look like any Medium humanoid with two arms and two legs, as long as she has seen a similar creature before. She can attempt to either mimic a specific creature she has seen or appear as a creature of her own design of that chosen species. The endiffian gains a +10 bonus to Disguise checks to appear as that creature, and the DC of this Disguise check is not modified as a result of altering major features or being disguised as a different race of humanoid. The endiffian can remain in her altered form indefinitely.\nDescription\nEndiffians have humanoid skeletons, with two arms and two legs, but their flesh is incredibly elastic, allowing them to re-form their appearances at a cellular level. They can even modify the shape of individual cells to absorb or reflect visible light, allowing them to reproduce a wide variety of colors. This allows endiffians to reshape themselves into simulacra of virtually any humanoid. Endiffian hands are also extremely malleable, allowing them to easily mold their grip to suit their purposes, whether scaling a cliff face or maintaining a solid grip on a favorite pistol.\nEndiffians often find employment as agents of subterfuge, while also pursuing schemes of their own. Particularly mischievous endiffians especially enjoy appearing as reptoids, stirring anxieties about the mysterious race while providing a distraction from the disguised endiffian’s own clandestine plots.\nToward the end of her life, an endiffian’s pliant flesh turns pale and brittle, networks of cracks forming in the places that she reshaped most often. Elders often take pride in this fine latticework that represents their lifetime of change, but the rare aged endiffian with exceptionally smooth skin can easily find work as a trusted advisor or diplomat.\nThe average endiffian is 6 feet tall and weighs 280 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nEndiffian Race Entry",
+  "type": "humanoid (endiffian, shapechanger)",
+  "category": "alien"
+}

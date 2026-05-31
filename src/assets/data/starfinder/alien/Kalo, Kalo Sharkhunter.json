@@ -1,0 +1,49 @@
+{
+  "name": "Kalo, Kalo Sharkhunter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kalo Sharkhunter&Family=Kalo",
+  "source": "Alien Archive pg. 68",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid (aquatic)",
+  "init": "+4",
+  "senses": "blindsight (sound) 60 ft., low-light vision;",
+  "perception": "+7",
+  "hp": "22",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+5",
+  "resistances": "cold 10",
+  "speed": "20 ft., swim 50 ft.",
+  "melee": "underwater tactical starknife +8 (1d4+3 P)",
+  "ranged": "underwater autotarget rifle +10 (1d6+2 P) or frag grenade I +10 (explode [15ft., 1d6 P, DC 11])",
+  "offensive_abilities": "fighting styles (hit-and-run), threedimensional tactics",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +12 (+20 when swimming), Profession (poet) +7, Stealth +12 (+16 in water)",
+  "feats": "Opening Volley",
+  "languages": "Common, Kalo",
+  "gear": "freebooter armor I, frag grenades I (2), underwater autotarget rifle with 50 longarm rounds, underwater tactical starknife",
+  "environment": "any aquatic (Kalo-Mahoi)",
+  "organization": "solitary, pair, or squad (3–10)",
+  "special_abilities": [
+    {
+      "name": "Three-Dimensional Tactics (Ex)",
+      "description": "Kalo sharkhunters are trained to fight in three dimensions. Whenever a kalo sharkhunter is fighting underwater, in zero-g, while flying, or in other situations where she isn’t restricted to a single plane of movement, she gains a +1 bonus to attack rolls in any round in which she has moved, even if it’s just a guarded step."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nKalo Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKalo\nSource\nAlien Archive pg. 68\nHumans often compare kalos to bats due to the thin membranes between their arms and legs. In fact, these winglike structures are fins, allowing kalos to swoop with grace and speed through the icy waters of the Brethedan moon of Kalo-Mahoi. Kalo skin has a blue-green tinge and is translucent in places. Their bulging, glowing eyes can move and focus independently.\nHighly civilized and generally peaceful, kalos were the first residents of any moon to successfully win independent Pact Worlds recognition, and today, many of their coral-encrusted underwater vent cities feature air-filled spaces for terrestrial dignitaries and expatriates, with trading outposts studding the ocean world’s crusty shell of surface ice. While kalos primarily rely on sonar as they glide wraithlike through the dark oceans, their cities are riots of colored lights—testaments to the culture’s rich artistic tradition.\nFew kalos lack an artistic or scholarly hobby, and though not overly tied to tradition, most kalos take pride in their history, giving their children and organizations names harkening back to ancient tribal practices. Members of military units are often given evocative names like “sharkhunters” despite their modern responsibilities. Those in traditional roles such as that of the mystical deepspeaker, who converses with—and can even command—creatures of the depths, are less necessary in the age of executives and prime ministers, yet these sages are still often sought out as arbitrators and mediators for both community and governmental disputes.\nAlthough slower out of water, kalo warriors are renowned for their calm precision in battle, especially in zero-g and underwater, and known for using cryo weapons against enemies of other races, trusting their natural resistances to protect them from friendly fire. The average kalo is 5-1/2 feet tall and weighs 100 pounds.\nAliens in the \"Kalo\" Family\nName\nCR\nKalo Deepspeaker\n5\nKalo Sharkhunter\n2\nKalo, Kalo Sharkhunter\nSource\nAlien Archive pg. 68\nKalo Sharkhunter CR 2\nXP 600\nKalo soldier\nNG Medium monstrous humanoid (aquatic)\nInit\n+4;\nSenses\nblindsight (sound) 60 ft., low-light vision;\nPerception\n+7\nDefense\nHP\n22\nEAC\n16;\nKAC\n17\nFort\n+1;\nRef\n+3;\nWill\n+5\nResistances\ncold 10\nOffense\nSpeed\n20 ft., swim 50 ft.\nMelee\nunderwater tactical starknife +8 (1d4+3 P)\nRanged\nunderwater autotarget rifle +10 (1d6+2 P) or frag grenade I +10 (explode [15ft., 1d6 P, DC 11])\nOffensive Abilities\nfighting styles (hit-and-run), threedimensional tactics\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n-1;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nFeats\nOpening Volley\nSkills\nAthletics +12 (+20 when swimming), Profession (poet) +7, Stealth +12 (+16 in water)\nLanguages\nCommon, Kalo\nGear\nfreebooter armor I, frag grenades I (2), underwater autotarget rifle with 50 longarm rounds, underwater tactical starknife\nEcology\nEnvironment\nany aquatic (Kalo-Mahoi)\nOrganization\nsolitary, pair, or squad (3–10)\nSpecial Abilities\nThree-Dimensional Tactics (Ex)\nKalo sharkhunters are trained to fight in three dimensions. Whenever a kalo sharkhunter is fighting underwater, in zero-g, while flying, or in other situations where she isn’t restricted to a single plane of movement, she gains a +1 bonus to attack rolls in any round in which she has moved, even if it’s just a guarded step.\nExtra Content\nThe following extra content was found for this creature:\n-\nKalo Race Entry",
+  "type": "monstrous humanoid (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Kalo_Soldier.png"
+}

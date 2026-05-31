@@ -1,0 +1,50 @@
+{
+  "name": "Yrgytchee",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yrgytchee&Family=None",
+  "source": "Starfinder #35: Merchants of the Void pg. 61",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "monstrous humanoid",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+4",
+  "ref": "+8",
+  "will": "+8",
+  "speed": "30 ft.",
+  "melee": "tactical starknife +11 (1d4+7 P)",
+  "ranged": "thunderstrike sonic rifle +13 (1d10+5 E, critical deafen [DC 15])",
+  "offensive_abilities": "untethered mass",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Bluff +16, Culture +11, Diplomacy +11, Life Science +16, Stealth +16",
+  "languages": "Common, Gytchean",
+  "gear": "d-suit I, tactical starknife, thunderstrike sonic rifle with 1 high-capacity battery (40 charges)",
+  "environment": "any (Yrgytch)",
+  "organization": "solitary, pair, or chatter (3–6)",
+  "special_abilities": [
+    {
+      "name": "Gravitic Deflection (Ex)",
+      "description": "An yrgytchee instinctively warps gravity around them to divert danger. They gain a +2 racial bonus to their AC against melee attacks and ranged kinetic attacks if they aren’t flat-footed."
+    },
+    {
+      "name": "Untethered Mass (Ex)",
+      "description": "As a move action, an yrgytchee can temporarily disrupt the connection between a creature within 30 feet and the dominant local gravity field affecting it. The creature gains the off-kilter condition until the beginning of the yrgytchee’s next turn or until it takes a move action to reorient itself."
+    }
+  ],
+  "description": "Natives of the high-gravity paradise planet Yrgytch, yrgytchees have an affinity for technology and welcome off-worlders to the numerous resorts and retreats they operate on the long, pristine beaches of their world. These quick, feathered humanoids stand about 4 feet tall on average and have long, crocodilian snouts. While often whimsical and jovial, yrgytchees become deadly serious when discussing their planet’s high gravity or when someone recommends they leave it for other opportunities. They have a deep reverence for the unusually powerful gravity of their small world, explaining only that they must never abandon their planet nor misuse its gift.\nYrgytchees have risen to prominence on their world only within the past few millennia. Evolution or ascendancy from a native species seems unlikely, and yrgytchees, with no foundational or etiological myths to explain their origins, assume their beginnings must somehow tie to the mystical connection they all bear with Yrgytch. Records of a prior complex civilization on the planet are present yet scant, though yrgytchees do their best to distract visitors from investigating such traces too thoroughly.\nMost yrgytchees affiliate themselves with one of several great cabals that hold both economic and political power across the planet. Expulsion from one of these cabals occurs more often than the government would like to admit, creating a small but vocal exile population of restless and stateless yrgytchees, who in response turn to activities ranging from planetary exploration to anarchist sabotage. However, no yrgytchee is ever exiled from the planet as punishment; those few who leave Yrgytch willingly become labeled as apostates, never to return to their home planet for fear of discovery and swift execution.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYrgytchee\nSource\nStarfinder #35: Merchants of the Void pg. 61\nYrgytchee CR 5\nXP 1,600\nCN Small monstrous humanoid\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n65\nEAC\n16;\nKAC\n17\nFort\n+4;\nRef\n+8;\nWill\n+8\nDefensive Abilities\ngravitic deflection\nOffense\nSpeed\n30 ft.\nMelee\ntactical starknife +11 (1d4+7 P)\nRanged\nthunderstrike sonic rifle +13 (1d10+5 E, critical deafen [DC 15])\nOffensive Abilities\nuntethered mass\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+2;\nINT\n+1;\nWIS\n+0;\nCHA\n+3\nSkills\nBluff +16, Culture +11, Diplomacy +11, Life Science +16, Stealth +16\nLanguages\nCommon, Gytchean\nGear\nd-suit I, tactical starknife, thunderstrike sonic rifle with 1 high-capacity battery (40 charges)\nEcology\nEnvironment\nany (Yrgytch)\nOrganization\nsolitary, pair, or chatter (3–6)\nSpecial Abilities\nGravitic Deflection (Ex)\nAn yrgytchee instinctively warps gravity around them to divert danger. They gain a +2 racial bonus to their AC against melee attacks and ranged kinetic attacks if they aren’t flat-footed.\nUntethered Mass (Ex)\nAs a move action, an yrgytchee can temporarily disrupt the connection between a creature within 30 feet and the dominant local gravity field affecting it. The creature gains the off-kilter condition until the beginning of the yrgytchee’s next turn or until it takes a move action to reorient itself.\nDescription\nNatives of the high-gravity paradise planet Yrgytch, yrgytchees have an affinity for technology and welcome off-worlders to the numerous resorts and retreats they operate on the long, pristine beaches of their world. These quick, feathered humanoids stand about 4 feet tall on average and have long, crocodilian snouts. While often whimsical and jovial, yrgytchees become deadly serious when discussing their planet’s high gravity or when someone recommends they leave it for other opportunities. They have a deep reverence for the unusually powerful gravity of their small world, explaining only that they must never abandon their planet nor misuse its gift.\nYrgytchees have risen to prominence on their world only within the past few millennia. Evolution or ascendancy from a native species seems unlikely, and yrgytchees, with no foundational or etiological myths to explain their origins, assume their beginnings must somehow tie to the mystical connection they all bear with Yrgytch. Records of a prior complex civilization on the planet are present yet scant, though yrgytchees do their best to distract visitors from investigating such traces too thoroughly.\nMost yrgytchees affiliate themselves with one of several great cabals that hold both economic and political power across the planet. Expulsion from one of these cabals occurs more often than the government would like to admit, creating a small but vocal exile population of restless and stateless yrgytchees, who in response turn to activities ranging from planetary exploration to anarchist sabotage. However, no yrgytchee is ever exiled from the planet as punishment; those few who leave Yrgytch willingly become labeled as apostates, never to return to their home planet for fear of discovery and swift execution.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Pyric Revenant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pyric Revenant&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 60",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+5",
+  "immunities": "fire, undead immunities",
+  "weaknesses": "susceptible to water",
+  "speed": "30 ft.",
+  "melee": "slam +12 (1d6+9 B & F plus pyric curse; critical",
+  "ranged": "pyric bolt +10 (1d4+4 F; critical burn 1d4 F)",
+  "offensive_abilities": "pyric fire",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "—",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +15, Intimidate +10",
+  "languages": "Aklo",
+  "other_abilities": "dimly illuminated, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or horde (3–10)",
+  "special_abilities": [
+    {
+      "name": "Dimly Illuminated (Su)",
+      "description": "Light within 10 feet of a pyric\r\nrevenant increases by one step. Magical darkness\r\ndecreases this light only if it’s from a source with a CR or\r\nlevel higher than the revenant’s CR."
+    },
+    {
+      "name": "Pyric Bolt (Su)",
+      "description": "A pyric revenant can launch a bolt of pyric\r\nfire with a range increment of 20 feet and a maximum\r\nrange of 100 feet."
+    },
+    {
+      "name": "Pyric Fire (Su)",
+      "description": "The fire damage of a pyric revenant burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nSusceptible to Water (Su) A splash of water deals 1d4 acid\r\ndamage to a pyric revenant, while a large amount, such\r\nas heavy rain, deals 2d4 acid damage. Full immersion\r\nin water deals 4d4 acid damage per round to a pyric\r\nrevenant. However, water can’t reduce a pyric revenant\r\nto fewer than one-fifth of its Hit Points (typically 10). Ice\r\ndoes not trigger a pyric revenant’s water susceptibility.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 13\nEffect\nA creature that fails the save gains the burning 1d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse."
+    }
+  ],
+  "description": "When pyric fire kills, it roasts flesh while kindling the spirit. Left\r\nunchecked, this otherworldly flame awakens a slain creature as\r\nan undead of ash, embers, and fire. Some pyric revenants smell\r\nof charred meat, which can be the first indication one is nearby.\nA pyric revenant retains negative traits, such as low cunning\r\nor the desire to seek out and torment previous adversaries. The\r\nrevenant might remember unfinished business and important\r\npeople, and attempt to destroy such vestiges of its former life.\r\nIf undirected, however, the creature is straightforward in its\r\nmalice. It carries out no long-term schemes.",
+  "extra_content": "The following extra content was found for this creature:\n-\nPyric Revenant (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPyric Revenant\nSource\nStarfinder #16: The Blind City pg. 60\nPyric Revenant CR 4\nXP 1,200\nCE Medium undead\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+5\nImmunities\nfire, undead immunities\nWeaknesses\nsusceptible to water\nOffense\nSpeed\n30 ft.\nMelee\nslam +12 (1d6+9 B & F plus pyric curse; critical\r\nburn 1d4 F)\nRanged\npyric bolt +10 (1d4+4 F; critical burn 1d4 F)\nOffensive Abilities\npyric fire\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n—;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +10, Athletics +15, Intimidate +10\nLanguages\nAklo\nOther Abilities\ndimly illuminated, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or horde (3–10)\nSpecial Abilities\nDimly Illuminated (Su)\nLight within 10 feet of a pyric\r\nrevenant increases by one step. Magical darkness\r\ndecreases this light only if it’s from a source with a CR or\r\nlevel higher than the revenant’s CR.\nPyric Bolt (Su)\nA pyric revenant can launch a bolt of pyric\r\nfire with a range increment of 20 feet and a maximum\r\nrange of 100 feet.\nPyric Fire (Su)\nThe fire damage of a pyric revenant burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nSusceptible to Water (Su) A splash of water deals 1d4 acid\r\ndamage to a pyric revenant, while a large amount, such\r\nas heavy rain, deals 2d4 acid damage. Full immersion\r\nin water deals 4d4 acid damage per round to a pyric\r\nrevenant. However, water can’t reduce a pyric revenant\r\nto fewer than one-fifth of its Hit Points (typically 10). Ice\r\ndoes not trigger a pyric revenant’s water susceptibility.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 13\nEffect\nA creature that fails the save gains the burning 1d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse.\nDescription\nWhen pyric fire kills, it roasts flesh while kindling the spirit. Left\r\nunchecked, this otherworldly flame awakens a slain creature as\r\nan undead of ash, embers, and fire. Some pyric revenants smell\r\nof charred meat, which can be the first indication one is nearby.\nA pyric revenant retains negative traits, such as low cunning\r\nor the desire to seek out and torment previous adversaries. The\r\nrevenant might remember unfinished business and important\r\npeople, and attempt to destroy such vestiges of its former life.\r\nIf undirected, however, the creature is straightforward in its\r\nmalice. It carries out no long-term schemes.\nExtra Content\nThe following extra content was found for this creature:\n-\nPyric Revenant (Creature Subtype) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

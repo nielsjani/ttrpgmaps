@@ -1,0 +1,45 @@
+{
+  "name": "Synapse Worm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Synapse Worm&Family=None",
+  "source": "Starfinder #7: The Reach of Empire pg. 60",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "vermin",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+1",
+  "speed": "20 ft., burrow 10 ft.",
+  "melee": "bite +10 (1d6+6 P plus grab)",
+  "offensive_abilities": "synaptic shock web",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+0",
+    "con": "+1",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +7, Stealth +12, Survival +7",
+  "feats": "Improved Combat Maneuver (grapple)",
+  "other_abilities": "mindless",
+  "environment": "any warm or temperate",
+  "organization": "solitary, pair, or clew (3–6)",
+  "special_abilities": [
+    {
+      "name": "Synaptic Shock Web (Su)",
+      "description": "Once every 1d4 rounds as a standard action, a synapse worm can regurgitate a viscous fluid in a 15-foot cone that expands on contact into sticky webbing along the ground and nearby walls. A creature that touches the webbing takes 2d6 acid damage and is dazed for 1 round. A successful DC 11 Reflex saving throw halves this damage and negates the dazed condition."
+    }
+  ],
+  "description": "In many ways, a synapse worm is similar to other large invertebrates: it is a mindless omnivore that sees the world around it in terms of food to consume and landscape to traverse. Where the synapse worm stands out is in its unique feeding technique. The worm’s cranial cavity is lined with a membrane coated in an acidic and paralytic enzyme, which it can evert through its mouth in a thick effluvium that coats nearby surfaces with a branching, viscous web. This webbing can cause prey to enter a form of synaptic shock, thus giving the creature its name. The worm can then take nibbles of its prey without resistance—or in the case of smaller victims, such as spiders and insects, simply swallow them alive.\nSynapse worms are opportunistic ambush predators with sharp-toothed maws and gullets strong enough to digest almost any organic substance. When hunting, a synapse worm burrows into the soil to wait for unsuspecting victims and then unleashes its paralytic webbing. If it wounds its prey enough to prevent the creature’s escape and the creature is too large to swallow whole, the worm then buries the victim alive to feast on later. Those unlucky enough to find a synapse worm’s hunting grounds regularly stumble across the rotting remains of those who previously fell to the vermin.\nA synapse worm typically grows to about 3 to 4 feet long, and can raise itself up on its back half to stand a little over 2 feet tall. Its nearly nonexistent appendages are useless in combat, but they do allow it to move through soil. Synapse worms’ permeable skin naturally absorbs pigments from their surroundings, allowing a worm to blend quite well into its normal habitat. In a sterile environment, a synapse worm is a bright-blue color, with a cyan belly and webbing material that is white or, more rarely, reddish orange.\nWhile no one is certain where synapse worms originated, these creatures can be found on a wide range of worlds throughout Near Space and the Vast. Luckily, no synapse worms have ever been seen in the wilds of the Pact Worlds, but a couple of eccentric collectors keep one or two of these vermin in their menageries.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSynapse Worm\nSource\nStarfinder #7: The Reach of Empire pg. 60\nSynapse Worm CR 2\nXP 600\nN Small vermin\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+4;\nWill\n+1\nOffense\nSpeed\n20 ft., burrow 10 ft.\nMelee\nbite +10 (1d6+6 P plus grab)\nOffensive Abilities\nsynaptic shock web\nStatistics\nSTR\n+4;\nDEX\n+0;\nCON\n+1;\nINT\n—;\nWIS\n+2;\nCHA\n+0\nFeats\nImproved Combat Maneuver (grapple)\nSkills\nAthletics +7, Stealth +12, Survival +7\nOther Abilities\nmindless\nEcology\nEnvironment\nany warm or temperate\nOrganization\nsolitary, pair, or clew (3–6)\nSpecial Abilities\nSynaptic Shock Web (Su)\nOnce every 1d4 rounds as a standard action, a synapse worm can regurgitate a viscous fluid in a 15-foot cone that expands on contact into sticky webbing along the ground and nearby walls. A creature that touches the webbing takes 2d6 acid damage and is dazed for 1 round. A successful DC 11 Reflex saving throw halves this damage and negates the dazed condition.\nDescription\nIn many ways, a synapse worm is similar to other large invertebrates: it is a mindless omnivore that sees the world around it in terms of food to consume and landscape to traverse. Where the synapse worm stands out is in its unique feeding technique. The worm’s cranial cavity is lined with a membrane coated in an acidic and paralytic enzyme, which it can evert through its mouth in a thick effluvium that coats nearby surfaces with a branching, viscous web. This webbing can cause prey to enter a form of synaptic shock, thus giving the creature its name. The worm can then take nibbles of its prey without resistance—or in the case of smaller victims, such as spiders and insects, simply swallow them alive.\nSynapse worms are opportunistic ambush predators with sharp-toothed maws and gullets strong enough to digest almost any organic substance. When hunting, a synapse worm burrows into the soil to wait for unsuspecting victims and then unleashes its paralytic webbing. If it wounds its prey enough to prevent the creature’s escape and the creature is too large to swallow whole, the worm then buries the victim alive to feast on later. Those unlucky enough to find a synapse worm’s hunting grounds regularly stumble across the rotting remains of those who previously fell to the vermin.\nA synapse worm typically grows to about 3 to 4 feet long, and can raise itself up on its back half to stand a little over 2 feet tall. Its nearly nonexistent appendages are useless in combat, but they do allow it to move through soil. Synapse worms’ permeable skin naturally absorbs pigments from their surroundings, allowing a worm to blend quite well into its normal habitat. In a sterile environment, a synapse worm is a bright-blue color, with a cyan belly and webbing material that is white or, more rarely, reddish orange.\nWhile no one is certain where synapse worms originated, these creatures can be found on a wide range of worlds throughout Near Space and the Vast. Luckily, no synapse worms have ever been seen in the wilds of the Pact Worlds, but a couple of eccentric collectors keep one or two of these vermin in their menageries.",
+  "type": "vermin",
+  "category": "alien"
+}

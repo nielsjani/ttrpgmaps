@@ -1,0 +1,51 @@
+{
+  "name": "Devil, Convergent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Convergent&Family=Devil",
+  "source": "Starfinder #46: The Perfect Storm pg. 55",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LE",
+  "size": "Small",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., see in darkness;",
+  "perception": "+8",
+  "hp": "32",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+7",
+  "immunities": "fire, poison;",
+  "resistances": "acid 5, cold 5",
+  "speed": "20 ft., climb 10 ft., swim 40 ft.",
+  "melee": "pincer +8 (1d4+3)",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "3/day—\ninstant upgrade"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+2",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +8, Life Science +13, Mysticism +13",
+  "languages": "Barathu, Common, Infernal; telepathy 100 ft.",
+  "other_abilities": "biotech warp",
+  "environment": "any (Hell)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Biotech Warp (Su)",
+      "description": "When a convergent devil uses their instant upgrade spell-like ability, they can choose to create a biotech augmentation instead of a cybernetic augmentation, subject to the same restrictions. If they do so, the target must attempt a DC 17 Fortitude save. On a failure, the target is sickened for the duration of the spell."
+    }
+  ],
+  "description": "Convergent devils, known as porcellanixes, are formed from the souls of creatures whose desire to evolve into something unique led them to vile, callous acts. These devils find creatures with similar desires and use magic to install biotech augmentations, with the unspoken catch that their magic will infect the recipient, often sapping them of energy when used.\nAccording to planar scholars, convergent devils regularly form from the souls of species such as barathus and verthani. Once they have proven themselves within Hell, these fiends are allowed to travel to the Material Plane to offer empty promises of grand evolution to species with a love for augmentation. While they once desired to be unique, convergent devils are named for evolving into the same form no matter their origin, and appear as 3-foot-wide crabs whose shells fill with buoyant gases to allow them to swim faster.\nIn the hierarchy of Hell, more powerful devils call upon convergent devils when their skills as low-ranking specialists become useful. Many convergent devils are found in the swamps of Stygia, where their empty promises are at home with the other exploitative and duplicitous souls that reside there. On the Material Plane, convergent devils work alone, finding a solitary life of exploitation suits them best. They readily take advantage of communities where appearances are everything, leveraging these mortals’ desires to break their wills and, if their craving for evolution is strong enough, eventually turn them into convergent devils as well.\nIn some circumstances, porcellanixes progress further among their Hellish comrades by taking up professions like those of a mortal, but it’s nigh-unheard of for a convergent devil to attempt to change their own body with augmentations or to become a different kind of devil. As far as they’re concerned, they are the final stage of evolution, and their obligation is to develop their skills and exploit lesser life-forms such as mortals. On the eighth layer of Hell, Caina, skilled porcellanix biohackers and vanguards attempt to break down celestial beings like angels into their component parts to further understand their planar biology. This allows the forces of Hell to mount offenses against their foes more readily.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Convergent\nSource\nStarfinder #46: The Perfect Storm pg. 55\nConvergent CR 3\nXP 800\nLE Small outsider (devil, evil, extraplanar, lawful)\nInit\n+2;\nSenses\ndarkvision 60 ft., see in darkness;\nPerception\n+8\nDefense\nHP\n32\nEAC\n13;\nKAC\n14\nFort\n+5;\nRef\n+3;\nWill\n+7\nImmunities\nfire, poison;\nResistances\nacid 5, cold 5\nOffense\nSpeed\n20 ft., climb 10 ft., swim 40 ft.\nMelee\npincer +8 (1d4+3)\nSpell-Like Abilities\n(CL 3rd)\n3/day—\ninstant upgrade\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+2;\nINT\n+4;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +8, Life Science +13, Mysticism +13\nLanguages\nBarathu, Common, Infernal; telepathy 100 ft.\nOther Abilities\nbiotech warp\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary\nSpecial Abilities\nBiotech Warp (Su)\nWhen a convergent devil uses their instant upgrade spell-like ability, they can choose to create a biotech augmentation instead of a cybernetic augmentation, subject to the same restrictions. If they do so, the target must attempt a DC 17 Fortitude save. On a failure, the target is sickened for the duration of the spell.\nDescription\nConvergent devils, known as porcellanixes, are formed from the souls of creatures whose desire to evolve into something unique led them to vile, callous acts. These devils find creatures with similar desires and use magic to install biotech augmentations, with the unspoken catch that their magic will infect the recipient, often sapping them of energy when used.\nAccording to planar scholars, convergent devils regularly form from the souls of species such as barathus and verthani. Once they have proven themselves within Hell, these fiends are allowed to travel to the Material Plane to offer empty promises of grand evolution to species with a love for augmentation. While they once desired to be unique, convergent devils are named for evolving into the same form no matter their origin, and appear as 3-foot-wide crabs whose shells fill with buoyant gases to allow them to swim faster.\nIn the hierarchy of Hell, more powerful devils call upon convergent devils when their skills as low-ranking specialists become useful. Many convergent devils are found in the swamps of Stygia, where their empty promises are at home with the other exploitative and duplicitous souls that reside there. On the Material Plane, convergent devils work alone, finding a solitary life of exploitation suits them best. They readily take advantage of communities where appearances are everything, leveraging these mortals’ desires to break their wills and, if their craving for evolution is strong enough, eventually turn them into convergent devils as well.\nIn some circumstances, porcellanixes progress further among their Hellish comrades by taking up professions like those of a mortal, but it’s nigh-unheard of for a convergent devil to attempt to change their own body with augmentations or to become a different kind of devil. As far as they’re concerned, they are the final stage of evolution, and their obligation is to develop their skills and exploit lesser life-forms such as mortals. On the eighth layer of Hell, Caina, skilled porcellanix biohackers and vanguards attempt to break down celestial beings like angels into their component parts to further understand their planar biology. This allows the forces of Hell to mount offenses against their foes more readily.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

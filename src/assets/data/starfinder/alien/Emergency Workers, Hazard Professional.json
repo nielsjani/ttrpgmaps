@@ -1,0 +1,46 @@
+{
+  "name": "Emergency Workers, Hazard Professional",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hazard Professional&Family=Emergency Workers",
+  "source": "Interstellar Species pg. 162",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (ryphorian)",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+18",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+9",
+  "resistances": "cold 5",
+  "speed": "30 ft., fly 30 ft. (average)",
+  "melee": "light sap +12 (1d4+6 B nonlethal)",
+  "ranged": "wave modulator II +14 (1d6+6 F or So)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Athletics +13, Engineering +18, Mysticism +18, Physical Science +18",
+  "languages": "Common, Triaxian, up to 3 others",
+  "other_abilities": "cut that wire",
+  "gear": "d-suit II (jetpack), light sap , wave modulator II with 2 batteries (20 charges each), rad-out serums COM (2), chemalyzer , fire extinguisher, radiation sweeper, spy drone, survival knife, trapsmith’s tools",
+  "special_abilities": [
+    {
+      "name": "Cut That Wire (Ex)",
+      "description": "When disabling a hazard or trap, a hazard professional doesn’t trigger it unless they fail their roll to disable by 10 or more."
+    }
+  ],
+  "description": "Hazard professionals neutralize and clean up dangerous substances and explosive devices, disarming lethal obstacles before they can endanger others. This risky work often exposes these professionals directly to the peril they combat. Although catastrophic mistakes are often fatal, the experts pack heavy protection that deflects radiation, toxins, and shrapnel that might exist even when everything goes right. A typical hazard professional is trained to understand and deactivate a wide range of threats, including both technological and magical devices. Though usually used to remove threats, hazard professionals can easily weaponize their skills. Military units, terrorist organizations, and crime rings all welcome a canny demolitionist.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEmergency Workers\nSource\nInterstellar Species pg. 162\nEmergency workers administer medical care, handle hazardous materials, evacuate disaster victims, and provide myriad other services in the wake of tragedy. They can be selfless idealists, exhausted municipal workers, or mercenaries who don’t lift a finger unless they’re under contract. Whatever their motivations, emergency workers are capable, resourceful, and tough, able to work long hours under difficult conditions.\nAliens in the \"Emergency Workers\" Family\nName\nCR\nElite Rescuer\n10\nEnercopter Pilot\n9\nHazard Professional\n6\nHazard Response Crew\n3\nEmergency Workers, Hazard Professional\nSource\nInterstellar Species pg. 162\nHazard Professional CR 6\nXP 2,400\nWinterborn ryphorian\nLN Medium humanoid (ryphorian)\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+18\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+5;\nRef\n+7;\nWill\n+9\nResistances\ncold 5\nOffense\nSpeed\n30 ft., fly 30 ft. (average)\nMelee\nlight sap +12 (1d4+6 B nonlethal)\nRanged\nwave modulator II +14 (1d6+6 F or So)\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+1;\nINT\n+3;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +13, Athletics +13, Engineering +18, Mysticism +18, Physical Science +18\nLanguages\nCommon, Triaxian, up to 3 others\nOther Abilities\ncut that wire\nGear\nd-suit II (jetpack), light sap , wave modulator II with 2 batteries (20 charges each), rad-out serums COM (2), chemalyzer , fire extinguisher, radiation sweeper, spy drone, survival knife, trapsmith’s tools\nSpecial Abilities\nCut That Wire (Ex)\nWhen disabling a hazard or trap, a hazard professional doesn’t trigger it unless they fail their roll to disable by 10 or more.\nDescription\nHazard professionals neutralize and clean up dangerous substances and explosive devices, disarming lethal obstacles before they can endanger others. This risky work often exposes these professionals directly to the peril they combat. Although catastrophic mistakes are often fatal, the experts pack heavy protection that deflects radiation, toxins, and shrapnel that might exist even when everything goes right. A typical hazard professional is trained to understand and deactivate a wide range of threats, including both technological and magical devices. Though usually used to remove threats, hazard professionals can easily weaponize their skills. Military units, terrorist organizations, and crime rings all welcome a canny demolitionist.",
+  "type": "humanoid (ryphorian)",
+  "environment": "—",
+  "category": "alien"
+}

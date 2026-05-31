@@ -1,0 +1,56 @@
+{
+  "name": "Lovelorn",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lovelorn&Family=Lovelorn",
+  "source": "Starfinder #37: The White Glove Affair pg. 57",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CE",
+  "size": "Tiny",
+  "creature_type": "undead",
+  "init": "+3",
+  "senses": "blindsense (life) 60 ft., darkvision 60 ft.;;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+9",
+  "immunities": "undead immunities",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +6 (1d4+4 P plus cynic’s bite [DC 15]; critical 1d6 bleed)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nanimate dead\n3/day—\nfear\n(1st level, DC 16),\nhold portal\n,\nlesser confusion\n(DC 16),\npuncture veil\nAt will—\nghost sound\n(DC 15),\nhazard\n(DC 15),\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "—",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Athletics +10 (+18 to climb), Sense Motive +15, Stealth +15",
+  "languages": "Common (can’t speak)",
+  "other_abilities": "gloom (DC 20), unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or tragedy (3–6 plus 2–12 occult zombies)",
+  "special_abilities": [
+    {
+      "name": "Cynic’s Bite (Su)",
+      "description": "A living creature bitten by a lovelorn must succeed at a DC 15 Will saving throw or gain the fatigued condition and become unable to benefit from morale bonuses for 1d4+1 rounds. This is a mind-affecting emotion curse effect."
+    },
+    {
+      "name": "Gloom (Su)",
+      "description": "After 5 days, a lair claimed by a lovelorn grows cold, dark, and stale and causes unnatural, thorny vines to grow. This acts as a constant holographic terrain (Will DC 20) with a caster level equal to the lovelorn’s CR. Lovelorns typically use this ability to conceal entrances to their lairs, but also to make their domains appear depressing and grim. A lovelorn can maintain only one gloom at a time, and while within its gloom, the save DCs of the lovelorn’s spell-like abilities increases by 1."
+    }
+  ],
+  "description": "The spiderlike lovelorn is an undead creature with legs of exposed bone and an abdomen that resembles a massive heart. A lovelorn is created from the soul of someone who died when their love took a tragic turn, such as a rejected suitor who died tragically or the victim of a murderous affair. Instead of passing on, the spirit fixates on its body’s heart, animating the dead organ and causing it to burst forth from the corpse in the form of a monstrous lovelorn.\nA lovelorn feeds on sorrow and misery rather than flesh and blood, and its mere presence in an area corrupts the surrounding environment. A newly spawned lovelorn often starts off hunting old lovers, but will continue to lurk nearby to seed continued misfortune and contempt in a community, feasting ravenously upon the resulting anger and sadness. Its size and stealthiness often allow a lovelorn to remain undetected for years, and one might even haunt a family for generations.",
+  "extra_content": "The following extra content was found for this creature:\n-\nLovelorn Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLovelorn\nAliens in the \"Lovelorn\" Family\nName\nCR\nLovelorn\n4\nLovelorn\nSource\nStarfinder #37: The White Glove Affair pg. 57\nLovelorn CR 4\nXP 1,200\nCE Tiny undead\nInit\n+3;\nSenses\nblindsense (life) 60 ft., darkvision 60 ft.;;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+9\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +6 (1d4+4 P plus cynic’s bite [DC 15]; critical 1d6 bleed)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nSpell-Like Abilities\n(CL 4th)\n1/day—\nanimate dead\n3/day—\nfear\n(1st level, DC 16),\nhold portal\n,\nlesser confusion\n(DC 16),\npuncture veil\nAt will—\nghost sound\n(DC 15),\nhazard\n(DC 15),\ntoken spell\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n—;\nINT\n-1;\nWIS\n+1;\nCHA\n+5\nSkills\nAthletics +10 (+18 to climb), Sense Motive +15, Stealth +15\nLanguages\nCommon (can’t speak)\nOther Abilities\ngloom (DC 20), unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or tragedy (3–6 plus 2–12 occult zombies)\nSpecial Abilities\nCynic’s Bite (Su)\nA living creature bitten by a lovelorn must succeed at a DC 15 Will saving throw or gain the fatigued condition and become unable to benefit from morale bonuses for 1d4+1 rounds. This is a mind-affecting emotion curse effect.\nGloom (Su)\nAfter 5 days, a lair claimed by a lovelorn grows cold, dark, and stale and causes unnatural, thorny vines to grow. This acts as a constant holographic terrain (Will DC 20) with a caster level equal to the lovelorn’s CR. Lovelorns typically use this ability to conceal entrances to their lairs, but also to make their domains appear depressing and grim. A lovelorn can maintain only one gloom at a time, and while within its gloom, the save DCs of the lovelorn’s spell-like abilities increases by 1.\nDescription\nThe spiderlike lovelorn is an undead creature with legs of exposed bone and an abdomen that resembles a massive heart. A lovelorn is created from the soul of someone who died when their love took a tragic turn, such as a rejected suitor who died tragically or the victim of a murderous affair. Instead of passing on, the spirit fixates on its body’s heart, animating the dead organ and causing it to burst forth from the corpse in the form of a monstrous lovelorn.\nA lovelorn feeds on sorrow and misery rather than flesh and blood, and its mere presence in an area corrupts the surrounding environment. A newly spawned lovelorn often starts off hunting old lovers, but will continue to lurk nearby to seed continued misfortune and contempt in a community, feasting ravenously upon the resulting anger and sadness. Its size and stealthiness often allow a lovelorn to remain undetected for years, and one might even haunt a family for generations.\nExtra Content\nThe following extra content was found for this creature:\n-\nLovelorn Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

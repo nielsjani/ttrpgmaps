@@ -1,0 +1,54 @@
+{
+  "name": "Jakkerant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Jakkerant&Family=None",
+  "source": "Starfinder #20: The Last Refuge pg. 56",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast (aquatic)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "resistances": "acid 5",
+  "speed": "20 ft., swim 60 ft.",
+  "melee": "tentacle +13 (1d6+8 P plus grab)",
+  "ranged": "caustic jet +15 (1d6+5 A & P; critical corrode 1d6)",
+  "offensive_abilities": "digesting grab",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+0",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "-1"
+  },
+  "skills": "Athletics +11, Stealth +11, Survival +11",
+  "other_abilities": "amphibious, hide in plain sight",
+  "environment": "any land or water (Utraneus)",
+  "organization": "solitary, pair, or assault (3–12)",
+  "special_abilities": [
+    {
+      "name": "Caustic Jet (Ex)",
+      "description": "As a standard action, a jakkerant can spray a line of caustic liquid made up of seawater and digestive fluids. This attack has a range of 40 feet and the line weapon special property. Absent water, the jakkerant can use this attack only once every 6 hours. However, if in or within reach of water, the jakkerant can take a move action to ingest enough water to recharge this ability immediately."
+    },
+    {
+      "name": "Digesting Grab (Ex)",
+      "description": "Whenever a jakkerant uses its tentacle to maintain a grab, the damage changes to 2d6+8 A & P and has the corrode (1d6) critical hit effect."
+    },
+    {
+      "name": "Hide in Plain Sight (Ex)",
+      "description": "As a move action, a jakkerant that remains still can change its internal chromatophores and skin texture so that its coloration and texture matches its surroundings, allowing it to attempt to hide without cover or concealment."
+    }
+  ],
+  "description": "Jakkerants, also known as javelin squids, are among the most dangerous and feared ambush predators of Utraneus. A jakkerant has an arrowhead-shaped mantle and head. Although its skin is normally a pale brownish color, through manipulation of chromatophores in its skin, a jakkerant can change its skin color. Aggressive jakkerants oscillate coloration in a variety of red or violet hues. Seven eyes ring the base of its head, with tentacles twice the length of its body descending from between each eye. A hard, chitinous material similar in appearance to mother-of-pearl forms a point at the creature’s rear, and smaller spikes run from that tip, down between each eye and along the tentacles, ending in long, pearly spikes. Each tentacle also has a tiny lamprey‑like mouth, concealed by the tentacle-spike. These orifices are used to slough meat off a target’s bones and fire lethal jets of acidic water. A typical jakkerant is 3-1/2 feet long and weighs 50 pounds.\nDespite their small size, jakkerants are powerful hunters and scavengers. Lone jakkerants are willing to attack creatures much larger than themselves, and groups take on multiple prey at once. Though they prefer moving in the water, jakkerants are able to breathe air and move awkwardly on land by perching themselves upright on several of their tentacles. Like other squid-like creatures, jakkerants have a simple internal chitinous pen or blade that helps the body keep its shape out of the water. Radial parts of this pen form the jakkerant’s mantle spikes.\nJakkerants spend most of their life traveling alone or in pairs known as “flankers.” They occasionally form larger groups to hunt bigger or more numerous prey and to mate. These groups use coloration changes to communicate.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nJakkerant\nSource\nStarfinder #20: The Last Refuge pg. 56\nJakkerant CR 5\nXP 1,600\nN Small magical beast (aquatic)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nResistances\nacid 5\nOffense\nSpeed\n20 ft., swim 60 ft.\nMelee\ntentacle +13 (1d6+8 P plus grab)\nRanged\ncaustic jet +15 (1d6+5 A & P; critical corrode 1d6)\nOffensive Abilities\ndigesting grab\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+0;\nINT\n-3;\nWIS\n+2;\nCHA\n-1\nSkills\nAthletics +11, Stealth +11, Survival +11\nOther Abilities\namphibious, hide in plain sight\nEcology\nEnvironment\nany land or water (Utraneus)\nOrganization\nsolitary, pair, or assault (3–12)\nSpecial Abilities\nCaustic Jet (Ex)\nAs a standard action, a jakkerant can spray a line of caustic liquid made up of seawater and digestive fluids. This attack has a range of 40 feet and the line weapon special property. Absent water, the jakkerant can use this attack only once every 6 hours. However, if in or within reach of water, the jakkerant can take a move action to ingest enough water to recharge this ability immediately.\nDigesting Grab (Ex)\nWhenever a jakkerant uses its tentacle to maintain a grab, the damage changes to 2d6+8 A & P and has the corrode (1d6) critical hit effect.\nHide in Plain Sight (Ex)\nAs a move action, a jakkerant that remains still can change its internal chromatophores and skin texture so that its coloration and texture matches its surroundings, allowing it to attempt to hide without cover or concealment.\nDescription\nJakkerants, also known as javelin squids, are among the most dangerous and feared ambush predators of Utraneus. A jakkerant has an arrowhead-shaped mantle and head. Although its skin is normally a pale brownish color, through manipulation of chromatophores in its skin, a jakkerant can change its skin color. Aggressive jakkerants oscillate coloration in a variety of red or violet hues. Seven eyes ring the base of its head, with tentacles twice the length of its body descending from between each eye. A hard, chitinous material similar in appearance to mother-of-pearl forms a point at the creature’s rear, and smaller spikes run from that tip, down between each eye and along the tentacles, ending in long, pearly spikes. Each tentacle also has a tiny lamprey‑like mouth, concealed by the tentacle-spike. These orifices are used to slough meat off a target’s bones and fire lethal jets of acidic water. A typical jakkerant is 3-1/2 feet long and weighs 50 pounds.\nDespite their small size, jakkerants are powerful hunters and scavengers. Lone jakkerants are willing to attack creatures much larger than themselves, and groups take on multiple prey at once. Though they prefer moving in the water, jakkerants are able to breathe air and move awkwardly on land by perching themselves upright on several of their tentacles. Like other squid-like creatures, jakkerants have a simple internal chitinous pen or blade that helps the body keep its shape out of the water. Radial parts of this pen form the jakkerant’s mantle spikes.\nJakkerants spend most of their life traveling alone or in pairs known as “flankers.” They occasionally form larger groups to hunt bigger or more numerous prey and to mate. These groups use coloration changes to communicate.",
+  "type": "magical beast (aquatic)",
+  "category": "alien"
+}

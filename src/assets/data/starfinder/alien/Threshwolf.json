@@ -1,0 +1,49 @@
+{
+  "name": "Threshwolf",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Threshwolf&Family=None",
+  "source": "Starfinder #28: The Hollow Cabal pg. 60",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+5",
+  "senses": "blindsense (scent) 30 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "76",
+  "eac": "15",
+  "kac": "17",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "immunities": "poison",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "40 ft.",
+  "melee": "bite +11 (1d6+8 P plus grab)",
+  "offensive_abilities": "thresh (1d6+5 S)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Athletics +11, Stealth +11, Survival +16",
+  "environment": "warm and temperate forests and mountains",
+  "organization": "solitary, pair, or pack (5–10)",
+  "special_abilities": [
+    {
+      "name": "Quills (Ex)",
+      "description": "A threshwolf’s mane consists of sharp, glasslike hairs that protect its neck and shoulders. A creature attacking a threshwolf with a natural weapon, an unarmed strike, or melee weapon without reach must succeed at a DC 13 Reflex saving throw or take 1d4 piercing damage as several of these sharp quills break off in their flesh. The attacking creature also gains the off-target condition until the beginning of its next turn due to the pain and irritation."
+    },
+    {
+      "name": "Thresh (Ex)",
+      "description": "Whenever a threshwolf succeeds at a combat maneuver to grapple or maintain a grapple, it can immediately shake its mane as a swift action, raking a grappled or pinned victim with razor-sharp quills and inflicting 1d6+5 slashing damage."
+    }
+  ],
+  "description": "Hailing from an unknown world of fierce natural selection (presumably in the Vast), threshwolves are vicious mammalian predators. Though also gifted with teeth and claws, these hunters’ most identifiable feature is a mane of glass-like fibers they use to gore prey and shred undergrowth. While predominantly carnivores, threshwolves also feed on fruit, vegetation, and fungus when available. When a pack claims territory, they spend time carving a labyrinthine den within the thick, thorny undergrowth they favor. They raise their young communally, with the largest female taking the lead in most hunts. Packs develop complex social hierarchies and delineate labor much like ant colonies or formians, with different members focused on hunting, patrolling territory, maintaining the lair, or rearing young.\nSocial behavior and reasonable animal intelligence make threshwolves easy to train, though the aggressive predators will constantly test the resolve of their trainers with challenges for dominance. Vesk colonies in the Vast have experimented with truly domesticating the alien beasts, yielding mixed results. Threshwolves can be bred for obedience, and the same genes that control this behavior seem linked to their iconic mane; more approachable and malleable threshwolves develop finer quills that cause minor irritation rather than lacerations.\nXenobiologists have determined that threshwolves originate from the same world as needlehawks (page 58), and the two likely shared biomes. Many believe needlehawks would scavenge what they could from threshwolf kills, provided that the small fliers could stay away from these larger predators’ jaws. Like needlehawks, threshwolves are sometimes employed by dycepskians as scouts connected to the fungal mass mind and as living containers to breed more of their mindless mycelium within.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThreshwolf\nSource\nStarfinder #28: The Hollow Cabal pg. 60\nThreshwolf CR 5\nXP 1,600\nN Medium animal\nInit\n+5;\nSenses\nblindsense (scent) 30 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n76\nEAC\n15;\nKAC\n17\nFort\n+9;\nRef\n+9;\nWill\n+4\nDefensive Abilities\nquills (1d4 P, DC 13);\nImmunities\npoison\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n40 ft.\nMelee\nbite +11 (1d6+8 P plus grab)\nOffensive Abilities\nthresh (1d6+5 S)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+2;\nINT\n-4;\nWIS\n+1;\nCHA\n-3\nSkills\nAthletics +11, Stealth +11, Survival +16\nEcology\nEnvironment\nwarm and temperate forests and mountains\nOrganization\nsolitary, pair, or pack (5–10)\nSpecial Abilities\nQuills (Ex)\nA threshwolf’s mane consists of sharp, glasslike hairs that protect its neck and shoulders. A creature attacking a threshwolf with a natural weapon, an unarmed strike, or melee weapon without reach must succeed at a DC 13 Reflex saving throw or take 1d4 piercing damage as several of these sharp quills break off in their flesh. The attacking creature also gains the off-target condition until the beginning of its next turn due to the pain and irritation.\nThresh (Ex)\nWhenever a threshwolf succeeds at a combat maneuver to grapple or maintain a grapple, it can immediately shake its mane as a swift action, raking a grappled or pinned victim with razor-sharp quills and inflicting 1d6+5 slashing damage.\nDescription\nHailing from an unknown world of fierce natural selection (presumably in the Vast), threshwolves are vicious mammalian predators. Though also gifted with teeth and claws, these hunters’ most identifiable feature is a mane of glass-like fibers they use to gore prey and shred undergrowth. While predominantly carnivores, threshwolves also feed on fruit, vegetation, and fungus when available. When a pack claims territory, they spend time carving a labyrinthine den within the thick, thorny undergrowth they favor. They raise their young communally, with the largest female taking the lead in most hunts. Packs develop complex social hierarchies and delineate labor much like ant colonies or formians, with different members focused on hunting, patrolling territory, maintaining the lair, or rearing young.\nSocial behavior and reasonable animal intelligence make threshwolves easy to train, though the aggressive predators will constantly test the resolve of their trainers with challenges for dominance. Vesk colonies in the Vast have experimented with truly domesticating the alien beasts, yielding mixed results. Threshwolves can be bred for obedience, and the same genes that control this behavior seem linked to their iconic mane; more approachable and malleable threshwolves develop finer quills that cause minor irritation rather than lacerations.\nXenobiologists have determined that threshwolves originate from the same world as needlehawks (page 58), and the two likely shared biomes. Many believe needlehawks would scavenge what they could from threshwolf kills, provided that the small fliers could stay away from these larger predators’ jaws. Like needlehawks, threshwolves are sometimes employed by dycepskians as scouts connected to the fungal mass mind and as living containers to breed more of their mindless mycelium within.",
+  "type": "animal",
+  "category": "alien"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Tashtari, Tashtari Alpha",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tashtari Alpha&Family=Tashtari",
+  "source": "Alien Archive 2 pg. 124",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "resistances": "fire 5",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +15 (2d6+11 P)",
+  "ranged": "muzzle beam +18 (2d6+7 F; critical burn 1d6)",
+  "offensive_abilities": "bristle nova",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +14, Athletics +14 (+22 to climb), Stealth +19",
+  "environment": "any forests or marshes (Castrovel)",
+  "organization": "pack (2 plus 3–8 tashtaris)",
+  "special_abilities": [
+    {
+      "name": "Bristle Nova (Ex)",
+      "description": "Once per day as a standard action, a tashtari alpha can cause its filaments to flare with intense light. Each creature within 60 feet must succeed at a DC 15 Fortitude save or be blinded for 1d4 rounds. Creatures that succeed at this save are instead dazzled for 1 round. This ability has no effect on sightless creatures. Tashtaris and tashtari alphas are immune to the effects of this ability."
+    },
+    {
+      "name": "Muzzle Beam (Ex)",
+      "description": "As an attack, a tashtari alpha can unleash a focused ray of light from its mouth that can burn a target like the beam of a laser rifle. This ray has a range increment of 120 feet."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTashtari\nSource\nAlien Archive 2 pg. 124\nThe first glimpse most observers have of a tashtari pack is a far-off twinkling of lights, which is easily mistaken for swamp gas or the glint of moonlight. Produced by the coat of supple filaments that cover a tashtari’s body, these phosphorescent lights facilitate communication, allowing tashtari packs to silently coordinate while searching for prey and setting up ambushes. Tashtaris also use this luminescence for social interactions. Tashtaris evolved their tactics and laser attacks to hunt the small, quick-moving mammals of their native habitat on Castrovel, but these predators are not shy about taking down larger prey if circumstances are in their favor.\nA pack of tashtaris consists of a dominant mating pair, their offspring, and close relatives. Juvenile tashtaris leave the pack soon after reaching maturity to seek mates from unrelated groups and found new packs.\nTashtaris are nocturnal. During the day, they use the flexible claws on their trio of multijointed legs to scramble to the sunlit tops of tall trees in their habitat. They spend much of the day basking, with their photoreceptive filaments raised to maximize sunlight absorption. This basking behavior, more common in cold-blooded creatures, offsets the tremendous caloric demands of the tashtari’s muzzle laser. Instead of using bioluminescence, the tashtari stores solar energy gathered by its filaments in a photoenergetic node at its throat. When attacking, the tashtari uses a flexible focusing membrane to concentrate energy into a coherent, deadly beam.\nSentient species of Castrovel refer to these beasts as tashtaris, but offworlders have nicknamed the creatures “laser wolves,” based on their hunting behavior and unique physiology. Attempts to domesticate tashtaris have spread the creatures to far-flung parts of the galaxy, but trainers must closely monitor the creatures’ intake of solar radiation. Tashtaris transplanted to systems with stronger solar output can become dangerously aggressive.\nTashtari Biotech\nHunters can do brisk business harvesting the filaments, photoenergetic nodes, and focusing membranes of tashtaris and selling them to bioengineers. If not for conservation efforts on Castrovel, tashtaris could have been hunted to extinction, since their photosensitive adaptations are difficult and expensive to duplicate through synthetic means. Cessation of hostilities between the formians and lashuntas has allowed a recent surge in the regulated trade of biotech that incorporates tashtari tissue. Explorers and scouts equip themselves with\nfocusing membranes\nor\nfilament mesh\n, and many people throughout the Pact Worlds use\nphotoenergetic nodes\nfor practical and cosmetic purposes.\nAliens in the \"Tashtari\" Family\nName\nCR\nTashtari\n3\nTashtari Alpha\n7\nTashtari, Tashtari Alpha\nSource\nAlien Archive 2 pg. 124\nTashtari Alpha CR 7\nXP 3,200\nN Medium magical beast\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+11;\nWill\n+6\nResistances\nfire 5\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +15 (2d6+11 P)\nRanged\nmuzzle beam +18 (2d6+7 F; critical burn 1d6)\nOffensive Abilities\nbristle nova\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n+2;\nINT\n+1;\nWIS\n+1;\nCHA\n-1\nSkills\nAcrobatics +14, Athletics +14 (+22 to climb), Stealth +19\nEcology\nEnvironment\nany forests or marshes (Castrovel)\nOrganization\npack (2 plus 3–8 tashtaris)\nSpecial Abilities\nBristle Nova (Ex)\nOnce per day as a standard action, a tashtari alpha can cause its filaments to flare with intense light. Each creature within 60 feet must succeed at a DC 15 Fortitude save or be blinded for 1d4 rounds. Creatures that succeed at this save are instead dazzled for 1 round. This ability has no effect on sightless creatures. Tashtaris and tashtari alphas are immune to the effects of this ability.\nMuzzle Beam (Ex)\nAs an attack, a tashtari alpha can unleash a focused ray of light from its mouth that can burn a target like the beam of a laser rifle. This ray has a range increment of 120 feet.",
+  "type": "magical beast",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Tashtari.png"
+}

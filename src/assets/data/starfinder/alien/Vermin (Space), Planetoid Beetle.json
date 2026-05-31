@@ -1,0 +1,58 @@
+{
+  "name": "Vermin (Space), Planetoid Beetle",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Planetoid Beetle&Family=Vermin (Space)",
+  "source": "Alien Archive 2 pg. 132",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "vermin",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+13",
+  "ref": "+11",
+  "will": "+8",
+  "immunities": "acid",
+  "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+  "melee": "bite +21 (2d10+15 A & P)",
+  "ranged": "acid spit +19 (4d6+4 A; critical corrode 1d6)",
+  "space": "15 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "break objects",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+4",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "other_abilities": "consume objects, mindless, rock tunneler",
+  "environment": "any vacuum",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Acid Spit (Ex)",
+      "description": "Once per round as a standard action, the planetoid beetle can spit acid as a ranged attack that has the line property and a range of 60 feet."
+    },
+    {
+      "name": "Break Objects (Ex)",
+      "description": "When attacking an object, a planetoid beetle treats that object’s hardness as 10 lower."
+    },
+    {
+      "name": "Consume Objects (Ex)",
+      "description": "A planetoid beetle can eat objects with a hardness of 10 or lower. It deals 4 damage per minute to an object it’s consuming. It is sated and stops feeding on a given day after dealing 400 damage in this way."
+    },
+    {
+      "name": "Rock Tunneler (Ex)",
+      "description": "Using its acid to soften rock, a planetoid beetle can burrow through stone at half speed. It can make tunnels when it burrows."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVermin (Space)\nSource\nAlien Archive 2 pg. 132\nEven the vacuum of space has bugs. Most of these void-dwelling vermin are harmless, but some are dangerous or predatory.\nAsteroid lice and planetoid beetles feed on minerals in the rock of their airless habitats. Asteroid lice are communal, but planetoid beetles are territorial, tolerating only one mate. These creatures and their eggs can float in space to a new home. However, careless quarrying and shipping have accelerated their spread through the galaxy.\nXenobiologists theorize many space vermin evolved in special circumstances. Necropedes were once centipede-like scavengers on Eox; they now have a bite that can digest undead flesh. A warpmoth is like a glowing blue-white speck attracted to moving light, such as other warpmoths or passing starships. Gathering in swarms and following ships helps the moths feed and mate. Comet wasps create nests in frozen interstellar bodies. These icy, venomous vespids lay their eggs in living creatures.\nAliens in the \"Vermin (Space)\" Family\nName\nCR\nAsteroid Louse\n1/2\nComet Wasp Swarm\n12\nNecropede\n3\nPlanetoid Beetle\n9\nWarpmoth Swarm\n6\nVermin (Space), Planetoid Beetle\nSource\nAlien Archive 2 pg. 132\nPlanetoid Beetle CR 9\nXP 6,400\nN Huge vermin\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+13;\nRef\n+11;\nWill\n+8\nDefensive Abilities\nvoid adaptation;\nImmunities\nacid\nOffense\nSpeed\n30 ft., burrow 10 ft., climb 30 ft.\nMelee\nbite +21 (2d10+15 A & P)\nRanged\nacid spit +19 (4d6+4 A; critical corrode 1d6)\nSpace\n15 ft.;\nReach\n10 ft.\nOffensive Abilities\nbreak objects\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+4;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nOther Abilities\nconsume objects, mindless, rock tunneler\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary or pair\nSpecial Abilities\nAcid Spit (Ex)\nOnce per round as a standard action, the planetoid beetle can spit acid as a ranged attack that has the line property and a range of 60 feet.\nBreak Objects (Ex)\nWhen attacking an object, a planetoid beetle treats that object’s hardness as 10 lower.\nConsume Objects (Ex)\nA planetoid beetle can eat objects with a hardness of 10 or lower. It deals 4 damage per minute to an object it’s consuming. It is sated and stops feeding on a given day after dealing 400 damage in this way.\nRock Tunneler (Ex)\nUsing its acid to soften rock, a planetoid beetle can burrow through stone at half speed. It can make tunnels when it burrows.",
+  "type": "vermin",
+  "category": "alien"
+}

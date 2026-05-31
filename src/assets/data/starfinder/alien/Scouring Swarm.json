@@ -1,0 +1,56 @@
+{
+  "name": "Scouring Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Scouring Swarm&Family=None",
+  "source": "Starfinder #26: Flight of the Sleepers pg. 59",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "aberration (swarm)",
+  "init": "+4",
+  "senses": "blindsense (organic material) 30 ft., darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "26",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+1",
+  "immunities": "swarm immunities",
+  "weaknesses": "vulnerable to oxygen",
+  "speed": "5 ft., fly 30 ft. (Ex, average), swim 30 ft.",
+  "melee": "swarm attack (1d4+2 A)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "devour organics, distraction (DC 11)",
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+4",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +7, Athletics +7, Stealth +12",
+  "other_abilities": "death cloud, no breath",
+  "environment": "any",
+  "organization": "solitary or sanitation (2–6)",
+  "special_abilities": [
+    {
+      "name": "Death Cloud (Ex)",
+      "description": "When a scouring swarm dies, its component creatures decompose in 1 round, leaving behind freezing neon gas. At the end of this round, all creatures within 30 feet of the scouring swarm’s final position take 1d6 cold damage and gain the sickened condition for 1 minute. A successful DC 11 Fortitude save halves the damage and negates the sickened condition. Active environmental protections from armor protect against this sickened condition."
+    },
+    {
+      "name": "Devour Organics (Ex)",
+      "description": "A scouring swarm’s swarm attack deals acid damage that harms only organic material. Entirely inorganic creatures are not harmed by a scouring swarm’s attack. The environmental protections of most light and heavy armor provide no defense against a scouring swarm, but powered armor with active environmental protections protects against a scouring swarm. A scouring swarm leaves no trace of organic material in any square it moves through. It can completely consume a Large or smaller corpse by spending 1d4 rounds in the corpse’s space, leaving behind only the creature’s inorganic gear."
+    },
+    {
+      "name": "Vulnerable to Oxygen (Ex)",
+      "description": "A scouring swarm cannot survive in atmospheres that are at least 10% oxygen (this includes atmospheres that most species consider breathable, including thick, thin, and some toxic atmospheres). A scouring swarm in such an environment takes 1d6 damage at the beginning of each of its turns. In an atmosphere of 100% oxygen, this damage is doubled."
+    }
+  ],
+  "description": "Each component of a scouring swarm is a slimy, silver gnat with three hook-like legs, a short spout for spraying acidic digestive compounds, and a long proboscis used to slurp up liquefied food. Alone, it is a mere irritant that rapidly perishes in a breathable atmosphere. But despite having no trace of reproductive biology, when two or more are left alone in an oxygen-free environment with plenty of food to consume, they rapidly multiply into a swarm of several thousand creatures.\nThe swarm appears as a roiling cloud of glittering silver foam, consuming massive amounts of organic material in minutes. Grays—who are believed to have created these creatures—use canisters full of scouring swarms to erase evidence of their presence, even destroying microscopic traces of DNA.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScouring Swarm\nSource\nStarfinder #26: Flight of the Sleepers pg. 59\nScouring Swarm CR 2\nXP 600\nN Fine aberration (swarm)\nInit\n+4;\nSenses\nblindsense (organic material) 30 ft., darkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n26\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+4;\nWill\n+1\nDefensive Abilities\nswarm defenses;\nImmunities\nswarm immunities\nWeaknesses\nvulnerable to oxygen\nOffense\nSpeed\n5 ft., fly 30 ft. (Ex, average), swim 30 ft.\nMelee\nswarm attack (1d4+2 A)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndevour organics, distraction (DC 11)\nStatistics\nSTR\n-2;\nDEX\n+4;\nCON\n+2;\nINT\n-3;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +7, Athletics +7, Stealth +12\nOther Abilities\ndeath cloud, no breath\nEcology\nEnvironment\nany\nOrganization\nsolitary or sanitation (2–6)\nSpecial Abilities\nDeath Cloud (Ex)\nWhen a scouring swarm dies, its component creatures decompose in 1 round, leaving behind freezing neon gas. At the end of this round, all creatures within 30 feet of the scouring swarm’s final position take 1d6 cold damage and gain the sickened condition for 1 minute. A successful DC 11 Fortitude save halves the damage and negates the sickened condition. Active environmental protections from armor protect against this sickened condition.\nDevour Organics (Ex)\nA scouring swarm’s swarm attack deals acid damage that harms only organic material. Entirely inorganic creatures are not harmed by a scouring swarm’s attack. The environmental protections of most light and heavy armor provide no defense against a scouring swarm, but powered armor with active environmental protections protects against a scouring swarm. A scouring swarm leaves no trace of organic material in any square it moves through. It can completely consume a Large or smaller corpse by spending 1d4 rounds in the corpse’s space, leaving behind only the creature’s inorganic gear.\nVulnerable to Oxygen (Ex)\nA scouring swarm cannot survive in atmospheres that are at least 10% oxygen (this includes atmospheres that most species consider breathable, including thick, thin, and some toxic atmospheres). A scouring swarm in such an environment takes 1d6 damage at the beginning of each of its turns. In an atmosphere of 100% oxygen, this damage is doubled.\nDescription\nEach component of a scouring swarm is a slimy, silver gnat with three hook-like legs, a short spout for spraying acidic digestive compounds, and a long proboscis used to slurp up liquefied food. Alone, it is a mere irritant that rapidly perishes in a breathable atmosphere. But despite having no trace of reproductive biology, when two or more are left alone in an oxygen-free environment with plenty of food to consume, they rapidly multiply into a swarm of several thousand creatures.\nThe swarm appears as a roiling cloud of glittering silver foam, consuming massive amounts of organic material in minutes. Grays—who are believed to have created these creatures—use canisters full of scouring swarms to erase evidence of their presence, even destroying microscopic traces of DNA.",
+  "type": "aberration (swarm)",
+  "category": "alien"
+}

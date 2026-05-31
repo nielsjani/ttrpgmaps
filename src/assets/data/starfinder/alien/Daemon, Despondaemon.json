@@ -1,0 +1,60 @@
+{
+  "name": "Daemon, Despondaemon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Despondaemon&Family=Daemon",
+  "source": "Alien Archive 4 pg. 24",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NE",
+  "size": "Huge",
+  "creature_type": "outsider (daemon, evil, extraplanar)",
+  "init": "-1",
+  "senses": "blindsight (emotions) 60 ft., darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+9",
+  "immunities": "acid, death effects, disease, poison;",
+  "resistances": "cold 10, electricity 10, fire 10",
+  "speed": "20 ft., burrow 10 ft.",
+  "melee": "slam +20 (3d4+14 B plus swallow whole)",
+  "offensive_abilities": "psychic warfare, swallow whole (3d4+14 B, EAC 20, KAC 18, 31 HP)",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\nsummon allies\n(1 despondaemon, 35%)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "-1",
+    "con": "+4",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Sense Motive +19, Stealth +21 (+26 in deserts), Survival +19",
+  "languages": "Abyssal, Common, Infernal; telepathy 100 ft.",
+  "other_abilities": "compression, emotional empathy",
+  "environment": "any (Abaddon)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Emotional Empathy (Su)",
+      "description": "A despondaemon can intuitively read the emotions of those it senses with its blindsense, knowing what emotion the target is experiencing at any given moment. They use this ability to isolate victims suffering from depression, their favorite prey."
+    },
+    {
+      "name": "Psychic Warfare (Su)",
+      "description": "A despondaemon wages emotional warfare on creatures trapped inside it, convincing its victims of the futility of escape. A creature swallowed by the despondaemon’s swallow whole ability must attempt a DC 16 Will save at the beginning of that creature’s turn. On a failure, the creature is overwhelmed by negative emotions and is stunned for 1 turn."
+    },
+    {
+      "name": "Harden Exterior (Su)",
+      "description": "As a swift action, a despondaemon can harden its exterior, granting it a +2 circumstance bonus to AC but halving its speed. The daemon can end this effect with a swift action."
+    }
+  ],
+  "description": "Despondaemons are huge creatures of living quicksand that hail from the desolate plains of Abaddon. These daemons arise from the souls of bureaucrats who wore down well‑meaning people with endless paperwork, soulless and dystopian bureaucracy, and policies that ignored individuals in favor of illogical rules, outdated regulations, and useless consistency. Despondaemons’ preferred method of murder is to psychically smother intended victims. Then, once the outsider has captured a vulnerable victim within their quicksand-like body, despondaemons use telepathy to exacerbate the victim’s insecurities, urging the creature to die so they can feed.\nClumsy and slow moving, despondaemons compensate by being ambush predators, typically concealing themselves within pits or as mounds of dirt. While waiting, despondaemons use their blindsight and emotional empathy, searching for victims predisposed toward depression. When they find such a creature, they lure their victim with subtle thoughts or slowly slither along the ground to attack unawares.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDaemon\nSource\nAlien Archive 4 pg. 24\nOriginating from the desolate plane of Abaddon, daemons strive to end all life in existence—even destroying themselves after snuffing out or consuming every other soul. A daemon’s favorite method of killing often shapes their form and abilities. Traditional daemons might embrace more conventional means of inflicting death, though newer daemons have adapted to the galaxy’s evolving technology. Both alucidaemons and alorbidaemons prey upon those who lose themselves in digital media. The former drain the life from those who grow obsessed with vidgames. Especially dangerous, alorbidaemons arise from the souls of wicked sensates who perish while engrossed in virtual reality as their bodies withered from neglect.\nAlucidaemons take the form of gaunt, child-like figures, their eyes covered by a visor feeding them various realities while they watch in slack-jawed awe. Nearly all of them move with the help of a floating pod that serves as an extension of their bodies; they control its movements with the mechanical gauntlets permanently locked onto their withered hands. Alorbidaemons appear as horrible amalgams of several alucidaemons, joined together in a connected set of pods to form a single body. A typical alucidaemon is 3 to 4 feet tall but weighs 200 pounds due to their mechanical components. A typical alorbidaemon is 4–5 feet tall but can weigh 1,000 pounds\nAliens in the \"Daemon\" Family\nName\nCR\nAdikodaemon\n18\nAlorbidaemon\n12\nAlucidaemon\n4\nDespondaemon\n8\nPalioxodaemon\n11\nDaemon, Despondaemon\nSource\nStarfinder #45: The Culling Shadow pg. 55\nDespondaemon CR 8\nXP 4,800\nNE Huge outsider (daemon, evil, extraplanar)\nInit\n-1;\nSenses\nblindsight (emotions) 60 ft., darkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+12;\nWill\n+9\nDefensive Abilities\namorphous, harden exterior;\nImmunities\nacid, death effects, disease, poison;\nResistances\ncold 10, electricity 10, fire 10\nOffense\nSpeed\n20 ft., burrow 10 ft.\nMelee\nslam +20 (3d4+14 B plus swallow whole)\nOffensive Abilities\npsychic warfare, swallow whole (3d4+14 B, EAC 20, KAC 18, 31 HP)\nSpell-Like Abilities\n(CL 8th)\n1/day—\nsummon allies\n(1 despondaemon, 35%)\nStatistics\nSTR\n+6;\nDEX\n-1;\nCON\n+4;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nSkills\nSense Motive +19, Stealth +21 (+26 in deserts), Survival +19\nLanguages\nAbyssal, Common, Infernal; telepathy 100 ft.\nOther Abilities\ncompression, emotional empathy\nEcology\nEnvironment\nany (Abaddon)\nOrganization\nsolitary\nSpecial Abilities\nEmotional Empathy (Su)\nA despondaemon can intuitively read the emotions of those it senses with its blindsense, knowing what emotion the target is experiencing at any given moment. They use this ability to isolate victims suffering from depression, their favorite prey.\nPsychic Warfare (Su)\nA despondaemon wages emotional warfare on creatures trapped inside it, convincing its victims of the futility of escape. A creature swallowed by the despondaemon’s swallow whole ability must attempt a DC 16 Will save at the beginning of that creature’s turn. On a failure, the creature is overwhelmed by negative emotions and is stunned for 1 turn.\nHarden Exterior (Su)\nAs a swift action, a despondaemon can harden its exterior, granting it a +2 circumstance bonus to AC but halving its speed. The daemon can end this effect with a swift action.\nDescription\nDespondaemons are huge creatures of living quicksand that hail from the desolate plains of Abaddon. These daemons arise from the souls of bureaucrats who wore down well‑meaning people with endless paperwork, soulless and dystopian bureaucracy, and policies that ignored individuals in favor of illogical rules, outdated regulations, and useless consistency. Despondaemons’ preferred method of murder is to psychically smother intended victims. Then, once the outsider has captured a vulnerable victim within their quicksand-like body, despondaemons use telepathy to exacerbate the victim’s insecurities, urging the creature to die so they can feed.\nClumsy and slow moving, despondaemons compensate by being ambush predators, typically concealing themselves within pits or as mounds of dirt. While waiting, despondaemons use their blindsight and emotional empathy, searching for victims predisposed toward depression. When they find such a creature, they lure their victim with subtle thoughts or slowly slither along the ground to attack unawares.\nExtra Content\nThe following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "type": "outsider (daemon, evil, extraplanar)",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Trinir",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Trinir&Family=None",
+  "source": "Starfinder #22: The Forever Reliquary pg. 61",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "humanoid (trinir)",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "47",
+  "eac": "15",
+  "kac": "15",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+7",
+  "weaknesses": "cold 5",
+  "speed": "20 ft.",
+  "melee": "tactical baton +8 (1d4+4 B)",
+  "ranged": "thunderstrike sonic pistol +6 (1d8+4 So; critical deafen [DC 15])",
+  "spells": "(CL 4th; melee +8, ranged +7)\n2nd (3/day)—\ninject nanobots\n(DC 17),\nmicrobot assault\n1st (6/day)—\nlife bubble\n,\nmagic missile\n,\nsupercharge weapon\n0 (at will)—\nenergy ray\n,\ntelepathic message",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+5",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Computers +15, Engineering +15, Mysticism +10",
+  "languages": "Trinir; comm unit 30 ft.",
+  "other_abilities": "constructed, magic hacks (countertech), spell cache (integrated comm unit)",
+  "gear": "trinir suit (functions as defrex hide), tactical baton, thunderstrike sonic pistol with 1 battery (20 charges)",
+  "environment": "any (Ashypso)",
+  "organization": "solitary, pair, or pilgrimage (3–10)",
+  "special_abilities": [
+    {
+      "name": "Comm Unit (Ex)",
+      "description": "A trinir can communicate as if it had a built-in comm unit that functions on a planetary scale. This ability also works like telepathy with a range of 30 feet, but only with other creatures that have this ability, androids, and constructs that have the technological subtype."
+    },
+    {
+      "name": "Resistance Network (Ex)",
+      "description": "As a standard action, a trinir can share one of their resistances with adjacent creatures of their choice. This shared resistance lasts up to 8 hours, but it ends immediately if an affected creature ceases to be adjacent to the trinir or the trinir falls unconscious."
+    }
+  ],
+  "description": "Trinirs are natives of the usually frozen Ashypso. These small, android-like beaked humanoids lack a history, as they awakened in hibernation chambers only recently as their planet thawed. Thanks to the Gap (and possibly other unknown factors), trinirs have found little to indicate who they are or how they came to be. Some believe ruins of their ancient civilization might be found somewhere within the ice.",
+  "extra_content": "The following extra content was found for this creature:\n-\nTrinir Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTrinir\nSource\nStarfinder #22: The Forever Reliquary pg. 61\nTrinir CR 4\nXP 1,200\nAgender trinir technomancer\nN Small humanoid (trinir)\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n47\nEAC\n15;\nKAC\n15\nFort\n+3;\nRef\n+3;\nWill\n+7\nDefensive Abilities\nresistance network\nWeaknesses\ncold 5\nOffense\nSpeed\n20 ft.\nMelee\ntactical baton +8 (1d4+4 B)\nRanged\nthunderstrike sonic pistol +6 (1d8+4 So; critical deafen [DC 15])\nTechnomancer Spells Known\n(CL 4th; melee +8, ranged +7)\n2nd (3/day)—\ninject nanobots\n(DC 17),\nmicrobot assault\n1st (6/day)—\nlife bubble\n,\nmagic missile\n,\nsupercharge weapon\n0 (at will)—\nenergy ray\n,\ntelepathic message\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+3;\nINT\n+5;\nWIS\n+0;\nCHA\n-1\nSkills\nComputers +15, Engineering +15, Mysticism +10\nLanguages\nTrinir; comm unit 30 ft.\nOther Abilities\nconstructed, magic hacks (countertech), spell cache (integrated comm unit)\nGear\ntrinir suit (functions as defrex hide), tactical baton, thunderstrike sonic pistol with 1 battery (20 charges)\nEcology\nEnvironment\nany (Ashypso)\nOrganization\nsolitary, pair, or pilgrimage (3–10)\nSpecial Abilities\nComm Unit (Ex)\nA trinir can communicate as if it had a built-in comm unit that functions on a planetary scale. This ability also works like telepathy with a range of 30 feet, but only with other creatures that have this ability, androids, and constructs that have the technological subtype.\nResistance Network (Ex)\nAs a standard action, a trinir can share one of their resistances with adjacent creatures of their choice. This shared resistance lasts up to 8 hours, but it ends immediately if an affected creature ceases to be adjacent to the trinir or the trinir falls unconscious.\nDescription\nTrinirs are natives of the usually frozen Ashypso. These small, android-like beaked humanoids lack a history, as they awakened in hibernation chambers only recently as their planet thawed. Thanks to the Gap (and possibly other unknown factors), trinirs have found little to indicate who they are or how they came to be. Some believe ruins of their ancient civilization might be found somewhere within the ice.\nExtra Content\nThe following extra content was found for this creature:\n-\nTrinir Race Entry",
+  "type": "humanoid (trinir)",
+  "category": "alien"
+}

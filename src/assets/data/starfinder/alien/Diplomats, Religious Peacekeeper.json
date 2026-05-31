@@ -1,0 +1,44 @@
+{
+  "name": "Diplomats, Religious Peacekeeper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Religious Peacekeeper&Family=Diplomats",
+  "source": "Interstellar Species pg. 160",
+  "cr": "7",
+  "xp": "3,200",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+8",
+  "speed": "40 ft., burrow 20 ft.",
+  "melee": "static stun staff +17 (1d10+11 E; critical staggered) Space 10 ft.; Reach 10 ft.",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "frenzy , grappler",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+0",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Diplomacy +14, Intimidate +19, Mysticism +14",
+  "languages": "Common, Nchaki",
+  "other_abilities": "calm down, vestigial arms",
+  "gear": "commander ceremonial plate, static stun staff, holy book of Hylax, ceremonial clothing",
+  "special_abilities": [
+    {
+      "name": "Calm Down (Ex)",
+      "description": "Once every 1d4 rounds, a religious peacekeeper can target two creatures within range when using Intimidate to demoralize; they attempt a single Intimidate check and apply the result to both targets. When the peacekeeper successfully demoralizes a creature, they can reduce the duration of the shaken condition by 1 round to also make the target staggered for 1 round."
+    }
+  ],
+  "description": "Whether uniting warring factions with shared beliefs or mediating schisms driven by divergent dogma, religious peacekeepers wield divine authority to bring riled parties to the bargaining table. Good-aligned diplomats might convey compassion, and the lawful-aligned might leverage tradition and treaties. On the other hand, chaotic-aligned negotiators might keep everyone off balance, promoting short-term solutions that are fuel for future conflict. Evil-aligned peacekeepers are especially insidious, tempting weary factions with peace and disarming heroic forces so tyrants can continue to rule unchallenged.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiplomats\nSource\nInterstellar Species pg. 160\nDiplomats are ambassadors for their people, working to establish better relationships with those from other cultures, find ways for groups to collaborate, and realize peaceful solutions when violence seems imminent. Given the stakes for fumbling a negotiation, diplomats are highly trained professionals who are equally capable of charming others and evading political traps.\nHowever, diplomats aren’t necessarily the PCs’ allies. An evil empire might employ diplomats who suppress internal dissent and international complaints through clever misdirection. Diplomats  might  introduce  well-intentioned  political entanglements in defense of their own objectives, even if these limit the PCs’ abilities to thwart some greater evil. A diplomat is often a non-combat threat, challenging PCs to employ logic, guile, and charm to discourage, discredit, or sway their rival.\nAliens in the \"Diplomats\" Family\nName\nCR\nEmissary\n3\nPact Worlds Delegate\n6\nPlenipotentiary\n11\nReligious Peacekeeper\n7\nDiplomats, Religious Peacekeeper\nSource\nInterstellar Species pg. 161\nReligious Peacekeeper CR 7\nXP 3,200\nTrox\nLN monstrous humanoid\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+8\nDefensive Abilities\nbulwark\nOffense\nSpeed\n40 ft., burrow 20 ft.\nMelee\nstatic stun staff +17 (1d10+11 E; critical staggered) Space 10 ft.; Reach 10 ft.\nOffensive Abilities\nfrenzy , grappler\nStatistics\nSTR\n+4;\nDEX\n+0;\nCON\n+4;\nINT\n+0;\nWIS\n+2;\nCHA\n+2\nSkills\nDiplomacy +14, Intimidate +19, Mysticism +14\nLanguages\nCommon, Nchaki\nOther Abilities\ncalm down, vestigial arms\nGear\ncommander ceremonial plate, static stun staff, holy book of Hylax, ceremonial clothing\nSpecial Abilities\nCalm Down (Ex)\nOnce every 1d4 rounds, a religious peacekeeper can target two creatures within range when using Intimidate to demoralize; they attempt a single Intimidate check and apply the result to both targets. When the peacekeeper successfully demoralizes a creature, they can reduce the duration of the shaken condition by 1 round to also make the target staggered for 1 round.\nDescription\nWhether uniting warring factions with shared beliefs or mediating schisms driven by divergent dogma, religious peacekeepers wield divine authority to bring riled parties to the bargaining table. Good-aligned diplomats might convey compassion, and the lawful-aligned might leverage tradition and treaties. On the other hand, chaotic-aligned negotiators might keep everyone off balance, promoting short-term solutions that are fuel for future conflict. Evil-aligned peacekeepers are especially insidious, tempting weary factions with peace and disarming heroic forces so tyrants can continue to rule unchallenged.",
+  "type": "humanoid",
+  "environment": "—",
+  "category": "alien"
+}

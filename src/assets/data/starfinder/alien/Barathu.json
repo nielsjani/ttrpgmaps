@@ -1,0 +1,51 @@
+{
+  "name": "Barathu",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Barathu&Family=Barathu",
+  "source": "Alien Archive pg. 20",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+10",
+  "dr": "2/—.",
+  "speed": "fly 30 ft. (Ex, perfect)",
+  "melee": "slam +12 (1d4+6 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+2",
+    "wis": "+5",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +17, Diplomacy +12, Life Science +12, Sense Motive +17",
+  "languages": "Brethedan, Common; telepathy 100 ft.",
+  "other_abilities": "adaptation, combine",
+  "environment": "any sky (Bretheda)",
+  "organization": "solitary or herd (2–5 plus 4–12 early stage barathus)",
+  "special_abilities": [
+    {
+      "name": "Adaptation (Ex)",
+      "description": "A barathu’s body is extremely mutable and can adapt to respond to virtually any situation. Once per round as a swift action, a barathu can reshape its body and adjust its chemistry to adopt one of the following qualities. A barathu can have only one adaptation in effect at a time; a new adaptation replaces any other in effect. More extreme adaptations are also possible (at the GM’s discretion) but could take days to adopt.\nThe barathu adds an additional amount of damage on melee attacks equal to twice its Strength modifier.\nIt gains a +4 racial bonus to Armor Class.\nSturdy lower limbs grant it a base speed of 20 feet.\nRigid plates grant it DR 2/—.\nIt gains a ranged attack with a low attack bonus appropriate for its CR (+10 for most barathus) that deals bludgeoning damage appropriate for its CR (1d6+5 for most barathus) and has a range increment of 60 feet.\nMolecular modifications grant it resistance 5 against a single energy type (acid, cold, electricity, fire, or sonic).\nIts reach increases to 15 feet."
+    },
+    {
+      "name": "Combine (Ex)",
+      "description": "Barathus can combine to work together as parts of a larger organism. As a swift action, a barathu adjacent to another barathu can merge with it, becoming a single creature occupying both barathus’ spaces. The merging barathu can no longer take actions, and it adds its current Hit Points to the new creature’s collective total. For every four component creatures, the combined creature’s size category increases by one. At this time, it also chooses one adaptation. The combined creature gains this adaption and cannot change it unless the combined creature uses its adaptation ability to do so. Any number of barathus can merge in this fashion, but each adaptation can be gained only once (though resistances to multiple energy types are allowed). The combined creature retains the ability to swap one adaptation each round (not once per component creature). The combined creature can split into its component creatures as a full action; the combined creature’s remaining Hit Points are divided evenly among all component creatures. For the purposes of CR-related effects, the CR of the combined creature is equal to the CR of the component creature with the highest CR."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBarathu\nSource\nAlien Archive pg. 20\nBarathus are the sentient apex of Bretheda’s gas-giant ecosystem, blimp-like creatures vaguely reminiscent of jellyfish, with several unusual evolutionary adaptations. The first is their ability to rewrite their own genetic code instinctively and at will, adjusting their own biology to allow them to manufacture a huge array of substances—and even advanced biotechnology— within the crucibles of their own bodies. Yet while this ability makes them quite successful in the Pact Worlds economy, and has deeply influenced their culture’s understanding of wealth and trade, their more notable adaptation is the ability to combine with others of their kind into larger, hive-minded superentities. These mergings create not merely amalgams of their component beings, but entirely new entities with unique and independent consciousnesses, yet which in turn often disband back into their component individuals after a particular need or threat has passed.\nBarathu culture tends to be easygoing but hard for some other races to understand, as the barathus’ frequent merging makes the concept of “self” somewhat nebulous to them. Young barathus who grow up surrounded by humanoids are an exception, as they are better able to appreciate the mindsets of creatures who exist in static, solitary configurations. Compared to older barathus, early stage barathus are more adventurous and individualistic, and their adaptation to the humanoid mindset makes it more difficult for them to merge completely with others of their kind. Most of these early stage barathus grow out of this phase, gaining the ability to fully integrate with others, yet recent generations have seen more and more barathus deliberately clinging to their juvenile mindsets. While plenty of barathus remain discrete entities for most of their lives, barathus nearing the ends of their lives often merge with massive, permanent combinatory entities that serve as corporations, governments, or cultural repositories.\nAliens in the \"Barathu\" Family\nName\nCR\nBarathu\n5\nBarathu (Early Stage)\n2\nBarathu\nSource\nAlien Archive pg. 20\nBarathu CR 5\nXP 1,600\nLN Large aberration\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n65\nEAC\n17;\nKAC\n18\nFort\n+4;\nRef\n+4;\nWill\n+10\nDefensive Abilities\namorphous\nOffense\nSpeed\nfly 30 ft. (Ex, perfect)\nMelee\nslam +12 (1d4+6 B)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+3;\nINT\n+2;\nWIS\n+5;\nCHA\n+0\nSkills\nAcrobatics +17, Diplomacy +12, Life Science +12, Sense Motive +17\nLanguages\nBrethedan, Common; telepathy 100 ft.\nOther Abilities\nadaptation, combine\nEcology\nEnvironment\nany sky (Bretheda)\nOrganization\nsolitary or herd (2–5 plus 4–12 early stage barathus)\nSpecial Abilities\nAdaptation (Ex)\nA barathu’s body is extremely mutable and can adapt to respond to virtually any situation. Once per round as a swift action, a barathu can reshape its body and adjust its chemistry to adopt one of the following qualities. A barathu can have only one adaptation in effect at a time; a new adaptation replaces any other in effect. More extreme adaptations are also possible (at the GM’s discretion) but could take days to adopt.\nThe barathu adds an additional amount of damage on melee attacks equal to twice its Strength modifier.\nIt gains a +4 racial bonus to Armor Class.\nSturdy lower limbs grant it a base speed of 20 feet.\nRigid plates grant it DR 2/—.\nIt gains a ranged attack with a low attack bonus appropriate for its CR (+10 for most barathus) that deals bludgeoning damage appropriate for its CR (1d6+5 for most barathus) and has a range increment of 60 feet.\nMolecular modifications grant it resistance 5 against a single energy type (acid, cold, electricity, fire, or sonic).\nIts reach increases to 15 feet.\nCombine (Ex)\nBarathus can combine to work together as parts of a larger organism. As a swift action, a barathu adjacent to another barathu can merge with it, becoming a single creature occupying both barathus’ spaces. The merging barathu can no longer take actions, and it adds its current Hit Points to the new creature’s collective total. For every four component creatures, the combined creature’s size category increases by one. At this time, it also chooses one adaptation. The combined creature gains this adaption and cannot change it unless the combined creature uses its adaptation ability to do so. Any number of barathus can merge in this fashion, but each adaptation can be gained only once (though resistances to multiple energy types are allowed). The combined creature retains the ability to swap one adaptation each round (not once per component creature). The combined creature can split into its component creatures as a full action; the combined creature’s remaining Hit Points are divided evenly among all component creatures. For the purposes of CR-related effects, the CR of the combined creature is equal to the CR of the component creature with the highest CR.",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Barathu.png"
+}

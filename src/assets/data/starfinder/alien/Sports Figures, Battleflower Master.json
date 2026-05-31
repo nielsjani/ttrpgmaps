@@ -1,0 +1,46 @@
+{
+  "name": "Sports Figures, Battleflower Master",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Battleflower Master&Family=Sports Figures",
+  "source": "Interstellar Species pg. 179",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (ryphorian)",
+  "init": "+10",
+  "senses": "low-light vision;",
+  "perception": "+33",
+  "hp": "300",
+  "eac": "30",
+  "kac": "32",
+  "fort": "+18",
+  "ref": "+20",
+  "will": "+14",
+  "resistances": "cold 2, fire 2",
+  "speed": "30 ft.",
+  "melee": "zero-edge battle ribbon +30 (5d8+23 S; critical severe wound) or unarmed strike +30 (6d10+23 B plus grab)",
+  "offensive_abilities": "working the crowd",
+  "ability_scores": {
+    "str": "+7",
+    "dex": "+10",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +28, Athletics +28, Profession (dancer) +33",
+  "feats": "Improved Combat Maneuver (grapple)",
+  "languages": "Common, Triaxian",
+  "gear": "elite defrex hide, elite irising shield, zero-edge battle ribbon",
+  "special_abilities": [
+    {
+      "name": "Working the Crowd (Ex)",
+      "description": "While a battleflower master is fighting in front of two or more noncombatants, whenever they successfully grapple an opponent or hit an opponent with a weapon with the Profession (dancer) weapon special property, they can attempt a Profession (dancer) check with the same DC as a check to demoralize that enemy (as the Intimidate skill) as a swift action. If the grapple attempt or attack roll is a natural 20, the battleflower master can roll twice on the demoralize attempt and take the higher roll. This is an emotion and fear effect."
+    }
+  ],
+  "description": "The battleflowers of Ning are among the most famed martial artists within the Pact Worlds. Their rigorous training regimen incorporates multiple styles from across the galaxy and celebrates innovation, as long as it contributes to the greater culture of elaborate ritual combats for the entertainment of massive, dedicated crowds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSports Figures\nSource\nInterstellar Species pg. 179\nAcross the universe, sapient species have independently discovered the societal benefits of friendly (and not-so-friendly) competition—as well as the fame and fortune that can be made by widely broadcasting such competitions to die-hard fans. While some cultures thrive on intellectual games of skill and strategy, others revel in fast-paced displays of martial might, brute strength, or deadly struggle. No matter the culture, those who succeed in these displays of wit and brawn can amass quite a bit of wealth, cultural clout, and even interplanetary notoriety.\nSports figures are direct and to-the-point combatants with a focus on physicality, dexterity, or brute force, and they can easily serve in any role where violence is a means to an end. Re-skinned sports figures might serve as flashy mercenaries, daring pirates, specially trained guards, or hired muscle.\nAliens in the \"Sports Figures\" Family\nName\nCR\nBattleflower Master\n16\nBrutaris Lock-back\n10\nMagical Duelist\n6\nParabolas Revivalist\n2\nSports Figures, Battleflower Master\nSource\nInterstellar Species pg. 179\nBattleflower Master CR 16\nXP 76,800\nTransitional ryphorian\nLN Medium humanoid (ryphorian)\nInit\n+10;\nSenses\nlow-light vision;\nPerception\n+33\nDefense\nHP\n300\nEAC\n30;\nKAC\n32\nFort\n+18;\nRef\n+20;\nWill\n+14\nDefensive Abilities\ntrimorphic;\nResistances\ncold 2, fire 2\nOffense\nSpeed\n30 ft.\nMelee\nzero-edge battle ribbon +30 (5d8+23 S; critical severe wound) or unarmed strike +30 (6d10+23 B plus grab)\nOffensive Abilities\nworking the crowd\nStatistics\nSTR\n+7;\nDEX\n+10;\nCON\n+0;\nINT\n+0;\nWIS\n+0;\nCHA\n+5\nFeats\nImproved Combat Maneuver (grapple)\nSkills\nAcrobatics +28, Athletics +28, Profession (dancer) +33\nLanguages\nCommon, Triaxian\nGear\nelite defrex hide, elite irising shield, zero-edge battle ribbon\nSpecial Abilities\nWorking the Crowd (Ex)\nWhile a battleflower master is fighting in front of two or more noncombatants, whenever they successfully grapple an opponent or hit an opponent with a weapon with the Profession (dancer) weapon special property, they can attempt a Profession (dancer) check with the same DC as a check to demoralize that enemy (as the Intimidate skill) as a swift action. If the grapple attempt or attack roll is a natural 20, the battleflower master can roll twice on the demoralize attempt and take the higher roll. This is an emotion and fear effect.\nDescription\nThe battleflowers of Ning are among the most famed martial artists within the Pact Worlds. Their rigorous training regimen incorporates multiple styles from across the galaxy and celebrates innovation, as long as it contributes to the greater culture of elaborate ritual combats for the entertainment of massive, dedicated crowds.",
+  "type": "humanoid (ryphorian)",
+  "environment": "—",
+  "category": "alien"
+}

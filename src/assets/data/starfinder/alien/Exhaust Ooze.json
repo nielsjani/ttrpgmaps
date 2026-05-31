@@ -1,0 +1,57 @@
+{
+  "name": "Exhaust Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Exhaust Ooze&Family=None",
+  "source": "Starfinder #32: The Starstone Blockade pg. 57",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "ooze (air)",
+  "init": "+11",
+  "senses": "blindsight (heat) 120 ft., sightless;",
+  "perception": "+31",
+  "hp": "375",
+  "eac": "32",
+  "kac": "34",
+  "fort": "+21",
+  "ref": "+17",
+  "will": "+14",
+  "immunities": "electricity, fire, ooze immunities",
+  "weaknesses": "cold",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "slam +29 (13d6+24 B)",
+  "ranged": "noxious torrent +32 (8d10+18 B plus noxious fumes)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "engulf (13d6+24 B plus noxious fumes, DC 25), suffocating presence",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+11",
+    "con": "+8",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +31 (+39 when flying), Stealth +36",
+  "other_abilities": "blend with atmosphere, compression, mindless",
+  "environment": "any urban",
+  "organization": "solitary, pair, or wash (3-5)",
+  "special_abilities": [
+    {
+      "name": "Blend with Atmosphere (Ex)",
+      "description": "An exhaust ooze is composed of transparent gas. While in an atmosphere, it can use Stealth to hide as part of a move action without the need for cover or concealment, and it takes no penalty to Stealth while moving at greater than half speed. As a standard action, the ooze can blend in with its environment, gaining a +10 bonus to Stealth until the beginning of its next turn."
+    },
+    {
+      "name": "Noxious Torrent (Ex)",
+      "description": "An exhaust ooze can batter its prey with a torrent of foul gas. A creature struck by this attack is exposed to the ooze’s noxious fumes as if they had entered an area containing the poison. This attack is difficult to see—although the target is automatically aware of it, other observers must succeed at a DC 25 Perception check to also be aware of it. Anyone aware of the attack is also aware of the ooze’s presence and can sense from which direction the attack came, but is not aware of the ooze’s location without a successful Perception check; they gain a +5 bonus to this check."
+    },
+    {
+      "name": "Suffocating Presence (Su)",
+      "description": "An exhaust ooze can seep into the smallest of openings. The environmental protections of armor and space suits do not protect against the suffocating effects of the ooze’s engulf ability unless the environmental protections come from an item of higher level than the ooze.\nNoxious Fumes\nType\npoison (inhaled);\nSave\nFortitude DC 25\nTrack\nWisdom (special);\nFrequency\n1/round for 6 rounds\nEffect\nHealthy—Weakened—Impaired—Confused—Comatose; no end state\nCure\n1 save"
+    }
+  ],
+  "description": "Nearly invisible blobs of noxious gas, exhaust oozes live in the warm toxic output of industrial machinery and large vehicles. Although often content to feed on the heat of these machines, exhaust oozes are drawn to the warmth and expelled byproducts of breathing creatures, seeking such meals whenever available. When hunting living creatures, the exhaust ooze uses its natural camouflage to stalk and engulf its isolated prey.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nExhaust Ooze\nSource\nStarfinder #32: The Starstone Blockade pg. 57\nExhaust Ooze CR 18\nXP 153,600\nN Large ooze (air)\nInit\n+11;\nSenses\nblindsight (heat) 120 ft., sightless;\nPerception\n+31\nDefense\nHP\n375\nEAC\n32;\nKAC\n34\nFort\n+21;\nRef\n+17;\nWill\n+14\nImmunities\nelectricity, fire, ooze immunities\nWeaknesses\ncold\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\nslam +29 (13d6+24 B)\nRanged\nnoxious torrent +32 (8d10+18 B plus noxious fumes)\nSpace\n10 ft.;\nReach\n5 ft.\nOffensive Abilities\nengulf (13d6+24 B plus noxious fumes, DC 25), suffocating presence\nStatistics\nSTR\n+6;\nDEX\n+11;\nCON\n+8;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +31 (+39 when flying), Stealth +36\nOther Abilities\nblend with atmosphere, compression, mindless\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or wash (3-5)\nSpecial Abilities\nBlend with Atmosphere (Ex)\nAn exhaust ooze is composed of transparent gas. While in an atmosphere, it can use Stealth to hide as part of a move action without the need for cover or concealment, and it takes no penalty to Stealth while moving at greater than half speed. As a standard action, the ooze can blend in with its environment, gaining a +10 bonus to Stealth until the beginning of its next turn.\nNoxious Torrent (Ex)\nAn exhaust ooze can batter its prey with a torrent of foul gas. A creature struck by this attack is exposed to the ooze’s noxious fumes as if they had entered an area containing the poison. This attack is difficult to see—although the target is automatically aware of it, other observers must succeed at a DC 25 Perception check to also be aware of it. Anyone aware of the attack is also aware of the ooze’s presence and can sense from which direction the attack came, but is not aware of the ooze’s location without a successful Perception check; they gain a +5 bonus to this check.\nSuffocating Presence (Su)\nAn exhaust ooze can seep into the smallest of openings. The environmental protections of armor and space suits do not protect against the suffocating effects of the ooze’s engulf ability unless the environmental protections come from an item of higher level than the ooze.\nNoxious Fumes\nType\npoison (inhaled);\nSave\nFortitude DC 25\nTrack\nWisdom (special);\nFrequency\n1/round for 6 rounds\nEffect\nHealthy—Weakened—Impaired—Confused—Comatose; no end state\nCure\n1 save\nDescription\nNearly invisible blobs of noxious gas, exhaust oozes live in the warm toxic output of industrial machinery and large vehicles. Although often content to feed on the heat of these machines, exhaust oozes are drawn to the warmth and expelled byproducts of breathing creatures, seeking such meals whenever available. When hunting living creatures, the exhaust ooze uses its natural camouflage to stalk and engulf its isolated prey.",
+  "type": "ooze (air)",
+  "category": "alien"
+}

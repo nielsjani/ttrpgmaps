@@ -1,0 +1,50 @@
+{
+  "name": "Hellhound, Ravager",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ravager&Family=Hellhound",
+  "source": "Starfinder #47: Nightmare Scenario pg. 59",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil)",
+  "init": "+4",
+  "senses": "see in darkness;",
+  "perception": "+10",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+15",
+  "ref": "+14",
+  "will": "+11",
+  "immunities": "fire, poison;",
+  "resistances": "acid 15, cold 15, electricity 15",
+  "speed": "40 ft.",
+  "melee": "bite +25 (6d4+20 P)",
+  "offensive_abilities": "breath weapon (30-ft. cone, 13d6 C, E, or F, Reflex DC 19 half, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "+5",
+    "int": "+3",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +27, Mysticism +22, Stealth +22, Survival +22, Sense Motive +27",
+  "languages": "Infernal (can’t speak); telepathy 120 ft.",
+  "other_abilities": "three heads",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Magma Shell (Su)",
+      "description": "Molten rock oozes from a hellhound ravager’s pores, encasing them in a layer of magma. As a reaction when the hellhound ravager is hit with an attack or fails a Reflex save from a damaging effect, the hellhound can harden this ooze into a protective shell that reflects harm. The hellhound takes half damage from the triggering attack or effect. In addition, creatures within 10 feet of the hellhound ravager take an equal amount of damage of the same type (Reflex DC 19 half)."
+    },
+    {
+      "name": "Three Heads (Ex)",
+      "description": "Hellhound ravagers have three heads; one breathes cold, one breathes electricity, and one breathes fire. The hellhound ravager can use their breath weapon only once every 1d4 rounds, but they can use any of their heads to do so, dealing the appropriate damage type."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHellhound\nSource\nStarfinder #47: Nightmare Scenario pg. 59\nFavored companions of powerful hellknights and diabolists, hellhounds are loyal pack hunters that stalk the infernal plane of Hell. Though vaguely canine in appearance, hellhounds aren’t really dogs or wolves. Often, a mortal or infernal master augments a hellhound servant with cybernetic grafts.\nAliens in the \"Hellhound\" Family\nName\nCR\nHellhound\n3\nRavager\n12\nHellhound, Ravager\nSource\nStarfinder #47: Nightmare Scenario pg. 59\nRavager CR 12\nXP 19,200\nLE Medium outsider (devil)\nInit\n+4;\nSenses\nsee in darkness;\nPerception\n+10\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+15;\nRef\n+14;\nWill\n+11\nDefensive Abilities\nmagma shell;\nImmunities\nfire, poison;\nResistances\nacid 15, cold 15, electricity 15\nOffense\nSpeed\n40 ft.\nMelee\nbite +25 (6d4+20 P)\nMultiattack\n3 bites +19 (3d6+20 P)\nOffensive Abilities\nbreath weapon (30-ft. cone, 13d6 C, E, or F, Reflex DC 19 half, usable every 1d4 rounds)\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n+5;\nINT\n+3;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +27, Mysticism +22, Stealth +22, Survival +22, Sense Motive +27\nLanguages\nInfernal (can’t speak); telepathy 120 ft.\nOther Abilities\nthree heads\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nMagma Shell (Su)\nMolten rock oozes from a hellhound ravager’s pores, encasing them in a layer of magma. As a reaction when the hellhound ravager is hit with an attack or fails a Reflex save from a damaging effect, the hellhound can harden this ooze into a protective shell that reflects harm. The hellhound takes half damage from the triggering attack or effect. In addition, creatures within 10 feet of the hellhound ravager take an equal amount of damage of the same type (Reflex DC 19 half).\nThree Heads (Ex)\nHellhound ravagers have three heads; one breathes cold, one breathes electricity, and one breathes fire. The hellhound ravager can use their breath weapon only once every 1d4 rounds, but they can use any of their heads to do so, dealing the appropriate damage type.",
+  "type": "outsider (devil)",
+  "category": "alien"
+}

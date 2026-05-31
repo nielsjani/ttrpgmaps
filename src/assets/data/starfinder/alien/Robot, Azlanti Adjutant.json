@@ -1,0 +1,52 @@
+{
+  "name": "Robot, Azlanti Adjutant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Azlanti Adjutant&Family=Robot",
+  "source": "Alien Archive 2 pg. 108",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "42",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+0",
+  "immunities": "construct immunities",
+  "speed": "30 ft.",
+  "melee": "slam +9 (1d6+5 B)",
+  "ranged": "integrated azimuth laser rifle +12 (1d8+3 F)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +8, Culture +8, Sense Motive +13",
+  "languages": "Azlanti",
+  "other_abilities": "unliving",
+  "gear": "azimuth laser rifle with 2 batteries (20 charges each), slotted",
+  "environment": "any (Azlanti Star Empire)",
+  "organization": "solitary or complement (2–6)",
+  "special_abilities": [
+    {
+      "name": "Aeon Slot (Su)",
+      "description": "The body of every Azlanti adjutant robot contains a slot to house a single\naeon stone\n, usually in the center of its faceplate. A slotted\naeon stone\ndoesn’t provide its usual bonus, but instead gives the robot a bonus equal to half the\naeon stone\n’s level (minimum +1) to saving throws against effects that deal energy damage and effects that specifically target constructs or electronic systems. As a standard action, the robot can burn out the slotted aeon stone to recover a number of Hit Points equal to 5 times the\naeon stone\n’s level. An\naeon stone\nburned out in this way is forever nonmagical and does not provide this or any other robot with any bonus to saving throws. Removing or slotting an\naeon stone\ninto an Azlanti adjutant robot is a full action."
+    },
+    {
+      "name": "Integrated Weapons (Ex)",
+      "description": "An Azlanti adjutant robot’s rifle is integrated into its frame and can’t be disarmed."
+    }
+  ],
+  "description": "Designed and manufactured long ago by a technomagical robotics firm loyal to the Aeon Throne, adjutant robots are ideal assistants for busy officers: in addition to serving as scribes, valets, and social secretaries, the robots make rapid strategic calculations to aid real-time combat decisions. Centuries ago, when the Aeon Throne mandated the presence of an adjutant robot on all large starships and in every military engagement, most officers were pleased with the aid.\nShortly afterward, rumors began to circulate that the imperially mandated robots were not mere helpers, but spies for the Aeon Throne, recording and transmitting information about their assigned officers to loyalty evaluators. Growing suspicious, many officers began circumventing their adjutant robots when possible. More canny officers reprogrammed their robots to submit only reports favorable to themselves— and unfavorable to their rivals. Why the Aeon Throne ceased assigning these robots is information lost in the Gap, but the Star Empire hasn’t manufactured a new one in centuries. Some adjutant robots still operate at the fringes of the Azlanti Star Empire, either maintaining their old vigils or assisting— and still transmitting information on—descendants of remote planetary governors.\nAlthough housing designs of adjutant robots differ, most are humanoid, with four arms able to handle multiple physical tasks simultaneously. Designed to be useful on the battlefield, adjutant robots carry an integrated weapon, have an aeon slot for magical protection, and have tracked wheels instead of feet to handle rugged terrain.",
+  "extra_content": "The following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot\nSource\nAlien Archive 2 pg. 108\nRobots serve a variety of functions. They’re often employed in situations where the risks to living beings are too great or emotional responses are a hindrance—notably murder and war.\nAssassin robots are killing machines useful for stealthy slayings or gruesome public displays. A user can program targets into the robot, dispatch the unit, and rest assured. The robot relentlessly pursues its quarry, fearing nothing and using microfiber setae on its hands and feet to traverse vertical and horizontal surfaces with ease. Whether it succeeds, fails, escapes, or suffers destruction, the robot leaves little evidence behind—an assassin robot that is captured or destroyed automatically purges its memory and burns out its sensitive hardware components, making tracing the robot’s mission and origin extremely difficult.\nTypical assassin robots are 6 feet tall, weigh 300 pounds, and use the weapons detailed in the stat block on page 108, but they can be outfitted with other armaments as a mission requires. In particular, assassin robots on missions where more subtlety is called for use needler pistols stocked with poisoned darts.\nThere is nothing subtle, however, about a siege robot. These machines serve as artificially intelligent assault vehicles, and many rightly fear these engines of war. Merciless and efficient, a siege robot is as effective at unloading massive damage against a single target as it is at mowing down enemy troops en masse, and its vehicle form makes it difficult to escape from on an open battlefield. Most siege robots are outfitted with large reserves of ammunition, enough to sustain a constant barrage for minutes at a time.\nSiege Robots As Vehicles\nA siege robot can be used as a vehicle in vehicle combat or vehicle chases. In such cases it acts as its own pilot and has the following additional statistics: item level equal to its CR; drive speed 60 ft., full speed 500 ft., overland speed 60 mph, (hover); hardness 8; collision damage 16d10 B (DC 19); –3 attack roll penalty (–6 at full speed). A siege robot acting as a vehicle can carry up to 4 Medium passengers but provides them no cover.\nAliens in the \"Robot\" Family\nName\nCR\nAssassin Robot\n9\nAzlanti Adjutant\n3\nAzlanti Battle Robot\n6\nGuardian Robot\n5\nIncapacitator\n3\nKeeper Robot\n18\nMining\n9\nSiege Robot\n15\nTerminator-Class Security\n10\nRobot, Azlanti Adjutant\nSource\nStarfinder #7: The Reach of Empire pg. 59\nAzlanti Adjutant CR 3\nXP 800\nN Medium construct (magical)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n42\nEAC\n14;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+0\nDefensive Abilities\naeon slot (+1, 10 HP), integrated weapons;\nImmunities\nconstruct immunities\nOffense\nSpeed\n30 ft.\nMelee\nslam +9 (1d6+5 B)\nRanged\nintegrated azimuth laser rifle +12 (1d8+3 F)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +8, Culture +8, Sense Motive +13\nLanguages\nAzlanti\nOther Abilities\nunliving\nGear\nazimuth laser rifle with 2 batteries (20 charges each), slotted\niridescent spindle aeon stone\nEcology\nEnvironment\nany (Azlanti Star Empire)\nOrganization\nsolitary or complement (2–6)\nSpecial Abilities\nAeon Slot (Su)\nThe body of every Azlanti adjutant robot contains a slot to house a single\naeon stone\n, usually in the center of its faceplate. A slotted\naeon stone\ndoesn’t provide its usual bonus, but instead gives the robot a bonus equal to half the\naeon stone\n’s level (minimum +1) to saving throws against effects that deal energy damage and effects that specifically target constructs or electronic systems. As a standard action, the robot can burn out the slotted aeon stone to recover a number of Hit Points equal to 5 times the\naeon stone\n’s level. An\naeon stone\nburned out in this way is forever nonmagical and does not provide this or any other robot with any bonus to saving throws. Removing or slotting an\naeon stone\ninto an Azlanti adjutant robot is a full action.\nIntegrated Weapons (Ex)\nAn Azlanti adjutant robot’s rifle is integrated into its frame and can’t be disarmed.\nDescription\nDesigned and manufactured long ago by a technomagical robotics firm loyal to the Aeon Throne, adjutant robots are ideal assistants for busy officers: in addition to serving as scribes, valets, and social secretaries, the robots make rapid strategic calculations to aid real-time combat decisions. Centuries ago, when the Aeon Throne mandated the presence of an adjutant robot on all large starships and in every military engagement, most officers were pleased with the aid.\nShortly afterward, rumors began to circulate that the imperially mandated robots were not mere helpers, but spies for the Aeon Throne, recording and transmitting information about their assigned officers to loyalty evaluators. Growing suspicious, many officers began circumventing their adjutant robots when possible. More canny officers reprogrammed their robots to submit only reports favorable to themselves— and unfavorable to their rivals. Why the Aeon Throne ceased assigning these robots is information lost in the Gap, but the Star Empire hasn’t manufactured a new one in centuries. Some adjutant robots still operate at the fringes of the Azlanti Star Empire, either maintaining their old vigils or assisting— and still transmitting information on—descendants of remote planetary governors.\nAlthough housing designs of adjutant robots differ, most are humanoid, with four arms able to handle multiple physical tasks simultaneously. Designed to be useful on the battlefield, adjutant robots carry an integrated weapon, have an aeon slot for magical protection, and have tracked wheels instead of feet to handle rugged terrain.\nExtra Content\nThe following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "type": "construct (magical)",
+  "category": "alien"
+}

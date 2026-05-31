@@ -1,0 +1,51 @@
+{
+  "name": "Salamander",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Salamander&Family=None",
+  "source": "Starfinder #14: Soldiers of Brass pg. 60",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, fire)",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+5",
+  "dr": "5/magic",
+  "immunities": "fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "20 ft.",
+  "melee": "tactical pike multitool +17 (1d8+9 B, P, or S) or tail slap +17 (1d8+9 B & F plus grab; critical burn 1d6)",
+  "ranged": "static arc rifle +15 (1d12+6 E; critical arc 1d6)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tail)",
+  "offensive_abilities": "elemental fire",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+1",
+    "con": "+5",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Engineering +18, Intimidate +13, Stealth +13",
+  "languages": "Common, Ignan",
+  "gear": "freebooter armor II, tactical pike multitool with 1 battery (20 charges), static arc rifle with 2 high-capacity batteries (40 charges each)",
+  "environment": "any warm (Plane of Fire)",
+  "organization": "solitary, pair, or cluster (3–6)",
+  "special_abilities": [
+    {
+      "name": "Elemental Fire (Su)",
+      "description": "Salamanders can cause any weapon they wield to deal half its damage as fire damage, and to become lethal and non-archaic. If the weapon already deals two damage types, this effect replaces one with fire. In addition, salamanders can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the salamander chooses only one to apply on a critical hit."
+    }
+  ],
+  "description": "A warlike and tech-minded species native to the Plane of Fire, salamanders dwell in fortresses along the coasts of that plane. Other creatures, such as efreet, prize them as crafters and warriors. Mercenary salamanders find work across the planes. Mortal mages call salamanders to the Material Plane for their services. The creatures can also slip into the Material Plane where fire or heat is prevalent. A few geothermic or hothouse worlds have small salamander colonies.\nSALAMANDER MULTITOOLS\nSalamanders construct nanotech-infused melee weapons they call multitools. Such devices are based on analog melee weapons, but the modification gives them the powered special property (capacity 20, usage 1/day). Heat can’t damage these implements. When wielding a multitool, the wielder can choose to deal bludgeoning, piercing, or slashing damage, switching damage types as quickly as they could draw a weapon. As a standard action, a multitool can be reconfigured to function as an engineering tool kit or specialty tool kit. Making an analog melee weapon into a multitool costs 500 credits, or 1,200 credits if the tool includes a specialty tool kit. If unpowered, the weapon still functions as its analog counterpart but imparts none of its multitool capabilities.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSalamander\nSource\nStarfinder #14: Soldiers of Brass pg. 60\nSalamander CR 6\nXP 2,400\nNE Medium outsider (extraplanar, fire)\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+8;\nWill\n+5\nDR\n5/magic;\nImmunities\nfire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n20 ft.\nMelee\ntactical pike multitool +17 (1d8+9 B, P, or S) or tail slap +17 (1d8+9 B & F plus grab; critical burn 1d6)\nRanged\nstatic arc rifle +15 (1d12+6 E; critical arc 1d6)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tail)\nOffensive Abilities\nelemental fire\nStatistics\nSTR\n+3;\nDEX\n+1;\nCON\n+5;\nINT\n+1;\nWIS\n+0;\nCHA\n+1\nSkills\nEngineering +18, Intimidate +13, Stealth +13\nLanguages\nCommon, Ignan\nGear\nfreebooter armor II, tactical pike multitool with 1 battery (20 charges), static arc rifle with 2 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany warm (Plane of Fire)\nOrganization\nsolitary, pair, or cluster (3–6)\nSpecial Abilities\nElemental Fire (Su)\nSalamanders can cause any weapon they wield to deal half its damage as fire damage, and to become lethal and non-archaic. If the weapon already deals two damage types, this effect replaces one with fire. In addition, salamanders can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the salamander chooses only one to apply on a critical hit.\nDescription\nA warlike and tech-minded species native to the Plane of Fire, salamanders dwell in fortresses along the coasts of that plane. Other creatures, such as efreet, prize them as crafters and warriors. Mercenary salamanders find work across the planes. Mortal mages call salamanders to the Material Plane for their services. The creatures can also slip into the Material Plane where fire or heat is prevalent. A few geothermic or hothouse worlds have small salamander colonies.\nSALAMANDER MULTITOOLS\nSalamanders construct nanotech-infused melee weapons they call multitools. Such devices are based on analog melee weapons, but the modification gives them the powered special property (capacity 20, usage 1/day). Heat can’t damage these implements. When wielding a multitool, the wielder can choose to deal bludgeoning, piercing, or slashing damage, switching damage types as quickly as they could draw a weapon. As a standard action, a multitool can be reconfigured to function as an engineering tool kit or specialty tool kit. Making an analog melee weapon into a multitool costs 500 credits, or 1,200 credits if the tool includes a specialty tool kit. If unpowered, the weapon still functions as its analog counterpart but imparts none of its multitool capabilities.",
+  "type": "outsider (extraplanar, fire)",
+  "category": "alien"
+}

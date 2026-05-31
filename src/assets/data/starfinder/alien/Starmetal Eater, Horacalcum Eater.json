@@ -1,0 +1,49 @@
+{
+  "name": "Starmetal Eater, Horacalcum Eater",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Horacalcum Eater&Family=Starmetal Eater",
+  "source": "Alien Archive 4 pg. 116",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "ooze",
+  "init": "+10",
+  "senses": "blindsense (scent [horacalcum only]) 1 mile, blindsight (vibration) 60 ft., sightless;",
+  "perception": "+23",
+  "hp": "230",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+13",
+  "will": "+10",
+  "immunities": "ooze immunities, staggered",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +26 (3d12+21 B plus temporal stutter; critical stunned)",
+  "offensive_abilities": "temporal stutter",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "+6",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +28",
+  "other_abilities": "mindless",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Temporal Dilation (Ex)",
+      "description": "A horacalcum eater slows incoming projectiles, and ranged attacks against it have a 20% chance of missing."
+    },
+    {
+      "name": "Temporal Stutter (Su)",
+      "description": "A creature struck by a horacalcum eater is staggered for 1 round (Fortitude DC 19 negates). If the target succeeds at the save, it instead gains a +10- foot enhancement bonus to each of its movement speeds for 1 round. A creature struck multiple times can be both staggered and accelerated by a horacalcum eater."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nHoracalcum Eater (Starmetal Eater) Graft Template\n-\nInubrix Eater (Starmetal Eater) Graft Template\n-\nNoqual Eater (Starmetal Eater) Graft Template\n-\nSiccatite Eater (Starmetal Eater) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStarmetal Eater\nSource\nAlien Archive 4 pg. 116\nStrange protoplasmic pests that subsist on the rarest of metals, starmetal eaters usually remain microscopic and innocuous. Yet when these creatures gorge themselves on a rich vein of naturally occurring starmetal or even items made of starmetal alloy—either of which they can detect at great distances—they experience a swift growth spurt and can reach several feet in diameter. Each starmetal eater fixates its diet on one specific type of starmetal, gaining strange abilities as its appearance and essence are suffused with its metal of choice.\nAliens in the \"Starmetal Eater\" Family\nName\nCR\nAbysium Eater\n5\nHoracalcum Eater\n13\nStarmetal Eater, Horacalcum Eater\nSource\nAlien Archive 4 pg. 116\nHoracalcum Eater CR 13\nXP 25,600\nN Medium ooze\nInit\n+10;\nSenses\nblindsense (scent [horacalcum only]) 1 mile, blindsight (vibration) 60 ft., sightless;\nPerception\n+23\nDefense\nHP\n230\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+13;\nWill\n+10\nDefensive Abilities\ntemporal dilation;\nImmunities\nooze immunities, staggered\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +26 (3d12+21 B plus temporal stutter; critical stunned)\nOffensive Abilities\ntemporal stutter\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n+6;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +28\nOther Abilities\nmindless\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nTemporal Dilation (Ex)\nA horacalcum eater slows incoming projectiles, and ranged attacks against it have a 20% chance of missing.\nTemporal Stutter (Su)\nA creature struck by a horacalcum eater is staggered for 1 round (Fortitude DC 19 negates). If the target succeeds at the save, it instead gains a +10- foot enhancement bonus to each of its movement speeds for 1 round. A creature struck multiple times can be both staggered and accelerated by a horacalcum eater.\nExtra Content\nThe following extra content was found for this creature:\n-\nHoracalcum Eater (Starmetal Eater) Graft Template\n-\nInubrix Eater (Starmetal Eater) Graft Template\n-\nNoqual Eater (Starmetal Eater) Graft Template\n-\nSiccatite Eater (Starmetal Eater) Graft Template",
+  "type": "ooze",
+  "category": "alien"
+}

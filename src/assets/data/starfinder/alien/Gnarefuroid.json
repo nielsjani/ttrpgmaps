@@ -1,0 +1,56 @@
+{
+  "name": "Gnarefuroid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gnarefuroid&Family=None",
+  "source": "Mechageddon! pg. 162",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Gargantuan",
+  "creature_type": "aberation",
+  "init": "+3",
+  "senses": "darkvision 120 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+9",
+  "will": "+14",
+  "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+  "melee": "slam +22 (2d10+18 A&B plus vile residue [DC 17])",
+  "ranged": "gunk spray +19 (2d10+10 A&P plus vile residue) or pustule +19 (explode [15 ft., 2d8 A plus vile residue])",
+  "space": "20 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "engulf (3d4+18 A & B plus vile residue, DC 17)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-2",
+    "wis": "+3",
+    "cha": "-2"
+  },
+  "skills": "Athletics +24, Stealth +19 (+24 when in junkyards or landfills)",
+  "languages": "Aklo (can’t speak); limited telepathy 60 ft.",
+  "other_abilities": "compression",
+  "environment": "any urban",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Gunk Spray (Ex)",
+      "description": "As a ranged attack, a gnarefuroid shoots a glob of residue mixed with detritus from their shell with a 80-foot range increment."
+    },
+    {
+      "name": "Pustule (Ex)",
+      "description": "As a full action, a gnarefuroid detaches a volatile pustule from their outer membrane and hurls it up to 120 feet, where it detonates like a grenade."
+    },
+    {
+      "name": "Vile Residue (Ex)",
+      "description": "A gnarefuroid’s outer membrane exudes a caustic, sticky residue that binds their external shell and pre-digests their food. All the gnarefuroid’s melee and ranged attacks have the entangle weapon special property, requiring a DC 23 Acrobatics check or a DC 28 Strength check to escape. Any creature entangled by the residue takes 2d4 acid damage per round, and is exposed to filth fever (Core Rulebook 418, DC 17). The protection provided by a mech prevents exposure, but any mech entangled by the residue must spend 1 additional PP to use any special ability. The residue dissolves after 2d4 rounds."
+    }
+  ],
+  "description": "Considered to be the highest forms of junkyard life, gnarefuroids resemble gigantic inverted sea stars encased in shells of mismatched debris. The asymmetrical topography of their scrap shells provides gaps for their hundreds of sensory tentacles to poke out, each one lined with specialized organs for seeing, smelling, tasting, hearing, or manipulating objects. A gnarefuroid moves via a system of hydraulics, powered by their own mucus residue mixed with a sludge of chemicals and waste accumulated from the surrounding environment. Gnarefuroids might be mistaken for a roiling garbage landslide as they slither around their territory. Gnarefuroids are solitary creatures that reproduce by coating objects with a specialized residue that must be transported to another location occupied by a different gnarefuroid, who can then provide essential chemicals to spawn new young. The creatures thrive on dissolved synthetics and chemical runoff, sampling nutrients with highly sensitive taste sensors. Sulfur compounds and scavenger slime resin are among their favorite meals. Gnarefuroids collect mechanical scrap and other objects to add to their protective shells. Gnarefuroids are naturally reclusive and only attack when threatened, but their unpalatable habitat and odd appearance cause other species to fear them. Unusually aggressive gnarefuroids influenced by the extraplanar taint on Daimalko often attack salvagers combing the dumps found around settlement outskirts. Occasionally, gnarefuroids communicate with trespassers rather than hiding or attacking. Particularly strong chemical smells or interesting mechanical devices sometimes pique their interests, prompting a brief telepathic dialogue. Conversations with gnarefuroids are always bizarre and rarely productive.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGnarefuroid\nSource\nMechageddon! pg. 162\nGnarefuroid CR 10\nXP 9,600\nN Gargantuan aberation\nInit\n+3;\nSenses\ndarkvision 120 ft.;\nPerception\n+19\nAura\nalien presence (120 ft., DC 17, sickened 2d4 rounds)\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+9;\nWill\n+14\nOffense\nSpeed\n30 ft., burrow 10 ft., climb 30 ft.\nMelee\nslam +22 (2d10+18 A&B plus vile residue [DC 17])\nRanged\ngunk spray +19 (2d10+10 A&P plus vile residue) or pustule +19 (explode [15 ft., 2d8 A plus vile residue])\nSpace\n20 ft.;\nReach\n30 ft.\nOffensive Abilities\nengulf (3d4+18 A & B plus vile residue, DC 17)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-2;\nWIS\n+3;\nCHA\n-2\nSkills\nAthletics +24, Stealth +19 (+24 when in junkyards or landfills)\nLanguages\nAklo (can’t speak); limited telepathy 60 ft.\nOther Abilities\ncompression\nEcology\nEnvironment\nany urban\nOrganization\nsolitary\nSpecial Abilities\nGunk Spray (Ex)\nAs a ranged attack, a gnarefuroid shoots a glob of residue mixed with detritus from their shell with a 80-foot range increment.\nPustule (Ex)\nAs a full action, a gnarefuroid detaches a volatile pustule from their outer membrane and hurls it up to 120 feet, where it detonates like a grenade.\nVile Residue (Ex)\nA gnarefuroid’s outer membrane exudes a caustic, sticky residue that binds their external shell and pre-digests their food. All the gnarefuroid’s melee and ranged attacks have the entangle weapon special property, requiring a DC 23 Acrobatics check or a DC 28 Strength check to escape. Any creature entangled by the residue takes 2d4 acid damage per round, and is exposed to filth fever (Core Rulebook 418, DC 17). The protection provided by a mech prevents exposure, but any mech entangled by the residue must spend 1 additional PP to use any special ability. The residue dissolves after 2d4 rounds.\nDescription\nConsidered to be the highest forms of junkyard life, gnarefuroids resemble gigantic inverted sea stars encased in shells of mismatched debris. The asymmetrical topography of their scrap shells provides gaps for their hundreds of sensory tentacles to poke out, each one lined with specialized organs for seeing, smelling, tasting, hearing, or manipulating objects. A gnarefuroid moves via a system of hydraulics, powered by their own mucus residue mixed with a sludge of chemicals and waste accumulated from the surrounding environment. Gnarefuroids might be mistaken for a roiling garbage landslide as they slither around their territory. Gnarefuroids are solitary creatures that reproduce by coating objects with a specialized residue that must be transported to another location occupied by a different gnarefuroid, who can then provide essential chemicals to spawn new young. The creatures thrive on dissolved synthetics and chemical runoff, sampling nutrients with highly sensitive taste sensors. Sulfur compounds and scavenger slime resin are among their favorite meals. Gnarefuroids collect mechanical scrap and other objects to add to their protective shells. Gnarefuroids are naturally reclusive and only attack when threatened, but their unpalatable habitat and odd appearance cause other species to fear them. Unusually aggressive gnarefuroids influenced by the extraplanar taint on Daimalko often attack salvagers combing the dumps found around settlement outskirts. Occasionally, gnarefuroids communicate with trespassers rather than hiding or attacking. Particularly strong chemical smells or interesting mechanical devices sometimes pique their interests, prompting a brief telepathic dialogue. Conversations with gnarefuroids are always bizarre and rarely productive.",
+  "type": "aberation",
+  "category": "alien"
+}

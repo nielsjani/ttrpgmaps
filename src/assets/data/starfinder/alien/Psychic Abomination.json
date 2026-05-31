@@ -1,0 +1,49 @@
+{
+  "name": "Psychic Abomination",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Psychic Abomination&Family=None",
+  "source": "Starfinder #23: Hive of Minds pg. 58",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "aberration (incorporeal)",
+  "init": "+8",
+  "senses": "blindsight (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+25",
+  "hp": "170",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+16",
+  "weaknesses": "vulnerability to electricity, vulnerability to fire",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "draining touch +21 (2d10+11 B plus fatigued; critical exhausted [DC 20])",
+  "ranged": "concussive blast +21 (2d8+11 B)",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "1/day—\nmind thrust\n(4th level, DC 20)\n3/day—\npsychokinetic strangulation\n(DC 19)\nAt will—\ninvisibility"
+  },
+  "skills": "Acrobatics +20 (+28 to fly), Intimidate +20, Mysticism +25, Sense Motive +20, Stealth +25",
+  "languages": "Common; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Concussive Blast (Su)",
+      "description": "As a ranged attack, a psychic abomination can unleash a focused beam of invisible force against a single target within 60 feet. This attack has the force descriptor."
+    },
+    {
+      "name": "Draining Touch (Su)",
+      "description": "A psychic abomination’s incorporeal touch wracks a victim’s body. In addition to the bludgeoning damage, a target must succeed at a DC 20 Fortitude saving throw or gain the fatigued condition; if the attack is a critical hit, the target is instead exhausted on a failed save. In addition, the psychic abomination regains an amount of Hit Points equal to its CR (11 for most psychic abominations) when its target fails this save. If the psychic abomination strikes an already-fatigued creature and that creature fails its saving throw, its condition doesn’t worsen, but the abomination still heals. The fatigued or exhausted condition gained from these attacks ends when the affected creature takes a 10-minute rest to regain Stamina Points."
+    },
+    {
+      "name": "Unsettling Whispers (Su)",
+      "description": "A hearing creature within 30 feet of an invisible psychic abomination must succeed at a DC 20 Will saving throw or be shaken for 5d6 rounds. Once a creature has been exposed to a psychic abomination’s unsettling whispers (whether or not the creature succeeds at its saving throw), it cannot be affected by the same psychic abomination’s unsettling whispers for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect."
+    }
+  ],
+  "description": "No one is certain where psychic abominations come from or what they want. Many disagree on what the creatures even look like. The only commonality linking these accounts are the distinctive abilities of psychic abominations. They can become invisible at will, unleash blasts of concussive force, and drain the energy from even undead creatures. But what is most disquieting about them is the constant susurrus of half-formed words and upsetting noises that surrounds an invisible psychic abomination. Scholars have yet to pinpoint the source of these noises, but some believe they are the voices of the abomination’s previous victims.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPsychic Abomination\nSource\nStarfinder #23: Hive of Minds pg. 58\nPsychic Abomination CR 11\nXP 12,800\nNE Medium aberration (incorporeal)\nInit\n+8;\nSenses\nblindsight (thought) 60 ft., darkvision 60 ft.;\nPerception\n+25\nDefense\nHP\n170\nEAC\n24;\nKAC\n25\nFort\n+10;\nRef\n+10;\nWill\n+16\nDefensive Abilities\nincorporeal\nWeaknesses\nvulnerability to electricity, vulnerability to fire\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\ndraining touch +21 (2d10+11 B plus fatigued; critical exhausted [DC 20])\nRanged\nconcussive blast +21 (2d8+11 B)\nSpell-Like Abilities\n(CL 11th)\n1/day—\nmind thrust\n(4th level, DC 20)\n3/day—\npsychokinetic strangulation\n(DC 19)\nAt will—\ninvisibility\nStatistics\nSTR\n—;\nDEX\n+8;\nCON\n+1;\nINT\n+2;\nWIS\n+3;\nCHA\n+5\nSkills\nAcrobatics +20 (+28 to fly), Intimidate +20, Mysticism +25, Sense Motive +20, Stealth +25\nLanguages\nCommon; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nConcussive Blast (Su)\nAs a ranged attack, a psychic abomination can unleash a focused beam of invisible force against a single target within 60 feet. This attack has the force descriptor.\nDraining Touch (Su)\nA psychic abomination’s incorporeal touch wracks a victim’s body. In addition to the bludgeoning damage, a target must succeed at a DC 20 Fortitude saving throw or gain the fatigued condition; if the attack is a critical hit, the target is instead exhausted on a failed save. In addition, the psychic abomination regains an amount of Hit Points equal to its CR (11 for most psychic abominations) when its target fails this save. If the psychic abomination strikes an already-fatigued creature and that creature fails its saving throw, its condition doesn’t worsen, but the abomination still heals. The fatigued or exhausted condition gained from these attacks ends when the affected creature takes a 10-minute rest to regain Stamina Points.\nUnsettling Whispers (Su)\nA hearing creature within 30 feet of an invisible psychic abomination must succeed at a DC 20 Will saving throw or be shaken for 5d6 rounds. Once a creature has been exposed to a psychic abomination’s unsettling whispers (whether or not the creature succeeds at its saving throw), it cannot be affected by the same psychic abomination’s unsettling whispers for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect.\nDescription\nNo one is certain where psychic abominations come from or what they want. Many disagree on what the creatures even look like. The only commonality linking these accounts are the distinctive abilities of psychic abominations. They can become invisible at will, unleash blasts of concussive force, and drain the energy from even undead creatures. But what is most disquieting about them is the constant susurrus of half-formed words and upsetting noises that surrounds an invisible psychic abomination. Scholars have yet to pinpoint the source of these noises, but some believe they are the voices of the abomination’s previous victims.",
+  "type": "aberration (incorporeal)",
+  "category": "alien"
+}

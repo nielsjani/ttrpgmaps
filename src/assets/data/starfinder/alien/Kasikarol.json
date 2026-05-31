@@ -1,0 +1,51 @@
+{
+  "name": "Kasikarol",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kasikarol&Family=None",
+  "source": "Mechageddon! pg. 161",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NE",
+  "size": "Colossal",
+  "creature_type": "magical beast (colossus)",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision, sense the masses;",
+  "perception": "+16",
+  "hp": "150",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+7",
+  "speed": "75 ft.",
+  "melee": "bite +20 (3d4+12 A & P; critical wound) or claw +20 (3d4+12 S) or slam +20 (3d4+12 B)",
+  "space": "30 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "paralyzing gaze (60 ft., DC 16), rake",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+0",
+    "con": "+6",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Intimidate +21, Sense Motive +16, Survival +16, Stealth +21",
+  "languages": "Ancient Daimalkan",
+  "other_abilities": "demolish structures, unrelenting gaze",
+  "environment": "any (Daimalko)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Rake (Ex)",
+      "description": "As a standard action, a kasikarol makes a single melee attack against a foe within reach. If it hits, it deals damage normally and they can make an additional melee attack using their full bonus against a foe that is adjacent to the first and also within reach. A kasikarol can only make one additional attack per round with this ability and takes a –2 penalty to their Armor Class until their next turn. Kasikarols can only rake when using their claw attacks."
+    },
+    {
+      "name": "Unrelenting Gaze (Su)",
+      "description": "A kasikarol has a powerful field of vision and ignores all penalties from soft cover and partial cover. As a move action, a kasikarol focuses their third eye, allowing them to see any invisible or ethereal objects or beings within their range of vision as if they were normally visible."
+    }
+  ],
+  "description": "Kasikarols are winged colossi with scissorlike claws and burning ocher eyes. As kasikarols age, their claws continue growing unless they grate them against rocks or buildings. Kasikarols produce acidic spittle that imbues their bites with special potency, and their arresting gaze has trapped many unfortunate mech operators in their cockpit, frozen in terror until the moment wicked claws slice through the chassis. Kasikarols are largely considered the most dangerous of the lesser colossi, soaring above expansive territories that change depending on weather patterns and food sources. Kasikarols are luckily one of the least aggressive types, preferring stealth hunting behaviors and avoidance of larger foes, including huzkars in mechs. More powerful kasikarols nest among sheer cliff faces and ruins overlooking the dead marshes near Daimalko’s equator. Typically, only fledglings appear in the wastes close to New Valor.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKasikarol\nSource\nMechageddon! pg. 161\nKasikarol CR 8\nXP 4,800\nNE Colossal magical beast (colossus)\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision, sense the masses;\nPerception\n+16\nDefense\nHP\n150\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+12;\nWill\n+7\nOffense\nSpeed\n75 ft.\nMelee\nbite +20 (3d4+12 A & P; critical wound) or claw +20 (3d4+12 S) or slam +20 (3d4+12 B)\nMultiattack\nbite +14 (3d4+12 P), 2 claws +14 (3d4+12 S)\nSpace\n30 ft.;\nReach\n30 ft.\nOffensive Abilities\nparalyzing gaze (60 ft., DC 16), rake\nStatistics\nSTR\n+4;\nDEX\n+0;\nCON\n+6;\nINT\n+2;\nWIS\n+0;\nCHA\n+0\nSkills\nIntimidate +21, Sense Motive +16, Survival +16, Stealth +21\nLanguages\nAncient Daimalkan\nOther Abilities\ndemolish structures, unrelenting gaze\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary\nSpecial Abilities\nRake (Ex)\nAs a standard action, a kasikarol makes a single melee attack against a foe within reach. If it hits, it deals damage normally and they can make an additional melee attack using their full bonus against a foe that is adjacent to the first and also within reach. A kasikarol can only make one additional attack per round with this ability and takes a –2 penalty to their Armor Class until their next turn. Kasikarols can only rake when using their claw attacks.\nUnrelenting Gaze (Su)\nA kasikarol has a powerful field of vision and ignores all penalties from soft cover and partial cover. As a move action, a kasikarol focuses their third eye, allowing them to see any invisible or ethereal objects or beings within their range of vision as if they were normally visible.\nDescription\nKasikarols are winged colossi with scissorlike claws and burning ocher eyes. As kasikarols age, their claws continue growing unless they grate them against rocks or buildings. Kasikarols produce acidic spittle that imbues their bites with special potency, and their arresting gaze has trapped many unfortunate mech operators in their cockpit, frozen in terror until the moment wicked claws slice through the chassis. Kasikarols are largely considered the most dangerous of the lesser colossi, soaring above expansive territories that change depending on weather patterns and food sources. Kasikarols are luckily one of the least aggressive types, preferring stealth hunting behaviors and avoidance of larger foes, including huzkars in mechs. More powerful kasikarols nest among sheer cliff faces and ruins overlooking the dead marshes near Daimalko’s equator. Typically, only fledglings appear in the wastes close to New Valor.",
+  "type": "magical beast (colossus)",
+  "category": "alien"
+}

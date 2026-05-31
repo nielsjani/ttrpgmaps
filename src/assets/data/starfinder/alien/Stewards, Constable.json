@@ -1,0 +1,43 @@
+{
+  "name": "Stewards, Constable",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Constable&Family=Stewards",
+  "source": "Interstellar Species pg. 180",
+  "cr": "7",
+  "xp": "3,200",
+  "init": "+3",
+  "senses": "blindsight (sound) 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+8",
+  "resistances": "cold 10",
+  "speed": "15 ft., swim 45 ft.",
+  "melee": "underwater aurora shockpad +17 (2d4+13 E stun; critical staggered) or manacles +17 (1d8+13 B)",
+  "ranged": "underwater thunderstrike sonic rifle +14 (1d10+7 So; critical deafen) or riot grenade II +14 (explode [15 ft., staggered, DC 16])",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +19, Acrobatics +14, Intimidate +14",
+  "languages": "Common, Kalo",
+  "other_abilities": "manacles training",
+  "gear": "officer ceremonial plate, underwater aurora shock pad, underwater thunderstrike sonic rifle with 2 batteries (40 charges each), riot grenades II (2), manacles",
+  "special_abilities": [
+    {
+      "name": "Manacles Training (Ex)",
+      "description": "A Stewards constable can wield manacles as though they were a one-handed basic melee weapon with the analog special property. If a manacles attack result would equal or exceed the target’s KAC + 4, the constable can attempt a grapple combat maneuver against the target as part of the attack. If the attack result equals or exceeds the target’s KAC + 13 and the combat maneuver check succeeds, the constable grapples and applies the restraints to the target."
+    }
+  ],
+  "description": "Constables have much more to do than chasing criminals— constables patrol neighborhoods, assist in investigations, guard visiting dignitaries, provide disaster relief, and more. Constables have limited authority to deputize capable bystanders like adventurers to help contain a threat.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStewards\nSource\nInterstellar Species pg. 180\nWith three branches—the Constabulary, Ops, and Overwatch— the Stewards protect people and legal rights within the Pact Worlds. The Constabulary handles planet-side troubles, the Overwatch fleet guards Pact Worlds space, and Ops is usually responsible for gathering intelligence. Although Stewards often function as allies for PCs, they might confront PCs engaged in risky heroics, or a canny villain could frame PCs for high crimes to turn Stewards into fearsome adversaries.\nAliens in the \"Stewards\" Family\nName\nCR\nConstable\n7\nData Analyst\n5\nOps Infiltrator\n15\nOverwatch Captain\n10\nStewards, Constable\nSource\nInterstellar Species pg. 180\nConstable CR 7\nXP 3,200\nKalo\nNG monstrous humanoid (aquatic)\nInit\n+3;\nSenses\nblindsight (sound) 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+8\nResistances\ncold 10\nOffense\nSpeed\n15 ft., swim 45 ft.\nMelee\nunderwater aurora shockpad +17 (2d4+13 E stun; critical staggered) or manacles +17 (1d8+13 B)\nRanged\nunderwater thunderstrike sonic rifle +14 (1d10+7 So; critical deafen) or riot grenade II +14 (explode [15 ft., staggered, DC 16])\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+2;\nINT\n+0;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +19, Acrobatics +14, Intimidate +14\nLanguages\nCommon, Kalo\nOther Abilities\nmanacles training\nGear\nofficer ceremonial plate, underwater aurora shock pad, underwater thunderstrike sonic rifle with 2 batteries (40 charges each), riot grenades II (2), manacles\nSpecial Abilities\nManacles Training (Ex)\nA Stewards constable can wield manacles as though they were a one-handed basic melee weapon with the analog special property. If a manacles attack result would equal or exceed the target’s KAC + 4, the constable can attempt a grapple combat maneuver against the target as part of the attack. If the attack result equals or exceeds the target’s KAC + 13 and the combat maneuver check succeeds, the constable grapples and applies the restraints to the target.\nDescription\nConstables have much more to do than chasing criminals— constables patrol neighborhoods, assist in investigations, guard visiting dignitaries, provide disaster relief, and more. Constables have limited authority to deputize capable bystanders like adventurers to help contain a threat.",
+  "type": "humanoid (aquatic)",
+  "environment": "—",
+  "category": "alien"
+}

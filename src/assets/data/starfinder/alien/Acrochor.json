@@ -1,0 +1,45 @@
+{
+  "name": "Acrochor",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Acrochor&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 264",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+6",
+  "senses": "low-light vision;",
+  "perception": "+16",
+  "hp": "128",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+7",
+  "resistances": "fire 5",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "bite +19 (3d4+12 P plus grab)",
+  "offensive_abilities": "constrict (3d4+12 B)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+2",
+    "int": "-5",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +21 (+29 to climb), Stealth +16, Survival +16",
+  "feats": "Lunge",
+  "environment": "warm hills or mountains (Nejeor V)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Constrict (Ex)",
+      "description": "When an acrochor successfully renews a grapple or a pin against an opponent, it automatically deals 3d4+12 bludgeoning damage to that creature."
+    }
+  ],
+  "description": "The serpentine acrochors originally evolved on the fifth planet of the Nejeor system, a rocky and volcanically active world, where they slithered among crevasses and lava tubes, hunting small prey such as the furry mammalian knuggs and creeping up on jaexus birds’ nests to feast on the dusky eggs. Acrochors usually grow up to 8 to 12 feet in length and almost 1 foot in diameter. They are red and black in color with tough, knobby skin and a cluster of visual sensors that allow the creatures to see well even in dim light. Acrochors’ mouths are on the undersides of their bodies, and they usually keep them closed except when attacking.\nAn acrochor often begins attacking its prey by lashing out with surprising speed to bite with jaws filled with razor-sharp teeth. Once its fangs are firmly implanted, the acrochor whips its tail to coil several times around the victim’s body, using its powerful musculature to squeeze the life from the unfortunate prey. When its prey is dead, the acrochor leisurely tears into the flesh in a bloody and gruesome fashion. If an acrochor takes down a victim of its size or larger, it might need several days to devour the corpse, but it can digest both fresh and rotting meat without trouble.\nAfter mating, an acrochor lays its fertilized eggs in a thermal vent or other warm place. Over the next day, the parent acrochor eats as much as it can, often consuming pieces of obsidian or other volcanic glass in the process. It then enters a state of hibernation in close proximity to its eggs, which incubate over the next few months. The acrochor’s stomach acids slowly dissolve the volcanic glass as it sleeps, providing it with the minerals it needs to survive. Despite its dormant state, the acrochor has an almost supernatural connection to its eggs, waking the moment they hatch or if anything disturbs them.\nThe kishalee of Nejeor VI captured a number of acrochor specimens ages ago, housing the creatures in temperature-controlled habitats in wildlife parks. As kishalee civilization declined, the acrochors escaped captivity and began living in the bowels of the cities, maintaining their body heat via energy conduits and breeding with impunity. The kish of Istamak (page 250) sometimes hunt these dangerous creatures for their hides, though acrochor meat is too tough to make it a viable source of food.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAcrochor\nSource\nStarfinder Dead Suns Adventure Path pg. 264\n,\nStarfinder #4: The Ruined Clouds pg. 55\nAcrochor CR 8\nXP 4,800\nN Medium animal\nInit\n+6;\nSenses\nlow-light vision;\nPerception\n+16\nDefense\nHP\n128\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+12;\nWill\n+7\nResistances\nfire 5\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\nbite +19 (3d4+12 P plus grab)\nOffensive Abilities\nconstrict (3d4+12 B)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+2;\nINT\n-5;\nWIS\n+0;\nCHA\n+0\nFeats\nLunge\nSkills\nAthletics +21 (+29 to climb), Stealth +16, Survival +16\nEcology\nEnvironment\nwarm hills or mountains (Nejeor V)\nOrganization\nsolitary or pair\nSpecial Abilities\nConstrict (Ex)\nWhen an acrochor successfully renews a grapple or a pin against an opponent, it automatically deals 3d4+12 bludgeoning damage to that creature.\nDescription\nThe serpentine acrochors originally evolved on the fifth planet of the Nejeor system, a rocky and volcanically active world, where they slithered among crevasses and lava tubes, hunting small prey such as the furry mammalian knuggs and creeping up on jaexus birds’ nests to feast on the dusky eggs. Acrochors usually grow up to 8 to 12 feet in length and almost 1 foot in diameter. They are red and black in color with tough, knobby skin and a cluster of visual sensors that allow the creatures to see well even in dim light. Acrochors’ mouths are on the undersides of their bodies, and they usually keep them closed except when attacking.\nAn acrochor often begins attacking its prey by lashing out with surprising speed to bite with jaws filled with razor-sharp teeth. Once its fangs are firmly implanted, the acrochor whips its tail to coil several times around the victim’s body, using its powerful musculature to squeeze the life from the unfortunate prey. When its prey is dead, the acrochor leisurely tears into the flesh in a bloody and gruesome fashion. If an acrochor takes down a victim of its size or larger, it might need several days to devour the corpse, but it can digest both fresh and rotting meat without trouble.\nAfter mating, an acrochor lays its fertilized eggs in a thermal vent or other warm place. Over the next day, the parent acrochor eats as much as it can, often consuming pieces of obsidian or other volcanic glass in the process. It then enters a state of hibernation in close proximity to its eggs, which incubate over the next few months. The acrochor’s stomach acids slowly dissolve the volcanic glass as it sleeps, providing it with the minerals it needs to survive. Despite its dormant state, the acrochor has an almost supernatural connection to its eggs, waking the moment they hatch or if anything disturbs them.\nThe kishalee of Nejeor VI captured a number of acrochor specimens ages ago, housing the creatures in temperature-controlled habitats in wildlife parks. As kishalee civilization declined, the acrochors escaped captivity and began living in the bowels of the cities, maintaining their body heat via energy conduits and breeding with impunity. The kish of Istamak (page 250) sometimes hunt these dangerous creatures for their hides, though acrochor meat is too tough to make it a viable source of food.",
+  "type": "animal",
+  "category": "alien"
+}

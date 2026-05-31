@@ -1,0 +1,48 @@
+{
+  "name": "Kaarkog",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kaarkog&Family=Kaarkog",
+  "source": "Mechageddon! pg. 160",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NE",
+  "size": "Gargantuan",
+  "creature_type": "magical beast (colossus)",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision, sense the masses;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+3",
+  "resistances": "cold 5, fire 5, sonic 5",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "gore +13 (1d6+9 P; critical knockdown) or slam +13 (1d6+9 B plus grab)",
+  "space": "20 ft.",
+  "reach": "20 ft.",
+  "offensive_abilities": "ferocious charge, spiked hide (2d6+9)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +15, Survival +10",
+  "languages": "Ancient Daimalkan",
+  "other_abilities": "demolish structures",
+  "environment": "any (Daimalko)",
+  "organization": "solitary, pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Spiked Hide (Ex)",
+      "description": "A creature or mech dealing melee damage to a kaarkog must succeed at a DC 13 Reflex save or take 1d6 piercing damage from the rocky protrusions in the kaarkog’s hide. A creature or mech that begins its turn grappled by a kaarkog automatically takes 2d6+9 piercing damage."
+    }
+  ],
+  "description": "Kaarkogs stand nearly 30 feet in height and weigh more than 12 tons. They prefer mountainous terrain and easily climb buildings and bridges inside settlements. Horns grow from kaarkogs’ heads, and their tough hides form spikes and bumps that blend well into rocky terrain. Kaarkogs travel in packs, wrestling and locking horns with one another for dominance.Kaarkog tissue samples suggest that they’re genetically closer in relation to Daimalko’s mammals than any other colossi type, a fact that sent Daimalko’s scientific community into a frenzy of debate and competing research.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKaarkog\nAliens in the \"Kaarkog\" Family\nName\nCR\nKaarkog\n4\nSilverback Kaarkog\n20\nKaarkog\nSource\nMechageddon! pg. 160\nKaarkog CR 4\nXP 1,200\nNE Gargantuan magical beast (colossus)\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision, sense the masses;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+8;\nWill\n+3\nDefensive Abilities\nferocity, spiked hide (2d6+9 P, DC 13);\nResistances\ncold 5, fire 5, sonic 5\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\ngore +13 (1d6+9 P; critical knockdown) or slam +13 (1d6+9 B plus grab)\nSpace\n20 ft.;\nReach\n20 ft.\nOffensive Abilities\nferocious charge, spiked hide (2d6+9)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +10, Athletics +15, Survival +10\nLanguages\nAncient Daimalkan\nOther Abilities\ndemolish structures\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary, pack (3–8)\nSpecial Abilities\nSpiked Hide (Ex)\nA creature or mech dealing melee damage to a kaarkog must succeed at a DC 13 Reflex save or take 1d6 piercing damage from the rocky protrusions in the kaarkog’s hide. A creature or mech that begins its turn grappled by a kaarkog automatically takes 2d6+9 piercing damage.\nDescription\nKaarkogs stand nearly 30 feet in height and weigh more than 12 tons. They prefer mountainous terrain and easily climb buildings and bridges inside settlements. Horns grow from kaarkogs’ heads, and their tough hides form spikes and bumps that blend well into rocky terrain. Kaarkogs travel in packs, wrestling and locking horns with one another for dominance.Kaarkog tissue samples suggest that they’re genetically closer in relation to Daimalko’s mammals than any other colossi type, a fact that sent Daimalko’s scientific community into a frenzy of debate and competing research.",
+  "type": "magical beast (colossus)",
+  "category": "alien"
+}

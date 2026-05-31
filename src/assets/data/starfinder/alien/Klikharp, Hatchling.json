@@ -1,0 +1,47 @@
+{
+  "name": "Klikharp, Hatchling",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hatchling&Family=Klikharp",
+  "source": "Alien Archive 4 pg. 64",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "vermin",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+2",
+  "will": "+0",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +6 (1d6+3 P)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +4, Athletics +9",
+  "other_abilities": "mutations (maestro, springy)",
+  "environment": "any",
+  "organization": "solitary, pair, or orchestra (3–10)",
+  "special_abilities": [
+    {
+      "name": "Gentle Thrum (Su)",
+      "description": "The klikharp’s gentle thrum is especially soothing for shirrens and other creatures with blindsense (vibration), including themselves. Affected creatures gain a +2 morale bonus to saves against emotion and pain effects."
+    },
+    {
+      "name": "Mutations (Ex)",
+      "description": "The klikharp has a mutable genetic code resulting from of once being a part of the Swarm. Each klikharp starts with two mutations from the list below; they can add an additional mutation at 7th level and another at 13th. At each level they can slip into their chrysalis for a week and switch out the mutations they previously selected. The exception to this is the growth option, which is permanent.\nBioluminescent:\nAs a move action, the klikharp can increase the light level two steps (to a maximum of normal light) in a 10-foot radius centered on itself for 1 minute.\nBurrowing:\nThe klikharp has a burrow speed of 30 feet.\nDiscordant:\nThe klikharp can make a shriek ranged attack that deals sonic damage, targets EAC, and has a range increment of 30 feet.\nGrowth:\nThe klikharp grows one size category. It can choose this option twice to become Huge. Growth mutations can’t be undone.\nMaestro:\nAs a move action, the klikharp can imitate any instrument or sound (but not speech), giving a creature a +4 circumstance bonus to Profession (musician) checks. The target must have the klikharp as its bonded creature companion.\nSealed Carapace:\nThe klikharp gains the void adaptation universal creature rule.\nSpringy:\nThe klikharp can take 20 on Athletics checks to jump and the DC is not doubled for lacking a running start.\nWinged:\nThe Klikharp has a flight speed of 30 feet (Ex., average). The klikharp must be 7th level or higher to select this mutation."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKlikharp\nSource\nAlien Archive 4 pg. 64\nKlikharps are brightly colored cricket-like insects with six legs, long antennae, and a shiny carapace. They are affectionate and musical pets with a mind of their own. Like the shirrens, klikharps were once components of the Swarm. Shirren scholars and scientists have long debated what purpose the klikharp’s musical gifts served within the Swarm. Did the gentle thrum once reinforce the hive mind? Was the music a way of keeping tempo for military operations? Whatever klikharps’ original purpose, when the Gap ended, shirren legends claim that the loyal klikharps made their first known choice when they sensed the shirrens’ desire to flee the Swarm’s endless cycle of destruction. As the Swarm churned in sudden confusion and disorientation, so the story goes, the klikharps thrummed in a single chorus and shifted their genetic code, breaking off from the hive mind as well. This break seems to have come at a terrible price; klikharps lost their native telepathic gifts and some of their functional ability to easily communicate.\nNow, most shirrens feel a cultural duty to protect these loyal creatures. That a species on the run would take pets with them says much, not only about the shirrens, but also the early klikharps, who served as guardians and protectors, fighting and dying alongside their new friends. Shirren storytellers tell many tales of how klikharps’ thrums and companionship soothed the terrified exiles and kept morale up during their 3-year flight from the Swarm. When the glowing form of Hylax arrived at the Forever Reliquary to bless the shirren species, she offered the klikharps a blessing too. Although she could not return all that they had sacrificed, she enhanced their musical gifts, their sense of joy, and their love of choice in all forms. All klikharps chirp, but now they could echo the sounds of musical instruments, and some could take their musical gifts even further.\nShirrens cherish klikharps not just for the history of their loyalty, but also for their endless love of choice. Klikharps rarely blend in meekly to their surroundings, instead choosing to constantly shift their jewel-like coloration in order to attract attention. All klikharps are natural aural mimics, often changing their chirps to match the sounds of different musical tones. Although these charming pets were the very first companions of the shirren species, until recently they were a rare sight in most of the Pact Worlds. Then Bugspace, a Nchak-based band, released its viral song “Canticle for Klikharp and Guitar.” Now klikharps are enjoying a new wave of popularity, not just for their bright colors and musicality, but for their endless versatility as pets. Their mutable genetic code lets them fill many sorts of pet niches from charming entertainers to guards, mining assistants, pack animals, and even flying mounts.\nKlikharps endlessly shift themselves into helpful forms to work alongside their chosen friends. Feral klikharps are uncommon, as they have never been a truly wild species. If abandoned or neglected, they focus most on the mutations that will help them survive. Their songs never go completely silent; they instead shift from instrumental music to soft, plaintive sounds that echo their environment. Rescue groups that specialize in retrieving feral klikharps have found music to be key in both luring klikharps out of their hiding spaces but also teaching them to trust again.\nAliens in the \"Klikharp\" Family\nName\nCR\nHatchling\n1/2\nMount\n5\nKlikharp, Hatchling\nSource\nAlien Archive 4 pg. 64\nHatchling CR 1/2\nXP 200\nN Medium vermin\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+4\nAura\ngentle thrum (30 ft.)\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+2;\nWill\n+0; +2 vs. emotion and pain\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +6 (1d6+3 P)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+1;\nINT\n-4;\nWIS\n+1;\nCHA\n+1\nSkills\nAcrobatics +4, Athletics +9\nOther Abilities\nmutations (maestro, springy)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or orchestra (3–10)\nSpecial Abilities\nGentle Thrum (Su)\nThe klikharp’s gentle thrum is especially soothing for shirrens and other creatures with blindsense (vibration), including themselves. Affected creatures gain a +2 morale bonus to saves against emotion and pain effects.\nMutations (Ex)\nThe klikharp has a mutable genetic code resulting from of once being a part of the Swarm. Each klikharp starts with two mutations from the list below; they can add an additional mutation at 7th level and another at 13th. At each level they can slip into their chrysalis for a week and switch out the mutations they previously selected. The exception to this is the growth option, which is permanent.\nBioluminescent:\nAs a move action, the klikharp can increase the light level two steps (to a maximum of normal light) in a 10-foot radius centered on itself for 1 minute.\nBurrowing:\nThe klikharp has a burrow speed of 30 feet.\nDiscordant:\nThe klikharp can make a shriek ranged attack that deals sonic damage, targets EAC, and has a range increment of 30 feet.\nGrowth:\nThe klikharp grows one size category. It can choose this option twice to become Huge. Growth mutations can’t be undone.\nMaestro:\nAs a move action, the klikharp can imitate any instrument or sound (but not speech), giving a creature a +4 circumstance bonus to Profession (musician) checks. The target must have the klikharp as its bonded creature companion.\nSealed Carapace:\nThe klikharp gains the void adaptation universal creature rule.\nSpringy:\nThe klikharp can take 20 on Athletics checks to jump and the DC is not doubled for lacking a running start.\nWinged:\nThe Klikharp has a flight speed of 30 feet (Ex., average). The klikharp must be 7th level or higher to select this mutation.",
+  "type": "vermin",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Klickharp_Hatchling.png"
+}

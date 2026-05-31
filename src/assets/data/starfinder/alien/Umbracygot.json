@@ -1,0 +1,49 @@
+{
+  "name": "Umbracygot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Umbracygot&Family=None",
+  "source": "Starfinder #31: Waking the Worldseed pg. 61",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+27",
+  "hp": "197",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+17",
+  "ref": "+15",
+  "will": "+12",
+  "dr": "10/—",
+  "immunities": "acid, cold",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "40 ft., burrow 20 ft.",
+  "melee": "bite +25 (3d4+20 A & P) or tentacle +25 (2d4+20 B plus grab)",
+  "space": "10 ft.",
+  "reach": "10 ft. (15 ft. with tentacles)",
+  "offensive_abilities": "acid spray (60-ft. line, 10d6 A, Reflex DC 19 half, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +22, Athletics +27, Stealth +22",
+  "languages": "Aklo; telepathy 60 ft.",
+  "environment": "any (terrestrial vacuum)",
+  "organization": "solitary, pair, or clutch (3–6)",
+  "special_abilities": [
+    {
+      "name": "Acid Spray (Ex)",
+      "description": "Every 1d4 rounds as a standard action, an umbracygot can spit a 60-foot line of acid that deals 10d6 acid damage. The acid continues to burn each affected creature, dealing an additional 4d6 acid damage on the following round. A target that succeeds at a DC 19 Reflex save takes half the initial damage and avoids the ongoing damage."
+    }
+  ],
+  "description": "Once known as somalcygots—named after the Azlanti designation of Lost Golarion’s only moon, Somal—these enormous, territorial flatworms claim mile‑wide areas of a moon, asteroid, or similar patches of airless environments. Now referred to as umbracygots, these beasts enter vicious frenzies when other species stumble into their domains, looking to consume the interlopers. While relentless in their attempts to feed, umbracygots rarely pursue intruders beyond the borders of their territories to better conserve energy in an environment with limited nutrition.\nWhen not feeding, an umbracygot enters a trancelike hibernation during which it constantly burrows in circles and strange patterns beneath the surface with endless, unthinking repetition. Some xenobiologists speculate that the patterns an umbracygot creates within the territory it inhabits indicate the creature’s mood or even their psychic impressions on the cosmos. Unfortunately, not enough data has been collected on these designs because an umbracygot awakens from its trance to attack when it senses a trespasser.\nA typical adult umbracygot is 16 feet long and weighs 1,500 pounds. These creatures possess more intelligence than their monstrous appearances would suggest, but conversations with them are rare. Umbracygots usually socialize on the rare occasions when they’re full and don’t wish to exert energy on a wasteful meal, or when they’re mating. The knowledge gleaned from these unique interactions has proven useful in understanding their psychology, though their main concerns are defending their territory and consuming.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUmbracygot\nSource\nStarfinder #31: Waking the Worldseed pg. 61\nUmbracygot CR 12\nXP 19,200\nNE Large aberration\nInit\n+3;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+27\nDefense\nHP\n197\nEAC\n26;\nKAC\n27\nFort\n+17;\nRef\n+15;\nWill\n+12\nDefensive Abilities\nvoid adaptation;\nDR\n10/—;\nImmunities\nacid, cold\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n40 ft., burrow 20 ft.\nMelee\nbite +25 (3d4+20 A & P) or tentacle +25 (2d4+20 B plus grab)\nMultiattack\nbite +19 (3d4+20 A & P), 4 tentacles +19 (2d4+20 B plus grab)\nSpace\n10 ft.;\nReach\n10 ft. (15 ft. with tentacles)\nOffensive Abilities\nacid spray (60-ft. line, 10d6 A, Reflex DC 19 half, usable every 1d4 rounds)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n+1;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +22, Athletics +27, Stealth +22\nLanguages\nAklo; telepathy 60 ft.\nEcology\nEnvironment\nany (terrestrial vacuum)\nOrganization\nsolitary, pair, or clutch (3–6)\nSpecial Abilities\nAcid Spray (Ex)\nEvery 1d4 rounds as a standard action, an umbracygot can spit a 60-foot line of acid that deals 10d6 acid damage. The acid continues to burn each affected creature, dealing an additional 4d6 acid damage on the following round. A target that succeeds at a DC 19 Reflex save takes half the initial damage and avoids the ongoing damage.\nDescription\nOnce known as somalcygots—named after the Azlanti designation of Lost Golarion’s only moon, Somal—these enormous, territorial flatworms claim mile‑wide areas of a moon, asteroid, or similar patches of airless environments. Now referred to as umbracygots, these beasts enter vicious frenzies when other species stumble into their domains, looking to consume the interlopers. While relentless in their attempts to feed, umbracygots rarely pursue intruders beyond the borders of their territories to better conserve energy in an environment with limited nutrition.\nWhen not feeding, an umbracygot enters a trancelike hibernation during which it constantly burrows in circles and strange patterns beneath the surface with endless, unthinking repetition. Some xenobiologists speculate that the patterns an umbracygot creates within the territory it inhabits indicate the creature’s mood or even their psychic impressions on the cosmos. Unfortunately, not enough data has been collected on these designs because an umbracygot awakens from its trance to attack when it senses a trespasser.\nA typical adult umbracygot is 16 feet long and weighs 1,500 pounds. These creatures possess more intelligence than their monstrous appearances would suggest, but conversations with them are rare. Umbracygots usually socialize on the rare occasions when they’re full and don’t wish to exert energy on a wasteful meal, or when they’re mating. The knowledge gleaned from these unique interactions has proven useful in understanding their psychology, though their main concerns are defending their territory and consuming.",
+  "type": "aberration",
+  "category": "alien"
+}

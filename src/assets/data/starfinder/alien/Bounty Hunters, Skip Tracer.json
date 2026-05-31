@@ -1,0 +1,46 @@
+{
+  "name": "Bounty Hunters, Skip Tracer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Skip Tracer&Family=Bounty Hunters",
+  "source": "Interstellar Species pg. 154",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "LN",
+  "size": "Small",
+  "creature_type": "humanoid (kobold)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "15",
+  "eac": "12",
+  "kac": "13",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+4",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "tactical baton +4 (1d4+1 B)",
+  "ranged": "static arc pistol +6 (1d6 E; critical arc 2)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Bluff +5, Culture +5, Diplomacy +10, Profession (bounty hunter) +10, Sense Motive +10, Stealth +5",
+  "languages": "Common, Draconic, any 1 other",
+  "other_abilities": "mark",
+  "gear": "second skin (quick-release sheathe), static arc pistol with 2 batteries (20 charges each), tactical baton, binder restraints (5);",
+  "special_abilities": [
+    {
+      "name": "Mark (Ex)",
+      "description": "A skip tracer can choose one sapient creature as a mark, provided the skip tracer can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The skip tracer gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the skip tracer’s CR divided by 6 (+1 total at CR 1). Also, the skip tracer can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark."
+    }
+  ],
+  "description": "Skip tracers track those who renege on legal obligations—civil or criminal—usually for those who skip out on bail, court dates, or private contracts. Side jobs tracking down missing people are within a skip tracer’s purview, too. The typical skip tracer prefers investigation, negotiation, and nonlethal methods to retrieve their quarry, working within the bounds of the law.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBounty Hunters\nSource\nInterstellar Species pg. 154\nAnyone who seeks and catches those who don’t want to be caught may be called a bounty hunter, though in practice, the term comprises an array of professionals. Most bounty hunters have legal sanction, such as a license to hunt fugitives, but many also work in a gray area between legal authority and vigilantism. Bounty hunters take jobs from legitimate authorities, but what legitimate means varies by location. Little stops a bounty hunter from acting as an agent of a private party, and many are enforcers for the unscrupulous. Some clever bounty hunters double as private investigators, tracking down missing people or runaways.\nAliens in the \"Bounty Hunters\" Family\nName\nCR\nBounty Hunter\n10\nNotorious Bounty Hunter\n14\nRecovery Agent\n6\nSkip Tracer\n1\nBounty Hunters, Skip Tracer\nSource\nInterstellar Species pg. 154\nSkip Tracer CR 1\nXP 400\nBlue-scaled kobold\nLN Small humanoid (kobold)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n15\nEAC\n12;\nKAC\n13\nFort\n+1;\nRef\n+3;\nWill\n+4\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +4 (1d4+1 B)\nRanged\nstatic arc pistol +6 (1d6 E; critical arc 2)\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+1;\nINT\n+1;\nWIS\n+2;\nCHA\n+2\nSkills\nBluff +5, Culture +5, Diplomacy +10, Profession (bounty hunter) +10, Sense Motive +10, Stealth +5\nLanguages\nCommon, Draconic, any 1 other\nOther Abilities\nmark\nGear\nsecond skin (quick-release sheathe), static arc pistol with 2 batteries (20 charges each), tactical baton, binder restraints (5);\nAugmentations\nvoice modulator\nSpecial Abilities\nMark (Ex)\nA skip tracer can choose one sapient creature as a mark, provided the skip tracer can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The skip tracer gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the skip tracer’s CR divided by 6 (+1 total at CR 1). Also, the skip tracer can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark.\nDescription\nSkip tracers track those who renege on legal obligations—civil or criminal—usually for those who skip out on bail, court dates, or private contracts. Side jobs tracking down missing people are within a skip tracer’s purview, too. The typical skip tracer prefers investigation, negotiation, and nonlethal methods to retrieve their quarry, working within the bounds of the law.",
+  "type": "humanoid (kobold)",
+  "environment": "—",
+  "category": "alien"
+}

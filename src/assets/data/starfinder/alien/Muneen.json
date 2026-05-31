@@ -1,0 +1,54 @@
+{
+  "name": "Muneen",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Muneen&Family=None",
+  "source": "Starfinder #23: Hive of Minds pg. 57",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+5",
+  "senses": "blindsense (thought) 30 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+25",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+14",
+  "sr": "22",
+  "immunities": "divination magic, enchantment magic;",
+  "speed": "20 ft., fly 60 ft. (Ex, average)",
+  "melee": "beak +18 (2d10+13 P) or claw +18 (2d10+13 S; critical bleed 2d6)",
+  "ranged": "feather barrage +20 (2d8+11 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "magical",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th; melee +20",
+    "spells": "1/day—\nmind probe\n(DC 22),\noverload systems\n(DC 22)\n3/day—\nprobability prediction\n,\nsuggestion\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\ndetect thoughts\n(DC 19),\nmind thrust\n(2nd level, DC 20),\nzone of truth\n(DC 20)"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+8",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +25, Mysticism +20",
+  "languages": "Muneen; telepathy 100 ft.",
+  "other_abilities": "tracking (divination)",
+  "environment": "any (Chonax)",
+  "organization": "solitary, pair, or murder (3–8)",
+  "special_abilities": [
+    {
+      "name": "Magical (Su)",
+      "description": "A muneen’s attacks are magical, and all typed damage the muneen deals has the force descriptor."
+    }
+  ],
+  "description": "Muneens are corvid avian creatures infused with the magic of Chonax, evidenced by the coruscating colors emitted by their dark feathers. Although these creatures are omnivores, they can also subsist on magical energy from divination or enchantment loci of their home world. Muneens typically live near such loci, often with others of their kind.\nThese corvids are intensely curious, and the thoughts and emotions of other creatures fascinate them. Muneens enjoy sating their curiosity through peaceful contact with other sapient species. Thanks to their spell-like abilities, muneens are almost prescient in their awareness, so enemies are unlikely to surprise them. When threatened, the creatures are quick to defend themselves with their natural weapons— using their beaks, claws, and barrages of magically charged feathers—or mind-bending magic.\nMuneens may form lasting relationships with other creatures, depending on how they’re treated. A visitor to Chonax can expect muneens to be inquisitive during initial contact. If initial interactions go well, given a little time, muneens are likely to become friendly toward acquaintances. Muneens have also helped explorers survive on Chonax by driving off hostile fauna. However, muneens remember harm done to them and teach others of their kind whom to treat as an enemy.\nMuneens are oviparous and form long-lasting mated pairs to procreate and raise young. A mature female muneen in a pair lays one egg every year, and the pair cares for the egg for 3 months before it hatches. Young muneens absorb magic as their initial nourishment in life, learning to hunt and forage only as they mature. An adult muneen is 9 feet tall and has a wingspan of about 20 feet, and it weighs 280 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMuneen\nSource\nStarfinder #23: Hive of Minds pg. 57\nMuneen CR 11\nXP 12,800\nN Large magical beast\nInit\n+5;\nSenses\nblindsense (thought) 30 ft., darkvision 60 ft., low-light vision;\nPerception\n+25\nDefense\nHP\n155\nEAC\n23;\nKAC\n24\nFort\n+12;\nRef\n+12;\nWill\n+14\nDefensive Abilities\nunflankable;\nImmunities\ndivination magic, enchantment magic;\nSR\n22\nOffense\nSpeed\n20 ft., fly 60 ft. (Ex, average)\nMelee\nbeak +18 (2d10+13 P) or claw +18 (2d10+13 S; critical bleed 2d6)\nRanged\nfeather barrage +20 (2d8+11 P)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nmagical\nSpell-Like Abilities\n(CL 11th; melee +20)\n1/day—\nmind probe\n(DC 22),\noverload systems\n(DC 22)\n3/day—\nprobability prediction\n,\nsuggestion\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\ndetect thoughts\n(DC 19),\nmind thrust\n(2nd level, DC 20),\nzone of truth\n(DC 20)\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+1;\nINT\n+0;\nWIS\n+8;\nCHA\n+3\nSkills\nAcrobatics +25, Mysticism +20\nLanguages\nMuneen; telepathy 100 ft.\nOther Abilities\ntracking (divination)\nEcology\nEnvironment\nany (Chonax)\nOrganization\nsolitary, pair, or murder (3–8)\nSpecial Abilities\nMagical (Su)\nA muneen’s attacks are magical, and all typed damage the muneen deals has the force descriptor.\nDescription\nMuneens are corvid avian creatures infused with the magic of Chonax, evidenced by the coruscating colors emitted by their dark feathers. Although these creatures are omnivores, they can also subsist on magical energy from divination or enchantment loci of their home world. Muneens typically live near such loci, often with others of their kind.\nThese corvids are intensely curious, and the thoughts and emotions of other creatures fascinate them. Muneens enjoy sating their curiosity through peaceful contact with other sapient species. Thanks to their spell-like abilities, muneens are almost prescient in their awareness, so enemies are unlikely to surprise them. When threatened, the creatures are quick to defend themselves with their natural weapons— using their beaks, claws, and barrages of magically charged feathers—or mind-bending magic.\nMuneens may form lasting relationships with other creatures, depending on how they’re treated. A visitor to Chonax can expect muneens to be inquisitive during initial contact. If initial interactions go well, given a little time, muneens are likely to become friendly toward acquaintances. Muneens have also helped explorers survive on Chonax by driving off hostile fauna. However, muneens remember harm done to them and teach others of their kind whom to treat as an enemy.\nMuneens are oviparous and form long-lasting mated pairs to procreate and raise young. A mature female muneen in a pair lays one egg every year, and the pair cares for the egg for 3 months before it hatches. Young muneens absorb magic as their initial nourishment in life, learning to hunt and forage only as they mature. An adult muneen is 9 feet tall and has a wingspan of about 20 feet, and it weighs 280 pounds.",
+  "type": "magical beast",
+  "category": "alien"
+}

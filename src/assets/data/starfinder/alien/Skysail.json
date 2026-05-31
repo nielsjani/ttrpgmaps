@@ -1,0 +1,51 @@
+{
+  "name": "Skysail",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Skysail&Family=None",
+  "source": "Drift Crisis pg. 161",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "plant",
+  "init": "+5",
+  "senses": "blindsight (thought) 60 ft.;",
+  "perception": "+16",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+4",
+  "dr": "5/slashing or piercing",
+  "immunities": "plant immunities",
+  "speed": "5 ft., fly 40 ft. (Ex, good)",
+  "melee": "tendril +14 (1d6+8 plus grab)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "drain intelligence (DC 13), sticky",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-5",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +11, Stealth +11",
+  "environment": "any sky (Liavara)",
+  "organization": "solitary, pair, or cloud (3–11)",
+  "special_abilities": [
+    {
+      "name": "Drain Intelligence (Ex)",
+      "description": "Skysails can feed off the mental energy of their prey. A creature with an Intelligence score that starts its turn grappled by a skysail must succeed at a DC 13 Fortitude saving throw or progress one step down the Intelligence poison track. In addition, on a failed save, the skysail regains a number of Hit Points equal to the target’s CR, up to the skysail’s normal maximum."
+    },
+    {
+      "name": "Sticky (Ex)",
+      "description": "A skysail’s fanlike protrusions secrete an adhesive substance for trapping prey. Checks made to escape a skysail’s grapple or pin take a –2 penalty."
+    }
+  ],
+  "description": "Liavaran skysails resemble aquatic, leafy sea dragons from terrestrial planets. Unlike the waterbound creatures, skysails use their delicate protrusions to catch Liavara’s gaseous currents and drift through the salmon-colored skies. Skysails tend to be shades of orange or pink to blend into their environment. On Liavara, skysails feed off the plentiful ambient psychic energy in the air, making them generally docile creatures. Because of this demeanor, “swimming” with skysails quickly became a popular tourist activity in certain highly monitored areas near the gas giant’s few floating city-platforms.\nWealthy owners of private zoos have hired hunters to capture skysails for use as living decorations because of their beauty and apparent docility. However, such collectors quickly discover that when deprived of Liavara’s atmosphere, skysails will often siphon mental energy from other sources, and the minds of sentient creatures are glowing beacons to their thought-seeking senses. To feed in this manner, a skysail wraps a sentient creature in its sail-like tendrils and drains them of every last vestige of mental energy. Creatures trapped in this way are typically rendered comatose, eventually dying of dehydration or starvation, at which point, the skysail discards the corpse and seeks new prey.\nSkysails that have been transported off Liavara and escape their would-be owners demonstrate remarkable resilience and adaptability to new environments, often becoming dangerous predators for the planet’s local fauna and intelligent species. The most entrenched cloud of invasive skysails make its home in Castrovel’s Ocean of Mists.\nSimilar creatures of only slightly differing physiology have been reported on planets far from the Pact Worlds, fueling rumors that they originated outside the system, though its equally likely that such creatures evolved independently of one another.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSkysail\nSource\nDrift Crisis pg. 161\nSkysail CR 5\nXP 1,600\nN Large plant\nInit\n+5;\nSenses\nblindsight (thought) 60 ft.;\nPerception\n+16\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+7;\nWill\n+4\nDR\n5/slashing or piercing;\nImmunities\nplant immunities\nOffense\nSpeed\n5 ft., fly 40 ft. (Ex, good)\nMelee\ntendril +14 (1d6+8 plus grab)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ndrain intelligence (DC 13), sticky\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+2;\nINT\n-5;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +11, Stealth +11\nEcology\nEnvironment\nany sky (Liavara)\nOrganization\nsolitary, pair, or cloud (3–11)\nSpecial Abilities\nDrain Intelligence (Ex)\nSkysails can feed off the mental energy of their prey. A creature with an Intelligence score that starts its turn grappled by a skysail must succeed at a DC 13 Fortitude saving throw or progress one step down the Intelligence poison track. In addition, on a failed save, the skysail regains a number of Hit Points equal to the target’s CR, up to the skysail’s normal maximum.\nSticky (Ex)\nA skysail’s fanlike protrusions secrete an adhesive substance for trapping prey. Checks made to escape a skysail’s grapple or pin take a –2 penalty.\nDescription\nLiavaran skysails resemble aquatic, leafy sea dragons from terrestrial planets. Unlike the waterbound creatures, skysails use their delicate protrusions to catch Liavara’s gaseous currents and drift through the salmon-colored skies. Skysails tend to be shades of orange or pink to blend into their environment. On Liavara, skysails feed off the plentiful ambient psychic energy in the air, making them generally docile creatures. Because of this demeanor, “swimming” with skysails quickly became a popular tourist activity in certain highly monitored areas near the gas giant’s few floating city-platforms.\nWealthy owners of private zoos have hired hunters to capture skysails for use as living decorations because of their beauty and apparent docility. However, such collectors quickly discover that when deprived of Liavara’s atmosphere, skysails will often siphon mental energy from other sources, and the minds of sentient creatures are glowing beacons to their thought-seeking senses. To feed in this manner, a skysail wraps a sentient creature in its sail-like tendrils and drains them of every last vestige of mental energy. Creatures trapped in this way are typically rendered comatose, eventually dying of dehydration or starvation, at which point, the skysail discards the corpse and seeks new prey.\nSkysails that have been transported off Liavara and escape their would-be owners demonstrate remarkable resilience and adaptability to new environments, often becoming dangerous predators for the planet’s local fauna and intelligent species. The most entrenched cloud of invasive skysails make its home in Castrovel’s Ocean of Mists.\nSimilar creatures of only slightly differing physiology have been reported on planets far from the Pact Worlds, fueling rumors that they originated outside the system, though its equally likely that such creatures evolved independently of one another.",
+  "type": "plant",
+  "category": "alien"
+}

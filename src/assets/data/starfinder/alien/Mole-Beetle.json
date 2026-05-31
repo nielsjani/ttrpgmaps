@@ -1,0 +1,44 @@
+{
+  "name": "Mole-Beetle",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mole-Beetle&Family=None",
+  "source": "Starfinder #40: Planetfall pg. 59",
+  "xp": "0",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "vermin",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+3",
+  "hp": "6",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+0",
+  "speed": "20 ft., burrow 20 ft.",
+  "melee": "claw +4 (1d6+1 S)",
+  "offensive_abilities": "eversion feeding (DC 8, bleed 1d4)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+1",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-4"
+  },
+  "skills": "Stealth +7",
+  "other_abilities": "mindless",
+  "environment": "any underground (Weydana-4)",
+  "organization": "solitary, pair, or brood (3–12)",
+  "special_abilities": [
+    {
+      "name": "Eversion Feeding (Ex)",
+      "description": "As a standard action, a mole-beetle can expel its lumpy stomach into an empty adjacent square. Several dozen hooked feeding filaments whip out from the stomach. Creatures other than the mole-beetle adjacent to the stomach must succeed at a DC 8 Reflex saving throw or gain the bleeding condition (1d4 damage) from the hooks. The mole-beetle then reels its stomach back into its body. The stomach’s expulsion and retraction don’t provoke attacks of opportunity, but a creature that has readied an action to strike at the stomach can do so; its stomach has the same defenses as the mole-beetle, and damage dealt to the stomach is subtracted from the mole-beetle’s Hit Points."
+    }
+  ],
+  "description": "Mole-beetles have placidly burrowed beneath Weydana-4’s surface for untold millennia. About 3 feet in length, mole-beetles resemble a slender insect with a pinkish-yellow carapace, ridged, chitinous claws resemblant of those of burrowing rodents, and a narrow insectile face. They consume endless mouthfuls of soil containing biomatter while tunneling, and sharp barbs in their stomachs break up the soil so their stomach lining can absorb nutrients. Like other terrestrial vermin, mole-beetles fill the tunnels behind them with churned soil similar to compost, which enables plants to grow stronger and more quickly. Much of Weydana‑4’s verdant growth is due to these untiring tunnelers.\nMole-beetles rarely bother attacking other creatures, but they're far from timid. If provoked, they slash at their foes with their sharp claws. Sudden, significant disturbances in the ground drive mole-beetles into a rage. They might be set off by the rumbling of a herd of large herbivores or even by the tremor from a falling tree. Earthquakes, in particular, drive broods of mole-beetles into days-long frenzies.\nHungry or desperate mole-beetles can disgorge their stomach, attached to their innards by strong ligaments, allowing it to absorb nutrition directly and quickly. Several barbs lash out from the everted stomach and slice through the area, breaking apart soil and creatures alike into smaller bits that mole-beetles can consume. Mole-beetles don't leave their stomachs everted for long, tugging them back into place after few moments of feeding.\nMole-beetles are communal creatures, often found in squirming broods. Moving in broods provides greater protection from predators and makes breaking up tough soil easier for the mole beetles. Each brood has a distinct hierarchy, with lead mole-beetles receiving the larger share of nutrients, and eventually the weaker mole-beetles break off on their own brood. Mole-beetles that have been brood leaders for a long time grow remarkably large and strong; these mole-beetle behemoths can grow to the size of a shuttlecraft.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMole-Beetle\nSource\nStarfinder #40: Planetfall pg. 59\nMole-Beetle CR\nXP 0\nN Small vermin\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+3\nDefense\nHP\n6\nEAC\n10;\nKAC\n12\nFort\n+3;\nRef\n+1;\nWill\n+0\nOffense\nSpeed\n20 ft., burrow 20 ft.\nMelee\nclaw +4 (1d6+1 S)\nOffensive Abilities\neversion feeding (DC 8, bleed 1d4)\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+1;\nINT\n—;\nWIS\n+0;\nCHA\n-4\nSkills\nStealth +7\nOther Abilities\nmindless\nEcology\nEnvironment\nany underground (Weydana-4)\nOrganization\nsolitary, pair, or brood (3–12)\nSpecial Abilities\nEversion Feeding (Ex)\nAs a standard action, a mole-beetle can expel its lumpy stomach into an empty adjacent square. Several dozen hooked feeding filaments whip out from the stomach. Creatures other than the mole-beetle adjacent to the stomach must succeed at a DC 8 Reflex saving throw or gain the bleeding condition (1d4 damage) from the hooks. The mole-beetle then reels its stomach back into its body. The stomach’s expulsion and retraction don’t provoke attacks of opportunity, but a creature that has readied an action to strike at the stomach can do so; its stomach has the same defenses as the mole-beetle, and damage dealt to the stomach is subtracted from the mole-beetle’s Hit Points.\nDescription\nMole-beetles have placidly burrowed beneath Weydana-4’s surface for untold millennia. About 3 feet in length, mole-beetles resemble a slender insect with a pinkish-yellow carapace, ridged, chitinous claws resemblant of those of burrowing rodents, and a narrow insectile face. They consume endless mouthfuls of soil containing biomatter while tunneling, and sharp barbs in their stomachs break up the soil so their stomach lining can absorb nutrients. Like other terrestrial vermin, mole-beetles fill the tunnels behind them with churned soil similar to compost, which enables plants to grow stronger and more quickly. Much of Weydana‑4’s verdant growth is due to these untiring tunnelers.\nMole-beetles rarely bother attacking other creatures, but they're far from timid. If provoked, they slash at their foes with their sharp claws. Sudden, significant disturbances in the ground drive mole-beetles into a rage. They might be set off by the rumbling of a herd of large herbivores or even by the tremor from a falling tree. Earthquakes, in particular, drive broods of mole-beetles into days-long frenzies.\nHungry or desperate mole-beetles can disgorge their stomach, attached to their innards by strong ligaments, allowing it to absorb nutrition directly and quickly. Several barbs lash out from the everted stomach and slice through the area, breaking apart soil and creatures alike into smaller bits that mole-beetles can consume. Mole-beetles don't leave their stomachs everted for long, tugging them back into place after few moments of feeding.\nMole-beetles are communal creatures, often found in squirming broods. Moving in broods provides greater protection from predators and makes breaking up tough soil easier for the mole beetles. Each brood has a distinct hierarchy, with lead mole-beetles receiving the larger share of nutrients, and eventually the weaker mole-beetles break off on their own brood. Mole-beetles that have been brood leaders for a long time grow remarkably large and strong; these mole-beetle behemoths can grow to the size of a shuttlecraft.",
+  "cr": "",
+  "type": "vermin",
+  "category": "alien"
+}

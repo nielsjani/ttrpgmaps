@@ -1,0 +1,60 @@
+{
+  "name": "Pyric Wraith",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pyric Wraith&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 61",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "18",
+  "fort": "+5",
+  "ref": "+10",
+  "will": "+8",
+  "immunities": "fire, undead immunities",
+  "speed": "40 ft., fly 40 ft. (Su, average)",
+  "melee": "touch +16 (2d4+6 F plus pyric curse; critical burn",
+  "ranged": "pyric ray +16 (1d10+6 F plus pyric curse; critical",
+  "offensive_abilities": "pyric fire",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "—",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +13, Intimidate +18, Sense Motive +13",
+  "languages": "Aklo",
+  "other_abilities": "illuminated, unliving",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Ash Consumption (Su)",
+      "description": "When a creature within 30 feet takes\r\nfire damage, a pyric wraith regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the wraith’s CR per round."
+    },
+    {
+      "name": "Illuminated (Su)",
+      "description": "Light within 10 feet of a pyric wraith\r\nincreases by two steps. Light for 10 more feet beyond that\r\nincreases by one step. Magical darkness decreases this light\r\nonly if from a source with a CR or level higher than the\r\nwraith’s CR."
+    },
+    {
+      "name": "Pyric Fire (Su)",
+      "description": "The fire damage of a pyric wraith burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later."
+    },
+    {
+      "name": "Pyric Ray (Su)",
+      "description": "A pyric wraith can launch a ray of\r\npyric fire with a range increment of 30 feet and a\r\nmaximum range of 150 feet.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 14\nEffect\nA creature that fails the save gains the burning 2d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse."
+    }
+  ],
+  "description": "Over centuries, pyric fire consumes a pyric\r\nrevenant’s flesh, leaving behind an apparition of\r\nash and embers. This pyric wraith is made of swirling\r\ncinders rippling around a heart of brighter flame. The\r\nsmell of ash and smoke often precedes a pyric wraith.\nA pyric wraith retains only a desire to burn living things\r\nand consume the energy released. These beings rarely make\r\nfull use of their incorporeality. Overwhelming malice compels\r\nthem to kill without stealth, inspiring horror as they do so.\r\nFurther, pyric wraiths hate passing through the darkness\r\nwithin objects.",
+  "extra_content": "The following extra content was found for this creature:\n-\nPyric Wraith (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPyric Wraith\nSource\nStarfinder #16: The Blind City pg. 61\nPyric Wraith CR 6\nXP 2,400\nCE Medium undead (incorporeal)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n18\nFort\n+5;\nRef\n+10;\nWill\n+8\nDefensive Abilities\nash consumption, incorporeal;\nImmunities\nfire, undead immunities\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, average)\nMelee\ntouch +16 (2d4+6 F plus pyric curse; critical burn\r\n2d4 F)\nRanged\npyric ray +16 (1d10+6 F plus pyric curse; critical\r\nburn 2d4 F)\nOffensive Abilities\npyric fire\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n—;\nINT\n+0;\nWIS\n+3;\nCHA\n+2\nSkills\nAcrobatics +13, Intimidate +18, Sense Motive +13\nLanguages\nAklo\nOther Abilities\nilluminated, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nAsh Consumption (Su)\nWhen a creature within 30 feet takes\r\nfire damage, a pyric wraith regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the wraith’s CR per round.\nIlluminated (Su)\nLight within 10 feet of a pyric wraith\r\nincreases by two steps. Light for 10 more feet beyond that\r\nincreases by one step. Magical darkness decreases this light\r\nonly if from a source with a CR or level higher than the\r\nwraith’s CR.\nPyric Fire (Su)\nThe fire damage of a pyric wraith burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nPyric Ray (Su)\nA pyric wraith can launch a ray of\r\npyric fire with a range increment of 30 feet and a\r\nmaximum range of 150 feet.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 14\nEffect\nA creature that fails the save gains the burning 2d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse.\nDescription\nOver centuries, pyric fire consumes a pyric\r\nrevenant’s flesh, leaving behind an apparition of\r\nash and embers. This pyric wraith is made of swirling\r\ncinders rippling around a heart of brighter flame. The\r\nsmell of ash and smoke often precedes a pyric wraith.\nA pyric wraith retains only a desire to burn living things\r\nand consume the energy released. These beings rarely make\r\nfull use of their incorporeality. Overwhelming malice compels\r\nthem to kill without stealth, inspiring horror as they do so.\r\nFurther, pyric wraiths hate passing through the darkness\r\nwithin objects.\nExtra Content\nThe following extra content was found for this creature:\n-\nPyric Wraith (Creature Subtype) Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien"
+}

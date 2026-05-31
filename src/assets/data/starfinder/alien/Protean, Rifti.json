@@ -1,0 +1,65 @@
+{
+  "name": "Protean, Rifti",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Rifti&Family=Protean",
+  "source": "Alien Archive 4 pg. 86",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CN",
+  "size": "Tiny",
+  "creature_type": "outsider (chaotic, extraplanar, protean, shapechanger)",
+  "init": "+4",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "16",
+  "eac": "12",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+3",
+  "immunities": "random energy",
+  "speed": "20 ft., fly 40 ft. (Su, perfect)",
+  "melee": "bite +5 (1d4 plus confusion)",
+  "ranged": "random energy ray +5 (1d4+1 random type)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st",
+    "spells": "1/day—\nmind thrust\n(DC 14)\n3/day—\nholographic image\n(DC 14)\nAt will—\nghost sound\n(DC 13),\npsychokinetic hand\n,\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "-3",
+    "dex": "+4",
+    "con": "+1",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +10 (+18 to fly), Bluff +5",
+  "languages": "Common, Protean",
+  "other_abilities": "fleeting, shifting form",
+  "environment": "any (Maelstrom)",
+  "organization": "solitary, pair, or muddle (3–13)",
+  "special_abilities": [
+    {
+      "name": "Confusion (Su)",
+      "description": "A creature damaged by the rifti’s bite attack must succeed at a DC 12 Will save (14 on a critical hit) or become confused for 1 round."
+    },
+    {
+      "name": "Fleeting (Ex)",
+      "description": "The chaotic energies that create a rifti degrade, and most riftis cease to exist within 1d100 hours of forming. However, some individuals live much longer."
+    },
+    {
+      "name": "Random Energy (Su)",
+      "description": "A rifti’s unstable shape grants it fluctuating energy attacks and immunities. Each round, to determine which energy applies, roll 1d8: 1–2 acid, 3–4 electricity, 5–6 sonic, 7 cold, 8 fire."
+    },
+    {
+      "name": "Shifting Form (Su)",
+      "description": "A rifti’s shape shifts each time it takes a turn. The rifti might look like other Tiny creatures, but it can resemble objects, abstract energies, or shards of matter. These changes don’t affect the rifti’s statistics."
+    }
+  ],
+  "description": "Riftis arise from entropic energies released in the Maelstrom or by planar travel, such as the plane shift spell or faulty interplanar portals. They usually exist only briefly and form groups, most often with other riftis born at the same time. Drift engines are shielded against releasing energies that birth riftis, but a defective or damaged engine can cause a starship passing between the Drift and the Material Plane to become home to cackling, cavorting riftis.\nA rifti’s “normal” body is like a four-armed serpent. However, riftis shift form without control. The chaotic little creatures revel in this novelty, enhancing changes with illusions, strange noises, and token spell effects to make their surroundings more surreal. A typical rifti's body pops like a bubble after mere days.\nEqually unstable is a rifti’s personality. A rifti that meets other creatures might do anything, changing its mind from moment to moment. It's possible to reason with a rifti, but any agreements rarely last long.",
+  "extra_content": "The following extra content was found for this creature:\n-\nProtean (Summoning) Graft Template\n-\nProtean (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProtean\nSource\nAlien Archive 4 pg. 86\nAs embodiments of chaos, most proteans remain in the comforting unpredictability of the Maelstrom, where they happily create and destroy at their ever-changing whims. Durgastrs in particular are explorers—often inadvertently. They delight in examining alternate realities, particularly planes that present imperfect reflections of each other, such as how the Shadow Plane and Ethereal Plane mirror aspects of the Material Plane. Where they find inspiring inconsistencies, durgastrs endeavor to overlay and fuse the strange realities into a multifaceted whole, often disrupting living creatures, cityscapes, and even whole ecosystems in the process.\nAliens in the \"Protean\" Family\nName\nCR\nDurgastr\n16\nRifti\n1\nXiritix\n11\nProtean, Rifti\nSource\nStarfinder #13: Fire Starters pg. 61\nRifti CR 1\nXP 400\nCN Tiny outsider (chaotic, extraplanar, protean, shapechanger)\nInit\n+4;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n16\nEAC\n12;\nKAC\n12\nFort\n+3;\nRef\n+3;\nWill\n+3\nDefensive Abilities\namorphous;\nImmunities\nrandom energy\nOffense\nSpeed\n20 ft., fly 40 ft. (Su, perfect)\nMelee\nbite +5 (1d4 plus confusion)\nRanged\nrandom energy ray +5 (1d4+1 random type)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nSpell-Like Abilities\n(CL 1st)\n1/day—\nmind thrust\n(DC 14)\n3/day—\nholographic image\n(DC 14)\nAt will—\nghost sound\n(DC 13),\npsychokinetic hand\n,\ntoken spell\nStatistics\nSTR\n-3;\nDEX\n+4;\nCON\n+1;\nINT\n-1;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +10 (+18 to fly), Bluff +5\nLanguages\nCommon, Protean\nOther Abilities\nfleeting, shifting form\nEcology\nEnvironment\nany (Maelstrom)\nOrganization\nsolitary, pair, or muddle (3–13)\nSpecial Abilities\nConfusion (Su)\nA creature damaged by the rifti’s bite attack must succeed at a DC 12 Will save (14 on a critical hit) or become confused for 1 round.\nFleeting (Ex)\nThe chaotic energies that create a rifti degrade, and most riftis cease to exist within 1d100 hours of forming. However, some individuals live much longer.\nRandom Energy (Su)\nA rifti’s unstable shape grants it fluctuating energy attacks and immunities. Each round, to determine which energy applies, roll 1d8: 1–2 acid, 3–4 electricity, 5–6 sonic, 7 cold, 8 fire.\nShifting Form (Su)\nA rifti’s shape shifts each time it takes a turn. The rifti might look like other Tiny creatures, but it can resemble objects, abstract energies, or shards of matter. These changes don’t affect the rifti’s statistics.\nDescription\nRiftis arise from entropic energies released in the Maelstrom or by planar travel, such as the plane shift spell or faulty interplanar portals. They usually exist only briefly and form groups, most often with other riftis born at the same time. Drift engines are shielded against releasing energies that birth riftis, but a defective or damaged engine can cause a starship passing between the Drift and the Material Plane to become home to cackling, cavorting riftis.\nA rifti’s “normal” body is like a four-armed serpent. However, riftis shift form without control. The chaotic little creatures revel in this novelty, enhancing changes with illusions, strange noises, and token spell effects to make their surroundings more surreal. A typical rifti's body pops like a bubble after mere days.\nEqually unstable is a rifti’s personality. A rifti that meets other creatures might do anything, changing its mind from moment to moment. It's possible to reason with a rifti, but any agreements rarely last long.\nExtra Content\nThe following extra content was found for this creature:\n-\nProtean (Summoning) Graft Template\n-\nProtean (Creature Subtype) Graft Template",
+  "type": "outsider (chaotic, extraplanar, protean, shapechanger)",
+  "category": "alien"
+}

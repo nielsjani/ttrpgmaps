@@ -1,0 +1,45 @@
+{
+  "name": "Assassins, Specter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Specter&Family=Assassins",
+  "source": "Interstellar Species pg. 152",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "humanoid (hadrogaan)",
+  "init": "+8",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+36",
+  "hp": "375",
+  "eac": "32",
+  "kac": "34",
+  "fort": "+19",
+  "ref": "+19",
+  "will": "+18",
+  "speed": "30 ft.",
+  "melee": "white star plasma sword +29 (8d8+29 E & F; critical severe wound)",
+  "ranged": "elite seeker rifle +32 (9d8+18 P)",
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+8",
+    "con": "+6",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +36, Stealth +31",
+  "languages": "Common, Hadrogaan",
+  "other_abilities": "dual nervous systems , unobserved",
+  "gear": "freebooter armor V, elite seeker rifle with 18 sniper rounds, white star plasma sword",
+  "special_abilities": [
+    {
+      "name": "Unobserved (Su)",
+      "description": "Twice per day for 15 minutes each, a specter can reduce their presence to the point where they become unobserved even while standing in plain sight. To observe a specter while they’re in this mode, a creature must succeed at a Will save (DC = 8 + the specter’s CR) or be unable to detect the presence of the specter using any sense (including blindsense and blindsight). A success grants a creature the ability to see the specter for only 1 round, after which they must attempt another Will save."
+    }
+  ],
+  "description": "Even among assassins, there are those who are so highly skilled that few dare to speak their names. Often referred to as specters for their ability to appear and vanish like ghosts, these killers can silence their targets without a single witness to the act, leaving nothing but a corpse as evidence.\nSpecters prefer to stay hidden, even to their employers. They are often hired for high-level assassinations and work with clients on recommendations only. Untrustworthy clients who are put on a specter’s block list soon find themselves out of favor with most other assassins within their network.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAssassins\nSource\nInterstellar Species pg. 152\nAssassins are skilled killers who excel in eliminating single targets. Often using various forms of stealth and subterfuge, they can pass between guards undetected and skillfully navigate traps to quickly dispatch their marked query. High-profile corporations, cults, or criminal syndicates may employ assassins, but most work alone or as part of secretive guilds for hire and by contract.\nAssassins work in the shadows, with some operating discreetly among the underbellies of society and others conducting their business while hiding in plain sight. Regardless of their methods, they’re valued for their ability to hide their tracks and maintain their employer’s anonymity. The most skilled assassins can take out high-profile figures without leaving any evidence for investigators to follow. The more difficult the job and the greater the prominence of the target, the higher the fee they command.\nAliens in the \"Assassins\" Family\nName\nCR\nDeadeye\n14\nMasked Assassin\n5\nSpecter\n18\nViper\n9\nAssassins, Specter\nSource\nInterstellar Species pg. 153\nSpecter CR 18\nXP 153,600\nHadrogaan\nCE Medium humanoid (hadrogaan)\nInit\n+8;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+36\nDefense\nHP\n375\nEAC\n32;\nKAC\n34\nFort\n+19;\nRef\n+19;\nWill\n+18\nOffense\nSpeed\n30 ft.\nMelee\nwhite star plasma sword +29 (8d8+29 E & F; critical severe wound)\nRanged\nelite seeker rifle +32 (9d8+18 P)\nStatistics\nSTR\n+11;\nDEX\n+8;\nCON\n+6;\nINT\n+6;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +36, Stealth +31\nLanguages\nCommon, Hadrogaan\nOther Abilities\ndual nervous systems , unobserved\nGear\nfreebooter armor V, elite seeker rifle with 18 sniper rounds, white star plasma sword\nSpecial Abilities\nUnobserved (Su)\nTwice per day for 15 minutes each, a specter can reduce their presence to the point where they become unobserved even while standing in plain sight. To observe a specter while they’re in this mode, a creature must succeed at a Will save (DC = 8 + the specter’s CR) or be unable to detect the presence of the specter using any sense (including blindsense and blindsight). A success grants a creature the ability to see the specter for only 1 round, after which they must attempt another Will save.\nDescription\nEven among assassins, there are those who are so highly skilled that few dare to speak their names. Often referred to as specters for their ability to appear and vanish like ghosts, these killers can silence their targets without a single witness to the act, leaving nothing but a corpse as evidence.\nSpecters prefer to stay hidden, even to their employers. They are often hired for high-level assassinations and work with clients on recommendations only. Untrustworthy clients who are put on a specter’s block list soon find themselves out of favor with most other assassins within their network.",
+  "type": "humanoid (hadrogaan)",
+  "environment": "—",
+  "category": "alien"
+}

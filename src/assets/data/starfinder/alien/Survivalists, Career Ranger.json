@@ -1,0 +1,46 @@
+{
+  "name": "Survivalists, Career Ranger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Career Ranger&Family=Survivalists",
+  "source": "Interstellar Species pg. 182",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Small",
+  "creature_type": "humanoid (kobold)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+6",
+  "resistances": "acid 5",
+  "speed": "30 ft.",
+  "melee": "basic handaxe +7 (1d4+4 S)",
+  "ranged": "frost subduer +9 (1d3+3 C nonlethal; critical staggered) or dual focus rifle +9 (2d4+3 F; critical burn 1d4)",
+  "offensive_abilities": "expert sniper",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +8, Athletics +8, Engineering +13, Physical Science +8, Stealth +8, Survival +13",
+  "languages": "Common, Draconic",
+  "gear": "graphite carbon skin, basic handaxe, dual focus rifle with 2 batteries (20 charges each), frost subduer with 2 batteries (20 charges each), trapsmith’s tools",
+  "special_abilities": [
+    {
+      "name": "Expert Sniper (Ex)",
+      "description": "As long as a career ranger has cover or concealment against their target, they don’t take the normal –20 penalty for attempting to hide after sniping."
+    }
+  ],
+  "description": "Career rangers are self-sufficient and at home in the wilderness. They excel at guerrilla tactics, such as crafting traps and setting ambushes for prey or enemies. A career ranger might be an isolated loner in the middle of nowhere or a vital member of a rural community. Career rangers in smaller communities are often responsible for scouting and hunting to keep their communities safe and fed.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSurvivalists\nSource\nInterstellar Species pg. 182\nSurvivalists are defined by independence and self-sufficiency. They often expertly navigate specific types of hostile or dangerous terrain: forests, deserts, or more remote locales such as dead space or post-apocalyptic cityscapes. Survivalists generally don’t rely on others and commonly live and work alone. However, the following statistics can represent hunters and warriors within a community as well as hermits. A survivalist might have some kind of sentient companion or a creature companion, such as a beast of burden or a hunting beast. A survivalist might arrive at a critical moment to help PCs as they travel through a barren wasteland. Alternatively, a survivalist makes an excellent antagonist in a wilderness setting since they’re capable of using every aspect of the environment against their foes.\nAliens in the \"Survivalists\" Family\nName\nCR\nCareer Ranger\n3\nMysterious Hermit\n14\nOff-gridder\n1/2\nTrophy Hunter\n9\nSurvivalists, Career Ranger\nSource\nInterstellar Species pg. 182\nCareer Ranger CR 3\nXP 800\nKobold\nLN Small humanoid (kobold)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+2;\nRef\n+4;\nWill\n+6\nResistances\nacid 5\nOffense\nSpeed\n30 ft.\nMelee\nbasic handaxe +7 (1d4+4 S)\nRanged\nfrost subduer +9 (1d3+3 C nonlethal; critical staggered) or dual focus rifle +9 (2d4+3 F; critical burn 1d4)\nOffensive Abilities\nexpert sniper\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n-1;\nINT\n+0;\nWIS\n+2;\nCHA\n+1\nSkills\nAcrobatics +8, Athletics +8, Engineering +13, Physical Science +8, Stealth +8, Survival +13\nLanguages\nCommon, Draconic\nGear\ngraphite carbon skin, basic handaxe, dual focus rifle with 2 batteries (20 charges each), frost subduer with 2 batteries (20 charges each), trapsmith’s tools\nSpecial Abilities\nExpert Sniper (Ex)\nAs long as a career ranger has cover or concealment against their target, they don’t take the normal –20 penalty for attempting to hide after sniping.\nDescription\nCareer rangers are self-sufficient and at home in the wilderness. They excel at guerrilla tactics, such as crafting traps and setting ambushes for prey or enemies. A career ranger might be an isolated loner in the middle of nowhere or a vital member of a rural community. Career rangers in smaller communities are often responsible for scouting and hunting to keep their communities safe and fed.",
+  "type": "humanoid (kobold)",
+  "environment": "—",
+  "category": "alien"
+}

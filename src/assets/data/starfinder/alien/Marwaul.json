@@ -1,0 +1,43 @@
+{
+  "name": "Marwaul",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Marwaul&Family=Marwaul",
+  "source": "Starfinder #42: Whispers of the Eclipse pg. 54",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "animal",
+  "init": "+4",
+  "senses": "blindsight (vibration) 80 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+1",
+  "resistances": "cold 5",
+  "speed": "30 ft., burrow 10 ft., climb 15 ft.",
+  "melee": "bite +8 (1d6+2 P) or claws +5 (1d6+2 S)",
+  "ranged": "wail +8 (1d4+1 So plus nauseate)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +5, Stealth +5, Survival +5",
+  "environment": "cold desert (Weydana-3)",
+  "organization": "mated pair",
+  "special_abilities": [
+    {
+      "name": "Wail (Ex)",
+      "description": "A dominant marwaul can take a standard action to create a burst of ultrasonic sound targeting a creature within 30 feet; the target must succeed at a DC 10 Fortitude saving throw or be nauseated for 1d4 rounds."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMarwaul\nSource\nStarfinder #42: Whispers of the Eclipse pg. 54\nMarwauls dig complex burrows in the blue sands of Weydana-3. Clever and easily trained, these small, buck-toothed rodents make delightful pets or guardians, but they’re hunted for their luxurious, thick coats of blue fur—a natural evolution that grants them concealment on their home planet, even in broad daylight. Diurnal by nature, they graze on hardy tundra grasses and cultivate edible mosses in their underground burrows. Some entrepreneurs have begun exporting marwauls to populated planets, where they’re raised for their fur.\nSocial creatures to a fault, marwauls live in multigenerational colonies. A single burrow can hold up to two dozen individuals, including a pair of dominant mates who grow larger and stronger than the rest of the burrow. They protect their kin with the help of a V-shaped crown of collagen that grows on their heads. From these bone-like protuberances, a dominant marwaul can let loose a supersonic hoot that induces nausea in predators, affording marwauls a chance to scamper to safety. Sometimes, however, the death of the dominant pair causes the rest of the burrow to swarm.\nAliens in the \"Marwaul\" Family\nName\nCR\nMarwaul\n1\nMarwaul Swarm\n1\nMarwaul\nSource\nStarfinder #42: Whispers of the Eclipse pg. 54\nMarwaul CR 1\nXP 400\nN Tiny animal\nInit\n+4;\nSenses\nblindsight (vibration) 80 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+5;\nRef\n+5;\nWill\n+1\nResistances\ncold 5\nOffense\nSpeed\n30 ft., burrow 10 ft., climb 15 ft.\nMelee\nbite +8 (1d6+2 P) or claws +5 (1d6+2 S)\nRanged\nwail +8 (1d4+1 So plus nauseate)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +5, Stealth +5, Survival +5\nEcology\nEnvironment\ncold desert (Weydana-3)\nOrganization\nmated pair\nSpecial Abilities\nWail (Ex)\nA dominant marwaul can take a standard action to create a burst of ultrasonic sound targeting a creature within 30 feet; the target must succeed at a DC 10 Fortitude saving throw or be nauseated for 1d4 rounds.",
+  "type": "animal",
+  "category": "alien"
+}

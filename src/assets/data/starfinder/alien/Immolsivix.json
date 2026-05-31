@@ -1,0 +1,61 @@
+{
+  "name": "Immolsivix",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Immolsivix&Family=None",
+  "source": "Drift Crisis pg. 155",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CN",
+  "size": "Gargantuan",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "darkvision 60 ft., blindsense (vibration) 60 ft.;",
+  "perception": "+23",
+  "hp": "224",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+16",
+  "ref": "+13",
+  "will": "+13",
+  "dr": "5/— (fungal armor)",
+  "immunities": "fire",
+  "speed": "40 ft., burrow 20 ft.",
+  "melee": "claw +25 (2d12+19 S; critical bleed 2d8) or jaws +26 (2d8+19 P plus grapple)",
+  "ranged": "fungal bomb +24 (explode [10 ft., 5d6 F & So plus 2d6 burn, DC 19])",
+  "space": "20 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "immolation, instinctive shot",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+8",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +23, Athletics +23, Sense Motive +20, Stealth +28",
+  "languages": "Sivixian",
+  "environment": "any jungle or underground (Kehtaria)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Fungal Bomb (Ex)",
+      "description": "The immolsivix launches an explosive fungal pod from its body with a 40-foot range increment."
+    },
+    {
+      "name": "Fungal Armor (Ex)",
+      "description": "Thick, swiftgrowing mold covers an immolsivix, granting it DR 5/— and cover. If an immolsivix loses its fungal armor and isn’t burning, it automatically regrows the fungal armor at the beginning of its next turn."
+    },
+    {
+      "name": "Immolation (Ex)",
+      "description": "When the immolsivix would take fire damage but has its fungal armor ability, it instead loses its fungal armor and burns for 1d4 rounds. While burning, the immolsivix gains a 5-foot aura that burns creatures that enter or begin their turn in the area (DC 19 Reflex half), and the immolsivix can replace half of the damage dealt by its melee attacks with fire damage (though they still target KAC)."
+    },
+    {
+      "name": "Instinctive Shot (Ex)",
+      "description": "When using multiattack, an immolsivix doesn’t provoke an attack of opportunity when making a fungal bomb attack."
+    }
+  ],
+  "description": "Found burrowing through Kehtaria’s thick soil or hacking passages through its dense foliage, immolsivixes are apex predators that favor ambush tactics to consume a wide variety of prey. Despite their appetites, immolsivixs are responsible for much of Kehtaria’s fecundity. Fast-growing symbiotic molds thrive on an immolsivix’s shell, absorbing minerals wherever the beast roams and converting them into forms that other life can use.\nUnder most circumstances, the mold sheds these nutrients gradually. However, the fungus is highly flammable, and when caught alight, not only can the colony explosively fertilize acres of territory at a time, but the fires often ignite vast stretches of accumulated biomass, converting it into nutritious ash. When immolsivixes gather to socialize, fight, or mate, their struggles often ignite vast flumes known as spore volcanoes, triggering rapid local growth. Most wildlife is cognizant of these somewhat intelligent creatures’ crucial role and exhibit deference toward them. Immolsivixes, in turn, can be highly protective of fauna in their territory.\nImmolsivixes spend long stretches in torpor, waiting for prey while conserving energy. If disturbed before they can feed, an immolsivix rampages widely.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nImmolsivix\nSource\nDrift Crisis pg. 155\nImmolsivix CR 13\nXP 25,600\nCN Gargantuan magical beast\nInit\n+4;\nSenses\ndarkvision 60 ft., blindsense (vibration) 60 ft.;\nPerception\n+23\nAura\nimmolation (5 ft., 4d6 F, DC 19)\nDefense\nHP\n224\nEAC\n26;\nKAC\n27\nFort\n+16;\nRef\n+13;\nWill\n+13\nDR\n5/— (fungal armor);\nImmunities\nfire\nOffense\nSpeed\n40 ft., burrow 20 ft.\nMelee\nclaw +25 (2d12+19 S; critical bleed 2d8) or jaws +26 (2d8+19 P plus grapple)\nMultiattack\njaws +20 (2d8+19 P plus grapple), 2 claws +19 (2d12+19 S; critical bleed 2d8), fungal bomb +18 (explode [10 ft., 5d6 F & So plus 2d6 burn, DC 19])\nRanged\nfungal bomb +24 (explode [10 ft., 5d6 F & So plus 2d6 burn, DC 19])\nSpace\n20 ft.;\nReach\n15 ft.\nOffensive Abilities\nimmolation, instinctive shot\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+8;\nINT\n-2;\nWIS\n+2;\nCHA\n-3\nSkills\nAcrobatics +23, Athletics +23, Sense Motive +20, Stealth +28\nLanguages\nSivixian\nEcology\nEnvironment\nany jungle or underground (Kehtaria)\nOrganization\nsolitary or pair\nSpecial Abilities\nFungal Bomb (Ex)\nThe immolsivix launches an explosive fungal pod from its body with a 40-foot range increment.\nFungal Armor (Ex)\nThick, swiftgrowing mold covers an immolsivix, granting it DR 5/— and cover. If an immolsivix loses its fungal armor and isn’t burning, it automatically regrows the fungal armor at the beginning of its next turn.\nImmolation (Ex)\nWhen the immolsivix would take fire damage but has its fungal armor ability, it instead loses its fungal armor and burns for 1d4 rounds. While burning, the immolsivix gains a 5-foot aura that burns creatures that enter or begin their turn in the area (DC 19 Reflex half), and the immolsivix can replace half of the damage dealt by its melee attacks with fire damage (though they still target KAC).\nInstinctive Shot (Ex)\nWhen using multiattack, an immolsivix doesn’t provoke an attack of opportunity when making a fungal bomb attack.\nDescription\nFound burrowing through Kehtaria’s thick soil or hacking passages through its dense foliage, immolsivixes are apex predators that favor ambush tactics to consume a wide variety of prey. Despite their appetites, immolsivixs are responsible for much of Kehtaria’s fecundity. Fast-growing symbiotic molds thrive on an immolsivix’s shell, absorbing minerals wherever the beast roams and converting them into forms that other life can use.\nUnder most circumstances, the mold sheds these nutrients gradually. However, the fungus is highly flammable, and when caught alight, not only can the colony explosively fertilize acres of territory at a time, but the fires often ignite vast stretches of accumulated biomass, converting it into nutritious ash. When immolsivixes gather to socialize, fight, or mate, their struggles often ignite vast flumes known as spore volcanoes, triggering rapid local growth. Most wildlife is cognizant of these somewhat intelligent creatures’ crucial role and exhibit deference toward them. Immolsivixes, in turn, can be highly protective of fauna in their territory.\nImmolsivixes spend long stretches in torpor, waiting for prey while conserving energy. If disturbed before they can feed, an immolsivix rampages widely.",
+  "type": "magical beast",
+  "category": "alien"
+}

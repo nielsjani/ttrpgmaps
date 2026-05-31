@@ -1,0 +1,57 @@
+{
+  "name": "Dimensional Shambler",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dimensional Shambler&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 55",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (chaotic, evil, extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+9",
+  "dr": "5/lawful",
+  "speed": "30 ft.",
+  "melee": "claw +20 (3d4+13 S plus grab)",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\ndisplacement\n3/day—\ndimensional anchor, plane shift\nAt will—\ndimension door"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Mysticism +16, Sense Motive +16, Stealth +16",
+  "languages": "Aklo",
+  "other_abilities": "dimension mastery, planar mastery",
+  "environment": "any",
+  "organization": "solitary, pair, or gang (3–8)",
+  "special_abilities": [
+    {
+      "name": "Dimension Mastery (Ex)",
+      "description": "After being affected by\ndimension\r\ndoor\n, a dimensional shambler can take actions normally.\r\nIn addition, the shambler can attempt a Mysticism check\r\nto ignore effects that prevent planar travel (DC = 10 + the\r\nlevel or CR of the effect or its creator, whichever is higher).\r\nIf successful, the shambler ignores the effect for 1 round."
+    },
+    {
+      "name": "Planar Mastery (Ex)",
+      "description": "When a dimensional shambler uses\nplane shift\n, it does so as a full action during which\r\nit shimmers and fades to transparency. The\r\nshambler can arrive in a specific location if\r\nit succeeds at a DC 20 Mysticism check. In\r\naddition, a dimensional shambler can take\r\none unwilling creature with it when\r\nit uses\nplane shift\n, provided the\r\nshambler has the target grappled\r\nor pinned. The creature can negate\r\nthe\nplane shift\neffect on itself with a\r\nsuccessful DC 16 Will save."
+    },
+    {
+      "name": "Resist Conjuration (Ex)",
+      "description": "Dimensional\r\nshamblers are immune to effects that\r\nhave the calling or summoning descriptors. A shambler can\r\nsense when it has been targeted by such an effect and use\nplane shift\nto travel to the location of the effect’s creator."
+    }
+  ],
+  "description": "Dimensional shamblers are lean, humanoid-shaped beings that\r\nmove as if intoxicated. They are relentless planar explorers.\r\nViolence and abduction define their interactions with\r\nother creatures.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDimensional Shambler\nSource\nStarfinder #16: The Blind City pg. 55\nDimensional Shambler CR 8\nXP 4,800\nCE Medium outsider (chaotic, evil, extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+11;\nRef\n+9;\nWill\n+9\nDefensive Abilities\nresist conjuration;\nDR\n5/lawful\nOffense\nSpeed\n30 ft.\nMelee\nclaw +20 (3d4+13 S plus grab)\nSpell-Like Abilities\n(CL 8th)\n1/day—\ndisplacement\n3/day—\ndimensional anchor, plane shift\nAt will—\ndimension door\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+5;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nMysticism +16, Sense Motive +16, Stealth +16\nLanguages\nAklo\nOther Abilities\ndimension mastery, planar mastery\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or gang (3–8)\nSpecial Abilities\nDimension Mastery (Ex)\nAfter being affected by\ndimension\r\ndoor\n, a dimensional shambler can take actions normally.\r\nIn addition, the shambler can attempt a Mysticism check\r\nto ignore effects that prevent planar travel (DC = 10 + the\r\nlevel or CR of the effect or its creator, whichever is higher).\r\nIf successful, the shambler ignores the effect for 1 round.\nPlanar Mastery (Ex)\nWhen a dimensional shambler uses\nplane shift\n, it does so as a full action during which\r\nit shimmers and fades to transparency. The\r\nshambler can arrive in a specific location if\r\nit succeeds at a DC 20 Mysticism check. In\r\naddition, a dimensional shambler can take\r\none unwilling creature with it when\r\nit uses\nplane shift\n, provided the\r\nshambler has the target grappled\r\nor pinned. The creature can negate\r\nthe\nplane shift\neffect on itself with a\r\nsuccessful DC 16 Will save.\nResist Conjuration (Ex)\nDimensional\r\nshamblers are immune to effects that\r\nhave the calling or summoning descriptors. A shambler can\r\nsense when it has been targeted by such an effect and use\nplane shift\nto travel to the location of the effect’s creator.\nDescription\nDimensional shamblers are lean, humanoid-shaped beings that\r\nmove as if intoxicated. They are relentless planar explorers.\r\nViolence and abduction define their interactions with\r\nother creatures.",
+  "type": "outsider (chaotic, evil, extraplanar)",
+  "category": "alien"
+}

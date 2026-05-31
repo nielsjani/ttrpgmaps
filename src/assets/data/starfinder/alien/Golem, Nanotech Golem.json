@@ -1,0 +1,67 @@
+{
+  "name": "Golem, Nanotech Golem",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Nanotech Golem&Family=Golem",
+  "source": "Alien Archive 2 pg. 67",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical, technological)",
+  "init": "+8",
+  "senses": "all-around vision, darkvision 60 ft., low.light vision;",
+  "perception": "+25",
+  "hp": "250",
+  "eac": "29",
+  "kac": "29",
+  "fort": "+12",
+  "ref": "+16",
+  "will": "+10",
+  "immunities": "construct immunities, magic",
+  "speed": "40 ft., fly 40 ft. (Su, perfect)",
+  "melee": "nanite filament +27 (4d6+20 S or P; critical severe wound [DC 20])",
+  "ranged": "nanite scattershot +27 (4d12+14 P)",
+  "space": "10 ft.",
+  "reach": "10 ft. (15 ft. with nanite filament)",
+  "offensive_abilities": "nanite cloud",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+8",
+    "con": "—",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "other_abilities": "comm, mindless, unliving",
+  "environment": "any",
+  "organization": "solitary or gang (2–4)",
+  "special_abilities": [
+    {
+      "name": "All-Around Vision (Ex)",
+      "description": "A nanotech golem sees in all directions at once."
+    },
+    {
+      "name": "Comm (Ex)",
+      "description": "A golem can receive wireless communications (and thus commands from its creator) at planetary range."
+    },
+    {
+      "name": "Magic Immunity (Ex)",
+      "description": "A cybernetic or nanotech golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically lists constructs in its Targets entry. In addition, certain spells and effects function differently against the golem as follows.\nThe golem can be affected by\ndischarge\nor\ngreater discharge\nbut has a unique reaction to the spells. If the golem fails a saving throw against either spell, it becomes confused for 1d4 rounds instead of suffering the spell’s normal effect. The golem can attempt a Fortitude save at the end of each of its turns, ending the condition on a success.\nMagical effects that deal cold damage slow (as the slow spell) the golem for 3 rounds (no save). If the golem has a haste circuit and it is active, this effect counters the haste circuit but has no other effect.\nThe golem automatically fails saving throws against weapons and magical effects that deal electricity damage. However, such an effect merely breaks any slow effect on the golem and heals it for 1 Hit Point per 3 damage the effect would have dealt. Any damage that exceeds the golem’s maximum Hit Points is stored as charges for its weapons, at a rate of 1 charge per Hit Point the golem would have gained. Any additional damage is ignored."
+    },
+    {
+      "name": "Nanite Cloud (Ex)",
+      "description": "Nanites swarm within 5 feet of the nanotech golem, and the golem can enter an opponent’s space, provoking an attack of opportunity from that foe. At the end of each of the golem’s turns, each creature within 5 feet of the golem or sharing its space takes 8d6 piercing damage and is nauseated for 1 round. A successful DC 20 Fortitude saving throw halves the damage and negates the condition."
+    },
+    {
+      "name": "Nanite Scattershot (Ex)",
+      "description": "As an attack, a nanotech golem can unleash a stream of nanite particles at a single target as a kinetic attack with a range increment of 90 feet."
+    },
+    {
+      "name": "Swarmlike (Ex)",
+      "description": "A nanotech golem is immune to critical hits, as well as entangled, flat-footed, off-kilter, off-target, pinned, prone, and staggered effects. It takes only half damage from any attack or effect that targets only one creature. Automatic fire must hit the golem as if it were three targets to deal full damage to it. In addition, the golem can move through openings 1 inch wide without squeezing, and it can squeeze to move through microscopic openings."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGolem\nSource\nAlien Archive 2 pg. 67\nThese automatons, created by powerful spellcasters, differ from most robots in that each has an elemental spirit bound within. Properly binding this spirit, which is usually from an earth elemental, is the most important part of creating a golem. As the spirit is only semiconscious, the golem exists in a mindless state and acts only to defend itself or to follow orders from its creator. In some golems, injury causes the elemental spirit to stir in its artificial shell. As it gains awareness, it rages at its imprisonment.\nAliens in the \"Golem\" Family\nName\nCR\nAbysium Golem\n12\nCybernetic Golem\n8\nJunk\n4\nNanotech Golem\n14\nNeutronium Golem\n6\nGolem, Nanotech Golem\nSource\nAlien Archive 2 pg. 67\nNanotech Golem CR 14\nXP 38,400\nN Large construct (magical, technological)\nInit\n+8;\nSenses\nall-around vision, darkvision 60 ft., low.light vision;\nPerception\n+25\nDefense\nHP\n250\nEAC\n29;\nKAC\n29; 47 against combat maneuvers\nFort\n+12;\nRef\n+16;\nWill\n+10\nDefensive Abilities\nregeneration 10 (acid or fire), swarmlike, unflankable;\nImmunities\nconstruct immunities, magic\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, perfect)\nMelee\nnanite filament +27 (4d6+20 S or P; critical severe wound [DC 20])\nRanged\nnanite scattershot +27 (4d12+14 P)\nSpace\n10 ft.;\nReach\n10 ft. (15 ft. with nanite filament)\nOffensive Abilities\nnanite cloud\nStatistics\nSTR\n+6;\nDEX\n+8;\nCON\n—;\nINT\n—;\nWIS\n+0;\nCHA\n-2\nOther Abilities\ncomm, mindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or gang (2–4)\nSpecial Abilities\nAll-Around Vision (Ex)\nA nanotech golem sees in all directions at once.\nComm (Ex)\nA golem can receive wireless communications (and thus commands from its creator) at planetary range.\nMagic Immunity (Ex)\nA cybernetic or nanotech golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically lists constructs in its Targets entry. In addition, certain spells and effects function differently against the golem as follows.\nThe golem can be affected by\ndischarge\nor\ngreater discharge\nbut has a unique reaction to the spells. If the golem fails a saving throw against either spell, it becomes confused for 1d4 rounds instead of suffering the spell’s normal effect. The golem can attempt a Fortitude save at the end of each of its turns, ending the condition on a success.\nMagical effects that deal cold damage slow (as the slow spell) the golem for 3 rounds (no save). If the golem has a haste circuit and it is active, this effect counters the haste circuit but has no other effect.\nThe golem automatically fails saving throws against weapons and magical effects that deal electricity damage. However, such an effect merely breaks any slow effect on the golem and heals it for 1 Hit Point per 3 damage the effect would have dealt. Any damage that exceeds the golem’s maximum Hit Points is stored as charges for its weapons, at a rate of 1 charge per Hit Point the golem would have gained. Any additional damage is ignored.\nNanite Cloud (Ex)\nNanites swarm within 5 feet of the nanotech golem, and the golem can enter an opponent’s space, provoking an attack of opportunity from that foe. At the end of each of the golem’s turns, each creature within 5 feet of the golem or sharing its space takes 8d6 piercing damage and is nauseated for 1 round. A successful DC 20 Fortitude saving throw halves the damage and negates the condition.\nNanite Scattershot (Ex)\nAs an attack, a nanotech golem can unleash a stream of nanite particles at a single target as a kinetic attack with a range increment of 90 feet.\nSwarmlike (Ex)\nA nanotech golem is immune to critical hits, as well as entangled, flat-footed, off-kilter, off-target, pinned, prone, and staggered effects. It takes only half damage from any attack or effect that targets only one creature. Automatic fire must hit the golem as if it were three targets to deal full damage to it. In addition, the golem can move through openings 1 inch wide without squeezing, and it can squeeze to move through microscopic openings.",
+  "type": "construct (magical, technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Golem_Nanotech.png"
+}

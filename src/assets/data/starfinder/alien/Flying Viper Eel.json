@@ -1,0 +1,47 @@
+{
+  "name": "Flying Viper Eel",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Flying Viper Eel&Family=None",
+  "source": "Starfinder #29: The Cradle Infestation pg. 56",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "animal (swarm)",
+  "init": "+8",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+9",
+  "immunities": "swarm immunities",
+  "weaknesses": "vulnerable to fire",
+  "speed": "10 ft., fly 60 ft. (Ex, perfect)",
+  "melee": "swarm attack (1d10+10 P plus flying viper eel venom)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 17)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+8",
+    "con": "+5",
+    "int": "-5",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +24 (+32 to fly), Stealth +19, Survival +19",
+  "environment": "any air (Bretheda)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Flying Viper Eel Venom",
+      "description": "Type\npoison (injury);\nSave\nFortitude DC 17\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Sluggish–Stiffened–Staggered–Staggered; the second staggered functions as an end state.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "Within the swirling clouds of Bretheda, the living float and the dead sink, but usually not before a swarm of flying viper eels can scavenge the bodies. A single flying viper eel looks to be nothing more than a long, flat, serpentine creature with a pointed snout, sharp teeth, no eyes, and gossamer-like strands flowing around its body. It stays buoyant with natural hydrogen gas bladders just under the skin along its spine. A flying viper eel excretes this hydrogen in highly pressurized streams from minuscule orifices in order to navigate a gas giant’s clouds. Its enlarged, ribbon-like cilia function as sails, enabling the viper eel to ride air currents toward its next meal.\nInstinct has taught viper eels to work together as a single unit, traveling the skies of Bretheda as one large swarm to better take down larger prey. First, they let their venom slow the target’s reactions, leaving it unable to fight back. The eels heightened senses and agility allow them to detect potential sluggish victims hundreds of feet away, quickly change direction, and rush toward the new source of food. Though these aggressive swarms once posed a substantial threat to Brethedan life, evolutionary factors and encroaching civilization have forced them to act more as scavengers.\nThrough their expertise in biotechnology, barathus have developed organic devices to repel these flying eels—these devices exude a strange-smelling musk and vibrate at a frequency the viper eels find disturbing, but the results are unpredictable. On the other hand, haans hunt the creatures as easy game, using their firespray to roast swarms of viper eels, while others catch the roasted creatures in handmade nets before they plummet too deep into Bretheda’s atmosphere. Once prolific, viper eels are quickly becoming endangered, even as many swarms have taken to infesting floating platforms at Bretheda’s surface and made their way to the gas giant’s moons, scavenging from trash bins and hunting other urban vermin.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFlying Viper Eel\nSource\nStarfinder #29: The Cradle Infestation pg. 56\nFlying Viper Eel CR 10\nXP 9,600\nN Tiny animal (swarm)\nInit\n+8;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+14;\nWill\n+9\nDefensive Abilities\nswarm defenses;\nImmunities\nswarm immunities\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n10 ft., fly 60 ft. (Ex, perfect)\nMelee\nswarm attack (1d10+10 P plus flying viper eel venom)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 17)\nStatistics\nSTR\n+0;\nDEX\n+8;\nCON\n+5;\nINT\n-5;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +24 (+32 to fly), Stealth +19, Survival +19\nEcology\nEnvironment\nany air (Bretheda)\nOrganization\nsolitary\nSpecial Abilities\nFlying Viper Eel Venom\nType\npoison (injury);\nSave\nFortitude DC 17\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Sluggish–Stiffened–Staggered–Staggered; the second staggered functions as an end state.\nCure\n2 consecutive saves\nDescription\nWithin the swirling clouds of Bretheda, the living float and the dead sink, but usually not before a swarm of flying viper eels can scavenge the bodies. A single flying viper eel looks to be nothing more than a long, flat, serpentine creature with a pointed snout, sharp teeth, no eyes, and gossamer-like strands flowing around its body. It stays buoyant with natural hydrogen gas bladders just under the skin along its spine. A flying viper eel excretes this hydrogen in highly pressurized streams from minuscule orifices in order to navigate a gas giant’s clouds. Its enlarged, ribbon-like cilia function as sails, enabling the viper eel to ride air currents toward its next meal.\nInstinct has taught viper eels to work together as a single unit, traveling the skies of Bretheda as one large swarm to better take down larger prey. First, they let their venom slow the target’s reactions, leaving it unable to fight back. The eels heightened senses and agility allow them to detect potential sluggish victims hundreds of feet away, quickly change direction, and rush toward the new source of food. Though these aggressive swarms once posed a substantial threat to Brethedan life, evolutionary factors and encroaching civilization have forced them to act more as scavengers.\nThrough their expertise in biotechnology, barathus have developed organic devices to repel these flying eels—these devices exude a strange-smelling musk and vibrate at a frequency the viper eels find disturbing, but the results are unpredictable. On the other hand, haans hunt the creatures as easy game, using their firespray to roast swarms of viper eels, while others catch the roasted creatures in handmade nets before they plummet too deep into Bretheda’s atmosphere. Once prolific, viper eels are quickly becoming endangered, even as many swarms have taken to infesting floating platforms at Bretheda’s surface and made their way to the gas giant’s moons, scavenging from trash bins and hunting other urban vermin.",
+  "type": "animal (swarm)",
+  "category": "alien"
+}

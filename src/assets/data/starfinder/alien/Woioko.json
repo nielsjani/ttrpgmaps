@@ -1,0 +1,51 @@
+{
+  "name": "Woioko",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Woioko&Family=None",
+  "source": "Starfinder #2: Temple of the Twelve pg. 60",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (woioko)",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "17",
+  "kac": "17",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+7",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "tactical spear +8 (1d6+5 P)",
+  "ranged": "trailblazer tactical semi-auto pistol",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Athletics +15 (+23 when swimming), Culture +10, Diplomacy +15, Piloting +10, Sense Motive +15",
+  "languages": "Common, Woiokan",
+  "other_abilities": "envoy improvisations (get ’em, inspiring boost [13 SP], quick inspiring boost [9 SP]), hold breath",
+  "gear": "woiokan bodyglove (functions as basic lashunta tempweave), tactical spear,",
+  "environment": "any oceans (Heicoron IV)",
+  "organization": "solitary, pair, or delegation (3–12)",
+  "special_abilities": [
+    {
+      "name": "Hold Breath (Ex)",
+      "description": "A Floatborn woioko can hold her breath for 10 minutes before she risks drowning."
+    },
+    {
+      "name": "Slippery Mind (Ex)",
+      "description": "The first time a woioko fails her saving throw against an enchantment spell or effect, she can attempt a second saving throw 1 round later."
+    }
+  ],
+  "description": "Inhabitants of the ocean planet Heicoron IV (\nStarfinder Adventure Path #1\n62), woiokos are humanoids who have smooth, eellike skin. They evolved from underwater-dwelling ancestors, but more recently they split into two subspecies when rising sea levels destroyed their terrestrial civilization. The air-breathing Floatborn remained above the waves and now reside in vast floating arcologies divided into dozens of autonomous nations. The Deepborn genetically modified themselves to breathe water as well as air and returned to their primeval homes deep in the ocean, where short-lived domains constantly vie for dominance. The two subspecies have little contact with one another, each remaining in its preferred environment.",
+  "extra_content": "The following extra content was found for this creature:\n-\nWoioko Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWoioko\nSource\nStarfinder #2: Temple of the Twelve pg. 60\nWoioko CR 4\nXP 1,200\nFloatborn woioko envoy\nLN Medium humanoid (woioko)\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+10\nDefense\nHP\n45\nEAC\n17;\nKAC\n17\nFort\n+3;\nRef\n+5;\nWill\n+7\nDefensive Abilities\nslippery mind\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\ntactical spear +8 (1d6+5 P)\nRanged\ntrailblazer tactical semi-auto pistol\n+10 (1d6+4 P)\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+0;\nINT\n+1;\nWIS\n+1;\nCHA\n+5\nSkills\nAthletics +15 (+23 when swimming), Culture +10, Diplomacy +15, Piloting +10, Sense Motive +15\nLanguages\nCommon, Woiokan\nOther Abilities\nenvoy improvisations (get ’em, inspiring boost [13 SP], quick inspiring boost [9 SP]), hold breath\nGear\nwoiokan bodyglove (functions as basic lashunta tempweave), tactical spear,\ntrailblazer tactical semi-auto pistol\nwith 90 small arm rounds\nEcology\nEnvironment\nany oceans (Heicoron IV)\nOrganization\nsolitary, pair, or delegation (3–12)\nSpecial Abilities\nHold Breath (Ex)\nA Floatborn woioko can hold her breath for 10 minutes before she risks drowning.\nSlippery Mind (Ex)\nThe first time a woioko fails her saving throw against an enchantment spell or effect, she can attempt a second saving throw 1 round later.\nDescription\nInhabitants of the ocean planet Heicoron IV (\nStarfinder Adventure Path #1\n62), woiokos are humanoids who have smooth, eellike skin. They evolved from underwater-dwelling ancestors, but more recently they split into two subspecies when rising sea levels destroyed their terrestrial civilization. The air-breathing Floatborn remained above the waves and now reside in vast floating arcologies divided into dozens of autonomous nations. The Deepborn genetically modified themselves to breathe water as well as air and returned to their primeval homes deep in the ocean, where short-lived domains constantly vie for dominance. The two subspecies have little contact with one another, each remaining in its preferred environment.\nExtra Content\nThe following extra content was found for this creature:\n-\nWoioko Race Entry",
+  "type": "humanoid (woioko)",
+  "category": "alien"
+}

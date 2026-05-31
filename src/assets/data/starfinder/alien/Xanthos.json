@@ -1,0 +1,54 @@
+{
+  "name": "Xanthos",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Xanthos&Family=None",
+  "source": "Starfinder #29: The Cradle Infestation pg. 61",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast",
+  "init": "+2",
+  "senses": "darkvision 120 ft., low-light vision;",
+  "perception": "+25",
+  "hp": "235",
+  "eac": "28",
+  "kac": "29",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+17",
+  "sr": "25",
+  "immunities": "cold;",
+  "resistances": "electricity 30, fire 30;",
+  "speed": "60 ft.",
+  "melee": "bite +26 (6d6+22 P) or hoof +26 (4d6+22 B)",
+  "space": "15 ft.",
+  "reach": "10 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 14th",
+    "spells": "1/day—\nteleport\n3/day—\narcane eye\nAt will—\nlife bubble"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+2",
+    "con": "+6",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Culture +30, Intimidate +25, Mysticism +30, Physical Science +25, Sense Motive +30",
+  "languages": "Aklo, Common; telepathy 5 ft.",
+  "other_abilities": "exploit stellar conjunction",
+  "gear": "industrial backpack, personal comm unit, spy drone (laser microphone), 4 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Exploit Stellar Conjunction (Su)",
+      "description": "A xanthos can sense the alignment of stellar objects (asteroids, comets, planets, and so on), which form conjunctions that grant them magical travel. During these conjunctions, the xanthos can use their teleport spell-like ability as\ninterplanetary teleport\nto reach any world they have visited before, or as\nplane shift\nto reach any plane. These conjunctions occur at the GM’s discretion and usually remain viable for 10d10 hours, after which it could be days, weeks, or even months before another conjunction occurs."
+    }
+  ],
+  "description": "The intimidating appearance of the robust half-equine, half‑reptilian xanthos (plural xanthoi) belies their remarkable intellect and magical abilities. Created by a vanished race of plane-hopping aliens to serve as their mounts, xanthoi still exhibit the natural curiosity and teleporting capabilities of their absentee masters. Their capacity for effortless travel and their drive to observe, collect, and catalogue knowledge give them a long history as field researchers, but the end of the Gap marked a drastic shift in xanthos mindsets. While other species despaired at the collective loss of so much history, the xanthoi celebrate the Gap as the period of their masters’ return. They believe their creators utilized powerful magic or technology to compile all accumulated information in the universe, taking a large chunk of it with them when they again departed at the end of the Gap. They celebrate this erasure as an opportunity to learn anew, free from the misconceptions of the past, and proselytize the inevitable return of their masters, whom they believe will bring about a second Gap.\nUnderstanding that their masters have already collected the “old knowings” that they and others have gathered throughout history, xanthoi now focus their acute observational skills on current events of all sorts. They seek to understand and document everything from political upheavals and interstellar wars to fashion trends and technological advances. Grand celestial occurrences and the final scores of local sporting events captivate them equally, and every moment of their wandering lives is recorded and uploaded into local infospheres. These firsthand accounts often gain popularity on social networks and news outlets, with the famed impartiality of the xanthoi making them ideal—if somewhat dry and over-technical—commentators.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nXanthos\nSource\nStarfinder #29: The Cradle Infestation pg. 61\nXanthos CR 14\nXP 38,400\nN Huge magical beast\nInit\n+2;\nSenses\ndarkvision 120 ft., low-light vision;\nPerception\n+25\nDefense\nHP\n235\nEAC\n28;\nKAC\n29\nFort\n+14;\nRef\n+14;\nWill\n+17\nImmunities\ncold;\nResistances\nelectricity 30, fire 30;\nSR\n25\nOffense\nSpeed\n60 ft.\nMelee\nbite +26 (6d6+22 P) or hoof +26 (4d6+22 B)\nSpace\n15 ft.;\nReach\n10 ft.\nSpell-Like Abilities\n(CL 14th)\n1/day—\nteleport\n3/day—\narcane eye\nAt will—\nlife bubble\nStatistics\nSTR\n+8;\nDEX\n+2;\nCON\n+6;\nINT\n+1;\nWIS\n+4;\nCHA\n+1\nSkills\nCulture +30, Intimidate +25, Mysticism +30, Physical Science +25, Sense Motive +30\nLanguages\nAklo, Common; telepathy 5 ft.\nOther Abilities\nexploit stellar conjunction\nGear\nindustrial backpack, personal comm unit, spy drone (laser microphone), 4 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nExploit Stellar Conjunction (Su)\nA xanthos can sense the alignment of stellar objects (asteroids, comets, planets, and so on), which form conjunctions that grant them magical travel. During these conjunctions, the xanthos can use their teleport spell-like ability as\ninterplanetary teleport\nto reach any world they have visited before, or as\nplane shift\nto reach any plane. These conjunctions occur at the GM’s discretion and usually remain viable for 10d10 hours, after which it could be days, weeks, or even months before another conjunction occurs.\nDescription\nThe intimidating appearance of the robust half-equine, half‑reptilian xanthos (plural xanthoi) belies their remarkable intellect and magical abilities. Created by a vanished race of plane-hopping aliens to serve as their mounts, xanthoi still exhibit the natural curiosity and teleporting capabilities of their absentee masters. Their capacity for effortless travel and their drive to observe, collect, and catalogue knowledge give them a long history as field researchers, but the end of the Gap marked a drastic shift in xanthos mindsets. While other species despaired at the collective loss of so much history, the xanthoi celebrate the Gap as the period of their masters’ return. They believe their creators utilized powerful magic or technology to compile all accumulated information in the universe, taking a large chunk of it with them when they again departed at the end of the Gap. They celebrate this erasure as an opportunity to learn anew, free from the misconceptions of the past, and proselytize the inevitable return of their masters, whom they believe will bring about a second Gap.\nUnderstanding that their masters have already collected the “old knowings” that they and others have gathered throughout history, xanthoi now focus their acute observational skills on current events of all sorts. They seek to understand and document everything from political upheavals and interstellar wars to fashion trends and technological advances. Grand celestial occurrences and the final scores of local sporting events captivate them equally, and every moment of their wandering lives is recorded and uploaded into local infospheres. These firsthand accounts often gain popularity on social networks and news outlets, with the famed impartiality of the xanthoi making them ideal—if somewhat dry and over-technical—commentators.",
+  "type": "magical beast",
+  "category": "alien"
+}

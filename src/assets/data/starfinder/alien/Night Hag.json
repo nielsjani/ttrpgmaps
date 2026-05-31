@@ -1,0 +1,58 @@
+{
+  "name": "Night Hag",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Night Hag&Family=None",
+  "source": "Starfinder #28: The Hollow Cabal pg. 59",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (evil, extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., detect alignment,",
+  "perception": "+17",
+  "hp": "117",
+  "eac": "21",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+12",
+  "dr": "10/cold iron and magic",
+  "sr": "19",
+  "immunities": "charm effects, cold, disease, fear effects, fire, sleep;",
+  "speed": "30 ft.",
+  "melee": "claw +18 (3d4+13 S) or incapacitator +18 (3d4+13 nonlethal B; critical staggered [DC 18])",
+  "ranged": "aphelion laser pistol +16 (3d4+9 F; critical burn 1d4)",
+  "offensive_abilities": "dream haunting",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th; ranged +16",
+    "spells": "1/day—\nbestow curse\n(DC 20),\ndeep slumber\n(DC 20)\n3/day—\ninflict pain\n(DC 19),\ninvisibility\nAt will—\ncommand\n(DC 18),\nmagic missile\nAt will (with\nheartstone\n)—\nethereal jaunt\nConstant—\ndetect magic\n,\ndetect tech"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+3",
+    "con": "+6",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Bluff +22, Diplomacy +17, Disguise +17, Intimidate +17, Mysticism +22, Sense Motive +17",
+  "languages": "Abyssal, Celestial, Common, Infernal",
+  "other_abilities": "change shape (any humanoid),",
+  "gear": "gold AbadarCorp travel suit, aphelion laser pistol with 1 high-capacity battery (40 charges), incapacitator with 1 battery (20 charges),",
+  "environment": "any evil-aligned plane",
+  "organization": "solitary or coven (3 hags of any type)",
+  "special_abilities": [
+    {
+      "name": "Dream Haunting (Su)",
+      "description": "A night hag can visit the dreams of chaotic or evil targets by using her\nheartstone\nto become ethereal, then hovering over the creature. Once she does so, she rides on the victim’s back until dawn. The sleeper suffers tormenting dreams and takes 1 point of Constitution drain upon awakening."
+    },
+    {
+      "name": "Heartstone (Su)",
+      "description": "Every night hag owns a\nheartstone\n—a special gemstone worth at least 4,000 credits that she wears as a periapt. The\nheartstone\nmakes her immune to diseases and grants her special powers, such as the ability to cast\nethereal jaunt\nat will as a spell-like ability. Once per day, a night hag can trap the soul of a recently dead creature within the\nheartstone\n(Will DC 23 negates); the creature can’t have been dead more than 8 rounds, and once its soul is trapped, it can’t be returned to life by any means (even\nmiracle\nor\nwish\n). The soul can be freed only by destroying the\nheartstone\nor rendering it nonmagical, and a\nheartstone\ncan hold only one soul at a time. A\nheartstone\n’s magic is fueled by the night hag’s spirit and proximity—once separated from its owner (or upon the night hag’s death), a\nheartstone\nfunctions as a 9th-level worn magic item for only 24 hours before becoming a nonmagical gem again. A\nheartstone\ninstantly cures any disease contracted by the wearer and provides a +2 enhancement bonus to all saving throws. A night hag that loses her\nheartstone\nis no longer immune to disease and can no longer use ethereal jaunt until it is replaced."
+    }
+  ],
+  "description": "Night hags trade in souls and revel in the grief they cause. They prey on mortals who are in their most vulnerable state, first toying with victims by haunting their dreams night after night. When the unfortunate mortal passes, the night hag traps their soul within her\nheartstone\n, eventually transferring the soul into another magical object that she can sell in the infernal markets of the outer planes.\nNight hags vary in appearance, as they can resemble cruel, horned versions of almost any humanoid species. They can be anywhere between 3 and 8 feet tall and weigh between 100 and 400 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNight Hag\nSource\nStarfinder #28: The Hollow Cabal pg. 59\nNight Hag CR 9\nXP 6,400\nNE Medium outsider (evil, extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft., detect alignment,\ndetect magic\n,\ndetect tech\n;\nPerception\n+17\nDefense\nHP\n117\nEAC\n21;\nKAC\n22\nFort\n+10;\nRef\n+8;\nWill\n+12\nDR\n10/cold iron and magic;\nImmunities\ncharm effects, cold, disease, fear effects, fire, sleep;\nSR\n19\nOffense\nSpeed\n30 ft.\nMelee\nclaw +18 (3d4+13 S) or incapacitator +18 (3d4+13 nonlethal B; critical staggered [DC 18])\nRanged\naphelion laser pistol +16 (3d4+9 F; critical burn 1d4)\nOffensive Abilities\ndream haunting\nSpell-Like Abilities\n(CL 9th; ranged +16)\n1/day—\nbestow curse\n(DC 20),\ndeep slumber\n(DC 20)\n3/day—\ninflict pain\n(DC 19),\ninvisibility\nAt will—\ncommand\n(DC 18),\nmagic missile\nAt will (with\nheartstone\n)—\nethereal jaunt\nConstant—\ndetect magic\n,\ndetect tech\nStatistics\nSTR\n+4;\nDEX\n+3;\nCON\n+6;\nINT\n+2;\nWIS\n+2;\nCHA\n+2\nSkills\nBluff +22, Diplomacy +17, Disguise +17, Intimidate +17, Mysticism +22, Sense Motive +17\nLanguages\nAbyssal, Celestial, Common, Infernal\nOther Abilities\nchange shape (any humanoid),\nheartstone\nGear\ngold AbadarCorp travel suit, aphelion laser pistol with 1 high-capacity battery (40 charges), incapacitator with 1 battery (20 charges),\nheartstone\nEcology\nEnvironment\nany evil-aligned plane\nOrganization\nsolitary or coven (3 hags of any type)\nSpecial Abilities\nDream Haunting (Su)\nA night hag can visit the dreams of chaotic or evil targets by using her\nheartstone\nto become ethereal, then hovering over the creature. Once she does so, she rides on the victim’s back until dawn. The sleeper suffers tormenting dreams and takes 1 point of Constitution drain upon awakening.\nHeartstone (Su)\nEvery night hag owns a\nheartstone\n—a special gemstone worth at least 4,000 credits that she wears as a periapt. The\nheartstone\nmakes her immune to diseases and grants her special powers, such as the ability to cast\nethereal jaunt\nat will as a spell-like ability. Once per day, a night hag can trap the soul of a recently dead creature within the\nheartstone\n(Will DC 23 negates); the creature can’t have been dead more than 8 rounds, and once its soul is trapped, it can’t be returned to life by any means (even\nmiracle\nor\nwish\n). The soul can be freed only by destroying the\nheartstone\nor rendering it nonmagical, and a\nheartstone\ncan hold only one soul at a time. A\nheartstone\n’s magic is fueled by the night hag’s spirit and proximity—once separated from its owner (or upon the night hag’s death), a\nheartstone\nfunctions as a 9th-level worn magic item for only 24 hours before becoming a nonmagical gem again. A\nheartstone\ninstantly cures any disease contracted by the wearer and provides a +2 enhancement bonus to all saving throws. A night hag that loses her\nheartstone\nis no longer immune to disease and can no longer use ethereal jaunt until it is replaced.\nDescription\nNight hags trade in souls and revel in the grief they cause. They prey on mortals who are in their most vulnerable state, first toying with victims by haunting their dreams night after night. When the unfortunate mortal passes, the night hag traps their soul within her\nheartstone\n, eventually transferring the soul into another magical object that she can sell in the infernal markets of the outer planes.\nNight hags vary in appearance, as they can resemble cruel, horned versions of almost any humanoid species. They can be anywhere between 3 and 8 feet tall and weigh between 100 and 400 pounds.",
+  "type": "outsider (evil, extraplanar)",
+  "category": "alien"
+}

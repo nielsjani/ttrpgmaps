@@ -1,0 +1,53 @@
+{
+  "name": "Vlaka, Vlaka Tracker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vlaka Tracker&Family=Vlaka",
+  "source": "Alien Archive 2 pg. 135",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (vlaka)",
+  "init": "+4",
+  "senses": "blindsight (scent) 30 ft., deafened, low-light vision;",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+3",
+  "resistances": "cold 5",
+  "speed": "30 ft.",
+  "melee": "tactical baton +6 (1d4+2 B)",
+  "ranged": "static arc pistol +8 (1d6+2 E; critical arc 2)",
+  "offensive_abilities": "target tracking",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Computers +12, Engineering +12, Life Science +7, Medicine +12, Stealth +7",
+  "languages": "Common, Vlakan (spoken, signed, and tactile)",
+  "other_abilities": "artificial intelligence (exocortex), buoy, custom rig (brain), deaf",
+  "gear": "freebooter armor I, static arc pistol with 2 batteries (20 charges each), tactical baton",
+  "environment": "any (Lajok)",
+  "organization": "solitary, pair, or pack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Buoy (Ex)",
+      "description": "As a standard action, a vlaka can spend 1 Resolve Point to restore 1 RP to an ally within 30 feet. A vlaka can’t use this ability again until she has taken a 10-minute rest to regain Stamina Points. This is a sense-dependent, mind-affecting ability."
+    },
+    {
+      "name": "Deaf (Ex)",
+      "description": "This vlaka tracker cannot attempt Perception checks to listen and is immune to effects that rely on hearing to function."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nVlaka (Creature Subtype) Graft Template\n-\nVlaka Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVlaka\nSource\nAlien Archive 2 pg. 135\nWolflike creatures with thick fur, vlakas hail from a doomed planet called Lajok, an arctic world in the Vast that is the most distant from its system’s dying star. Life is barely sustainable on Lajok, and as its sun grows dimmer, it might be able to sustain an ecosphere for only a few more centuries. Some vlakas respond to this knowledge by building strong communities that can last as long as possible on their home world, but others travel among the stars seeking a longer-term solution.\nVlaka fur is usually white with large patches of pale blue, gray, or black, and it provides them protection against all but the most bitter cold. Around twothirds of vlakas are born blind or deaf. Although they have long had access to magic and technology that can mitigate or remove such conditions, not all vlakas choose to do so, valuing the cultural touchstones such as language and perspective variances that are associated with differing ways of sensing the world. A typical vlaka stands 5-1/2 to 6-1/2 feet tall and weighs between 175 and 250 lbs.\nVlakas can appear unnervingly serious, but they’re acutely attuned to the emotional state of others, and they offer friendly encouragement when they sense it might be helpful. Vlakas emphasize on the well-being of the group over the individual, a practice that evolved from survival strategies required to thrive in the tundra of Lajok. While not wholly self-sacrificing, vlakas go to great lengths to assist, protect, and encourage their friends, colleagues, and kin. Vlakas frown upon self-aggrandizing leadership, and they respect those who display wisdom, listen the most, and speak the least.\nMost vlaka groups are led by councils whose members rotate between roles and dutifully carry out the will of their constituents rather than seeking political power for themselves. Vlakas who travel with other races often find themselves thrust into leadership positions thanks to their penchant for working for the benefit of and listening to their allies. Most vlakas accept such responsibilities but deflect any unwarranted respect afforded them solely due to their title.\nA few vlakas who visited the Pact Worlds before the Absalom Pact was signed served as a bridge between Eox and other worlds. Vlakas have since become famous as dependable go-betweens for groups seeking genuine accord. A vlaka might even work with clients who have been bad actors in the past, hoping to find a situation beneficial to all sides and to see ethical improvement in future behavior.\nMany sapient creatures find themselves drawn to the camaraderie vlakas offer, but others try to take advantage of their openness. Vlakas who grow weary of the strife among other races might withdraw to focus on working with animals or machines. However, most vlakas seek well-intentioned groups of like-minded starfarers to do some good in a galaxy that can be callous and brutal.\nAliens in the \"Vlaka\" Family\nName\nCR\nVlaka Handler\n6\nVlaka Tracker\n2\nVlaka, Vlaka Tracker\nSource\nAlien Archive 2 pg. 134\nVlaka Tracker CR 2\nXP 600\nVlaka mechanic\nLN Medium humanoid (vlaka)\nInit\n+4;\nSenses\nblindsight (scent) 30 ft., deafened, low-light vision;\nPerception\n+7\nDefense\nHP\n23;\nRP\n3\nEAC\n13;\nKAC\n14\nFort\n+3;\nRef\n+5;\nWill\n+3\nResistances\ncold 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +6 (1d4+2 B)\nRanged\nstatic arc pistol +8 (1d6+2 E; critical arc 2)\nOffensive Abilities\ntarget tracking\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+4;\nWIS\n+0;\nCHA\n+0\nSkills\nComputers +12, Engineering +12, Life Science +7, Medicine +12, Stealth +7\nLanguages\nCommon, Vlakan (spoken, signed, and tactile)\nOther Abilities\nartificial intelligence (exocortex), buoy, custom rig (brain), deaf\nGear\nfreebooter armor I, static arc pistol with 2 batteries (20 charges each), tactical baton\nEcology\nEnvironment\nany (Lajok)\nOrganization\nsolitary, pair, or pack (3–5)\nSpecial Abilities\nBuoy (Ex)\nAs a standard action, a vlaka can spend 1 Resolve Point to restore 1 RP to an ally within 30 feet. A vlaka can’t use this ability again until she has taken a 10-minute rest to regain Stamina Points. This is a sense-dependent, mind-affecting ability.\nDeaf (Ex)\nThis vlaka tracker cannot attempt Perception checks to listen and is immune to effects that rely on hearing to function.\nExtra Content\nThe following extra content was found for this creature:\n-\nVlaka (Creature Subtype) Graft Template\n-\nVlaka Race Entry",
+  "type": "humanoid (vlaka)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Vlaka_Tracker.png"
+}

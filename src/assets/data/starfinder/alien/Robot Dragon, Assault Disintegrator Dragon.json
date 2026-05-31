@@ -1,0 +1,61 @@
+{
+  "name": "Robot Dragon, Assault Disintegrator Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Assault Disintegrator Dragon&Family=Robot Dragon",
+  "source": "Starfinder #51: Into the Dataverse pg. 60",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "NE",
+  "size": "Huge",
+  "creature_type": "dragon (technological)",
+  "init": "+10",
+  "senses": "blindsense (vibration) 60 ft., darkvision 120 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "300",
+  "eac": "30",
+  "kac": "32",
+  "fort": "+20",
+  "ref": "+20",
+  "will": "+16",
+  "dr": "10/adamantine",
+  "sr": "27",
+  "immunities": "acid, paralysis, sleep;",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "40 ft.; fly 200 ft. (Ex, clumsy)",
+  "melee": "bite +28 (3d10+23 P)",
+  "ranged": "disintegrator cannon +31 (7d6+16 A; critical corrode 4d6)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "breath weapon (55-ft. cone, 17d6 A, Reflex DC 22 half, usable every 1d4 rounds), crush (6d10+23 B)",
+  "ability_scores": {
+    "str": "+7",
+    "dex": "+10",
+    "con": "+4",
+    "int": "+5",
+    "wis": "+4",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +33 (+25 to fly), Computers +28, Piloting +28, Sense Motive +28",
+  "languages": "Common, Draconic",
+  "other_abilities": "robotic, spacefligh",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Annihilation (Ex)",
+      "description": "A disintegrator dragon’s breath weapon and disintegrator cannon can completely reduce a target to only traces of fine dust. If either ability reduces a creature to 0 Hit Points, that creature’s body is destroyed (as per disintegrate). A creature can negate the utter destruction of their body by spending all its remaining Resolve Points; this leaves it at 0 Hit Points and unconscious but stable."
+    },
+    {
+      "name": "Disintegrator Cannon (Ex)",
+      "description": "A disintegrator dragon’s head is built around a destructive proton-decoupler cannon that provides the dragon with a ranged attack that deals acid damage, targets EAC, has a range increment equal to their breath weapon’s maximum range and the corrodeAR 2d6 critical effect (increase to 3d6 at CR 7, 4d6 at CR 11, 5d6 at CR 17, and 6d6 at CR 25), and the line and unwieldy weapon special properties."
+    },
+    {
+      "name": "Robotic (Ex)",
+      "description": "For effects targeting creatures by type, disintegrator dragons count as both dragons and constructs (whichever allows an ability to affect them for abilities that affect only one of those types, and whichever is worse for abilities that affect both types). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, and poison unless those effects specifically target constructs. Additionally, they’re protected from environmental effects as if wearing armor (of an item level equal to the dragon’s CR) with its environmental protection active."
+    }
+  ],
+  "description": "Artificial constructs that house dragon souls much like android bodies house those of humanoids, robot dragons are built as instruments of war. Each one is modeled around a specific category of weapon, such as laser blasters or projectile firearms, though far more specialized models exist. Perhaps the most infamous are the dreaded disintegrator dragons, massive engines of destruction built with nuclear fission chambers for hearts that enable them to unleash terrifying gouts of power that tear matter apart at the molecular level. Shock dragons, on the other hand, favor speed over destructive power and are often used as quick infiltrators and shock troops due to their mobility and ability to stun opponents. Sonic dragons are the most obscure, and they have the ability to harness raw sound into earsplitting blasts of incapacitating power.",
+  "extra_content": "The following extra content was found for this creature:\n-\nCryo Dragon (Robot Dragon) Graft Template\n-\nLaser Dragon (Robot Dragon) Graft Template\n-\nPlasma Dragon (Robot Dragon) Graft Template\n-\nProjectile Dragon (Robot Dragon) Graft Template\n-\nDisintegrator Dragon (Robot Dragon) Graft Template\n-\nShock Dragon (Robot Dragon) Graft Template\n-\nSonic Dragon (Robot Dragon) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot Dragon\nAliens in the \"Robot Dragon\" Family\nName\nCR\nAssault Disintegrator Dragon\n16\nAssault Laser Dragon\n12\nRobot Dragon, Assault Disintegrator Dragon\nSource\nStarfinder #51: Into the Dataverse pg. 60\nAssault Disintegrator Dragon CR 16\nXP 76,800\nNE Huge dragon (technological)\nInit\n+10;\nSenses\nblindsense (vibration) 60 ft., darkvision 120 ft., low-light vision;\nPerception\n+28\nAura\nfrightful presence (220 ft., Will DC 22)\nDefense\nHP\n300\nEAC\n30;\nKAC\n32\nFort\n+20;\nRef\n+20;\nWill\n+16\nDefensive Abilities\nvoid adaptation;\nDR\n10/adamantine;\nImmunities\nacid, paralysis, sleep;\nSR\n27\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n40 ft.; fly 200 ft. (Ex, clumsy)\nMelee\nbite +28 (3d10+23 P)\nMultiattack\nbite +22 (3d10+23 P), 2 claws +22 (3d10+23 S), tail slap +22 (3d10+23 B)\nRanged\ndisintegrator cannon +31 (7d6+16 A; critical corrode 4d6)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nbreath weapon (55-ft. cone, 17d6 A, Reflex DC 22 half, usable every 1d4 rounds), crush (6d10+23 B)\nStatistics\nSTR\n+7;\nDEX\n+10;\nCON\n+4;\nINT\n+5;\nWIS\n+4;\nCHA\n+4\nSkills\nAcrobatics +33 (+25 to fly), Computers +28, Piloting +28, Sense Motive +28\nLanguages\nCommon, Draconic\nOther Abilities\nrobotic, spacefligh\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nAnnihilation (Ex)\nA disintegrator dragon’s breath weapon and disintegrator cannon can completely reduce a target to only traces of fine dust. If either ability reduces a creature to 0 Hit Points, that creature’s body is destroyed (as per disintegrate). A creature can negate the utter destruction of their body by spending all its remaining Resolve Points; this leaves it at 0 Hit Points and unconscious but stable.\nDisintegrator Cannon (Ex)\nA disintegrator dragon’s head is built around a destructive proton-decoupler cannon that provides the dragon with a ranged attack that deals acid damage, targets EAC, has a range increment equal to their breath weapon’s maximum range and the corrodeAR 2d6 critical effect (increase to 3d6 at CR 7, 4d6 at CR 11, 5d6 at CR 17, and 6d6 at CR 25), and the line and unwieldy weapon special properties.\nRobotic (Ex)\nFor effects targeting creatures by type, disintegrator dragons count as both dragons and constructs (whichever allows an ability to affect them for abilities that affect only one of those types, and whichever is worse for abilities that affect both types). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, and poison unless those effects specifically target constructs. Additionally, they’re protected from environmental effects as if wearing armor (of an item level equal to the dragon’s CR) with its environmental protection active.\nDescription\nArtificial constructs that house dragon souls much like android bodies house those of humanoids, robot dragons are built as instruments of war. Each one is modeled around a specific category of weapon, such as laser blasters or projectile firearms, though far more specialized models exist. Perhaps the most infamous are the dreaded disintegrator dragons, massive engines of destruction built with nuclear fission chambers for hearts that enable them to unleash terrifying gouts of power that tear matter apart at the molecular level. Shock dragons, on the other hand, favor speed over destructive power and are often used as quick infiltrators and shock troops due to their mobility and ability to stun opponents. Sonic dragons are the most obscure, and they have the ability to harness raw sound into earsplitting blasts of incapacitating power.\nExtra Content\nThe following extra content was found for this creature:\n-\nCryo Dragon (Robot Dragon) Graft Template\n-\nLaser Dragon (Robot Dragon) Graft Template\n-\nPlasma Dragon (Robot Dragon) Graft Template\n-\nProjectile Dragon (Robot Dragon) Graft Template\n-\nDisintegrator Dragon (Robot Dragon) Graft Template\n-\nShock Dragon (Robot Dragon) Graft Template\n-\nSonic Dragon (Robot Dragon) Graft Template",
+  "type": "dragon (technological)",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Onkushi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Onkushi&Family=None",
+  "source": "Starfinder #18: Assault on the Crucible pg. 57",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CG",
+  "size": "Large",
+  "creature_type": "outsider (extraplanar, fire, good)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "210",
+  "eac": "27",
+  "kac": "27",
+  "fort": "+14",
+  "ref": "+12",
+  "will": "+16",
+  "dr": "10/evil",
+  "sr": "24",
+  "immunities": "fire, radiation;",
+  "resistances": "electricity 10;",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "slam +25 (6d4+20 B & F; critical burn 3d4)",
+  "offensive_abilities": "fire vortex",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\nwall of fire\n(DC 21)\n3/day—\nexplosive blast\n(DC 20),\nirradiate\n(DC 20)\nAt will—\ndetect affliction\n,\ndiscern lies\n(DC 21),\ninvisibility\n(self only),\nlife bubble\n,\nremove affliction"
+  },
+  "ability_scores": {
+    "str": "+7",
+    "dex": "+4",
+    "con": "+5",
+    "int": "+4",
+    "wis": "+3",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +23 (+31 to fly), Bluff +23, Intimidation +28, Mysticism +28, Sense Motive +28",
+  "feats": "Mobility, Spring Attack",
+  "languages": "Celestial, Common, Draconic, Ignan",
+  "other_abilities": "spaceflight (Mysticism)",
+  "environment": "any (Plane of Fire)",
+  "organization": "solitary, pair, or host (3–12)",
+  "special_abilities": [
+    {
+      "name": "Protective Aura (Su)",
+      "description": "Any creature within 20 feet of an onkushu, including the onkushu, gains a +2 divine bonus to its AC against attacks made by evil creatures and a +4 divine bonus to saving throws against effects created by evil creatures. While within this aura and affected by the onkushu’s life bubble spell, creatures are considered to have void adaptation and solar adaptation. If such creatures are willing or unconscious, the onkushu can carry them along with it while moving in any movement mode."
+    },
+    {
+      "name": "Fire Vortex (Ex)",
+      "description": "Three times per day as a standard action that provokes attacks of opportunity, an onkushu can buffet its wings to create a fiery vortex 10 feet tall and 10 feet wide that travels in a straight line for 30 feet. Any creature in that area is knocked prone, taking 10d6 fire and slashing damage (Reflex DC 21 for half damage and to avoid being knocked prone). If the vortex travels along the ground, the area it passes through is difficult terrain for 15 rounds."
+    }
+  ],
+  "description": "Natives of the Plane of Fire, onkushus have long been the allies, mentors, and students of angels, learning virtuous practices while teaching the goodly hosts of the Outer Sphere the value of cleansing fire. Onkushus often take an interest in mortal affairs, using portals from the Plane of Fire that form within stars to come to the Material Plane. These outsiders are kindly by nature, but when angered or roused against evil, they can be implacable foes.\nAn onkushu is 15 feet tall and weighs 1,000 pounds while alive, yet it burns to a fine white ash when destroyed, leaving behind only a few pounds of material.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOnkushi\nSource\nStarfinder #18: Assault on the Crucible pg. 57\nOnkushi CR 13\nXP 25,600\nCG Large outsider (extraplanar, fire, good)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nAura\nprotective aura (20 ft.)\nDefense\nHP\n210\nEAC\n27;\nKAC\n27\nFort\n+14;\nRef\n+12;\nWill\n+16\nDefensive Abilities\namorphous, void adaptation;\nDR\n10/evil;\nImmunities\nfire, radiation;\nResistances\nelectricity 10;\nSR\n24\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nslam +25 (6d4+20 B & F; critical burn 3d4)\nOffensive Abilities\nfire vortex\nSpell-Like Abilities\n(CL 13th)\n1/day—\nwall of fire\n(DC 21)\n3/day—\nexplosive blast\n(DC 20),\nirradiate\n(DC 20)\nAt will—\ndetect affliction\n,\ndiscern lies\n(DC 21),\ninvisibility\n(self only),\nlife bubble\n,\nremove affliction\nStatistics\nSTR\n+7;\nDEX\n+4;\nCON\n+5;\nINT\n+4;\nWIS\n+3;\nCHA\n+5\nFeats\nMobility, Spring Attack\nSkills\nAcrobatics +23 (+31 to fly), Bluff +23, Intimidation +28, Mysticism +28, Sense Motive +28\nLanguages\nCelestial, Common, Draconic, Ignan\nOther Abilities\nspaceflight (Mysticism)\nEcology\nEnvironment\nany (Plane of Fire)\nOrganization\nsolitary, pair, or host (3–12)\nSpecial Abilities\nProtective Aura (Su)\nAny creature within 20 feet of an onkushu, including the onkushu, gains a +2 divine bonus to its AC against attacks made by evil creatures and a +4 divine bonus to saving throws against effects created by evil creatures. While within this aura and affected by the onkushu’s life bubble spell, creatures are considered to have void adaptation and solar adaptation. If such creatures are willing or unconscious, the onkushu can carry them along with it while moving in any movement mode.\nFire Vortex (Ex)\nThree times per day as a standard action that provokes attacks of opportunity, an onkushu can buffet its wings to create a fiery vortex 10 feet tall and 10 feet wide that travels in a straight line for 30 feet. Any creature in that area is knocked prone, taking 10d6 fire and slashing damage (Reflex DC 21 for half damage and to avoid being knocked prone). If the vortex travels along the ground, the area it passes through is difficult terrain for 15 rounds.\nDescription\nNatives of the Plane of Fire, onkushus have long been the allies, mentors, and students of angels, learning virtuous practices while teaching the goodly hosts of the Outer Sphere the value of cleansing fire. Onkushus often take an interest in mortal affairs, using portals from the Plane of Fire that form within stars to come to the Material Plane. These outsiders are kindly by nature, but when angered or roused against evil, they can be implacable foes.\nAn onkushu is 15 feet tall and weighs 1,000 pounds while alive, yet it burns to a fine white ash when destroyed, leaving behind only a few pounds of material.",
+  "type": "outsider (extraplanar, fire, good)",
+  "category": "alien"
+}

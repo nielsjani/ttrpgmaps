@@ -1,0 +1,48 @@
+{
+  "name": "Balrodd",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Balrodd&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 55",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical, technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+6",
+  "dr": "10/—",
+  "immunities": "construct immunities",
+  "speed": "30 ft.",
+  "melee": "slam +22 (2d10+15 B; critical knockdown)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "felling blow",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+4",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +22, Engineering +17, Sense Motive +17",
+  "languages": "Aklo, Azlanti, Common",
+  "environment": "any (Shadari Confederacy)",
+  "organization": "solitary, pair, or coterie (3–10)",
+  "special_abilities": [
+    {
+      "name": "Felling Blow (Ex)",
+      "description": "As a swift action upon successfully striking an opponent with a melee attack, a balrodd can apply the critical effect of the unarmed strike or melee weapon in addition to doing damage (which isn’t doubled). A balrodd can use this ability once every 1d4 rounds.\nKinetic Displacement (/Su)\nAs reaction to taking damage that is wholly or partially absorbed by their damage reduction, a balrodd can redistribute that kinetic force outward in a 5-foot radius. Each creature in the area must succeed at a DC 16 Fortitude save or take an amount of bludgeoning damage equal to the amount of damage blocked by the balrodd’s DR and be pushed 5 feet away from the balrodd. On a success, the creature takes half damage and isn’t pushed."
+    }
+  ],
+  "description": "No one—not even balrodds—are certain who originally crafted them many millennia ago, but they lived peacefully on their quiet moon orbiting a stormy gas giant until the Azlanti arrived. Fresh off their victory over the screedreeps on Eostrillon, the Azlanti enslaved the balrodds as part of their attempt to conquer the entire system, forcing the constructs into positions of menial labor and cannon-fodder infantry. Less than a century later, the balrodd population revolted against their Azlanti masters and left the system to eventually settle within the Shadari Confederacy. Today, they’re proud citizens of that system, with many even now following the philosophy of Ataxxea and receiving the Eye of Entropy (page 50) tattoo.\nA balrodd is a towering, barrel-chested construct with a malleable artificial “skin” stretched over a sturdy metal frame. When first constructed—through a process that is kept a closely guarded secret—a balrodd has almost no clearly defined features. Their face is smooth and their limbs no more than curving planes. Over time, they are encouraged to “find their face” and sculpt it as they feel is appropriate for their identity..\nDespite their intelligence and tradition of self‑actualization as a populace, balrodds often find themselves pigeonholed into martial roles because of their stature and abilities. Some accept these destinies, while others manage to shape themselves—figuratively and literally—into trusted figures who hold positions of greater responsibility in their communities. These balrodds are known to defend their higher status with fierce determination.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBalrodd\nSource\nStarfinder #44: Allies Against the Eye pg. 55\nBalrodd CR 9\nXP 6,400\nN Large construct (magical, technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+28\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+9;\nRef\n+9;\nWill\n+6\nDefensive Abilities\nkinetic displacement;\nDR\n10/—;\nImmunities\nconstruct immunities\nOffense\nSpeed\n30 ft.\nMelee\nslam +22 (2d10+15 B; critical knockdown)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nfelling blow\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+4;\nINT\n+2;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +22, Engineering +17, Sense Motive +17\nLanguages\nAklo, Azlanti, Common\nEcology\nEnvironment\nany (Shadari Confederacy)\nOrganization\nsolitary, pair, or coterie (3–10)\nSpecial Abilities\nFelling Blow (Ex)\nAs a swift action upon successfully striking an opponent with a melee attack, a balrodd can apply the critical effect of the unarmed strike or melee weapon in addition to doing damage (which isn’t doubled). A balrodd can use this ability once every 1d4 rounds.\nKinetic Displacement (/Su)\nAs reaction to taking damage that is wholly or partially absorbed by their damage reduction, a balrodd can redistribute that kinetic force outward in a 5-foot radius. Each creature in the area must succeed at a DC 16 Fortitude save or take an amount of bludgeoning damage equal to the amount of damage blocked by the balrodd’s DR and be pushed 5 feet away from the balrodd. On a success, the creature takes half damage and isn’t pushed.\nDescription\nNo one—not even balrodds—are certain who originally crafted them many millennia ago, but they lived peacefully on their quiet moon orbiting a stormy gas giant until the Azlanti arrived. Fresh off their victory over the screedreeps on Eostrillon, the Azlanti enslaved the balrodds as part of their attempt to conquer the entire system, forcing the constructs into positions of menial labor and cannon-fodder infantry. Less than a century later, the balrodd population revolted against their Azlanti masters and left the system to eventually settle within the Shadari Confederacy. Today, they’re proud citizens of that system, with many even now following the philosophy of Ataxxea and receiving the Eye of Entropy (page 50) tattoo.\nA balrodd is a towering, barrel-chested construct with a malleable artificial “skin” stretched over a sturdy metal frame. When first constructed—through a process that is kept a closely guarded secret—a balrodd has almost no clearly defined features. Their face is smooth and their limbs no more than curving planes. Over time, they are encouraged to “find their face” and sculpt it as they feel is appropriate for their identity..\nDespite their intelligence and tradition of self‑actualization as a populace, balrodds often find themselves pigeonholed into martial roles because of their stature and abilities. Some accept these destinies, while others manage to shape themselves—figuratively and literally—into trusted figures who hold positions of greater responsibility in their communities. These balrodds are known to defend their higher status with fierce determination.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

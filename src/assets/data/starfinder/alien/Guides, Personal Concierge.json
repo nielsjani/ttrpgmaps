@@ -1,0 +1,45 @@
+{
+  "name": "Guides, Personal Concierge",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Personal Concierge&Family=Guides",
+  "source": "Interstellar Species pg. 166",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+8",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "tactical switchblade +8 (1d4+3 S) or bite  +8 (1d4+3 P)",
+  "ranged": "tactical nightarch needler +10 (1d6 P; critical injection DC +2)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +8, Culture +13, Diplomacy +13, Sense Motive +13, Sleight of Hand +8",
+  "languages": "Astriapi, Common",
+  "other_abilities": "honey production , wily wallflower",
+  "gear": "casual stationwear, tactical nightarch needler with 10 darts, tactical switchblade",
+  "special_abilities": [
+    {
+      "name": "Wily Wallflower (Ex)",
+      "description": "A personal concierge can fade into the background at will, leaving others as the focus—or target—of attention. As a move action while within 15 feet of at least two other creatures, a personal concierge can attempt a Stealth check to hide from enemies within 60 feet, even without cover or concealment."
+    }
+  ],
+  "description": "For those who can afford it, personal concierges offer a customized introduction to an unfamiliar place. Usually affiliated with one of several large firms, concierges use their deep pockets and company reputation to gain access to rare and unavailable locales. Many work directly with powerful interests and are dispatched to give visitors a positive view of a new place or discreetly boost tourism. It isn’t all luxury travel though—some concierges are known to help with prisoner extraction or the procurement and trade of high-level secrets.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGuides\nSource\nInterstellar Species pg. 166\nGuides provide safe passage for a fee, shepherding travelers through dangerous or unfamiliar territory. Most specialize in a specific region, using their knowledge, connections, and adaptability to bring clients to their destination in one piece. Used to situations where they and their clients are on their own, guides tend to prefer finesse to force in tough situations, but if charm doesn’t work, they’ll do whatever it takes to get the job done.\nWhile the most straightforward way for players to encounter a guide is by hiring one, guides offer a variety of other potential encounters. Players might find a stowalong on their ship, retrace a captains club guide’s adventure, use a personal concierge to gain access to power, or help a courier track down a local rumor. Guides also often have valuable information about planetary conditions, know the location of unexplored sites, and can make connections with influential locals.\nAliens in the \"Guides\" Family\nName\nCR\nCaptains Club Guide\n13\nCourier\n7\nPersonal Concierge\n3\nStowalong\n9\nGuides, Personal Concierge\nSource\nInterstellar Species pg. 166\nPersonal Concierge CR 3\nXP 800\nAstriapi\nNG Medium monstrous humanoid\nInit\n+2;\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+2;\nRef\n+4;\nWill\n+8\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\ntactical switchblade +8 (1d4+3 S) or bite  +8 (1d4+3 P)\nRanged\ntactical nightarch needler +10 (1d6 P; critical injection DC +2)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+1;\nWIS\n+1;\nCHA\n+4\nSkills\nAcrobatics +8, Culture +13, Diplomacy +13, Sense Motive +13, Sleight of Hand +8\nLanguages\nAstriapi, Common\nOther Abilities\nhoney production , wily wallflower\nGear\ncasual stationwear, tactical nightarch needler with 10 darts, tactical switchblade\nSpecial Abilities\nWily Wallflower (Ex)\nA personal concierge can fade into the background at will, leaving others as the focus—or target—of attention. As a move action while within 15 feet of at least two other creatures, a personal concierge can attempt a Stealth check to hide from enemies within 60 feet, even without cover or concealment.\nDescription\nFor those who can afford it, personal concierges offer a customized introduction to an unfamiliar place. Usually affiliated with one of several large firms, concierges use their deep pockets and company reputation to gain access to rare and unavailable locales. Many work directly with powerful interests and are dispatched to give visitors a positive view of a new place or discreetly boost tourism. It isn’t all luxury travel though—some concierges are known to help with prisoner extraction or the procurement and trade of high-level secrets.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Driftlure",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Driftlure&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 55",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+25",
+  "senses": "darkvision 60 ft., sense through (life) 60 ft.;",
+  "perception": "+25",
+  "hp": "250",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+18",
+  "ref": "+16",
+  "will": "+12",
+  "speed": "40 ft., climb 40 ft., fly 60 ft. (Su, perfect)",
+  "melee": "pincer +28 (4d6+22 P plus grab)",
+  "ranged": "fling body +28 (5d10+14 B plus off-kilter [DC 20])",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "call of the void (DC 22)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+6",
+    "int": "+2",
+    "wis": "+3",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +30, Athletics +25, Intimidate +25",
+  "feats": "Improved Combat Maneuver (grapple)",
+  "environment": "any (the Drift)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Call of the Void (Su)",
+      "description": "Once per day as a standard action, a driftlure can psychically cause all creatures within a radius of 120 feet to be compelled to immediately seek exposure to the Drift by the most direct means available, such as an airlock (DC 22 Will negates). This effect penetrates all barriers, including starship hulls and force fields. An affected creature acts too hastily to use safety precautions (such as activating environmental protections), but any attempt to block the creature’s progress or convince it to take an alternative action grants it a new saving throw (maximum one new attempt per round). The effect persists for 1 hour, during which time the creature’s attempts to reach the Drift become more and more frantic. An affected creature that reaches the Drift becomes fascinated for 1d4 rounds, and the effect ends. This ability has no effect on creatures not within the Drift."
+    },
+    {
+      "name": "Fling Body (Ex)",
+      "description": "Once per round as a standard action, a driftlure can transfer a creature ensnared in its cilia to a free pincer and hurl it at a target up to 60 ft. away as a ranged attack that deals 5d10+14 bludgeoning damage to both the target and the flung creature. If a driftlure hits or throws a creature that is in zero-g with this attack, that creature must succeed at a DC 20 Reflex save or be knocked off-kilter. A driftlure must have at least 1 creature ensnared in its cilia to use this ability."
+    },
+    {
+      "name": "Grisly Armor (Ex)",
+      "description": "If a driftlure begins its turn grappling a creature that is Large or smaller, it can attempt a grapple combat maneuver as a move action to ensnare the creature in the cilia that cover its shell. Alternatively, the driftlure can use a swift action to ensnare a corpse within its reach. A creature ensnared in these cilia has the grappled condition. A driftlure can have up to 4 Medium or smaller creatures or corpses ensnared in its cilia at a time. If a driftlure has at least 2 creatures or corpses ensnared in its cilia, it gains partial cover; if it has more, it gains normal cover. Whenever an attack targeting the driftlure misses due to its cover bonus, one creature or corpse ensnared in its cilia is knocked free and deposited in an adjacent square. When encountered, a driftlure typically has 2 Medium corpses already ensnared."
+    }
+  ],
+  "description": "The coarse cilia that cover this large, pale crustacean undulate with bioluminescence. A driftlure attacks by attaching to the hull of a starship, where it emits a powerful psychic blast, luring the crew into space. The driftlure then collects the choicest specimens (often still clawing for breath in the vacuum) and nestles them amongst its cilia as macabre decorations. Its motivations remain unknown.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDriftlure\nSource\nStarfinder #30: Puppets Without Strings pg. 55\nDriftlure CR 14\nXP 38,400\nCE Huge outsider (extraplanar)\nInit\n+25;\nSenses\ndarkvision 60 ft., sense through (life) 60 ft.;\nPerception\n+25\nDefense\nHP\n250\nEAC\n28;\nKAC\n30\nFort\n+18;\nRef\n+16;\nWill\n+12\nDefensive Abilities\ngrisly armor, void adaptation\nOffense\nSpeed\n40 ft., climb 40 ft., fly 60 ft. (Su, perfect)\nMelee\npincer +28 (4d6+22 P plus grab)\nMultiattack\n4 pincers +22 (4d6+22 P plus grab)\nRanged\nfling body +28 (5d10+14 B plus off-kilter [DC 20])\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\ncall of the void (DC 22)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+6;\nINT\n+2;\nWIS\n+3;\nCHA\n+4\nFeats\nImproved Combat Maneuver (grapple)\nSkills\nAcrobatics +30, Athletics +25, Intimidate +25\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary or pair\nSpecial Abilities\nCall of the Void (Su)\nOnce per day as a standard action, a driftlure can psychically cause all creatures within a radius of 120 feet to be compelled to immediately seek exposure to the Drift by the most direct means available, such as an airlock (DC 22 Will negates). This effect penetrates all barriers, including starship hulls and force fields. An affected creature acts too hastily to use safety precautions (such as activating environmental protections), but any attempt to block the creature’s progress or convince it to take an alternative action grants it a new saving throw (maximum one new attempt per round). The effect persists for 1 hour, during which time the creature’s attempts to reach the Drift become more and more frantic. An affected creature that reaches the Drift becomes fascinated for 1d4 rounds, and the effect ends. This ability has no effect on creatures not within the Drift.\nFling Body (Ex)\nOnce per round as a standard action, a driftlure can transfer a creature ensnared in its cilia to a free pincer and hurl it at a target up to 60 ft. away as a ranged attack that deals 5d10+14 bludgeoning damage to both the target and the flung creature. If a driftlure hits or throws a creature that is in zero-g with this attack, that creature must succeed at a DC 20 Reflex save or be knocked off-kilter. A driftlure must have at least 1 creature ensnared in its cilia to use this ability.\nGrisly Armor (Ex)\nIf a driftlure begins its turn grappling a creature that is Large or smaller, it can attempt a grapple combat maneuver as a move action to ensnare the creature in the cilia that cover its shell. Alternatively, the driftlure can use a swift action to ensnare a corpse within its reach. A creature ensnared in these cilia has the grappled condition. A driftlure can have up to 4 Medium or smaller creatures or corpses ensnared in its cilia at a time. If a driftlure has at least 2 creatures or corpses ensnared in its cilia, it gains partial cover; if it has more, it gains normal cover. Whenever an attack targeting the driftlure misses due to its cover bonus, one creature or corpse ensnared in its cilia is knocked free and deposited in an adjacent square. When encountered, a driftlure typically has 2 Medium corpses already ensnared.\nDescription\nThe coarse cilia that cover this large, pale crustacean undulate with bioluminescence. A driftlure attacks by attaching to the hull of a starship, where it emits a powerful psychic blast, luring the crew into space. The driftlure then collects the choicest specimens (often still clawing for breath in the vacuum) and nestles them amongst its cilia as macabre decorations. Its motivations remain unknown.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

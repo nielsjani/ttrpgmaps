@@ -1,0 +1,48 @@
+{
+  "name": "Animated Armor, Animated Lictor Hellknight Plate",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Animated Lictor Hellknight Plate&Family=Animated Armor",
+  "source": "Alien Archive 3 pg. 6",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical, technological;",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+2",
+  "immunities": "construct immunities;",
+  "resistances": "cold 5, fire 5",
+  "speed": "20 ft., fly 30 ft. (jetpack, average)",
+  "melee": "slam +15 (1d6+10 B)",
+  "ranged": "integrated corona laser pistol +13 (2d4+5 F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "—",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Athletics +16",
+  "other_abilities": "comm, mindless, unliving",
+  "gear": "corona laser pistol with 4 batteries (20 charges each), jetpack, mk 1 thermal capacitor",
+  "environment": "any",
+  "organization": "solitary, pair, or troop (3–6)",
+  "special_abilities": [
+    {
+      "name": "Comm (Ex)",
+      "description": "Animated lictor Hellknight plate can receive wireless communications (and thus commands from its allies and creator) at planetary range."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nAnimated Armor (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnimated Armor\nSource\nAlien Archive 3 pg. 6\nSpellcasters and engineers have developed techniques to animate suits of armor indefinitely, instilling sentience—or even sapience—into these defensive tools.\nSpellcasters animate armor through various supernatural approaches, including some akin to techniques used for making magic items. Infamously, Hellknight mages cover the inside of the armor with an infernal contract, infusing the creation with a minor devilish being forced into submission. Such armors serve as decorative sentinels in Hellknight facilities or disposable shock troops on the battlefield. The Knights of Golarion and Xenowardens use similar means to infuse armor with quiescent fragments of angelic will, elementals, or nature spirits. Eoxian technomancers instead instill armor with rudimentary unlife, sometimes using the remains of undead too damaged to operate without the artificial casing armor provides.\nMore technologically minded factions have similarly diverse approaches to creating animated armor. Technicians at the Qabarat University of Psychic and Technological Excellence have built on the psychically charged circuits of lashunta mind mail to create a sort of hybrid robot. These suits of mind mail combine artificial intelligence with psychic potential to become animated. Other groups, such as the Android Abolitionist Front, have a fondness for animated and sapient armor. Perceptionist members of the Front claim such armors, among other advanced artificial intelligences, must be protected as created people. One such Perceptionist, a zealot named 8-Karat, has begun liberating these constructs, using violence if necessary.\nOn Akiton, VitariTech Industries engages in unmonitored research into animated armor. The company recently claimed a long-abandoned shrine to Triune, using heavy security forces to keep interlopers out. Rumors indicate the corporation is using what it found within the site to build advanced constructs, including robot-like troops of animated heavy armor led by suits of powered armor. Devotees of various factions faithful to the All-Code want to know what VitariTech is up to within this holy place, as do members of the Perceptionists and the Augmented.\nAliens in the \"Animated Armor\" Family\nName\nCR\nAnimated Lashunta Mind Mail III\n16\nAnimated Lictor Hellknight Plate\n5\nAnimated Armor, Animated Lictor Hellknight Plate\nSource\nAlien Archive 3 pg. 6\nAnimated Lictor Hellknight Plate CR 5\nXP 1,600\nN Medium construct (magical, technological;\narmor\n)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+5;\nRef\n+5;\nWill\n+2\nDefensive Abilities\nintegrated weapons;\nImmunities\nconstruct immunities;\nResistances\ncold 5, fire 5\nOffense\nSpeed\n20 ft., fly 30 ft. (jetpack, average)\nMelee\nslam +15 (1d6+10 B)\nRanged\nintegrated corona laser pistol +13 (2d4+5 F; critical burn 1d4)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n—;\nINT\n—;\nWIS\n+0;\nCHA\n-1\nSkills\nAcrobatics +11, Athletics +16\nOther Abilities\ncomm, mindless, unliving\nGear\ncorona laser pistol with 4 batteries (20 charges each), jetpack, mk 1 thermal capacitor\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or troop (3–6)\nSpecial Abilities\nComm (Ex)\nAnimated lictor Hellknight plate can receive wireless communications (and thus commands from its allies and creator) at planetary range.\nExtra Content\nThe following extra content was found for this creature:\n-\nAnimated Armor (Other) Graft Template",
+  "type": "construct (magical, technological;armor)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Animated_Armor_Hellknight.png"
+}

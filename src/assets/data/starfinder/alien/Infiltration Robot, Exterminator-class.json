@@ -1,0 +1,48 @@
+{
+  "name": "Infiltration Robot, Exterminator-class",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Exterminator-class&Family=Infiltration Robot",
+  "source": "Alien Archive 4 pg. 102",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.; low light vision;;",
+  "perception": "+14",
+  "hp": "115",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+4",
+  "dr": "5/—",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to fire",
+  "speed": "50 ft.",
+  "melee": "slam +18 (2d6+8 B)",
+  "ranged": "advanced semi-auto pistol +15 (2d6+7 P)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "—",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +14, Bluff +19, Disguise +19, Sense Motive +14, Stealth +19",
+  "languages": "Common",
+  "gear": "advanced semi-auto pistol with 24 small-arm rounds",
+  "environment": "Any",
+  "organization": "solitary, pair, or cell (1 exterminator-class infiltration robot and 3 monitor-class infiltration robots)",
+  "special_abilities": [
+    {
+      "name": "Advanced Synthskin (Ex)",
+      "description": "Infiltration robots are composed almost entirely of adaptive nanite flesh, allowing them to impersonate other species and insulating them from typical robot weaknesses. While its advanced synthskin is active, an infiltration robot appears to be a member of a medium-sized humanoid or monstrous humanoid species of its choice. This otherwise functions as the change shape universal creature rule (page 152), except the infiltration robot can activate it as a swift action. While an infiltration robot has fewer than half its Hit Points remaining, it can’t use this ability."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nInfiltration Robot\nSource\nAlien Archive 4 pg. 102\nBeneath layers of synthskin and expert disguises, every infiltration robot is basically identical. A spindly, humanoid machine’s frame between 4 and 6 feet in height, lacking any feature that might indicate some specific design inspiration. By design, however, this interior is rarely seen. To most, an infiltration robot simply looks like some humanoid they know: a grocer, a pilot, or even a coworker with a penchant for cheesy snacks.\nThese disguises are made possible by the synthskin that coats every infiltration robot. Synthskin is a pliable, synthetic substance that can be tuned to perfectly mimic a variety of humanoid species, even simulating blood and internal organs. Paired with an adjustable chassis, synthskin allows infiltration robots to be built as near-perfect replicas of a variety of humanoid species and subspecies. Social mimicry is handled by advanced processing centers that border on true AI, allowing for swift swapping between simulated personalities as well as resulting in all the quirks and personality development of intelligent life.\nThe most basic form of infiltration robot is the monitor class. Monitors are primarily meant to observe and report upon their targets. While capable of combat, and in theory assassination, it is generally considered a last resort. Whatever information the monitor can get back to its controller is likely far more valuable than anyone it could reasonably kill, and damage from combat risks revealing the mechanical nature of the spy. As such, if a monitor initiates combat is likely believes that it has been found out, or that something far more valuable than its mission is at stake.\nMore advanced by far are exterminator-class infiltration robots. Exterminators feature prototype nanobot swarms embedded in their chassis, allowing them to shrug off damage and swiftly repair their synthskin if it is damaged in battle. They can also effortlessly reshape their synthskin, changing their height, color, gender expression, apparent age, and species on the fly. This makes them both more resilient in battle and far more adaptable as assassins than monitor-class robots, as they can shift disguises as often as needed to approach virtually any target unsuspected. This adaptability also makes them much more aggressive; exterminators whose disguise is compromised can simply shift into another, so they are much more likely to initiate deadly combat without concern for their discovery.\nAliens in the \"Infiltration Robot\" Family\nName\nCR\nExterminator-class\n7\nMonitor-class\n2\nInfiltration Robot, Exterminator-class\nSource\nAlien Archive 4 pg. 102\nExterminator-class CR 7\nXP 3,200\nLN Medium construct (technological)\nInit\n+5;\nSenses\ndarkvision 60 ft.; low light vision;;\nPerception\n+14\nDefense\nHP\n115\nEAC\n19;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nadvanced synthskin, regeneration 10 (magical fire);\nDR\n5/—;;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n50 ft.\nMelee\nslam +18 (2d6+8 B)\nRanged\nadvanced semi-auto pistol +15 (2d6+7 P)\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n—;\nINT\n+2;\nWIS\n+0;\nCHA\n+4\nSkills\nAcrobatics +14, Bluff +19, Disguise +19, Sense Motive +14, Stealth +19\nLanguages\nCommon\nGear\nadvanced semi-auto pistol with 24 small-arm rounds\nEcology\nEnvironment\nAny\nOrganization\nsolitary, pair, or cell (1 exterminator-class infiltration robot and 3 monitor-class infiltration robots)\nSpecial Abilities\nAdvanced Synthskin (Ex)\nInfiltration robots are composed almost entirely of adaptive nanite flesh, allowing them to impersonate other species and insulating them from typical robot weaknesses. While its advanced synthskin is active, an infiltration robot appears to be a member of a medium-sized humanoid or monstrous humanoid species of its choice. This otherwise functions as the change shape universal creature rule (page 152), except the infiltration robot can activate it as a swift action. While an infiltration robot has fewer than half its Hit Points remaining, it can’t use this ability.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Robot_Infiltration_Exterminator-Class.png"
+}

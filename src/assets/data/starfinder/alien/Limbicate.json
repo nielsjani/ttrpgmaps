@@ -1,0 +1,51 @@
+{
+  "name": "Limbicate",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Limbicate&Family=None",
+  "source": "Drift Crisis pg. 156",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, incorporeal)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., blindsight (emotion) 60 ft.;",
+  "perception": "+18",
+  "hp": "68",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+11",
+  "speed": "30 ft., fly 60 ft. (Su, average)",
+  "melee": "nerve lash +13 (3d6 S; critical confuse [DC 16])",
+  "offensive_abilities": "mortified mitosis, reckless urge (DC 16)",
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +13, Culture +13, Sense Motive +18, Stealth +18",
+  "environment": "any (the Drift)",
+  "organization": "solitary, pair, or riot (3–8)",
+  "special_abilities": [
+    {
+      "name": "Limbicate Stealth (Su)",
+      "description": "A limbicate exists on an emotional level and, under most circumstances, it can be perceived only by creatures with emotions. When a creature would sense a limbicate, they must attempt a DC 18 Will save. If they succeed, they can perceive the limbicate normally for 1 minute. If they fail, the creature is unaware of the limbicate for 1 minute. A creature applies the highest of any saving throw bonus it has against emotion or mindaffecting effects to this save DC, making the limbicate harder to detect. A creature immune to emotion or mindaffecting effects automatically fails the save. Blindsense and blindsight that perceive through emotion ignore this ability. Once a limbicate performs a hostile action— anything that would end an invisibility spell—this ability is suppressed for 1d4 rounds."
+    },
+    {
+      "name": "Mortified Mitosis (Ex)",
+      "description": "Once per hour as a reaction when a creature affected by the limbicate’s reckless urge within 60 feet is either reduced to 0 HP or takes at least 40 damage from one source in a single round, a limbicate can split into two. The second limbicate appears adjacent to the first, has half its maximum Hit Points, and acts immediately after the first limbicate in the initiative order."
+    },
+    {
+      "name": "Reckless Urge (Su)",
+      "description": "As a standard action, a limbicate can compel a creature within 30 feet to act recklessly (Will DC 16 negates). The next time the target would take damage to which it’s not immune in the next minute, it takes that damage or 6d10 damage of the same type, whichever is greater. If the target isn’t in combat, they’re also compelled to seek and attack a significant enemy within the next minute (or pursue equally dangerous behavior at the GM’s discretion). Once a creature successfully saves against this ability, they become immune to it for 1d6 hours. This is a compulsion, emotion, mind-affecting ability."
+    }
+  ],
+  "description": "The Ethereal Plane brims with emotional forces, and when Drift engines tear portions of the Ethereal Plane into the Drift, bundles of that unthinking passion often gets dragged along. Limbicates are clusters of fear, hatred, and mischief drawn from the Ethereal Plane by Drift travel and shaped by their new home into sadistic tricksters that feed on emotional distress. Seemingly without scruples, they haunt cityscapes and provoke reckless, violent abandon before fading from sight. The greater the trauma, the more often a limbicate can split and just one can quickly multiply into a plague of criminal activity.\nPeriodically, a well-fed limbicate doesn’t split but instead retreats and cocoons itself to metamorphose. Sometimes the limbicate that emerges has phantasmal limbs, as though the creature’s slowly developing a corporeal body. Other times it transforms into a wholly different creature, suggesting this current form is but one stage in a complex life cycle.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLimbicate\nSource\nDrift Crisis pg. 156\nLimbicate CR 6\nXP 2,400\nCE Medium outsider (extraplanar, incorporeal)\nInit\n+2;\nSenses\ndarkvision 60 ft., blindsight (emotion) 60 ft.;\nPerception\n+18\nDefense\nHP\n68\nEAC\n18;\nKAC\n19\nFort\n+5;\nRef\n+5;\nWill\n+11\nDefensive Abilities\nincorporeal, limbicate stealth (DC 16)\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, average)\nMelee\nnerve lash +13 (3d6 S; critical confuse [DC 16])\nOffensive Abilities\nmortified mitosis, reckless urge (DC 16)\nStatistics\nSTR\n-1;\nDEX\n+2;\nCON\n+1;\nINT\n+3;\nWIS\n+5;\nCHA\n+2\nSkills\nAcrobatics +13, Culture +13, Sense Motive +18, Stealth +18\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary, pair, or riot (3–8)\nSpecial Abilities\nLimbicate Stealth (Su)\nA limbicate exists on an emotional level and, under most circumstances, it can be perceived only by creatures with emotions. When a creature would sense a limbicate, they must attempt a DC 18 Will save. If they succeed, they can perceive the limbicate normally for 1 minute. If they fail, the creature is unaware of the limbicate for 1 minute. A creature applies the highest of any saving throw bonus it has against emotion or mindaffecting effects to this save DC, making the limbicate harder to detect. A creature immune to emotion or mindaffecting effects automatically fails the save. Blindsense and blindsight that perceive through emotion ignore this ability. Once a limbicate performs a hostile action— anything that would end an invisibility spell—this ability is suppressed for 1d4 rounds.\nMortified Mitosis (Ex)\nOnce per hour as a reaction when a creature affected by the limbicate’s reckless urge within 60 feet is either reduced to 0 HP or takes at least 40 damage from one source in a single round, a limbicate can split into two. The second limbicate appears adjacent to the first, has half its maximum Hit Points, and acts immediately after the first limbicate in the initiative order.\nReckless Urge (Su)\nAs a standard action, a limbicate can compel a creature within 30 feet to act recklessly (Will DC 16 negates). The next time the target would take damage to which it’s not immune in the next minute, it takes that damage or 6d10 damage of the same type, whichever is greater. If the target isn’t in combat, they’re also compelled to seek and attack a significant enemy within the next minute (or pursue equally dangerous behavior at the GM’s discretion). Once a creature successfully saves against this ability, they become immune to it for 1d6 hours. This is a compulsion, emotion, mind-affecting ability.\nDescription\nThe Ethereal Plane brims with emotional forces, and when Drift engines tear portions of the Ethereal Plane into the Drift, bundles of that unthinking passion often gets dragged along. Limbicates are clusters of fear, hatred, and mischief drawn from the Ethereal Plane by Drift travel and shaped by their new home into sadistic tricksters that feed on emotional distress. Seemingly without scruples, they haunt cityscapes and provoke reckless, violent abandon before fading from sight. The greater the trauma, the more often a limbicate can split and just one can quickly multiply into a plague of criminal activity.\nPeriodically, a well-fed limbicate doesn’t split but instead retreats and cocoons itself to metamorphose. Sometimes the limbicate that emerges has phantasmal limbs, as though the creature’s slowly developing a corporeal body. Other times it transforms into a wholly different creature, suggesting this current form is but one stage in a complex life cycle.",
+  "type": "outsider (extraplanar, incorporeal)",
+  "category": "alien"
+}

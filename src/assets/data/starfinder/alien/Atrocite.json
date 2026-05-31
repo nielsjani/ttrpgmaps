@@ -1,0 +1,55 @@
+{
+  "name": "Atrocite",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Atrocite&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 265",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+2",
+  "senses": "blindsense (life) 30 ft., darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "147",
+  "eac": "23",
+  "kac": "22",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+15",
+  "immunities": "poison, vacuum",
+  "speed": "40 ft., fly 40 ft. (Su, average)",
+  "melee": "slam +17 (2d8+15 B)",
+  "ranged": "void bolt +19 (3d4+10 E; critical severe wound [DC 19])",
+  "offensive_abilities": "words of destruction",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th; melee +18, ranged +19",
+    "spells": "1/week—\ninterplanetary teleport\n(self only),\nplane shift\n1/day—\ncosmic eddy\n(DC 22),\nenervation\n3/day—\narcing surge\n(DC 21),\nbestow curse\n(DC 21),\ndisplacement\n,\nsynaptic pulse\n(DC 21)\nAt will—\nmirror image\n,\nsee invisibility"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+8"
+  },
+  "skills": "Intimidate +24, Mysticism +24, Sense Motive +19",
+  "languages": "Abyssal, Common; telepathy (100 ft.)",
+  "other_abilities": "no breath",
+  "environment": "any",
+  "organization": "solitary or cult (1 plus 13–20 cultists)",
+  "special_abilities": [
+    {
+      "name": "Void Bolt (Su)",
+      "description": "As a ranged attack, an atrocite can fire a bolt of mystical electricity that has a range increment of 60 feet. This damage has the force descriptor."
+    },
+    {
+      "name": "Words of Destruction (Su)",
+      "description": "Once per day as a swift action, the many mouths of an atrocite can speak words of total devastation. For the next 3 rounds, any chaotic evil worshipper of the Devourer within 60 feet adds the wound critical hit effect to all its attacks (in addition to any existing critical hit effect); if an attack already has the wound critical hit effect, it gains the severe wound critical hit effect instead. If the atrocite takes damage at any point during this 3-round period, the effects of its words of destruction end immediately."
+    }
+  ],
+  "description": "The monstrous atrocites are potent agents of the Devourer. Each atrocite has a unique form roughly similar to that of a member of some sentient species. If the original form has eyes, the atrocite’s are instead empty voids. If it has hands, each holds a fanged mouth that speaks of destruction. A gray haze forms above atrocites, constantly crackling with red energy and serving as the source of their void bolts.\nAlthough they are outsiders, atrocites dwell primarily on the Material Plane, searching through space for places ripe for the depredations of a Devourer cult or helping extant cults execute massive acts of destruction beyond their normal capacity. An atrocite remains with a cult only so long as its presence and guidance clearly increases the recruiting power or destructive capacity of the cult, leaving as soon as it can to further spread its message of infinite unmaking.\nCultists sometimes smuggle atrocites into highly populated systems to spread the Devourer’s dire gospel, but atrocites travel on their own just as often, either teleporting over vast distances through space or using planar travel.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAtrocite\nSource\nStarfinder Dead Suns Adventure Path pg. 265\n,\nStarfinder #4: The Ruined Clouds pg. 56\nAtrocite CR 10\nXP 9,600\nCE Medium outsider (native)\nInit\n+2;\nSenses\nblindsense (life) 30 ft., darkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n147\nEAC\n23;\nKAC\n22\nFort\n+9;\nRef\n+9;\nWill\n+15\nImmunities\npoison, vacuum\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, average)\nMelee\nslam +17 (2d8+15 B)\nRanged\nvoid bolt +19 (3d4+10 E; critical severe wound [DC 19])\nOffensive Abilities\nwords of destruction\nSpell-Like Abilities\n(CL 10th; melee +18, ranged +19)\n1/week—\ninterplanetary teleport\n(self only),\nplane shift\n1/day—\ncosmic eddy\n(DC 22),\nenervation\n3/day—\narcing surge\n(DC 21),\nbestow curse\n(DC 21),\ndisplacement\n,\nsynaptic pulse\n(DC 21)\nAt will—\nmirror image\n,\nsee invisibility\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+2;\nINT\n+0;\nWIS\n+3;\nCHA\n+8\nSkills\nIntimidate +24, Mysticism +24, Sense Motive +19\nLanguages\nAbyssal, Common; telepathy (100 ft.)\nOther Abilities\nno breath\nEcology\nEnvironment\nany\nOrganization\nsolitary or cult (1 plus 13–20 cultists)\nSpecial Abilities\nVoid Bolt (Su)\nAs a ranged attack, an atrocite can fire a bolt of mystical electricity that has a range increment of 60 feet. This damage has the force descriptor.\nWords of Destruction (Su)\nOnce per day as a swift action, the many mouths of an atrocite can speak words of total devastation. For the next 3 rounds, any chaotic evil worshipper of the Devourer within 60 feet adds the wound critical hit effect to all its attacks (in addition to any existing critical hit effect); if an attack already has the wound critical hit effect, it gains the severe wound critical hit effect instead. If the atrocite takes damage at any point during this 3-round period, the effects of its words of destruction end immediately.\nDescription\nThe monstrous atrocites are potent agents of the Devourer. Each atrocite has a unique form roughly similar to that of a member of some sentient species. If the original form has eyes, the atrocite’s are instead empty voids. If it has hands, each holds a fanged mouth that speaks of destruction. A gray haze forms above atrocites, constantly crackling with red energy and serving as the source of their void bolts.\nAlthough they are outsiders, atrocites dwell primarily on the Material Plane, searching through space for places ripe for the depredations of a Devourer cult or helping extant cults execute massive acts of destruction beyond their normal capacity. An atrocite remains with a cult only so long as its presence and guidance clearly increases the recruiting power or destructive capacity of the cult, leaving as soon as it can to further spread its message of infinite unmaking.\nCultists sometimes smuggle atrocites into highly populated systems to spread the Devourer’s dire gospel, but atrocites travel on their own just as often, either teleporting over vast distances through space or using planar travel.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

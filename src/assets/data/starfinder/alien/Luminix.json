@@ -1,0 +1,54 @@
+{
+  "name": "Luminix",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Luminix&Family=None",
+  "source": "Starfinder #47: Nightmare Scenario pg. 60",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "construct (technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+6",
+  "immunities": "construct immunities",
+  "speed": "20 ft., fly 40 ft. (Ex, perfect)",
+  "melee": "pincer arm +11 (1d4+7 P, critical bind)",
+  "ranged": "cosmic pulse +13 (1d4+5 B, critical arc 1d6",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "—",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +16, Bluff +11, Computers +16, Engineering +11, Intimidate +16",
+  "languages": "Aballonian, Castrovelian, Common",
+  "other_abilities": "stellar mechanism (stellar rush), unliving",
+  "environment": "any solar",
+  "organization": "solitary, pair, or patrol (3–10)",
+  "special_abilities": [
+    {
+      "name": "Cosmic Pulse (Ex)",
+      "description": "As a ranged attack, a luminix can channel cosmic energy with a range increment of 40 feet. The bludgeoning damage dealt with a luminix’s cosmic pulse has the force descriptor."
+    },
+    {
+      "name": "Solar Plating (Ex)",
+      "description": "When a luminix takes damage from a solarian’s stellar revelation or an attack made with a solar weapon crystal, it reduces the damage dealt by 5."
+    },
+    {
+      "name": "Stellar Mechanism (Ex)",
+      "description": "Each luminix is programmed with one solarian’s photon revelation with a level equal to its CR or lower. Once a luminix uses this ability, it can’t use it again for one hour or until it prevents damage with its solar plating. A luminix is always considered photon attuned but never fully photon attuned."
+    }
+  ],
+  "description": "Originally, luminixes were solar-powered robots built to harness the full power of the system’s sun. Aballonian corporation Exemplar-23 reportedly came up with the idea after observing recordings of tactics used by android abolitionist solarians to defend their bases. These clever machines were manufactured on Aballon for decades but only appeared on other Pact Worlds in the past five years. These constructs have since been reverse-engineered and manufactured by other corporations across the Pact Worlds and beyond. Corporations on Castrovel and Verces quickly added luminixes to their security retinues, and engineers on Vesk Prime recently developed their own version of the technology.\nA typical luminix has a chassis shaped like a robotic rat, with small scuttling limbs and a stabilizing tail. The design also features a pair of mechanical arms with pincers for hands, stabilizing thrusters, and an array of miniature solar panels across both the robot’s back and underside. Luminixes can withdraw all their limbs to recharge without draining their auxiliary systems, and many maintenance engineers prefer to recharge them upside-down because of a superstition that, since their programming mimics abilities used by solarians, their charging must be balanced in kind. Luminixes are versatile constructs programmed for defensive combat, typically working in concert with other types of security and combat robots. Their secondary function is to swiftly repair technology and structures damaged by hostile forces as they support larger models. A tide of mechanized rats swarm over a damaged object, followed by 30 seconds of flashing lights, buzzing, and clicking. By the time the luminixes scurry to the next contested location, the damaged object is as good as new.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLuminix\nSource\nStarfinder #47: Nightmare Scenario pg. 60\nLuminix CR 5\nXP 1,600\nN Small construct (technological)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n18\nFort\n+2;\nRef\n+2;\nWill\n+6\nDefensive Abilities\nsolar plating;\nImmunities\nconstruct immunities\nOffense\nSpeed\n20 ft., fly 40 ft. (Ex, perfect)\nMelee\npincer arm +11 (1d4+7 P, critical bind)\nRanged\ncosmic pulse +13 (1d4+5 B, critical arc 1d6\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n—;\nINT\n+0;\nWIS\n+3;\nCHA\n+1\nSkills\nAcrobatics +16, Bluff +11, Computers +16, Engineering +11, Intimidate +16\nLanguages\nAballonian, Castrovelian, Common\nOther Abilities\nstellar mechanism (stellar rush), unliving\nEcology\nEnvironment\nany solar\nOrganization\nsolitary, pair, or patrol (3–10)\nSpecial Abilities\nCosmic Pulse (Ex)\nAs a ranged attack, a luminix can channel cosmic energy with a range increment of 40 feet. The bludgeoning damage dealt with a luminix’s cosmic pulse has the force descriptor.\nSolar Plating (Ex)\nWhen a luminix takes damage from a solarian’s stellar revelation or an attack made with a solar weapon crystal, it reduces the damage dealt by 5.\nStellar Mechanism (Ex)\nEach luminix is programmed with one solarian’s photon revelation with a level equal to its CR or lower. Once a luminix uses this ability, it can’t use it again for one hour or until it prevents damage with its solar plating. A luminix is always considered photon attuned but never fully photon attuned.\nDescription\nOriginally, luminixes were solar-powered robots built to harness the full power of the system’s sun. Aballonian corporation Exemplar-23 reportedly came up with the idea after observing recordings of tactics used by android abolitionist solarians to defend their bases. These clever machines were manufactured on Aballon for decades but only appeared on other Pact Worlds in the past five years. These constructs have since been reverse-engineered and manufactured by other corporations across the Pact Worlds and beyond. Corporations on Castrovel and Verces quickly added luminixes to their security retinues, and engineers on Vesk Prime recently developed their own version of the technology.\nA typical luminix has a chassis shaped like a robotic rat, with small scuttling limbs and a stabilizing tail. The design also features a pair of mechanical arms with pincers for hands, stabilizing thrusters, and an array of miniature solar panels across both the robot’s back and underside. Luminixes can withdraw all their limbs to recharge without draining their auxiliary systems, and many maintenance engineers prefer to recharge them upside-down because of a superstition that, since their programming mimics abilities used by solarians, their charging must be balanced in kind. Luminixes are versatile constructs programmed for defensive combat, typically working in concert with other types of security and combat robots. Their secondary function is to swiftly repair technology and structures damaged by hostile forces as they support larger models. A tide of mechanized rats swarm over a damaged object, followed by 30 seconds of flashing lights, buzzing, and clicking. By the time the luminixes scurry to the next contested location, the damaged object is as good as new.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

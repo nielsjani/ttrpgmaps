@@ -1,0 +1,55 @@
+{
+  "name": "Lurker in Light",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lurker in Light&Family=Lurker in Light",
+  "source": "Alien Archive 3 pg. 70",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "fey (extraplanar)",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "dr": "5/cold iron",
+  "immunities": "blinded",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "claw +13 (1d6+6 S) or basic spined blade +13 (1d6 P plus lesser shadow essence; critical injection DC +2)",
+  "spell_like_abilities": {
+    "caster_info": "CL 5th",
+    "spells": "1/day—\nplane shift\n(Elemental Planes, First World, or Material Plane; self only)\n3/day—\nwisp ally\nAt will—\ndancing lights"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +11, Mysticism +11, Stealth +16",
+  "languages": "Aklo, Common, Gnome",
+  "other_abilities": "blend with light, daylight door",
+  "gear": "basic spined blade",
+  "environment": "urban (extraplanar)",
+  "organization": "solitary, pair, or gang (3–8)",
+  "special_abilities": [
+    {
+      "name": "Blend with Light (Su)",
+      "description": "A lurker in light is invisible in areas of bright light."
+    },
+    {
+      "name": "Daylight Door (Sp)",
+      "description": "Once per day, a lurker in light can cast dimension door, though it can transport only itself and objects of up to 5 total bulk. The start and end points of the teleport must be in areas of bright light; if the destination lacks sufficient light, the spell fails, but this ability is not expended for the day.\nLesser Shadow Essence\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nStrength;\nFrequency\n1/round for 6 rounds\nEffect\nAt the staggered state, the penalties from the weakened state become permanent until the victim benefits from a lesser restoration spell.\nCure\n1 save"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLurker in Light\nSource\nAlien Archive 3 pg. 70\nLurkers in light are small, humanoid fey creatures that plague the Material Plane, using light as their hiding place. These fey have iridescent skin, a set of four transparent wings, and are extremely thin, averaging at 3 feet tall and 10 pounds in weight. Lurkers in light avoid dim and shadowy spots, as the furtive creatures become more visible in such places. Though lurkers in light can claw their victims with sharp fingers, many use modern injection weapons to inflict lesser shadow essence poison on their enemies.\nLurkers in light are malicious and spiteful fey from the First World, sowing chaos throughout the Material Plane for no other reason than to satisfy their sadistic, inscrutable desires. They quickly and stealthily execute their schemes, using the abundance of light in technological societies to their considerable advantage. The shrewd fey especially love tourist-packed, advertising-filled downtowns of large metropolises, where they can easily flit above the crowds and select their victims. They tend to reserve their cruelest methods for creatures that thrive in darkness and, for unknown reasons, gnomes.\nLurkers in light are quite difficult to clear out of sufficiently advanced environments, as the abundant light in cities, space stations, and starships provides them many places to hide. It is sometimes necessary to temporarily shut off all power when hunting a lurker, which carries its own dangers for isolated stations and starships in transit. Long ago on lost Golarion, lurkers in light incursions were rarer and perhaps more manageable—it’s far easier to extinguish a torch than plunge a city block into darkness. In addition, the creatures needed to complete costly rituals to travel to and from their home plane. Modern lurkers in light have no such limitation, having mastered the ability to flit between a limited set of planes sometime during the Gap.\nLightweavers are older, more sadistic lurkers in light, learned in mysticism and fond of large-scale torment. They have honed their hatred to the height of efficiency, blending arcane knowledge and resourcefulness. The creatures also eschew the use of poison in favor of a growing obsession with radioactivity. This sometimes brings them into conflict with hespers over particularly prolific sources of radiation. Lightweavers gather what radioactive material they can and create elaborate nests, where they cultivate horrific weapons specifically for rituals in which they sear the flesh of their victims. Some have even developed magical rituals, performed in groups, that allow them to convey a starship engine to a collective scrapyard-nest, where they bask in its radioactive glow. With extended exposure, lightweavers become imbued with a measure of radioactivity, increasing the threat they pose.\nAliens in the \"Lurker in Light\" Family\nName\nCR\nLightweaver\n14\nLurker in Light\n5\nLurker in Light\nSource\nAlien Archive 3 pg. 70\nLurker in Light CR 5\nXP 1,600\nNE Small fey (extraplanar)\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nDR\n5/cold iron;\nImmunities\nblinded\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\nclaw +13 (1d6+6 S) or basic spined blade +13 (1d6 P plus lesser shadow essence; critical injection DC +2)\nSpell-Like Abilities\n(CL 5th)\n1/day—\nplane shift\n(Elemental Planes, First World, or Material Plane; self only)\n3/day—\nwisp ally\nAt will—\ndancing lights\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+1;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nAcrobatics +11, Mysticism +11, Stealth +16\nLanguages\nAklo, Common, Gnome\nOther Abilities\nblend with light, daylight door\nGear\nbasic spined blade\nEcology\nEnvironment\nurban (extraplanar)\nOrganization\nsolitary, pair, or gang (3–8)\nSpecial Abilities\nBlend with Light (Su)\nA lurker in light is invisible in areas of bright light.\nDaylight Door (Sp)\nOnce per day, a lurker in light can cast dimension door, though it can transport only itself and objects of up to 5 total bulk. The start and end points of the teleport must be in areas of bright light; if the destination lacks sufficient light, the spell fails, but this ability is not expended for the day.\nLesser Shadow Essence\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nStrength;\nFrequency\n1/round for 6 rounds\nEffect\nAt the staggered state, the penalties from the weakened state become permanent until the victim benefits from a lesser restoration spell.\nCure\n1 save",
+  "type": "fey (extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Lurker_in_Light.png"
+}

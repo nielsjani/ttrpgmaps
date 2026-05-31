@@ -1,0 +1,53 @@
+{
+  "name": "Religious Figures, Divine Avatar",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Divine Avatar&Family=Religious Figures",
+  "source": "Interstellar Species pg. 174",
+  "cr": "20",
+  "xp": "307,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (vlaka)",
+  "init": "+0",
+  "senses": "blinded, blindsight (hearing) 60 ft., blindsight (scent) 30 ft.;",
+  "perception": "+34",
+  "hp": "395",
+  "eac": "34",
+  "kac": "35",
+  "fort": "+19",
+  "ref": "+17",
+  "will": "+22",
+  "resistances": "cold 20",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "touch +28 (6d10+25 E)",
+  "ranged": "rebuke +30 (6d10+20 So; critical deafen)",
+  "spell_like_abilities": {
+    "caster_info": "CL 20th",
+    "spells": "1/day—\nenshrining refuge\n(DC 29),\nmass inflict pain\n(DC 29),\nmass mystic cure\n(6th level),\nshadow walk\n(DC 29)\n3/day—\nbreak enchantment\n,\ncall cosmos\n,\ngreater dispel magic\nAt will—\ndiscern lies\n(DC 25),\nmind thrust\n(4th level, DC 25)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+13",
+    "cha": "+10"
+  },
+  "skills": "Diplomacy +34, Medicine +34, Mysticism +39",
+  "languages": "Common, Vlakan (signed, spoken, and tactile)",
+  "other_abilities": "ascendant, buoy",
+  "special_abilities": [
+    {
+      "name": "Ascendant (Ex)",
+      "description": "At the beginning of their turn, a divine avatar can channel their god’s overwhelming power to strengthen their mortal body. This grants the divine avatar 50 temporary Hit Points, increases the save DCs of their spells by 2, doubles the range of their special senses, and grants them a +2 bonus to their AC, attack rolls, saving throws, and skill checks. At the beginning of each subsequent turn, the divine avatar must succeed at a Fortitude save (DC = 25 + 1 for each turn spent using ascendant in the last minute) or the ability ends immediately. When the ability ends, the divine avatar becomes fatigued for 1 round, and they can’t use this ability again for 1 minute."
+    },
+    {
+      "name": "Rebuke (Su)",
+      "description": "As a standard action, a divine avatar can speak a destructive word as a ranged attack with a range increment of 60 feet."
+    }
+  ],
+  "description": "Divine avatars have ascended beyond the traditional bounds of their religion and primarily serve as the mouthpieces of their deities. There are few, if any, divine avatars within each religion, and their words and authority are second only to the gods they serve. Though they would never admit so publicly, some see being chosen as an avatar of their deity as a curse, especially when a strong-willed deity demands much from them.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReligious Figures\nSource\nInterstellar Species pg. 174\nReligious figures are typically individuals who rise in their faith’s ranks due to their unrivaled devotion and skill—or even due to the blessings bestowed upon them by their deity. Religious figures don’t just lead the devout; they often also steer nonreligious discourse. Depending on their congregation and ambitions, the leader might even overshadow the government of a city or planet. Although this arrangement might bring peace, it could as easily realize a terrible regime of divine tyranny or terror.\nAliens in the \"Religious Figures\" Family\nName\nCR\nChampion\n14\nDivine Avatar\n20\nExcommunicant\n4\nProphet\n8\nReligious Figures, Divine Avatar\nSource\nInterstellar Species pg. 175\nDivine Avatar CR 20\nXP 307,200\nVlaka\nLN Medium humanoid (vlaka)\nInit\n+0;\nSenses\nblinded, blindsight (hearing) 60 ft., blindsight (scent) 30 ft.;\nPerception\n+34\nDefense\nHP\n395\nEAC\n34;\nKAC\n35\nFort\n+19;\nRef\n+17;\nWill\n+22\nResistances\ncold 20\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\ntouch +28 (6d10+25 E)\nRanged\nrebuke +30 (6d10+20 So; critical deafen)\nSpell-Like Abilities (CL 20th)\n1/day—\nenshrining refuge\n(DC 29),\nmass inflict pain\n(DC 29),\nmass mystic cure\n(6th level),\nshadow walk\n(DC 29)\n3/day—\nbreak enchantment\n,\ncall cosmos\n,\ngreater dispel magic\nAt will—\ndiscern lies\n(DC 25),\nmind thrust\n(4th level, DC 25)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n+4;\nWIS\n+13;\nCHA\n+10\nSkills\nDiplomacy +34, Medicine +34, Mysticism +39\nLanguages\nCommon, Vlakan (signed, spoken, and tactile)\nOther Abilities\nascendant, buoy\nSpecial Abilities\nAscendant (Ex)\nAt the beginning of their turn, a divine avatar can channel their god’s overwhelming power to strengthen their mortal body. This grants the divine avatar 50 temporary Hit Points, increases the save DCs of their spells by 2, doubles the range of their special senses, and grants them a +2 bonus to their AC, attack rolls, saving throws, and skill checks. At the beginning of each subsequent turn, the divine avatar must succeed at a Fortitude save (DC = 25 + 1 for each turn spent using ascendant in the last minute) or the ability ends immediately. When the ability ends, the divine avatar becomes fatigued for 1 round, and they can’t use this ability again for 1 minute.\nRebuke (Su)\nAs a standard action, a divine avatar can speak a destructive word as a ranged attack with a range increment of 60 feet.\nDescription\nDivine avatars have ascended beyond the traditional bounds of their religion and primarily serve as the mouthpieces of their deities. There are few, if any, divine avatars within each religion, and their words and authority are second only to the gods they serve. Though they would never admit so publicly, some see being chosen as an avatar of their deity as a curse, especially when a strong-willed deity demands much from them.",
+  "type": "humanoid (vlaka)",
+  "environment": "—",
+  "category": "alien"
+}

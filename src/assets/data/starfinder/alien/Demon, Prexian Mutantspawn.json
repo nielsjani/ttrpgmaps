@@ -1,0 +1,56 @@
+{
+  "name": "Demon, Prexian Mutantspawn",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Prexian Mutantspawn&Family=Demon",
+  "source": "Alien Archive 2 pg. 35",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (chaotic, evil, extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., blindsense (scent) 60 ft.;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+14",
+  "ref": "+10",
+  "will": "+12",
+  "dr": "10/good",
+  "sr": "22",
+  "immunities": "acid, disease, electricity, poison;",
+  "resistances": "cold 10, fire 10;",
+  "speed": "10 ft., fly 40 ft. (Ex, average)",
+  "melee": "numbing taclash +20 (5d4 S plus irradiation) or bite +20 (2d10+16 S plus irradiation)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with numbing taclash)",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th; ranged +18",
+    "spells": "1/day—\nconfusion\n(DC 22)\n3/day—\nirradiate\n(DC 21),\nray of exhaustion\n(DC 21)\nAt will—\ninflict pain\n(DC 20),\nmind thrust\n(2nd level, DC 20),\nteleport\n(self plus 5 bulk of objects only)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+8",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +20, Bluff +20, Intimidate +20, Mysticism +20, Sense Motive +20",
+  "languages": "Abyssal, Celestial, Draconic; telepathy 100 ft.",
+  "gear": "numbing taclash with 2 batteries (20 charges each)",
+  "environment": "any (Abyss)",
+  "organization": "solitary, pair, or infection (3–8)",
+  "special_abilities": [
+    {
+      "name": "Irradiation (Su)",
+      "description": "A creature bitten by a prexian mutantspawn or wounded by a melee weapon a mutantspawn carries must succeed at a DC 20 Fortitude save or be exposed to a sudden pulse of supernatural radiation. This functions as medium radiation that affects only the mutantspawn’s target."
+    }
+  ],
+  "description": "The Abyss is a warped mirror that reflects all sinful possibility in mortal life, and as mortals advance technologically, so too advances their capacity to sin. Pluprex demons are one such modern reflection—incarnations of the cruelties and devastation wrought by those who harness the power of radiation to do harm.\nA pluprex forms from the sinful soul of a mortal who, in life, gloried in the use of radiation as a weapon or who used radiation to experiment on unwilling subjects or to poison the innocent. Many pluprexes died of radiation poisoning themselves in their mortal lives. A typical pluprex stands 7 feet tall but weighs only 100 pounds.\nFor some victims of a pluprex’s invoked mutation, death is only the beginning. When a victim of an invoked mutation perishes in the Abyss or in an area suffused with chaotic and evil energies, mutations in its flesh can sometimes animate into a horrific form of life known as a prexian mutantspawn. These deformed monstrosities claw their way loose from their hosts’ dead bodies as collections of misshapen bones, sinew, teeth, and tumors that shouldn’t be able to live, yet somehow do so with fervor.\nA prexian mutantspawn’s shape may vaguely resemble that of its original host body, but it has none of the birth corpse’s memories, skills, or abilities. The transformation into a mutantspawn has no effect on a creature’s soul, and the mutantspawn is a new form of outsider life, not an undead—a creature that dies and then spawns a mutantspawn from their body can be brought back to life normally.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDemon (Summoning) Graft Template\n-\nDemon (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDemon\nAliens in the \"Demon\" Family\nName\nCR\nFlashfire\n12\nPluprex\n13\nPrexian Mutantspawn\n11\nDemon, Prexian Mutantspawn\nSource\nAlien Archive 2 pg. 35\nPrexian Mutantspawn CR 11\nXP 12,800\nCE Medium outsider (chaotic, evil, extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft., blindsense (scent) 60 ft.;\nPerception\n+20\nDefense\nHP\n155\nEAC\n23;\nKAC\n24\nFort\n+14;\nRef\n+10;\nWill\n+12\nDefensive Abilities\namorphous;;\nDR\n10/good;\nImmunities\nacid, disease, electricity, poison;\nResistances\ncold 10, fire 10;\nSR\n22\nOffense\nSpeed\n10 ft., fly 40 ft. (Ex, average)\nMelee\nnumbing taclash +20 (5d4 S plus irradiation) or bite +20 (2d10+16 S plus irradiation)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with numbing taclash)\nSpell-Like Abilities\n(CL 11th; ranged +18)\n1/day—\nconfusion\n(DC 22)\n3/day—\nirradiate\n(DC 21),\nray of exhaustion\n(DC 21)\nAt will—\ninflict pain\n(DC 20),\nmind thrust\n(2nd level, DC 20),\nteleport\n(self plus 5 bulk of objects only)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+8;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nAcrobatics +20, Bluff +20, Intimidate +20, Mysticism +20, Sense Motive +20\nLanguages\nAbyssal, Celestial, Draconic; telepathy 100 ft.\nGear\nnumbing taclash with 2 batteries (20 charges each)\nEcology\nEnvironment\nany (Abyss)\nOrganization\nsolitary, pair, or infection (3–8)\nSpecial Abilities\nIrradiation (Su)\nA creature bitten by a prexian mutantspawn or wounded by a melee weapon a mutantspawn carries must succeed at a DC 20 Fortitude save or be exposed to a sudden pulse of supernatural radiation. This functions as medium radiation that affects only the mutantspawn’s target.\nDescription\nThe Abyss is a warped mirror that reflects all sinful possibility in mortal life, and as mortals advance technologically, so too advances their capacity to sin. Pluprex demons are one such modern reflection—incarnations of the cruelties and devastation wrought by those who harness the power of radiation to do harm.\nA pluprex forms from the sinful soul of a mortal who, in life, gloried in the use of radiation as a weapon or who used radiation to experiment on unwilling subjects or to poison the innocent. Many pluprexes died of radiation poisoning themselves in their mortal lives. A typical pluprex stands 7 feet tall but weighs only 100 pounds.\nFor some victims of a pluprex’s invoked mutation, death is only the beginning. When a victim of an invoked mutation perishes in the Abyss or in an area suffused with chaotic and evil energies, mutations in its flesh can sometimes animate into a horrific form of life known as a prexian mutantspawn. These deformed monstrosities claw their way loose from their hosts’ dead bodies as collections of misshapen bones, sinew, teeth, and tumors that shouldn’t be able to live, yet somehow do so with fervor.\nA prexian mutantspawn’s shape may vaguely resemble that of its original host body, but it has none of the birth corpse’s memories, skills, or abilities. The transformation into a mutantspawn has no effect on a creature’s soul, and the mutantspawn is a new form of outsider life, not an undead—a creature that dies and then spawns a mutantspawn from their body can be brought back to life normally.\nExtra Content\nThe following extra content was found for this creature:\n-\nDemon (Summoning) Graft Template\n-\nDemon (Creature Subtype) Graft Template",
+  "type": "outsider (chaotic, evil, extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Demon_Prexian_Mutantspawn.png"
+}

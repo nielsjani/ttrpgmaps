@@ -1,0 +1,47 @@
+{
+  "name": "Clockwork Predator",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Clockwork Predator&Family=None",
+  "source": "Starfinder #50: Clockwork Demons pg. 56",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+8",
+  "senses": "blindsense (scent) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+4",
+  "dr": "5/adamantine",
+  "immunities": "construct immunities",
+  "weaknesses": "precision machinery, vulnerable to sonic",
+  "speed": "40 ft.",
+  "melee": "bite +18 (2d8+12 P) orclaw +18 (1d8+12 S)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "—",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +19, Intimidate +14, Stealth +14, Survival +14",
+  "other_abilities": "mindless, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–7)",
+  "special_abilities": [
+    {
+      "name": "Precision Machinery (Ex)",
+      "description": "The machinery of a clockwork predator is powerful but more delicate than standard technological constructs. Vibrations and jarring hits might knock gears out of position. If a clockwork predator takes a critical hit or receives at least 30 sonic damage in a single hit, it can’t multiattack on its next turn and gains the off-target condition until the end of its next turn."
+    }
+  ],
+  "description": "A clockwork predator is an automaton modeled after a live animal that hunts and kills in the wild. A clockwork predator’s rudimentary programming allows it to mimic that type of creature’s behavior, which it does with great success. This construct is usually installed as a guardian of the clockwork engineer’s (or their client’s) property, especially large, sprawling estates where the clockwork predator can establish its territory. When a clockwork predator catches the scent of prey (any creature in its territory that doesn’t provide an immediate threat), it tracks that prey relentlessly. When it finds its quarry, it then pounces with great speed and force, trying to bite and tear the victim to pieces.\nExplorers have returned from journeys to faraway planets with tales of vast clockwork forests and jungles inhabited solely by clockwork creatures. How these ecosystems were created and are sustained is unknown, though many suspect magical influences. Starfinder agents believe that such clockwork habitats result from prior seeding, probably from a self-aware “clockwork core” responsible for terraforming vast regions of suitable planets. Other scholars believe that such clockwork domains are magical in nature, created entirely by the minds of unhinged spellcasters.\nThe Veskarium regularly procures clockwork predators that take the form of the defrexes native to Vesk-2. Officers acquiring such clockwork constructs employ them as guardians for stations and outposts far removed from the greater Veskarium as a reminder of their homeland.\nVariant Clockwork Predators\nLike the many generic predator animals found on pages 102–103 of Starfinder Alien Archive 2, clockwork predators can come in all shapes and sizes. The size and Challenge Rating of a clockwork predator can be altered easily to suit an encounter’s needs. In addition, you can use the environmental grafts found on pages 138–141 of Alien Archive 2 to adapt a clockwork predator to any type of terrain.\nSeveral different clockworks have specialized ranged attacks that spew out spinning gears, while others use serrated cogs that grant the bleed critical hit effect to their attacks. Some even employ unique sensory means that grant blindsense.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nClockwork Predator\nSource\nStarfinder #50: Clockwork Demons pg. 56\nClockwork Predator CR 7\nXP 3,200\nN Medium construct (technological)\nInit\n+8;\nSenses\nblindsense (scent) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+4\nDR\n5/adamantine;\nImmunities\nconstruct immunities\nWeaknesses\nprecision machinery, vulnerable to sonic\nOffense\nSpeed\n40 ft.\nMelee\nbite +18 (2d8+12 P) orclaw +18 (1d8+12 S)\nMultiattack\nbite +12 (2d8+12 P), 2 claws +12 (1d8+12 S)\nOffensive Abilities\npounce\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n—;\nINT\n—;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +19, Intimidate +14, Stealth +14, Survival +14\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–7)\nSpecial Abilities\nPrecision Machinery (Ex)\nThe machinery of a clockwork predator is powerful but more delicate than standard technological constructs. Vibrations and jarring hits might knock gears out of position. If a clockwork predator takes a critical hit or receives at least 30 sonic damage in a single hit, it can’t multiattack on its next turn and gains the off-target condition until the end of its next turn.\nDescription\nA clockwork predator is an automaton modeled after a live animal that hunts and kills in the wild. A clockwork predator’s rudimentary programming allows it to mimic that type of creature’s behavior, which it does with great success. This construct is usually installed as a guardian of the clockwork engineer’s (or their client’s) property, especially large, sprawling estates where the clockwork predator can establish its territory. When a clockwork predator catches the scent of prey (any creature in its territory that doesn’t provide an immediate threat), it tracks that prey relentlessly. When it finds its quarry, it then pounces with great speed and force, trying to bite and tear the victim to pieces.\nExplorers have returned from journeys to faraway planets with tales of vast clockwork forests and jungles inhabited solely by clockwork creatures. How these ecosystems were created and are sustained is unknown, though many suspect magical influences. Starfinder agents believe that such clockwork habitats result from prior seeding, probably from a self-aware “clockwork core” responsible for terraforming vast regions of suitable planets. Other scholars believe that such clockwork domains are magical in nature, created entirely by the minds of unhinged spellcasters.\nThe Veskarium regularly procures clockwork predators that take the form of the defrexes native to Vesk-2. Officers acquiring such clockwork constructs employ them as guardians for stations and outposts far removed from the greater Veskarium as a reminder of their homeland.\nVariant Clockwork Predators\nLike the many generic predator animals found on pages 102–103 of Starfinder Alien Archive 2, clockwork predators can come in all shapes and sizes. The size and Challenge Rating of a clockwork predator can be altered easily to suit an encounter’s needs. In addition, you can use the environmental grafts found on pages 138–141 of Alien Archive 2 to adapt a clockwork predator to any type of terrain.\nSeveral different clockworks have specialized ranged attacks that spew out spinning gears, while others use serrated cogs that grant the bleed critical hit effect to their attacks. Some even employ unique sensory means that grant blindsense.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

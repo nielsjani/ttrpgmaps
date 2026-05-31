@@ -1,0 +1,62 @@
+{
+  "name": "Genie, Djinni",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Djinni&Family=Genie",
+  "source": "Starfinder #15: Sun Divers pg. 55",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CG",
+  "size": "Large",
+  "creature_type": "outsider (air, extraplanar)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+8",
+  "immunities": "acid",
+  "speed": "20 ft., fly 60 ft. (Su, perfect)",
+  "melee": "carbon steel curve blade +12 (1d10+5 S; critical bleed 1d6) or slam +11 (1d4+9 B; critical knockdown)",
+  "ranged": "thunderstrike sonic pistol +12 (1d8+4 So; critical deafen)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "whirlwind (1d4+7 B, DC 15, 1/10 min.)",
+  "spell_like_abilities": {
+    "caster_info": "CL 5th",
+    "spells": "1/day—\nholographic image\n(4th level, DC 16)\nAt will—\nflight\n(3rd level),\ninvisibility\n(self only),\nplane shift\n(willing targets to Astral Plane, Material Plane, or elemental planes only)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Computers +11, Mysticism +16, Sense Motive +16, Stealth +11",
+  "languages": "Aquan, Auran, Common, Ignan, Terran",
+  "other_abilities": "create feast, fabricate item",
+  "gear": "business stationwear, carbon steel curve blade, thunderstrike sonic pistol with 1 battery (20 charges)",
+  "environment": "any (Plane of Air)",
+  "organization": "solitary, pair, company (3–6), or band (7–12)",
+  "special_abilities": [
+    {
+      "name": "Air Mastery (Ex)",
+      "description": "Airborne creatures take a −1 penalty to attack and damage rolls against a djinni."
+    },
+    {
+      "name": "Create Feast (Su)",
+      "description": "Once per day as a standard action, a djinni can create enough luxurious food and mildly intoxicating beverages, along with potable water, to nourish up to 15 Medium creatures for a day in normal environmental conditions. If unconsumed, the food and intoxicating beverages disappear after 24 hours. The water remains."
+    },
+    {
+      "name": "Fabricate Item (Su)",
+      "description": "Once per day as a full action, a djinni can create one piece of gear of an item level equal to or lower than the djinni’s CR. The object can weigh up to 10 bulk and can be of up to Medium size. If the item needs ammunition, power, or other resources to function, it appears loaded with the required materials. The item persists for a number of minutes equal to the djinni’s CR."
+    }
+  ],
+  "description": "Djinn (singular djinni) are genies native to the Plane of Air. They build aerial domains where benevolent creatures are welcome. Most djinn are whimsical and gregarious. However, djinn oppose evil, especially efreet and those who aid them.\nDjinn adopted mortal-built tech during the Gap. Some djinn even reside on the Material Plane. Such djinn like being around mortals, and many live on or near gas giants, where they can enjoy an environment akin to the Plane of Air.\nA few djinn nobles can cast wish on behalf of creatures who aren’t genies. However, tradition limits granting this gift only to the worthy.\nA typical djinni stands 10 feet tall and weighs 1,000 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenie\nAliens in the \"Genie\" Family\nName\nCR\nDjinni\n5\nEfreeti\n8\nJanni\n4\nMarid\n9\nShaitan\n7\nGenie, Djinni\nSource\nStarfinder #15: Sun Divers pg. 55\nDjinni CR 5\nXP 1,600\nCG Large outsider (air, extraplanar)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n18\nFort\n+4;\nRef\n+6;\nWill\n+8\nDefensive Abilities\nair mastery;\nImmunities\nacid\nOffense\nSpeed\n20 ft., fly 60 ft. (Su, perfect)\nMelee\ncarbon steel curve blade +12 (1d10+5 S; critical bleed 1d6) or slam +11 (1d4+9 B; critical knockdown)\nRanged\nthunderstrike sonic pistol +12 (1d8+4 So; critical deafen)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nwhirlwind (1d4+7 B, DC 15, 1/10 min.)\nSpell-Like Abilities\n(CL 5th)\n1/day—\nholographic image\n(4th level, DC 16)\nAt will—\nflight\n(3rd level),\ninvisibility\n(self only),\nplane shift\n(willing targets to Astral Plane, Material Plane, or elemental planes only)\nStatistics\nSTR\n+4;\nDEX\n+4;\nCON\n+2;\nINT\n+2;\nWIS\n+2;\nCHA\n+2\nSkills\nAcrobatics +16 (+24 to fly), Computers +11, Mysticism +16, Sense Motive +16, Stealth +11\nLanguages\nAquan, Auran, Common, Ignan, Terran\nOther Abilities\ncreate feast, fabricate item\nGear\nbusiness stationwear, carbon steel curve blade, thunderstrike sonic pistol with 1 battery (20 charges)\nEcology\nEnvironment\nany (Plane of Air)\nOrganization\nsolitary, pair, company (3–6), or band (7–12)\nSpecial Abilities\nAir Mastery (Ex)\nAirborne creatures take a −1 penalty to attack and damage rolls against a djinni.\nCreate Feast (Su)\nOnce per day as a standard action, a djinni can create enough luxurious food and mildly intoxicating beverages, along with potable water, to nourish up to 15 Medium creatures for a day in normal environmental conditions. If unconsumed, the food and intoxicating beverages disappear after 24 hours. The water remains.\nFabricate Item (Su)\nOnce per day as a full action, a djinni can create one piece of gear of an item level equal to or lower than the djinni’s CR. The object can weigh up to 10 bulk and can be of up to Medium size. If the item needs ammunition, power, or other resources to function, it appears loaded with the required materials. The item persists for a number of minutes equal to the djinni’s CR.\nDescription\nDjinn (singular djinni) are genies native to the Plane of Air. They build aerial domains where benevolent creatures are welcome. Most djinn are whimsical and gregarious. However, djinn oppose evil, especially efreet and those who aid them.\nDjinn adopted mortal-built tech during the Gap. Some djinn even reside on the Material Plane. Such djinn like being around mortals, and many live on or near gas giants, where they can enjoy an environment akin to the Plane of Air.\nA few djinn nobles can cast wish on behalf of creatures who aren’t genies. However, tradition limits granting this gift only to the worthy.\nA typical djinni stands 10 feet tall and weighs 1,000 pounds.",
+  "type": "outsider (air, extraplanar)",
+  "category": "alien"
+}

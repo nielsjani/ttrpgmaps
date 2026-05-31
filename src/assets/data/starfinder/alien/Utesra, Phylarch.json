@@ -1,0 +1,54 @@
+{
+  "name": "Utesra, Phylarch",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Phylarch&Family=Utesra",
+  "source": "Alien Archive 4 pg. 130",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "vermin",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft.; darkvision 60 ft.;;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+10",
+  "resistances": "electricity 10 (20 vs. nonlethal electricity)",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +23 (4d6+19 P) or ovipositor +23 (3d8+11 P plus injection; see text) or shock tendril +21 (3d8+11 E nonlethal; critical staggered)",
+  "space": "10 ft.",
+  "reach": "10 ft. (40 ft. with shock tendril)",
+  "offensive_abilities": "strobe",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "—",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Stealth +20",
+  "environment": "any hill, mountain, or urban",
+  "organization": "solitary, pair, or scintillation (1 phylarch plus 2–6 utesras)",
+  "special_abilities": [
+    {
+      "name": "Injection (Ex)",
+      "description": "When an utesra phylarch hits a target with its ovipositor, it can attempt a second attack with a +23 bonus against the same target’s EAC as a move action. If it hits, it deals 3d8+11 acid damage and exposes the target to utesra incubation (see below) by injecting a cluster of eggs into the target. Once an utesra phylarch deals this acid damage, it can’t use its injection again for 2d6 hours."
+    },
+    {
+      "name": "Shock Tendril (Ex)",
+      "description": "An utesra can lash with its electrically charged dorsal stalk. This attack lets the utesra ensnare the target per the grab ability, though the attack result is compared to the target’s EAC to determine whether the creature is grappled or pinned. Anytime the utesra renews the grapple, it also deals the tendril’s damage and repositions the target 5 feet closer to the utesra, plus 5 more feet for every 5 by which the attack exceeds the target’s EAC + 4. If the target ends the forced movement within the utesra’s normal reach, it can bite the target as a move action. A creature can sever a shock tendril by dealing 20 points of slashing damage to it (the tendril has the same AC as the utesra). An utesra can regenerate a severed tendril over the course of a week."
+    },
+    {
+      "name": "Strobe (Ex)",
+      "description": "As a standard action, an utesra can flicker one or more of its dorsal stalks until the beginning of its next turn, creating subtle, calming electromagnetic vibrations. The utesra can maintain this strobing each round as a move action. Any creature other than an utesra within 60 feet of the utesra and able to see the display becomes fascinated (Will DC 18 negates) for as long as the utesra continues to strobe, though threatening actions can potentially break the effect as normal. A creature that succeeds at this saving throw is immune to the strobe of utesras (but not utesra phylarchs) for 24 hours. The utesra can’t concurrently use a stalk to create a shock tendril and to strobe.\nUtesra Incubation\nType\ndisease (injury);\nSave\nFortitude DC 18\nTrack\nphysical;\nFrequency\n1/day\nEffect\nNo latent state; if the infected creature dies, 1d4+3 juvenile utesras hatch and devour the corpse over the course of 1d4 days.\nCure\n2 consecutive saves"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUtesra\nSource\nAlien Archive 4 pg. 130\nUtesras evolved on the rain-ravaged planet of Gaskar III in Near Space. Often simply called “cliff anglers,” they are insectile predators adapted to clinging to wet escarpments and luring prey within reach using hypnotic light displays. A series of electrocyte-dense organs run along an utresa’s thorax, head, and hunting tendrils, allowing the creature to sense its surroundings with sonarlike pulses, create soft flashes of light and direct painful shocks. The haunting lights have spawned cautionary tales that mirror those of the will-o’-wisp, warning travelers against wandering toward the promise of lights spotted in the rain and fog.\nUtesras are obligate parasitoids, able to reproduce only by incubating their eggs in others’ flesh. The common utesra is merely a voracious larval form of the organism, and only after feeding consistently and molting repeatedly does the larva develop into an adult, referred to as an utesra phylarch. Phylarches incapacitate larger prey to lay their eggs in, typically abandoning the host in a relatively dry location until the eggs can hatch. In rare cases a phylarch even shadows its hosts for days, chasing off other predators like an ill-intentioned guardian.\nAlthough stealthy, utesras favor ambushes over patiently stalking victims. However, ongoing settlement of their longstanding habitat has led to an increase in aggressive and opportunistic behavior. In addition to utesras increasingly breaking into small houses on Gaskar III, several medical evacuations of utesras’ victims have accidentally spread the vermin beyond that planet. Most infamously, a crew of biological surveyors attempted to flee to Absalom Station after being attacked by a phylarch, but by the time the starship emerged from the Drift, juvenile utesras had hatched and overrun the ship, killing its crew. The ship later crashed into Akiton, and the surviving utesras have since spread along the planet’s Edaio Rift as an invasive species—especially in the cliff city of Maro, where they prey upon humanoids. The creatures’ affinity for cliffs has even resulted in their taking over old skyscrapers and other artificial structures to form deadly hunting platforms where their haunting lures blend in with other urban lights.\nAliens in the \"Utesra\" Family\nName\nCR\nPhylarch\n11\nUtesra\n5\nUtesra, Phylarch\nSource\nAlien Archive 4 pg. 130\nPhylarch CR 11\nXP 12,800\nN Large vermin\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft.; darkvision 60 ft.;;\nPerception\n+20\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+10; Resistances electricity 10 (20 vs. nonlethal electricity)\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +23 (4d6+19 P) or ovipositor +23 (3d8+11 P plus injection; see text) or shock tendril +21 (3d8+11 E nonlethal; critical staggered)\nSpace\n10 ft.;\nReach\n10 ft. (40 ft. with shock tendril)\nOffensive Abilities\nstrobe\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n—;\nWIS\n+1;\nCHA\n-1\nSkills\nStealth +20\nEcology\nEnvironment\nany hill, mountain, or urban\nOrganization\nsolitary, pair, or scintillation (1 phylarch plus 2–6 utesras)\nSpecial Abilities\nInjection (Ex)\nWhen an utesra phylarch hits a target with its ovipositor, it can attempt a second attack with a +23 bonus against the same target’s EAC as a move action. If it hits, it deals 3d8+11 acid damage and exposes the target to utesra incubation (see below) by injecting a cluster of eggs into the target. Once an utesra phylarch deals this acid damage, it can’t use its injection again for 2d6 hours.\nShock Tendril (Ex)\nAn utesra can lash with its electrically charged dorsal stalk. This attack lets the utesra ensnare the target per the grab ability, though the attack result is compared to the target’s EAC to determine whether the creature is grappled or pinned. Anytime the utesra renews the grapple, it also deals the tendril’s damage and repositions the target 5 feet closer to the utesra, plus 5 more feet for every 5 by which the attack exceeds the target’s EAC + 4. If the target ends the forced movement within the utesra’s normal reach, it can bite the target as a move action. A creature can sever a shock tendril by dealing 20 points of slashing damage to it (the tendril has the same AC as the utesra). An utesra can regenerate a severed tendril over the course of a week.\nStrobe (Ex)\nAs a standard action, an utesra can flicker one or more of its dorsal stalks until the beginning of its next turn, creating subtle, calming electromagnetic vibrations. The utesra can maintain this strobing each round as a move action. Any creature other than an utesra within 60 feet of the utesra and able to see the display becomes fascinated (Will DC 18 negates) for as long as the utesra continues to strobe, though threatening actions can potentially break the effect as normal. A creature that succeeds at this saving throw is immune to the strobe of utesras (but not utesra phylarchs) for 24 hours. The utesra can’t concurrently use a stalk to create a shock tendril and to strobe.\nUtesra Incubation\nType\ndisease (injury);\nSave\nFortitude DC 18\nTrack\nphysical;\nFrequency\n1/day\nEffect\nNo latent state; if the infected creature dies, 1d4+3 juvenile utesras hatch and devour the corpse over the course of 1d4 days.\nCure\n2 consecutive saves",
+  "type": "vermin",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Utesra_Phylarch.png"
+}

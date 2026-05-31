@@ -1,0 +1,56 @@
+{
+  "name": "The Swarm, Pyschovox",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pyschovox&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "220",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+14",
+  "ref": "+16",
+  "will": "+13",
+  "immunities": "acid, fear effects;",
+  "resistances": "electricity 10",
+  "speed": "50 ft., fly 20 ft. (clumsy)",
+  "melee": "bite +26 (6d4+20 P; critical stunned)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "synaptic shriek (12d6, DC 19)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+2",
+    "con": "+5",
+    "int": "-2",
+    "wis": "+4",
+    "cha": "-3"
+  },
+  "skills": "Athletics +22, Intimidate +27, Survival +22",
+  "languages": "Shirren (can’t speak any language); telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or relay (3–6)",
+  "special_abilities": [
+    {
+      "name": "Psychic Grumbling (Su)",
+      "description": "A psychovox emits a constant psychic rumble. Swarm creatures in this aura, including the psychovox, increase the range of their Swarm mind ability to 100 feet. Non-Swarm creatures with limited telepathy, telepathy, or similar abilities halve the range of these abilities and take a –2 penalty to saving throws against spells and effects with the emotion, fear, mind-affecting, or pain descriptor for as long as they remain in the aura."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures.) In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    },
+    {
+      "name": "Synaptic Shriek (Su)",
+      "description": "As a standard action, a psychovox can emit a shriek of psychic gibberish. Each non-Swarm creature within 30 feet of the psychovox takes an amount of damage equal to 1d6 × the psychovox’s CR (12d6 damage for most psychovoxes) and are confused for 1 round. A successful DC 19 Will saving throw halves the damage and negates the confusion effect. The psychic shriek draws power from the Swarm hive mind; if another Swarm creature is within 30 feet of a psychovox when it issues a synaptic shriek, the damage dice increases to d10s; however, the Swarm mind ability of all Swarm creatures in the area (other than the psychovox) is suppressed for the next minute. Once a psychovox has issued a synaptic shriek, it cannot do so again for 1d4 rounds. This is a mind-affecting effect."
+    }
+  ],
+  "description": "Resembling massive, four-legged cockroaches with black and green carapaces, psychovoxes are Swarm components designed to serve as psychic hive-mind relays. A psychovox is about 13 feet tall (and almost as wide) and weighs 8 tons.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Pyschovox\nSource\nStarfinder #24: The God-Host Ascends pg. 59\nPyschovox CR 12\nXP 19,200\nCE Huge monstrous humanoid\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+22\nAura\npsychic grumbling (100 ft.)\nDefense\nHP\n220\nEAC\n26;\nKAC\n28\nFort\n+14;\nRef\n+16;\nWill\n+13\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects;\nResistances\nelectricity 10\nOffense\nSpeed\n50 ft., fly 20 ft. (clumsy)\nMelee\nbite +26 (6d4+20 P; critical stunned)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nsynaptic shriek (12d6, DC 19)\nStatistics\nSTR\n+8;\nDEX\n+2;\nCON\n+5;\nINT\n-2;\nWIS\n+4;\nCHA\n-3\nSkills\nAthletics +22, Intimidate +27, Survival +22\nLanguages\nShirren (can’t speak any language); telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or relay (3–6)\nSpecial Abilities\nPsychic Grumbling (Su)\nA psychovox emits a constant psychic rumble. Swarm creatures in this aura, including the psychovox, increase the range of their Swarm mind ability to 100 feet. Non-Swarm creatures with limited telepathy, telepathy, or similar abilities halve the range of these abilities and take a –2 penalty to saving throws against spells and effects with the emotion, fear, mind-affecting, or pain descriptor for as long as they remain in the aura.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures.) In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nSynaptic Shriek (Su)\nAs a standard action, a psychovox can emit a shriek of psychic gibberish. Each non-Swarm creature within 30 feet of the psychovox takes an amount of damage equal to 1d6 × the psychovox’s CR (12d6 damage for most psychovoxes) and are confused for 1 round. A successful DC 19 Will saving throw halves the damage and negates the confusion effect. The psychic shriek draws power from the Swarm hive mind; if another Swarm creature is within 30 feet of a psychovox when it issues a synaptic shriek, the damage dice increases to d10s; however, the Swarm mind ability of all Swarm creatures in the area (other than the psychovox) is suppressed for the next minute. Once a psychovox has issued a synaptic shriek, it cannot do so again for 1d4 rounds. This is a mind-affecting effect.\nDescription\nResembling massive, four-legged cockroaches with black and green carapaces, psychovoxes are Swarm components designed to serve as psychic hive-mind relays. A psychovox is about 13 feet tall (and almost as wide) and weighs 8 tons.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Protean, Xiritix",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Xiritix&Family=Protean",
+  "source": "Alien Archive 4 pg. 86",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CN",
+  "size": "Large",
+  "creature_type": "outsider (chaotic, extraplanar, protean, shapechanger)",
+  "init": "+5",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+25",
+  "hp": "170",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+14",
+  "dr": "10/lawful",
+  "sr": "22",
+  "immunities": "acid, polymorph;",
+  "resistances": "electricity 10, sonic 10;",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "claw +20 (2d10+13 S) or tail +20 (3d4+13 B plus grab)",
+  "ranged": "anomaly ray +22 (2d8+11 A plus driftflash [DC 20])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "Constant—\ndisplacement"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+8"
+  },
+  "skills": "Acrobatics +20 (+28 to fly), Disguise +20, Mysticism +25, Physical Science +20, Stealth +25",
+  "languages": "Abyssal, Protean; telepathy 100 ft.",
+  "other_abilities": "change shape (Small, Medium, or Large animal, elemental, humanoid, magical beast, monstrous humanoid, ooze, plant, or vermin)",
+  "environment": "any (Drift or Maelstrom)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Anomaly Ray (Su)",
+      "description": "As a ranged attack, a xiritix can fire a ray of destabilizing energy with a range increment of 60 feet. This natural weapon has the automatic weapon special property (maximum 6 targets). Once the protean uses this ability, it can’t use its anomaly ray for 1d4 rounds."
+    },
+    {
+      "name": "Driftflash (Su)",
+      "description": "A creature struck by a xiritix’s anomaly ray must succeed at a DC 20 Fortitude saving throw or be affected by a random effect, as determined on the following table.\nD8\nEFFECT\n1\nThe target is assaulted by the terrible smell of a rancid pit of the Abyss and is sickened for 1d4 rounds.\n2\nThe target is enveloped by the cloying gloom of the Shadow Plane and is shaken for 1d4 rounds.\n3\nThe target hears the whispers of the damned in Hell and is off-target for 1d4 rounds.\n4\nThe target is distracted by the comforting serenity of Heaven and is flat-footed for 1d4 rounds.\n5\nThe target is snared by wild vines from the First World and is entangled for 1d4 rounds.\n6\nThe target is subjected to the blinding light of the Positive Energy Plane and is blinded for 1d4 rounds.\n7\nThe target witnesses a vision of death from the Boneyard and is staggered for 1d4 rounds.\n8\nThe target is surrounded by swirls of erratic colors from the Maelstrom and is confused for 1d4 rounds."
+    }
+  ],
+  "description": "Xiritixes are rare proteans created by a large section of the Maelstrom being pulled into the Drift, though some scholars believe they were once another species of proteans that mutated in the planar shift. These mercurial, serpentine beings view the rest of the multiverse as boring and stagnant; they seek to remedy this “problem” by inflicting the same planar-mixing chaos that birthed them on whomever they come across. Xiritixes usually maintain a facet of their original forms (such as a sinuous tail or colorful scales) when they change shape, making them easy to spot even in disguise.",
+  "extra_content": "The following extra content was found for this creature:\n-\nProtean (Summoning) Graft Template\n-\nProtean (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProtean\nSource\nAlien Archive 4 pg. 86\nAs embodiments of chaos, most proteans remain in the comforting unpredictability of the Maelstrom, where they happily create and destroy at their ever-changing whims. Durgastrs in particular are explorers—often inadvertently. They delight in examining alternate realities, particularly planes that present imperfect reflections of each other, such as how the Shadow Plane and Ethereal Plane mirror aspects of the Material Plane. Where they find inspiring inconsistencies, durgastrs endeavor to overlay and fuse the strange realities into a multifaceted whole, often disrupting living creatures, cityscapes, and even whole ecosystems in the process.\nAliens in the \"Protean\" Family\nName\nCR\nDurgastr\n16\nRifti\n1\nXiritix\n11\nProtean, Xiritix\nSource\nStarfinder #29: The Cradle Infestation pg. 60\nXiritix CR 11\nXP 12,800\nCN Large outsider (chaotic, extraplanar, protean, shapechanger)\nInit\n+5;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+25\nDefense\nHP\n170\nEAC\n24;\nKAC\n25\nFort\n+10;\nRef\n+12;\nWill\n+14\nDefensive Abilities\namorphous,\ndisplacement\n;\nDR\n10/lawful;\nImmunities\nacid, polymorph;\nResistances\nelectricity 10, sonic 10;\nSR\n22\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nclaw +20 (2d10+13 S) or tail +20 (3d4+13 B plus grab)\nRanged\nanomaly ray +22 (2d8+11 A plus driftflash [DC 20])\nSpace\n10 ft.;\nReach\n10 ft.\nSpell-Like Abilities\n(CL 11th)\nConstant—\ndisplacement\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n+8\nSkills\nAcrobatics +20 (+28 to fly), Disguise +20, Mysticism +25, Physical Science +20, Stealth +25\nLanguages\nAbyssal, Protean; telepathy 100 ft.\nOther Abilities\nchange shape (Small, Medium, or Large animal, elemental, humanoid, magical beast, monstrous humanoid, ooze, plant, or vermin)\nEcology\nEnvironment\nany (Drift or Maelstrom)\nOrganization\nsolitary\nSpecial Abilities\nAnomaly Ray (Su)\nAs a ranged attack, a xiritix can fire a ray of destabilizing energy with a range increment of 60 feet. This natural weapon has the automatic weapon special property (maximum 6 targets). Once the protean uses this ability, it can’t use its anomaly ray for 1d4 rounds.\nDriftflash (Su)\nA creature struck by a xiritix’s anomaly ray must succeed at a DC 20 Fortitude saving throw or be affected by a random effect, as determined on the following table.\nD8\nEFFECT\n1\nThe target is assaulted by the terrible smell of a rancid pit of the Abyss and is sickened for 1d4 rounds.\n2\nThe target is enveloped by the cloying gloom of the Shadow Plane and is shaken for 1d4 rounds.\n3\nThe target hears the whispers of the damned in Hell and is off-target for 1d4 rounds.\n4\nThe target is distracted by the comforting serenity of Heaven and is flat-footed for 1d4 rounds.\n5\nThe target is snared by wild vines from the First World and is entangled for 1d4 rounds.\n6\nThe target is subjected to the blinding light of the Positive Energy Plane and is blinded for 1d4 rounds.\n7\nThe target witnesses a vision of death from the Boneyard and is staggered for 1d4 rounds.\n8\nThe target is surrounded by swirls of erratic colors from the Maelstrom and is confused for 1d4 rounds.\nDescription\nXiritixes are rare proteans created by a large section of the Maelstrom being pulled into the Drift, though some scholars believe they were once another species of proteans that mutated in the planar shift. These mercurial, serpentine beings view the rest of the multiverse as boring and stagnant; they seek to remedy this “problem” by inflicting the same planar-mixing chaos that birthed them on whomever they come across. Xiritixes usually maintain a facet of their original forms (such as a sinuous tail or colorful scales) when they change shape, making them easy to spot even in disguise.\nExtra Content\nThe following extra content was found for this creature:\n-\nProtean (Summoning) Graft Template\n-\nProtean (Creature Subtype) Graft Template",
+  "type": "outsider (chaotic, extraplanar, protean, shapechanger)",
+  "category": "alien"
+}

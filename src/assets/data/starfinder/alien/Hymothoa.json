@@ -1,0 +1,50 @@
+{
+  "name": "Hymothoa",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hymothoa&Family=None",
+  "source": "Drift Crisis pg. 154",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "ooze (aquatic)",
+  "init": "+3",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+22",
+  "hp": "130",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+10",
+  "ref": "+6",
+  "will": "+10",
+  "immunities": "ooze immunities",
+  "speed": "30 ft., climb 20 ft., swim 40 ft.",
+  "melee": "pseudopod +19 (3d4+9 B) or attach +19",
+  "offensive_abilities": "infest, traumatize organs",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+4",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+6"
+  },
+  "skills": "Bluff +22, Disguise +22, Sense Motive +17, Stealth +17",
+  "languages": "Common, Pahtra, Vesk",
+  "other_abilities": "amphibious",
+  "environment": "any (Vesk-6)",
+  "organization": "solitary, pair, or nest (3–6)",
+  "special_abilities": [
+    {
+      "name": "Infest (Ex)",
+      "description": "A hymothoa can infest a helpless target no more than one size category larger or smaller than it by taking 10 minutes to slide into the target’s body, devouring organs and replacing them with its own body. While infesting a creature, a hymothoa has total cover and takes no actions. However, it controls the infested creature’s (host’s) actions, including using equipment and weapons (using the hymothoa’s attack bonus), using the hymothoa’s or host’s saving throw bonuses (whichever is higher), using the host’s extraordinary abilities (but not its supernatural or spell-like abilities), and using the hymothoa’s or host’s natural attacks. A hymothoa isn’t affected by any damage dealt to its host. When a hymothoa abandons its host, the host typically dies of organ damage instantly, though if they succeed at a DC 23 Fortitude save, they can stay alive for 1d4 minutes, during which time another character can attempt to stabilize them with a DC 28 Medicine check. A lengthy stay in a hospital is then necessary to replace any lost organs."
+    },
+    {
+      "name": "Traumatize Organs (Ex)",
+      "description": "As a standard action while attached to or grappling a creature, the hymothoa can send thin pseudopods into the creature’s mouth, nose, or open wounds to inflict terrible trauma on the creature’s innards. The target takes 4d6+12 B damage and 1d8 bleed damage; a successful DC 18 Fortitude save halves the damage and negates the bleed damage."
+    }
+  ],
+  "description": "Pahtras are the most prominent of Vesk-6’s (Near Space 50) native species, but they aren’t the only intelligent creature that calls the planet home. Hymothoas are a species of sapient, parasitic oozes that dwell in the deepest and most remote swamps of Vesk-6. They’re infamous for their ability to infest their prey; a hymothoa can seep into its victim’s body and devour internal organs, bones, and even parts of the brain. The hymothoa then uses its extremely malleable body to mimic the function of those organs, essentially turning their victim into a barely living puppet. When the hymothoa abandons its host, the host almost always dies of massive organ damage on the spot. While countless stories exist of hymothoa-infested impostors lurking among the residents of a settlement, enacting nefarious schemes, in truth, little is known about why hymothoas infests certain creatures.\nThough sapient, hymothoas have shown little interest in communicating with other species, and little is known of their society. It seems that to hymothoas, other sapient species aren’t beings worthy of even the most minimum levels of interaction, and they have no qualms about infesting or consuming other intelligent life to further their mysterious goals.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHymothoa\nSource\nDrift Crisis pg. 154\nHymothoa CR 9\nXP 6,400\nNE Medium ooze (aquatic)\nInit\n+3;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+22\nDefense\nHP\n130\nEAC\n22;\nKAC\n23\nFort\n+10;\nRef\n+6;\nWill\n+10\nImmunities\nooze immunities\nOffense\nSpeed\n30 ft., climb 20 ft., swim 40 ft.\nMelee\npseudopod +19 (3d4+9 B) or attach +19\nOffensive Abilities\ninfest, traumatize organs\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+4;\nINT\n+2;\nWIS\n+1;\nCHA\n+6\nSkills\nBluff +22, Disguise +22, Sense Motive +17, Stealth +17\nLanguages\nCommon, Pahtra, Vesk\nOther Abilities\namphibious\nEcology\nEnvironment\nany (Vesk-6)\nOrganization\nsolitary, pair, or nest (3–6)\nSpecial Abilities\nInfest (Ex)\nA hymothoa can infest a helpless target no more than one size category larger or smaller than it by taking 10 minutes to slide into the target’s body, devouring organs and replacing them with its own body. While infesting a creature, a hymothoa has total cover and takes no actions. However, it controls the infested creature’s (host’s) actions, including using equipment and weapons (using the hymothoa’s attack bonus), using the hymothoa’s or host’s saving throw bonuses (whichever is higher), using the host’s extraordinary abilities (but not its supernatural or spell-like abilities), and using the hymothoa’s or host’s natural attacks. A hymothoa isn’t affected by any damage dealt to its host. When a hymothoa abandons its host, the host typically dies of organ damage instantly, though if they succeed at a DC 23 Fortitude save, they can stay alive for 1d4 minutes, during which time another character can attempt to stabilize them with a DC 28 Medicine check. A lengthy stay in a hospital is then necessary to replace any lost organs.\nTraumatize Organs (Ex)\nAs a standard action while attached to or grappling a creature, the hymothoa can send thin pseudopods into the creature’s mouth, nose, or open wounds to inflict terrible trauma on the creature’s innards. The target takes 4d6+12 B damage and 1d8 bleed damage; a successful DC 18 Fortitude save halves the damage and negates the bleed damage.\nDescription\nPahtras are the most prominent of Vesk-6’s (Near Space 50) native species, but they aren’t the only intelligent creature that calls the planet home. Hymothoas are a species of sapient, parasitic oozes that dwell in the deepest and most remote swamps of Vesk-6. They’re infamous for their ability to infest their prey; a hymothoa can seep into its victim’s body and devour internal organs, bones, and even parts of the brain. The hymothoa then uses its extremely malleable body to mimic the function of those organs, essentially turning their victim into a barely living puppet. When the hymothoa abandons its host, the host almost always dies of massive organ damage on the spot. While countless stories exist of hymothoa-infested impostors lurking among the residents of a settlement, enacting nefarious schemes, in truth, little is known about why hymothoas infests certain creatures.\nThough sapient, hymothoas have shown little interest in communicating with other species, and little is known of their society. It seems that to hymothoas, other sapient species aren’t beings worthy of even the most minimum levels of interaction, and they have no qualms about infesting or consuming other intelligent life to further their mysterious goals.",
+  "type": "ooze (aquatic)",
+  "category": "alien"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "The Swarm, Dredger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dredger&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+2",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft., burrow 20 ft.",
+  "melee": "attach +7 or claw +7 (1d6+3)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +9, Athletics +4, Stealth +4",
+  "languages": "Shirren (can’t speak); telepathy 100 ft.",
+  "environment": "any",
+  "organization": "pair or pack (3–12)",
+  "special_abilities": [
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Among the more insectile Swarm components, these creatures each have a swept-back, segmented carapace and a set of three mandibles covered in hooked barbs. A Swarm dredger uses these barbs to firmly attach itself to its foe and then cuts into the prey’s flesh with one of its claws. It can also use these claws to burrow through clay, dirt, or mud. Though a Swarm dredger’s head is different from its Swarm brethren, it does have segmented visual organs at the base of its “neck” protected by ridges in its carapace. It can see in the dark with these eyes and it bristles with hundreds of tiny, nearly invisible setae that sense vibrations in the nearby air.\nThe Swarm uses dredgers like mobile tools, digging trenches to divert rivers and streams, creating shafts to important resources collected by other Swarm, and burrowing behind enemy lines to cause chaos for larger Swarm components to take advantage of. Swarm dredgers never act alone, and a large enough pack of them can quickly alter the terrain of a battlefield, forming furrows and dugouts to hinder anyone attempting to use land-based vehicles against the Swarm.\nA typical Swarm dredger is approximately 3 feet long and has a black, red, and orange carapace.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Dredger\nSource\nStarfinder #19: Fate of the Fifth pg. 59\nDredger CR 1/2\nXP 200\nCE Small monstrous humanoid\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+4\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+2;\nRef\n+4;\nWill\n+2\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft., burrow 20 ft.\nMelee\nattach +7 or claw +7 (1d6+3)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+1;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +9, Athletics +4, Stealth +4\nLanguages\nShirren (can’t speak); telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\npair or pack (3–12)\nSpecial Abilities\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nAmong the more insectile Swarm components, these creatures each have a swept-back, segmented carapace and a set of three mandibles covered in hooked barbs. A Swarm dredger uses these barbs to firmly attach itself to its foe and then cuts into the prey’s flesh with one of its claws. It can also use these claws to burrow through clay, dirt, or mud. Though a Swarm dredger’s head is different from its Swarm brethren, it does have segmented visual organs at the base of its “neck” protected by ridges in its carapace. It can see in the dark with these eyes and it bristles with hundreds of tiny, nearly invisible setae that sense vibrations in the nearby air.\nThe Swarm uses dredgers like mobile tools, digging trenches to divert rivers and streams, creating shafts to important resources collected by other Swarm, and burrowing behind enemy lines to cause chaos for larger Swarm components to take advantage of. Swarm dredgers never act alone, and a large enough pack of them can quickly alter the terrain of a battlefield, forming furrows and dugouts to hinder anyone attempting to use land-based vehicles against the Swarm.\nA typical Swarm dredger is approximately 3 feet long and has a black, red, and orange carapace.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

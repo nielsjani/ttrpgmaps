@@ -1,0 +1,57 @@
+{
+  "name": "Mindshroud Ray",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mindshroud Ray&Family=Mindshroud Ray",
+  "source": "The Liberation of Locus-1 pg. 61",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsight (thought) 60 ft., darkvision 60 ft., shroud sense;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+3",
+  "speed": "20 ft., fly 40 ft. (Su, average); spider climb",
+  "melee": "claws +10 (1d6+4 P plus attach; critical staggered)",
+  "offensive_abilities": "ego crush, ego meld",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +7, Stealth +12",
+  "other_abilities": "compression",
+  "environment": "any (Locus system)",
+  "organization": "solitary, pair, or clutch (3–18)",
+  "special_abilities": [
+    {
+      "name": "Attached Pain (Su)",
+      "description": "When a mindshroud ray attached to another creature takes damage, it can use its reaction to force the attached creature to attempt a DC 13 Will saving throw. If the target fails, the ray reduces the damage it takes by up to 2, transferring that damage to the attached creature. This is a mind-affecting pain effect."
+    },
+    {
+      "name": "Ego Crush (Su)",
+      "description": "As a standard action, a ray deals 2d6 nonlethal damage to a visible target within 30 feet. The target also takes a –1 penalty to Intelligence-, Wisdom-, and Charisma-based checks; spell save DCs; and Will saving throws for 1 round (DC 13 Will negates). Targets the ray touches have a –2 penalty to this saving throw; the ray can touch an unwilling target by succeeding at a melee attack against the target’s EAC. A target that fails this saving throw by 5 or more is also staggered for 1 round."
+    },
+    {
+      "name": "Ego Meld (Su)",
+      "description": "As a full action when a mindshroud ray starts its turn attached to an unconscious but living aberration, animal, dragon, humanoid, magical beast, monstrous humanoid, or outsider with the native subtype, a mindshroud ray can attach to a part of the body where the target’s brain is located (usually the head). This process takes 1 minute and deals 5 piercing damage. The target and the mindshroud ray become one creature who gains the shrouded template graft and recovers from all nonlethal damage. A melded mindshroud ray can’t willingly leave the target and dies if the target does. Another creature can remove the melded mindshroud ray with 4 hours of surgery, which requires a medical lab and a successful DC 35 Medicine check."
+    },
+    {
+      "name": "Shroud Sense (Su)",
+      "description": "A mindshroud ray’s blindsight automatically detects shrouded creatures."
+    }
+  ],
+  "description": "Mindshroud rays are cruel predators in search of hosts.",
+  "extra_content": "The following extra content was found for this creature:\n-\nShrouded (Mindshroud Ray) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMindshroud Ray\nAliens in the \"Mindshroud Ray\" Family\nName\nCR\nMindshroud Ray\n2\nMindshroud Ray\nSource\nThe Liberation of Locus-1 pg. 61\nMindshroud Ray CR 2\nXP 600\nNE Small aberration\nInit\n+3;\nSenses\nblindsight (thought) 60 ft., darkvision 60 ft., shroud sense;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+4;\nRef\n+4;\nWill\n+3\nDefensive Abilities\nattached pain\nOffense\nSpeed\n20 ft., fly 40 ft. (Su, average); spider climb\nMelee\nclaws +10 (1d6+4 P plus attach; critical staggered)\nOffensive Abilities\nego crush, ego meld\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n-3;\nWIS\n+0;\nCHA\n+1\nSkills\nAcrobatics +7, Stealth +12\nOther Abilities\ncompression\nEcology\nEnvironment\nany (Locus system)\nOrganization\nsolitary, pair, or clutch (3–18)\nSpecial Abilities\nAttached Pain (Su)\nWhen a mindshroud ray attached to another creature takes damage, it can use its reaction to force the attached creature to attempt a DC 13 Will saving throw. If the target fails, the ray reduces the damage it takes by up to 2, transferring that damage to the attached creature. This is a mind-affecting pain effect.\nEgo Crush (Su)\nAs a standard action, a ray deals 2d6 nonlethal damage to a visible target within 30 feet. The target also takes a –1 penalty to Intelligence-, Wisdom-, and Charisma-based checks; spell save DCs; and Will saving throws for 1 round (DC 13 Will negates). Targets the ray touches have a –2 penalty to this saving throw; the ray can touch an unwilling target by succeeding at a melee attack against the target’s EAC. A target that fails this saving throw by 5 or more is also staggered for 1 round.\nEgo Meld (Su)\nAs a full action when a mindshroud ray starts its turn attached to an unconscious but living aberration, animal, dragon, humanoid, magical beast, monstrous humanoid, or outsider with the native subtype, a mindshroud ray can attach to a part of the body where the target’s brain is located (usually the head). This process takes 1 minute and deals 5 piercing damage. The target and the mindshroud ray become one creature who gains the shrouded template graft and recovers from all nonlethal damage. A melded mindshroud ray can’t willingly leave the target and dies if the target does. Another creature can remove the melded mindshroud ray with 4 hours of surgery, which requires a medical lab and a successful DC 35 Medicine check.\nShroud Sense (Su)\nA mindshroud ray’s blindsight automatically detects shrouded creatures.\nDescription\nMindshroud rays are cruel predators in search of hosts.\nExtra Content\nThe following extra content was found for this creature:\n-\nShrouded (Mindshroud Ray) Graft Template",
+  "type": "aberration",
+  "category": "alien"
+}

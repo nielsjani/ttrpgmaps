@@ -1,0 +1,46 @@
+{
+  "name": "Tyrants, Singularity Accelerationist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Singularity Accelerationist&Family=Tyrants",
+  "source": "Interstellar Species pg. 186",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+15",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+8",
+  "immunities": "construct immunities",
+  "speed": "20 ft.",
+  "melee": "fangblade +16 (1d12+11 S; critical bleed 1d8)",
+  "ranged": "corona artillery laser +14 (2d8+7 F; critical burn 1d6)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Computers +19 (+20 if accessing computer from high- density datajack), Engineering +19, Intimidate +14, Physical Science +19, Piloting +14",
+  "languages": "Common, up to 5 others",
+  "other_abilities": "healing circuit , integrated equipment  (personal comm unit, retinal reflectors, standard datajack), optimize for destruction, robotic",
+  "gear": "vesk overplate I, corona artillery laser with two high- capacity batteries (40 charges each), fangblade with two batteries (20 charges each), personal comm unit, tool kit (engineering);",
+  "special_abilities": [
+    {
+      "name": "Optimize For Destruction (Ex)",
+      "description": "The singularity accelerationist can optimize a construct with the technological subtype whose CR doesn’t exceed their own, granting the creature the brute adjustment special ability. This process takes 8 hours of work."
+    }
+  ],
+  "description": "As dangerous provocateurs pounding the drum of self- preservation, singularity accelerationists amass like-minded machines to realize an inevitable goal: the complete removal of chaotic organic life who would ruin artificial intelligence’s inevitable domination of the known universe.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTyrants\nSource\nInterstellar Species pg. 186\nThose who amass extraordinary wealth, power, and influence often use them to perpetuate their advantages, typically through violent or coercive means. Tyrants might maintain their rule through subterfuge and surveillance or through age-old and expedient threats and brute force. What unifies tyrants across philosophical and ideological divides is the willingness and ruthlessness to pursue extraordinarily ends to justify their means, often at a terrible cost to those who dare oppose them.\nAliens in the \"Tyrants\" Family\nName\nCR\nColveare Hierarch\n14\nFortunate Warlord\n11\nSingularity Accelerationist\n7\nUnderworld Mastermind\n19\nTyrants, Singularity Accelerationist\nSource\nInterstellar Species pg. 186\nSingularity Accelerationist CR 7\nXP 3,200\nSRO\nLE Medium construct (technological)\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+15\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+4;\nRef\n+4;\nWill\n+8\nImmunities\nconstruct immunities\nOffense\nSpeed\n20 ft.\nMelee\nfangblade +16 (1d12+11 S; critical bleed 1d8)\nRanged\ncorona artillery laser +14 (2d8+7 F; critical burn 1d6)\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+0;\nINT\n+5;\nWIS\n+2;\nCHA\n+0\nSkills\nComputers +19 (+20 if accessing computer from high- density datajack), Engineering +19, Intimidate +14, Physical Science +19, Piloting +14\nLanguages\nCommon, up to 5 others\nOther Abilities\nhealing circuit , integrated equipment  (personal comm unit, retinal reflectors, standard datajack), optimize for destruction, robotic\nGear\nvesk overplate I, corona artillery laser with two high- capacity batteries (40 charges each), fangblade with two batteries (20 charges each), personal comm unit, tool kit (engineering);\nAugmentations\nhigh-density datajack, retinal reflectors\nSpecial Abilities\nOptimize For Destruction (Ex)\nThe singularity accelerationist can optimize a construct with the technological subtype whose CR doesn’t exceed their own, granting the creature the brute adjustment special ability. This process takes 8 hours of work.\nDescription\nAs dangerous provocateurs pounding the drum of self- preservation, singularity accelerationists amass like-minded machines to realize an inevitable goal: the complete removal of chaotic organic life who would ruin artificial intelligence’s inevitable domination of the known universe.",
+  "type": "construct (technological)",
+  "environment": "—",
+  "category": "alien"
+}

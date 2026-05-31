@@ -1,0 +1,37 @@
+{
+  "name": "Calaphidion",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Calaphidion&Family=Starship",
+  "source": "Starfinder #35: Merchants of the Void pg. 57",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "starship animal",
+  "senses": "Condition applies to all science officer actions",
+  "hp": "35",
+  "speed": "10;",
+  "other_abilities": "herd attack, living starship, void adaptation",
+  "environment": "any vacuum",
+  "organization": "solitary, herd (2–20), or infestation (21–60)",
+  "special_abilities": [
+    {
+      "name": "Expel Chaff (Ex)",
+      "description": "A calaphidion can expel chaff from its carapace in an attack that flies up to 5 hexes. This weapon has the point (+10) special property."
+    },
+    {
+      "name": "Gore (Ex)",
+      "description": "A calaphidion has a pair of hard, chitinous horns extending from the sides of its head, and it can use them in combat. It can make a horn attack only against a target that’s in an adjacent hex. This attack has the broad arc special property."
+    },
+    {
+      "name": "Herd Attack (Ex)",
+      "description": "Calaphidions are herd animals with strong instincts for group survival. A calaphidion gains a +1 circumstance bonus to gunnery checks whenever at least one other calaphidion is within 2 hexes."
+    },
+    {
+      "name": "Living Starship (Ex)",
+      "description": "A calaphidion is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take gunner, pilot, and science officer actions using the skill bonuses, ranks, and level listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the table below when the calaphidion takes critical damage. A calaphidion’s heart can’t gain the wrecked condition.\nD%\nSystem\nEffect\n1–30\nCirculatory system\nCondition applies to all gunner actions\n31–60\nNervous system\nCondition applies to all pilot actions\n61–90\nSenses\nCondition applies to all science officer actions\n91–100\nHeart\nCondition applies to all actions"
+    }
+  ],
+  "description": "Calaphidions thrive in the mostly empty space between planets. Photosynthetic cells cover the bulbous bodies of these livestock creatures, collecting solar energy even from far-distant suns that then combines with their diet of dust and ice to sustain them indefinitely. They reproduce quickly, and despite their otherwise insectile anatomy, they give birth to live young, which can lead to widespread infestations in areas with particularly favorable conditions.\nCalaphidions typically spend the majority of their lives grazing on comets, icy asteroids, and planetary rings, most often ignoring and being ignored by other spacefaring creatures and vessels. The only creatures with any interest in calaphidions typically intend to eat them—either interstellar predators or those raising the creatures for the purpose of consuming them.\nThough calaphidions have no more intelligence than any other animals, they have strong herd instincts. Unless carefully placated, they attack any non-calaphidion creature or vessel that acts aggressively toward them. They fight as a group, working to surround and tear apart their prey. Calaphidion farmers welcome and cultivate this aggressively defensive behavior, as it helps to protect their herds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCalaphidion\nSource\nStarfinder #35: Merchants of the Void pg. 57\nCalaphidion Tier 1\nN Small starship animal\nSpeed\n10;\nManeuverability\nperfect (turn 0);\nDrift\n—\nAC\n16;\nTL\n16\nHP\n35;\nDT\n—;\nCT\n7\nShields\nbasic 30 (forward 8, port 7, starboard 7, aft 8)\nAttack (Forward)\ngore (2d8; 1 hex)\nAttack (Turret)\nexpel chaff (3d4; 5 hexes)\nPower Core\ncalaphidion heart (90 PCU);\nDrift Engine\nnone;\nSystems\nbasic computer, basic medium-range sensors, mk 4 armor, mk 4 defenses;\nExpansion Bays\nnone\nOther Abilities\nherd attack, living starship, void adaptation\nCrew\nCaptain (1 action)\ngunnery +5 (1st level)\nPilot (1 action)\nPiloting +9 (1 rank)\nScience Officer (1 action)\nComputers +7 (1 rank)\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary, herd (2–20), or infestation (21–60)\nSpecial Abilities\nExpel Chaff (Ex)\nA calaphidion can expel chaff from its carapace in an attack that flies up to 5 hexes. This weapon has the point (+10) special property.\nGore (Ex)\nA calaphidion has a pair of hard, chitinous horns extending from the sides of its head, and it can use them in combat. It can make a horn attack only against a target that’s in an adjacent hex. This attack has the broad arc special property.\nHerd Attack (Ex)\nCalaphidions are herd animals with strong instincts for group survival. A calaphidion gains a +1 circumstance bonus to gunnery checks whenever at least one other calaphidion is within 2 hexes.\nLiving Starship (Ex)\nA calaphidion is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take gunner, pilot, and science officer actions using the skill bonuses, ranks, and level listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the table below when the calaphidion takes critical damage. A calaphidion’s heart can’t gain the wrecked condition.\nD%\nSystem\nEffect\n1–30\nCirculatory system\nCondition applies to all gunner actions\n31–60\nNervous system\nCondition applies to all pilot actions\n61–90\nSenses\nCondition applies to all science officer actions\n91–100\nHeart\nCondition applies to all actions\nDescription\nCalaphidions thrive in the mostly empty space between planets. Photosynthetic cells cover the bulbous bodies of these livestock creatures, collecting solar energy even from far-distant suns that then combines with their diet of dust and ice to sustain them indefinitely. They reproduce quickly, and despite their otherwise insectile anatomy, they give birth to live young, which can lead to widespread infestations in areas with particularly favorable conditions.\nCalaphidions typically spend the majority of their lives grazing on comets, icy asteroids, and planetary rings, most often ignoring and being ignored by other spacefaring creatures and vessels. The only creatures with any interest in calaphidions typically intend to eat them—either interstellar predators or those raising the creatures for the purpose of consuming them.\nThough calaphidions have no more intelligence than any other animals, they have strong herd instincts. Unless carefully placated, they attack any non-calaphidion creature or vessel that acts aggressively toward them. They fight as a group, working to surround and tear apart their prey. Calaphidion farmers welcome and cultivate this aggressively defensive behavior, as it helps to protect their herds.",
+  "cr": "1",
+  "type": "starship animal",
+  "category": "starship"
+}

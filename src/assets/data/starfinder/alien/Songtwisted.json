@@ -1,0 +1,57 @@
+{
+  "name": "Songtwisted",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Songtwisted&Family=None",
+  "source": "Starfinder #21: Huskworld pg. 55",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "humanoid (shirren)",
+  "init": "+3",
+  "senses": "blindsense (life or vibration) 30 ft.;",
+  "perception": "+11",
+  "hp": "60",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+6",
+  "dr": "5/good and piercing",
+  "speed": "30 ft., climb 30 ft., spider climb",
+  "melee": "bite +10 (1d4+7 P)",
+  "ranged": "frostbite-class zero pistol +12 (1d6+5 C; critical staggered [DC 15])",
+  "offensive_abilities": "overload (DC 15), target tracking",
+  "spell_like_abilities": {
+    "caster_info": "CL 5th",
+    "spells": "1/day—\nmind thrust\n(2nd level; DC 15)"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+5",
+    "wis": "-1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +11 (+17 to escape), Bluff +16, Computers +16, Disguise +11, Engineering +16",
+  "languages": "Common, Infernal, Shirren; limited telepathy 30 ft., song share 100 ft.",
+  "other_abilities": "artificial intelligence (exocortex), backward limbs, communalism, custom rig (armor upgrade), mechanic tricks (neural shunt, overload weapon) remote hack (DC 15)",
+  "gear": "d-suit I (custom rig), frostbite-class zero pistol with 2 batteries (20 charges each)",
+  "environment": "Vharrine",
+  "organization": "solitary or incursion (2–7)",
+  "special_abilities": [
+    {
+      "name": "Backward Limbs (Su)",
+      "description": "A songtwisted is able to bend its body in unusual ways, gaining a +6 racial bonus to Acrobatics checks to escape. However, any time a songtwisted isn’t focusing on their movement, their limbs twist in unnatural arrangements on their own. Another creature can notice the effort required to keep the twisting in check with a successful Sense Motive check (DC = 10 + the songtwisted’s Bluff modifier)."
+    },
+    {
+      "name": "Song Share (Su)",
+      "description": "A songtwisted can communicate to other songtwisted within 100 feet as if both have telepathy."
+    }
+  ],
+  "description": "Vharrine is a planet with an internal signal, and those near it might start to hear that signal not only through monitoring devices, but also in their thoughts and dreams. The song has caused some to reconsider what might be possible without the limits of conventional morality. While heeding this dark muse, such listeners develop new magical abilities and learn how to reshape themselves. These \"songtwisted\" beings work together to spread Vharrine’s song throughout the galaxy.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSongtwisted (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSongtwisted\nSource\nStarfinder #21: Huskworld pg. 55\nSongtwisted CR 5\nXP 1,600\nSongtwisted host shirren mechanic\nLE Medium humanoid (shirren)\nInit\n+3;\nSenses\nblindsense (life or vibration) 30 ft.;\nPerception\n+11\nDefense\nHP\n60\nEAC\n17;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+6\nDR\n5/good and piercing\nOffense\nSpeed\n30 ft., climb 30 ft., spider climb\nMelee\nbite +10 (1d4+7 P)\nRanged\nfrostbite-class zero pistol +12 (1d6+5 C; critical staggered [DC 15])\nOffensive Abilities\noverload (DC 15), target tracking\nSpell-Like Abilities\n(CL 5th)\n1/day—\nmind thrust\n(2nd level; DC 15)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n+5;\nWIS\n-1;\nCHA\n+0\nSkills\nAcrobatics +11 (+17 to escape), Bluff +16, Computers +16, Disguise +11, Engineering +16\nLanguages\nCommon, Infernal, Shirren; limited telepathy 30 ft., song share 100 ft.\nOther Abilities\nartificial intelligence (exocortex), backward limbs, communalism, custom rig (armor upgrade), mechanic tricks (neural shunt, overload weapon) remote hack (DC 15)\nGear\nd-suit I (custom rig), frostbite-class zero pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nVharrine\nOrganization\nsolitary or incursion (2–7)\nSpecial Abilities\nBackward Limbs (Su)\nA songtwisted is able to bend its body in unusual ways, gaining a +6 racial bonus to Acrobatics checks to escape. However, any time a songtwisted isn’t focusing on their movement, their limbs twist in unnatural arrangements on their own. Another creature can notice the effort required to keep the twisting in check with a successful Sense Motive check (DC = 10 + the songtwisted’s Bluff modifier).\nSong Share (Su)\nA songtwisted can communicate to other songtwisted within 100 feet as if both have telepathy.\nDescription\nVharrine is a planet with an internal signal, and those near it might start to hear that signal not only through monitoring devices, but also in their thoughts and dreams. The song has caused some to reconsider what might be possible without the limits of conventional morality. While heeding this dark muse, such listeners develop new magical abilities and learn how to reshape themselves. These \"songtwisted\" beings work together to spread Vharrine’s song throughout the galaxy.\nExtra Content\nThe following extra content was found for this creature:\n-\nSongtwisted (Other) Graft Template",
+  "type": "humanoid (shirren)",
+  "category": "alien"
+}

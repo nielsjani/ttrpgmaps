@@ -1,0 +1,53 @@
+{
+  "name": "Tattoo Guardian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tattoo Guardian&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 58",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+25",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+8",
+  "immunities": "construct immunities",
+  "speed": "30 ft., fly 30 ft. (Su, average)",
+  "melee": "slam +24 (4d6+19 B)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "—",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +20, Athletics +20, Stealth +20",
+  "languages": "Common, one other language determined by its creator (can’t speak any language)",
+  "other_abilities": "alternate forms, bonded guardian, compression",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Alternate Forms (Ex)",
+      "description": "A tattoo guardian has two forms: active and passive. As a move action, the wearer of a tattoo guardian can alternate between these forms. In either form, a tattoo guardian can be repaired with spells and effects that repair constructs or objects.\nActive Form:\nWhile active, a tattoo guardian becomes a physical creature made entirely of ink, compelled to protect its wearer. It gains the ink interception ability. If a tattoo guardian is ever more than 100 feet from its wearer, it immediately reverts to passive form. A tattoo guardian that is reduced to 0 Hit Points explodes in a 5-ft. radius burst of slippery ink, immediately reverts to passive form, regains 1 Hit Point, and can’t reenter active form for 24 hours. Enemies in the area of the ink explosion must attempt a DC 18 Reflex save or fall prone and become blinded for 1 round.\nPassive Form:\nWhile passive, a tattoo guardian resides on its wearer’s body as a tattoo. It functions as a magic item that cannot be disarmed or sundered. Attempts to identify a tattoo guardian in passive form have a –10 circumstance penalty. While the guardian is in passive form, its wearer gains a +1 circumstance bonus to AC and Will saving throws. Additionally, a damaged tattoo guardian in passive form regains lost Hit Points at a rate of 5 per hour."
+    },
+    {
+      "name": "Bonded Guardian (Ex)",
+      "description": "A tattoo guardian shares a bond with a single sapient creature, who is referred to as its wearer. This bond cannot be removed or transferred. If a tattoo guardian’s wearer dies, the construct is destroyed."
+    },
+    {
+      "name": "Ink Interception (Su)",
+      "description": "As a reaction when its wearer is targeted by an attack or spell that would deal damage, an active tattoo guardian within 10 feet of its wearer can expel a wave of ink to intercept the blow. Damage that would be dealt to the wearer’s Hit Points by the triggering effect is instead split evenly between the wearer and the tattoo guardian; other effects of the attack or spell affect the wearer as normal."
+    }
+  ],
+  "description": "Magical tattoos capable of leaping off their wearer’s flesh and coming alive, tattoo guardians are unwavering warriors attuned to their wearer’s life force. First developed by tattoo artists eager only to improve their art, tattoo guardians were swiftly copied by less scrupulous individuals. As long as the wearer lives, a tattoo guardian can’t be stolen or permanently destroyed. Most tattoo guardians are created in the image of animals, celestials, dragons, fiends, magical beasts, or meaningful symbols, but they use the same statistics regardless of appearance.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTattoo Guardian\nSource\nStarfinder #39: The Gilded Cage pg. 58\nTattoo Guardian CR 11\nXP 12,800\nN Medium construct (magical)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+25\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+11;\nRef\n+11;\nWill\n+8\nDefensive Abilities\nink interception;\nImmunities\nconstruct immunities\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, average)\nMelee\nslam +24 (4d6+19 B)\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n—;\nINT\n+0;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +20, Athletics +20, Stealth +20\nLanguages\nCommon, one other language determined by its creator (can’t speak any language)\nOther Abilities\nalternate forms, bonded guardian, compression\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nAlternate Forms (Ex)\nA tattoo guardian has two forms: active and passive. As a move action, the wearer of a tattoo guardian can alternate between these forms. In either form, a tattoo guardian can be repaired with spells and effects that repair constructs or objects.\nActive Form:\nWhile active, a tattoo guardian becomes a physical creature made entirely of ink, compelled to protect its wearer. It gains the ink interception ability. If a tattoo guardian is ever more than 100 feet from its wearer, it immediately reverts to passive form. A tattoo guardian that is reduced to 0 Hit Points explodes in a 5-ft. radius burst of slippery ink, immediately reverts to passive form, regains 1 Hit Point, and can’t reenter active form for 24 hours. Enemies in the area of the ink explosion must attempt a DC 18 Reflex save or fall prone and become blinded for 1 round.\nPassive Form:\nWhile passive, a tattoo guardian resides on its wearer’s body as a tattoo. It functions as a magic item that cannot be disarmed or sundered. Attempts to identify a tattoo guardian in passive form have a –10 circumstance penalty. While the guardian is in passive form, its wearer gains a +1 circumstance bonus to AC and Will saving throws. Additionally, a damaged tattoo guardian in passive form regains lost Hit Points at a rate of 5 per hour.\nBonded Guardian (Ex)\nA tattoo guardian shares a bond with a single sapient creature, who is referred to as its wearer. This bond cannot be removed or transferred. If a tattoo guardian’s wearer dies, the construct is destroyed.\nInk Interception (Su)\nAs a reaction when its wearer is targeted by an attack or spell that would deal damage, an active tattoo guardian within 10 feet of its wearer can expel a wave of ink to intercept the blow. Damage that would be dealt to the wearer’s Hit Points by the triggering effect is instead split evenly between the wearer and the tattoo guardian; other effects of the attack or spell affect the wearer as normal.\nDescription\nMagical tattoos capable of leaping off their wearer’s flesh and coming alive, tattoo guardians are unwavering warriors attuned to their wearer’s life force. First developed by tattoo artists eager only to improve their art, tattoo guardians were swiftly copied by less scrupulous individuals. As long as the wearer lives, a tattoo guardian can’t be stolen or permanently destroyed. Most tattoo guardians are created in the image of animals, celestials, dragons, fiends, magical beasts, or meaningful symbols, but they use the same statistics regardless of appearance.",
+  "type": "construct (magical)",
+  "category": "alien"
+}

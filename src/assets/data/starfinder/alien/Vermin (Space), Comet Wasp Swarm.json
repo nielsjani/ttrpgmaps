@@ -1,0 +1,47 @@
+{
+  "name": "Vermin (Space), Comet Wasp Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Comet Wasp Swarm&Family=Vermin (Space)",
+  "source": "Alien Archive 2 pg. 132",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "N",
+  "size": "Diminutive",
+  "creature_type": "vermin (swarm)",
+  "init": "+8",
+  "senses": "blindsight (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+14",
+  "ref": "+16",
+  "will": "+11",
+  "immunities": "cold, swarm immunities",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "swarm attack (6d6 C & P plus chilling toxin)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 19), implant",
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+8",
+    "con": "+5",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +22 (+30 to fly)",
+  "other_abilities": "mindless",
+  "environment": "any vacuum",
+  "organization": "swarm, pair, or brood (3–6)",
+  "special_abilities": [
+    {
+      "name": "Implant (Ex)",
+      "description": "A comet wasp swarm can choose not to use its swarm attack on (and deal no damage to) a helpless or paralyzed living creature in its space. Instead of doing so, the swarm implants eggs in that creature, afflicting it with comet wasp gestation.\nChilling Toxin\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened— Staggered—Immobile; no end state\nCure\n1 save\nComet Wasp Gestation\nType\ndisease (injury);\nSave\nFortitude DC 19\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; the victim dies on the fifth day as a new comet wasp swarm cuts itself free\nCure\nsurgically extract eggs with a Medicine check (DC 19) that takes 1 hour and requires a medical lab; subject takes 1d4 Constitution damage on each attempt"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVermin (Space)\nSource\nAlien Archive 2 pg. 132\nEven the vacuum of space has bugs. Most of these void-dwelling vermin are harmless, but some are dangerous or predatory.\nAsteroid lice and planetoid beetles feed on minerals in the rock of their airless habitats. Asteroid lice are communal, but planetoid beetles are territorial, tolerating only one mate. These creatures and their eggs can float in space to a new home. However, careless quarrying and shipping have accelerated their spread through the galaxy.\nXenobiologists theorize many space vermin evolved in special circumstances. Necropedes were once centipede-like scavengers on Eox; they now have a bite that can digest undead flesh. A warpmoth is like a glowing blue-white speck attracted to moving light, such as other warpmoths or passing starships. Gathering in swarms and following ships helps the moths feed and mate. Comet wasps create nests in frozen interstellar bodies. These icy, venomous vespids lay their eggs in living creatures.\nAliens in the \"Vermin (Space)\" Family\nName\nCR\nAsteroid Louse\n1/2\nComet Wasp Swarm\n12\nNecropede\n3\nPlanetoid Beetle\n9\nWarpmoth Swarm\n6\nVermin (Space), Comet Wasp Swarm\nSource\nAlien Archive 2 pg. 133\nComet Wasp Swarm CR 12\nXP 19,200\nN Diminutive vermin (swarm)\nInit\n+8;\nSenses\nblindsight (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+14;\nRef\n+16;\nWill\n+11\nDefensive Abilities\nswarm defenses, void adaptation;\nImmunities\ncold, swarm immunities\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\nswarm attack (6d6 C & P plus chilling toxin)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 19), implant\nStatistics\nSTR\n-2;\nDEX\n+8;\nCON\n+5;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nAcrobatics +22 (+30 to fly)\nOther Abilities\nmindless\nEcology\nEnvironment\nany vacuum\nOrganization\nswarm, pair, or brood (3–6)\nSpecial Abilities\nImplant (Ex)\nA comet wasp swarm can choose not to use its swarm attack on (and deal no damage to) a helpless or paralyzed living creature in its space. Instead of doing so, the swarm implants eggs in that creature, afflicting it with comet wasp gestation.\nChilling Toxin\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened— Staggered—Immobile; no end state\nCure\n1 save\nComet Wasp Gestation\nType\ndisease (injury);\nSave\nFortitude DC 19\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; the victim dies on the fifth day as a new comet wasp swarm cuts itself free\nCure\nsurgically extract eggs with a Medicine check (DC 19) that takes 1 hour and requires a medical lab; subject takes 1d4 Constitution damage on each attempt",
+  "type": "vermin (swarm)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Vermin_Comet_Wasp.png"
+}

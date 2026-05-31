@@ -1,0 +1,50 @@
+{
+  "name": "Thieves, Mugger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mugger&Family=Thieves",
+  "source": "Interstellar Species pg. 185",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+7",
+  "speed": "40 ft.",
+  "melee": "yellow star solar brand +17 (1d8+11 E & F; critical wound) or horn  +17 (1d8+11 P)",
+  "ranged": "thunderstrike sonic rifle +14 (1d10+6 So; critical deafen)",
+  "offensive_abilities": "beatdown, gore , menace",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +13, Intimidate +18, Survival +13",
+  "languages": "Common, Orc",
+  "other_abilities": "maze mind",
+  "gear": "freebooter armor II, thunderstrike sonic rifle with 1 high-capacity battery (40 charges), yellow star solar brand with 2 high-capacity batteries (40 charges each)",
+  "special_abilities": [
+    {
+      "name": "Beatdown (Ex)",
+      "description": "As a standard action, a mugger can attempt a combat maneuver to trip a target. If this succeeds, the mugger also deals damage equal to one of their melee attacks."
+    },
+    {
+      "name": "Menace (Ex)",
+      "description": "As a standard action, the mugger can menace a target, who must succeed at a Will save (DC = 9 + the mugger’s CR) or be forced to follow the mugger’s orders as if affected by\ncommand\n. If the target succeeds at their Will save, they’re immune to that mugger’s menace ability for 24 hours."
+    }
+  ],
+  "description": "Like pickpockets, muggers are common in large cities, but they adopt a strategy of brute force rather than stealth. Most muggers are physically imposing, the better to intimidate their ictims into handing over valuables. They can be among the lower echelons of an organized gang or simply free agents. A mugger might prey on low-level PCs who wander down the wrong alleyway, or the PCs might witness a mugging and wish to help. Most muggers flee if their victims put up a fight, which could provide the opportunity for an exciting chase.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThieves\nSource\nInterstellar Species pg. 185\nThieves are common throughout the galaxy, though more numerous in larger cities and space stations. They have a variety of methods and motivations for snaring others’ property; some thieves strike back against an amoral corporate system that left them behind, while others selfishly prey on those with little power to defend their possessions. PCs can encounter thieves in numerous circumstances, whether as unsavory associates, crafty foes, or on-again-off-again allies and rivals.\nAliens in the \"Thieves\" Family\nName\nCR\nMugger\n6\nPhantom Thief\n15\nPickpocket\n1\nSafecracker\n10\nThieves, Mugger\nSource\nInterstellar Species pg. 185\nMugger CR 6\nXP 2,400\nNuar\nCE Medium monstrous humanoid\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+10;\nWill\n+7\nOffense\nSpeed\n40 ft.\nMelee\nyellow star solar brand +17 (1d8+11 E & F; critical wound) or horn  +17 (1d8+11 P)\nRanged\nthunderstrike sonic rifle +14 (1d10+6 So; critical deafen)\nOffensive Abilities\nbeatdown, gore , menace\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n+1;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +13, Intimidate +18, Survival +13\nLanguages\nCommon, Orc\nOther Abilities\nmaze mind\nGear\nfreebooter armor II, thunderstrike sonic rifle with 1 high-capacity battery (40 charges), yellow star solar brand with 2 high-capacity batteries (40 charges each)\nSpecial Abilities\nBeatdown (Ex)\nAs a standard action, a mugger can attempt a combat maneuver to trip a target. If this succeeds, the mugger also deals damage equal to one of their melee attacks.\nMenace (Ex)\nAs a standard action, the mugger can menace a target, who must succeed at a Will save (DC = 9 + the mugger’s CR) or be forced to follow the mugger’s orders as if affected by\ncommand\n. If the target succeeds at their Will save, they’re immune to that mugger’s menace ability for 24 hours.\nDescription\nLike pickpockets, muggers are common in large cities, but they adopt a strategy of brute force rather than stealth. Most muggers are physically imposing, the better to intimidate their ictims into handing over valuables. They can be among the lower echelons of an organized gang or simply free agents. A mugger might prey on low-level PCs who wander down the wrong alleyway, or the PCs might witness a mugging and wish to help. Most muggers flee if their victims put up a fight, which could provide the opportunity for an exciting chase.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

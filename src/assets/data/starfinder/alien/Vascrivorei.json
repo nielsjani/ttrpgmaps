@@ -1,0 +1,58 @@
+{
+  "name": "Vascrivorei",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vascrivorei&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 61",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Colossal",
+  "creature_type": "magical beast",
+  "init": "+8",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+20",
+  "hp": "175",
+  "eac": "25",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+15",
+  "will": "+10",
+  "dr": "5/magic",
+  "immunities": "cold, energy drain;",
+  "resistances": "electricity 10, fire 10",
+  "speed": "40 ft., burrow 30 ft.",
+  "melee": "bite +24 (4d6+17 P & C plus grab; critical nauseate) or necrotic spine +24 (4d6+18 C; critical nauseate)",
+  "space": "30 ft.",
+  "reach": "20 ft. (30 ft. with necrotic spines",
+  "offensive_abilities": "puncture vitality (DC 18), shatter vitality (DC 18)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+8",
+    "con": "+7",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +20, Athletics +25, Stealth +20",
+  "languages": "Aklo (can’t speak any language)",
+  "other_abilities": "compression, create darkness, negative energy affinity",
+  "environment": "any land",
+  "organization": "solitary, pair, fen (3–6)",
+  "special_abilities": [
+    {
+      "name": "Negative Energy Affinity (Su)",
+      "description": "For effects that target a creature based on type, a vascrivorei counts as both its normal type (a magical beast, in the case of a vascrivorei) or undead, whichever is worse."
+    },
+    {
+      "name": "Puncture Vitality (Su)",
+      "description": "The vascrivorei uses its spines or mandibles to project necrotic energy at a creature within 120 feet, dealing 3d8+11 cold damage and infusing it with entropic forces for 1 hour. A successful DC 18 Fortitude save halves the cold damage and negates the infusion. Infused creatures gain the effects of the vascrivorei’s negative energy affinity."
+    },
+    {
+      "name": "Shatter Vitality (Su)",
+      "description": "The vascrivorei wraps an infused creature within reach in its shadow spines, flooding the target with entropy. The creature must attempt a DC 18 Fortitude save. On a failure, it is paralyzed for 1 round and exhausted. On a success, it’s nauseated for 1 round and fatigued. Regardless of the save result, the creature is then immune to the vascrivorei’s shatter vitality for 24 hours."
+    }
+  ],
+  "description": "Vascrivoreis are serpentine predators with glossy, iridescent eyes and backs bristling with flexible spines of partially corporeal necrotic energy. They also feed on negative energy, absorbing it from the environment or irradiating prey, which slowly decays into a suitable meal.\nThe mouth of a vascrivorei is guarded by scores of thin, articulated mandibles, each as dexterous as a humanoid finger— the creatures are unsettlingly adept at manipulating doors and other devices with these features. The hides of Vascrivorei display distorted versions of their meals: abstractions in shades of black, purple, and blue. As a vascrivorei grows, it sheds its skin, and over time its habitat becomes an eerie archive of violence recorded on its own discarded hides. Though most grow no larger than a cargo container or small home, vascrivoreis in particularly blasted regions can be as large as starships. In the absence of entropic forces, the creatures diminish in size and enter a dormant state that can last centuries.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVascrivorei\nSource\nStarfinder #44: Allies Against the Eye pg. 61\nVascrivorei CR 11\nXP 12,800\nN Colossal magical beast\nInit\n+8;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+20\nDefense\nHP\n175\nEAC\n25;\nKAC\n25\nFort\n+14;\nRef\n+15;\nWill\n+10\nDR\n5/magic;\nImmunities\ncold, energy drain;\nResistances\nelectricity 10, fire 10\nOffense\nSpeed\n40 ft., burrow 30 ft.\nMelee\nbite +24 (4d6+17 P & C plus grab; critical nauseate) or necrotic spine +24 (4d6+18 C; critical nauseate)\nMultiattack\n4 necrotic spines +18 (2d6+18 C)\nSpace\n30 ft.;\nReach\n20 ft. (30 ft. with necrotic spines\nOffensive Abilities\npuncture vitality (DC 18), shatter vitality (DC 18)\nStatistics\nSTR\n+6;\nDEX\n+8;\nCON\n+7;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +20, Athletics +25, Stealth +20\nLanguages\nAklo (can’t speak any language)\nOther Abilities\ncompression, create darkness, negative energy affinity\nEcology\nEnvironment\nany land\nOrganization\nsolitary, pair, fen (3–6)\nSpecial Abilities\nNegative Energy Affinity (Su)\nFor effects that target a creature based on type, a vascrivorei counts as both its normal type (a magical beast, in the case of a vascrivorei) or undead, whichever is worse.\nPuncture Vitality (Su)\nThe vascrivorei uses its spines or mandibles to project necrotic energy at a creature within 120 feet, dealing 3d8+11 cold damage and infusing it with entropic forces for 1 hour. A successful DC 18 Fortitude save halves the cold damage and negates the infusion. Infused creatures gain the effects of the vascrivorei’s negative energy affinity.\nShatter Vitality (Su)\nThe vascrivorei wraps an infused creature within reach in its shadow spines, flooding the target with entropy. The creature must attempt a DC 18 Fortitude save. On a failure, it is paralyzed for 1 round and exhausted. On a success, it’s nauseated for 1 round and fatigued. Regardless of the save result, the creature is then immune to the vascrivorei’s shatter vitality for 24 hours.\nDescription\nVascrivoreis are serpentine predators with glossy, iridescent eyes and backs bristling with flexible spines of partially corporeal necrotic energy. They also feed on negative energy, absorbing it from the environment or irradiating prey, which slowly decays into a suitable meal.\nThe mouth of a vascrivorei is guarded by scores of thin, articulated mandibles, each as dexterous as a humanoid finger— the creatures are unsettlingly adept at manipulating doors and other devices with these features. The hides of Vascrivorei display distorted versions of their meals: abstractions in shades of black, purple, and blue. As a vascrivorei grows, it sheds its skin, and over time its habitat becomes an eerie archive of violence recorded on its own discarded hides. Though most grow no larger than a cargo container or small home, vascrivoreis in particularly blasted regions can be as large as starships. In the absence of entropic forces, the creatures diminish in size and enter a dormant state that can last centuries.",
+  "type": "magical beast",
+  "category": "alien"
+}

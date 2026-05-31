@@ -1,0 +1,53 @@
+{
+  "name": "Hinkhetxi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hinkhetxi&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 55",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid (water)",
+  "init": "+8",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+28",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+15",
+  "ref": "+17",
+  "will": "+10",
+  "immunities": "cold",
+  "weaknesses": "vulnerable to fire",
+  "speed": "30 ft., swim 40 ft.",
+  "melee": "ultrathin doshakari +29 (5d4+21 P; critical wound [DC 19]) or gastric touch +29 (4d6+6 A plus healing)",
+  "ranged": "blizzard-class zero rifle +32 (4d8+13 C; critical staggered [DC 19]) or flash grenade III +32 (explode [15 ft.], blinded 1d6, DC 19)",
+  "offensive_abilities": "cheap shot, fighting styles (ambusher, hunter), gastric touch, hunt foe, hunting party, soldier’s onslaught, vigilance",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "+6",
+    "int": "+2",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Athletics +23, Stealth +28, Survival +23",
+  "languages": "Common, Hinkhetxi’I (can’t speak); limited telepathy 30 ft.",
+  "other_abilities": "mphibious, fast hunting, tactile chemoreceptors",
+  "gear": "kalo encounter suit III, ultrathin doshakari, blizzard-class zero rifle with 1 super-capacity battery (80 charges), flash grenades III (2)",
+  "environment": "any aquatic or land (No Stars)",
+  "organization": "solitary, pack (2–3), or lodge (4–15)",
+  "special_abilities": [
+    {
+      "name": "Gastric Touch (Ex)",
+      "description": "Hinkhetxis consume food through dermal absorption, secreting a gastric acid through their palms that breaks down matter to its essential nutrients. A hinkhetxi that hits a creature with its gastric touch attack deals 4d6+6 acid damage and heals their own Hit Points by half this amount. This external digestive track leaves hinkhetxis highly susceptible to toxins; they have a –2 penalty to all saves vs. poisons."
+    },
+    {
+      "name": "Tactile Chemoreceptors (Ex)",
+      "description": "Hinkhetxi have chemoreceptors for taste and smell scattered throughout their entire body, granting them a +2 racial bonus to Perception checks involving taste and smell."
+    }
+  ],
+  "description": "Hinkhetxis are a telepathic species native to the rogue planet No Stars, located somewhere in the Vast. These amphibious humanoids have a tactile digestive systems that allows them to absorb nutrients through their skin, and as such they don’t need to hunt for food. According to hinkhetxi culture, the universe was populated with prey and dangerous creatures solely for their own coldblooded amusement, and much of their culture is based around hunting for sport or validation. When they make expeditions to far-off worlds to hunt, they believe they are taking only what is due them. They consider the hinkhetxi body to be sacred and never hunt their own.\nHinkhetxis with high body counts or unique trophies rise in status, while those unable to be hunters craft or maintain equipment, spread word of the deeds of great hunters, and scout the galaxy for new hunting grounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHinkhetxi\nSource\nStarfinder #41: Serpents in the Cradle pg. 55\nHinkhetxi CR 12\nXP 19,200\nHinkhetxi soldier\nLE Medium monstrous humanoid (water)\nInit\n+8;\nSenses\ndarkvision 60 ft.;\nPerception\n+28\nDefense\nHP\n225;\nRP\n6\nEAC\n27;\nKAC\n29\nFort\n+15;\nRef\n+17;\nWill\n+10 (–2 vs. poison)\nImmunities\ncold\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n30 ft., swim 40 ft.\nMelee\nultrathin doshakari +29 (5d4+21 P; critical wound [DC 19]) or gastric touch +29 (4d6+6 A plus healing)\nRanged\nblizzard-class zero rifle +32 (4d8+13 C; critical staggered [DC 19]) or flash grenade III +32 (explode [15 ft.], blinded 1d6, DC 19)\nOffensive Abilities\ncheap shot, fighting styles (ambusher, hunter), gastric touch, hunt foe, hunting party, soldier’s onslaught, vigilance\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n+6;\nINT\n+2;\nWIS\n+3;\nCHA\n+3\nSkills\nAthletics +23, Stealth +28, Survival +23\nLanguages\nCommon, Hinkhetxi’I (can’t speak); limited telepathy 30 ft.\nOther Abilities\nmphibious, fast hunting, tactile chemoreceptors\nGear\nkalo encounter suit III, ultrathin doshakari, blizzard-class zero rifle with 1 super-capacity battery (80 charges), flash grenades III (2)\nEcology\nEnvironment\nany aquatic or land (No Stars)\nOrganization\nsolitary, pack (2–3), or lodge (4–15)\nSpecial Abilities\nGastric Touch (Ex)\nHinkhetxis consume food through dermal absorption, secreting a gastric acid through their palms that breaks down matter to its essential nutrients. A hinkhetxi that hits a creature with its gastric touch attack deals 4d6+6 acid damage and heals their own Hit Points by half this amount. This external digestive track leaves hinkhetxis highly susceptible to toxins; they have a –2 penalty to all saves vs. poisons.\nTactile Chemoreceptors (Ex)\nHinkhetxi have chemoreceptors for taste and smell scattered throughout their entire body, granting them a +2 racial bonus to Perception checks involving taste and smell.\nDescription\nHinkhetxis are a telepathic species native to the rogue planet No Stars, located somewhere in the Vast. These amphibious humanoids have a tactile digestive systems that allows them to absorb nutrients through their skin, and as such they don’t need to hunt for food. According to hinkhetxi culture, the universe was populated with prey and dangerous creatures solely for their own coldblooded amusement, and much of their culture is based around hunting for sport or validation. When they make expeditions to far-off worlds to hunt, they believe they are taking only what is due them. They consider the hinkhetxi body to be sacred and never hunt their own.\nHinkhetxis with high body counts or unique trophies rise in status, while those unable to be hunters craft or maintain equipment, spread word of the deeds of great hunters, and scout the galaxy for new hunting grounds.",
+  "type": "monstrous humanoid (water)",
+  "category": "alien"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Kriegakos",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kriegakos&Family=None",
+  "source": "Starfinder #28: The Hollow Cabal pg. 57",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+6",
+  "senses": "blindsense (vibration) 60 ft., low-light vision, sense through (blindsense [fog]) 60ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+13",
+  "will": "+7",
+  "immunities": "acid",
+  "speed": "20 ft., fly 40 ft. (Ex, average)",
+  "melee": "slam +17 (1d8+12 A & B; critical corrode 1d4)",
+  "offensive_abilities": "flyby attack (4d8 A), saliva shake (DC 18)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +21, Athletics +16, Stealth +21, Survival +21",
+  "environment": "any air (Liavara)",
+  "organization": "solitary, pair, or flock (6–12)",
+  "special_abilities": [
+    {
+      "name": "Corrosive Saliva (Ex)",
+      "description": "A kriegakos secretes corrosive saliva from the dozens of digestive pores along its body. A kriegakos automatically deals 2d8 acid damage to a creature that it is grappling at the start of that creature’s turn. A creature that hits a kriegakos with an unarmed attack takes this acid damage (Reflex DC 18 half). The same amount of damage is also dealt to a melee weapon that strikes a kriegakos, though the wielder can attempt a DC 18 Reflex save to halve the damage."
+    },
+    {
+      "name": "Flyby Attack (Ex)",
+      "description": "As a full action, a kriegakos can fly up to its speed and make a single slam attack without provoking an attack of opportunity from the target of the attack. The kriegakos can move both before and after the attack, but must fly at least 10 feet before the attack, and the total distance flown can’t be greater than the kriegakos’s fly speed. The kriegakos can’t use this ability to attack a foe that it is adjacent to at the start of its turn. Before making the attack, the kriegakos can attempt an Acrobatics check with a DC equal to 20 + the target’s level or CR. If it succeeds at this check, the target is flat-footed to the kriegakos’s slam attack, and if that attack hits, it deals an additional 4d8 acid damage."
+    },
+    {
+      "name": "Saliva Shake (Ex)",
+      "description": "As a standard action, a kriegakos can shake off its current layer of corrosive saliva, causing all adjacent creatures and objects (and all armor and other items those creatures are wearing or holding) to take 4d8 acid damage (Reflex DC 18 half). Carried or worn gear succeeds at this save if its wearer succeeds but fails if its wearer fails."
+    }
+  ],
+  "description": "Soaring through the clouds of Liavara, kriegakoses are vaguely avian creatures that constantly ooze an endless supply of highly acidic saliva from the many specialized pores in their skin. This secretion breaks down the steely rinds of the floating reebadarus plants that are the kriegakos’s primary source of sustenance, though it is also a potent deterrent against predators. A kriegakos’s body is covered in millions of hairlike proboscises capable of lapping up whatever their body’s saliva dissolves. As a result, a kreigakos’s primary feeding strategy is simply to slam itself into its prey. Its membranous wings allow it to soar through the Liavaran gases, and the creature’s multiple visual sensors empower it to see in all directions at once.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKriegakos\nSource\nStarfinder #28: The Hollow Cabal pg. 57\nKriegakos CR 8\nXP 4,800\nLN Medium animal\nInit\n+6;\nSenses\nblindsense (vibration) 60 ft., low-light vision, sense through (blindsense [fog]) 60ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+9;\nRef\n+13;\nWill\n+7\nDefensive Abilities\ncorrosive saliva (2d8 A, DC 18), evasion, unflankable;\nImmunities\nacid\nOffense\nSpeed\n20 ft., fly 40 ft. (Ex, average)\nMelee\nslam +17 (1d8+12 A & B; critical corrode 1d4)\nOffensive Abilities\nflyby attack (4d8 A), saliva shake (DC 18)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+2;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +21, Athletics +16, Stealth +21, Survival +21\nEcology\nEnvironment\nany air (Liavara)\nOrganization\nsolitary, pair, or flock (6–12)\nSpecial Abilities\nCorrosive Saliva (Ex)\nA kriegakos secretes corrosive saliva from the dozens of digestive pores along its body. A kriegakos automatically deals 2d8 acid damage to a creature that it is grappling at the start of that creature’s turn. A creature that hits a kriegakos with an unarmed attack takes this acid damage (Reflex DC 18 half). The same amount of damage is also dealt to a melee weapon that strikes a kriegakos, though the wielder can attempt a DC 18 Reflex save to halve the damage.\nFlyby Attack (Ex)\nAs a full action, a kriegakos can fly up to its speed and make a single slam attack without provoking an attack of opportunity from the target of the attack. The kriegakos can move both before and after the attack, but must fly at least 10 feet before the attack, and the total distance flown can’t be greater than the kriegakos’s fly speed. The kriegakos can’t use this ability to attack a foe that it is adjacent to at the start of its turn. Before making the attack, the kriegakos can attempt an Acrobatics check with a DC equal to 20 + the target’s level or CR. If it succeeds at this check, the target is flat-footed to the kriegakos’s slam attack, and if that attack hits, it deals an additional 4d8 acid damage.\nSaliva Shake (Ex)\nAs a standard action, a kriegakos can shake off its current layer of corrosive saliva, causing all adjacent creatures and objects (and all armor and other items those creatures are wearing or holding) to take 4d8 acid damage (Reflex DC 18 half). Carried or worn gear succeeds at this save if its wearer succeeds but fails if its wearer fails.\nDescription\nSoaring through the clouds of Liavara, kriegakoses are vaguely avian creatures that constantly ooze an endless supply of highly acidic saliva from the many specialized pores in their skin. This secretion breaks down the steely rinds of the floating reebadarus plants that are the kriegakos’s primary source of sustenance, though it is also a potent deterrent against predators. A kriegakos’s body is covered in millions of hairlike proboscises capable of lapping up whatever their body’s saliva dissolves. As a result, a kreigakos’s primary feeding strategy is simply to slam itself into its prey. Its membranous wings allow it to soar through the Liavaran gases, and the creature’s multiple visual sensors empower it to see in all directions at once.",
+  "type": "animal",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "The Swarm, Dramovire",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dramovire&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+6",
+  "senses": "darkvision 60 ft., blindsense (vibration) 30 ft.;",
+  "perception": "+16",
+  "hp": "123",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+9",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft., fly 20 ft. (Ex, average)",
+  "melee": "claw +20 (3d4+12 S plus grab) or proboscis +20 (1d10+12 A & P; critical nauseate [DC 16])",
+  "offensive_abilities": "acidic grease (DC 16, 8 minutes), snagging protrusions (3d4 S)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+2",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +16, Athletics +16, Stealth +21",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Acidic Grease (Ex)",
+      "description": "As a standard action, a dramovire can cover a 10-foot square within 20 feet with a layer of acidic grease sprayed from its proboscis. Each creature in the area must succeed at a DC 16 Reflex save or fall prone. A creature can walk within or through the area of grease at half its normal speed with a successful DC 16 Acrobatics check to balance; failure means the creature can’t move that round and must succeed at a DC 16 Reflex saving throw or fall prone, while failure by 5 or more means it automatically falls prone. A creature that doesn’t move on its turn doesn’t need to attempt the check. A creature that ends its turn within the area takes 4d6 acid damage, plus 4 additional acid damage at the end of its next turn. The pool of acidic grease lasts for a number of minutes equal to the dramovire’s CR."
+    },
+    {
+      "name": "Snagging Protrusions (Ex)",
+      "description": "The limbs of a dramovire are covered with small protrusions designed to make it easy to grasp its prey. A creature that successfully escapes from a dramovire’s grapple takes 3d4 slashing damage."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Swarm dramovires are tall and lanky assassins that kill by injecting acidic fluids from their proboscises directly into their victims’ bodies. Their large claws are covered with spiky, hair-like protrusions designed to help them grasp prey.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Dramovire\nSource\nStarfinder #22: The Forever Reliquary pg. 59\nDramovire CR 8\nXP 4,800\nCE Medium monstrous humanoid\nInit\n+6;\nSenses\ndarkvision 60 ft., blindsense (vibration) 30 ft.;\nPerception\n+16\nDefense\nHP\n123\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+12;\nWill\n+9\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft., fly 20 ft. (Ex, average)\nMelee\nclaw +20 (3d4+12 S plus grab) or proboscis +20 (1d10+12 A & P; critical nauseate [DC 16])\nOffensive Abilities\nacidic grease (DC 16, 8 minutes), snagging protrusions (3d4 S)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+2;\nINT\n-1;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +16, Athletics +16, Stealth +21\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nAcidic Grease (Ex)\nAs a standard action, a dramovire can cover a 10-foot square within 20 feet with a layer of acidic grease sprayed from its proboscis. Each creature in the area must succeed at a DC 16 Reflex save or fall prone. A creature can walk within or through the area of grease at half its normal speed with a successful DC 16 Acrobatics check to balance; failure means the creature can’t move that round and must succeed at a DC 16 Reflex saving throw or fall prone, while failure by 5 or more means it automatically falls prone. A creature that doesn’t move on its turn doesn’t need to attempt the check. A creature that ends its turn within the area takes 4d6 acid damage, plus 4 additional acid damage at the end of its next turn. The pool of acidic grease lasts for a number of minutes equal to the dramovire’s CR.\nSnagging Protrusions (Ex)\nThe limbs of a dramovire are covered with small protrusions designed to make it easy to grasp its prey. A creature that successfully escapes from a dramovire’s grapple takes 3d4 slashing damage.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nSwarm dramovires are tall and lanky assassins that kill by injecting acidic fluids from their proboscises directly into their victims’ bodies. Their large claws are covered with spiky, hair-like protrusions designed to help them grasp prey.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

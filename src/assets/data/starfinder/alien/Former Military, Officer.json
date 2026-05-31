@@ -1,0 +1,52 @@
+{
+  "name": "Former Military, Officer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Officer&Family=Former Military",
+  "source": "Interstellar Species pg. 164",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "humanoid (worlanisi)",
+  "init": "+7",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+27",
+  "hp": "185",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+15",
+  "weaknesses": "psychic reverb",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "tactical plasma sword +22 (2d8+15 E&F; critical severe wound)",
+  "ranged": "tactical magnetar rifle +22 (2d8+12 P)",
+  "offensive_abilities": "unit command, unnerving precision",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+3",
+    "cha": "+5"
+  },
+  "skills": "Athletics +22, Bluff +22, Computers +22, Diplomacy +22, Intimidate +27, Pilot +22, Profession (mercenary) +27, Sense Motive +22",
+  "feats": "Suppressive Fire",
+  "languages": "Common, Worlanisi, up to 3 others; limited telepathy 60 ft.",
+  "other_abilities": "multiarmed (4) , unit tactics, worlanisi gamble , worlanisi luck",
+  "gear": "regimental dress II (courage module), tactical magnetar rifle (light bayonet bracket with tactical plasma sword with 1 battery [20 charges]) with 90 longarm rounds, personal comm unit;",
+  "special_abilities": [
+    {
+      "name": "Unit Command (Ex)",
+      "description": "As a standard action, the officer can issue a command to a willing ally within 60 feet that can hear or precisely sense the officer. The target can take one standard action, one move action, or one swift action. A creature can’t benefit from this ability more than once per minute."
+    },
+    {
+      "name": "Unnerving Precision (Ex)",
+      "description": "Once per round when an officer’s attack exceeds their target’s AC by 5 or more, the target becomes shaken for 1 round (Will negates, DC = 10 + the officer’s CR)."
+    }
+  ],
+  "description": "A retired military officer retains tactical, strategic, and logistical expertise. In combat, they provide commands and inspiration, all while providing ranged support to rattle the enemy.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormer Military\nSource\nInterstellar Species pg. 164\nMilitary training hones experts with varied skillsets, tempering them in battlefield conditions. Mercenary work is an obvious outlet for their skills, but former military pros function well as security forces and rescue teams, and on exploration missions and supply delivery in dangerous areas. They might be found in more mundane settings, such as corporate facilities or research labs, especially in places where people or facilities need extra protection. Each of these NPCs has the following ability.\nUnit Tactics (Ex)\nBefore rolling initiative, the character can choose to roll twice and take the lower result, and an ally within 30 feet can roll their initiative check twice and use the better result. When the character successfully uses covering fire, the selected ally gains the circumstance bonus to AC against the next two attacks made against them by creatures in the character’s line of effect.\nAliens in the \"Former Military\" Family\nName\nCR\nCombat Medic\n3\nOfficer\n12\nQuartermaster\n8\nSpec-ops Veteran\n16\nFormer Military, Officer\nSource\nInterstellar Species pg. 164\nOfficer CR 12\nXP 19,200\nWorlanisi\nN Small humanoid (worlanisi)\nInit\n+7;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+27\nDefense\nHP\n185\nEAC\n26;\nKAC\n27\nFort\n+11;\nRef\n+13;\nWill\n+15\nWeaknesses\npsychic reverb\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\ntactical plasma sword +22 (2d8+15 E&F; critical severe wound)\nRanged\ntactical magnetar rifle +22 (2d8+12 P)\nOffensive Abilities\nunit command, unnerving precision\nStatistics\nSTR\n+3;\nDEX\n+3;\nCON\n+1;\nINT\n+3;\nWIS\n+3;\nCHA\n+5\nFeats\nSuppressive Fire\nSkills\nAthletics +22, Bluff +22, Computers +22, Diplomacy +22, Intimidate +27, Pilot +22, Profession (mercenary) +27, Sense Motive +22\nLanguages\nCommon, Worlanisi, up to 3 others; limited telepathy 60 ft.\nOther Abilities\nmultiarmed (4) , unit tactics, worlanisi gamble , worlanisi luck\nGear\nregimental dress II (courage module), tactical magnetar rifle (light bayonet bracket with tactical plasma sword with 1 battery [20 charges]) with 90 longarm rounds, personal comm unit;\nAugmentations\nadvanced darkvision capacitors, voice amplifier\nSpecial Abilities\nUnit Command (Ex)\nAs a standard action, the officer can issue a command to a willing ally within 60 feet that can hear or precisely sense the officer. The target can take one standard action, one move action, or one swift action. A creature can’t benefit from this ability more than once per minute.\nUnnerving Precision (Ex)\nOnce per round when an officer’s attack exceeds their target’s AC by 5 or more, the target becomes shaken for 1 round (Will negates, DC = 10 + the officer’s CR).\nDescription\nA retired military officer retains tactical, strategic, and logistical expertise. In combat, they provide commands and inspiration, all while providing ranged support to rattle the enemy.",
+  "type": "humanoid (worlanisi)",
+  "environment": "—",
+  "category": "alien"
+}

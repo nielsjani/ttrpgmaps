@@ -1,0 +1,52 @@
+{
+  "name": "Elebrian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Elebrian&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 267",
+  "xp": "0",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (elebrian)",
+  "init": "+1",
+  "senses": "low-light vision;",
+  "perception": "-1",
+  "hp": "6",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+0",
+  "ref": "+2",
+  "will": "+2",
+  "speed": "30 ft.",
+  "melee": "tactical baton +0 (1d4 B)",
+  "ranged": "azimuth laser pistol +2 (1d4 F; critical burn 1d4)",
+  "offensive_abilities": "find weakness",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+3",
+    "wis": "-1",
+    "cha": "+0"
+  },
+  "skills": "Computers +3, Culture +3, Engineering +7, Life Science +3, Mysticism +7, Physical Science +7",
+  "languages": "Akitonian, Castrovelian, Common, Eoxian",
+  "other_abilities": "intellectual knack",
+  "gear": "estex suit I, azimuth laser pistol with 2 batteries (20 charges each), tactical baton",
+  "environment": "any (Eox)",
+  "organization": "solitary, pair, or group (3–10)",
+  "special_abilities": [
+    {
+      "name": "Find Weakness (Ex)",
+      "description": "Elebrians can instinctively find and take advantage of other creatures’ weak points. An elebrian can make a single melee or ranged attack as a full action, and if they hit, they can add half their level to the damage dealt (minimum +1 damage). Whether successful or not, once an elebrian has used this ability on a creature, that creature is immune to it for 24 hours."
+    },
+    {
+      "name": "Intellectual Knack (Ex)",
+      "description": "Elebrians can easily comprehend complex issues and remember minutia. An elebrian can attempt a skill check to recall knowledge untrained, regardless of the DC, and can always take 20 to do so (though this takes 2 minutes), even without access to an information network or data set."
+    }
+  ],
+  "description": "Elebrians, the native race of Eox, were nearly wiped out in the calamity that ravaged the planet. Only a tiny population of living elebrians now remain.\nElebrians are very humanlike, and it has been suggested that they and humanity may share a common ancestor in the ancient past. A typical elebrian stands slightly over 6 feet tall and has pale skin and large, dark eyes. They have oversized craniums with slightly distended foreheads to house their large brains. Most elebrians are entirely hairless, but a small minority grow wispy hair on their scalps and thin eyebrows. Elebrians often seek knowledge",
+  "extra_content": "The following extra content was found for this creature:\n-\nElebrian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nElebrian\nSource\nStarfinder Dead Suns Adventure Path pg. 267\n,\nStarfinder #3: Splintered Worlds pg. 53\nElebrian CR\nXP 0\nN Medium humanoid (elebrian)\nInit\n+1;\nSenses\nlow-light vision;\nPerception\n-1\nDefense\nHP\n6\nEAC\n11;\nKAC\n12\nFort\n+0;\nRef\n+2;\nWill\n+2\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +0 (1d4 B)\nRanged\nazimuth laser pistol +2 (1d4 F; critical burn 1d4)\nOffensive Abilities\nfind weakness\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+1;\nINT\n+3;\nWIS\n-1;\nCHA\n+0\nSkills\nComputers +3, Culture +3, Engineering +7, Life Science +3, Mysticism +7, Physical Science +7\nLanguages\nAkitonian, Castrovelian, Common, Eoxian\nOther Abilities\nintellectual knack\nGear\nestex suit I, azimuth laser pistol with 2 batteries (20 charges each), tactical baton\nEcology\nEnvironment\nany (Eox)\nOrganization\nsolitary, pair, or group (3–10)\nSpecial Abilities\nFind Weakness (Ex)\nElebrians can instinctively find and take advantage of other creatures’ weak points. An elebrian can make a single melee or ranged attack as a full action, and if they hit, they can add half their level to the damage dealt (minimum +1 damage). Whether successful or not, once an elebrian has used this ability on a creature, that creature is immune to it for 24 hours.\nIntellectual Knack (Ex)\nElebrians can easily comprehend complex issues and remember minutia. An elebrian can attempt a skill check to recall knowledge untrained, regardless of the DC, and can always take 20 to do so (though this takes 2 minutes), even without access to an information network or data set.\nDescription\nElebrians, the native race of Eox, were nearly wiped out in the calamity that ravaged the planet. Only a tiny population of living elebrians now remain.\nElebrians are very humanlike, and it has been suggested that they and humanity may share a common ancestor in the ancient past. A typical elebrian stands slightly over 6 feet tall and has pale skin and large, dark eyes. They have oversized craniums with slightly distended foreheads to house their large brains. Most elebrians are entirely hairless, but a small minority grow wispy hair on their scalps and thin eyebrows. Elebrians often seek knowledge\nExtra Content\nThe following extra content was found for this creature:\n-\nElebrian Race Entry",
+  "cr": "",
+  "type": "humanoid (elebrian)",
+  "category": "alien"
+}

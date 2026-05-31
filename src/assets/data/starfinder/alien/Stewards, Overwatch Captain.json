@@ -1,0 +1,48 @@
+{
+  "name": "Stewards, Overwatch Captain",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Overwatch Captain&Family=Stewards",
+  "source": "Interstellar Species pg. 180",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LG",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+14",
+  "will": "+11",
+  "speed": "35 ft., burrow 15 ft.",
+  "melee": "advanced swoop hammer +23 (3d10+15 B; critical knockdown)",
+  "ranged": "surge staccato rifle +20 (2d10+10 So; critical deafen) or riot grenade III +20 (1d8 S, nonlethal, staggered, DC 17) Space 10 ft.; Reach 10 ft.",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "air strike, frenzy , grappler",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+8"
+  },
+  "skills": "Athletics +19, Diplomacy +19, Piloting +24",
+  "languages": "Common, Nchaki",
+  "other_abilities": "vestigial arms",
+  "gear": "lashunta ringwear III, advanced swoop hammer, surge staccato rifleR with 2 batteries (40 charges each), riot grenade III , manacles",
+  "special_abilities": [
+    {
+      "name": "Air Strike (Ex)",
+      "description": "Once per day as a full action while outdoors and in line of sight of a flying allied starship, an Overwatch captain can coordinate an exceptionally accurate air strike against an outdoor area with a 20-foot radius at a range of 1 mile. At the beginning of the captain’s next turn, the allied starship fires, dealing 10d8 fire and piercing damage to anything in the area. Creatures take half damage with a successful Reflex save (DC 12 + 1/2 the captain’s CR)."
+    }
+  ],
+  "description": "While Overwatch captains often command larger starships, they’re also dispatched as pilots in smaller craft for more discreet missions, such as tracking major outlaws or leading assaults against galactic invaders.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStewards\nSource\nInterstellar Species pg. 180\nWith three branches—the Constabulary, Ops, and Overwatch— the Stewards protect people and legal rights within the Pact Worlds. The Constabulary handles planet-side troubles, the Overwatch fleet guards Pact Worlds space, and Ops is usually responsible for gathering intelligence. Although Stewards often function as allies for PCs, they might confront PCs engaged in risky heroics, or a canny villain could frame PCs for high crimes to turn Stewards into fearsome adversaries.\nAliens in the \"Stewards\" Family\nName\nCR\nConstable\n7\nData Analyst\n5\nOps Infiltrator\n15\nOverwatch Captain\n10\nStewards, Overwatch Captain\nSource\nInterstellar Species pg. 180\nOverwatch Captain CR 10\nXP 9,600\nTrox\nLG Large monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+14;\nWill\n+11\nDefensive Abilities\nbulwark\nOffense\nSpeed\n35 ft., burrow 15 ft.\nMelee\nadvanced swoop hammer +23 (3d10+15 B; critical knockdown)\nRanged\nsurge staccato rifle +20 (2d10+10 So; critical deafen) or riot grenade III +20 (1d8 S, nonlethal, staggered, DC 17) Space 10 ft.; Reach 10 ft.\nOffensive Abilities\nair strike, frenzy , grappler\nStatistics\nSTR\n+5;\nDEX\n+0;\nCON\n+3;\nINT\n+0;\nWIS\n+2;\nCHA\n+8\nSkills\nAthletics +19, Diplomacy +19, Piloting +24\nLanguages\nCommon, Nchaki\nOther Abilities\nvestigial arms\nGear\nlashunta ringwear III, advanced swoop hammer, surge staccato rifleR with 2 batteries (40 charges each), riot grenade III , manacles\nSpecial Abilities\nAir Strike (Ex)\nOnce per day as a full action while outdoors and in line of sight of a flying allied starship, an Overwatch captain can coordinate an exceptionally accurate air strike against an outdoor area with a 20-foot radius at a range of 1 mile. At the beginning of the captain’s next turn, the allied starship fires, dealing 10d8 fire and piercing damage to anything in the area. Creatures take half damage with a successful Reflex save (DC 12 + 1/2 the captain’s CR).\nDescription\nWhile Overwatch captains often command larger starships, they’re also dispatched as pilots in smaller craft for more discreet missions, such as tracking major outlaws or leading assaults against galactic invaders.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

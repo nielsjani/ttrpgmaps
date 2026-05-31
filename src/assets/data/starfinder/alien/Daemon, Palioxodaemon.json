@@ -1,0 +1,56 @@
+{
+  "name": "Daemon, Palioxodaemon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Palioxodaemon&Family=Daemon",
+  "source": "Alien Archive 4 pg. 24",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (daemon, evil, extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "165",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+10",
+  "sr": "22",
+  "immunities": "acid, death effects, disease, poison;",
+  "resistances": "cold 20, electricity 20, fire 20;",
+  "speed": "30 ft., fly 40 ft. (Su, perfect)",
+  "melee": "slash +24 (2d6+19 S; critical wound [DC 18])",
+  "offensive_abilities": "cause mishap, space-time shuffle",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "1/day—\nsummon allies\n(1 palioxodaemon 35%)\nAt will—\nteleport"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+3",
+    "wis": "-1",
+    "cha": "+2"
+  },
+  "skills": "Athletics +20, Mysticism +25, Physical Science +20",
+  "languages": "Abyssal, Common, Infernal; telepathy 100 ft.",
+  "environment": "any (Abaddon)",
+  "organization": "solitary, pair, or scramble (3–8)",
+  "special_abilities": [
+    {
+      "name": "Cause Mishap (Su)",
+      "description": "As a reaction when a creature within 60 feet of the palioxodaemon is affected by a teleportation effect, the daemon can scramble that creature’s form. The creature takes 4d6 slashing damage and suffers the effects of the critical wound effect. A successful DC 18 Fortitude save halves the damage and negates the wound effect. The palioxodaemon can’t use this ability on a target affected by their own space-time shuffle ability. In addition, any creature who accompanies a palioxodaemon via its teleport spell-like ability must attempt a save against cause mishap with a –4 penalty. The daemon can’t choose not to affect an accompanying creature this way."
+    },
+    {
+      "name": "Space-Time Shuffle (Su)",
+      "description": "As a move action, the palioxodaemon can teleport any creature within 60 feet who they can see to any other unoccupied space within 60 feet that they can see. The target can attempt a DC 20 Will save to resist this teleportation. Once per day, the palioxodaemon can attempt to teleport their target into a space occupied by solid nonliving matter, such as a wall. A target subjected to this variation who fails the Will save also attempts a DC 18 Fortitude save; on a success, the daemon must instead teleport it to an unoccupied space. On a failed Fortitude save, the target takes 4d10 bludgeoning damage and is pinned within the matter. The affected creature isn’t within line of sight of other creatures outside the matter (unless these creatures have a way to see through solid matter) and can’t escape the pinned condition with the usual attack roll or Acrobatics check. However, at the beginning of each turn that it’s pinned within the matter, the target attempts another DC 18 Fortitude save. On a success, it’s teleported to a random unoccupied space adjacent to (or as close as possible to) the solid matter it had been trapped in. On a failure, the target takes an additional 4d10 bludgeoning damage and remains pinned. This is a teleportation effect."
+    }
+  ],
+  "description": "Palioxodaemons form from the souls of evil mortals who died in teleportation accidents, planar warping, or other space-time anomalies, and they revel in using their powers to inflict similarly traumatic demises upon other living beings. Their horrific flesh resembles bodies that have been exploded outward, like anatomist’s diagrams but with segments of their weeping flesh fused with rock, ship materials, and other non-organic debris.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDaemon\nSource\nAlien Archive 4 pg. 24\nOriginating from the desolate plane of Abaddon, daemons strive to end all life in existence—even destroying themselves after snuffing out or consuming every other soul. A daemon’s favorite method of killing often shapes their form and abilities. Traditional daemons might embrace more conventional means of inflicting death, though newer daemons have adapted to the galaxy’s evolving technology. Both alucidaemons and alorbidaemons prey upon those who lose themselves in digital media. The former drain the life from those who grow obsessed with vidgames. Especially dangerous, alorbidaemons arise from the souls of wicked sensates who perish while engrossed in virtual reality as their bodies withered from neglect.\nAlucidaemons take the form of gaunt, child-like figures, their eyes covered by a visor feeding them various realities while they watch in slack-jawed awe. Nearly all of them move with the help of a floating pod that serves as an extension of their bodies; they control its movements with the mechanical gauntlets permanently locked onto their withered hands. Alorbidaemons appear as horrible amalgams of several alucidaemons, joined together in a connected set of pods to form a single body. A typical alucidaemon is 3 to 4 feet tall but weighs 200 pounds due to their mechanical components. A typical alorbidaemon is 4–5 feet tall but can weigh 1,000 pounds\nAliens in the \"Daemon\" Family\nName\nCR\nAdikodaemon\n18\nAlorbidaemon\n12\nAlucidaemon\n4\nDespondaemon\n8\nPalioxodaemon\n11\nDaemon, Palioxodaemon\nSource\nStarfinder #48: Masters of Time and Space pg. 54\nPalioxodaemon CR 11\nXP 12,800\nNE Medium outsider (daemon, evil, extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+20\nDefense\nHP\n165\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+10\nImmunities\nacid, death effects, disease, poison;\nResistances\ncold 20, electricity 20, fire 20;\nSR\n22\nOffense\nSpeed\n30 ft., fly 40 ft. (Su, perfect)\nMelee\nslash +24 (2d6+19 S; critical wound [DC 18])\nMultiattack\n4 slashes +18 (2d6+19 S; critical wound [DC 18])\nOffensive Abilities\ncause mishap, space-time shuffle\nSpell-Like Abilities\n(CL 11th)\n1/day—\nsummon allies\n(1 palioxodaemon 35%)\nAt will—\nteleport\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n+3;\nWIS\n-1;\nCHA\n+2\nSkills\nAthletics +20, Mysticism +25, Physical Science +20\nLanguages\nAbyssal, Common, Infernal; telepathy 100 ft.\nEcology\nEnvironment\nany (Abaddon)\nOrganization\nsolitary, pair, or scramble (3–8)\nSpecial Abilities\nCause Mishap (Su)\nAs a reaction when a creature within 60 feet of the palioxodaemon is affected by a teleportation effect, the daemon can scramble that creature’s form. The creature takes 4d6 slashing damage and suffers the effects of the critical wound effect. A successful DC 18 Fortitude save halves the damage and negates the wound effect. The palioxodaemon can’t use this ability on a target affected by their own space-time shuffle ability. In addition, any creature who accompanies a palioxodaemon via its teleport spell-like ability must attempt a save against cause mishap with a –4 penalty. The daemon can’t choose not to affect an accompanying creature this way.\nSpace-Time Shuffle (Su)\nAs a move action, the palioxodaemon can teleport any creature within 60 feet who they can see to any other unoccupied space within 60 feet that they can see. The target can attempt a DC 20 Will save to resist this teleportation. Once per day, the palioxodaemon can attempt to teleport their target into a space occupied by solid nonliving matter, such as a wall. A target subjected to this variation who fails the Will save also attempts a DC 18 Fortitude save; on a success, the daemon must instead teleport it to an unoccupied space. On a failed Fortitude save, the target takes 4d10 bludgeoning damage and is pinned within the matter. The affected creature isn’t within line of sight of other creatures outside the matter (unless these creatures have a way to see through solid matter) and can’t escape the pinned condition with the usual attack roll or Acrobatics check. However, at the beginning of each turn that it’s pinned within the matter, the target attempts another DC 18 Fortitude save. On a success, it’s teleported to a random unoccupied space adjacent to (or as close as possible to) the solid matter it had been trapped in. On a failure, the target takes an additional 4d10 bludgeoning damage and remains pinned. This is a teleportation effect.\nDescription\nPalioxodaemons form from the souls of evil mortals who died in teleportation accidents, planar warping, or other space-time anomalies, and they revel in using their powers to inflict similarly traumatic demises upon other living beings. Their horrific flesh resembles bodies that have been exploded outward, like anatomist’s diagrams but with segments of their weeping flesh fused with rock, ship materials, and other non-organic debris.\nExtra Content\nThe following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "type": "outsider (daemon, evil, extraplanar)",
+  "category": "alien"
+}

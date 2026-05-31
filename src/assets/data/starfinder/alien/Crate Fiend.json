@@ -1,0 +1,54 @@
+{
+  "name": "Crate Fiend",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Crate Fiend&Family=None",
+  "source": "Starfinder #10: The Diaspora Strain pg. 55",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "vermin",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "30",
+  "eac": "15",
+  "kac": "17",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+2",
+  "resistances": "acid 5",
+  "speed": "20 ft. (40 ft. outside crate shell)",
+  "melee": "bite +11 (1d6+7 A & P; critical corrode 1d4) or",
+  "ranged": "acid blast +9 (explode [5 ft., 1d6+1 A plus 1d4 corrode, DC 12])",
+  "offensive_abilities": "explosive death",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+4",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Athletics +8, Stealth +13",
+  "other_abilities": "compression, mindless",
+  "environment": "any urban or land (Taekah III)",
+  "organization": "solitary, pair, or rack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Acid Blast (Ex)",
+      "description": "As a standard action, a crate fiend can launch an acid blast with a range increment of 20 feet."
+    },
+    {
+      "name": "Crate Shell (Ex)",
+      "description": "A crate fiend dwells within a container as if it were the creature’s shell. While inside its container and motionless, a crate fiend appears to be the container. As a move action, a crate fiend can partially or fully withdraw into its shell. If it partially withdraws, it gains partial cover but takes a –2 penalty to attack rolls and can move at only half speed. While fully withdrawn, the fiend can neither move nor attack but has total cover. The container has AC 10, hardness 10, and 22 Hit Points. The fiend has a –2 penalty to AC in a container that has the broken condition. If the container is destroyed, the penalty increases to –4. A crate fiend can adapt to a new container in 1 hour."
+    },
+    {
+      "name": "Explosive Death (Ex)",
+      "description": "When a crate fiend dies, as no action on its part, it makes an acid blast attack. The attack’s point of origin must be adjacent to the creature’s space."
+    }
+  ],
+  "description": "Crate fiends, properly called taekahbs, are bizarre arthropods that originated on Taekah III, a habitable world in the Vast. On this planet, these soft-shelled scavengers seek homes in the cast-off shells of larger native gastropods or nodules of volcanic pumice the taekahbs hollow out with their acid. Crate fiends breed quickly, laying hidden caches of eggs that are scented so other crate fiends find and fertilize them.\nWhen they migrated offworld, no doubt due to careless smugglers or foolish zoologists, crate fiends found homes in the maintenance tunnels and ventilation systems of starships and space stations, as well as in the nooks and crannies of industrialized settlements. Discarded shipping containers proved to be fine homes for them, earning the taekahbs their common name, since they can use such abodes to hide in plain sight. These beasts prefer to eat refuse and carrion, and they avoid discovery and confrontation. However, larger crate fiends have been known to kill and consume dockworkers and unlucky passersby.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCrate Fiend\nSource\nStarfinder #10: The Diaspora Strain pg. 55\nCrate Fiend CR 3\nXP 800\nN Medium vermin\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n30\nEAC\n15;\nKAC\n17\nFort\n+7;\nRef\n+5;\nWill\n+2\nDefensive Abilities\ncrate shell;\nResistances\nacid 5\nOffense\nSpeed\n20 ft. (40 ft. outside crate shell)\nMelee\nbite +11 (1d6+7 A & P; critical corrode 1d4) or\r\nclaw +11 (1d6+7 S and grab)\nRanged\nacid blast +9 (explode [5 ft., 1d6+1 A plus 1d4 corrode, DC 12])\nOffensive Abilities\nexplosive death\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+4;\nINT\n—;\nWIS\n+0;\nCHA\n+3\nSkills\nAthletics +8, Stealth +13\nOther Abilities\ncompression, mindless\nEcology\nEnvironment\nany urban or land (Taekah III)\nOrganization\nsolitary, pair, or rack (3–5)\nSpecial Abilities\nAcid Blast (Ex)\nAs a standard action, a crate fiend can launch an acid blast with a range increment of 20 feet.\nCrate Shell (Ex)\nA crate fiend dwells within a container as if it were the creature’s shell. While inside its container and motionless, a crate fiend appears to be the container. As a move action, a crate fiend can partially or fully withdraw into its shell. If it partially withdraws, it gains partial cover but takes a –2 penalty to attack rolls and can move at only half speed. While fully withdrawn, the fiend can neither move nor attack but has total cover. The container has AC 10, hardness 10, and 22 Hit Points. The fiend has a –2 penalty to AC in a container that has the broken condition. If the container is destroyed, the penalty increases to –4. A crate fiend can adapt to a new container in 1 hour.\nExplosive Death (Ex)\nWhen a crate fiend dies, as no action on its part, it makes an acid blast attack. The attack’s point of origin must be adjacent to the creature’s space.\nDescription\nCrate fiends, properly called taekahbs, are bizarre arthropods that originated on Taekah III, a habitable world in the Vast. On this planet, these soft-shelled scavengers seek homes in the cast-off shells of larger native gastropods or nodules of volcanic pumice the taekahbs hollow out with their acid. Crate fiends breed quickly, laying hidden caches of eggs that are scented so other crate fiends find and fertilize them.\nWhen they migrated offworld, no doubt due to careless smugglers or foolish zoologists, crate fiends found homes in the maintenance tunnels and ventilation systems of starships and space stations, as well as in the nooks and crannies of industrialized settlements. Discarded shipping containers proved to be fine homes for them, earning the taekahbs their common name, since they can use such abodes to hide in plain sight. These beasts prefer to eat refuse and carrion, and they avoid discovery and confrontation. However, larger crate fiends have been known to kill and consume dockworkers and unlucky passersby.",
+  "type": "vermin",
+  "category": "alien"
+}

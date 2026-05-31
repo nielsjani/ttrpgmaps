@@ -1,0 +1,52 @@
+{
+  "name": "Ferran",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ferran&Family=None",
+  "source": "Starfinder #2: Temple of the Twelve pg. 55",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "humanoid",
+  "init": "+0",
+  "senses": "low-light vision;",
+  "perception": "+11",
+  "hp": "64",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+8",
+  "speed": "30 ft.",
+  "melee": "tactical dueling sword +12 (1d6+7 S)",
+  "ranged": "frostbite-class zero pistol +10 (1d6+5 C; critical staggered [DC 17])",
+  "offensive_abilities": "momentum, overload (DC 17), target tracking",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+5",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +11, Computers +16, Engineering +16, Intimidate +11, Physical Science +16",
+  "languages": "Common, Ferran",
+  "other_abilities": "artificial intelligence (exocortex), custom rig (datapad), mechanic tricks (energy shield [10 HP, 5 min.], neural shunt), remote hack (DC 17), wireless hack",
+  "gear": "d-suit I, frostbite-class zero pistol with 1 battery, tactical dueling sword, datapad",
+  "environment": "any high-gravity (Ratheren)",
+  "organization": "solitary, pair, or shift (3–5)",
+  "special_abilities": [
+    {
+      "name": "Momentum (Ex)",
+      "description": "A ferran deals 5 additional damage with its first melee attack after it moves at least 10 feet in the same round."
+    },
+    {
+      "name": "Target Tracking (Ex)",
+      "description": "As a move action, a ferran can designate a single foe to track, gaining a +2 bonus to attack rolls against that target."
+    }
+  ],
+  "description": "Ferrans are the native inhabitants of Ferrantus-4, a highgravity world that disappeared into a massive black hole several decades ago. The surviving ferrans live in a sprawling complex on the moon Ratheren (see page 62), which once orbited their home world but is now held in place just outside of the black hole’s event horizon. Though the Ratheren moon base is self-sufficient, ferrans are just another disaster away from becoming completely wiped out.\nFerrans are short, squat humanoids with constantly furrowed brows and bald heads. Much of ferran tradition is rooted in science, and as such, they tend to be agnostics and atheists. Compared to other species, the ferran population is relatively small; they will eventually need to do something to grow their numbers if they wish to secure their continuation as a species.",
+  "extra_content": "The following extra content was found for this creature:\n-\nFerran Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFerran\nSource\nStarfinder #2: Temple of the Twelve pg. 55\nFerran CR 5\nXP 1,600\nFerran mechanic\nN Small humanoid\nInit\n+0;\nSenses\nlow-light vision;\nPerception\n+11\nDefense\nHP\n64\nEAC\n17;\nKAC\n18; +2 vs. bull rush and reposition\nFort\n+6;\nRef\n+4;\nWill\n+8; +4 vs. radiation\nOffense\nSpeed\n30 ft.\nMelee\ntactical dueling sword +12 (1d6+7 S)\nRanged\nfrostbite-class zero pistol +10 (1d6+5 C; critical staggered [DC 17])\nOffensive Abilities\nmomentum, overload (DC 17), target tracking\nStatistics\nSTR\n+2;\nDEX\n+0;\nCON\n+3;\nINT\n+5;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +11, Computers +16, Engineering +16, Intimidate +11, Physical Science +16\nLanguages\nCommon, Ferran\nOther Abilities\nartificial intelligence (exocortex), custom rig (datapad), mechanic tricks (energy shield [10 HP, 5 min.], neural shunt), remote hack (DC 17), wireless hack\nGear\nd-suit I, frostbite-class zero pistol with 1 battery, tactical dueling sword, datapad\nEcology\nEnvironment\nany high-gravity (Ratheren)\nOrganization\nsolitary, pair, or shift (3–5)\nSpecial Abilities\nMomentum (Ex)\nA ferran deals 5 additional damage with its first melee attack after it moves at least 10 feet in the same round.\nTarget Tracking (Ex)\nAs a move action, a ferran can designate a single foe to track, gaining a +2 bonus to attack rolls against that target.\nDescription\nFerrans are the native inhabitants of Ferrantus-4, a highgravity world that disappeared into a massive black hole several decades ago. The surviving ferrans live in a sprawling complex on the moon Ratheren (see page 62), which once orbited their home world but is now held in place just outside of the black hole’s event horizon. Though the Ratheren moon base is self-sufficient, ferrans are just another disaster away from becoming completely wiped out.\nFerrans are short, squat humanoids with constantly furrowed brows and bald heads. Much of ferran tradition is rooted in science, and as such, they tend to be agnostics and atheists. Compared to other species, the ferran population is relatively small; they will eventually need to do something to grow their numbers if they wish to secure their continuation as a species.\nExtra Content\nThe following extra content was found for this creature:\n-\nFerran Race Entry",
+  "type": "humanoid",
+  "category": "alien"
+}

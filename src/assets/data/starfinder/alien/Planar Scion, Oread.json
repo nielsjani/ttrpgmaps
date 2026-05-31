@@ -1,0 +1,53 @@
+{
+  "name": "Planar Scion, Oread",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Oread&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+3",
+  "resistances": "acid 5",
+  "speed": "25 ft.",
+  "melee": "assault hammer +8 (1d6+5 B)",
+  "ranged": "utility scattergun +5 (1d4 P) or stickybomb grenade I +5 (explode [10 ft., entangle 2d4 rounds, DC 10])",
+  "offensive_abilities": "earth affinity, fighting styles (guard)",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st; ranged +5",
+    "spells": "At will—\nenergy ray\n(acid only)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "-1"
+  },
+  "skills": "Athletics +10, Intimidate +5, Survival +5",
+  "languages": "Common, Terran",
+  "other_abilities": "armor training",
+  "gear": "lashunta ringwear I, assault hammer, utility scattergun with 8 shells, stickybomb grenades I (2)",
+  "environment": "any",
+  "organization": "solitary, pair, or team (3–5)",
+  "special_abilities": [
+    {
+      "name": "Earth Affinity (Su)",
+      "description": "Whenever an oread deals acid damage (including with spells such as\nenergy ray\n), the oread can change it to bludgeoning damage instead. This doesn’t change anything else about the effect dealing the damage."
+    }
+  ],
+  "description": "Oreads are humanoids whose bloodline is infused with power from the Plane of Earth, such as from a shaitan. Oreads usually have skin of a dark neutral tone, and some have features that appear to be made of stone, crystal, or packed earth. Oreads are generally calm to the point of stoicism.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nOread Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion, Oread\nSource\nStarfinder #17: Solar Strike pg. 60\nOread CR 1\nXP 400\nOread soldier\nLN Medium outsider (native)\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n20\nEAC\n13;\nKAC\n15\nFort\n+3;\nRef\n+1;\nWill\n+3\nResistances\nacid 5\nOffense\nSpeed\n25 ft.\nMelee\nassault hammer +8 (1d6+5 B)\nRanged\nutility scattergun +5 (1d4 P) or stickybomb grenade I +5 (explode [10 ft., entangle 2d4 rounds, DC 10])\nOffensive Abilities\nearth affinity, fighting styles (guard)\nOread Spell-Like Abilities\n(CL 1st; ranged +5)\nAt will—\nenergy ray\n(acid only)\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+1;\nINT\n+0;\nWIS\n+2;\nCHA\n-1\nSkills\nAthletics +10, Intimidate +5, Survival +5\nLanguages\nCommon, Terran\nOther Abilities\narmor training\nGear\nlashunta ringwear I, assault hammer, utility scattergun with 8 shells, stickybomb grenades I (2)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or team (3–5)\nSpecial Abilities\nEarth Affinity (Su)\nWhenever an oread deals acid damage (including with spells such as\nenergy ray\n), the oread can change it to bludgeoning damage instead. This doesn’t change anything else about the effect dealing the damage.\nDescription\nOreads are humanoids whose bloodline is infused with power from the Plane of Earth, such as from a shaitan. Oreads usually have skin of a dark neutral tone, and some have features that appear to be made of stone, crystal, or packed earth. Oreads are generally calm to the point of stoicism.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nOread Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

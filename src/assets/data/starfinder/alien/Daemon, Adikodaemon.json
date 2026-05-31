@@ -1,0 +1,56 @@
+{
+  "name": "Daemon, Adikodaemon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Adikodaemon&Family=Daemon",
+  "source": "Alien Archive 4 pg. 24",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (daemon, evil, extraplanar)",
+  "init": "+8",
+  "senses": "darkvision 60 ft.,",
+  "perception": "+31",
+  "hp": "315",
+  "eac": "31",
+  "kac": "32",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+22",
+  "dr": "10/good or silver",
+  "sr": "29",
+  "immunities": "acid, death effects, disease, poison;",
+  "resistances": "cold 10, electricity 10, fire 10;",
+  "speed": "30 ft., fly 60 ft. (average)",
+  "melee": "claw +27 (8d8+22 S)",
+  "ranged": "executioner disintegrator pistol +29 (2d20+18 A; corrode 1d6)",
+  "spell_like_abilities": {
+    "caster_info": "CL 18th",
+    "spells": "1/day—\nsummon allies\n(1 adikodaemon 35%)\nSpells Known\n(CL 18th, ranged +29)\n1/day—\ndisintegrate\n(DC 27)\n3/day—\nholographic image\n(5th level, DC 26),\nholographic terrain\n(DC 26),\nunwilling guardian\n(DC 26)\nAt will—\ndestruction protocol\n,\ngreater invisibility\nConstant—\ntrue seeing"
+  },
+  "spells": "(CL 18th, ranged +29)\n1/day—\ndisintegrate\n(DC 27)\n3/day—\nholographic image\n(5th level, DC 26),\nholographic terrain\n(DC 26),\nunwilling guardian\n(DC 26)\nAt will—\ndestruction protocol\n,\ngreater invisibility\nConstant—\ntrue seeing",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+8",
+    "con": "+2",
+    "int": "+6",
+    "wis": "+4",
+    "cha": "+11"
+  },
+  "skills": "Bluff +36, Computers +31, Culture +31, Disguise +36, Mysticism +31",
+  "languages": "Abyssal, Common, Infernal; telepathy 100 ft.",
+  "other_abilities": "change shape (any Small, Medium, or Large creature), terms and conditions",
+  "gear": "bespoke echelon fashion, executioner disintegrator pistol with 1 high-capacity battery (40 charges)",
+  "environment": "any",
+  "organization": "solitary, pair, or board (3–6)",
+  "special_abilities": [
+    {
+      "name": "Terms and Conditions (Su)",
+      "description": "When a creature unwittingly allies with an adikodaemon, typically by accepting a boon or favor from the daemon in disguise, they must succeed at a DC 25 Will save or succumb to the curse of planned obsolescence (see below).\nCurse of Planned Obsolescence\nType\ncurse;\nSave\nWill DC 25\nEffect\nSome of the victim’s gear seems to occasionally work better. The first three times per day that the victim attempts an equipment-based skill check (such as using a tool kit), the victim adds 1d6 as an insight bonus to that skill check as a reaction. However, for 1 minute afterward, all of the victim’s other gear becomes slightly corrupted. Skill checks using that other gear take a –4 circumstance penalty. Weapons have a 25% chance of targeting the nearest friendly target instead of the intended target. Any other piece of gear (such as activated armor upgrades) has a 50% chance of having its usage doubled for that time.\nCure\nThe victim must spend 1 month abstaining from the use of mass-produced gear (which is most equipment available for purchase); this doesn’t include gear that the victim or one of the victim’s allies crafts."
+    }
+  ],
+  "description": "Adikodaemons are shapeshifters and tricksters who personify the deaths caused by corporate malfeasance—from casualties brought about by lax safety regulations or by companies deciding not to recall a defective product because it would hurt the bottom line.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDaemon\nSource\nAlien Archive 4 pg. 24\nOriginating from the desolate plane of Abaddon, daemons strive to end all life in existence—even destroying themselves after snuffing out or consuming every other soul. A daemon’s favorite method of killing often shapes their form and abilities. Traditional daemons might embrace more conventional means of inflicting death, though newer daemons have adapted to the galaxy’s evolving technology. Both alucidaemons and alorbidaemons prey upon those who lose themselves in digital media. The former drain the life from those who grow obsessed with vidgames. Especially dangerous, alorbidaemons arise from the souls of wicked sensates who perish while engrossed in virtual reality as their bodies withered from neglect.\nAlucidaemons take the form of gaunt, child-like figures, their eyes covered by a visor feeding them various realities while they watch in slack-jawed awe. Nearly all of them move with the help of a floating pod that serves as an extension of their bodies; they control its movements with the mechanical gauntlets permanently locked onto their withered hands. Alorbidaemons appear as horrible amalgams of several alucidaemons, joined together in a connected set of pods to form a single body. A typical alucidaemon is 3 to 4 feet tall but weighs 200 pounds due to their mechanical components. A typical alorbidaemon is 4–5 feet tall but can weigh 1,000 pounds\nAliens in the \"Daemon\" Family\nName\nCR\nAdikodaemon\n18\nAlorbidaemon\n12\nAlucidaemon\n4\nDespondaemon\n8\nPalioxodaemon\n11\nDaemon, Adikodaemon\nSource\nStarfinder #31: Waking the Worldseed pg. 56\nAdikodaemon CR 18\nXP 153,600\nNE Medium outsider (daemon, evil, extraplanar)\nInit\n+8;\nSenses\ndarkvision 60 ft.,\ntrue seeing\n;\nPerception\n+31\nDefense\nHP\n315\nEAC\n31;\nKAC\n32\nFort\n+16;\nRef\n+16;\nWill\n+22\nDR\n10/good or silver;\nImmunities\nacid, death effects, disease, poison;\nResistances\ncold 10, electricity 10, fire 10;\nSR\n29\nOffense\nSpeed\n30 ft., fly 60 ft. (average)\nMelee\nclaw +27 (8d8+22 S)\nRanged\nexecutioner disintegrator pistol +29 (2d20+18 A; corrode 1d6)\nSpell-Like Abilities\n(CL 18th)\n1/day—\nsummon allies\n(1 adikodaemon 35%)\nSpells Known\n(CL 18th, ranged +29)\n1/day—\ndisintegrate\n(DC 27)\n3/day—\nholographic image\n(5th level, DC 26),\nholographic terrain\n(DC 26),\nunwilling guardian\n(DC 26)\nAt will—\ndestruction protocol\n,\ngreater invisibility\nConstant—\ntrue seeing\nStatistics\nSTR\n+4;\nDEX\n+8;\nCON\n+2;\nINT\n+6;\nWIS\n+4;\nCHA\n+11\nSkills\nBluff +36, Computers +31, Culture +31, Disguise +36, Mysticism +31\nLanguages\nAbyssal, Common, Infernal; telepathy 100 ft.\nOther Abilities\nchange shape (any Small, Medium, or Large creature), terms and conditions\nGear\nbespoke echelon fashion, executioner disintegrator pistol with 1 high-capacity battery (40 charges)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or board (3–6)\nSpecial Abilities\nTerms and Conditions (Su)\nWhen a creature unwittingly allies with an adikodaemon, typically by accepting a boon or favor from the daemon in disguise, they must succeed at a DC 25 Will save or succumb to the curse of planned obsolescence (see below).\nCurse of Planned Obsolescence\nType\ncurse;\nSave\nWill DC 25\nEffect\nSome of the victim’s gear seems to occasionally work better. The first three times per day that the victim attempts an equipment-based skill check (such as using a tool kit), the victim adds 1d6 as an insight bonus to that skill check as a reaction. However, for 1 minute afterward, all of the victim’s other gear becomes slightly corrupted. Skill checks using that other gear take a –4 circumstance penalty. Weapons have a 25% chance of targeting the nearest friendly target instead of the intended target. Any other piece of gear (such as activated armor upgrades) has a 50% chance of having its usage doubled for that time.\nCure\nThe victim must spend 1 month abstaining from the use of mass-produced gear (which is most equipment available for purchase); this doesn’t include gear that the victim or one of the victim’s allies crafts.\nDescription\nAdikodaemons are shapeshifters and tricksters who personify the deaths caused by corporate malfeasance—from casualties brought about by lax safety regulations or by companies deciding not to recall a defective product because it would hurt the bottom line.\nExtra Content\nThe following extra content was found for this creature:\n-\nDaemon (Summoning) Graft Template\n-\nDaemon (Creature Subtype) Graft Template",
+  "type": "outsider (daemon, evil, extraplanar)",
+  "category": "alien"
+}

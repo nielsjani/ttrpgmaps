@@ -1,0 +1,53 @@
+{
+  "name": "Gloomwing",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gloomwing&Family=None",
+  "source": "Starfinder #10: The Diaspora Strain pg. 56",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+5",
+  "senses": "darkvision 60 ft;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+8",
+  "will": "+3",
+  "speed": "10 ft., fly 40 ft. (Ex, average)",
+  "melee": "bite +13 (1d6+6 P)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "confusion, implant, pheromones",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +15, Stealth +10",
+  "environment": "any land or sky (Shadow Plane)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Confusion (Su)",
+      "description": "The shifting patterns on a gloomwing’s wings are hypnotic. A creature that starts its turn able to see the gloomwing must succeed at a DC 13 Will saving throw or become confused for 1 round. A creature can avoid looking directly at the gloomwing to gain a +4 bonus to the saving throw. However, doing so causes the creature to treat the gloomwing as if it has concealment (20% miss chance). Gloomwings and tenebrous worms are immune to this effect. This is a mind-affecting, sense-dependent effect."
+    },
+    {
+      "name": "Implant (Su)",
+      "description": "As a full action, a gloomwing can lay eggs in a Small or larger helpless living creature. The target creature contracts tenebrous gestation (see below)."
+    },
+    {
+      "name": "Pheromones (Su)",
+      "description": "Starting on the round after a gloomwing becomes agitated (typically the second round of combat), the creature exudes an invisible cloud of weakening pheromones that creates a musky scent. Living creatures other than gloomwings and tenebrous worms within this 30-foot aura must succeed at a DC 13 Fortitude saving throw or become fatigued for 1 hour.\nTENEBROUS GESTATION\nType\ndisease (injury);\nSave\nFortitude DC 13\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; if the victim dies, 1d4 young tenebrous worms emerge 4d6 hours later and devour the corpse completely.\nCure\n2 consecutive saves; the eggs can also be removed with a successful DC 13 Medicine check that takes 1 hour or if the victim is targeted by remove affliction."
+    }
+  ],
+  "description": "Gloomwings are mothlike predators native to the Shadow Plane known to slip through the barrier with the Material Plane in places where the barrier is thin. Their bizarrely patterned wings can cause confusion in onlookers, even within the dimly lit, shadowy places where they rest. Gloomwings also have a distinct, musky scent. If a gloomwing becomes stressed, it releases its pheromone-laden musk, causing lethargy in other living creatures. The scent also attracts other gloomwings and their larvae, known as\ntenebrous worms\n. The chitin on a gloomwing’s mandibles and head has a pearlescent quality, especially in normal and bright light. Some jewelers and mystics value this material. With a successful DC 21 Survival check that takes 10 minutes, a character can harvest 1d4 pieces of chitin, each worth 500 credits.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGloomwing\nSource\nStarfinder #10: The Diaspora Strain pg. 56\nGloomwing CR 4\nXP 1,200\nN Large outsider (extraplanar)\nInit\n+5;\nSenses\ndarkvision 60 ft;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+8;\nWill\n+3\nOffense\nSpeed\n10 ft., fly 40 ft. (Ex, average)\nMelee\nbite +13 (1d6+6 P)\nSpace\n10 ft.;\nReach\n5 ft.\nOffensive Abilities\nconfusion, implant, pheromones\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +15, Stealth +10\nEcology\nEnvironment\nany land or sky (Shadow Plane)\nOrganization\nsolitary or pair\nSpecial Abilities\nConfusion (Su)\nThe shifting patterns on a gloomwing’s wings are hypnotic. A creature that starts its turn able to see the gloomwing must succeed at a DC 13 Will saving throw or become confused for 1 round. A creature can avoid looking directly at the gloomwing to gain a +4 bonus to the saving throw. However, doing so causes the creature to treat the gloomwing as if it has concealment (20% miss chance). Gloomwings and tenebrous worms are immune to this effect. This is a mind-affecting, sense-dependent effect.\nImplant (Su)\nAs a full action, a gloomwing can lay eggs in a Small or larger helpless living creature. The target creature contracts tenebrous gestation (see below).\nPheromones (Su)\nStarting on the round after a gloomwing becomes agitated (typically the second round of combat), the creature exudes an invisible cloud of weakening pheromones that creates a musky scent. Living creatures other than gloomwings and tenebrous worms within this 30-foot aura must succeed at a DC 13 Fortitude saving throw or become fatigued for 1 hour.\nTENEBROUS GESTATION\nType\ndisease (injury);\nSave\nFortitude DC 13\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; if the victim dies, 1d4 young tenebrous worms emerge 4d6 hours later and devour the corpse completely.\nCure\n2 consecutive saves; the eggs can also be removed with a successful DC 13 Medicine check that takes 1 hour or if the victim is targeted by remove affliction.\nDescription\nGloomwings are mothlike predators native to the Shadow Plane known to slip through the barrier with the Material Plane in places where the barrier is thin. Their bizarrely patterned wings can cause confusion in onlookers, even within the dimly lit, shadowy places where they rest. Gloomwings also have a distinct, musky scent. If a gloomwing becomes stressed, it releases its pheromone-laden musk, causing lethargy in other living creatures. The scent also attracts other gloomwings and their larvae, known as\ntenebrous worms\n. The chitin on a gloomwing’s mandibles and head has a pearlescent quality, especially in normal and bright light. Some jewelers and mystics value this material. With a successful DC 21 Survival check that takes 10 minutes, a character can harvest 1d4 pieces of chitin, each worth 500 credits.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

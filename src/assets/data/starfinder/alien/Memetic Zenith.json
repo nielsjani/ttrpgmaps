@@ -1,0 +1,66 @@
+{
+  "name": "Memetic Zenith",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Memetic Zenith&Family=None",
+  "source": "Starfinder #24: The God-Host Ascends pg. 56",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "outsider (good, technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+26",
+  "hp": "228",
+  "eac": "28",
+  "kac": "29",
+  "fort": "+13",
+  "ref": "+15",
+  "will": "+18",
+  "sr": "26",
+  "weaknesses": "network dependency",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "digitizing touch +23 (5d8+15 A & E)",
+  "ranged": "sonic disruption +25 (4d6+15 So)",
+  "spell_like_abilities": {
+    "caster_info": "CL 15th; +25 melee",
+    "spells": "1/day—\ncontrol machines\n(DC 25),\nsynapse overload\n(DC 25)\n3/day—\ndestruction protocol\n,\nmind thrust\n(4th level, DC 24),\noverload systems\n(DC 24),\nsoothing protocol\nAt will—\ncommand\n(DC 21),\nholographic image\n(3rd level, DC 23),\nsuggestion\n(DC 23)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+5",
+    "int": "+5",
+    "wis": "+5",
+    "cha": "+9"
+  },
+  "skills": "Acrobatics +26 (+34 to fly), Computers +31, Culture +31, Diplomacy +26",
+  "languages": "truespeech; digital telepathy 300 ft.",
+  "environment": "any urban",
+  "organization": "solitary, pair, or realization (3–4)",
+  "special_abilities": [
+    {
+      "name": "Digital Rejuvenation (Su)",
+      "description": "The essence of a memetic zenith is stored within the popular media that created it. When its incorporeal form is slain, the memetic zenith goes into a state of dormancy. It can be truly destroyed only if someone spends 1 hour on an infosphere deleting or discrediting the references and succeeds at a Culture check (DC = 10 + the memetic zenith’s total Culture bonus). Alternatively, a creature can attempt the same check to reinvent the memetic zenith, changing its alignment by one step and altering its subtypes accordingly. Regardless of intent, only one of these checks can be attempted per day targeting a given memetic zenith. If not destroyed, a memetic zenith reawakens fully healed in 1d8 days."
+    },
+    {
+      "name": "Digital Telepathy (Su)",
+      "description": "A memetic zenith can speak telepathically with digital devices, as well as with creatures that have the android or technological subtypes."
+    },
+    {
+      "name": "Digitizing Touch (Su)",
+      "description": "A memetic zenith targets EAC with its touch; this attack’s damage has the force descriptor."
+    },
+    {
+      "name": "Network Dependency (Ex)",
+      "description": "A memetic zenith requires access to a digital network to project its incorporeal body. If no digital devices are within range of the memetic zenith’s digital telepathy, the memetic zenith shunts to the nearest device in the same star system and takes damage equal to half their total Hit Points. If no device exists in the same star system or within a similar range, the memetic zenith is slain."
+    },
+    {
+      "name": "Sonic Disruption (Ex)",
+      "description": "A memetic zenith’s sonic disruption has a range increment of 30 feet. As a full action, a memetic zenith can use this ability and apply the blast weapon special property to it. This attack’s damage has the force descriptor."
+    }
+  ],
+  "description": "Like any other form of information, widely circulated pop culture leaves its imprint in the Akashic Record. On rare occasions, these imprints grow and manifest as memetic zeniths. Each memetic zenith is a unique, living idea that attempts to foster the ideology that brought them to life.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMemetic Zenith\nSource\nStarfinder #24: The God-Host Ascends pg. 56\nMemetic Zenith CR 15\nXP 51,200\nNG Medium outsider (good, technological)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+26\nDefense\nHP\n228\nEAC\n28;\nKAC\n29\nFort\n+13;\nRef\n+15;\nWill\n+18\nDefensive Abilities\ndigital rejuvenation (1d8 days, DC 41);\nSR\n26\nWeaknesses\nnetwork dependency\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\ndigitizing touch +23 (5d8+15 A & E)\nRanged\nsonic disruption +25 (4d6+15 So)\nSpell-Like Abilities\n(CL 15th; +25 melee)\n1/day—\ncontrol machines\n(DC 25),\nsynapse overload\n(DC 25)\n3/day—\ndestruction protocol\n,\nmind thrust\n(4th level, DC 24),\noverload systems\n(DC 24),\nsoothing protocol\nAt will—\ncommand\n(DC 21),\nholographic image\n(3rd level, DC 23),\nsuggestion\n(DC 23)\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+5;\nINT\n+5;\nWIS\n+5;\nCHA\n+9\nSkills\nAcrobatics +26 (+34 to fly), Computers +31, Culture +31, Diplomacy +26\nLanguages\ntruespeech; digital telepathy 300 ft.\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or realization (3–4)\nSpecial Abilities\nDigital Rejuvenation (Su)\nThe essence of a memetic zenith is stored within the popular media that created it. When its incorporeal form is slain, the memetic zenith goes into a state of dormancy. It can be truly destroyed only if someone spends 1 hour on an infosphere deleting or discrediting the references and succeeds at a Culture check (DC = 10 + the memetic zenith’s total Culture bonus). Alternatively, a creature can attempt the same check to reinvent the memetic zenith, changing its alignment by one step and altering its subtypes accordingly. Regardless of intent, only one of these checks can be attempted per day targeting a given memetic zenith. If not destroyed, a memetic zenith reawakens fully healed in 1d8 days.\nDigital Telepathy (Su)\nA memetic zenith can speak telepathically with digital devices, as well as with creatures that have the android or technological subtypes.\nDigitizing Touch (Su)\nA memetic zenith targets EAC with its touch; this attack’s damage has the force descriptor.\nNetwork Dependency (Ex)\nA memetic zenith requires access to a digital network to project its incorporeal body. If no digital devices are within range of the memetic zenith’s digital telepathy, the memetic zenith shunts to the nearest device in the same star system and takes damage equal to half their total Hit Points. If no device exists in the same star system or within a similar range, the memetic zenith is slain.\nSonic Disruption (Ex)\nA memetic zenith’s sonic disruption has a range increment of 30 feet. As a full action, a memetic zenith can use this ability and apply the blast weapon special property to it. This attack’s damage has the force descriptor.\nDescription\nLike any other form of information, widely circulated pop culture leaves its imprint in the Akashic Record. On rare occasions, these imprints grow and manifest as memetic zeniths. Each memetic zenith is a unique, living idea that attempts to foster the ideology that brought them to life.",
+  "type": "outsider (good, technological)",
+  "category": "alien"
+}

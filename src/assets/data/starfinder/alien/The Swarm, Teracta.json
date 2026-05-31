@@ -1,0 +1,46 @@
+{
+  "name": "The Swarm, Teracta",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Teracta&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "acid, fear effects;",
+  "resistances": "cold 5, electricity 5",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +9 (1d8+7 C; critical staggered [DC 14]) or claw +12 (1d6+7 S)",
+  "offensive_abilities": "encage (DC 14)",
+  "ability_scores": {
+    "str": "-4",
+    "dex": "+1",
+    "con": "+2",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Athletics +13 (+21 to climb), Engineering +8, Stealth +8",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary or architecture (2–6)",
+  "special_abilities": [
+    {
+      "name": "Encage (Ex)",
+      "description": "As a standard action, a Swarm teracta can attempt to encage an adjacent enemy of Medium size or smaller. The target must succeed at a DC 14 Reflex save or be moved into the teracta’s space and gain the pinned condition. A teracta that has a creature encaged can’t move or make claw attacks, and can bite only the creature it has encaged. As a move action, the teracta can free the encaged creature and move to an adjacent space; this doesn’t provoke attacks of opportunity. As a standard action, an encaged creature can escape with a successful DC 26 Acrobatics check."
+    }
+  ],
+  "description": "When the Swarm needs to build something and it doesn’t have the materials to do so, it makes the desired object from other Swarm components such as the teracta. The teracta’s slender and sturdy body make it the equivalent of an iron girder, and its stick-like limbs pivot on universal ball joints that allow it to grab other teractas and lock itself into position. The creatures secrete a sticky, ice-like substance from their mandibles that they use to patch holes and create sealed spaces. This connective matter is unique to teractas, but the Swarm can quickly produce staggering quantities of these components when necessary. Once the walls of a building, space station, or starship have been constructed with teractas, bio-electronics and other Swarm organic devices can easily be threaded between them. This process takes a matter of hours to form even the largest of Swarm structures.\nA teracta doesn’t have to be smart or especially cunning; it does, however, need to be strong, sturdy, and highly resistant to pain or distraction. Intruders who trespass into a Swarm structure made of teractas may not even notice them at first and, when they do, find the creatures slow to awaken; the end result is terrifying, however, as the creatures literally climb out of the walls and attack en masse. Unwary explorers of seemingly deserted Swarm structures have found themselves overwhelmed by the buildings themselves as the floors and ceilings discorporate into hordes of hungry Swarm teractas.\nA teracta fights by closing with an enemy and using its own body as a cage to imprison its target; once the teracta has locked its many limbs in place around a foe, it can seal the victim’s fate with lethal bites from its surprisingly large mouth or simply hold the creature still while its allies finish the job.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Teracta\nSource\nStarfinder #43: Icebound pg. 61\nTeracta CR 3\nXP 800\nCE Small monstrous humanoid\nInit\n+1;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+5;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects;\nResistances\ncold 5, electricity 5\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +9 (1d8+7 C; critical staggered [DC 14]) or claw +12 (1d6+7 S)\nOffensive Abilities\nencage (DC 14)\nStatistics\nSTR\n-4;\nDEX\n+1;\nCON\n+2;\nINT\n-1;\nWIS\n+0;\nCHA\n-2\nSkills\nAthletics +13 (+21 to climb), Engineering +8, Stealth +8\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary or architecture (2–6)\nSpecial Abilities\nEncage (Ex)\nAs a standard action, a Swarm teracta can attempt to encage an adjacent enemy of Medium size or smaller. The target must succeed at a DC 14 Reflex save or be moved into the teracta’s space and gain the pinned condition. A teracta that has a creature encaged can’t move or make claw attacks, and can bite only the creature it has encaged. As a move action, the teracta can free the encaged creature and move to an adjacent space; this doesn’t provoke attacks of opportunity. As a standard action, an encaged creature can escape with a successful DC 26 Acrobatics check.\nDescription\nWhen the Swarm needs to build something and it doesn’t have the materials to do so, it makes the desired object from other Swarm components such as the teracta. The teracta’s slender and sturdy body make it the equivalent of an iron girder, and its stick-like limbs pivot on universal ball joints that allow it to grab other teractas and lock itself into position. The creatures secrete a sticky, ice-like substance from their mandibles that they use to patch holes and create sealed spaces. This connective matter is unique to teractas, but the Swarm can quickly produce staggering quantities of these components when necessary. Once the walls of a building, space station, or starship have been constructed with teractas, bio-electronics and other Swarm organic devices can easily be threaded between them. This process takes a matter of hours to form even the largest of Swarm structures.\nA teracta doesn’t have to be smart or especially cunning; it does, however, need to be strong, sturdy, and highly resistant to pain or distraction. Intruders who trespass into a Swarm structure made of teractas may not even notice them at first and, when they do, find the creatures slow to awaken; the end result is terrifying, however, as the creatures literally climb out of the walls and attack en masse. Unwary explorers of seemingly deserted Swarm structures have found themselves overwhelmed by the buildings themselves as the floors and ceilings discorporate into hordes of hungry Swarm teractas.\nA teracta fights by closing with an enemy and using its own body as a cage to imprison its target; once the teracta has locked its many limbs in place around a foe, it can seal the victim’s fate with lethal bites from its surprisingly large mouth or simply hold the creature still while its allies finish the job.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

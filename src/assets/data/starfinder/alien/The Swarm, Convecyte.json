@@ -1,0 +1,57 @@
+{
+  "name": "The Swarm, Convecyte",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Convecyte&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "30",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+3",
+  "dr": "10/— and full cover from attacks while they rest inside",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft.",
+  "melee": "slam +11 (1d6+4 B)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "acid burst (2d4+4 A, DC 11)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +7, Athletics +12, Survival +7",
+  "languages": "Shirren; telepathy 100 ft.",
+  "other_abilities": "Swarm carrier",
+  "environment": "any",
+  "organization": "solitary or troop (2–5 plus 2 Medium-sized Swarm creatures for each convecyte)",
+  "special_abilities": [
+    {
+      "name": "Acid Burst (Ex)",
+      "description": "When a convecyte dies, its protective plates crack and explode, showering an area with their acidic contents. Every creature within a 20-foot burst (including those within the convecyte) takes 2d4+4 acid damage (Reflex DC 11 half)."
+    },
+    {
+      "name": "Swarm Carrier (Ex)",
+      "description": "A convecyte can carry a number of creatures under its chitinous layers, giving each creature DR 10/— and full cover from attacks while they rest inside, though such creatures can’t act while inside a convecyte. A convecyte can carry four Small or two Medium creatures this way and can deposit them in adjacent squares as a swift action."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "A swarm convecyte has several interlocking plates of rigid chitin that run along its back and sides. Underneath these plates are hollow cavities that a convecyte can use to hide and transport smaller creatures. An acidic fluid runs through its plates, providing a last-minute bit of defense in the event that the convecyte is killed in battle, though it could be considered a liability if the creatures it is protecting aren’t also immune to acid.\nThe remainder of a convecyte’s body is dedicated to generating enough energy for the creature to be able to heft these plates around and carry passengers. As such, a convecyte needs to consume twice as many calories per day as another creature of its size, making its body warm to the touch and elevating the temperature within its body cavities to nearly 90° F. The Swarm use convecytes to transport other Swarm creatures into battle, but only on planets where the terrain isn’t too difficult.\nA Swarm convecyte is about 12 feet long and stands about 8 feet at its shoulder.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Convecyte\nSource\nStarfinder #19: Fate of the Fifth pg. 58\nConvecyte CR 2\nXP 600\nCE Large monstrous humanoid\nInit\n+1;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n30\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+4;\nWill\n+3\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft.\nMelee\nslam +11 (1d6+4 B)\nSpace\n10 ft.;\nReach\n5 ft.\nOffensive Abilities\nacid burst (2d4+4 A, DC 11)\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+4;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +7, Athletics +12, Survival +7\nLanguages\nShirren; telepathy 100 ft.\nOther Abilities\nSwarm carrier\nEcology\nEnvironment\nany\nOrganization\nsolitary or troop (2–5 plus 2 Medium-sized Swarm creatures for each convecyte)\nSpecial Abilities\nAcid Burst (Ex)\nWhen a convecyte dies, its protective plates crack and explode, showering an area with their acidic contents. Every creature within a 20-foot burst (including those within the convecyte) takes 2d4+4 acid damage (Reflex DC 11 half).\nSwarm Carrier (Ex)\nA convecyte can carry a number of creatures under its chitinous layers, giving each creature DR 10/— and full cover from attacks while they rest inside, though such creatures can’t act while inside a convecyte. A convecyte can carry four Small or two Medium creatures this way and can deposit them in adjacent squares as a swift action.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nA swarm convecyte has several interlocking plates of rigid chitin that run along its back and sides. Underneath these plates are hollow cavities that a convecyte can use to hide and transport smaller creatures. An acidic fluid runs through its plates, providing a last-minute bit of defense in the event that the convecyte is killed in battle, though it could be considered a liability if the creatures it is protecting aren’t also immune to acid.\nThe remainder of a convecyte’s body is dedicated to generating enough energy for the creature to be able to heft these plates around and carry passengers. As such, a convecyte needs to consume twice as many calories per day as another creature of its size, making its body warm to the touch and elevating the temperature within its body cavities to nearly 90° F. The Swarm use convecytes to transport other Swarm creatures into battle, but only on planets where the terrain isn’t too difficult.\nA Swarm convecyte is about 12 feet long and stands about 8 feet at its shoulder.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

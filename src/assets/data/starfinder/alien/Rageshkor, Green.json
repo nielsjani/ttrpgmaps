@@ -1,0 +1,50 @@
+{
+  "name": "Rageshkor, Green",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Green&Family=Rageshkor",
+  "source": "Alien Archive 4 pg. 96",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal",
+  "init": "+1",
+  "senses": "blindsense (scent) 30 ft., low-light vision;;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+11",
+  "ref": "+8",
+  "will": "+5",
+  "speed": "30 ft.",
+  "melee": "tail +15 (1d8+11 P; critical knockdown)",
+  "ranged": "spike +13 (1d8+11 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +18, Intimidate +13 Feats Cleave",
+  "feats": "Cleave",
+  "environment": "temperate or warm forests or plains",
+  "organization": "solitary, pair, or herd (3–12)",
+  "special_abilities": [
+    {
+      "name": "Align Frill (Ex)",
+      "description": "As a move action, a green rageshkor can align portions of the flexible frill of its back armor to block attacks from one enemy the rageshkor is observing. Doing so increases the rageshkor’s AC by 2 against attacks from that enemy until the start of the rageshkor’s next turn."
+    },
+    {
+      "name": "Spike (Ex)",
+      "description": "By whipping its tail, a green rageshkor can hurl a detachable spike from just below its spiked tail club as a ranged attack with a range increment of 20 feet and a maximum range of 100 feet. The creature can hurl only six such spikes in a 24-hour period."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRageshkor\nSource\nAlien Archive 4 pg. 96\nFierce, armored saurians, rageshkors are among Vesk Prime’s most famous fauna. These beasts evolved alongside the planet’s other aggressive wildlife, leading to deadly evolutions unknown to other thyreophorans, most notably movable armor plates, and tail spikes rageshkors can hurl at distant threats.\nVesk have long seen rageshkors as worthy foes. Records from before the Gap show that hunting rageshkors is an age‑old tradition, with accomplished hunters regularly wearing the hard-won hide, plates, and spikes. These cultural values have survived into modern times, and vesk and non-vesk alike regularly travel to Vesk Prime specifically for the chance to hunt a rageshkor. The most dedicated hunters equip themselves with archaic weaponry in the spirit of tradition, but even modern armaments are no guarantee of an easy fight.\nThe smaller green rageshkors are the most prolific species, still prevalent in Vesk Prime’s forests and plains. Adolescents typically break from their birth herd, roaming either alone or in small cohorts. These roving rageshkors are especially aggressive, and they often pick fights with passersby, land transports, and even small buildings.\nThe might and ferocity of green rageshkors pale in comparison to those of their larger kin, rock rageshkors. These rare animals are typically solitary, and during less prosperous times, rock rageshkors hunker down into a form of hibernation. Combined with their camouflaged bodies and the accumulation of windblown debris, these animals often fade into the landscape, snapping to vicious alertness only to ambush prey that mistakes it for a boulder.\nAliens in the \"Rageshkor\" Family\nName\nCR\nGreen\n6\nRock\n12\nRageshkor, Green\nSource\nAlien Archive 4 pg. 96\nGreen CR 6\nXP 2,400\nN Large animal\nInit\n+1;\nSenses\nblindsense (scent) 30 ft., low-light vision;;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+11;\nRef\n+8;\nWill\n+5\nDefensive Abilities\nalign frill\nOffense\nSpeed\n30 ft.\nMelee\ntail +15 (1d8+11 P; critical knockdown)\nRanged\nspike +13 (1d8+11 P)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +18, Intimidate +13 Feats Cleave\nEcology\nEnvironment\ntemperate or warm forests or plains\nOrganization\nsolitary, pair, or herd (3–12)\nSpecial Abilities\nAlign Frill (Ex)\nAs a move action, a green rageshkor can align portions of the flexible frill of its back armor to block attacks from one enemy the rageshkor is observing. Doing so increases the rageshkor’s AC by 2 against attacks from that enemy until the start of the rageshkor’s next turn.\nSpike (Ex)\nBy whipping its tail, a green rageshkor can hurl a detachable spike from just below its spiked tail club as a ranged attack with a range increment of 20 feet and a maximum range of 100 feet. The creature can hurl only six such spikes in a 24-hour period.",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Rageshkor_Green.png"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Protocite Speaker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Protocite Speaker&Family=None",
+  "source": "Starfinder #15: Sun Divers pg. 59",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "construct (technological)",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+0",
+  "ref": "+1",
+  "will": "+3",
+  "immunities": "construct immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "30 ft.",
+  "melee": "slam +7 (1d4+2 B)",
+  "ranged": "laser +8 (1d4+2 F; critical burn 1d4)",
+  "offensive_abilities": "sensory overload",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "—",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +7, Culture +12, Diplomacy +12, Sense",
+  "languages": "Noma; parse; shortwave 100 ft.",
+  "other_abilities": "congenial, unliving",
+  "environment": "any urban (Noma)",
+  "organization": "solitary, pair, telemetry (3–30), or cloud (30+)",
+  "special_abilities": [
+    {
+      "name": "Congenial (Ex)",
+      "description": "Protocite speakers relish the opportunity to learn and respond well to positive interactions. They start with a friendly attitude. This attitude worsens only if an attempt at Diplomacy fails by 10 or more."
+    },
+    {
+      "name": "Laser (Ex)",
+      "description": "The protocite speaker’s laser has a range increment of 80 feet."
+    },
+    {
+      "name": "Parse (Ex)",
+      "description": "By spending 10 minutes conversing with a willing creature, a protocite speaker can approximate that creature’s spoken or signed language."
+    },
+    {
+      "name": "Sensory Overload (Ex)",
+      "description": "As a full action, a speaker can spin in place, changing its body while emitting high-pitched shrieks and whistles. Each non-protocite creature within 30 feet must attempt a DC 14 Fortitude save. On a success, the creature is dazzled for 1 round. On a failure, the creature is sickened for 1 round."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "A protocite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Protocites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, protocites gain the sickened condition."
+    }
+  ],
+  "description": "The “life” of a protocite speaker begins with its extrusion from a manufactory into one of Noma’s hex-shaped sectors, where the speaker carries out preprogrammed tasks. Most speakers exist in a state of quiet determination, moving to and fro in an approximation of a sapient creature’s daily life. Speakers also interact with one another, and sometimes with other protocites, as a way of testing and evaluating various social simulations. Noma has created countless communities of speakers, in which the constituents conform to principles such as “value the greater good” or “shun those with different limb configurations.”\nUsually, after a speaker performs its assigned tasks, it powers down. A reclaimer then comes and grinds the speaker back into polyfluid. However, in every generation of speakers, several individuals are constructed with expanded data drives, insatiable curiosity, and no predetermined tasks to allow more autonomy than most. These “observer” speakers roam, watch, and guide other experiments. When they have reached the end of their life cycle, typically after several decades, such speakers seek Noma’s Core. Within this ancient nexus, these speakers are torn limb from limb, relinquishing data drives full of their accumulated experiences.\nA protocite speaker has humanoid features. Despite this appearance, its upper body, limbs, and head are reconfigurable. The construct can recreate a wide variety of physical features and mannerisms.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProtocite Speaker\nSource\nStarfinder #15: Sun Divers pg. 59\nProtocite Speaker CR 2\nXP 600\nN Small construct (technological)\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+7\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+0;\nRef\n+1;\nWill\n+3\nImmunities\nconstruct immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\n30 ft.\nMelee\nslam +7 (1d4+2 B)\nRanged\nlaser +8 (1d4+2 F; critical burn 1d4)\nOffensive Abilities\nsensory overload\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n—;\nINT\n+2;\nWIS\n+0;\nCHA\n+4\nSkills\nAcrobatics +7, Culture +12, Diplomacy +12, Sense \r\nMotive +12\nLanguages\nNoma; parse; shortwave 100 ft.\nOther Abilities\ncongenial, unliving\nEcology\nEnvironment\nany urban (Noma)\nOrganization\nsolitary, pair, telemetry (3–30), or cloud (30+)\nSpecial Abilities\nCongenial (Ex)\nProtocite speakers relish the opportunity to learn and respond well to positive interactions. They start with a friendly attitude. This attitude worsens only if an attempt at Diplomacy fails by 10 or more.\nLaser (Ex)\nThe protocite speaker’s laser has a range increment of 80 feet.\nParse (Ex)\nBy spending 10 minutes conversing with a willing creature, a protocite speaker can approximate that creature’s spoken or signed language.\nSensory Overload (Ex)\nAs a full action, a speaker can spin in place, changing its body while emitting high-pitched shrieks and whistles. Each non-protocite creature within 30 feet must attempt a DC 14 Fortitude save. On a success, the creature is dazzled for 1 round. On a failure, the creature is sickened for 1 round.\nShortwave (Ex)\nA protocite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nSunlight Dependency (Ex)\nProtocites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, protocites gain the sickened condition.\nDescription\nThe “life” of a protocite speaker begins with its extrusion from a manufactory into one of Noma’s hex-shaped sectors, where the speaker carries out preprogrammed tasks. Most speakers exist in a state of quiet determination, moving to and fro in an approximation of a sapient creature’s daily life. Speakers also interact with one another, and sometimes with other protocites, as a way of testing and evaluating various social simulations. Noma has created countless communities of speakers, in which the constituents conform to principles such as “value the greater good” or “shun those with different limb configurations.”\nUsually, after a speaker performs its assigned tasks, it powers down. A reclaimer then comes and grinds the speaker back into polyfluid. However, in every generation of speakers, several individuals are constructed with expanded data drives, insatiable curiosity, and no predetermined tasks to allow more autonomy than most. These “observer” speakers roam, watch, and guide other experiments. When they have reached the end of their life cycle, typically after several decades, such speakers seek Noma’s Core. Within this ancient nexus, these speakers are torn limb from limb, relinquishing data drives full of their accumulated experiences.\nA protocite speaker has humanoid features. Despite this appearance, its upper body, limbs, and head are reconfigurable. The construct can recreate a wide variety of physical features and mannerisms.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

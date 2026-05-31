@@ -1,0 +1,49 @@
+{
+  "name": "Odheo",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Odheo&Family=None",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 58",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "vermin",
+  "init": "+4",
+  "senses": "blindsense (scent) 60 ft., darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "17",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+1",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +8 (1d3+3 S) or harpoon tongue +8 (1d6+1 P)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft. (15 ft. with harpoon tongue)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +5, Athletics +5 (+13 to climb), Stealth +10",
+  "other_abilities": "blood explosion, mindless",
+  "environment": "any underground or urban",
+  "organization": "solitary or infestation (4–20)",
+  "special_abilities": [
+    {
+      "name": "Blood Explosion (Ex)",
+      "description": "When an odheo dies, it pops in a mess of ingested blood and viscous slime. A creature adjacent to the odheo must succeed at a DC 10 Fortitude saving throw or become sickened for 1d4 rounds, after which that creature takes a –2 penalty to saving throws against disease for the next 24 hours. A creature that is already sickened when it fails this saving throw becomes nauseated for 1d4 rounds instead. Odheos are immune to the effects of this ability."
+    },
+    {
+      "name": "Evasive (Ex)",
+      "description": "When a creature attempts a melee or ranged attack against an odheo and misses, the odheo can take a guarded step as a reaction."
+    }
+  ],
+  "description": "Odheos are one of the galaxy’s strongest cases for following proper biocontainment procedures. Originally from Gjor III, these slimy vermin have spread to thousands of space stations, having been unwittingly carried across the galaxy by careless couriers or merchants. Odheos prefer to live in artificial environments, limiting their destruction of natural ecosystems, but this preference is cold comfort to those urban and station residents they torment.\nAn odheo is a bold pest, openly jabbing creatures with its long tongue and then escaping back into hiding before victims can retaliate. They live in vents or engineering tunnels and breed rapidly, making them difficult to remove once they have infested an area. They are also impossible to eat, exploding into a rancid mix of gore and slime when killed, rendering them useless for anything other than aggravation.\nOdheos evolved from an arboreal ancestor that used its long tongue to attach to creatures that passed by. The odheo’s ten chitinous legs and gripping feet still make it extremely adept at climbing almost any surface. Unlike its ancestors, though, an odheo uses its harpoon tongue as its main method of feeding, only moving in to bite creatures that are helpless or dead.\nOdheos lair in cramped spaces, but only a few remain in their filth-covered nest at any one time, while the others hunt. When an odheo nest is discovered and destroyed, any survivors—including those not present for the nest’s annihilation—instinctively hide and hibernate in nooks and crannies. Hibernating odheos can live for up to 3 months without food or liquids, making an odheo infestation extremely hard to eradicate.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOdheo\nSource\nStarfinder #8: Escape from the Prison Moon pg. 58\nOdheo CR 1\nXP 400\nN Tiny vermin\nInit\n+4;\nSenses\nblindsense (scent) 60 ft., darkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n17\nEAC\n11;\nKAC\n13\nFort\n+5;\nRef\n+3;\nWill\n+1\nDefensive Abilities\nevasive\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +8 (1d3+3 S) or harpoon tongue +8 (1d6+1 P)\nSpace\n2-1/2 ft.;\nReach\n0 ft. (15 ft. with harpoon tongue)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n—;\nWIS\n+0;\nCHA\n-2\nSkills\nAcrobatics +5, Athletics +5 (+13 to climb), Stealth +10\nOther Abilities\nblood explosion, mindless\nEcology\nEnvironment\nany underground or urban\nOrganization\nsolitary or infestation (4–20)\nSpecial Abilities\nBlood Explosion (Ex)\nWhen an odheo dies, it pops in a mess of ingested blood and viscous slime. A creature adjacent to the odheo must succeed at a DC 10 Fortitude saving throw or become sickened for 1d4 rounds, after which that creature takes a –2 penalty to saving throws against disease for the next 24 hours. A creature that is already sickened when it fails this saving throw becomes nauseated for 1d4 rounds instead. Odheos are immune to the effects of this ability.\nEvasive (Ex)\nWhen a creature attempts a melee or ranged attack against an odheo and misses, the odheo can take a guarded step as a reaction.\nDescription\nOdheos are one of the galaxy’s strongest cases for following proper biocontainment procedures. Originally from Gjor III, these slimy vermin have spread to thousands of space stations, having been unwittingly carried across the galaxy by careless couriers or merchants. Odheos prefer to live in artificial environments, limiting their destruction of natural ecosystems, but this preference is cold comfort to those urban and station residents they torment.\nAn odheo is a bold pest, openly jabbing creatures with its long tongue and then escaping back into hiding before victims can retaliate. They live in vents or engineering tunnels and breed rapidly, making them difficult to remove once they have infested an area. They are also impossible to eat, exploding into a rancid mix of gore and slime when killed, rendering them useless for anything other than aggravation.\nOdheos evolved from an arboreal ancestor that used its long tongue to attach to creatures that passed by. The odheo’s ten chitinous legs and gripping feet still make it extremely adept at climbing almost any surface. Unlike its ancestors, though, an odheo uses its harpoon tongue as its main method of feeding, only moving in to bite creatures that are helpless or dead.\nOdheos lair in cramped spaces, but only a few remain in their filth-covered nest at any one time, while the others hunt. When an odheo nest is discovered and destroyed, any survivors—including those not present for the nest’s annihilation—instinctively hide and hibernate in nooks and crannies. Hibernating odheos can live for up to 3 months without food or liquids, making an odheo infestation extremely hard to eradicate.",
+  "type": "vermin",
+  "category": "alien"
+}

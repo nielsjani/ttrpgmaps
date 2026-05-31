@@ -1,0 +1,60 @@
+{
+  "name": "Rauzhant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Rauzhant&Family=None",
+  "source": "Starfinder #1: Incident at Absalom Station pg. 59",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "dragon",
+  "init": "+3",
+  "senses": "blindsight (scent) 120 ft.;",
+  "perception": "+13",
+  "hp": "92",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+7",
+  "immunities": "paralysis, sight-based attacks, sleep effects, visual effects and illusions",
+  "weaknesses": "atmosphere dependent, blindsight dependent",
+  "speed": "5 ft., fly 60 ft. (average)",
+  "melee": "bite +17 (1d8+11 P plus clutch)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "rake (2 claws +14, 1d4+11 S)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-2",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +18, Intimidate +13, Survival +13",
+  "languages": "Brethedan",
+  "environment": "any air (Liavara)",
+  "organization": "solitary, pair, or flight (3−6)",
+  "special_abilities": [
+    {
+      "name": "Atmosphere Dependent (Ex)",
+      "description": "A rauzhant depends on an atmosphere rich in hydrogen and helium for its flight. In any other kind of atmosphere, it must hold its breath and its fly speed is reduced to 30 feet (clumsy maneuverability)."
+    },
+    {
+      "name": "Blindsight Dependent (Ex)",
+      "description": "A rauzhant that loses its blindsight ability gains the blinded condition."
+    },
+    {
+      "name": "Clutch (Ex)",
+      "description": "A rauzhant that hits with a bite attack automatically initiates a grapple combat maneuver against its target (this does not take an action). If successful, the rauzhant remains attached to the target until the end of the dragon’s next turn, unless it succeeds at another grapple combat maneuver (with a +4 bonus) during its next turn. The target can break the clutch with a successful DC 30 Acrobatics check to escape. The rauzhant can’t use its bite attack while it is clutching a target, and the target can’t regain Stamina Points while a rauzhant is clutching it."
+    },
+    {
+      "name": "Rake (Ex)",
+      "description": "When a rauzhant succeeds at a grapple combat maneuver while clutching a target, it can make two claw attacks against that target as a move action."
+    }
+  ],
+  "description": "Sometimes inaccurately referred to as clutch wyverns by offworlders, rauzhants soar through the orange-white seas of gas that make up Liavara’s atmosphere. Much less intelligent than chromatic and metallic dragons, rauzhants can still carry on a conversation, but they spend most of their hours hunting for meals. When a rauzhant finds suitable prey, it fastens onto its target with the series of long fangs around its mouth and folds its wings, usually causing both predator and prey to plummet deeper into the planet’s atmosphere. As they both fall, the rauzhant rakes its victim with its hook-shaped claws until the creature is a shredded mass of flesh and bone. The rauzhant then takes flight again, feasting on its victim’s corpse as it gains altitude.\nA rauzhant has no eyes, but its skin acts as an olfactory organ able to detect the faintest smell in the swirling gases that make up its home environment. Instead of collecting physical trinkets like other dragons do, a rauzhant accumulates “tastes,” with the flavor of each new species it eats cataloged within its extensive memory.\nA rauzhant is about 14 feet long from mouth to tail and weighs an average of 2,500 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRauzhant\nSource\nStarfinder #1: Incident at Absalom Station pg. 59\nRauzhant CR 6\nXP 2,400\nN Large dragon\nInit\n+3;\nSenses\nblindsight (scent) 120 ft.;\nPerception\n+13\nDefense\nHP\n92\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+10;\nWill\n+7\nImmunities\nparalysis, sight-based attacks, sleep effects, visual effects and illusions\nWeaknesses\natmosphere dependent, blindsight dependent\nOffense\nSpeed\n5 ft., fly 60 ft. (average)\nMelee\nbite +17 (1d8+11 P plus clutch)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nrake (2 claws +14, 1d4+11 S)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-2;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +18, Intimidate +13, Survival +13\nLanguages\nBrethedan\nEcology\nEnvironment\nany air (Liavara)\nOrganization\nsolitary, pair, or flight (3−6)\nSpecial Abilities\nAtmosphere Dependent (Ex)\nA rauzhant depends on an atmosphere rich in hydrogen and helium for its flight. In any other kind of atmosphere, it must hold its breath and its fly speed is reduced to 30 feet (clumsy maneuverability).\nBlindsight Dependent (Ex)\nA rauzhant that loses its blindsight ability gains the blinded condition.\nClutch (Ex)\nA rauzhant that hits with a bite attack automatically initiates a grapple combat maneuver against its target (this does not take an action). If successful, the rauzhant remains attached to the target until the end of the dragon’s next turn, unless it succeeds at another grapple combat maneuver (with a +4 bonus) during its next turn. The target can break the clutch with a successful DC 30 Acrobatics check to escape. The rauzhant can’t use its bite attack while it is clutching a target, and the target can’t regain Stamina Points while a rauzhant is clutching it.\nRake (Ex)\nWhen a rauzhant succeeds at a grapple combat maneuver while clutching a target, it can make two claw attacks against that target as a move action.\nDescription\nSometimes inaccurately referred to as clutch wyverns by offworlders, rauzhants soar through the orange-white seas of gas that make up Liavara’s atmosphere. Much less intelligent than chromatic and metallic dragons, rauzhants can still carry on a conversation, but they spend most of their hours hunting for meals. When a rauzhant finds suitable prey, it fastens onto its target with the series of long fangs around its mouth and folds its wings, usually causing both predator and prey to plummet deeper into the planet’s atmosphere. As they both fall, the rauzhant rakes its victim with its hook-shaped claws until the creature is a shredded mass of flesh and bone. The rauzhant then takes flight again, feasting on its victim’s corpse as it gains altitude.\nA rauzhant has no eyes, but its skin acts as an olfactory organ able to detect the faintest smell in the swirling gases that make up its home environment. Instead of collecting physical trinkets like other dragons do, a rauzhant accumulates “tastes,” with the flavor of each new species it eats cataloged within its extensive memory.\nA rauzhant is about 14 feet long from mouth to tail and weighs an average of 2,500 pounds.",
+  "type": "dragon",
+  "category": "alien"
+}

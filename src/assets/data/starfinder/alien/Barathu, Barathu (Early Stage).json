@@ -1,0 +1,49 @@
+{
+  "name": "Barathu, Barathu (Early Stage)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Barathu (Early Stage)&Family=Barathu",
+  "source": "Alien Archive pg. 20",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+7",
+  "speed": "fly 30 ft. (Ex, average)",
+  "melee": "slam +8 (1d4+3 B)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Diplomacy +8, Life Science +8, Sense Motive +13",
+  "languages": "Brethedan, Common; limited telepathy 30 ft.",
+  "other_abilities": "along for the ride, early stage adaptation",
+  "environment": "any sky (Bretheda)",
+  "organization": "solitary or herd (4–12 plus 2–5 barathus)",
+  "special_abilities": [
+    {
+      "name": "Along for the Ride (Ex)",
+      "description": "Early stage barathus are not experienced enough to helpfully combine with mature barathus but can still physically merge with them for protection. An early stage barathu can combine with a mature barathu via the latter’s combine ability. Early stage barathus that are part of a combined creature contribute their Hit Points but not adaptations."
+    },
+    {
+      "name": "Early Stage Adaptation (Ex)",
+      "description": "An early stage barathu’s body is mutable and can adapt to many different situations. Once every 1d4 rounds as a swift action, an early stage barathu can reshape its body and adjust its chemistry to gain one of the following qualities. The adaptation lasts until the beginning of the early stage barathu’s next turn. Unlike more mature barathus, early stage barathus are not generally capable of more complex adaptations.\nUpper limb refinements enable the barathu to add an additional amount of damage to melee attacks equal to its Strength modifier.\nA toughened dermal layer grants its a +1 racial bonus to AC.\nDeveloped lower limbs grant it a base speed of 15 feet.\nMolecular-level modifications grant it resistance 2 against a single energy type (acid, cold, electricity, fire, or sonic).\nElongated limbs extend its reach to 10 feet."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nBarathu (Early Stage) Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBarathu\nSource\nAlien Archive pg. 20\nBarathus are the sentient apex of Bretheda’s gas-giant ecosystem, blimp-like creatures vaguely reminiscent of jellyfish, with several unusual evolutionary adaptations. The first is their ability to rewrite their own genetic code instinctively and at will, adjusting their own biology to allow them to manufacture a huge array of substances—and even advanced biotechnology— within the crucibles of their own bodies. Yet while this ability makes them quite successful in the Pact Worlds economy, and has deeply influenced their culture’s understanding of wealth and trade, their more notable adaptation is the ability to combine with others of their kind into larger, hive-minded superentities. These mergings create not merely amalgams of their component beings, but entirely new entities with unique and independent consciousnesses, yet which in turn often disband back into their component individuals after a particular need or threat has passed.\nBarathu culture tends to be easygoing but hard for some other races to understand, as the barathus’ frequent merging makes the concept of “self” somewhat nebulous to them. Young barathus who grow up surrounded by humanoids are an exception, as they are better able to appreciate the mindsets of creatures who exist in static, solitary configurations. Compared to older barathus, early stage barathus are more adventurous and individualistic, and their adaptation to the humanoid mindset makes it more difficult for them to merge completely with others of their kind. Most of these early stage barathus grow out of this phase, gaining the ability to fully integrate with others, yet recent generations have seen more and more barathus deliberately clinging to their juvenile mindsets. While plenty of barathus remain discrete entities for most of their lives, barathus nearing the ends of their lives often merge with massive, permanent combinatory entities that serve as corporations, governments, or cultural repositories.\nAliens in the \"Barathu\" Family\nName\nCR\nBarathu\n5\nBarathu (Early Stage)\n2\nBarathu, Barathu (Early Stage)\nSource\nAlien Archive pg. 20\nBarathu (Early Stage) CR 2\nXP 600\nLN Medium aberration\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+3;\nRef\n+1;\nWill\n+7\nDefensive Abilities\namorphous\nOffense\nSpeed\nfly 30 ft. (Ex, average)\nMelee\nslam +8 (1d4+3 B)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+2;\nINT\n+1;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +13, Diplomacy +8, Life Science +8, Sense Motive +13\nLanguages\nBrethedan, Common; limited telepathy 30 ft.\nOther Abilities\nalong for the ride, early stage adaptation\nEcology\nEnvironment\nany sky (Bretheda)\nOrganization\nsolitary or herd (4–12 plus 2–5 barathus)\nSpecial Abilities\nAlong for the Ride (Ex)\nEarly stage barathus are not experienced enough to helpfully combine with mature barathus but can still physically merge with them for protection. An early stage barathu can combine with a mature barathu via the latter’s combine ability. Early stage barathus that are part of a combined creature contribute their Hit Points but not adaptations.\nEarly Stage Adaptation (Ex)\nAn early stage barathu’s body is mutable and can adapt to many different situations. Once every 1d4 rounds as a swift action, an early stage barathu can reshape its body and adjust its chemistry to gain one of the following qualities. The adaptation lasts until the beginning of the early stage barathu’s next turn. Unlike more mature barathus, early stage barathus are not generally capable of more complex adaptations.\nUpper limb refinements enable the barathu to add an additional amount of damage to melee attacks equal to its Strength modifier.\nA toughened dermal layer grants its a +1 racial bonus to AC.\nDeveloped lower limbs grant it a base speed of 15 feet.\nMolecular-level modifications grant it resistance 2 against a single energy type (acid, cold, electricity, fire, or sonic).\nElongated limbs extend its reach to 10 feet.\nExtra Content\nThe following extra content was found for this creature:\n-\nBarathu (Early Stage) Race Entry",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Barathu_Early_Stage.png"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Iztheptar",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Iztheptar&Family=None",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 57",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "humanoid",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+5",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "venom spur +16 (1d6+10 P plus poison)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+0",
+    "wis": "-1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +18, Life Science +13, Medicine +13",
+  "languages": "Azlanti",
+  "other_abilities": "biotech adaptive, natural bioengineer",
+  "environment": "any",
+  "organization": "solitary, pair, or cluster (3–8)",
+  "special_abilities": [
+    {
+      "name": "Adaptive Fortitude (Ex)",
+      "description": "Whenever an iztheptar succeeds at a Fortitude saving throw against a disease, an environmental hazard, or a poison, it receives a +2 insight bonus to Fortitude saving throws against the same disease, environmental hazard, or poison for the next 24 hours. This bonus also applies to Constitution checks for long-term stability and can stack up to +10. If an iztheptar survives exposure to a disease, environmental hazard, or poison for 3 days, it adapts and no longer needs to attempt saving throws against that specific affliction or hazard. If an iztheptar adapts to an affliction that can be cured without magic, the affliction is cured. An iztheptar loses this benefit if it spends more than 30 days without exposure to the affliction or hazard."
+    },
+    {
+      "name": "Adaptive Healing (Ex)",
+      "description": "An iztheptar recovers quickly. The DC of Medicine checks to treat an iztheptar is 5 lower than normal. An iztheptar recovers Hit Points and ability damage at twice the normal rate and recovers from poison and disease in half the normal time. When an iztheptar regains all its Hit Points, it also regrows any lost limbs or organs associated with that Hit Point loss."
+    },
+    {
+      "name": "Biotech Adaptive (Ex)",
+      "description": "An iztheptar can install one additional biotech augmentation into one system that already has a biotech augmentation."
+    },
+    {
+      "name": "Natural Bioengineer (Ex)",
+      "description": "An iztheptar is intuitively adept at Life Science and Medicine. It can use Life Science to craft, identify, and repair biotech."
+    }
+  ],
+  "description": "When they were free, iztheptars lived in hives unified by telepathy. The Azlanti used various techniques combined with iztheptar adaptability to strengthen loyalty, further lower individuality, and diminish potentially subversive telepathy. Now, iztheptars contentedly serve their enslavers in roles varying from high-risk explorers to exotic pets.\nThese creatures have unique reproduction. If an iztheptar perishes, part of the dead creature grows into an infant with genetic material altered based on the local environment, influencing traits and personality. An infant iztheptar imprints on the first beings that care for it, a trait useful for the communal creatures that was easily exploited by the Azlanti.\nIztheptars are natural survivors adept at biotech. They use both capabilities to endure extreme environments and alter local flora and fauna to suit their needs. Azlanti send iztheptars ahead of colonists to test environments and push ecosystems in favorable directions, with little concern for the iztheptars’ survival. The statistics here detail just such a tough iztheptar terraformer.\nAn iztheptar matures at 7 years and can live for centuries. An adult iztheptar is 3 feet tall and weighs 55 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nIztheptar\nSource\nStarfinder #8: Escape from the Prison Moon pg. 57\nIztheptar CR 6\nXP 2,400\nN Small humanoid\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13 (+15 with vision)\nDefense\nHP\n90;\nRP\n4\nEAC\n18;\nKAC\n20\nFort\n+9;\nRef\n+7;\nWill\n+5\nDefensive Abilities\nadaptive fortitude, adaptive healing\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nvenom spur +16 (1d6+10 P plus poison)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+5;\nINT\n+0;\nWIS\n-1;\nCHA\n-2\nSkills\nAthletics +18, Life Science +13, Medicine +13\nLanguages\nAzlanti\nOther Abilities\nbiotech adaptive, natural bioengineer\nAugmentations\nadaptive biochains (darkvision capacitors, wide-spectrum ocular implant), dragon gland (15-ft. cone, 3d6 A; Reflex DC 14 half), gill sheath, venom spur (DC 14)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or cluster (3–8)\nSpecial Abilities\nAdaptive Fortitude (Ex)\nWhenever an iztheptar succeeds at a Fortitude saving throw against a disease, an environmental hazard, or a poison, it receives a +2 insight bonus to Fortitude saving throws against the same disease, environmental hazard, or poison for the next 24 hours. This bonus also applies to Constitution checks for long-term stability and can stack up to +10. If an iztheptar survives exposure to a disease, environmental hazard, or poison for 3 days, it adapts and no longer needs to attempt saving throws against that specific affliction or hazard. If an iztheptar adapts to an affliction that can be cured without magic, the affliction is cured. An iztheptar loses this benefit if it spends more than 30 days without exposure to the affliction or hazard.\nAdaptive Healing (Ex)\nAn iztheptar recovers quickly. The DC of Medicine checks to treat an iztheptar is 5 lower than normal. An iztheptar recovers Hit Points and ability damage at twice the normal rate and recovers from poison and disease in half the normal time. When an iztheptar regains all its Hit Points, it also regrows any lost limbs or organs associated with that Hit Point loss.\nBiotech Adaptive (Ex)\nAn iztheptar can install one additional biotech augmentation into one system that already has a biotech augmentation.\nNatural Bioengineer (Ex)\nAn iztheptar is intuitively adept at Life Science and Medicine. It can use Life Science to craft, identify, and repair biotech.\nDescription\nWhen they were free, iztheptars lived in hives unified by telepathy. The Azlanti used various techniques combined with iztheptar adaptability to strengthen loyalty, further lower individuality, and diminish potentially subversive telepathy. Now, iztheptars contentedly serve their enslavers in roles varying from high-risk explorers to exotic pets.\nThese creatures have unique reproduction. If an iztheptar perishes, part of the dead creature grows into an infant with genetic material altered based on the local environment, influencing traits and personality. An infant iztheptar imprints on the first beings that care for it, a trait useful for the communal creatures that was easily exploited by the Azlanti.\nIztheptars are natural survivors adept at biotech. They use both capabilities to endure extreme environments and alter local flora and fauna to suit their needs. Azlanti send iztheptars ahead of colonists to test environments and push ecosystems in favorable directions, with little concern for the iztheptars’ survival. The statistics here detail just such a tough iztheptar terraformer.\nAn iztheptar matures at 7 years and can live for centuries. An adult iztheptar is 3 feet tall and weighs 55 pounds.",
+  "type": "humanoid",
+  "category": "alien"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Hellhound",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hellhound&Family=Hellhound",
+  "source": "Starfinder #47: Nightmare Scenario pg. 59",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil)",
+  "init": "+6",
+  "senses": "see in darkness;",
+  "perception": "+10",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+2",
+  "immunities": "fire, poison;",
+  "resistances": "acid 5, electricity 5",
+  "weaknesses": "vulnerable to cold",
+  "speed": "40 ft.",
+  "melee": "bite +12 (1d6+7 P)",
+  "ranged": "flamethrower +9 (1d4+3 F; critical burn 1d4 [DC 12])",
+  "offensive_abilities": "breath weapon (15-ft. cone, 4d6 F, Reflex DC 12 half, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +10, Survival +5, Stealth +5",
+  "languages": "Infernal (cannot speak); telepathy 100 ft.",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Flamethrower",
+      "description": "A hellhound has a cybernetic flamethrower installed in its throat. The flamethrower has a range of 60 feet."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHellhound\nSource\nStarfinder #47: Nightmare Scenario pg. 59\nFavored companions of powerful hellknights and diabolists, hellhounds are loyal pack hunters that stalk the infernal plane of Hell. Though vaguely canine in appearance, hellhounds aren’t really dogs or wolves. Often, a mortal or infernal master augments a hellhound servant with cybernetic grafts.\nAliens in the \"Hellhound\" Family\nName\nCR\nHellhound\n3\nRavager\n12\nHellhound\nSource\nStarfinder #47: Nightmare Scenario pg. 59\nHellhound CR 3\nXP 800\nLE Medium outsider (devil)\nInit\n+6;\nSenses\nsee in darkness;\nPerception\n+10\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+7;\nRef\n+5;\nWill\n+2\nImmunities\nfire, poison;\nResistances\nacid 5, electricity 5\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n40 ft.\nMelee\nbite +12 (1d6+7 P)\nRanged\nflamethrower +9 (1d4+3 F; critical burn 1d4 [DC 12])\nOffensive Abilities\nbreath weapon (15-ft. cone, 4d6 F, Reflex DC 12 half, usable every 1d4 rounds)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+2;\nINT\n+1;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +10, Survival +5, Stealth +5\nLanguages\nInfernal (cannot speak); telepathy 100 ft.\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nFlamethrower\nA hellhound has a cybernetic flamethrower installed in its throat. The flamethrower has a range of 60 feet.",
+  "type": "outsider (devil)",
+  "category": "alien"
+}

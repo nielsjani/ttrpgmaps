@@ -1,0 +1,54 @@
+{
+  "name": "Clockwork Guardian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Clockwork Guardian&Family=None",
+  "source": "Starfinder #42: Whispers of the Eclipse pg. 52",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+3",
+  "dr": "5/—",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft.",
+  "melee": "slam +14 (1d8+9 B)",
+  "ranged": "AG accelerator rifle +17 (3d4+6 P)",
+  "offensive_abilities": "clockwork reload",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "—",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +18, Athletics +13, Stealth +13",
+  "languages": "Azlanti (can’t speak)",
+  "other_abilities": "mindless, unliving",
+  "gear": "integrated AG accelerator rifle",
+  "environment": "any",
+  "organization": "solitary, pair, squad (3–8), or troop (10–100)",
+  "special_abilities": [
+    {
+      "name": "Clockwork Reload (Ex)",
+      "description": "The clockwork guardian reloads its weapons with an integrated system powered by its own movement. When using a move action to move up to its speed, the clockwork guard can also reload its AG accelerator rifle."
+    },
+    {
+      "name": "Overwind (Ex)",
+      "description": "When the clockwork guardian is struck by a critical hit, its interior springs overwind, imposing excessive tension and energy on its system. As a full action before the end of its next turn, the clockwork guardian can wildly spin its torso and limbs, striking all adjacent creatures. This attack deals 1d6+9 bludgeoning damage to each creature (DC 14 Reflex half)."
+    }
+  ],
+  "description": "After leaving the Golarion system and founding New Thespera, the Azlanti who would become the cruel and infamous Star Empire expanded rapidly from their new home world—to quickly supply sufficient personnel to every additional military installation across their solar system. To supplement ground forces, Azlanti engineers built clockwork guardians from precision-cut steel; the designs of these humanoid constructs included keen detection systems and powerful weapons. Just a few human Azlanti troops could hold a new base with the help of a team of clockwork guardians. The conquered people of the Aristia system quickly grew to recognize and fear the distinct sounds of clockwork guardians: an ever-present ticking that grows louder, but never faster, as they prepare for battle.\nPowered by Azlanti clockwork, these constructs wind their own springs while moving, making them exceptionally energy-efficient. While nothing can self-power indefinitely, clockwork guardians can remain functional for an extremely long time without external winding. These constructs have visible clockworks and cogs over their entire forms, though with enough resiliency built in so that a single pebble or loose nut doesn’t seize up the entire unit. Clockwork guardians intended for particularly harsh terrains sometimes have shells to protect their inner workings, but many military leaders of the Empire liked the aesthetic of the visible gears and requested such coverings to be made of clear crystal or plastic.\nThe Azlanti had several advanced models of clockwork guardians, outfitting them with wings, fins, or alternate weapons, depending on the terrain at their areas of deployment. These constructs have uses beyond combat, too. While not intelligent, clockwork guardians can be programmed by Azlanti engineers to carry out simple commands to help construct military bases, weapons, and starships. Such tasks usually included repetitive button-pushing or carrying heavy cargo from one place to another. It’s little surprise that many of the Azlanti Star Empire’s first flights with its early and dangerous faster-than-light drives included many of these expendable guardians as extra crew.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nClockwork Guardian\nSource\nStarfinder #42: Whispers of the Eclipse pg. 52\nClockwork Guardian CR 6\nXP 2,400\nN Medium construct (technological)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+6;\nRef\n+6;\nWill\n+3\nDefensive Abilities\nintegrated weapons, overwind;\nDR\n5/—;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft.\nMelee\nslam +14 (1d8+9 B)\nRanged\nAG accelerator rifle +17 (3d4+6 P)\nOffensive Abilities\nclockwork reload\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n—;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +18, Athletics +13, Stealth +13\nLanguages\nAzlanti (can’t speak)\nOther Abilities\nmindless, unliving\nGear\nintegrated AG accelerator rifle\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, squad (3–8), or troop (10–100)\nSpecial Abilities\nClockwork Reload (Ex)\nThe clockwork guardian reloads its weapons with an integrated system powered by its own movement. When using a move action to move up to its speed, the clockwork guard can also reload its AG accelerator rifle.\nOverwind (Ex)\nWhen the clockwork guardian is struck by a critical hit, its interior springs overwind, imposing excessive tension and energy on its system. As a full action before the end of its next turn, the clockwork guardian can wildly spin its torso and limbs, striking all adjacent creatures. This attack deals 1d6+9 bludgeoning damage to each creature (DC 14 Reflex half).\nDescription\nAfter leaving the Golarion system and founding New Thespera, the Azlanti who would become the cruel and infamous Star Empire expanded rapidly from their new home world—to quickly supply sufficient personnel to every additional military installation across their solar system. To supplement ground forces, Azlanti engineers built clockwork guardians from precision-cut steel; the designs of these humanoid constructs included keen detection systems and powerful weapons. Just a few human Azlanti troops could hold a new base with the help of a team of clockwork guardians. The conquered people of the Aristia system quickly grew to recognize and fear the distinct sounds of clockwork guardians: an ever-present ticking that grows louder, but never faster, as they prepare for battle.\nPowered by Azlanti clockwork, these constructs wind their own springs while moving, making them exceptionally energy-efficient. While nothing can self-power indefinitely, clockwork guardians can remain functional for an extremely long time without external winding. These constructs have visible clockworks and cogs over their entire forms, though with enough resiliency built in so that a single pebble or loose nut doesn’t seize up the entire unit. Clockwork guardians intended for particularly harsh terrains sometimes have shells to protect their inner workings, but many military leaders of the Empire liked the aesthetic of the visible gears and requested such coverings to be made of clear crystal or plastic.\nThe Azlanti had several advanced models of clockwork guardians, outfitting them with wings, fins, or alternate weapons, depending on the terrain at their areas of deployment. These constructs have uses beyond combat, too. While not intelligent, clockwork guardians can be programmed by Azlanti engineers to carry out simple commands to help construct military bases, weapons, and starships. Such tasks usually included repetitive button-pushing or carrying heavy cargo from one place to another. It’s little surprise that many of the Azlanti Star Empire’s first flights with its early and dangerous faster-than-light drives included many of these expendable guardians as extra crew.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Creeping Shade",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Creeping Shade&Family=None",
+  "source": "Starfinder #11: The Penumbra Protocol pg. 55",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (incorporeal)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "112",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+11",
+  "speed": "15 ft., climb 15 ft.",
+  "melee": "incorporeal touch +18 (1d12+8 C; critical inhabit)",
+  "offensive_abilities": "gloom spores, inhabit (DC 18)",
+  "skills": "Athletics +16, Stealth +21, Survival +16",
+  "feats": "Spring Attack",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary or garden (2–7)",
+  "special_abilities": [
+    {
+      "name": "Gloom Spores (Su)",
+      "description": "A creature affected by a creeping shade’s inhabit ability risks being poisoned by gloom spores when the creeping shade leaves its body. For every round past the first that a creeping shade has inhabited a creature’s body, the creature takes a cumulative –1 penalty to the saving throw to resist the poison."
+    },
+    {
+      "name": "Inhabit (Su)",
+      "description": "When a creeping shade scores a critical hit on a living creature, it enters that creature’s space (this doesn’t provoke an attack of opportunity) and merges with the creature’s body for 1d6+1 rounds. The creeping shade doesn’t control the creature it inhabits, but does make the creature feel an overwhelming sense of melancholy. An inhabited creature can’t benefit from morale bonuses. Every round after the first, an inhabited creature can attempt a DC 18 Fortitude save to eject the creeping shade from its body. In addition, a creeping shade can inhabit an adjacent, unconscious living creature as a full action if that creature fails a DC 18 Fortitude save. When a creeping shade leaves an inhabited creature’s body (either if it is ejected or if the duration of the ability ends), it appears in an adjacent square of its choosing and regains 5d8 Hit Points, and the affected creature is subjected to gloom spores.\nGloom Spores\nType\npoison (contact);\nSave\nFortitude DC 18\nTrack\nWisdom (special);\nFrequency\n1/minute for 6 minutes\nEffect\nprogression track is Healthy—Weakened—Impaired—Confused—Comatose—Comatose. The second comatose functions as an end state.\nCure\n1 save"
+    }
+  ],
+  "description": "Creeping shades are incorporeal, plantlike creatures originating on the Shadow Plane. A creeping shade lies in wait to strike at passing prey with its incorporeal touch, attempting to inhabit the creature and infect it with gloom spores. The victim usually falls comatose a few minutes later, after which it is killed by nearby predators, leaving the corpse behind to fertilize nearby plant life, including the creeping shade.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCreeping Shade\nSource\nStarfinder #11: The Penumbra Protocol pg. 55\nCreeping Shade CR 8\nXP 4,800\nNE Medium outsider (incorporeal)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n112\nEAC\n20;\nKAC\n21\nFort\n+9;\nRef\n+7;\nWill\n+11\nDefensive Abilities\nincorporeal\nOffense\nSpeed\n15 ft., climb 15 ft.\nMelee\nincorporeal touch +18 (1d12+8 C; critical inhabit)\nOffensive Abilities\ngloom spores, inhabit (DC 18)\nStatistics\nSTR\n—;\nDEX\n+6;\nCON\n+3;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nFeats\nSpring Attack\nSkills\nAthletics +16, Stealth +21, Survival +16\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary or garden (2–7)\nSpecial Abilities\nGloom Spores (Su)\nA creature affected by a creeping shade’s inhabit ability risks being poisoned by gloom spores when the creeping shade leaves its body. For every round past the first that a creeping shade has inhabited a creature’s body, the creature takes a cumulative –1 penalty to the saving throw to resist the poison.\nInhabit (Su)\nWhen a creeping shade scores a critical hit on a living creature, it enters that creature’s space (this doesn’t provoke an attack of opportunity) and merges with the creature’s body for 1d6+1 rounds. The creeping shade doesn’t control the creature it inhabits, but does make the creature feel an overwhelming sense of melancholy. An inhabited creature can’t benefit from morale bonuses. Every round after the first, an inhabited creature can attempt a DC 18 Fortitude save to eject the creeping shade from its body. In addition, a creeping shade can inhabit an adjacent, unconscious living creature as a full action if that creature fails a DC 18 Fortitude save. When a creeping shade leaves an inhabited creature’s body (either if it is ejected or if the duration of the ability ends), it appears in an adjacent square of its choosing and regains 5d8 Hit Points, and the affected creature is subjected to gloom spores.\nGloom Spores\nType\npoison (contact);\nSave\nFortitude DC 18\nTrack\nWisdom (special);\nFrequency\n1/minute for 6 minutes\nEffect\nprogression track is Healthy—Weakened—Impaired—Confused—Comatose—Comatose. The second comatose functions as an end state.\nCure\n1 save\nDescription\nCreeping shades are incorporeal, plantlike creatures originating on the Shadow Plane. A creeping shade lies in wait to strike at passing prey with its incorporeal touch, attempting to inhabit the creature and infect it with gloom spores. The victim usually falls comatose a few minutes later, after which it is killed by nearby predators, leaving the corpse behind to fertilize nearby plant life, including the creeping shade.",
+  "type": "outsider (incorporeal)",
+  "category": "alien"
+}

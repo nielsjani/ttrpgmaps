@@ -1,0 +1,130 @@
+<div class="sf-list-page">
+  <a class="back-link" [routerLink]="backRoute">← Back to Starfinder</a>
+  <h1>{{ title }}</h1>
+
+  <!-- ===================== FILTER BAR ===================== -->
+  <div class="filters">
+    <!-- Row 1: text search -->
+    <div class="filter-row">
+      <div class="filter-group search-group">
+        <label class="filter-label">Search</label>
+        <input class="search-input" type="text" [(ngModel)]="searchText"
+               placeholder="Filter by name or type…">
+      </div>
+    </div>
+
+    <!-- Row 2: dropdowns + CR slider -->
+    <div class="filter-row">
+
+      <!-- Type multiselect -->
+      <div class="filter-group">
+        <label class="filter-label">Type</label>
+        <div class="dropdown" [class.open]="openDropdown === 'type'">
+          <button class="dropdown-btn" (click)="toggleDropdown('type', $event)">
+            {{ typeLabel }}<span class="caret">▾</span>
+          </button>
+          <div class="dropdown-panel" (click)="stopProp($event)">
+            <input class="dp-search" type="text" [(ngModel)]="typeSearch"
+                   placeholder="Search types…">
+            <div class="dp-options">
+              <label class="dp-option" *ngFor="let t of filteredTypeOptions">
+                <input type="checkbox" [checked]="selectedTypes.has(t)" (change)="toggleType(t)">
+                <span>{{ t }}</span>
+              </label>
+              <div class="dp-empty" *ngIf="filteredTypeOptions.length === 0">No results</div>
+            </div>
+            <div class="dp-footer">
+              <button (click)="clearTypes()">Clear selection</button>
+              <span class="dp-count">{{ selectedTypes.size }} / {{ allTypes.length }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Environment multiselect -->
+      <div class="filter-group">
+        <label class="filter-label">Environment</label>
+        <div class="dropdown" [class.open]="openDropdown === 'env'">
+          <button class="dropdown-btn" (click)="toggleDropdown('env', $event)">
+            {{ envLabel }}<span class="caret">▾</span>
+          </button>
+          <div class="dropdown-panel" (click)="stopProp($event)">
+            <input class="dp-search" type="text" [(ngModel)]="envSearch"
+                   placeholder="Search environments…">
+            <div class="dp-options">
+              <label class="dp-option" *ngFor="let e of filteredEnvOptions">
+                <input type="checkbox" [checked]="selectedEnvironments.has(e)" (change)="toggleEnv(e)">
+                <span>{{ e }}</span>
+              </label>
+              <div class="dp-empty" *ngIf="filteredEnvOptions.length === 0">No results</div>
+            </div>
+            <div class="dp-footer">
+              <button (click)="clearEnvs()">Clear selection</button>
+              <span class="dp-count">{{ selectedEnvironments.size }} / {{ allEnvironments.length }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CR dual slider -->
+      <div class="filter-group cr-group">
+        <label class="filter-label">CR: {{ crLabel(crMin) }} – {{ crLabel(crMax) }}</label>
+        <div class="cr-slider-wrapper">
+          <div class="cr-track"></div>
+          <div class="cr-track-fill" [ngStyle]="crFillStyle"></div>
+          <input type="range" min="0" max="30" step="1"
+                 [value]="crMin" (input)="onCrMinInput($event)">
+          <input type="range" min="0" max="30" step="1"
+                 [value]="crMax" (input)="onCrMaxInput($event)">
+        </div>
+        <div class="cr-labels"><span>0</span><span>30</span></div>
+      </div>
+
+      <!-- Clear all -->
+      <div class="filter-group clear-group" *ngIf="hasActiveFilters">
+        <label class="filter-label">&nbsp;</label>
+        <button class="clear-all-btn" (click)="clearAll()">✕ Clear all</button>
+      </div>
+
+    </div><!-- /filter-row -->
+  </div><!-- /filters -->
+
+  <!-- Results count -->
+  <div class="results-bar">
+    <span class="results-count">
+      Showing <strong>{{ filteredEntries.length }}</strong> of {{ entries.length }} entries
+    </span>
+  </div>
+
+  <!-- Loading / error -->
+  <div class="state-msg loading" *ngIf="loading">Loading…</div>
+  <div class="state-msg error"   *ngIf="error">{{ error }}</div>
+
+  <!-- Table -->
+  <div class="table-wrapper" *ngIf="!loading && !error">
+    <table class="sf-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>CR</th>
+          <th>Type</th>
+          <th>Environment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let entry of filteredEntries">
+          <td class="name-cell">
+            <a [routerLink]="[entry.slug]">{{ entry.name }}</a>
+          </td>
+          <td class="cr-cell">{{ entry.cr || '—' }}</td>
+          <td>{{ entry.type || '—' }}</td>
+          <td>{{ entry.environment || '—' }}</td>
+        </tr>
+        <tr *ngIf="filteredEntries.length === 0">
+          <td colspan="4" class="no-results">No entries match the current filters.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

@@ -1,0 +1,55 @@
+{
+  "name": "Weaponized Toy, Weaponized Gamedroid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Weaponized Gamedroid&Family=Weaponized Toy",
+  "source": "Alien Archive 3 pg. 132",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "construct (magical, technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+7",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to critical hits, vulnerable to electricity",
+  "speed": "10 ft., fly 30 ft. (Ex, average)",
+  "melee": "slam +13 (1d6+6 B)",
+  "offensive_abilities": "casting unit",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th; melee +13",
+    "spells": "1/day—\nfabricate scrap\n,\njolting surge\n,\njunksword\n(2nd level)\n2/day—\nmagic missile\n,\nwisp ally\nAt will—\ndisguise self\n(DC 17),\nholographic image\n(3rd level, DC 19),\npsychokinetic hand\n,\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "—",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +13, Disguise +18",
+  "languages": "Common, up to 2 other languages",
+  "other_abilities": "sound modulation",
+  "environment": "any",
+  "organization": "solitary, pair, or squad (3–9)",
+  "special_abilities": [
+    {
+      "name": "Casting Unit (Ex)",
+      "description": "A weaponized gamedroid gains its spells from a special amalgamation of spell chips known as a casting unit. Some of the spells a weaponized gamedroid can cast vary, usually based on a theme, but like non-weaponized gamedroids, they typically use\nholographic image\nto build a gaming environment,\ndisguise self\nto change their appearance in that environment,\npsychokinetic hand\nto manipulate the player in minor ways, and\ntoken spell\nfor some special effects. The gamedroid can concentrate on\nholographic image\nas a swift action on each of its turns, and it can cast spells while so doing. In addition, when a gamedroid casts\ndisguise self\n, it can appear to be as little as 1 foot in diameter or as big as 8 feet tall."
+    },
+    {
+      "name": "Sound Modulation (Ex)",
+      "description": "A weaponized gamedroid can change its voice and other sounds it makes. This trait grants the gamedroid a +2 circumstance bonus to Disguise checks if a change in sound helps the disguise."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWeaponized Toy\nSource\nAlien Archive 3 pg. 132\nAs the weapons trade thrives, companies have become more strict about items they ship or allow in baggage. Weapons and combat-oriented creatures are commonly banned. In response, arms dealers and tech-minded assassins build combat drones disguised as toys. Many of these constructs are concealed only for transport, but some integrate their innocuous appearance into their functions with the intent of fooling potential victims as much as shipping securely. Not to be overlooked is the humiliation of being attacked by a toy.\nOne popular design is the devil-in-a-box. A figure, scary or cute, is stuffed into a box or similar container, from which it springs when activated. The construct has serrated limbs or jaws capable of slicing through modern composites and a keen virtual intelligence programmed to identify and track targets and to maim or kill. Common “devils” range from literal fiends to skittermanders with saw-like jaws or model Swarm thresher lords. These murderous toys are common enough that modern security gives more scrutiny to them in customs and boarding processes, but telling a mere toy from a killer drone is difficult.\nHigh-end gaming devices have been used for similar ends. Gamedroids normally function, singly or in groups, to create sophisticated holographic game environments using rechargeable banks of spell chips embedded in their onboard casting units. Installing new spell chips into a prepackaged casting unit is difficult. However, weaponized casting units can be scratch-built in a reasonable amount of time and installed into gamedroids. A shipment of gamedroids can then become a delivery of assassins, loaded with combat magic. Like other weaponized toys, these lethal constructs need only to be assigned a target. And, since off-the-shelf models can be weaponized, tracing the perpetrators can be problematic.\nLaws to control weaponized toys are hard to create and enforce. Lobbyists balk at legislation that burdens manufacturers or slows shipping. Apostae’s lobbyists in particular have been vocal that laws mustn’t hold producers accountable for misuse of their goods, as the precedent would be untenable and the reach overlarge. Responsibility lies, industry advocates insist, with law enforcement and the criminals who perpetrate such abuse.\nAliens in the \"Weaponized Toy\" Family\nName\nCR\nWeaponized Devil-in-a-box\n3\nWeaponized Gamedroid\n6\nWeaponized Toy, Weaponized Gamedroid\nSource\nAlien Archive 3 pg. 132\nWeaponized Gamedroid CR 6\nXP 2,400\nN Small construct (magical, technological)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+3;\nRef\n+3;\nWill\n+7\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to critical hits, vulnerable to electricity\nOffense\nSpeed\n10 ft., fly 30 ft. (Ex, average)\nMelee\nslam +13 (1d6+6 B)\nOffensive Abilities\ncasting unit\nSpell-Like Abilities\n(CL 6th; melee +13)\n1/day—\nfabricate scrap\n,\njolting surge\n,\njunksword\n(2nd level)\n2/day—\nmagic missile\n,\nwisp ally\nAt will—\ndisguise self\n(DC 17),\nholographic image\n(3rd level, DC 19),\npsychokinetic hand\n,\ntoken spell\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n—;\nINT\n+2;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +13, Disguise +18\nLanguages\nCommon, up to 2 other languages\nOther Abilities\nsound modulation\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or squad (3–9)\nSpecial Abilities\nCasting Unit (Ex)\nA weaponized gamedroid gains its spells from a special amalgamation of spell chips known as a casting unit. Some of the spells a weaponized gamedroid can cast vary, usually based on a theme, but like non-weaponized gamedroids, they typically use\nholographic image\nto build a gaming environment,\ndisguise self\nto change their appearance in that environment,\npsychokinetic hand\nto manipulate the player in minor ways, and\ntoken spell\nfor some special effects. The gamedroid can concentrate on\nholographic image\nas a swift action on each of its turns, and it can cast spells while so doing. In addition, when a gamedroid casts\ndisguise self\n, it can appear to be as little as 1 foot in diameter or as big as 8 feet tall.\nSound Modulation (Ex)\nA weaponized gamedroid can change its voice and other sounds it makes. This trait grants the gamedroid a +2 circumstance bonus to Disguise checks if a change in sound helps the disguise.",
+  "type": "construct (magical, technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Weaponized_Toy_Gamedroid.png"
+}

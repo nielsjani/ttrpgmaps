@@ -1,0 +1,51 @@
+{
+  "name": "Kathrepi Shade",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kathrepi Shade&Family=None",
+  "source": "Starfinder #48: Masters of Time and Space pg. 57",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., sense through (vision) 60 ft.;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+7",
+  "speed": "30 ft.",
+  "melee": "slam +7 (1d4+3 B)",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st; ranged +9",
+    "spells": "1/day—\ndaze monster\n(DC 17),\nmind thrust\n(DC 17)\n3/day—\ndetect thoughts\n(DC 16),\nlesser confusion\n(DC 16),\nwisp ally\nAt will—\npsychokinetic hand\n,\ntelekinetic projectile"
+  },
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Computers +15, Engineering +10, Physical Science +15, Stealth +10",
+  "languages": "Katholbi, telepathy 100 ft.",
+  "environment": "any (the Drift)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "4-Dimensional Form (Ex)",
+      "description": "Kathrepi shades can freely move around in the fourth dimension, remaining only partially in three dimensions. When the kathrepi shade takes a guarded step or moves their speed as a move action, they can choose to gain or lose the incorporeal special quality at the end of that move action."
+    },
+    {
+      "name": "Dimensional Momentum (Ex)",
+      "description": "When a kathrepi shade casts telekinetic projectile, they imbue the projectile with extra force by hurling it through the fourth dimension. The spell deals 2d6 bludgeoning damage instead of the usual 1d6 bludgeoning damage."
+    }
+  ],
+  "description": "Kathrepi were four-dimensional scientists and engineers whose drive to eradicate entropy from the universe led to their creation of the Tesseract. To creatures limited to only three dimensions, a kathrepi is a squat creature with gangly arms, multi-jointed fingers, and a single staring eyeball with multiple pupils floating within it. As they inhabit a fourth dimension as well, kathrepi see themselves and their surroundings in a way that’s difficult for three-dimensional creatures to understand. Kathrepi can retreat partially into the fourth dimension for long periods of time, which they do primarily to manipulate the complex four-dimensional technology they created. Along with incredible intellectual prowess, kathrepi have developed psychic powers that aid them in their research.\nKathrepi failed in their objective long ago and are now all but gone from their home plane of the Drift (and, indeed, might be fading out of existence entirely). Their only remnants are their intricate machines and a few lonely survivors whose intellectual faculties have deteriorated through long centuries of ennui and self-recrimination. These so-called kathrepi shades are only faint echoes of the keen-minded kathrepi of old, and they tend to cling to a single scientific specialty or theory. This specific recollection drives them to hang on to life after all their compatriots have gone, and they obsess incessantly over it, considering it the only subject worth discussion. Rather than congregating in great scientific collectives, as kathrepi formerly did, kathrepi shades tend to be isolationist and peevish. Challenging a kathrepi shade’s favored intellectual position (or even just asking the wrong questions about it) is usually sufficient to drive the kathrepi shade into a murderous rage. Their frail physical forms make them poor physical combatants, so they rely upon their psychic abilities in a fight.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKathrepi Shade\nSource\nStarfinder #48: Masters of Time and Space pg. 57\nKathrepi Shade CR 4\nXP 1,200\nN Small outsider (extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft., sense through (vision) 60 ft.;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+5;\nRef\n+3;\nWill\n+7\nDefensive Abilities\n4-dimensional form\nOffense\nSpeed\n30 ft.\nMelee\nslam +7 (1d4+3 B)\nSpecial Attacks\ndimensional momentum\nSpell-Like Abilities\n(CL 1st; ranged +9)\n1/day—\ndaze monster\n(DC 17),\nmind thrust\n(DC 17)\n3/day—\ndetect thoughts\n(DC 16),\nlesser confusion\n(DC 16),\nwisp ally\nAt will—\npsychokinetic hand\n,\ntelekinetic projectile\nStatistics\nSTR\n-1;\nDEX\n+3;\nCON\n+0;\nINT\n+5;\nWIS\n+1;\nCHA\n+0\nSkills\nComputers +15, Engineering +10, Physical Science +15, Stealth +10\nLanguages\nKatholbi, telepathy 100 ft.\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary or pair\nSpecial Abilities\n4-Dimensional Form (Ex)\nKathrepi shades can freely move around in the fourth dimension, remaining only partially in three dimensions. When the kathrepi shade takes a guarded step or moves their speed as a move action, they can choose to gain or lose the incorporeal special quality at the end of that move action.\nDimensional Momentum (Ex)\nWhen a kathrepi shade casts telekinetic projectile, they imbue the projectile with extra force by hurling it through the fourth dimension. The spell deals 2d6 bludgeoning damage instead of the usual 1d6 bludgeoning damage.\nDescription\nKathrepi were four-dimensional scientists and engineers whose drive to eradicate entropy from the universe led to their creation of the Tesseract. To creatures limited to only three dimensions, a kathrepi is a squat creature with gangly arms, multi-jointed fingers, and a single staring eyeball with multiple pupils floating within it. As they inhabit a fourth dimension as well, kathrepi see themselves and their surroundings in a way that’s difficult for three-dimensional creatures to understand. Kathrepi can retreat partially into the fourth dimension for long periods of time, which they do primarily to manipulate the complex four-dimensional technology they created. Along with incredible intellectual prowess, kathrepi have developed psychic powers that aid them in their research.\nKathrepi failed in their objective long ago and are now all but gone from their home plane of the Drift (and, indeed, might be fading out of existence entirely). Their only remnants are their intricate machines and a few lonely survivors whose intellectual faculties have deteriorated through long centuries of ennui and self-recrimination. These so-called kathrepi shades are only faint echoes of the keen-minded kathrepi of old, and they tend to cling to a single scientific specialty or theory. This specific recollection drives them to hang on to life after all their compatriots have gone, and they obsess incessantly over it, considering it the only subject worth discussion. Rather than congregating in great scientific collectives, as kathrepi formerly did, kathrepi shades tend to be isolationist and peevish. Challenging a kathrepi shade’s favored intellectual position (or even just asking the wrong questions about it) is usually sufficient to drive the kathrepi shade into a murderous rage. Their frail physical forms make them poor physical combatants, so they rely upon their psychic abilities in a fight.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

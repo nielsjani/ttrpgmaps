@@ -1,0 +1,52 @@
+{
+  "name": "Orocoran",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Orocoran&Family=Orocoran",
+  "source": "Alien Archive pg. 90",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+5",
+  "senses": "darkvision 60 ft.,",
+  "perception": "+13",
+  "hp": "93",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+7",
+  "speed": "30 ft.",
+  "melee": "proboscis +13 (1d8+6 P; critical bleed 1d6)",
+  "ranged": "projectile vomit +16 (1d10+6 A plus hallucinate)",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "1/day—\naugury\nConstant—\nsee invisibility"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Mysticism +13, Stealth +18, Survival +13",
+  "languages": "Aklo (can’t speak any language); limited telepathy 60 ft.",
+  "environment": "any (Aucturn)",
+  "organization": "solitary, brood (2–9), or congregation (10–20 orocorans plus 1 ichor lord)",
+  "special_abilities": [
+    {
+      "name": "Hallucinate (Ex)",
+      "description": "An orocoran’s stomach fluids are laced with the narcotic black ichor of Aucturn. A creature hit with the orocoran’s projectile vomit must succeed at a DC 16 Will save or be confused (as per\nconfusion\n) for 1d4 rounds."
+    },
+    {
+      "name": "Projectile Vomit (Ex)",
+      "description": "As a standard action, an orocoran can spew a thin stream of vomit at a target within 30 feet. In addition to taking damage, a creature hit with this spray is subject to the orocoran’s hallucinate ability."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOrocoran\nSource\nAlien Archive pg. 90\nNative to Aucturn, orocorans maybe even predate the coming of the cults of the Elder Mythos and the Dominion of the Black, and they remain one of their world’s most populous intelligent races. Orocorans are parasites that prey on the living planet, seeking out the pulsing veins of black ichor that run beneath parts of Aucturn’s surface, drawing the liquid out with their mosquito-like proboscises. In addition to feeding the orocorans, these eldritch fluids also act as a powerful narcotic, filling the orocorans with euphoric hallucinations. Orocorans call this dream state “womb mind,” and they believe that it allows them to commune directly with the gestating consciousness of the planet itself. Indeed, there may be some truth to this idea, as even those orocorans not actively dreaming can use the ichor lingering in their systems to tap into this mystical consciousness and receive vague prophetic advice regarding their actions. Orocorans can usually be found wherever the veins of ichor flow thickest, either defending their hallucinogenic watering hole or simply lying sprawled in the grips of drug-induced stupors. When not ichor dreaming, orocorans are irritable and unpredictable, in constant lowgrade pain from withdrawal symptoms. Slothful by nature, orocorans have little desire to create civilization, and they generally do so only when forced into it by more powerful races or rare orocoran individuals called ichor lords.\nWhile most orocorans have their higher faculties rotted out by the unending hunger of addiction, barely even using their telepathy to communicate, perhaps one in a thousand finds that the ichor supercharges its intellectual capacities, giving it not only a greater degree of cunning and intelligence but enhanced magical powers. These ichor lords believe themselves to be direct conduits to the mind of the sleeping planet, something between priests and avatars, and consider it their divine responsibility to organize their kin and rule over them in pursuit of the dreaming Aucturn’s goals. What exactly these goals might be varies wildly from lord to lord, but they somehow always seem to involve securing the ichor lord’s power and comfort, along with the crafting of elegant monasteries or massive fortresses to guard the local supply of ichor. These warlord-oracles control their fellows through both brute magical power and monopolization of the planet’s fluids, but the need for the ichor to be relatively fresh means that most of these makeshift kingdoms extend only as far as the local vein runs, their influence tapering as soon as the vein dives too far underground to be mined effectively. Regardless of the size of their holdings, all ichor lords and their subjects recognize the authority of the mysterious entity called Carsai the King. Though Carsai’s true nature has never been established, most orocorans believe him to be the greatest ichor lord and the ultimate prophet of their slumbering god, referring to him as the First Dreamer.\nThough capable of using other races’ technology—frequently armed for battle and used as shock troops by ichor lords or more organized races—threatened orocorans generally default to spewing their madness-inducing stomach fluids onto enemies, letting the fluids rot their targets’ minds, and then moving in to exsanguinate them with their proboscises. While orocorans are nearly 6 feet tall when standing upright, they prefer to run on all fours, and they usually weigh around 150 pounds. Orocorans have no gender or designated reproductive organs, and mating involves two participants piercing each other’s torsos with their proboscises to share genetic information and become pregnant. These individuals lay clutches of fertilized eggs in ichor-filled pockets gouged out of the planet’s skin, and then they abandon their young completely.\nAliens in the \"Orocoran\" Family\nName\nCR\nOrocoran\n6\nOrocoran Ichor Lord\n9\nOrocoran\nSource\nAlien Archive pg. 90\nOrocoran CR 6\nXP 2,400\nCE Medium aberration\nInit\n+5;\nSenses\ndarkvision 60 ft.,\nsee invisibility\n;\nPerception\n+13\nDefense\nHP\n93;\nRP\n1\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+8;\nWill\n+7 (+9 vs. mind-affecting effects)\nDefensive Abilities\nunflankable\nOffense\nSpeed\n30 ft.\nMelee\nproboscis +13 (1d8+6 P; critical bleed 1d6)\nRanged\nprojectile vomit +16 (1d10+6 A plus hallucinate)\nSpell-Like Abilities\n(CL 6th)\n1/day—\naugury\nConstant—\nsee invisibility\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+3;\nINT\n-1;\nWIS\n+1;\nCHA\n+2\nSkills\nMysticism +13, Stealth +18, Survival +13\nLanguages\nAklo (can’t speak any language); limited telepathy 60 ft.\nEcology\nEnvironment\nany (Aucturn)\nOrganization\nsolitary, brood (2–9), or congregation (10–20 orocorans plus 1 ichor lord)\nSpecial Abilities\nHallucinate (Ex)\nAn orocoran’s stomach fluids are laced with the narcotic black ichor of Aucturn. A creature hit with the orocoran’s projectile vomit must succeed at a DC 16 Will save or be confused (as per\nconfusion\n) for 1d4 rounds.\nProjectile Vomit (Ex)\nAs a standard action, an orocoran can spew a thin stream of vomit at a target within 30 feet. In addition to taking damage, a creature hit with this spray is subject to the orocoran’s hallucinate ability.",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Orocoran.png"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Spewer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Spewer&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 57",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "170",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+9",
+  "immunities": "undead immunities;",
+  "resistances": "acid 10",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "slam +22 (2d10+18 B)",
+  "ranged": "chemical spitball +19 (2d10+10 A)",
+  "offensive_abilities": "breath weapon (30-ft. cone, 11d6 A plus sickened, DC 18, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "—",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Athletics +19 (+27 to climb)",
+  "other_abilities": "mindless, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or retch (3–6)",
+  "special_abilities": [
+    {
+      "name": "Breath Weapon (Ex)",
+      "description": "A creature that fails its saving throw against a spewer’s breath weapon is also sickened for 1 round."
+    },
+    {
+      "name": "Chemical Spitball (Ex)",
+      "description": "As a ranged attack, a spewer can discharge a glob of acid with a range increment of 30 feet."
+    },
+    {
+      "name": "Pustule Explosion (Ex)",
+      "description": "When a spewer is struck by an attack that deals bludgeoning, piercing, or slashing damage, all creatures within 5 feet take 10 acid damage."
+    }
+  ],
+  "description": "A spewer is an undead corpse coursing with chemicals that form bulging pustules on the surface of its skin. The cause of this undead’s physiology is in fact its animating force: implanted hybrid augmentations that have taken over the recipient’s body upon their death. The chemicals that course through a spewer’s body allows it to convert just about any material into more fuel for its implants. The undead can disgorge a concentrated glob of this chemical acid or shower its prey in a torrent of the vile substance. Witnessing a spewer dislodge a wave of vomit only to then eat the remains of its bile-covered victim is a sight few recover from. Should a spewer be unable to feed, it falls into a kind of torpor until it is disturbed; those who create spewers use this quirk as a means to control them.\nMost scholars believe the first spewers arose from individuals who perished while testing experimental biotech. According to records, nefarious necromancers have devised processes of purposefully creating spewers to use as shock troops or unsubtle assassins.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSpewer (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSpewer\nSource\nStarfinder #39: The Gilded Cage pg. 57\nSpewer CR 10\nXP 9,600\nN Medium undead\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n170\nEAC\n20;\nKAC\n22\nFort\n+13;\nRef\n+13;\nWill\n+9\nDefensive Abilities\npustule explosion (10 A) Immunities undead immunities;\nImmunities\nundead immunities;\nResistances\nacid 10\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\nslam +22 (2d10+18 B)\nRanged\nchemical spitball +19 (2d10+10 A)\nOffensive Abilities\nbreath weapon (30-ft. cone, 11d6 A plus sickened, DC 18, usable every 1d4 rounds)\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n—;\nINT\n—;\nWIS\n+2;\nCHA\n+1\nSkills\nAthletics +19 (+27 to climb)\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or retch (3–6)\nSpecial Abilities\nBreath Weapon (Ex)\nA creature that fails its saving throw against a spewer’s breath weapon is also sickened for 1 round.\nChemical Spitball (Ex)\nAs a ranged attack, a spewer can discharge a glob of acid with a range increment of 30 feet.\nPustule Explosion (Ex)\nWhen a spewer is struck by an attack that deals bludgeoning, piercing, or slashing damage, all creatures within 5 feet take 10 acid damage.\nDescription\nA spewer is an undead corpse coursing with chemicals that form bulging pustules on the surface of its skin. The cause of this undead’s physiology is in fact its animating force: implanted hybrid augmentations that have taken over the recipient’s body upon their death. The chemicals that course through a spewer’s body allows it to convert just about any material into more fuel for its implants. The undead can disgorge a concentrated glob of this chemical acid or shower its prey in a torrent of the vile substance. Witnessing a spewer dislodge a wave of vomit only to then eat the remains of its bile-covered victim is a sight few recover from. Should a spewer be unable to feed, it falls into a kind of torpor until it is disturbed; those who create spewers use this quirk as a means to control them.\nMost scholars believe the first spewers arose from individuals who perished while testing experimental biotech. According to records, nefarious necromancers have devised processes of purposefully creating spewers to use as shock troops or unsubtle assassins.\nExtra Content\nThe following extra content was found for this creature:\n-\nSpewer (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

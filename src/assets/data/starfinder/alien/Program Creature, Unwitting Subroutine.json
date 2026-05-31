@@ -1,0 +1,54 @@
+{
+  "name": "Program Creature, Unwitting Subroutine",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Unwitting Subroutine&Family=Program Creature",
+  "source": "Starfinder #51: Into the Dataverse pg. 58",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (android, technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "78",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+8",
+  "weaknesses": "virtual dependency",
+  "melee": "traditional battle ribbon +10 (1d8+6 S)",
+  "ranged": "sheet lightning pistol +12 (1d6+5 E)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +11, Bluff +11, Culture +16, Diplomacy +16, Sense Motive +11",
+  "languages": "Common, Vesk, Ysoki",
+  "other_abilities": "computerized mind, constructed, data construct, envoy improvisations (get ‘em, hurry), flat affect, upgrade slot (glamer projector)",
+  "gear": "business stationwear, sheet lightning pistolAR with 2 high-capacity batteries (40 charges each), traditional battle ribbon",
+  "environment": "any virtual space",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Computerized Mind (Ex)",
+      "description": "Program creatures gain a +4 bonus to saves against mind-affecting effects unless those effects specifically target constructs. A creature can target a program creature with a spell that could affect a computer or other technological device, such as remote operation (Starfinder Character Operations Manual 140), or a mechanic’s overload class feature. The program creature can attempt a Will saving throw to negate this effect, even if the effect doesn’t normally allow a saving throw; use the effect’s regular DC or a DC of 10 + 1/2 the effect user’s level + the effect user’s key ability score modifier, whichever is higher. If the program creature fails this saving throw, they become afflicted with one condition (chosen by the effect user) for the ability’s duration or a number of rounds equal to the effect user’s level, whichever is shorter. The conditions that can be chosen include: blinded, confused, exhausted, frightened, or staggered."
+    },
+    {
+      "name": "Data Construct (Ex)",
+      "description": "Program creatures gain the technological subtype and count as both their original type and constructs for all effects (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). A program creature receives a +2 bonus to saving throws against disease, poison, and sleep unless those effects specifically target constructs. Non-program creatures wielding a hacking kit can attempt to alter a nearby program creature’s subroutines, allowing them to attempt a Computers checks to feint or lie to a program instead of using Bluff, change a program’s attitude instead of using Diplomacy, bully or demoralize them instead of using Intimidate, or to perform any skill task of the Medicine skill instead of using Medicine."
+    },
+    {
+      "name": "Virtual Dependency (Ex)",
+      "description": "A program creature can exist only within the virtual space in which it was created. If forcibly removed from the virtual space, it dies immediately, but computer backups in the virtual space usually recreate the program creature 1d4 minutes later. Directly modifying the code of the virtual space, or destroying its server, is the only way to ensure the destruction of a programmed creature."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nProgram Creature (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProgram Creature\nSource\nStarfinder #51: Into the Dataverse pg. 58\nPrograms are semi-sapient creatures native to virtual spaces, such as Triune’s Dataverse. Formed not from material elements but raw data, these creatures operate on complex algorithmic routines and subroutines that almost perfectly mimic those of real, thinking creatures.\nIn many cases, these programs exist to act as guardians over sensitive digital areas. Rather than trust valuable data strictly to a hackable server, some enterprises have embedded their data to be accessible via entering digital worlds and contending with one or more programmed guardians.\nThe demon lord of clocks and prisons, Shivaska, is known to force those she captures to toil in digital realms she hosts. In these places, the imprisoned work ceaselessly to mine a digital currency known as SoulCoin, and corrupt programmed creatures ensure obedience and maintain fear among the digitized prisoners.\nAliens in the \"Program Creature\" Family\nName\nCR\nHuge Firewall\n7\nLurking Spyware\n10\nOverlord Algorithm\n13\nUnwitting Subroutine\n5\nProgram Creature, Unwitting Subroutine\nSource\nStarfinder #51: Into the Dataverse pg. 58\nUnwitting Subroutine CR 5\nXP 1,600\nProgram android envoy\nN Medium humanoid (android, technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n78\nEAC\n17;\nKAC\n18\nFort\n+4;\nRef\n+6;\nWill\n+8; +2 vs. disease, poison, and sleep, +4 vs. mind-affecting effects\nWeaknesses\nvirtual dependency\nOffense\nMelee\ntraditional battle ribbon +10 (1d8+6 S)\nRanged\nsheet lightning pistol +12 (1d6+5 E)\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+0;\nINT\n+2;\nWIS\n+0;\nCHA\n+5\nSkills\nAcrobatics +11, Bluff +11, Culture +16, Diplomacy +16, Sense Motive +11\nLanguages\nCommon, Vesk, Ysoki\nOther Abilities\ncomputerized mind, constructed, data construct, envoy improvisations (get ‘em, hurry), flat affect, upgrade slot (glamer projector)\nGear\nbusiness stationwear, sheet lightning pistolAR with 2 high-capacity batteries (40 charges each), traditional battle ribbon\nEcology\nEnvironment\nany virtual space\nOrganization\nany\nSpecial Abilities\nComputerized Mind (Ex)\nProgram creatures gain a +4 bonus to saves against mind-affecting effects unless those effects specifically target constructs. A creature can target a program creature with a spell that could affect a computer or other technological device, such as remote operation (Starfinder Character Operations Manual 140), or a mechanic’s overload class feature. The program creature can attempt a Will saving throw to negate this effect, even if the effect doesn’t normally allow a saving throw; use the effect’s regular DC or a DC of 10 + 1/2 the effect user’s level + the effect user’s key ability score modifier, whichever is higher. If the program creature fails this saving throw, they become afflicted with one condition (chosen by the effect user) for the ability’s duration or a number of rounds equal to the effect user’s level, whichever is shorter. The conditions that can be chosen include: blinded, confused, exhausted, frightened, or staggered.\nData Construct (Ex)\nProgram creatures gain the technological subtype and count as both their original type and constructs for all effects (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). A program creature receives a +2 bonus to saving throws against disease, poison, and sleep unless those effects specifically target constructs. Non-program creatures wielding a hacking kit can attempt to alter a nearby program creature’s subroutines, allowing them to attempt a Computers checks to feint or lie to a program instead of using Bluff, change a program’s attitude instead of using Diplomacy, bully or demoralize them instead of using Intimidate, or to perform any skill task of the Medicine skill instead of using Medicine.\nVirtual Dependency (Ex)\nA program creature can exist only within the virtual space in which it was created. If forcibly removed from the virtual space, it dies immediately, but computer backups in the virtual space usually recreate the program creature 1d4 minutes later. Directly modifying the code of the virtual space, or destroying its server, is the only way to ensure the destruction of a programmed creature.\nExtra Content\nThe following extra content was found for this creature:\n-\nProgram Creature (Other) Graft Template",
+  "type": "humanoid (android, technological)",
+  "category": "alien"
+}

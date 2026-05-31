@@ -1,0 +1,59 @@
+{
+  "name": "Nullsoul Host",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Nullsoul Host&Family=None",
+  "source": "Starfinder #31: Waking the Worldseed pg. 59",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "construct (android, magical, technological)",
+  "init": "+8",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+23",
+  "hp": "235",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+10",
+  "dr": "10/adamantine",
+  "immunities": "construct immunities",
+  "weaknesses": "disrupt soul",
+  "speed": "40 ft.",
+  "melee": "slam +27 (3d12+17 B plus nullsoul)",
+  "ranged": "nanite shard +24 (6d6+13 P plus nullsoul)",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\nrapid repair\n3/day—\ndigital doorway\nAt will—\nnondetection"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+8",
+    "con": "—",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "-4"
+  },
+  "skills": "Athletics +28, Computers +23, Engineering +23",
+  "other_abilities": "integrated tools",
+  "environment": "any",
+  "organization": "solitary or plague (2–15)",
+  "special_abilities": [
+    {
+      "name": "Disrupt Soul (Su)",
+      "description": "A nullsoul host traps the soul of its victim within itself, but healing magic disrupts this effect and damages the host. Any effect that heals the Hit Points of living creatures instead deals damage to a nullsoul host; the nullsoul host does not get a saving throw against this damage, even if the effect would normally grant one."
+    },
+    {
+      "name": "Integrated Tools (Ex)",
+      "description": "A nullsoul host can quickly reconfigure its limbs and digits into whatever tools it requires. As a move action, a nullsoul host can turn one of its limbs into a tool kit of any type or turn the tool kit back into a limb. The nullsoul host can manipulate these tools without requiring an additional hand. These tool kits cannot be removed from the nullsoul host even after it’s destroyed."
+    },
+    {
+      "name": "Nanite Shard (Su)",
+      "description": "A nullsoul host can fling a shard of nanites containing raw nullsoul data. This attack has a range increment of 40 feet and exposes androids to nullsoul."
+    }
+  ],
+  "description": "Nullsoul is a supernatural plague that spreads through androids, cutting them off from the River of Souls, corrupting their spiritual essence, and turning victims into atavistic conductors. Nullsoul spreads by touch, causing more and more androids to lose their minds. In their place, a cruel and hungry intellect rises.\nWhen a victim transforms into a nullsoul host, their organs harden into machinery. They become fast and implacable, reconfiguring their own bodies to make necessary tools and infect other androids. When rumors of “the android plague” break out on a planet or space station, military forces often quarantine and exterminate the victims.\nNullsoul\nType\ndisease (contact);\nSave\nFortitude DC 19\nTrack\nmental (special);\nFrequency\n1/day\nEffect\nprogression track is Healthy—Latent—Weakened—Allied—Compelled—Transformed. Only androids can contract nullsoul. At the allied state, the victim cannot willingly harm other creatures afflicted with nullsoul, though it gains no special knowledge of who has the disease. At the compelled state, the victim is subject to a\nsuggestion\n(CL 13th) to spread nullsoul to as many androids as possible. Transformed is the end state; the target is transformed into a nullsoul host of their original CR and only\nmiracle\n,\nwarp reality\n, and\nwish\ncan cure the disease and restore the android to their original self.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNullsoul Host\nSource\nStarfinder #31: Waking the Worldseed pg. 59\nNullsoul Host CR 13\nXP 25,600\nCE Medium construct (android, magical, technological)\nInit\n+8;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+23\nDefense\nHP\n235\nEAC\n27;\nKAC\n29\nFort\n+13;\nRef\n+13;\nWill\n+10\nDR\n10/adamantine;\nImmunities\nconstruct immunities\nWeaknesses\ndisrupt soul\nOffense\nSpeed\n40 ft.\nMelee\nslam +27 (3d12+17 B plus nullsoul)\nRanged\nnanite shard +24 (6d6+13 P plus nullsoul)\nSpell-Like Abilities\n(CL 13th)\n1/day—\nrapid repair\n3/day—\ndigital doorway\nAt will—\nnondetection\nStatistics\nSTR\n+4;\nDEX\n+8;\nCON\n—;\nINT\n+6;\nWIS\n+2;\nCHA\n-4\nSkills\nAthletics +28, Computers +23, Engineering +23\nOther Abilities\nintegrated tools\nEcology\nEnvironment\nany\nOrganization\nsolitary or plague (2–15)\nSpecial Abilities\nDisrupt Soul (Su)\nA nullsoul host traps the soul of its victim within itself, but healing magic disrupts this effect and damages the host. Any effect that heals the Hit Points of living creatures instead deals damage to a nullsoul host; the nullsoul host does not get a saving throw against this damage, even if the effect would normally grant one.\nIntegrated Tools (Ex)\nA nullsoul host can quickly reconfigure its limbs and digits into whatever tools it requires. As a move action, a nullsoul host can turn one of its limbs into a tool kit of any type or turn the tool kit back into a limb. The nullsoul host can manipulate these tools without requiring an additional hand. These tool kits cannot be removed from the nullsoul host even after it’s destroyed.\nNanite Shard (Su)\nA nullsoul host can fling a shard of nanites containing raw nullsoul data. This attack has a range increment of 40 feet and exposes androids to nullsoul.\nDescription\nNullsoul is a supernatural plague that spreads through androids, cutting them off from the River of Souls, corrupting their spiritual essence, and turning victims into atavistic conductors. Nullsoul spreads by touch, causing more and more androids to lose their minds. In their place, a cruel and hungry intellect rises.\nWhen a victim transforms into a nullsoul host, their organs harden into machinery. They become fast and implacable, reconfiguring their own bodies to make necessary tools and infect other androids. When rumors of “the android plague” break out on a planet or space station, military forces often quarantine and exterminate the victims.\nNullsoul\nType\ndisease (contact);\nSave\nFortitude DC 19\nTrack\nmental (special);\nFrequency\n1/day\nEffect\nprogression track is Healthy—Latent—Weakened—Allied—Compelled—Transformed. Only androids can contract nullsoul. At the allied state, the victim cannot willingly harm other creatures afflicted with nullsoul, though it gains no special knowledge of who has the disease. At the compelled state, the victim is subject to a\nsuggestion\n(CL 13th) to spread nullsoul to as many androids as possible. Transformed is the end state; the target is transformed into a nullsoul host of their original CR and only\nmiracle\n,\nwarp reality\n, and\nwish\ncan cure the disease and restore the android to their original self.",
+  "type": "construct (android, magical, technological)",
+  "category": "alien"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Robot Dragon, Assault Laser Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Assault Laser Dragon&Family=Robot Dragon",
+  "source": "Alien Archive 4 pg. 100",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "LN",
+  "size": "Huge",
+  "creature_type": "dragon (technological)",
+  "init": "+8",
+  "senses": "blindsight (vibration) 60 ft., darkvision 120 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+13",
+  "sr": "23",
+  "immunities": "fire, paralysis, sleep;",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "40 ft., fly 200 ft. (Ex, clumsy)",
+  "melee": "bite +23 (6d4+17 P)",
+  "ranged": "laser bolt +26 (6d4+12 F; burn 3d6)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with bite)",
+  "offensive_abilities": "breath weapon (45-ft. cone or 90-ft. line, 13d6 F, Reflex DC 19 half, usable every 1d4 rounds), crush (6d4+17 B)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +27 (+19 to fly), Computers +22, Piloting +22, Sense Motive +22",
+  "languages": "Common, Draconic",
+  "other_abilities": "robotic, spaceflight",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Laser Bolt (Ex)",
+      "description": "A laser dragon can fire laser beams from their mouth, eyes, or wingtips. This attack has a range increment of 100 feet, targets EAC, and has the burn critical hit effect that lists a number of d6s equal to one quarter their level (minimum 1). The attack also has the sniper weapon special property with a range of 1,000 feet."
+    },
+    {
+      "name": "Robotic (Ex)",
+      "description": "For effects targeting creatures by type, laser dragons count as both dragons and constructs (whichever allows an ability to affect them for abilities that affect only one of those types, and whichever is worse for abilities that affect both types). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, and poison unless those effects specifically target constructs. Additionally, they are protected from environmental effects as if wearing armor (of an item level equal to the dragon’s CR) with its environmental protection active."
+    }
+  ],
+  "description": "Robot dragons are incredibly complex artificial constructs so advanced they attract a dragon’s soul upon completion, much like android bodies. Each is built around a specific category of weapon. The creation of such creatures is a nearly lost art, and while robot dragons are often built as weapons of war to serve specific groups, they inevitably become independent.\nRobot Dragon Template Grafts\nRobot dragons tend to seek out military conflicts that align with their philosophies and can further their personal goals.\nAs with most true dragons, a robotic dragon’s size is based on their CR. However unlike biological dragons, whose size is determined by their age, a robot dragon’s size is set when constructed and is based on the robot dragon’s intended function (CR 3–4: Small, scout; CR 5–6: Medium, guard; CR 7–10: Large, trooper; CR 11–16: Huge, assault; CR 17–24: Gargantuan, siegebreaker; CR 25: Colossal, warlord). A robot dragon has an extraordinary fly speed that’s based on jets and functions in a vacuum. Their speed and maneuverability is determined by their CR: CR 3–6: 150 ft. (Ex, average); CR 7–10: 200 ft. (Ex, average); CR 11–16: 200 ft. (Ex, clumsy); CR 17–25: 250 ft. (Ex, clumsy). If a robot dragon is CR 11 or higher, they have the crush universal creature rule and spell resistance equal to 11 + their CR. All robot dragons have the robotic special ability (page 100) and the spaceflight and void adaptation universal creature rules.",
+  "extra_content": "The following extra content was found for this creature:\n-\nCryo Dragon (Robot Dragon) Graft Template\n-\nLaser Dragon (Robot Dragon) Graft Template\n-\nPlasma Dragon (Robot Dragon) Graft Template\n-\nProjectile Dragon (Robot Dragon) Graft Template\n-\nDisintegrator Dragon (Robot Dragon) Graft Template\n-\nShock Dragon (Robot Dragon) Graft Template\n-\nSonic Dragon (Robot Dragon) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot Dragon\nAliens in the \"Robot Dragon\" Family\nName\nCR\nAssault Disintegrator Dragon\n16\nAssault Laser Dragon\n12\nRobot Dragon, Assault Laser Dragon\nSource\nAlien Archive 4 pg. 100\nAssault Laser Dragon CR 12\nXP 19,200\nLN Huge dragon (technological)\nInit\n+8;\nSenses\nblindsight (vibration) 60 ft., darkvision 120 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+16;\nRef\n+16;\nWill\n+13\nDefensive Abilities\nvoid adaptation;\nImmunities\nfire, paralysis, sleep;\nSR\n23\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\n40 ft., fly 200 ft. (Ex, clumsy)\nMelee\nbite +23 (6d4+17 P)\nMultiattack\nbite +17 (3d4+17 P), 2 claws +15 (3d4+17 S), tail slap +15 (3d4+17 B)\nRanged\nlaser bolt +26 (6d4+12 F; burn 3d6)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with bite)\nOffensive Abilities\nbreath weapon (45-ft. cone or 90-ft. line, 13d6 F, Reflex DC 19 half, usable every 1d4 rounds), crush (6d4+17 B)\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+3;\nINT\n+4;\nWIS\n+3;\nCHA\n+3\nSkills\nAcrobatics +27 (+19 to fly), Computers +22, Piloting +22, Sense Motive +22\nLanguages\nCommon, Draconic\nOther Abilities\nrobotic, spaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nLaser Bolt (Ex)\nA laser dragon can fire laser beams from their mouth, eyes, or wingtips. This attack has a range increment of 100 feet, targets EAC, and has the burn critical hit effect that lists a number of d6s equal to one quarter their level (minimum 1). The attack also has the sniper weapon special property with a range of 1,000 feet.\nRobotic (Ex)\nFor effects targeting creatures by type, laser dragons count as both dragons and constructs (whichever allows an ability to affect them for abilities that affect only one of those types, and whichever is worse for abilities that affect both types). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, and poison unless those effects specifically target constructs. Additionally, they are protected from environmental effects as if wearing armor (of an item level equal to the dragon’s CR) with its environmental protection active.\nDescription\nRobot dragons are incredibly complex artificial constructs so advanced they attract a dragon’s soul upon completion, much like android bodies. Each is built around a specific category of weapon. The creation of such creatures is a nearly lost art, and while robot dragons are often built as weapons of war to serve specific groups, they inevitably become independent.\nRobot Dragon Template Grafts\nRobot dragons tend to seek out military conflicts that align with their philosophies and can further their personal goals.\nAs with most true dragons, a robotic dragon’s size is based on their CR. However unlike biological dragons, whose size is determined by their age, a robot dragon’s size is set when constructed and is based on the robot dragon’s intended function (CR 3–4: Small, scout; CR 5–6: Medium, guard; CR 7–10: Large, trooper; CR 11–16: Huge, assault; CR 17–24: Gargantuan, siegebreaker; CR 25: Colossal, warlord). A robot dragon has an extraordinary fly speed that’s based on jets and functions in a vacuum. Their speed and maneuverability is determined by their CR: CR 3–6: 150 ft. (Ex, average); CR 7–10: 200 ft. (Ex, average); CR 11–16: 200 ft. (Ex, clumsy); CR 17–25: 250 ft. (Ex, clumsy). If a robot dragon is CR 11 or higher, they have the crush universal creature rule and spell resistance equal to 11 + their CR. All robot dragons have the robotic special ability (page 100) and the spaceflight and void adaptation universal creature rules.\nExtra Content\nThe following extra content was found for this creature:\n-\nCryo Dragon (Robot Dragon) Graft Template\n-\nLaser Dragon (Robot Dragon) Graft Template\n-\nPlasma Dragon (Robot Dragon) Graft Template\n-\nProjectile Dragon (Robot Dragon) Graft Template\n-\nDisintegrator Dragon (Robot Dragon) Graft Template\n-\nShock Dragon (Robot Dragon) Graft Template\n-\nSonic Dragon (Robot Dragon) Graft Template",
+  "type": "dragon (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Robot_Dragon_Assault_Laser.png"
+}

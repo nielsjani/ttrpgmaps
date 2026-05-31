@@ -1,0 +1,50 @@
+{
+  "name": "Thoqqua",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Thoqqua&Family=None",
+  "source": "Starfinder #14: Soldiers of Brass pg. 61",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (earth, elemental, extraplanar, fire)",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+12",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+1",
+  "immunities": "elemental immunities, fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft., burrow 20 ft.",
+  "melee": "slam +11 (1d6+2 P & F; critical burn 1d6)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-2",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +7, Stealth +7",
+  "languages": "Ignan (can’t speak any language)",
+  "other_abilities": "no breath, versatile burrower",
+  "environment": "any land (Plane of Fire or Plane",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Molten Body (Su)",
+      "description": "Any melee weapon that hits a thoqqua takes 1d4 fire damage, ignoring hardness. If the weapon’s wielder fails a DC 11 Reflex save, the weapon also gains the burning condition, dealing 1d4 fire damage that ignores hardness."
+    },
+    {
+      "name": "Versatile Burrower (Su)",
+      "description": "Due to its internal heat, a thoqqua can burrow through stone and some harder substances at half its normal burrow speed. It can leave a tunnel behind itself, consuming the material it burrows through."
+    }
+  ],
+  "description": "Thoqquas are worms of fiery stone, like living lava. A thoqqua generates tremendous heat. This heat and the creature’s sinuous shape allow a thoqqua to burrow through dirt, gravel, and stone, as well as some softer metals and composites. It has a roughly segmented body. Cooler, stony plates form on these segments, with hot flesh between them, to protect the thoqqua. A similar material, rigid but superheated due to the worm’s internal fire, makes a pointed “beak” the thoqqua uses to burrow and attack. Although outsiders such as thoqquas don’t need to eat, thoqquas consume minerals as they burrow, adding these elements to their rocky shells. A thoqqua unable to do so eventually loses a portion of its natural armor (reducing its KAC slightly). Most adult thoqquas are 5 feet long and weigh 200 pounds. However, these ageless worms never stop slowly growing so long as they have plenty of minerals to consume.\nAs fiery in attitude as in body, thoqquas are irritable and belligerent, likely to attack if startled or annoyed. They enjoy digging and demolition, and they can grow fond of or attached to other creatures, especially if treated well. Quorlus (Alien Archive 2 104) have friendly connections to the worms. Numerous quorlu settlements have thoqqua protectors.\nFiery mephits also get along well with thoqquas. The species share similarly simple mindsets, and mephits have an intuitive understanding of thoqquas’ nonverbal communication. It is through mephits, confirmed by telepathy, that other species of the galaxy learned the legends of the thoqquas. Titanic thoqquas are the mythical progenitors of the species. These servants of the elemental lords, according to lore, helped form the first volcanoes on the young planets of the Material Plane. The elder thoqquas then retired to the worlds’ cores to rest for eons, and their heat warms the planets to this day.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThoqqua\nSource\nStarfinder #14: Soldiers of Brass pg. 61\nThoqqua CR 2\nXP 600\nN Medium outsider (earth, elemental, extraplanar, fire)\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+12\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+4;\nWill\n+1\nDefensive Abilities\nmolten body;\nImmunities\nelemental immunities, fire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft., burrow 20 ft.\nMelee\nslam +11 (1d6+2 P & F; critical burn 1d6)\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+4;\nINT\n-2;\nWIS\n+1;\nCHA\n-2\nSkills\nAcrobatics +7, Stealth +7\nLanguages\nIgnan (can’t speak any language)\nOther Abilities\nno breath, versatile burrower\nEcology\nEnvironment\nany land (Plane of Fire or Plane \r\nof Earth)\nOrganization\nsolitary or pair\nSpecial Abilities\nMolten Body (Su)\nAny melee weapon that hits a thoqqua takes 1d4 fire damage, ignoring hardness. If the weapon’s wielder fails a DC 11 Reflex save, the weapon also gains the burning condition, dealing 1d4 fire damage that ignores hardness.\nVersatile Burrower (Su)\nDue to its internal heat, a thoqqua can burrow through stone and some harder substances at half its normal burrow speed. It can leave a tunnel behind itself, consuming the material it burrows through.\nDescription\nThoqquas are worms of fiery stone, like living lava. A thoqqua generates tremendous heat. This heat and the creature’s sinuous shape allow a thoqqua to burrow through dirt, gravel, and stone, as well as some softer metals and composites. It has a roughly segmented body. Cooler, stony plates form on these segments, with hot flesh between them, to protect the thoqqua. A similar material, rigid but superheated due to the worm’s internal fire, makes a pointed “beak” the thoqqua uses to burrow and attack. Although outsiders such as thoqquas don’t need to eat, thoqquas consume minerals as they burrow, adding these elements to their rocky shells. A thoqqua unable to do so eventually loses a portion of its natural armor (reducing its KAC slightly). Most adult thoqquas are 5 feet long and weigh 200 pounds. However, these ageless worms never stop slowly growing so long as they have plenty of minerals to consume.\nAs fiery in attitude as in body, thoqquas are irritable and belligerent, likely to attack if startled or annoyed. They enjoy digging and demolition, and they can grow fond of or attached to other creatures, especially if treated well. Quorlus (Alien Archive 2 104) have friendly connections to the worms. Numerous quorlu settlements have thoqqua protectors.\nFiery mephits also get along well with thoqquas. The species share similarly simple mindsets, and mephits have an intuitive understanding of thoqquas’ nonverbal communication. It is through mephits, confirmed by telepathy, that other species of the galaxy learned the legends of the thoqquas. Titanic thoqquas are the mythical progenitors of the species. These servants of the elemental lords, according to lore, helped form the first volcanoes on the young planets of the Material Plane. The elder thoqquas then retired to the worlds’ cores to rest for eons, and their heat warms the planets to this day.",
+  "type": "outsider (earth, elemental, extraplanar, fire)",
+  "category": "alien"
+}

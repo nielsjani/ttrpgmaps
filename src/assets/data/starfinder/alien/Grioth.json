@@ -1,0 +1,57 @@
+{
+  "name": "Grioth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Grioth&Family=Grioth",
+  "source": "Alien Archive 4 pg. 40",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+4",
+  "senses": "blindsight (sound) 60 ft., see in darkness;;",
+  "perception": "+10",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+6",
+  "immunities": "cold",
+  "weaknesses": "light blindness, vulnerable to sonic",
+  "speed": "30 ft., fly 40 ft. (Ex, average)",
+  "melee": "bite +7 (1d4+2 P plus psychotomimetic saliva) or voidglass longsword +7 (1d8+2 S; critical demoralize AR)",
+  "ranged": "bruiser decoupler +5 (1d4+1 A; critical demoralize AR)",
+  "offensive_abilities": "mindshock",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st",
+    "spells": "1/day—\ndetect tech\n,\nlesser confusion\n(DC 12)\nAt will—\ndaze\n(DC 11),\ndetect magic"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +5, Intimidate +10, Mysticism +5, Stealth +5",
+  "languages": "Aklo, Grioth; limited telepathy 60 ft.",
+  "other_abilities": "no breath, void adaptation",
+  "gear": "second skin, bruiser decoupler AR with 2 batteries (20 charges each), voidglass longsword",
+  "environment": "any",
+  "organization": "solitary, clutch (2–6), or omen (7–20 plus 1 grioth eclipse seer)",
+  "special_abilities": [
+    {
+      "name": "Mindshock (Su)",
+      "description": "Once per day as a standard action, a grioth can unleash a wave of violent psychic energy. Each non‑grioth creature within 30 feet takes 2d6 damage and is shaken for 1d4 rounds. A creature that succeeds at a DC 12 Will save takes half damage and negates the shaken condition. This is a mind-affecting effect."
+    },
+    {
+      "name": "Psychotomimetic Saliva (Ex)",
+      "description": "Grioth saliva is laced with psychotropic toxins that overload a victim’s neurological pathways, causing intense, rapid‑fire hallucinations, confusion, and violent seizures. Creatures that are immune to mind‑affecting effects are immune to this poison.\nPsychotomimctic Saliva\nType\npoison (injury);\nSave\nFortitude DC 12\nTrack\nWisdom;\nFrequency\n1/round for 6 rounds\nCure\n1 save"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGrioth\nSource\nAlien Archive 4 pg. 40\nSadistic psychics and religious fanatics, grioths raid other worlds under the cover of darkness. These unfathomably cruel creatures take delight in inflicting pain and sowing terror. Ancient grioths once inhabited planets adrift in the Dark Tapestry, where they encountered unthinkable horrors and embraced them as kin. Subsumed by darkness and fouler things, grioths are devoted thralls to their patron, the Haunter of the Dark, an aspect of the chaotic evil Outer God Nyarlathotep.\nGrioths appear as lean, stooped bat-like humanoids with four narrow eyes and exceptional hearing. They typically stand around 5 feet tall. They have dry, raspy voices and speak in an eerie language of clicks, squeaks, and sibilant sighs.\nGrioths live in vast crystalline spire cities. With few resources available on their frozen, lightless worlds, they depend on raiding, theft, and war to obtain the resources they need to survive. Powerful grioth psychics known as eclipse seers organize raids that span entire galaxies. They serve as conduits to the Hunter of the Dark, enacting eldritch rituals to establish temporary portals to worlds undergoing an eclipse. Grioth soldiers and mercenaries pour through these mystical portals in a wave of blood and terror, glutting on violence and pillaging resources—primarily food, technology, and living sapient creatures. In addition to temporary portals, grioths maintain a series of permanent gateways to sunless worlds like their own, creating a web of cities among countless lost worlds.\nFor unknown reasons, Triune’s Signal was lost to the grioths, though they quickly pried the secrets of Drift travel from the minds of their sapient victims. In their sleek voidglass starships, they travel the Drift and beyond in search of easy prey and resource-rich worlds to subjugate.\nDue to prolonged exposure to the Dark Tapestry, grioths can be born with strange physiological alterations, the terrors of the unknowable realm intruding into their forms or giving them powers far beyond their kin. The most powerful become potent psychics who boast nigh‑impenetrable mental defenses. These grioth paragons, known as Vessels, are considered blessed by the Haunter of the Dark and swiftly rise to positions of power, becoming CEOs of major corporations, military generals, religious leaders, or overseers of entire colonies.\nAliens in the \"Grioth\" Family\nName\nCR\nEclipse Seer\n6\nGrioth\n1\nGrioth\nSource\nAlien Archive 4 pg. 40\nGrioth CR 1\nXP 400\nCE Medium monstrous humanoid\nInit\n+4;\nSenses\nblindsight (sound) 60 ft., see in darkness;;\nPerception\n+10\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+1;\nRef\n+3;\nWill\n+6\nDefensive Abilities\nvoid adaptation;\nImmunities\ncold\nWeaknesses\nlight blindness, vulnerable to sonic\nOffense\nSpeed\n30 ft., fly 40 ft. (Ex, average)\nMelee\nbite +7 (1d4+2 P plus psychotomimetic saliva) or voidglass longsword +7 (1d8+2 S; critical demoralize AR)\nRanged\nbruiser decoupler +5 (1d4+1 A; critical demoralize AR)\nOffensive Abilities\nmindshock\nSpell-Like Abilities\n(CL 1st)\n1/day—\ndetect tech\n,\nlesser confusion\n(DC 12)\nAt will—\ndaze\n(DC 11),\ndetect magic\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +10, Athletics +5, Intimidate +10, Mysticism +5, Stealth +5\nLanguages\nAklo, Grioth; limited telepathy 60 ft.\nOther Abilities\nno breath, void adaptation\nGear\nsecond skin, bruiser decoupler AR with 2 batteries (20 charges each), voidglass longsword\nEcology\nEnvironment\nany\nOrganization\nsolitary, clutch (2–6), or omen (7–20 plus 1 grioth eclipse seer)\nSpecial Abilities\nMindshock (Su)\nOnce per day as a standard action, a grioth can unleash a wave of violent psychic energy. Each non‑grioth creature within 30 feet takes 2d6 damage and is shaken for 1d4 rounds. A creature that succeeds at a DC 12 Will save takes half damage and negates the shaken condition. This is a mind-affecting effect.\nPsychotomimetic Saliva (Ex)\nGrioth saliva is laced with psychotropic toxins that overload a victim’s neurological pathways, causing intense, rapid‑fire hallucinations, confusion, and violent seizures. Creatures that are immune to mind‑affecting effects are immune to this poison.\nPsychotomimctic Saliva\nType\npoison (injury);\nSave\nFortitude DC 12\nTrack\nWisdom;\nFrequency\n1/round for 6 rounds\nCure\n1 save",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Grioth.png"
+}

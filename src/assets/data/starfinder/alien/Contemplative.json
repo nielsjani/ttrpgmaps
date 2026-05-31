@@ -1,0 +1,56 @@
+{
+  "name": "Contemplative",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Contemplative&Family=Contemplative",
+  "source": "Alien Archive pg. 28",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "18",
+  "eac": "13",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+7",
+  "weaknesses": "atrophied",
+  "speed": "5 ft., fly 30 ft. (Su, perfect)",
+  "melee": "claw +5 (1d4 S)",
+  "ranged": "azimuth laser pistol +7 (1d4+2 F; critical burn 1d4)",
+  "offensive_abilities": "applied knowledge",
+  "spell_like_abilities": {
+    "caster_info": "CL 2nd",
+    "spells": "1/day—\ndetect thoughts\n(DC 15),\nmind thrust\n(1st-level, DC 15)\nAt will—\ndaze\n(DC 14),\npsychokinetic hand"
+  },
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+1",
+    "con": "-1",
+    "int": "+5",
+    "wis": "+3",
+    "cha": "+2"
+  },
+  "skills": "Computers +7, Engineering +7, Life Science +12, Mysticism +12, Physical Science +7",
+  "languages": "Akitonian, Common, Ysoki; telepathy 100 ft.",
+  "gear": "second skin, azimuth laser pistol with 2 batteries (20 charges each)",
+  "environment": "any urban (Akiton)",
+  "organization": "solitary, pair, or symposium (3-7)",
+  "special_abilities": [
+    {
+      "name": "Applied Knowledge (Ex)",
+      "description": "Once per day before attempting a skill check or saving throw against a creature, a contemplative can use its bonus for the skill associated with that creature’s type (such as Life Science for an ooze or Mysticism for an outsider) in place of its normal bonus."
+    },
+    {
+      "name": "Atrophied (Ex)",
+      "description": "A contemplative’s limbs are practically vestigial. A contemplative can manipulate most tools and one-handed weapons (including small arms) without difficulty. A contemplative can’t properly wield a two-handed weapon without dedicating its telekinetic powers to supporting the weapon, and even then it takes a –4 penalty to attack rolls. It also can’t use its spell-like abilities or fly until it is no longer wielding that weapon."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nContemplative Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nContemplative\nSource\nAlien Archive pg. 28\nThe beings known through the Pact Worlds as contemplatives of Ashok were once humanoids of extreme intelligence living on Akiton. Upon unlocking exceptional psychic powers, they deliberately evolved their brains, to the detriment of their bodies. Now, contemplatives float along using telekinesis, their atrophied bodies dangling from pulsating brain-sacs.\nContemplatives’ specialized evolution dates back to long before the Gap, and only piecemeal records hint at their original appearance. Were they more interested in power and influence as a species, they likely would have conquered their home planet of Akiton, but instead, most contemplatives are content to ponder the multiverse and its secrets, most famously debating their conclusions in Akiton’s Halls of Reason. Contemplatives scholars are universally welcomed in laboratories, research facilities, and universities throughout the Pact Worlds, making them among the most prolific academic authors. Those who turn their minds to more worldly pursuits are rare, yet it is small cabals of such financial masterminds and political theorists that have best exploited Akiton’s recent economic downturn. These moguls have purchased large swaths of the planet’s real estate, ruling as silent overlords of ghost towns and thriving neighborhoods alike.\nAlthough contemplatives are known to be extraordinarily intelligent, observant, and confident, their behavior is often jarring to their colleagues of other species. Individual contemplatives often refer to groups of their kindred using the first-person plural, suggesting some degree of racial hivemind, telepathic union, or sacred sense of shared existence. Further supporting this theory is the fact that contemplatives rarely come into conflict with one another, with few instances of intraracial violence in recorded history. Despite contemplatives’ relative peacefulness, other races often perceive them as aloof, overly logical, and emotionally sterile.\nContemplatives are able to speak, though their voices are reedy and soft. Most consider verbal communication rather crude, favoring telepathy. Those who regularly need to speak often wear inexpensive contact speakers that translate their telepathic thoughts into spoken words. They’re also able to sing in keening wails, although they rarely do so except around others of their kind or their most honored colleagues. The few ethnographers who study this behavior directly have compared the songs to religious paeans—an association contemplatives find absurd, in part because most prefer to study faith objectively rather than as worshipers.\nDespite their frail appearance, contemplatives are able to survive in unforgiving environments. They find indoor sites far more comfortable, however especially areas that are cool and still, as these conditions facilitate their concentration. When contemplatives do build their own communities, the structures are often windowless and difficult to navigate for those unable to fly.\nAliens in the \"Contemplative\" Family\nName\nCR\nContemplative\n2\nContemplative Mentor\n18\nContemplative\nSource\nAlien Archive pg. 28\nContemplative CR 2\nXP 600\nN Medium monstrous humanoid\nInit\n+1;\nSenses\nblindsense (thought) 60 ft., darkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n18\nEAC\n13;\nKAC\n12\nFort\n+1;\nRef\n+3;\nWill\n+7 (+11 vs. mind-affecting effects)\nWeaknesses\natrophied\nOffense\nSpeed\n5 ft., fly 30 ft. (Su, perfect)\nMelee\nclaw +5 (1d4 S)\nRanged\nazimuth laser pistol +7 (1d4+2 F; critical burn 1d4)\nOffensive Abilities\napplied knowledge\nSpell-Like Abilities\n(CL 2nd)\n1/day—\ndetect thoughts\n(DC 15),\nmind thrust\n(1st-level, DC 15)\nAt will—\ndaze\n(DC 14),\npsychokinetic hand\nStatistics\nSTR\n-2;\nDEX\n+1;\nCON\n-1;\nINT\n+5;\nWIS\n+3;\nCHA\n+2\nSkills\nComputers +7, Engineering +7, Life Science +12, Mysticism +12, Physical Science +7\nLanguages\nAkitonian, Common, Ysoki; telepathy 100 ft.\nGear\nsecond skin, azimuth laser pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany urban (Akiton)\nOrganization\nsolitary, pair, or symposium (3-7)\nSpecial Abilities\nApplied Knowledge (Ex)\nOnce per day before attempting a skill check or saving throw against a creature, a contemplative can use its bonus for the skill associated with that creature’s type (such as Life Science for an ooze or Mysticism for an outsider) in place of its normal bonus.\nAtrophied (Ex)\nA contemplative’s limbs are practically vestigial. A contemplative can manipulate most tools and one-handed weapons (including small arms) without difficulty. A contemplative can’t properly wield a two-handed weapon without dedicating its telekinetic powers to supporting the weapon, and even then it takes a –4 penalty to attack rolls. It also can’t use its spell-like abilities or fly until it is no longer wielding that weapon.\nExtra Content\nThe following extra content was found for this creature:\n-\nContemplative Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Contemplative.png"
+}

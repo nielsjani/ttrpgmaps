@@ -1,0 +1,55 @@
+{
+  "name": "Genie, Efreeti",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Efreeti&Family=Genie",
+  "source": "Starfinder #13: Fire Starters pg. 59",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "LE",
+  "size": "Large",
+  "creature_type": "outsider (extraplanar, fire)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "21",
+  "kac": "21",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+9",
+  "immunities": "fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "wrack devastation blade +20 (2d8+14 S; critical burn 2d4) or slam +20 (3d4+14 B; critical burn 2d4)",
+  "ranged": "hailstorm-class zero rifle +17 (2d8+8 C; critical staggered)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "elemental fire",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\nexplosive blast\n(DC 16),\nholographic image\n(4th level, DC 17)\n3/day—\ninvisibility\n,\nwall of fire\n,\nwish (for non-genies only)\nAt will—\ndetect magic\n,\nenergy ray\n(fire only),\noverheat\n(DC 14),\nplane shift\n(willing targets to Elemental Planes, Astral Plane, or Material Plane only)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+4",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Bluff +21, Diplomacy +16, Disguise +16, Intimidate +21, Mysticism +16, Sense Motive +16",
+  "languages": "Common, Ignan, up to 3 others; telepathy 100 ft.",
+  "other_abilities": "change shape (humanoid)",
+  "gear": "efreeti armor (functions as ysoki refractor suit), hailstorm-class zero rifle with 2 high-capacity batteries (40 charges each), wrack devastation blade",
+  "environment": "any (Plane of Fire)",
+  "organization": "solitary, pair, company (3–6), or band (7–12)",
+  "special_abilities": [
+    {
+      "name": "Elemental Fire (Su)",
+      "description": "Efreeti can cause any weapon they wield to deal half its damage as fire damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with fire. In addition, azers can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the efreeti chooses only one to apply on a critical hit."
+    }
+  ],
+  "description": "Efreet are genies native to the Elemental Plane of Fire, where they build totalitarian, militaristic societies. Although they hate djinn and consider themselves to be a superior species, efreet do make alliances with earth genies, called shaitans, and other powerful creatures. Such unions last only until they no longer serve the efreet who made them.\nInfused with magic that can alter reality, efreet take great pride in their ability to grant wishes. To do so without restraint or for personal gain is considered to be shameful among genies, however, and some genies and other outsiders, such as aeons, seek out such power abusers for retribution. Therefore, an efreeti grants wishes for only those creatures the genie views as deserving or to which the efreeti owes a debt. Mortals who gain power over a genie can also make use of this ability; however, all genies are infamous for twisting the wishes of such masters against them, and efreet are especially devious and cruel.\nAn efreeti is a 12-foot-tall humanoid, weighing 2,000 pounds with a fit build. The genie’s dark horns and crimson skin occasionally give off flame and smoke. Efreet use change shape to become smaller in situations where space is a premium, such as aboard starships or space stations.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenie\nAliens in the \"Genie\" Family\nName\nCR\nDjinni\n5\nEfreeti\n8\nJanni\n4\nMarid\n9\nShaitan\n7\nGenie, Efreeti\nSource\nStarfinder #13: Fire Starters pg. 59\nEfreeti CR 8\nXP 4,800\nLE Large outsider (extraplanar, fire)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n21;\nKAC\n21\nFort\n+10;\nRef\n+10;\nWill\n+9\nImmunities\nfire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\nwrack devastation blade +20 (2d8+14 S; critical burn 2d4) or slam +20 (3d4+14 B; critical burn 2d4)\nRanged\nhailstorm-class zero rifle +17 (2d8+8 C; critical staggered)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nelemental fire\nSpell-Like Abilities\n(CL 8th)\n1/day—\nexplosive blast\n(DC 16),\nholographic image\n(4th level, DC 17)\n3/day—\ninvisibility\n,\nwall of fire\n,\nwish (for non-genies only)\nAt will—\ndetect magic\n,\nenergy ray\n(fire only),\noverheat\n(DC 14),\nplane shift\n(willing targets to Elemental Planes, Astral Plane, or Material Plane only)\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+4;\nINT\n+1;\nWIS\n+2;\nCHA\n+2\nSkills\nBluff +21, Diplomacy +16, Disguise +16, Intimidate +21, Mysticism +16, Sense Motive +16\nLanguages\nCommon, Ignan, up to 3 others; telepathy 100 ft.\nOther Abilities\nchange shape (humanoid)\nGear\nefreeti armor (functions as ysoki refractor suit), hailstorm-class zero rifle with 2 high-capacity batteries (40 charges each), wrack devastation blade\nEcology\nEnvironment\nany (Plane of Fire)\nOrganization\nsolitary, pair, company (3–6), or band (7–12)\nSpecial Abilities\nElemental Fire (Su)\nEfreeti can cause any weapon they wield to deal half its damage as fire damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with fire. In addition, azers can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the efreeti chooses only one to apply on a critical hit.\nDescription\nEfreet are genies native to the Elemental Plane of Fire, where they build totalitarian, militaristic societies. Although they hate djinn and consider themselves to be a superior species, efreet do make alliances with earth genies, called shaitans, and other powerful creatures. Such unions last only until they no longer serve the efreet who made them.\nInfused with magic that can alter reality, efreet take great pride in their ability to grant wishes. To do so without restraint or for personal gain is considered to be shameful among genies, however, and some genies and other outsiders, such as aeons, seek out such power abusers for retribution. Therefore, an efreeti grants wishes for only those creatures the genie views as deserving or to which the efreeti owes a debt. Mortals who gain power over a genie can also make use of this ability; however, all genies are infamous for twisting the wishes of such masters against them, and efreet are especially devious and cruel.\nAn efreeti is a 12-foot-tall humanoid, weighing 2,000 pounds with a fit build. The genie’s dark horns and crimson skin occasionally give off flame and smoke. Efreet use change shape to become smaller in situations where space is a premium, such as aboard starships or space stations.",
+  "type": "outsider (extraplanar, fire)",
+  "category": "alien"
+}

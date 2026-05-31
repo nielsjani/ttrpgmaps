@@ -1,0 +1,54 @@
+{
+  "name": "Embri, Embri Speaker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Embri Speaker&Family=Embri",
+  "source": "Alien Archive 2 pg. 49",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "140",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+15",
+  "immunities": "charm",
+  "weaknesses": "masked emotions",
+  "speed": "30 ft.",
+  "melee": "claw +16 (2d8+10 S) or buzzblade dueling sword +16 (2d6+10 S)",
+  "ranged": "aphelion laser pistol +18 (3d4+10 F; critical burn 1d4)",
+  "offensive_abilities": "echoes of obedience, greater forced amity (DC 21), inexplicable commands",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "At will—\nmindlink\nMystic Spells Known\n(CL 10th)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ndispel magic\n,\nslow\n(DC 21),\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)\nConnection\noverlord"
+  },
+  "spells": "(CL 10th)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ndispel magic\n,\nslow\n(DC 21),\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)\nConnection\noverlord",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+8",
+    "cha": "+5"
+  },
+  "skills": "Diplomacy +19, Intimidate +24, Mysticism +24, Sense Motive +24",
+  "languages": "Common, Embri, Infernal",
+  "gear": "platinum AbadarCorp travel suit, aphelion laser pistol with 2 high-capacity batteries (40 charges each), buzzblade dueling sword with 1 battery (20 charges), hivemask",
+  "environment": "any (Embroi)",
+  "organization": "solitary or coterie (1 plus 4–15 embri)",
+  "special_abilities": [
+    {
+      "name": "Masked Emotions (Ex)",
+      "description": "An embri loses its immunity to charm effects and its +2 racial bonus to saving throws against enchantment spells and effects when it isn’t wearing a mask over its face. In addition, while unmasked, it must roll twice for any Sense Motive check it attempts and take the lower result."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nEmbri Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEmbri\nSource\nAlien Archive 2 pg. 49\nThe embri are highly evolved mollusks with an exceptionally rigid social order. Every embri knows its place among the hierarchy of embri society and performs the duties of its station without complaint. The society’s few rebels or free thinkers, when discovered, are exiled or executed. This rigid order has allowed embri society to excel in technological and magical development, although outsiders view embri creations as soulless or downright gruesome— their vast, fiery factory-forges ring with the rhythmic clang of machinery, and blood-fueled vermicular vessels heave across their world with peristaltic contractions.\nEmbri evolved from aquatic ancestors long ago, and their four strong limbs have sharp claws at the end allowing them to walk upright on land. These claws have significant flexibility, so embri can use tools and weapons. The average embri is 4 feet tall with a trailing tail that’s slightly longer, and most weigh around 200 pounds. Embri reproduce asexually, and while they once would bud young based on the seasons of their home world, budding is now rigidly controlled by embri bureaucracy and allowed only on schedules set by the office of the spawning administrator. Young embri are raised in institutional academies where they’re trained to be diligent and compliant and are rewarded for informing on classmates who demonstrate deviant thinking or “anomalous independence.”\nEmbri have a highly developed brain-sac at the top of their heads, and their faces consist of two small, closely set eyes above a slit that functions as a combination of nose and ears— they exhale from this orifice to produce a whistling speech. Embri mouths are used solely for eating and are tucked away on the underside of their bodies. Embri consider eating a private, embarrassing function, and they are repulsed at how openly and communally other races eat.\nCulturally, embri long ago mastered social conditioning to eliminate all displays of emotion; they consider expressiveness to be barbaric, and the occasional embri who shows feelings openly is considered primitive and dangerous. As a side effect of keeping their own feelings in check, embri easily pick up on signs of emotions. To prevent inadvertent displays of emotion, embri wear ornate masks. These masks also denote social standing, civic responsibilities, and other designators that allow embri to immediately assess one another by sight. Embri wear their masks at all times, even when sleeping, and to be without a mask is a profound embarrassment—it evidences a gross exposure of an embri’s thoughts and feelings, rendering it unable to effectively protect its own emotions and too distracted to effectively read the expressions of others.\nFew embri realize their rigid social hierarchy is controlled by the forces of Hell—scheming devils direct all embri activities from the secret tunnels beneath the mollusks’ home world. These dictates are conveyed by the small group of embri, known as Speakers, who communicate with the devils directly and enact their infernal designs. In exchange for this service, Speakers are granted magical powers and the secrets of diabolical manipulation. Some Speakers also serve as diplomats and envoys from the embri to the Pact Worlds. In these roles, they both shield their people from dangerously individualistic thinking and extend their masters’ designs to the rest of the galaxy. Speakers usually travel with a coterie of devoted embri servants who, in their uniquely expressionless way, idolize the Speaker as a celebrity.\nThe diabolic taint on embri society is pervasive, yet subtle. For example, the embri language now contains several Infernal words and phrases, and though embri shun symbols of deific obedience as an overemotional expression of connection to the divine, stylized iconography of infernal origin features prominently in modern embri architecture.\nHivemasks\nMany embri work hard to afford masks with magical abilities. In addition to the ordinary functions of displaying social status and shielding an embri’s emotions, these masks provide additional abilities to embri wearing them. One of the most common of these masks is the\nhivemask\n.\nAliens in the \"Embri\" Family\nName\nCR\nEmbri\n3\nEmbri Speaker\n10\nEmbri, Embri Speaker\nSource\nAlien Archive 2 pg. 48\nEmbri Speaker CR 10\nXP 9,600\nEmbri mystic\nLE Medium aberration\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n140;\nRP\n5\nEAC\n22;\nKAC\n23\nFort\n+9;\nRef\n+9;\nWill\n+15; +2 vs. enchantment\nImmunities\ncharm\nWeaknesses\nmasked emotions\nOffense\nSpeed\n30 ft.\nMelee\nclaw +16 (2d8+10 S) or buzzblade dueling sword +16 (2d6+10 S)\nRanged\naphelion laser pistol +18 (3d4+10 F; critical burn 1d4)\nOffensive Abilities\nechoes of obedience, greater forced amity (DC 21), inexplicable commands\nMystic Spell-Like Abilities\n(CL 10th)\nAt will—\nmindlink\nMystic Spells Known\n(CL 10th)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ndispel magic\n,\nslow\n(DC 21),\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)\nConnection\noverlord\nStatistics\nSTR\n+0;\nDEX\n+0;\nCON\n+3;\nINT\n+0;\nWIS\n+8;\nCHA\n+5\nSkills\nDiplomacy +19, Intimidate +24, Mysticism +24, Sense Motive +24\nLanguages\nCommon, Embri, Infernal\nGear\nplatinum AbadarCorp travel suit, aphelion laser pistol with 2 high-capacity batteries (40 charges each), buzzblade dueling sword with 1 battery (20 charges), hivemask\nEcology\nEnvironment\nany (Embroi)\nOrganization\nsolitary or coterie (1 plus 4–15 embri)\nSpecial Abilities\nMasked Emotions (Ex)\nAn embri loses its immunity to charm effects and its +2 racial bonus to saving throws against enchantment spells and effects when it isn’t wearing a mask over its face. In addition, while unmasked, it must roll twice for any Sense Motive check it attempts and take the lower result.\nExtra Content\nThe following extra content was found for this creature:\n-\nEmbri Race Entry",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Embri.png"
+}

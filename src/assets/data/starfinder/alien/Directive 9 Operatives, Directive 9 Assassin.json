@@ -1,0 +1,50 @@
+{
+  "name": "Directive 9 Operatives, Directive 9 Assassin",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Directive 9 Assassin&Family=Directive 9 Operatives",
+  "source": "Starfinder #43: Icebound pg. 43",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "humanoid (vesk)",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+10",
+  "speed": "33 ft.",
+  "melee": "bleeding advanced doshakari",
+  "ranged": "malediction phantom assassin rifle",
+  "offensive_abilities": "marked for death, natural weapons",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +17, Bluff +17, Intimidate +17, Piloting +17, Sleight of Hand +17, Stealth +22",
+  "languages": "Common, Vesk",
+  "other_abilities": "armor savant",
+  "gear": "vesk brigandine III (reaction accelerator),",
+  "special_abilities": [
+    {
+      "name": "Marked for Death (Ex)",
+      "description": "A Directive 9 assassin always has a single individual they've been instructed to kill. The assassin gains a +2 morale bonus on attack rolls against this target and inflicts additional damage equal to the assassin's CR to this target (9 for a typical Directive 9 assassin)."
+    },
+    {
+      "name": "Relentless (Ex)",
+      "description": "Whenever the Directive 9 assassin attempts a saving throw that leaves them subject to a condition other than dead or dying, the assassin can re-roll their saving throw one round later; if the assassin succeeds at this second saving throw, the condition ends."
+    }
+  ],
+  "description": "Assassination is seldom the first choice for Directive 9, which prides itself on finding subtler solutions to problems. But sometimes—especially when a target has already resisted surveillance and subversion—there's nothing to do except plant an explosive bullet in the target's brain.\nAssassins are high-level agents who have undergone extensive, and sometimes psychologically damaging, training. To ensure they can kill without remorse or impunity, they're conditioned to see living creatures as simply obstacles or targets, not as people. Directive 9 assassins know what has been done to them, and they remember their lives before; some of them spend their time between missions desperately trying to reconnect with that former life, pursuing mundane hobbies or even building a family. However, when the next assignment comes, they drop everything and get to work.\nAlter the assassin's gear to suit the target.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDirective 9 Operatives\nSource\nStarfinder #43: Icebound pg. 43\nDirective 9 has agents everywhere, not just in the Veskarium. Deep-cover agents live and work in the Pact Worlds and elsewhere in Near Space, thriving in secret identities they might never reveal. Handlers manage individual field agents and operations, while administrators in safe locations manage resources and plan the long term goals of the agency.\nThe example Directive 9 personnel presented below can be easily modified to suit the needs of your campaign. In particular, you can remove the vesk racial traits included on these characters for different racial traits appropriate to the agent's species.\nAliens in the \"Directive 9 Operatives\" Family\nName\nCR\nDirective 9 Assassin\n9\nDirective 9 Handler\n6\nDirective 9 Muscle\n3\nDirective 9 Operatives, Directive 9 Assassin\nSource\nStarfinder #43: Icebound pg. 44\nDirective 9 Assassin CR 9\nXP 6,400\nFemale Vesk\nLE Medium humanoid (vesk)\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+17\nDefense\nHP\n145;\nRP\n4\nEAC\n23;\nKAC\n25\nFort\n+11;\nRef\n+11;\nWill\n+10; +2 vs. fear\nDefensive Abilities\nrelentless\nOffense\nSpeed\n33 ft.\nMelee\nbleeding advanced doshakari\n+21 (3d4+15 P; critical bleed 1d6) or unarmed strike +21 (1d3+15 B)\nRanged\nmalediction phantom assassin rifle\n+19 (3d6+9 P)\nOffensive Abilities\nmarked for death, natural weapons\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+3;\nINT\n+1;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +17, Bluff +17, Intimidate +17, Piloting +17, Sleight of Hand +17, Stealth +22\nLanguages\nCommon, Vesk\nOther Abilities\narmor savant\nGear\nvesk brigandine III (reaction accelerator),\nbleeding advanced doshakari\n,\nmalediction phantom assassin rifle\n(DC 16) with 10 rounds, comm unit, credstick\nSpecial Abilities\nMarked for Death (Ex)\nA Directive 9 assassin always has a single individual they've been instructed to kill. The assassin gains a +2 morale bonus on attack rolls against this target and inflicts additional damage equal to the assassin's CR to this target (9 for a typical Directive 9 assassin).\nRelentless (Ex)\nWhenever the Directive 9 assassin attempts a saving throw that leaves them subject to a condition other than dead or dying, the assassin can re-roll their saving throw one round later; if the assassin succeeds at this second saving throw, the condition ends.\nDescription\nAssassination is seldom the first choice for Directive 9, which prides itself on finding subtler solutions to problems. But sometimes—especially when a target has already resisted surveillance and subversion—there's nothing to do except plant an explosive bullet in the target's brain.\nAssassins are high-level agents who have undergone extensive, and sometimes psychologically damaging, training. To ensure they can kill without remorse or impunity, they're conditioned to see living creatures as simply obstacles or targets, not as people. Directive 9 assassins know what has been done to them, and they remember their lives before; some of them spend their time between missions desperately trying to reconnect with that former life, pursuing mundane hobbies or even building a family. However, when the next assignment comes, they drop everything and get to work.\nAlter the assassin's gear to suit the target.",
+  "type": "humanoid (vesk)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Equinoxian, Equinoxian Periastra",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Equinoxian Periastra&Family=Equinoxian",
+  "source": "Alien Archive 3 pg. 30",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+10",
+  "speed": "30 ft.",
+  "melee": "slam +22 (2d10+15 B)",
+  "ranged": "graviton crush +19 (5d4+9 B; critical staggered) or sun hurl +19 (3d6+15 E & F; critical burn 1d6)",
+  "offensive_abilities": "flashing strikes, stellar revelations (blazing orbit, defy gravity)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +17, Athletics +17, Mysticism +22",
+  "languages": "Common, Kasatha",
+  "other_abilities": "balanced alignment",
+  "environment": "any",
+  "organization": "solitary, cluster (2–4), or constellation (5–8)",
+  "special_abilities": [
+    {
+      "name": "Balanced Alignment (Su)",
+      "description": "A periastra is always both photon attuned and graviton attuned (but not fully attuned). If subject to an effect that depends on the periastra’s stellar alignment, the periastra uses whichever attunement is most beneficial to it."
+    },
+    {
+      "name": "Flashing Strikes (Ex)",
+      "description": "This functions as the flashing strikes solarian class feature."
+    },
+    {
+      "name": "Graviton Crush (Su)",
+      "description": "A periastra can crush an enemy with gravity; this is a ranged attack with a range of 30 feet and that targets EAC. A creature hit by graviton crush must succeed at a DC 16 Fortitude saving throw or be entangled. It can attempt a new Fortitude save once per round as a move action. A periastra cannot use graviton crush two turns in a row. If the periastra makes a full attack using graviton crush, it must use graviton crush for both attacks."
+    },
+    {
+      "name": "Stellar Revelations (Su)",
+      "description": "A periastra can use the blazing orbit and defy gravity solarian stellar revelations. However, it cannot use the same revelation two turns in a row, and it cannot use both revelations on the same turn."
+    },
+    {
+      "name": "Sun Hurl (Su)",
+      "description": "A periastra can throw balls of superheated plasma at a foe. This is a ranged attack with a range increment of 30 feet and that targets EAC. A creature hit by sun hurl must succeed at a DC 16 Reflex save or gain the burning condition (1d6 fire damage). This condition doesn’t stack with itself, but does with any other burning condition. The periastra cannot use sun hurl two turns in a row. If the periastra makes a full attack using sun hurl, it must use sun hurl for both attacks."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEquinoxian\nSource\nAlien Archive 3 pg. 30\nEquinoxians are rare and unusual native outsiders who simultaneously embody the power of both black holes and blazing suns. Alternating waves of photons and gravitons constantly travel along their roughly humanoid‑shaped bodies. An equinoxian’s head and legs might shine with light while its torso and arms remain as black as the void, and a few seconds later, the opposite may be true, as waves of energy ripple through the equinoxian’s body. As equinoxians age and their connection to the Cycle grows, they must learn to master the perfect balance of the contradictory powers within themselves, lest they lose control of those forces.\nEquinoxian periastras are masters of the Cycle, perpetually balancing the gravitonic and photonic forces comprising their bodies, and they are legendary for their fighting prowess. They oppose forces of chaos and guard sites holy to solarians, allowing visitors to enter only after they have proven their mastery of the Cycle in combat.\nThose equinoxians who cannot maintain balance are driven mad, becoming the tragic and powerful figures known as apastras. Apastras seek to cause imbalance and collapse wherever they can, and solarians justly fear the enraged creatures.\nAliens in the \"Equinoxian\" Family\nName\nCR\nEquinoxian Apastra\n15\nEquinoxian Periastra\n9\nEquinoxian, Equinoxian Periastra\nSource\nAlien Archive 3 pg. 30\nEquinoxian Periastra CR 9\nXP 6,400\nLN Medium outsider (native)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+11;\nWill\n+10\nOffense\nSpeed\n30 ft.\nMelee\nslam +22 (2d10+15 B)\nRanged\ngraviton crush +19 (5d4+9 B; critical staggered) or sun hurl +19 (3d6+15 E & F; critical burn 1d6)\nOffensive Abilities\nflashing strikes, stellar revelations (blazing orbit, defy gravity)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+2;\nINT\n+1;\nWIS\n+3;\nCHA\n+3\nSkills\nAcrobatics +17, Athletics +17, Mysticism +22\nLanguages\nCommon, Kasatha\nOther Abilities\nbalanced alignment\nEcology\nEnvironment\nany\nOrganization\nsolitary, cluster (2–4), or constellation (5–8)\nSpecial Abilities\nBalanced Alignment (Su)\nA periastra is always both photon attuned and graviton attuned (but not fully attuned). If subject to an effect that depends on the periastra’s stellar alignment, the periastra uses whichever attunement is most beneficial to it.\nFlashing Strikes (Ex)\nThis functions as the flashing strikes solarian class feature.\nGraviton Crush (Su)\nA periastra can crush an enemy with gravity; this is a ranged attack with a range of 30 feet and that targets EAC. A creature hit by graviton crush must succeed at a DC 16 Fortitude saving throw or be entangled. It can attempt a new Fortitude save once per round as a move action. A periastra cannot use graviton crush two turns in a row. If the periastra makes a full attack using graviton crush, it must use graviton crush for both attacks.\nStellar Revelations (Su)\nA periastra can use the blazing orbit and defy gravity solarian stellar revelations. However, it cannot use the same revelation two turns in a row, and it cannot use both revelations on the same turn.\nSun Hurl (Su)\nA periastra can throw balls of superheated plasma at a foe. This is a ranged attack with a range increment of 30 feet and that targets EAC. A creature hit by sun hurl must succeed at a DC 16 Reflex save or gain the burning condition (1d6 fire damage). This condition doesn’t stack with itself, but does with any other burning condition. The periastra cannot use sun hurl two turns in a row. If the periastra makes a full attack using sun hurl, it must use sun hurl for both attacks.",
+  "type": "outsider (native)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Equinoxian_Periastra.png"
+}

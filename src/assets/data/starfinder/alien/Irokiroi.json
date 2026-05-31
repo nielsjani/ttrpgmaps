@@ -1,0 +1,57 @@
+{
+  "name": "Irokiroi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Irokiroi&Family=Irokiroi",
+  "source": "Alien Archive 3 pg. 56",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "animal",
+  "init": "+5",
+  "senses": "blindsight (sound) 120 ft., sightless;",
+  "perception": "+11",
+  "hp": "72",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "immunities": "poison",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "fly 60 ft. (Ex, average)",
+  "melee": "bite +14 (1d6+10 P plus topple; critical bleed 1d6) or wing +14 (1d6+10 S; critical bleed 1d4)",
+  "ranged": "sonic burst +11 (1d6+5 So)",
+  "space": "15 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16",
+  "feats": "Spring Attack",
+  "other_abilities": "death throes",
+  "environment": "any sky (Osoro)",
+  "organization": "solitary or coil (6–12 plus 1–2 oshirokirois)",
+  "special_abilities": [
+    {
+      "name": "Death Throes (Ex)",
+      "description": "When an irokiroi is killed, its gas bladder loses cohesion and explodes in a burst of high-frequency sound and toxic gases. Each creature within 15 feet of the irokiroi takes 2d6 sonic damage and is deafened for 1d4 rounds; with a successful DC 13 Fortitude save, a creature takes half the damage and negates the deafened effect. The area in a 30-foot radius from the irokiroi becomes a dense cloud of caustic fumes that provide concealment. A creature that enters or starts its turn in the cloud takes 2d4 acid damage. The cloud can be dispersed in the same way as fog cloud and otherwise dissipates on its own in 1 minute."
+    },
+    {
+      "name": "Sonic Burst (Ex)",
+      "description": "An irokiroi’s sonic burst is a high-frequency screech that can target a single creature within 40 feet."
+    },
+    {
+      "name": "Topple (Ex)",
+      "description": "If an irokiroi’s bite attack hits the target’s KAC + 4, the irokiroi deals its normal damage and automatically trips the target (this takes no action)."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nIrokiroi\nSource\nAlien Archive 3 pg. 56\nThough most inhabitants of the Liavaran moon of Osoro remain confined to the few mountain peaks rising above the roiling cloud-seas of toxic gases, these perilous clouds are home to their own seldom-seen and poorly understood jungle ecosystem. The apex predators of this system are irokirois, huge serpentine creatures with long wing fins that spiral in a helical pattern along their entire bodies, from their razorfanged tripartite maws to their tapered tails. Though most irokirois keep to the toxic gas seas, their corkscrewing flight occasionally brings them to the surface or even to the skies above to attack Osoran settlements in furious rages.\nIrokirois are largely solitary creatures. Roughly twice every year, they congregate in writhing coils of up to a dozen to mate, after which each gives birth to dozens of tiny young. These offspring spiral to the bottom of the cloud seas and drill into the ground, where they feed until their wing fins develop. An irokiroi continues to grow throughout its lifespan, and one that survives long enough eventually grows into an enormous predator with the capacity to wreak great destruction; Osorans call these immense apex predators oshirokirois.\nIn recent years, irokiroi and oshirokiroi attacks have increased drastically, with some Osoran settlements fighting off multiple instances each month. A strong correlation exists between the rise in attacks and the growing popularity of Bhalakosti Excursion’s survival safari trips into the moon’s poisonous jungles, run by dirindi (see pages 20–21) natives of the moon and patronized by predominantly vesk customers. Though the company’s representatives have declined to comment on the situation, biologists theorize that the excursions’ hunting of predators that feed on immature irokirois has led to a surge in the irokiroi population and therefore more attacks.\nAliens in the \"Irokiroi\" Family\nName\nCR\nIrokiroi\n5\nOshirokiroi\n12\nIrokiroi\nSource\nAlien Archive 3 pg. 56\nIrokiroi CR 5\nXP 1,600\nN Huge animal\nInit\n+5;\nSenses\nblindsight (sound) 120 ft., sightless;\nPerception\n+11\nDefense\nHP\n72\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nImmunities\npoison\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\nfly 60 ft. (Ex, average)\nMelee\nbite +14 (1d6+10 P plus topple; critical bleed 1d6) or wing +14 (1d6+10 S; critical bleed 1d4)\nRanged\nsonic burst +11 (1d6+5 So)\nSpace\n15 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nFeats\nSpring Attack\nSkills\nAcrobatics +16\nOther Abilities\ndeath throes\nEcology\nEnvironment\nany sky (Osoro)\nOrganization\nsolitary or coil (6–12 plus 1–2 oshirokirois)\nSpecial Abilities\nDeath Throes (Ex)\nWhen an irokiroi is killed, its gas bladder loses cohesion and explodes in a burst of high-frequency sound and toxic gases. Each creature within 15 feet of the irokiroi takes 2d6 sonic damage and is deafened for 1d4 rounds; with a successful DC 13 Fortitude save, a creature takes half the damage and negates the deafened effect. The area in a 30-foot radius from the irokiroi becomes a dense cloud of caustic fumes that provide concealment. A creature that enters or starts its turn in the cloud takes 2d4 acid damage. The cloud can be dispersed in the same way as fog cloud and otherwise dissipates on its own in 1 minute.\nSonic Burst (Ex)\nAn irokiroi’s sonic burst is a high-frequency screech that can target a single creature within 40 feet.\nTopple (Ex)\nIf an irokiroi’s bite attack hits the target’s KAC + 4, the irokiroi deals its normal damage and automatically trips the target (this takes no action).",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Irokiroi.png"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Garaggakal",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Garaggakal&Family=Garaggakal",
+  "source": "Alien Archive 2 pg. 55",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+5",
+  "senses": "blindsight (emotion) 60 ft., darkvision 60 ft., sense through (emotion) 60 ft.;",
+  "perception": "+11",
+  "hp": "75",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+6",
+  "immunities": "radiation",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "bite +12 (2d6+9 P)",
+  "offensive_abilities": "leech life (DC 13)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Athletics +11, Stealth +16, Survival +11",
+  "languages": "Garaggakal (can’t speak any language); telepathy 100 ft.",
+  "other_abilities": "no breath, phase through",
+  "environment": "any (the Drift)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Leech Life (Su)",
+      "description": "As a standard action, a garaggakal can spend 1 Resolve Point to leech the life from one target within 30 feet. This deals 3d6 damage (Fortitude DC 13 half), and the garaggakal gains temporary Hit Points equal to the amount of damage dealt."
+    },
+    {
+      "name": "Phase Through (Su)",
+      "description": "A garaggakal can momentarily shift out of phase with reality. As a full action, a garaggakal can spend 1 Resolve Point to phase through up to 15 feet of solid matter. If it attempts to phase through something that is more than 15 feet thick, the attempt fails, but the action and Resolve Points are still expended. A garaggakal cannot phase through force effects, such as force fields."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGaraggakal\nSource\nAlien Archive 2 pg. 55\nThe Drift remains very much a mystery to explorers and scholars in the Pact Worlds, and scientists have only recently discovered life-forms native to it. The garaggakal, sometimes called a “Drift wraith” by those spacefarers fortunate enough to have survived an encounter with these predators, is one such species. A garaggakal is mostly humanoid in form, with rubbery, yellowish skin, translucent wings, and a long reptilian tail. A garaggakal’s head is little more than a gaping, lamprey-like mouth filled with curved teeth. An average garaggakal has a 20-foot wingspan and stands around 8 feet tall, though its tail can more than double that length, and it weighs approximately 400 pounds. A garaggakal polymath can be 15 feet tall or more, weighing as much as 1,000 pounds.\nGaraggakals freely roam the Drift on their diaphanous wings, hunting whatever living prey they can find. Garaggakals seem to divide all life into two categories: predators (such as themselves) and prey (everything else). To a garaggakal, the best way to learn more about a newly discovered species is to kill, dissect, and eat it—and not necessarily in that order.\nGaraggakals are ambush predators. When a garaggakal encounters a living creature in the Drift, it stalks its prey, using stealth and its innate ability to phase through solid matter to approach undetected, before draining its victim’s life force from a distance. Garaggakals have been known to stalk entire starships, phasing through a vessel’s hull to hunt and feed on the crew inside.\nWhen it comes time to reproduce, a garaggakal seeks out an area of intense radiation somewhere in the Drift, where it absorbs enough energy to undergo cytogenesis, literally creating new cells from the Drift’s planar energies to “build” its offspring. Upon completion, the process results in a fully grown adult garaggakal.\nGaraggakals increase in size and strength as they age. A garaggakal can live for centuries, growing to more than twice its normal adult size. Called garaggakal polymaths, these elder creatures have a burning curiosity that drives them on ever-longer journeys through the Drift.\nAliens in the \"Garaggakal\" Family\nName\nCR\nGaraggakal\n5\nGaraggakal Polymath\n14\nGaraggakal\nSource\nAlien Archive 2 pg. 54\n,\nStarfinder #1: Incident at Absalom Station pg. 58\nGaraggakal CR 5\nXP 1,600\nCE Medium outsider (extraplanar)\nInit\n+5;\nSenses\nblindsight (emotion) 60 ft., darkvision 60 ft., sense through (emotion) 60 ft.;\nPerception\n+11\nDefense\nHP\n75;\nRP\n4\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+6\nImmunities\nradiation\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nbite +12 (2d6+9 P)\nOffensive Abilities\nleech life (DC 13)\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+3;\nINT\n+1;\nWIS\n+2;\nCHA\n-2\nSkills\nAcrobatics +16 (+24 to fly), Athletics +11, Stealth +16, Survival +11\nLanguages\nGaraggakal (can’t speak any language); telepathy 100 ft.\nOther Abilities\nno breath, phase through\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary\nSpecial Abilities\nLeech Life (Su)\nAs a standard action, a garaggakal can spend 1 Resolve Point to leech the life from one target within 30 feet. This deals 3d6 damage (Fortitude DC 13 half), and the garaggakal gains temporary Hit Points equal to the amount of damage dealt.\nPhase Through (Su)\nA garaggakal can momentarily shift out of phase with reality. As a full action, a garaggakal can spend 1 Resolve Point to phase through up to 15 feet of solid matter. If it attempts to phase through something that is more than 15 feet thick, the attempt fails, but the action and Resolve Points are still expended. A garaggakal cannot phase through force effects, such as force fields.",
+  "type": "outsider (extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Garaggakal.png"
+}

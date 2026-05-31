@@ -1,0 +1,58 @@
+{
+  "name": "Entropy Slug",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Entropy Slug&Family=None",
+  "source": "Starfinder #9: The Rune Drive Gambit pg. 58",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "-1",
+  "senses": "blindsense (scent) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+3",
+  "will": "+6",
+  "immunities": "acid",
+  "weaknesses": "susceptible to salt",
+  "speed": "20 ft.",
+  "melee": "slam +13 (1d6+9 B plus entropic mucus; critical deteriorate [DC 13])",
+  "ranged": "corrosive spittle +10 (1d6+3 A; critical corrode 1d6)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "-1",
+    "con": "+4",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +10, Stealth +10",
+  "other_abilities": "entropic mucus",
+  "environment": "underground or urban (Great Shadar)",
+  "organization": "solitary, pair, or cornucopia (3–30)",
+  "special_abilities": [
+    {
+      "name": "Corrosive Spittle (Ex)",
+      "description": "An entropy slug can spit acid as a ranged attack with a range increment of 30 feet."
+    },
+    {
+      "name": "Deteriorate (Su)",
+      "description": "When an entropy slug deals a critical hit with its slam attack, the target must succeed at a DC 13 Reflex saving throw or all its hybrid and technological weapons, armor, and gear gain the broken condition for 1d4 rounds. Items with the analog property are unaffected."
+    },
+    {
+      "name": "Entropic Mucus (Ex)",
+      "description": "When an entropy slug hits with a slam attack or moves, it leaves behind mucus on the creature it hit or in every square the slug moved through. A creature hit by the slug’s slam attack or that enters a square covered in entropic mucus must succeed at a DC 13 Reflex save or each battery in the creature’s possession loses 1d4 charges. This mucus remains active until it forces one such saving throw or 1 minute has passed, whichever comes first."
+    },
+    {
+      "name": "Susceptible to Salt (Ex)",
+      "description": "A handful or more of salt or a splash of salt water deals 1d6 damage to an entropy slug, and full immersion in salt water deals 4d6 damage per round."
+    }
+  ],
+  "description": "Originating from\nGreat Shadar\n, entropy slugs are large, terrestrial mollusks infused with the force of the gradual decline of order. They naturally congregate in abandoned industrial complexes, derelict slums, or junkyards where neglected sources of technology linger. However, draeliks and other species like to use them as guard animals, taking care to keep them away from any important electronic devices.\nA typical entropy slug is about 5 feet long from eyestalk to tail and weighs 300 pounds.\nEntropy Slug Mucous Gland\nAn entropy slug’s mucous gland can be used to craft a special hybrid grenade known as a\ndrain grenade\n. The mucous gland of a slain entropy slug can be harvested with a successful DC 25 Life Science check that takes 1 minute, garnering raw materials worth 700 UPBs that can be used only to craft a\ndrain grenade\n. If you fail this check by 5 or more, you suffer the effect of a\ndrain grenade\n. This check can be attempted only once per entropy slug.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEntropy Slug\nSource\nStarfinder #9: The Rune Drive Gambit pg. 58\nEntropy Slug CR 4\nXP 1,200\nNE Medium magical beast\nInit\n-1;\nSenses\nblindsense (scent) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+3;\nWill\n+6\nImmunities\nacid\nWeaknesses\nsusceptible to salt\nOffense\nSpeed\n20 ft.\nMelee\nslam +13 (1d6+9 B plus entropic mucus; critical deteriorate [DC 13])\nRanged\ncorrosive spittle +10 (1d6+3 A; critical corrode 1d6)\nStatistics\nSTR\n+5;\nDEX\n-1;\nCON\n+4;\nINT\n-3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +10, Stealth +10\nOther Abilities\nentropic mucus\nEcology\nEnvironment\nunderground or urban (Great Shadar)\nOrganization\nsolitary, pair, or cornucopia (3–30)\nSpecial Abilities\nCorrosive Spittle (Ex)\nAn entropy slug can spit acid as a ranged attack with a range increment of 30 feet.\nDeteriorate (Su)\nWhen an entropy slug deals a critical hit with its slam attack, the target must succeed at a DC 13 Reflex saving throw or all its hybrid and technological weapons, armor, and gear gain the broken condition for 1d4 rounds. Items with the analog property are unaffected.\nEntropic Mucus (Ex)\nWhen an entropy slug hits with a slam attack or moves, it leaves behind mucus on the creature it hit or in every square the slug moved through. A creature hit by the slug’s slam attack or that enters a square covered in entropic mucus must succeed at a DC 13 Reflex save or each battery in the creature’s possession loses 1d4 charges. This mucus remains active until it forces one such saving throw or 1 minute has passed, whichever comes first.\nSusceptible to Salt (Ex)\nA handful or more of salt or a splash of salt water deals 1d6 damage to an entropy slug, and full immersion in salt water deals 4d6 damage per round.\nDescription\nOriginating from\nGreat Shadar\n, entropy slugs are large, terrestrial mollusks infused with the force of the gradual decline of order. They naturally congregate in abandoned industrial complexes, derelict slums, or junkyards where neglected sources of technology linger. However, draeliks and other species like to use them as guard animals, taking care to keep them away from any important electronic devices.\nA typical entropy slug is about 5 feet long from eyestalk to tail and weighs 300 pounds.\nEntropy Slug Mucous Gland\nAn entropy slug’s mucous gland can be used to craft a special hybrid grenade known as a\ndrain grenade\n. The mucous gland of a slain entropy slug can be harvested with a successful DC 25 Life Science check that takes 1 minute, garnering raw materials worth 700 UPBs that can be used only to craft a\ndrain grenade\n. If you fail this check by 5 or more, you suffer the effect of a\ndrain grenade\n. This check can be attempted only once per entropy slug.",
+  "type": "magical beast",
+  "category": "alien"
+}

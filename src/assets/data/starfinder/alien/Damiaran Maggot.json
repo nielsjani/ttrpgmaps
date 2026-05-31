@@ -1,0 +1,60 @@
+{
+  "name": "Damiaran Maggot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Damiaran Maggot&Family=None",
+  "source": "Drift Crisis pg. 150",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+0",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft., sense detection (planetary);",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+7",
+  "immunities": "radiation",
+  "weaknesses": "acid",
+  "speed": "40 ft., burrow 30 ft., climb 40 ft.",
+  "melee": "jaws +16 (1d8+11 P)",
+  "ranged": "superheated spine +13 (1d10+6 P & F; critical burn 1d6)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "Constant—\nnondetection\n(self only)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+0",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +18 (+26 to climb), Stealth +13, Survival +13",
+  "other_abilities": "undetectable radiation",
+  "environment": "any underground or vacuum (Diaspora)",
+  "organization": "solitary, pair, or infestation (3–12)",
+  "special_abilities": [
+    {
+      "name": "Sense Detection (Su)",
+      "description": "A Damiaran maggot can innately sense distance and direction to any creature in planetary range that has identified it or detected it, or any of its kind, by any means, including via magic, technology, or any senses, natural or otherwise."
+    },
+    {
+      "name": "Superheated Spine (Ex)",
+      "description": "As a ranged attack action, a Damiaran maggot can shoot a superheated spine from its back. This projectile has a range increment of 30 feet. A Damiaran maggot has a maximum of 16 spines it can shoot in this way and regrows 1d4 spines per day."
+    },
+    {
+      "name": "Undetectable Radiation (Su)",
+      "description": "A Damiaran maggot is radioactive, and the radiation it emits is also under the effects of its constant nondetection spell-like ability. For purposes of determining the DC of caster-level checks and Perception checks to detect the radiation, it is considered part of the creature."
+    }
+  ],
+  "description": "Damiaran maggots are large, worm-like creatures that once lived deep beneath the surface of Damiar, one of two planets that collided and formed the Diaspora. Now, they infest countless planetoids across the asteroid field, making an already dangerous environment that much more so. Extremely territorial, they viciously compete with all other life-forms they meet, leaving any given celestial body only when it becomes clear they’re outmatched.\nDamiaran maggots have a supernatural ability to sense when anyone nearby has detected them—and where those observers are—making them nearly impossible to track down when they don’t want to be found. Their predators are therefore scarce. The only creatures Damiaran maggots immediately flee from are surnochs, which possess an instinct that drives them to seek out and devour any Damiaran maggots they encounter.\nMore than one hapless explorer has mistaken a Damiaran maggot’s vermin-like appearance for a larger variety of asteroid louse. To canny observers, the superheated metal spines that grow along its back set it apart from such vermin. All attempts to study Damiaran maggots in depth have failed, as the creatures either devour or evade most researchers who try to observe them. However, xenobiologists have determined that a Damiaran maggot is the larval stage of some bigger, more intelligent creature, though no known record exists of what that creature might be, how long it takes to mature, or what role it once played in Damiar’s ecosystem.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDamiaran Maggot\nSource\nDrift Crisis pg. 150\nDamiaran Maggot CR 6\nXP 2,400\nNE Large aberration\nInit\n+0;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft., sense detection (planetary);\nPerception\n+13\nAura\nundetectable radiation (medium, 20 ft., DC 14)\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+8;\nWill\n+7\nDefensive Abilities\nvoid adaptation;\nImmunities\nradiation\nWeaknesses\nacid\nOffense\nSpeed\n40 ft., burrow 30 ft., climb 40 ft.\nMelee\njaws +16 (1d8+11 P)\nRanged\nsuperheated spine +13 (1d10+6 P & F; critical burn 1d6)\nSpace\n10 ft.;\nReach\n5 ft.\nSpell-Like Abilities\n(CL 6th)\nConstant—\nnondetection\n(self only)\nStatistics\nSTR\n+5;\nDEX\n+0;\nCON\n+3;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +18 (+26 to climb), Stealth +13, Survival +13\nOther Abilities\nundetectable radiation\nEcology\nEnvironment\nany underground or vacuum (Diaspora)\nOrganization\nsolitary, pair, or infestation (3–12)\nSpecial Abilities\nSense Detection (Su)\nA Damiaran maggot can innately sense distance and direction to any creature in planetary range that has identified it or detected it, or any of its kind, by any means, including via magic, technology, or any senses, natural or otherwise.\nSuperheated Spine (Ex)\nAs a ranged attack action, a Damiaran maggot can shoot a superheated spine from its back. This projectile has a range increment of 30 feet. A Damiaran maggot has a maximum of 16 spines it can shoot in this way and regrows 1d4 spines per day.\nUndetectable Radiation (Su)\nA Damiaran maggot is radioactive, and the radiation it emits is also under the effects of its constant nondetection spell-like ability. For purposes of determining the DC of caster-level checks and Perception checks to detect the radiation, it is considered part of the creature.\nDescription\nDamiaran maggots are large, worm-like creatures that once lived deep beneath the surface of Damiar, one of two planets that collided and formed the Diaspora. Now, they infest countless planetoids across the asteroid field, making an already dangerous environment that much more so. Extremely territorial, they viciously compete with all other life-forms they meet, leaving any given celestial body only when it becomes clear they’re outmatched.\nDamiaran maggots have a supernatural ability to sense when anyone nearby has detected them—and where those observers are—making them nearly impossible to track down when they don’t want to be found. Their predators are therefore scarce. The only creatures Damiaran maggots immediately flee from are surnochs, which possess an instinct that drives them to seek out and devour any Damiaran maggots they encounter.\nMore than one hapless explorer has mistaken a Damiaran maggot’s vermin-like appearance for a larger variety of asteroid louse. To canny observers, the superheated metal spines that grow along its back set it apart from such vermin. All attempts to study Damiaran maggots in depth have failed, as the creatures either devour or evade most researchers who try to observe them. However, xenobiologists have determined that a Damiaran maggot is the larval stage of some bigger, more intelligent creature, though no known record exists of what that creature might be, how long it takes to mature, or what role it once played in Damiar’s ecosystem.",
+  "type": "aberration",
+  "category": "alien"
+}

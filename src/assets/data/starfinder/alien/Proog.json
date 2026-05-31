@@ -1,0 +1,45 @@
+{
+  "name": "Proog",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Proog&Family=None",
+  "source": "Starfinder #25: The Chimera Mystery pg. 60",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "ooze",
+  "init": "+3",
+  "senses": "blindsight (life) 60 ft., sightless;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+0",
+  "will": "-2",
+  "speed": "20 ft.",
+  "melee": "pseudopod +6 (1d6+1 B)",
+  "space": "1 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+2",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +4, Disguise +9, Stealth +4",
+  "other_abilities": "mimic object, mindless",
+  "environment": "any",
+  "organization": "solitary, pair, or swarm (150–350)",
+  "special_abilities": [
+    {
+      "name": "Mimic Object (Ex)",
+      "description": "A proog can look like any solid object of 1 bulk or less that it comes into contact with. It can’t imitate such an item’s function, moving parts, or the like. A creature that closely examines a mimicking proog can determine its true nature with a successful Perception check, but the proog gains a +10 bonus to Disguise checks when imitating an object in this manner."
+    }
+  ],
+  "description": "While sapient creatures throughout the galaxy consider most oozes to simply be disgusting monstrosities, the tiny proog is relatively harmless—at its worst a minor pest, and at times a pleasant companion or pet. According to records (or more precisely, the lack of records) proogs were first discovered, or possibly created, during the Gap. Today, they are known mostly as novelty companions, due to their diminutive size, gentle attitude, and ability to transform into small objects. Proogs can mimic objects with exact precision even though they have no eyes or other visual sensors, although scientists are still uncertain on how the oozes do so. Some believe proogs have psychic abilities, but others insist proogs are able to quickly analyze objects on a molecular level before adopting the new shape.\nRegardless of the facts of a proog’s biology, retailers are happy to sell them as pets, and a proog is perfectly content to be toted around in a small bag and fed the occasional table scrap. Proog companions are surprisingly affectionate toward their masters and are easy to train, able to perform simple transformation tricks during which they adopt the shape of various small objects as instructed by their owners. Proogs are especially popular with small children, who delight in sliding the oozes through their fingers and watching them change colors. The only downside of keeping a proog companion is the nuisance that comes with trying to find a proog after it has misbehaved. Those shopping for a proog pet should be wary, however, as unscrupulous retailers have been caught selling imitation proogs, which the merchant insists are merely sleeping or lethargic but then are later discovered to be molded gelatin in the shape of a common household object.\nAs is often the case with small designer pets, many proogs have escaped their owners over the years only to reproduce in the wild. Untamed proogs can be found in a variety of environments, and though they are relatively harmless, they sometimes lash out in fear. A wild proog will transform into a small object, such as a coffee mug, and hide in plain sight. There it will remain for hours at a time, only moving to feed off discarded garbage when it is alone and unobserved. However, a proog’s ability to mimic is not perfect, and their telltale sheen sometimes gives them away. Wild proogs are often discovered when they are accidentally dropped and, instead of shattering, the injured ooze scurries away to hide.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProog\nSource\nStarfinder #25: The Chimera Mystery pg. 60\nProog CR 1/2\nXP 200\nN Tiny ooze\nInit\n+3;\nSenses\nblindsight (life) 60 ft., sightless;\nPerception\n+4\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+0;\nWill\n-2\nDefensive Abilities\nacid, ooze immunities\nOffense\nSpeed\n20 ft.\nMelee\npseudopod +6 (1d6+1 B)\nSpace\n1 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+2;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +4, Disguise +9, Stealth +4\nOther Abilities\nmimic object, mindless\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or swarm (150–350)\nSpecial Abilities\nMimic Object (Ex)\nA proog can look like any solid object of 1 bulk or less that it comes into contact with. It can’t imitate such an item’s function, moving parts, or the like. A creature that closely examines a mimicking proog can determine its true nature with a successful Perception check, but the proog gains a +10 bonus to Disguise checks when imitating an object in this manner.\nDescription\nWhile sapient creatures throughout the galaxy consider most oozes to simply be disgusting monstrosities, the tiny proog is relatively harmless—at its worst a minor pest, and at times a pleasant companion or pet. According to records (or more precisely, the lack of records) proogs were first discovered, or possibly created, during the Gap. Today, they are known mostly as novelty companions, due to their diminutive size, gentle attitude, and ability to transform into small objects. Proogs can mimic objects with exact precision even though they have no eyes or other visual sensors, although scientists are still uncertain on how the oozes do so. Some believe proogs have psychic abilities, but others insist proogs are able to quickly analyze objects on a molecular level before adopting the new shape.\nRegardless of the facts of a proog’s biology, retailers are happy to sell them as pets, and a proog is perfectly content to be toted around in a small bag and fed the occasional table scrap. Proog companions are surprisingly affectionate toward their masters and are easy to train, able to perform simple transformation tricks during which they adopt the shape of various small objects as instructed by their owners. Proogs are especially popular with small children, who delight in sliding the oozes through their fingers and watching them change colors. The only downside of keeping a proog companion is the nuisance that comes with trying to find a proog after it has misbehaved. Those shopping for a proog pet should be wary, however, as unscrupulous retailers have been caught selling imitation proogs, which the merchant insists are merely sleeping or lethargic but then are later discovered to be molded gelatin in the shape of a common household object.\nAs is often the case with small designer pets, many proogs have escaped their owners over the years only to reproduce in the wild. Untamed proogs can be found in a variety of environments, and though they are relatively harmless, they sometimes lash out in fear. A wild proog will transform into a small object, such as a coffee mug, and hide in plain sight. There it will remain for hours at a time, only moving to feed off discarded garbage when it is alone and unobserved. However, a proog’s ability to mimic is not perfect, and their telltale sheen sometimes gives them away. Wild proogs are often discovered when they are accidentally dropped and, instead of shattering, the injured ooze scurries away to hide.",
+  "type": "ooze",
+  "category": "alien"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Abynthic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Abynthic&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 55",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Colossal",
+  "creature_type": "animal (aquatic)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "112",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "dr": "5/piercing",
+  "resistances": "cold 5",
+  "speed": "swim 60 ft.",
+  "melee": "slam +17 (2d6+12 B)",
+  "space": "30 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "swallow whole (2d6+12 B, EAC 19, KAC 17, 28 HP)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics + 14, Athletics +19 (+27 to swim), Stealth +14",
+  "other_abilities": "water breathing",
+  "environment": "any water (Entha)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Flexible (Ex)",
+      "description": "An abynthic can contort itself surprisingly well for its enormous size. An abynthic gains a +4 bonus to its AC against attacks of opportunity."
+    }
+  ],
+  "description": "Measuring up to 100 feet from their eel-like jaws to their four-part tails and weighing hundreds of tons, abynthics are among the largest and most formidable creatures found in the seas of Entha (page 62). While they’re swimming on long migratory patterns that circumnavigate the planet’s full circumference twice a year, their segmented tails cleave together and function as one powerful limb that propels them through the depths. Abynthics are incredibly flexible for their size and can use their tails individually to attack with devastating effect when they happen across a worthy meal.\nThese carnivorous giants attack their prey by first ramming into it with their massive jaws, then clamping down with enormous pressure and bringing their flexible tails to bear. When they’ve appropriately subdued and tenderized a creature, they swallow it whole.\nAbynthics are constantly on the move and have no established hunting grounds. Often, their travel takes them through smaller ecosystems, where their voracious appetites can leave devastation in their wake, upsetting an area’s fragile balance. On Entha, the only refuges from these massive creatures are the magical reefs that supernaturally decrease the surrounding water pressure; abynthics are adapted to the high pressure of the deep sea and fare poorly in shallow and low-pressure environments.\nMany other worlds contain creatures that closely resemble abynthics, though most have notable differences in their number of tails or diet; some are even herbivorous. Sapient species study, fear, or even worship these mysterious beings wherever they appear—but nothing is known about their reproductive cycle. Some posit that the massive creatures are effectively immortal, dropped fully formed into the seas by some divine entity, as no abynthic young, eggs, or decaying remains have ever been found. The leviathans can be killed, however, and powerful mercenaries regularly mount expeditions to hunt abynthics. These poachers primarily want the creatures’ uniquely strong jaws, which are sometimes incorporated into deep-sea submersibles to help them withstand enormous pressure.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAbynthic\nSource\nStarfinder #36: Professional Courtesy pg. 55\nAbynthic CR 7\nXP 3,200\nN Colossal animal (aquatic)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n112\nEAC\n19;\nKAC\n21; +4 vs. attacks of opportunity\nFort\n+11;\nRef\n+11;\nWill\n+6\nDefensive Abilities\nflexible;\nDR\n5/piercing;\nResistances\ncold 5\nOffense\nSpeed\nswim 60 ft.\nMelee\nslam +17 (2d6+12 B)\nMultiattack\nbite +17 (1d6+12 P plus swallow whole), 3 tail swipes +17 (1d6+12 B)\nSpace\n30 ft.;\nReach\n30 ft.\nOffensive Abilities\nswallow whole (2d6+12 B, EAC 19, KAC 17, 28 HP)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+4;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics + 14, Athletics +19 (+27 to swim), Stealth +14\nOther Abilities\nwater breathing\nEcology\nEnvironment\nany water (Entha)\nOrganization\nsolitary\nSpecial Abilities\nFlexible (Ex)\nAn abynthic can contort itself surprisingly well for its enormous size. An abynthic gains a +4 bonus to its AC against attacks of opportunity.\nDescription\nMeasuring up to 100 feet from their eel-like jaws to their four-part tails and weighing hundreds of tons, abynthics are among the largest and most formidable creatures found in the seas of Entha (page 62). While they’re swimming on long migratory patterns that circumnavigate the planet’s full circumference twice a year, their segmented tails cleave together and function as one powerful limb that propels them through the depths. Abynthics are incredibly flexible for their size and can use their tails individually to attack with devastating effect when they happen across a worthy meal.\nThese carnivorous giants attack their prey by first ramming into it with their massive jaws, then clamping down with enormous pressure and bringing their flexible tails to bear. When they’ve appropriately subdued and tenderized a creature, they swallow it whole.\nAbynthics are constantly on the move and have no established hunting grounds. Often, their travel takes them through smaller ecosystems, where their voracious appetites can leave devastation in their wake, upsetting an area’s fragile balance. On Entha, the only refuges from these massive creatures are the magical reefs that supernaturally decrease the surrounding water pressure; abynthics are adapted to the high pressure of the deep sea and fare poorly in shallow and low-pressure environments.\nMany other worlds contain creatures that closely resemble abynthics, though most have notable differences in their number of tails or diet; some are even herbivorous. Sapient species study, fear, or even worship these mysterious beings wherever they appear—but nothing is known about their reproductive cycle. Some posit that the massive creatures are effectively immortal, dropped fully formed into the seas by some divine entity, as no abynthic young, eggs, or decaying remains have ever been found. The leviathans can be killed, however, and powerful mercenaries regularly mount expeditions to hunt abynthics. These poachers primarily want the creatures’ uniquely strong jaws, which are sometimes incorporated into deep-sea submersibles to help them withstand enormous pressure.",
+  "type": "animal (aquatic)",
+  "category": "alien"
+}

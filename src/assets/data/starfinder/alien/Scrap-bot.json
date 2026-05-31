@@ -1,0 +1,48 @@
+{
+  "name": "Scrap-bot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Scrap-bot&Family=None",
+  "source": "Starfinder #20: The Last Refuge pg. 58",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+0",
+  "ref": "+0",
+  "will": "-2",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to critical hits, vulnerable to electricity",
+  "speed": "20 ft.",
+  "melee": "slam +6 (1d6+2 B)",
+  "ranged": "tactical semi-auto pistol +6 (1d6 P)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +4, Computers +4",
+  "languages": "Common",
+  "other_abilities": "base frame, unliving",
+  "gear": "tactical semi-auto pistol with 18 small arm rounds",
+  "environment": "any urban",
+  "organization": "solitary, pair, or gang (3–12)",
+  "special_abilities": [
+    {
+      "name": "Base Frame (Ex)",
+      "description": "Each scrap-bot has a base frame determined by its original function, as follows.\nAssembly:\nAn assembly scrap-bot has an integrated engineering tool kit. It also has Engineering +9.\nCompanion:\nA companion scrapbot has Diplomacy +4 and Sense Motive +9.\nDelivery:\nA delivery scrap-bot is Small and has an extraordinary fly speed of 30 feet with average maneuverability. It also has a storage area that can hold up to 3 bulk.\nDomestic:\nA domestic scrap-bot has integrated cleaning systems that allow it to clean items in a 1-foot cube each round. It can reverse cleaning functions to soil a similar area in the same time.\nSecurity:\nA security scrap-bot has a pulsecaster pistol and the integrated weapons universal creature rule. It can make ranged attacks with a +7 attack bonus. The security scrap-bot also has Intimidate +4."
+    }
+  ],
+  "description": "When a consumer-grade robot breaks down, malfunctions, or becomes obsolete, it might be sent to the nearest recycling center or trash heap. If the owner fails to use proper shutdown procedures prior to disposal, automated self-preservation subroutines sometimes kick in before the machine’s destruction, prompting it to escape its fate. With no home to return to, these cast-off robots subsist in the dark corners of cities, space stations, and massive starships across the galaxy. Collectively known as scrap-bots, they come in endless shapes and styles, but they share a drive to continue existing and mistrust of the civilization that discarded them.\nScrap-bots that find one another band together for security, living in packs that search for useful tech to replace their malfunctioning components. Dirty, rusting, and cobbled together from mismatched parts, most scrap-bots are seen as little more than pests that other members of society ignore. This social condition makes scrap-bots ideal informants and lookouts for criminals, who buy their loyalty with parts and fresh batteries. Willing to perform almost any task for such pay, scrap-bots have an uncanny devotion to each other. In their optical sensors, the galaxy has two kinds of beings. That divide is between scrap-bots and “users”—those who make, use, and dispose of technology without care. Scrapbots are prone to distrust all users, although other outcasts have an easier time earning scrap-bot trust and respect.\nIn combat, individual scrap-bots pose little threat and prefer to flee or acquiesce to an aggressor rather than face destruction. However, as their numbers grow, so does their boldness. Presented with an opportunity posing minimal risk, a scrap-bot gang might resort to assault, burglary, and robbery to acquire what the group needs.\nThe scrap-bots presented here are only an array of several possibilities. Different configurations and combinations of those designs exist. Mightier scrap-bots might also be found in industrial areas in decline, such as the abandoned refineries of Akiton.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScrap-bot\nSource\nStarfinder #20: The Last Refuge pg. 58\nScrap-bot CR 1/2\nXP 200\nCN Medium construct (technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+4\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+0;\nRef\n+0;\nWill\n-2\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to critical hits, vulnerable to electricity\nOffense\nSpeed\n20 ft.\nMelee\nslam +6 (1d6+2 B)\nRanged\ntactical semi-auto pistol +6 (1d6 P)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +4, Computers +4\nLanguages\nCommon\nOther Abilities\nbase frame, unliving\nGear\ntactical semi-auto pistol with 18 small arm rounds\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or gang (3–12)\nSpecial Abilities\nBase Frame (Ex)\nEach scrap-bot has a base frame determined by its original function, as follows.\nAssembly:\nAn assembly scrap-bot has an integrated engineering tool kit. It also has Engineering +9.\nCompanion:\nA companion scrapbot has Diplomacy +4 and Sense Motive +9.\nDelivery:\nA delivery scrap-bot is Small and has an extraordinary fly speed of 30 feet with average maneuverability. It also has a storage area that can hold up to 3 bulk.\nDomestic:\nA domestic scrap-bot has integrated cleaning systems that allow it to clean items in a 1-foot cube each round. It can reverse cleaning functions to soil a similar area in the same time.\nSecurity:\nA security scrap-bot has a pulsecaster pistol and the integrated weapons universal creature rule. It can make ranged attacks with a +7 attack bonus. The security scrap-bot also has Intimidate +4.\nDescription\nWhen a consumer-grade robot breaks down, malfunctions, or becomes obsolete, it might be sent to the nearest recycling center or trash heap. If the owner fails to use proper shutdown procedures prior to disposal, automated self-preservation subroutines sometimes kick in before the machine’s destruction, prompting it to escape its fate. With no home to return to, these cast-off robots subsist in the dark corners of cities, space stations, and massive starships across the galaxy. Collectively known as scrap-bots, they come in endless shapes and styles, but they share a drive to continue existing and mistrust of the civilization that discarded them.\nScrap-bots that find one another band together for security, living in packs that search for useful tech to replace their malfunctioning components. Dirty, rusting, and cobbled together from mismatched parts, most scrap-bots are seen as little more than pests that other members of society ignore. This social condition makes scrap-bots ideal informants and lookouts for criminals, who buy their loyalty with parts and fresh batteries. Willing to perform almost any task for such pay, scrap-bots have an uncanny devotion to each other. In their optical sensors, the galaxy has two kinds of beings. That divide is between scrap-bots and “users”—those who make, use, and dispose of technology without care. Scrapbots are prone to distrust all users, although other outcasts have an easier time earning scrap-bot trust and respect.\nIn combat, individual scrap-bots pose little threat and prefer to flee or acquiesce to an aggressor rather than face destruction. However, as their numbers grow, so does their boldness. Presented with an opportunity posing minimal risk, a scrap-bot gang might resort to assault, burglary, and robbery to acquire what the group needs.\nThe scrap-bots presented here are only an array of several possibilities. Different configurations and combinations of those designs exist. Mightier scrap-bots might also be found in industrial areas in decline, such as the abandoned refineries of Akiton.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

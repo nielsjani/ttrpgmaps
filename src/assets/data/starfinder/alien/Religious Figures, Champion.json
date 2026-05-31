@@ -1,0 +1,46 @@
+{
+  "name": "Religious Figures, Champion",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Champion&Family=Religious Figures",
+  "source": "Interstellar Species pg. 174",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (scent) 30ft., darkvision 60 ft.;",
+  "perception": "+25",
+  "hp": "250",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+16",
+  "ref": "+18",
+  "will": "+14",
+  "immunities": "charm, compulsion, fear",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "axiomatic grindblade",
+  "ranged": "axiomatic perihelion laser rifle",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+6",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +30, Diplomacy +25, Mysticism +25",
+  "languages": "Astriapi, Common",
+  "other_abilities": "honey production",
+  "gear": "squad hardlight series,",
+  "special_abilities": [
+    {
+      "name": "Sacred Strike (Su)",
+      "description": "A champion can use this ability before making an attack to roll the attack twice and use the better result. The attack deals damage as though all of the target’s damage reduction, hardness, and resistances were 5 lower (minimum 0). Once a champion performs a sacred strike, they can’t do so again for 1d10 rounds."
+    }
+  ],
+  "description": "Champions are warrior-scholars of the faith who fearlessly defend their fellow believers. Some operate alone, roaming widely to avenge wrongs committed against their gods. Others are leaders whose bravery inspires the faithful. Although the term champion might evoke images of justice and honor, a champion’s behavior reflects their respective god’s will, and an evil divinity often acts through equally vile paragons.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReligious Figures\nSource\nInterstellar Species pg. 174\nReligious figures are typically individuals who rise in their faith’s ranks due to their unrivaled devotion and skill—or even due to the blessings bestowed upon them by their deity. Religious figures don’t just lead the devout; they often also steer nonreligious discourse. Depending on their congregation and ambitions, the leader might even overshadow the government of a city or planet. Although this arrangement might bring peace, it could as easily realize a terrible regime of divine tyranny or terror.\nAliens in the \"Religious Figures\" Family\nName\nCR\nChampion\n14\nDivine Avatar\n20\nExcommunicant\n4\nProphet\n8\nReligious Figures, Champion\nSource\nInterstellar Species pg. 174\nChampion CR 14\nXP 38,400\nAstriapi\nLN Medium monstrous humanoid\nInit\n+2;\nSenses\nblindsense (scent) 30ft., darkvision 60 ft.;\nPerception\n+25\nDefense\nHP\n250\nEAC\n28;\nKAC\n30\nFort\n+16;\nRef\n+18;\nWill\n+14\nImmunities\ncharm, compulsion, fear\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\naxiomatic grindblade\n+28 (4d10+20 S; critical bleed 2d8) bite +28 (6d6+20 P)\nRanged\naxiomatic perihelion laser rifle\n+24 (5d6+14 F; critical burn 2d6)\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+4;\nINT\n+0;\nWIS\n+6;\nCHA\n+3\nSkills\nAcrobatics +30, Diplomacy +25, Mysticism +25\nLanguages\nAstriapi, Common\nOther Abilities\nhoney production\nGear\nsquad hardlight series,\naxiomatic grindblade\n,\naxiomatic perihelion laser rifle\nwith 1 high-capacity battery (100 charges), astriapi honey (functions as\nmk 3 serum of healing\n), holy symbol\nSpecial Abilities\nSacred Strike (Su)\nA champion can use this ability before making an attack to roll the attack twice and use the better result. The attack deals damage as though all of the target’s damage reduction, hardness, and resistances were 5 lower (minimum 0). Once a champion performs a sacred strike, they can’t do so again for 1d10 rounds.\nDescription\nChampions are warrior-scholars of the faith who fearlessly defend their fellow believers. Some operate alone, roaming widely to avenge wrongs committed against their gods. Others are leaders whose bravery inspires the faithful. Although the term champion might evoke images of justice and honor, a champion’s behavior reflects their respective god’s will, and an evil divinity often acts through equally vile paragons.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

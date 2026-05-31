@@ -1,0 +1,44 @@
+{
+  "name": "Murzzilat, Bantling",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Bantling&Family=Murzzilat",
+  "source": "Alien Archive 4 pg. 78",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "animal (aquatic)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+1",
+  "speed": "10 ft., fly 20 ft. (Ex, perfect), swim 20 ft.",
+  "melee": "bite +8 (1d6+5 P) or attach +8",
+  "ranged": "melodic assault +5 (1d4+1 So)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +5 (+13 to fly), Athletics +10 (+18 to swim), Intimidate +5",
+  "other_abilities": "amphibious, compression, water breathing",
+  "environment": "any underground or water",
+  "organization": "solitary, litter (2–6), or choir (2–6 plus 1 murzzilat)",
+  "special_abilities": [
+    {
+      "name": "Melodic Assault (Ex)",
+      "description": "As a ranged attack that targets EAC, a murzzilat bantling can sing a sonic blast with a range increment of 30 feet at a single target."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMurzzilat\nSource\nAlien Archive 4 pg. 78\nDeep in the lightless depths of countless worlds live murzzilats, amphibious mammals known for their grotesque contortions and ethereal vocalizations. Capable of both swimming and flight, these creatures are ungainly on land but well adapted to life in partially submerged tunnels and caverns, where their songs echo for miles in a haunting underground symphony.\nA murzzilat has an oversized head with massive bulging eyes and a wide mouth it unhinges to swallow small prey whole. Green scales lined with dozens of powerful pectoral fins covers its elongated, shriveled body. Membranous wings protrude from its back, and six spindly limbs dangle down from its body, each ending in a sharp hook. Although these weak limbs can’t support its body weight, a murzzilat can shove them deep into cracks to drag small prey out of hiding or use them to latch onto large prey. An average murzzilat is 6 feet long and weighs 35 pounds.\nWhile swimming, murzzilats fold their wings flat against their backs and fold their legs up under their bodies, propelling themselves through the water with their fins. The incredibly flexible creatures squeeze through narrow tunnels and cracks by contorting and twisting their bodies, displaying their internal organs, and popping their limbs in and out of joint. These adaptations enable murzzilats to escape from cave-ins and travel through tiny tunnels that creatures of their size typically couldn’t pass.\nMurzzilats have scent glands along their backs, which they rub along stone to mark their territory. This overwhelmingly strong scent is long lasting but pleasing to most sentient species. Highly valued in the beauty and cleaning industries, the scent glands of a murzzilat fetch a high price on the black market and make poaching a profitable venture, particularly on Akiton and other planets with lax environmental regulations.\nIncredibly vocal, murzzilats have a multitude of calls, cries, and songs. From clicking trills and deep bellows to haunting nocturnes and joyful refrains, their many songs echo throughout the tunnels and caverns they call home, both above and below water. Considered holy to some adherents of the goddess Shelyn, murzzilat songs have inspired artists throughout the Pact Worlds and beyond. Five years ago, a team of xenozoologists set out to catalog murzzilats’ songs, recording vocalizations from multiple worlds. Preliminary research from the ongoing study indicates murzzilats consistently add new vocalizations to their repertoires. Interested zoologists often seek to enlist the aid of locals and trustworthy explorers to track the evolution of the creatures’ songs.\nMurzzilats find the death or theft of their young, called bantlings, incredibly distressing; such an occurrence causes them to enter a torpor for a prolonged period of time, refusing to sing for months on end. Although both parents mourn, the parent that birthed the bantling will follow the scent of the deceased or missing bantling for miles in search of its remains, going as far as to collect the leavings from a dangerous predator.\nAliens in the \"Murzzilat\" Family\nName\nCR\nBantling\n1\nMurzzilat\n4\nMurzzilat, Bantling\nSource\nAlien Archive 4 pg. 76\nBantling CR 1\nXP 400\nN Small animal (aquatic)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+5;\nRef\n+5;\nWill\n+1\nOffense\nSpeed\n10 ft., fly 20 ft. (Ex, perfect), swim 20 ft.\nMelee\nbite +8 (1d6+5 P) or attach +8\nRanged\nmelodic assault +5 (1d4+1 So)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +5 (+13 to fly), Athletics +10 (+18 to swim), Intimidate +5\nOther Abilities\namphibious, compression, water breathing\nEcology\nEnvironment\nany underground or water\nOrganization\nsolitary, litter (2–6), or choir (2–6 plus 1 murzzilat)\nSpecial Abilities\nMelodic Assault (Ex)\nAs a ranged attack that targets EAC, a murzzilat bantling can sing a sonic blast with a range increment of 30 feet at a single target.",
+  "type": "animal (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Murzzilat.png"
+}

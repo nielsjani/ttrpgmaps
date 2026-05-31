@@ -1,0 +1,59 @@
+{
+  "name": "Gravite",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gravite&Family=None",
+  "source": "Drift Crisis pg. 153",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "outsider (native)",
+  "init": "+2",
+  "senses": "darkvision 120 ft., see in darkness;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+6",
+  "immunities": "bludgeoning",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "jaws +18 (2d6+11 P) or gravity slam +18 (1d8+11 B; critical knockdown)",
+  "ranged": "gravity press +15 (2d8+7 B)",
+  "offensive_abilities": "consume light",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+5",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +14 (+22 to fly), Athletics +19, Piloting +14, Stealth +14",
+  "languages": "Common, Shadowtongue; telepathy 100 ft.",
+  "other_abilities": "spaceflight, stellar alignment (graviton), stellar revelations (black hole, gravity hold, gravity surge)",
+  "environment": "vacuum",
+  "organization": "solitary, pair, or gloom (3–10)",
+  "special_abilities": [
+    {
+      "name": "Consume Light (Su)",
+      "description": "As a move action, a gravite can attempt to consume a single light source within 60 feet, snuffing the light while healing its wounds. Nonmagical light sources are automatically consumed. Against a magical light source, the gravite must attempt a dispel check (with a total bonus of +7), as with the dispel magic spell, with a DC equal to 11 + the spell’s caster level. On a success, the light is dispelled. When a gravite successfully consumes a light source, it regains 5 Hit Points per caster level of the light source (nonmagical light sources count as having a caster level of 1st) up to its normal maximum."
+    },
+    {
+      "name": "Gravity Press (Su)",
+      "description": "As a ranged attack, a gravite can exert its gravitational pull on an enemy, crushing and dragging it closer. This is a ranged attack with a range increment of 60 feet, a maximum range of 200 feet, and the gravitation 10 feet (Reflex DC 15) weapon special property (Armory 28). The bludgeoning damage dealt by this attack has the force descriptor."
+    },
+    {
+      "name": "Shadow Blend (Su)",
+      "description": "Attacks against a gravite in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability doesn’t grant total concealment; it only increases the miss chance."
+    },
+    {
+      "name": "Singularity Adaptation (Ex)",
+      "description": "A gravite is immune to the gravitational pull, pressure, damage, and hazards of black holes."
+    }
+  ],
+  "description": "A black hole consumes everything that crosses its event horizon, devouring light, planets, and the occasional unfortunate creature. Rarely, this compressed matter gains a spark of sentience (though no one is certain how) and forms a malicious native outsider known as a gravite. Colloquially known as a gravity gremlin due to its small frame and frenetic behavior, a gravite is completely immune to the effects of black holes yet can harness the formidable potency of the stellar phenomena.\nGravites crave light (so they can extinguish it), devour anything of substance they can find, and revel in destruction. They usually travel to planets and other celestial bodies that are on an eventual path—however distant in time—to be consumed by their black hole’s event horizon, where they cause mayhem, destruction, snuff out light, and torment the living. Although they rarely grow taller than 2-1/2 feet, gravites are born under unimaginable pressure and are both strong and heavy for their size. Most weigh at least 500 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGravite\nSource\nDrift Crisis pg. 153\nGravite CR 7\nXP 3,200\nCE Small outsider (native)\nInit\n+2;\nSenses\ndarkvision 120 ft., see in darkness;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21; +4 vs. bull rush and reposition\nFort\n+11;\nRef\n+9;\nWill\n+6\nDefensive Abilities\nshadow blend, singularity adaptation, void adaptation;\nImmunities\nbludgeoning\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\njaws +18 (2d6+11 P) or gravity slam +18 (1d8+11 B; critical knockdown)\nRanged\ngravity press +15 (2d8+7 B)\nOffensive Abilities\nconsume light\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+5;\nINT\n+0;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +14 (+22 to fly), Athletics +19, Piloting +14, Stealth +14\nLanguages\nCommon, Shadowtongue; telepathy 100 ft.\nOther Abilities\nspaceflight, stellar alignment (graviton), stellar revelations (black hole, gravity hold, gravity surge)\nEcology\nEnvironment\nvacuum\nOrganization\nsolitary, pair, or gloom (3–10)\nSpecial Abilities\nConsume Light (Su)\nAs a move action, a gravite can attempt to consume a single light source within 60 feet, snuffing the light while healing its wounds. Nonmagical light sources are automatically consumed. Against a magical light source, the gravite must attempt a dispel check (with a total bonus of +7), as with the dispel magic spell, with a DC equal to 11 + the spell’s caster level. On a success, the light is dispelled. When a gravite successfully consumes a light source, it regains 5 Hit Points per caster level of the light source (nonmagical light sources count as having a caster level of 1st) up to its normal maximum.\nGravity Press (Su)\nAs a ranged attack, a gravite can exert its gravitational pull on an enemy, crushing and dragging it closer. This is a ranged attack with a range increment of 60 feet, a maximum range of 200 feet, and the gravitation 10 feet (Reflex DC 15) weapon special property (Armory 28). The bludgeoning damage dealt by this attack has the force descriptor.\nShadow Blend (Su)\nAttacks against a gravite in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability doesn’t grant total concealment; it only increases the miss chance.\nSingularity Adaptation (Ex)\nA gravite is immune to the gravitational pull, pressure, damage, and hazards of black holes.\nDescription\nA black hole consumes everything that crosses its event horizon, devouring light, planets, and the occasional unfortunate creature. Rarely, this compressed matter gains a spark of sentience (though no one is certain how) and forms a malicious native outsider known as a gravite. Colloquially known as a gravity gremlin due to its small frame and frenetic behavior, a gravite is completely immune to the effects of black holes yet can harness the formidable potency of the stellar phenomena.\nGravites crave light (so they can extinguish it), devour anything of substance they can find, and revel in destruction. They usually travel to planets and other celestial bodies that are on an eventual path—however distant in time—to be consumed by their black hole’s event horizon, where they cause mayhem, destruction, snuff out light, and torment the living. Although they rarely grow taller than 2-1/2 feet, gravites are born under unimaginable pressure and are both strong and heavy for their size. Most weigh at least 500 pounds.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

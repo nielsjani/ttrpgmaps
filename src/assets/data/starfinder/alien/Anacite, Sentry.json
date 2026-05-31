@@ -1,0 +1,65 @@
+{
+  "name": "Anacite, Sentry",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sentry&Family=Anacite",
+  "source": "Alien Archive pg. 10",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Tiny",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+13",
+  "hp": "30",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+0",
+  "ref": "+2",
+  "will": "+4",
+  "immunities": "construct immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "fly 40 ft. (Ex, perfect)",
+  "melee": "slam +6 (1d4+1 B)",
+  "ranged": "integrated frost subduer +9 (1d3+3 C nonlethal; critical staggered)",
+  "offensive_abilities": "combined blast",
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Computers +13, Engineering +8, Sense Motive +8, Stealth +13",
+  "languages": "Common; shortwave 100 ft.",
+  "other_abilities": "remote alert, unliving",
+  "gear": "frost subduer with 2 batteries (20 charges each)",
+  "environment": "any (Aballon)",
+  "organization": "solitary, trio, or brigade (4–9)",
+  "special_abilities": [
+    {
+      "name": "Chameleon Circuit (Ex)",
+      "description": "An anacite sentry can fade into the background by assuming the colors around it. When an anacite sentry remains stationary for 1 round, it gains a +10 circumstance bonus to Stealth checks. If it takes any action, it loses this bonus until it once again spends 1 round remaining stationary."
+    },
+    {
+      "name": "Combined Blast (Ex)",
+      "description": "An anacite sentry can ready an action to fire its ranged weapon at the same time and at the same target as another anacite sentry within 10 feet. If at least two anacite sentries delay in this manner, the main sentry anacite can unleash a single powerful shot as a full action. Each attacking sentry makes a ranged attack roll against the target’s EAC. If any of the attack rolls hit, the target takes 1d4+3 nonlethal cold damage per attacking anacite sentry. This is treated as a single attack for the purposes of energy resistance and critical hits. If all the attacks hit, the target must succeed at a DC 14 Fortitude save or be staggered for 1 round."
+    },
+    {
+      "name": "Remote Alert (Ex)",
+      "description": "Using wireless signals, an anacite sentry can activate a technological alarm system within 100 feet as a standard action. For example, it could set off an alarm keyed to a door or a security system that will sound throughout a facility. It can’t activate magical alarms, nor can it activate traps or hazards this way. If the system the sentry is attempting to activate has been disabled, this ability fails."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "Anacites can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Anacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition."
+    }
+  ],
+  "description": "Anacite sentries are small, sentient constructs with spheroid bodies and metal-feathered wings. Due to their small size and chameleon circuits, these anacites are adept at blending into their surroundings. Although physically unimposing on their own, they’re highly cooperative and pose a threat in groups.\nThe vast majority of anacite sentries are adherents of Those Who Wait, viewing their guard duties as a personal and private version of their eventual purpose.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnacite\nSource\nAlien Archive pg. 10\nAnacites are native to Aballon, the Pact World closest to the sun. A race of machines left behind by eons-departed masters, these constructs developed the capacity for evolution and self-improvement, creating an entire mechanical ecosystem.\nThe most common design for anacites is a basic arthropodan form of silvery metal, with multiple legs for efficient travel and claws or manipulators for accomplishing their assigned tasks. Depending on their role, however, an anacite might be anything from a bulldozer-sized mining specialist to a floating electronic brain designed for advanced problem-solving, and even those anacites who fit the stereotypical metal-insect design usually have a modification or two, and almost all anacites can reconfigure parts of themselves to adapt to their circumstances.\nIn the uncounted millennia since the departure of the so-called “First Ones,” anacites have not been idle. The two primary factions of anacites, Those Who Wait and Those Who Become, have very different ideas of their purpose in life, yet the two are more alike than different. While they variously wait for the First Ones to return or work toward taking on their progenitors’ mantle, anacites endlessly strive to acquire wealth and influence in preparation for their great goal’s fulfillment.\nWhile “anacite” officially refers only to the sentient varieties of Aballonian machines—those capable of learning and participating in Aballonian society—many offworlders use it as a catchall term for the world’s mechanical life. Dragonflylike wingbots are an example of Aballonian technobiology. These artificial creatures lack basic sentience yet nevertheless reproduce and fill one of the planet’s ecological niches. These 4-foot-long machines whir from ridge to ridge on wings glittering with solar panels, feeding on the blazing light of the sun. Wingbots can be territorial, and they occasionally attack offworlders or other anacites.\nAliens in the \"Anacite\" Family\nName\nCR\nAnacite Ambassador\n6\nAnacite Laborer\n7\nAnacite Predator Drone\n10\nAnacite Wingbot\n1/2\nDustar\n1\nMonitor\n3\nSentry\n3\nAnacite, Sentry\nSource\nStarfinder #37: The White Glove Affair pg. 55\nSentry CR 3\nXP 800\nLN Tiny construct (technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+13\nDefense\nHP\n30\nEAC\n14;\nKAC\n15\nFort\n+0;\nRef\n+2;\nWill\n+4\nDefensive Abilities\nchameleon circuit, integrated weapons;\nImmunities\nconstruct immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\nfly 40 ft. (Ex, perfect)\nMelee\nslam +6 (1d4+1 B)\nRanged\nintegrated frost subduer +9 (1d3+3 C nonlethal; critical staggered)\nOffensive Abilities\ncombined blast\nStatistics\nSTR\n-2;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +13, Computers +13, Engineering +8, Sense Motive +8, Stealth +13\nLanguages\nCommon; shortwave 100 ft.\nOther Abilities\nremote alert, unliving\nGear\nfrost subduer with 2 batteries (20 charges each)\nEcology\nEnvironment\nany (Aballon)\nOrganization\nsolitary, trio, or brigade (4–9)\nSpecial Abilities\nChameleon Circuit (Ex)\nAn anacite sentry can fade into the background by assuming the colors around it. When an anacite sentry remains stationary for 1 round, it gains a +10 circumstance bonus to Stealth checks. If it takes any action, it loses this bonus until it once again spends 1 round remaining stationary.\nCombined Blast (Ex)\nAn anacite sentry can ready an action to fire its ranged weapon at the same time and at the same target as another anacite sentry within 10 feet. If at least two anacite sentries delay in this manner, the main sentry anacite can unleash a single powerful shot as a full action. Each attacking sentry makes a ranged attack roll against the target’s EAC. If any of the attack rolls hit, the target takes 1d4+3 nonlethal cold damage per attacking anacite sentry. This is treated as a single attack for the purposes of energy resistance and critical hits. If all the attacks hit, the target must succeed at a DC 14 Fortitude save or be staggered for 1 round.\nRemote Alert (Ex)\nUsing wireless signals, an anacite sentry can activate a technological alarm system within 100 feet as a standard action. For example, it could set off an alarm keyed to a door or a security system that will sound throughout a facility. It can’t activate magical alarms, nor can it activate traps or hazards this way. If the system the sentry is attempting to activate has been disabled, this ability fails.\nShortwave (Ex)\nAnacites can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nSunlight Dependency (Ex)\nAnacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition.\nDescription\nAnacite sentries are small, sentient constructs with spheroid bodies and metal-feathered wings. Due to their small size and chameleon circuits, these anacites are adept at blending into their surroundings. Although physically unimposing on their own, they’re highly cooperative and pose a threat in groups.\nThe vast majority of anacite sentries are adherents of Those Who Wait, viewing their guard duties as a personal and private version of their eventual purpose.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Barghest",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Barghest&Family=None",
+  "source": "Starfinder #25: The Chimera Mystery pg. 57",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (evil, extraplanar, lawful, shapechanger)",
+  "init": "+6",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+5",
+  "dr": "5/magic",
+  "speed": "30 ft.",
+  "melee": "bite +13 (1d6+8 P) or claw +13 (1d4+8 S; critical bleed 1d4)",
+  "ranged": "azimuth laser pistol +11 (1d4+4 F; critical burn 1d4)",
+  "offensive_abilities": "feed",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\ncharm monster\n(DC 14),\ndimension door\n(self only),\nfear\n(2nd level, DC 13)\nAt will—\nflight\n(2nd level),\nnondetection"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Bluff +10, Intimidate +10, Sense Motive +10, Stealth +10",
+  "languages": "Abyssal, Common, Goblin, Infernal",
+  "other_abilities": "change shape (goblinoid or wolf)",
+  "gear": "basic lashunta tempweave, azimuth laser pistol with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary or cult (1 plus space goblin tribe)",
+  "special_abilities": [
+    {
+      "name": "Change Shape (Su)",
+      "description": "Each barghest has only one specific goblinoid form and one specific wolf form."
+    },
+    {
+      "name": "Feed (Su)",
+      "description": "A barghest can devour a nonevil humanoid’s corpse as a full-round action. Once per month, if the creature consumed is of a level or CR no more than 2 lower than the barghest’s, the barghest gains a growth point. When the barghest gains 2 growth points, its CR increases by 1, with commensurate changes to its statistics. Barghests that increase their CR sometimes gain additional spell-like abilities, changing into what is known as a greater barghest at CR 7."
+    }
+  ],
+  "description": "Barghests are lupine outsiders that exist to spread fear and feed upon humanoid heroes. Cunning and disciplined but utterly self-centered hunters, barghests shun chaos. However, legend says the goddess of monsters, Lamashtu, freed the first barghests from the kennels of Hell. The greatest among them still live in a section of the Abyss they claim as their territory. Goblin belief holds that the strongest of these barghests helped create goblinkind in time immemorial. Evil goblins, therefore, revere barghests as wicked hero-gods.\nThese fiends hunt and kill good-hearted humanoids to feed on the spiritual energy left within the corpses of such foes. Although a barghest might slay the innocent or weak, and even eat such prey, it gains the growth-inducing nourishment it seeks only from worthy opponents. Barghests commit atrocities to attract the attention of such would-be champions before murdering and devouring them, growing in size, magical power, and social standing with each success.\nMasters of deception, barghests can transform into goblinoids or wolves at will. They use such forms to remain beneath notice to travel incognito or until ready to pounce. A typical barghest is 6 feet long and weighs 200 pounds. When it gains power, a barghest also gains size. The mightiest among them are twice the size of their lesser kin.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBarghest\nSource\nStarfinder #25: The Chimera Mystery pg. 57\nBarghest CR 4\nXP 1,200\nLE Medium outsider (evil, extraplanar, lawful, shapechanger)\nInit\n+6;\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+5\nDR\n5/magic\nOffense\nSpeed\n30 ft.\nMelee\nbite +13 (1d6+8 P) or claw +13 (1d4+8 S; critical bleed 1d4)\nRanged\nazimuth laser pistol +11 (1d4+4 F; critical burn 1d4)\nOffensive Abilities\nfeed\nSpell-Like Abilities\n(CL 4th)\n1/day—\ncharm monster\n(DC 14),\ndimension door\n(self only),\nfear\n(2nd level, DC 13)\nAt will—\nflight\n(2nd level),\nnondetection\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+2;\nINT\n+2;\nWIS\n+2;\nCHA\n+2\nSkills\nBluff +10, Intimidate +10, Sense Motive +10, Stealth +10\nLanguages\nAbyssal, Common, Goblin, Infernal\nOther Abilities\nchange shape (goblinoid or wolf)\nGear\nbasic lashunta tempweave, azimuth laser pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary or cult (1 plus space goblin tribe)\nSpecial Abilities\nChange Shape (Su)\nEach barghest has only one specific goblinoid form and one specific wolf form.\nFeed (Su)\nA barghest can devour a nonevil humanoid’s corpse as a full-round action. Once per month, if the creature consumed is of a level or CR no more than 2 lower than the barghest’s, the barghest gains a growth point. When the barghest gains 2 growth points, its CR increases by 1, with commensurate changes to its statistics. Barghests that increase their CR sometimes gain additional spell-like abilities, changing into what is known as a greater barghest at CR 7.\nDescription\nBarghests are lupine outsiders that exist to spread fear and feed upon humanoid heroes. Cunning and disciplined but utterly self-centered hunters, barghests shun chaos. However, legend says the goddess of monsters, Lamashtu, freed the first barghests from the kennels of Hell. The greatest among them still live in a section of the Abyss they claim as their territory. Goblin belief holds that the strongest of these barghests helped create goblinkind in time immemorial. Evil goblins, therefore, revere barghests as wicked hero-gods.\nThese fiends hunt and kill good-hearted humanoids to feed on the spiritual energy left within the corpses of such foes. Although a barghest might slay the innocent or weak, and even eat such prey, it gains the growth-inducing nourishment it seeks only from worthy opponents. Barghests commit atrocities to attract the attention of such would-be champions before murdering and devouring them, growing in size, magical power, and social standing with each success.\nMasters of deception, barghests can transform into goblinoids or wolves at will. They use such forms to remain beneath notice to travel incognito or until ready to pounce. A typical barghest is 6 feet long and weighs 200 pounds. When it gains power, a barghest also gains size. The mightiest among them are twice the size of their lesser kin.",
+  "type": "outsider (evil, extraplanar, lawful, shapechanger)",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Psychopomp, Morrigna",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Morrigna&Family=Psychopomp",
+  "source": "Alien Archive 4 pg. 90",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (psychopomp)",
+  "init": "+5",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+16",
+  "dr": "10/adamantine",
+  "sr": "22",
+  "immunities": "death effects, disease, poison;",
+  "resistances": "cold 10, electricity 10;",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "disruptive evenfall shimmerstone staff +18 (5d6+12 B) or web lash +18 (2d10+12 S)",
+  "ranged": "series-42 plasma guide +20 (3d8+11 E & F; critical severe wound)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with web lash)",
+  "offensive_abilities": "spirit touch Spells Known (CL 11th; melee +18) 4th (3/day)—death ward, soul reap (DC 22) 3rd (6/day)—dispel magic, mind thrust (DC 21), mystic cure, speak with dead (DC 21) 2nd (at will)—force blast (DC 20), invisibility",
+  "spells": "(CL 11th; melee +18) 4th (3/day)—death ward, soul reap (DC 22) 3rd (6/day)—dispel magic, mind thrust (DC 21), mystic cure, speak with dead (DC 21) 2nd (at will)—force blast (DC 20), invisibility",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+8",
+    "cha": "+3"
+  },
+  "skills": "Athletics +20 (+28 to climb), Mysticism +25, Sense Motive +25, Stealth +20",
+  "languages": "Abyssal, Celestial, Infernal, Requian; tongues",
+  "other_abilities": "arachnid spy, change shape (Small or Medium animal or humanoid)",
+  "gear": "vesk brigandine IVAR, disruptive evenfall shimmerstone staffAA3, series-42 plasma guideAR with 1 super-capacity battery (80 charges)",
+  "environment": "any (Boneyard)",
+  "organization": "solitary, pair, or reaping (3–15)",
+  "special_abilities": [
+    {
+      "name": "Arachnid Spy (Su)",
+      "description": "Once every hour as a full action, a morrigna can spin an invisible, magical spider out of their web shroud. This spider functions as the sensor of an\narcane eye\nspell, although the morrigna does not need to concentrate to use the arachnid spy."
+    },
+    {
+      "name": "Web Shroud (Su)",
+      "description": "A morrigna’s shroud is composed of silken webs that are mystically attuned to protect them from harm. A creature within this aura that fails a DC 20 Reflex saving throw becomes entangled for 1 round."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nPsychopomp (Creautre Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPsychopomp\nSource\nAlien Archive 4 pg. 90\nPsychopomps are enigmatic guides, protectors of souls, and slayers of undead. These neutral outsiders safeguard the cycle of life, death, and afterlife. Native to the Boneyard, the terminus of the River of Souls where the goddess Pharasma judges the dead, psychopomps come in a variety of forms, each having their own aims, interests, and methodology for ensuring the journey of souls proceeds to their standards. Stoic, proud, and patient, psychopomps perform their duties with unwavering dedication, confident their collective efforts ensure existence will continue unabated throughout the ages. Having listened to the complaints and regrets of the dead since time began, psychopomps are unswayed by passionate pleas nor angry lamentations, making them seem aloof or uncaring. Nearly all psychopomps wear masks and speak a somber yet melodic language called Requian. Though some posit this behavior is a form of psychological intimidation, others believe the sight of an unmasked psychopomp puts unnecessary strain on a mortal soul.\nErabryths are psychopomps who welcome and escort the souls of androids who have given their bodies up for renewal. Akin to procreation among androids, renewal is generally considered a decision to be celebrated and respected. Once incredibly rare, erabryths have increased in number in recent centuries, alongside the number of cycling android souls they guide. Averaging 6 feet tall and 200 pounds, erabryths are lanky androgynous outsiders; they have metallic, ribboned flesh and a mirrored disk in place of a face, backlit by a nimbus of light that changes color and intensity to display their emotions.\nIn contrast to their erabryth kin, morrignas are warriors who uphold the sanctity of life and death by tracking down and destroying those who interfere with the natural flow of souls in any way. Cautious, cunning, and patient, morrignas unrelentingly hunt immortals, necromancers, and undead with extreme prejudice.\nAliens in the \"Psychopomp\" Family\nName\nCR\nErabryth\n1\nMorrigna\n11\nPsychopomp, Morrigna\nSource\nAlien Archive 4 pg. 90\nMorrigna CR 11\nXP 12,800\nN Medium outsider (psychopomp)\nInit\n+5;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+20\nAura\nweb shroud (10 ft., Reflex DC 20)\nDefense\nHP\n155\nEAC\n23;\nKAC\n24\nFort\n+10;\nRef\n+10;\nWill\n+16\nDR\n10/adamantine;\nImmunities\ndeath effects, disease, poison;\nResistances\ncold 10, electricity 10;\nSR\n22\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\ndisruptive evenfall shimmerstone staff +18 (5d6+12 B) or web lash +18 (2d10+12 S)\nRanged\nseries-42 plasma guide +20 (3d8+11 E & F; critical severe wound)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with web lash)\nOffensive Abilities\nspirit touch Spells Known (CL 11th; melee +18) 4th (3/day)—death ward, soul reap (DC 22) 3rd (6/day)—dispel magic, mind thrust (DC 21), mystic cure, speak with dead (DC 21) 2nd (at will)—force blast (DC 20), invisibility\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n+1;\nINT\n+3;\nWIS\n+8;\nCHA\n+3\nSkills\nAthletics +20 (+28 to climb), Mysticism +25, Sense Motive +25, Stealth +20\nLanguages\nAbyssal, Celestial, Infernal, Requian; tongues\nOther Abilities\narachnid spy, change shape (Small or Medium animal or humanoid)\nGear\nvesk brigandine IVAR, disruptive evenfall shimmerstone staffAA3, series-42 plasma guideAR with 1 super-capacity battery (80 charges)\nEcology\nEnvironment\nany (Boneyard)\nOrganization\nsolitary, pair, or reaping (3–15)\nSpecial Abilities\nArachnid Spy (Su)\nOnce every hour as a full action, a morrigna can spin an invisible, magical spider out of their web shroud. This spider functions as the sensor of an\narcane eye\nspell, although the morrigna does not need to concentrate to use the arachnid spy.\nWeb Shroud (Su)\nA morrigna’s shroud is composed of silken webs that are mystically attuned to protect them from harm. A creature within this aura that fails a DC 20 Reflex saving throw becomes entangled for 1 round.\nExtra Content\nThe following extra content was found for this creature:\n-\nPsychopomp (Creautre Subtype) Graft Template",
+  "type": "outsider (psychopomp)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Psychopomp_Morrigna.png"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Diaspora Wyrm, Diaspora Wyrm Saga",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Diaspora Wyrm Saga&Family=Diaspora Wyrm",
+  "source": "Alien Archive 3 pg. 16",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast (aquatic)",
+  "init": "+10",
+  "senses": "blindsight 300 ft. (electromagnetism), sightless;",
+  "perception": "+29",
+  "hp": "330",
+  "eac": "31",
+  "kac": "33",
+  "fort": "+21",
+  "ref": "+21",
+  "will": "+15",
+  "dr": "0/—",
+  "immunities": "cold, paralysis, sleep",
+  "weaknesses": "electromagnetic blindness",
+  "speed": "swim 60 ft.",
+  "melee": "bite +32 (6d12+24 P) tongue +32 (special)",
+  "space": "15 ft.",
+  "reach": "15 ft. (50 ft. with tongue)",
+  "ability_scores": {
+    "str": "+7",
+    "dex": "+10",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +29, Mysticism +34, Stealth +29, Survival +29",
+  "languages": "electrocommunication 300 ft.",
+  "environment": "cold aquatic (Nisis)",
+  "organization": "solitary, pair, or council (3–5)",
+  "special_abilities": [
+    {
+      "name": "Darkwater Veil (Su)",
+      "description": "As a move action, a diaspora wyrm can alter the structure of water within a 20-foot-radius spread so that it forms nanotubes that absorb light. This field moves with the wyrm, obscuring most sight and providing total concealment. A creature that has darkvision treats the field within 5 feet as if it provides only concealment. Magical light from a source of a higher level or CR than the wyrm’s negates the effect while the two interact. The wyrm can dismiss the field as a move action, and the field ends after 1 minute if the wyrm takes no action to renew it."
+    },
+    {
+      "name": "Electrocommunication (Ex)",
+      "description": "Diaspora wyrms communicate by shaping and reading electromagnetic fields. This functions as telepathy among creatures with this ability."
+    },
+    {
+      "name": "Electromagnetic Blindness (Ex)",
+      "description": "To a diaspora wyrm, a strong electromagnetic field (such as high radiation) acts like fog. Electricity damage forces the wyrm to succeed at a Fortitude saving throw (DC = 10 + the damage taken) or be blinded for 1 round. Multiple failures during the same round do not extend this duration. It can also communicate through technological communication devices and to technological constructs."
+    },
+    {
+      "name": "Tongue (Ex)",
+      "description": "A diaspora wyrm can use its long, sticky tongue to make a melee attack that targets EAC. A creature hit by this attack becomes stuck to the wyrm’s tongue, gaining the grappled condition until it escapes, or until the diaspora wyrm releases the creature as a swift action. While a creature is grappled as a result of this attack, the diaspora wyrm can attempt reposition combat maneuvers against that creature, but only to move it toward the diaspora wyrm. If the wyrm succeeds at such a maneuver and the creature is within range of the wyrm’s bite attack at the end of the movement, the wyrm can make a bite attack as part of that maneuver. Additionally, while a creature is grappled this way, the diaspora wyrm can use its bite attack only against the grappled creature, and it can’t use its tongue attack."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiaspora Wyrm\nSource\nAlien Archive 3 pg. 16\nThe icy ocean world of Nisis is the Diaspora’s heart, feeding sarcesian crèche worlds and connecting them through the River Between. The Pact Worlds claim these waters, but in their depths lurk elusive monstrosities that truly rule them. Dubbed “diaspora wyrms” in legends from before the Gap, these predators resemble immense, fanged eels. Younger wyrms are sleek and sinuous, while older ones bear fringes of calcium-based scales. Instead of eyes, a wyrm has frills sensitive to electromagnetic fields. Organs in the wyrm’s head allow it to shape its field, producing waves that allow communication.\nPopular fiction depicts these wyrms as beasts, because in addition to being hostile to intruders in their seas, the wyrms communicate through electrocommunication in a way often undetectable without proper sensors. Nevertheless, diaspora wyrms are sapient, and some grow sagacious over their centuries-long lives. They communicate among themselves, working to keep and pass on their legacy. So central is this fixation that the wyrms’ name for themselves translates roughly to “those in observation.”\nDiaspora wyrms predate the Diaspora’s formation. According to their history, they evolved in a subterranean sea on one of the twin worlds that, when destroyed, created the asteroid belt. When that world cracked apart, the chunk containing their home survived intact for a time, its egg-like outer layers slowly breaking away or sinking down into the new planetoid’s core in a process the wyrms call “the Hatching.” This planetoid became Nisis. In its waters, the wyrms adjusted to their changed environment. They evolved the ability to alter the water around them to recreate the darkness that birthed them. The molecular change the wyrms create is lasting, and when the wyrm releases the changed water, it renders the surrounding liquid cloudy as the altered molecules disperse. These particles break down, but not quickly.\nToday, the oldest and wisest wyrms, called sages, keep mostly to Nisis’s depths, obeying an ancestral mandate to protect the Broodnest. This mazelike coral reef is not only the wyrms’ home but also an elegant organic network bearing electrical fields that record the wyrms’ history—though like any other record, fractured by the Gap.\nWyrms that attack the settlements inside the planet’s ice shell are usually young ones that hunt for food and sport until maturity and duty draw them back into the depths. However, some sages have begun preparing the wyrms for the possibility that NiSis’s oceans are freezing permanently. Believing the only way to ensure their species’ survival is to colonize new worlds, these wyrms have been scouting the River Between, darkening its waters as they hunt for a way to escape their fate. Wyrms in Nisis’s depths have purposely darkened water there and released it in cycles, simultaneously darkening Nisis’s ocean. An average diaspora wyrm is 15 feet long and weighs 1,200 pounds. However, diaspora wyrms grow throughout their lives. The largest can be up to 30 feet long and weigh over 5 tons.\nAliens in the \"Diaspora Wyrm\" Family\nName\nCR\nDiaspora Wyrm\n8\nDiaspora Wyrm Saga\n17\nDiaspora Wyrm, Diaspora Wyrm Saga\nSource\nAlien Archive 3 pg. 16\nDiaspora Wyrm Saga CR 17\nXP 102,400\nN Huge magical beast (aquatic)\nInit\n+10;\nSenses\nblindsight 300 ft. (electromagnetism), sightless;\nPerception\n+29\nDefense\nHP\n330\nEAC\n31;\nKAC\n33\nFort\n+21;\nRef\n+21;\nWill\n+15\nDefensive Abilities\ndarkwater veil;\nDR\n0/—;\nImmunities\ncold, paralysis, sleep\nWeaknesses\nelectromagnetic blindness\nOffense\nSpeed\nswim 60 ft.\nMelee\nbite +32 (6d12+24 P) tongue +32 (special)\nSpace\n15 ft.;\nReach\n15 ft. (50 ft. with tongue)\nStatistics\nSTR\n+7;\nDEX\n+10;\nCON\n+4;\nINT\n+0;\nWIS\n+3;\nCHA\n+1\nSkills\nAcrobatics +29, Mysticism +34, Stealth +29, Survival +29\nLanguages\nelectrocommunication 300 ft.\nEcology\nEnvironment\ncold aquatic (Nisis)\nOrganization\nsolitary, pair, or council (3–5)\nSpecial Abilities\nDarkwater Veil (Su)\nAs a move action, a diaspora wyrm can alter the structure of water within a 20-foot-radius spread so that it forms nanotubes that absorb light. This field moves with the wyrm, obscuring most sight and providing total concealment. A creature that has darkvision treats the field within 5 feet as if it provides only concealment. Magical light from a source of a higher level or CR than the wyrm’s negates the effect while the two interact. The wyrm can dismiss the field as a move action, and the field ends after 1 minute if the wyrm takes no action to renew it.\nElectrocommunication (Ex)\nDiaspora wyrms communicate by shaping and reading electromagnetic fields. This functions as telepathy among creatures with this ability.\nElectromagnetic Blindness (Ex)\nTo a diaspora wyrm, a strong electromagnetic field (such as high radiation) acts like fog. Electricity damage forces the wyrm to succeed at a Fortitude saving throw (DC = 10 + the damage taken) or be blinded for 1 round. Multiple failures during the same round do not extend this duration. It can also communicate through technological communication devices and to technological constructs.\nTongue (Ex)\nA diaspora wyrm can use its long, sticky tongue to make a melee attack that targets EAC. A creature hit by this attack becomes stuck to the wyrm’s tongue, gaining the grappled condition until it escapes, or until the diaspora wyrm releases the creature as a swift action. While a creature is grappled as a result of this attack, the diaspora wyrm can attempt reposition combat maneuvers against that creature, but only to move it toward the diaspora wyrm. If the wyrm succeeds at such a maneuver and the creature is within range of the wyrm’s bite attack at the end of the movement, the wyrm can make a bite attack as part of that maneuver. Additionally, while a creature is grappled this way, the diaspora wyrm can use its bite attack only against the grappled creature, and it can’t use its tongue attack.",
+  "type": "magical beast (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Diaspora_Wyrm.png"
+}

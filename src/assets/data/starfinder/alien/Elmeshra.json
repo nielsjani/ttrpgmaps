@@ -1,0 +1,48 @@
+{
+  "name": "Elmeshra",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Elmeshra&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 56",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal (aquatic)",
+  "init": "+2",
+  "senses": "blindsight (heat) 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "resistances": "fire 10",
+  "weaknesses": "hot-blooded",
+  "speed": "40 ft., swim 40 ft.",
+  "melee": "bite +17 (2d6+12 P plus swallow whole) or claw +17 (1d6+12 S)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "swallow whole (2d6+12 A, EAC 19, KAC 17, 21 HP)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +19 (+27 to swim)",
+  "other_abilities": "amphibious",
+  "environment": "temperate aquatic and marsh (Triaxus)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Hot-Blooded (Ex)",
+      "description": "All cold damage the elmeshra takes is nonlethal damage. Each time it takes cold damage, the elmeshra is staggered until the end of its next turn."
+    }
+  ],
+  "description": "Elmeshras are large six-legged amphibians native to Triaxus. They are omnivorous, eating fish, smaller aquatic animals, and fruit in equal quantity. While elmeshras might seem lethargic, floating calmly with their eyes just above the surface, they are surprisingly quick to act, especially if provoked or when a tempting bit of prey swims too close. Elmeshras tend to eat close to their weight in food every day. They spawn in shallow pools and marshes during Triaxus’s summer, and the handful that survive to reach the winter hibernate through it, storing fertilized eggs to release as the weather improves. A typical elmeshra is over 12 feet long and weighs 3,000 pounds.\nBefore the Gap, it was common for dragons and rhyphorians to dig up the massive amphibians throughout the winter. Their carcasses provided meat for lean winter days, but also elmeshra oil—originally drained from the creature’s flesh and extracted chemically—which protected against fatal freezing. Triaxians no longer rely on elmeshras for survival, but elmeshra steaks are still considered a delicacy by certain long-lived dragons, and the oil is often used as an ingredient in high-end perfumes.\nOn Triaxus, hibernating elmeshras can occasionally be found buried in ice floes, but it’s more common to find living versions on other planets. The ease of shipping frozen elmeshras makes them a common animal attraction in zoos and a popular quarry in hunting expeditions across many systems. However, outside of their natural environment, elmeshras engage in frequent cycles of spawning that can rapidly cause ecological blight.\nElmeshra eggs are found clustered in spheres up to 10 feet in diameter and hatch based on the weather. When they finally spring forth, hundreds of elmeshra spawn surge across land and sea alike. These spawn sometimes overwhelm larger animals, especially those still adjusting to the changing season.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nElmeshra\nSource\nStarfinder #30: Puppets Without Strings pg. 56\nElmeshra CR 7\nXP 3,200\nN Large animal (aquatic)\nInit\n+2;\nSenses\nblindsight (heat) 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+11;\nWill\n+6\nResistances\nfire 10\nWeaknesses\nhot-blooded\nOffense\nSpeed\n40 ft., swim 40 ft.\nMelee\nbite +17 (2d6+12 P plus swallow whole) or claw +17 (1d6+12 S)\nMultiattack\n4 claws +11 (1d6+12 S)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nswallow whole (2d6+12 A, EAC 19, KAC 17, 21 HP)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+4;\nINT\n-4;\nWIS\n+1;\nCHA\n-2\nSkills\nAthletics +19 (+27 to swim)\nOther Abilities\namphibious\nEcology\nEnvironment\ntemperate aquatic and marsh (Triaxus)\nOrganization\nsolitary or pair\nSpecial Abilities\nHot-Blooded (Ex)\nAll cold damage the elmeshra takes is nonlethal damage. Each time it takes cold damage, the elmeshra is staggered until the end of its next turn.\nDescription\nElmeshras are large six-legged amphibians native to Triaxus. They are omnivorous, eating fish, smaller aquatic animals, and fruit in equal quantity. While elmeshras might seem lethargic, floating calmly with their eyes just above the surface, they are surprisingly quick to act, especially if provoked or when a tempting bit of prey swims too close. Elmeshras tend to eat close to their weight in food every day. They spawn in shallow pools and marshes during Triaxus’s summer, and the handful that survive to reach the winter hibernate through it, storing fertilized eggs to release as the weather improves. A typical elmeshra is over 12 feet long and weighs 3,000 pounds.\nBefore the Gap, it was common for dragons and rhyphorians to dig up the massive amphibians throughout the winter. Their carcasses provided meat for lean winter days, but also elmeshra oil—originally drained from the creature’s flesh and extracted chemically—which protected against fatal freezing. Triaxians no longer rely on elmeshras for survival, but elmeshra steaks are still considered a delicacy by certain long-lived dragons, and the oil is often used as an ingredient in high-end perfumes.\nOn Triaxus, hibernating elmeshras can occasionally be found buried in ice floes, but it’s more common to find living versions on other planets. The ease of shipping frozen elmeshras makes them a common animal attraction in zoos and a popular quarry in hunting expeditions across many systems. However, outside of their natural environment, elmeshras engage in frequent cycles of spawning that can rapidly cause ecological blight.\nElmeshra eggs are found clustered in spheres up to 10 feet in diameter and hatch based on the weather. When they finally spring forth, hundreds of elmeshra spawn surge across land and sea alike. These spawn sometimes overwhelm larger animals, especially those still adjusting to the changing season.",
+  "type": "animal (aquatic)",
+  "category": "alien"
+}

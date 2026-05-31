@@ -1,0 +1,49 @@
+{
+  "name": "Guides, Captains Club Guide",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Captains Club Guide&Family=Guides",
+  "source": "Interstellar Species pg. 166",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+17",
+  "will": "+12",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "claw  +24 (3d12+17 S) or ultrathin doshakari +24 (5d4+17 P; critical wound)",
+  "ranged": "aurora arc pistol +27 (3d6+13 E; critical arc 2d6) Space 10 ft.; Reach 5 ft.",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "ferocious charge",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+4",
+    "con": "+8",
+    "int": "+6",
+    "wis": "+4",
+    "cha": "+3"
+  },
+  "skills": "Athletics +23, Intimidate +23, Survival +28",
+  "feats": "Laugh at Danger",
+  "languages": "Common; limited telepathy 30 ft.",
+  "other_abilities": "known far and wide",
+  "gear": "d-suit IV, aurora arc pistol with 2 high-capacity batteries (40 charges each), ultrathin doshakari",
+  "special_abilities": [
+    {
+      "name": "Known Far and Wide (Ex)",
+      "description": "A captains club guide is legendary in the places they’ve traveled to. Lower the DC of Diplomacy and Intimidate checks the guide and their allies attempt in places the guide is familiar with by 5."
+    }
+  ],
+  "description": "Guides in this unofficial alliance of retired explorers—most of whom weren’t actually captains—can usually be coaxed away from retirement for “one last jaunt” to somewhere they visited in their more active days. While their information is occasionally out of date, they make up for it with quick thinking, a higher- than-expected ability to defend themselves, and the weight of their name and reputation. That reputation is also usually the way they gain work, often spreading news of their exploits around a sector and hinting there might be more adventures yet to come.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGuides\nSource\nInterstellar Species pg. 166\nGuides provide safe passage for a fee, shepherding travelers through dangerous or unfamiliar territory. Most specialize in a specific region, using their knowledge, connections, and adaptability to bring clients to their destination in one piece. Used to situations where they and their clients are on their own, guides tend to prefer finesse to force in tough situations, but if charm doesn’t work, they’ll do whatever it takes to get the job done.\nWhile the most straightforward way for players to encounter a guide is by hiring one, guides offer a variety of other potential encounters. Players might find a stowalong on their ship, retrace a captains club guide’s adventure, use a personal concierge to gain access to power, or help a courier track down a local rumor. Guides also often have valuable information about planetary conditions, know the location of unexplored sites, and can make connections with influential locals.\nAliens in the \"Guides\" Family\nName\nCR\nCaptains Club Guide\n13\nCourier\n7\nPersonal Concierge\n3\nStowalong\n9\nGuides, Captains Club Guide\nSource\nInterstellar Species pg. 167\nCaptains Club Guide CR 13\nXP 25,600\nUplifted bear\nLN Large magical beast\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+23\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+17;\nWill\n+12\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nclaw  +24 (3d12+17 S) or ultrathin doshakari +24 (5d4+17 P; critical wound)\nRanged\naurora arc pistol +27 (3d6+13 E; critical arc 2d6) Space 10 ft.; Reach 5 ft.\nOffensive Abilities\nferocious charge\nStatistics\nSTR\n+4;\nDEX\n+4;\nCON\n+8;\nINT\n+6;\nWIS\n+4;\nCHA\n+3\nFeats\nLaugh at Danger\nSkills\nAthletics +23, Intimidate +23, Survival +28\nLanguages\nCommon; limited telepathy 30 ft.\nOther Abilities\nknown far and wide\nGear\nd-suit IV, aurora arc pistol with 2 high-capacity batteries (40 charges each), ultrathin doshakari\nSpecial Abilities\nKnown Far and Wide (Ex)\nA captains club guide is legendary in the places they’ve traveled to. Lower the DC of Diplomacy and Intimidate checks the guide and their allies attempt in places the guide is familiar with by 5.\nDescription\nGuides in this unofficial alliance of retired explorers—most of whom weren’t actually captains—can usually be coaxed away from retirement for “one last jaunt” to somewhere they visited in their more active days. While their information is occasionally out of date, they make up for it with quick thinking, a higher- than-expected ability to defend themselves, and the weight of their name and reputation. That reputation is also usually the way they gain work, often spreading news of their exploits around a sector and hinting there might be more adventures yet to come.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

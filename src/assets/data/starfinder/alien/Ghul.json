@@ -1,0 +1,62 @@
+{
+  "name": "Ghul",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghul&Family=None",
+  "source": "Starfinder #15: Sun Divers pg. 56",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead (shapechanger)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+6",
+  "dr": "5/good",
+  "immunities": "undead immunities;",
+  "resistances": "fire 10",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +14 (1d6+10 P) or",
+  "ranged": "corona laser pistol +11 (2d4+5 F; critical burn 1d4)",
+  "offensive_abilities": "cursed bite",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "—",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+4"
+  },
+  "skills": "Athletics +11, Bluff +16, Disguise +11, Stealth +11",
+  "languages": "Aquan, Auran, Common, Ignan, Terran",
+  "other_abilities": "change shape (hyena), genie blood, tracker",
+  "gear": "casual stationwear, corona laser pistol with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary or pack (2–8)",
+  "special_abilities": [
+    {
+      "name": "Change Shape (Su)",
+      "description": "A ghul can take the form of a hyena (or resume its normal form) as a standard action, gaining blindsight (scent) with a range of 30 feet and low-light vision. It is impossible to identify it as an undead or a ghul when it is in its hyena form; a creature that succeeds at a Perception skill check to pierce its disguise notes only that it is not truly a hyena. The ghul can use its normal natural attacks while in hyena form, but it lacks hands to use tools or weapons and cannot speak."
+    },
+    {
+      "name": "Cursed Bite (Ex)",
+      "description": "A ghul’s bite counts as cold iron, evil, and magic for the purpose of bypassing damage reduction."
+    },
+    {
+      "name": "Genie Blood (Ex)",
+      "description": "For effects targeting creatures by type, ghuls count as both outsiders (and genies for abilities that specifically target genies) and undead; for abilities that affect both creature types, a ghul counts as the type that results in the worse effect."
+    },
+    {
+      "name": "Tracker (Ex)",
+      "description": "A ghul can use Perception instead of Survival to find or follow tracks, and gains a +8 insight bonus when doing so."
+    }
+  ],
+  "description": "A ghul is a rare form of undead that arises when a jann dies while cursed. A ghul has a skeletal visage, with desiccated skin covering most of its body and the remainder taking the form of translucent, fiery energy. Motivated by a fierce hatred of the appearance of its feet, which resemble donkey’s hooves, a ghul often conceals this evidence of its cursed nature with clothing. Some ghuls even wear full suits of armor covered with an additional layer of robes and other formal garb that completely hides their forms, claiming to be aliens from distant worlds in need of extensive environmental protections to survive.\nAs part of their undead rebirth, ghuls crave the flesh of sapient beings. They often lurk near funerals and battlegrounds, hoping to feed on the corpses of the young and brave, for they find the taste of healthy, virtuous flesh far superior to that of the old, sick, or sinful. Ghuls feast on the living as well, but they are cunning enough to try to limit their victims to those who won’t be easily missed.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhul\nSource\nStarfinder #15: Sun Divers pg. 56\nGhul CR 5\nXP 1,600\nCE Medium undead (shapechanger)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+6\nDR\n5/good;\nImmunities\nundead immunities;\nResistances\nfire 10\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +14 (1d6+10 P) or\r\nclaw +14 (1d4+10 S; critical bleed 1d4)\nRanged\ncorona laser pistol +11 (2d4+5 F; critical burn 1d4)\nOffensive Abilities\ncursed bite\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n—;\nINT\n+1;\nWIS\n+1;\nCHA\n+4\nSkills\nAthletics +11, Bluff +16, Disguise +11, Stealth +11\nLanguages\nAquan, Auran, Common, Ignan, Terran\nOther Abilities\nchange shape (hyena), genie blood, tracker\nGear\ncasual stationwear, corona laser pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary or pack (2–8)\nSpecial Abilities\nChange Shape (Su)\nA ghul can take the form of a hyena (or resume its normal form) as a standard action, gaining blindsight (scent) with a range of 30 feet and low-light vision. It is impossible to identify it as an undead or a ghul when it is in its hyena form; a creature that succeeds at a Perception skill check to pierce its disguise notes only that it is not truly a hyena. The ghul can use its normal natural attacks while in hyena form, but it lacks hands to use tools or weapons and cannot speak.\nCursed Bite (Ex)\nA ghul’s bite counts as cold iron, evil, and magic for the purpose of bypassing damage reduction.\nGenie Blood (Ex)\nFor effects targeting creatures by type, ghuls count as both outsiders (and genies for abilities that specifically target genies) and undead; for abilities that affect both creature types, a ghul counts as the type that results in the worse effect.\nTracker (Ex)\nA ghul can use Perception instead of Survival to find or follow tracks, and gains a +8 insight bonus when doing so.\nDescription\nA ghul is a rare form of undead that arises when a jann dies while cursed. A ghul has a skeletal visage, with desiccated skin covering most of its body and the remainder taking the form of translucent, fiery energy. Motivated by a fierce hatred of the appearance of its feet, which resemble donkey’s hooves, a ghul often conceals this evidence of its cursed nature with clothing. Some ghuls even wear full suits of armor covered with an additional layer of robes and other formal garb that completely hides their forms, claiming to be aliens from distant worlds in need of extensive environmental protections to survive.\nAs part of their undead rebirth, ghuls crave the flesh of sapient beings. They often lurk near funerals and battlegrounds, hoping to feed on the corpses of the young and brave, for they find the taste of healthy, virtuous flesh far superior to that of the old, sick, or sinful. Ghuls feast on the living as well, but they are cunning enough to try to limit their victims to those who won’t be easily missed.",
+  "type": "undead (shapechanger)",
+  "category": "alien"
+}

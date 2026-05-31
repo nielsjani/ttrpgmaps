@@ -1,0 +1,51 @@
+{
+  "name": "Telia",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Telia&Family=Telia",
+  "source": "Alien Archive 3 pg. 112",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+7",
+  "speed": "25 ft., swim 20 ft.",
+  "melee": "tactical baton +9 (1d4+3 B)",
+  "ranged": "static arc pistol +7 (1d6+2 E; critical arc 2)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+4",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Culture +12, Engineering +12, Medicine +12, Sense Motive +7, Survival +7",
+  "languages": "Common, Telian, Vesk",
+  "other_abilities": "flashback",
+  "gear": "freebooter armor I, static arc pistol with 2 batteries (20 charges each), tactical baton",
+  "environment": "any (Pygos)",
+  "organization": "solitary, pair, or longevity (3–12)",
+  "special_abilities": [
+    {
+      "name": "Flashback (Ex)",
+      "description": "Once per day, a telia can reroll a failed Intelligence-based skill check."
+    },
+    {
+      "name": "Retract (Ex)",
+      "description": "A telia that takes the total defense action gains a +6 bonus to their Armor Class instead of the usual +4 bonus, and they also gain the unflankable universal creature rule until the start of their next turn."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nTelia Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTelia\nSource\nAlien Archive 3 pg. 112\nOf all the species known to the Pact Worlds, the tortoise-like telias have perhaps the most complex relationship with the Gap. They are long-lived creatures—most live to be 1,000—and their vast experience has taught them that memory is mutable and (for other species) fleeting, so the Gap is to them just an exaggeration of this constant truth. Whereas elves, many of whom also lived through the Gap, might stew over memories of a betrayal lost to the Gap, a telia is generally glad for the opportunity to let go of a similar grievance, imagining the many possibilities of what might have taken place in their own past.\nOver time, a telia’s scaled shell changes pattern and color based on the telia’s experiences. Each bony plate, or scute, is a comprehensive physical record of the creature’s experiences, radiating a series of fine rings from its center. The rings’ color and shape differences give subtle clues to the telia’s experiences. Times of great joy, learning, and discovery often produce brightly colored and clearly defined rings, while darker times can result in cloudy, imprecise portions. Individuals older than a few hundred years are apparent from the scrambled or sometimes totally absent markings on the edges of their scutes—physical evidence of the scrambled time of the Gap.\nTelias have exceptional control over their memories. Some choose to forget entire centuries in a bid to excise trauma or in hopes of again experiencing the joy of discovering their passions. Most, however, trim only bad habits, bits of bias, and old grudges. Partially as a result of this practice, telias are genial and relaxed. Some underestimate telias based on their advanced age, but most telias are generous in deliberately ignoring such prejudice, having only pity for the narrow views of such short-lived creatures. In fact, telia culture considers individual blame to be abhorrent, which means some see telias as shiftless or incapable of accepting or assigning responsibility. To the typical telia, however, the vast causal nexus that leads to any given outcome is too nebulous to oversimplify. In their view, one can’t blame a creature without in part blaming its community, its family, and its ancestors—and in turn their families and community, onward to infinity. As a result, most telias are quick to forgive those who wrong them.\nStorytelling is central to telia society, and most are well practiced in the craft. Though telias devised a written language long before the Gap, they rarely use it today. Instead, telias embrace an oral tradition, passing down even complex technological information entirely verbally. They take an unhurried approach to learning, and it is common for a telia engineer to spend many decades as an apprentice. While they understand why other species rely on written records, most telias would much rather listen to a story told well than read from a screen. Telias are curious creatures, and when their travels take them away from their communities, they take their stories along with them in the form of video and audio recordings. Among an adventuring telia’s most precious possessions is their digital archive of their friends’ and family’s favorite stories.\nTelias originated on Pygos, the only inhabited planet in its Near Space system, rich with coral reefs, continent-spanning jungles, and complex cave systems, all teeming with unusual life. Thanks to their technological know-how, telias were among the first in the galaxy to correctly interpret Triune’s signal and build Drift engines. However, the ending of the Gap proved much more disorienting to telias than to shorter‑lived species, and it was only after decades of debate that a small delegation of telias first left their home world. Once introduced to the broader galaxy, telias have fallen in love with the near infinite diversity of life and experience available beyond their own star system, and they regularly make trips to the Pact Worlds and the Veskarium. The average telia is 4-1/2 feet tall and weighs 200 pounds.\nAliens in the \"Telia\" Family\nName\nCR\nTelia\n2\nTelia Raconteur\n7\nTelia\nSource\nAlien Archive 3 pg. 112\nTelia CR 2\nXP 600\nNG Medium monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+3;\nRef\n+1;\nWill\n+7\nDefensive Abilities\nretract\nOffense\nSpeed\n25 ft., swim 20 ft.\nMelee\ntactical baton +9 (1d4+3 B)\nRanged\nstatic arc pistol +7 (1d6+2 E; critical arc 2)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+4;\nINT\n+1;\nWIS\n+2;\nCHA\n+1\nSkills\nCulture +12, Engineering +12, Medicine +12, Sense Motive +7, Survival +7\nLanguages\nCommon, Telian, Vesk\nOther Abilities\nflashback\nGear\nfreebooter armor I, static arc pistol with 2 batteries (20 charges each), tactical baton\nEcology\nEnvironment\nany (Pygos)\nOrganization\nsolitary, pair, or longevity (3–12)\nSpecial Abilities\nFlashback (Ex)\nOnce per day, a telia can reroll a failed Intelligence-based skill check.\nRetract (Ex)\nA telia that takes the total defense action gains a +6 bonus to their Armor Class instead of the usual +4 bonus, and they also gain the unflankable universal creature rule until the start of their next turn.\nExtra Content\nThe following extra content was found for this creature:\n-\nTelia Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Telia.png"
+}

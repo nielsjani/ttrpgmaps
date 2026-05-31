@@ -1,0 +1,46 @@
+{
+  "name": "Stewards, Data Analyst",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Data Analyst&Family=Stewards",
+  "source": "Interstellar Species pg. 180",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+10",
+  "speed": "40 ft.",
+  "melee": "horn  +10 (1d4+6 P)",
+  "ranged": "explorer handcoil +12 (1d6+5; critical arc 1d6) or stickybomb grenade II +12 (explode [15 ft, entangled 2d4 rounds, DC 15 Reflex])",
+  "offensive_abilities": "gore",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Computers +16, Engineering +16, Life Science +11, Medicine +11, Physical Science +16",
+  "languages": "Arkanen, Common, Drow, Vercite",
+  "other_abilities": "calculate the odds, mind maze",
+  "gear": "regimental dress I, explorer handcoil with 2 batteries (20 charges each), stickybomb grenades II (2), engineering kit, hacking kit, tier 1 miniaturized computer with basic AI",
+  "special_abilities": [
+    {
+      "name": "Calculate the Odds (Ex)",
+      "description": "A data analyst can spend 1 Resolve Point as a move action to study a creature within 60 feet. Before the end of the data analyst’s next turn, the next time they make an attack against the target and roll a 5 or lower on the attack roll’s die, they can reroll the attack and use the higher result."
+    }
+  ],
+  "description": "There’s far more to the Stewards than blue-armored enforcers on patrol. Behind the scenes, experts at the Bastion headquarters handle investigations. Periodically, these agents embark on field work to analyze security data, crack datapads, combat technomagical viruses, and study strange phenomena.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStewards\nSource\nInterstellar Species pg. 180\nWith three branches—the Constabulary, Ops, and Overwatch— the Stewards protect people and legal rights within the Pact Worlds. The Constabulary handles planet-side troubles, the Overwatch fleet guards Pact Worlds space, and Ops is usually responsible for gathering intelligence. Although Stewards often function as allies for PCs, they might confront PCs engaged in risky heroics, or a canny villain could frame PCs for high crimes to turn Stewards into fearsome adversaries.\nAliens in the \"Stewards\" Family\nName\nCR\nConstable\n7\nData Analyst\n5\nOps Infiltrator\n15\nOverwatch Captain\n10\nStewards, Data Analyst\nSource\nInterstellar Species pg. 180\nData Analyst CR 5\nXP 1,600\nNuar\nN Medium monstrous humanoid\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n65;\nRP\n4\nEAC\n17;\nKAC\n18\nFort\n+4;\nRef\n+6;\nWill\n+10\nOffense\nSpeed\n40 ft.\nMelee\nhorn  +10 (1d4+6 P)\nRanged\nexplorer handcoil +12 (1d6+5; critical arc 1d6) or stickybomb grenade II +12 (explode [15 ft, entangled 2d4 rounds, DC 15 Reflex])\nOffensive Abilities\ngore\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+0;\nINT\n+5;\nWIS\n+1;\nCHA\n+0\nSkills\nComputers +16, Engineering +16, Life Science +11, Medicine +11, Physical Science +16\nLanguages\nArkanen, Common, Drow, Vercite\nOther Abilities\ncalculate the odds, mind maze\nGear\nregimental dress I, explorer handcoil with 2 batteries (20 charges each), stickybomb grenades II (2), engineering kit, hacking kit, tier 1 miniaturized computer with basic AI\nSpecial Abilities\nCalculate the Odds (Ex)\nA data analyst can spend 1 Resolve Point as a move action to study a creature within 60 feet. Before the end of the data analyst’s next turn, the next time they make an attack against the target and roll a 5 or lower on the attack roll’s die, they can reroll the attack and use the higher result.\nDescription\nThere’s far more to the Stewards than blue-armored enforcers on patrol. Behind the scenes, experts at the Bastion headquarters handle investigations. Periodically, these agents embark on field work to analyze security data, crack datapads, combat technomagical viruses, and study strange phenomena.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

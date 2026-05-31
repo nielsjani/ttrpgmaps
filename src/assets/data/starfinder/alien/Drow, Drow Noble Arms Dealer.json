@@ -1,0 +1,55 @@
+{
+  "name": "Drow, Drow Noble Arms Dealer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Drow Noble Arms Dealer&Family=Drow",
+  "source": "Alien Archive pg. 42",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "humanoid (elf)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.,",
+  "perception": "+26",
+  "hp": "170",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+14",
+  "sr": "22",
+  "immunities": "sleep;",
+  "weaknesses": "light blindness",
+  "speed": "30 ft.",
+  "melee": "ultrathin longsword +19 (4d8+12 S)",
+  "ranged": "LFD sonic pistol +21 (2d8+11 So; critical defense [DC 20])",
+  "offensive_abilities": "create darkness, limning light",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "1/day—\ndispel magic\n,\nsuggestion\n(DC 19)\nAt will—\ndancing lights\n,\nflight\n(2nd-level)\nConstant—\ndetect magic"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+5",
+    "wis": "+2",
+    "cha": "+8"
+  },
+  "skills": "Bluff +21, Diplomacy +26, Intimidate +26, Sense Motive +26, Stealth +21",
+  "languages": "Abyssal, Aklo, Common, Drow, Eoxian",
+  "other_abilities": "envoy improvisations (hidden agenda, improved get ’em, improved hurry, quick dispiriting taunt)",
+  "gear": "kasatha microcord IV (electrostatic field mk 2, white force field [15 HP]), LFD sonic pistol with 2 super-capacity batteries (80 charges each), ultrathin longsword",
+  "environment": "any (Apostae)",
+  "organization": "solitary, pair, or delegation (1 plus 5–8 drow enforcers)",
+  "special_abilities": [
+    {
+      "name": "Limning Light (Su)",
+      "description": "As a standard action, a drow noble can cause all creatures and objects in a 5-foot-radius burst to shed a pale glow. Creatures outlined by the limning light take a –20 penalty to Stealth checks and don’t benefit from the concealment usually provided by darkness. If an affected creature is benefiting from an effect such as\ninvisibility\n, all others within line of sight of it become aware of its location (see page 260 of the\nStarfinder Core Rulebook\n). This effect lasts for a number of minutes equal to the drow noble’s CR (11 minutes for a drow noble arms dealer). This ability has a range of 100 feet."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nDrow Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDrow\nSource\nAlien Archive pg. 42\nWith purple skin and white hair, drow are physically beautiful but merciless. Common drow form the majority of civilian and military forces and are governed by more powerful drow nobles. This strictly matriarchal culture leaves few opportunities for a common male, and training as an enforcer for a noble house or arms dealer is one of only a few ways a drow male can secure a somewhat comfortable life—if not necessarily a long one.\nDrow are ruthless opponents, having no qualms about setting ambushes or luring enemies to locations where they have the upper hand. They regard ideals such as fairness and honor as pathetic gestures of lesser races, and consider all who hold such beliefs deserving of exploitation. Drow have no compunction about using other races as slaves and minions, using them as cannon fodder when exploring potentially dangerous new locations or as a line of defense that allows drow to flee to safety when an encounter turns against them.\nAs their economy revolves primarily around retrieving, reverse engineering, and selling weaponry from the planet-ship they have claimed as their own, drow are known throughout the Pact Worlds for having some of the finest, most cutting-edge armaments available. Their soldiers specialize in the use of ranged weapons, favoring teamwork tactics to undermine their foes’ defenses—though even an otherwise loyal sniper wouldn’t hesitate to prioritize his personal vendetta and take advantage of a clear line of fire to a rival in the chaos of a firefight.\nSome drow are born with gifts beyond those of most of their kind, including greater magical power. These individuals are referred to as drow nobles, and are most commonly born to other drow nobles within the powerful ruling houses through the aid of genetic-selection technology that is tightly controlled by those houses. However, it is not unheard of for a drow noble to be born to common parents without any genetic intervention. Such gifted progeny, upon realizing their talents, typically leverage them to gain a higher position in society, whether by aligning themselves with one of the powerful houses or striking out to earn a name for themselves. Given their exceptional talents, drow nobles quickly rise through the ranks and are soon recognized for their achievements even if a few common drow happen to disappear along their path to power.\nA drow noble scion of a powerful arms-dealing house might lead a branch of the family arms dealership, traveling throughout the Pact Worlds and fledgling colonies to secure buyers for the advanced technology her house produces based on the relics plumbed from their world. Other scions reinforce their noble houses’ connections with their demon lord patrons, becoming powerful mystics, or train as technomancers with a goal of unraveling the mysteries of the portal-gate at the center of Nightarch (see pages 458–459 of the\nStarfinder Core Rulebook\n).\nAliens in the \"Drow\" Family\nName\nCR\nDrow Enforcer\n1\nDrow Noble Arms Dealer\n11\nDrow, Drow Noble Arms Dealer\nSource\nAlien Archive pg. 42\nDrow Noble Arms Dealer CR 11\nXP 12,800\nDrow envoy\nCE Medium humanoid (elf)\nInit\n+3;\nSenses\ndarkvision 60 ft.,\ndetect magic\n;\nPerception\n+26\nDefense\nHP\n170;\nRP\n6\nEAC\n26;\nKAC\n28\nFort\n+10;\nRef\n+12;\nWill\n+14; +2 vs. enchantments\nImmunities\nsleep;\nSR\n22\nWeaknesses\nlight blindness\nOffense\nSpeed\n30 ft.\nMelee\nultrathin longsword +19 (4d8+12 S)\nRanged\nLFD sonic pistol +21 (2d8+11 So; critical defense [DC 20])\nOffensive Abilities\ncreate darkness, limning light\nSpell-Like Abilities\n(CL 11th)\n1/day—\ndispel magic\n,\nsuggestion\n(DC 19)\nAt will—\ndancing lights\n,\nflight\n(2nd-level)\nConstant—\ndetect magic\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+1;\nINT\n+5;\nWIS\n+2;\nCHA\n+8\nSkills\nBluff +21, Diplomacy +26, Intimidate +26, Sense Motive +26, Stealth +21\nLanguages\nAbyssal, Aklo, Common, Drow, Eoxian\nOther Abilities\nenvoy improvisations (hidden agenda, improved get ’em, improved hurry, quick dispiriting taunt)\nGear\nkasatha microcord IV (electrostatic field mk 2, white force field [15 HP]), LFD sonic pistol with 2 super-capacity batteries (80 charges each), ultrathin longsword\nEcology\nEnvironment\nany (Apostae)\nOrganization\nsolitary, pair, or delegation (1 plus 5–8 drow enforcers)\nSpecial Abilities\nLimning Light (Su)\nAs a standard action, a drow noble can cause all creatures and objects in a 5-foot-radius burst to shed a pale glow. Creatures outlined by the limning light take a –20 penalty to Stealth checks and don’t benefit from the concealment usually provided by darkness. If an affected creature is benefiting from an effect such as\ninvisibility\n, all others within line of sight of it become aware of its location (see page 260 of the\nStarfinder Core Rulebook\n). This effect lasts for a number of minutes equal to the drow noble’s CR (11 minutes for a drow noble arms dealer). This ability has a range of 100 feet.\nExtra Content\nThe following extra content was found for this creature:\n-\nDrow Race Entry",
+  "type": "humanoid (elf)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Drow_Noble_Arms_Dealer.png"
+}

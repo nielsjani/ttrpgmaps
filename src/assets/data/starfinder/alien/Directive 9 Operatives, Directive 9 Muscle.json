@@ -1,0 +1,47 @@
+{
+  "name": "Directive 9 Operatives, Directive 9 Muscle",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Directive 9 Muscle&Family=Directive 9 Operatives",
+  "source": "Starfinder #43: Icebound pg. 43",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (vesk)",
+  "init": "+1",
+  "senses": "low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "15",
+  "kac": "17",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+4",
+  "speed": "31 ft.",
+  "melee": "tactical switchblade +8 (1d4+7 S) or unarmed strike +8 (1d3+7 B)",
+  "ranged": "vapor cavitation pistol +5 (1d6+3 E & F; critical pulse 1d4) or tactical rail gun +5 (1d8+3 P) or stalker assassin rifle +5 (1d10+3 P)",
+  "offensive_abilities": "natural weapons, set up",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +9, Bluff +13, Stealth +8",
+  "feats": "Improved Feint",
+  "languages": "Common, Vesk",
+  "other_abilities": "armor savant",
+  "gear": "vesk brigandine I , stalker assassin rifle with 10 rounds, tactical rail gun with 2 clips (12 rounds each), vapor cavitation pistol  with 1 battery (20 charges), tactical switchblade, comm unit, credstick, flashlight",
+  "special_abilities": [
+    {
+      "name": "Set-Up (Ex)",
+      "description": "The Directive 9 muscle inflicts an additional 1d8 damage against flat-footed targets."
+    }
+  ],
+  "description": "Recruits to Directive 9 spend a few years learning protocol and procedures while also refining their skill at hand-to-hand combat and firearm usage. Before they're assigned any field work, they're attached to handlers and senior field agents who use them as bodyguards and snipers; they're often assigned to surveillance tasks, and any given Directive 9 operation might  have  several agents like them hiding in the crowd. Muscle can be armed for many different situations, from a simple pistol while moving about in public to automatic weapons or sniper rifles. They rely on Improved Feint and ambush tactics to catch enemies off guard.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDirective 9 Operatives\nSource\nStarfinder #43: Icebound pg. 43\nDirective 9 has agents everywhere, not just in the Veskarium. Deep-cover agents live and work in the Pact Worlds and elsewhere in Near Space, thriving in secret identities they might never reveal. Handlers manage individual field agents and operations, while administrators in safe locations manage resources and plan the long term goals of the agency.\nThe example Directive 9 personnel presented below can be easily modified to suit the needs of your campaign. In particular, you can remove the vesk racial traits included on these characters for different racial traits appropriate to the agent's species.\nAliens in the \"Directive 9 Operatives\" Family\nName\nCR\nDirective 9 Assassin\n9\nDirective 9 Handler\n6\nDirective 9 Muscle\n3\nDirective 9 Operatives, Directive 9 Muscle\nSource\nStarfinder #43: Icebound pg. 43\nDirective 9 Muscle CR 3\nXP 800\nMale Vesk\nLN Medium humanoid (vesk)\nInit\n+1;\nSenses\nlow-light vision;\nPerception\n+8\nDefense\nHP\n40\nEAC\n15;\nKAC\n17\nFort\n+5;\nRef\n+5;\nWill\n+4; +2 vs. fear\nOffense\nSpeed\n31 ft.\nMelee\ntactical switchblade +8 (1d4+7 S) or unarmed strike +8 (1d3+7 B)\nRanged\nvapor cavitation pistol +5 (1d6+3 E & F; critical pulse 1d4) or tactical rail gun +5 (1d8+3 P) or stalker assassin rifle +5 (1d10+3 P)\nOffensive Abilities\nnatural weapons, set up\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+2;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nFeats\nImproved Feint\nSkills\nAthletics +9, Bluff +13, Stealth +8\nLanguages\nCommon, Vesk\nOther Abilities\narmor savant\nGear\nvesk brigandine I , stalker assassin rifle with 10 rounds, tactical rail gun with 2 clips (12 rounds each), vapor cavitation pistol  with 1 battery (20 charges), tactical switchblade, comm unit, credstick, flashlight\nSpecial Abilities\nSet-Up (Ex)\nThe Directive 9 muscle inflicts an additional 1d8 damage against flat-footed targets.\nDescription\nRecruits to Directive 9 spend a few years learning protocol and procedures while also refining their skill at hand-to-hand combat and firearm usage. Before they're assigned any field work, they're attached to handlers and senior field agents who use them as bodyguards and snipers; they're often assigned to surveillance tasks, and any given Directive 9 operation might  have  several agents like them hiding in the crowd. Muscle can be armed for many different situations, from a simple pistol while moving about in public to automatic weapons or sniper rifles. They rely on Improved Feint and ambush tactics to catch enemies off guard.",
+  "type": "humanoid (vesk)",
+  "environment": "—",
+  "category": "alien"
+}

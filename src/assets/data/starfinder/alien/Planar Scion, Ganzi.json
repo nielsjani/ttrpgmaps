@@ -1,0 +1,48 @@
+{
+  "name": "Planar Scion, Ganzi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ganzi&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "32",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+4",
+  "resistances": "acid 5, electricity 5, sonic 5",
+  "speed": "30 ft.",
+  "melee": "tactical dueling sword +5 (1d6+3 S)",
+  "ranged": "explorer handcoil +7 (1d6+3 E; critical arc 1d6) or flash grenade I +7 (explode [DC 14, blinded 1d4 rounds])",
+  "spells": "(CL 3rd; melee +5)\n1st (3/day)—\ngrease\n(DC 16),\njolting surge\n0 (at will)—\nghost sound\n(DC 15),\nhazard\n(DC 15)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+4"
+  },
+  "skills": "Bluff +13, Intimidate +13, Mysticism +13, Profession (street artist) +13, Sense Motive +8, Survival +8",
+  "languages": "Common, Protean",
+  "gear": "clearweave I, explorer handcoil with 2 batteries (20 charges each), tactical dueling sword, flash grenades I (3)",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Reverse Fate (Su)",
+      "description": "As a reaction to failing a saving throw, a ganzi can reroll the save and take the new result. The ganzi can use this ability once per day, plus a number of times equal to half their CR or level."
+    }
+  ],
+  "description": "Ganzis are planar scions touched by chaos. Some have ancestors who were affected by or dealt with chaotic outsiders known as proteans; these ganzi are marked with unusual features like serpent tails and feathered hair and are known as protean-kin. Others arise from being born in places where chaotic planar energies seep into the Material Plane. The interplanar nature of Drift travel is suspected of influencing ganzi births. Like their aasimar and tiefling cousins, ganzis tend somewhat toward typical alignments for their ancestry. Ganzis are known for creativity and artistry, as well as anti-authoritarian sentiments, and many ganzis exercise their artistic talents by creating graffiti and other unsanctioned street art.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nGanzi Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion, Ganzi\nSource\nStarfinder #46: The Perfect Storm pg. 60\nGanzi CR 3\nXP 800\nGanzi witchwarper\nCN Medium outsider (native)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n32\nEAC\n13;\nKAC\n14\nFort\n+2;\nRef\n+4;\nWill\n+4; +2 vs. polymorph\nResistances\nacid 5, electricity 5, sonic 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical dueling sword +5 (1d6+3 S)\nRanged\nexplorer handcoil +7 (1d6+3 E; critical arc 1d6) or flash grenade I +7 (explode [DC 14, blinded 1d4 rounds])\nWitchwarper Spells Known\n(CL 3rd; melee +5)\n1st (3/day)—\ngrease\n(DC 16),\njolting surge\n0 (at will)—\nghost sound\n(DC 15),\nhazard\n(DC 15)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n+4\nSkills\nBluff +13, Intimidate +13, Mysticism +13, Profession (street artist) +13, Sense Motive +8, Survival +8\nLanguages\nCommon, Protean\nGear\nclearweave I, explorer handcoil with 2 batteries (20 charges each), tactical dueling sword, flash grenades I (3)\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nReverse Fate (Su)\nAs a reaction to failing a saving throw, a ganzi can reroll the save and take the new result. The ganzi can use this ability once per day, plus a number of times equal to half their CR or level.\nDescription\nGanzis are planar scions touched by chaos. Some have ancestors who were affected by or dealt with chaotic outsiders known as proteans; these ganzi are marked with unusual features like serpent tails and feathered hair and are known as protean-kin. Others arise from being born in places where chaotic planar energies seep into the Material Plane. The interplanar nature of Drift travel is suspected of influencing ganzi births. Like their aasimar and tiefling cousins, ganzis tend somewhat toward typical alignments for their ancestry. Ganzis are known for creativity and artistry, as well as anti-authoritarian sentiments, and many ganzis exercise their artistic talents by creating graffiti and other unsanctioned street art.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nGanzi Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

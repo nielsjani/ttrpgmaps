@@ -1,0 +1,50 @@
+{
+  "name": "Wysp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Wysp&Family=Wysp",
+  "source": "Starfinder #15: Sun Divers pg. 60",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "outsider (elemental, extraplanar)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+5",
+  "immunities": "elemental immunities",
+  "speed": "20 ft.",
+  "melee": "tendril +7 (1d4+4 B)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Diplomacy +12, Mysticism +7, Sense Motive +12,",
+  "other_abilities": "living battery",
+  "environment": "any (Elemental Planes)",
+  "organization": "solitary, cloud (2–8), retinue (3–6 plus another creature with a matching elemental subtype), or symphony (5–20 plus one wysp conductor)",
+  "special_abilities": [
+    {
+      "name": "Living Battery (Ex)",
+      "description": "As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to regain a number of Hit Points equal to 3 times that creature’s CR. If the wysp does this, its death cannot be prevented, and it can be restored to life only by miracle or wish."
+    },
+    {
+      "name": "Resonance (Ex)",
+      "description": "The elemental energy of a wysp resonates with the bodies of creatures that share its elemental subtype. All such creatures within 30 feet gain a +1 morale bonus to damage rolls (or a +2 morale bonus if they also have the elemental subtype). The wysp is similarly affected, and this bonus is already included in its statistics."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nAir Wysp (Wysp) Graft Template\n-\nEarth Wysp (Wysp) Graft Template\n-\nFire Wysp (Wysp) Graft Template\n-\nWater Wysp (Wysp) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWysp\nSource\nStarfinder #15: Sun Divers pg. 60\nWysps are tiny, spherical creatures native to the Elemental Planes and among the oldest of outsiders. They were formed by mystical vibrations between the Elemental and Ethereal Planes, coalescing pure ethereal energy into the first of these sentient beings. These tiny creatures gathered into nomadic groups that wandered the Elemental Planes. They approached their lives with joy and wonder, marveling at the spectacular beauty and vast bounty of new experiences that their home had to offer. They were sensitive to the subtle interactions and resonances between sources of elemental energy and perceived these resonances as a musical expression of the nature of reality. The wysps most skilled at reading and manipulating this music, called wysp conductors, rapidly rose to positions of leadership within their communities. These conductors largely operated independently from one another but occasionally collaborated on projects of a particularly grand scale. Perhaps the greatest of all of these endeavors was what wysps refer to as the “song of creation”—a performance in which a large group of wysps harmonizes with an Elemental Plane to give birth to new members of their kind.\nAs their numbers grew, the largely peaceful and curious wysps drew the attention of the elemental lords, demigods who inhabit the Elemental Planes. The elemental lords saw great value in the wysps’ understanding of elemental resonances, and sought to turn it toward their own ends. To make the wysps into better minions, the elemental lords revised their song of creation, producing new generations of wysps with innate tendencies toward service and self-sacrifice. Over time, these generations lost some of their connection to the music of the universe. These new wysps became specialized, turning into air, earth, fire, and water wysps as they were each attuned to a single Elemental Plane. Despite all these changes, these modified wysps retained the cheerful and curious disposition of their ancestors.\nWhile most wysps lead lives dedicated to the service of other elemental beings, a few small groups of wysps have escaped the influence of the elemental lords and returned to lifestyles more akin to their ancestors. Led by wysp conductors who have regained their natural affinity for the music of creation, these bands of wysps rarely stay in one place for long. Free symphonies of wysps tend to be cautious around anyone they suspect may want to take away their independence, responding to potential dangers by fleeing across the planes rather than engaging in confrontation.\nAliens in the \"Wysp\" Family\nName\nCR\nWysp\n2\nWysp Conductor\n8\nWysp\nSource\nStarfinder #15: Sun Divers pg. 60\nWysp CR 2\nXP 600\nN Tiny outsider (elemental, extraplanar)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+7\nAura\nresonance (30 ft.)\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+1;\nRef\n+3;\nWill\n+5\nImmunities\nelemental immunities\nOffense\nSpeed\n20 ft.\nMelee\ntendril +7 (1d4+4 B)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+2\nSkills\nDiplomacy +12, Mysticism +7, Sense Motive +12,\r\n Stealth +12\nOther Abilities\nliving battery\nEcology\nEnvironment\nany (Elemental Planes)\nOrganization\nsolitary, cloud (2–8), retinue (3–6 plus another creature with a matching elemental subtype), or symphony (5–20 plus one wysp conductor)\nSpecial Abilities\nLiving Battery (Ex)\nAs an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to regain a number of Hit Points equal to 3 times that creature’s CR. If the wysp does this, its death cannot be prevented, and it can be restored to life only by miracle or wish.\nResonance (Ex)\nThe elemental energy of a wysp resonates with the bodies of creatures that share its elemental subtype. All such creatures within 30 feet gain a +1 morale bonus to damage rolls (or a +2 morale bonus if they also have the elemental subtype). The wysp is similarly affected, and this bonus is already included in its statistics.\nExtra Content\nThe following extra content was found for this creature:\n-\nAir Wysp (Wysp) Graft Template\n-\nEarth Wysp (Wysp) Graft Template\n-\nFire Wysp (Wysp) Graft Template\n-\nWater Wysp (Wysp) Graft Template",
+  "type": "outsider (elemental, extraplanar)",
+  "category": "alien"
+}

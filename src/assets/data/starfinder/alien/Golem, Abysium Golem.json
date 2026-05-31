@@ -1,0 +1,56 @@
+{
+  "name": "Golem, Abysium Golem",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Abysium Golem&Family=Golem",
+  "source": "Alien Archive 2 pg. 67",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical, technological)",
+  "init": "+4",
+  "senses": "darkvision 60ft., low-light vision;",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+9",
+  "dr": "10/—",
+  "immunities": "construct traits, electricity, magic",
+  "speed": "30 ft.",
+  "melee": "slam +26 (6d4+20 B; critical irradiate [DC 19])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "berserk, breath weapon (30-ft. cone, 13d6 F, DC 19, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "—",
+    "int": "—",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Intimidate +22",
+  "other_abilities": "comm, mindless, unliving",
+  "environment": "any",
+  "organization": "solitary or gang (2–4)",
+  "special_abilities": [
+    {
+      "name": "Berserk (Ex)",
+      "description": "When an abysium golem takes damage that reduces it to half its maximum Hit Points or fewer, it must attempt a DC 18 Will saving throw. While at or below half HP, it must also attempt a DC 18 Will saving throw whenever it takes additional damage. On a failure, the golem goes berserk. While berserk, the golem uses its actions to make a full attack or to move and attack. If it can’t reach a creature, it attacks objects. The golem can attempt a DC 18 Will save at the end of each of its turns to end the berserk state. If the golem’s creator communicates with the golem to calm it (via comm unit or from within 60 feet) and succeeds at a DC 10 Charisma check, the golem receives a +2 circumstance bonus to this saving throw."
+    },
+    {
+      "name": "Comm (Ex)",
+      "description": "A golem can receive wireless communications (and thus commands from its creator) at planetary range."
+    },
+    {
+      "name": "Magic Immunity (Ex)",
+      "description": "An abysium golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically lists constructs in its Targets entry. In addition, certain spells and effects function differently against the golem, as follows.\nIf targeted with\nremove radioactivity\n, the abysium golem is slowed (as the slow spell) for 3 rounds (no save), but if the caster also succeeds at a caster level check against the DC of the golem’s radioactive aura, the golem is also flat-footed and off-target for the same duration.\nThe\nirradiate\nspell ends any slow effect on the golem, and it regains a number of Hit Points depending on the radiation level (2d8 for low, 4d8 for medium, 6d8 for high, and 8d8 for severe). If the amount of healing would cause the golem to exceed its maximum Hit Points, it gains any excess as temporary Hit Points."
+    }
+  ],
+  "description": "These golems are crafted from abysium, the blue-green glowing starmetal also known as feverstone. They are dangerous not only for their strength and ferocity, but also because of the radiation they emit at all times. Some believe that abysium—and the golems made of it—are connected to the Abyss, the nightmarish home of all demonkind.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGolem\nSource\nAlien Archive 2 pg. 67\nThese automatons, created by powerful spellcasters, differ from most robots in that each has an elemental spirit bound within. Properly binding this spirit, which is usually from an earth elemental, is the most important part of creating a golem. As the spirit is only semiconscious, the golem exists in a mindless state and acts only to defend itself or to follow orders from its creator. In some golems, injury causes the elemental spirit to stir in its artificial shell. As it gains awareness, it rages at its imprisonment.\nAliens in the \"Golem\" Family\nName\nCR\nAbysium Golem\n12\nCybernetic Golem\n8\nJunk\n4\nNanotech Golem\n14\nNeutronium Golem\n6\nGolem, Abysium Golem\nSource\nStarfinder #29: The Cradle Infestation pg. 57\nAbysium Golem CR 12\nXP 19,200\nN Large construct (magical, technological)\nInit\n+4;\nSenses\ndarkvision 60ft., low-light vision;\nPerception\n+22\nAura\nradioactive (high, 10 ft., DC 22)\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+12;\nRef\n+12;\nWill\n+9\nDR\n10/—;\nImmunities\nconstruct traits, electricity, magic\nOffense\nSpeed\n30 ft.\nMelee\nslam +26 (6d4+20 B; critical irradiate [DC 19])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nberserk, breath weapon (30-ft. cone, 13d6 F, DC 19, usable every 1d4 rounds)\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n—;\nINT\n—;\nWIS\n+1;\nCHA\n-2\nSkills\nIntimidate +22\nOther Abilities\ncomm, mindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or gang (2–4)\nSpecial Abilities\nBerserk (Ex)\nWhen an abysium golem takes damage that reduces it to half its maximum Hit Points or fewer, it must attempt a DC 18 Will saving throw. While at or below half HP, it must also attempt a DC 18 Will saving throw whenever it takes additional damage. On a failure, the golem goes berserk. While berserk, the golem uses its actions to make a full attack or to move and attack. If it can’t reach a creature, it attacks objects. The golem can attempt a DC 18 Will save at the end of each of its turns to end the berserk state. If the golem’s creator communicates with the golem to calm it (via comm unit or from within 60 feet) and succeeds at a DC 10 Charisma check, the golem receives a +2 circumstance bonus to this saving throw.\nComm (Ex)\nA golem can receive wireless communications (and thus commands from its creator) at planetary range.\nMagic Immunity (Ex)\nAn abysium golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically lists constructs in its Targets entry. In addition, certain spells and effects function differently against the golem, as follows.\nIf targeted with\nremove radioactivity\n, the abysium golem is slowed (as the slow spell) for 3 rounds (no save), but if the caster also succeeds at a caster level check against the DC of the golem’s radioactive aura, the golem is also flat-footed and off-target for the same duration.\nThe\nirradiate\nspell ends any slow effect on the golem, and it regains a number of Hit Points depending on the radiation level (2d8 for low, 4d8 for medium, 6d8 for high, and 8d8 for severe). If the amount of healing would cause the golem to exceed its maximum Hit Points, it gains any excess as temporary Hit Points.\nDescription\nThese golems are crafted from abysium, the blue-green glowing starmetal also known as feverstone. They are dangerous not only for their strength and ferocity, but also because of the radiation they emit at all times. Some believe that abysium—and the golems made of it—are connected to the Abyss, the nightmarish home of all demonkind.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

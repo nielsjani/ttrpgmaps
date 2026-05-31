@@ -1,0 +1,57 @@
+{
+  "name": "The Swarm, Klendat",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Klendat&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "blindsense (vibration) 30 ft., blindsight (thought) 100 ft., darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+16",
+  "sr": "22",
+  "immunities": "acid, fear effects;",
+  "weaknesses": "vulnerable to critical hits",
+  "speed": "20 ft.",
+  "melee": "claw +20 (2d10+13 S; critical wound [DC 20])",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "psychic interrogation",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "1/day—\nectoplasmic eruption\n(DC 22),\nhold monster\n(DC 22)\n3/day—\nmental block\n(DC 21),\nmind thrust\n(3rd level, DC 21),\npsychokinetic strangulation\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\nmystic cure\n(2nd-level),\nspider climb"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+0",
+    "con": "+2",
+    "int": "+8",
+    "wis": "+5",
+    "cha": "+3"
+  },
+  "skills": "Computers +20, Engineering +25, Mysticism +25",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Psychic Interrogation (Su)",
+      "description": "As a standard action, a Swarm klendat can bore into the mind of a single target within 100 feet that it can sense with its blindsight. The target must succeed at a DC 20 Will save or be stunned for 1 round, take 4d10 damage, and the klendat gets the answer to one question of its choice from the target’s mind. Targets that successfully save still take 2d10 damage. This is a mind-affecting effect."
+    },
+    {
+      "name": "Vulnerable to Critical Hits (Ex)",
+      "description": "The klendat is mostly brain matter, and some attacks tear through its delicate neurons to deal especially severe wounds. When a creature hits a Swarm klendat with a critical hit, it deals an additional 50% damage (after the critical damage is calculated)."
+    }
+  ],
+  "description": "Few explorers have ever seen a Swarm klendat. Indeed, even those who successfully defend their worlds against the Swarm never come close to one. For a time, they were thought to be mere legend, but an intrepid crew of Starfinders managed to pierce the front line of a Swarm invasion to bring back evidence of their existence. The Veskarium has set a bounty for the live capture of such a creature, but no one has managed to claim the money.\nKlendats dwell at the center of massive Swarm bioships or deep underground in subterranean lairs dug into conquered planets. There, they coordinate information, lead subcolonies, and arrange logistics for the Swarm’s inevitable effort to devour the galaxy. When components are wounded and judged too valuable to waste, they’re brought to a klendat to be healed.\nA klendat is a squat Swarm component vaguely shaped like a beetle with a collection of scuttling legs tucked under its form. When it rises up on these appendages, a klendat can reach a height of 14 feet. Brain matter comprises most of a klendat’s carapace, which makes it uniquely vulnerable. Its wings are largely vestigial. However, the creature wields potent psychic powers, is highly resistant to magic, and can quite capably defend itself and the chamber from which it directs other Swarm components.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Klendat\nSource\nStarfinder #43: Icebound pg. 60\nKlendat CR 11\nXP 12,800\nCE Huge monstrous humanoid\nInit\n+0;\nSenses\nblindsense (vibration) 30 ft., blindsight (thought) 100 ft., darkvision 60 ft.;\nPerception\n+20\nDefense\nHP\n155\nEAC\n23;\nKAC\n24\nFort\n+10;\nRef\n+12;\nWill\n+16\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects;\nSR\n22\nWeaknesses\nvulnerable to critical hits\nOffense\nSpeed\n20 ft.\nMelee\nclaw +20 (2d10+13 S; critical wound [DC 20])\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\npsychic interrogation\nSpell-Like Abilities\n(CL 11th)\n1/day—\nectoplasmic eruption\n(DC 22),\nhold monster\n(DC 22)\n3/day—\nmental block\n(DC 21),\nmind thrust\n(3rd level, DC 21),\npsychokinetic strangulation\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\nmystic cure\n(2nd-level),\nspider climb\nStatistics\nSTR\n+2;\nDEX\n+0;\nCON\n+2;\nINT\n+8;\nWIS\n+5;\nCHA\n+3\nSkills\nComputers +20, Engineering +25, Mysticism +25\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nPsychic Interrogation (Su)\nAs a standard action, a Swarm klendat can bore into the mind of a single target within 100 feet that it can sense with its blindsight. The target must succeed at a DC 20 Will save or be stunned for 1 round, take 4d10 damage, and the klendat gets the answer to one question of its choice from the target’s mind. Targets that successfully save still take 2d10 damage. This is a mind-affecting effect.\nVulnerable to Critical Hits (Ex)\nThe klendat is mostly brain matter, and some attacks tear through its delicate neurons to deal especially severe wounds. When a creature hits a Swarm klendat with a critical hit, it deals an additional 50% damage (after the critical damage is calculated).\nDescription\nFew explorers have ever seen a Swarm klendat. Indeed, even those who successfully defend their worlds against the Swarm never come close to one. For a time, they were thought to be mere legend, but an intrepid crew of Starfinders managed to pierce the front line of a Swarm invasion to bring back evidence of their existence. The Veskarium has set a bounty for the live capture of such a creature, but no one has managed to claim the money.\nKlendats dwell at the center of massive Swarm bioships or deep underground in subterranean lairs dug into conquered planets. There, they coordinate information, lead subcolonies, and arrange logistics for the Swarm’s inevitable effort to devour the galaxy. When components are wounded and judged too valuable to waste, they’re brought to a klendat to be healed.\nA klendat is a squat Swarm component vaguely shaped like a beetle with a collection of scuttling legs tucked under its form. When it rises up on these appendages, a klendat can reach a height of 14 feet. Brain matter comprises most of a klendat’s carapace, which makes it uniquely vulnerable. Its wings are largely vestigial. However, the creature wields potent psychic powers, is highly resistant to magic, and can quite capably defend itself and the chamber from which it directs other Swarm components.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

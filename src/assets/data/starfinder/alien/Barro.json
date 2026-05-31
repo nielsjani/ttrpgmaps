@@ -1,0 +1,47 @@
+{
+  "name": "Barro",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Barro&Family=None",
+  "source": "Starfinder #38: Crash and Burn pg. 57",
+  "xp": "0",
+  "alignment": "N",
+  "size": "Diminutive",
+  "creature_type": "vermin Init +1; Senses blindsense (vibration) 30 ft., darkvision",
+  "init": "+1",
+  "senses": "blindsense (vibration) 30 ft., darkvision",
+  "perception": "+3",
+  "hp": "6",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+0",
+  "dr": "5/—",
+  "speed": "20 ft., burrow 5 ft., climb 20 ft.",
+  "melee": "bite +4 (1d6 P)",
+  "space": "1 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "scuttle",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+1",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +3, Athletics +3 (+11 to climb), Stealth +7",
+  "other_abilities": "mindless",
+  "environment": "any (urban)",
+  "organization": "infestation (6–20) or swarm (21–100)",
+  "special_abilities": [
+    {
+      "name": "Scuttle (Ex)",
+      "description": "As a full action, a barro can move up to twice its speed, passing through a single enemy’s square and making a melee attack against that enemy. When it does so, it attempts an Acrobatics check with a +8 racial bonus (DC = 20 + the CR or level of the enemy whose square it passes through). On a success, the targeted enemy can’t make an attack of opportunity against the barro."
+    }
+  ],
+  "description": "The nocturnal, wingless barros have six legs, two antennae, and two large compound eyes that protrude from their small heads. Barros are scavenging omnivores and can be found anywhere, but they favor dirty urban environments due to the abundance of food to scavenge and dark places to lay their eggs.\nThe presence of a single barro implies the existence of several, possibly even dozens, more lurking in walls and under floors. They can be hard to spot and harder to exterminate due to their tough exoskeletons and their preference to hide from larger creatures rather than attack them. However, under certain circumstances, barros have been known to attack in small groups or even to swarm. Such swarms can appear in devastated and abandoned urban areas, especially in places where food and bodies have been left to rot.\nFemale barros lay clutches of eggs in small, obscure spaces where the young can flourish in secret, such as cracks in a building’s foundation or a corner of a little-used cabinet; some barros might choose the toe of a boot in a closet or a hard-to-reach pouch. Eggs hatch in less than a day, and the young feast on any particles of nourishment they can find. They reach maturity after another day. Over the course of a barro’s short life span (no more than a year), females can lay six to eight clutches of eggs.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBarro\nSource\nStarfinder #38: Crash and Burn pg. 57\nBarro CR\nXP 0\nN Diminutive vermin Init +1; Senses blindsense (vibration) 30 ft., darkvision\nInit\n+1;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+3\nDefense\nHP\n6\nEAC\n10;\nKAC\n12\nFort\n+3;\nRef\n+1;\nWill\n+0\nDR\n5/—\nOffense\nSpeed\n20 ft., burrow 5 ft., climb 20 ft.\nMelee\nbite +4 (1d6 P)\nSpace\n1 ft.;\nReach\n0 ft.\nOffensive Abilities\nscuttle\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+1;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nAcrobatics +3, Athletics +3 (+11 to climb), Stealth +7\nOther Abilities\nmindless\nEcology\nEnvironment\nany (urban)\nOrganization\ninfestation (6–20) or swarm (21–100)\nSpecial Abilities\nScuttle (Ex)\nAs a full action, a barro can move up to twice its speed, passing through a single enemy’s square and making a melee attack against that enemy. When it does so, it attempts an Acrobatics check with a +8 racial bonus (DC = 20 + the CR or level of the enemy whose square it passes through). On a success, the targeted enemy can’t make an attack of opportunity against the barro.\nDescription\nThe nocturnal, wingless barros have six legs, two antennae, and two large compound eyes that protrude from their small heads. Barros are scavenging omnivores and can be found anywhere, but they favor dirty urban environments due to the abundance of food to scavenge and dark places to lay their eggs.\nThe presence of a single barro implies the existence of several, possibly even dozens, more lurking in walls and under floors. They can be hard to spot and harder to exterminate due to their tough exoskeletons and their preference to hide from larger creatures rather than attack them. However, under certain circumstances, barros have been known to attack in small groups or even to swarm. Such swarms can appear in devastated and abandoned urban areas, especially in places where food and bodies have been left to rot.\nFemale barros lay clutches of eggs in small, obscure spaces where the young can flourish in secret, such as cracks in a building’s foundation or a corner of a little-used cabinet; some barros might choose the toe of a boot in a closet or a hard-to-reach pouch. Eggs hatch in less than a day, and the young feast on any particles of nourishment they can find. They reach maturity after another day. Over the course of a barro’s short life span (no more than a year), females can lay six to eight clutches of eggs.",
+  "cr": "",
+  "type": "vermin Init +1; Senses blindsense (vibration) 30 ft., darkvision",
+  "category": "alien"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Religious Figures, Excommunicant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Excommunicant&Family=Religious Figures",
+  "source": "Interstellar Species pg. 174",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (ryphorian)",
+  "init": "+0",
+  "senses": "low-light vision;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+7",
+  "resistances": "fire 5",
+  "speed": "30 ft.",
+  "melee": "tactical baton +8 (1d4+5 B)",
+  "ranged": "tactical semi-auto pistol +10 (1d6+4 P)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Bluff +15, Computers +10, Diplomacy +15, Mysticism +10, Sense Motive +15",
+  "languages": "Common, Triaxian",
+  "other_abilities": "proselytize (DC 15)",
+  "gear": "casual stationwear, tactical baton, tactical semi-auto pistol (9 rounds), holy symbol",
+  "special_abilities": [
+    {
+      "name": "Proselytize (Ex)",
+      "description": "As a full action, an excommunicant can engage up to 20 creatures within 60 feet in vigorous debate. Each affected creature becomes fascinated (Will negates’ DC = 11 + the excommunicant’s CR) for as long as the excommunicant continues debating as a standard action each round, maximum 10 minutes. As a move action once per hour after debating a creature for at least 1 minute, an excommunicant can charm that creature for 1d4 hours, as\ncharm monster\n(Will negates). This ability’s save DCs increase by 3 for any creature whose patron deity is the same as that of the excommunicant. This is an auditory, language-dependent effect."
+    }
+  ],
+  "description": "Excommunicants once belonged to a religion, but their divergent beliefs led mainstream followers to cast them out. While many truly believe they’re following the will of their deities, others have cast their gods aside and work solely to cause trouble for their previous congregations.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReligious Figures\nSource\nInterstellar Species pg. 174\nReligious figures are typically individuals who rise in their faith’s ranks due to their unrivaled devotion and skill—or even due to the blessings bestowed upon them by their deity. Religious figures don’t just lead the devout; they often also steer nonreligious discourse. Depending on their congregation and ambitions, the leader might even overshadow the government of a city or planet. Although this arrangement might bring peace, it could as easily realize a terrible regime of divine tyranny or terror.\nAliens in the \"Religious Figures\" Family\nName\nCR\nChampion\n14\nDivine Avatar\n20\nExcommunicant\n4\nProphet\n8\nReligious Figures, Excommunicant\nSource\nInterstellar Species pg. 174\nExcommunicant CR 4\nXP 1,200\nSummerborn ryphorian\nN Medium humanoid (ryphorian)\nInit\n+0;\nSenses\nlow-light vision;\nPerception\n+10\nDefense\nHP\n45\nEAC\n16;\nKAC\n17\nFort\n+5;\nRef\n+3;\nWill\n+7\nResistances\nfire 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +8 (1d4+5 B)\nRanged\ntactical semi-auto pistol +10 (1d6+4 P)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+2;\nINT\n+1;\nWIS\n+2;\nCHA\n+5\nSkills\nBluff +15, Computers +10, Diplomacy +15, Mysticism +10, Sense Motive +15\nLanguages\nCommon, Triaxian\nOther Abilities\nproselytize (DC 15)\nGear\ncasual stationwear, tactical baton, tactical semi-auto pistol (9 rounds), holy symbol\nSpecial Abilities\nProselytize (Ex)\nAs a full action, an excommunicant can engage up to 20 creatures within 60 feet in vigorous debate. Each affected creature becomes fascinated (Will negates’ DC = 11 + the excommunicant’s CR) for as long as the excommunicant continues debating as a standard action each round, maximum 10 minutes. As a move action once per hour after debating a creature for at least 1 minute, an excommunicant can charm that creature for 1d4 hours, as\ncharm monster\n(Will negates). This ability’s save DCs increase by 3 for any creature whose patron deity is the same as that of the excommunicant. This is an auditory, language-dependent effect.\nDescription\nExcommunicants once belonged to a religion, but their divergent beliefs led mainstream followers to cast them out. While many truly believe they’re following the will of their deities, others have cast their gods aside and work solely to cause trouble for their previous congregations.",
+  "type": "humanoid (ryphorian)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Itmi Vruh, Reminiscent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Reminiscent&Family=Itmi Vruh",
+  "source": "Alien Archive 4 pg. 52",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+5",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "140",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+15",
+  "immunities": "undead immunities Weakness captivating memento",
+  "speed": "fly 40 ft. (Su, average)",
+  "melee": "touch +18 (1d10+13 C plus memory deluge [DC 19])",
+  "offensive_abilities": "memory deluge (DC 19), possess body (DC 19)",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "At will—\nmindlink\nMystic Spells Known\n(CL 10th) 4th (3/day)—confusion (DC 22), mind thrust (DC 22) 3rd (6/day)— slow (DC 21), suggestion (DC 21), synaptic pulse (DC 21), tongues\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\nslow\n(DC 21),\nsuggestion\n(DC 21),\nsynaptic pulse\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)"
+  },
+  "spells": "(CL 10th) 4th (3/day)—confusion (DC 22), mind thrust (DC 22) 3rd (6/day)— slow (DC 21), suggestion (DC 21), synaptic pulse (DC 21), tongues\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\nslow\n(DC 21),\nsuggestion\n(DC 21),\nsynaptic pulse\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "—",
+    "int": "+0",
+    "wis": "+8",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Disguise +19, Mysticism +24, Sense Motive +24, Stealth +19",
+  "languages": "Common",
+  "other_abilities": "drift attraction",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Captivating Memento(Su)",
+      "description": "Completely obsessed with their former life, an itmi vruh becomes fascinated with any object (or reasonable facsimile) that had a special meaning to them while alive, at the GM’s discretion. This fascination lasts as long as the itmi vruh can see the object or the fascination ends normally, whichever comes first, up to a maximum of 24 hours. Once the effect ends, the itmi vruh is immune to fascination by such objects for 24 hours."
+    },
+    {
+      "name": "Drift Attraction (Su)",
+      "description": "The energies that ripped the itmi vruh from their body hold a strange attraction to the creature, drawing them in like a moth to flame. If a ship exits the Drift into a solar system with an itmi vruh, the itmi vruh can fly toward the ship at incredible speeds, arriving at the ship in 2d20 hours."
+    },
+    {
+      "name": "Memory Deluge (Su)",
+      "description": "An itmi vruh is filled with longing for their old life and projects the few memories they still retain, overwhelming many who encounter them. A creature that touches or is hit by the itmi vruh must succeed at a Will saving throw or take 1d3 Wisdom damage."
+    },
+    {
+      "name": "Possess Body (Su)",
+      "description": "Once per day as a full action, an itmi vruh can attempt to possess the body of an adjacent living creature. The targeted creature must attempt a Will saving throw or be possessed; this functions as dominate person (caster level = the itmi vruh’s CR + its Charisma bonus). The itmi vruh does not need to know a common language to direct their victim. The itmi vruh is fully subsumed into the target’s body and can perform only mental actions, but they are immune to damage until they leave (either voluntarily, when forced out by magic, or when the host falls unconscious). Leaving a possessed creature voluntarily is a move action. A creature that successfully saves is immune to that same itmi vruh’s possess body ability for 24 hours. This is a mind-affecting compulsion effect."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nItmi Vruh Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nItmi Vruh\nSource\nAlien Archive 4 pg. 52\nTravel through space and the Drift is not without hazards. Even making the transition from normal space to the Drift presents a rare danger. When a Drift engine malfunctions, whether due to damage from combat, energy fluctuations, or influence from stellar phenomena, the starship can perform an incomplete jump: the starship and most of its crew arrive physically intact, but at some point in the transplanar leap, a creature’s soul is left behind. Such a lost soul is known as an itmi vruh. The trauma of being ripped from their body and left adrift in space compels this spirit to crave only one thing: a return to their corporeal form. Meanwhile, crew members who make the jump unscathed often find the corpse of their companion showing no signs of injury or illness. Thanks to the nature of the Drift and the utter trauma of the severance, jumping back to the point of departure is no help, and only those most familiar with the dangers of Drift travel ever guess at what might have happened.\nDoomed to wander, an itmi vruh sometimes encounters living creatures that remind the spirit of who they were during their life. In such circumstances, the undead finds themself compelled to take over the familiar creature in a futile effort to reclaim their old life. An itmi vruh’s possession slowly erodes the original soul’s control over of their body, eventually forcing them out completely. Many across the galaxy have heard stories describing how an itmi vruh’s possession became a permanent arrangement.\nUsually, though, an itmi vruh possessing another creature concludes that the body the undead now inhabits is not their own. The more similar that body and its associated life is to their own, the longer it takes the intruding spirit to realize this. Most possessions last somewhere between a few hours and a few days. While living in the new body, the itmi vruh behaves like they used to, going through the motions of eating, sleeping, and basic communication. In this fugue state, they often resemble a normal creature experiencing amnesia. Crew or family members trying to treat a loved one for amnesia can inadvertently speed up the itmi vruh’s realization that they are not inhabiting their own body. One telltale sign of an itmi vruh possession is that they can become frantic when a ship is about to travel into the Drift; this is a manifestation of the trauma they suffered when they lost their original body. Whenever an itmi vruh’s possession is ended, the creature flies into a furious rage, lashing out at the living.\nAn itmi vruh that has possessed numerous bodies can slowly grow stronger as they absorb some of the residual energy, memories, and sometimes even abilities of those they have possessed, eventually becoming a powerful itmi vruh reminiscent. These rarer undead often have a number of additional magical abilities garnered from their victims over time.\nAliens in the \"Itmi Vruh\" Family\nName\nCR\nItmi Vruh\n5\nReminiscent\n10\nItmi Vruh, Reminiscent\nSource\nAlien Archive 4 pg. 52\nReminiscent CR 10\nXP 9,600\nLE Medium undead (incorporeal)\nInit\n+5;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n140\nEAC\n22;\nKAC\n23\nFort\n+9;\nRef\n+9;\nWill\n+15\nDefensive Abilities\nincorporeal Immunities undead immunities Weakness captivating memento\nOffense\nSpeed\nfly 40 ft. (Su, average)\nMelee\ntouch +18 (1d10+13 C plus memory deluge [DC 19])\nOffensive Abilities\nmemory deluge (DC 19), possess body (DC 19)\nMystic Spell-Like Abilities\n(CL 10th)\nAt will—\nmindlink\nMystic Spells Known\n(CL 10th) 4th (3/day)—confusion (DC 22), mind thrust (DC 22) 3rd (6/day)— slow (DC 21), suggestion (DC 21), synaptic pulse (DC 21), tongues\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\nslow\n(DC 21),\nsuggestion\n(DC 21),\nsynaptic pulse\n(DC 21),\ntongues\n2nd (at will)—\nhold person\n(DC 20),\ninflict pain\n(DC 20)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n—;\nINT\n+0;\nWIS\n+8;\nCHA\n+0\nSkills\nAcrobatics +19, Disguise +19, Mysticism +24, Sense Motive +24, Stealth +19\nLanguages\nCommon\nOther Abilities\ndrift attraction\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nCaptivating Memento(Su)\nCompletely obsessed with their former life, an itmi vruh becomes fascinated with any object (or reasonable facsimile) that had a special meaning to them while alive, at the GM’s discretion. This fascination lasts as long as the itmi vruh can see the object or the fascination ends normally, whichever comes first, up to a maximum of 24 hours. Once the effect ends, the itmi vruh is immune to fascination by such objects for 24 hours.\nDrift Attraction (Su)\nThe energies that ripped the itmi vruh from their body hold a strange attraction to the creature, drawing them in like a moth to flame. If a ship exits the Drift into a solar system with an itmi vruh, the itmi vruh can fly toward the ship at incredible speeds, arriving at the ship in 2d20 hours.\nMemory Deluge (Su)\nAn itmi vruh is filled with longing for their old life and projects the few memories they still retain, overwhelming many who encounter them. A creature that touches or is hit by the itmi vruh must succeed at a Will saving throw or take 1d3 Wisdom damage.\nPossess Body (Su)\nOnce per day as a full action, an itmi vruh can attempt to possess the body of an adjacent living creature. The targeted creature must attempt a Will saving throw or be possessed; this functions as dominate person (caster level = the itmi vruh’s CR + its Charisma bonus). The itmi vruh does not need to know a common language to direct their victim. The itmi vruh is fully subsumed into the target’s body and can perform only mental actions, but they are immune to damage until they leave (either voluntarily, when forced out by magic, or when the host falls unconscious). Leaving a possessed creature voluntarily is a move action. A creature that successfully saves is immune to that same itmi vruh’s possess body ability for 24 hours. This is a mind-affecting compulsion effect.\nExtra Content\nThe following extra content was found for this creature:\n-\nItmi Vruh Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Itmi_Vruh_Reminiscent.png"
+}

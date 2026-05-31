@@ -1,0 +1,59 @@
+{
+  "name": "Riftstalker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Riftstalker&Family=None",
+  "source": "Drift Crisis pg. 160",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "outsider (chaotic, extraplanar)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "18",
+  "kac": "22",
+  "fort": "+7",
+  "ref": "+12",
+  "will": "+8",
+  "speed": "50 ft., rift walk",
+  "melee": "jaws +19 (3d4+12 plus warp flesh)",
+  "offensive_abilities": "planar breath (30-ft. cone, 8d8 damage [see below], Reflex DC 16 half, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+1",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +21, Stealth +16, Survival +16",
+  "environment": "any",
+  "organization": "solitary, pair, or eddy (3–6)",
+  "special_abilities": [
+    {
+      "name": "Breach Healing (Ex)",
+      "description": "A riftstalker gains fast healing 5 while in or within 100 feet of an area of planar instability. Any ability that suppresses an area’s or creature’s ability to move between planes, such as dimensional anchor, also suppresses this fast healing."
+    },
+    {
+      "name": "Out of Phase (Su)",
+      "description": "A riftstalker’s outline continually bends and shifts, giving attacks against it a 25% miss chance."
+    },
+    {
+      "name": "Planar Breath (Su)",
+      "description": "A riftstalker can expel a blast of energy that functions as a breath weapon, though each time the riftstalker uses this ability, its damage type is selected randomly from the following: acid, cold, electricity, fire, or sonic. At the GM’s discretion, a nearby planar instability might add other damage types to this list or cause certain damage types to occur more frequently."
+    },
+    {
+      "name": "Rift Walk (Ex)",
+      "description": "When created, a riftstalker gains one of the following movement types best suited to helping it navigate its home, at the GM’s discretion: burrow 20 feet, climb 50 feet, fly 50 feet (average), or swim 50 feet."
+    },
+    {
+      "name": "Warp Flesh (Su)",
+      "description": "A riftstalker destabilizes any creature it bites, causing the target to gain vulnerability to one of the following randomly determined damage types for 1d4 minutes: acid, cold, electricity, fire, sonic. Whether or not the save is successful, that creature is then immune to that riftstalker’s warp flesh ability for the next 24 hours."
+    }
+  ],
+  "description": "Although planes of existence are impossibly distant from each other, supernatural stresses can tear their metaphysical boundaries, creating planar breaches that connect the two realms. Not only can a planar breach draw creatures from another plane, but the energies sometimes coalesce into strange predators known as riftstalkers. These creatures instinctively patrol their unstable territory and stalk prey. This fuels a popular theory that riftstalkers aren’t independent creatures so much as extensions of their breach, like white blood cells maintaining the integrity of their home by destroying foreign bodies.\nAs a breach heals and closes, riftstalkers become increasingly aggravated and aggressive, desperately clinging to their ephemeral ecosystem. Under most circumstances, a sealed breach causes any riftstalkers to wither, sublimate, and die, unless they can find an equally vibrant home. Attempts to safely relocate these creatures—for study or to save them—are risky, because they often behave erratically and destructively when separated from their ephemeral homes. Riftstalkers’ features often aesthetically reflect the planes associated with the breach that created them. A breach to Hell might create a riftstalker with a menacing glow and fangs dripping with hellfire, while one from an Elysium breach might be covered in flowers and accompanied by beautiful music. Occasionally two planes’ influence combine to dazzling effect. Even when associated with breaches to aligned outer planes, riftstalkers are often chaotic beings.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRiftstalker\nSource\nDrift Crisis pg. 160\nRiftstalker CR 8\nXP 4,800\nCN Medium outsider (chaotic, extraplanar)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n18;\nKAC\n22\nFort\n+7;\nRef\n+12;\nWill\n+8\nDefensive Abilities\nout of phase, breach healing 5\nOffense\nSpeed\n50 ft., rift walk\nMelee\njaws +19 (3d4+12 plus warp flesh)\nOffensive Abilities\nplanar breath (30-ft. cone, 8d8 damage [see below], Reflex DC 16 half, usable every 1d4 rounds)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+1;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +21, Stealth +16, Survival +16\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or eddy (3–6)\nSpecial Abilities\nBreach Healing (Ex)\nA riftstalker gains fast healing 5 while in or within 100 feet of an area of planar instability. Any ability that suppresses an area’s or creature’s ability to move between planes, such as dimensional anchor, also suppresses this fast healing.\nOut of Phase (Su)\nA riftstalker’s outline continually bends and shifts, giving attacks against it a 25% miss chance.\nPlanar Breath (Su)\nA riftstalker can expel a blast of energy that functions as a breath weapon, though each time the riftstalker uses this ability, its damage type is selected randomly from the following: acid, cold, electricity, fire, or sonic. At the GM’s discretion, a nearby planar instability might add other damage types to this list or cause certain damage types to occur more frequently.\nRift Walk (Ex)\nWhen created, a riftstalker gains one of the following movement types best suited to helping it navigate its home, at the GM’s discretion: burrow 20 feet, climb 50 feet, fly 50 feet (average), or swim 50 feet.\nWarp Flesh (Su)\nA riftstalker destabilizes any creature it bites, causing the target to gain vulnerability to one of the following randomly determined damage types for 1d4 minutes: acid, cold, electricity, fire, sonic. Whether or not the save is successful, that creature is then immune to that riftstalker’s warp flesh ability for the next 24 hours.\nDescription\nAlthough planes of existence are impossibly distant from each other, supernatural stresses can tear their metaphysical boundaries, creating planar breaches that connect the two realms. Not only can a planar breach draw creatures from another plane, but the energies sometimes coalesce into strange predators known as riftstalkers. These creatures instinctively patrol their unstable territory and stalk prey. This fuels a popular theory that riftstalkers aren’t independent creatures so much as extensions of their breach, like white blood cells maintaining the integrity of their home by destroying foreign bodies.\nAs a breach heals and closes, riftstalkers become increasingly aggravated and aggressive, desperately clinging to their ephemeral ecosystem. Under most circumstances, a sealed breach causes any riftstalkers to wither, sublimate, and die, unless they can find an equally vibrant home. Attempts to safely relocate these creatures—for study or to save them—are risky, because they often behave erratically and destructively when separated from their ephemeral homes. Riftstalkers’ features often aesthetically reflect the planes associated with the breach that created them. A breach to Hell might create a riftstalker with a menacing glow and fangs dripping with hellfire, while one from an Elysium breach might be covered in flowers and accompanied by beautiful music. Occasionally two planes’ influence combine to dazzling effect. Even when associated with breaches to aligned outer planes, riftstalkers are often chaotic beings.",
+  "type": "outsider (chaotic, extraplanar)",
+  "category": "alien"
+}

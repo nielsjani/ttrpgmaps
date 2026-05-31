@@ -1,0 +1,36 @@
+{
+  "name": "Sagolath",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sagolath&Family=Starship",
+  "source": "Redshift Rally pg. 63",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "starship aberration",
+  "hp": "175",
+  "speed": "8;",
+  "other_abilities": "anchoring (DC 25), death throes, living starship, poisonous injection, pull prey, void adaptation",
+  "environment": "any gas giant or vacuum (Bretheda)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Anchoring (Ex)",
+      "description": "A sagolath’s hooked tentacles have the anchoring weapon special property. The DC to escape a sagolath’s hooked tentacles increases by 1 for each additional tentacle anchored to the target (up to a maximum DC of 28)."
+    },
+    {
+      "name": "Living Starship (Ex)",
+      "description": "A sagolath is so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can take engineer, gunner, pilot, and science officer actions (one of each, in the appropriate phase) using the bonuses, level, and ranks listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the following table to determine the effects when a sagolath takes critical damage.\nD%\nSystem\nEffect\n1–30\nTentacles\nRandomly determine one arc containing tentacles; condition applies to gunner actions using weapons in that arc. Additionally, the DC to escape from a sagolath’s anchored tentacles is reduced by 1 for 3 rounds.\n31–60\nHydrogen Propulsion\nCondition applies to all pilot actions.\n61–90\nMaw\nThe sagolath can’t use its maw for 3 rounds.\n91–100\nBrain\nDuring the next round, each of the sagolath’s attempted actions has a 25% chance of failure."
+    },
+    {
+      "name": "Poisonous Injection (Ex)",
+      "description": "A sagolath’s hooked tentacles inject a powerful poisonous gas into anything it strikes. If the sagolath deals Hull Point damage to an enemy ship, it releases this poison into the ship. At the end of the current gunnery phase, all creatures on the affected ship must attempt a DC 17 Fortitude saving throw or take a –2 penalty on all starship action skill checks during the following round. This is a poison effect."
+    },
+    {
+      "name": "Pull Prey (Ex)",
+      "description": "During the gunnery phase, a sagolath can pull a ship it has anchored with one of its hooked tentacles closer with a special gunnery action. The sagolath attempts a gunnery check against the anchored ship’s AC. On a success, the ship is dragged 1 hex closer to the sagolath."
+    }
+  ],
+  "description": "A sagolath is a massive aberration that lives deep within the atmosphere of a gas giant. It has a pulsating, ovular body, a forward-facing maw filled with threshing teeth, and a corona of grasping hooked tentacles capable of digging into starship hulls with ease. These tentacles inject a poisonous gas into the bloodstreams of larger prey or starship interiors, which weakens biological organisms. A sagolath propels itself by expelling biologically warmed hydrogen.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSagolath\nSource\nRedshift Rally pg. 63\nSagolath Tier 7\nNE Medium starship aberration\nSpeed\n8;\nManeuverability\ngood (turn 1);\nDrift\n—\nAC\n21;\nTL\n18\nHP\n175;\nDT\n—;\nCT\n35\nShields\nmedium 120 (forward 30, port 30, starboard 30, aft 30)\nAttack (Forward)\nmaw (6d8; 1 hex)\nAttack (Port)\nhooked tentacles (4d4; 5 hexes)\nAttack (Starboard)\nhooked tentacles (4d4; 5 hexes)\nAttack (Aft)\nhooked tentacles (4d4; 5 hexes)\nOther Abilities\nanchoring (DC 25), death throes, living starship, poisonous injection, pull prey, void adaptation\nCrew\nEngineer (1 actions)\nEngineering +14 (7 ranks)\nGunners (3 actions)\ngunnery +12 (7th level)\nPilot (1 action)\nPiloting +19 (7 ranks)\nScience Officer (1 action)\nComputers +14 (7 ranks)\nEcology\nEnvironment\nany gas giant or vacuum (Bretheda)\nOrganization\nsolitary\nSpecial Abilities\nAnchoring (Ex)\nA sagolath’s hooked tentacles have the anchoring weapon special property. The DC to escape a sagolath’s hooked tentacles increases by 1 for each additional tentacle anchored to the target (up to a maximum DC of 28).\nLiving Starship (Ex)\nA sagolath is so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can take engineer, gunner, pilot, and science officer actions (one of each, in the appropriate phase) using the bonuses, level, and ranks listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the following table to determine the effects when a sagolath takes critical damage.\nD%\nSystem\nEffect\n1–30\nTentacles\nRandomly determine one arc containing tentacles; condition applies to gunner actions using weapons in that arc. Additionally, the DC to escape from a sagolath’s anchored tentacles is reduced by 1 for 3 rounds.\n31–60\nHydrogen Propulsion\nCondition applies to all pilot actions.\n61–90\nMaw\nThe sagolath can’t use its maw for 3 rounds.\n91–100\nBrain\nDuring the next round, each of the sagolath’s attempted actions has a 25% chance of failure.\nPoisonous Injection (Ex)\nA sagolath’s hooked tentacles inject a powerful poisonous gas into anything it strikes. If the sagolath deals Hull Point damage to an enemy ship, it releases this poison into the ship. At the end of the current gunnery phase, all creatures on the affected ship must attempt a DC 17 Fortitude saving throw or take a –2 penalty on all starship action skill checks during the following round. This is a poison effect.\nPull Prey (Ex)\nDuring the gunnery phase, a sagolath can pull a ship it has anchored with one of its hooked tentacles closer with a special gunnery action. The sagolath attempts a gunnery check against the anchored ship’s AC. On a success, the ship is dragged 1 hex closer to the sagolath.\nDescription\nA sagolath is a massive aberration that lives deep within the atmosphere of a gas giant. It has a pulsating, ovular body, a forward-facing maw filled with threshing teeth, and a corona of grasping hooked tentacles capable of digging into starship hulls with ease. These tentacles inject a poisonous gas into the bloodstreams of larger prey or starship interiors, which weakens biological organisms. A sagolath propels itself by expelling biologically warmed hydrogen.",
+  "cr": "7",
+  "type": "starship aberration",
+  "category": "starship"
+}

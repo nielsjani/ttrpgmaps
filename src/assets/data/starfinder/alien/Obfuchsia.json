@@ -1,0 +1,51 @@
+{
+  "name": "Obfuchsia",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Obfuchsia&Family=None",
+  "source": "Starfinder #29: The Cradle Infestation pg. 59",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "plant",
+  "init": "+8",
+  "senses": "blindsight (vibration) 120 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "180",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+16",
+  "ref": "+14",
+  "will": "+11",
+  "immunities": "plant immunities",
+  "weaknesses": "vulnerable to fire",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "bite +22 (2d8+17 P plus 1d8 A) or tendril +25 (3d6+17 B plus grab)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tendril)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+4",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +22, Athletics +22 (+30 to climb), Stealth +27 (+37 when motionless)",
+  "other_abilities": "compression",
+  "environment": "any vacuum",
+  "organization": "solitary or sprouting (2–4)",
+  "special_abilities": [
+    {
+      "name": "Camouflage (Ex)",
+      "description": "An obfuchsia can alter the color and texture of its foliage to blend in with its environment. Whenever an obfuchsia remains motionless for 1 round, it gains a +10 bonus to Stealth checks (this bonus doesn’t stack with\ninvisibility\nor similar effects). If the obfuchsia moves more than 10 feet or takes a hostile action (such as attacking), it loses this bonus until it once again spends 1 round remaining still."
+    },
+    {
+      "name": "Silence (Ex)",
+      "description": "An obfuchsia vibrates thin membranes between its tendrils to cancel sound waves in an atmosphere, generating an aura of silence that lasts until the beginning of the obfuchsia’s next turn. Creatures within 10 feet, including the obfuchsia, are deafened (Fort DC 19). Sound-based sense-dependent effects, including blindsight (sound), cannot pass through the emanation. This aura of silence is not strong enough to stop sonic weapons, however, which function normally. If the obfuchsia can't take actions, its aura is suppressed."
+    }
+  ],
+  "description": "Suspected to be bioweapons engineered by an extinct species, obfuchsias are creatures with no motive beyond slaughter and replication. Each specimen is a mass of thin, writhing tendrils wrapped around a thorny, acid-dripping maw, all possessed of deadly cunning and a surprising capacity for stealth. By aligning light-deflecting microstructures on the feathery foliage that sprouts from its appendages, a stationary obfuchsia can make itself all but invisible against its surroundings. Further, the creature can counteract ambient sound waves by vibrating thin membranes between its tendrils, stifling the sounds of struggle as it tears into horrified victims. Without proper sensors, a crew can easily find itself at the mercy of this utterly remorseless hunter. Fortunately, obfuchsias emanate trace levels of radiation that, while harmless, are still detectable by radiation sweepers and similar devices.\nObfuchsias begin their lives as massive clouds of spores that float dormant in space. Radiation from the engines of passing starships awakens them, prompting them to attach to the ship’s hull and germinate. They grow quickly and, when fully developed, infiltrate the vessel through the tiniest entry, squeezing their malleable forms behind access panels and through ducts until they can pounce on prey. Once they have fed, obfuchsias again seek the void—where they explode into another spore cloud to spread further across the galaxy.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nObfuchsia\nSource\nStarfinder #29: The Cradle Infestation pg. 59\nObfuchsia CR 12\nXP 19,200\nCE Small plant\nInit\n+8;\nSenses\nblindsight (vibration) 120 ft., low-light vision;\nPerception\n+22\nAura\nsilence (10 ft., DC 19)\nDefense\nHP\n180\nEAC\n26;\nKAC\n28\nFort\n+16;\nRef\n+14;\nWill\n+11\nDefensive Abilities\ncamouflage, void adaptation;\nImmunities\nplant immunities\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\nbite +22 (2d8+17 P plus 1d8 A) or tendril +25 (3d6+17 B plus grab)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tendril)\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+3;\nINT\n+4;\nWIS\n+4;\nCHA\n-2\nSkills\nAcrobatics +22, Athletics +22 (+30 to climb), Stealth +27 (+37 when motionless)\nOther Abilities\ncompression\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary or sprouting (2–4)\nSpecial Abilities\nCamouflage (Ex)\nAn obfuchsia can alter the color and texture of its foliage to blend in with its environment. Whenever an obfuchsia remains motionless for 1 round, it gains a +10 bonus to Stealth checks (this bonus doesn’t stack with\ninvisibility\nor similar effects). If the obfuchsia moves more than 10 feet or takes a hostile action (such as attacking), it loses this bonus until it once again spends 1 round remaining still.\nSilence (Ex)\nAn obfuchsia vibrates thin membranes between its tendrils to cancel sound waves in an atmosphere, generating an aura of silence that lasts until the beginning of the obfuchsia’s next turn. Creatures within 10 feet, including the obfuchsia, are deafened (Fort DC 19). Sound-based sense-dependent effects, including blindsight (sound), cannot pass through the emanation. This aura of silence is not strong enough to stop sonic weapons, however, which function normally. If the obfuchsia can't take actions, its aura is suppressed.\nDescription\nSuspected to be bioweapons engineered by an extinct species, obfuchsias are creatures with no motive beyond slaughter and replication. Each specimen is a mass of thin, writhing tendrils wrapped around a thorny, acid-dripping maw, all possessed of deadly cunning and a surprising capacity for stealth. By aligning light-deflecting microstructures on the feathery foliage that sprouts from its appendages, a stationary obfuchsia can make itself all but invisible against its surroundings. Further, the creature can counteract ambient sound waves by vibrating thin membranes between its tendrils, stifling the sounds of struggle as it tears into horrified victims. Without proper sensors, a crew can easily find itself at the mercy of this utterly remorseless hunter. Fortunately, obfuchsias emanate trace levels of radiation that, while harmless, are still detectable by radiation sweepers and similar devices.\nObfuchsias begin their lives as massive clouds of spores that float dormant in space. Radiation from the engines of passing starships awakens them, prompting them to attach to the ship’s hull and germinate. They grow quickly and, when fully developed, infiltrate the vessel through the tiniest entry, squeezing their malleable forms behind access panels and through ducts until they can pounce on prey. Once they have fed, obfuchsias again seek the void—where they explode into another spore cloud to spread further across the galaxy.",
+  "type": "plant",
+  "category": "alien"
+}

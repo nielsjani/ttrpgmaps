@@ -1,0 +1,47 @@
+{
+  "name": "Scrawler",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Scrawler&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 59",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal (water)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+18",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+5",
+  "speed": "30 ft., climb 30 ft., swim 30 ft.",
+  "melee": "tailblade +16 (1d8+11 S plus burrowing barbs and paralytic mucus)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +13, Stealth +13, Survival +13",
+  "other_abilities": "amphibious, water breathing",
+  "environment": "aquatic (Weydana-5)",
+  "organization": "solitary, pair, or pack 3–8",
+  "special_abilities": [
+    {
+      "name": "Burrowing Barbs (Ex)",
+      "description": "When a scrawler hits a creature with its tailblade, the target must attempt a DC 14 Reflex save; on a failure, one or more barbs break off the scrawler’s tail and remain burrowed inside the target. The target takes 1d6 bleed damage; the bleeding condition can be ended according to the normal rules (Core Rulebook 273), but each round the target takes bleed damage, they must also succeed at a DC 14 Fortitude save or be paralyzed for 1 round; this is a poison effect."
+    },
+    {
+      "name": "Paralytic Mucus (Ex)",
+      "description": "Toxins coat the slick skin and tail barbs of a scrawler. If the scrawler hits a creature with its tailblade and inflicts damage, the target must succeed at a DC 14 Fortitude save or be paralyzed for 1d4 rounds. Creatures that hit the scrawler with an unarmed attack must also attempt this save, with the same result on a failure. This is a poison effect."
+    }
+  ],
+  "description": "Native to Weydana-5, scrawlers move in packs along the planet’s glass-like surface. Smooth, iridescent scales and an exoskeleton of pale, bony armor adorn their silver, gelatinous bodies. Bulbous eyes beneath their horns can see in every direction simultaneously, making the scrawler difficult to surprise, and a thick poisonous mucus that paralyzes living creatures covers their skin. This poison can also be found on the retractable spikes at the tip of the scrawler’s bulbous tail; these spikes act as hooks, detaching from the tail and remaining embedded in prey. Detached spikes grow back over several days.\nAdult scrawlers exceed three feet in height and are five feet long. Their sharp claws assist with climbing, and gills beneath the eyes allow them to comfortably breathe in heavy water for extended periods. Scrawlers typically hunt aquatic prey on Weydana-5 and make nests near local bodies of water. They have no teeth, scooping prey into their mouths with their prehensile tongues.\nScrawlers are pack animals. Offspring remain with their parents while they learn to hunt, and they continue to remain dependent on each other even as adults. They communicate using a series of panting breaths and primal screeches, and each pack develops its own unique alarms and signals.\nThe sophisticated communication pattern of scrawlers, along with their relatively high intelligence and pack lethality, makes these creatures candidates for bioweapon research. Unscrupulous corporations like EJ Corp have begun to explore transplanting scrawlers into other environments and training them for warfare.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScrawler\nSource\nStarfinder #44: Allies Against the Eye pg. 59\nScrawler CR 6\nXP 2,400\nN Medium animal (water)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+18\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+10;\nWill\n+5\nDefensive Abilities\nparalytic mucus\nOffense\nSpeed\n30 ft., climb 30 ft., swim 30 ft.\nMelee\ntailblade +16 (1d8+11 S plus burrowing barbs and paralytic mucus)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +13, Stealth +13, Survival +13\nOther Abilities\namphibious, water breathing\nEcology\nEnvironment\naquatic (Weydana-5)\nOrganization\nsolitary, pair, or pack 3–8\nSpecial Abilities\nBurrowing Barbs (Ex)\nWhen a scrawler hits a creature with its tailblade, the target must attempt a DC 14 Reflex save; on a failure, one or more barbs break off the scrawler’s tail and remain burrowed inside the target. The target takes 1d6 bleed damage; the bleeding condition can be ended according to the normal rules (Core Rulebook 273), but each round the target takes bleed damage, they must also succeed at a DC 14 Fortitude save or be paralyzed for 1 round; this is a poison effect.\nParalytic Mucus (Ex)\nToxins coat the slick skin and tail barbs of a scrawler. If the scrawler hits a creature with its tailblade and inflicts damage, the target must succeed at a DC 14 Fortitude save or be paralyzed for 1d4 rounds. Creatures that hit the scrawler with an unarmed attack must also attempt this save, with the same result on a failure. This is a poison effect.\nDescription\nNative to Weydana-5, scrawlers move in packs along the planet’s glass-like surface. Smooth, iridescent scales and an exoskeleton of pale, bony armor adorn their silver, gelatinous bodies. Bulbous eyes beneath their horns can see in every direction simultaneously, making the scrawler difficult to surprise, and a thick poisonous mucus that paralyzes living creatures covers their skin. This poison can also be found on the retractable spikes at the tip of the scrawler’s bulbous tail; these spikes act as hooks, detaching from the tail and remaining embedded in prey. Detached spikes grow back over several days.\nAdult scrawlers exceed three feet in height and are five feet long. Their sharp claws assist with climbing, and gills beneath the eyes allow them to comfortably breathe in heavy water for extended periods. Scrawlers typically hunt aquatic prey on Weydana-5 and make nests near local bodies of water. They have no teeth, scooping prey into their mouths with their prehensile tongues.\nScrawlers are pack animals. Offspring remain with their parents while they learn to hunt, and they continue to remain dependent on each other even as adults. They communicate using a series of panting breaths and primal screeches, and each pack develops its own unique alarms and signals.\nThe sophisticated communication pattern of scrawlers, along with their relatively high intelligence and pack lethality, makes these creatures candidates for bioweapon research. Unscrupulous corporations like EJ Corp have begun to explore transplanting scrawlers into other environments and training them for warfare.",
+  "type": "animal (water)",
+  "category": "alien"
+}

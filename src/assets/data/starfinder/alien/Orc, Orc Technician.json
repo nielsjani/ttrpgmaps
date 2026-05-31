@@ -1,0 +1,47 @@
+{
+  "name": "Orc, Orc Technician",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Orc Technician&Family=Orc",
+  "source": "Alien Archive 2 pg. 90",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "humanoid (orc)",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "12",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+3",
+  "ref": "+0",
+  "will": "+0",
+  "weaknesses": "light sensitivity",
+  "speed": "30 ft.",
+  "melee": "tactical baton +4 (1d4+1 B)",
+  "ranged": "azimuth laser pistol +3 (1d4 F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Computers +9, Engineering +9, Intimidate +4, Survival +9",
+  "languages": "Common, Drow, Orc",
+  "gear": "estex suit I, azimuth laser pistol with 1 battery (20 charges), tactical baton",
+  "environment": "any (Apostae)",
+  "organization": "solitary, pair, or team (3–6)",
+  "special_abilities": [
+    {
+      "name": "Light Sensitivity (Ex)",
+      "description": "An orc is dazzled as long as she remains in an area of bright light."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nOrc (Creature Subtype) Graft Template\n-\nOrc Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOrc\nSource\nAlien Archive 2 pg. 90\nOrcs are rare, although records suggest they were numerous on lost Golarion. Today, they can be found in greatest numbers on Apostae, where most are drow-held slaves. Over the ages, however, some orcs have gained freedom, creating formidable armed clans on Apostae and a few other worlds in the galaxy, though many free orcs of Apostae remain second-class citizens who still serve the drow as mercenaries, technicians, and laborers.\nFew people of the Pact Worlds have ever seen an orc up close, but most people know their reputation as brutal monsters. Even the free orcs on Apostae suffer from isolation and drow propaganda, remaining ignorant of wider possibilities. On average, orcs have difficulty with attention, memory, and impulse control. Drow care little for where these tendencies come from, but their centuries-long influence has changed the orcs from the brutes described in pre-Gap histories. The drow have socially engineered their orc chattel to make them useful servants. From an early age, capable orc youngsters have a duty to care for any orcs who require help to survive. Aged or feeble orcs are permitted to endure only to teach the young valuable skills while indoctrinating them with the appropriate regard for their betters. Drow overseers keep watch over these enclaves, with the aid of half-orcs and a few elder orcs rewarded for loyal service with the right to “retire” to teaching positions.\nWithin orc enclaves on Apostae, a specialized program of reward and punishment accompanies education and tempers orcs for the jobs they are expected to perform. For example, an orc anticipated to be a technician might be conditioned to respond well and even take pleasure in technical work, such that her skill seems abnormally good. A bodyguard could be habituated to extreme ferocity in defense of a ward, belied by an otherwise composed demeanor. When an orc becomes an adult, she moves on to serve the drow house to which she belongs in her trained capacity. There, her conditioned mind keeps her bound better than any chains could.\nThis social engineering took place for long enough that free orcs display a similar cultural structure. These orcs teach their young with analogous and comparably brutal methods of reward and punishment. The young and weak take on jobs that tougher orcs have the clout and muscle to refuse. Eventually, a young orc might join the ranks of the strong and earn the right to take on responsibilities that garner more prestige. She then sloughs off tasks she considers to be beneath her onto the shoulders of those she sees as lower than her in status.\nAn orc is ideally suited to her prescribed duties thanks to the extensive conditioning she receives. Her confidence in such areas is also high. An orc trained to scout the caves of Apostae, for instance, is likely to be a sharp climber and shrewd explorer. She also knows enough about the ilee (a lost race native to Apostae) to know when she has made an important discovery.\nThe social conditions in which most orcs exist often make it challenging for them to assimilate into other cultures. Orcs are gruff and terse, interacting with others only when necessary. An orc without a hierarchy to embrace or reject often struggles to find her position in a pecking order that might not exist.\nAn orc has large and imposing tusks that jut from her mouth, as well as pointed ears. Most orcs stand around 6 feet tall and weigh 200 pounds or more, with welldefined musculature.\nAliens in the \"Orc\" Family\nName\nCR\nOrc Technician\n1/2\nOrc Trooper\n5\nOrc, Orc Technician\nSource\nAlien Archive 2 pg. 90\nOrc Technician CR 1/2\nXP 200\nCE Medium humanoid (orc)\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+4\nDefense\nHP\n12\nEAC\n10;\nKAC\n11\nFort\n+3;\nRef\n+0;\nWill\n+0\nDefensive Abilities\nferocity\nWeaknesses\nlight sensitivity\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +4 (1d4+1 B)\nRanged\nazimuth laser pistol +3 (1d4 F; critical burn 1d4)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+3;\nINT\n+2;\nWIS\n+0;\nCHA\n-1\nSkills\nComputers +9, Engineering +9, Intimidate +4, Survival +9\nLanguages\nCommon, Drow, Orc\nGear\nestex suit I, azimuth laser pistol with 1 battery (20 charges), tactical baton\nEcology\nEnvironment\nany (Apostae)\nOrganization\nsolitary, pair, or team (3–6)\nSpecial Abilities\nLight Sensitivity (Ex)\nAn orc is dazzled as long as she remains in an area of bright light.\nExtra Content\nThe following extra content was found for this creature:\n-\nOrc (Creature Subtype) Graft Template\n-\nOrc Race Entry",
+  "type": "humanoid (orc)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Orc_Technician.png"
+}

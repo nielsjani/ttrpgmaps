@@ -1,0 +1,52 @@
+{
+  "name": "Kunnid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kunnid&Family=None",
+  "source": "Starfinder #26: Flight of the Sleepers pg. 56",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "72",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "speed": "50 ft., spider climb",
+  "melee": "gore +15 (1d6+10 P; critical bleed 1d4)",
+  "ranged": "magnetic beam +12 (1d8+5 B plus shift [DC 13])",
+  "offensive_abilities": "magnetic beam, relentless",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +11, Athletics +11, Survival +16 (+24 to orienteering)",
+  "environment": "any",
+  "organization": "solitary, pair, or migration (3–20)",
+  "special_abilities": [
+    {
+      "name": "Magnetic Beam (Su)",
+      "description": "As a ranged attack, a kunnid can emit a crushing magnetic beam with a range increment of 20 feet."
+    },
+    {
+      "name": "Relentless (Ex)",
+      "description": "A kunnid can charge without taking the normal penalties to its attack roll and AC and can charge through difficult terrain."
+    },
+    {
+      "name": "Shift (Su)",
+      "description": "If a kunnid hits with its magnetic beam attack, it deals normal damage. If the kunnid’s attack roll hits the target’s KAC + 4, the target must succeed at a DC 13 Fortitude save or be moved 5 feet in a direction of the kunnid’s choosing. This distance increases to 10 feet if the kunnid’s attack roll hits the target’s KAC + 13. The kunnid can’t move the target past an obstacle. If the target is wearing, wielding, or carrying any metallic objects (including starmetals), it takes a –4 penalty to its save."
+    }
+  ],
+  "description": "Rarely seen and frequently misunderstood, kunnids are nomadic creatures that wander planetoids across the galaxy in an inexorable journey toward areas where the planetoids’ external magnetic field is strongest. A kunnid has three legs with hooved feet, irregular hornlike growths protruding from its skull, and dozens of prehensile tendrils that dangle from its swollen body. The average kunnid stands 10 to 12 feet tall at the shoulder and weighs 1,200 pounds. Many other species on these worlds never glimpse a kunnid in the flesh; frequently, the only evidence of a kunnid’s presence is odd, cloven-hooved tracks marching in straight lines around settlements. Locals frequently attribute these tracks to cryptids and incorporate them into their superstitions.\nMany researchers believe that kunnids were created by another intelligent species as living tools for exploration. Others maintain that kunnids belong to an independent lost culture. Some even think that kunnids are the spirits of deceased explorers. With few hard facts about how or why they appear on a world, kunnids’ existence has fueled many conspiracy theories.\nWhen on a planet, kunnids travel relentlessly in straight lines toward magnetic north. They are generally peaceful creatures unless their journey is obstructed or confused by unnatural magnetic fields, at which point they lash out. Once at a world’s magnetic north pole, kunnids establish lairs and mate. However, this never seems to result in an increase in kunnid populations, as groups of kunnids often mysteriously disappear overnight.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKunnid\nSource\nStarfinder #26: Flight of the Sleepers pg. 56\nKunnid CR 5\nXP 1,600\nN Large magical beast\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n72\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nOffense\nSpeed\n50 ft., spider climb\nMelee\ngore +15 (1d6+10 P; critical bleed 1d4)\nRanged\nmagnetic beam +12 (1d8+5 B plus shift [DC 13])\nOffensive Abilities\nmagnetic beam, relentless\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +11, Athletics +11, Survival +16 (+24 to orienteering)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or migration (3–20)\nSpecial Abilities\nMagnetic Beam (Su)\nAs a ranged attack, a kunnid can emit a crushing magnetic beam with a range increment of 20 feet.\nRelentless (Ex)\nA kunnid can charge without taking the normal penalties to its attack roll and AC and can charge through difficult terrain.\nShift (Su)\nIf a kunnid hits with its magnetic beam attack, it deals normal damage. If the kunnid’s attack roll hits the target’s KAC + 4, the target must succeed at a DC 13 Fortitude save or be moved 5 feet in a direction of the kunnid’s choosing. This distance increases to 10 feet if the kunnid’s attack roll hits the target’s KAC + 13. The kunnid can’t move the target past an obstacle. If the target is wearing, wielding, or carrying any metallic objects (including starmetals), it takes a –4 penalty to its save.\nDescription\nRarely seen and frequently misunderstood, kunnids are nomadic creatures that wander planetoids across the galaxy in an inexorable journey toward areas where the planetoids’ external magnetic field is strongest. A kunnid has three legs with hooved feet, irregular hornlike growths protruding from its skull, and dozens of prehensile tendrils that dangle from its swollen body. The average kunnid stands 10 to 12 feet tall at the shoulder and weighs 1,200 pounds. Many other species on these worlds never glimpse a kunnid in the flesh; frequently, the only evidence of a kunnid’s presence is odd, cloven-hooved tracks marching in straight lines around settlements. Locals frequently attribute these tracks to cryptids and incorporate them into their superstitions.\nMany researchers believe that kunnids were created by another intelligent species as living tools for exploration. Others maintain that kunnids belong to an independent lost culture. Some even think that kunnids are the spirits of deceased explorers. With few hard facts about how or why they appear on a world, kunnids’ existence has fueled many conspiracy theories.\nWhen on a planet, kunnids travel relentlessly in straight lines toward magnetic north. They are generally peaceful creatures unless their journey is obstructed or confused by unnatural magnetic fields, at which point they lash out. Once at a world’s magnetic north pole, kunnids establish lairs and mate. However, this never seems to result in an increase in kunnid populations, as groups of kunnids often mysteriously disappear overnight.",
+  "type": "magical beast",
+  "category": "alien"
+}

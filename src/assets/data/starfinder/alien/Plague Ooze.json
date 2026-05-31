@@ -1,0 +1,60 @@
+{
+  "name": "Plague Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Plague Ooze&Family=None",
+  "source": "Starfinder #12: Heart of Night pg. 55",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "ooze",
+  "init": "+2",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+14",
+  "hp": "117",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+11",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "ooze immunities",
+  "weaknesses": "vulnerable to remove affliction",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "slam +17 (2d6+11 B plus ooze plague)",
+  "ranged": "plague spore +15 (2d8+7 B plus ooze plague)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "ooze plague, trample (2d6+11 B plus ooze plague, DC 15)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+5",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-4"
+  },
+  "other_abilities": "mindless",
+  "environment": "any (Aucturn)",
+  "organization": "solitary, pair, or epidemic (3–6)",
+  "special_abilities": [
+    {
+      "name": "Ooze Plague (Ex)",
+      "description": "Contact with a plague ooze can cause an affliction called ooze plague."
+    },
+    {
+      "name": "Plague Spore (Ex)",
+      "description": "A plague ooze can fling plague spores, which are bits of disease-ridden matter, with a range increment of 20 feet."
+    },
+    {
+      "name": "Sickening Cloud (Ex)",
+      "description": "A creature that fails the save against the aura becomes sickened for 1 round. A creature that remains sickened in this way for 2 consecutive rounds becomes fatigued."
+    },
+    {
+      "name": "Vulnerable to Remove Affliction (Ex)",
+      "description": "If a plague ooze is the target of a remove affliction spell, the ooze takes 7d10 damage and loses its ooze plague and plague spore abilities for 1d4+1 rounds. With a successful Fortitude saving throw, the ooze halves the damage and regains its abilities after only 1 round.\nOoze Plague\nType\ndisease (contact or injury);\nSave\nFortitude DC 15\nTrack\nmental and physical (special);\nFrequency\n1/day\nEffect\nA creature that has this disease, even in its latent state, is contagious and can transmit the ooze plague through contact with others; the victim takes all penalties from progressing on the physical and mental disease tracks; at the impaired state and beyond, penalties from the weakened state become permanent until the victim benefits from a remove affliction or restoration spell; death from this disease causes the corpse to transform into a plague ooze 24 hours later.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "A plague ooze is disease given predatory form. Such oozes live in the wilds of Aucturn, but rumor holds that cultists of Urgathoa created and released the first specimens. What these creators intended might never be understood, but they ensured the creatures’ propagation. Not only can plague oozes convert Aucturn’s fleshy substances into more of their kind, but they can also hunt other life forms to spread ooze plague. Without an immediate cure, victims without symptoms become carriers who, absent quarantine, infect others. Proliferation of plague oozes then continues as a ghastly epidemic, even long after the source ooze was destroyed. Because of this mode of procreation, plague oozes have been found on worlds far out into the Vast.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlague Ooze\nSource\nStarfinder #12: Heart of Night pg. 55\nPlague Ooze CR 7\nXP 3,200\nN Large ooze\nInit\n+2;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+14\nAura\nsickening cloud (20 ft., DC 15)\nDefense\nHP\n117\nEAC\n18;\nKAC\n20\nFort\n+11;\nRef\n+7;\nWill\n+4\nImmunities\nooze immunities\nWeaknesses\nvulnerable to remove affliction\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nslam +17 (2d6+11 B plus ooze plague)\nRanged\nplague spore +15 (2d8+7 B plus ooze plague)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nooze plague, trample (2d6+11 B plus ooze plague, DC 15)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+5;\nINT\n—;\nWIS\n+0;\nCHA\n-4\nOther Abilities\nmindless\nEcology\nEnvironment\nany (Aucturn)\nOrganization\nsolitary, pair, or epidemic (3–6)\nSpecial Abilities\nOoze Plague (Ex)\nContact with a plague ooze can cause an affliction called ooze plague.\nPlague Spore (Ex)\nA plague ooze can fling plague spores, which are bits of disease-ridden matter, with a range increment of 20 feet.\nSickening Cloud (Ex)\nA creature that fails the save against the aura becomes sickened for 1 round. A creature that remains sickened in this way for 2 consecutive rounds becomes fatigued.\nVulnerable to Remove Affliction (Ex)\nIf a plague ooze is the target of a remove affliction spell, the ooze takes 7d10 damage and loses its ooze plague and plague spore abilities for 1d4+1 rounds. With a successful Fortitude saving throw, the ooze halves the damage and regains its abilities after only 1 round.\nOoze Plague\nType\ndisease (contact or injury);\nSave\nFortitude DC 15\nTrack\nmental and physical (special);\nFrequency\n1/day\nEffect\nA creature that has this disease, even in its latent state, is contagious and can transmit the ooze plague through contact with others; the victim takes all penalties from progressing on the physical and mental disease tracks; at the impaired state and beyond, penalties from the weakened state become permanent until the victim benefits from a remove affliction or restoration spell; death from this disease causes the corpse to transform into a plague ooze 24 hours later.\nCure\n2 consecutive saves\nDescription\nA plague ooze is disease given predatory form. Such oozes live in the wilds of Aucturn, but rumor holds that cultists of Urgathoa created and released the first specimens. What these creators intended might never be understood, but they ensured the creatures’ propagation. Not only can plague oozes convert Aucturn’s fleshy substances into more of their kind, but they can also hunt other life forms to spread ooze plague. Without an immediate cure, victims without symptoms become carriers who, absent quarantine, infect others. Proliferation of plague oozes then continues as a ghastly epidemic, even long after the source ooze was destroyed. Because of this mode of procreation, plague oozes have been found on worlds far out into the Vast.",
+  "type": "ooze",
+  "category": "alien"
+}

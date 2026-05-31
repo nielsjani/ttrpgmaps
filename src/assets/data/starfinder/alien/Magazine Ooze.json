@@ -1,0 +1,59 @@
+{
+  "name": "Magazine Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Magazine Ooze&Family=None",
+  "source": "Starfinder #51: Into the Dataverse pg. 57",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "ooze",
+  "init": "+8",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+19",
+  "hp": "160",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+10",
+  "will": "+7",
+  "immunities": "ooze immunities",
+  "speed": "30 ft.",
+  "melee": "attach +22 or pseudopod +19 (2d10+15 B)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "alter grip, muzzle jam (DC 19), surprise attack (+22)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+3",
+    "int": "—",
+    "wis": "+2",
+    "cha": "-2"
+  },
+  "skills": "Stealth +24",
+  "other_abilities": "inhabit firearm",
+  "environment": "any",
+  "organization": "solitary or armory (3–5)",
+  "special_abilities": [
+    {
+      "name": "Alter Grip (Ex)",
+      "description": "As a reaction when a character attacks with the weapon that the magazine ooze is inhabiting, the magazine ooze can shift the aim of the weapon to change the target of the attack. The attack is made with a –4 penalty against the new target, and the attacking character must succeed at a DC 17 Reflex saving throw or drop the weapon. If the attacking character holds onto the weapon and was making multiple attacks that round, those additional attacks are made as normal."
+    },
+    {
+      "name": "Inhabit Firearm (Ex)",
+      "description": "As a standard action, a magazine ooze can distribute itself throughout a non-broken, unattended small arm, longarm, heavy weapon, or sniper weapon in its space that has an item level no higher than the ooze’s CR. While inhabiting a weapon, the magazine ooze has total cover and can take no actions except for the alter grip reaction, the surprise attack offensive ability, and leaving its inhabited firearm. It also uses the weapon’s or its own saving throw bonuses, whichever is higher. While the ooze inhabits a weapon, that weapon appears normal, but a character who succeeds at a Perception check opposed by the ooze’s Stealth check can detect traces of the ooze’s presence within the weapon. The ooze can leave the weapon as a move action but is forced out if the weapon gains the broken condition or if a character succeeds at a DC 30 Engineering check as a full action."
+    },
+    {
+      "name": "Muzzle Jam (Ex)",
+      "description": "As a full action, a magazine ooze can partially merge with a small arm, longarm, heavy weapon, or sniper weapon being carried or wielded by a creature to which the ooze is attached unless the creature succeeds at a DC 19 Reflex saving throw. Attacks made with an affected weapon take a –2 penalty to attack and damage rolls and can’t deal extra critical effects on a critical hit (but still deal double damage) until the end of the creature’s next turn. A creature can remove this condition before then with a successful DC 25 Engineering check as a standard action."
+    },
+    {
+      "name": "Surprise Attack (Ex)",
+      "description": "While inhabiting an unattended firearm, the magazine ooze can cause it to discharge as a standard action, attacking one creature within the weapon’s first range increment. The target is flat-footed against this attack, which is made with a +22 bonus and deals the weapon’s normal damage. The save DC for the weapon’s critical hit effect (if any) is 17."
+    }
+  ],
+  "description": "The first documented encounter with magazine oozes happened while a Veskarium military expedition collected weapons from fallen enemies. The soldiers survived the random bursts of fire from unattended weapons, and when they discovered the cause, they affectionately named the oozes “gun jams.” Further research suggests magazine oozes might have been created by an unknown civilization, who developed these devious living weapons to cause havoc among enemy military encampments. Whether or not these creators fell victim to their own inventions, however, remains a mystery.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMagazine Ooze\nSource\nStarfinder #51: Into the Dataverse pg. 57\nMagazine Ooze CR 10\nXP 9,600\nN Tiny ooze\nInit\n+8;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+19\nDefense\nHP\n160\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+10;\nWill\n+7\nImmunities\nooze immunities\nOffense\nSpeed\n30 ft.\nMelee\nattach +22 or pseudopod +19 (2d10+15 B)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nOffensive Abilities\nalter grip, muzzle jam (DC 19), surprise attack (+22)\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+3;\nINT\n—;\nWIS\n+2;\nCHA\n-2\nSkills\nStealth +24\nOther Abilities\ninhabit firearm\nEcology\nEnvironment\nany\nOrganization\nsolitary or armory (3–5)\nSpecial Abilities\nAlter Grip (Ex)\nAs a reaction when a character attacks with the weapon that the magazine ooze is inhabiting, the magazine ooze can shift the aim of the weapon to change the target of the attack. The attack is made with a –4 penalty against the new target, and the attacking character must succeed at a DC 17 Reflex saving throw or drop the weapon. If the attacking character holds onto the weapon and was making multiple attacks that round, those additional attacks are made as normal.\nInhabit Firearm (Ex)\nAs a standard action, a magazine ooze can distribute itself throughout a non-broken, unattended small arm, longarm, heavy weapon, or sniper weapon in its space that has an item level no higher than the ooze’s CR. While inhabiting a weapon, the magazine ooze has total cover and can take no actions except for the alter grip reaction, the surprise attack offensive ability, and leaving its inhabited firearm. It also uses the weapon’s or its own saving throw bonuses, whichever is higher. While the ooze inhabits a weapon, that weapon appears normal, but a character who succeeds at a Perception check opposed by the ooze’s Stealth check can detect traces of the ooze’s presence within the weapon. The ooze can leave the weapon as a move action but is forced out if the weapon gains the broken condition or if a character succeeds at a DC 30 Engineering check as a full action.\nMuzzle Jam (Ex)\nAs a full action, a magazine ooze can partially merge with a small arm, longarm, heavy weapon, or sniper weapon being carried or wielded by a creature to which the ooze is attached unless the creature succeeds at a DC 19 Reflex saving throw. Attacks made with an affected weapon take a –2 penalty to attack and damage rolls and can’t deal extra critical effects on a critical hit (but still deal double damage) until the end of the creature’s next turn. A creature can remove this condition before then with a successful DC 25 Engineering check as a standard action.\nSurprise Attack (Ex)\nWhile inhabiting an unattended firearm, the magazine ooze can cause it to discharge as a standard action, attacking one creature within the weapon’s first range increment. The target is flat-footed against this attack, which is made with a +22 bonus and deals the weapon’s normal damage. The save DC for the weapon’s critical hit effect (if any) is 17.\nDescription\nThe first documented encounter with magazine oozes happened while a Veskarium military expedition collected weapons from fallen enemies. The soldiers survived the random bursts of fire from unattended weapons, and when they discovered the cause, they affectionately named the oozes “gun jams.” Further research suggests magazine oozes might have been created by an unknown civilization, who developed these devious living weapons to cause havoc among enemy military encampments. Whether or not these creators fell victim to their own inventions, however, remains a mystery.",
+  "type": "ooze",
+  "category": "alien"
+}

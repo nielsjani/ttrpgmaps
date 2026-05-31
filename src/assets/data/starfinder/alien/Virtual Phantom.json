@@ -1,0 +1,60 @@
+{
+  "name": "Virtual Phantom",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Virtual Phantom&Family=None",
+  "source": "Starfinder #24: The God-Host Ascends pg. 60",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "construct (incorporeal, magical)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "185",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+13",
+  "dr": "10/—",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerability to positive energy",
+  "speed": "fly 30 ft. (Su, average)",
+  "melee": "shocking touch +22 (2d12+12 E)",
+  "ranged": "electrical surge +24 (2d8+12 E; critical arc 2d6)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "—",
+    "int": "+8",
+    "wis": "+3",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +27, Bluff +22, Computers +27, Engineering +27, Intimidate +22, Piloting +22",
+  "languages": "Akitonian, Castrovelian, Common, Eoxian, Kasatha, Shirren, Triaxian, Vercite, Ysoki; telepathy 100 ft.",
+  "other_abilities": "possess computer (DC 37), unliving",
+  "environment": "any urban",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Code Form (Su)",
+      "description": "When a virtual phantom is reduced to 0 Hit Points, it discorporates into a stream of perceptible computer code and attempts to escape to the last computer it possessed. If it doesn’t reach its destination within 1 hour, the virtual phantom is completely destroyed. Additional damage dealt to a virtual phantom in this form has no effect, but neither does its fast healing take effect. Once it reaches the computer, the virtual phantom begins healing again. A signal jammer with a level equal to or greater than the virtual phantom’s CR prevents the creature from moving while in code form."
+    },
+    {
+      "name": "Electrical Surge (Su)",
+      "description": "As a ranged attack, a virtual phantom can emit an electrical surge with a range of 60 feet."
+    },
+    {
+      "name": "Possess Computer (Su)",
+      "description": "As a full action, a virtual phantom can merge with a computer it touches, granting it complete control over anything that computer governs. The virtual phantom is fully subsumed into the computer and can use or manipulate any of the programs and information on the machine. If the computer is on a starship involved in starship combat, the virtual phantom can act in place of a single crew member each round. A virtual phantom can deliver its shocking touch attack through the display or input device connected to a computer it is possessing. A virtual phantom can voluntarily leave a possessed computer as another full action, or a creature can force it out with a successful Computers check (DC = 10 + the virtual phantom’s total Computers bonus) as a full action; in either case, the virtual phantom manifests in a square adjacent to the computer."
+    },
+    {
+      "name": "Vulnerability to Positive Energy (Su)",
+      "description": "In addition to taking half again as much damage when it takes positive energy damage, a virtual phantom is affected by effects that bypass the DR and energy resistance of undead creatures, such as weapons with the disruptive fusion."
+    }
+  ],
+  "description": "When an artificial personality is subjected to wild arcane energy, its code is sometimes corrupted to create a malevolent construct known as a virtual phantom.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVirtual Phantom\nSource\nStarfinder #24: The God-Host Ascends pg. 60\nVirtual Phantom CR 12\nXP 19,200\nCE Medium construct (incorporeal, magical)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n185\nEAC\n26;\nKAC\n27\nFort\n+9;\nRef\n+9;\nWill\n+13\nDefensive Abilities\ncode form, fast healing 5, incorporeal;\nDR\n10/—;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerability to positive energy\nOffense\nSpeed\nfly 30 ft. (Su, average)\nMelee\nshocking touch +22 (2d12+12 E)\nRanged\nelectrical surge +24 (2d8+12 E; critical arc 2d6)\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n—;\nINT\n+8;\nWIS\n+3;\nCHA\n+4\nSkills\nAcrobatics +27, Bluff +22, Computers +27, Engineering +27, Intimidate +22, Piloting +22\nLanguages\nAkitonian, Castrovelian, Common, Eoxian, Kasatha, Shirren, Triaxian, Vercite, Ysoki; telepathy 100 ft.\nOther Abilities\npossess computer (DC 37), unliving\nEcology\nEnvironment\nany urban\nOrganization\nsolitary\nSpecial Abilities\nCode Form (Su)\nWhen a virtual phantom is reduced to 0 Hit Points, it discorporates into a stream of perceptible computer code and attempts to escape to the last computer it possessed. If it doesn’t reach its destination within 1 hour, the virtual phantom is completely destroyed. Additional damage dealt to a virtual phantom in this form has no effect, but neither does its fast healing take effect. Once it reaches the computer, the virtual phantom begins healing again. A signal jammer with a level equal to or greater than the virtual phantom’s CR prevents the creature from moving while in code form.\nElectrical Surge (Su)\nAs a ranged attack, a virtual phantom can emit an electrical surge with a range of 60 feet.\nPossess Computer (Su)\nAs a full action, a virtual phantom can merge with a computer it touches, granting it complete control over anything that computer governs. The virtual phantom is fully subsumed into the computer and can use or manipulate any of the programs and information on the machine. If the computer is on a starship involved in starship combat, the virtual phantom can act in place of a single crew member each round. A virtual phantom can deliver its shocking touch attack through the display or input device connected to a computer it is possessing. A virtual phantom can voluntarily leave a possessed computer as another full action, or a creature can force it out with a successful Computers check (DC = 10 + the virtual phantom’s total Computers bonus) as a full action; in either case, the virtual phantom manifests in a square adjacent to the computer.\nVulnerability to Positive Energy (Su)\nIn addition to taking half again as much damage when it takes positive energy damage, a virtual phantom is affected by effects that bypass the DR and energy resistance of undead creatures, such as weapons with the disruptive fusion.\nDescription\nWhen an artificial personality is subjected to wild arcane energy, its code is sometimes corrupted to create a malevolent construct known as a virtual phantom.",
+  "type": "construct (incorporeal, magical)",
+  "category": "alien"
+}

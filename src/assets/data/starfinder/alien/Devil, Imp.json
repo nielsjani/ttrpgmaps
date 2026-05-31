@@ -1,0 +1,54 @@
+{
+  "name": "Devil, Imp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Imp&Family=Devil",
+  "source": "Starfinder #13: Fire Starters pg. 56",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LE",
+  "size": "Tiny",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., detect magic, see in darkness;",
+  "perception": "+7",
+  "hp": "18",
+  "eac": "12",
+  "kac": "13",
+  "fort": "+1",
+  "ref": "+5",
+  "will": "+3",
+  "dr": "5/good or silver",
+  "immunities": "fire, poison;",
+  "resistances": "acid 10, cold 10",
+  "speed": "20 ft., fly 50 ft. (Ex, perfect)",
+  "melee": "sting +6 (1d4+2 P plus imp poison)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 2nd",
+    "spells": "1/week—\ncontact other plane\n(devils only)\n1/day—\naugury\n,\nsuggestion\n(DC 17)\nAt will—\ninvisibility\n(self only)\nConstant—\ndetect magic"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +7 (+15 to fly), Bluff +12, Mysticism +7",
+  "languages": "Common, Infernal; limited telepathy 30 ft.",
+  "other_abilities": "change shape (animal)",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or murder (3–10)",
+  "special_abilities": [
+    {
+      "name": "Change Shape (Su)",
+      "description": "An imp can assume the appearance of a Tiny beast, such as a rat, raven, or spider. From this form, in addition to normal benefits of this ability, the imp can gain a climb speed of up to 30 feet. While in its new form, the imp can have a different sort of natural attack. Damage from that attack might be of another kinetic type but retains the dice and poison of the imp’s sting.\nImp Poison\nType poison (injury);\nSave Fortitude DC 13\nTrack Dexterity;\nFrequency 1/round for 6 rounds\nCure 1 save"
+    }
+  ],
+  "description": "Imps are among the lowest-ranked of the fiends of Hell. However, they serve an important role in corrupting mortals. Easy to summon to the Material Plane, imps willingly form bonds with spellcasters who call them. While on the Material Plane, an imp influences anyone it can to perform diabolical deeds. If serving a mortal master, the imp plays the part of a loyal servant, offering advice, infernal foresight, and even mystic tutelage. The imp’s true goal, however, is the delivery of as many souls as possible into damnation.\nAn imp is also the devil most likely to be found freely roaming the Material Plane. Without help, an imp has no means of returning to Hell. Therefore, a masterless imp remains and continues its Hell-bound duties. The creature insinuates itself into a new situation, either with a different master or a group of wicked mortals. Among weaker creatures, an imp might rise to a leadership role. But such a fiend is more likely to be a dark influence on a stronger leader. In this way, the imp can direct a group toward depravity but take no blame for any failings.\nAn imp is about 2 feet tall and weighs nearly 13 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Imp\nSource\nStarfinder #13: Fire Starters pg. 56\nImp CR 2\nXP 600\nLE Tiny outsider (devil, evil, extraplanar, lawful)\nInit\n+4;\nSenses\ndarkvision 60 ft., detect magic, see in darkness;\nPerception\n+7\nDefense\nHP\n18\nEAC\n12;\nKAC\n13\nFort\n+1;\nRef\n+5;\nWill\n+3\nDefensive Abilities\nfast healing 2;\nDR\n5/good or silver;\nImmunities\nfire, poison;\nResistances\nacid 10, cold 10\nOffense\nSpeed\n20 ft., fly 50 ft. (Ex, perfect)\nMelee\nsting +6 (1d4+2 P plus imp poison)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nSpell-Like Abilities\n(CL 2nd)\n1/week—\ncontact other plane\n(devils only)\n1/day—\naugury\n,\nsuggestion\n(DC 17)\nAt will—\ninvisibility\n(self only)\nConstant—\ndetect magic\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n+1;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +7 (+15 to fly), Bluff +12, Mysticism +7\nLanguages\nCommon, Infernal; limited telepathy 30 ft.\nOther Abilities\nchange shape (animal)\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or murder (3–10)\nSpecial Abilities\nChange Shape (Su)\nAn imp can assume the appearance of a Tiny beast, such as a rat, raven, or spider. From this form, in addition to normal benefits of this ability, the imp can gain a climb speed of up to 30 feet. While in its new form, the imp can have a different sort of natural attack. Damage from that attack might be of another kinetic type but retains the dice and poison of the imp’s sting.\nImp Poison\nType poison (injury);\nSave Fortitude DC 13\nTrack Dexterity;\nFrequency 1/round for 6 rounds\nCure 1 save\nDescription\nImps are among the lowest-ranked of the fiends of Hell. However, they serve an important role in corrupting mortals. Easy to summon to the Material Plane, imps willingly form bonds with spellcasters who call them. While on the Material Plane, an imp influences anyone it can to perform diabolical deeds. If serving a mortal master, the imp plays the part of a loyal servant, offering advice, infernal foresight, and even mystic tutelage. The imp’s true goal, however, is the delivery of as many souls as possible into damnation.\nAn imp is also the devil most likely to be found freely roaming the Material Plane. Without help, an imp has no means of returning to Hell. Therefore, a masterless imp remains and continues its Hell-bound duties. The creature insinuates itself into a new situation, either with a different master or a group of wicked mortals. Among weaker creatures, an imp might rise to a leadership role. But such a fiend is more likely to be a dark influence on a stronger leader. In this way, the imp can direct a group toward depravity but take no blame for any failings.\nAn imp is about 2 feet tall and weighs nearly 13 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

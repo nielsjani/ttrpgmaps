@@ -1,0 +1,51 @@
+{
+  "name": "Shotalashu",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shotalashu&Family=Shotalashu",
+  "source": "Alien Archive 2 pg. 114",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+12",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "speed": "60 ft.",
+  "melee": "claws +11 (1d6+3 S)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +7, Perception +12, Stealth +7",
+  "languages": "Lashunta (can’t speak)",
+  "other_abilities": "jungle strider, telepathic link",
+  "gear": "As technology has advanced, telepathic bonding with shotalashus has become possible for those who aren’t lashunta. The lashuntas have also maintained traditional gear for shotalashu riding: the",
+  "environment": "warm forests (Castrovel)",
+  "organization": "solitary, bonded mount (1 plus 1 lashunta), or pack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Jungle Strider (Ex)",
+      "description": "Shotalashus are adept at traversing all forms of forest terrain. While in forest terrain, a shotalashu’s speed is not impeded by natural difficult terrain such as undergrowth."
+    },
+    {
+      "name": "Telepathic Link (Su)",
+      "description": "A lashunta can spend 1 hour and attempt a Survival check (DC 15 + 1-1/2 the shotalashu’s CR) to form a telepathic bond with an unbound shotalashu. If the lashunta is successful, the rider’s link functions as\ntelepathic bond\nwith a permanent duration. A bonded shotalashu is considered trained in battle when carrying or fighting alongside the bonded lashunta. A lashunta can’t be linked to more than one shotalashu at a time, but she can break her link with one shotalashu in favor of another at any time. If either of the linked beings dies while bonded, the surviving creature suffers telepathic backlash, becoming dazed for 1 round and taking 3d6 damage. Creatures that have limited telepathy or telepathy other than lashuntas and that speak a common language with a shotalashu can also attempt to forge this telepathic bond, but they take a –5 penalty to their Survival checks to do so."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShotalashu\nSource\nAlien Archive 2 pg. 114\nFor as long as lashuntas have been among the dominant species on Castrovel, shotalashus—the lashuntas’ traditional telepathic reptilian mounts—have served at their sides. Millennia of domestication and parallel evolution have strengthened the symbiotic bond between the two species, allowing lashuntas to form a close mental link with a chosen mount.\nShotalashus have rudimentary telepathic abilities similar to those of the lashuntas themselves, a fact that has contributed to their use as close pets and trusted mounts even in the modern day, when much more sophisticated and technologically advanced forms of both transportation and companionship exist. This tradition has lasted so long in part because of the kinship the lashuntas feel with their bonded shotalashus, but also because the symbiotic bond between the two species is deeply ingrained into lashunta culture. Shotalashu-mounted cavalry still serve as ceremonial honor guards for lashunta dignitaries, and members of all social stations regard their bonded mounts as occupying a cherished place in the family. Though shotalashus are seen less often in teeming metropolises than they are in smaller settlements, no city on Castrovel is devoid of at least basic amenities for the honored beasts, from training facilities to boarding services.\nWhile it’s common for a lashunta to switch between shotalashus throughout her life, some bonds between beast and rider deepen over time, and it is not unheard of for a warrior to bond with a single shotalashu mount until death. Lashunta whose mounts die suffer psychic trauma and often require time to recover before they can bond with another mount, and shotalashus who lose their bonded riders have been known to grieve for months, or even years.\nThough rare, some shotalashus still live in the wild, forming feral packs that use their telepathy to bond not with a rider, but with one another, forming a highly effective collective mind that makes them efficient and deadly hunters. Particularly adventurous lashuntas set out on solo quests into the most remote of Castrovel’s wilds in search of a potentially stronger mount from among untamed stock. These brave souls must first break an individual shotalashu away from its pack before attempting the long and arduous task of taming and eventually bonding with the creature.\nA typical domesticated shotalashu is over 10 feet long from snout to tail-tip, and weighs more than 1,000 pounds, while wild specimens can grow as large as 12 feet in length and weigh a staggering 1,500 pounds.\nShotalashu Equipment\nAs technology has advanced, telepathic bonding with shotalashus has become possible for those who aren’t lashunta. The lashuntas have also maintained traditional gear for shotalashu riding: the\nshotalashu link cortex\nand the\nshotalashu saddle\n.\nAliens in the \"Shotalashu\" Family\nName\nCR\nFeral Shotalashu\n6\nShotalashu\n2\nShotalashu\nSource\nAlien Archive 2 pg. 114\nShotalashu CR 2\nXP 600\nN Large magical beast\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+12\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+6;\nWill\n+1\nOffense\nSpeed\n60 ft.\nMelee\nclaws +11 (1d6+3 S)\nSpace\n10 ft.;\nReach\n5 ft.\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+2;\nINT\n-3;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +7, Perception +12, Stealth +7\nLanguages\nLashunta (can’t speak)\nOther Abilities\njungle strider, telepathic link\nEcology\nEnvironment\nwarm forests (Castrovel)\nOrganization\nsolitary, bonded mount (1 plus 1 lashunta), or pack (3–5)\nSpecial Abilities\nJungle Strider (Ex)\nShotalashus are adept at traversing all forms of forest terrain. While in forest terrain, a shotalashu’s speed is not impeded by natural difficult terrain such as undergrowth.\nTelepathic Link (Su)\nA lashunta can spend 1 hour and attempt a Survival check (DC 15 + 1-1/2 the shotalashu’s CR) to form a telepathic bond with an unbound shotalashu. If the lashunta is successful, the rider’s link functions as\ntelepathic bond\nwith a permanent duration. A bonded shotalashu is considered trained in battle when carrying or fighting alongside the bonded lashunta. A lashunta can’t be linked to more than one shotalashu at a time, but she can break her link with one shotalashu in favor of another at any time. If either of the linked beings dies while bonded, the surviving creature suffers telepathic backlash, becoming dazed for 1 round and taking 3d6 damage. Creatures that have limited telepathy or telepathy other than lashuntas and that speak a common language with a shotalashu can also attempt to forge this telepathic bond, but they take a –5 penalty to their Survival checks to do so.",
+  "type": "magical beast",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Shotalasu.png"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Void Palm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Void Palm&Family=None",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 60",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "plant",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+6",
+  "immunities": "plant immunities",
+  "speed": "10 ft.",
+  "melee": "lash +15 (1d8+9 S)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "gravity void",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+5",
+    "int": "-2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Athletics +19, Stealth +14, Survival +19",
+  "environment": "any land",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Gravity Void (Su)",
+      "description": "Once per day as a full action, a void palm can create a dark, zero-gravity area in a 20-foot-radius sphere centered on itself, negating the effects of gravity and nonmagical light sources in that area. Magical light sources in the area work normally. When the void palm uses this ability, each other creature in the area must succeed at a DC 17 Reflex saving throw or become off-kilter. The effect doesn’t move with the void palm and lasts for 10 minutes."
+    },
+    {
+      "name": "Void Fronds (Su)",
+      "description": "When seen in black and white, such as with darkvision in darkness, the pattern on a void palmfs fronds resembles a dim and distant field of stars. The effect is disorienting. As long as the void palm is in an area of darkness, it has concealment against creatures observing it with darkvision, and such creatures are flat-footed against the palm's attacks."
+    }
+  ],
+  "description": "The fan-shaped void palm’s broad fronds are a deep, mottled red, and they are in constant motion, as though stirred by a gentle breeze. This plant creature is exceedingly rare, and the lack of information about its biology allows it to surprise oblivious explorers. When a suitably large living creature wanders nearby, a void palm plunges the area around it into magical darkness while simultaneously interrupting gravity’s normal function. Creatures caught in this area might become unable to propel themselves out of range of the void palm’s lashing fronds—something the plant deliberately makes more difficult by using its leaves to sweep the area around it clear of debris that might be used as handholds or counterbalance.\nThough they are rare, void palms are found across the galaxy. Their unique method of reproduction lends itself well to a slow but inexorable colonization of the stars. Once a year, a void palm produces a brilliant blue seed at the end of each of its stalks over the course of a week, and then it flings its progeny into the sky. The remarkable seeds each carry the void palm’s supernatural ability to ignore gravity, allowing the momentum imparted from their parent to carry them off the void palm’s planet and onto new ones. This unique ability makes void palm seeds rare and expensive curios.\nThe typical void palm is 15 feet tall and weighs around 1,000 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVoid Palm\nSource\nStarfinder #8: Escape from the Prison Moon pg. 60\nVoid Palm CR 7\nXP 3,200\nN Large plant\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+10;\nRef\n+8;\nWill\n+6\nDefensive Abilities\nvoid fronds;\nImmunities\nplant immunities\nOffense\nSpeed\n10 ft.\nMelee\nlash +15 (1d8+9 S)\nMultiattack\n3 lashes +9 (1d4+9 S)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ngravity void\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+5;\nINT\n-2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +19, Athletics +19, Stealth +14, Survival +19\nEcology\nEnvironment\nany land\nOrganization\nsolitary\nSpecial Abilities\nGravity Void (Su)\nOnce per day as a full action, a void palm can create a dark, zero-gravity area in a 20-foot-radius sphere centered on itself, negating the effects of gravity and nonmagical light sources in that area. Magical light sources in the area work normally. When the void palm uses this ability, each other creature in the area must succeed at a DC 17 Reflex saving throw or become off-kilter. The effect doesn’t move with the void palm and lasts for 10 minutes.\nVoid Fronds (Su)\nWhen seen in black and white, such as with darkvision in darkness, the pattern on a void palmfs fronds resembles a dim and distant field of stars. The effect is disorienting. As long as the void palm is in an area of darkness, it has concealment against creatures observing it with darkvision, and such creatures are flat-footed against the palm's attacks.\nDescription\nThe fan-shaped void palm’s broad fronds are a deep, mottled red, and they are in constant motion, as though stirred by a gentle breeze. This plant creature is exceedingly rare, and the lack of information about its biology allows it to surprise oblivious explorers. When a suitably large living creature wanders nearby, a void palm plunges the area around it into magical darkness while simultaneously interrupting gravity’s normal function. Creatures caught in this area might become unable to propel themselves out of range of the void palm’s lashing fronds—something the plant deliberately makes more difficult by using its leaves to sweep the area around it clear of debris that might be used as handholds or counterbalance.\nThough they are rare, void palms are found across the galaxy. Their unique method of reproduction lends itself well to a slow but inexorable colonization of the stars. Once a year, a void palm produces a brilliant blue seed at the end of each of its stalks over the course of a week, and then it flings its progeny into the sky. The remarkable seeds each carry the void palm’s supernatural ability to ignore gravity, allowing the momentum imparted from their parent to carry them off the void palm’s planet and onto new ones. This unique ability makes void palm seeds rare and expensive curios.\nThe typical void palm is 15 feet tall and weighs around 1,000 pounds.",
+  "type": "plant",
+  "category": "alien"
+}

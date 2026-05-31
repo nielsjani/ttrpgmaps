@@ -1,0 +1,55 @@
+{
+  "name": "Death Cruiser",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Death Cruiser&Family=None",
+  "source": "Starfinder #31: Waking the Worldseed pg. 57",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "NE",
+  "size": "Huge",
+  "creature_type": "undead (incorporeal)",
+  "init": "+8",
+  "senses": "blindsense (life), darkvision 60 ft.;",
+  "perception": "+24",
+  "hp": "250",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+12",
+  "immunities": "undead immunities",
+  "speed": "40 ft., fly 40 ft. (Su, average)",
+  "melee": "incorporeal slam +27 (8d6+14 B plus collect soul [DC 20])",
+  "space": "15 ft.",
+  "reach": "5 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+8",
+    "con": "—",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+6"
+  },
+  "skills": "Intimidate +25, Pilot +30, Survival +25",
+  "languages": "Abyssal, Common, Infernal (can’t speak any language)",
+  "other_abilities": "death racer, soulbound boost",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Collect Soul (Su)",
+      "description": "When a death cruiser deals damage to a creature with its incorporeal slam attack, it can spend 1 RP to immediately attempt to collect the creature’s soul, affecting that creature as\nsnuff life\n(Fortitude DC 20 partial). Creatures suffering from a fear effect take a –4 penalty to this save. The soul of a creature slain by this ability is trapped inside the death cruiser. A trapped soul can be restored to life only by\nmiracle\n,\nwarp reality\n, or\nwish\n. A creature that succeeds at its save is immune to that death cruiser’s collect soul ability for 24 hours."
+    },
+    {
+      "name": "Death Racer (Su)",
+      "description": "A death cruiser has many characteristics of a vehicle, including full speed 650 feet and overland speed 75 mph (ground and fly). It obeys the tactical vehicle and vehicle chase rules, using its own Piloting skill to pilot itself and treating its CR as its vehicle level. A death cruiser using the race maneuver when starting from a full stop doesn’t increase the DC of Piloting checks by 5. At the beginning of any of its turns, a death cruiser can choose to suppress its incorporeal ability until the beginning of its next turn; when it does, it gains a collision attack that deals 15d10 bludgeoning damage (Reflex DC 18 half) and hardness 20."
+    },
+    {
+      "name": "Soulbound Boost (Su)",
+      "description": "When the death cruiser has trapped a soul with collect soul, all of the death cruiser’s movement speeds double (including the speeds listed in the death racer ability). This does not affect its collision attack damage, and the doubling occurs before applying any other effects that increase its speed."
+    }
+  ],
+  "description": "These spectral vehicles materialize without warning to snatch up the souls of mortal victims. Though each death cruiser has a unique appearance, and each one manifests in a different way, their behavior is predictable: they chase their prey with frightening efficiency, collect the soul of their target, and carry it off. Sometimes, however, a death cruiser can be driven off or challenged to a race; if beaten in a race, the cruiser abandons the pursuit of its target, at least for a time.\nTales of chilling encounters with death cruisers have made their way through the Vast, and ancient records describe similar phantasms that take the form of archaic modes of transportation.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDeath Cruiser\nSource\nStarfinder #31: Waking the Worldseed pg. 57\nDeath Cruiser CR 14\nXP 38,400\nNE Huge undead (incorporeal)\nInit\n+8;\nSenses\nblindsense (life), darkvision 60 ft.;\nPerception\n+24\nAura\nfrightful presence (30 ft., DC 20)\nDefense\nHP\n250;\nRP\n5\nEAC\n28;\nKAC\n30\nFort\n+16;\nRef\n+16;\nWill\n+12\nDefensive Abilities\nincorporeal;\nImmunities\nundead immunities\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, average)\nMelee\nincorporeal slam +27 (8d6+14 B plus collect soul [DC 20])\nSpace\n15 ft.;\nReach\n5 ft.\nStatistics\nSTR\n+0;\nDEX\n+8;\nCON\n—;\nINT\n+0;\nWIS\n+4;\nCHA\n+6\nSkills\nIntimidate +25, Pilot +30, Survival +25\nLanguages\nAbyssal, Common, Infernal (can’t speak any language)\nOther Abilities\ndeath racer, soulbound boost\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nCollect Soul (Su)\nWhen a death cruiser deals damage to a creature with its incorporeal slam attack, it can spend 1 RP to immediately attempt to collect the creature’s soul, affecting that creature as\nsnuff life\n(Fortitude DC 20 partial). Creatures suffering from a fear effect take a –4 penalty to this save. The soul of a creature slain by this ability is trapped inside the death cruiser. A trapped soul can be restored to life only by\nmiracle\n,\nwarp reality\n, or\nwish\n. A creature that succeeds at its save is immune to that death cruiser’s collect soul ability for 24 hours.\nDeath Racer (Su)\nA death cruiser has many characteristics of a vehicle, including full speed 650 feet and overland speed 75 mph (ground and fly). It obeys the tactical vehicle and vehicle chase rules, using its own Piloting skill to pilot itself and treating its CR as its vehicle level. A death cruiser using the race maneuver when starting from a full stop doesn’t increase the DC of Piloting checks by 5. At the beginning of any of its turns, a death cruiser can choose to suppress its incorporeal ability until the beginning of its next turn; when it does, it gains a collision attack that deals 15d10 bludgeoning damage (Reflex DC 18 half) and hardness 20.\nSoulbound Boost (Su)\nWhen the death cruiser has trapped a soul with collect soul, all of the death cruiser’s movement speeds double (including the speeds listed in the death racer ability). This does not affect its collision attack damage, and the doubling occurs before applying any other effects that increase its speed.\nDescription\nThese spectral vehicles materialize without warning to snatch up the souls of mortal victims. Though each death cruiser has a unique appearance, and each one manifests in a different way, their behavior is predictable: they chase their prey with frightening efficiency, collect the soul of their target, and carry it off. Sometimes, however, a death cruiser can be driven off or challenged to a race; if beaten in a race, the cruiser abandons the pursuit of its target, at least for a time.\nTales of chilling encounters with death cruisers have made their way through the Vast, and ancient records describe similar phantasms that take the form of archaic modes of transportation.",
+  "type": "undead (incorporeal)",
+  "category": "alien"
+}

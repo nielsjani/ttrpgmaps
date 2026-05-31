@@ -1,0 +1,57 @@
+{
+  "name": "Lore Guardian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lore Guardian&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 274",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+12",
+  "hp": "28",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+0",
+  "dr": "2/adamantine",
+  "sr": "13",
+  "immunities": "construct immunities;",
+  "speed": "30 ft.",
+  "melee": "tactical spear +10 (1d6+6 P) orslam +10 (1d4+6 B)",
+  "ranged": "tactical spear +8 (1d6+6 P)",
+  "offensive_abilities": "eldritch attacks, transposing strike",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "—",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-5"
+  },
+  "languages": "see species tradition (can’t speak)",
+  "other_abilities": "mindless, species tradition, unliving",
+  "gear": "tactical spear",
+  "environment": "any",
+  "organization": "solitary or congregation (2–8)",
+  "special_abilities": [
+    {
+      "name": "Eldritch Attacks (Su)",
+      "description": "A lore guardian’s slam attack and attacks it makes with analog weapons are treated as magic for the purpose of overcoming DR and damaging incorporeal creatures."
+    },
+    {
+      "name": "Species Tradition (Ex)",
+      "description": "A lore guardian mimics the anatomy and mannerisms of the culture that created it. A lore guardian counts as both a construct and a member of its parent species for any effect related to its type and subtype (such as for the bane weapon fusion). It also understands but cannot speak one of its parent species’ languages."
+    },
+    {
+      "name": "Transposing Strike (Su)",
+      "description": "Once per day after making a ranged attack with an analog weapon, a lore guardian can activate a special teleportation effect as a swift action. This either teleports the ranged weapon back into the construct’s hands or teleports the construct to the weapon’s location (maximum 100 feet). When using the latter option, the lore guardian appears with the weapon in its hands adjacent to the target of its ranged attack (if it hit) or in a randomly determined nearby space (if it missed; see Missing with a Thrown Weapon on page 245 of the Starfinder Core Rulebook)."
+    }
+  ],
+  "description": "Although technological constructs are especially popular in the modern era, many ancient cultures created magical automatons in their own images. Known as lore guardians, these sentries are fairly common in abandoned ruins from bygone eras, where they tirelessly chase off would-be looters. Unlike golems, lore guardians have only limited magical resistances, and they’re animated strictly by magic, not by bound spirits or outsiders.\nLore guardians are echoes of their parent cultures, and they’re often psychically imbued with those societies’ basic traditions. They infrequently move about their assigned areas, mindlessly aping their creators’ behaviors and rituals. Even after millennia, lore guardians recognize their creators’ species, and a creature of such a species can often approach the constructs peacefully. A successful DC 18 Diplomacy check is often sufficient to calm most lore guardians susceptible to negotiation (though the GM can decide whether this is possible for a particular lore guardian).\nVariant Lore Guardians\nMost lore guardians are made of stone, but different materials are equally suitable. The following are typical variants, though versions made of stronger materials are possible and often have a higher CR.\nCommon Metal:\nThe construct’s DR increases to 4/adamantine, but the construct’s spell resistance doesn’t apply to spells that deal electricity damage.\nWood:\nThe construct’s base speed increases to 40 feet, and its Reflex save bonus increases to +4, but it loses its DR.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLore Guardian\nSource\nStarfinder Dead Suns Adventure Path pg. 274\n,\nStarfinder #2: Temple of the Twelve pg. 57\nLore Guardian CR 2\nXP 600\nN Medium construct (magical)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+12\nDefense\nHP\n28\nEAC\n13;\nKAC\n15\nFort\n+2;\nRef\n+2;\nWill\n+0\nDR\n2/adamantine;\nImmunities\nconstruct immunities;\nSR\n13\nOffense\nSpeed\n30 ft.\nMelee\ntactical spear +10 (1d6+6 P) orslam +10 (1d4+6 B)\nRanged\ntactical spear +8 (1d6+6 P)\nOffensive Abilities\neldritch attacks, transposing strike\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n—;\nINT\n—;\nWIS\n+0;\nCHA\n-5\nLanguages\nsee species tradition (can’t speak)\nOther Abilities\nmindless, species tradition, unliving\nGear\ntactical spear\nEcology\nEnvironment\nany\nOrganization\nsolitary or congregation (2–8)\nSpecial Abilities\nEldritch Attacks (Su)\nA lore guardian’s slam attack and attacks it makes with analog weapons are treated as magic for the purpose of overcoming DR and damaging incorporeal creatures.\nSpecies Tradition (Ex)\nA lore guardian mimics the anatomy and mannerisms of the culture that created it. A lore guardian counts as both a construct and a member of its parent species for any effect related to its type and subtype (such as for the bane weapon fusion). It also understands but cannot speak one of its parent species’ languages.\nTransposing Strike (Su)\nOnce per day after making a ranged attack with an analog weapon, a lore guardian can activate a special teleportation effect as a swift action. This either teleports the ranged weapon back into the construct’s hands or teleports the construct to the weapon’s location (maximum 100 feet). When using the latter option, the lore guardian appears with the weapon in its hands adjacent to the target of its ranged attack (if it hit) or in a randomly determined nearby space (if it missed; see Missing with a Thrown Weapon on page 245 of the Starfinder Core Rulebook).\nDescription\nAlthough technological constructs are especially popular in the modern era, many ancient cultures created magical automatons in their own images. Known as lore guardians, these sentries are fairly common in abandoned ruins from bygone eras, where they tirelessly chase off would-be looters. Unlike golems, lore guardians have only limited magical resistances, and they’re animated strictly by magic, not by bound spirits or outsiders.\nLore guardians are echoes of their parent cultures, and they’re often psychically imbued with those societies’ basic traditions. They infrequently move about their assigned areas, mindlessly aping their creators’ behaviors and rituals. Even after millennia, lore guardians recognize their creators’ species, and a creature of such a species can often approach the constructs peacefully. A successful DC 18 Diplomacy check is often sufficient to calm most lore guardians susceptible to negotiation (though the GM can decide whether this is possible for a particular lore guardian).\nVariant Lore Guardians\nMost lore guardians are made of stone, but different materials are equally suitable. The following are typical variants, though versions made of stronger materials are possible and often have a higher CR.\nCommon Metal:\nThe construct’s DR increases to 4/adamantine, but the construct’s spell resistance doesn’t apply to spells that deal electricity damage.\nWood:\nThe construct’s base speed increases to 40 feet, and its Reflex save bonus increases to +4, but it loses its DR.",
+  "type": "construct (magical)",
+  "category": "alien"
+}

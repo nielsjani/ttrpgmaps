@@ -1,0 +1,59 @@
+{
+  "name": "Tapestry Moth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tapestry Moth&Family=None",
+  "source": "Starfinder #32: The Starstone Blockade pg. 61",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "+7",
+  "senses": "darkvision 60 ft; low-light vision;",
+  "perception": "+28",
+  "hp": "280",
+  "eac": "30",
+  "kac": "31",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+19",
+  "immunities": "cold;",
+  "resistances": "electricity 10, fire 10",
+  "speed": "30 ft., fly 40 ft. (Su, perfect), spider climb",
+  "melee": "bite +28 (6d8+26 P plus grab and tapestry toxin) or monomolecular claw +28 (6d8+26 S plus grab)",
+  "ranged": "venom spit +26 (tapestry toxin)",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th",
+    "spells": "3/day—\ndimension door\nConstant—\nnondetection\n(self only)"
+  },
+  "ability_scores": {
+    "str": "+10",
+    "dex": "+7",
+    "con": "+4",
+    "int": "+5",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +33, Athletics +28 (+36 when climbing or flying), Engineering +33, Piloting +28, Stealth +33",
+  "languages": "Aklo, Common (can’t speak any language); telepathy 100 ft.",
+  "other_abilities": "compression, implant, spaceflight",
+  "environment": "any",
+  "organization": "solitary, pair, or infestation (3–5)",
+  "special_abilities": [
+    {
+      "name": "Implant (Ex)",
+      "description": "As a full action, a tapestry moth can implant one of its eggs into an adjacent helpless or paralyzed living creature that does not already have an egg implanted. The target takes 32 nonlethal piercing damage and is exposed to tapestry moth gestation, a deadly disease."
+    },
+    {
+      "name": "Monomolecular Claws (Su)",
+      "description": "A tapestry moth’s claws ignore 10 points of hardness."
+    },
+    {
+      "name": "Venom Spit (Ex)",
+      "description": "This ranged attack targets EAC and has a range of 30 feet. On a hit, the target is exposed to tapestry toxin.\nTapestry Toxin\nType\npoison (injury and contact);\nSave\nFortitude DC 24\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened— Staggered—Immobile; no end state\nCure\n2 saves\nTapestry Moth Gestation\nType\ndisease (injury);\nSave\nFortitude DC 24\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; the victim dies on the fifth day as a miniature tapestry moth cuts itself free of its body\nCure\nsurgically extract egg with a Medicine check (DC 24) that takes 1 hour and requires a medical lab; subject takes 1d4 Constitution damage on each attempt"
+    }
+  ],
+  "description": "The tapestry moth is an interstellar nightmare whose existence has only been recently confirmed. They approach starships in space and\ndimension door\nonto the starship’s hull, bypassing starship shields or other defenses. Able to squeeze into openings only inches wide, they skitter to cargo bay doors, air locks, or other ports and access panels. Once inside, tapestry moths systematically slaughter the crew of these starships, ambushing their prey one by one or in small numbers and hiding the bodies, or stowing away to slip past a space station’s defenses. No matter the strategy, these acts of mayhem aren’t random, but rather the purposeful acts of bioengineered living weapons of unknown origin.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTapestry Moth\nSource\nStarfinder #32: The Starstone Blockade pg. 61\nTapestry Moth CR 16\nXP 76,800\nNE Medium magical beast\nInit\n+7;\nSenses\ndarkvision 60 ft; low-light vision;\nPerception\n+28\nDefense\nHP\n280\nEAC\n30;\nKAC\n31\nFort\n+16;\nRef\n+16;\nWill\n+19\nDefensive Abilities\nnondetection\n, void adaption;\nImmunities\ncold;\nResistances\nelectricity 10, fire 10\nOffense\nSpeed\n30 ft., fly 40 ft. (Su, perfect), spider climb\nMelee\nbite +28 (6d8+26 P plus grab and tapestry toxin) or monomolecular claw +28 (6d8+26 S plus grab)\nRanged\nvenom spit +26 (tapestry toxin)\nSpell-Like Abilities\n(CL 16th)\n3/day—\ndimension door\nConstant—\nnondetection\n(self only)\nStatistics\nSTR\n+10;\nDEX\n+7;\nCON\n+4;\nINT\n+5;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +33, Athletics +28 (+36 when climbing or flying), Engineering +33, Piloting +28, Stealth +33\nLanguages\nAklo, Common (can’t speak any language); telepathy 100 ft.\nOther Abilities\ncompression, implant, spaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or infestation (3–5)\nSpecial Abilities\nImplant (Ex)\nAs a full action, a tapestry moth can implant one of its eggs into an adjacent helpless or paralyzed living creature that does not already have an egg implanted. The target takes 32 nonlethal piercing damage and is exposed to tapestry moth gestation, a deadly disease.\nMonomolecular Claws (Su)\nA tapestry moth’s claws ignore 10 points of hardness.\nVenom Spit (Ex)\nThis ranged attack targets EAC and has a range of 30 feet. On a hit, the target is exposed to tapestry toxin.\nTapestry Toxin\nType\npoison (injury and contact);\nSave\nFortitude DC 24\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened— Staggered—Immobile; no end state\nCure\n2 saves\nTapestry Moth Gestation\nType\ndisease (injury);\nSave\nFortitude DC 24\nTrack\nphysical (special);\nFrequency\n1/day\nEffect\nno latent state; the victim dies on the fifth day as a miniature tapestry moth cuts itself free of its body\nCure\nsurgically extract egg with a Medicine check (DC 24) that takes 1 hour and requires a medical lab; subject takes 1d4 Constitution damage on each attempt\nDescription\nThe tapestry moth is an interstellar nightmare whose existence has only been recently confirmed. They approach starships in space and\ndimension door\nonto the starship’s hull, bypassing starship shields or other defenses. Able to squeeze into openings only inches wide, they skitter to cargo bay doors, air locks, or other ports and access panels. Once inside, tapestry moths systematically slaughter the crew of these starships, ambushing their prey one by one or in small numbers and hiding the bodies, or stowing away to slip past a space station’s defenses. No matter the strategy, these acts of mayhem aren’t random, but rather the purposeful acts of bioengineered living weapons of unknown origin.",
+  "type": "magical beast",
+  "category": "alien"
+}

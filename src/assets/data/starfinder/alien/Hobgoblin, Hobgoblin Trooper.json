@@ -1,0 +1,47 @@
+{
+  "name": "Hobgoblin, Hobgoblin Trooper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hobgoblin Trooper&Family=Hobgoblin",
+  "source": "Alien Archive 2 pg. 77",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "humanoid (goblinoid)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+1",
+  "speed": "30 ft. (25 ft. in armor)",
+  "melee": "standard taclash +5 (1d4+3 S nonlethal)",
+  "ranged": "azimuth laser rifle +8 (1d8+1 F; critical burn 1d6) or stickybomb grenade I +8 (explode [10ft., entangled 2d4 rounds, DC 10])",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with standard taclash)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +5, Intimidate +5, Stealth +10",
+  "languages": "Common, Goblin",
+  "gear": "lashunta ringwear I, azimuth laser rifle with 2 batteries (20 charges each), standard taclash, stickybomb grenades I (2)",
+  "environment": "any",
+  "organization": "solitary, pair, advance unit (3–6 plus 1",
+  "special_abilities": [
+    {
+      "name": "Battle Hardened (Ex)",
+      "description": "Hobgoblins are trained for combat from an early age, and they quickly learn that a foe can do much more than just hurt you. Hobgoblins gain a +1 racial bonus to AC against combat maneuvers."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nHobgoblin Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHobgoblin\nSource\nAlien Archive 2 pg. 77\nHobgoblins are a militant and merciless species that organizes quickly, reproduces rapidly, and adapts well to changing conditions. They are similar in appearance to goblins but are significantly taller and more muscled. While goblins are anarchic and gleefully destructive, though, hobgoblins are highly ordered and do nothing without a purpose.\nMost hobgoblin societies are paramilitary states, with no distinction between the government and the chain of command. They can be as small as a single starship crew or as large as a conquered world. However, these governments grant nothing unearned to any hobgoblin, and only those who show an aptitude for more advanced knowledge are given access to it. The young are considered fully trained junior soldiers as young as 14 years old, while some receive secondary education to become technicians, spies, or engineers at 16 years old.\nHobgoblins are believed to have originated on lost Golarion. When the Gap ended, though, hobgoblins already dwelled in numerous solar systems, which suggests that they might have engaged in dangerous generation-ship or suspendedanimation expeditions of expansion, or that they had access to powerful interstellar transportation magic.\nWhile many societies were confused and shaken by the Gap, the disparate and widespread hobgoblin nations were almost entirely unaffected by it, and in some cases grew even stronger due to its amnesic effects. When the Gap ended, all hobgoblins still knew their own names and those of their superiors, their military rank and position, that they had earned those ranks through merit, and that their superiors had similarly earned their positions. This formed a strong common attitude that allowed many hobgoblin groups to work together, taking advantage of the confusion and consternation of their neighbors to wage quick, brutal wars of expansion against regions still coming to grips with the Gap.\nAdditionally, most hobgoblin societies and groups immediately analyzed such things as their religions and social codes, and discarded anything that did not immediately make sense. For example, many hobgoblin societies found they had strict rules forbidding the pursuit of spellcasting knowledge and the use of magic, but this prohibition seemed needlessly limiting after the Gap. Similarly, many hobgoblin groups saw no advantage in worshiping their old gods. For example, many hobgoblin mercenary companies who work for the Veskarium have adopted the worship of Damoritosh.\nHowever, other ancient prohibitions remain to this day, though their origins are lost to the Gap. Whenever hobgoblins and elves first encountered one another in the years after the Gap, violence invariably ensued. Individual hobgoblins sometimes have no special hatred of elves, but for most of the race, elves are reviled and mistrusted creatures not even fit for use as slave labor.\nA typical hobgoblin is 5 feet tall and weighs 160 pounds.\nAliens in the \"Hobgoblin\" Family\nName\nCR\nHobgoblin Lieutenant\n7\nHobgoblin Trooper\n1\nHobgoblin, Hobgoblin Trooper\nSource\nAlien Archive 2 pg. 76\nHobgoblin Trooper CR 1\nXP 400\nLE Medium humanoid (goblinoid)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13; +1 vs. combat maneuvers\nFort\n+3;\nRef\n+5;\nWill\n+1\nDefensive Abilities\nbattle hardened\nOffense\nSpeed\n30 ft. (25 ft. in armor)\nMelee\nstandard taclash +5 (1d4+3 S nonlethal)\nRanged\nazimuth laser rifle +8 (1d8+1 F; critical burn 1d6) or stickybomb grenade I +8 (explode [10ft., entangled 2d4 rounds, DC 10])\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with standard taclash)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +5, Intimidate +5, Stealth +10\nLanguages\nCommon, Goblin\nGear\nlashunta ringwear I, azimuth laser rifle with 2 batteries (20 charges each), standard taclash, stickybomb grenades I (2)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, advance unit (3–6 plus 1\nkanabo commando\n), squad (3–12), warband (4–16 plus 1 hobgoblin lieutenant)\nSpecial Abilities\nBattle Hardened (Ex)\nHobgoblins are trained for combat from an early age, and they quickly learn that a foe can do much more than just hurt you. Hobgoblins gain a +1 racial bonus to AC against combat maneuvers.\nExtra Content\nThe following extra content was found for this creature:\n-\nHobgoblin Race Entry",
+  "type": "humanoid (goblinoid)",
+  "category": "alien"
+}

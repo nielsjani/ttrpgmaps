@@ -1,0 +1,48 @@
+{
+  "name": "Celebrities, Performer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Performer&Family=Celebrities",
+  "source": "Interstellar Species pg. 156",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration (plantlike)",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+9",
+  "resistances": "cold 5",
+  "speed": "10 ft., swim 30 ft.",
+  "melee": "traditional battle ribbon +10 (1d8+6 S) Space 5 ft.; Reach 10 ft.",
+  "space": "5 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "beguiling glow  (DC 15), star of the show (DC 15)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +10, Culture +10, Diplomacy +15, Profession (dancer) +15",
+  "languages": "Common, Lumos",
+  "other_abilities": "bioluminescence , plantlike , symbiote adaption  (tentacle krikik)",
+  "gear": "second skin, traditional battle ribbon",
+  "special_abilities": [
+    {
+      "name": "Star of the Show (Ex)",
+      "description": "Three times per day as a full action, a performer can begin a captivating show that fascinates creatures within 60 feet (Will negates) for as long as the performer keeps performing (a standard action each round). Once during the effect’s duration, the performer can continue performing as a full action instead of as a standard action to also impart a suggestion to one fascinated creature, as the spell (Will negates). This is a sense-dependent effect, and the suggestion effect is language-dependent."
+    }
+  ],
+  "description": "Performers captivate and entertain their audiences with a wide range of art forms, including singing, dancing, playing instruments, acrobatics, magic tricks, and more. While many celebrities rise to fame on digital platforms, performers thrive best in front of a live audience.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCelebrities\nSource\nInterstellar Species pg. 156\nCelebrities shine in ways that often draw admiration, adoration, or amusement from fans across their home worlds and beyond. They regularly engage with fans through interviews, social media, and special appearances, boosting their sway in the court of public opinion. Some celebrities use their massive platforms to influence policy and elections, and it’s not uncommon for groups with specific political or corporate interests to secretly plant or sponsor celebrities to advance particular agendas.\nAliens in the \"Celebrities\" Family\nName\nCR\nInfluencer\n7\nPerformer\n4\nStreamer\n2\nVidgamer\n3\nCelebrities, Performer\nSource\nInterstellar Species pg. 156\nPerformer CR 4\nXP 1,200\nCephalume\nN Medium aberration (plantlike)\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n45\nEAC\n16;\nKAC\n17\nFort\n+3;\nRef\n+3;\nWill\n+9; +2 vs. mind-affecting effects, paralysis,\nResistances\ncold 5\nOffense\nSpeed\n10 ft., swim 30 ft.\nMelee\ntraditional battle ribbon +10 (1d8+6 S) Space 5 ft.; Reach 10 ft.\nOffensive Abilities\nbeguiling glow  (DC 15), star of the show (DC 15)\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+1;\nINT\n+0;\nWIS\n+2;\nCHA\n+5\nSkills\nAcrobatics +10, Culture +10, Diplomacy +15, Profession (dancer) +15\nLanguages\nCommon, Lumos\nOther Abilities\nbioluminescence , plantlike , symbiote adaption  (tentacle krikik)\nGear\nsecond skin, traditional battle ribbon\nSpecial Abilities\nStar of the Show (Ex)\nThree times per day as a full action, a performer can begin a captivating show that fascinates creatures within 60 feet (Will negates) for as long as the performer keeps performing (a standard action each round). Once during the effect’s duration, the performer can continue performing as a full action instead of as a standard action to also impart a suggestion to one fascinated creature, as the spell (Will negates). This is a sense-dependent effect, and the suggestion effect is language-dependent.\nDescription\nPerformers captivate and entertain their audiences with a wide range of art forms, including singing, dancing, playing instruments, acrobatics, magic tricks, and more. While many celebrities rise to fame on digital platforms, performers thrive best in front of a live audience.",
+  "type": "aberration (plantlike)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "The Swarm, Molitera",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Molitera&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "91",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+7",
+  "immunities": "acid, fear effects, sonic",
+  "speed": "30 ft., burrow 30 ft., climb 30 ft.",
+  "melee": "digging arm +17 (1d8+11 B & P; critical knockdown)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "shattering rumble (4d6 So, DC 14)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +13, Athletics +18 (+26 to climb), Stealth +13",
+  "languages": "Shirren; telepathy 100 ft.",
+  "other_abilities": "stone tunneler",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Shattering Rumble (Ex)",
+      "description": "As a standard action, a Swarm molitera can focus its vibrational emanations into a painful 30-foot cone. Each creature in the cone takes 4d6 sonic damage (Fortitude DC 14 half)."
+    },
+    {
+      "name": "Stone Tunneler (Ex)",
+      "description": "A Swarm molitera can burrow through solid rock as easily as dirt and can leave behind a 10-foot-wide, 10-foot-tall tunnel if it chooses."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Though the Swarm use dredgers to undermine certain defensive positions and to tunnel behind enemy lines, the small creatures can dig only through dirt and mud. When the Swarm needs to pierce solid stone—either to reach precious natural resources or to invade an underground fortification—it employs moliteras, large and sturdy components that look like living heavy industrial equipment. Moliteras have armored exoskeletons featuring dark blotches, four legs, and two shovel-like arms. These arms have pointed spikes along the edges that also make moliteras dangerous combatants. Using little-understood muscles and nerve endings, moliteras are constantly and subtly vibrating at frequencies that soften the rock they tunnel through, and they can focus these emanations in an offensive capacity when necessary. Survivors of Swarm attacks report sensing these vibrations moments before the moliteras break through nearby stone walls, with hordes of other Swarm creatures following behind them.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Molitera\nSource\nStarfinder #22: The Forever Reliquary pg. 60\nMolitera CR 6\nXP 2,400\nCE Large monstrous humanoid\nInit\n+2;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n91\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+10;\nWill\n+7\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects, sonic\nOffense\nSpeed\n30 ft., burrow 30 ft., climb 30 ft.\nMelee\ndigging arm +17 (1d8+11 B & P; critical knockdown)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nshattering rumble (4d6 So, DC 14)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-1;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +13, Athletics +18 (+26 to climb), Stealth +13\nLanguages\nShirren; telepathy 100 ft.\nOther Abilities\nstone tunneler\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nShattering Rumble (Ex)\nAs a standard action, a Swarm molitera can focus its vibrational emanations into a painful 30-foot cone. Each creature in the cone takes 4d6 sonic damage (Fortitude DC 14 half).\nStone Tunneler (Ex)\nA Swarm molitera can burrow through solid rock as easily as dirt and can leave behind a 10-foot-wide, 10-foot-tall tunnel if it chooses.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nThough the Swarm use dredgers to undermine certain defensive positions and to tunnel behind enemy lines, the small creatures can dig only through dirt and mud. When the Swarm needs to pierce solid stone—either to reach precious natural resources or to invade an underground fortification—it employs moliteras, large and sturdy components that look like living heavy industrial equipment. Moliteras have armored exoskeletons featuring dark blotches, four legs, and two shovel-like arms. These arms have pointed spikes along the edges that also make moliteras dangerous combatants. Using little-understood muscles and nerve endings, moliteras are constantly and subtly vibrating at frequencies that soften the rock they tunnel through, and they can focus these emanations in an offensive capacity when necessary. Survivors of Swarm attacks report sensing these vibrations moments before the moliteras break through nearby stone walls, with hordes of other Swarm creatures following behind them.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Giant, Eclipse",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Eclipse&Family=Giant",
+  "source": "Alien Archive 2 pg. 62",
+  "cr": "19",
+  "xp": "204,800",
+  "alignment": "N",
+  "size": "Gargantuan",
+  "creature_type": "humanoid (giant)",
+  "init": "+1",
+  "senses": "low-light vision, see in darkness;",
+  "perception": "+37",
+  "hp": "415",
+  "eac": "33",
+  "kac": "35",
+  "fort": "+20",
+  "ref": "+16",
+  "will": "+22",
+  "immunities": "death effects",
+  "speed": "50 ft.",
+  "melee": "ultraserrated longsword +33 (8d10+30; critical bleed 6d6)",
+  "ranged": "hurled debris +30 (9d10+19 B plus 10-ft.-radius area of difficult terrain around the spot where the debris hit)",
+  "space": "20 ft.",
+  "reach": "20 ft.",
+  "offensive_abilities": "infuse debris (19 HP or damage)",
+  "spell_like_abilities": {
+    "caster_info": "CL 19th",
+    "spells": "1/day—\nregenerate\n,\nshadow walk\n,\nsnuff life\n(DC 24),\nstar storm\n(DC 24)\n3/day—\ncall cosmos\n(DC 23),\nmass mystic cure\n(5th level),\nmystic cure\n(5th level)\nAt will—\ncosmic eddy\n(DC 22),\ndeath ward"
+  },
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+1",
+    "con": "+6",
+    "int": "+2",
+    "wis": "+9",
+    "cha": "+4"
+  },
+  "skills": "Athletics +37, Intimidate +37, Mysticism +32, Survival +32",
+  "feats": "Deadly Aim",
+  "languages": "Aklo, Common, Giant",
+  "other_abilities": "eclipse empowered (",
+  "gear": "ultraserrated longsword",
+  "environment": "any",
+  "organization": "solitary, pair, or family (3–5)",
+  "special_abilities": [
+    {
+      "name": "Eclipse Empowered (Su)",
+      "description": "When an eclipse giant is in the presence of and can see either a solar or a lunar eclipse, they’re affected by greater resistant armor for as long as the eclipse lasts or until the giant can no longer see the eclipse, whichever comes first. Upon first being affected by greater resistant armor, the eclipse giant can choose to be protected against all kinetic damage or four types of energy damage; the giant can’t alter this choice."
+    },
+    {
+      "name": "Infuse Debris (Su)",
+      "description": "As a move action, an eclipse giant infuses the next bit of debris they hurl with healing or destructive energies. If they choose healing energy, the difficult terrain the debris creates is infused with healing energy for 1 minute; a creature that ends its turn in that area heals an amount of Hit Points equal to the giant’s CR. If the giant chooses destructive energy, their next hurled debris attack is made against EAC and deals additional force damage equal to the eclipse giant’s CR on a hit."
+    }
+  ],
+  "description": "Eclipse giants are known to wander worlds with little care, and during an eclipse, a hidden “inner self” takes control, often changing the giant’s personality and approach to life.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGiant (Simple) Graft Template\n-\nCloud Giant (Giant) Graft Template\n-\nMoon Giant (Giant) Graft Template\n-\nStone Giant (Giant) Graft Template\n-\nStorm Giant (Giant) Graft Template\n-\nFire Giant (Giant) Graft Template\n-\nSlag Giant (Giant) Graft Template\n-\nSun Giant (Giant) Graft Template\n-\nGiant (Creature Subtype) Graft Template\n-\nEclipse Giant (Giant) Graft Template\n-\nGiant Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGiant\nSource\nAlien Archive 2 pg. 62\nGiants are humanoid creatures with great strength and mighty stature, standing from 9 feet to over 25 feet tall. They often live apart from other races, as even space stations intended to be inclusive of multiple species are often too small to comfortably accommodate a giant’s massive size. How welcoming these giants are to non-giant visitors depends on the specific giant society, though all giants can be unpredictable and dangerous to others.\nAliens in the \"Giant\" Family\nName\nCR\nEclipse\n19\nMoon Giant\n15\nShadow\n13\nGiant, Eclipse\nSource\nStarfinder #33: Dominion’s End pg. 58\nEclipse CR 19\nXP 204,800\nN Gargantuan humanoid (giant)\nInit\n+1;\nSenses\nlow-light vision, see in darkness;\nPerception\n+37\nDefense\nHP\n415\nEAC\n33;\nKAC\n35\nFort\n+20;\nRef\n+16;\nWill\n+22\nImmunities\ndeath effects\nOffense\nSpeed\n50 ft.\nMelee\nultraserrated longsword +33 (8d10+30; critical bleed 6d6)\nRanged\nhurled debris +30 (9d10+19 B plus 10-ft.-radius area of difficult terrain around the spot where the debris hit)\nSpace\n20 ft.;\nReach\n20 ft.\nOffensive Abilities\ninfuse debris (19 HP or damage)\nSpell-Like Abilities\n(CL 19th)\n1/day—\nregenerate\n,\nshadow walk\n,\nsnuff life\n(DC 24),\nstar storm\n(DC 24)\n3/day—\ncall cosmos\n(DC 23),\nmass mystic cure\n(5th level),\nmystic cure\n(5th level)\nAt will—\ncosmic eddy\n(DC 22),\ndeath ward\nStatistics\nSTR\n+11;\nDEX\n+1;\nCON\n+6;\nINT\n+2;\nWIS\n+9;\nCHA\n+4\nFeats\nDeadly Aim\nSkills\nAthletics +37, Intimidate +37, Mysticism +32, Survival +32\nLanguages\nAklo, Common, Giant\nOther Abilities\neclipse empowered (\ngreater resistant armor\n)\nGear\nultraserrated longsword\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or family (3–5)\nSpecial Abilities\nEclipse Empowered (Su)\nWhen an eclipse giant is in the presence of and can see either a solar or a lunar eclipse, they’re affected by greater resistant armor for as long as the eclipse lasts or until the giant can no longer see the eclipse, whichever comes first. Upon first being affected by greater resistant armor, the eclipse giant can choose to be protected against all kinetic damage or four types of energy damage; the giant can’t alter this choice.\nInfuse Debris (Su)\nAs a move action, an eclipse giant infuses the next bit of debris they hurl with healing or destructive energies. If they choose healing energy, the difficult terrain the debris creates is infused with healing energy for 1 minute; a creature that ends its turn in that area heals an amount of Hit Points equal to the giant’s CR. If the giant chooses destructive energy, their next hurled debris attack is made against EAC and deals additional force damage equal to the eclipse giant’s CR on a hit.\nDescription\nEclipse giants are known to wander worlds with little care, and during an eclipse, a hidden “inner self” takes control, often changing the giant’s personality and approach to life.\nExtra Content\nThe following extra content was found for this creature:\n-\nGiant (Simple) Graft Template\n-\nCloud Giant (Giant) Graft Template\n-\nMoon Giant (Giant) Graft Template\n-\nStone Giant (Giant) Graft Template\n-\nStorm Giant (Giant) Graft Template\n-\nFire Giant (Giant) Graft Template\n-\nSlag Giant (Giant) Graft Template\n-\nSun Giant (Giant) Graft Template\n-\nGiant (Creature Subtype) Graft Template\n-\nEclipse Giant (Giant) Graft Template\n-\nGiant Race Entry",
+  "type": "humanoid (giant)",
+  "category": "alien"
+}

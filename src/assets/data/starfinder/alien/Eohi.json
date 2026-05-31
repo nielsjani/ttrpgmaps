@@ -1,0 +1,44 @@
+{
+  "name": "Eohi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Eohi&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 268",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "animal",
+  "init": "+2",
+  "senses": "blindsight (scent) 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+5",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +16 (1d8+11 P) orslam +16 (1d8+11 B)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Athletics +13, Survival +18",
+  "feats": "Improved Combat Maneuver (trip)",
+  "environment": "any forests (Nejeor IV)",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Pounce (Ex)",
+      "description": "As a full action, an eohi can move up to its speed and make a full attack at the end of its movement. Each attack takes a –5 penalty instead of the usual –4 penalty."
+    }
+  ],
+  "description": "Originally from the heavily forested world of Nejeor IV, carnivorous eohis prefer to hunt in packs, often climbing to precarious heights in the treetops, where they can leap quickly from branch to branch, easily chasing down prey that is slowed by underbrush. Another favored hunting tactic is to drop down in a ring around an unsuspecting victim before closing in for the kill.\nThese furred quadrupeds are the size of large hounds, with muscular forelimbs and six-digit, humanlike hands that assist in scaling trunks and hanging onto branches. Their powerful jaws and sharp teeth are capable of tearing into tough flesh, and their large, flaring nostrils help them pick up even the faintest scent. But eohis are not entirely dependent on scent; their keen eyes allow them to see well even in the dim light under the forest canopy.\nMale eohis have darker fur, ranging from black to slate gray, while female eohis are usually light brown, tan, or brindled. Eohis give birth to live young, which are nursed by their mothers until their fangs grow in, usually in about 3 months. The young then feast on carcasses left behind by older eohis, but as they grow and learn to work cooperatively to take down living prey, they form their own hunting packs.\nMillennia ago, the kishalee empire captured a handful of eohis and brought them to the cities of Nejeor VI to populate their zoos. The kishalee occasionally introduced new eohis to the captive animals to keep the gene pool viable, and the creatures became a popular attraction. When the kishalee civilization crumbled, though, these captive eohis were left to fend for themselves in their pens. Many of them died from lack of food; others perished when their host cities plummeted into the clouds. However, the eohis in Istamak (page 250) survived by breaking out of their cages and eating many of the other animals in their zoo before eventually establishing a stable population in the city’s park. Eventually, the kish (page 272) in that city saw how useful eohis could be in a hunt and tamed some of them, training them to take down larger prey and guard kish homes and livestock from the city’s other predators.\nAn eohi stands about 2 feet tall at the shoulder and weighs almost 70 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEohi\nSource\nStarfinder Dead Suns Adventure Path pg. 268\n,\nStarfinder #4: The Ruined Clouds pg. 57\nEohi CR 6\nXP 2,400\nN Small animal\nInit\n+2;\nSenses\nblindsight (scent) 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+10;\nWill\n+5\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +16 (1d8+11 P) orslam +16 (1d8+11 B)\nOffensive Abilities\npounce\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nFeats\nImproved Combat Maneuver (trip)\nSkills\nAcrobatics +13, Athletics +13, Survival +18\nEcology\nEnvironment\nany forests (Nejeor IV)\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nPounce (Ex)\nAs a full action, an eohi can move up to its speed and make a full attack at the end of its movement. Each attack takes a –5 penalty instead of the usual –4 penalty.\nDescription\nOriginally from the heavily forested world of Nejeor IV, carnivorous eohis prefer to hunt in packs, often climbing to precarious heights in the treetops, where they can leap quickly from branch to branch, easily chasing down prey that is slowed by underbrush. Another favored hunting tactic is to drop down in a ring around an unsuspecting victim before closing in for the kill.\nThese furred quadrupeds are the size of large hounds, with muscular forelimbs and six-digit, humanlike hands that assist in scaling trunks and hanging onto branches. Their powerful jaws and sharp teeth are capable of tearing into tough flesh, and their large, flaring nostrils help them pick up even the faintest scent. But eohis are not entirely dependent on scent; their keen eyes allow them to see well even in the dim light under the forest canopy.\nMale eohis have darker fur, ranging from black to slate gray, while female eohis are usually light brown, tan, or brindled. Eohis give birth to live young, which are nursed by their mothers until their fangs grow in, usually in about 3 months. The young then feast on carcasses left behind by older eohis, but as they grow and learn to work cooperatively to take down living prey, they form their own hunting packs.\nMillennia ago, the kishalee empire captured a handful of eohis and brought them to the cities of Nejeor VI to populate their zoos. The kishalee occasionally introduced new eohis to the captive animals to keep the gene pool viable, and the creatures became a popular attraction. When the kishalee civilization crumbled, though, these captive eohis were left to fend for themselves in their pens. Many of them died from lack of food; others perished when their host cities plummeted into the clouds. However, the eohis in Istamak (page 250) survived by breaking out of their cages and eating many of the other animals in their zoo before eventually establishing a stable population in the city’s park. Eventually, the kish (page 272) in that city saw how useful eohis could be in a hunt and tamed some of them, training them to take down larger prey and guard kish homes and livestock from the city’s other predators.\nAn eohi stands about 2 feet tall at the shoulder and weighs almost 70 pounds.",
+  "type": "animal",
+  "category": "alien"
+}

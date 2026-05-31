@@ -1,0 +1,48 @@
+{
+  "name": "Kaarkog, Silverback Kaarkog",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Silverback Kaarkog&Family=Kaarkog",
+  "source": "Mechageddon! pg. 160",
+  "cr": "20",
+  "xp": "307,200",
+  "alignment": "NE",
+  "size": "Colossal",
+  "creature_type": "magical beast (colossus)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision, sense the masses;",
+  "perception": "+39",
+  "hp": "465",
+  "eac": "35",
+  "kac": "37",
+  "fort": "+23",
+  "ref": "+23",
+  "will": "+17",
+  "resistances": "cold 30, fire 30, sonic 30",
+  "speed": "100 ft., climb 100 ft.",
+  "melee": "bite +35 (11d10+32 P) or gore +35 (11d10+32 P; critical knockdown) or slam +35 (11d10+32 B plus grab)",
+  "space": "60 ft.",
+  "reach": "60 ft.",
+  "offensive_abilities": "ferocious charge, primal drums (DC 25), spiked hide (8d6+32 P), trample (11d10+32 B, DC 25)",
+  "ability_scores": {
+    "str": "+12",
+    "dex": "+6",
+    "con": "+9",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +34, Athletics +39, Survival +34",
+  "languages": "Ancient Daimalkan",
+  "other_abilities": "demolish structures",
+  "environment": "any (Daimalko)",
+  "organization": "solitary, pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Primal Drums (Su)",
+      "description": "As a standard action, a silverback kaarkog rears up on their hind legs and beats their chest, letting out a howl that shows off their impressive fangs. Creatures within 100 feet who can see or hear them must succeed at a DC 25 Will save or be shaken for 1d6 rounds. A creature cannot be affected by the same kaarkog’s primal drums for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect."
+    }
+  ],
+  "description": "Silverback kaarkogs roam high in the Shulith Mountains and petrified forests on Mount Zemistar’s lower slopes. Elders are larger, with silver ridges on their fur and spikes.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKaarkog\nAliens in the \"Kaarkog\" Family\nName\nCR\nKaarkog\n4\nSilverback Kaarkog\n20\nKaarkog, Silverback Kaarkog\nSource\nMechageddon! pg. 160\nSilverback Kaarkog CR 20\nXP 307,200\nNE Colossal magical beast (colossus)\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision, sense the masses;\nPerception\n+39\nDefense\nHP\n465\nEAC\n35;\nKAC\n37\nFort\n+23;\nRef\n+23;\nWill\n+17\nDefensive Abilities\nferocity, spiked hide (8d6 P, DC 25);\nResistances\ncold 30, fire 30, sonic 30\nOffense\nSpeed\n100 ft., climb 100 ft.\nMelee\nbite +35 (11d10+32 P) or gore +35 (11d10+32 P; critical knockdown) or slam +35 (11d10+32 B plus grab)\nMultiattack\nbite +32 (8d6+32 P), 2 gores (8d6+32 P; critical knockdown), slam +32 (8d6+32 B plus grab)\nSpace\n60 ft.;\nReach\n60 ft.\nOffensive Abilities\nferocious charge, primal drums (DC 25), spiked hide (8d6+32 P), trample (11d10+32 B, DC 25)\nStatistics\nSTR\n+12;\nDEX\n+6;\nCON\n+9;\nINT\n+3;\nWIS\n+5;\nCHA\n+4\nSkills\nAcrobatics +34, Athletics +39, Survival +34\nLanguages\nAncient Daimalkan\nOther Abilities\ndemolish structures\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary, pack (3–8)\nSpecial Abilities\nPrimal Drums (Su)\nAs a standard action, a silverback kaarkog rears up on their hind legs and beats their chest, letting out a howl that shows off their impressive fangs. Creatures within 100 feet who can see or hear them must succeed at a DC 25 Will save or be shaken for 1d6 rounds. A creature cannot be affected by the same kaarkog’s primal drums for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect.\nDescription\nSilverback kaarkogs roam high in the Shulith Mountains and petrified forests on Mount Zemistar’s lower slopes. Elders are larger, with silver ridges on their fur and spikes.",
+  "type": "magical beast (colossus)",
+  "category": "alien"
+}

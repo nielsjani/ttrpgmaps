@@ -1,0 +1,55 @@
+{
+  "name": "Kavearin",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kavearin&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 56",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+3",
+  "senses": "blindsense (life) 120 ft., darkvision 120 ft.;",
+  "perception": "+19",
+  "hp": "170",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+12",
+  "will": "+9",
+  "dr": "10/— until that damage reduction prevents a total of 100 damage",
+  "speed": "10 ft., fly 30 ft. (Su, perfect)",
+  "melee": "slam +23 (2d10+18 S)",
+  "ranged": "crystal shard +20 (4d6+10 P; critical embed 2d6)",
+  "offensive_abilities": "unliving fury",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +24, Stealth +19",
+  "languages": "Aklo",
+  "other_abilities": "cover cadaver",
+  "environment": "any (Negative Energy Plane)",
+  "organization": "solitary or cluster (2–12)",
+  "special_abilities": [
+    {
+      "name": "Cover Cadaver (Su)",
+      "description": "As a move action, a kavearin can enter the space of a corpse within reach and graft itself to the body, temporarily animating the corpse. The corpse must be of Medium size and mostly complete. While controlling a corpse in this way, the kavearin can’t fly, but its land speed increases to 40 feet. In addition, the corpse absorbs part of any damage done to the kavearin; the kavearin gains DR 10/— until that damage reduction prevents a total of 100 damage, at which point, the corpse is destroyed. The kavearin can abandon the corpse as a move action."
+    },
+    {
+      "name": "Crystal Shard (Ex)",
+      "description": "As a ranged attack, a kavearin can hurl part of its crystalline form with a range increment of 60 feet. On a critical hit, the crystal is embedded in the target (Armory 31), damaging the target each round it moves 5 feet or more."
+    },
+    {
+      "name": "Unliving Fury (Ex)",
+      "description": "When a living creature within the kavearin’s reach regains Hit Points or Stamina Points, the kavearin can make a melee attack against that creature as a reaction."
+    }
+  ],
+  "description": "Kavearins, commonly known as cadaver crystals, are animate collections of dark purple crystals that naturally occur in the depths of the Negative Energy Plane. A kavearin’s sapience is similar to that of elementals, though the mass of shifting crystals is generally more malevolent and possesses a burning hatred of living creatures. Although kavearins can essentially animate the corpses of those they’ve killed (and any other cadavers lying around), they generally do so only for protection. Kavearins might be pulled into the Material Plane in areas of concentrated negative energy, such as worlds with high concentrations of undead creatures or planets awash in certain types of radiation. Some can be found drifting through the vacuum of space but are rarely encountered by passing starships.\nCenturies ago, Eoxians used kavearins as guard animals when large clusters of them were discovered wandering the Gray Hollow. The trend faded into obscurity once it became clear that the kavearins had no interest in keeping other undead out of spaces they were meant to protect. Some say that the Corpse Fleet gathered the forgotten kavearins and took them off-planet as part of the undead extremists’ defection from Eox.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKavearin\nSource\nStarfinder #45: The Culling Shadow pg. 56\nKavearin CR 10\nXP 9,600\nNE Medium outsider (extraplanar)\nInit\n+3;\nSenses\nblindsense (life) 120 ft., darkvision 120 ft.;\nPerception\n+19\nDefense\nHP\n170\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+12;\nWill\n+9\nDefensive Abilities\nundead immunities\nOffense\nSpeed\n10 ft., fly 30 ft. (Su, perfect)\nMelee\nslam +23 (2d10+18 S)\nRanged\ncrystal shard +20 (4d6+10 P; critical embed 2d6)\nOffensive Abilities\nunliving fury\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +24, Stealth +19\nLanguages\nAklo\nOther Abilities\ncover cadaver\nEcology\nEnvironment\nany (Negative Energy Plane)\nOrganization\nsolitary or cluster (2–12)\nSpecial Abilities\nCover Cadaver (Su)\nAs a move action, a kavearin can enter the space of a corpse within reach and graft itself to the body, temporarily animating the corpse. The corpse must be of Medium size and mostly complete. While controlling a corpse in this way, the kavearin can’t fly, but its land speed increases to 40 feet. In addition, the corpse absorbs part of any damage done to the kavearin; the kavearin gains DR 10/— until that damage reduction prevents a total of 100 damage, at which point, the corpse is destroyed. The kavearin can abandon the corpse as a move action.\nCrystal Shard (Ex)\nAs a ranged attack, a kavearin can hurl part of its crystalline form with a range increment of 60 feet. On a critical hit, the crystal is embedded in the target (Armory 31), damaging the target each round it moves 5 feet or more.\nUnliving Fury (Ex)\nWhen a living creature within the kavearin’s reach regains Hit Points or Stamina Points, the kavearin can make a melee attack against that creature as a reaction.\nDescription\nKavearins, commonly known as cadaver crystals, are animate collections of dark purple crystals that naturally occur in the depths of the Negative Energy Plane. A kavearin’s sapience is similar to that of elementals, though the mass of shifting crystals is generally more malevolent and possesses a burning hatred of living creatures. Although kavearins can essentially animate the corpses of those they’ve killed (and any other cadavers lying around), they generally do so only for protection. Kavearins might be pulled into the Material Plane in areas of concentrated negative energy, such as worlds with high concentrations of undead creatures or planets awash in certain types of radiation. Some can be found drifting through the vacuum of space but are rarely encountered by passing starships.\nCenturies ago, Eoxians used kavearins as guard animals when large clusters of them were discovered wandering the Gray Hollow. The trend faded into obscurity once it became clear that the kavearins had no interest in keeping other undead out of spaces they were meant to protect. Some say that the Corpse Fleet gathered the forgotten kavearins and took them off-planet as part of the undead extremists’ defection from Eox.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

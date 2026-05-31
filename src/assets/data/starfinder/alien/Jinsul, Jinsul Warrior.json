@@ -1,0 +1,46 @@
+{
+  "name": "Jinsul, Jinsul Warrior",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Jinsul Warrior&Family=Jinsul",
+  "source": "Alien Archive 3 pg. 60",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+3",
+  "speed": "40 ft.",
+  "melee": "bite +6 (1d4+3 P) or leg blade +6 (1d6+3 S; critical bleed 1d6)",
+  "ranged": "tactical arc emitter +9 (1d4+1 E)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Athletics +10, Piloting +5, Survival +5",
+  "languages": "Jinsul",
+  "other_abilities": "powerful leap",
+  "gear": "freebooter armor I, tactical arc emitter with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or assault (3+)",
+  "special_abilities": [
+    {
+      "name": "Powerful Leap (Ex)",
+      "description": "When attempting an Athletics checks to jump, a jinsul is always considered to have taken a running start."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nJinsul\nSource\nAlien Archive 3 pg. 60\nJinsuls are chitinous, six‑legged creatures with a set of robust forelimbs and three rows of hooked pincers. Their bulbous bodies are covered with dozens of eyes, giving jinsuls a 360‑degree field of vision. Originally inhabitants of the trinary star system in the Vast known to the Pact Worlds as the Scoured Stars, jinsuls built large and complex temples to honor their protector deity, Kadrical, who raised a mystical golden forcefield called the Godshield around the entire system.\nWhen the Godshield later vanished, jinsuls (as well as a number of other species) left the Scoured Stars en masse, settling in a harsh region of space in the Vast. Collectively known as the Jinsul Hierocracy, the jinsuls tested their resolve against hostile alien life forms and vicious natural phenomena, becoming bloodthirsty killers. As part of a grueling coming‑of‑age ritual, jinsuls began performing cybernetic augmentations—implanting razor‑sharp sabers into their first set of forelimbs—with no anesthesia or pain management.\nDuring their self‑imposed exile, jinsuls largely freed themselves from their fanatical allegiance to Kadrical. However, in recent years, the appearance of one of the god’s divine heralds, Dhurus, once again brought the jinsuls into unified worship of their former protector. In return for their unwavering devotion, Dhurus granted special abilities to the most powerful of the jinsuls to aid in their hostile conquests.\nA capable, efficient species, jinsuls have developed ships, starbases, and space stations that run on automated systems and cadres of specialized robots, allowing for minimal staffing even in large, complex structures. Such skeleton crews are often led by base commanders, who serve as both religious and tactical leaders. A broader focus on multipurpose technology allows for rapid and efficient deployment of troops. This is best exemplified in the delivery ducts of their starships, which can either quickly deposit troops onto planetary surfaces or deploy them into breached enemy starships in swift boarding actions.\nThe average jinsul is 7 feet tall and weighs 300 pounds or more.\nAliens in the \"Jinsul\" Family\nName\nCR\nJinsul Base Commander\n5\nJinsul Warrior\n1\nJinsul, Jinsul Warrior\nSource\nAlien Archive 3 pg. 60\nJinsul Warrior CR 1\nXP 400\nCE Medium monstrous humanoid\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+3;\nRef\n+5;\nWill\n+3; +4 vs. fear\nDefensive Abilities\nunflankable\nOffense\nSpeed\n40 ft.\nMelee\nbite +6 (1d4+3 P) or leg blade +6 (1d6+3 S; critical bleed 1d6)\nRanged\ntactical arc emitter +9 (1d4+1 E)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n-1\nSkills\nAthletics +10, Piloting +5, Survival +5\nLanguages\nJinsul\nOther Abilities\npowerful leap\nGear\nfreebooter armor I, tactical arc emitter with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or assault (3+)\nSpecial Abilities\nPowerful Leap (Ex)\nWhen attempting an Athletics checks to jump, a jinsul is always considered to have taken a running start.",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Jinsul_Warrior.png"
+}

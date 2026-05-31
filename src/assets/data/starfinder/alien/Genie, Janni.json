@@ -1,0 +1,59 @@
+{
+  "name": "Genie, Janni",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Janni&Family=Genie",
+  "source": "Starfinder #14: Soldiers of Brass pg. 55",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+3",
+  "resistances": "acid 5, cold 5, electricity 5, fire 5",
+  "speed": "30 ft., fly 20 ft. (Su, perfect)",
+  "melee": "tactical dueling sword +11 (1d6+3 S)",
+  "ranged": "tactical semi-auto pistol +10 (1d6+3 P)",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nethereal jaunt\n(for 1 hour)\n3/day—\ninvisibility\n(self only),\nplane shift\n(willing targets to Astral Plane, Material Plane, or Elemental Planes only)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +10 (+18 to fly), Culture +15, Engineering +10, Mysticism +10, Sense Motive +15, Stealth +10",
+  "languages": "Common, 2 additional languages (usually elemental or planar); speak with animals, telepathy 100 ft.",
+  "other_abilities": "create sustenance, elemental endurance",
+  "gear": "casual stationwear, tactical dueling sword, tactical semi-auto pistol with 27 small-arm rounds",
+  "environment": "any",
+  "organization": "solitary, pair, or company (3–6)",
+  "special_abilities": [
+    {
+      "name": "Create Sustenance (Su)",
+      "description": "Once per day as a standard action, a janni can create enough plain but nutritious food and water to sustain 12 Medium creatures for a day in normal environmental conditions. The food disappears after 24 hours if uneaten, but the water remains."
+    },
+    {
+      "name": "Elemental Endurance (Ex)",
+      "description": "A janni can remain on an Elemental Plane for 48 hours. Each hour it remains on such a plane thereafter, it takes 1 damage that can’t be reduced in any way until it returns to the Material Plane. This endurance resets after the janni remains on the Material Plane for 24 hours."
+    },
+    {
+      "name": "Speak with Animals (Su)",
+      "description": "A janni can communicate with animals and use language-dependent effects, such as telepathy, on them."
+    }
+  ],
+  "description": "With their nature split across the four elements, jann (singular janni) bear the closest resemblance to humanoids. Capable of visiting any Elemental Plane but incapable of surviving there longer than a couple of days, jann are nomadic and natural traders, ferrying goods and people among the Elemental Planes and the Material Plane. Jann magic is less potent than that of other genies, but the focus on interplanar travel allows jann to be creative in its application.\nThough composed and gregarious, jann can be suspicious of others’ motivations. They are prideful, like most genies, and are quick to anger if they feel insulted. Jann also have a tradition of hospitality. They rarely turn away a creature in need, especially when that need is something as simple as shelter or sustenance. However, most jann expect reciprocation for their kindness.\nA janni stands about 6 feet tall and weighs around 180 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenie\nAliens in the \"Genie\" Family\nName\nCR\nDjinni\n5\nEfreeti\n8\nJanni\n4\nMarid\n9\nShaitan\n7\nGenie, Janni\nSource\nStarfinder #14: Soldiers of Brass pg. 55\nJanni CR 4\nXP 1,200\nN Medium outsider (native)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n45\nEAC\n16;\nKAC\n17\nFort\n+5;\nRef\n+7;\nWill\n+3\nResistances\nacid 5, cold 5, electricity 5, fire 5\nOffense\nSpeed\n30 ft., fly 20 ft. (Su, perfect)\nMelee\ntactical dueling sword +11 (1d6+3 S)\nRanged\ntactical semi-auto pistol +10 (1d6+3 P)\nSpell-Like Abilities\n(CL 4th)\n1/day—\nethereal jaunt\n(for 1 hour)\n3/day—\ninvisibility\n(self only),\nplane shift\n(willing targets to Astral Plane, Material Plane, or Elemental Planes only)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+1;\nINT\n+2;\nWIS\n+2;\nCHA\n+1\nSkills\nAcrobatics +10 (+18 to fly), Culture +15, Engineering +10, Mysticism +10, Sense Motive +15, Stealth +10\nLanguages\nCommon, 2 additional languages (usually elemental or planar); speak with animals, telepathy 100 ft.\nOther Abilities\ncreate sustenance, elemental endurance\nGear\ncasual stationwear, tactical dueling sword, tactical semi-auto pistol with 27 small-arm rounds\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or company (3–6)\nSpecial Abilities\nCreate Sustenance (Su)\nOnce per day as a standard action, a janni can create enough plain but nutritious food and water to sustain 12 Medium creatures for a day in normal environmental conditions. The food disappears after 24 hours if uneaten, but the water remains.\nElemental Endurance (Ex)\nA janni can remain on an Elemental Plane for 48 hours. Each hour it remains on such a plane thereafter, it takes 1 damage that can’t be reduced in any way until it returns to the Material Plane. This endurance resets after the janni remains on the Material Plane for 24 hours.\nSpeak with Animals (Su)\nA janni can communicate with animals and use language-dependent effects, such as telepathy, on them.\nDescription\nWith their nature split across the four elements, jann (singular janni) bear the closest resemblance to humanoids. Capable of visiting any Elemental Plane but incapable of surviving there longer than a couple of days, jann are nomadic and natural traders, ferrying goods and people among the Elemental Planes and the Material Plane. Jann magic is less potent than that of other genies, but the focus on interplanar travel allows jann to be creative in its application.\nThough composed and gregarious, jann can be suspicious of others’ motivations. They are prideful, like most genies, and are quick to anger if they feel insulted. Jann also have a tradition of hospitality. They rarely turn away a creature in need, especially when that need is something as simple as shelter or sustenance. However, most jann expect reciprocation for their kindness.\nA janni stands about 6 feet tall and weighs around 180 pounds.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

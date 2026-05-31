@@ -1,0 +1,70 @@
+{
+  "name": "Spectra, Nacrea",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Nacrea&Family=Spectra",
+  "source": "Alien Archive 3 pg. 102",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, spectra)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., Driftsense 1 mile;",
+  "perception": "+28",
+  "hp": "255",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+14",
+  "ref": "+16",
+  "will": "+19",
+  "dr": "10/chaotic",
+  "sr": "26",
+  "immunities": "electricity;",
+  "resistances": "cold 5, sonic 5;",
+  "speed": "30 ft. fly 90 ft. (Ex, perfect)",
+  "melee": "slam +25 (6d8+20 plus Drift strike [DC 24])",
+  "ranged": "helix beam +27 (6d4+16 C & F plus Drift strike [DC 24])",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th; melee +25",
+    "spells": "1/day—\ngravitational singularity\n(DC 26),\nplane shift\n(DC 26)\n3/day—\nholographic image\n(5th level, DC 25),\nholographic terrain\n(DC 25),\nrapid repair\n,\nwall of force\nAt-will—\noverload systems\n(DC 24),\nresilient sphere\n(DC 24)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+7",
+    "wis": "+10",
+    "cha": "+5"
+  },
+  "skills": "Computers +33, Engineering +33, Mysticism +33",
+  "languages": "machine telepathy 100 ft., truespeech",
+  "other_abilities": "slip drive, spaceflight (Mysticism)",
+  "environment": "any (the Drift)",
+  "organization": "solitary or prime (2, 3, 5, or 7)",
+  "special_abilities": [
+    {
+      "name": "Driftsense (Su)",
+      "description": "A nacrea can automatically pinpoint the location of Drift beacons, Drift drives, and other Drift-related technology within a 1 mile radius."
+    },
+    {
+      "name": "Drift Strike (Su)",
+      "description": "A creature struck by a nacrea’s attacks is teleported 30 feet to a location of the nacrea’s choosing (DC 24 Will save negates). This is a teleportation effect."
+    },
+    {
+      "name": "Helix Beam (Su)",
+      "description": "As a ranged attack, a nacrea can fire a twisting beam of flame and frost that has a range increment of 60 feet and the explode (10 feet, DC 24) and unwieldy weapon special properties."
+    },
+    {
+      "name": "Machine Telepathy (Ex)",
+      "description": "A spectra can communicate with and through technological devices within a certain range (usually 100 feet), as well as with other creatures that have machine telepathy. A spectra can also attempt Computers and Engineering checks at this range."
+    },
+    {
+      "name": "Slip Drive (Ex)",
+      "description": "A spectra has an internal biomechanical Drift engine that allows it to travel freely between the Drift and other planes, as well as between two non-Drift planes, using the normal rules for Drift navigation. A slip drive has an effective Drift engine rating equal to the half the spectra’s CR, and a spectra need remain stationary for only 1 round (6 seconds) before engaging its slip drive."
+    }
+  ],
+  "description": "One of the spectra—native inhabitants of the Drift—nacreas focus on the protection of Drift beacons and have been known to appear on ships with disabled Drift engines to perform repairs. With a hollow-faced head that seems to be filled with passing stars, a nacrea is surrounded by rings of solid light slowly spinning around a humanoid body made from what appears to be muscle-like clusters of wires and some kind of dull starmetal. Nacreas can rapidly travel through space and flit between beacons both within the Drift and without, yet they rarely linger for long, vanishing to a new location as soon as their targets are secured. As a result, despite being one of the most commonly found spectra on the Material Plane, they are also one of the most rarely seen, and were only recently confirmed to exist by planar scholars.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSpectra\nSource\nAlien Archive 3 pg. 102\nSpectra, a race of outsiders native to the newly discovered hyperspace plane of the Drift, are unique in the Great Beyond as a relatively recent addition to the multiverse, rising in prominence over the last 300 years alongside the proliferation of Drift technology. Concerned primarily with the protection and promulgation of the nascent plane, and of advanced technology in general, spectra are beings of paradox and dichotomy. Some metaphysicians believe that, just as the Drift grows by pulling in pieces of the multiverse each time a starship uses it to travel, so too are spectra created—amalgamations of raw, sometimes opposing energies born from the stolen pieces of other planes. Yet spectra are also undeniably of the Drift itself. They have inherent resistance to magic and can slip in and out of the Drift via innate esoteric—though purely technological—means. Some theorists posit that, like the beacons that enable travel through the Drift, spectra somehow exist simultaneously in multiple planes, manifesting in only one at any given time. Spectra rarely speak using their own voices, which are a mix of low-fidelity synthesized tones. They prefer to use their machine telepathy to temporarily harness nearby communication technology, speaking using a starship’s intercom or causing text to appear on a vidscreen, for instance.\nIridias are one of the few spectra encountered outside the Drift, most often on the Material Plane. Averaging 6 feet tall with opalescent skin and a coil of glistening rainbow light for hair, iridias serve as messengers and ambassadors to species of all planes, evangelizing the benefits of advanced technology and enforcing the tripartite will of Triune. Iridias have been known to visit remote worlds in the Vast where Triune’s original signal containing the secrets of Drift travel were lost or suppressed, bringing with them instructions and a second chance to join the galactic community. They are also keen to see mortal technology continue to grow and advance—an interest that can put them at odds with societies that choose to limit technology’s influence, as well as others wary of sudden unfettered progress, such as the tekhoinos aeons.\nAspecnas, powerful spectra paragons with fan-like tails and faces that resemble blooming flowers, rarely interact directly with the Material Plane. These formidable outsiders instead concern themselves with maintaining the precarious balance of power among extraplanar forces in the Drift, opposing any who would attempt to establish strongholds with the intent of laying their own claim to a substantial expanse of Triune’s realm. Aspecnas have on occasion appeared to correct the course of mortals who have become lost in the ever-shifting plane, and even intervened to protect weaker mortals from the predation of malevolent Drift-marooned outsiders. These rare but memorable acts have earned aspecnas the nickname “Drift angels” among those who regularly travel through the plane.\nAliens in the \"Spectra\" Family\nName\nCR\nAspecna\n18\nExcuba\n4\nIridia\n8\nNacrea\n16\nSondria\n14\nWyspiria\n11\nSpectra, Nacrea\nSource\nStarfinder #32: The Starstone Blockade pg. 60\nNacrea CR 16\nXP 76,800\nN Medium outsider (extraplanar, spectra)\nInit\n+5;\nSenses\ndarkvision 60 ft., Driftsense 1 mile;\nPerception\n+28\nDefense\nHP\n255\nEAC\n29;\nKAC\n30\nFort\n+14;\nRef\n+16;\nWill\n+19\nDefensive Abilities\nvoid adaptation;\nDR\n10/chaotic, evil, good, or lawful;\nImmunities\nelectricity;\nResistances\ncold 5, sonic 5;\nSR\n26\nOffense\nSpeed\n30 ft. fly 90 ft. (Ex, perfect)\nMelee\nslam +25 (6d8+20 plus Drift strike [DC 24])\nRanged\nhelix beam +27 (6d4+16 C & F plus Drift strike [DC 24])\nSpell-Like Abilities\n(CL 16th; melee +25)\n1/day—\ngravitational singularity\n(DC 26),\nplane shift\n(DC 26)\n3/day—\nholographic image\n(5th level, DC 25),\nholographic terrain\n(DC 25),\nrapid repair\n,\nwall of force\nAt-will—\noverload systems\n(DC 24),\nresilient sphere\n(DC 24)\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n+3;\nINT\n+7;\nWIS\n+10;\nCHA\n+5\nSkills\nComputers +33, Engineering +33, Mysticism +33\nLanguages\nmachine telepathy 100 ft., truespeech\nOther Abilities\nslip drive, spaceflight (Mysticism)\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary or prime (2, 3, 5, or 7)\nSpecial Abilities\nDriftsense (Su)\nA nacrea can automatically pinpoint the location of Drift beacons, Drift drives, and other Drift-related technology within a 1 mile radius.\nDrift Strike (Su)\nA creature struck by a nacrea’s attacks is teleported 30 feet to a location of the nacrea’s choosing (DC 24 Will save negates). This is a teleportation effect.\nHelix Beam (Su)\nAs a ranged attack, a nacrea can fire a twisting beam of flame and frost that has a range increment of 60 feet and the explode (10 feet, DC 24) and unwieldy weapon special properties.\nMachine Telepathy (Ex)\nA spectra can communicate with and through technological devices within a certain range (usually 100 feet), as well as with other creatures that have machine telepathy. A spectra can also attempt Computers and Engineering checks at this range.\nSlip Drive (Ex)\nA spectra has an internal biomechanical Drift engine that allows it to travel freely between the Drift and other planes, as well as between two non-Drift planes, using the normal rules for Drift navigation. A slip drive has an effective Drift engine rating equal to the half the spectra’s CR, and a spectra need remain stationary for only 1 round (6 seconds) before engaging its slip drive.\nDescription\nOne of the spectra—native inhabitants of the Drift—nacreas focus on the protection of Drift beacons and have been known to appear on ships with disabled Drift engines to perform repairs. With a hollow-faced head that seems to be filled with passing stars, a nacrea is surrounded by rings of solid light slowly spinning around a humanoid body made from what appears to be muscle-like clusters of wires and some kind of dull starmetal. Nacreas can rapidly travel through space and flit between beacons both within the Drift and without, yet they rarely linger for long, vanishing to a new location as soon as their targets are secured. As a result, despite being one of the most commonly found spectra on the Material Plane, they are also one of the most rarely seen, and were only recently confirmed to exist by planar scholars.\nExtra Content\nThe following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "type": "outsider (extraplanar, spectra)",
+  "category": "alien"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Radiation Drake, Slasher",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Slasher&Family=Radiation Drake",
+  "source": "Alien Archive 4 pg. 94",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "dragon",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+17",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+5",
+  "dr": "5/magic",
+  "immunities": "paralysis, radiation, sleep",
+  "speed": "30 ft., fly 60 ft. (Ex, average)",
+  "melee": "bite +13 (1d6+8 P plus radiation exposure)",
+  "ranged": "atomic bezoar +10 (1d8 F plus radiation exposure)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "-2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Intimidate +15, Survival +10",
+  "languages": "Draconic",
+  "environment": "any land",
+  "organization": "solitary, pair, or glow (3–8)",
+  "special_abilities": [
+    {
+      "name": "Atomic Bezoar (Ex)",
+      "description": "A radiation drake slasher lacks a breath weapon yet can spit a mass of radioactive material that explodes on contact. The attack has a range increment of 20 feet, has the explode special weapon property (5 ft., DC 13), and can be used only once every other round."
+    },
+    {
+      "name": "Radiation Exposure (Ex)",
+      "description": "A creature that takes Hit Point damage from the radiation drake’s attacks is exposed to low radiation. This radiation bypasses environmental protections in armor."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRadiation Drake\nSource\nAlien Archive 4 pg. 94\nRadiation drakes are dangerous predators found on worlds with extensive radioactivity, such as natural deposits of radioactive ores or irradiated wastelands left by atomic warfare. They are dark in coloration, most often black or dull green, but they have bright crystalline teeth and spikes along their spines. A radiation drake has a draconic appearance, with a long neck and tail, wings, and powerful hind legs, but lacks front legs.\nIn addition to its fearsome bite, a radiation drake can unleash gouts of superheated radioactive material. However, this technique requires considerable practice. Hatchlings can do little more than drool fiery puddles—an ability that they quickly learn to control lest they burn themselves. Juveniles practice regularly, leaving scorched scars in their territory as they swallow small stones, irradiate the pebbles, and learn to regurgitate the radioactive projectiles. Yet only the adults truly master the techniques, spitting fire with precision without relying on any supplemental material whatsoever. These radioactive attacks all cause the crystalline spikes along a radiation drake’s spine to glow with white-hot light.\nRadiation drakes lay their eggs in semi-molten surfaces, such as stone, plastics, or even ceramic the drakes vitrify with their breath. Where possible, a radiation drake situates its nest near sources of radiation, such as nuclear power stations, naturally radioactive rock formations, or even the bodies of fallen kaiju— enormous creatures of unknown origin. Once laid, a drake egg’s maturation depends on how much radiation it can absorb, with heavily toxic environments fueling rapid development.\nYet whelps don’t come only from adult radiation drakes. Their eggs periodically appear on worlds with no prior radiation drake sightings, suggesting that under certain conditions, other drakes’ eggs can mutate and hatch radiation drakes.\nRadiation drakes rarely bother to do anything but act out on their most instinctive impulses unless driven to do so or guided by a worthy ally. Those allies are few and far between, as the drakes are violently territorial and radioactive, and they rarely form bonds with creatures. Ellicoths occasionally form friendly bands with radiation drakes, with the latter perching atop the spindly beasts and periodically dragging prey to drop before the ellicoths to maintain the peace. Hespers occasionally recruit radiation drakes, relying on the latter’s raw strength to access well-defended reactors and other technology. However, the alliances are usually short‑lived, as the drakes rarely have the patience to act as guards, usually instead laying waste to the devices the hespers so desperately want.\nAliens in the \"Radiation Drake\" Family\nName\nCR\nAdult\n9\nSlasher\n4\nRadiation Drake, Slasher\nSource\nAlien Archive 4 pg. 94\nSlasher CR 4\nXP 1,200\nCE Medium dragon\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+17\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+8;\nWill\n+5\nDR\n5/magic;\nImmunities\nparalysis, radiation, sleep\nOffense\nSpeed\n30 ft., fly 60 ft. (Ex, average)\nMelee\nbite +13 (1d6+8 P plus radiation exposure)\nRanged\natomic bezoar +10 (1d8 F plus radiation exposure)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n-2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +10, Intimidate +15, Survival +10\nLanguages\nDraconic\nEcology\nEnvironment\nany land\nOrganization\nsolitary, pair, or glow (3–8)\nSpecial Abilities\nAtomic Bezoar (Ex)\nA radiation drake slasher lacks a breath weapon yet can spit a mass of radioactive material that explodes on contact. The attack has a range increment of 20 feet, has the explode special weapon property (5 ft., DC 13), and can be used only once every other round.\nRadiation Exposure (Ex)\nA creature that takes Hit Point damage from the radiation drake’s attacks is exposed to low radiation. This radiation bypasses environmental protections in armor.",
+  "type": "dragon",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Radiation_Drake.png"
+}

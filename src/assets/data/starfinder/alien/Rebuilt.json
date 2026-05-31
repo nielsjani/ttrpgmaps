@@ -1,0 +1,46 @@
+{
+  "name": "Rebuilt",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Rebuilt&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 279",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "150",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+8",
+  "dr": "5/—",
+  "weaknesses": "unworkable extremities",
+  "speed": "15 ft.",
+  "melee": "slam +17 (2d6+12 B)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-2",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +14, Athletics +19, Intimidate +14, Survival +19",
+  "languages": "Vulgar Kishaleen (can’t speak)",
+  "environment": "any ruins (Nejeor VI)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Unworkable Extremities (Ex)",
+      "description": "A rebuilt can neither wield weapons nor use items that require an action to activate."
+    }
+  ],
+  "description": "Modern medical equipment, like any technology, can malfunction, sometimes resulting in further injury to a patient or even a fatality. Rarer still is the catastrophic glitch that results in a fate worse than death. The tortured monstrosities known as rebuilt are created when a technological medical procedure goes horribly awry, irreparably fracturing the victim’s genetic code and reshaping the patient’s body into something that barely resembles its previous form.\nCreatures that have been rebuilt in this way have limbs that jut in odd directions, and their flesh can be turned inside out, exposing misshapen organs to the air. Much of a rebuilt’s biology doesn’t function as it previously did. Because of its perpetual agony and the rearrangement of its physiology, a rebuilt can speak only in tortured moans and screams. Strangely, this reshaping doesn’t make a rebuilt more susceptible to damage; pain effects pale in comparison to its constant agony, and its often-ossified flesh protects it from mundane harm. A rebuilt has no capacity for higher reasoning, and it lashes out at anything in its way with ruinously transformed limbs.\nRebuilt are very rare, as horrified hospital personnel usually euthanize such unfortunates as soon as they arise. They mostly appear in ruined areas where medical equipment has been left unattended or in places that are exposed to high doses of radiation or mystical forces.",
+  "extra_content": "The following extra content was found for this creature:\n-\nRebuilt (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRebuilt\nSource\nStarfinder Dead Suns Adventure Path pg. 279\n,\nStarfinder #4: The Ruined Clouds pg. 60\nRebuilt CR 7\nXP 3,200\nCN Medium aberration\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n150\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+9;\nWill\n+8; +4 vs. pain effects\nDefensive Abilities\namorphous;\nDR\n5/—\nWeaknesses\nunworkable extremities\nOffense\nSpeed\n15 ft.\nMelee\nslam +17 (2d6+12 B)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+4;\nINT\n-2;\nWIS\n+0;\nCHA\n-2\nSkills\nAcrobatics +14, Athletics +19, Intimidate +14, Survival +19\nLanguages\nVulgar Kishaleen (can’t speak)\nEcology\nEnvironment\nany ruins (Nejeor VI)\nOrganization\nsolitary or pair\nSpecial Abilities\nUnworkable Extremities (Ex)\nA rebuilt can neither wield weapons nor use items that require an action to activate.\nDescription\nModern medical equipment, like any technology, can malfunction, sometimes resulting in further injury to a patient or even a fatality. Rarer still is the catastrophic glitch that results in a fate worse than death. The tortured monstrosities known as rebuilt are created when a technological medical procedure goes horribly awry, irreparably fracturing the victim’s genetic code and reshaping the patient’s body into something that barely resembles its previous form.\nCreatures that have been rebuilt in this way have limbs that jut in odd directions, and their flesh can be turned inside out, exposing misshapen organs to the air. Much of a rebuilt’s biology doesn’t function as it previously did. Because of its perpetual agony and the rearrangement of its physiology, a rebuilt can speak only in tortured moans and screams. Strangely, this reshaping doesn’t make a rebuilt more susceptible to damage; pain effects pale in comparison to its constant agony, and its often-ossified flesh protects it from mundane harm. A rebuilt has no capacity for higher reasoning, and it lashes out at anything in its way with ruinously transformed limbs.\nRebuilt are very rare, as horrified hospital personnel usually euthanize such unfortunates as soon as they arise. They mostly appear in ruined areas where medical equipment has been left unattended or in places that are exposed to high doses of radiation or mystical forces.\nExtra Content\nThe following extra content was found for this creature:\n-\nRebuilt (Other) Graft Template",
+  "type": "aberration",
+  "category": "alien"
+}

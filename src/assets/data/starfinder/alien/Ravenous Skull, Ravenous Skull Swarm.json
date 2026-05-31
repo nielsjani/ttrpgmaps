@@ -1,0 +1,52 @@
+{
+  "name": "Ravenous Skull, Ravenous Skull Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ravenous Skull Swarm&Family=Ravenous Skull",
+  "source": "Starfinder #49: A Light in the Dark pg. 61",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NE",
+  "size": "Tiny",
+  "creature_type": "undead (swarm)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+7",
+  "dr": "5/magic",
+  "immunities": "swarm immunities, undead immunities",
+  "speed": "10 ft., fly 30 ft. (Su, average)",
+  "melee": "swarm attack (1d4+9 P plus bloody bites)",
+  "space": "10",
+  "reach": "0",
+  "offensive_abilities": "distraction (DC 14)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "—",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +18, Athletics +13, Stealth +13",
+  "other_abilities": "mindless, unliving",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Bloody Bites (Ex)",
+      "description": "The skull swarm gnaws on living creatures, tearing away flesh and leaving terrible, bloody wounds. Each time the skull swarm deals 12 or more piercing damage to a living creature in a single round, that living creature gains the bleeding condition (bleed 1d4)."
+    },
+    {
+      "name": "Clattering Jaws (Su)",
+      "description": "A ravenous skull swarm's constantly clattering jaws creates a chorus of ominous, taunting laughter. A creature that is within this aura, can hear the skull swarm, and fails a DC 14 Will saving throw is shaken for as long as it remains in the aura plus 1d4 rounds. This is a mind-affecting fear effect."
+    }
+  ],
+  "description": "Ravenous skulls are flying humanoid skulls driven by ceaseless hunger to consume living f esh. Mindless creatures, they act on instinct, and are often formed from the skulls of those who died of starvation or in terrible necromantic rituals. Rarely, a group of ravenous skulls forms a skull swarm.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRavenous Skull\nAliens in the \"Ravenous Skull\" Family\nName\nCR\nRavenous Skull\n1\nRavenous Skull Swarm\n6\nRavenous Skull, Ravenous Skull Swarm\nSource\nStarfinder #49: A Light in the Dark pg. 61\nRavenous Skull Swarm CR 6\nXP 2,400\nNE Tiny undead (swarm)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nAura\nclattering jaws (15ft., DC 14)\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+8;\nWill\n+7\nDefensive Abilities\nswarm defenses;\nDR\n5/magic;\nImmunities\nswarm immunities, undead immunities\nOffense\nSpeed\n10 ft., fly 30 ft. (Su, average)\nMelee\nswarm attack (1d4+9 P plus bloody bites)\nSpace\n10;\nReach\n0\nOffensive Abilities\ndistraction (DC 14)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n—;\nINT\n—;\nWIS\n+2;\nCHA\n+1\nSkills\nAcrobatics +18, Athletics +13, Stealth +13\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nBloody Bites (Ex)\nThe skull swarm gnaws on living creatures, tearing away flesh and leaving terrible, bloody wounds. Each time the skull swarm deals 12 or more piercing damage to a living creature in a single round, that living creature gains the bleeding condition (bleed 1d4).\nClattering Jaws (Su)\nA ravenous skull swarm's constantly clattering jaws creates a chorus of ominous, taunting laughter. A creature that is within this aura, can hear the skull swarm, and fails a DC 14 Will saving throw is shaken for as long as it remains in the aura plus 1d4 rounds. This is a mind-affecting fear effect.\nDescription\nRavenous skulls are flying humanoid skulls driven by ceaseless hunger to consume living f esh. Mindless creatures, they act on instinct, and are often formed from the skulls of those who died of starvation or in terrible necromantic rituals. Rarely, a group of ravenous skulls forms a skull swarm.",
+  "type": "undead (swarm)",
+  "category": "alien"
+}

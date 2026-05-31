@@ -1,0 +1,69 @@
+{
+  "name": "Sceaduinar",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sceaduinar&Family=None",
+  "source": "Starfinder #42: Whispers of the Eclipse pg. 55",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+5",
+  "senses": "darkvision 120 ft., blindsense (life) 120 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+6",
+  "dr": "10/adamantine or good",
+  "sr": "18",
+  "immunities": "cold, death effects, disease, energy drain, poison;",
+  "resistances": "acid 10, electricity 10, sonic 10;",
+  "speed": "40 ft., fly 90 ft. (Su, good)",
+  "melee": "bite +15 (1d8+11 P plus 1d6 C and energy drain) or wing +15 (2d6+9 B plus 1d6 C)",
+  "offensive_abilities": "create darkness, energy drain (1 level, DC 15), entropic touch",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th; ranged +18",
+    "spells": "3/day—\ndispel magic\n,\nenervation\nAt will—\ndimension door\n(self only)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +19 (+27 to fly), Mysticism +14, Sense Motive +14, Stealth +14",
+  "languages": "Aklo, Common",
+  "other_abilities": "hidden from undead, negative energy affinity",
+  "environment": "any (Negative Energy Plane)",
+  "organization": "solitary or death squad (2–11)",
+  "special_abilities": [
+    {
+      "name": "Entropic Flesh (Ex)",
+      "description": "An adjacent creature that hits a sceaduinar with a melee attack takes 1d6 of cold damage."
+    },
+    {
+      "name": "Entropic Touch (Ex)",
+      "description": "A sceaduinar’s natural attacks can strike incorporeal creatures as if they had the ghost killer fusion. All of a sceaduinar’s natural attacks deal an additional 1d6 of cold damage to the target."
+    },
+    {
+      "name": "Hidden from Undead (Su)",
+      "description": "Undead creatures can’t perceive a sceaduinar using any senses unless they succeed at a DC 15 Will save."
+    },
+    {
+      "name": "Negative Energy Affinity (Su)",
+      "description": "A sceaduinar is treated as an undead creature for the purposes of spells, abilities, and effects that heal, deal damage to, or bypass the resistances of an undead creature. Similarly, a sceaduinar is treated as an unliving creature for spells, abilities, and effects that heal living creatures."
+    },
+    {
+      "name": "Void Child (Ex)",
+      "description": "Sceaduinars are immune to effects that target souls (such as a soul upload trap) or require knowledge of a creature’s identity (such as scrying). When slain, they can’t be restored to life by magic except by a miracle or wish, or by divine intervention."
+    }
+  ],
+  "description": "Within the Negative Energy Plane, the purest form of negative energy crystallizes to form the hateful sceaduinars. Somewhat resembling gargoyles, sceaduinars have bat-like heads, wide wingspans, and bodies seemingly made of jagged, purple crystals. They despise both the living and the undead, existing somewhere between the two. The only exceptions to their vitriol are voidshard vampires (page 60), the unusual undead that can be created when a sceaduinar kills a living creature in a place attuned to the Negative Energy Plane. While sceaduinars don’t exactly like these vampires, they also don’t destroy them outright. Sceaduinars reserve a special hatred for their positive energy counterparts, the jyoti, believing that the jyoti stole their ability to create, leaving them only with the ability to destroy.\nSceaduinars generally avoid each other, coming together only when necessary to fight a particularly dangerous threat. These death squads remain together only long enough for battle, then quickly disperse. Sceaduinars find some comfort in the empty void of space, which is the closest the Material Plane comes to negative energy, but when starships happen to pass nearby, a sceaduinar can still take out an entire crew before they have any chance to escape.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSceaduinar\nSource\nStarfinder #42: Whispers of the Eclipse pg. 55\nSceaduinar CR 7\nXP 3,200\nNE Medium outsider (extraplanar)\nInit\n+5;\nSenses\ndarkvision 120 ft., blindsense (life) 120 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+6\nDefensive Abilities\nentropic flesh, void child;\nDR\n10/adamantine or good;\nImmunities\ncold, death effects, disease, energy drain, poison;\nResistances\nacid 10, electricity 10, sonic 10;\nSR\n18\nOffense\nSpeed\n40 ft., fly 90 ft. (Su, good)\nMelee\nbite +15 (1d8+11 P plus 1d6 C and energy drain) or wing +15 (2d6+9 B plus 1d6 C)\nOffensive Abilities\ncreate darkness, energy drain (1 level, DC 15), entropic touch\nSceaduinar Spell-Like Abilities\n(CL 7th; ranged +18)\n3/day—\ndispel magic\n,\nenervation\nAt will—\ndimension door\n(self only)\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n+2;\nINT\n+1;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +19 (+27 to fly), Mysticism +14, Sense Motive +14, Stealth +14\nLanguages\nAklo, Common\nOther Abilities\nhidden from undead, negative energy affinity\nEcology\nEnvironment\nany (Negative Energy Plane)\nOrganization\nsolitary or death squad (2–11)\nSpecial Abilities\nEntropic Flesh (Ex)\nAn adjacent creature that hits a sceaduinar with a melee attack takes 1d6 of cold damage.\nEntropic Touch (Ex)\nA sceaduinar’s natural attacks can strike incorporeal creatures as if they had the ghost killer fusion. All of a sceaduinar’s natural attacks deal an additional 1d6 of cold damage to the target.\nHidden from Undead (Su)\nUndead creatures can’t perceive a sceaduinar using any senses unless they succeed at a DC 15 Will save.\nNegative Energy Affinity (Su)\nA sceaduinar is treated as an undead creature for the purposes of spells, abilities, and effects that heal, deal damage to, or bypass the resistances of an undead creature. Similarly, a sceaduinar is treated as an unliving creature for spells, abilities, and effects that heal living creatures.\nVoid Child (Ex)\nSceaduinars are immune to effects that target souls (such as a soul upload trap) or require knowledge of a creature’s identity (such as scrying). When slain, they can’t be restored to life by magic except by a miracle or wish, or by divine intervention.\nDescription\nWithin the Negative Energy Plane, the purest form of negative energy crystallizes to form the hateful sceaduinars. Somewhat resembling gargoyles, sceaduinars have bat-like heads, wide wingspans, and bodies seemingly made of jagged, purple crystals. They despise both the living and the undead, existing somewhere between the two. The only exceptions to their vitriol are voidshard vampires (page 60), the unusual undead that can be created when a sceaduinar kills a living creature in a place attuned to the Negative Energy Plane. While sceaduinars don’t exactly like these vampires, they also don’t destroy them outright. Sceaduinars reserve a special hatred for their positive energy counterparts, the jyoti, believing that the jyoti stole their ability to create, leaving them only with the ability to destroy.\nSceaduinars generally avoid each other, coming together only when necessary to fight a particularly dangerous threat. These death squads remain together only long enough for battle, then quickly disperse. Sceaduinars find some comfort in the empty void of space, which is the closest the Material Plane comes to negative energy, but when starships happen to pass nearby, a sceaduinar can still take out an entire crew before they have any chance to escape.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

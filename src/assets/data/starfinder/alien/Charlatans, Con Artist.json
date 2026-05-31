@@ -1,0 +1,46 @@
+{
+  "name": "Charlatans, Con Artist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Con Artist&Family=Charlatans",
+  "source": "Interstellar Species pg. 158",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "humanoid (vlaka)",
+  "init": "+1",
+  "senses": "blindsense (scent) 30 ft., low-light vision;",
+  "perception": "+9",
+  "hp": "12",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+0",
+  "ref": "+0",
+  "will": "+5",
+  "resistances": "cold 5",
+  "speed": "30 ft.",
+  "melee": "survival knife +2 (1d4 S)",
+  "ranged": "pulsecaster pistol +4 (1d4 E) or smoke grenade +4 (explode [20 ft., smoke cloud 1 min., DC 15 + 1 per previous check])",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Bluff +9, Computers +4, Culture +9, Diplomacy +9, Sense Motive +9*, Stealth +4",
+  "languages": "Common, Vlakan (signed, spoken, and tactile), up to 1 other",
+  "other_abilities": "buoy , cooperative , practiced liar",
+  "gear": "flight suit stationwear, pulsecaster pistol with 2 batteries (20 charges each), survival knife, smoke grenade (2)",
+  "special_abilities": [
+    {
+      "name": "Practiced Liar (Ex)",
+      "description": "When a con artist attempts a Bluff check to lie, they can spend 1 Resolve Point to make the DC of their Bluff check equal to 10 + the target’s total Sense Motive bonus, even if the target is suspicious of the con artist. The con artist also gains a +2 circumstance bonus on such a Bluff check."
+    }
+  ],
+  "description": "Con artists are small-time scammers who bilk the gullible of credits by convincing them something false is true. The street corner psychic spins fortunes for credits, the down-on-their-luck billionaire needs a favor, and the lawyer requests banking information to transfer a distant relative’s inheritance. Most rely on fast talk, quick wits, and a well-told lie, but others excel in technological scams.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCharlatans\nSource\nInterstellar Species pg. 158\nThroughout the galaxy charlatans run countless cons, scams, and tricks, from small scale to large, from harmless to downright dangerous. Although their methods, modes, and goals vary, charlatans are nearly always selfish, greedy, and unscrupulous. Occasionally, a charlatan uses their skills to entertain, inspire, and astound—or to rip off oppressors, villains, and faceless mega corporations—but they’re the exception, not the rule. The following charlatans represent a diverse array of con artists, scammers, and impostors.\nAliens in the \"Charlatans\" Family\nName\nCR\nCon Artist\n1/2\nFalse Prophet\n8\nGrifter\n2\nImpostor\n6\nCharlatans, Con Artist\nSource\nInterstellar Species pg. 158\nCon Artist CR 1/2\nXP 200\nVlaka\nCN Medium humanoid (vlaka)\nInit\n+1;\nSenses\nblindsense (scent) 30 ft., low-light vision;\nPerception\n+9\nDefense\nHP\n12;\nRP\n3\nEAC\n10;\nKAC\n11\nFort\n+0;\nRef\n+0;\nWill\n+5\nResistances\ncold 5\nOffense\nSpeed\n30 ft.\nMelee\nsurvival knife +2 (1d4 S)\nRanged\npulsecaster pistol +4 (1d4 E) or smoke grenade +4 (explode [20 ft., smoke cloud 1 min., DC 15 + 1 per previous check])\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+0;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nBluff +9, Computers +4, Culture +9, Diplomacy +9, Sense Motive +9*, Stealth +4\nLanguages\nCommon, Vlakan (signed, spoken, and tactile), up to 1 other\nOther Abilities\nbuoy , cooperative , practiced liar\nGear\nflight suit stationwear, pulsecaster pistol with 2 batteries (20 charges each), survival knife, smoke grenade (2)\nSpecial Abilities\nPracticed Liar (Ex)\nWhen a con artist attempts a Bluff check to lie, they can spend 1 Resolve Point to make the DC of their Bluff check equal to 10 + the target’s total Sense Motive bonus, even if the target is suspicious of the con artist. The con artist also gains a +2 circumstance bonus on such a Bluff check.\nDescription\nCon artists are small-time scammers who bilk the gullible of credits by convincing them something false is true. The street corner psychic spins fortunes for credits, the down-on-their-luck billionaire needs a favor, and the lawyer requests banking information to transfer a distant relative’s inheritance. Most rely on fast talk, quick wits, and a well-told lie, but others excel in technological scams.",
+  "type": "humanoid (vlaka)",
+  "environment": "—",
+  "category": "alien"
+}

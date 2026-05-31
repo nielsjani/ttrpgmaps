@@ -1,0 +1,50 @@
+{
+  "name": "Osifern, Enigma",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Enigma&Family=Osifern",
+  "source": "Alien Archive 4 pg. 82",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal (aquatic)",
+  "init": "+6",
+  "senses": "blindsight 120 ft. (sound), sightless;;",
+  "perception": "+16",
+  "hp": "110",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+7",
+  "resistances": "cold 5",
+  "speed": "swim 50 ft.",
+  "melee": "bite +19 (3d4+12 P plus swallow whole) or slam +19 (1d10+12 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "enigmatic eruption, swallow whole (3d4+12 A, EAC 20, KAC 18, 27 HP)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +21, Stealth +16",
+  "environment": "aquatic (any water)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Depth Inured (Ex)",
+      "description": "An osifern enigma is immune to the dangers of extreme depths."
+    },
+    {
+      "name": "Enigmatic Eruption (Ex)",
+      "description": "Three times per day as a standard action, an osifern enigma can regurgitate glittering digestive enzymes in a 30-foot cone. The enzyme deals 6d6 acid damage to creatures and objects in the area, and creatures in the area are blinded for 1d4 rounds; a creature that succeeds at a DC 16 Reflex save takes half damage and negates the blindness."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOsifern\nSource\nAlien Archive 4 pg. 82\nOften mistaken for vegetation, osiferns have proliferated in countless worlds’ shallow waterways. These largely sessile filter feeders anchor themselves to rocks, coral, shipwrecks or, occasionally, the shells of larger creatures early in life, rarely if ever moving from that spot. Resembling translucent tubes, osiferns are famous for their visible and deceptively sturdy internal skeleton—a defensive counterpoint to the creatures’ soft and flexible exteriors. Opaque, varied markings give them the appearance of having faces, although they don’t have eyes. While these patterns provide camouflage for young osiferns or spook potential predators, many adults sport bright, distinctive “faces” that make them stand out rather than blend in.\nAlthough outwardly endearing and harmless, osiferns are remarkably dangerous. Highly resilient, these creatures can adapt to salty, brackish, or fresh water without difficulty. Osiferns also readily bludgeon neighboring creatures to eliminate competition within their territories, and the enzymes they spray in self-defense conveniently also break down trespassers’ flesh into morsels the osiferns can absorb. Their gregarious sprouts can grow into vast osifern gardens; they can alert each other to danger through chemical signals, rallying rudimentary group defenses.\nDangerous enough with their normal life cycle, osiferns infrequently congregate and then collectively metamorphose into an osifern enigma—a large, free-swimming predator with a central notochord and a mouth ringed with thick, ropy tendrils. The composite body has pneumatic mouthparts and teeth capable of grabbing and swallowing larger prey, in contrast to smaller osiferns’ filter feeding method. Most enigmas studied so far appear approximately 10 feet long and weigh 250 pounds, yet scars left on their escaped prey suggest they can reach twice this size or larger. Osifern enigmas can swiftly undulate through the water to reach deeper areas, where they commonly adapt to crushing depths and frigid temperatures (though enigmas that live near volcanic vents often have resistance to fire instead of cold).\nEnigmas demonstrate a surprising degree of aesthetic sensibilities, as they seem to enjoy making visual statements with their bodily markings, expelling jets of bioluminescence without warning and even grafting sparkly rocks or the bones of their prey onto their diaphanous bodies to augment their appearances.\nScientific expeditions regularly hire adventurous divers and submersible pilots to help study (or even capture) enigmas, whereas conservation programs just as often send contractors with the same skills to eliminate osifern infestations.\nAliens in the \"Osifern\" Family\nName\nCR\nEnigma\n8\nSprout\n1/2\nOsifern, Enigma\nSource\nAlien Archive 4 pg. 78\nEnigma CR 8\nXP 4,800\nN Large animal (aquatic)\nInit\n+6;\nSenses\nblindsight 120 ft. (sound), sightless;;\nPerception\n+16\nDefense\nHP\n110\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+12;\nWill\n+7\nDefensive Abilities\ndepth inured, regeneration 5 (electricity);\nResistances\ncold 5\nOffense\nSpeed\nswim 50 ft.\nMelee\nbite +19 (3d4+12 P plus swallow whole) or slam +19 (1d10+12 B)\nMultiattack\n3 slams +13 (1d10+12 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nenigmatic eruption, swallow whole (3d4+12 A, EAC 20, KAC 18, 27 HP)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +21, Stealth +16\nEcology\nEnvironment\naquatic (any water)\nOrganization\nsolitary\nSpecial Abilities\nDepth Inured (Ex)\nAn osifern enigma is immune to the dangers of extreme depths.\nEnigmatic Eruption (Ex)\nThree times per day as a standard action, an osifern enigma can regurgitate glittering digestive enzymes in a 30-foot cone. The enzyme deals 6d6 acid damage to creatures and objects in the area, and creatures in the area are blinded for 1d4 rounds; a creature that succeeds at a DC 16 Reflex save takes half damage and negates the blindness.",
+  "type": "animal (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Osifern_Enigma.png"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Thieves, Phantom Thief",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Phantom Thief&Family=Thieves",
+  "source": "Interstellar Species pg. 185",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (pahtra)",
+  "init": "+9",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+26",
+  "hp": "255",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+13",
+  "ref": "+15",
+  "will": "+18",
+  "speed": "40 ft.",
+  "melee": "zero-edge dagger +24 (6d4+19 S)",
+  "ranged": "inductive anchor pistol +26 (4d6+15 E nonlethal; critical bind)",
+  "offensive_abilities": "dispel defenses",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+9",
+    "con": "+3",
+    "int": "+5",
+    "wis": "+4",
+    "cha": "+7"
+  },
+  "skills": "Acrobatics +31, Athletics +31 (+2 to climb metal surfaces), Bluff +26, Computers +26, Engineering +26, Stealth +31",
+  "languages": "Castrovelian, Common, Draconic, Kasatha, Pahtra, Vercite, Vesk",
+  "other_abilities": "blend",
+  "gear": "diamond carbon skin, inductive anchor pistol with 2 super-capacity batteries (80 charges each), zero-edge dagger,",
+  "special_abilities": [
+    {
+      "name": "Blend (Su)",
+      "description": "As a swift action, the phantom thief can spend 1 Resolve Point to appear insubstantial, fading into the background. Though not true invisibility, this gives the phantom thief a +2 bonus to Stealth checks for the next 10 minutes (+4 if they haven’t moved for the past round)."
+    },
+    {
+      "name": "Dispel Defenses (Su)",
+      "description": "The phantom thief is adept at dispelling magical traps and protections. As a standard action, they can spend 1 Resolve Point to unravel a magical effect, as a targeted dispel magic, using their CR as their caster level for the dispel check."
+    }
+  ],
+  "description": "Phantom thieves view themselves as the elite of the thieving world, carrying out their thefts with a trademark panache. Most phantom thieves exclusively target the wealthy, whose possessions present the most tempting targets. Many leave behind some sort of calling card to mark a theft as their work.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThieves\nSource\nInterstellar Species pg. 185\nThieves are common throughout the galaxy, though more numerous in larger cities and space stations. They have a variety of methods and motivations for snaring others’ property; some thieves strike back against an amoral corporate system that left them behind, while others selfishly prey on those with little power to defend their possessions. PCs can encounter thieves in numerous circumstances, whether as unsavory associates, crafty foes, or on-again-off-again allies and rivals.\nAliens in the \"Thieves\" Family\nName\nCR\nMugger\n6\nPhantom Thief\n15\nPickpocket\n1\nSafecracker\n10\nThieves, Phantom Thief\nSource\nInterstellar Species pg. 185\nPhantom Thief CR 15\nXP 51,200\nPahtra\nN Medium humanoid (pahtra)\nInit\n+9;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+26\nDefense\nHP\n255;\nRP\n6\nEAC\n29;\nKAC\n30\nFort\n+13;\nRef\n+15;\nWill\n+18; +2 vs. charm and compulsion\nDefensive Abilities\nnimble, wary\nOffense\nSpeed\n40 ft.\nMelee\nzero-edge dagger +24 (6d4+19 S)\nRanged\ninductive anchor pistol +26 (4d6+15 E nonlethal; critical bind)\nOffensive Abilities\ndispel defenses\nStatistics\nSTR\n+4;\nDEX\n+9;\nCON\n+3;\nINT\n+5;\nWIS\n+4;\nCHA\n+7\nSkills\nAcrobatics +31, Athletics +31 (+2 to climb metal surfaces), Bluff +26, Computers +26, Engineering +26, Stealth +31\nLanguages\nCastrovelian, Common, Draconic, Kasatha, Pahtra, Vercite, Vesk\nOther Abilities\nblend\nGear\ndiamond carbon skin, inductive anchor pistol with 2 super-capacity batteries (80 charges each), zero-edge dagger,\ninfiltration assistant\nSpecial Abilities\nBlend (Su)\nAs a swift action, the phantom thief can spend 1 Resolve Point to appear insubstantial, fading into the background. Though not true invisibility, this gives the phantom thief a +2 bonus to Stealth checks for the next 10 minutes (+4 if they haven’t moved for the past round).\nDispel Defenses (Su)\nThe phantom thief is adept at dispelling magical traps and protections. As a standard action, they can spend 1 Resolve Point to unravel a magical effect, as a targeted dispel magic, using their CR as their caster level for the dispel check.\nDescription\nPhantom thieves view themselves as the elite of the thieving world, carrying out their thefts with a trademark panache. Most phantom thieves exclusively target the wealthy, whose possessions present the most tempting targets. Many leave behind some sort of calling card to mark a theft as their work.",
+  "type": "humanoid (pahtra)",
+  "environment": "—",
+  "category": "alien"
+}

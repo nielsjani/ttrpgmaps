@@ -1,0 +1,52 @@
+{
+  "name": "Oni, Kanabo Commando",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kanabo Commando&Family=Oni",
+  "source": "Alien Archive 2 pg. 88",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (goblinoid, native)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "15",
+  "kac": "18",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+4",
+  "speed": "30 ft. (20 ft. in armor)",
+  "melee": "carbon steel curveblade +12 (1d10+7 S; critical bleed 1d6)",
+  "ranged": "autotarget rifle +9 (1d6+3 P) or flash grenade I +9 (explode [5 ft., blinded 1d4 rounds, DC 12])",
+  "offensive_abilities": "fighting styles (arcane assailant)",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "1/day—\ndisguise self\n,\nsupercharge weapon"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +13, Intimidate +8, Stealth +8",
+  "languages": "Common, Goblin",
+  "other_abilities": "rune of the eldritch knight",
+  "gear": "golemforged plating II, autotarget rifle with 50 longarm rounds, carbon steel curveblade, flash grenades I (2)",
+  "environment": "any",
+  "organization": "solitary, pair, strike vanguard (1 with 2–12 hobgoblin troopers), or elite squad (2–5)",
+  "special_abilities": [
+    {
+      "name": "Armor Savant (Ex)",
+      "description": "Kanabo have an innate mastery of the use of armor. When wearing armor, they gain a +1 racial bonus to AC. When wearing heavy armor, their armor check penalty is 1 less severe than normal."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nOni (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOni\nSource\nAlien Archive 2 pg. 88\nOni are a race of malevolent spirits given physical form. Most oni begin their existence as kami, spirits tasked with the protection of a specific part of the natural world, but for some reason reject their duties and turn to evil. Less often, the souls of particularly vile mortals can become oni upon death. When oni first form, they are intangible, powerless spirits. In places with strong connections to evil, or as a result of unspeakable rituals, these formless spirits can gain physical bodies drawn from a humanoid species, often one predisposed to war— though their spiritual origins also give them the power to shapeshift. There are known to be oni that resemble drow, humans, giants, shirrens, and vesk, but among the most common oni are the ja noi, who have ties to the violent and militarist race of\nhobgoblins\n.\nJa noi are distinct from hobgoblins in appearance due to their bright-red color, prominent ridges on their brow and forehead, a near-permanent facial grimace, and even greater size and muscular frames. Ja noi stand over 6 feet tall and weigh roughly 220 pounds. A ja noi is particularly driven to experience the sensations of battle, actively seeking to lead armies and build empires. Ja noi fight in close combat if possible, and while perfectly capable of reveling in victory won with starships and huge fighting machines, they take every opportunity to lead infantry assaults and fight in face-to-face confrontations. Ja noi often gather hobgoblin soldiers to fulfill their need to command troops. For their part, hobgoblins normally embrace the presence of a ja noi within their ranks, seeing them as among the most perfect expressions of the hobgoblin form and treating them as mighty heroes.\nSome hobgoblin groups interact so closely with ja noi that children are sometimes born to one ja noi parent and one hobgoblin parent. Known as kanabo, a term that means “the strongest,” these oni-blooded goblinoids breed true with both ja noi and other goblinoids. They have innate powers that often make them champions of their people, though they also often develop an independent streak that causes them to reject hobgoblin rules and society. Kanabo share the size of their oni ancestors, but their appearance is much more variable, ranging from stout hobgoblins to forms closer to half-orcs, and some even appear nearly human. The average kanabo is over 6 feet tall and weighs 250 pounds.\nAliens in the \"Oni\" Family\nName\nCR\nJa Noi\n5\nKanabo Commando\n3\nOni, Spirit\n2\nTsabagu\n10\nOni, Kanabo Commando\nSource\nAlien Archive 2 pg. 88\nKanabo Commando CR 3\nXP 800\nKanabo soldier\nLE Medium outsider (goblinoid, native)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n40\nEAC\n15;\nKAC\n18\nFort\n+5;\nRef\n+5;\nWill\n+4\nDefensive Abilities\narmor savant\nOffense\nSpeed\n30 ft. (20 ft. in armor)\nMelee\ncarbon steel curveblade +12 (1d10+7 S; critical bleed 1d6)\nRanged\nautotarget rifle +9 (1d6+3 P) or flash grenade I +9 (explode [5 ft., blinded 1d4 rounds, DC 12])\nOffensive Abilities\nfighting styles (arcane assailant)\nSpell-Like Abilities\n(CL 3rd)\n1/day—\ndisguise self\n,\nsupercharge weapon\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +13, Intimidate +8, Stealth +8\nLanguages\nCommon, Goblin\nOther Abilities\nrune of the eldritch knight\nGear\ngolemforged plating II, autotarget rifle with 50 longarm rounds, carbon steel curveblade, flash grenades I (2)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, strike vanguard (1 with 2–12 hobgoblin troopers), or elite squad (2–5)\nSpecial Abilities\nArmor Savant (Ex)\nKanabo have an innate mastery of the use of armor. When wearing armor, they gain a +1 racial bonus to AC. When wearing heavy armor, their armor check penalty is 1 less severe than normal.\nExtra Content\nThe following extra content was found for this creature:\n-\nOni (Creature Subtype) Graft Template",
+  "type": "outsider (goblinoid, native)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Oni_Kanabo.png"
+}

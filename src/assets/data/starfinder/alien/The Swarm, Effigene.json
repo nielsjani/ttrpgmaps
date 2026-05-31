@@ -1,0 +1,54 @@
+{
+  "name": "The Swarm, Effigene",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Effigene&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "63",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+10",
+  "immunities": "acid, fear effects",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "bioelectric talon +11 (1d4+7 E & S)",
+  "ranged": "bioelectric arc +13 (1d4+5 E; critical arc 1d4)",
+  "offensive_abilities": "invigorate Swarm",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Engineering +11, Life Science +16, Medicine +16, Mysticism +11, Physical Science +11",
+  "languages": "Shirren (can’t speak); telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or team (3–6)",
+  "special_abilities": [
+    {
+      "name": "Bioelectric Arc (Ex)",
+      "description": "As a ranged attack, an effigene can unleash a blast of electrical energy with a range increment of 30 feet."
+    },
+    {
+      "name": "Invigorate Swarm (Ex)",
+      "description": "As a standard action, an effigene can manipulate the bioelectrical energy of an allied Swarm creature within 30 feet to cause unexpected movement. That creature can immediately take a guarded step or move up to its speed."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "The Swarm relies solely on biomechanical elements composed of living Swarm components, and these systems must be designed, constructed, and maintained. While individual components (including the larger Swarm structures and starships) seem to be fashioned through the will of the hive mind, effigenes are the Swarm’s bioengineers and medics, tasked with repairing and preserving these components. Effigenes, who are among the most intelligent of Swarm components, are stationed on worlds the Swarm have already conquered to oversee the biomachines used to drain a planet of its resources. Able to produce and manipulate bioelectric pulses, effigenes aren’t helpless, and they can employ this electricity in combat to grant their allies bursts of speed or as a deadly weapon.\nA Swarm effigene is taller and slighter of build than a corrovox, with dexterous, jointed talons that channel the bioelectric impulses they create. This monstrous humanoid also has four compound eyes spaced evenly across its face. Unlike most Swarm creatures, an effigene has no visible mouth and communicates solely through telepathy.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Effigene\nSource\nStarfinder #21: Huskworld pg. 57\nEffigene CR 5\nXP 1,600\nCE Medium monstrous humanoid\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n63\nEAC\n17;\nKAC\n18\nFort\n+4;\nRef\n+6;\nWill\n+10\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\nbioelectric talon +11 (1d4+7 E & S)\nRanged\nbioelectric arc +13 (1d4+5 E; critical arc 1d4)\nOffensive Abilities\ninvigorate Swarm\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n+5;\nWIS\n+1;\nCHA\n-1\nSkills\nEngineering +11, Life Science +16, Medicine +16, Mysticism +11, Physical Science +11\nLanguages\nShirren (can’t speak); telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or team (3–6)\nSpecial Abilities\nBioelectric Arc (Ex)\nAs a ranged attack, an effigene can unleash a blast of electrical energy with a range increment of 30 feet.\nInvigorate Swarm (Ex)\nAs a standard action, an effigene can manipulate the bioelectrical energy of an allied Swarm creature within 30 feet to cause unexpected movement. That creature can immediately take a guarded step or move up to its speed.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nThe Swarm relies solely on biomechanical elements composed of living Swarm components, and these systems must be designed, constructed, and maintained. While individual components (including the larger Swarm structures and starships) seem to be fashioned through the will of the hive mind, effigenes are the Swarm’s bioengineers and medics, tasked with repairing and preserving these components. Effigenes, who are among the most intelligent of Swarm components, are stationed on worlds the Swarm have already conquered to oversee the biomachines used to drain a planet of its resources. Able to produce and manipulate bioelectric pulses, effigenes aren’t helpless, and they can employ this electricity in combat to grant their allies bursts of speed or as a deadly weapon.\nA Swarm effigene is taller and slighter of build than a corrovox, with dexterous, jointed talons that channel the bioelectric impulses they create. This monstrous humanoid also has four compound eyes spaced evenly across its face. Unlike most Swarm creatures, an effigene has no visible mouth and communicates solely through telepathy.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

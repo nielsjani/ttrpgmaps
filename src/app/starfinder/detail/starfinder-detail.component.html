@@ -1,0 +1,185 @@
+<div class="sf-detail-page">
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a routerLink="/starfinder">Starfinder</a>
+    <span class="sep">›</span>
+    <a [routerLink]="listRoute">{{ listLabel }}</a>
+    <span class="sep">›</span>
+    <span>{{ detail?.name || slug }}</span>
+  </div>
+
+  <div class="state-msg"       *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <ng-container *ngIf="detail && !loading">
+    <div class="stat-block">
+
+      <!-- ── Creature image ── -->
+      <div class="creature-image" *ngIf="detail.imageUrl">
+        <img [src]="detail.imageUrl" [alt]="detail.name" loading="lazy">
+      </div>
+
+      <!-- ── Header ── -->
+      <div class="stat-header">
+        <h1>{{ detail.name }}</h1>
+        <div class="header-badges">
+          <span class="cr-badge" *ngIf="detail.cr">CR {{ detail.cr }}</span>
+          <span class="xp-badge" *ngIf="detail.xp">XP {{ detail.xp }}</span>
+        </div>
+      </div>
+
+      <div class="type-line"   *ngIf="headerLine">{{ headerLine }}</div>
+
+      <div class="source-line" *ngIf="detail.source">
+        <b>Source</b> {{ detail.source }}
+      </div>
+
+      <!-- Init / Senses / Perception -->
+      <div class="inline-stats" *ngIf="detail.init || detail.senses || detail.perception">
+        <span *ngIf="detail.init"><b>Init</b> {{ detail.init }}&ensp;</span>
+        <span *ngIf="detail.senses"><b>Senses</b> {{ detail.senses }}&ensp;</span>
+        <span *ngIf="detail.perception"><b>Perception</b> {{ detail.perception }}</span>
+      </div>
+
+      <!-- ── Defense ── -->
+      <div class="section" *ngIf="detail.hp || detail.eac || detail.kac || saves ||
+                                   detail.dr || detail.sr || detail.immunities ||
+                                   detail.resistances || detail.weaknesses">
+        <div class="section-head">Defense</div>
+        <div class="section-body">
+          <div class="stat-row" *ngIf="detail.hp">
+            <span class="lbl">HP</span> {{ detail.hp }}
+          </div>
+          <div class="stat-row" *ngIf="detail.eac || detail.kac">
+            <span *ngIf="detail.eac"><span class="lbl">EAC</span> {{ detail.eac }}&emsp;</span>
+            <span *ngIf="detail.kac"><span class="lbl">KAC</span> {{ detail.kac }}</span>
+          </div>
+          <div class="stat-row" *ngIf="saves">
+            <span class="lbl">Saving Throws</span> {{ saves }}
+          </div>
+          <div class="stat-row" *ngIf="detail.dr">
+            <span class="lbl">DR</span> {{ detail.dr }}
+          </div>
+          <div class="stat-row" *ngIf="detail.sr">
+            <span class="lbl">SR</span> {{ detail.sr }}
+          </div>
+          <div class="stat-row" *ngIf="detail.immunities">
+            <span class="lbl">Immunities</span> {{ detail.immunities }}
+          </div>
+          <div class="stat-row" *ngIf="detail.resistances">
+            <span class="lbl">Resistances</span> {{ detail.resistances }}
+          </div>
+          <div class="stat-row" *ngIf="detail.weaknesses">
+            <span class="lbl">Weaknesses</span> {{ detail.weaknesses }}
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Offense ── -->
+      <div class="section" *ngIf="detail.speed || detail.melee || detail.ranged ||
+                                   detail.offensive_abilities || slaText || detail.spells">
+        <div class="section-head">Offense</div>
+        <div class="section-body">
+          <div class="stat-row" *ngIf="detail.speed">
+            <span class="lbl">Speed</span> {{ detail.speed }}
+          </div>
+          <div class="stat-row" *ngIf="detail.melee">
+            <span class="lbl">Melee</span> {{ detail.melee }}
+          </div>
+          <div class="stat-row" *ngIf="detail.ranged">
+            <span class="lbl">Ranged</span> {{ detail.ranged }}
+          </div>
+          <div class="stat-row" *ngIf="detail.space">
+            <span class="lbl">Space</span> {{ detail.space }};
+            <span class="lbl">Reach</span> {{ detail.reach }}
+          </div>
+          <div class="stat-row" *ngIf="detail.offensive_abilities">
+            <span class="lbl">Offensive Abilities</span> {{ detail.offensive_abilities }}
+          </div>
+          <div class="stat-row" *ngIf="slaText">
+            <span class="lbl">Spell-Like Abilities</span> {{ slaText }}
+          </div>
+          <div class="stat-row" *ngIf="detail.spells">
+            <span class="lbl">Spells</span> {{ detail.spells }}
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Statistics ── -->
+      <div class="section" *ngIf="abilityScores || detail.skills || detail.feats ||
+                                   detail.languages || detail.other_abilities || detail.gear">
+        <div class="section-head">Statistics</div>
+        <div class="section-body">
+          <div class="stat-row ability-row" *ngIf="abilityScores">
+            {{ abilityScores }}
+          </div>
+          <div class="stat-row" *ngIf="detail.skills">
+            <span class="lbl">Skills</span> {{ detail.skills }}
+          </div>
+          <div class="stat-row" *ngIf="detail.feats">
+            <span class="lbl">Feats</span> {{ detail.feats }}
+          </div>
+          <div class="stat-row" *ngIf="detail.languages">
+            <span class="lbl">Languages</span> {{ detail.languages }}
+          </div>
+          <div class="stat-row" *ngIf="detail.other_abilities">
+            <span class="lbl">Other Abilities</span> {{ detail.other_abilities }}
+          </div>
+          <div class="stat-row" *ngIf="detail.gear">
+            <span class="lbl">Gear</span> {{ detail.gear }}
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Ecology ── -->
+      <div class="section" *ngIf="detail.environment || detail.organization">
+        <div class="section-head">Ecology</div>
+        <div class="section-body">
+          <div class="stat-row" *ngIf="detail.environment">
+            <span class="lbl">Environment</span> {{ detail.environment }}
+          </div>
+          <div class="stat-row" *ngIf="detail.organization">
+            <span class="lbl">Organization</span> {{ detail.organization }}
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Special Abilities ── -->
+      <div class="section" *ngIf="detail.special_abilities?.length">
+        <div class="section-head">Special Abilities</div>
+        <div class="section-body sa-list">
+          <div class="special-ability" *ngFor="let sa of detail.special_abilities">
+            <div class="sa-name">{{ sa.name }}</div>
+            <div class="sa-desc" *ngIf="sa.description" [innerHTML]="sa.description | safeHtml"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Description ── -->
+      <div class="section" *ngIf="detail.description">
+        <div class="section-head">Description</div>
+        <div class="section-body">
+          <p class="description" [innerHTML]="detail.description | safeHtml"></p>
+        </div>
+      </div>
+
+      <!-- ── Extra content ── -->
+      <div class="extra-content" *ngIf="detail.extra_content">
+        <p>{{ detail.extra_content }}</p>
+      </div>
+
+      <!-- ── Source link ── -->
+      <div class="source-footer" *ngIf="detail.source_url">
+        <a [href]="detail.source_url" target="_blank" rel="noopener noreferrer">
+          View on Archives of Nethys ↗
+        </a>
+      </div>
+
+    </div><!-- /stat-block -->
+  </ng-container>
+</div>
+
+
+
+

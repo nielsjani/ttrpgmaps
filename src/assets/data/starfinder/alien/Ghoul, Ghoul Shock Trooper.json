@@ -1,0 +1,50 @@
+{
+  "name": "Ghoul, Ghoul Shock Trooper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghoul Shock Trooper&Family=Ghoul",
+  "source": "Alien Archive 2 pg. 61",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "25",
+  "kac": "26",
+  "fort": "+13",
+  "ref": "+11",
+  "will": "+14",
+  "immunities": "undead immunities",
+  "speed": "30 ft. (20 ft. in armor)",
+  "melee": "bite +23 (4d6+16 P plus ghoul fever and paralysis) or claw +23 (4d6+16 S plus paralysis)",
+  "ranged": "perihelion artillery laser +21 (3d8+11 F; critical burn 2d6) or tactical autobeam rifle +21 (3d8+11 F; critical burn 2d6) or frag grenade IV +20 (explode [15 ft., 6d6 P, DC 18])",
+  "offensive_abilities": "fighting styles (guard, hit-and-run), nimble fusillade, opening volley, soldier’s onslaught",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "—",
+    "int": "+3",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +25, Athletics +20, Stealth +20",
+  "feats": "Cleave",
+  "languages": "Common, Eoxian",
+  "other_abilities": "duck and weave, unliving",
+  "gear": "golemforged plating IV, perihelion artillery laser with 1 ultra-capacity battery (100 charges), tactical autobeam rifle with 1 high-capacity battery (40 charges), frag grenades IV (2)",
+  "environment": "any",
+  "organization": "solitary, gang (2–6), or pack (7–12)",
+  "special_abilities": [
+    {
+      "name": "Paralysis (Ex)",
+      "description": "When a ghoul shock trooper deals damage to a creature with its bite or claw attack, the target must succeed at a DC 18 Fortitude saving throw or gain the paralyzed condition for 1d4+1 rounds. As a full action, the target can attempt a new saving throw to end the condition. Creatures with the elf subtype are immune to a ghoul’s paralysis."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nGhoul Graft Template\n-\nGhast (Ghoul) Graft Template\n-\nLacedon (Ghoul) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhoul\nSource\nAlien Archive 2 pg. 61\nIn ages past, ghouls shunned society and haunted cemeteries and city sewers. However, ghouls in the Pact Worlds are more likely to live in cities, especially settlements inhabited primarily by undead. Ghouls are resourceful and hardy, and make good workers across a variety of industries. Their adaptability is striking even for undead creatures, and ghouls who are patient and dedicated can become excellent researchers, scholars, soldiers, laborers, and more. Ghouls of all proficiencies and backgrounds are especially populous on the undead planet of Eox.\nGhouls spread—sometimes purposefully—a virulent disease known as ghoul fever through their saliva. As creatures that die of ghoul fever often rise as ghouls themselves, a population explosion can easily result. However, even in ghoul society, it is frowned upon to inflict ghoul fever on large numbers of living creatures. Such behavior leads to unwanted attention from authorities, particularly on worlds adjacent to or in the Pact Worlds.\nRather than spread the undead scourge they carry inside them, ambitious ghouls instead seek training and selfimprovement in pursuits that interest them. Many of these ghouls become ghoul shock troopers. Others find that technology suits them and become mechanics or technomancers, fusing their shrewd understanding of their own organic biology with the elegance of machinery. Ghoul envoys are rare, since undead are stubbornly independent as a rule, and few living crew members would follow the commands of someone so off-putting as a ghoul.\nWhether on Eox or beyond, certain powerful ghouls known as ghasts can affect even elves with their paralysis, and exude a powerful stench; these undead usually hold important positions in ghoul society. Ghouls that lurk underwater and in coastal areas are called lacedons. In many cases, powerful ghouls and lacedons are high-ranking members of the military on Eox or even the Corpse Fleet.\nAliens in the \"Ghoul\" Family\nName\nCR\nGhoul\n1\nGhoul Shock Trooper\n11\nGhoul, Ghoul Shock Trooper\nSource\nAlien Archive 2 pg. 60\nGhoul Shock Trooper CR 11\nXP 12,800\nGhoul soldier\nCE Medium undead\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+20\nDefense\nHP\n180\nEAC\n25;\nKAC\n26\nFort\n+13;\nRef\n+11;\nWill\n+14\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft. (20 ft. in armor)\nMelee\nbite +23 (4d6+16 P plus ghoul fever and paralysis) or claw +23 (4d6+16 S plus paralysis)\nRanged\nperihelion artillery laser +21 (3d8+11 F; critical burn 2d6) or tactical autobeam rifle +21 (3d8+11 F; critical burn 2d6) or frag grenade IV +20 (explode [15 ft., 6d6 P, DC 18])\nOffensive Abilities\nfighting styles (guard, hit-and-run), nimble fusillade, opening volley, soldier’s onslaught\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n—;\nINT\n+3;\nWIS\n+2;\nCHA\n+3\nFeats\nCleave\nSkills\nAcrobatics +25, Athletics +20, Stealth +20\nLanguages\nCommon, Eoxian\nOther Abilities\nduck and weave, unliving\nGear\ngolemforged plating IV, perihelion artillery laser with 1 ultra-capacity battery (100 charges), tactical autobeam rifle with 1 high-capacity battery (40 charges), frag grenades IV (2)\nEcology\nEnvironment\nany\nOrganization\nsolitary, gang (2–6), or pack (7–12)\nSpecial Abilities\nParalysis (Ex)\nWhen a ghoul shock trooper deals damage to a creature with its bite or claw attack, the target must succeed at a DC 18 Fortitude saving throw or gain the paralyzed condition for 1d4+1 rounds. As a full action, the target can attempt a new saving throw to end the condition. Creatures with the elf subtype are immune to a ghoul’s paralysis.\nExtra Content\nThe following extra content was found for this creature:\n-\nGhoul Graft Template\n-\nGhast (Ghoul) Graft Template\n-\nLacedon (Ghoul) Graft Template",
+  "type": "undead",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Ghoul_Shock_Trooper.png"
+}

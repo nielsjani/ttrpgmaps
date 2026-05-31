@@ -1,0 +1,53 @@
+{
+  "name": "Genereaver",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Genereaver&Family=None",
+  "source": "Starfinder #38: Crash and Burn pg. 58",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "aberration",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+24",
+  "hp": "150",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+15",
+  "weaknesses": "electricity, electrophoresis",
+  "speed": "30 ft.",
+  "melee": "claw +20 (2d8+18 S plus poison; critical wound [DC 19])",
+  "ranged": "helicase barb +20 (2d8+18 A & P; critical wound [DC 19])",
+  "offensive_abilities": "breath weapon (90-ft. line, 10d6 A, Reflex DC 19 half, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Stealth +19, Survival +24",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Electrophoresis (Ex)",
+      "description": "When a genereaver takes 20 or more electricity damage from a single effect, it must succeed at a DC 19 Fortitude save or be stunned until the end of its next turn."
+    },
+    {
+      "name": "Genetic Reconstruction (Ex)",
+      "description": "A genereaver can concentrate to heal itself 1 Hit Point every minute. When a genereaver is reduced to 0 Hit Points, it doesn’t die and instead is restored to 1 HP at the beginning of its next turn. A genereaver affected by an affliction (such as poison or radiation) loses these benefits and can be killed."
+    },
+    {
+      "name": "Helicase Barb (Ex)",
+      "description": "its arm by a thin yet durable strand and can launch this barb as a thrown weapon with a 60-foot range and no range increment; if the barb hits, it attaches to the target and exposes the target to genetic transfer. While the barb and tether is attached, the genereaver gains regeneration 10 (any affliction) and a +2 circumstance bonus to attack the target; it can use the reposition combat maneuver as if the target was within reach, and the target cannot move further than 60 ft. from the genereaver. The tether can be targeted with a sunder combat maneuver and has hardness 5 and 15 HP. The genereaver can retract the barb and tether as a swift action or grow a replacement barb and tether in 1 round.\nGenetic Transfer\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nConstitution;\nFrequency\n1/round until cured\nCure\nremoving the barb (standard action and a successful DC 24 Athletics or Medicine check) or breaking the tether (see above)"
+    }
+  ],
+  "description": "Synthetic monsters concocted through genetic experimentation in EJ Corp laboratories, genereavers are tenacious killers deployed as unstoppable assassins. Every genereaver has programmed gaps in its genetic code that correspond to the DNA of the genereaver’s intended victim. In perpetual misery and pain, the genereaver instinctively hunts its prey, hoping to drain its DNA to cure its own wretched condition. The research and genetic manipulation required to create the genereaver program is illegal throughout most of the Pact Worlds and Near Space, but EJ Corp skirts the law by doing most of their work in remote science facilities in the Vast.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenereaver\nSource\nStarfinder #38: Crash and Burn pg. 58\nGenereaver CR 10\nXP 9,600\nN Small aberration\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+24\nDefense\nHP\n150\nEAC\n23;\nKAC\n24\nFort\n+9;\nRef\n+9;\nWill\n+15\nWeaknesses\nelectricity, electrophoresis\nOffense\nSpeed\n30 ft.\nMelee\nclaw +20 (2d8+18 S plus poison; critical wound [DC 19])\nRanged\nhelicase barb +20 (2d8+18 A & P; critical wound [DC 19])\nOffensive Abilities\nbreath weapon (90-ft. line, 10d6 A, Reflex DC 19 half, usable every 1d4 rounds)\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n+3;\nINT\n-1;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +19, Athletics +24, Stealth +19, Survival +24\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nElectrophoresis (Ex)\nWhen a genereaver takes 20 or more electricity damage from a single effect, it must succeed at a DC 19 Fortitude save or be stunned until the end of its next turn.\nGenetic Reconstruction (Ex)\nA genereaver can concentrate to heal itself 1 Hit Point every minute. When a genereaver is reduced to 0 Hit Points, it doesn’t die and instead is restored to 1 HP at the beginning of its next turn. A genereaver affected by an affliction (such as poison or radiation) loses these benefits and can be killed.\nHelicase Barb (Ex)\nits arm by a thin yet durable strand and can launch this barb as a thrown weapon with a 60-foot range and no range increment; if the barb hits, it attaches to the target and exposes the target to genetic transfer. While the barb and tether is attached, the genereaver gains regeneration 10 (any affliction) and a +2 circumstance bonus to attack the target; it can use the reposition combat maneuver as if the target was within reach, and the target cannot move further than 60 ft. from the genereaver. The tether can be targeted with a sunder combat maneuver and has hardness 5 and 15 HP. The genereaver can retract the barb and tether as a swift action or grow a replacement barb and tether in 1 round.\nGenetic Transfer\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nConstitution;\nFrequency\n1/round until cured\nCure\nremoving the barb (standard action and a successful DC 24 Athletics or Medicine check) or breaking the tether (see above)\nDescription\nSynthetic monsters concocted through genetic experimentation in EJ Corp laboratories, genereavers are tenacious killers deployed as unstoppable assassins. Every genereaver has programmed gaps in its genetic code that correspond to the DNA of the genereaver’s intended victim. In perpetual misery and pain, the genereaver instinctively hunts its prey, hoping to drain its DNA to cure its own wretched condition. The research and genetic manipulation required to create the genereaver program is illegal throughout most of the Pact Worlds and Near Space, but EJ Corp skirts the law by doing most of their work in remote science facilities in the Vast.",
+  "type": "aberration",
+  "category": "alien"
+}

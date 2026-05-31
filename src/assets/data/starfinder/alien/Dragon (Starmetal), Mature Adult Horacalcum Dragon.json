@@ -1,0 +1,55 @@
+{
+  "name": "Dragon (Starmetal), Mature Adult Horacalcum Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mature Adult Horacalcum Dragon&Family=Dragon (Starmetal)",
+  "source": "Alien Archive 3 pg. 22",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "dragon",
+  "init": "+9",
+  "senses": "blindsense (vibration) 60 ft., darkvision 120 ft., low-light vision;",
+  "perception": "+26",
+  "hp": "255",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+15",
+  "ref": "+15",
+  "will": "+20",
+  "dr": "15/magic",
+  "sr": "26",
+  "immunities": "paralysis, sleep, slow, staggered;",
+  "speed": "40 ft., fly 200 ft. (Su, clumsy)",
+  "melee": "bite +27 (5d8+24 P; critical staggered [DC 23])",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with bite)",
+  "offensive_abilities": "breath weapon (100-ft. line, 16d10 C, Reflex DC 23 half, usable every 1d4 rounds), crush (5d8+24 B)",
+  "spell_like_abilities": {
+    "caster_info": "CL 15th",
+    "spells": "1/day—\ncall cosmos\n,\nretrocognition\n3/day—\ndivination\n,\nmind thrust\n(4th level, DC 22),\nreincarnate\n,\nresilient sphere\n(DC 22)\nAt will—haste,\nprobability prediction"
+  },
+  "ability_scores": {
+    "str": "+9",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+7",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +26 (+18 to fly), Culture +31, Diplomacy +31, Mysticism +31, Piloting +26 (to navigate only), Sense Motive +26, Survival +26",
+  "languages": "Azlanti, Celestial, Common, Draconic",
+  "other_abilities": "spaceflight",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Temporal Anomaly (Su)",
+      "description": "On its turn, a horacalcum dragon can shorten or extend the duration of any ongoing effect within 10 feet of it (including an effect on itself); this takes no action, and the number of rounds by which the dragon can alter the duration is equal to one-fourth its CR (minimum 1). If the effect is on an unwilling target, that target can attempt a Will saving throw to negate this effect. A horacalcum dragon can shorten or extend one effect per turn, and it can affect a given effect only once."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nAbysium Dragon (Dragon (Starmetal)) Graft Template\n-\nAdamantine Dragon (Dragon (Starmetal)) Graft Template\n-\nHoracalcum Dragon (Dragon (Starmetal)) Graft Template\n-\nNoqual Dragon (Dragon (Starmetal)) Graft Template\n-\nSiccatite Dragon (Dragon (Starmetal)) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDragon (Starmetal)\nSource\nAlien Archive 3 pg. 22\nAncient myths assert that the first metallic dragons were created from metallic deposits. Draconic scholars hotly debate the merit of such tales, but less controversial is the existence of the rare creatures known as starmetal dragons. No one knows their origins, but they are most commonly found in especially remote areas of the galaxy.\nStarmetal dragons look different than most other true dragons, with scales that reffect their particular namesakes.\nAliens in the \"Dragon (Starmetal)\" Family\nName\nCR\nMature Adult Horacalcum Dragon\n15\nDragon (Starmetal), Mature Adult Horacalcum Dragon\nSource\nAlien Archive 3 pg. 22\nMature Adult Horacalcum Dragon CR 15\nXP 51,200\nN Huge dragon\nInit\n+9;\nSenses\nblindsense (vibration) 60 ft., darkvision 120 ft., low-light vision;\nPerception\n+26\nAura\nfrightful presence (210 ft., Will DC 23), temporal anomaly (10 ft., rounds, Will DC 23)\nDefense\nHP\n255\nEAC\n29;\nKAC\n30\nFort\n+15;\nRef\n+15;\nWill\n+20\nDefensive Abilities\nvoid adaptation;\nDR\n15/magic;\nImmunities\nparalysis, sleep, slow, staggered;\nSR\n26\nOffense\nSpeed\n40 ft., fly 200 ft. (Su, clumsy)\nMelee\nbite +27 (5d8+24 P; critical staggered [DC 23])\nMultiattack\nbite +21 (2d10+24 P; critical staggered [DC 23]), 2 claws +21 (2d10+24 S; critical staggered [DC 23]), tail slap +21 (2d10+24 B; critical staggered [DC 23])\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with bite)\nOffensive Abilities\nbreath weapon (100-ft. line, 16d10 C, Reflex DC 23 half, usable every 1d4 rounds), crush (5d8+24 B)\nSpell-Like Abilities\n(CL 15th)\n1/day—\ncall cosmos\n,\nretrocognition\n3/day—\ndivination\n,\nmind thrust\n(4th level, DC 22),\nreincarnate\n,\nresilient sphere\n(DC 22)\nAt will—haste,\nprobability prediction\nStatistics\nSTR\n+9;\nDEX\n+5;\nCON\n+3;\nINT\n+4;\nWIS\n+7;\nCHA\n+4\nSkills\nAcrobatics +26 (+18 to fly), Culture +31, Diplomacy +31, Mysticism +31, Piloting +26 (to navigate only), Sense Motive +26, Survival +26\nLanguages\nAzlanti, Celestial, Common, Draconic\nOther Abilities\nspaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nTemporal Anomaly (Su)\nOn its turn, a horacalcum dragon can shorten or extend the duration of any ongoing effect within 10 feet of it (including an effect on itself); this takes no action, and the number of rounds by which the dragon can alter the duration is equal to one-fourth its CR (minimum 1). If the effect is on an unwilling target, that target can attempt a Will saving throw to negate this effect. A horacalcum dragon can shorten or extend one effect per turn, and it can affect a given effect only once.\nExtra Content\nThe following extra content was found for this creature:\n-\nAbysium Dragon (Dragon (Starmetal)) Graft Template\n-\nAdamantine Dragon (Dragon (Starmetal)) Graft Template\n-\nHoracalcum Dragon (Dragon (Starmetal)) Graft Template\n-\nNoqual Dragon (Dragon (Starmetal)) Graft Template\n-\nSiccatite Dragon (Dragon (Starmetal)) Graft Template",
+  "type": "dragon",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Dragon_Starmetal_Mature_Adult_Horacalcum.png"
+}

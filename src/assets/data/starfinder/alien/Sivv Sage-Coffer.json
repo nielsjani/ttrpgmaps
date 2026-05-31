@@ -1,0 +1,60 @@
+{
+  "name": "Sivv Sage-Coffer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sivv Sage-Coffer&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 60",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "LE",
+  "size": "Large",
+  "creature_type": "construct (magical, sivv, technological)",
+  "init": "+2",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+29",
+  "hp": "315",
+  "eac": "31",
+  "kac": "32",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+18",
+  "dr": "15/adamantine",
+  "sr": "28",
+  "immunities": "construct immunities;",
+  "speed": "20 ft., spider climb",
+  "melee": "slam +30 (8d6+25 B; critical knockdown [DC 24])",
+  "ranged": "ensnaring military degenerator rifle",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "rel-state snare (DC 24)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+2",
+    "con": "—",
+    "int": "+11",
+    "wis": "+5",
+    "cha": "+0"
+  },
+  "skills": "Computers +34, Culture +29, Engineering +29, Intimidate +34, Life Science +34, Medicine +29",
+  "languages": "Sivvian; telepathy 100 ft.",
+  "other_abilities": "intangible step, quantum storage, unliving",
+  "gear": "ensnaring military degenerator rifle",
+  "environment": "any (Davvirex or",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Intangible Step (Su)",
+      "description": "A sivv sage-coffer can enter rel-state on their own for a brief period. As a move action, they can spend 1 Resolve Point to become incorporeal and move up to their speed. They become corporeal at the end of their movement."
+    },
+    {
+      "name": "Quantum Storage (Su)",
+      "description": "As a move action, the sage-coffer can shift an item in their possession into rel-state, quantum entangling the item’s molecules with their own. This effectively reduces the item’s bulk to 0 and makes the item impossible to disarm or otherwise remove from the sage-coffer, though the item can’t be used. The sage-coffer can shift items weighing a total of 10 bulk, though no one item can be more than 4 bulk. The sage-coffer can retrieve an item from rel-state as a move action. Anything that the sage-coffer placed into rel-state becomes fully real when the sage-coffer is killed."
+    },
+    {
+      "name": "Rel-State Snare (Su)",
+      "description": "As a standard action, the sage-coffer can force part of a foe into rel-state. The sage-coffer chooses a single limb on a non-sivv target within 30 feet. The target must attempt a DC 24 Reflex save. On a failure, the designated limb enters a phased quantum state—it and anything held in it can’t be used. If the limb was used for locomotion, the target is flat-footed; otherwise, the target takes a –2 penalty to attack rolls. At the end of each of its turns, the target can attempt a DC 24 Fortitude save to end the effect. The effect ends on its own after 1 minute. If the sage-coffer spends 1 Resolve Point when they use this ability, they can choose up to three separate targets for this effect, no two of which can be more than 30 feet apart."
+    }
+  ],
+  "description": "Unwilling to let talent go to waste, the Sivv Dominion entombs the spirits of dead sivv scientists in large robotic bodies with blunt tentacles and durable plating. Beyond death, these sage-coffers continue to serve the directive of the Dominion in perpetuity.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSivv Sage-Coffer\nSource\nStarfinder #33: Dominion’s End pg. 60\nSivv Sage-Coffer CR 17\nXP 102,400\nLE Large construct (magical, sivv, technological)\nInit\n+2;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+29\nDefense\nHP\n315;\nRP\n6\nEAC\n31;\nKAC\n32\nFort\n+13;\nRef\n+13;\nWill\n+18\nDR\n15/adamantine;\nImmunities\nconstruct immunities;\nSR\n28\nOffense\nSpeed\n20 ft., spider climb\nMelee\nslam +30 (8d6+25 B; critical knockdown [DC 24])\nRanged\nensnaring military degenerator rifle\n+28 (7d8+17 A & So; critical degeneration 4d6) or degeneration grenade +28 (explode [20 ft., 11d6 A & So, degeneration 5d6, DC 24])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nrel-state snare (DC 24)\nStatistics\nSTR\n+8;\nDEX\n+2;\nCON\n—;\nINT\n+11;\nWIS\n+5;\nCHA\n+0\nSkills\nComputers +34, Culture +29, Engineering +29, Intimidate +34, Life Science +34, Medicine +29\nLanguages\nSivvian; telepathy 100 ft.\nOther Abilities\nintangible step, quantum storage, unliving\nGear\nensnaring military degenerator rifle\nwith 2 high-capacity batteries (40 charges each), degeneration grenades (2)\nEcology\nEnvironment\nany (Davvirex or\nArk Prime\n)\nOrganization\nsolitary or pair\nSpecial Abilities\nIntangible Step (Su)\nA sivv sage-coffer can enter rel-state on their own for a brief period. As a move action, they can spend 1 Resolve Point to become incorporeal and move up to their speed. They become corporeal at the end of their movement.\nQuantum Storage (Su)\nAs a move action, the sage-coffer can shift an item in their possession into rel-state, quantum entangling the item’s molecules with their own. This effectively reduces the item’s bulk to 0 and makes the item impossible to disarm or otherwise remove from the sage-coffer, though the item can’t be used. The sage-coffer can shift items weighing a total of 10 bulk, though no one item can be more than 4 bulk. The sage-coffer can retrieve an item from rel-state as a move action. Anything that the sage-coffer placed into rel-state becomes fully real when the sage-coffer is killed.\nRel-State Snare (Su)\nAs a standard action, the sage-coffer can force part of a foe into rel-state. The sage-coffer chooses a single limb on a non-sivv target within 30 feet. The target must attempt a DC 24 Reflex save. On a failure, the designated limb enters a phased quantum state—it and anything held in it can’t be used. If the limb was used for locomotion, the target is flat-footed; otherwise, the target takes a –2 penalty to attack rolls. At the end of each of its turns, the target can attempt a DC 24 Fortitude save to end the effect. The effect ends on its own after 1 minute. If the sage-coffer spends 1 Resolve Point when they use this ability, they can choose up to three separate targets for this effect, no two of which can be more than 30 feet apart.\nDescription\nUnwilling to let talent go to waste, the Sivv Dominion entombs the spirits of dead sivv scientists in large robotic bodies with blunt tentacles and durable plating. Beyond death, these sage-coffers continue to serve the directive of the Dominion in perpetuity.",
+  "type": "construct (magical, sivv, technological)",
+  "category": "alien"
+}

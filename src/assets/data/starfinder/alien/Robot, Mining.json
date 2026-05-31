@@ -1,0 +1,56 @@
+{
+  "name": "Robot, Mining",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mining&Family=Robot",
+  "source": "Alien Archive 2 pg. 108",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+6",
+  "immunities": "construct immunities;",
+  "resistances": "acid 5, fire 10",
+  "weaknesses": "vulnerable to critical hits, vulnerable to electricity",
+  "speed": "30 ft., burrow 10 ft.",
+  "melee": "drill +20 (3d4+14 P; critical bleed 2d4) or",
+  "ranged": "integrated LFD screamer +17 (2d10+9 So; critical deafen [DC 16])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "—",
+    "int": "-2",
+    "wis": "+3",
+    "cha": "-3"
+  },
+  "skills": "Profession (miner) +17",
+  "languages": "Common (can’t speak)",
+  "other_abilities": "rock tunneler, unliving",
+  "gear": "andesite magma blade with 3 high-capacity batteries (40 charges each), LFD screamer with 2 super-capacity batteries (80 charges each)",
+  "environment": "any underground",
+  "organization": "solitary, pair, or shift (3–5)",
+  "special_abilities": [
+    {
+      "name": "Nanite Repair (Ex)",
+      "description": "A mining robot’s nanites heal it, restoring a number of Hit Points per hour equal to its CR (9 Hit Points per hour for most mining robots). Once per day as a full action, a mining robot can restore 4d8 Hit Points to itself or any touched construct with the technological subtype."
+    },
+    {
+      "name": "Rock Tunneler (Ex)",
+      "description": "A mining robot can burrow through stone at half speed, and it can choose to leave tunnels when it burrows."
+    }
+  ],
+  "description": "Mining robots are far from exotic, but neither are they common since they are expensive tools. Such automatons allow mining companies to harvest ore and minerals from dangerous locales, such as airless asteroids and planets with high tectonic activity. A mining robot has an integrated drill arm, a cutting arm, and finer manipulators that allow it to sort through the rubble it creates. A typical model also has built-in harmonic resonators to soften earth and stone, making it easier for the robot to burrow into the ground. Construction and terraforming enterprises employ similar models of these industrial robots.\nThe dwarven mining corporation Ulrikka Clanholdings is known to make the best mining robots the galaxy has to offer. Outfitted with sturdy magma blades, these constructs can slice through rock like a heated knife cuts through butter. Ulrikka sells the robots to other mining outfits as a profitable side operation. The company sells at a premium, and tight contracts ensure a purchaser’s intended usage doesn’t conflict with Ulrikka interests. Occasionally, warriors and gladiators with a flair for the dramatic purchase a defunct mining robot and strip off the drill for use as an exotic and deadly weapon.",
+  "extra_content": "The following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot\nSource\nAlien Archive 2 pg. 108\nRobots serve a variety of functions. They’re often employed in situations where the risks to living beings are too great or emotional responses are a hindrance—notably murder and war.\nAssassin robots are killing machines useful for stealthy slayings or gruesome public displays. A user can program targets into the robot, dispatch the unit, and rest assured. The robot relentlessly pursues its quarry, fearing nothing and using microfiber setae on its hands and feet to traverse vertical and horizontal surfaces with ease. Whether it succeeds, fails, escapes, or suffers destruction, the robot leaves little evidence behind—an assassin robot that is captured or destroyed automatically purges its memory and burns out its sensitive hardware components, making tracing the robot’s mission and origin extremely difficult.\nTypical assassin robots are 6 feet tall, weigh 300 pounds, and use the weapons detailed in the stat block on page 108, but they can be outfitted with other armaments as a mission requires. In particular, assassin robots on missions where more subtlety is called for use needler pistols stocked with poisoned darts.\nThere is nothing subtle, however, about a siege robot. These machines serve as artificially intelligent assault vehicles, and many rightly fear these engines of war. Merciless and efficient, a siege robot is as effective at unloading massive damage against a single target as it is at mowing down enemy troops en masse, and its vehicle form makes it difficult to escape from on an open battlefield. Most siege robots are outfitted with large reserves of ammunition, enough to sustain a constant barrage for minutes at a time.\nSiege Robots As Vehicles\nA siege robot can be used as a vehicle in vehicle combat or vehicle chases. In such cases it acts as its own pilot and has the following additional statistics: item level equal to its CR; drive speed 60 ft., full speed 500 ft., overland speed 60 mph, (hover); hardness 8; collision damage 16d10 B (DC 19); –3 attack roll penalty (–6 at full speed). A siege robot acting as a vehicle can carry up to 4 Medium passengers but provides them no cover.\nAliens in the \"Robot\" Family\nName\nCR\nAssassin Robot\n9\nAzlanti Adjutant\n3\nAzlanti Battle Robot\n6\nGuardian Robot\n5\nIncapacitator\n3\nKeeper Robot\n18\nMining\n9\nSiege Robot\n15\nTerminator-Class Security\n10\nRobot, Mining\nSource\nStarfinder #10: The Diaspora Strain pg. 58\nMining CR 9\nXP 6,400\nN Large construct (technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+17\nDefense\nHP\n145\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+8;\nWill\n+6\nDefensive Abilities\nintegrated weapons, nanite repair;\nImmunities\nconstruct immunities;\nResistances\nacid 5, fire 10\nWeaknesses\nvulnerable to critical hits, vulnerable to electricity\nOffense\nSpeed\n30 ft., burrow 10 ft.\nMelee\ndrill +20 (3d4+14 P; critical bleed 2d4) or\r\nintegrated andesite magma blade +20 (2d8+15 F & S; critical wound [DC 16])\nRanged\nintegrated LFD screamer +17 (2d10+9 So; critical deafen [DC 16])\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n—;\nINT\n-2;\nWIS\n+3;\nCHA\n-3\nSkills\nProfession (miner) +17\nLanguages\nCommon (can’t speak)\nOther Abilities\nrock tunneler, unliving\nGear\nandesite magma blade with 3 high-capacity batteries (40 charges each), LFD screamer with 2 super-capacity batteries (80 charges each)\nEcology\nEnvironment\nany underground\nOrganization\nsolitary, pair, or shift (3–5)\nSpecial Abilities\nNanite Repair (Ex)\nA mining robot’s nanites heal it, restoring a number of Hit Points per hour equal to its CR (9 Hit Points per hour for most mining robots). Once per day as a full action, a mining robot can restore 4d8 Hit Points to itself or any touched construct with the technological subtype.\nRock Tunneler (Ex)\nA mining robot can burrow through stone at half speed, and it can choose to leave tunnels when it burrows.\nDescription\nMining robots are far from exotic, but neither are they common since they are expensive tools. Such automatons allow mining companies to harvest ore and minerals from dangerous locales, such as airless asteroids and planets with high tectonic activity. A mining robot has an integrated drill arm, a cutting arm, and finer manipulators that allow it to sort through the rubble it creates. A typical model also has built-in harmonic resonators to soften earth and stone, making it easier for the robot to burrow into the ground. Construction and terraforming enterprises employ similar models of these industrial robots.\nThe dwarven mining corporation Ulrikka Clanholdings is known to make the best mining robots the galaxy has to offer. Outfitted with sturdy magma blades, these constructs can slice through rock like a heated knife cuts through butter. Ulrikka sells the robots to other mining outfits as a profitable side operation. The company sells at a premium, and tight contracts ensure a purchaser’s intended usage doesn’t conflict with Ulrikka interests. Occasionally, warriors and gladiators with a flair for the dramatic purchase a defunct mining robot and strip off the drill for use as an exotic and deadly weapon.\nExtra Content\nThe following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "type": "construct (technological)",
+  "category": "alien"
+}

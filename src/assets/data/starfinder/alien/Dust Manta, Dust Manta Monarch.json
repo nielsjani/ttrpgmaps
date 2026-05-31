@@ -1,0 +1,55 @@
+{
+  "name": "Dust Manta, Dust Manta Monarch",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dust Manta Monarch&Family=Dust Manta",
+  "source": "Alien Archive 2 pg. 46",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast",
+  "init": "+8",
+  "senses": "darkvision 60 ft., low-light vision, sense through (vision [sand only]);",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+11",
+  "dr": "10/—",
+  "resistances": "fire 10",
+  "speed": "15 ft., burrow 80 ft.",
+  "melee": "stinger +26 (6d4+17 P plus greater dust manta toxin)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "burrowing assault",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +22, Athletics +22, Stealth +27",
+  "environment": "warm deserts",
+  "organization": "solitary, pair, or fever (1 dust manta monarch plus 3–8 dust mantas)",
+  "special_abilities": [
+    {
+      "name": "Burrowing Assault (Ex)",
+      "description": "A dust manta monarch that takes the charge action using its burrow speed can make a full attack at the end of its movement instead of a single melee attack. It doesn’t take the normal charge penalties to its attack rolls or its AC, and its targets must succeed at a DC 19 Perception check or they are flat-footed against the attacks."
+    },
+    {
+      "name": "Enhanced Desert Hide (Ex)",
+      "description": "A dust manta monarch has a tougher hide than that of a typical dust manta, granting it DR 10/— and resistance to fire 10. In addition, if a dust manta monarch is at least halfway buried in sand or any fine, similarly colored substance, it can attempt a Stealth check to hide as if it had cover or concealment."
+    },
+    {
+      "name": "Sandstorm Aura (Su)",
+      "description": "A dust manta monarch kicks up a magical localized sandstorm that provides concealment to anyone in a 120-foot-radius area around the dust manta monarch. The sandstorm also produces severe wind, imposing a –4 penalty to attack rolls with kinetic ranged weapons. Any creature in the area without environmental protections must hold its breath or risk\nsuffocation\n. Dust mantas and dust manta monarchs are immune to this effect, and their sense through ability allows them to ignore concealment caused by the sandstorm.\nGreater Dust Manta Toxin\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nStrength; Frequency 1/round for 6 rounds\nEffect\nAt the dead state, the victim’s body disintegrates into dust. A creature that dies as a result of greater dust manta toxin can only be brought back to life by spells such as\nmiracle\n,\nwish\n, or another similarly powerful effect.\nCure\n1 save"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDust Manta\nSource\nAlien Archive 2 pg. 46\nOn desert worlds throughout the galaxy, strange, ray-like creatures make their home in sand flats and dunes, moving through the terrain as if through liquid. On the tidally locked Verces in the Pact Worlds, these terrors are known as dust mantas, and they reside in the eternal sunlight of the planet’s Fullbright hemisphere. Those who observe dust mantas from afar might presume them to be peaceful creatures with an idyllic life, but scientists and adventurers who approach them without knowledge of their brutal ways often find this to be the last mistake they ever make.\nDust mantas closely resemble giant versions of common rays, with a beige coloration that allows them to blend in to their sandy surroundings and a nasty-looking tail capable of injecting a horrific toxin. Dust mantas burrow through sand as easily as their aquatic counterparts glide through water, which allows them to quickly close the distance to their prey. They attack with their stingers, injecting a dangerous toxin that quickly breaks the victim’s body down to dust; dust mantas are filter feeders, and they rely on this toxin to disintegrate food sources into filterable particles. To dust mantas, dissolving prey in this way is not cruel, but simply a matter of everyday survival. In Fullbright, dust mantas gravitate toward areas in which they can find prey, most notably the Outcast Peaks and the shirren colonies in the Temora Desert. Dust mantas are also known to frequent the Oasis Temples scattered across the desert, awaiting travelers who seek those lush and verdant anomalies.\nThe average dust manta stretches 10 feet across and weighs 1 ton.\nOn rare occasions, a dust manta can develop into the larger and more ferocious dust manta monarch. These enormous rays have three tails that allow them to inflict massive damage, as well as a more potent toxin when they deliver their deadly stings. Dust manta monarchs can create localized dust storms that choke and blind those creatures unlucky enough to be caught within, making it easier for the dust manta monarch and any accompanying dust mantas to ambush their unfortunate prey. When food is scarce, a single monarch might roam the desert with a pack of smaller dust mantas, scaring up enough prey to feed the whole fever.\nThe typical dust manta monarch stretches 20 feet across and weighs 8 tons.\nDust Manta Hides\nIn Fullbright, some brave-or perhaps foolish-game hunters in the Outlaw Kingdoms pursue dust mantas for their desertadapted hides, despite the inherent danger in doing so. Those fortunate enough to survive their hunts craft suits of\nlight armor\nfrom the hides, using nanocarbon filaments to stitch the armor together.\nAliens in the \"Dust Manta\" Family\nName\nCR\nDust Manta\n6\nDust Manta Monarch\n12\nDust Manta, Dust Manta Monarch\nSource\nAlien Archive 2 pg. 46\nDust Manta Monarch CR 12\nXP 19,200\nN Huge magical beast\nInit\n+8;\nSenses\ndarkvision 60 ft., low-light vision, sense through (vision [sand only]);\nPerception\n+22\nAura\nsandstorm (120 ft., DC 19)\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+16;\nRef\n+16;\nWill\n+11\nDefensive Abilities\nenhanced desert hide;\nDR\n10/—;\nResistances\nfire 10\nOffense\nSpeed\n15 ft., burrow 80 ft.\nMelee\nstinger +26 (6d4+17 P plus greater dust manta toxin)\nMultiattack\n3 stingers +20 (3d6+17 P plus greater dust manta toxin)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nburrowing assault\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+4;\nINT\n+0;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +22, Athletics +22, Stealth +27\nEcology\nEnvironment\nwarm deserts\nOrganization\nsolitary, pair, or fever (1 dust manta monarch plus 3–8 dust mantas)\nSpecial Abilities\nBurrowing Assault (Ex)\nA dust manta monarch that takes the charge action using its burrow speed can make a full attack at the end of its movement instead of a single melee attack. It doesn’t take the normal charge penalties to its attack rolls or its AC, and its targets must succeed at a DC 19 Perception check or they are flat-footed against the attacks.\nEnhanced Desert Hide (Ex)\nA dust manta monarch has a tougher hide than that of a typical dust manta, granting it DR 10/— and resistance to fire 10. In addition, if a dust manta monarch is at least halfway buried in sand or any fine, similarly colored substance, it can attempt a Stealth check to hide as if it had cover or concealment.\nSandstorm Aura (Su)\nA dust manta monarch kicks up a magical localized sandstorm that provides concealment to anyone in a 120-foot-radius area around the dust manta monarch. The sandstorm also produces severe wind, imposing a –4 penalty to attack rolls with kinetic ranged weapons. Any creature in the area without environmental protections must hold its breath or risk\nsuffocation\n. Dust mantas and dust manta monarchs are immune to this effect, and their sense through ability allows them to ignore concealment caused by the sandstorm.\nGreater Dust Manta Toxin\nType\npoison (injury);\nSave\nFortitude DC 19\nTrack\nStrength; Frequency 1/round for 6 rounds\nEffect\nAt the dead state, the victim’s body disintegrates into dust. A creature that dies as a result of greater dust manta toxin can only be brought back to life by spells such as\nmiracle\n,\nwish\n, or another similarly powerful effect.\nCure\n1 save",
+  "type": "magical beast",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Dust_Manta.png"
+}

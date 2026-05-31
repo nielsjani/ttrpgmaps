@@ -1,0 +1,60 @@
+{
+  "name": "Magma Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Magma Ooze&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 56",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "ooze (fire)",
+  "init": "-2",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+14",
+  "hp": "120",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+11",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "fire, ooze",
+  "weaknesses": "petrified by water, vulnerable to cold",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +16 (2d6+12 B & F plus grab; critical burn 1d6)",
+  "ranged": "hurl magma +14 (2d6+7 B & F; critical burn 1d6)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "-2",
+    "con": "+4",
+    "int": "—",
+    "wis": "+2",
+    "cha": "-4"
+  },
+  "skills": "Athletics +14 (+22 to climb)",
+  "other_abilities": "mindless",
+  "environment": "any underground",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Hurl Magma (Su)",
+      "description": "A magma ooze can hurl magma at a range\r\nincrement of 20 feet to a maximum range of 100 feet."
+    },
+    {
+      "name": "Molten Body (Su)",
+      "description": "Any melee weapon striking the magma\r\nooze takes 2d6 fire damage, ignoring hardness. If the\r\nweapon’s wielder fails a DC 15 Reflex save, the weapon\r\ngains the burning condition, which deals 1d6 fire damage\r\nthat ignores hardness."
+    },
+    {
+      "name": "Petrified by Water (Ex)",
+      "description": "When exposed to a least 1 bulk of\r\nwater, such as in heavy rain or a pool, the magma ooze is\r\nstaggered for 1 round. A magma ooze is also staggered for\r\n1 round if it starts its turn in such conditions. A magma\r\nooze staggered in this way for 5 or more consecutive\r\nrounds becomes petrified. It remains petrified until\r\nthe source of the petrification is removed and the ooze\r\nsucceeds at a DC 20 Fortitude saving throw, which it can\r\nattempt at the end of each of its turns."
+    },
+    {
+      "name": "Split (Ex)",
+      "description": "If a magma ooze takes cold damage, provided\r\nit has at least 12 Hit Points remaining, it splits into two\r\noozes. The new magma ooze appears in an adjacent\r\nunoccupied space. If there is no such free space, the ooze\r\ndoesn’t split. Each ooze has half the original’s remaining\r\nHit Points. The new ooze acts just after the original ooze\r\nin the initiative order."
+    }
+  ],
+  "description": "Magma oozes are living pools of bubbling molten\r\nrock that churn and move of their own accord.\r\nThey can be found on the Plane of Earth and\r\nthe Plane of Fire. On the Material Plane, they\r\narise spontaneously from planar influences or bizarre\r\nmagic, usually in the vicinity of volcanoes. Magma\r\noozes have also been known to form when molten rock\r\nis suddenly pulled into the Drift.\nA magma ooze has an extraordinarily high body\r\ntemperature. An agitated magma ooze can jettison chunks\r\nof its superheated mass as projectiles of burning rock\r\nand protoplasm.\nAlthough mindless, a magma\r\nooze instinctively avoids\r\nwater and extreme cold.\r\nCold causes the ooze to\r\nsplit, while water causes\r\nits body to harden. Prolonged periods of\r\nsubmersion might even harden the ooze’s\r\nsurface into a stiff shell, rendering the creature\r\ntotally immobile until it emerges and becomes molten\r\nonce more.\nA typical magma ooze is 10 feet wide\r\nwhen its body is spread 6\r\ninches thick. It weighs 2 tons.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMagma Ooze\nSource\nStarfinder #16: The Blind City pg. 56\nMagma Ooze CR 7\nXP 3,200\nN Large ooze (fire)\nInit\n-2;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+14\nDefense\nHP\n120\nEAC\n18;\nKAC\n19\nFort\n+11;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nmolten body, split;\nImmunities\nfire, ooze\r\nimmunities\nWeaknesses\npetrified by water, vulnerable to cold\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +16 (2d6+12 B & F plus grab; critical burn 1d6)\nRanged\nhurl magma +14 (2d6+7 B & F; critical burn 1d6)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n-2;\nCON\n+4;\nINT\n—;\nWIS\n+2;\nCHA\n-4\nSkills\nAthletics +14 (+22 to climb)\nOther Abilities\nmindless\nEcology\nEnvironment\nany underground\nOrganization\nsolitary\nSpecial Abilities\nHurl Magma (Su)\nA magma ooze can hurl magma at a range\r\nincrement of 20 feet to a maximum range of 100 feet.\nMolten Body (Su)\nAny melee weapon striking the magma\r\nooze takes 2d6 fire damage, ignoring hardness. If the\r\nweapon’s wielder fails a DC 15 Reflex save, the weapon\r\ngains the burning condition, which deals 1d6 fire damage\r\nthat ignores hardness.\nPetrified by Water (Ex)\nWhen exposed to a least 1 bulk of\r\nwater, such as in heavy rain or a pool, the magma ooze is\r\nstaggered for 1 round. A magma ooze is also staggered for\r\n1 round if it starts its turn in such conditions. A magma\r\nooze staggered in this way for 5 or more consecutive\r\nrounds becomes petrified. It remains petrified until\r\nthe source of the petrification is removed and the ooze\r\nsucceeds at a DC 20 Fortitude saving throw, which it can\r\nattempt at the end of each of its turns.\nSplit (Ex)\nIf a magma ooze takes cold damage, provided\r\nit has at least 12 Hit Points remaining, it splits into two\r\noozes. The new magma ooze appears in an adjacent\r\nunoccupied space. If there is no such free space, the ooze\r\ndoesn’t split. Each ooze has half the original’s remaining\r\nHit Points. The new ooze acts just after the original ooze\r\nin the initiative order.\nDescription\nMagma oozes are living pools of bubbling molten\r\nrock that churn and move of their own accord.\r\nThey can be found on the Plane of Earth and\r\nthe Plane of Fire. On the Material Plane, they\r\narise spontaneously from planar influences or bizarre\r\nmagic, usually in the vicinity of volcanoes. Magma\r\noozes have also been known to form when molten rock\r\nis suddenly pulled into the Drift.\nA magma ooze has an extraordinarily high body\r\ntemperature. An agitated magma ooze can jettison chunks\r\nof its superheated mass as projectiles of burning rock\r\nand protoplasm.\nAlthough mindless, a magma\r\nooze instinctively avoids\r\nwater and extreme cold.\r\nCold causes the ooze to\r\nsplit, while water causes\r\nits body to harden. Prolonged periods of\r\nsubmersion might even harden the ooze’s\r\nsurface into a stiff shell, rendering the creature\r\ntotally immobile until it emerges and becomes molten\r\nonce more.\nA typical magma ooze is 10 feet wide\r\nwhen its body is spread 6\r\ninches thick. It weighs 2 tons.",
+  "type": "ooze (fire)",
+  "category": "alien"
+}

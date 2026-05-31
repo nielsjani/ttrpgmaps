@@ -1,0 +1,62 @@
+{
+  "name": "Yithian, Yithian Elder",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yithian Elder&Family=Yithian",
+  "source": "Alien Archive 3 pg. 136",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+1",
+  "senses": "blindsense (thought) 150 ft., darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "200",
+  "eac": "27",
+  "kac": "28",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+18",
+  "dr": "10/magic",
+  "resistances": "acid 10, cold 10, fire 10",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "pincer +24 (6d4+17 S; critical wound [DC 21])",
+  "ranged": "impulse storm coil +22 (4d6+13 E)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\ntelepathic jaunt\n3/day—\narcane eye\n,\nmind probe\n(DC 21)\nAt will—\ndetect thoughts\n(range 150 ft.; DC 18),\nmindlink\n(range 150 ft.),\nmind swap\n(DC 23),\nmodify memory\n(DC 22),\ntelepathic bond"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+4",
+    "int": "+8",
+    "wis": "+3",
+    "cha": "+6"
+  },
+  "skills": "Culture +28, Engineering +23, Life Science +28, Mysticism +28, Physical Science +23",
+  "languages": "Aklo, Common, Yithian; telepathy 150 ft.",
+  "other_abilities": "mental projection, mind swap mastery, telepathic bond",
+  "gear": "impulse storm coil with 4 super-capacity batteries (80 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, band (1–2 plus 3–9 yithians)",
+  "special_abilities": [
+    {
+      "name": "Mental Projection (Su)",
+      "description": "A yithian elder can use its spell-like abilities as if it were in the location of a creature that is party to the yithian’s telepathic bond."
+    },
+    {
+      "name": "Mind Swap Mastery (Su)",
+      "description": "When a yithian casts mind swap, the duration is permanent (D). The yithian takes its senses and defensive abilities with it to a new body and doesn’t gain the awkward trait. In addition, when the yithian returns to its own body, the\nmind swap\ntarget must succeed at a DC 20 Will saving throw or forget being in the yithian’s body."
+    },
+    {
+      "name": "Telepathic Bond (Su)",
+      "description": "As the mystic class."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYithian\nSource\nAlien Archive 3 pg. 136\nIn eons past, yithians inhabited a dying world. They used a desperate gambit to escape their planet’s doom: casting their minds through time and space. These errant souls came to rest in the bodies they possess today. The minds that already inhabited these bodies were exiled back to the yithians’ doomed world, but what mattered to yithians was the survival of their species, so they had and have little concern for those exiles. Hounds of Tindalos hunt yithians, perhaps for this act, although yithians aren’t sure.\nFrom their new home, the yithians created magitech that allowed them to contact minds on other planets and in other times. When the yithians found hospitable worlds, they created portals to those places. It was in this manner that yithians first came to Golarion. Those who lived on Golarion disappeared during the Gap, along with the rest of the planet.\nAs with all other denizens of the galaxy, yithians lost memory of the time during the Gap, a condition that vexes and frightens them. They also lost access to the devices that allowed them to transcend time. Their scientists continue to seek the cause of the Gap, but the more they do so, the more they realize the answer might be beyond their comprehension.\nYithians retain a weaker version of their forebears’ ability to swap minds. With this power, along with the use of their hybrid portals and the immense psychic power of their elders, they travel between galactic locales. They often mind swap into other species to make use of starships, which they rarely build.\nYithian technology is akin to other high-tech equipment in the galaxy. They prefer electricity weapons. Some historians speculate that the storm coil is a pre-Gap yithian invention, although yithian versions are boxy and made for their physiology. How the weapon became widespread in the modern galaxy is yet another mystery of the Gap.\nYithians are about 10 feet tall and weigh nearly 2,000 pounds. They live for millennia.\nAliens in the \"Yithian\" Family\nName\nCR\nYithian\n9\nYithian Elder\n13\nYithian, Yithian Elder\nSource\nAlien Archive 3 pg. 136\nYithian Elder CR 13\nXP 25,600\nLN Large aberration\nInit\n+1;\nSenses\nblindsense (thought) 150 ft., darkvision 60 ft.;\nPerception\n+23\nDefense\nHP\n200\nEAC\n27;\nKAC\n28\nFort\n+12;\nRef\n+12;\nWill\n+18\nDefensive Abilities\nfast healing 5, unflankable;\nDR\n10/magic;\nResistances\nacid 10, cold 10, fire 10\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\npincer +24 (6d4+17 S; critical wound [DC 21])\nRanged\nimpulse storm coil +22 (4d6+13 E)\nSpace\n10 ft.;\nReach\n10 ft.\nSpell-Like Abilities\n(CL 13th)\n1/day—\ntelepathic jaunt\n3/day—\narcane eye\n,\nmind probe\n(DC 21)\nAt will—\ndetect thoughts\n(range 150 ft.; DC 18),\nmindlink\n(range 150 ft.),\nmind swap\n(DC 23),\nmodify memory\n(DC 22),\ntelepathic bond\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+4;\nINT\n+8;\nWIS\n+3;\nCHA\n+6\nSkills\nCulture +28, Engineering +23, Life Science +28, Mysticism +28, Physical Science +23\nLanguages\nAklo, Common, Yithian; telepathy 150 ft.\nOther Abilities\nmental projection, mind swap mastery, telepathic bond\nGear\nimpulse storm coil with 4 super-capacity batteries (80 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, band (1–2 plus 3–9 yithians)\nSpecial Abilities\nMental Projection (Su)\nA yithian elder can use its spell-like abilities as if it were in the location of a creature that is party to the yithian’s telepathic bond.\nMind Swap Mastery (Su)\nWhen a yithian casts mind swap, the duration is permanent (D). The yithian takes its senses and defensive abilities with it to a new body and doesn’t gain the awkward trait. In addition, when the yithian returns to its own body, the\nmind swap\ntarget must succeed at a DC 20 Will saving throw or forget being in the yithian’s body.\nTelepathic Bond (Su)\nAs the mystic class.",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Yithian.png"
+}

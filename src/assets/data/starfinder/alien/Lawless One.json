@@ -1,0 +1,46 @@
+{
+  "name": "Lawless One",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lawless One&Family=None",
+  "source": "Starfinder #29: The Cradle Infestation pg. 58",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, chaotic, incorporeal)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "170",
+  "eac": "25",
+  "kac": "26",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+15",
+  "immunities": "acid, cold, construct immunities",
+  "weaknesses": "susceptible to order",
+  "speed": "fly 30 ft. (Su, perfect)",
+  "melee": "entropic touch +20 (2d12+12 A; critical severe wound [DC 21])",
+  "offensive_abilities": "reality revisitation",
+  "spell_like_abilities": {
+    "caster_info": "CL 12th; melee +20, ranged +22",
+    "spells": "1/day—\nbaleful polymorph\n(4th level, DC 23),\ncorrosive haze\n(DC 23)\n3/day—\narcane sight\n(DC 22),\nbestow curse\n(DC 22),\ndispel magic\n,\nentropic grasp\n(DC 21)\nAt will—\ncaustic conversion\n,\ninvisibility\n(DC 20)"
+  },
+  "skills": "Acrobatics +27 (+35 to fly), Intimidate +22, Stealth +27",
+  "other_abilities": "truespeech",
+  "environment": "any",
+  "organization": "solitary, pair, or anarchy (3–6)",
+  "special_abilities": [
+    {
+      "name": "Reality Revisitation (Su)",
+      "description": "Whenever a creature succeeds at its initial saving throw against one of the lawless one’s spell-like abilities, the lawless one can spend 1 Resolve Point as a reaction in an attempt to tweak reality in its favor. The target creature must then reattempt its saving throw against the spell-like ability at the start of its next turn. If it fails, apply the effects of the spell to the creature as if it had failed its initial saving throw."
+    },
+    {
+      "name": "Susceptible to Order (Su)",
+      "description": "A weapon affixed with an axiomatic weapon fusion bypasses a lawless one’s incorporeal defenses as if it were a\nghost killer\nweapon."
+    }
+  ],
+  "description": "Phantasmal creatures resembling inevitables, lawless ones are construct-like humanoids of spinning gears that brim with chaotic energy. However, their similarities to denizens of the lawful plane of Axis are merely physical. Where inevitables are charged with maintaining order, lawless ones seek the exact opposite, looking to corrupt the rule of law, disrupt long-held class structures, and destroy status quos. They do this by targeting societal leaders, whether they be duly elected government officials or self-made titans of industry. When not on the attack, lawless ones bide their time, using their invisibility and incorporeality to stay hidden. After they strike (and usually kill) their targets, they disappear without a trace, leading many to believe their victims were taken out by skilled assassins or other non-supernatural threats.\nAs such, little is actually known about lawless ones, especially regarding their origins. 25 years ago, an anonymous user of a fringe infosphere community claimed that AbadarCorp unintentionally created the lawless ones after trying to use blueprints somehow stolen from Axis to create their own inevitables, but the post was quickly expunged. The rumor still persists, however, despite AbadarCorp executives’ constant denials.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLawless One\nSource\nStarfinder #29: The Cradle Infestation pg. 58\nLawless One CR 12\nXP 19,200\nCN Medium outsider (extraplanar, chaotic, incorporeal)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n170;\nRP\n5\nEAC\n25;\nKAC\n26\nFort\n+11;\nRef\n+13;\nWill\n+15\nDefensive Abilities\nincorporeal, void adaptation;\nImmunities\nacid, cold, construct immunities\nWeaknesses\nsusceptible to order\nOffense\nSpeed\nfly 30 ft. (Su, perfect)\nMelee\nentropic touch +20 (2d12+12 A; critical severe wound [DC 21])\nOffensive Abilities\nreality revisitation\nSpell-Like Abilities\n(CL 12th; melee +20, ranged +22)\n1/day—\nbaleful polymorph\n(4th level, DC 23),\ncorrosive haze\n(DC 23)\n3/day—\narcane sight\n(DC 22),\nbestow curse\n(DC 22),\ndispel magic\n,\nentropic grasp\n(DC 21)\nAt will—\ncaustic conversion\n,\ninvisibility\n(DC 20)\nStatistics\nSTR\n—;\nDEX\n+5;\nCON\n+0;\nINT\n+0;\nWIS\n+8;\nCHA\n+0\nSkills\nAcrobatics +27 (+35 to fly), Intimidate +22, Stealth +27\nOther Abilities\ntruespeech\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or anarchy (3–6)\nSpecial Abilities\nReality Revisitation (Su)\nWhenever a creature succeeds at its initial saving throw against one of the lawless one’s spell-like abilities, the lawless one can spend 1 Resolve Point as a reaction in an attempt to tweak reality in its favor. The target creature must then reattempt its saving throw against the spell-like ability at the start of its next turn. If it fails, apply the effects of the spell to the creature as if it had failed its initial saving throw.\nSusceptible to Order (Su)\nA weapon affixed with an axiomatic weapon fusion bypasses a lawless one’s incorporeal defenses as if it were a\nghost killer\nweapon.\nDescription\nPhantasmal creatures resembling inevitables, lawless ones are construct-like humanoids of spinning gears that brim with chaotic energy. However, their similarities to denizens of the lawful plane of Axis are merely physical. Where inevitables are charged with maintaining order, lawless ones seek the exact opposite, looking to corrupt the rule of law, disrupt long-held class structures, and destroy status quos. They do this by targeting societal leaders, whether they be duly elected government officials or self-made titans of industry. When not on the attack, lawless ones bide their time, using their invisibility and incorporeality to stay hidden. After they strike (and usually kill) their targets, they disappear without a trace, leading many to believe their victims were taken out by skilled assassins or other non-supernatural threats.\nAs such, little is actually known about lawless ones, especially regarding their origins. 25 years ago, an anonymous user of a fringe infosphere community claimed that AbadarCorp unintentionally created the lawless ones after trying to use blueprints somehow stolen from Axis to create their own inevitables, but the post was quickly expunged. The rumor still persists, however, despite AbadarCorp executives’ constant denials.",
+  "type": "outsider (extraplanar, chaotic, incorporeal)",
+  "category": "alien"
+}

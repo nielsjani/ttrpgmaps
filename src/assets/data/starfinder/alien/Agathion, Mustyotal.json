@@ -1,0 +1,53 @@
+{
+  "name": "Agathion, Mustyotal",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mustyotal&Family=Agathion",
+  "source": "Alien Archive 4 pg. 7",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NG",
+  "size": "Small",
+  "creature_type": "outsider (agathion, good)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+9",
+  "immunities": "electricity, petrification;",
+  "resistances": "cold 5, sonic 5",
+  "speed": "40 ft., climb 20 ft., fly 30 ft. (Ex, perfect)",
+  "melee": "talon +15 (1d8+8 S, critical bleed 1d4)",
+  "offensive_abilities": "tandem disarm",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +13, Bluff +13, Engineering +18, Sleight of Hand +18, Stealth +18",
+  "languages": "Common; truespeech, speak with animals",
+  "other_abilities": "healing channel",
+  "gear": "mk 2 null-space chamber",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Tandem Disarm (Ex)",
+      "description": "Mustyotals gain a +4 racial bonus to attack rolls to perform the disarm combat maneuver against enemies threatened by an ally. After a mustyotal attempts a disarm combat maneuver against an enemy that’s also threatened by an ally, the mustyotal can take a guarded step as a reaction."
+    },
+    {
+      "name": "Weapon of the Enemy (Ex)",
+      "description": "When a mustyotal successfully disarms an enemy, they become proficient with that weapon for 1 minute and gain a +1 insight bonus to attack rolls made with that weapon against creatures wielding a weapon of the same type."
+    }
+  ],
+  "description": "Mustyotals are green-furred agathions with owlish faces, a pair of feathered wings jutting from their backs, and slender bodies perfect for fitting into tight places or evading notice. These agathions are formed from petitioners who worked against unjust systems to redistribute wealth. Many mustyotals were once charitable pirates, phantom thieves, or ordinary people committed to helping others even at their own expense who reached Nirvana. Grand gestures aren’t possible for everyone. A person who pays the way for someone who can’t afford their groceries, gives change to the destitute, or donates a portion of their income to charity might eventually become a mustyotal.\nBlessed with a form to match their ideals, mustyotals enjoy greater escapades and capers. They’re drawn to settlements plagued by financial inequity. Where high-rises, penthouses, and mansions stand mere blocks from derelict slums and homeless shantytowns, mustyotals see opportunities to help those oppressed by systemic inequality. Unconcerned with matters of law and chaos, the lords of Nirvana tacitly approve of mustyotals robbing the rich to feed and house the poor.\nMustyotals have been spotted performing grand heists on megacorporations or burglarizing individuals who earned their wealth through predatory practices. They often work alone but sometimes team up with one another or work closely with mortals from the communities they’re helping. The null-space bags they carry allow them to escape with mountains of valuables. Rather than leaving a direct trail of money that might implicate a community, they use their spoils to improve the community’s infrastructure without incriminating the residents. Suddenly, slum dwellers find their tap water is clear where it once flowed rusty. A ramshackle school is repaired overnight. Potholes in streets are paved over. All these signs indicate a mustyotal’s blessing.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAgathion (Summoning) Graft Template\n-\nAgathion (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAgathion\nSource\nAlien Archive 4 pg. 7\nAgathions, who have humanoid forms with animal aspects, form from the souls of mortals who reached an enlightened state and became infused with holy power. Most remain content to meditate and explore their home plane of Nirvana, but many others visit the Material Plane to combat evil, especially evil that threatens the natural world.\nFour-armed and four-eyed vicunals resemble ruthigs and share ruthigs’ preference for traveling in groups. This variation of herd mentality makes vicunals intuitive therapists who tirelessly attend to their companions’ physical and emotional injuries. Despite their tenacity and indefatigable skirmishing tactics, these agathions struggle to overcome powerful foes. In these cases, vicunals typically recruit mortal agents willing to and capable of neutralizing the evil.\nManed claustrals resemble the predatory eohis of the Nejeor system, expressing much of eohis’ love of pursuing and hounding their targets. However, claustrals almost never hunt to kill, instead patrolling cityscapes to protect their adopted fauna or neutralize deadly beasts. Although they take pains to warn negligent urbanites who inadvertently harm animals, claustrals often respond with violence to subdue or even kill serial abusers, such as those who run beast-fighting circuits. To claustrals’ chagrin, these brief rampages can spur rumors of an escaped beast, attracting bounty hunters who hope to slay the mysterious creature.\nAliens in the \"Agathion\" Family\nName\nCR\nClaustral\n6\nMustyotal\n6\nVicunal\n1\nAgathion, Mustyotal\nSource\nStarfinder #47: Nightmare Scenario pg. 54\nMustyotal CR 6\nXP 2,400\nNG Small outsider (agathion, good)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+5;\nRef\n+7;\nWill\n+9; ; +4 vs poison\nImmunities\nelectricity, petrification;\nResistances\ncold 5, sonic 5\nOffense\nSpeed\n40 ft., climb 20 ft., fly 30 ft. (Ex, perfect)\nMelee\ntalon +15 (1d8+8 S, critical bleed 1d4)\nOffensive Abilities\ntandem disarm\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n+5\nSkills\nAcrobatics +13, Bluff +13, Engineering +18, Sleight of Hand +18, Stealth +18\nLanguages\nCommon; truespeech, speak with animals\nOther Abilities\nhealing channel\nGear\nmk 2 null-space chamber\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nTandem Disarm (Ex)\nMustyotals gain a +4 racial bonus to attack rolls to perform the disarm combat maneuver against enemies threatened by an ally. After a mustyotal attempts a disarm combat maneuver against an enemy that’s also threatened by an ally, the mustyotal can take a guarded step as a reaction.\nWeapon of the Enemy (Ex)\nWhen a mustyotal successfully disarms an enemy, they become proficient with that weapon for 1 minute and gain a +1 insight bonus to attack rolls made with that weapon against creatures wielding a weapon of the same type.\nDescription\nMustyotals are green-furred agathions with owlish faces, a pair of feathered wings jutting from their backs, and slender bodies perfect for fitting into tight places or evading notice. These agathions are formed from petitioners who worked against unjust systems to redistribute wealth. Many mustyotals were once charitable pirates, phantom thieves, or ordinary people committed to helping others even at their own expense who reached Nirvana. Grand gestures aren’t possible for everyone. A person who pays the way for someone who can’t afford their groceries, gives change to the destitute, or donates a portion of their income to charity might eventually become a mustyotal.\nBlessed with a form to match their ideals, mustyotals enjoy greater escapades and capers. They’re drawn to settlements plagued by financial inequity. Where high-rises, penthouses, and mansions stand mere blocks from derelict slums and homeless shantytowns, mustyotals see opportunities to help those oppressed by systemic inequality. Unconcerned with matters of law and chaos, the lords of Nirvana tacitly approve of mustyotals robbing the rich to feed and house the poor.\nMustyotals have been spotted performing grand heists on megacorporations or burglarizing individuals who earned their wealth through predatory practices. They often work alone but sometimes team up with one another or work closely with mortals from the communities they’re helping. The null-space bags they carry allow them to escape with mountains of valuables. Rather than leaving a direct trail of money that might implicate a community, they use their spoils to improve the community’s infrastructure without incriminating the residents. Suddenly, slum dwellers find their tap water is clear where it once flowed rusty. A ramshackle school is repaired overnight. Potholes in streets are paved over. All these signs indicate a mustyotal’s blessing.\nExtra Content\nThe following extra content was found for this creature:\n-\nAgathion (Summoning) Graft Template\n-\nAgathion (Creature Subtype) Graft Template",
+  "type": "outsider (agathion, good)",
+  "category": "alien"
+}

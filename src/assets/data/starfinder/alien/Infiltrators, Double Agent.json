@@ -1,0 +1,45 @@
+{
+  "name": "Infiltrators, Double Agent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Double Agent&Family=Infiltrators",
+  "source": "Interstellar Species pg. 168",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "humanoid (kobold)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "resistances": "fire 5",
+  "speed": "30 ft.",
+  "ranged": "drake dragon pistol +17 (3d4+8 F; critical burn 2d4) or smoke grenade I +17 (explode [20 ft., smoke cloud 1 minute, DC 12])",
+  "offensive_abilities": "disorienting twitch",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+6"
+  },
+  "skills": "Acrobatics +16, Bluff +21, Engineering +21, Piloting +16, Stealth +21",
+  "languages": "Common, Draconic",
+  "gear": "estex suit III, drake dragon pistol with 20 petrol, smoke grenades (2)",
+  "special_abilities": [
+    {
+      "name": "Disorienting Twitch (Ex)",
+      "description": "As a reaction when a creature makes a ranged attack against the double agent, they can yelp, twitch, or jump in such a sudden and unexpected way that it momentarily disorients the attacker. The double agent selects a creature within 10 feet; the attacker must succeed at a Will save or attack the selected creature instead. The DC is equal to 10 + the double agent’s CR (DC 18 for this double agent)."
+    }
+  ],
+  "description": "A double agent is a spy ostensibly employed by one organization to spy on a rival, but is secretly working for that rival, providing accurate but useless information to their employer. However, the loyalties of a double agent are hard to predict. If their real mission is discovered, they may be coerced to switch sides, and indeed some double agents are simply opportunists who play both sides. Regardless, a double agent is privy to many secrets and can be an asset to anyone who can convince them to cooperate.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nInfiltrators\nSource\nInterstellar Species pg. 168\nInfiltrators are skilled at sneaking in and out of restricted places. Although different types of infiltrators may have similar goals, their methods for avoiding or compromising guards and security measures differ greatly: shapeshifters rely on their ability to become someone else, spies are masters of remaining undetected, hackers can easily break into both physical locations and computer systems to steal information, and double agents are trained to maintain a cover and lie about their allegiances.\nIn adventures, infiltrators are most often encountered as antagonists who are planning to break into a secure facility to carry out acts of espionage or sabotage or to exfiltrate prisoners. Depending on the type of gig in question, infiltrators may work with assassins or thieves\nAliens in the \"Infiltrators\" Family\nName\nCR\nDouble Agent\n8\nHacker\n5\nShapeshifter\n11\nSpy\n14\nInfiltrators, Double Agent\nSource\nInterstellar Species pg. 168\nDouble Agent CR 8\nXP 4,800\nKobold\nN Small humanoid (kobold)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+13\nResistances\nfire 5\nOffense\nSpeed\n30 ft.\nRanged\ndrake dragon pistol +17 (3d4+8 F; critical burn 2d4) or smoke grenade I +17 (explode [20 ft., smoke cloud 1 minute, DC 12])\nOffensive Abilities\ndisorienting twitch\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n+2;\nWIS\n+0;\nCHA\n+6\nSkills\nAcrobatics +16, Bluff +21, Engineering +21, Piloting +16, Stealth +21\nLanguages\nCommon, Draconic\nGear\nestex suit III, drake dragon pistol with 20 petrol, smoke grenades (2)\nSpecial Abilities\nDisorienting Twitch (Ex)\nAs a reaction when a creature makes a ranged attack against the double agent, they can yelp, twitch, or jump in such a sudden and unexpected way that it momentarily disorients the attacker. The double agent selects a creature within 10 feet; the attacker must succeed at a Will save or attack the selected creature instead. The DC is equal to 10 + the double agent’s CR (DC 18 for this double agent).\nDescription\nA double agent is a spy ostensibly employed by one organization to spy on a rival, but is secretly working for that rival, providing accurate but useless information to their employer. However, the loyalties of a double agent are hard to predict. If their real mission is discovered, they may be coerced to switch sides, and indeed some double agents are simply opportunists who play both sides. Regardless, a double agent is privy to many secrets and can be an asset to anyone who can convince them to cooperate.",
+  "type": "humanoid (kobold)",
+  "environment": "—",
+  "category": "alien"
+}

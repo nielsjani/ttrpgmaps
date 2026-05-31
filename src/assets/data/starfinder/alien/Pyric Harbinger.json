@@ -1,0 +1,69 @@
+{
+  "name": "Pyric Harbinger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pyric Harbinger&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 58",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+6",
+  "senses": "darkvision 120 ft., see in darkness, sense",
+  "perception": "+16",
+  "hp": "110",
+  "eac": "21",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+7",
+  "immunities": "bleed, death effects, disease,",
+  "speed": "10 ft., fly 60 ft. (Su, perfect)",
+  "melee": "tendril +17 (1d12+8 F plus pyric curse; critical burn 1d8 F)",
+  "ranged": "pyric beam +17 (1d0+8 F plus pyric curse; critical burn",
+  "space": "5 ft.",
+  "reach": "5 ft. (15 ft. with tendril)",
+  "offensive_abilities": "pyric fire",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Intimidate +21, Mysticism +21,",
+  "languages": "Aklo; telepathy 100 ft.",
+  "other_abilities": "brightly illuminated, compression, phase, solar",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Ash Consumption (Su)",
+      "description": "When a creature within 30 feet takes\r\nfire damage, a pyric harbinger regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the harbinger’s CR per round."
+    },
+    {
+      "name": "Brightly Illuminated (Su)",
+      "description": "Light within 30 feet of a pyric\r\nharbinger increases by two steps. Light for 30 more feet\r\nbeyond that increases by one step. Magical darkness\r\ndecreases this light only if the darkness is from a source\r\nwith a CR or level higher than the harbinger’s CR."
+    },
+    {
+      "name": "Phase (Su)",
+      "description": "A pyric harbinger can move through objects as if it\r\nwere incorporeal."
+    },
+    {
+      "name": "Pyric Beam (Su)",
+      "description": "Once per round as a standard action, a pyric\r\nharbinger can project pyric fire out to a range of 120 feet.\r\nThis attack has the line weapon special property."
+    },
+    {
+      "name": "Pyric Fire (Su)",
+      "description": "The fire damage of a pyric harbinger burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later."
+    },
+    {
+      "name": "Undying (Ex)",
+      "description": "Pyric harbingers don’t age and have no\r\nneed to eat, drink, or sleep.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 18\nEffect\nA creature that fails the save gains the burning 1d8\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse."
+    }
+  ],
+  "description": "Though called “the spawn of the Eshtayiv,” pyric\r\nharbingers are the constituents of this entity rather than\r\nits offspring. These rare creatures travel through space to\r\nfind dark places to illuminate and beings to slay, creating\r\nterror and pyric undead.\nA pyric harbinger looks like an orb of fire, but within that\r\nflame is a gelatinous sphere that is 5 feet in diameter and\r\nmostly maw. Those who’ve studied a harbinger’s ashy remains\r\nestimate they weigh only 100 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPyric Harbinger\nSource\nStarfinder #16: The Blind City pg. 58\nPyric Harbinger CR 8\nXP 4,800\nCE Medium aberration\nInit\n+6;\nSenses\ndarkvision 120 ft., see in darkness, sense\r\nthrough (life) 30 ft.;\nPerception\n+16\nAura\nalien presence (30 ft., DC 18, sickened 1d4 rounds)\nDefense\nHP\n110\nEAC\n21;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+7\nDefensive Abilities\namorphous, ash consumption, void\r\nadaptation;\nImmunities\nbleed, death effects, disease,\r\nelectricity, exhaustion, fatigue, fire, paralysis, poison,\r\nsleep, stunning\nOffense\nSpeed\n10 ft., fly 60 ft. (Su, perfect)\nMelee\ntendril +17 (1d12+8 F plus pyric curse; critical burn 1d8 F)\nRanged\npyric beam +17 (1d0+8 F plus pyric curse; critical burn\r\n1d8 F)\nSpace\n5 ft.;\nReach\n5 ft. (15 ft. with tendril)\nOffensive Abilities\npyric fire\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n+2;\nINT\n+2;\nWIS\n+0;\nCHA\n+4\nSkills\nAcrobatics +16 (+24 to fly), Intimidate +21, Mysticism +21,\r\nSense Motive +21\nLanguages\nAklo; telepathy 100 ft.\nOther Abilities\nbrightly illuminated, compression, phase, solar\r\nadaptation, spaceflight (Mysticism), undying\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nAsh Consumption (Su)\nWhen a creature within 30 feet takes\r\nfire damage, a pyric harbinger regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the harbinger’s CR per round.\nBrightly Illuminated (Su)\nLight within 30 feet of a pyric\r\nharbinger increases by two steps. Light for 30 more feet\r\nbeyond that increases by one step. Magical darkness\r\ndecreases this light only if the darkness is from a source\r\nwith a CR or level higher than the harbinger’s CR.\nPhase (Su)\nA pyric harbinger can move through objects as if it\r\nwere incorporeal.\nPyric Beam (Su)\nOnce per round as a standard action, a pyric\r\nharbinger can project pyric fire out to a range of 120 feet.\r\nThis attack has the line weapon special property.\nPyric Fire (Su)\nThe fire damage of a pyric harbinger burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nUndying (Ex)\nPyric harbingers don’t age and have no\r\nneed to eat, drink, or sleep.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 18\nEffect\nA creature that fails the save gains the burning 1d8\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse.\nDescription\nThough called “the spawn of the Eshtayiv,” pyric\r\nharbingers are the constituents of this entity rather than\r\nits offspring. These rare creatures travel through space to\r\nfind dark places to illuminate and beings to slay, creating\r\nterror and pyric undead.\nA pyric harbinger looks like an orb of fire, but within that\r\nflame is a gelatinous sphere that is 5 feet in diameter and\r\nmostly maw. Those who’ve studied a harbinger’s ashy remains\r\nestimate they weigh only 100 pounds.",
+  "type": "aberration",
+  "category": "alien"
+}

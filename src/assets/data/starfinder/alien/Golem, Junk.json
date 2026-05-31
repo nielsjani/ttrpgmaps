@@ -1,0 +1,70 @@
+{
+  "name": "Golem, Junk",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Junk&Family=Golem",
+  "source": "Alien Archive 2 pg. 67",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical, technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+1",
+  "immunities": "construct immunities, magic",
+  "speed": "25 ft.",
+  "melee": "slam +10 (1d8+9 B; critical knockdown)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "berserk",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "—",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "other_abilities": "death crumple, mindless, unliving",
+  "environment": "any",
+  "organization": "solitary or gang (2–4)",
+  "special_abilities": [
+    {
+      "name": "Berserk (Ex)",
+      "description": "When a junk golem begins its turn with half its HP or fewer, it must attempt a DC 11 Will save. On a failure, it goes berserk, using its actions to move and attack or make a full attack. If it can’t reach a creature, it attacks objects. The golem attempts a DC 11 Will saving throw at the end of each of its turns to end the berserk state. If the golem’s creator communicates with it to calm it and succeeds at a DC 10 Charisma check, the golem gains a +2 circumstance bonus to this save."
+    },
+    {
+      "name": "Construct Immunities (Ex)",
+      "description": "Constructs are immune to the following effects, unless the effect specifies that it works against constructs.\nBleed, death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, and stunning.\nAbility damage, ability drain, energy drain, exhaustion, fatigue, negative levels, and nonlethal damage.\nAny effect that requires a Fortitude save (unless the effect works on objects or is harmless)."
+    },
+    {
+      "name": "Death Crumple (Ex)",
+      "description": "When a junk golem is reduced to 0 Hit Points, it collapses in a landslide of debris. All Medium or smaller creatures adjacent to the junk golem take 1d8+9 bludgeoning damage (Reflex DC 13 half)."
+    },
+    {
+      "name": "Junk Repair (Ex)",
+      "description": "Once a day, the golem can take a standard action to pick up 1 bulk of inert electronic equipment and add it to its body, restoring 1d10 HP."
+    },
+    {
+      "name": "Magic Immunity (Ex)",
+      "description": "A junk golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically targets constructs. In addition, certain spells and effects function differently against the golem, as follows.\nMagical effects that deal acid damage slow (as the slow spell) the junk golem for 3 rounds (no save).\nIf targeted by a spell with a Target entry of “at least 1 bulk of inert electronic equipment,” the golem becomes confused for 1d4 rounds. It attempts a Fortitude save (against the spell’s DC) at the end of each of its turns to end this condition."
+    },
+    {
+      "name": "Mindless (Ex)",
+      "description": "A junk golem has no Intelligence score or modifier and is immune to mind-affecting effects."
+    },
+    {
+      "name": "Unliving (Ex)",
+      "description": "The golem has no Constitution score or modifier and is destroyed when it reaches 0 HP. It doesn’t heal naturally, but can be repaired with the right tools. Unliving creatures don’t breathe, eat, or sleep."
+    }
+  ],
+  "description": "Junk golems are constructed using random metal and electronic scrap found in junkyards, such as rusted pieces of vehicles, broken vidscreens, and discarded food tins. They’re favored by certain tribes of space goblins, who find their ingenuity in building these hulking constructs matched only by their prudence in making a hasty retreat when the golem inevitably goes berserk.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGolem\nSource\nAlien Archive 2 pg. 67\nThese automatons, created by powerful spellcasters, differ from most robots in that each has an elemental spirit bound within. Properly binding this spirit, which is usually from an earth elemental, is the most important part of creating a golem. As the spirit is only semiconscious, the golem exists in a mindless state and acts only to defend itself or to follow orders from its creator. In some golems, injury causes the elemental spirit to stir in its artificial shell. As it gains awareness, it rages at its imprisonment.\nAliens in the \"Golem\" Family\nName\nCR\nAbysium Golem\n12\nCybernetic Golem\n8\nJunk\n4\nNanotech Golem\n14\nNeutronium Golem\n6\nGolem, Junk\nSource\nJunker's Delight pg. 61\nJunk CR 4\nXP 1,200\nN Large construct (magical, technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+4;\nRef\n+4;\nWill\n+1\nDefensive Abilities\n5/adamantine;\nImmunities\nconstruct immunities, magic\nOffense\nSpeed\n25 ft.\nMelee\nslam +10 (1d8+9 B; critical knockdown)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nberserk\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n—;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nOther Abilities\ndeath crumple, mindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or gang (2–4)\nSpecial Abilities\nBerserk (Ex)\nWhen a junk golem begins its turn with half its HP or fewer, it must attempt a DC 11 Will save. On a failure, it goes berserk, using its actions to move and attack or make a full attack. If it can’t reach a creature, it attacks objects. The golem attempts a DC 11 Will saving throw at the end of each of its turns to end the berserk state. If the golem’s creator communicates with it to calm it and succeeds at a DC 10 Charisma check, the golem gains a +2 circumstance bonus to this save.\nConstruct Immunities (Ex)\nConstructs are immune to the following effects, unless the effect specifies that it works against constructs.\nBleed, death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, and stunning.\nAbility damage, ability drain, energy drain, exhaustion, fatigue, negative levels, and nonlethal damage.\nAny effect that requires a Fortitude save (unless the effect works on objects or is harmless).\nDeath Crumple (Ex)\nWhen a junk golem is reduced to 0 Hit Points, it collapses in a landslide of debris. All Medium or smaller creatures adjacent to the junk golem take 1d8+9 bludgeoning damage (Reflex DC 13 half).\nJunk Repair (Ex)\nOnce a day, the golem can take a standard action to pick up 1 bulk of inert electronic equipment and add it to its body, restoring 1d10 HP.\nMagic Immunity (Ex)\nA junk golem is immune to any spell or spell-like ability that allows spell resistance, unless the spell specifically targets constructs. In addition, certain spells and effects function differently against the golem, as follows.\nMagical effects that deal acid damage slow (as the slow spell) the junk golem for 3 rounds (no save).\nIf targeted by a spell with a Target entry of “at least 1 bulk of inert electronic equipment,” the golem becomes confused for 1d4 rounds. It attempts a Fortitude save (against the spell’s DC) at the end of each of its turns to end this condition.\nMindless (Ex)\nA junk golem has no Intelligence score or modifier and is immune to mind-affecting effects.\nUnliving (Ex)\nThe golem has no Constitution score or modifier and is destroyed when it reaches 0 HP. It doesn’t heal naturally, but can be repaired with the right tools. Unliving creatures don’t breathe, eat, or sleep.\nDescription\nJunk golems are constructed using random metal and electronic scrap found in junkyards, such as rusted pieces of vehicles, broken vidscreens, and discarded food tins. They’re favored by certain tribes of space goblins, who find their ingenuity in building these hulking constructs matched only by their prudence in making a hasty retreat when the golem inevitably goes berserk.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

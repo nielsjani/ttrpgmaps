@@ -1,0 +1,43 @@
+{
+  "name": "Drift Architects, Programmer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Programmer&Family=Drift Architects",
+  "source": "Drift Crisis pg. 168",
+  "cr": "8",
+  "xp": "4,800",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+21",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+9",
+  "speed": "30 ft.",
+  "melee": "buzzblade dueling sword +15 (2d6+10 S) or tactical knife +15 (2d4+10 S)",
+  "ranged": "s-band scorchgun +17 (1d10+8 F)",
+  "offensive_abilities": "improved overcharge, overload, target tracking",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+6",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +16, Bluff +16, Computers +21, Engineering +21, Physical Science +21, Piloting +21, Sleight of Hand +16",
+  "languages": "Akitonian, Brethedan, Common, Kasatha, Shirren, Vercite, Ysoki",
+  "other_abilities": "artificial intelligence (exocortex), constructed, expert rig, flat affect, mechanic tricks (energy shield [14 HP, 8 minutes], improved overcharge), miracle worker (1/day), remote hack, upgrade slot (expert rig), wireless hack",
+  "gear": "kasatha microcord III (backup generator), buzzblade dueling sword with two batteries (20 charges each), tactical knife, s-band scorchgun with two batteries (20 charges each)",
+  "special_abilities": [
+    {
+      "name": "Target Tracking (Ex)",
+      "description": "As a move action, this NPC can designate and track a single foe, gaining a +2 bonus to attack rolls against that target."
+    }
+  ],
+  "description": "Programmers are the engineers, designers, and hackers who worked together to create the Drift upgrade from the fossil code buried within countless Signal broadcasts. These incredibly talented and adaptive programmers form the bulk of the Architects. They're the heart of the group and the builders of the Drift upgrade.\nProgrammers are commonly found working for corporations, governments, and media outlets, though many are independent agents. They can serve as radical hackers, obsessive inventors, starship engineers, or even augmented warriors. Often, programmers are known for creating computer programs or technological inventions, pushing boundaries, and thinking outside the bounds of reality.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDrift Architects\nSource\nDrift Crisis pg. 168\nThe Architects, rumored to be a secret cadre of innovators within the Church of Triune, attempted to upgrade the Drift using fragments of fossil code. The following stat blocks represent members of this mysterious group. Alternatively, they can represent other members of the Church of Triune—a dangerous hacker collective; a tech-focused cult that's risen to prominence during the Drift Crisis; or members of the Primacy, a group rumored to have infected the Drift with a devastating virus.\nAdaptation\n: The NPCs represented here can be a part of many factions and organizations, including AbadarCorp, the Aspis Consortium, Chiwatech, the Moored.\nYou can customize these stat blocks by swapping subtype or template grafts, spells, and equipment. To change the CR of any of these stat blocks, use the arrays in\nAppendix 1\nof Starfinder Alien Archive. Be sure to adjust any associated class graft to the appropriate level as needed.\nAliens in the \"Drift Architects\" Family\nName\nCR\nAnalyist\n1\nInterfacer\n4\nLuminary\n12\nProgrammer\n8\nDrift Architects, Programmer\nSource\nDrift Crisis pg. 168\nProgrammer CR 8\nXP 4,800\nAndroid mechanic\nN  medium humanoid (android)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+21\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+9;\nRef\n+9;\nWill\n+9; +2 vs. disease, mind-affecting effects, poison, and sleep\nOffense\nSpeed\n30 ft.\nMelee\nbuzzblade dueling sword +15 (2d6+10 S) or tactical knife +15 (2d4+10 S)\nRanged\ns-band scorchgun +17 (1d10+8 F)\nOffensive Abilities\nimproved overcharge, overload, target tracking\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+2;\nINT\n+6;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +16, Bluff +16, Computers +21, Engineering +21, Physical Science +21, Piloting +21, Sleight of Hand +16\nLanguages\nAkitonian, Brethedan, Common, Kasatha, Shirren, Vercite, Ysoki\nOther Abilities\nartificial intelligence (exocortex), constructed, expert rig, flat affect, mechanic tricks (energy shield [14 HP, 8 minutes], improved overcharge), miracle worker (1/day), remote hack, upgrade slot (expert rig), wireless hack\nGear\nkasatha microcord III (backup generator), buzzblade dueling sword with two batteries (20 charges each), tactical knife, s-band scorchgun with two batteries (20 charges each)\nSpecial Abilities\nTarget Tracking (Ex)\nAs a move action, this NPC can designate and track a single foe, gaining a +2 bonus to attack rolls against that target.\nDescription\nProgrammers are the engineers, designers, and hackers who worked together to create the Drift upgrade from the fossil code buried within countless Signal broadcasts. These incredibly talented and adaptive programmers form the bulk of the Architects. They're the heart of the group and the builders of the Drift upgrade.\nProgrammers are commonly found working for corporations, governments, and media outlets, though many are independent agents. They can serve as radical hackers, obsessive inventors, starship engineers, or even augmented warriors. Often, programmers are known for creating computer programs or technological inventions, pushing boundaries, and thinking outside the bounds of reality.",
+  "type": "humanoid (android)",
+  "environment": "—",
+  "category": "alien"
+}

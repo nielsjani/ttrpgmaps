@@ -1,0 +1,61 @@
+{
+  "name": "Dragon (Metallic), Adult Silver Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Adult Silver Dragon&Family=Dragon (Metallic)",
+  "source": "Alien Archive 2 pg. 40",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "LG",
+  "size": "Huge",
+  "creature_type": "dragon (cold)",
+  "init": "+3",
+  "senses": "blindsense (vibration) 60 ft., darkvision 120 ft., detect alignment, low-light vision;",
+  "perception": "+25",
+  "hp": "235",
+  "eac": "28",
+  "kac": "29",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+19",
+  "dr": "10/magic",
+  "sr": "25",
+  "immunities": "cold, paralysis, sleep;",
+  "weaknesses": "vulnerable to fire",
+  "speed": "40 ft., fly 200 ft. (Ex, clumsy); cloudwalking",
+  "melee": "bite +26 (6d6+22 P)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with bite)",
+  "offensive_abilities": "breath weapon (50-ft. cone, 15d8 C, Reflex DC 22 half, usable every 1d4 rounds), crush (6d6+22 B), paralyzing breath (30-ft cone, 1d6+7 rounds, DC 22)",
+  "spell_like_abilities": {
+    "caster_info": "CL 14th; melee +26",
+    "spells": "1/day—\ngreater dispel magic\n,\nheat leech\n(DC 22)\n3/day—\ngreater invisibility\n,\noverload systems\n(DC 21),\nresilient sphere\n(DC 21),\nsoothing protocol\n(DC 21)\nAt will—\narcing surge\n(DC 20),\nprobability prediction"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+3",
+    "int": "+6",
+    "wis": "+3",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +25 (+17 to fly), Computers +30, Diplomacy +30, Disguise +25, Life Science +30, Mysticism +25, Physical Science +30, Sense Motive +25",
+  "feats": "Mobility, Spring Attack",
+  "languages": "Auran, Common, Draconic, Dwarven, Terran",
+  "other_abilities": "change shape (animal or humanoid)",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Cloudwalking (Su)",
+      "description": "A silver dragon can tread on clouds or fog as though on solid ground."
+    },
+    {
+      "name": "Paralyzing Breath (Su)",
+      "description": "Instead of a cone of cold, a silver dragon can breathe a 30-foot cone of paralyzing gas. Each creature within the cone that inhales the gas must succeed at a Fortitude save or be paralyzed for 1d6 rounds plus a number of additional rounds equal to half the dragon’s CR."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nBrass Dragon (Dragon (Metallic)) Graft Template\n-\nBronze Dragon (Dragon (Metallic)) Graft Template\n-\nCopper Dragon (Dragon (Metallic)) Graft Template\n-\nGold Dragon (Dragon (Metallic)) Graft Template\n-\nSilver Dragon (Dragon (Metallic)) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDragon (Metallic)\nSource\nAlien Archive 2 pg. 40\nDragons are powerful reptilian creatures of high intelligence and great ingenuity. The vast majority of dragons fall into one of two categories: chromatic or metallic (though other categories exist). Chromatic dragons are often evil, indulging in machinations that benefit themselves or destroy their enemies. Metallic dragons (see below) are generally good, endeavoring to improve societal conditions for everyone. Dragons usually grow larger as they age, though a few dragons undergo expensive genetic modifications to remain small enough to fit within starships and space stations built by the humanoids of the Pact Worlds. Others develop the supernatural ability to change their forms to blend in with Pact Worlds society.\nSeveral metallic dragons lead countries and corporations found within the Drakelands of Triaxus, occasionally engaging in warfare (corporate and militaristic) with the chromatic dragons of that planet. The metallic dragons claim these struggles are for the good of those under their care, though those same people are sometimes trampled in the process.\nAliens in the \"Dragon (Metallic)\" Family\nName\nCR\nAdult Silver Dragon\n14\nDragon (Metallic), Adult Silver Dragon\nSource\nAlien Archive 2 pg. 40\nAdult Silver Dragon CR 14\nXP 38,400\nLG Huge dragon (cold)\nInit\n+3;\nSenses\nblindsense (vibration) 60 ft., darkvision 120 ft., detect alignment, low-light vision;\nPerception\n+25\nAura\nfrightful presence (200 ft., DC 22)\nDefense\nHP\n235\nEAC\n28;\nKAC\n29\nFort\n+14;\nRef\n+14;\nWill\n+19\nDR\n10/magic;\nImmunities\ncold, paralysis, sleep;\nSR\n25\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n40 ft., fly 200 ft. (Ex, clumsy); cloudwalking\nMelee\nbite +26 (6d6+22 P)\nMultiattack\nbite +20 (3d6+22 P), 2 claws +20 (3d6+22 S), tail slap +20 (3d6+22 B)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with bite)\nOffensive Abilities\nbreath weapon (50-ft. cone, 15d8 C, Reflex DC 22 half, usable every 1d4 rounds), crush (6d6+22 B), paralyzing breath (30-ft cone, 1d6+7 rounds, DC 22)\nSpell-Like Abilities\n(CL 14th; melee +26)\n1/day—\ngreater dispel magic\n,\nheat leech\n(DC 22)\n3/day—\ngreater invisibility\n,\noverload systems\n(DC 21),\nresilient sphere\n(DC 21),\nsoothing protocol\n(DC 21)\nAt will—\narcing surge\n(DC 20),\nprobability prediction\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+3;\nINT\n+6;\nWIS\n+3;\nCHA\n+4\nFeats\nMobility, Spring Attack\nSkills\nAcrobatics +25 (+17 to fly), Computers +30, Diplomacy +30, Disguise +25, Life Science +30, Mysticism +25, Physical Science +30, Sense Motive +25\nLanguages\nAuran, Common, Draconic, Dwarven, Terran\nOther Abilities\nchange shape (animal or humanoid)\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nCloudwalking (Su)\nA silver dragon can tread on clouds or fog as though on solid ground.\nParalyzing Breath (Su)\nInstead of a cone of cold, a silver dragon can breathe a 30-foot cone of paralyzing gas. Each creature within the cone that inhales the gas must succeed at a Fortitude save or be paralyzed for 1d6 rounds plus a number of additional rounds equal to half the dragon’s CR.\nExtra Content\nThe following extra content was found for this creature:\n-\nBrass Dragon (Dragon (Metallic)) Graft Template\n-\nBronze Dragon (Dragon (Metallic)) Graft Template\n-\nCopper Dragon (Dragon (Metallic)) Graft Template\n-\nGold Dragon (Dragon (Metallic)) Graft Template\n-\nSilver Dragon (Dragon (Metallic)) Graft Template",
+  "type": "dragon (cold)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Dragon_Adult_Silver.png"
+}

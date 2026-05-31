@@ -1,0 +1,53 @@
+{
+  "name": "Seed Walker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Seed Walker&Family=None",
+  "source": "Starfinder #24: The God-Host Ascends pg. 57",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "plant",
+  "init": "+4",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+25",
+  "hp": "250",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+18",
+  "ref": "+12",
+  "will": "+16",
+  "dr": "10/—",
+  "immunities": "plant immunities;",
+  "resistances": "electricity 10",
+  "weaknesses": "vulnerable to fire and sonic",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "slam +27 (4d6+22 B & A)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "detachable roots, seed mines",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+2",
+    "con": "+6",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Athletics +25, Stealth +30, Survival +25",
+  "environment": "temperate and warm hills, forests, and plains",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Detachable Roots (Ex)",
+      "description": "A seed walker can detach its roots to constrain prey. When a seed walker succeeds at a grapple combat maneuver, the target takes 3d12 bludgeoning damage, and as a swift action, the seed walker can detach the root used to make the attack, allowing it to move and attack normally. A detached root continues to squeeze the target, imparting the grappled condition and dealing an additional 3d12 bludgeoning damage at the end of the target’s turn if the target has yet to escape. A target can free themself with a successful DC 30 Acrobatics check to escape or a successful DC 22 Strength check to burst the root. A root has an AC of 10, 30 Hit Points, and hardness 10."
+    },
+    {
+      "name": "Seed Mines (Ex)",
+      "description": "In a process that takes 10 minutes, a seed walker can plant up to eight hidden, explosive seeds at grid intersections within 60 feet of itself. The seed walker rolls a single Stealth check for all eight mines; the result of this check is the DC of the Perception check needed to spot one of them before it detonates. A creature must be within 20 feet of the seed mine to be able to notice it. Once spotted, a seed mine can be targeted with attacks and spells (though it is immune to area effects); it has the same EAC and KAC as the seed walker. Any damage dealt to a seed mine causes it to explode. In addition, a seed mine detonates whenever a creature comes within 5 feet of its grid intersection. This explosion occurs in a 10-foot burst and deals 8d6 acid and piercing damage (DC 20 Reflex half). A creature that fails the Reflex save also takes 4d6 acid damage at the end of its turn for 4 rounds. If a seed walker moves more than 200 feet from these mines, they become inactive."
+    }
+  ],
+  "description": "Not much is known about the unusual plant creatures that many have called “seed walkers.” A seed walker’s body is generally ovate, with prehensile roots and branches bearing leaves and vines; these roots allow the seed walker to amble about and even squeeze prey to death. In addition, a seed walker grows explosive, spherical pods that it can plant in its vicinity, creating a minefield around itself. The seed walker then remains still at the center of this deadly garden, waiting for unsuspecting prey to set off the volatile pods.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSeed Walker\nSource\nStarfinder #24: The God-Host Ascends pg. 57\nSeed Walker CR 14\nXP 38,400\nN Large plant\nInit\n+4;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+25\nDefense\nHP\n250\nEAC\n28;\nKAC\n30\nFort\n+18;\nRef\n+12;\nWill\n+16\nDR\n10/—;\nImmunities\nplant immunities;\nResistances\nelectricity 10\nWeaknesses\nvulnerable to fire and sonic\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nslam +27 (4d6+22 B & A)\nMultiattack\n4 slams +21 (4d6+22 B & A)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ndetachable roots, seed mines\nStatistics\nSTR\n+8;\nDEX\n+2;\nCON\n+6;\nINT\n+4;\nWIS\n+0;\nCHA\n-2\nSkills\nAthletics +25, Stealth +30, Survival +25\nEcology\nEnvironment\ntemperate and warm hills, forests, and plains\nOrganization\nsolitary or pair\nSpecial Abilities\nDetachable Roots (Ex)\nA seed walker can detach its roots to constrain prey. When a seed walker succeeds at a grapple combat maneuver, the target takes 3d12 bludgeoning damage, and as a swift action, the seed walker can detach the root used to make the attack, allowing it to move and attack normally. A detached root continues to squeeze the target, imparting the grappled condition and dealing an additional 3d12 bludgeoning damage at the end of the target’s turn if the target has yet to escape. A target can free themself with a successful DC 30 Acrobatics check to escape or a successful DC 22 Strength check to burst the root. A root has an AC of 10, 30 Hit Points, and hardness 10.\nSeed Mines (Ex)\nIn a process that takes 10 minutes, a seed walker can plant up to eight hidden, explosive seeds at grid intersections within 60 feet of itself. The seed walker rolls a single Stealth check for all eight mines; the result of this check is the DC of the Perception check needed to spot one of them before it detonates. A creature must be within 20 feet of the seed mine to be able to notice it. Once spotted, a seed mine can be targeted with attacks and spells (though it is immune to area effects); it has the same EAC and KAC as the seed walker. Any damage dealt to a seed mine causes it to explode. In addition, a seed mine detonates whenever a creature comes within 5 feet of its grid intersection. This explosion occurs in a 10-foot burst and deals 8d6 acid and piercing damage (DC 20 Reflex half). A creature that fails the Reflex save also takes 4d6 acid damage at the end of its turn for 4 rounds. If a seed walker moves more than 200 feet from these mines, they become inactive.\nDescription\nNot much is known about the unusual plant creatures that many have called “seed walkers.” A seed walker’s body is generally ovate, with prehensile roots and branches bearing leaves and vines; these roots allow the seed walker to amble about and even squeeze prey to death. In addition, a seed walker grows explosive, spherical pods that it can plant in its vicinity, creating a minefield around itself. The seed walker then remains still at the center of this deadly garden, waiting for unsuspecting prey to set off the volatile pods.",
+  "type": "plant",
+  "category": "alien"
+}

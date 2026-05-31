@@ -1,0 +1,49 @@
+{
+  "name": "Dinosaur, Weydanasaurus",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Weydanasaurus&Family=Dinosaur",
+  "source": "Alien Archive 2 pg. 39",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "animal",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "speed": "30 ft.",
+  "melee": "talon +14 (1d6+10 S plus grab)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "rake and drop, spiny display",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Athletics +16, Intimidate +11, Survival +11",
+  "environment": "warm forest",
+  "organization": "pair or herd (3–14)",
+  "special_abilities": [
+    {
+      "name": "Rake and Drop (Ex)",
+      "description": "When a weydanasaurus successfully renews its grapple on an enemy, it can also deal 2d6+10 slashing damage to that creature with a free pair of limbs. The weydanasaurus must then immediately release that creature to regain its balance."
+    },
+    {
+      "name": "Spiny Display (Ex)",
+      "description": "As a standard action, a weydanasaurus can extend its spines and undulate them in a threatening manner. All enemy creatures within 30 feet that can see the weydanasaurus must succeed at a DC 13 Will save or be shaken until the end of the weydanasaurus’s next turn. A creature that successfully saves against the effect is immune to the spiny display of any weydanasaurus for 24 hours. This is a sense-dependent, mind-affecting fear effect."
+    }
+  ],
+  "description": "Enormous dinosaurs once roamed Weydana–4, just as they did on many other planets. However, in the magically isolated Lost Valley, dinosaurs have continued to survive and even thrive. A peculiar species, now known as the weydanasaurus, is unique to this planet. It has a spiny ridge along its back, a plated ridge on its head, and six total limbs, the front four of which can lift off the ground when needed. The dinosaur can eerily extend and undulate the spines along its ridge to frighten possible predators away from its territory.\nWeydanasauruses are herbivores that enjoy swimming in shallow pools, and they usually remain in one area for years. If the herd grows beyond 20 or so members, a pair or more weydanasauruses typically set off to start a new herd. They aren’t particularly territorial and don’t typically fight over resources unless food or water is scarce. Given how long they occupy a specific location, weydanasauruses tend to modify their surroundings, pushing rocks into the water to make small pools and piling up soft grasses and leaves for nests, giving weydanasaurus “camps” a distinctive look.\nThis particular dinosaur is docile most of the time but becomes exceedingly aggressive during the several weeks when its eggs hatch. Each female weydanasaurus can lay only one or two eggs at most each year; the young are vulnerable for their first few weeks of life and can’t be moved from their nests. To protect the progeny, all adult weydanasauruses in the herd become violently territorial. They use their four front limbs to hold and tear into any creatures that come close to the defenseless young. When hatching season ends, the weydanasauruses return to their normal, laid-back state.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDinosaur\nSource\nAlien Archive 2 pg. 39\nThe term “dinosaur” refers to a category of reptilelike fauna associated with a planet’s prehistoric evolutionary scale. Dinosaurs vary in size, although many are quite large, and they come in a variety of forms. A ceratopsid is a quadruped that has bony frills extending from its head back over its shoulders, as well as horns that adorn its face; one example is the herbivorous triceratops. Dromaeosaurids are bipedal, feathered carnivores, like the pack-hunting deinonychus (also called a raptor). Plesiosaurs are marine reptiles with long necks and toothy mouths that dwell and hunt near the water’s surface. Pterosaurs are flying reptilian beasts with membranous wings and long, sharp, triangular beaks. Sauropods are immense, lumbering quadrupeds with long necks and tails and towering stature, such as brachiosaurus and diplodocus. Theropods are bipedal dinosaurs, generally carnivorous, with fearsome, fanged jaws and clawed digits, like the tyrannosaurus. Thyreophorans are quadrupedal dinosaurs with armor-plated backs and tails weaponized with bludgeoning bone or piercing spikes, including the ankylosaurus and the stegosaurus.\nCreating Dinosaurs\nThe dinosaurs in this entry serve a couple of purposes. Employ them as written when you need statistics for this sort of creature. To create a unique dinosaur, use the stat blocks here and your concept as starting points. Decide what type of natural weapon the animal has, altering the damage type to suit the weapon. Then add elements from Appendix 2: Environmental Grafts. Tailor anything you want to fit your concept.\nAliens in the \"Dinosaur\" Family\nName\nCR\nCeratopsid\n8\nDromaeosaurid\n3\nPlesiosaur\n7\nPterosaur\n3\nSauropod\n10\nTheropod\n9\nThyreophoran\n6\nWeydanasaurus\n5\nDinosaur, Weydanasaurus\nSource\nStarfinder #42: Whispers of the Eclipse pg. 53\nWeydanasaurus CR 5\nXP 1,600\nN Huge animal\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+11\nDefense\nHP\n70\nEAC\n18;\nKAC\n20\nFort\n+9;\nRef\n+9;\nWill\n+4\nOffense\nSpeed\n30 ft.\nMelee\ntalon +14 (1d6+10 S plus grab)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nrake and drop, spiny display\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+1;\nCHA\n-1\nSkills\nAthletics +16, Intimidate +11, Survival +11\nEcology\nEnvironment\nwarm forest\nOrganization\npair or herd (3–14)\nSpecial Abilities\nRake and Drop (Ex)\nWhen a weydanasaurus successfully renews its grapple on an enemy, it can also deal 2d6+10 slashing damage to that creature with a free pair of limbs. The weydanasaurus must then immediately release that creature to regain its balance.\nSpiny Display (Ex)\nAs a standard action, a weydanasaurus can extend its spines and undulate them in a threatening manner. All enemy creatures within 30 feet that can see the weydanasaurus must succeed at a DC 13 Will save or be shaken until the end of the weydanasaurus’s next turn. A creature that successfully saves against the effect is immune to the spiny display of any weydanasaurus for 24 hours. This is a sense-dependent, mind-affecting fear effect.\nDescription\nEnormous dinosaurs once roamed Weydana–4, just as they did on many other planets. However, in the magically isolated Lost Valley, dinosaurs have continued to survive and even thrive. A peculiar species, now known as the weydanasaurus, is unique to this planet. It has a spiny ridge along its back, a plated ridge on its head, and six total limbs, the front four of which can lift off the ground when needed. The dinosaur can eerily extend and undulate the spines along its ridge to frighten possible predators away from its territory.\nWeydanasauruses are herbivores that enjoy swimming in shallow pools, and they usually remain in one area for years. If the herd grows beyond 20 or so members, a pair or more weydanasauruses typically set off to start a new herd. They aren’t particularly territorial and don’t typically fight over resources unless food or water is scarce. Given how long they occupy a specific location, weydanasauruses tend to modify their surroundings, pushing rocks into the water to make small pools and piling up soft grasses and leaves for nests, giving weydanasaurus “camps” a distinctive look.\nThis particular dinosaur is docile most of the time but becomes exceedingly aggressive during the several weeks when its eggs hatch. Each female weydanasaurus can lay only one or two eggs at most each year; the young are vulnerable for their first few weeks of life and can’t be moved from their nests. To protect the progeny, all adult weydanasauruses in the herd become violently territorial. They use their four front limbs to hold and tear into any creatures that come close to the defenseless young. When hatching season ends, the weydanasauruses return to their normal, laid-back state.",
+  "type": "animal",
+  "category": "alien"
+}

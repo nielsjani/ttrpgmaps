@@ -1,0 +1,53 @@
+{
+  "name": "Dycepskian, Reptoid Host",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Reptoid Host&Family=Dycepskian",
+  "source": "Starfinder #28: The Hollow Cabal pg. 55",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (dycepskian, reptoid, shapechanger)",
+  "init": "+7",
+  "senses": "low-light vision;",
+  "perception": "+14",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+8",
+  "will": "+9",
+  "immunities": "mind-affecting effects",
+  "weaknesses": "vulnerable to",
+  "speed": "40 ft.",
+  "melee": "claw +12 (1d6+8 S) or survival knife +14 (1d4+8 S)",
+  "ranged": "corona laser pistol +14 (2d4+6 F; critical burn 1d4)",
+  "offensive_abilities": "debilitating trick, trick attack +3d8",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+3",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +19, Bluff +19, Culture +14, Disguise +19, Sense Motive +14",
+  "languages": "Common, Reptoid",
+  "other_abilities": "change shape (any specific humanoid), fungal mass mind, operative exploits (master of disguise [2/day, 60 minutes or 6 minutes, DC 16], uncanny shooter), specialization (spy)",
+  "gear": "elite stationwear, corona laser pistol with 2 batteries (20 charges each), survival knife",
+  "environment": "any",
+  "organization": "solitary, pair, or circle (3–8)",
+  "special_abilities": [
+    {
+      "name": "Fungal Mass Mind (Ex)",
+      "description": "A creature with the dycepskian subtype can communicate telepathically with another such creature within 100 feet, even if they don’t share a common language. In addition, if one creature with the dycepskian subtype is aware of a combatant, all members of the fungal mass mind within 100 feet are aware of it, and no member of the fungal mass mind can be surprised unless all members within range are surprised."
+    },
+    {
+      "name": "Vulnerable to Remove Affliction (Ex)",
+      "description": "A dycepskian host who is targeted with remove affliction is staggered for 1d4 rounds (no caster level check required)."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nDycepskian-Infested (Dycepskian) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDycepskian\nSource\nStarfinder #28: The Hollow Cabal pg. 55\nDycepskians are a mysterious species of fungus that only gain sentience when they infest sapient hosts, completely overwriting their unfortunate victim’s mind. However, the dycepskian-infested host retains the original creature’s memories and skills, making it difficult to notice the change.\nAn infested host can be recognized by yellowish-green veins visible around the eyes, though most dycepskians take great pains to hide such signs.\nAliens in the \"Dycepskian\" Family\nName\nCR\nReptoid Host\n6\nDycepskian, Reptoid Host\nSource\nStarfinder #28: The Hollow Cabal pg. 55\nReptoid Host CR 6\nXP 2,400\nDycepskian-infested reptoid operative\nN Medium humanoid (dycepskian, reptoid, shapechanger)\nInit\n+7;\nSenses\nlow-light vision;\nPerception\n+14\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+5;\nRef\n+8;\nWill\n+9; +2 vs. poison\nDefensive Abilities\nevasion;\nImmunities\nmind-affecting effects\nWeaknesses\nvulnerable to\nremove affliction\nOffense\nSpeed\n40 ft.\nMelee\nclaw +12 (1d6+8 S) or survival knife +14 (1d4+8 S)\nRanged\ncorona laser pistol +14 (2d4+6 F; critical burn 1d4)\nOffensive Abilities\ndebilitating trick, trick attack +3d8\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+1;\nINT\n+1;\nWIS\n+3;\nCHA\n+2\nSkills\nAcrobatics +19, Bluff +19, Culture +14, Disguise +19, Sense Motive +14\nLanguages\nCommon, Reptoid\nOther Abilities\nchange shape (any specific humanoid), fungal mass mind, operative exploits (master of disguise [2/day, 60 minutes or 6 minutes, DC 16], uncanny shooter), specialization (spy)\nGear\nelite stationwear, corona laser pistol with 2 batteries (20 charges each), survival knife\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or circle (3–8)\nSpecial Abilities\nFungal Mass Mind (Ex)\nA creature with the dycepskian subtype can communicate telepathically with another such creature within 100 feet, even if they don’t share a common language. In addition, if one creature with the dycepskian subtype is aware of a combatant, all members of the fungal mass mind within 100 feet are aware of it, and no member of the fungal mass mind can be surprised unless all members within range are surprised.\nVulnerable to Remove Affliction (Ex)\nA dycepskian host who is targeted with remove affliction is staggered for 1d4 rounds (no caster level check required).\nExtra Content\nThe following extra content was found for this creature:\n-\nDycepskian-Infested (Dycepskian) Graft Template",
+  "type": "humanoid (dycepskian, reptoid, shapechanger)",
+  "category": "alien"
+}

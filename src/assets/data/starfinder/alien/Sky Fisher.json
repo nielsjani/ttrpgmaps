@@ -1,0 +1,51 @@
+{
+  "name": "Sky Fisher",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sky Fisher&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 281",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "aberration",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+6",
+  "speed": "15 ft., fly 50 ft. (Ex, good)",
+  "melee": "bite +14 (1d6+7 P plus fisher poison) or tentacle +11 (1d8+7 B)",
+  "ranged": "lasso +14 (1d4+7 B nonlethal plus entangled)",
+  "space": "15 ft.",
+  "reach": "5 ft. (15 ft. with tentacle)",
+  "offensive_abilities": "lasso",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Stealth +11",
+  "languages": "Castrovelian (can’t speak); telepathy 60 ft.",
+  "environment": "any sky (Castrovel)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Aerial Camouflage (Su)",
+      "description": "As a swift action, a sky fisher can cause its body to become transparent. While airborne and using this ability, the sky fisher gains the staggered condition, but it also gains a +10 racial bonus to Stealth checks and can attempt Stealth checks without cover or concealment."
+    },
+    {
+      "name": "Lasso (Ex)",
+      "description": "A sky fisher is capable of spinning and casting gooey filaments that target KAC and have a range increment of 50 feet (maximum 250 feet). A target struck by one of these filaments takes the listed amount of nonlethal bludgeoning damage and gains the entangled condition for 1 minute. While entangled, the target can’t move farther from the sky fisher than where it began its turn. As a move action, a sky fisher can attempt a combat maneuver check with a +8 bonus to reposition the target, though only to move the target closer; a sky fisher can lift a Medium or smaller target into the air in this way. A creature can end the entangled condition early with a successful DC 23 Acrobatics check to escape or by dealing at least 10 fire or slashing damage to the filament, severing it (the filament has the same AC as the sky fisher). A sky fisher can detach or remove slack in a filament as a swift action and can maintain up to three filaments at a time.\nFisher Poison\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nStrength;\nFrequency\n1/round for 6 rounds\nCure\n1 save"
+    }
+  ],
+  "description": "Sky fishers are aerial ambush predators notorious for casting sticky, anesthetizing filaments with which they reel in their quarry. A sky fisher’s blood contains hemocyanin, which gives the creature a bluish tone. However, it can deoxygenate its blood to turn its body colorless, making the sky fisher sluggish but rendering it mostly translucent as it watches for prey.\nThe aberrations have remarkably complex brains that allow them to analyze patterns and even learn speech, which they observe by using their rounded bodies to magnify sounds emanating from the ground below. This predatory intelligence makes sky fishers a major threat to Castrovelian cities, most of which employ automated defenses to scare off the creatures.\nThough they spend the entirety of their adult lives in the air, sky fishers lay their eggs in saltwater. Their amphibious young spend 7–8 months in the seas before clambering onto nearby rocks—losing the ability to breathe underwater—and then catching the seasonal winds to become airborne.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSky Fisher\nSource\nStarfinder Dead Suns Adventure Path pg. 281\n,\nStarfinder #2: Temple of the Twelve pg. 59\nSky Fisher CR 5\nXP 1,600\nN Huge aberration\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+7;\nRef\n+7;\nWill\n+6\nDefensive Abilities\naerial camouflage\nOffense\nSpeed\n15 ft., fly 50 ft. (Ex, good)\nMelee\nbite +14 (1d6+7 P plus fisher poison) or tentacle +11 (1d8+7 B)\nRanged\nlasso +14 (1d4+7 B nonlethal plus entangled)\nSpace\n15 ft.;\nReach\n5 ft. (15 ft. with tentacle)\nOffensive Abilities\nlasso\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+3;\nINT\n-1;\nWIS\n+0;\nCHA\n-1\nSkills\nAcrobatics +11, Stealth +11\nLanguages\nCastrovelian (can’t speak); telepathy 60 ft.\nEcology\nEnvironment\nany sky (Castrovel)\nOrganization\nsolitary\nSpecial Abilities\nAerial Camouflage (Su)\nAs a swift action, a sky fisher can cause its body to become transparent. While airborne and using this ability, the sky fisher gains the staggered condition, but it also gains a +10 racial bonus to Stealth checks and can attempt Stealth checks without cover or concealment.\nLasso (Ex)\nA sky fisher is capable of spinning and casting gooey filaments that target KAC and have a range increment of 50 feet (maximum 250 feet). A target struck by one of these filaments takes the listed amount of nonlethal bludgeoning damage and gains the entangled condition for 1 minute. While entangled, the target can’t move farther from the sky fisher than where it began its turn. As a move action, a sky fisher can attempt a combat maneuver check with a +8 bonus to reposition the target, though only to move the target closer; a sky fisher can lift a Medium or smaller target into the air in this way. A creature can end the entangled condition early with a successful DC 23 Acrobatics check to escape or by dealing at least 10 fire or slashing damage to the filament, severing it (the filament has the same AC as the sky fisher). A sky fisher can detach or remove slack in a filament as a swift action and can maintain up to three filaments at a time.\nFisher Poison\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nStrength;\nFrequency\n1/round for 6 rounds\nCure\n1 save\nDescription\nSky fishers are aerial ambush predators notorious for casting sticky, anesthetizing filaments with which they reel in their quarry. A sky fisher’s blood contains hemocyanin, which gives the creature a bluish tone. However, it can deoxygenate its blood to turn its body colorless, making the sky fisher sluggish but rendering it mostly translucent as it watches for prey.\nThe aberrations have remarkably complex brains that allow them to analyze patterns and even learn speech, which they observe by using their rounded bodies to magnify sounds emanating from the ground below. This predatory intelligence makes sky fishers a major threat to Castrovelian cities, most of which employ automated defenses to scare off the creatures.\nThough they spend the entirety of their adult lives in the air, sky fishers lay their eggs in saltwater. Their amphibious young spend 7–8 months in the seas before clambering onto nearby rocks—losing the ability to breathe underwater—and then catching the seasonal winds to become airborne.",
+  "type": "aberration",
+  "category": "alien"
+}

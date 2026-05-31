@@ -1,0 +1,50 @@
+{
+  "name": "Stroxha",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Stroxha&Family=None",
+  "source": "Starfinder #22: The Forever Reliquary pg. 58",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+2",
+  "senses": "blindsight (vision) 60 ft., darkvision 60 ft., low-light vision, sense through (vision) 30 ft.;",
+  "perception": "+21",
+  "hp": "135",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+7",
+  "speed": "40 ft., climb 40 ft.",
+  "melee": "bite +20 (3d4+14 P) or claw +20 (3d4+14 S; critical bleed 2d4)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "clawed pounce",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+2",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +21, Stealth +16",
+  "languages": "Stroxha (can’t speak other languages)",
+  "environment": "temperate or warm forests (Marata)",
+  "organization": "solitary, pair, or guard (1–2 plus a maraquoi warband)",
+  "special_abilities": [
+    {
+      "name": "Clawed Pounce (Su)",
+      "description": "When a stroxha charges, it can also make a full attack using its claw and bite natural weapons."
+    },
+    {
+      "name": "Phase (Su)",
+      "description": "Stroxhas exist slightly out of phase with the Material Plane. A stroxha can pass through walls or material objects (but not corporeal creatures) as long as it starts and ends its turn outside of any wall or obstacle. In addition, a stroxha always benefits from a 20% miss chance against attacks and effects targeting it directly, and it takes only half damage from area effects. Force effects function normally against a stroxha."
+    }
+  ],
+  "description": "Within the untamed depths of Marata’s protected forests, stroxhas hunt as they have for ages. Apex predators of terrifying strength and agility, these beasts combine feline and reptilian traits in a robust quadrupedal form armed with long claws and crushing jaws. None of these are what make the stroxha truly dangerous, however. Their legendary ambush capabilities derive not from superior stealth or camouflage, but their capacity to sense and charge prey through solid objects.\nA stroxha’s eyes are highly advanced sensors capable of detecting a range of electromagnetic radiation from X-rays to microwaves. This sight, combined with phase-shifting abilities born of fey ancestry, allows a stroxha to spot a creature and close on it before the prey has a chance to spot danger.\nBecause each individual stroxha needs a vast hunting ground, stroxhas rarely congregate for any purpose other than breeding. Stroxhas bear few cubs, usually one or two, with the parents taking turns rearing the young so neither’s territory becomes overhunted. Stroxha culture is based around an honor hierarchy, with displays of force and dominance determining who controls the choicest territory. Their language is a complex combination of hisses, growls, and body cues, and they are capable of comprehending other languages with sufficient exposure.\nMaraquoi revere stroxhas as symbols of fierce cunning. The people of Marata were once among the beasts’ prey, but the maraquoi have begun defending the increasingly rare predators. With extraplanetary interests applying more pressure for access to Marata’s highly protected environmental resources, poachers have begun to hunt stroxhas, and over time, stroxhas came to recognize the protection the maraquoi have afforded them. An alliance now exists between the mighty predators and their erstwhile prey to protect their mutual home world.\nA typical adult stroxha is 10 feet long and weighs 500 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStroxha\nSource\nStarfinder #22: The Forever Reliquary pg. 58\nStroxha CR 8\nXP 4,800\nN Large magical beast\nInit\n+2;\nSenses\nblindsight (vision) 60 ft., darkvision 60 ft., low-light vision, sense through (vision) 30 ft.;\nPerception\n+21\nDefense\nHP\n135\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+12;\nWill\n+7\nDefensive Abilities\nphase\nOffense\nSpeed\n40 ft., climb 40 ft.\nMelee\nbite +20 (3d4+14 P) or claw +20 (3d4+14 S; critical bleed 2d4)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nclawed pounce\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+2;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +21, Stealth +16\nLanguages\nStroxha (can’t speak other languages)\nEcology\nEnvironment\ntemperate or warm forests (Marata)\nOrganization\nsolitary, pair, or guard (1–2 plus a maraquoi warband)\nSpecial Abilities\nClawed Pounce (Su)\nWhen a stroxha charges, it can also make a full attack using its claw and bite natural weapons.\nPhase (Su)\nStroxhas exist slightly out of phase with the Material Plane. A stroxha can pass through walls or material objects (but not corporeal creatures) as long as it starts and ends its turn outside of any wall or obstacle. In addition, a stroxha always benefits from a 20% miss chance against attacks and effects targeting it directly, and it takes only half damage from area effects. Force effects function normally against a stroxha.\nDescription\nWithin the untamed depths of Marata’s protected forests, stroxhas hunt as they have for ages. Apex predators of terrifying strength and agility, these beasts combine feline and reptilian traits in a robust quadrupedal form armed with long claws and crushing jaws. None of these are what make the stroxha truly dangerous, however. Their legendary ambush capabilities derive not from superior stealth or camouflage, but their capacity to sense and charge prey through solid objects.\nA stroxha’s eyes are highly advanced sensors capable of detecting a range of electromagnetic radiation from X-rays to microwaves. This sight, combined with phase-shifting abilities born of fey ancestry, allows a stroxha to spot a creature and close on it before the prey has a chance to spot danger.\nBecause each individual stroxha needs a vast hunting ground, stroxhas rarely congregate for any purpose other than breeding. Stroxhas bear few cubs, usually one or two, with the parents taking turns rearing the young so neither’s territory becomes overhunted. Stroxha culture is based around an honor hierarchy, with displays of force and dominance determining who controls the choicest territory. Their language is a complex combination of hisses, growls, and body cues, and they are capable of comprehending other languages with sufficient exposure.\nMaraquoi revere stroxhas as symbols of fierce cunning. The people of Marata were once among the beasts’ prey, but the maraquoi have begun defending the increasingly rare predators. With extraplanetary interests applying more pressure for access to Marata’s highly protected environmental resources, poachers have begun to hunt stroxhas, and over time, stroxhas came to recognize the protection the maraquoi have afforded them. An alliance now exists between the mighty predators and their erstwhile prey to protect their mutual home world.\nA typical adult stroxha is 10 feet long and weighs 500 pounds.",
+  "type": "magical beast",
+  "category": "alien"
+}

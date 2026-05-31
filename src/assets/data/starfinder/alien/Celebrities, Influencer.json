@@ -1,0 +1,45 @@
+{
+  "name": "Celebrities, Influencer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Influencer&Family=Celebrities",
+  "source": "Interstellar Species pg. 156",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "95",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+11",
+  "weaknesses": "atrophied",
+  "speed": "5 ft., fly 30 ft. (Su, perfect)",
+  "melee": "claw +16 (1d8+6 S)",
+  "offensive_abilities": "applied knowledge",
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+3",
+    "cha": "+6"
+  },
+  "skills": "Bluff +19, Computers +14, Culture +19, Diplomacy +14, Profession (video personality) +19",
+  "languages": "Akitonian, Common, Ysoki; telepathy 100 ft.",
+  "other_abilities": "brand ambassador",
+  "special_abilities": [
+    {
+      "name": "Brand Ambassador (Ex)",
+      "description": "An influencer can spend 1 hour creating and distributing media about an item, location, or person, after which the influencer attempts a Profession (video personality) check with a DC equal to 10 + 1-1/2 × the subject’s CR, item level, or the CR of the location’s owner. If the influencer succeeds at the check, they attract large crowds to the subject. If the media was positive, this allows anyone who attempts to earn income with a Profession check related to the subject that week to roll their check twice and use the better result. For negative media, the unfriendly coverage disrupts business, forcing anyone attempting to earn income with a Profession check related to the subject that week to roll their check twice and use the worse result. After using this ability, the influencer can’t affect that subject for another week."
+    }
+  ],
+  "description": "Influencers build their reputations as subject matter and lifestyle experts. They inspire their followers to mirror the example they set, whether that means cooking the same recipes, adopting the same magical shortcuts, or assuming the same political stance. They act as advocates, reviewers, and brand ambassadors. However, they must sustain viewership and their reputations, and any threat to either of these can transform the influencer into an implacable foe. An accomplished influencer wields fearsome power, potentially generating or crushing demand for a new product.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCelebrities\nSource\nInterstellar Species pg. 156\nCelebrities shine in ways that often draw admiration, adoration, or amusement from fans across their home worlds and beyond. They regularly engage with fans through interviews, social media, and special appearances, boosting their sway in the court of public opinion. Some celebrities use their massive platforms to influence policy and elections, and it’s not uncommon for groups with specific political or corporate interests to secretly plant or sponsor celebrities to advance particular agendas.\nAliens in the \"Celebrities\" Family\nName\nCR\nInfluencer\n7\nPerformer\n4\nStreamer\n2\nVidgamer\n3\nCelebrities, Influencer\nSource\nInterstellar Species pg. 157\nInfluencer CR 7\nXP 3,200\nContemplative\nN Medium monstrous humanoid\nInit\n+2;\nSenses\nblindsense (thought) 60 ft., darkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n95\nEAC\n19;\nKAC\n20\nFort\n+5;\nRef\n+7;\nWill\n+11\nWeaknesses\natrophied\nOffense\nSpeed\n5 ft., fly 30 ft. (Su, perfect)\nMelee\nclaw +16 (1d8+6 S)\nOffensive Abilities\napplied knowledge\nSpell-Like Abilities\nCL 7th\n1/day—\ndetect thoughts\n(DC 16),\nmind thrust\n(3rd level, DC 18) At will—\ndaze\n(DC 15),\npsychokinetic hand\nStatistics\nSTR\n-1;\nDEX\n+1;\nCON\n+0;\nINT\n+3;\nWIS\n+3;\nCHA\n+6\nSkills\nBluff +19, Computers +14, Culture +19, Diplomacy +14, Profession (video personality) +19\nLanguages\nAkitonian, Common, Ysoki; telepathy 100 ft.\nOther Abilities\nbrand ambassador\nSpecial Abilities\nBrand Ambassador (Ex)\nAn influencer can spend 1 hour creating and distributing media about an item, location, or person, after which the influencer attempts a Profession (video personality) check with a DC equal to 10 + 1-1/2 × the subject’s CR, item level, or the CR of the location’s owner. If the influencer succeeds at the check, they attract large crowds to the subject. If the media was positive, this allows anyone who attempts to earn income with a Profession check related to the subject that week to roll their check twice and use the better result. For negative media, the unfriendly coverage disrupts business, forcing anyone attempting to earn income with a Profession check related to the subject that week to roll their check twice and use the worse result. After using this ability, the influencer can’t affect that subject for another week.\nDescription\nInfluencers build their reputations as subject matter and lifestyle experts. They inspire their followers to mirror the example they set, whether that means cooking the same recipes, adopting the same magical shortcuts, or assuming the same political stance. They act as advocates, reviewers, and brand ambassadors. However, they must sustain viewership and their reputations, and any threat to either of these can transform the influencer into an implacable foe. An accomplished influencer wields fearsome power, potentially generating or crushing demand for a new product.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

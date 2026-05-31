@@ -1,0 +1,54 @@
+{
+  "name": "Yithian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yithian&Family=Yithian",
+  "source": "Alien Archive 3 pg. 136",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+1",
+  "senses": "blindsense (thought) 100 ft., darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "125",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+14",
+  "dr": "10/magic",
+  "resistances": "acid 10, cold 10, fire 10",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "pincer +19 (3d4+12 S; critical wound [DC 18])",
+  "ranged": "jolt storm coil +17 (2d6+9 E)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th",
+    "spells": "At will—\ndetect thoughts\n(range 100 ft., DC 16),\nmind swap\n(DC 21),\nmodify memory\n(DC 20)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Culture +22, Engineering +17, Life Science +22, Mysticism +17, Physical Science +22",
+  "languages": "Aklo, Common, Yithian; telepathy 100 ft.",
+  "other_abilities": "mind swap mastery",
+  "gear": "jolt storm coil with 4 high-capacity batteries (40 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or band (3–9)",
+  "special_abilities": [
+    {
+      "name": "Mind Swap Mastery (Su)",
+      "description": "When a yithian casts mind swap, the duration is permanent (D). The yithian takes its senses and defensive abilities with it to a new body and doesn’t gain the awkward trait. In addition, when the yithian returns to its own body, the\nmind swap\ntarget must succeed at a DC 20 Will saving throw or forget being in the yithian’s body."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYithian\nSource\nAlien Archive 3 pg. 136\nIn eons past, yithians inhabited a dying world. They used a desperate gambit to escape their planet’s doom: casting their minds through time and space. These errant souls came to rest in the bodies they possess today. The minds that already inhabited these bodies were exiled back to the yithians’ doomed world, but what mattered to yithians was the survival of their species, so they had and have little concern for those exiles. Hounds of Tindalos hunt yithians, perhaps for this act, although yithians aren’t sure.\nFrom their new home, the yithians created magitech that allowed them to contact minds on other planets and in other times. When the yithians found hospitable worlds, they created portals to those places. It was in this manner that yithians first came to Golarion. Those who lived on Golarion disappeared during the Gap, along with the rest of the planet.\nAs with all other denizens of the galaxy, yithians lost memory of the time during the Gap, a condition that vexes and frightens them. They also lost access to the devices that allowed them to transcend time. Their scientists continue to seek the cause of the Gap, but the more they do so, the more they realize the answer might be beyond their comprehension.\nYithians retain a weaker version of their forebears’ ability to swap minds. With this power, along with the use of their hybrid portals and the immense psychic power of their elders, they travel between galactic locales. They often mind swap into other species to make use of starships, which they rarely build.\nYithian technology is akin to other high-tech equipment in the galaxy. They prefer electricity weapons. Some historians speculate that the storm coil is a pre-Gap yithian invention, although yithian versions are boxy and made for their physiology. How the weapon became widespread in the modern galaxy is yet another mystery of the Gap.\nYithians are about 10 feet tall and weigh nearly 2,000 pounds. They live for millennia.\nAliens in the \"Yithian\" Family\nName\nCR\nYithian\n9\nYithian Elder\n13\nYithian\nSource\nAlien Archive 3 pg. 136\nYithian CR 9\nXP 6,400\nLN Large aberration\nInit\n+1;\nSenses\nblindsense (thought) 100 ft., darkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n125\nEAC\n22;\nKAC\n23\nFort\n+8;\nRef\n+8;\nWill\n+14\nDefensive Abilities\nfast healing 5, unflankable;\nDR\n10/magic;\nResistances\nacid 10, cold 10, fire 10\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\npincer +19 (3d4+12 S; critical wound [DC 18])\nRanged\njolt storm coil +17 (2d6+9 E)\nSpace\n10 ft.;\nReach\n10 ft.\nSpell-Like Abilities\n(CL 9th)\nAt will—\ndetect thoughts\n(range 100 ft., DC 16),\nmind swap\n(DC 21),\nmodify memory\n(DC 20)\nStatistics\nSTR\n+3;\nDEX\n+1;\nCON\n+3;\nINT\n+6;\nWIS\n+2;\nCHA\n+4\nSkills\nCulture +22, Engineering +17, Life Science +22, Mysticism +17, Physical Science +22\nLanguages\nAklo, Common, Yithian; telepathy 100 ft.\nOther Abilities\nmind swap mastery\nGear\njolt storm coil with 4 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or band (3–9)\nSpecial Abilities\nMind Swap Mastery (Su)\nWhen a yithian casts mind swap, the duration is permanent (D). The yithian takes its senses and defensive abilities with it to a new body and doesn’t gain the awkward trait. In addition, when the yithian returns to its own body, the\nmind swap\ntarget must succeed at a DC 20 Will saving throw or forget being in the yithian’s body.",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Yithian.png"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Assassins, Viper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Viper&Family=Assassins",
+  "source": "Interstellar Species pg. 152",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+6",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+1",
+  "ref": "+13",
+  "will": "+10",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "sintered starknife +19 (4d4+9 P) or bite  +19 (2d10+9 P)",
+  "ranged": "advanced nightarch needler +22 (2d6+9 P; critical injection DC +2)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +22, Bluff +17, Disguise +17, Life Science + 17, Stealth +22",
+  "languages": "Astriapi, Common",
+  "other_abilities": "envenom, honey production",
+  "gear": "dvanced nightarch needler with 10 darts, sintered",
+  "special_abilities": [
+    {
+      "name": "Envenom (Ex)",
+      "description": "Each viper has a signature poison, sometimes concocted with material from their own body. Each day they can produce three doses of this poison, which acts as an existing poison at a level lower than or equal to their CR. This poison can’t be sold and loses its toxicity after 24 hours."
+    }
+  ],
+  "description": "Vipers rely on poison to take out their targets. They often craft their own toxins, using various aspects of their bodies, such as blood, tears, or chitin. They typically work alone. Vipers pride themselves on their calling cards, which can be used to trace assassinations back to them. Their ability to create novel venoms makes it difficult for natural defenses to resist the effects of the poison and for medical staff to treat those affected.\nVipers are skilled bioengineers who are likely to work or have previously worked in laboratories. They see assassinations as a chance to show off their talent and research, and they revel in the fear instilled by their creations.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAssassins\nSource\nInterstellar Species pg. 152\nAssassins are skilled killers who excel in eliminating single targets. Often using various forms of stealth and subterfuge, they can pass between guards undetected and skillfully navigate traps to quickly dispatch their marked query. High-profile corporations, cults, or criminal syndicates may employ assassins, but most work alone or as part of secretive guilds for hire and by contract.\nAssassins work in the shadows, with some operating discreetly among the underbellies of society and others conducting their business while hiding in plain sight. Regardless of their methods, they’re valued for their ability to hide their tracks and maintain their employer’s anonymity. The most skilled assassins can take out high-profile figures without leaving any evidence for investigators to follow. The more difficult the job and the greater the prominence of the target, the higher the fee they command.\nAliens in the \"Assassins\" Family\nName\nCR\nDeadeye\n14\nMasked Assassin\n5\nSpecter\n18\nViper\n9\nAssassins, Viper\nSource\nInterstellar Species pg. 152\nViper CR 9\nXP 6,400\nAstriapi\nCE Medium monstrous humanoid\nInit\n+6;\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+1;\nRef\n+13;\nWill\n+10\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\nsintered starknife +19 (4d4+9 P) or bite  +19 (2d10+9 P)\nRanged\nadvanced nightarch needler +22 (2d6+9 P; critical injection DC +2)\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n+0;\nINT\n+3;\nWIS\n+0;\nCHA\n+4\nSkills\nAcrobatics +22, Bluff +17, Disguise +17, Life Science + 17, Stealth +22\nLanguages\nAstriapi, Common\nOther Abilities\nenvenom, honey production\nGear\ndvanced nightarch needler with 10 darts, sintered\r\nstarknife, viper poison (functions as ungol dust; 3 doses)\nSpecial Abilities\nEnvenom (Ex)\nEach viper has a signature poison, sometimes concocted with material from their own body. Each day they can produce three doses of this poison, which acts as an existing poison at a level lower than or equal to their CR. This poison can’t be sold and loses its toxicity after 24 hours.\nDescription\nVipers rely on poison to take out their targets. They often craft their own toxins, using various aspects of their bodies, such as blood, tears, or chitin. They typically work alone. Vipers pride themselves on their calling cards, which can be used to trace assassinations back to them. Their ability to create novel venoms makes it difficult for natural defenses to resist the effects of the poison and for medical staff to treat those affected.\nVipers are skilled bioengineers who are likely to work or have previously worked in laboratories. They see assassinations as a chance to show off their talent and research, and they revel in the fear instilled by their creations.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

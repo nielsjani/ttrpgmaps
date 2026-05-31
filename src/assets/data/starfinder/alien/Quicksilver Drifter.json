@@ -1,0 +1,59 @@
+{
+  "name": "Quicksilver Drifter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Quicksilver Drifter&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 58",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+8",
+  "ref": "+6",
+  "will": "+4",
+  "weaknesses": "slowsilver, vulnerable to cold",
+  "speed": "50 ft., fly 10 ft. (Ex., clumsy)",
+  "melee": "claw +14 (1d6+10 B or S) or slam +14 (1d6+10 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "amalgamating spit (DC 13), trample (1d6+10, DC 13)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+4",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Athletics +16",
+  "other_abilities": "mercury adapted",
+  "environment": "any land (Weydana-2)",
+  "organization": "solitary, pair, or herd (3–12)",
+  "special_abilities": [
+    {
+      "name": "Amalgamating Spit (Ex)",
+      "description": "The quicksilver drifter can spit a wad of catalyzed mercury that rapidly degrades inorganic materials and fuses parts together. As a standard action, the quicksilver drifter attempts a ranged attack against the EAC of a target up to 60 feet away, with a +11 modifier. On a hit, the target attempts a DC 13 Fortitude save; on a success, the spit has no effect. On a failed save, if the target is a creature that can be targeted by spells that affect objects, the creature takes 4d4+8 damage and is staggered for 1 round. Otherwise, one item worn or wielded by the target becomes broken, and the target takes 2d4+4 damage. The quicksilver drifter can’t use this ability again for 1d4 rounds."
+    },
+    {
+      "name": "Gas Cloud (Ex)",
+      "description": "A quicksilver drifter constantly expels a cloud of mercury gas in a 15-foot radius. Creatures that enter or begin their turn in the cloud must succeed at a DC 13 Fortitude save or be sickened for 1d4 rounds."
+    },
+    {
+      "name": "Mercury Adapted (Ex)",
+      "description": "Quicksilver drifters have adapted to life in lakes of liquid mercury. They can breathe in this environment but can also survive on land."
+    },
+    {
+      "name": "Slowsilver (Ex)",
+      "description": "If the quicksilver drifter takes more than 20 cold damage in a round, it is staggered for 1 round as the mercury inside it solidifies."
+    }
+  ],
+  "description": "Quicksilver drifters are six-legged animals with two dorsal ridges that store dozens of gallons of mercury for the creatures’ one-way trip inland for the breeding season. Drifters hatch in clutches in the mercury lake, and one dominant clutchmate matures while the others cease development to live in a pouch on their sibling’s underside; the mature drifters fill their mercury reserves and head inland. On this journey, the hosts’ body chemistry changes, resulting in an unusual spit that they can use to discourage predators. Hosts die within two days of reaching the breeding grounds, releasing their immature clutchmates to then feed on the hosts’ remains. Anything leftover provides the surrounding flora and fauna with the materials needed to survive until the next mating season. The smaller clutchmates then partially mature, mate, and return to the lake on dorsal reservoirs of mercury. There, they deposit their eggs beneath the lake’s silvery surface, and the cycle begins anew.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nQuicksilver Drifter\nSource\nStarfinder #41: Serpents in the Cradle pg. 58\nQuicksilver Drifter CR 5\nXP 1,600\nN Large animal\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+11\nAura\ngas cloud (15 ft., DC 13)\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+8;\nRef\n+6;\nWill\n+4\nWeaknesses\nslowsilver, vulnerable to cold\nOffense\nSpeed\n50 ft., fly 10 ft. (Ex., clumsy)\nMelee\nclaw +14 (1d6+10 B or S) or slam +14 (1d6+10 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\namalgamating spit (DC 13), trample (1d6+10, DC 13)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+4;\nINT\n-4;\nWIS\n+2;\nCHA\n-1\nSkills\nAcrobatics +11, Athletics +16\nOther Abilities\nmercury adapted\nEcology\nEnvironment\nany land (Weydana-2)\nOrganization\nsolitary, pair, or herd (3–12)\nSpecial Abilities\nAmalgamating Spit (Ex)\nThe quicksilver drifter can spit a wad of catalyzed mercury that rapidly degrades inorganic materials and fuses parts together. As a standard action, the quicksilver drifter attempts a ranged attack against the EAC of a target up to 60 feet away, with a +11 modifier. On a hit, the target attempts a DC 13 Fortitude save; on a success, the spit has no effect. On a failed save, if the target is a creature that can be targeted by spells that affect objects, the creature takes 4d4+8 damage and is staggered for 1 round. Otherwise, one item worn or wielded by the target becomes broken, and the target takes 2d4+4 damage. The quicksilver drifter can’t use this ability again for 1d4 rounds.\nGas Cloud (Ex)\nA quicksilver drifter constantly expels a cloud of mercury gas in a 15-foot radius. Creatures that enter or begin their turn in the cloud must succeed at a DC 13 Fortitude save or be sickened for 1d4 rounds.\nMercury Adapted (Ex)\nQuicksilver drifters have adapted to life in lakes of liquid mercury. They can breathe in this environment but can also survive on land.\nSlowsilver (Ex)\nIf the quicksilver drifter takes more than 20 cold damage in a round, it is staggered for 1 round as the mercury inside it solidifies.\nDescription\nQuicksilver drifters are six-legged animals with two dorsal ridges that store dozens of gallons of mercury for the creatures’ one-way trip inland for the breeding season. Drifters hatch in clutches in the mercury lake, and one dominant clutchmate matures while the others cease development to live in a pouch on their sibling’s underside; the mature drifters fill their mercury reserves and head inland. On this journey, the hosts’ body chemistry changes, resulting in an unusual spit that they can use to discourage predators. Hosts die within two days of reaching the breeding grounds, releasing their immature clutchmates to then feed on the hosts’ remains. Anything leftover provides the surrounding flora and fauna with the materials needed to survive until the next mating season. The smaller clutchmates then partially mature, mate, and return to the lake on dorsal reservoirs of mercury. There, they deposit their eggs beneath the lake’s silvery surface, and the cycle begins anew.",
+  "type": "animal",
+  "category": "alien"
+}

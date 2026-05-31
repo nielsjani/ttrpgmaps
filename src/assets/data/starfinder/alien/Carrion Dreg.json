@@ -1,0 +1,46 @@
+{
+  "name": "Carrion Dreg",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Carrion Dreg&Family=None",
+  "source": "Starfinder #7: The Reach of Empire pg. 55",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "48",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+5",
+  "immunities": "undead immunities",
+  "weaknesses": "vulnerable to critical hits",
+  "speed": "30 ft.",
+  "melee": "bite +12 (1d6+9 P)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "—",
+    "int": "—",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +10, Stealth +15",
+  "other_abilities": "grotesque adaptation, mindless, no breath, unliving",
+  "environment": "any",
+  "organization": "solitary or abattoir (2–10)",
+  "special_abilities": [
+    {
+      "name": "Grotesque Adaptation (Ex)",
+      "description": "A carrion dreg gains additional abilities based on the body parts it has scavenged. Roll 1d6 and consult the table below to add one of these abilities randomly, or pick one.\nd6\nAbility\n1\nGrasping Arms: The carrion dreg gains a climb speed of 20 feet.\n2\nLeathery Wings: The carrion dreg gains an extraordinary fly speed of 20 feet with clumsy maneuverability.\n3\nRotting Fins: The carrion dreg gains a swim speed of 30 feet.\n4\nRough Hide: The carrion dreg gains a +1 bonus to its KAC.\n5\nSharp Fangs: The carrion dreg’s bite attack deals an additional amount of damage equal to half the dreg’s Strength modifier.\n6\nSolid Thews: The carrion dreg gains 10% additional Hit Points."
+    }
+  ],
+  "description": "In places suffused with necromantic energy, such as the necrograft facilities of Eox, parts of discarded corpses sometimes spontaneously come together to form the undead creatures known as carrion dregs, horrifying amalgamations of severed heads, arms, and legs arranged haphazardly around central cores of rotting flesh and sinew. These undead creatures are savage predators, instinctually driven to gather more lifeless forms to add limbs and heads to their own bodies.\nNo two carrion dregs look the same, and their attributes vary based on the limbs they have scavenged, making the vicious creatures highly unpredictable and even more dangerous. When hunting, multiple carrion dregs act in concert with one another to kill their prey, but they quickly turn to fight among themselves over the remains.",
+  "extra_content": "The following extra content was found for this creature:\n-\nCarrion Dreg (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCarrion Dreg\nSource\nStarfinder #7: The Reach of Empire pg. 55\nCarrion Dreg CR 4\nXP 1,200\nNE Medium undead\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n48\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+5\nImmunities\nundead immunities\nWeaknesses\nvulnerable to critical hits\nOffense\nSpeed\n30 ft.\nMelee\nbite +12 (1d6+9 P)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n—;\nINT\n—;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +10, Athletics +10, Stealth +15\nOther Abilities\ngrotesque adaptation, mindless, no breath, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or abattoir (2–10)\nSpecial Abilities\nGrotesque Adaptation (Ex)\nA carrion dreg gains additional abilities based on the body parts it has scavenged. Roll 1d6 and consult the table below to add one of these abilities randomly, or pick one.\nd6\nAbility\n1\nGrasping Arms: The carrion dreg gains a climb speed of 20 feet.\n2\nLeathery Wings: The carrion dreg gains an extraordinary fly speed of 20 feet with clumsy maneuverability.\n3\nRotting Fins: The carrion dreg gains a swim speed of 30 feet.\n4\nRough Hide: The carrion dreg gains a +1 bonus to its KAC.\n5\nSharp Fangs: The carrion dreg’s bite attack deals an additional amount of damage equal to half the dreg’s Strength modifier.\n6\nSolid Thews: The carrion dreg gains 10% additional Hit Points.\nDescription\nIn places suffused with necromantic energy, such as the necrograft facilities of Eox, parts of discarded corpses sometimes spontaneously come together to form the undead creatures known as carrion dregs, horrifying amalgamations of severed heads, arms, and legs arranged haphazardly around central cores of rotting flesh and sinew. These undead creatures are savage predators, instinctually driven to gather more lifeless forms to add limbs and heads to their own bodies.\nNo two carrion dregs look the same, and their attributes vary based on the limbs they have scavenged, making the vicious creatures highly unpredictable and even more dangerous. When hunting, multiple carrion dregs act in concert with one another to kill their prey, but they quickly turn to fight among themselves over the remains.\nExtra Content\nThe following extra content was found for this creature:\n-\nCarrion Dreg (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

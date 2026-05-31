@@ -1,0 +1,61 @@
+{
+  "name": "Drift Phantom",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Drift Phantom&Family=None",
+  "source": "Junker's Delight pg. 60",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "60",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+4",
+  "ref": "+8",
+  "will": "+6",
+  "dr": "5/—",
+  "immunities": "bleed, critical hits, paralysis, poison, sleep effects, stunning",
+  "speed": "fly 30 ft. (Su, perfect)",
+  "melee": "slam +9 (1d4+7 B & E; critical drain power [DC 15])",
+  "ranged": "static globe +11 (1d4+5 E; critical drain power [DC 15])",
+  "spell_like_abilities": {
+    "caster_info": "CL 5th; melee +9",
+    "spells": "1/day—\nhold person\n(DC 17),\ninflict pain\n(DC 17)\n3/day—\nlesser confusion\n(DC 16),\nreflecting armor\n(DC 16),\nwisp ally\nAt will—\ndaze\n(DC 15),\nfatigue\n(DC 15)"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Athletics +11, Stealth +16",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Drain Power (Su)",
+      "description": "When a Drift phantom scores a critical hit with its slam or static globe attack, the target must attempt a DC 15 Reflex saving throw. On a failure, all batteries in that creature’s possession lose 1d6 charges. If the creature isn’t carrying batteries, one randomly chosen object in its possession powered by electrical means other than batteries has its functions suppressed for 1d4 rounds instead."
+    },
+    {
+      "name": "Evasion (Ex)",
+      "description": "If the Drift phantom succeeds at a Reflex save against an effect that normally has a partial effect on a successful save, it instead suffers no effect. The Drift phantom loses the benefit when it is helpless or unable to move."
+    },
+    {
+      "name": "Static Globe (Ex)",
+      "description": "As a ranged attack, a Drift phantom can release an orb of static electricity with a range increment of 30 feet."
+    },
+    {
+      "name": "Unflankable (Ex)",
+      "description": "Flanking a Drift phantom doesn’t grant any bonuses, and abilities that function only against a creature that is flanked don’t function against a Drift phantom."
+    }
+  ],
+  "description": "Despite the fact that starfaring people throughout the galaxy use the Drift to travel between planetary systems on a regular basis, not much is known about this enigmatic plane. Triune and its clergy understand more than most, but they don’t share this knowledge. In the three centuries since the Signal went out, many scientists have studied the Drift and if it might be harnessed for other uses. Failed experiments of this nature sometimes create what is called a Drift phantom—rare beings that are energy from the Drift coalesced into a physical form on the Material Plane.\nA Drift phantom has no fixed shape; it appears as a cloud of pink-and-purple energy lit by the occasional flash of electricity, like a bolt of lightning. However, when other sentient creatures enters its vicinity, a Drift phantom takes on the vague form of those creatures, shifting between shapes if more than one species is present. Some researchers believe this to be a Drift phantom’s attempt to communicate, but so far, no one knows for sure.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDrift Phantom\nSource\nJunker's Delight pg. 60\nDrift Phantom CR 5\nXP 1,600\nN Medium outsider (native)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n60\nEAC\n16;\nKAC\n17\nFort\n+4;\nRef\n+8;\nWill\n+6\nDefensive Abilities\nevasion, unflankable;\nDR\n5/—;\nImmunities\nbleed, critical hits, paralysis, poison, sleep effects, stunning\nOffense\nSpeed\nfly 30 ft. (Su, perfect)\nMelee\nslam +9 (1d4+7 B & E; critical drain power [DC 15])\nRanged\nstatic globe +11 (1d4+5 E; critical drain power [DC 15])\nSpell-Like Abilities\n(CL 5th; melee +9)\n1/day—\nhold person\n(DC 17),\ninflict pain\n(DC 17)\n3/day—\nlesser confusion\n(DC 16),\nreflecting armor\n(DC 16),\nwisp ally\nAt will—\ndaze\n(DC 15),\nfatigue\n(DC 15)\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+1;\nINT\n+0;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +16 (+24 to fly), Athletics +11, Stealth +16\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nDrain Power (Su)\nWhen a Drift phantom scores a critical hit with its slam or static globe attack, the target must attempt a DC 15 Reflex saving throw. On a failure, all batteries in that creature’s possession lose 1d6 charges. If the creature isn’t carrying batteries, one randomly chosen object in its possession powered by electrical means other than batteries has its functions suppressed for 1d4 rounds instead.\nEvasion (Ex)\nIf the Drift phantom succeeds at a Reflex save against an effect that normally has a partial effect on a successful save, it instead suffers no effect. The Drift phantom loses the benefit when it is helpless or unable to move.\nStatic Globe (Ex)\nAs a ranged attack, a Drift phantom can release an orb of static electricity with a range increment of 30 feet.\nUnflankable (Ex)\nFlanking a Drift phantom doesn’t grant any bonuses, and abilities that function only against a creature that is flanked don’t function against a Drift phantom.\nDescription\nDespite the fact that starfaring people throughout the galaxy use the Drift to travel between planetary systems on a regular basis, not much is known about this enigmatic plane. Triune and its clergy understand more than most, but they don’t share this knowledge. In the three centuries since the Signal went out, many scientists have studied the Drift and if it might be harnessed for other uses. Failed experiments of this nature sometimes create what is called a Drift phantom—rare beings that are energy from the Drift coalesced into a physical form on the Material Plane.\nA Drift phantom has no fixed shape; it appears as a cloud of pink-and-purple energy lit by the occasional flash of electricity, like a bolt of lightning. However, when other sentient creatures enters its vicinity, a Drift phantom takes on the vague form of those creatures, shifting between shapes if more than one species is present. Some researchers believe this to be a Drift phantom’s attempt to communicate, but so far, no one knows for sure.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

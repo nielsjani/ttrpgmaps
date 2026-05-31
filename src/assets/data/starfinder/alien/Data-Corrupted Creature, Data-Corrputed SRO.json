@@ -1,0 +1,50 @@
+{
+  "name": "Data-Corrupted Creature, Data-Corrputed SRO",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Data-Corrputed SRO&Family=Data-Corrupted Creature",
+  "source": "Starfinder #50: Clockwork Demons pg. 58",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "135",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+10",
+  "speed": "30 ft.",
+  "melee": "claw +18 (3d4+15 S plus corrupting virus [DC 18])",
+  "ranged": "corona optical laser +20 (2d6+9 F; critical burn 1d6)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +22, Bluff +17, Computers +22, Stealth +17",
+  "languages": "Common",
+  "other_abilities": "healing circuit",
+  "environment": "any urban",
+  "organization": "solitary or cache (3–4)",
+  "special_abilities": [
+    {
+      "name": "Corrupting Virus (Ex)",
+      "description": "A data-corrupted creature is capable of infecting certain victims with a self-replicating virus that gradually alters their minds. When a data-corrupted creature deals damage with their claw attack to a non-mindless technological construct or a living creature with the android subtype, the target must succeed at a DC 18 Will saving throw or be infected with the data infection curse (see below)."
+    },
+    {
+      "name": "Firewall (Su)",
+      "description": "As a reaction to being targeted by an attack that targets EAC, a data-corrupted creature can create a temporary shield of corrupted data that grants a +2 bonus to EAC against that attack.\nData Infection\nType\ncurse;\nSave\nWill DC 18\nTrack\nphysical disease (special);\nFrequency\n1/day\nEffect\nAt the weakened state, the victim is only sickened. At the impaired state, the victim isn’t exhausted and must attempt a Will save instead of a Fortitude save. A victim who dies from the curse rises as a data-corrupted creature 2d6 hours later.\nCure\n2 consecutive saves\nSpecial\nThe effects of this curse can affect constructs."
+    }
+  ],
+  "description": "Several decades ago, an unknown hacker released the Malwarewolf virus into the Pact Worlds’ infospheres. The virus inflicted a disease-like curse on all robotic life-forms, from anacites to androids to SROs. It slowly corrupted souls and internal programming until the targets became mindless brutes. Their body language became threatening, their visual sensors glowed with malevolence, and sharpened metallic claws emerged from their manipulators.",
+  "extra_content": "The following extra content was found for this creature:\n-\nData-Corrupted (Data-Corrupted Creature) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nData-Corrupted Creature\nAliens in the \"Data-Corrupted Creature\" Family\nName\nCR\nData-Corrputed SRO\n9\nData-Corrupted Creature, Data-Corrputed SRO\nSource\nStarfinder #50: Clockwork Demons pg. 58\nData-Corrputed SRO CR 9\nXP 6,400\nCN Medium construct (technological)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n135\nEAC\n22;\nKAC\n23\nFort\n+6;\nRef\n+6;\nWill\n+10; +4 vs. effects that target only humanoids\nDefensive Abilities\nfirewall, robotic\nOffense\nSpeed\n30 ft.\nMelee\nclaw +18 (3d4+15 S plus corrupting virus [DC 18])\nRanged\ncorona optical laser +20 (2d6+9 F; critical burn 1d6)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+2;\nINT\n+3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +22, Bluff +17, Computers +22, Stealth +17\nLanguages\nCommon\nOther Abilities\nhealing circuit\nAugmentations\ncorona optical laser\nEcology\nEnvironment\nany urban\nOrganization\nsolitary or cache (3–4)\nSpecial Abilities\nCorrupting Virus (Ex)\nA data-corrupted creature is capable of infecting certain victims with a self-replicating virus that gradually alters their minds. When a data-corrupted creature deals damage with their claw attack to a non-mindless technological construct or a living creature with the android subtype, the target must succeed at a DC 18 Will saving throw or be infected with the data infection curse (see below).\nFirewall (Su)\nAs a reaction to being targeted by an attack that targets EAC, a data-corrupted creature can create a temporary shield of corrupted data that grants a +2 bonus to EAC against that attack.\nData Infection\nType\ncurse;\nSave\nWill DC 18\nTrack\nphysical disease (special);\nFrequency\n1/day\nEffect\nAt the weakened state, the victim is only sickened. At the impaired state, the victim isn’t exhausted and must attempt a Will save instead of a Fortitude save. A victim who dies from the curse rises as a data-corrupted creature 2d6 hours later.\nCure\n2 consecutive saves\nSpecial\nThe effects of this curse can affect constructs.\nDescription\nSeveral decades ago, an unknown hacker released the Malwarewolf virus into the Pact Worlds’ infospheres. The virus inflicted a disease-like curse on all robotic life-forms, from anacites to androids to SROs. It slowly corrupted souls and internal programming until the targets became mindless brutes. Their body language became threatening, their visual sensors glowed with malevolence, and sharpened metallic claws emerged from their manipulators.\nExtra Content\nThe following extra content was found for this creature:\n-\nData-Corrupted (Data-Corrupted Creature) Graft Template",
+  "type": "construct (technological)",
+  "category": "alien"
+}

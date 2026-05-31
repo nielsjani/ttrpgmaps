@@ -1,0 +1,51 @@
+{
+  "name": "Valnarum",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Valnarum&Family=None",
+  "source": "Starfinder #23: Hive of Minds pg. 60",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "LN",
+  "size": "Huge",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "blindsense (life) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+16",
+  "hp": "116",
+  "eac": "21",
+  "kac": "20",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+11",
+  "immunities": "cold",
+  "speed": "60 ft., climb 20 ft., fly 200 ft. (Su, average)",
+  "melee": "bite +16 (1d12+14 P) or claw +16 (2d6+14 S)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +21, Diplomacy +16, Mysticism +16, Stealth +21 (+29 in forest or jungle), Survival +21",
+  "languages": "Common, Lexonian",
+  "other_abilities": "share defenses, spaceflight (Mysticism)",
+  "environment": "any",
+  "organization": "solitary, pair, or chain (3–6)",
+  "special_abilities": [
+    {
+      "name": "Pulse Roar (Su)",
+      "description": "As a standard action, a valnarum can bellow a 30-foot cone of battering sonic energy. This natural attack has the blast and unwieldy weapon special properties and a range increment of 30 feet. On a critical hit, the energy pushes a creature 20 feet away from the valnarum. This attack is effective in a vacuum."
+    },
+    {
+      "name": "Share Defenses (Su)",
+      "description": "As a swift action, a valnarum can grant a single creature touching it void adaptation for as long as the creature remains in contact. The valnarum can withdraw this protection as a swift action."
+    }
+  ],
+  "description": "Standing almost 10 feet tall at the shoulders and 20 feet from nose to tip of tail, a valnarum is a mystical, intelligent predator that can be found in many systems. A valnarum’s fur is mottled blue and purple with a series of black spots that provides simple camouflage in forest and jungle terrain. In addition to its long tail, a valnarum has a pair of blue, glowing wings made of pure energy that allow the creature to fly through space and provide protection from cosmic radiation.\nOriginally from Lexonia VII—the seventh satellite of the star Lexon and a magic-filled world of massive, interconnected forests—valnarums became the apex predators on the planet after mystically evolving their energy wings. As valnarums continually moved upward through the ecosystem’s massive canopies, which abutted the edge of the planet’s atmosphere, they gradually adapted to micro-gravity and the lack of breathable air. Eventually, mutations allowed valnarums to travel through space and visit other worlds.\nThough they travel throughout the galaxy in small groups known as chains to hunt new and exciting prey, valnarums aren’t ruthless destroyers. When they discover a planet they haven’t visited before, they attempt to make contact with the world’s dominant species to ask permission to hunt. Most valnarums try to respect the laws and customs wherever they land and kill only what they need to survive, though they enjoy the thrill of tracking down a creature they’ve never feasted upon before.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nValnarum\nSource\nStarfinder #23: Hive of Minds pg. 60\nValnarum CR 8\nXP 4,800\nLN Huge magical beast\nInit\n+4;\nSenses\nblindsense (life) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+16\nDefense\nHP\n116\nEAC\n21;\nKAC\n20\nFort\n+9;\nRef\n+9;\nWill\n+11\nDefensive Abilities\nfast healing 8, void adaptation;\nImmunities\ncold\nOffense\nSpeed\n60 ft., climb 20 ft., fly 200 ft. (Su, average)\nMelee\nbite +16 (1d12+14 P) or claw +16 (2d6+14 S)\nSpace\n15 ft.;\nReach\n15 ft.\nSpecial Attacks\npulse roar (30-ft. cone, 8d10 B & So; critical push [20 ft.])\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+2;\nINT\n+1;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +21, Diplomacy +16, Mysticism +16, Stealth +21 (+29 in forest or jungle), Survival +21\nLanguages\nCommon, Lexonian\nOther Abilities\nshare defenses, spaceflight (Mysticism)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or chain (3–6)\nSpecial Abilities\nPulse Roar (Su)\nAs a standard action, a valnarum can bellow a 30-foot cone of battering sonic energy. This natural attack has the blast and unwieldy weapon special properties and a range increment of 30 feet. On a critical hit, the energy pushes a creature 20 feet away from the valnarum. This attack is effective in a vacuum.\nShare Defenses (Su)\nAs a swift action, a valnarum can grant a single creature touching it void adaptation for as long as the creature remains in contact. The valnarum can withdraw this protection as a swift action.\nDescription\nStanding almost 10 feet tall at the shoulders and 20 feet from nose to tip of tail, a valnarum is a mystical, intelligent predator that can be found in many systems. A valnarum’s fur is mottled blue and purple with a series of black spots that provides simple camouflage in forest and jungle terrain. In addition to its long tail, a valnarum has a pair of blue, glowing wings made of pure energy that allow the creature to fly through space and provide protection from cosmic radiation.\nOriginally from Lexonia VII—the seventh satellite of the star Lexon and a magic-filled world of massive, interconnected forests—valnarums became the apex predators on the planet after mystically evolving their energy wings. As valnarums continually moved upward through the ecosystem’s massive canopies, which abutted the edge of the planet’s atmosphere, they gradually adapted to micro-gravity and the lack of breathable air. Eventually, mutations allowed valnarums to travel through space and visit other worlds.\nThough they travel throughout the galaxy in small groups known as chains to hunt new and exciting prey, valnarums aren’t ruthless destroyers. When they discover a planet they haven’t visited before, they attempt to make contact with the world’s dominant species to ask permission to hunt. Most valnarums try to respect the laws and customs wherever they land and kill only what they need to survive, though they enjoy the thrill of tracking down a creature they’ve never feasted upon before.",
+  "type": "magical beast",
+  "category": "alien"
+}

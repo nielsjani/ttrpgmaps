@@ -1,0 +1,50 @@
+{
+  "name": "Perchten",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Perchten&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 58",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "fey (cold)",
+  "init": "+0",
+  "senses": "low-light vision;",
+  "perception": "+22",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+10",
+  "immunities": "cold",
+  "weaknesses": "vulnerable to fire",
+  "speed": "35 ft.",
+  "melee": "acolyte shadow chains +21 (3d4+18 C) or claw +21 (1d3+18 S)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with acolyte shadow chains; critical bind)",
+  "offensive_abilities": "gear boosts (anchoring arcana, melee striker), fighting styles (arcane assailant, hunter)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+0",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Athletics +22, Intimidate +17, Survival +17",
+  "languages": "Common, Sylvan",
+  "other_abilities": "fast hunting, hunt foe, prison crystal, rune of the eldritch knight",
+  "gear": "night plate I, acolyte shadow chains, perchten prison crystal",
+  "environment": "any (Raunach Prime)",
+  "organization": "solitary, hunting party (2-4)",
+  "special_abilities": [
+    {
+      "name": "Prison Crystal (Su)",
+      "description": "A perchten can imprison defeated enemies in its prison crystal. Each crystal works for only the perchten who carries it and can be used only on targets at 0 HP. Activating the crystal is a standard action; the target vanishes and is stable at 0 HP inside the crystal, where they remain unconscious and unaware, until the perchten takes a standard action to free them. Freed creatures appear in an unoccupied square nearest to the crystal. If a perchten is killed, its prison crystal melts over the course of 1d4 rounds, freeing everyone imprisoned in the crystal."
+    }
+  ],
+  "description": "The legend of perchtens is well-known and oft-repeated, especially on cold and mountainous worlds where they’re most likely to visit. The story goes that a perchten comes in the dark months of the year to take away the naughty and the vile, imprisoning their victims in magical crystals. Most who tell this tale think their local perchten is the only one—a solitary fiend, perhaps a demon. In fact, perchtens are a kind of fey: creatures of winter and wrath who serve a hateful matriarch and reside on the frozen planet Raunach Prime, which orbits a black hole.\nFrom Raunach Prime, perchtens travel the void in painfully cold starships, landing on alpine peaks during monstrous snowstorms; from there, perchten jailers descend into valleys in the dead of the night to hunt their prey. They stalk those who have taken from others without remorse or those whose hearts are filled with greed and scorn. Once they’ve defeated their victim, the perchten jailer binds them into a frigid prison crystal from which there’s no escape. Only when the jailer has returned to their starship that they release their prey into a prison cell, where dangling chains and the smells of blood and oil mingle to keep prisoners too terrified to attempt escape.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPerchten\nSource\nStarfinder #45: The Culling Shadow pg. 58\nPerchten CR 9\nXP 6,400\nPerchten soldier\nLN Medium fey (cold)\nInit\n+0;\nSenses\nlow-light vision;\nPerception\n+22\nAura\nfrightful presence (30 ft., DC 16)\nDefense\nHP\n145;\nRP\n4\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+9;\nWill\n+10\nImmunities\ncold\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n35 ft.\nMelee\nacolyte shadow chains +21 (3d4+18 C) or claw +21 (1d3+18 S)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with acolyte shadow chains; critical bind)\nOffensive Abilities\ngear boosts (anchoring arcana, melee striker), fighting styles (arcane assailant, hunter)\nStatistics\nSTR\n+6;\nDEX\n+0;\nCON\n+4;\nINT\n+0;\nWIS\n+3;\nCHA\n+0\nSkills\nAthletics +22, Intimidate +17, Survival +17\nLanguages\nCommon, Sylvan\nOther Abilities\nfast hunting, hunt foe, prison crystal, rune of the eldritch knight\nGear\nnight plate I, acolyte shadow chains, perchten prison crystal\nEcology\nEnvironment\nany (Raunach Prime)\nOrganization\nsolitary, hunting party (2-4)\nSpecial Abilities\nPrison Crystal (Su)\nA perchten can imprison defeated enemies in its prison crystal. Each crystal works for only the perchten who carries it and can be used only on targets at 0 HP. Activating the crystal is a standard action; the target vanishes and is stable at 0 HP inside the crystal, where they remain unconscious and unaware, until the perchten takes a standard action to free them. Freed creatures appear in an unoccupied square nearest to the crystal. If a perchten is killed, its prison crystal melts over the course of 1d4 rounds, freeing everyone imprisoned in the crystal.\nDescription\nThe legend of perchtens is well-known and oft-repeated, especially on cold and mountainous worlds where they’re most likely to visit. The story goes that a perchten comes in the dark months of the year to take away the naughty and the vile, imprisoning their victims in magical crystals. Most who tell this tale think their local perchten is the only one—a solitary fiend, perhaps a demon. In fact, perchtens are a kind of fey: creatures of winter and wrath who serve a hateful matriarch and reside on the frozen planet Raunach Prime, which orbits a black hole.\nFrom Raunach Prime, perchtens travel the void in painfully cold starships, landing on alpine peaks during monstrous snowstorms; from there, perchten jailers descend into valleys in the dead of the night to hunt their prey. They stalk those who have taken from others without remorse or those whose hearts are filled with greed and scorn. Once they’ve defeated their victim, the perchten jailer binds them into a frigid prison crystal from which there’s no escape. Only when the jailer has returned to their starship that they release their prey into a prison cell, where dangling chains and the smells of blood and oil mingle to keep prisoners too terrified to attempt escape.",
+  "type": "fey (cold)",
+  "category": "alien"
+}

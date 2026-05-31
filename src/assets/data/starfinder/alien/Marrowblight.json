@@ -1,0 +1,47 @@
+{
+  "name": "Marrowblight",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Marrowblight&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 275",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+8",
+  "immunities": "undead immunities",
+  "speed": "30 ft.",
+  "melee": "claw +17 (1d8+12 S) orspur +17 (1d8+12 P plus red ache)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "—",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +14, Athletics +14, Intimidate +19",
+  "languages": "Common, Eoxian",
+  "other_abilities": "unliving",
+  "environment": "any ruins (Eox)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Pounce (Ex)",
+      "description": "As a standard action, a marrowblight can leap up to 15 feet into an empty space, provoking attacks of opportunity as normal for this movement. Each creature in a square adjacent to the marrowblight at the end of its movement must succeed at a DC 15 Reflex saving throw or gain the off-target condition for 1 round. Creatures that fail this check by 10 or more are also knocked prone. The marrowblight can exclude a number of allies from this effect equal to its Intelligence modifier (2 for most marrowblights)."
+    }
+  ],
+  "description": "Marrowblights are muscular undead monstrosities filled with hate. They typically arise from brawny humanoids that were exposed to strange radiation or arcane energy that painfully warped their flesh at the moment of their demise, creating hideous bone spurs that protrude from the creatures’ backs, cheeks, jaws, and shoulders. Marrowblights can use these spurs as weapons, as they drip with the disease that courses through the creature’s undead bones like marrow.\nScientifically advanced planets, such as Eox in the Pact Worlds, have pinpointed the biology-warping processes required to create marrowblights, and some elebrians have willingly succumbed to this horrific undead fate. On Eox, naturally occurring marrowblights created during the planet’s cataclysm still exist. These are typically among the universe’s most vicious and hateful undead, eschewing society and living creatures in particular. Sometimes, though, such marrowblights ally with forces that seek to assert and spread the superiority of undead creatures throughout the universe and beyond, including the Corpse Fleet and those who sympathize with the exiled navy.\nMarrowblights are typically 8 to 10 feet tall—including the horrific bone spurs that protrude from their backs—and weigh upward of 300 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nMarrowblight (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMarrowblight\nSource\nStarfinder Dead Suns Adventure Path pg. 275\n,\nStarfinder #3: Splintered Worlds pg. 55\nMarrowblight CR 7\nXP 3,200\nCE Medium undead\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+9;\nWill\n+8\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft.\nMelee\nclaw +17 (1d8+12 S) orspur +17 (1d8+12 P plus red ache)\nMultiattack\nclaw +12 (1d8+12), spur +12 (1d8+12 plus red ache)\nOffensive Abilities\npounce\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n—;\nINT\n+2;\nWIS\n+1;\nCHA\n-1\nSkills\nAcrobatics +14, Athletics +14, Intimidate +19\nLanguages\nCommon, Eoxian\nOther Abilities\nunliving\nEcology\nEnvironment\nany ruins (Eox)\nOrganization\nsolitary\nSpecial Abilities\nPounce (Ex)\nAs a standard action, a marrowblight can leap up to 15 feet into an empty space, provoking attacks of opportunity as normal for this movement. Each creature in a square adjacent to the marrowblight at the end of its movement must succeed at a DC 15 Reflex saving throw or gain the off-target condition for 1 round. Creatures that fail this check by 10 or more are also knocked prone. The marrowblight can exclude a number of allies from this effect equal to its Intelligence modifier (2 for most marrowblights).\nDescription\nMarrowblights are muscular undead monstrosities filled with hate. They typically arise from brawny humanoids that were exposed to strange radiation or arcane energy that painfully warped their flesh at the moment of their demise, creating hideous bone spurs that protrude from the creatures’ backs, cheeks, jaws, and shoulders. Marrowblights can use these spurs as weapons, as they drip with the disease that courses through the creature’s undead bones like marrow.\nScientifically advanced planets, such as Eox in the Pact Worlds, have pinpointed the biology-warping processes required to create marrowblights, and some elebrians have willingly succumbed to this horrific undead fate. On Eox, naturally occurring marrowblights created during the planet’s cataclysm still exist. These are typically among the universe’s most vicious and hateful undead, eschewing society and living creatures in particular. Sometimes, though, such marrowblights ally with forces that seek to assert and spread the superiority of undead creatures throughout the universe and beyond, including the Corpse Fleet and those who sympathize with the exiled navy.\nMarrowblights are typically 8 to 10 feet tall—including the horrific bone spurs that protrude from their backs—and weigh upward of 300 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nMarrowblight (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

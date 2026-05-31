@@ -1,0 +1,47 @@
+{
+  "name": "Troll",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Troll&Family=Troll",
+  "source": "Alien Archive 3 pg. 120",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "humanoid (giant)",
+  "init": "+2",
+  "senses": "blindsense (scent) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+4",
+  "speed": "30 ft.",
+  "melee": "bite +14 (1d6+9 P; critical wound [DC 13]) or claw +14 (1d4+9 S; critical wound [DC 13])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "maul",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+5",
+    "int": "-2",
+    "wis": "-1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +16, Intimidate +11",
+  "languages": "Common",
+  "other_abilities": "tracking (scent)",
+  "environment": "any",
+  "organization": "solitary or gang (2–4)",
+  "special_abilities": [
+    {
+      "name": "Maul (Ex)",
+      "description": "If the troll hits the same target with two claw attacks during the same turn, it can attempt a bite attack against that target with a –6 penalty to the attack roll."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTroll\nSource\nAlien Archive 3 pg. 120\nAncient and implacable, trolls are fierce carnivores whose regenerative powers allow them to survive in nearly any environment. Those same powers make trolls voracious, and a hungry troll is relentless and fearless when in search of food.\nTrolls prefer the cold air and clean winds of high mountains. In almost any environ, however, trolls are apex predators, with an acute sense of smell that allows them to detect hidden prey.\nTrolls have curved claws and teeth, perfect for tearing flesh from bone or ripping armored hide open to reveal the tender flesh beneath. Over-inflated confidence comes naturally to trolls, leading most to have little sense of self-preservation. The remarkable regeneration trolls have means they rapidly recover even from significant wounds. In combat, a troll attacks recklessly in pursuit of food or while defending its territory. Trolls eat what they take down, and they don’t wait until their prey is dead before doing so.\nDespite their aggression toward other creatures, trolls are nurturing toward each other and their young. Female trolls form groups to raise juveniles, teaching and sheltering their whelps in turns as each female takes time to hunt. Male trolls are more solitary. Once grown, they strike out on their own to claim territory, usually rejoining other trolls only to duel or mate. However, male trolls have been observed raising troll young when female trolls are absent.\nSome corporations, hoping to profit from research on trolls, go to great lengths to acquire live specimens. Some seek the secrets of regeneration for use in medicine. Others are less moral in their intentions. Trolls can survive even the worst experiments, and viable mutant strains can result from such unscrupulous research.\nOne of the most heinous of these “evolutions” is the void troll. As a wounded troll regenerates, specific magical conditions and exposure to cosmic forces without the protective barrier of an atmosphere can sear away the troll’s weaknesses. What this torturous process leaves behind is a more powerful troll, its regrown and irradiated hide as hard as modern composites and capable of reffecting lasers and magical energies.\nTrolls can be up to 14 feet tall and weigh up to 1-1/2 tons. A troll’s heavy head, long jaws, and thick, hunched shoulders make it appear shorter and stockier than it is.\nAliens in the \"Troll\" Family\nName\nCR\nTroll\n5\nTroll, Quantum\n6\nVoid Troll\n14\nTroll\nSource\nAlien Archive 3 pg. 120\nTroll CR 5\nXP 1,600\nCE Large humanoid (giant)\nInit\n+2;\nSenses\nblindsense (scent) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nregeneration 5 (acid or fire)\nOffense\nSpeed\n30 ft.\nMelee\nbite +14 (1d6+9 P; critical wound [DC 13]) or claw +14 (1d4+9 S; critical wound [DC 13])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nmaul\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+5;\nINT\n-2;\nWIS\n-1;\nCHA\n-2\nSkills\nAthletics +16, Intimidate +11\nLanguages\nCommon\nOther Abilities\ntracking (scent)\nEcology\nEnvironment\nany\nOrganization\nsolitary or gang (2–4)\nSpecial Abilities\nMaul (Ex)\nIf the troll hits the same target with two claw attacks during the same turn, it can attempt a bite attack against that target with a –6 penalty to the attack roll.",
+  "type": "humanoid (giant)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Troll.png"
+}

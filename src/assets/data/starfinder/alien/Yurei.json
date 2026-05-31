@@ -1,0 +1,58 @@
+{
+  "name": "Yurei",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yurei&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 61",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+8",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "170",
+  "eac": "25",
+  "kac": "26",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+17",
+  "immunities": "undead immunities",
+  "speed": "40 ft.; spider climb",
+  "melee": "painful grasp +21 (2d12+12 C plus pain [DC 21])",
+  "offensive_abilities": "face of death (DC 21)",
+  "spell_like_abilities": {
+    "caster_info": "CL 12th",
+    "spells": "1/day—\ndimension door\n,\nfear\n(4th-level, DC 23)\n3/day—\nbestow curse\n(DC 22),\ndisplacement\n,\nholographic image\n(3rd-level, DC 22),\nnightmare\n(DC 22)\nAt will—\nghost sound\n(DC 19),\ninvisibility"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+8",
+    "con": "—",
+    "int": "+2",
+    "wis": "+4",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +27, Intimidate +22, Stealth +27",
+  "other_abilities": "haunted focus, unliving",
+  "environment": "any",
+  "organization": "solitary or haunt (1 yurei plus 2–4 ghosts)",
+  "special_abilities": [
+    {
+      "name": "Face of Death (Su)",
+      "description": "As a full action, a yurei can expose its face to a single adjacent creature. That creature must succeed at a DC 21 Will save or be stunned for 1d6 rounds. A target that is stunned must also succeed at a DC 21 Fortitude save or immediately be reduced to 0 Hit Points and begin dying (the target doesn’t lose any Stamina Points it might have had). A target that succeeds at the initial saving throw is immune to that particular yurei’s face of death ability for 24 hours. This is a mind-affecting fear effect, and the secondary effect is a death effect."
+    },
+    {
+      "name": "Haunted Focus (Su)",
+      "description": "Each yurei has a bond with an object that was significant to it in life, such as a datapad or comm unit. As long as a yurei and its focus are both on the same plane of existence, a yurei can observe its focus, as per\nclairaudience/clairvoyance\n; travel to its focus, as per interplanetary teleport; and use any of its spell-like abilities as if it was in the same space as its focus, all regardless of distance."
+    },
+    {
+      "name": "Painful Grasp (Su)",
+      "description": "A creature that takes damage from a yurei’s painful grasp attack must succeed at a DC 21 Will saving throw or take a –2 penalty to ability checks, attack rolls, and skill checks for 1 round. This is a pain effect."
+    }
+  ],
+  "description": "Yurei are formed from the spirits of those who died in the throes of betrayal, whether by a lover, parent, or other close relation. They relentlessly stalk their betrayers, terrorizing them with horrific nightmares before painfully drawing the warmth from their victims with their terribly burnt hands.\nA yurei rarely finds peace after taking revenge, often mistaking a different subject as the focus of its wrath. While there are tales of people who calmed a yurei’s rage, too often these creatures can only be put to rest through violence.",
+  "extra_content": "The following extra content was found for this creature:\n-\nYurei (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYurei\nSource\nStarfinder #39: The Gilded Cage pg. 61\nYurei CR 12\nXP 19,200\nNE Medium undead\nInit\n+8;\nSenses\ndarkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n170\nEAC\n25;\nKAC\n26\nFort\n+11;\nRef\n+11;\nWill\n+17\nImmunities\nundead immunities\nOffense\nSpeed\n40 ft.; spider climb\nMelee\npainful grasp +21 (2d12+12 C plus pain [DC 21])\nOffensive Abilities\nface of death (DC 21)\nSpell-Like Abilities\n(CL 12th)\n1/day—\ndimension door\n,\nfear\n(4th-level, DC 23)\n3/day—\nbestow curse\n(DC 22),\ndisplacement\n,\nholographic image\n(3rd-level, DC 22),\nnightmare\n(DC 22)\nAt will—\nghost sound\n(DC 19),\ninvisibility\nStatistics\nSTR\n+0;\nDEX\n+8;\nCON\n—;\nINT\n+2;\nWIS\n+4;\nCHA\n+5\nSkills\nAcrobatics +27, Intimidate +22, Stealth +27\nOther Abilities\nhaunted focus, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or haunt (1 yurei plus 2–4 ghosts)\nSpecial Abilities\nFace of Death (Su)\nAs a full action, a yurei can expose its face to a single adjacent creature. That creature must succeed at a DC 21 Will save or be stunned for 1d6 rounds. A target that is stunned must also succeed at a DC 21 Fortitude save or immediately be reduced to 0 Hit Points and begin dying (the target doesn’t lose any Stamina Points it might have had). A target that succeeds at the initial saving throw is immune to that particular yurei’s face of death ability for 24 hours. This is a mind-affecting fear effect, and the secondary effect is a death effect.\nHaunted Focus (Su)\nEach yurei has a bond with an object that was significant to it in life, such as a datapad or comm unit. As long as a yurei and its focus are both on the same plane of existence, a yurei can observe its focus, as per\nclairaudience/clairvoyance\n; travel to its focus, as per interplanetary teleport; and use any of its spell-like abilities as if it was in the same space as its focus, all regardless of distance.\nPainful Grasp (Su)\nA creature that takes damage from a yurei’s painful grasp attack must succeed at a DC 21 Will saving throw or take a –2 penalty to ability checks, attack rolls, and skill checks for 1 round. This is a pain effect.\nDescription\nYurei are formed from the spirits of those who died in the throes of betrayal, whether by a lover, parent, or other close relation. They relentlessly stalk their betrayers, terrorizing them with horrific nightmares before painfully drawing the warmth from their victims with their terribly burnt hands.\nA yurei rarely finds peace after taking revenge, often mistaking a different subject as the focus of its wrath. While there are tales of people who calmed a yurei’s rage, too often these creatures can only be put to rest through violence.\nExtra Content\nThe following extra content was found for this creature:\n-\nYurei (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Needlehawk",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Needlehawk&Family=None",
+  "source": "Starfinder #28: The Hollow Cabal pg. 58",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "animal",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "34",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+8",
+  "will": "+2",
+  "speed": "20 ft., fly 40 ft. (Ex, perfect)",
+  "melee": "sting +7 (1d4+3 P plus needlehawk toxin)",
+  "ranged": "needle launch +9 (1d4+3 P plus needlehawk toxin)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +13 (+21 to fly), Stealth +13, Survival +8",
+  "other_abilities": "active camouflage",
+  "environment": "warm and temperate forests",
+  "organization": "solitary, pair, or prickle (3–12)",
+  "special_abilities": [
+    {
+      "name": "Active Camouflage (Ex)",
+      "description": "A needlehawk can adjust chromatophores in its exoskeleton to blend in with its surroundings. When motionless or moving fewer than 10 feet per round, it gains a +5 racial bonus to Stealth checks to hide."
+    },
+    {
+      "name": "Needle Launch (Ex)",
+      "description": "As a ranged attack, a needlehawk can launch a needle from its barbed tail with a range increment of 30 feet.\nNeedlehawk Toxin\nType\npoison (injury);\nSave\nFortitude DC 14\nTrack\nDexterity;\nFrequency\n1/round for 4 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered; no end state\nCure\n1 save"
+    }
+  ],
+  "description": "Winged arthropods from an unknown world (presumably in the Vast), needlehawks are gifted with a sophisticated spinal cord and brain, making them intelligent and curious creatures that can build complex nests and even open latches. These traits, combined with their ability to fly and anesthetizing venom, make them difficult pests to eliminate once a prickle finds a steady food supply. While xenobiologists believe needlehawks are indigenous to a jungle ecosystem, the animals have been spotted across many worlds. Once established, needlehawks hunt insects, scavenge or steal food, and build their homes from whatever materials they can find—often tearing up valuable cargo or disassembling machinery in the process.\nNeedlehawks reproduce asexually, but they produce larger and healthier egg broods when all three sexes contribute. Sticky egg clusters hatch into thousands of mite-sized young, which infest and devour any detritus as well as each other. Eventually, a half-dozen or so young grow large enough to climb onto their parents’ backs and learn to survive through observation. While needlehawks have no attachment to their miniscule hordes of young, they are fiercely protective of their larger, nymph-stage offspring after they grow wings.\nNeedlehawks are especially sensitive to fungal diseases, and dycepskians sometimes infest them to create organic drones enslaved to their alien hive mind. Infested needlehawks act as silent lookouts, spies, and guardians. As the dycepskian fungus requires a sentient mind to develop self-awareness, infested needlehawks retain animal-level cunning but react intuitively to the commands of higher-order dycepskian hosts. Conspiracy theorists speculate that dycepskians and needlehawks originate from the same world, and that the crustacean-like scavengers were the parasite’s original host.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNeedlehawk\nSource\nStarfinder #28: The Hollow Cabal pg. 58\nNeedlehawk CR 3\nXP 800\nN Tiny animal\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n34\nEAC\n14;\nKAC\n15\nFort\n+4;\nRef\n+8;\nWill\n+2\nOffense\nSpeed\n20 ft., fly 40 ft. (Ex, perfect)\nMelee\nsting +7 (1d4+3 P plus needlehawk toxin)\nRanged\nneedle launch +9 (1d4+3 P plus needlehawk toxin)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+2;\nINT\n-3;\nWIS\n+1;\nCHA\n-2\nSkills\nAcrobatics +13 (+21 to fly), Stealth +13, Survival +8\nOther Abilities\nactive camouflage\nEcology\nEnvironment\nwarm and temperate forests\nOrganization\nsolitary, pair, or prickle (3–12)\nSpecial Abilities\nActive Camouflage (Ex)\nA needlehawk can adjust chromatophores in its exoskeleton to blend in with its surroundings. When motionless or moving fewer than 10 feet per round, it gains a +5 racial bonus to Stealth checks to hide.\nNeedle Launch (Ex)\nAs a ranged attack, a needlehawk can launch a needle from its barbed tail with a range increment of 30 feet.\nNeedlehawk Toxin\nType\npoison (injury);\nSave\nFortitude DC 14\nTrack\nDexterity;\nFrequency\n1/round for 4 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered; no end state\nCure\n1 save\nDescription\nWinged arthropods from an unknown world (presumably in the Vast), needlehawks are gifted with a sophisticated spinal cord and brain, making them intelligent and curious creatures that can build complex nests and even open latches. These traits, combined with their ability to fly and anesthetizing venom, make them difficult pests to eliminate once a prickle finds a steady food supply. While xenobiologists believe needlehawks are indigenous to a jungle ecosystem, the animals have been spotted across many worlds. Once established, needlehawks hunt insects, scavenge or steal food, and build their homes from whatever materials they can find—often tearing up valuable cargo or disassembling machinery in the process.\nNeedlehawks reproduce asexually, but they produce larger and healthier egg broods when all three sexes contribute. Sticky egg clusters hatch into thousands of mite-sized young, which infest and devour any detritus as well as each other. Eventually, a half-dozen or so young grow large enough to climb onto their parents’ backs and learn to survive through observation. While needlehawks have no attachment to their miniscule hordes of young, they are fiercely protective of their larger, nymph-stage offspring after they grow wings.\nNeedlehawks are especially sensitive to fungal diseases, and dycepskians sometimes infest them to create organic drones enslaved to their alien hive mind. Infested needlehawks act as silent lookouts, spies, and guardians. As the dycepskian fungus requires a sentient mind to develop self-awareness, infested needlehawks retain animal-level cunning but react intuitively to the commands of higher-order dycepskian hosts. Conspiracy theorists speculate that dycepskians and needlehawks originate from the same world, and that the crustacean-like scavengers were the parasite’s original host.",
+  "type": "animal",
+  "category": "alien"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Psychopomp, Erabryth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Erabryth&Family=Psychopomp",
+  "source": "Alien Archive 4 pg. 90",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (psychopomp)",
+  "init": "+2",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+5",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+1",
+  "will": "+6",
+  "immunities": "death effects, disease, poison",
+  "speed": "30 ft., fly 20 ft. (Su, average)",
+  "melee": "cestus battleglove +5 (1d4+2 B)",
+  "ranged": "light ray +7 (1d4+1 F)",
+  "offensive_abilities": "forced reflection, spirit touch",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Intimidate +5, Mysticism +10, Sense Motive +10, Stealth +5",
+  "languages": "Abyssal, Celestial, Infernal, Requian; tongues",
+  "gear": "cestus battleglove",
+  "environment": "any (Boneyard)",
+  "organization": "solitary or reflection (2–6)",
+  "special_abilities": [
+    {
+      "name": "Forced Reflection (Su)",
+      "description": "As a standard action, an erabryth can force a single target within 60 feet to relive their most painful memories and regrets. The target becomes dazed for 1 round, after which they become shaken for 1d3 rounds. A successful DC 12 Will saving throw negates the dazed condition and reduces the shaken condition to 1 round. Regardless of the result of this saving throw, the target is immune to this erabryth’s forced reflection for 24 hours. This is a mindaffecting effect."
+    },
+    {
+      "name": "Light Ray (Su)",
+      "description": "As a ranged attack that targets EAC, an erabryth can emit a beam of light from their mirrored face at a single target. This beam has a range increment of 60 feet and the bright weapon special property."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nPsychopomp (Creautre Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPsychopomp\nSource\nAlien Archive 4 pg. 90\nPsychopomps are enigmatic guides, protectors of souls, and slayers of undead. These neutral outsiders safeguard the cycle of life, death, and afterlife. Native to the Boneyard, the terminus of the River of Souls where the goddess Pharasma judges the dead, psychopomps come in a variety of forms, each having their own aims, interests, and methodology for ensuring the journey of souls proceeds to their standards. Stoic, proud, and patient, psychopomps perform their duties with unwavering dedication, confident their collective efforts ensure existence will continue unabated throughout the ages. Having listened to the complaints and regrets of the dead since time began, psychopomps are unswayed by passionate pleas nor angry lamentations, making them seem aloof or uncaring. Nearly all psychopomps wear masks and speak a somber yet melodic language called Requian. Though some posit this behavior is a form of psychological intimidation, others believe the sight of an unmasked psychopomp puts unnecessary strain on a mortal soul.\nErabryths are psychopomps who welcome and escort the souls of androids who have given their bodies up for renewal. Akin to procreation among androids, renewal is generally considered a decision to be celebrated and respected. Once incredibly rare, erabryths have increased in number in recent centuries, alongside the number of cycling android souls they guide. Averaging 6 feet tall and 200 pounds, erabryths are lanky androgynous outsiders; they have metallic, ribboned flesh and a mirrored disk in place of a face, backlit by a nimbus of light that changes color and intensity to display their emotions.\nIn contrast to their erabryth kin, morrignas are warriors who uphold the sanctity of life and death by tracking down and destroying those who interfere with the natural flow of souls in any way. Cautious, cunning, and patient, morrignas unrelentingly hunt immortals, necromancers, and undead with extreme prejudice.\nAliens in the \"Psychopomp\" Family\nName\nCR\nErabryth\n1\nMorrigna\n11\nPsychopomp, Erabryth\nSource\nAlien Archive 4 pg. 90\nErabryth CR 1\nXP 400\nN Medium outsider (psychopomp)\nInit\n+2;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+5\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+1;\nRef\n+1;\nWill\n+6\nImmunities\ndeath effects, disease, poison\nOffense\nSpeed\n30 ft., fly 20 ft. (Su, average)\nMelee\ncestus battleglove +5 (1d4+2 B)\nRanged\nlight ray +7 (1d4+1 F)\nOffensive Abilities\nforced reflection, spirit touch\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+0;\nINT\n+0;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +10, Intimidate +5, Mysticism +10, Sense Motive +10, Stealth +5\nLanguages\nAbyssal, Celestial, Infernal, Requian; tongues\nGear\ncestus battleglove\nEcology\nEnvironment\nany (Boneyard)\nOrganization\nsolitary or reflection (2–6)\nSpecial Abilities\nForced Reflection (Su)\nAs a standard action, an erabryth can force a single target within 60 feet to relive their most painful memories and regrets. The target becomes dazed for 1 round, after which they become shaken for 1d3 rounds. A successful DC 12 Will saving throw negates the dazed condition and reduces the shaken condition to 1 round. Regardless of the result of this saving throw, the target is immune to this erabryth’s forced reflection for 24 hours. This is a mindaffecting effect.\nLight Ray (Su)\nAs a ranged attack that targets EAC, an erabryth can emit a beam of light from their mirrored face at a single target. This beam has a range increment of 60 feet and the bright weapon special property.\nExtra Content\nThe following extra content was found for this creature:\n-\nPsychopomp (Creautre Subtype) Graft Template",
+  "type": "outsider (psychopomp)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Psychopomp_Erabryth.png"
+}

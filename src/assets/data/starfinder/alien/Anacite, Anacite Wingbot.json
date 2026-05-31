@@ -1,0 +1,56 @@
+{
+  "name": "Anacite, Anacite Wingbot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Anacite Wingbot&Family=Anacite",
+  "source": "Alien Archive pg. 10",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "construct (technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low light vision;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+0",
+  "ref": "+0",
+  "will": "-2",
+  "immunities": "construct immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "40 ft., fly 40 ft. (Ex, average)",
+  "melee": "bite +4 (1d6+2 P)",
+  "ranged": "laser ray +7 (1d4 F; critical burn 1d4)",
+  "offensive_abilities": "trill",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "—",
+    "int": "-5",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +9 (+17 when climbing), Stealth +4",
+  "languages": "Common (can’t speak); shortwave 100 ft.",
+  "other_abilities": "unliving",
+  "environment": "any (Aballon)",
+  "organization": "solitary or flock (2–6)",
+  "special_abilities": [
+    {
+      "name": "Shortwave (Ex)",
+      "description": "An anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Anacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition."
+    },
+    {
+      "name": "Trill (Ex)",
+      "description": "An anacite wingbot can create a shrill trilling noise as a standard action. Any creature within 30 feet, other than anacite wingbots, must succeed at a DC 9 Fortitude saving throw or be sickened for 1d3 rounds. Whether successful or not, a creature can’t be affected by the same anacite wingbot’s trill for 24 hours."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnacite\nSource\nAlien Archive pg. 10\nAnacites are native to Aballon, the Pact World closest to the sun. A race of machines left behind by eons-departed masters, these constructs developed the capacity for evolution and self-improvement, creating an entire mechanical ecosystem.\nThe most common design for anacites is a basic arthropodan form of silvery metal, with multiple legs for efficient travel and claws or manipulators for accomplishing their assigned tasks. Depending on their role, however, an anacite might be anything from a bulldozer-sized mining specialist to a floating electronic brain designed for advanced problem-solving, and even those anacites who fit the stereotypical metal-insect design usually have a modification or two, and almost all anacites can reconfigure parts of themselves to adapt to their circumstances.\nIn the uncounted millennia since the departure of the so-called “First Ones,” anacites have not been idle. The two primary factions of anacites, Those Who Wait and Those Who Become, have very different ideas of their purpose in life, yet the two are more alike than different. While they variously wait for the First Ones to return or work toward taking on their progenitors’ mantle, anacites endlessly strive to acquire wealth and influence in preparation for their great goal’s fulfillment.\nWhile “anacite” officially refers only to the sentient varieties of Aballonian machines—those capable of learning and participating in Aballonian society—many offworlders use it as a catchall term for the world’s mechanical life. Dragonflylike wingbots are an example of Aballonian technobiology. These artificial creatures lack basic sentience yet nevertheless reproduce and fill one of the planet’s ecological niches. These 4-foot-long machines whir from ridge to ridge on wings glittering with solar panels, feeding on the blazing light of the sun. Wingbots can be territorial, and they occasionally attack offworlders or other anacites.\nAliens in the \"Anacite\" Family\nName\nCR\nAnacite Ambassador\n6\nAnacite Laborer\n7\nAnacite Predator Drone\n10\nAnacite Wingbot\n1/2\nDustar\n1\nMonitor\n3\nSentry\n3\nAnacite, Anacite Wingbot\nSource\nAlien Archive pg. 11\nAnacite Wingbot CR 1/2\nXP 200\nN Small construct (technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low light vision;\nPerception\n+4\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+0;\nRef\n+0;\nWill\n-2\nImmunities\nconstruct immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\n40 ft., fly 40 ft. (Ex, average)\nMelee\nbite +4 (1d6+2 P)\nRanged\nlaser ray +7 (1d4 F; critical burn 1d4)\nOffensive Abilities\ntrill\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n—;\nINT\n-5;\nWIS\n+1;\nCHA\n-2\nSkills\nAthletics +9 (+17 when climbing), Stealth +4\nLanguages\nCommon (can’t speak); shortwave 100 ft.\nOther Abilities\nunliving\nEcology\nEnvironment\nany (Aballon)\nOrganization\nsolitary or flock (2–6)\nSpecial Abilities\nShortwave (Ex)\nAn anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nSunlight Dependency (Ex)\nAnacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition.\nTrill (Ex)\nAn anacite wingbot can create a shrill trilling noise as a standard action. Any creature within 30 feet, other than anacite wingbots, must succeed at a DC 9 Fortitude saving throw or be sickened for 1d3 rounds. Whether successful or not, a creature can’t be affected by the same anacite wingbot’s trill for 24 hours.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Anacite_Wingbot.png"
+}

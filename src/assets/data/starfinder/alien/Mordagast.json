@@ -1,0 +1,50 @@
+{
+  "name": "Mordagast",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mordagast&Family=Mordagast",
+  "source": "Alien Archive 4 pg. 72",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "dr": "10/—",
+  "resistances": "cold 5",
+  "speed": "30 ft., fly 20 ft. (Ex, clumsy)",
+  "melee": "talon +17 (1d8+12 P plus grab; critical bleed 1d8) or bite +17 (2d6+12 P; critical wound)",
+  "offensive_abilities": "phase strike",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +14 (+6 to fly), Survival +14, Stealth +19",
+  "other_abilities": "dissipate",
+  "environment": "any forest or hills",
+  "organization": "solitary, pair, or haunt (3–12)",
+  "special_abilities": [
+    {
+      "name": "Dissipate (Su)",
+      "description": "As a swift action, the mordagast can diffuse its molecules, entering a semi-fluid state that diffracts light and sound waves. While diffused, a mordagast gains concealment and can hide even while being directly observed, even from creatures with blindsense or blindsight based on sound or vibration. A diffused mordagast also gains DR 10/—, deals 10 less damage with its attacks, and can’t grab creatures. The mordagast can maintain its diffused state for 10 minutes at a time, after which it can’t diffuse again until it has remained in its normal form for twice the time it spent diffused. A mordagast can end its diffused state as a swift action."
+    },
+    {
+      "name": "Phase Strike (Su)",
+      "description": "As a swift action every 1d4 rounds, a mordagast can dissipate its talons for several seconds, causing them to rematerialize after passing through its prey’s defenses. Until the end of its turn, the mordagast’s talon attacks target EAC rather than KAC."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMordagast\nSource\nAlien Archive 4 pg. 72\nCunning predators, mordagasts resemble mundane praying mantises of extraordinary proportions. Like their analogues, they’re arthropodal ambush hunters that rely on compound eyes and a pair of raptorial legs to identify and immobilize prey before chewing their victims apart with powerful jaws. But even more than the mordagast’s vicious power, explorers dread its ability to discorporate, briefly transforming into a ghostly reflection of itself in order to surprise its prey or bypass defenses. A mordagast’s instinctive psychic abilities cause a fraction of its body to phase out of existence entirely while harmlessly holding the remaining cells together. This state dramatically limits the impact of physical trauma while also warping light around the mordagast in a way that blurs its form and absorbs sound waves. Mordagasts display exceptional finesse with their discorporation, causing even individual segments to phase out for a split second, enabling their claws to bypass thin barriers like conventional armor before materializing deep inside their victims’ bodies.\nMordagasts’ spectral strategy has inspired countless tales across the worlds they now inhabit. Spotting a mordagast at dusk is commonly interpreted as an omen of imminent disaster. For many, a mordagast is a ghost that prowls the fens, a cryptid that absconds with livestock, or a bogeyman that gobbles up wayward children. For others, the creatures take on religious significance and are interpreted instead as divine messengers.\nAlthough mordagasts rarely live past 10 years, under special circumstances a mordagast can exceed not only its life expectancy but also its size limits. These exceptional adults are known as butchers, in large part because their tremendous size relies on them killing and consuming countless creatures over their lifetimes. High caloric intake is the only trigger for the development of butchers; such mordagasts often hunt and consume their own kind, triggering additional growth that’s poorly understood among xenobiologists. They’re also more common on oxygen-rich and low-gravity planets, where it’s easier for the creatures to support their extraordinary mass. On worlds with standard gravity, even mordagast butchers’ strong legs struggle to support their bodies for long, and they commonly rely on dissipation and tobogganing their bellies along the ground when weighed down by a recent meal.\nYet the strangest of mordagast butchers’ features is their adaptation to space environments. Survey vessels periodically identify these creatures patiently clinging to asteroids and other low-gravity bodies. From there they raid mining operations, launch themselves onto passing starships, or even ride space debris toward distant worlds. By detaching from meteorites high in a planet’s atmosphere, these mordagasts can dissipate and float to the surface to lay eggs and populate new worlds.\nAliens in the \"Mordagast\" Family\nName\nCR\nButcher\n13\nMordagast\n7\nMordagast\nSource\nAlien Archive 4 pg. 72\nMordagast CR 7\nXP 3,200\nN Medium animal\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+11;\nWill\n+6\nResistances\ncold 5\nOffense\nSpeed\n30 ft., fly 20 ft. (Ex, clumsy)\nMelee\ntalon +17 (1d8+12 P plus grab; critical bleed 1d8) or bite +17 (2d6+12 P; critical wound)\nOffensive Abilities\nphase strike\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n+3;\nINT\n-4;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +14 (+6 to fly), Survival +14, Stealth +19\nOther Abilities\ndissipate\nEcology\nEnvironment\nany forest or hills\nOrganization\nsolitary, pair, or haunt (3–12)\nSpecial Abilities\nDissipate (Su)\nAs a swift action, the mordagast can diffuse its molecules, entering a semi-fluid state that diffracts light and sound waves. While diffused, a mordagast gains concealment and can hide even while being directly observed, even from creatures with blindsense or blindsight based on sound or vibration. A diffused mordagast also gains DR 10/—, deals 10 less damage with its attacks, and can’t grab creatures. The mordagast can maintain its diffused state for 10 minutes at a time, after which it can’t diffuse again until it has remained in its normal form for twice the time it spent diffused. A mordagast can end its diffused state as a swift action.\nPhase Strike (Su)\nAs a swift action every 1d4 rounds, a mordagast can dissipate its talons for several seconds, causing them to rematerialize after passing through its prey’s defenses. Until the end of its turn, the mordagast’s talon attacks target EAC rather than KAC.",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Mordagast.png"
+}

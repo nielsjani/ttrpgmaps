@@ -1,0 +1,55 @@
+{
+  "name": "Quantum Clone",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Quantum Clone&Family=None",
+  "source": "Starfinder #31: Waking the Worldseed pg. 60",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "210",
+  "eac": "27",
+  "kac": "28",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+18",
+  "speed": "30 ft.",
+  "melee": "ultrathin dagger +22 (4d4+16 S)",
+  "ranged": "aurora arc pistol +24 (3d6+13 E; critical arc 2d6)",
+  "offensive_abilities": "quantum mimicry",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+2",
+    "cha": "+8"
+  },
+  "skills": "Bluff +28, Disguise +28, Life Science +23, Mysticism +23, Physical Science +23",
+  "languages": "Common",
+  "other_abilities": "existential paralysis (DC 21)",
+  "gear": "platinum AbadarCorp travel suit, aurora arc pistol with 1 high-capacity battery (40 charges), ultrathin dagger",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Existential Paralysis (Ex)",
+      "description": "The first time a cloned creature comes within 30 feet and line of sight of their quantum clone, they must succeed at a DC 21 Will save or be paralyzed with dread for 1d4 rounds."
+    },
+    {
+      "name": "Quantum Mimicry (Su)",
+      "description": "As a being of infinite possibilities, a quantum clone can mimic actions taken by others. As a reaction, every 1d4 rounds when a creature the quantum clone can see uses a spell, spell-like ability, or feat, the quantum clone can gain use of that spell or ability until the end of its next turn (even if it doesn’t meet the prerequisites). The spell, spell-like ability, or feat must be one that requires an action to perform (such as Amplified Glitch but not Great Fortitude). The quantum clone uses its CR as its caster level if necessary."
+    },
+    {
+      "name": "Shifting Form (Ex)",
+      "description": "A quantum clone’s physical body is inherently unstable. In very stressful situations (such as combat or interacting with the being they were cloned from), the quantum clone has difficulty retaining a fixed form. This might manifest through the growth of extra limbs, rippling skin, or the warping of facial features. During this time and for 1 round after, the quantum clone gains the amorphous defensive ability but takes a –10 penalty to Disguise checks."
+    }
+  ],
+  "description": "Quantum clones are near-exact copies of living beings, usually created by accident through the misuse of quantum technology, though some powerful technomancers have claimed they’ve duplicated the process through magic. Since quantum clones are very rare, they have yet to be studied in detail. Some physicists believe they are composed of microscopic virtual particles formed by the fluctuation of spacetime (called “quantum foam”) writ large. Others believe quantum clones were ripped from an alternate dimension.\nWhatever the case, a creature’s quantum clone has the exact appearance, personality, and memories of the original creature at the time of its cloning. A quantum clone isn’t inherently evil, nor do they necessarily wish others harm. However, they initially believe themself the being they were cloned from, which occasionally results in altercations. When faced with their double, the quantum clone quickly realizes they’re an unstable copy. While this revelation sometimes leads to great emotional distress, most quantum clones attempt to forge new lives far away from those who might recognize them.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nQuantum Clone\nSource\nStarfinder #31: Waking the Worldseed pg. 60\nQuantum Clone CR 13\nXP 25,600\nN Medium aberration\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nDefense\nHP\n210\nEAC\n27;\nKAC\n28\nFort\n+12;\nRef\n+12;\nWill\n+18\nDefensive Abilities\nshifting form\nOffense\nSpeed\n30 ft.\nMelee\nultrathin dagger +22 (4d4+16 S)\nRanged\naurora arc pistol +24 (3d6+13 E; critical arc 2d6)\nOffensive Abilities\nquantum mimicry\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+1;\nINT\n+4;\nWIS\n+2;\nCHA\n+8\nSkills\nBluff +28, Disguise +28, Life Science +23, Mysticism +23, Physical Science +23\nLanguages\nCommon\nOther Abilities\nexistential paralysis (DC 21)\nGear\nplatinum AbadarCorp travel suit, aurora arc pistol with 1 high-capacity battery (40 charges), ultrathin dagger\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nExistential Paralysis (Ex)\nThe first time a cloned creature comes within 30 feet and line of sight of their quantum clone, they must succeed at a DC 21 Will save or be paralyzed with dread for 1d4 rounds.\nQuantum Mimicry (Su)\nAs a being of infinite possibilities, a quantum clone can mimic actions taken by others. As a reaction, every 1d4 rounds when a creature the quantum clone can see uses a spell, spell-like ability, or feat, the quantum clone can gain use of that spell or ability until the end of its next turn (even if it doesn’t meet the prerequisites). The spell, spell-like ability, or feat must be one that requires an action to perform (such as Amplified Glitch but not Great Fortitude). The quantum clone uses its CR as its caster level if necessary.\nShifting Form (Ex)\nA quantum clone’s physical body is inherently unstable. In very stressful situations (such as combat or interacting with the being they were cloned from), the quantum clone has difficulty retaining a fixed form. This might manifest through the growth of extra limbs, rippling skin, or the warping of facial features. During this time and for 1 round after, the quantum clone gains the amorphous defensive ability but takes a –10 penalty to Disguise checks.\nDescription\nQuantum clones are near-exact copies of living beings, usually created by accident through the misuse of quantum technology, though some powerful technomancers have claimed they’ve duplicated the process through magic. Since quantum clones are very rare, they have yet to be studied in detail. Some physicists believe they are composed of microscopic virtual particles formed by the fluctuation of spacetime (called “quantum foam”) writ large. Others believe quantum clones were ripped from an alternate dimension.\nWhatever the case, a creature’s quantum clone has the exact appearance, personality, and memories of the original creature at the time of its cloning. A quantum clone isn’t inherently evil, nor do they necessarily wish others harm. However, they initially believe themself the being they were cloned from, which occasionally results in altercations. When faced with their double, the quantum clone quickly realizes they’re an unstable copy. While this revelation sometimes leads to great emotional distress, most quantum clones attempt to forge new lives far away from those who might recognize them.",
+  "type": "aberration",
+  "category": "alien"
+}

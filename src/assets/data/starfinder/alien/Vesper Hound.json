@@ -1,0 +1,54 @@
+{
+  "name": "Vesper Hound",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vesper Hound&Family=None",
+  "source": "Starfinder #12: Heart of Night pg. 61",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+5",
+  "senses": "blindsight (vibration) 60 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+11",
+  "immunities": "cold",
+  "speed": "30 ft.",
+  "melee": "claw +23 (2d10+18 P; critical 1d6 bleed)",
+  "offensive_abilities": "prison of chains",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Intimidate +19,",
+  "languages": "Common, Infernal (can’t speak any language)",
+  "other_abilities": "slip through the shadows",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary or clutch (2–5)",
+  "special_abilities": [
+    {
+      "name": "Faceless (Ex)",
+      "description": "A vespers hound has no discernible facial features. It is immune to sense-dependent effects, as well as effects that target standard senses, such as gaze attacks."
+    },
+    {
+      "name": "Prison of Chains (Su)",
+      "description": "As a standard action, a vespers hound can attempt to trap a single creature within 30 feet by lashing out with the length of chain that makes up its spine. The target must succeed at a DC 19 Reflex saving throw or become entangled and knocked prone. At the beginning of each round the target is entangled, the chains try to strangle the target, dealing 2d8 bludgeoning damage. A trapped victim can attempt a DC 30 Acrobatics check to end the entangled condition. Alternatively, an adjacent ally can pull the chains off he victim with a full action that requires no check. The vespers hound can’t move more than 30 feet from a target it entangles in this way until the trapped victim escapes or is set free, or until the vespers hound releases the victim as a move action."
+    },
+    {
+      "name": "Slip through the Shadows (Su)",
+      "description": "As a standard action, a vespers hound can travel between shadows, as dimension door. The vespers hound must begin and end this movement in areas of dim light or darker, and it cannot bring any other creatures with it. It can jump a total of 100 feet per day; this amount can be split among many jumps, but each jump less than 10 feet counts as a 10-foot jump for the purpose of this total."
+    }
+  ],
+  "description": "No one is sure what these Shadow Plane beasts originally looked like before velstracs began to surgically alter, breed, and train them, giving them the name “vespers hounds.” Some think velstracs removed the creatures’ faces and grafted on a fifth limb, but stranger creatures have been noted to thrive on distant worlds and unusual planar environments. However, most scholars agree that the length of spiked chain that runs along a vespers hound’s back and seems to serve as its spine is definitely a velstrac addition. Those who witness a vespers hound extending that chain to envelop a nearby victim (and survive to tell the tale) are doubly certain about this theory.\nInstinctively able to sniff out places where corruption and suffering have taken root, vespers hounds are sometimes used by velstracs as tracking beasts and faithful pets. Their presence seems to exacerbate dormant shadow corruption festering within mortals, and though vespers hounds don’t need to eat, they seem to enjoy tearing into such mortals’ flesh. A vespers hound is approximately 5 feet long, stands about 3 feet high at the shoulder, and weighs 140 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVesper Hound\nSource\nStarfinder #12: Heart of Night pg. 61\nVesper Hound CR 10\nXP 9,600\nLE Medium outsider (extraplanar)\nInit\n+5;\nSenses\nblindsight (vibration) 60 ft.;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+12;\nWill\n+11\nDefensive Abilities\nfaceless, regeneration 5 (good or silver);\nImmunities\ncold\nOffense\nSpeed\n30 ft.\nMelee\nclaw +23 (2d10+18 P; critical 1d6 bleed)\nOffensive Abilities\nprison of chains\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n+2;\nINT\n+0;\nWIS\n+0;\nCHA\n+3\nSkills\nAcrobatics +19, Athletics +24, Intimidate +19,\r\n Stealth +24\nLanguages\nCommon, Infernal (can’t speak any language)\nOther Abilities\nslip through the shadows\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary or clutch (2–5)\nSpecial Abilities\nFaceless (Ex)\nA vespers hound has no discernible facial features. It is immune to sense-dependent effects, as well as effects that target standard senses, such as gaze attacks.\nPrison of Chains (Su)\nAs a standard action, a vespers hound can attempt to trap a single creature within 30 feet by lashing out with the length of chain that makes up its spine. The target must succeed at a DC 19 Reflex saving throw or become entangled and knocked prone. At the beginning of each round the target is entangled, the chains try to strangle the target, dealing 2d8 bludgeoning damage. A trapped victim can attempt a DC 30 Acrobatics check to end the entangled condition. Alternatively, an adjacent ally can pull the chains off he victim with a full action that requires no check. The vespers hound can’t move more than 30 feet from a target it entangles in this way until the trapped victim escapes or is set free, or until the vespers hound releases the victim as a move action.\nSlip through the Shadows (Su)\nAs a standard action, a vespers hound can travel between shadows, as dimension door. The vespers hound must begin and end this movement in areas of dim light or darker, and it cannot bring any other creatures with it. It can jump a total of 100 feet per day; this amount can be split among many jumps, but each jump less than 10 feet counts as a 10-foot jump for the purpose of this total.\nDescription\nNo one is sure what these Shadow Plane beasts originally looked like before velstracs began to surgically alter, breed, and train them, giving them the name “vespers hounds.” Some think velstracs removed the creatures’ faces and grafted on a fifth limb, but stranger creatures have been noted to thrive on distant worlds and unusual planar environments. However, most scholars agree that the length of spiked chain that runs along a vespers hound’s back and seems to serve as its spine is definitely a velstrac addition. Those who witness a vespers hound extending that chain to envelop a nearby victim (and survive to tell the tale) are doubly certain about this theory.\nInstinctively able to sniff out places where corruption and suffering have taken root, vespers hounds are sometimes used by velstracs as tracking beasts and faithful pets. Their presence seems to exacerbate dormant shadow corruption festering within mortals, and though vespers hounds don’t need to eat, they seem to enjoy tearing into such mortals’ flesh. A vespers hound is approximately 5 feet long, stands about 3 feet high at the shoulder, and weighs 140 pounds.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

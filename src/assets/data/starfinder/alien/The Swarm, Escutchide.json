@@ -1,0 +1,49 @@
+{
+  "name": "The Swarm, Escutchide",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Escutchide&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "66",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+9",
+  "ref": "+6",
+  "will": "+6",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft., fly 20 ft. (Ex, average)",
+  "melee": "gore +15 (1d6+10 P plus pummel)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Athletics +16, Intimidate +11",
+  "feats": "Stand Still",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–6)",
+  "special_abilities": [
+    {
+      "name": "Pummel (Ex)",
+      "description": "When a Swarm escutchide hits with its gore attack, it deals normal damage. If the attack roll result equals or exceeds the target’s KAC + 4, the escutchide can either knock the target prone or move the target 5 feet in any direction."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Among the innumerable components found within the Swarm, escutchides are rarely seen by members of other species, as they are almost never deployed as part of the Swarm’s invasion forces. The primary function of Swarm escutchides is to protect locations where the Swarm has established a persistent presence, such as Swarm nesting sites, segments of the Swarm undergoing transitions or repairs, or large-scale construction and mining efforts. When partnered with other components, escutchides take up defensive positions and do their best to stop encroaching enemies, leaving the other Swarm components free to complete their tasks or attack with ranged weapons.\nSwarm escutchides are broad, sturdy creatures, and individuals stand about 8 feet high and weigh half a ton. An escutchide’s most distinctive feature is the large horn protruding from its head, often as long as half the creature’s overall length. It uses this prominent horn to run through and knock down foes. Thanks to sets of large wings, escutchides are also surprisingly capable fliers, and more than one invading enemy has met a nightmarish end when a pack of Swarm escutchides dropped down upon them from above.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Escutchide\nSource\nStarfinder #21: Huskworld pg. 58\nEscutchide CR 5\nXP 1,600\nCE Medium monstrous humanoid\nInit\n+1;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n66\nEAC\n18;\nKAC\n20\nFort\n+9;\nRef\n+6;\nWill\n+6\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft., fly 20 ft. (Ex, average)\nMelee\ngore +15 (1d6+10 P plus pummel)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n-1\nFeats\nStand Still\nSkills\nAcrobatics +11, Athletics +16, Intimidate +11\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–6)\nSpecial Abilities\nPummel (Ex)\nWhen a Swarm escutchide hits with its gore attack, it deals normal damage. If the attack roll result equals or exceeds the target’s KAC + 4, the escutchide can either knock the target prone or move the target 5 feet in any direction.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nAmong the innumerable components found within the Swarm, escutchides are rarely seen by members of other species, as they are almost never deployed as part of the Swarm’s invasion forces. The primary function of Swarm escutchides is to protect locations where the Swarm has established a persistent presence, such as Swarm nesting sites, segments of the Swarm undergoing transitions or repairs, or large-scale construction and mining efforts. When partnered with other components, escutchides take up defensive positions and do their best to stop encroaching enemies, leaving the other Swarm components free to complete their tasks or attack with ranged weapons.\nSwarm escutchides are broad, sturdy creatures, and individuals stand about 8 feet high and weigh half a ton. An escutchide’s most distinctive feature is the large horn protruding from its head, often as long as half the creature’s overall length. It uses this prominent horn to run through and knock down foes. Thanks to sets of large wings, escutchides are also surprisingly capable fliers, and more than one invading enemy has met a nightmarish end when a pack of Swarm escutchides dropped down upon them from above.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

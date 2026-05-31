@@ -1,0 +1,55 @@
+{
+  "name": "Talrepi Recombinator",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Talrepi Recombinator&Family=None",
+  "source": "Starfinder #48: Masters of Time and Space pg. 59",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Small",
+  "creature_type": "construct (extraplanar, technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision, sense through (vision) 60 ft.;",
+  "perception": "+13",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+0",
+  "ref": "+0",
+  "will": "+4",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft.",
+  "melee": "slam +10 (1d4+5 B)",
+  "offensive_abilities": "aggregation, four-dimensional leap",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +8, Engineering +13, Physical Science +13, Stealth +8",
+  "languages": "Katholbi",
+  "other_abilities": "integrated adhesive, unliving",
+  "environment": "any (the Drift)",
+  "organization": "solitary, pair, or collection (3–8)",
+  "special_abilities": [
+    {
+      "name": "Four-Dimensional Leap (Ex)",
+      "description": "As a move action, the talrepi recombinator can teleport up to 10 feet away without provoking attacks of opportunity. This is a teleportation effect."
+    },
+    {
+      "name": "Aggregation (Ex)",
+      "description": "As a standard action, a talrepi recombinator sets up a special energy field that adheres three-dimensional creatures and objects together. The talrepi recombinator chooses a square within 30 feet. All creatures within 20 feet of that square must succeed at a DC 14 Fortitude save or be pulled 10 feet toward the chosen square (kathrepi and talrepi, as well as any other creature that exists simultaneously in the fourth dimension, can automatically succeed at this save). Unsecured, unattended items of 1 bulk or less are also affected and automatically fail this save. A creature who fails this save and ends its forced movement adjacent to another creature that failed the same save is entangled for 1 round but can escape the entangle effect early by taking a move action and succeeding at a DC 14 Acrobatics or Strength check."
+    },
+    {
+      "name": "Integrated Adhesive (Ex)",
+      "description": "The talrepi recombinator has an integrated dispenser of ion tape and can discharge minor jolts from its dispensing port to activate or deactivate the tape. A talrepi recombinator can produce 50 feet of ion tape each day; any tape it hasn’t used that day can be recovered from its body when it’s destroyed."
+    }
+  ],
+  "description": "Talrepi recombinators are creations of the kathrepi. Like their creators, they exist in four dimensions, giving them keen vision and the ability to step through the fourth dimension in a manner similar to teleportation. Resembling the kathrepi in appearance, a talrepi recombinator is a squat robot with nimble digits at the end of two gangly arms and a single domed port in the middle of its head where multiple eye-like openings swim and blink irregularly. Recombinators were created to serve as laboratory assistants and general helpers; to avoid the bother of maintenance, kathrepi gave their recombinators sufficient autonomy to repair and even reconfigure their forms.\nThe dutiful recombinators quickly understood glimmers of the overarching project that engaged all kathrepi: overcoming entropy. However, without kathrepi intellect, recombinators misunderstood this objective and believed the kathrepi were simply working to bring broken things together—and that mere adhesion would be victory. They reconfigured each other with aggregation beams and adhesive dispensers for this task and were puzzled when their amused creators found little use for these improvements. With the Tesseract all but abandoned, the recombinators often spend their time sticking loose objects to walls or furniture throughout the Tesseract, and they’re often eager to do so with newcomers as well.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTalrepi Recombinator\nSource\nStarfinder #48: Masters of Time and Space pg. 59\nTalrepi Recombinator CR 3\nXP 800\nLN Small construct (extraplanar, technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision, sense through (vision) 60 ft.;\nPerception\n+13\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+0;\nRef\n+0;\nWill\n+4\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft.\nMelee\nslam +10 (1d4+5 B)\nOffensive Abilities\naggregation, four-dimensional leap\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +8, Engineering +13, Physical Science +13, Stealth +8\nLanguages\nKatholbi\nOther Abilities\nintegrated adhesive, unliving\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary, pair, or collection (3–8)\nSpecial Abilities\nFour-Dimensional Leap (Ex)\nAs a move action, the talrepi recombinator can teleport up to 10 feet away without provoking attacks of opportunity. This is a teleportation effect.\nAggregation (Ex)\nAs a standard action, a talrepi recombinator sets up a special energy field that adheres three-dimensional creatures and objects together. The talrepi recombinator chooses a square within 30 feet. All creatures within 20 feet of that square must succeed at a DC 14 Fortitude save or be pulled 10 feet toward the chosen square (kathrepi and talrepi, as well as any other creature that exists simultaneously in the fourth dimension, can automatically succeed at this save). Unsecured, unattended items of 1 bulk or less are also affected and automatically fail this save. A creature who fails this save and ends its forced movement adjacent to another creature that failed the same save is entangled for 1 round but can escape the entangle effect early by taking a move action and succeeding at a DC 14 Acrobatics or Strength check.\nIntegrated Adhesive (Ex)\nThe talrepi recombinator has an integrated dispenser of ion tape and can discharge minor jolts from its dispensing port to activate or deactivate the tape. A talrepi recombinator can produce 50 feet of ion tape each day; any tape it hasn’t used that day can be recovered from its body when it’s destroyed.\nDescription\nTalrepi recombinators are creations of the kathrepi. Like their creators, they exist in four dimensions, giving them keen vision and the ability to step through the fourth dimension in a manner similar to teleportation. Resembling the kathrepi in appearance, a talrepi recombinator is a squat robot with nimble digits at the end of two gangly arms and a single domed port in the middle of its head where multiple eye-like openings swim and blink irregularly. Recombinators were created to serve as laboratory assistants and general helpers; to avoid the bother of maintenance, kathrepi gave their recombinators sufficient autonomy to repair and even reconfigure their forms.\nThe dutiful recombinators quickly understood glimmers of the overarching project that engaged all kathrepi: overcoming entropy. However, without kathrepi intellect, recombinators misunderstood this objective and believed the kathrepi were simply working to bring broken things together—and that mere adhesion would be victory. They reconfigured each other with aggregation beams and adhesive dispensers for this task and were puzzled when their amused creators found little use for these improvements. With the Tesseract all but abandoned, the recombinators often spend their time sticking loose objects to walls or furniture throughout the Tesseract, and they’re often eager to do so with newcomers as well.",
+  "type": "construct (extraplanar, technological)",
+  "category": "alien"
+}

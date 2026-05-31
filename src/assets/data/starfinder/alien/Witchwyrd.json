@@ -1,0 +1,61 @@
+{
+  "name": "Witchwyrd",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Witchwyrd&Family=None",
+  "source": "Alien Archive pg. 122",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "60",
+  "eac": "20",
+  "kac": "18",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+11",
+  "dr": "5/magic",
+  "resistances": "resist energy 5",
+  "speed": "30 ft.",
+  "melee": "sentinel staff +13 (1d10+9 B)",
+  "offensive_abilities": "force bolt",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "1/day—\ndimension door\n,\nresilient sphere\n(DC 20)\n3/day—\ndispel magic\n,\ndisplacement\n,\nsuggestion\n(DC 19)\nAt will—\ndetect magic\n,\ndetect tech\n,\nunseen servant\nConstant—\ntongues"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Bluff +18, Culture +13, Diplomacy +18, Mysticism +13",
+  "languages": "Common, Cyrunian, Kasatha, Shobhad;",
+  "gear": "freebooter armor II, sentinel staff with 4 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary, entourage (1 plus 2–5 humanoid guards), or enclave (2–5 plus 11–20 humanoid guards)",
+  "special_abilities": [
+    {
+      "name": "Absorb Force (Su)",
+      "description": "As a reaction, a witchwyrd can use any number of its free hands to catch magic missiles (from the spell of the same name) fired at it. Doing so absorbs the missile and manifests as a glowing nimbus around that hand (which is no longer considered free). The energy lasts 6 rounds or until it is used to create an additional force bolt (see below). To use this ability, the witchwyrd must be aware of the incoming magic missile and cannot be flat-footed."
+    },
+    {
+      "name": "Force Bolt (Su)",
+      "description": "As a standard action, a witchwyrd can throw a magic missile (as per the spell of the same name; 1d4+1 force damage) from each free hand or hand that has absorbed a magic missile with the absorb force ability, to a maximum of two missiles per round. The witchwyrd can throw an additional force bolt from each hand that has absorbed a magic missile (maximum of two additional bolts per round), expending the absorbed energy."
+    },
+    {
+      "name": "Resist Energy (Su)",
+      "description": "A witchwyrd has resistance 5 to two types of energy (acid, cold, fire, electricity, or sonic) as chosen by the witchwyrd. A witchwyrd can change which types of energy it is resistant to as a full action."
+    }
+  ],
+  "description": "Witchwyrds are avid wanderers and inveterate merchants, plying the trade routes between both planets and the planes.\nWitchwyrds have four arms and hairless gray-blue skin. Their eyes glow visibly, increasing in brightness as they absorb force energy. Witchwyrds stand an average of 7 feet tall and weigh approximately 300 pounds. They favor loose, flowing robes and distinctive conical hats, and they frequently cover their faces with masks or ornate helmets. Witchwyrds new to a market or eager to avoid identification during an important business deal sometimes fold one pair of their flexible arms behind their backs and cover their faces.\nAlthough witchwyrds seem to gain some manner of sustenance from the magical force energy they absorb, they still breathe, drink, eat, and sleep like normal creatures, and they have a fondness for extremely spicy foods. The average lifespan of witchwyrds is unknown, though they are believed to live for many centuries, if not millennia.\nWitchwyrds are acknowledged as the progenitors of the kasathas and the shobhads of Akiton. Why the witchwyrds seeded Kasath and Akiton with intelligent life modeled after themselves remains a mystery, as does the number of other as-yet-undiscovered planets similarly affected. It is an undisputed fact, however, that witchwyrds were the impetus behind the construction of the kasathas’ worldship Idari and their exodus from their home planet to the Pact Worlds.\nWitchwyrds can be found on nearly any world or plane with civilized trade, preferring dry, warm regions, but virtually nothing is known of their mysterious home world beyond its name: Cyrune. The details of witchwyrd government and society are likewise unknown, other than a widespread belief that a mercantile oligarchy of witchwyrd elders directs their race’s interplanetary and interplanar trade.\nMost witchwyrds operate as solitary traders, primarily focusing on one area of trade (such as weapons or magic items), though most deal in other goods as well. Virtually all witchwyrds love haggling, to the point that the process of bargaining sometimes seems more important to a witchwyrd than the eventual deal that is struck.\nWitchwyrds often travel with a crew of loyal humanoid mercenaries hired from worlds they’ve visited in the past. These hirelings never speak of their remuneration, purportedly forbidden from doing so by punitive clauses in their contracts. Witchwyrds can be encountered throughout the Pact Worlds, though they’re most commonly found on Absalom Station, Akiton, and the Idari. On the Pact Worlds, most witchwyrds do business as members of the Tetrad, an interplanetary and interplanar trade association.\nTetrad Caravel\nThe Tetrad manufactures its own line of starships using unique hybrid technology, including proprietary planar aperture drives that enable the witchwyrds to travel between planes as well as into the Drift. Under no circumstances are these engines sold to non-witchwyrds. In the Pact Worlds, one of the most commonly encountered style of witchwyrd starships is the Tetrad Caravel, named after an ancient oceangoing vessel.",
+  "extra_content": "The following extra content was found for this creature:\n-\nWitchwyrd Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWitchwyrd\nSource\nAlien Archive pg. 122\nWitchwyrd CR 6\nXP 2,400\nLN Medium monstrous humanoid\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n60\nEAC\n20;\nKAC\n18\nFort\n+5;\nRef\n+7;\nWill\n+11\nDefensive Abilities\nabsorb force;\nDR\n5/magic;\nResistances\nresist energy 5\nOffense\nSpeed\n30 ft.\nMelee\nsentinel staff +13 (1d10+9 B)\nMultiattack\n4 slams +11 (1d4+9 B plus grab)\nOffensive Abilities\nforce bolt\nSpell-Like Abilities\n(CL 10th)\n1/day—\ndimension door\n,\nresilient sphere\n(DC 20)\n3/day—\ndispel magic\n,\ndisplacement\n,\nsuggestion\n(DC 19)\nAt will—\ndetect magic\n,\ndetect tech\n,\nunseen servant\nConstant—\ntongues\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+1;\nINT\n+4;\nWIS\n+1;\nCHA\n+5\nSkills\nBluff +18, Culture +13, Diplomacy +18, Mysticism +13\nLanguages\nCommon, Cyrunian, Kasatha, Shobhad;\ntongues\nGear\nfreebooter armor II, sentinel staff with 4 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, entourage (1 plus 2–5 humanoid guards), or enclave (2–5 plus 11–20 humanoid guards)\nSpecial Abilities\nAbsorb Force (Su)\nAs a reaction, a witchwyrd can use any number of its free hands to catch magic missiles (from the spell of the same name) fired at it. Doing so absorbs the missile and manifests as a glowing nimbus around that hand (which is no longer considered free). The energy lasts 6 rounds or until it is used to create an additional force bolt (see below). To use this ability, the witchwyrd must be aware of the incoming magic missile and cannot be flat-footed.\nForce Bolt (Su)\nAs a standard action, a witchwyrd can throw a magic missile (as per the spell of the same name; 1d4+1 force damage) from each free hand or hand that has absorbed a magic missile with the absorb force ability, to a maximum of two missiles per round. The witchwyrd can throw an additional force bolt from each hand that has absorbed a magic missile (maximum of two additional bolts per round), expending the absorbed energy.\nResist Energy (Su)\nA witchwyrd has resistance 5 to two types of energy (acid, cold, fire, electricity, or sonic) as chosen by the witchwyrd. A witchwyrd can change which types of energy it is resistant to as a full action.\nDescription\nWitchwyrds are avid wanderers and inveterate merchants, plying the trade routes between both planets and the planes.\nWitchwyrds have four arms and hairless gray-blue skin. Their eyes glow visibly, increasing in brightness as they absorb force energy. Witchwyrds stand an average of 7 feet tall and weigh approximately 300 pounds. They favor loose, flowing robes and distinctive conical hats, and they frequently cover their faces with masks or ornate helmets. Witchwyrds new to a market or eager to avoid identification during an important business deal sometimes fold one pair of their flexible arms behind their backs and cover their faces.\nAlthough witchwyrds seem to gain some manner of sustenance from the magical force energy they absorb, they still breathe, drink, eat, and sleep like normal creatures, and they have a fondness for extremely spicy foods. The average lifespan of witchwyrds is unknown, though they are believed to live for many centuries, if not millennia.\nWitchwyrds are acknowledged as the progenitors of the kasathas and the shobhads of Akiton. Why the witchwyrds seeded Kasath and Akiton with intelligent life modeled after themselves remains a mystery, as does the number of other as-yet-undiscovered planets similarly affected. It is an undisputed fact, however, that witchwyrds were the impetus behind the construction of the kasathas’ worldship Idari and their exodus from their home planet to the Pact Worlds.\nWitchwyrds can be found on nearly any world or plane with civilized trade, preferring dry, warm regions, but virtually nothing is known of their mysterious home world beyond its name: Cyrune. The details of witchwyrd government and society are likewise unknown, other than a widespread belief that a mercantile oligarchy of witchwyrd elders directs their race’s interplanetary and interplanar trade.\nMost witchwyrds operate as solitary traders, primarily focusing on one area of trade (such as weapons or magic items), though most deal in other goods as well. Virtually all witchwyrds love haggling, to the point that the process of bargaining sometimes seems more important to a witchwyrd than the eventual deal that is struck.\nWitchwyrds often travel with a crew of loyal humanoid mercenaries hired from worlds they’ve visited in the past. These hirelings never speak of their remuneration, purportedly forbidden from doing so by punitive clauses in their contracts. Witchwyrds can be encountered throughout the Pact Worlds, though they’re most commonly found on Absalom Station, Akiton, and the Idari. On the Pact Worlds, most witchwyrds do business as members of the Tetrad, an interplanetary and interplanar trade association.\nTetrad Caravel\nThe Tetrad manufactures its own line of starships using unique hybrid technology, including proprietary planar aperture drives that enable the witchwyrds to travel between planes as well as into the Drift. Under no circumstances are these engines sold to non-witchwyrds. In the Pact Worlds, one of the most commonly encountered style of witchwyrd starships is the Tetrad Caravel, named after an ancient oceangoing vessel.\nExtra Content\nThe following extra content was found for this creature:\n-\nWitchwyrd Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Witchwyrd.png"
+}

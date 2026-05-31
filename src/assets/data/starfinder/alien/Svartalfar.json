@@ -1,0 +1,60 @@
+{
+  "name": "Svartalfar",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Svartalfar&Family=None",
+  "source": "Starfinder #11: The Penumbra Protocol pg. 60",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "fey (extraplanar)",
+  "init": "+9",
+  "senses": "darkvision 120 ft., low-light vision;",
+  "perception": "+18",
+  "hp": "135",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+8",
+  "ref": "+11",
+  "will": "+12",
+  "dr": "10/cold iron",
+  "sr": "20",
+  "resistances": "cold 10, electricity 10;",
+  "weaknesses": "light blindness",
+  "speed": "50 ft.",
+  "melee": "tactical knife +17 (1d4+10 S)",
+  "ranged": "advanced shirren-eye rifle +19 (2d10+9 P) or",
+  "offensive_abilities": "bane, debilitating trick, spell strike, trick attack +5d8, triple attack",
+  "spell_like_abilities": {
+    "caster_info": "CL\r\n 9th; melee +17",
+    "spells": "1/day–\nentropic grasp\n(DC 18),\ngreater invisibility"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+6",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +23, Intimidate +18, Mysticism +18, Sleight of Hand +23, Stealth +23",
+  "languages": "Common, Elven, Shadowtongue, Vercite",
+  "other_abilities": "operative exploits",
+  "gear": "d-suit III, advanced shirreneye rifle with 20 sniper rounds, aphelion laser pistol with 2 high-capacity batteries (40 charges each), flash grenades II (2), tactical knife, credstick (1,200 credits)",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, pair, cabal (3–10), or clan (11–30)",
+  "special_abilities": [
+    {
+      "name": "Bane (Su)",
+      "description": "Once per day as a swift action, a svartalfar can imbue one of its weapons with the bane weapon fusion. It must select one creature type (and subtype, if choosing humanoid or outsider) when it uses this ability. This lasts for 1 hour. This ability functions only while the svartalfar wields the weapon."
+    },
+    {
+      "name": "Spell Strike (Su)",
+      "description": "As a swift action after hitting with a melee weapon, a svartalfar can cast and deliver its entropic grasp spell-like ability to affect the target’s armor, if it hasn’t already cast it yet that day. If the spell is cast in this way, its duration is an additional 6 rounds."
+    }
+  ],
+  "description": "Exiled aeons ago from the First World for unspeakable crimes against other fey, svartalfars fled to the Shadow Plane. When Triune bestowed Drift technology to the universe, svartalfars channeled their vengeful energies away from the fey who expelled them to focus on an inscrutable endgame spanning both the galaxy and the planes. Many of these calculating killers have realized that the universal currencies of money and power can advance their race further than can the arcane knowledge they once sought as payment for their services.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSvartalfar Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSvartalfar\nSource\nStarfinder #11: The Penumbra Protocol pg. 60\nSvartalfar CR 9\nXP 6,400\nSvartalfar operative\nLE Medium fey (extraplanar)\nInit\n+9;\nSenses\ndarkvision 120 ft., low-light vision;\nPerception\n+18\nDefense\nHP\n135\nEAC\n22;\nKAC\n23\nFort\n+8;\nRef\n+11;\nWill\n+12\nDefensive Abilities\nevasion, uncanny agility;\nDR\n10/cold iron;\nResistances\ncold 10, electricity 10;\nSR\n20\nWeaknesses\nlight blindness\nOffense\nSpeed\n50 ft.\nMelee\ntactical knife +17 (1d4+10 S)\nRanged\nadvanced shirren-eye rifle +19 (2d10+9 P) or\r\naphelion laser pistol +19 (3d4+9 F; critical burn 1d4) or\r\nflash grenade II +19 (explode [10 ft., blinded 1d4 rounds, DC 18])\nOffensive Abilities\nbane, debilitating trick, spell strike, trick attack +5d8, triple attack\nSvartalfar Spell-Like Abilities\n(CL\r\n 9th; melee +17)\n1/day–\nentropic grasp\n(DC 18),\ngreater invisibility\nStatistics\nSTR\n+1;\nDEX\n+6;\nCON\n+3;\nINT\n+4;\nWIS\n+2;\nCHA\n+3\nSkills\nAcrobatics +23, Intimidate +18, Mysticism +18, Sleight of Hand +23, Stealth +23\nLanguages\nCommon, Elven, Shadowtongue, Vercite\nOther Abilities\noperative exploits\r\n (cloaking field, debilitating sniper)\nGear\nd-suit III, advanced shirreneye rifle with 20 sniper rounds, aphelion laser pistol with 2 high-capacity batteries (40 charges each), flash grenades II (2), tactical knife, credstick (1,200 credits)\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, pair, cabal (3–10), or clan (11–30)\nSpecial Abilities\nBane (Su)\nOnce per day as a swift action, a svartalfar can imbue one of its weapons with the bane weapon fusion. It must select one creature type (and subtype, if choosing humanoid or outsider) when it uses this ability. This lasts for 1 hour. This ability functions only while the svartalfar wields the weapon.\nSpell Strike (Su)\nAs a swift action after hitting with a melee weapon, a svartalfar can cast and deliver its entropic grasp spell-like ability to affect the target’s armor, if it hasn’t already cast it yet that day. If the spell is cast in this way, its duration is an additional 6 rounds.\nDescription\nExiled aeons ago from the First World for unspeakable crimes against other fey, svartalfars fled to the Shadow Plane. When Triune bestowed Drift technology to the universe, svartalfars channeled their vengeful energies away from the fey who expelled them to focus on an inscrutable endgame spanning both the galaxy and the planes. Many of these calculating killers have realized that the universal currencies of money and power can advance their race further than can the arcane knowledge they once sought as payment for their services.\nExtra Content\nThe following extra content was found for this creature:\n-\nSvartalfar Race Entry",
+  "type": "fey (extraplanar)",
+  "category": "alien"
+}

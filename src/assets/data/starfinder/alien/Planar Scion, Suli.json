@@ -1,0 +1,45 @@
+{
+  "name": "Planar Scion, Suli",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Suli&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "1",
+  "xp": "400",
+  "init": "+6",
+  "senses": "low-light vision;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+1",
+  "resistances": "acid 5, cold 5, electricity 5, fire 5",
+  "speed": "40 ft.",
+  "melee": "longsword +8 (1d8+4 S)",
+  "ranged": "autotarget rifle +6 (1d6+1 P) or frag grenade I +6 (explode [15 ft., 1d6 P, DC 10])",
+  "offensive_abilities": "elemental assault, fighting style (blitz)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +10, Medicine +5, Piloting +5",
+  "languages": "Common, Ignan",
+  "gear": "flight suit stationwear, autotarget rifle with 30 longarm rounds, longsword, frag grenades I (2)",
+  "environment": "any",
+  "organization": "single, pair, or squad (3–6)",
+  "special_abilities": [
+    {
+      "name": "Elemental Assault (Su)",
+      "description": "As a swift action, a suli can cause half the damage dealt by a weapon she wields to be acid, cold, electricity, or fire damage for 1 round. A suli can use this ability on her unarmed strikes, causing them to be neither archaic nor nonlethal while the damage alteration persists. This suli soldier can use this ability once per day."
+    }
+  ],
+  "description": "Also called suli-jann, sulis are often the descendants of plane-hopping jann and mortal beings, although some sulis have elemental origins that are more mysterious. Sulis are difficult to recognize by sight, since they resemble ordinary humanoids with, perhaps, an occasional flash of elemental light in their eyes. Most manifest their otherworldly heritage at adolescence. Strong of body and personality, sulis readily survive and assimilate, making them one of the most widespread planar scions.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nSuli Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion, Suli\nSource\nStarfinder #14: Soldiers of Brass pg. 58\nSuli CR 1\nXP 400\nSuli soldier\nN medium outsider (native)\nInit\n+6;\nSenses\nlow-light vision;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+3;\nRef\n+5;\nWill\n+1\nResistances\nacid 5, cold 5, electricity 5, fire 5\nOffense\nSpeed\n40 ft.\nMelee\nlongsword +8 (1d8+4 S)\nRanged\nautotarget rifle +6 (1d6+1 P) or frag grenade I +6 (explode [15 ft., 1d6 P, DC 10])\nOffensive Abilities\nelemental assault, fighting style (blitz)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n-1;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +10, Medicine +5, Piloting +5\nLanguages\nCommon, Ignan\nGear\nflight suit stationwear, autotarget rifle with 30 longarm rounds, longsword, frag grenades I (2)\nEcology\nEnvironment\nany\nOrganization\nsingle, pair, or squad (3–6)\nSpecial Abilities\nElemental Assault (Su)\nAs a swift action, a suli can cause half the damage dealt by a weapon she wields to be acid, cold, electricity, or fire damage for 1 round. A suli can use this ability on her unarmed strikes, causing them to be neither archaic nor nonlethal while the damage alteration persists. This suli soldier can use this ability once per day.\nDescription\nAlso called suli-jann, sulis are often the descendants of plane-hopping jann and mortal beings, although some sulis have elemental origins that are more mysterious. Sulis are difficult to recognize by sight, since they resemble ordinary humanoids with, perhaps, an occasional flash of elemental light in their eyes. Most manifest their otherworldly heritage at adolescence. Strong of body and personality, sulis readily survive and assimilate, making them one of the most widespread planar scions.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nSuli Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Undershrike",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Undershrike&Family=None",
+  "source": "Drift Crisis pg. 165",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsight (vibration) 30 ft., sightless;",
+  "perception": "+16",
+  "hp": "70",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+4",
+  "ref": "+5",
+  "will": "+8",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "claw +12 (1d8+6 S) or tentacle +12 (1d6+6 P)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tentacle)",
+  "offensive_abilities": "screech, tentacle burst",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+5",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +11, Stealth +16, Survival +11",
+  "languages": "any 1 language",
+  "other_abilities": "compression",
+  "environment": "any underground (Absalom Station)",
+  "organization": "solitary, pair, or chorus (3–6)",
+  "special_abilities": [
+    {
+      "name": "Screech (Ex)",
+      "description": "As a standard action, an undershrike can screech discordantly. Creatures within 10 feet of the undershrike take 2d6 sonic damage, are staggered for 1 round, and are deafened for 1d4 rounds; with a successful DC 15 Fortitude save, a creature takes half damage, and negates the staggered and deafened effects. Under typical conditions, the screech is audible from 1,000 feet away. After screeching, an undershrike can’t do so again for 1d6 rounds. Undershrikes are immune to each others’ screech abilities."
+    },
+    {
+      "name": "Tendril Burst (Ex)",
+      "description": "As a standard action, an undershrike can momentarily sprout a host of thin tendrils from its body that deal 1d6+6 slashing damage to all creatures in a 30‑foot cone (DC 15 Reflex half). If at least two creatures fail the saving throw, the undershrike can use its screech ability as swift action instead of as a standard action until the end of its next turn. Once it uses its tendril burst, an undershrike can’t do so again for 1d6 rounds."
+    }
+  ],
+  "description": "Those who return from Absalom Station’s Ghost Levels speak of haunting cryptids that feel their way through the tunnels with tapping tendrils and whose calls summon death. Known as undershrikes, these lanky creatures aimlessly patrol the Ghost Levels, slipping past obstacles almost like ghosts. To the myriad strange life-forms native to the Ghost Levels, undershrikes may as well be phantoms; the two barely seem to notice each other and respect one another when they do. However, undershrikes are territorial around unfamiliar beings, stalking them before either skewering the intruders just outside the Ghost Levels or screeching to attract local fauna to dispatch the trespassers. Rarely, a respectful explorer becomes accepted by undershrikes, who ignore the traveler as if they were one of the Ghost Level inhabitants.\nWhen slain, an undershrike’s body dissolves into the surrounding architecture, only to reform elsewhere on the station with its memories intact. Some of these reborn creatures develop a taste for revenge, slinking out from the Ghost Levels like eyeless revenants to track, torment, and murder their killers.\nUndershrikes’ origins are a mystery, with the most popular theories being they were convicts banished to the Ghost Levels during the Gap and transformed by something within the haunted halls. Undershrikes speak an unpredictable array of languages, yet seem to understand one another no matter which they’re speaking, often cryptically discussing people, landmarks, and events unknown to history. Undershrikes who speak the same language seem so rare it might be there’s only one such creature per language, reborn repeatedly.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUndershrike\nSource\nDrift Crisis pg. 165\nUndershrike CR 5\nXP 1,600\nCN Medium aberration\nInit\n+3;\nSenses\nblindsight (vibration) 30 ft., sightless;\nPerception\n+16\nDefense\nHP\n70\nEAC\n16;\nKAC\n17\nFort\n+4;\nRef\n+5;\nWill\n+8\nDefensive Abilities\nfast healing 5\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\nclaw +12 (1d8+6 S) or tentacle +12 (1d6+6 P)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tentacle)\nOffensive Abilities\nscreech, tentacle burst\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+1;\nINT\n+0;\nWIS\n+5;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +11, Stealth +16, Survival +11\nLanguages\nany 1 language\nOther Abilities\ncompression\nEcology\nEnvironment\nany underground (Absalom Station)\nOrganization\nsolitary, pair, or chorus (3–6)\nSpecial Abilities\nScreech (Ex)\nAs a standard action, an undershrike can screech discordantly. Creatures within 10 feet of the undershrike take 2d6 sonic damage, are staggered for 1 round, and are deafened for 1d4 rounds; with a successful DC 15 Fortitude save, a creature takes half damage, and negates the staggered and deafened effects. Under typical conditions, the screech is audible from 1,000 feet away. After screeching, an undershrike can’t do so again for 1d6 rounds. Undershrikes are immune to each others’ screech abilities.\nTendril Burst (Ex)\nAs a standard action, an undershrike can momentarily sprout a host of thin tendrils from its body that deal 1d6+6 slashing damage to all creatures in a 30‑foot cone (DC 15 Reflex half). If at least two creatures fail the saving throw, the undershrike can use its screech ability as swift action instead of as a standard action until the end of its next turn. Once it uses its tendril burst, an undershrike can’t do so again for 1d6 rounds.\nDescription\nThose who return from Absalom Station’s Ghost Levels speak of haunting cryptids that feel their way through the tunnels with tapping tendrils and whose calls summon death. Known as undershrikes, these lanky creatures aimlessly patrol the Ghost Levels, slipping past obstacles almost like ghosts. To the myriad strange life-forms native to the Ghost Levels, undershrikes may as well be phantoms; the two barely seem to notice each other and respect one another when they do. However, undershrikes are territorial around unfamiliar beings, stalking them before either skewering the intruders just outside the Ghost Levels or screeching to attract local fauna to dispatch the trespassers. Rarely, a respectful explorer becomes accepted by undershrikes, who ignore the traveler as if they were one of the Ghost Level inhabitants.\nWhen slain, an undershrike’s body dissolves into the surrounding architecture, only to reform elsewhere on the station with its memories intact. Some of these reborn creatures develop a taste for revenge, slinking out from the Ghost Levels like eyeless revenants to track, torment, and murder their killers.\nUndershrikes’ origins are a mystery, with the most popular theories being they were convicts banished to the Ghost Levels during the Gap and transformed by something within the haunted halls. Undershrikes speak an unpredictable array of languages, yet seem to understand one another no matter which they’re speaking, often cryptically discussing people, landmarks, and events unknown to history. Undershrikes who speak the same language seem so rare it might be there’s only one such creature per language, reborn repeatedly.",
+  "type": "aberration",
+  "category": "alien"
+}

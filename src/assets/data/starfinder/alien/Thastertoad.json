@@ -1,0 +1,54 @@
+{
+  "name": "Thastertoad",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Thastertoad&Family=None",
+  "source": "Junker's Delight pg. 62",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+1",
+  "speed": "30 ft., climb 10 ft.",
+  "melee": "tongue +9 (1d4+2 B plus grab)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tongue)",
+  "offensive_abilities": "constrict (1d8+2 B)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "-2",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Athletics +10 (+18 to climb), Stealth +5, Survival +5",
+  "languages": "Goblin (can’t speak)",
+  "environment": "any (Akiton)",
+  "organization": "solitary, pair, or knot (4–7)",
+  "special_abilities": [
+    {
+      "name": "Constrict (Ex)",
+      "description": "When a thastertoad successfully renews a grapple or a pin against an opponent, it automatically deals 1d8+2 bludgeoning damage to that creature."
+    },
+    {
+      "name": "Grab (Ex)",
+      "description": "If a thastertoad hits with its tongue attack, it deals the listed damage. If the thastertoad’s attack roll successfully hits the target’s KAC + 4, the thastertoad automatically grapples the target (this takes no action); if it hits the target’s KAC + 13, it instead pins the target. The thastertoad doesn’t need to have a limb free to perform this grapple as long as it can make a tongue attack. If the thastertoad moves farther than 10 feet from the grappled target or makes a tongue attack against a different target, the grappled condition ends immediately. The thastertoad can attempt to renew the condition on the target by attempting a grapple combat maneuver check, using its melee attack die roll modifier of +9."
+    },
+    {
+      "name": "Thasteron Fortification (Ex)",
+      "description": "Plates of impure thasteron cover a thastertoad’s back, protecting it from some devastating injuries. There is a 20% chance that a critical hit against a thastertoad is treated as a normal attack, dealing normal damage instead and not applying any critical effect. Roll this percentage chance before critical hit damage is rolled."
+    }
+  ],
+  "description": "Long ago, the red planet of Akiton enjoyed prosperity as the major source of thasteron, a volatile mineral that could be refined into starship fuel. When vessels around the galaxy switched to Drift engines for long-distance travel, Akiton’s economy collapsed, and the thasteron mines and refineries were abandoned. But thasteron was always an infamously dirty fuel with a history of causing environmental damage. Even after the abandonment, large quantities of the mineral remained within the planet’s crust, and this raw substance spurred the mutation that created thastertoads from simple tailless lizards.\nOver many generations, the beasts grew in size, and their skin began to exude an impure form of thasteron that formed plates along their backs. They graduated from feeding on insects to larger animals, such as rats and other vermin, catching prey with their long tongues. Unlike other toads, thastertoads aren’t amphibious; they were named by space goblins, who cared little about scientific taxonomy and endured the grumpy personalities of these creatures to (partially) domesticate them. Space goblins who reside in and near Akiton’s fields of crashed starships often keep thastertoads as pets and guard animals.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThastertoad\nSource\nJunker's Delight pg. 62\nThastertoad CR 1\nXP 400\nCN Small magical beast\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+5;\nRef\n+5;\nWill\n+1\nDefensive Abilities\nthasteron fortification\nOffense\nSpeed\n30 ft., climb 10 ft.\nMelee\ntongue +9 (1d4+2 B plus grab)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tongue)\nOffensive Abilities\nconstrict (1d8+2 B)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+2;\nINT\n-2;\nWIS\n+0;\nCHA\n-1\nSkills\nAthletics +10 (+18 to climb), Stealth +5, Survival +5\nLanguages\nGoblin (can’t speak)\nEcology\nEnvironment\nany (Akiton)\nOrganization\nsolitary, pair, or knot (4–7)\nSpecial Abilities\nConstrict (Ex)\nWhen a thastertoad successfully renews a grapple or a pin against an opponent, it automatically deals 1d8+2 bludgeoning damage to that creature.\nGrab (Ex)\nIf a thastertoad hits with its tongue attack, it deals the listed damage. If the thastertoad’s attack roll successfully hits the target’s KAC + 4, the thastertoad automatically grapples the target (this takes no action); if it hits the target’s KAC + 13, it instead pins the target. The thastertoad doesn’t need to have a limb free to perform this grapple as long as it can make a tongue attack. If the thastertoad moves farther than 10 feet from the grappled target or makes a tongue attack against a different target, the grappled condition ends immediately. The thastertoad can attempt to renew the condition on the target by attempting a grapple combat maneuver check, using its melee attack die roll modifier of +9.\nThasteron Fortification (Ex)\nPlates of impure thasteron cover a thastertoad’s back, protecting it from some devastating injuries. There is a 20% chance that a critical hit against a thastertoad is treated as a normal attack, dealing normal damage instead and not applying any critical effect. Roll this percentage chance before critical hit damage is rolled.\nDescription\nLong ago, the red planet of Akiton enjoyed prosperity as the major source of thasteron, a volatile mineral that could be refined into starship fuel. When vessels around the galaxy switched to Drift engines for long-distance travel, Akiton’s economy collapsed, and the thasteron mines and refineries were abandoned. But thasteron was always an infamously dirty fuel with a history of causing environmental damage. Even after the abandonment, large quantities of the mineral remained within the planet’s crust, and this raw substance spurred the mutation that created thastertoads from simple tailless lizards.\nOver many generations, the beasts grew in size, and their skin began to exude an impure form of thasteron that formed plates along their backs. They graduated from feeding on insects to larger animals, such as rats and other vermin, catching prey with their long tongues. Unlike other toads, thastertoads aren’t amphibious; they were named by space goblins, who cared little about scientific taxonomy and endured the grumpy personalities of these creatures to (partially) domesticate them. Space goblins who reside in and near Akiton’s fields of crashed starships often keep thastertoads as pets and guard animals.",
+  "type": "magical beast",
+  "category": "alien"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Renkroda, Whiskered Renkroda",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Whiskered Renkroda&Family=Renkroda",
+  "source": "Starfinder #2: Temple of the Twelve pg. 58",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+11",
+  "hp": "75",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "speed": "50 ft.",
+  "melee": "bite +14 (1d6+10 P) or tail +11 (1d8+10 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "roar, upending charge",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +16, Stealth +11, Survival +11",
+  "environment": "temperate or warm forests (Castrovel)",
+  "organization": "solitary or gang (2–5)",
+  "special_abilities": [
+    {
+      "name": "Roar (Ex)",
+      "description": "As a standard action, a whiskered renkroda can bellow ferociously, causing all enemies within 60 feet to become shaken for 1d4+1 rounds (Will DC 13 negates). If the renkroda hits an opponent with its tail attack, it can activate this ability as a move action before the end of its next turn. After a whiskered renkroda roars, it must wait 1d6 rounds before it can do so again. This is a mind-affecting, sensedependent fear effect."
+    },
+    {
+      "name": "Upending Charge (Ex)",
+      "description": "A whiskered renkroda takes no penalty to its attack roll when using the charge action. If it hits, it can immediately initiate a trip combat maneuver (this takes no action)."
+    }
+  ],
+  "description": "Renkrodas make up an extensive category of large reptilian hypercarnivores that are distinguished by their long necks, decorative spines, and deadly sprints. They range across broad swaths of the continents of Asana and Ukulam on Castrovel, and due to their size and place near the top of the food chain, they are often solitary and aggressively territorial. Their terrifying bellows—signaling the creatures’ efforts to maintain boundaries between one another and warn scavengers away from fresh kills—are one of the iconic sounds of northern Castrovel’s wilderness.\nThe whiskered renkroda is among the smaller varieties of renkroda, adapted to move easily through heavily forested areas and distinguished by the additional antennae that grow from its chin, which help it detect prey hiding in dense foliage. Like others of its kind, a whiskered renkroda has a four-chambered heart and a throat that can expand up to twice its normal diameter, allowing the creature to gulp air quickly and circulate blood effectively while in pursuit of prey. A typical hunting whiskered renkroda uses trees for cover as it stalks its victims or waits for a target to approach and then makes a sudden charge to snag its victim or knock it down. Because many of Castrovel’s herbivores boast deadly defenses, the smaller renkrodas are fairly discerning when selecting prey. Some whiskered renkrodas can be initially timid around unfamiliar humanoids, not knowing whether they are too dangerous or more trouble than they’re worth. The hungrier the animals grow, though, the more likely they are to attack, especially during lean times when other prey is limited.\nUnlike young males of many other species of renkrodas, whiskered adolescent males sometimes form small gangs for mutual protection against mature adults and even larger predators. They wander widely across forested territory, moving to another location when food grows scarce. As an alpha member of the gang emerges, the rest of the group typically scatters, ceding that territory to the dominant male. In order to broadcast its superiority, this triumphant renkroda often engages in reckless attacks throughout its new home and destroys its surroundings, frequently roaring, scratching at nearby trees and rocks, and marking with its scent to claim its territory.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRenkroda\nAliens in the \"Renkroda\" Family\nName\nCR\nWhiskered\n5\nWhiskered Renkroda\n5\nRenkroda, Whiskered Renkroda\nSource\nStarfinder #2: Temple of the Twelve pg. 58\nWhiskered Renkroda CR 5\nXP 1,600\nN Large animal\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+11\nDefense\nHP\n75\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nOffense\nSpeed\n50 ft.\nMelee\nbite +14 (1d6+10 P) or tail +11 (1d8+10 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nroar, upending charge\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +16, Stealth +11, Survival +11\nEcology\nEnvironment\ntemperate or warm forests (Castrovel)\nOrganization\nsolitary or gang (2–5)\nSpecial Abilities\nRoar (Ex)\nAs a standard action, a whiskered renkroda can bellow ferociously, causing all enemies within 60 feet to become shaken for 1d4+1 rounds (Will DC 13 negates). If the renkroda hits an opponent with its tail attack, it can activate this ability as a move action before the end of its next turn. After a whiskered renkroda roars, it must wait 1d6 rounds before it can do so again. This is a mind-affecting, sensedependent fear effect.\nUpending Charge (Ex)\nA whiskered renkroda takes no penalty to its attack roll when using the charge action. If it hits, it can immediately initiate a trip combat maneuver (this takes no action).\nDescription\nRenkrodas make up an extensive category of large reptilian hypercarnivores that are distinguished by their long necks, decorative spines, and deadly sprints. They range across broad swaths of the continents of Asana and Ukulam on Castrovel, and due to their size and place near the top of the food chain, they are often solitary and aggressively territorial. Their terrifying bellows—signaling the creatures’ efforts to maintain boundaries between one another and warn scavengers away from fresh kills—are one of the iconic sounds of northern Castrovel’s wilderness.\nThe whiskered renkroda is among the smaller varieties of renkroda, adapted to move easily through heavily forested areas and distinguished by the additional antennae that grow from its chin, which help it detect prey hiding in dense foliage. Like others of its kind, a whiskered renkroda has a four-chambered heart and a throat that can expand up to twice its normal diameter, allowing the creature to gulp air quickly and circulate blood effectively while in pursuit of prey. A typical hunting whiskered renkroda uses trees for cover as it stalks its victims or waits for a target to approach and then makes a sudden charge to snag its victim or knock it down. Because many of Castrovel’s herbivores boast deadly defenses, the smaller renkrodas are fairly discerning when selecting prey. Some whiskered renkrodas can be initially timid around unfamiliar humanoids, not knowing whether they are too dangerous or more trouble than they’re worth. The hungrier the animals grow, though, the more likely they are to attack, especially during lean times when other prey is limited.\nUnlike young males of many other species of renkrodas, whiskered adolescent males sometimes form small gangs for mutual protection against mature adults and even larger predators. They wander widely across forested territory, moving to another location when food grows scarce. As an alpha member of the gang emerges, the rest of the group typically scatters, ceding that territory to the dominant male. In order to broadcast its superiority, this triumphant renkroda often engages in reckless attacks throughout its new home and destroys its surroundings, frequently roaring, scratching at nearby trees and rocks, and marking with its scent to claim its territory.",
+  "type": "animal",
+  "category": "alien"
+}

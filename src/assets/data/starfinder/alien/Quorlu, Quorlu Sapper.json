@@ -1,0 +1,66 @@
+{
+  "name": "Quorlu, Quorlu Sapper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Quorlu Sapper&Family=Quorlu",
+  "source": "Alien Archive 2 pg. 104",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+10",
+  "resistances": "fire 5",
+  "weaknesses": "susceptible to cold",
+  "speed": "25 ft.",
+  "melee": "mk 2 heat-amp gauntlet +18 (2d6+12 B & F; critical burn 1d8)",
+  "ranged": "red star plasma cannon +21 (explode [5 ft., 2d10+9 E & F, DC 16]; critical burn 1d8) or frag grenade III +21 (explode [15 ft., 4d6 P, DC 16])",
+  "offensive_abilities": "debilitating attack (DC 16, 3 rounds), fighting styles (bombard, hit-and-run), gear boosts (plasma immolation [1d8], powerful explosive), grenade expert (35 ft.), heavy fire (+3 damage), opening volley",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+4",
+    "con": "+6",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Athletics +22, Engineering +17, Intimidate +17",
+  "languages": "Common, Quorlu",
+  "other_abilities": "multiarmed (3), tunneler",
+  "gear": "advanced iridishell, mk 2 heat-amp gauntlet, red star plasma cannon with 2 high-capacity batteries (40 charges each), frag grenades III (2), detonator, explosives (frag III [2])",
+  "environment": "any",
+  "organization": "solitary, pair, or team (3–5)",
+  "special_abilities": [
+    {
+      "name": "Endothermic (Ex)",
+      "description": "A quorlu has resistance 5 to fire that stacks with one other source of fire resistance."
+    },
+    {
+      "name": "Lithic (Ex)",
+      "description": "A quorlu’s silicon-based physiology grants it immunity to disease and poison, and it gains no benefit from drugs, medicinals, and similar nonmagical substances. It also gains a +2 racial bonus to saving throws against bleed effects. A quorlu doesn’t breathe or suffer the normal environmental effects of being in a vacuum."
+    },
+    {
+      "name": "Stable (Ex)",
+      "description": "A quorlu gains a +4 racial bonus to AC against combat maneuvers to bull rush, reposition, or trip."
+    },
+    {
+      "name": "Susceptible to Cold (Ex)",
+      "description": "When a quorlu takes cold damage, it becomes fatigued for 1 round. This effect doesn’t cause a fatigued quorlu to become exhausted."
+    },
+    {
+      "name": "Tunneler (Ex)",
+      "description": "A quorlu can dig through soil at a rate of 5 feet per minute. A quorlu can use this ability combined with its internal heat to dig through stone at a rate of 1 foot per minute. When it digs, a quorlu can leave a tunnel behind."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nQuorlu Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nQuorlu\nSource\nAlien Archive 2 pg. 104\nQuorlus are quadrupedal, silicon-based creatures that have three tentacular arms and three eyestalks. They hail from Quorlosh, a strange world in the Vast that is highly geologically active but has only a thin atmosphere. Quorlus live in warrens in the planet’s exposed stony crust, where they delve for minerals that they consume for sustenance. Their warrens are like the settlements of many humanoids, and their inhabitants conduct crystal farming in which they “grow” gypsum, quartzes, and salts for food. The average quorlu is 4-1/2 feet tall and weighs 350 pounds.\nTheir planet’s violent tectonic activity has instilled quorlus with a cultural acceptance of impermanence and resilience to loss. Quorlus value experiences more than material possessions, though by the standards of other worlds, they have abundant raw wealth. When a lava flow or quake damages a quorlu settlement, the quorlus dig out and repair, though they are too practical to rebuild where destruction is likely to occur again.\nQuorlus have a crystalline lithic shell that is vulnerable to certain sonic frequencies. Under this exterior, quorlus’ crystal-fiber organ structures float in plasma. At the center is the quorlu’s grinding heart, which serves as both a circulatory and a digestive organ and which generates the quorlu’s high internal heat. Extreme cold can slow a quorlu’s endothermic reactions, momentarily hindering the creature.\nAlthough quorlus can be tough combatants, few truly enjoy battle. Their extant military traditions stem from their engineering customs and emphasize the use of explosives, but they usually prefer peace and positive new experiences. This societal tendency makes them more inclined to be diplomats and explorers than warriors.\nSupplementing quorlus’ peaceful inclinations is the fact that most other sapient species find their voices soothing, especially when those voices are harmonized in song—and quorlus love to sing. Their language is melodic, tonal, and trilling, and it also includes subtle vibrations that shirrens in particular find especially pleasing thanks to their sensitivity to delicate vibrational shifts. The range of quorlu tones makes their language difficult for non-quorlus to master.\nQuorlus can be found throughout the Pact Worlds. They have an enclave and diplomatic corps on Absalom Station, and numerous quorlus join exploration outfits, including the Starfinder Society. Others serve as prospectors in the Diaspora and on inhospitable worlds. Quorlus are quick to volunteer for jobs inherently more hazardous for species that need to breathe or that are more susceptible to poison or disease.\nHeat-Amp Gauntlets\nQuorlus have developed\ngauntlets that store and amplify ambient heat\n, unleashing it in hand-to-hand combat. Notorious for their use of these weapons, quorlu infiltrators and sappers also use heat-amp gauntlets to start fires to hinder their enemies.\nAliens in the \"Quorlu\" Family\nName\nCR\nQuorlu\n2\nQuorlu Sapper\n9\nQuorlu, Quorlu Sapper\nSource\nAlien Archive 2 pg. 104\nQuorlu Sapper CR 9\nXP 6,400\nQuorlu soldier\nN Medium monstrous humanoid\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n145;\nRP\n4\nEAC\n22;\nKAC\n24; +4 vs. bull rush, reposition, trip\nFort\n+11;\nRef\n+9;\nWill\n+10; +2 vs. bleed\nDefensive Abilities\nendothermic, lithic, stable, unflankable;\nResistances\nfire 5\nWeaknesses\nsusceptible to cold\nOffense\nSpeed\n25 ft.\nMelee\nmk 2 heat-amp gauntlet +18 (2d6+12 B & F; critical burn 1d8)\nRanged\nred star plasma cannon +21 (explode [5 ft., 2d10+9 E & F, DC 16]; critical burn 1d8) or frag grenade III +21 (explode [15 ft., 4d6 P, DC 16])\nOffensive Abilities\ndebilitating attack (DC 16, 3 rounds), fighting styles (bombard, hit-and-run), gear boosts (plasma immolation [1d8], powerful explosive), grenade expert (35 ft.), heavy fire (+3 damage), opening volley\nStatistics\nSTR\n+3;\nDEX\n+4;\nCON\n+6;\nINT\n+1;\nWIS\n+0;\nCHA\n+1\nSkills\nAthletics +22, Engineering +17, Intimidate +17\nLanguages\nCommon, Quorlu\nOther Abilities\nmultiarmed (3), tunneler\nGear\nadvanced iridishell, mk 2 heat-amp gauntlet, red star plasma cannon with 2 high-capacity batteries (40 charges each), frag grenades III (2), detonator, explosives (frag III [2])\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or team (3–5)\nSpecial Abilities\nEndothermic (Ex)\nA quorlu has resistance 5 to fire that stacks with one other source of fire resistance.\nLithic (Ex)\nA quorlu’s silicon-based physiology grants it immunity to disease and poison, and it gains no benefit from drugs, medicinals, and similar nonmagical substances. It also gains a +2 racial bonus to saving throws against bleed effects. A quorlu doesn’t breathe or suffer the normal environmental effects of being in a vacuum.\nStable (Ex)\nA quorlu gains a +4 racial bonus to AC against combat maneuvers to bull rush, reposition, or trip.\nSusceptible to Cold (Ex)\nWhen a quorlu takes cold damage, it becomes fatigued for 1 round. This effect doesn’t cause a fatigued quorlu to become exhausted.\nTunneler (Ex)\nA quorlu can dig through soil at a rate of 5 feet per minute. A quorlu can use this ability combined with its internal heat to dig through stone at a rate of 1 foot per minute. When it digs, a quorlu can leave a tunnel behind.\nExtra Content\nThe following extra content was found for this creature:\n-\nQuorlu Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Quorlu.png"
+}

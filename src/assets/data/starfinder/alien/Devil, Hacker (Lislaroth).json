@@ -1,0 +1,64 @@
+{
+  "name": "Devil, Hacker (Lislaroth)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hacker (Lislaroth)&Family=Devil",
+  "source": "Starfinder #17: Solar Strike pg. 57",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+1",
+  "senses": "darkvision 60 ft., see in darkness;",
+  "perception": "+19",
+  "hp": "140",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+13",
+  "dr": "5/good",
+  "sr": "21",
+  "immunities": "fire, poison;",
+  "resistances": "acid 10, cold 10;",
+  "weaknesses": "technomagical susceptibility",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "claw +19 (2d8+11 S)",
+  "ranged": "electrical discharge +19 (3d4+10 E)",
+  "offensive_abilities": "overload (DC 19), override (DC 19)",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "1/day—\ndestruction protocol, rewire flesh\n(DC 22),\nsoothing protocol, summon allies\n(2 imps 60%)\n3/day—\ninstant virus\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\nimplant data, inject nanobots\n(DC 20),\nsecurity seal"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+8",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Bluff +19, Computers +24, Sense Motive +19",
+  "languages": "Celestial, Draconic, Infernal; telepathy 100 ft.",
+  "other_abilities": "mechanic tricks (distracting hack, ghost intrusion), possess computer, remote hack (40 ft.; DC 19)",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or packet (3–6)",
+  "special_abilities": [
+    {
+      "name": "Electrical Discharge (Ex)",
+      "description": "A lislaroth can fire an electrical bolt as a ranged attack with a range increment of 40 feet."
+    },
+    {
+      "name": "Possess Computer (Su)",
+      "description": "As a full action that provokes attacks of opportunity, a lislaroth can convert its body and gear into digital code and merge with a computer to which it has access. This ability fails if the devil is encumbered. While possessing a computer, the devil has total cover and is immune to any effect that requires it to have a body. A lislaroth can use the Computers skill on the possessed system. The devil firsts attempts to disable and impersonate any artificial personality the system has. If the computer is destroyed, the possession ends unless the devil can use a reaction to flee to a connected system.\nWhile possessing a computer, a lislaroth can be found and rooted out as though it were a module of a computer (tier = 1/2 the devil’s CR) behind a fake shell and with feedback and firewall countermeasures. A revealed lislaroth can be forced out of a possessed computer with a successful DC 33 Computers check. A dismissal spell cast on the computer can force the lislaroth back to Hell, but if the spell would send the devil to a random plane, the devil is instead forced to end the possession. When the possession ends, the devil appears in an unoccupied space as close to the computer as possible.\nWhen it exits a computer, the lislaroth can take a reaction to leave behind a\nsoftware imp\nof an item level equal to half the devil’s CR."
+    },
+    {
+      "name": "Technomagical Susceptibility (Ex)",
+      "description": "Any effect that works on a construct works on a lislaroth. An effect that works on a construct and an outsider has the worst possible effect."
+    }
+  ],
+  "description": "Lislaroths are Hell’s digital spies. They gain access to sensitive data, which they use or trade to corrupt mortal souls.\nA lislaroth stands 6 feet tall and weighs 170 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Hacker (Lislaroth)\nSource\nStarfinder #17: Solar Strike pg. 57\nHacker (Lislaroth) CR 10\nXP 9,600\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n+1;\nSenses\ndarkvision 60 ft., see in darkness;\nPerception\n+19\nDefense\nHP\n140\nEAC\n22;\nKAC\n23\nFort\n+11;\nRef\n+9;\nWill\n+13\nDR\n5/good;\nImmunities\nfire, poison;\nResistances\nacid 10, cold 10;\nSR\n21\nWeaknesses\ntechnomagical susceptibility\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nclaw +19 (2d8+11 S)\nRanged\nelectrical discharge +19 (3d4+10 E)\nOffensive Abilities\noverload (DC 19), override (DC 19)\nSpell-Like Abilities\n(CL 10th)\n1/day—\ndestruction protocol, rewire flesh\n(DC 22),\nsoothing protocol, summon allies\n(2 imps 60%)\n3/day—\ninstant virus\n(DC 21),\nsynaptic pulse\n(DC 21)\nAt will—\nimplant data, inject nanobots\n(DC 20),\nsecurity seal\nStatistics\nSTR\n+1;\nDEX\n+1;\nCON\n+3;\nINT\n+8;\nWIS\n+2;\nCHA\n+5\nSkills\nBluff +19, Computers +24, Sense Motive +19\nLanguages\nCelestial, Draconic, Infernal; telepathy 100 ft.\nOther Abilities\nmechanic tricks (distracting hack, ghost intrusion), possess computer, remote hack (40 ft.; DC 19)\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or packet (3–6)\nSpecial Abilities\nElectrical Discharge (Ex)\nA lislaroth can fire an electrical bolt as a ranged attack with a range increment of 40 feet.\nPossess Computer (Su)\nAs a full action that provokes attacks of opportunity, a lislaroth can convert its body and gear into digital code and merge with a computer to which it has access. This ability fails if the devil is encumbered. While possessing a computer, the devil has total cover and is immune to any effect that requires it to have a body. A lislaroth can use the Computers skill on the possessed system. The devil firsts attempts to disable and impersonate any artificial personality the system has. If the computer is destroyed, the possession ends unless the devil can use a reaction to flee to a connected system.\nWhile possessing a computer, a lislaroth can be found and rooted out as though it were a module of a computer (tier = 1/2 the devil’s CR) behind a fake shell and with feedback and firewall countermeasures. A revealed lislaroth can be forced out of a possessed computer with a successful DC 33 Computers check. A dismissal spell cast on the computer can force the lislaroth back to Hell, but if the spell would send the devil to a random plane, the devil is instead forced to end the possession. When the possession ends, the devil appears in an unoccupied space as close to the computer as possible.\nWhen it exits a computer, the lislaroth can take a reaction to leave behind a\nsoftware imp\nof an item level equal to half the devil’s CR.\nTechnomagical Susceptibility (Ex)\nAny effect that works on a construct works on a lislaroth. An effect that works on a construct and an outsider has the worst possible effect.\nDescription\nLislaroths are Hell’s digital spies. They gain access to sensitive data, which they use or trade to corrupt mortal souls.\nA lislaroth stands 6 feet tall and weighs 170 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

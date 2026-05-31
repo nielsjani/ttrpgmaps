@@ -1,0 +1,64 @@
+{
+  "name": "Valkyrie",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Valkyrie&Family=None",
+  "source": "Alien Archive 3 pg. 124",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., death sense 30 ft.;",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+13",
+  "dr": "10/cold iron and lawful",
+  "sr": "23",
+  "immunities": "cold, electricity, poison;",
+  "resistances": "acid 10, fire 10;",
+  "speed": "30 ft., fly 100 ft. (Su, perfect)",
+  "melee": "returning buzzblade spear",
+  "ranged": "returning buzzblade spear",
+  "spell_like_abilities": {
+    "caster_info": "CL 12th",
+    "spells": "1/day—\nmystic cure\n(4th level) 3/day—\narcing surge\n(DC 18),\nspeak with dead\n(DC 18),\ntongues\nAt will—\nplane shift\n(self only)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+4",
+    "con": "+4",
+    "int": "+2",
+    "wis": "+5",
+    "cha": "+8"
+  },
+  "skills": "Acrobatics +22 (+30 to fly), Medicine +22, Sense Motive +27, Survival +22",
+  "feats": "Shot on the Run",
+  "languages": "Celestial, Common",
+  "other_abilities": "battle trained, choose the slain, death sense",
+  "gear": "vesk overplate III,",
+  "environment": "any",
+  "organization": "solitary or ride (2–8 valkyries)",
+  "special_abilities": [
+    {
+      "name": "Battle Trained (Ex)",
+      "description": "A valkyrie is proficient with all armor and ignores negative speed adjustments from armor."
+    },
+    {
+      "name": "Choose the Slain (Su)",
+      "description": "A valkyrie can draw a willing soul from a creature within 2 rounds of that creature’s death and store it in her spear. A soul stored this way can’t be returned through magical or technological means, such as raise dead or a regeneration table, unless the spear is first destroyed."
+    },
+    {
+      "name": "Death Sense (Su)",
+      "description": "A valkyrie can instantly determine whether each creature she can see within 30 feet is dead, dying, healthy, undead, or unliving (such as a technological construct) and how many Resolve Points the creature currently has."
+    }
+  ],
+  "description": "Valkyries are resplendent outsiders of mysterious origins known for their ancient tradition of scouring the Material Plane for legendary warriors who perish in combat. Valkyries appear on battlefields throughout the galaxy in search of combatants of great skill and renown, supernaturally aware of who is ready to accept death’s embrace and who yearns to fight on another day. When she locates such a target, a valkyrie can either claim the soul of a deceased warrior or aid the living to continue the battle. Though space travel is a relatively recent development for some mortal species, the valkyries took to the stars long ago to advance their quest of collecting the souls of worthy fighters. As a result, diverse cultures across the universe, most notably those of the Pact Worlds and the Veskarium, recognize these powerful extraplanar creatures as choosers of the slain.\nValkyries are always female and frequently appear as powerful and majestic human or vesk women. A human valkyrie is 6 feet tall and weighs close to 200 pounds, while a vesk valkyrie is 8 feet tall and weighs approximately 300 pounds. Valkyries may take on the appearance of other species if they wish, and references to “warrior angels” wreathed in lightning exist within many cultures outside the Pact Worlds.\nValkyries are most often associated with gods of war, conflict, valor, and courage. Some valkyries are independent, serving no deity directly—a fact that suggests the outsiders are mercenaries by nature and have complex, ever-changing allegiances to the divine. Whatever a given valkyrie’s associations, her duty is sacred: to protect the souls of slain heroes on their journey from the Material Plane to the Boneyard, where they face judgment and learn their final destination in the Outer Planes. What qualifies a soul for this honor varies by deity—and various cultures and faiths across the galaxy interpret the worth of a warrior in vastly different ways. Valkyries hold a special place in the dominant religion of the Veskarium, where they are referred to as the Spear Maidens of Damoritosh.\nValkyries also come to the aid of warriors who are near death—or even recently dead—but still have a fierce drive to fight on. In this way, a valkyrie’s intervention has turned the tide of battle in countless conflicts across the galaxy.\nThe mysteries surrounding the afterlife extend to valkyries and their practices, and mortals have questioned for millennia why the striking outsiders shepherd the souls of dead heroes. Some skeptics even posit that valkyries divert souls from their rightful course, collecting them for some great and terrible conflict to come, or stocking grand arenas for the entertainment of beings of unknowable power and alien intellect. This theory holds little credence among scholars, however, who note no recorded conflicts between valkyries and servants of Pharasma, the goddess of life and death, who would certainly object to such subversion.\nIn the years since the Gap, many valkyries have forgone their traditional sleipnir or pegasus mounts and adopted modern suits of armor. Armor and weapons created by valkyrie engineers blend the latest nanocarbon and polymer technology with powerful magic, resulting in creations that armorers of the Material Plane can only dream about. Occasionally, a valkyrie might gift such a suit of armor, or perhaps a unique weapon, to a mortal warrior she deems worthy.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nValkyrie\nSource\nAlien Archive 3 pg. 124\nValkyrie CR 12\nXP 19,200\nCN Medium outsider (extraplanar)\nInit\n+4;\nSenses\ndarkvision 60 ft., death sense 30 ft.;\nPerception\n+22\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+14;\nRef\n+14;\nWill\n+13\nDR\n10/cold iron and lawful;\nImmunities\ncold, electricity, poison;\nResistances\nacid 10, fire 10;\nSR\n23\nOffense\nSpeed\n30 ft., fly 100 ft. (Su, perfect)\nMelee\nreturning buzzblade spear\n+26 (3d6+16 P)\nRanged\nreturning buzzblade spear\n+23 (3d6+16 P) or impulse storm coil +23 (4d6+12 E)\nSpell-Like Abilities\n(CL 12th)\n1/day—\nmystic cure\n(4th level) 3/day—\narcing surge\n(DC 18),\nspeak with dead\n(DC 18),\ntongues\nAt will—\nplane shift\n(self only)\nStatistics\nSTR\n+4;\nDEX\n+4;\nCON\n+4;\nINT\n+2;\nWIS\n+5;\nCHA\n+8\nFeats\nShot on the Run\nSkills\nAcrobatics +22 (+30 to fly), Medicine +22, Sense Motive +27, Survival +22\nLanguages\nCelestial, Common\nOther Abilities\nbattle trained, choose the slain, death sense\nGear\nvesk overplate III,\nreturning buzzblade spear\nwith 2 high-capacity batteries (40 charges each), impulse storm coil with 2 super-capacity batteries (80 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary or ride (2–8 valkyries)\nSpecial Abilities\nBattle Trained (Ex)\nA valkyrie is proficient with all armor and ignores negative speed adjustments from armor.\nChoose the Slain (Su)\nA valkyrie can draw a willing soul from a creature within 2 rounds of that creature’s death and store it in her spear. A soul stored this way can’t be returned through magical or technological means, such as raise dead or a regeneration table, unless the spear is first destroyed.\nDeath Sense (Su)\nA valkyrie can instantly determine whether each creature she can see within 30 feet is dead, dying, healthy, undead, or unliving (such as a technological construct) and how many Resolve Points the creature currently has.\nDescription\nValkyries are resplendent outsiders of mysterious origins known for their ancient tradition of scouring the Material Plane for legendary warriors who perish in combat. Valkyries appear on battlefields throughout the galaxy in search of combatants of great skill and renown, supernaturally aware of who is ready to accept death’s embrace and who yearns to fight on another day. When she locates such a target, a valkyrie can either claim the soul of a deceased warrior or aid the living to continue the battle. Though space travel is a relatively recent development for some mortal species, the valkyries took to the stars long ago to advance their quest of collecting the souls of worthy fighters. As a result, diverse cultures across the universe, most notably those of the Pact Worlds and the Veskarium, recognize these powerful extraplanar creatures as choosers of the slain.\nValkyries are always female and frequently appear as powerful and majestic human or vesk women. A human valkyrie is 6 feet tall and weighs close to 200 pounds, while a vesk valkyrie is 8 feet tall and weighs approximately 300 pounds. Valkyries may take on the appearance of other species if they wish, and references to “warrior angels” wreathed in lightning exist within many cultures outside the Pact Worlds.\nValkyries are most often associated with gods of war, conflict, valor, and courage. Some valkyries are independent, serving no deity directly—a fact that suggests the outsiders are mercenaries by nature and have complex, ever-changing allegiances to the divine. Whatever a given valkyrie’s associations, her duty is sacred: to protect the souls of slain heroes on their journey from the Material Plane to the Boneyard, where they face judgment and learn their final destination in the Outer Planes. What qualifies a soul for this honor varies by deity—and various cultures and faiths across the galaxy interpret the worth of a warrior in vastly different ways. Valkyries hold a special place in the dominant religion of the Veskarium, where they are referred to as the Spear Maidens of Damoritosh.\nValkyries also come to the aid of warriors who are near death—or even recently dead—but still have a fierce drive to fight on. In this way, a valkyrie’s intervention has turned the tide of battle in countless conflicts across the galaxy.\nThe mysteries surrounding the afterlife extend to valkyries and their practices, and mortals have questioned for millennia why the striking outsiders shepherd the souls of dead heroes. Some skeptics even posit that valkyries divert souls from their rightful course, collecting them for some great and terrible conflict to come, or stocking grand arenas for the entertainment of beings of unknowable power and alien intellect. This theory holds little credence among scholars, however, who note no recorded conflicts between valkyries and servants of Pharasma, the goddess of life and death, who would certainly object to such subversion.\nIn the years since the Gap, many valkyries have forgone their traditional sleipnir or pegasus mounts and adopted modern suits of armor. Armor and weapons created by valkyrie engineers blend the latest nanocarbon and polymer technology with powerful magic, resulting in creations that armorers of the Material Plane can only dream about. Occasionally, a valkyrie might gift such a suit of armor, or perhaps a unique weapon, to a mortal warrior she deems worthy.",
+  "type": "outsider (extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Valkyrie.png"
+}

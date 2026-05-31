@@ -1,0 +1,49 @@
+{
+  "name": "Scholars, Subject Expert",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Subject Expert&Family=Scholars",
+  "source": "Interstellar Species pg. 176",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+0",
+  "senses": "darkvision 60 ft., electrolocation, low-light vision;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+8",
+  "immunities": "poison;",
+  "resistances": "electricity 5",
+  "speed": "20 ft.",
+  "melee": "tactical switchblade +13 (1d4+7 S)",
+  "ranged": "sheet lightning pistol +11 (1d6+5 E) Space 10 ft.; Reach 5 ft.",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+5",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Athletics +11, Bluff –3, Computers +16, Diplomacy –3, Engineering +16, Physical Science +16",
+  "languages": "Brethedan, Common, Urog, up to 4 others; limited telepathy 30 ft.",
+  "other_abilities": "lecture",
+  "gear": "business stationwear, sheet lightning pistol with 2 high- capacity batteries (40 charges each), tactical switchblade",
+  "special_abilities": [
+    {
+      "name": "Lecture (Ex)",
+      "description": "A subject expert can spend 1 minute delivering a lecture about an Intelligence-based skill to a number of creatures that doesn’t exceed their CR. When one of the lectured creatures attempts a check using that Intelligence- based skill within the next 8 hours, they can either use the subject expert’s modifier with a –5 penalty in place of their own modifier, or they can gain a +1 insight bonus to their check. For this check, the creature is treated as trained in the skill. Once a creature applies the lecture effect, they can’t modify another check in this way until they have a full night’s rest."
+    }
+  ],
+  "description": "Subject experts boast exceptional academic and practical knowledge in their chosen fields. At academic institutions, they’re the department heads publishing groundbreaking research and teaching the most advanced classes. They might hire adventurers to perform surveys or collect samples from locations too dangerous or distant for them to go themselves.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScholars\nSource\nInterstellar Species pg. 176\nThough many are students and educators at formal institutions, scholars are as likely to be solitary academics or self-taught. Adventurers might seek a scholar to decipher a mysterious text or perform a complicated spell. A scholar could be a party’s patron, sending them to retrieve artifacts or data from faraway planets. Villainous scholars might seek nefarious lore or publish dangerously fabricated research for profit or prestige.\nThese scholars have Intelligence-focused skills, yet you can replace these skills to represent other studies, such as a scholar of the arts having Profession (painter) instead of Engineering.\nAliens in the \"Scholars\" Family\nName\nCR\nField Biologist\n7\nPostgrad Student\n1\nScholar Of Magic\n11\nSubject Expert\n5\nScholars, Subject Expert\nSource\nInterstellar Species pg. 176\nSubject Expert CR 5\nXP 1,600\nUrog\nLN Large magical beast\nInit\n+0;\nSenses\ndarkvision 60 ft., electrolocation, low-light vision;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+8\nImmunities\npoison;\nResistances\nelectricity 5\nOffense\nSpeed\n20 ft.\nMelee\ntactical switchblade +13 (1d4+7 S)\nRanged\nsheet lightning pistol +11 (1d6+5 E) Space 10 ft.; Reach 5 ft.\nStatistics\nSTR\n+2;\nDEX\n+0;\nCON\n+3;\nINT\n+5;\nWIS\n+0;\nCHA\n-1\nSkills\nAcrobatics +11, Athletics +11, Bluff –3, Computers +16, Diplomacy –3, Engineering +16, Physical Science +16\nLanguages\nBrethedan, Common, Urog, up to 4 others; limited telepathy 30 ft.\nOther Abilities\nlecture\nGear\nbusiness stationwear, sheet lightning pistol with 2 high- capacity batteries (40 charges each), tactical switchblade\nSpecial Abilities\nLecture (Ex)\nA subject expert can spend 1 minute delivering a lecture about an Intelligence-based skill to a number of creatures that doesn’t exceed their CR. When one of the lectured creatures attempts a check using that Intelligence- based skill within the next 8 hours, they can either use the subject expert’s modifier with a –5 penalty in place of their own modifier, or they can gain a +1 insight bonus to their check. For this check, the creature is treated as trained in the skill. Once a creature applies the lecture effect, they can’t modify another check in this way until they have a full night’s rest.\nDescription\nSubject experts boast exceptional academic and practical knowledge in their chosen fields. At academic institutions, they’re the department heads publishing groundbreaking research and teaching the most advanced classes. They might hire adventurers to perform surveys or collect samples from locations too dangerous or distant for them to go themselves.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

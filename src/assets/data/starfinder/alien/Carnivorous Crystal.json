@@ -1,0 +1,49 @@
+{
+  "name": "Carnivorous Crystal",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Carnivorous Crystal&Family=None",
+  "source": "Starfinder #9: The Rune Drive Gambit pg. 56",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "ooze (earth, extraplanar)",
+  "init": "-1",
+  "senses": "blindsense (vibration) 60 ft., sightless;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "25",
+  "kac": "25",
+  "fort": "+15",
+  "ref": "+8",
+  "will": "+11",
+  "immunities": "cold, electricity, ooze immunities, radiation;",
+  "resistances": "fire 15",
+  "weaknesses": "vulnerability to bludgeoning and sonic",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +23 (4d6+17 S plus grab; critical bleed 2d6)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "-1",
+    "con": "+7",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-5"
+  },
+  "other_abilities": "mindless, no breath",
+  "environment": "any (Plane of Earth)",
+  "organization": "solitary, pair, or cluster (3–5)",
+  "special_abilities": [
+    {
+      "name": "Crystallize (Su)",
+      "description": "A creature made of flesh that ends its turn grappled by a carnivorous crystal must succeed at a DC 18 Fortitude save or become staggered. If a creature already staggered from this ability fails this save, it becomes paralyzed. A creature staggered or paralyzed by this ability but not grabbed by a carnivorous crystal recovers completely at the end of its next turn.\nA creature that remains grabbed while paralyzed by this ability must attempt a third saving throw; on a failure, it becomes an amalgam of crystal and flesh, unconscious but alive. A creature in this crystallized state must succeed at a DC 18 Fortitude saving throw each day or die. If receiving successful long-term care, the creature gains a +4 bonus to this saving throw and needs to attempt it only once every 3 days. The crystallization is cured after two successful saving throws.\nRemove affliction\nallows a creature to automatically succeed at the saving throw, but an affected creature can benefit from this spell only once every 24 hours. Flesh to stone reverses this effect immediately."
+    },
+    {
+      "name": "Infrasonic Hum (Su)",
+      "description": "A carnivorous crystal emits infrasonic vibrations that act like static for any sense that relies on vibration, rendering it useless, although carnivorous crystals are immune to this effect. In addition, any creature that can hear must succeed at a DC 18 Fortitude saving throw within the aura or become dazed for 1 round. A creature that successfully saves or becomes dazed by the aura can’t be dazed by any carnivorous crystal’s infrasonic hum for 24 hours."
+    }
+  ],
+  "description": "Rare natives of the Elemental Plane of Earth, carnivorous crystals feed on minerals and metals, transforming them into crystalline substances. They can alter flesh in a similar way and then consume it, but carnivorous crystals are predators only in the sense that an amoeba is, as these creatures are both mindless and indiscriminate about their prey. They reproduce through fission, but only very slowly and in areas with ample food.\nAmoral technomancers capture carnivorous crystals and implant them with magitech that stimulates the creatures’ aggression. The agitated oozes are confined to breakaway containers, which allow them to be dropped safely into enemy territory. The augmented oozes then kill any fleshy creatures in the vicinity. This magitech burns out in a few days, so the creatures can either be recovered for further use or left in their new homes. This practice means carnivorous crystals can be found in unexpected places, such as abandoned space stations, derelict freighters, and planetoid mines.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCarnivorous Crystal\nSource\nStarfinder #9: The Rune Drive Gambit pg. 56\nCarnivorous Crystal CR 11\nXP 12,800\nN Medium ooze (earth, extraplanar)\nInit\n-1;\nSenses\nblindsense (vibration) 60 ft., sightless;\nPerception\n+20\nAura\ninfrasonic hum (60 ft., DC 18)\nDefense\nHP\n180\nEAC\n25;\nKAC\n25\nFort\n+15;\nRef\n+8;\nWill\n+11\nImmunities\ncold, electricity, ooze immunities, radiation;\nResistances\nfire 15\nWeaknesses\nvulnerability to bludgeoning and sonic\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +23 (4d6+17 S plus grab; critical bleed 2d6)\nStatistics\nSTR\n+6;\nDEX\n-1;\nCON\n+7;\nINT\n—;\nWIS\n+0;\nCHA\n-5\nOther Abilities\nmindless, no breath\nEcology\nEnvironment\nany (Plane of Earth)\nOrganization\nsolitary, pair, or cluster (3–5)\nSpecial Abilities\nCrystallize (Su)\nA creature made of flesh that ends its turn grappled by a carnivorous crystal must succeed at a DC 18 Fortitude save or become staggered. If a creature already staggered from this ability fails this save, it becomes paralyzed. A creature staggered or paralyzed by this ability but not grabbed by a carnivorous crystal recovers completely at the end of its next turn.\nA creature that remains grabbed while paralyzed by this ability must attempt a third saving throw; on a failure, it becomes an amalgam of crystal and flesh, unconscious but alive. A creature in this crystallized state must succeed at a DC 18 Fortitude saving throw each day or die. If receiving successful long-term care, the creature gains a +4 bonus to this saving throw and needs to attempt it only once every 3 days. The crystallization is cured after two successful saving throws.\nRemove affliction\nallows a creature to automatically succeed at the saving throw, but an affected creature can benefit from this spell only once every 24 hours. Flesh to stone reverses this effect immediately.\nInfrasonic Hum (Su)\nA carnivorous crystal emits infrasonic vibrations that act like static for any sense that relies on vibration, rendering it useless, although carnivorous crystals are immune to this effect. In addition, any creature that can hear must succeed at a DC 18 Fortitude saving throw within the aura or become dazed for 1 round. A creature that successfully saves or becomes dazed by the aura can’t be dazed by any carnivorous crystal’s infrasonic hum for 24 hours.\nDescription\nRare natives of the Elemental Plane of Earth, carnivorous crystals feed on minerals and metals, transforming them into crystalline substances. They can alter flesh in a similar way and then consume it, but carnivorous crystals are predators only in the sense that an amoeba is, as these creatures are both mindless and indiscriminate about their prey. They reproduce through fission, but only very slowly and in areas with ample food.\nAmoral technomancers capture carnivorous crystals and implant them with magitech that stimulates the creatures’ aggression. The agitated oozes are confined to breakaway containers, which allow them to be dropped safely into enemy territory. The augmented oozes then kill any fleshy creatures in the vicinity. This magitech burns out in a few days, so the creatures can either be recovered for further use or left in their new homes. This practice means carnivorous crystals can be found in unexpected places, such as abandoned space stations, derelict freighters, and planetoid mines.",
+  "type": "ooze (earth, extraplanar)",
+  "category": "alien"
+}

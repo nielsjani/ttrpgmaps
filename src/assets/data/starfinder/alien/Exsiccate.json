@@ -1,0 +1,49 @@
+{
+  "name": "Exsiccate",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Exsiccate&Family=None",
+  "source": "Starfinder #31: Waking the Worldseed pg. 58",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "undead",
+  "init": "+8",
+  "senses": "blindsense (life) 60 ft., darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "200",
+  "eac": "26",
+  "kac": "28",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+13",
+  "immunities": "undead immunities",
+  "speed": "40 ft.,",
+  "melee": "writhing appendage +25 (2d6+17 B plus grab)",
+  "space": "5 ft.",
+  "reach": "5 ft. (15 ft. with writhing appendage)",
+  "offensive_abilities": "strip flesh (6d4+17 S, DC 19)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "—",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +22, Athletics +22, Stealth +27",
+  "languages": "Bantridi, Sivvian (can’t speak any language)",
+  "other_abilities": "compression, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or gathering (3–7)",
+  "special_abilities": [
+    {
+      "name": "Strip Flesh (Ex)",
+      "description": "As a standard action, an exsiccate can pull strips of flesh from the body of a living creature it has grappled. The target takes 6d4+17 slashing damage and is sickened for 2d4 rounds; a target that succeeds at a DC 19 Fortitude saving throw takes half damage and reduces the sickened condition to 1 round. This is a pain effect."
+    }
+  ],
+  "description": "When a nonhumanoid sentient being dies in a cold place with a thin atmosphere (such as a mountain peak or a frozen comet) and is forgotten for millennia without proper burial rites, it sometimes attracts negative energy. As this energy collects, the corpse can rise again as an exsiccate, a mummified undead that hungers to replace its own flesh. An exsiccate’s hideously dried husk bears little resemblance to its original form. It has long, spindly limbs and nearly nonexistent facial features. Most exsiccates arise from deceased aberrations who hailed from rich cultures unfamiliar (and sometimes considered strange) to most Pact Worlds citizens and who have been isolated or abandoned by their societies.\nThese damned creatures have a singular desire to regain some part of the community they lost upon death. Their corrupted minds twist this yearning for companionship into terrible attacks on living creatures. Exsiccates search for those with warm bodies and beating hearts to latch onto and tear off strips of their flesh. Unlike ghouls, exsiccates don’t eat this flesh, instead layering it across their bodies as if trying to create a second skin. This stolen skin doesn’t last for long, drying similarly to the exsiccate’s original flesh, and usually flakes away within a matter of hours. Sadly, this doesn’t abate an exsiccate’s miserable desire.",
+  "extra_content": "The following extra content was found for this creature:\n-\nExsiccate Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nExsiccate\nSource\nStarfinder #31: Waking the Worldseed pg. 58\nExsiccate CR 12\nXP 19,200\nNE Small undead\nInit\n+8;\nSenses\nblindsense (life) 60 ft., darkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n200\nEAC\n26;\nKAC\n28\nFort\n+14;\nRef\n+14;\nWill\n+13\nDefensive Abilities\nregeneration 15 (fire);\nImmunities\nundead immunities\nOffense\nSpeed\n40 ft.,\nspider climb\nMelee\nwrithing appendage +25 (2d6+17 B plus grab)\nSpace\n5 ft.;\nReach\n5 ft. (15 ft. with writhing appendage)\nOffensive Abilities\nstrip flesh (6d4+17 S, DC 19)\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n—;\nINT\n+3;\nWIS\n+0;\nCHA\n-2\nSkills\nAcrobatics +22, Athletics +22, Stealth +27\nLanguages\nBantridi, Sivvian (can’t speak any language)\nOther Abilities\ncompression, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or gathering (3–7)\nSpecial Abilities\nStrip Flesh (Ex)\nAs a standard action, an exsiccate can pull strips of flesh from the body of a living creature it has grappled. The target takes 6d4+17 slashing damage and is sickened for 2d4 rounds; a target that succeeds at a DC 19 Fortitude saving throw takes half damage and reduces the sickened condition to 1 round. This is a pain effect.\nDescription\nWhen a nonhumanoid sentient being dies in a cold place with a thin atmosphere (such as a mountain peak or a frozen comet) and is forgotten for millennia without proper burial rites, it sometimes attracts negative energy. As this energy collects, the corpse can rise again as an exsiccate, a mummified undead that hungers to replace its own flesh. An exsiccate’s hideously dried husk bears little resemblance to its original form. It has long, spindly limbs and nearly nonexistent facial features. Most exsiccates arise from deceased aberrations who hailed from rich cultures unfamiliar (and sometimes considered strange) to most Pact Worlds citizens and who have been isolated or abandoned by their societies.\nThese damned creatures have a singular desire to regain some part of the community they lost upon death. Their corrupted minds twist this yearning for companionship into terrible attacks on living creatures. Exsiccates search for those with warm bodies and beating hearts to latch onto and tear off strips of their flesh. Unlike ghouls, exsiccates don’t eat this flesh, instead layering it across their bodies as if trying to create a second skin. This stolen skin doesn’t last for long, drying similarly to the exsiccate’s original flesh, and usually flakes away within a matter of hours. Sadly, this doesn’t abate an exsiccate’s miserable desire.\nExtra Content\nThe following extra content was found for this creature:\n-\nExsiccate Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

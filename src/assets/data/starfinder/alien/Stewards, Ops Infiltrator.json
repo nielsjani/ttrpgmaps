@@ -1,0 +1,50 @@
+{
+  "name": "Stewards, Ops Infiltrator",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ops Infiltrator&Family=Stewards",
+  "source": "Interstellar Species pg. 180",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (ryphorian)",
+  "init": "+9",
+  "senses": "low-light vision;",
+  "perception": "+31",
+  "hp": "255",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+13",
+  "ref": "+15",
+  "will": "+18",
+  "resistances": "cold 15",
+  "speed": "30 ft.",
+  "melee": "molecular rift sword cane +24 (3d8+15 P; critical bleed 1d8)",
+  "ranged": "aphelion shoulder laser +26 (2d8+15 F; critical burn 2d6) or mk 3 holo grenade +26 (explode [20 ft., 3rd-level holographic image, DC 23])",
+  "offensive_abilities": "cover up",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+9",
+    "con": "+2",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+7"
+  },
+  "skills": "Bluff +31, Culture +26, Disguise +31, Sense Motive +26, Stealth +31",
+  "languages": "Common, Draconic, Triaxian, plus any 15 others",
+  "gear": "squad hardlight series, aphelion shoulder laser with 2 batteries (20 charges each), molecular rift sword cane, mk 3 holo grenade , holoskin, personal comm unit;",
+  "special_abilities": [
+    {
+      "name": "Body Double (Su)",
+      "description": "As a reaction when they would be hit by an attack, an ops infiltrator can create a figment to retroactively apply a 20% miss chance against the triggering attack. If they spend 1 Resolve Point when activating this ability, they instead gain a 50% miss chance. This is an illusion ability."
+    },
+    {
+      "name": "Cover Up (Ex)",
+      "description": "By speaking with a creature for up to 5 minutes and spending 1 Resolve Point, an ops infiltrator can alter that creature’s memory of an event that’s no longer than the time they spend speaking. Alternatively, an ops infiltrator can use this ability as a standard action against a creature within 30 feet, briefly muddling the target’s memory of recent events leading up to that moment; the target becomes confused for 1d4 rounds (Will negates, DC = 13 + 1/2 the specialist’s CR). Once a creature has been targeted by this ability, they’re immune to that infiltrator’s cover up for 24 hours. This is a language-dependent, mind-affecting, and sense-dependent ability."
+    }
+  ],
+  "description": "Ops infiltrators identify threats to the Pact Worlds through a combination of stealth, espionage, disguise, and charm. These agents typically work solo, yet they periodically hire trusted teams to gather information or covertly destroy a target.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStewards\nSource\nInterstellar Species pg. 180\nWith three branches—the Constabulary, Ops, and Overwatch— the Stewards protect people and legal rights within the Pact Worlds. The Constabulary handles planet-side troubles, the Overwatch fleet guards Pact Worlds space, and Ops is usually responsible for gathering intelligence. Although Stewards often function as allies for PCs, they might confront PCs engaged in risky heroics, or a canny villain could frame PCs for high crimes to turn Stewards into fearsome adversaries.\nAliens in the \"Stewards\" Family\nName\nCR\nConstable\n7\nData Analyst\n5\nOps Infiltrator\n15\nOverwatch Captain\n10\nStewards, Ops Infiltrator\nSource\nInterstellar Species pg. 181\nOps Infiltrator CR 15\nXP 51,200\nWinterborn ryphorian\nLN Medium humanoid (ryphorian)\nInit\n+9;\nSenses\nlow-light vision;\nPerception\n+31\nDefense\nHP\n255;\nRP\n7\nEAC\n29;\nKAC\n30\nFort\n+13;\nRef\n+15;\nWill\n+18; +2 vs mind-affecting, staggered,\nResistances\ncold 15\nOffense\nSpeed\n30 ft.\nMelee\nmolecular rift sword cane +24 (3d8+15 P; critical bleed 1d8)\nRanged\naphelion shoulder laser +26 (2d8+15 F; critical burn 2d6) or mk 3 holo grenade +26 (explode [20 ft., 3rd-level holographic image, DC 23])\nOffensive Abilities\ncover up\nStatistics\nSTR\n+0;\nDEX\n+9;\nCON\n+2;\nINT\n+5;\nWIS\n+1;\nCHA\n+7\nSkills\nBluff +31, Culture +26, Disguise +31, Sense Motive +26, Stealth +31\nLanguages\nCommon, Draconic, Triaxian, plus any 15 others\nGear\nsquad hardlight series, aphelion shoulder laser with 2 batteries (20 charges each), molecular rift sword cane, mk 3 holo grenade , holoskin, personal comm unit;\nAugmentations\nvocal modulator\nSpecial Abilities\nBody Double (Su)\nAs a reaction when they would be hit by an attack, an ops infiltrator can create a figment to retroactively apply a 20% miss chance against the triggering attack. If they spend 1 Resolve Point when activating this ability, they instead gain a 50% miss chance. This is an illusion ability.\nCover Up (Ex)\nBy speaking with a creature for up to 5 minutes and spending 1 Resolve Point, an ops infiltrator can alter that creature’s memory of an event that’s no longer than the time they spend speaking. Alternatively, an ops infiltrator can use this ability as a standard action against a creature within 30 feet, briefly muddling the target’s memory of recent events leading up to that moment; the target becomes confused for 1d4 rounds (Will negates, DC = 13 + 1/2 the specialist’s CR). Once a creature has been targeted by this ability, they’re immune to that infiltrator’s cover up for 24 hours. This is a language-dependent, mind-affecting, and sense-dependent ability.\nDescription\nOps infiltrators identify threats to the Pact Worlds through a combination of stealth, espionage, disguise, and charm. These agents typically work solo, yet they periodically hire trusted teams to gather information or covertly destroy a target.",
+  "type": "humanoid (ryphorian)",
+  "environment": "—",
+  "category": "alien"
+}

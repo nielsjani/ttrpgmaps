@@ -1,0 +1,50 @@
+{
+  "name": "Directive 9 Operatives, Directive 9 Handler",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Directive 9 Handler&Family=Directive 9 Operatives",
+  "source": "Starfinder #43: Icebound pg. 43",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (vesk)",
+  "init": "+1",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+9",
+  "speed": "32 ft.",
+  "melee": "tactical knife +12 (2d4+8 S) or unarmed strike +12 (1d3+8 B)",
+  "ranged": "ghost killer corona laser pistol",
+  "offensive_abilities": "natural weapons, target marking",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+2",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+3"
+  },
+  "skills": "Athletics +13, Bluff +18, Culture +13, Diplomacy +13, Intimidate +13, Sense Motive +18, Stealth +13",
+  "languages": "Common, Vesk",
+  "other_abilities": "armor savant, move it!",
+  "gear": "vesk brigandine II (purple force field),",
+  "special_abilities": [
+    {
+      "name": "Move It! (Ex)",
+      "description": "The Directive 9 handler can take a move action to allow one ally within 60 feet to immediately take a move action. A creature can't benefit from this ability more than once per round. This is a sense-dependent and language-dependent effect."
+    },
+    {
+      "name": "Target Marking (Ex)",
+      "description": "As a standard action, the Directive 9 handler can choose a single enemy within 60 feet and attack that enemy. The handler and all their allies gain a +2 morale bonus to attack that target; if the handler spends a Resolve Point, the handler and all their allies also gain a +2 damage bonus against the target. These benefits last until the beginning of the handler's next turn; this is a sense-dependent and language-dependent effect."
+    }
+  ],
+  "description": "Handlers are seasoned veterans of the world of espionage. Not all worked their way up from field agent status, but all of them have lived in the shadows so long that they don't really know how to live any other way.\nA Directive 9 handler manages a small number of field agents and operations in a localized area, usually a single city or region on a planet. They operate in the field but also have access to administrative facilities and safe houses, if necessary. Whenever they're personally at risk, a handler is accompanied by bodyguards and lesser agents who obey the handler's every command.\nIt's easy for handlers to acquire specialized equipment and weapons; the gear included below is just a sample.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDirective 9 Operatives\nSource\nStarfinder #43: Icebound pg. 43\nDirective 9 has agents everywhere, not just in the Veskarium. Deep-cover agents live and work in the Pact Worlds and elsewhere in Near Space, thriving in secret identities they might never reveal. Handlers manage individual field agents and operations, while administrators in safe locations manage resources and plan the long term goals of the agency.\nThe example Directive 9 personnel presented below can be easily modified to suit the needs of your campaign. In particular, you can remove the vesk racial traits included on these characters for different racial traits appropriate to the agent's species.\nAliens in the \"Directive 9 Operatives\" Family\nName\nCR\nDirective 9 Assassin\n9\nDirective 9 Handler\n6\nDirective 9 Muscle\n3\nDirective 9 Operatives, Directive 9 Handler\nSource\nStarfinder #43: Icebound pg. 44\nDirective 9 Handler CR 6\nXP 2,400\nFemale Vesk\nLN Medium humanoid (vesk)\nInit\n+1;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n80;\nRP\n4\nEAC\n19;\nKAC\n20\nFort\n+7;\nRef\n+5;\nWill\n+9; +2 vs. fear\nOffense\nSpeed\n32 ft.\nMelee\ntactical knife +12 (2d4+8 S) or unarmed strike +12 (1d3+8 B)\nRanged\nghost killer corona laser pistol\n+14 (2d4+6 F; critical burn 1d4)\nOffensive Abilities\nnatural weapons, target marking\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+2;\nINT\n+5;\nWIS\n+1;\nCHA\n+3\nSkills\nAthletics +13, Bluff +18, Culture +13, Diplomacy +13, Intimidate +13, Sense Motive +18, Stealth +13\nLanguages\nCommon, Vesk\nOther Abilities\narmor savant, move it!\nGear\nvesk brigandine II (purple force field),\nghost killer corona laser pistol\nwith 1 battery (20 charges\n), holding gloves mk I\n(DC 16), comm unit, credstick\nSpecial Abilities\nMove It! (Ex)\nThe Directive 9 handler can take a move action to allow one ally within 60 feet to immediately take a move action. A creature can't benefit from this ability more than once per round. This is a sense-dependent and language-dependent effect.\nTarget Marking (Ex)\nAs a standard action, the Directive 9 handler can choose a single enemy within 60 feet and attack that enemy. The handler and all their allies gain a +2 morale bonus to attack that target; if the handler spends a Resolve Point, the handler and all their allies also gain a +2 damage bonus against the target. These benefits last until the beginning of the handler's next turn; this is a sense-dependent and language-dependent effect.\nDescription\nHandlers are seasoned veterans of the world of espionage. Not all worked their way up from field agent status, but all of them have lived in the shadows so long that they don't really know how to live any other way.\nA Directive 9 handler manages a small number of field agents and operations in a localized area, usually a single city or region on a planet. They operate in the field but also have access to administrative facilities and safe houses, if necessary. Whenever they're personally at risk, a handler is accompanied by bodyguards and lesser agents who obey the handler's every command.\nIt's easy for handlers to acquire specialized equipment and weapons; the gear included below is just a sample.",
+  "type": "humanoid (vesk)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Giant, Shadow",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shadow&Family=Giant",
+  "source": "Alien Archive 2 pg. 62",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "LE",
+  "size": "Large",
+  "creature_type": "humanoid (extraplanar, giant)",
+  "init": "+3",
+  "senses": "darkvision 120 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "227",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+12",
+  "will": "+15",
+  "immunities": "ability damage, ability drain, cold, negative levels",
+  "speed": "30 ft.",
+  "melee": "ecclesiastic shadow chains +26 (9d4+21 C plus energy drain; critical bind)",
+  "ranged": "tomb-class void rifle +23 (2d10+13 C; critical suffocate [DC 19]) or hurled debris +23 (6d6+13 B plus energy drain)",
+  "space": "10 ft",
+  "reach": "10 ft. (15 ft. with shadow chains)",
+  "offensive_abilities": "crush (3d12+21 B), energy drain (1 level, DC 19)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+6",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Athletics +23, Intimidate +28, Stealth +23",
+  "feats": "Deadly Aim, Improved Combat Maneuver (bull rush)",
+  "languages": "Common, Shadowtongue",
+  "gear": "superior iridishell, ecclesiastic shadow chains, tomb-class void rifle with 1 high-capacity battery (40 charges)",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, gang (2–5), family (6–13 plus 1 shadow giant mystic and 1 shadow giant soldier), or company (14–33 plus 1 shadow giant soldier)",
+  "special_abilities": [
+    {
+      "name": "Energy Drain (Su)",
+      "description": "A shadow giant inflicts its energy drain attack no more than once per round via its first successful melee attack or via hurl debris."
+    },
+    {
+      "name": "Hurl Debris (Ex)",
+      "description": "The mighty strength of a giant allows it to turn nearly anything into a ranged weapon. A giant is assumed to have such debris available (either loose or readily torn from the environment without requiring an extra action) unless the GM rules otherwise. Hurled debris has a range increment equal to the giant’s Strength modifier × 5 feet. Such attacks also create difficult terrain in a 5-foot-radius area around the target, or a 10-foot-radius area for Huge and larger giants."
+    },
+    {
+      "name": "Shadow Cloak (Su)",
+      "description": "As a move action in any illumination other than direct sunlight, a shadow giant can cloak itself in moving shadows that grant it concealment (20% miss chance) for 1d6+6 rounds. It can use this ability three times per day."
+    }
+  ],
+  "description": "Members of an ancient species that has long inhabited the Shadow Plane, shadow giants are laconic and tend keep to themselves. They emerge from obscurity rarely and only to gather victims for sacrifice in profane rites. These elaborate religious ceremonies are led by shamans on stepped obsidian pyramids and inevitably conclude in a bacchanal of bloody sacrifice. An average shadow giant stands 15 feet tall and weighs 2,400 pounds. Most have gray skin and pale hair.\nBy tapping into ancient agreements, beings with connections to the Shadow Plane can bind shadow giants to certain tasks. Often set upon enemies, used as shock troops in wider conflicts, or tasked to guard important places, shadow giants find these pacts a source of comfort, and, driven by pride and a sense of duty, they doggedly strive to complete their contracts.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGiant (Simple) Graft Template\n-\nCloud Giant (Giant) Graft Template\n-\nMoon Giant (Giant) Graft Template\n-\nStone Giant (Giant) Graft Template\n-\nStorm Giant (Giant) Graft Template\n-\nFire Giant (Giant) Graft Template\n-\nSlag Giant (Giant) Graft Template\n-\nSun Giant (Giant) Graft Template\n-\nGiant (Creature Subtype) Graft Template\n-\nEclipse Giant (Giant) Graft Template\n-\nGiant Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGiant\nSource\nAlien Archive 2 pg. 62\nGiants are humanoid creatures with great strength and mighty stature, standing from 9 feet to over 25 feet tall. They often live apart from other races, as even space stations intended to be inclusive of multiple species are often too small to comfortably accommodate a giant’s massive size. How welcoming these giants are to non-giant visitors depends on the specific giant society, though all giants can be unpredictable and dangerous to others.\nAliens in the \"Giant\" Family\nName\nCR\nEclipse\n19\nMoon Giant\n15\nShadow\n13\nGiant, Shadow\nSource\nStarfinder #12: Heart of Night pg. 56\nShadow CR 13\nXP 25,600\nLE Large humanoid (extraplanar, giant)\nInit\n+3;\nSenses\ndarkvision 120 ft., low-light vision;\nPerception\n+28\nDefense\nHP\n227\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+12;\nWill\n+15\nDefensive Abilities\nshadow cloak;\nImmunities\nability damage, ability drain, cold, negative levels\nOffense\nSpeed\n30 ft.\nMelee\necclesiastic shadow chains +26 (9d4+21 C plus energy drain; critical bind)\nRanged\ntomb-class void rifle +23 (2d10+13 C; critical suffocate [DC 19]) or hurled debris +23 (6d6+13 B plus energy drain)\nSpace\n10 ft;\nReach\n10 ft. (15 ft. with shadow chains)\nOffensive Abilities\ncrush (3d12+21 B), energy drain (1 level, DC 19)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+6;\nINT\n+0;\nWIS\n+4;\nCHA\n+0\nFeats\nDeadly Aim, Improved Combat Maneuver (bull rush)\nSkills\nAthletics +23, Intimidate +28, Stealth +23\nLanguages\nCommon, Shadowtongue\nGear\nsuperior iridishell, ecclesiastic shadow chains, tomb-class void rifle with 1 high-capacity battery (40 charges)\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, gang (2–5), family (6–13 plus 1 shadow giant mystic and 1 shadow giant soldier), or company (14–33 plus 1 shadow giant soldier)\nSpecial Abilities\nEnergy Drain (Su)\nA shadow giant inflicts its energy drain attack no more than once per round via its first successful melee attack or via hurl debris.\nHurl Debris (Ex)\nThe mighty strength of a giant allows it to turn nearly anything into a ranged weapon. A giant is assumed to have such debris available (either loose or readily torn from the environment without requiring an extra action) unless the GM rules otherwise. Hurled debris has a range increment equal to the giant’s Strength modifier × 5 feet. Such attacks also create difficult terrain in a 5-foot-radius area around the target, or a 10-foot-radius area for Huge and larger giants.\nShadow Cloak (Su)\nAs a move action in any illumination other than direct sunlight, a shadow giant can cloak itself in moving shadows that grant it concealment (20% miss chance) for 1d6+6 rounds. It can use this ability three times per day.\nDescription\nMembers of an ancient species that has long inhabited the Shadow Plane, shadow giants are laconic and tend keep to themselves. They emerge from obscurity rarely and only to gather victims for sacrifice in profane rites. These elaborate religious ceremonies are led by shamans on stepped obsidian pyramids and inevitably conclude in a bacchanal of bloody sacrifice. An average shadow giant stands 15 feet tall and weighs 2,400 pounds. Most have gray skin and pale hair.\nBy tapping into ancient agreements, beings with connections to the Shadow Plane can bind shadow giants to certain tasks. Often set upon enemies, used as shock troops in wider conflicts, or tasked to guard important places, shadow giants find these pacts a source of comfort, and, driven by pride and a sense of duty, they doggedly strive to complete their contracts.\nExtra Content\nThe following extra content was found for this creature:\n-\nGiant (Simple) Graft Template\n-\nCloud Giant (Giant) Graft Template\n-\nMoon Giant (Giant) Graft Template\n-\nStone Giant (Giant) Graft Template\n-\nStorm Giant (Giant) Graft Template\n-\nFire Giant (Giant) Graft Template\n-\nSlag Giant (Giant) Graft Template\n-\nSun Giant (Giant) Graft Template\n-\nGiant (Creature Subtype) Graft Template\n-\nEclipse Giant (Giant) Graft Template\n-\nGiant Race Entry",
+  "type": "humanoid (extraplanar, giant)",
+  "category": "alien"
+}

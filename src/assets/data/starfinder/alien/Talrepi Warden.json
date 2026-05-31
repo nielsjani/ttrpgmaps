@@ -1,0 +1,61 @@
+{
+  "name": "Talrepi Warden",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Talrepi Warden&Family=None",
+  "source": "Starfinder #48: Masters of Time and Space pg. 60",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "construct (extraplanar, technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision, sense through (vision) 60 ft.;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+2",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft.",
+  "melee": "pincer +15 (1d6+10 P plus grab)",
+  "space": "5 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "constrict (1d6+10), electro-discharge, four-dimensional leap",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "—",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +11, Athletics +16, Intimidate +11",
+  "languages": "Katholbi (can’t speak)",
+  "other_abilities": "unliving",
+  "environment": "any (the Drift)",
+  "organization": "solitary, pair, or detail (3–6)",
+  "special_abilities": [
+    {
+      "name": "Four-Dimensional Leap (Ex)",
+      "description": "As a move action, the talrepi warden can teleport up to 30 feet away without provoking attacks of opportunity. Creatures the talrepi warden has grappled or pinned aren’t freed if the talrepi warden teleports to a square from which it can still reach the grappled or pinned creature. This is a teleportation effect."
+    },
+    {
+      "name": "Constrict (Ex)",
+      "description": "When a talrepi warden successfully renews a grapple or pin against a creature, it automatically deals 1d6+10 bludgeoning damage to that creature."
+    },
+    {
+      "name": "Electro-Discharge (Ex)",
+      "description": "As a standard action, a talrepi warden can overload its electrical systems, creating a 30-foot cone of lightning. All creatures in the cone take 3d6 electricity damage; a creature who succeeds at a DC 13 Reflex save halves the damage it takes. It can’t use electro-discharge again for 1d4 rounds."
+    },
+    {
+      "name": "Persistence Protocol (Ex)",
+      "description": "A talrepi warden regains Hit Points each day equal to its CR. Once per day as a reaction when it would be reduced to 0 Hit Points, the talrepi warden can use this reaction to remain at 1 Hit Point instead. It can’t use this ability if a critical hit reduced it to 0 Hit Points."
+    }
+  ],
+  "description": "Kathrepi built talrepi wardens as brutally efficient guards. Kathrepi scientists understood that their experiments might spawn hostile test subjects or that forces dedicated to entropy in the universe might try to sabotage their research. They didn’t consider, until the very end, that they might not need these guardians because their experiments would fail on their own.\nAlthough talrepi wardens tower over kathrepi, they aren’t much taller than a human. Barrel-shaped with gangly arms ending in strong pincers, wardens grab targets and squeeze the life out of them. Like their kathrepi creators, wardens occupy four dimensions, but they lack their creators’ ability to retreat into the fourth dimension for a long period of time. Instead, a warden can only make quick leaps into the fourth dimension.Talrepi wardens are designed to last for ages, though their components are susceptible to disruption by certain sonic frequencies. They still watch over the Tesseract even though nearly all kathrepi have vanished, and their long years of abandonment mean many wardens are stuck in the same routines and liable to be sent into a rampage by even by small variations in their otherwise unchanging environment.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTalrepi Warden\nSource\nStarfinder #48: Masters of Time and Space pg. 60\nTalrepi Warden CR 5\nXP 1,600\nLN Medium construct (extraplanar, technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision, sense through (vision) 60 ft.;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+5;\nRef\n+5;\nWill\n+2\nDefensive Abilities\npersistence protocol;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft.\nMelee\npincer +15 (1d6+10 P plus grab)\nSpace\n5 ft.;\nReach\n10 ft.\nOffensive Abilities\nconstrict (1d6+10), electro-discharge, four-dimensional leap\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n—;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +11, Athletics +16, Intimidate +11\nLanguages\nKatholbi (can’t speak)\nOther Abilities\nunliving\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary, pair, or detail (3–6)\nSpecial Abilities\nFour-Dimensional Leap (Ex)\nAs a move action, the talrepi warden can teleport up to 30 feet away without provoking attacks of opportunity. Creatures the talrepi warden has grappled or pinned aren’t freed if the talrepi warden teleports to a square from which it can still reach the grappled or pinned creature. This is a teleportation effect.\nConstrict (Ex)\nWhen a talrepi warden successfully renews a grapple or pin against a creature, it automatically deals 1d6+10 bludgeoning damage to that creature.\nElectro-Discharge (Ex)\nAs a standard action, a talrepi warden can overload its electrical systems, creating a 30-foot cone of lightning. All creatures in the cone take 3d6 electricity damage; a creature who succeeds at a DC 13 Reflex save halves the damage it takes. It can’t use electro-discharge again for 1d4 rounds.\nPersistence Protocol (Ex)\nA talrepi warden regains Hit Points each day equal to its CR. Once per day as a reaction when it would be reduced to 0 Hit Points, the talrepi warden can use this reaction to remain at 1 Hit Point instead. It can’t use this ability if a critical hit reduced it to 0 Hit Points.\nDescription\nKathrepi built talrepi wardens as brutally efficient guards. Kathrepi scientists understood that their experiments might spawn hostile test subjects or that forces dedicated to entropy in the universe might try to sabotage their research. They didn’t consider, until the very end, that they might not need these guardians because their experiments would fail on their own.\nAlthough talrepi wardens tower over kathrepi, they aren’t much taller than a human. Barrel-shaped with gangly arms ending in strong pincers, wardens grab targets and squeeze the life out of them. Like their kathrepi creators, wardens occupy four dimensions, but they lack their creators’ ability to retreat into the fourth dimension for a long period of time. Instead, a warden can only make quick leaps into the fourth dimension.Talrepi wardens are designed to last for ages, though their components are susceptible to disruption by certain sonic frequencies. They still watch over the Tesseract even though nearly all kathrepi have vanished, and their long years of abandonment mean many wardens are stuck in the same routines and liable to be sent into a rampage by even by small variations in their otherwise unchanging environment.",
+  "type": "construct (extraplanar, technological)",
+  "category": "alien"
+}

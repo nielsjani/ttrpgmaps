@@ -1,0 +1,54 @@
+{
+  "name": "Siktempora, Wanderlust",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Wanderlust&Family=Siktempora",
+  "source": "Starfinder #48: Masters of Time and Space pg. 58",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "outsider (chaotic, extraplanar)",
+  "init": "+12",
+  "senses": "blindsight (vibration) 120 ft., darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "170",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+14",
+  "will": "+12",
+  "dr": "10/magic",
+  "speed": "40 ft. fly 60 ft. (Su)",
+  "melee": "floating hand +22 (2d10+13 B)",
+  "space": "5 ft.",
+  "reach": "5 ft. (15 ft. with floating hand)",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "At will—\ndimension door"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+8",
+    "con": "+5",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +25, Mysticism +20, Piloting +25, Stealth +25, Survival +20",
+  "languages": "Aklo (can’t speak any language); telepathy 120 ft.",
+  "environment": "any (Dimension of Time)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Floating Hand (Su)",
+      "description": "As a melee attack, a wanderlust siktempora can strike at a foe with a floating, disembodied hand. This attack has a reach of 15 feet and the entangle special weapon property. A wanderlust siktempora can entangle a maximum of 4 creatures at any one time with their hands. A creature can escape from an entangling hand with a successful DC 29 Acrobatics check or a successful DC 34 Strength check."
+    },
+    {
+      "name": "Wanderer’s Ache (Su)",
+      "description": "All creatures within 30 feet of a wanderlust siktempora (but not including the siktempora) gain the effects of the haste spell. If an affected creature doesn’t take a move action to move on its turn, the denied urge to move physically pains that creature, who takes 7d10 damage. A successful DC 20 Will save halves the damage."
+    }
+  ],
+  "description": "Siktemporas are creatures from the mysterious Dimension of Time, usually formed when an immense event occurs that creates an even more massive emotional reaction. They have an alien mindset, living through and for that one single emotion.\nA wanderlust siktempora takes the form of a small, floating figure with no limbs and a snouted face devoid of all facial features save for whiskers. Eight floating hands orbit around them, enabling them to manipulate their surroundings. A wanderlust siktempora usually forms when a prominent event or discovery inspires large numbers of people living sedentary lives to crave travel. On the rare occasion that a group of people are sent to a different time period or inserted into a different timeline (possibly via an artifact), a wanderlust siktempora might form from the emotional weight the event imposes on the Dimension of Time.\nOne of the largest influxes of wanderlust siktemporas into the Material Plane coincided with Triune’s Signal in 3 AG, when the new possibilities of travel marked the timestream as everyday people gained a keen desire to travel. Early explorers of the Drift shared tales of wanderlust siktemporas following them with curiosity once they left the Drift. Despite coming from another dimension and being seen on myriad other planes, wanderlust siktemporas have never been observed in the Drift.\nShortly after the Drift Crash, several wanderlust siktemporas were observed traveling together (a previously unobserved behavior) near a Drift beacon that went offline, telepathically singing a heavy and emotionally weighted dirge.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSiktempora\nAliens in the \"Siktempora\" Family\nName\nCR\nWanderlust\n11\nSiktempora, Wanderlust\nSource\nStarfinder #48: Masters of Time and Space pg. 58\nWanderlust CR 11\nXP 12,800\nCN Small outsider (chaotic, extraplanar)\nInit\n+12;\nSenses\nblindsight (vibration) 120 ft., darkvision 60 ft.;\nPerception\n+20\nAura\nwanderer’s ache (DC 20, 30 ft.)\nDefense\nHP\n170;\nRP\n5\nEAC\n24;\nKAC\n25\nFort\n+10;\nRef\n+14;\nWill\n+12\nDefensive Abilities\nfast healing 10;\nDR\n10/magic\nOffense\nSpeed\n40 ft. fly 60 ft. (Su)\nMelee\nfloating hand +22 (2d10+13 B)\nSpace\n5 ft.;\nReach\n5 ft. (15 ft. with floating hand)\nSpell-Like Abilities\n(CL 11th)\nAt will—\ndimension door\nStatistics\nSTR\n+2;\nDEX\n+8;\nCON\n+5;\nINT\n+3;\nWIS\n+5;\nCHA\n+5\nSkills\nAcrobatics +25, Mysticism +20, Piloting +25, Stealth +25, Survival +20\nLanguages\nAklo (can’t speak any language); telepathy 120 ft.\nEcology\nEnvironment\nany (Dimension of Time)\nOrganization\nsolitary\nSpecial Abilities\nFloating Hand (Su)\nAs a melee attack, a wanderlust siktempora can strike at a foe with a floating, disembodied hand. This attack has a reach of 15 feet and the entangle special weapon property. A wanderlust siktempora can entangle a maximum of 4 creatures at any one time with their hands. A creature can escape from an entangling hand with a successful DC 29 Acrobatics check or a successful DC 34 Strength check.\nWanderer’s Ache (Su)\nAll creatures within 30 feet of a wanderlust siktempora (but not including the siktempora) gain the effects of the haste spell. If an affected creature doesn’t take a move action to move on its turn, the denied urge to move physically pains that creature, who takes 7d10 damage. A successful DC 20 Will save halves the damage.\nDescription\nSiktemporas are creatures from the mysterious Dimension of Time, usually formed when an immense event occurs that creates an even more massive emotional reaction. They have an alien mindset, living through and for that one single emotion.\nA wanderlust siktempora takes the form of a small, floating figure with no limbs and a snouted face devoid of all facial features save for whiskers. Eight floating hands orbit around them, enabling them to manipulate their surroundings. A wanderlust siktempora usually forms when a prominent event or discovery inspires large numbers of people living sedentary lives to crave travel. On the rare occasion that a group of people are sent to a different time period or inserted into a different timeline (possibly via an artifact), a wanderlust siktempora might form from the emotional weight the event imposes on the Dimension of Time.\nOne of the largest influxes of wanderlust siktemporas into the Material Plane coincided with Triune’s Signal in 3 AG, when the new possibilities of travel marked the timestream as everyday people gained a keen desire to travel. Early explorers of the Drift shared tales of wanderlust siktemporas following them with curiosity once they left the Drift. Despite coming from another dimension and being seen on myriad other planes, wanderlust siktemporas have never been observed in the Drift.\nShortly after the Drift Crash, several wanderlust siktemporas were observed traveling together (a previously unobserved behavior) near a Drift beacon that went offline, telepathically singing a heavy and emotionally weighted dirge.",
+  "type": "outsider (chaotic, extraplanar)",
+  "category": "alien"
+}

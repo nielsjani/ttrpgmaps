@@ -1,0 +1,45 @@
+{
+  "name": "Symbiend",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Symbiend&Family=Symbiend",
+  "source": "Alien Archive pg. 112",
+  "cr": "1/3",
+  "xp": "135",
+  "alignment": "N",
+  "size": "Diminutive",
+  "creature_type": "aberration",
+  "init": "+3",
+  "perception": "+7",
+  "hp": "6",
+  "eac": "11",
+  "kac": "11",
+  "fort": "+0",
+  "ref": "+2",
+  "will": "+2",
+  "speed": "15 ft.",
+  "melee": "sting +2 (attach)",
+  "space": "1 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Stealth +7, Survival +7",
+  "other_abilities": "symbiosis",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Symbiosis (Ex)",
+      "description": "As a full action, a symbiend that begins its turn attached to a living aberration, animal, dragon, humanoid, magical beast, or monstrous humanoid can connect to that creature’s nervous system, granting it the abilities of the symbiend’s template graft (see below). The two creatures effectively become one until the host is killed, the symbiend chooses to detach itself, or the symbiend is removed with a medical procedure (usually requiring a successful DC 25 Medicine check). An unwilling host can prevent this connection with a successful DC 15 Will save."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nDamoritosh's Arm (Symbiend) Graft Template\n-\nDream Peddler (Symbiend) Graft Template\n-\nParagon (Symbiend) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSymbiend\nSource\nAlien Archive pg. 112\nWhile most examples of symbiosis are paired species that have slowly evolved a beneficial relationship, a narrow category of symbionts—referred to commonly as symbiends—have the ability to bond to and enhance nearly any other creature, feeding off and even influencing their hosts. Though spread across the galaxy, symbiends share a number of biological similarities that hint at common origins, or at least suggest some measure of engineering in the distant past.\nDespite the impressive abilities they grant to hosts, symbiends are almost helpless on their own. They communicate empathically with their hosts, while a rare few are also sentient and able to speak with—and even overwhelm—their hosts. Once a symbiend has been removed from a host, it refuses to rebond to the same host, preferring to find a new creature more invested in the partnership.\nDozens of different symbiends exist, but those most commonly encountered in the Pact Worlds are listed below. The template grafts below can be used to create a creature bonded to a symbiend; at the GM’s discretion, a PC can also bond with a symbiend, ignoring the array requirements and suggested ability score modifiers. A symbiend counts as an augmentation that is “installed” in the listed systems, though a removed symbiend can be used by another creature (unlike normal augmentations). Symbiends can’t be purchased or sold (at least, not in reputable settlements).\nAliens in the \"Symbiend\" Family\nName\nCR\nDamoritosh's Arm Host\n6\nSymbiend\n1/3\nSymbiend\nSource\nAlien Archive pg. 112\nSymbiend CR 1/3\nXP 135\nN Diminutive aberration\nInit\n+3;\nPerception\n+7\nDefense\nHP\n6\nEAC\n11;\nKAC\n11\nFort\n+0;\nRef\n+2;\nWill\n+2\nOffense\nSpeed\n15 ft.\nMelee\nsting +2 (attach)\nSpace\n1 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+0;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nStealth +7, Survival +7\nOther Abilities\nsymbiosis\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nSymbiosis (Ex)\nAs a full action, a symbiend that begins its turn attached to a living aberration, animal, dragon, humanoid, magical beast, or monstrous humanoid can connect to that creature’s nervous system, granting it the abilities of the symbiend’s template graft (see below). The two creatures effectively become one until the host is killed, the symbiend chooses to detach itself, or the symbiend is removed with a medical procedure (usually requiring a successful DC 25 Medicine check). An unwilling host can prevent this connection with a successful DC 15 Will save.\nExtra Content\nThe following extra content was found for this creature:\n-\nDamoritosh's Arm (Symbiend) Graft Template\n-\nDream Peddler (Symbiend) Graft Template\n-\nParagon (Symbiend) Graft Template",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Symbiend.png"
+}

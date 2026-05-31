@@ -1,0 +1,45 @@
+{
+  "name": "Jubsnuth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Jubsnuth&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 270",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CN",
+  "size": "Huge",
+  "creature_type": "animal",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+8",
+  "speed": "40 ft.",
+  "melee": "bite +21 (2d10+15 P plus swallow whole)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "double bite, swallow whole (2d10+15 A, EAC 22, KAC 20, 36 HP), trample (2d10+15 B, DC 16)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+4",
+    "int": "-5",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +17, Athletics +22, Survival +17",
+  "environment": "any temperate (former kishalee worlds)",
+  "organization": "solitary, pair, or herd (3–8)",
+  "special_abilities": [
+    {
+      "name": "Double Bite (Ex)",
+      "description": "If a jubsnuth misses with its bite attack, it can make another bite attack with its other mouth as a move action, though it takes a –4 penalty to this attack roll."
+    }
+  ],
+  "description": "During the height of their influence, the kishalee colonized many worlds, bringing with them a versatile stock animal: the docile jubsnuth. When the kishalee civilization fell, these once-domesticated creatures were eventually left to fend for themselves on a variety of worlds and environments. For many herds, this was tantamount to a death sentence, but others survived long enough to evolve into ravaging predators. Though many evolved varieties of jubsnuth now exist on various worlds out in the Vast, they share surprisingly similar traits. Jubsnuths are extremely brutal, carnivorous, dim witted, and territorial.\nA jubsnuth is a large, bulbous creature with a pair of mouths, one at the top of its mass and another lower on the body. It moves about on two muscular legs, and a hefty tail serves as a counterbalance for its weight. It uses a mass of jointed appendages lining its underbelly to gather up food. A jubsnuth’s coloration depends on the nature of the world on which it evolved. Many are shades of green to aid in camouflage on planets with foliage of such coloration, though the creature’s size generally makes attempts at stealth useless.\nJubsnuth Variants\nThanks to the breadth of worlds on which the kishalee settled and the vagaries of evolution, several variants of the jubsnuth have yet to be discovered by Pact Worlds explorers. Except for the changes listed, these variants use the same basic statistics as the jubsnuth presented above, but they can be used to create a jubsnuth of any CR. Even more jubsnuth variants may yet exist on uncharted planets throughout the galaxy.\nAmbush Jubsnuth:\nThese Large jubsnuths lack the swallow whole and trample abilities, and they gain the see in darkness and tracking (scent) special abilities and have Stealth as a master skill.\nAquatic Jubsnuth:\nThe legs of these creatures are longer and end in large fins. They have the amphibious and water breathing special abilities, and while their land speeds drop to 10 feet, they gain a 40-foot swim speed.\nFlying Jubsnuth:\nThese Large jubsnuths have leathery wings instead of legs, giving them an extraordinary fly speed of 30 feet with average maneuverability but reducing their land speed to 10 feet.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nJubsnuth\nSource\nStarfinder Dead Suns Adventure Path pg. 270\n,\nStarfinder #5: The Thirteenth Gate pg. 57\nJubsnuth CR 9\nXP 6,400\nCN Huge animal\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+17\nDefense\nHP\n145\nEAC\n20;\nKAC\n22\nFort\n+13;\nRef\n+13;\nWill\n+8\nOffense\nSpeed\n40 ft.\nMelee\nbite +21 (2d10+15 P plus swallow whole)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\ndouble bite, swallow whole (2d10+15 A, EAC 22, KAC 20, 36 HP), trample (2d10+15 B, DC 16)\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+4;\nINT\n-5;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +17, Athletics +22, Survival +17\nEcology\nEnvironment\nany temperate (former kishalee worlds)\nOrganization\nsolitary, pair, or herd (3–8)\nSpecial Abilities\nDouble Bite (Ex)\nIf a jubsnuth misses with its bite attack, it can make another bite attack with its other mouth as a move action, though it takes a –4 penalty to this attack roll.\nDescription\nDuring the height of their influence, the kishalee colonized many worlds, bringing with them a versatile stock animal: the docile jubsnuth. When the kishalee civilization fell, these once-domesticated creatures were eventually left to fend for themselves on a variety of worlds and environments. For many herds, this was tantamount to a death sentence, but others survived long enough to evolve into ravaging predators. Though many evolved varieties of jubsnuth now exist on various worlds out in the Vast, they share surprisingly similar traits. Jubsnuths are extremely brutal, carnivorous, dim witted, and territorial.\nA jubsnuth is a large, bulbous creature with a pair of mouths, one at the top of its mass and another lower on the body. It moves about on two muscular legs, and a hefty tail serves as a counterbalance for its weight. It uses a mass of jointed appendages lining its underbelly to gather up food. A jubsnuth’s coloration depends on the nature of the world on which it evolved. Many are shades of green to aid in camouflage on planets with foliage of such coloration, though the creature’s size generally makes attempts at stealth useless.\nJubsnuth Variants\nThanks to the breadth of worlds on which the kishalee settled and the vagaries of evolution, several variants of the jubsnuth have yet to be discovered by Pact Worlds explorers. Except for the changes listed, these variants use the same basic statistics as the jubsnuth presented above, but they can be used to create a jubsnuth of any CR. Even more jubsnuth variants may yet exist on uncharted planets throughout the galaxy.\nAmbush Jubsnuth:\nThese Large jubsnuths lack the swallow whole and trample abilities, and they gain the see in darkness and tracking (scent) special abilities and have Stealth as a master skill.\nAquatic Jubsnuth:\nThe legs of these creatures are longer and end in large fins. They have the amphibious and water breathing special abilities, and while their land speeds drop to 10 feet, they gain a 40-foot swim speed.\nFlying Jubsnuth:\nThese Large jubsnuths have leathery wings instead of legs, giving them an extraordinary fly speed of 30 feet with average maneuverability but reducing their land speed to 10 feet.",
+  "type": "animal",
+  "category": "alien"
+}

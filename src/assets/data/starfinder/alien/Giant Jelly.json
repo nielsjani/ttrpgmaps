@@ -1,0 +1,52 @@
+{
+  "name": "Giant Jelly",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Giant Jelly&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 60",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "animal (aquatic)",
+  "init": "+2",
+  "senses": "darkvision 120 ft., low-light vision;;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "resistances": "cold 5",
+  "weaknesses": "vulnerable to slashing",
+  "speed": "swim 40 ft.",
+  "melee": "slam +11 (1d6+10 B; critical stunned)",
+  "ranged": "sonic pulse +14 (1d6+5 So; critical stunned)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Athletics +11 (+19 to swim), Acrobatics +11, Stealth +16",
+  "other_abilities": "water breathing",
+  "environment": "any water (Entha)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Lenticular Lattice (Ex)",
+      "description": "A giant jelly can supernaturally manipulate its hexagonal lattice to reflect light in confusing ways. It has concealment against all attacks originating within 30 feet."
+    },
+    {
+      "name": "Sonic Pulse (Ex)",
+      "description": "As a standard action, a giant jelly can form itself into a large concave disc and emit sudden, violent vibrations as a ranged attack with a range increment of 60 feet that targets EAC. This attack doesn't provoke attacks of opportunity."
+    }
+  ],
+  "description": "Deep in the seas of Entha float giant jellies: massive, amorphous creatures composed of a thin fleshy material stretched across a hexagonal lattice. These strange magical beasts undulate through the waves in a constantly changing pattern, like a loose sail carried by the wind, making their movement and intention hard to predict. In addition to this constant undulation, the giant jelly can twist and flex its framework to produce confusing visual effects, making it difficult to target.\nWhen not drifting silently while on the hunt for food, giant jellies sometimes tense and flex their entire form to emit intermittent percussive pulses, creating deep, arrhythmic bass thumps. The purpose of these noises is unknown, though xenobiologists hypothesize the jellies might use these sounds to establish territory or scare off competitors.\nWhile much of a giant jelly’s diet consists of microscopic organisms, the creature evolved long ago to also prey on—and defend itself against—much larger creatures. It can move with astonishing speed, slamming into creatures to stun them, but can also focus its sonic waves into a damaging blast of sound that is especially devastating underwater. Once it has incapacitated its prey, a giant jelly slowly wraps itself around its victim, twisting into a tight spiral and digesting its meal over the course of days or even weeks.\nAt the end of a giant jelly’s life cycle, it stops consuming organic material and focuses instead on absorbing magic-infused minerals from the seabed. Gradually, the hexagonal lattice holding the jelly together begins to break down, and each of its thousands of component hexagons becomes a new, tiny protojelly. Typically, other deep-sea creatures quickly consume this mass of protojellies, but any that escape predation will grow to full size over the course of a few months.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGiant Jelly\nSource\nStarfinder #36: Professional Courtesy pg. 60\nGiant Jelly CR 5\nXP 1,600\nN Huge animal (aquatic)\nInit\n+2;\nSenses\ndarkvision 120 ft., low-light vision;;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nDefensive Abilities\namorphous, lenticular lattice Resistances cold 5\nWeaknesses\nvulnerable to slashing\nOffense\nSpeed\nswim 40 ft.\nMelee\nslam +11 (1d6+10 B; critical stunned)\nRanged\nsonic pulse +14 (1d6+5 So; critical stunned)\nSpace\n15 ft.;\nReach\n15 ft.\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+0;\nCHA\n+2\nSkills\nAthletics +11 (+19 to swim), Acrobatics +11, Stealth +16\nOther Abilities\nwater breathing\nEcology\nEnvironment\nany water (Entha)\nOrganization\nsolitary\nSpecial Abilities\nLenticular Lattice (Ex)\nA giant jelly can supernaturally manipulate its hexagonal lattice to reflect light in confusing ways. It has concealment against all attacks originating within 30 feet.\nSonic Pulse (Ex)\nAs a standard action, a giant jelly can form itself into a large concave disc and emit sudden, violent vibrations as a ranged attack with a range increment of 60 feet that targets EAC. This attack doesn't provoke attacks of opportunity.\nDescription\nDeep in the seas of Entha float giant jellies: massive, amorphous creatures composed of a thin fleshy material stretched across a hexagonal lattice. These strange magical beasts undulate through the waves in a constantly changing pattern, like a loose sail carried by the wind, making their movement and intention hard to predict. In addition to this constant undulation, the giant jelly can twist and flex its framework to produce confusing visual effects, making it difficult to target.\nWhen not drifting silently while on the hunt for food, giant jellies sometimes tense and flex their entire form to emit intermittent percussive pulses, creating deep, arrhythmic bass thumps. The purpose of these noises is unknown, though xenobiologists hypothesize the jellies might use these sounds to establish territory or scare off competitors.\nWhile much of a giant jelly’s diet consists of microscopic organisms, the creature evolved long ago to also prey on—and defend itself against—much larger creatures. It can move with astonishing speed, slamming into creatures to stun them, but can also focus its sonic waves into a damaging blast of sound that is especially devastating underwater. Once it has incapacitated its prey, a giant jelly slowly wraps itself around its victim, twisting into a tight spiral and digesting its meal over the course of days or even weeks.\nAt the end of a giant jelly’s life cycle, it stops consuming organic material and focuses instead on absorbing magic-infused minerals from the seabed. Gradually, the hexagonal lattice holding the jelly together begins to break down, and each of its thousands of component hexagons becomes a new, tiny protojelly. Typically, other deep-sea creatures quickly consume this mass of protojellies, but any that escape predation will grow to full size over the course of a few months.",
+  "type": "animal (aquatic)",
+  "category": "alien"
+}

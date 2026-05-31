@@ -1,0 +1,61 @@
+{
+  "name": "Trox",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Trox&Family=Trox",
+  "source": "Alien Archive 2 pg. 126",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+5",
+  "will": "+3",
+  "speed": "40 ft., burrow 20 ft.",
+  "melee": "assault hammer +11 (1d6+6 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "frenzy, grappler",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+0",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +12, Intimidate +7, Mysticism +7",
+  "languages": "Common, Nchaki",
+  "other_abilities": "vestigial arms",
+  "gear": "assault hammer",
+  "environment": "any (Nchak)",
+  "organization": "solitary, band (2–8), or clan (9–20)",
+  "special_abilities": [
+    {
+      "name": "Bulwark (Ex)",
+      "description": "When a trox fights defensively or takes the total defense action, he can grant half the bonus to AC granted by that action to an adjacent ally."
+    },
+    {
+      "name": "Frenzy (Ex)",
+      "description": "Once per day when a significant enemy causes an ally to take Hit Point damage, a trox can fly into a frenzy, gaining a +2 racial bonus to melee attack rolls and a –2 penalty to AC for 1 minute."
+    },
+    {
+      "name": "Grappler (Ex)",
+      "description": "Trox gain a +2 racial bonus to grapple combat maneuvers."
+    },
+    {
+      "name": "Vesitigal Arms (Ex)",
+      "description": "A trox’s four vestigial arms can be used to hold, draw, or put away items of negligible bulk, but not to make attacks, wield weapons, or use items."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nTrox Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTrox\nSource\nAlien Archive 2 pg. 126\nTrox are massive, sturdy creatures native to the Liavaran moon of Nchak. They have chitinous armor and a fearsome, mandibled countenance that belies their gentle spirits.\nThree distinct, related creatures have been called trox. The original trox were eight-legged arthropods until a time long before the Gap when Nchak’s spiritual leader, believed to be a mortal incarnation of Hylax, ordered their magical transformation into their current humanoid form. Spellcasters made four of the trox’s eight legs into powerful limbs, shaped mandibles into scythes, and transformed chitin into layered armor plates that can flare in an intimidating display.\nMany of these humanoid trox were then encased in shielded asteroids in Liavara’s rings and ejected from orbit at magically enhanced speeds in myriad directions. The asteroids landed on several worlds in their home system. Duergar enslaved the trox that landed on lost Golarion and twisted them into murderous beasts. These further-altered trox disappeared when Golarion did, but their story is well known to Nchak’s trox, making them even more vehement opponents of slavery.\nAlthough they were created as emissaries, trox also make great soldiers. On Nchak, they are protectors of the spiritual center of Hylax worship, and they greet all peaceful visitors with humility and grace. The influence the philosopher worms of Nchak hold over the trox is mysterious. Trox speak of these worms only to say that they serve the beneficent aims of the Forever Queen.\nTrox often serve as spiritual guides and advisors to those curious about Hylax. She is the goddess of diplomacy and peace, as well as protector of the weak, a role for which trox are also well equipped. Trox travel more often to teach and protect others than to seek adventure. Despite their might, they prefer to use their imposing presence to defuse conflict before it starts.\nTrox devoted to Hylax wield hammers. To trox, these weapons are ancient symbols of constructive power, and are also useful for vanquishing threats to peace.\nAliens in the \"Trox\" Family\nName\nCR\nTrox\n2\nTrox Defensor\n9\nTrox\nSource\nAlien Archive 2 pg. 126\nTrox CR 2\nXP 600\nNG Large monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+5;\nWill\n+3\nDefensive Abilities\nbulwark\nOffense\nSpeed\n40 ft., burrow 20 ft.\nMelee\nassault hammer +11 (1d6+6 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nfrenzy, grappler\nStatistics\nSTR\n+4;\nDEX\n+0;\nCON\n+2;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +12, Intimidate +7, Mysticism +7\nLanguages\nCommon, Nchaki\nOther Abilities\nvestigial arms\nGear\nassault hammer\nEcology\nEnvironment\nany (Nchak)\nOrganization\nsolitary, band (2–8), or clan (9–20)\nSpecial Abilities\nBulwark (Ex)\nWhen a trox fights defensively or takes the total defense action, he can grant half the bonus to AC granted by that action to an adjacent ally.\nFrenzy (Ex)\nOnce per day when a significant enemy causes an ally to take Hit Point damage, a trox can fly into a frenzy, gaining a +2 racial bonus to melee attack rolls and a –2 penalty to AC for 1 minute.\nGrappler (Ex)\nTrox gain a +2 racial bonus to grapple combat maneuvers.\nVesitigal Arms (Ex)\nA trox’s four vestigial arms can be used to hold, draw, or put away items of negligible bulk, but not to make attacks, wield weapons, or use items.\nExtra Content\nThe following extra content was found for this creature:\n-\nTrox Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Trox.png"
+}

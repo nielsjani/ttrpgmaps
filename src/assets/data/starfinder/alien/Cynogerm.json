@@ -1,0 +1,43 @@
+{
+  "name": "Cynogerm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cynogerm&Family=None",
+  "source": "Starfinder #47: Nightmare Scenario pg. 57",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CG",
+  "size": "Small",
+  "creature_type": "outsider (chaotic, good)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+9",
+  "speed": "fly 15 ft. (Su, perfect)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +10, Diplomacy +15, Mysticism +10, Survival +10",
+  "languages": "Common",
+  "other_abilities": "cyclical forms",
+  "environment": "any (Cynosure)",
+  "organization": "solitary, pair, or constellation (3–12)",
+  "special_abilities": [
+    {
+      "name": "Cyclical Forms (Su)",
+      "description": "A cynogerm has three distinct forms: a seedling, a blossoming flower, and a butterfly. It constantly cycles through these forms, and can take a move action to adopt any one of them. Make the following adjustments based on the cynogerm’s current form.\nSeedling:\nA cynogerm in seedling form can fling motes of pollen imbued with potent psychic energy. This is an attack with a range of 30 feet and an attack modifier of +9 inflicting 1d4+4 damage; this is a mind-affecting effect.\nFlower:\nOnce a day as a full action, a cynogerm in flower form can shake itself and throw off pollen that causes creatures within a 30-foot-radius burst to fall asleep and slip into peaceful dreams for 1d6 minutes (DC 15 Will save negates). This is a mind-affecting effect.\nButterfly Form:\nA cynogerm in butterfly form grows wings and gains a supernatural fly speed of 60 feet (perfect), spaceflight (mysticism), and void adaptation."
+    }
+  ],
+  "description": "Flocks of cynogerms, minor heralds of Desna, flit throughout Cynosure and carry messages into the wider cosmos at the command of the goddess of dreams. These extraplanar messengers scatter like dandelion seeds in the wind to take root in strange locales, where they messages that bloom in mortal hearts, inspiring them to greatness or calling them to Cynosure.\nCynogerms begin their lives as seeds planted in vast gardens in Cynosure, where they’re tended by azatas and other good outsiders loyal to Desna. They graduate from their gardens once their infancy ends and they’re strong enough to travel the stars on their own.\nIn keeping with their origins, cynogerms constantly cycle through their three forms, which they can also adopt at will. Their appearance slowly morphs between a dandelion-like seed, a vivid flowering plant, and a colorful butterfly with a wingspan as large as an eagle’s.\nMost cynogerms don’t reveal their true names to strangers, but those lucky enough to become acquainted with one might be entrusted with such information. Cynogerms choose their own names, combining colors and musical terminology and often incorporating imagery from dreams. Cynogerm names range from “Crimson Coda” to more elaborate affairs such as “Flight Over Cyan Seas.”",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCynogerm\nSource\nStarfinder #47: Nightmare Scenario pg. 57\nCynogerm CR 4\nXP 1,200\nCG Small outsider (chaotic, good)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+5;\nRef\n+5;\nWill\n+9\nOffense\nSpeed\nfly 15 ft. (Su, perfect)\nSpell-like Abilities\n(CL 4th)\n2nd (3/day)—\nsong of the cosmos\n(DC 17),\nzone of truth\n(DC 17)\n1st (6/day)—\ncharm person\n(DC 16),\nillusory starfield\n(DC 16),\nmind link\nAt will—\ndaze (DC 15),\ndetect affliction\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n+0;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nAcrobatics +10, Diplomacy +15, Mysticism +10, Survival +10\nLanguages\nCommon\nOther Abilities\ncyclical forms\nEcology\nEnvironment\nany (Cynosure)\nOrganization\nsolitary, pair, or constellation (3–12)\nSpecial Abilities\nCyclical Forms (Su)\nA cynogerm has three distinct forms: a seedling, a blossoming flower, and a butterfly. It constantly cycles through these forms, and can take a move action to adopt any one of them. Make the following adjustments based on the cynogerm’s current form.\nSeedling:\nA cynogerm in seedling form can fling motes of pollen imbued with potent psychic energy. This is an attack with a range of 30 feet and an attack modifier of +9 inflicting 1d4+4 damage; this is a mind-affecting effect.\nFlower:\nOnce a day as a full action, a cynogerm in flower form can shake itself and throw off pollen that causes creatures within a 30-foot-radius burst to fall asleep and slip into peaceful dreams for 1d6 minutes (DC 15 Will save negates). This is a mind-affecting effect.\nButterfly Form:\nA cynogerm in butterfly form grows wings and gains a supernatural fly speed of 60 feet (perfect), spaceflight (mysticism), and void adaptation.\nDescription\nFlocks of cynogerms, minor heralds of Desna, flit throughout Cynosure and carry messages into the wider cosmos at the command of the goddess of dreams. These extraplanar messengers scatter like dandelion seeds in the wind to take root in strange locales, where they messages that bloom in mortal hearts, inspiring them to greatness or calling them to Cynosure.\nCynogerms begin their lives as seeds planted in vast gardens in Cynosure, where they’re tended by azatas and other good outsiders loyal to Desna. They graduate from their gardens once their infancy ends and they’re strong enough to travel the stars on their own.\nIn keeping with their origins, cynogerms constantly cycle through their three forms, which they can also adopt at will. Their appearance slowly morphs between a dandelion-like seed, a vivid flowering plant, and a colorful butterfly with a wingspan as large as an eagle’s.\nMost cynogerms don’t reveal their true names to strangers, but those lucky enough to become acquainted with one might be entrusted with such information. Cynogerms choose their own names, combining colors and musical terminology and often incorporating imagery from dreams. Cynogerm names range from “Crimson Coda” to more elaborate affairs such as “Flight Over Cyan Seas.”",
+  "type": "outsider (chaotic, good)",
+  "category": "alien"
+}

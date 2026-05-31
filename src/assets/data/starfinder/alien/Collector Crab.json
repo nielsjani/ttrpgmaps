@@ -1,0 +1,47 @@
+{
+  "name": "Collector Crab",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Collector Crab&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 54",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal",
+  "init": "+2",
+  "senses": "low-light vision, scent (ore) 60 ft.;",
+  "perception": "+18",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+5",
+  "dr": "10/—",
+  "immunities": "critical hits",
+  "speed": "30 ft.",
+  "melee": "slam +16 (1d8+11 B) or claw +16 (1d8+11 S)",
+  "space": "10 ft.",
+  "reach": "10 ft. (15 ft. with claw)",
+  "offensive_abilities": "meteor collection",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +18, Survival +13",
+  "environment": "any (Weydana-7)",
+  "organization": "solitary or herd (2–8)",
+  "special_abilities": [
+    {
+      "name": "Meteor Collection (Ex)",
+      "description": "The meteors a collector crab collects for its shell grant it unusual properties. Its natural weapons are a conglomeration of different types of ore. Each time the collector crab attacks, roll randomly to determine which mineral affects the collector crab’s natural attacks.\nD6\nORE\n1-2\nAbysium: The collector crab’s attacks inflict radiation burns. The target must succeed at a DC 14 Fortitude save or be sickened for 1d4 rounds. On a critical hit, the target must succeed at a DC 14 Fortitude save or contract radiation sickness.\n3-4\nHoracalcum: The crab’s attacks warp time around the target, who must succeed at a DC 14 Fortitude save or be staggered for 1 round. On a critical hit, the target is stunned for 1 round.\n5-6\nVoidglass: The crab’s shell is infused with hostile psychic emotions. Half the damage dealt by the crab is cold damage. The target of a collector crab’s attacks must succeed at a DC 14 Will save or be shaken for 1d4 rounds. On a critical hit, the target is panicked for 1 round."
+    }
+  ],
+  "description": "Perhaps the strangest tale passed between explorers of Weydana-7 speaks of outcroppings of rock and metal that move. Most of these mobile boulders are the size of small vehicles, though stories tell of some as big as starships. These hulking heaps of ore, crystals, and rock dot the planet’s landscape, seeking unusual starmetals and defending themselves when anything approaches.\nNicknamed collector crabs, these reclusive, slow-moving animals live in unoccupied ore fields, collecting minerals from meteorites that pummel the surface. No one is entirely sure what the creature looks like within its starmetal shell, as it extends only a single large claw from its shell to claim its prizes; the rest of the creature’s body shrivels to dust when exposed to an atmosphere, and scientists have been unable to capture a live specimen for study.\nCollector crab shells are quite valuable, thanks to the starmetals the creature stores there. Some explorers hunt them to harvest the minerals in their shells. The most enterprising among these explorers employ baited traps and explosives to neutralize their prey from a safe distance, though the practice can be quite destructive to the local ecosystem. Currently, explorers are divided on the issue of hunting collector crabs. Overzealous hunting threatens to eradicate the species entirely, though there’s no denying that the beasts pose a danger in the remote wilds of Weydana-7, and the lucrative profits of crab hunting have proven too much for poachers to resist.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCollector Crab\nSource\nStarfinder #45: The Culling Shadow pg. 54\nCollector Crab CR 6\nXP 2,400\nN Large animal\nInit\n+2;\nSenses\nlow-light vision, scent (ore) 60 ft.;\nPerception\n+18\nAura\nradiation (30 ft., DC 14)\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+10;\nWill\n+5\nDR\n10/—;\nImmunities\ncritical hits\nOffense\nSpeed\n30 ft.\nMelee\nslam +16 (1d8+11 B) or claw +16 (1d8+11 S)\nSpace\n10 ft.;\nReach\n10 ft. (15 ft. with claw)\nOffensive Abilities\nmeteor collection\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +18, Survival +13\nEcology\nEnvironment\nany (Weydana-7)\nOrganization\nsolitary or herd (2–8)\nSpecial Abilities\nMeteor Collection (Ex)\nThe meteors a collector crab collects for its shell grant it unusual properties. Its natural weapons are a conglomeration of different types of ore. Each time the collector crab attacks, roll randomly to determine which mineral affects the collector crab’s natural attacks.\nD6\nORE\n1-2\nAbysium: The collector crab’s attacks inflict radiation burns. The target must succeed at a DC 14 Fortitude save or be sickened for 1d4 rounds. On a critical hit, the target must succeed at a DC 14 Fortitude save or contract radiation sickness.\n3-4\nHoracalcum: The crab’s attacks warp time around the target, who must succeed at a DC 14 Fortitude save or be staggered for 1 round. On a critical hit, the target is stunned for 1 round.\n5-6\nVoidglass: The crab’s shell is infused with hostile psychic emotions. Half the damage dealt by the crab is cold damage. The target of a collector crab’s attacks must succeed at a DC 14 Will save or be shaken for 1d4 rounds. On a critical hit, the target is panicked for 1 round.\nDescription\nPerhaps the strangest tale passed between explorers of Weydana-7 speaks of outcroppings of rock and metal that move. Most of these mobile boulders are the size of small vehicles, though stories tell of some as big as starships. These hulking heaps of ore, crystals, and rock dot the planet’s landscape, seeking unusual starmetals and defending themselves when anything approaches.\nNicknamed collector crabs, these reclusive, slow-moving animals live in unoccupied ore fields, collecting minerals from meteorites that pummel the surface. No one is entirely sure what the creature looks like within its starmetal shell, as it extends only a single large claw from its shell to claim its prizes; the rest of the creature’s body shrivels to dust when exposed to an atmosphere, and scientists have been unable to capture a live specimen for study.\nCollector crab shells are quite valuable, thanks to the starmetals the creature stores there. Some explorers hunt them to harvest the minerals in their shells. The most enterprising among these explorers employ baited traps and explosives to neutralize their prey from a safe distance, though the practice can be quite destructive to the local ecosystem. Currently, explorers are divided on the issue of hunting collector crabs. Overzealous hunting threatens to eradicate the species entirely, though there’s no denying that the beasts pose a danger in the remote wilds of Weydana-7, and the lucrative profits of crab hunting have proven too much for poachers to resist.",
+  "type": "animal",
+  "category": "alien"
+}

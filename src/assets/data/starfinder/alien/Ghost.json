@@ -1,0 +1,64 @@
+{
+  "name": "Ghost",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghost&Family=None",
+  "source": "Alien Archive 2 pg. 58",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "90",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+11",
+  "immunities": "undead immunities",
+  "speed": "30 ft., fly 60 ft. (Su, average)",
+  "melee": "corrupting touch +11 (7d6, DC 17)",
+  "offensive_abilities": "backlash, corrupting gaze (DC 17), corrupting touch (DC 17), distraction (DC 17), frightful moan (DC 17), share pain, sow doubt",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th",
+    "spells": "At will—\nmindlink\nMystic Spells Known\n(CL 7th)\n3rd (3/day)—\npsychokinetic strangulation\n(DC 20),\nsynaptic pulse\n(DC 20)\n2nd (6/day)—\nhold person\n(DC 19),\ninflict pain\n(DC 19),\nmind thrust\n(DC 19),\nsee invisibility\n1st (at will)—\ndetect thoughts\n(DC 18),\nlesser confusion\n(DC 18)"
+  },
+  "spells": "(CL 7th)\n3rd (3/day)—\npsychokinetic strangulation\n(DC 20),\nsynaptic pulse\n(DC 20)\n2nd (6/day)—\nhold person\n(DC 19),\ninflict pain\n(DC 19),\nmind thrust\n(DC 19),\nsee invisibility\n1st (at will)—\ndetect thoughts\n(DC 18),\nlesser confusion\n(DC 18)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "—",
+    "int": "+1",
+    "wis": "+5",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +14, Disguise +19, Intimidate +14, Mysticism +19, Sense Motive +19, Stealth +19",
+  "languages": "Common, 1 other language known in life",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Corrupting Gaze (Su)",
+      "description": "The ghost has a gaze ability with a range of 30 feet that deals 1d4 Charisma damage plus 1d10 cold damage per 3 CR (a Fortitude save negates the Charisma damage, but not the physical damage)."
+    },
+    {
+      "name": "Corrupting Touch (Su)",
+      "description": "As a standard action, the ghost can make a single melee attack against EAC. On a hit, this attack deals 7d6 damage. This damage has no type—it manifests in the form of aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage dealt."
+    },
+    {
+      "name": "Frightful Moan (Su)",
+      "description": "The ghost can emit a frightful moan as a standard action. All living creatures within a 30-foot radius of the ghost must succeed at a Will save or become frightened for 2d4 rounds. Ghosts of CR 10 or higher cause creatures that fail the save to gain the paralyzed condition for 1 round. Ghosts of CR 15 or higher also cause creatures that fail the save to gain the cowering condition for 1d4 rounds. This is a hearing-dependent, mind-affecting fear effect. A creature that successfully saves against frightful moan cannot be affected by the same ghost’s moan for 24 hours."
+    },
+    {
+      "name": "Rejuvenation (Su)",
+      "description": "In most cases, ghosts cannot be destroyed by violence—a “destroyed” spirit dematerializes, but restores itself in 2d4 days. The only way to permanently destroy a ghost is to determine the reason for its existence and set right whatever prevents it from resting in peace. The exact means varies with each spirit and should be determined by the GM when creating the ghost."
+    }
+  ],
+  "description": "In most cases, when a creature dies, its soul is severed from its physical body and sent on to its fate in the afterlife. However, sometimes souls are bound to the physical world by powerful emotion and cannot move on. While ghosts bound by positive emotions do exist, in most cases horrendous injustice creates ghosts. A ghost’s every action and thought is devoted to the emotion that bound it to the physical world, such that most ghosts become hateful mockeries of their mortal selves.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGhost (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhost\nSource\nAlien Archive 2 pg. 58\nGhost CR 7\nXP 3,200\nMale ghost mystic\nCE Medium undead (incorporeal)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n90;\nRP\n3\nEAC\n18;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+11\nDefensive Abilities\nincorporeal, rejuvenation;\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, average)\nMelee\ncorrupting touch +11 (7d6, DC 17)\nOffensive Abilities\nbacklash, corrupting gaze (DC 17), corrupting touch (DC 17), distraction (DC 17), frightful moan (DC 17), share pain, sow doubt\nMystic Spell-Like Abilities\n(CL 7th)\nAt will—\nmindlink\nMystic Spells Known\n(CL 7th)\n3rd (3/day)—\npsychokinetic strangulation\n(DC 20),\nsynaptic pulse\n(DC 20)\n2nd (6/day)—\nhold person\n(DC 19),\ninflict pain\n(DC 19),\nmind thrust\n(DC 19),\nsee invisibility\n1st (at will)—\ndetect thoughts\n(DC 18),\nlesser confusion\n(DC 18)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n—;\nINT\n+1;\nWIS\n+5;\nCHA\n+4\nSkills\nAcrobatics +14, Disguise +19, Intimidate +14, Mysticism +19, Sense Motive +19, Stealth +19\nLanguages\nCommon, 1 other language known in life\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nCorrupting Gaze (Su)\nThe ghost has a gaze ability with a range of 30 feet that deals 1d4 Charisma damage plus 1d10 cold damage per 3 CR (a Fortitude save negates the Charisma damage, but not the physical damage).\nCorrupting Touch (Su)\nAs a standard action, the ghost can make a single melee attack against EAC. On a hit, this attack deals 7d6 damage. This damage has no type—it manifests in the form of aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage dealt.\nFrightful Moan (Su)\nThe ghost can emit a frightful moan as a standard action. All living creatures within a 30-foot radius of the ghost must succeed at a Will save or become frightened for 2d4 rounds. Ghosts of CR 10 or higher cause creatures that fail the save to gain the paralyzed condition for 1 round. Ghosts of CR 15 or higher also cause creatures that fail the save to gain the cowering condition for 1d4 rounds. This is a hearing-dependent, mind-affecting fear effect. A creature that successfully saves against frightful moan cannot be affected by the same ghost’s moan for 24 hours.\nRejuvenation (Su)\nIn most cases, ghosts cannot be destroyed by violence—a “destroyed” spirit dematerializes, but restores itself in 2d4 days. The only way to permanently destroy a ghost is to determine the reason for its existence and set right whatever prevents it from resting in peace. The exact means varies with each spirit and should be determined by the GM when creating the ghost.\nDescription\nIn most cases, when a creature dies, its soul is severed from its physical body and sent on to its fate in the afterlife. However, sometimes souls are bound to the physical world by powerful emotion and cannot move on. While ghosts bound by positive emotions do exist, in most cases horrendous injustice creates ghosts. A ghost’s every action and thought is devoted to the emotion that bound it to the physical world, such that most ghosts become hateful mockeries of their mortal selves.\nExtra Content\nThe following extra content was found for this creature:\n-\nGhost (Other) Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Ghost.png"
+}

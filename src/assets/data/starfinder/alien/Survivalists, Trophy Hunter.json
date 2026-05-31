@@ -1,0 +1,46 @@
+{
+  "name": "Survivalists, Trophy Hunter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Trophy Hunter&Family=Survivalists",
+  "source": "Interstellar Species pg. 182",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "humanoid (pahtra)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+8",
+  "speed": "30 ft.",
+  "melee": "blaze flame doshko +18 (2d8+12 F; critical wound)",
+  "ranged": "elite plasma bolter +21 (3d10+9 E & F; critical wound) or advanced shirren-eye rifle +21 (2d10+9 P)",
+  "offensive_abilities": "selected prey",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +17, Stealth +22, Survival +17",
+  "feats": "Deadly Aim",
+  "languages": "Common, Pahtra",
+  "gear": "advanced iridishell, advanced shirren-eye rifle with 20 sniper rounds, blaze flame doshko with 2 batteries (20 charges each), elite plasma bolter with 2 high-capacity batteries (40 charges each)",
+  "special_abilities": [
+    {
+      "name": "Selected Prey (Ex)",
+      "description": "As a swift action, a trophy hunter can designate a creature they can see within 60 feet as their prey. This designation remains for a number of hours equal to the trophy hunter’s CR, until the marked prey dies, or until the trophy hunter designates another creature as their prey. A trophy hunter gains a bonus equal to half their CR to Survival checks to track their prey and to weapon damage rolls against their prey."
+    }
+  ],
+  "description": "Trophy hunters seek to conquer the greatest prey they can track down. Some might hunt dangerous creatures to ensure the safety of others, and some are nothing more than glory hounds seeking thrill and prestige. Trophy hunters are sometimes accompanied by beasts they’ve captured and trained.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSurvivalists\nSource\nInterstellar Species pg. 182\nSurvivalists are defined by independence and self-sufficiency. They often expertly navigate specific types of hostile or dangerous terrain: forests, deserts, or more remote locales such as dead space or post-apocalyptic cityscapes. Survivalists generally don’t rely on others and commonly live and work alone. However, the following statistics can represent hunters and warriors within a community as well as hermits. A survivalist might have some kind of sentient companion or a creature companion, such as a beast of burden or a hunting beast. A survivalist might arrive at a critical moment to help PCs as they travel through a barren wasteland. Alternatively, a survivalist makes an excellent antagonist in a wilderness setting since they’re capable of using every aspect of the environment against their foes.\nAliens in the \"Survivalists\" Family\nName\nCR\nCareer Ranger\n3\nMysterious Hermit\n14\nOff-gridder\n1/2\nTrophy Hunter\n9\nSurvivalists, Trophy Hunter\nSource\nInterstellar Species pg. 182\nTrophy Hunter CR 9\nXP 6,400\nPahtra\nNE Medium humanoid (pahtra)\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+13;\nWill\n+8; +2 vs. charm and compulsion\nDefensive Abilities\nnimble, wary\nOffense\nSpeed\n30 ft.\nMelee\nblaze flame doshko +18 (2d8+12 F; critical wound)\nRanged\nelite plasma bolter +21 (3d10+9 E & F; critical wound) or advanced shirren-eye rifle +21 (2d10+9 P)\nOffensive Abilities\nselected prey\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+0;\nINT\n+0;\nWIS\n+4;\nCHA\n+1\nFeats\nDeadly Aim\nSkills\nAcrobatics +17, Stealth +22, Survival +17\nLanguages\nCommon, Pahtra\nGear\nadvanced iridishell, advanced shirren-eye rifle with 20 sniper rounds, blaze flame doshko with 2 batteries (20 charges each), elite plasma bolter with 2 high-capacity batteries (40 charges each)\nSpecial Abilities\nSelected Prey (Ex)\nAs a swift action, a trophy hunter can designate a creature they can see within 60 feet as their prey. This designation remains for a number of hours equal to the trophy hunter’s CR, until the marked prey dies, or until the trophy hunter designates another creature as their prey. A trophy hunter gains a bonus equal to half their CR to Survival checks to track their prey and to weapon damage rolls against their prey.\nDescription\nTrophy hunters seek to conquer the greatest prey they can track down. Some might hunt dangerous creatures to ensure the safety of others, and some are nothing more than glory hounds seeking thrill and prestige. Trophy hunters are sometimes accompanied by beasts they’ve captured and trained.",
+  "type": "humanoid (pahtra)",
+  "environment": "—",
+  "category": "alien"
+}

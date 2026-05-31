@@ -1,0 +1,59 @@
+{
+  "name": "Dragon (Outer), Old Void Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Old Void Dragon&Family=Dragon (Outer)",
+  "source": "Alien Archive 2 pg. 42",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "NE",
+  "size": "Gargantuan",
+  "creature_type": "dragon",
+  "init": "+7",
+  "senses": "blindsense (vibration) 60 ft., darkvision 120 ft., low-light vision, see in darkness;",
+  "perception": "+31",
+  "hp": "350",
+  "eac": "32",
+  "kac": "33",
+  "fort": "+18",
+  "ref": "+18",
+  "will": "+22",
+  "dr": "15/magic",
+  "sr": "29",
+  "immunities": "cold, confusion, insanity, paralysis, sleep;",
+  "speed": "40 ft., fly 250 ft. (Su, clumsy)",
+  "melee": "bite +31 (8d8+29 P plus obliterate)",
+  "space": "20 ft.",
+  "reach": "15 ft. (20 ft. with bite)",
+  "offensive_abilities": "breath weapon (60-ft. cone, 19d10 E, DC 25, usable every 1d4 rounds), crush (8d8+29 B), suffocating breath (DC 25)",
+  "spell_like_abilities": {
+    "caster_info": "CL 18th; ranged +29",
+    "spells": "1/day—\ndisintegrate\n(DC 25),\nshadow walk\n(DC 25)\n3/day—\ndismissal\n(5th level, DC 24),\ndominate person\n(DC 24),\nfeeblemind\n(DC 24),\nmind thrust\n(5th level, DC 24)\nAt will—\nconfusion\n(DC 23),\nenervation"
+  },
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+3",
+    "con": "+8",
+    "int": "+6",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +31 (+23 to fly), Bluff +31, Computers +31, Culture +36, Diplomacy +36, Mysticism +36, Piloting +31, Sense Motive +31",
+  "languages": "Abyssal, Aklo, Auran, Common, Draconic, Ignan, Infernal, Terran",
+  "other_abilities": "spaceflight",
+  "environment": "any vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Obliterate (Su)",
+      "description": "A creature that is reduced to 0 Hit Points by a void dragon’s bite attack must spend 1 Resolve point or be immediately slain and reduced to dust."
+    },
+    {
+      "name": "Suffocating Breath (Su)",
+      "description": "Instead of a cone of cold, a void dragon can breathe a 30-foot cone of energy that suffocates those it touches. Air-breathing creatures within the cone must succeed at a Fortitude save or begin attempting Constitution checks to avoid\nsuffocation\n, even if they have environmental protections.\nAn affected creature can attempt a new Fortitude saving throw at the beginning of each turn to shake off this effect and regain its air supply."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nLunar Dragon (Dragon (Outer)) Graft Template\n-\nSolar Dragon (Dragon (Outer)) Graft Template\n-\nTime Dragon (Dragon (Outer)) Graft Template\n-\nVoid Dragon (Dragon (Outer)) Graft Template\n-\nVortex Dragon (Dragon (Outer)) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDragon (Outer)\nSource\nAlien Archive 2 pg. 42\nRarer than chromatic and metallic dragons, outer dragons are born and live in the vast depths of space, generally serving either their own inscrutable interests or those of some unknowable galactic force. As such, their actions can be especially frightening to the everyday citizens of the Pact Worlds and beyond. Even the methods by which outer dragons are born are shrouded in mystery. Some believe that outer dragons burst forth fully formed from the galaxy’s stars, with the void’s magic and energy coalescing into one mighty creature in an instantaneous moment of creation. Others think that outer dragons are manifestations of the universe’s will and come into being slowly, over the course of centuries, like a mote of matter might eventually become a star.\nOuter dragons have forms similar to those of other true dragons, though their bodies are covered with more spiky protrusions, and their coloration patterns fluctuate as they move. Outer dragons have wings that allow them to move through vacuums and areas of no gravity with ease, thanks to some supernatural process that has yet to be fully understood.\nAliens in the \"Dragon (Outer)\" Family\nName\nCR\nOld Void Dragon\n18\nDragon (Outer), Old Void Dragon\nSource\nAlien Archive 2 pg. 42\nOld Void Dragon CR 18\nXP 153,600\nNE Gargantuan dragon\nInit\n+7;\nSenses\nblindsense (vibration) 60 ft., darkvision 120 ft., low-light vision, see in darkness;\nPerception\n+31\nAura\nalien presence (240 ft., sickened 2d4 rounds, DC 25)\nDefense\nHP\n350\nEAC\n32;\nKAC\n33\nFort\n+18;\nRef\n+18;\nWill\n+22\nDefensive Abilities\nvoid adaptation;\nDR\n15/magic;\nImmunities\ncold, confusion, insanity, paralysis, sleep;\nSR\n29\nOffense\nSpeed\n40 ft., fly 250 ft. (Su, clumsy)\nMelee\nbite +31 (8d8+29 P plus obliterate)\nMultiattack\nbite +25 (4d8+29 P plus obliterate), 2 claws +25 (4d8+29 S), tail slap +25 (4d8+29 B)\nSpace\n20 ft.;\nReach\n15 ft. (20 ft. with bite)\nOffensive Abilities\nbreath weapon (60-ft. cone, 19d10 E, DC 25, usable every 1d4 rounds), crush (8d8+29 B), suffocating breath (DC 25)\nSpell-Like Abilities\n(CL 18th; ranged +29)\n1/day—\ndisintegrate\n(DC 25),\nshadow walk\n(DC 25)\n3/day—\ndismissal\n(5th level, DC 24),\ndominate person\n(DC 24),\nfeeblemind\n(DC 24),\nmind thrust\n(5th level, DC 24)\nAt will—\nconfusion\n(DC 23),\nenervation\nStatistics\nSTR\n+11;\nDEX\n+3;\nCON\n+8;\nINT\n+6;\nWIS\n+3;\nCHA\n+3\nSkills\nAcrobatics +31 (+23 to fly), Bluff +31, Computers +31, Culture +36, Diplomacy +36, Mysticism +36, Piloting +31, Sense Motive +31\nLanguages\nAbyssal, Aklo, Auran, Common, Draconic, Ignan, Infernal, Terran\nOther Abilities\nspaceflight\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary\nSpecial Abilities\nObliterate (Su)\nA creature that is reduced to 0 Hit Points by a void dragon’s bite attack must spend 1 Resolve point or be immediately slain and reduced to dust.\nSuffocating Breath (Su)\nInstead of a cone of cold, a void dragon can breathe a 30-foot cone of energy that suffocates those it touches. Air-breathing creatures within the cone must succeed at a Fortitude save or begin attempting Constitution checks to avoid\nsuffocation\n, even if they have environmental protections.\nAn affected creature can attempt a new Fortitude saving throw at the beginning of each turn to shake off this effect and regain its air supply.\nExtra Content\nThe following extra content was found for this creature:\n-\nLunar Dragon (Dragon (Outer)) Graft Template\n-\nSolar Dragon (Dragon (Outer)) Graft Template\n-\nTime Dragon (Dragon (Outer)) Graft Template\n-\nVoid Dragon (Dragon (Outer)) Graft Template\n-\nVortex Dragon (Dragon (Outer)) Graft Template",
+  "type": "dragon",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Dragon_Old_Void.png"
+}

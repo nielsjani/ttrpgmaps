@@ -1,0 +1,47 @@
+{
+  "name": "Aerial Devil",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Aerial Devil&Family=None",
+  "source": "Starfinder #25: The Chimera Mystery pg. 56",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "animal",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+7",
+  "hp": "22",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+1",
+  "speed": "10 ft., fly 80 ft. (Ex, perfect)",
+  "melee": "bite +7 (1d6+3 P; critical bleed 1d4)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "-5",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +12 (+20 to fly), Stealth +7, Survival +7",
+  "feats": "Spring Attack",
+  "environment": "cold and temperate forests",
+  "organization": "solitary, pair, or cloud (3–8)",
+  "special_abilities": [
+    {
+      "name": "Bewildering Velocity (Ex)",
+      "description": "After moving at least 30 feet, an aerial devil gains concealment until the start of its next turn."
+    },
+    {
+      "name": "Bullet Eater (Ex)",
+      "description": "When an aerial devil would be hit by a ranged attack against KAC, it can attempt to pick the projectile out of the air with its beak as a reaction. The aerial devil attempts an Acrobatics check (DC = the result of the successful attack roll). If successful, the aerial devil takes no damage. The aerial devil must be aware of the attack and not flat-footed. An aerial devil can’t eat ammunition from incredibly large ranged weapons (such as starship’s mass driver cannon)."
+    }
+  ],
+  "description": "Aerial devils are birdlike animals with leathery wings and strong, hooked beaks. These creatures are consummate carnivores, their small frames belying their large caloric requirements. Aerial devils attack in small groups, taking turns swooping in and tearing at their victims until the creatures fall, at which point the feast begins in earnest. Thanks to their aerodynamic shape and wing structure, aerial devils can reach incredible speeds. They prefer cold and temperate woodlands (such as those found on the Brethedan moon of Marata) and nest high up in the trees. A typical aerial devil is 3 feet long and weighs a surprisingly light 10 pounds.\nBut aerial devils are not, in fact, devils in the literal sense. Instead, these creatures gained their moniker from loggers working in the forests inhabited by these creatures. They are considered dangerous pests, as they are sometimes driven to attack conservationists, hikers, tourists, and anyone else who might threaten their nests. Aerial devils have developed the impressive ability to pick incoming solid projectiles out of the air and crush the munitions in their vicious beaks. Ornithologists have yet to discover when aerial devils developed this evolutionary quirk, though not for lack of trying; it is easy to spot scientists who study these creatures from their missing digits and scarred faces.\nIn rare cases, those who live in close proximity to these little bundles of fury have been able to tame them to a limited degree and train them to do minor tricks. If an aerial devil is kept well fed—a challenge to be sure—it can learn to pick bullets out of the air on command. Some fighter pilots have a stylized image of an aerial devil stenciled onto their spacecraft, paying respect (or perhaps attempting to channel) the creature’s impressive flying ability.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAerial Devil\nSource\nStarfinder #25: The Chimera Mystery pg. 56\nAerial Devil CR 2\nXP 600\nN Small animal\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+7\nDefense\nHP\n22\nEAC\n13;\nKAC\n15\nFort\n+5;\nRef\n+7;\nWill\n+1\nDefensive Abilities\nbewildering velocity, bullet eater, evasion\nOffense\nSpeed\n10 ft., fly 80 ft. (Ex, perfect)\nMelee\nbite +7 (1d6+3 P; critical bleed 1d4)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+2;\nINT\n-5;\nWIS\n+0;\nCHA\n+0\nFeats\nSpring Attack\nSkills\nAcrobatics +12 (+20 to fly), Stealth +7, Survival +7\nEcology\nEnvironment\ncold and temperate forests\nOrganization\nsolitary, pair, or cloud (3–8)\nSpecial Abilities\nBewildering Velocity (Ex)\nAfter moving at least 30 feet, an aerial devil gains concealment until the start of its next turn.\nBullet Eater (Ex)\nWhen an aerial devil would be hit by a ranged attack against KAC, it can attempt to pick the projectile out of the air with its beak as a reaction. The aerial devil attempts an Acrobatics check (DC = the result of the successful attack roll). If successful, the aerial devil takes no damage. The aerial devil must be aware of the attack and not flat-footed. An aerial devil can’t eat ammunition from incredibly large ranged weapons (such as starship’s mass driver cannon).\nDescription\nAerial devils are birdlike animals with leathery wings and strong, hooked beaks. These creatures are consummate carnivores, their small frames belying their large caloric requirements. Aerial devils attack in small groups, taking turns swooping in and tearing at their victims until the creatures fall, at which point the feast begins in earnest. Thanks to their aerodynamic shape and wing structure, aerial devils can reach incredible speeds. They prefer cold and temperate woodlands (such as those found on the Brethedan moon of Marata) and nest high up in the trees. A typical aerial devil is 3 feet long and weighs a surprisingly light 10 pounds.\nBut aerial devils are not, in fact, devils in the literal sense. Instead, these creatures gained their moniker from loggers working in the forests inhabited by these creatures. They are considered dangerous pests, as they are sometimes driven to attack conservationists, hikers, tourists, and anyone else who might threaten their nests. Aerial devils have developed the impressive ability to pick incoming solid projectiles out of the air and crush the munitions in their vicious beaks. Ornithologists have yet to discover when aerial devils developed this evolutionary quirk, though not for lack of trying; it is easy to spot scientists who study these creatures from their missing digits and scarred faces.\nIn rare cases, those who live in close proximity to these little bundles of fury have been able to tame them to a limited degree and train them to do minor tricks. If an aerial devil is kept well fed—a challenge to be sure—it can learn to pick bullets out of the air on command. Some fighter pilots have a stylized image of an aerial devil stenciled onto their spacecraft, paying respect (or perhaps attempting to channel) the creature’s impressive flying ability.",
+  "type": "animal",
+  "category": "alien"
+}

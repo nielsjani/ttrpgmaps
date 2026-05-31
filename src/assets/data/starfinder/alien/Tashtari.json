@@ -1,0 +1,49 @@
+{
+  "name": "Tashtari",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tashtari&Family=Tashtari",
+  "source": "Alien Archive 2 pg. 124",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+2",
+  "resistances": "fire 5",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +9 (1d6+5 P)",
+  "ranged": "muzzle beam +12 (1d4+3 F; critical burn 1d4)",
+  "offensive_abilities": "bristle flash",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +8, Athletics +8 (+16 to climb), Stealth +13",
+  "environment": "any forests or marshes (Castrovel)",
+  "organization": "pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Bristle Flash (Ex)",
+      "description": "Once per day as a standard action, a tashtari can cause its filaments to glow with intense light. Each creature within 60 feet must succeed at a DC 12 Fortitude save or be dazzled for 1d4 rounds. This ability has no effect on sightless creatures. Tashtaris and tashtari alphas are immune to the effects of this ability."
+    },
+    {
+      "name": "Muzzle Beam (Ex)",
+      "description": "As an attack, a tashtari can unleash a focused ray of light from its mouth that can burn a target like the beam of a laser pistol. This ray has a range increment of 80 feet."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTashtari\nSource\nAlien Archive 2 pg. 124\nThe first glimpse most observers have of a tashtari pack is a far-off twinkling of lights, which is easily mistaken for swamp gas or the glint of moonlight. Produced by the coat of supple filaments that cover a tashtari’s body, these phosphorescent lights facilitate communication, allowing tashtari packs to silently coordinate while searching for prey and setting up ambushes. Tashtaris also use this luminescence for social interactions. Tashtaris evolved their tactics and laser attacks to hunt the small, quick-moving mammals of their native habitat on Castrovel, but these predators are not shy about taking down larger prey if circumstances are in their favor.\nA pack of tashtaris consists of a dominant mating pair, their offspring, and close relatives. Juvenile tashtaris leave the pack soon after reaching maturity to seek mates from unrelated groups and found new packs.\nTashtaris are nocturnal. During the day, they use the flexible claws on their trio of multijointed legs to scramble to the sunlit tops of tall trees in their habitat. They spend much of the day basking, with their photoreceptive filaments raised to maximize sunlight absorption. This basking behavior, more common in cold-blooded creatures, offsets the tremendous caloric demands of the tashtari’s muzzle laser. Instead of using bioluminescence, the tashtari stores solar energy gathered by its filaments in a photoenergetic node at its throat. When attacking, the tashtari uses a flexible focusing membrane to concentrate energy into a coherent, deadly beam.\nSentient species of Castrovel refer to these beasts as tashtaris, but offworlders have nicknamed the creatures “laser wolves,” based on their hunting behavior and unique physiology. Attempts to domesticate tashtaris have spread the creatures to far-flung parts of the galaxy, but trainers must closely monitor the creatures’ intake of solar radiation. Tashtaris transplanted to systems with stronger solar output can become dangerously aggressive.\nTashtari Biotech\nHunters can do brisk business harvesting the filaments, photoenergetic nodes, and focusing membranes of tashtaris and selling them to bioengineers. If not for conservation efforts on Castrovel, tashtaris could have been hunted to extinction, since their photosensitive adaptations are difficult and expensive to duplicate through synthetic means. Cessation of hostilities between the formians and lashuntas has allowed a recent surge in the regulated trade of biotech that incorporates tashtari tissue. Explorers and scouts equip themselves with\nfocusing membranes\nor\nfilament mesh\n, and many people throughout the Pact Worlds use\nphotoenergetic nodes\nfor practical and cosmetic purposes.\nAliens in the \"Tashtari\" Family\nName\nCR\nTashtari\n3\nTashtari Alpha\n7\nTashtari\nSource\nAlien Archive 2 pg. 124\nTashtari CR 3\nXP 800\nN Medium magical beast\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+7;\nRef\n+7;\nWill\n+2\nResistances\nfire 5\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +9 (1d6+5 P)\nRanged\nmuzzle beam +12 (1d4+3 F; critical burn 1d4)\nOffensive Abilities\nbristle flash\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n-1\nSkills\nAcrobatics +8, Athletics +8 (+16 to climb), Stealth +13\nEcology\nEnvironment\nany forests or marshes (Castrovel)\nOrganization\npack (3–8)\nSpecial Abilities\nBristle Flash (Ex)\nOnce per day as a standard action, a tashtari can cause its filaments to glow with intense light. Each creature within 60 feet must succeed at a DC 12 Fortitude save or be dazzled for 1d4 rounds. This ability has no effect on sightless creatures. Tashtaris and tashtari alphas are immune to the effects of this ability.\nMuzzle Beam (Ex)\nAs an attack, a tashtari can unleash a focused ray of light from its mouth that can burn a target like the beam of a laser pistol. This ray has a range increment of 80 feet.",
+  "type": "magical beast",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Tashtari.png"
+}

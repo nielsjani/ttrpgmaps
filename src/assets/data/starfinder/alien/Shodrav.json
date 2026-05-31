@@ -1,0 +1,59 @@
+{
+  "name": "Shodrav",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shodrav&Family=None",
+  "source": "Starfinder #12: Heart of Night pg. 59",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "outsider (evil, extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision,",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+12",
+  "weaknesses": "light blindness",
+  "speed": "40 ft.",
+  "melee": "bite +24 (4d6+19 P) or shadow tendril +22 (see text; 3d8+11 P; critical bleed 2d6)",
+  "space": "10 ft.",
+  "reach": "10 ft. (50 ft. with shadow tendril)",
+  "offensive_abilities": "create darkness, shadow jaunt,",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "-1"
+  },
+  "skills": "Athletics +20, Stealth +25",
+  "languages": "Aklo",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Planar Sight (Su)",
+      "description": "A shodrav can see from the Shadow Plane into any coterminous plane, and vice versa."
+    },
+    {
+      "name": "Shadow Jaunt (Su)",
+      "description": "A shodrav can move from the Shadow Plane to any coterminous plane, and vice versa, using 10 feet of movement."
+    },
+    {
+      "name": "Shadow Tendril (Su)",
+      "description": "A shodrav’s shadow tendril targets EAC."
+    },
+    {
+      "name": "Surprise Action (Ex)",
+      "description": "A shodrav that can act during a surprise round can take its full round of actions."
+    }
+  ],
+  "description": "A shodrav resembles a bizarre theropod with three oval eyes and long flaps of skin dangling to each side of its fanged mouth. Countless tendrils of semitangible shadow weave through the shodrav’s pallid body, leaving tubular openings like the burrowing of worms through flesh. These tendrils can cause similar wounds in a shodrav’s prey, sucking away life force before the shodrav devours the flesh.\nWhile prey bleeds from wounds dealt by a shodrav’s tendrils, anyone looking through such a wound from either the Material Plane or the Shadow Plane sees the corresponding area on the opposite plane. These bizarre openings remain should a victim die from its injuries. Unscrupulous scholars and Kuthite zealots seek corpses that bear these windows to the Shadow Plane, harvesting the affected parts to create magic items.\nNative to the Shadow Plane, shodravs distort the boundary between their home plane and other planes when they continuously inhabit areas where the Shadow Plane borders another. As the barrier thins, other creatures might inadvertently cross between the planes. In time, the veil can cease to exist altogether, with the Plane of Shadow’s features overwriting those of the corresponding area on the bordering plane. Older and stronger shodravs can affect greater areas, but only rarely an area wider than a large structure.\nShodravs prefer prey from the Material Plane, and often make lairs in Shadow Plane regions that border it, remaining until their native territories have displaced the Material Plane counterparts. Before the transformation is complete, a shodrav’s hidden presence can be inferred by mysterious disappearances or the unexplained presence of other creatures from the Shadow Plane. If a shodrav leaves its lair for an extended time, the region slowly returns to normal as the dimensional barriers re-form.\nThe average shodrav is 8 feet tall and 15 feet long, counting its tail. It weighs 750 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShodrav\nSource\nStarfinder #12: Heart of Night pg. 59\nShodrav CR 11\nXP 12,800\nNE Large outsider (evil, extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision,\r\n planar sight;\nPerception\n+20\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+13;\nRef\n+13;\nWill\n+12\nWeaknesses\nlight blindness\nOffense\nSpeed\n40 ft.\nMelee\nbite +24 (4d6+19 P) or shadow tendril +22 (see text; 3d8+11 P; critical bleed 2d6)\nSpace\n10 ft.;\nReach\n10 ft. (50 ft. with shadow tendril)\nOffensive Abilities\ncreate darkness, shadow jaunt, \r\nsurprise action\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-3;\nWIS\n+2;\nCHA\n-1\nSkills\nAthletics +20, Stealth +25\nLanguages\nAklo\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary\nSpecial Abilities\nPlanar Sight (Su)\nA shodrav can see from the Shadow Plane into any coterminous plane, and vice versa.\nShadow Jaunt (Su)\nA shodrav can move from the Shadow Plane to any coterminous plane, and vice versa, using 10 feet of movement.\nShadow Tendril (Su)\nA shodrav’s shadow tendril targets EAC.\nSurprise Action (Ex)\nA shodrav that can act during a surprise round can take its full round of actions.\nDescription\nA shodrav resembles a bizarre theropod with three oval eyes and long flaps of skin dangling to each side of its fanged mouth. Countless tendrils of semitangible shadow weave through the shodrav’s pallid body, leaving tubular openings like the burrowing of worms through flesh. These tendrils can cause similar wounds in a shodrav’s prey, sucking away life force before the shodrav devours the flesh.\nWhile prey bleeds from wounds dealt by a shodrav’s tendrils, anyone looking through such a wound from either the Material Plane or the Shadow Plane sees the corresponding area on the opposite plane. These bizarre openings remain should a victim die from its injuries. Unscrupulous scholars and Kuthite zealots seek corpses that bear these windows to the Shadow Plane, harvesting the affected parts to create magic items.\nNative to the Shadow Plane, shodravs distort the boundary between their home plane and other planes when they continuously inhabit areas where the Shadow Plane borders another. As the barrier thins, other creatures might inadvertently cross between the planes. In time, the veil can cease to exist altogether, with the Plane of Shadow’s features overwriting those of the corresponding area on the bordering plane. Older and stronger shodravs can affect greater areas, but only rarely an area wider than a large structure.\nShodravs prefer prey from the Material Plane, and often make lairs in Shadow Plane regions that border it, remaining until their native territories have displaced the Material Plane counterparts. Before the transformation is complete, a shodrav’s hidden presence can be inferred by mysterious disappearances or the unexplained presence of other creatures from the Shadow Plane. If a shodrav leaves its lair for an extended time, the region slowly returns to normal as the dimensional barriers re-form.\nThe average shodrav is 8 feet tall and 15 feet long, counting its tail. It weighs 750 pounds.",
+  "type": "outsider (evil, extraplanar)",
+  "category": "alien"
+}

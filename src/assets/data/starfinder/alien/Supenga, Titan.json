@@ -1,0 +1,55 @@
+{
+  "name": "Supenga, Titan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Titan&Family=Supenga",
+  "source": "Alien Archive 4 pg. 120",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "plant",
+  "init": "+5",
+  "senses": "blindsense (vibration) 60 ft., low-light vision;",
+  "perception": "+26",
+  "hp": "290",
+  "eac": "29",
+  "kac": "31",
+  "fort": "+19",
+  "ref": "+17",
+  "will": "+13",
+  "immunities": "plant immunities;",
+  "resistances": "cold 10, fire 10",
+  "weaknesses": "vulnerable to slashing",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +26 (8d6+24 P plus epicuticular enzyme) or claw +28 (6d6+24 S) or tail +28 (8d6+24 B)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with tail)",
+  "ability_scores": {
+    "str": "+9",
+    "dex": "+5",
+    "con": "+7",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +26, Athletics +31",
+  "environment": "warm and temperate deserts",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Epicuticular Enzyme (Ex)",
+      "description": "The wax coating a supenga’s teeth contains a digestive, paralytic enzyme. When a supenga damages a creature with its bite, the target must succeed at a DC 21 Fortitude save or gain the paralyzed condition for 1d4 rounds. As a full action, the target can attempt a new save to end the condition. This is a poison effect."
+    },
+    {
+      "name": "Gnawing Brood (Ex)",
+      "description": "A typical supenga titan’s body is crawling with its pups, which hungrily bite at nearby prey. Creatures in the aura take 6d6 piercing damage (Reflex DC 21 negates). If a supenga titan takes 30 or more damage from an effect that affects all targets in an area (such as from a grenade or a blast weapon), its gnawing brood aura is deactivated and can’t be reactivated for 1 round."
+    },
+    {
+      "name": "Self-Propagate (Ex)",
+      "description": "When a supenga titan takes slashing damage, its gnawing brood aura’s damage increases to 6d6+12 until the end of its next turn."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSupenga\nSource\nAlien Archive 4 pg. 120\nWhereas most desert plants in the Pact Worlds and beyond rely on endurance and luck to survive between intermittent rains, the hardy supengas enjoy another approach: carnivory. A supenga’s body consists of fleshy stalks and storage bulbs covered by a coat of dense, vibrant, sun-stressed succulent leaves. Not only can these leaves move independently, creating rippling displays that reflect the supenga’s moods, but specialized leaves along its body, feet, and mouth function as protective studs, claws, and teeth, respectively. They even see through highly evolved leaves that serve as their eyes by reflecting light through a wide range of colored chlorophyll.\nSupengas’ waxy leaf coating staves off the worst of heat, cold, and dehydration, letting these plants wander with little concern for shade and shelter. Their epicuticular wax is also poisonous, and supengas’ leafy teeth have an especially virulent version of the toxin that induces momentary paralysis.\nInsatiable eaters, supengas have adapted to gorge whenever possible to prepare for lean seasons. Pups slowly bud and grow from reproductive shoots along their parent’s back, forming inconspicuous rosettes that swell into scaled fruits. Once developed, a pup uncurls, plucks itself free, and hides among its parent’s foliage for several years, rarely descending except to scavenge scraps. It stays until it’s ready for better feeding grounds or its exasperated parent at last shakes it free. Solitary pups typically survive on a steady supply of smaller animals like squoxes; pups from the same supenga brood commonly set off as a group, using their combined strength to take down much larger prey.\nUpon growing to about 15 feet in total length, a supenga’s physical development slows considerably as it directs much of its energy toward reproduction. Known as titans, these mature adults produce as many as several hundred offspring over a century.\nIn the Pact Worlds, supengas roam stretches of Akiton and the Fullbright wastes of Verces, but their largest population traverses the northern and western deserts of Castrovel’s Colonies.\nAliens in the \"Supenga\" Family\nName\nCR\nPup\n5\nTitan\n15\nSupenga, Titan\nSource\nAlien Archive 4 pg. 120\nTitan CR 15\nXP 51,200\nN Huge plant\nInit\n+5;\nSenses\nblindsense (vibration) 60 ft., low-light vision;\nPerception\n+26\nAura\ngnawing brood (10 ft., Reflex DC 21)\nDefense\nHP\n290\nEAC\n29;\nKAC\n31\nFort\n+19;\nRef\n+17;\nWill\n+13\nDefensive Abilities\nferocity, self-propagate Immunities plant immunities;\nResistances\ncold 10, fire 10\nWeaknesses\nvulnerable to slashing\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +26 (8d6+24 P plus epicuticular enzyme) or claw +28 (6d6+24 S) or tail +28 (8d6+24 B)\nMultiattack\n2 claws +22 (6d6+24 S), tail +22 (8d6+24 B)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with tail)\nStatistics\nSTR\n+9;\nDEX\n+5;\nCON\n+7;\nINT\n-3;\nWIS\n+2;\nCHA\n+1\nSkills\nAcrobatics +26, Athletics +31\nEcology\nEnvironment\nwarm and temperate deserts\nOrganization\nsolitary\nSpecial Abilities\nEpicuticular Enzyme (Ex)\nThe wax coating a supenga’s teeth contains a digestive, paralytic enzyme. When a supenga damages a creature with its bite, the target must succeed at a DC 21 Fortitude save or gain the paralyzed condition for 1d4 rounds. As a full action, the target can attempt a new save to end the condition. This is a poison effect.\nGnawing Brood (Ex)\nA typical supenga titan’s body is crawling with its pups, which hungrily bite at nearby prey. Creatures in the aura take 6d6 piercing damage (Reflex DC 21 negates). If a supenga titan takes 30 or more damage from an effect that affects all targets in an area (such as from a grenade or a blast weapon), its gnawing brood aura is deactivated and can’t be reactivated for 1 round.\nSelf-Propagate (Ex)\nWhen a supenga titan takes slashing damage, its gnawing brood aura’s damage increases to 6d6+12 until the end of its next turn.",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Supenga_Titan.png"
+}

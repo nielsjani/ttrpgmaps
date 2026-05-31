@@ -1,0 +1,48 @@
+{
+  "name": "Augerwing",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Augerwing&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 57",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+16",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+4",
+  "speed": "20 ft., fly 50 ft. (Ex, perfect), swim 10 ft.",
+  "melee": "beak +11 (1d6+8 P) or talon +9 (1d8+8 S; critical 1d4 bleed)",
+  "ranged": "enzyme jet +14 (1d10+5 A plus embalming enzymes)",
+  "offensive_abilities": "impale",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Athletics +11 (+19 to swim)",
+  "environment": "any land or sky",
+  "organization": "solitary, pair, quiver (3–10), flight (11–30)",
+  "special_abilities": [
+    {
+      "name": "Enzyme Jet (Ex)",
+      "description": "As a ranged attack, an augerwing can open its beak pores to spray high-pressure streams of ink-like enzymes with a maximum range of 30 feet and no range increment. This attack has the unwieldy weapon special property and can be used only every 1d4+1 rounds."
+    },
+    {
+      "name": "Impale (Ex)",
+      "description": "An augerwing can perform a spiraling dive to drive its beak into prey. When the augerwing performs a charge and deals damage, if the result of the attack rolls meets or exceeds the target’s KAC + 4, the augerwing’s beak pierces the target’s body; if the target is Medium or smaller, it is also grappled. The augerwing can keep its beak embedded in the target if it succeeds at further grapple combat maneuvers as normal; it receives a +4 racial bonus to these attacks. A creature can pull out the augerwing’s beak (and remove the grappled condition) with a successful Acrobatics check to escape or grapple combat maneuver as normal for the condition. A creature impaled in this way is exposed to embalming enzymes (see above) at the start of its turn.\nEmbalming Enzymes\nType\npoison (injury)\nTrack\nDexterity (special);\nFrequency\n1/minute for 10 minutes\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered—Immobile\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "An augerwing is a tall, lean bird with two sets of wings and eight legs. Its long, sinuous, rasp-covered beak splits into multiple sections, each of which sports numerous pores. Colored bright yellow or red, each augerwing’s beak displays a pattern of spots unique to that individual. An augerwing has eight spindly legs and two sets of wings with muted brown, gray, and white plumage, keeping its secondary wingspan close to its body when not in use. By switching between wing pairs while flying, an augerwing moves through the air in a hypnotic, twisting spiral pattern that has endeared Pharasmin cultures to this strange avian.\nWhen hunting, an augerwing approaches its prey in a rapid, spinning dive. Strong muscular and skeletal structures help the bird muster the power to drill into their target’s flesh. It then continues to twist and stab, injecting fixative enzymes into its prey to limit mobility.\nGroups of augerwings use large animal carcasses as nests and lay their tiny eggs inside the corpse’s bones; after the eggs have hatched, these hollowed-out bones resemble flutes and can fetch a high price. The birds have spread throughout Near Space and have mostly resisted domestication efforts.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAugerwing\nSource\nStarfinder #36: Professional Courtesy pg. 57\nAugerwing CR 5\nXP 1,600\nN Medium animal\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+16\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+9;\nWill\n+4\nOffense\nSpeed\n20 ft., fly 50 ft. (Ex, perfect), swim 10 ft.\nMelee\nbeak +11 (1d6+8 P) or talon +9 (1d8+8 S; critical 1d4 bleed)\nRanged\nenzyme jet +14 (1d10+5 A plus embalming enzymes)\nOffensive Abilities\nimpale\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +16 (+24 to fly), Athletics +11 (+19 to swim)\nEcology\nEnvironment\nany land or sky\nOrganization\nsolitary, pair, quiver (3–10), flight (11–30)\nSpecial Abilities\nEnzyme Jet (Ex)\nAs a ranged attack, an augerwing can open its beak pores to spray high-pressure streams of ink-like enzymes with a maximum range of 30 feet and no range increment. This attack has the unwieldy weapon special property and can be used only every 1d4+1 rounds.\nImpale (Ex)\nAn augerwing can perform a spiraling dive to drive its beak into prey. When the augerwing performs a charge and deals damage, if the result of the attack rolls meets or exceeds the target’s KAC + 4, the augerwing’s beak pierces the target’s body; if the target is Medium or smaller, it is also grappled. The augerwing can keep its beak embedded in the target if it succeeds at further grapple combat maneuvers as normal; it receives a +4 racial bonus to these attacks. A creature can pull out the augerwing’s beak (and remove the grappled condition) with a successful Acrobatics check to escape or grapple combat maneuver as normal for the condition. A creature impaled in this way is exposed to embalming enzymes (see above) at the start of its turn.\nEmbalming Enzymes\nType\npoison (injury)\nTrack\nDexterity (special);\nFrequency\n1/minute for 10 minutes\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered—Immobile\nCure\n2 consecutive saves\nDescription\nAn augerwing is a tall, lean bird with two sets of wings and eight legs. Its long, sinuous, rasp-covered beak splits into multiple sections, each of which sports numerous pores. Colored bright yellow or red, each augerwing’s beak displays a pattern of spots unique to that individual. An augerwing has eight spindly legs and two sets of wings with muted brown, gray, and white plumage, keeping its secondary wingspan close to its body when not in use. By switching between wing pairs while flying, an augerwing moves through the air in a hypnotic, twisting spiral pattern that has endeared Pharasmin cultures to this strange avian.\nWhen hunting, an augerwing approaches its prey in a rapid, spinning dive. Strong muscular and skeletal structures help the bird muster the power to drill into their target’s flesh. It then continues to twist and stab, injecting fixative enzymes into its prey to limit mobility.\nGroups of augerwings use large animal carcasses as nests and lay their tiny eggs inside the corpse’s bones; after the eggs have hatched, these hollowed-out bones resemble flutes and can fetch a high price. The birds have spread throughout Near Space and have mostly resisted domestication efforts.",
+  "type": "animal",
+  "category": "alien"
+}

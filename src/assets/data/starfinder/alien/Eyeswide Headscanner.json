@@ -1,0 +1,49 @@
+{
+  "name": "Eyeswide Headscanner",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Eyeswide Headscanner&Family=None",
+  "source": "Drift Crisis pg. 152",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "humanoid (lashunta)",
+  "init": "+0",
+  "senses": "blindsense (thought) 60 ft.;",
+  "perception": "+15",
+  "hp": "42",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+9",
+  "speed": "30 ft.",
+  "melee": "tactical switchblade +6 (1d4+5 S)",
+  "ranged": "microwave scorchgun +8 (1d6+4 F)",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\ninflict pain\n(DC 17),\nstatus\n3/day—\ncharm person\n(DC 16),\ndetect thoughts\n(DC 16),\nmind thrust\n(1st level, DC 16)\nAt will—\ndaze\n(DC 15),\nghost sound\n(DC 15)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Bluff +10, Culture +10, Diplomacy +15, Intimidate + 15, Mysticism +10, Sense Motive +10",
+  "languages": "Castrovelian, Common, Elven; telepathy 60 ft.",
+  "gear": "casual stationwear, microwave scorchgun with 1 battery (20 charges), tactical switchblade",
+  "environment": "any (Absalom Station)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Hardboiled (Su)",
+      "description": "Twice per day, a headscanner can reroll a failed Bluff or Intimidate check, and the DCs of Bluff, Diplomacy, and Intimidate checks against a headscanner are 5 higher than normal."
+    }
+  ],
+  "description": "The Eyeswide Agency uses divination magic along with careful infosphere research to dig up leads on missing people, including those lost to the Drift Crash, but those leads require follow-up that can’t be performed from agency headquarters on Absalom Station. Instead, most fieldwork falls to a veritable army of psychic investigators, known across the galaxy as headscanners.\nThe typical headscanner is a self-reliant, rough-and-tumble detective used to operating in remote locations and, when necessary, outside the law. Seldom violent or cruel by nature, they’re nonetheless jaded from years of exposure to the galaxy’s seedy underbelly and they tend to have a dim view of others. Most headscanners presume other people will always act in the most selfish and profitable manner possible, no matter who they hurt in the process. Of course, given a headscanner’s typical caseload, this rather pessimistic perspective is all too often proven right.\nA headscanner almost always works alone—the resources of the Eyeswide Agency are simply stretched too thin for the luxury of multiple agents working together, and they rarely subcontract or partner up with non-agents. Sometimes, however, two missing persons cases converge and lead a pair of headscanners to become temporary partners. Similarly, their company-issued credit allowance is infamously insufficient, and virtually every successful headscanner relies on a web of trusted contacts to provide tips, transportation, safe houses, and backup—not to mention discounts on needed goods and services. Headscanners often have a favorite weapon they rely on for intimidation or protection as much as any actual show of force.\nTheir line of work, combined with their tendency to play their cards close to the chest, often puts headscanners at odds with other investigators, even those with closely aligned goals. Many groups of galactic adventurers, chasing down leads or attempting to crack a case, have crossed paths with an uncooperative Eyeswide agent on the same trail, sometimes making mistaken assumptions about the agent’s involvement in the case. While such misunderstandings are often resolved without violence, headscanners in search of a payday are rarely above slyly misdirecting such do-gooders’ attentions to false leads and dead ends.\nThe Eyeswide Agency has historically recruited most headscanners from well‑known telepathic species in the Pact Worlds, such as barathus, lashuntas, and shirrens, as well as from across the galaxy—especially those with extraordinary psychic gifts besides. In the wake of the Drift Crisis and the immense increase in demand for headscanner services, recruitment has spiked and rumors abound of lowered standards for qualifications. The agency has begun to explore monetary rewards for those who reveal poseurs masquerading as headscanners, hoping to make a quick credit off the desperate and trusting.\nHeadscanners can manifest a wide array of psychic powers; the spell-like abilities listed in the stat block above are just a representative example. Precogs in particular make apt headscanners, though a wide variety of specializations, from brawny physicality to technomagical aptitude, can come in handy in the investigations these agents typically tackle.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEyeswide Headscanner\nSource\nDrift Crisis pg. 152\nEyeswide Headscanner CR 4\nXP 1,200\nCN Medium humanoid (lashunta)\nInit\n+0;\nSenses\nblindsense (thought) 60 ft.;\nPerception\n+15\nDefense\nHP\n42\nEAC\n15;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+9\nOffense\nSpeed\n30 ft.\nMelee\ntactical switchblade +6 (1d4+5 S)\nRanged\nmicrowave scorchgun +8 (1d6+4 F)\nSpell-Like Abilities\n(CL 4th)\n1/day—\ninflict pain\n(DC 17),\nstatus\n3/day—\ncharm person\n(DC 16),\ndetect thoughts\n(DC 16),\nmind thrust\n(1st level, DC 16)\nAt will—\ndaze\n(DC 15),\nghost sound\n(DC 15)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+1;\nINT\n+3;\nWIS\n+1;\nCHA\n+5\nSkills\nBluff +10, Culture +10, Diplomacy +15, Intimidate + 15, Mysticism +10, Sense Motive +10\nLanguages\nCastrovelian, Common, Elven; telepathy 60 ft.\nGear\ncasual stationwear, microwave scorchgun with 1 battery (20 charges), tactical switchblade\nEcology\nEnvironment\nany (Absalom Station)\nOrganization\nsolitary or pair\nSpecial Abilities\nHardboiled (Su)\nTwice per day, a headscanner can reroll a failed Bluff or Intimidate check, and the DCs of Bluff, Diplomacy, and Intimidate checks against a headscanner are 5 higher than normal.\nDescription\nThe Eyeswide Agency uses divination magic along with careful infosphere research to dig up leads on missing people, including those lost to the Drift Crash, but those leads require follow-up that can’t be performed from agency headquarters on Absalom Station. Instead, most fieldwork falls to a veritable army of psychic investigators, known across the galaxy as headscanners.\nThe typical headscanner is a self-reliant, rough-and-tumble detective used to operating in remote locations and, when necessary, outside the law. Seldom violent or cruel by nature, they’re nonetheless jaded from years of exposure to the galaxy’s seedy underbelly and they tend to have a dim view of others. Most headscanners presume other people will always act in the most selfish and profitable manner possible, no matter who they hurt in the process. Of course, given a headscanner’s typical caseload, this rather pessimistic perspective is all too often proven right.\nA headscanner almost always works alone—the resources of the Eyeswide Agency are simply stretched too thin for the luxury of multiple agents working together, and they rarely subcontract or partner up with non-agents. Sometimes, however, two missing persons cases converge and lead a pair of headscanners to become temporary partners. Similarly, their company-issued credit allowance is infamously insufficient, and virtually every successful headscanner relies on a web of trusted contacts to provide tips, transportation, safe houses, and backup—not to mention discounts on needed goods and services. Headscanners often have a favorite weapon they rely on for intimidation or protection as much as any actual show of force.\nTheir line of work, combined with their tendency to play their cards close to the chest, often puts headscanners at odds with other investigators, even those with closely aligned goals. Many groups of galactic adventurers, chasing down leads or attempting to crack a case, have crossed paths with an uncooperative Eyeswide agent on the same trail, sometimes making mistaken assumptions about the agent’s involvement in the case. While such misunderstandings are often resolved without violence, headscanners in search of a payday are rarely above slyly misdirecting such do-gooders’ attentions to false leads and dead ends.\nThe Eyeswide Agency has historically recruited most headscanners from well‑known telepathic species in the Pact Worlds, such as barathus, lashuntas, and shirrens, as well as from across the galaxy—especially those with extraordinary psychic gifts besides. In the wake of the Drift Crisis and the immense increase in demand for headscanner services, recruitment has spiked and rumors abound of lowered standards for qualifications. The agency has begun to explore monetary rewards for those who reveal poseurs masquerading as headscanners, hoping to make a quick credit off the desperate and trusting.\nHeadscanners can manifest a wide array of psychic powers; the spell-like abilities listed in the stat block above are just a representative example. Precogs in particular make apt headscanners, though a wide variety of specializations, from brawny physicality to technomagical aptitude, can come in handy in the investigations these agents typically tackle.",
+  "type": "humanoid (lashunta)",
+  "category": "alien"
+}

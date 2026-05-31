@@ -1,0 +1,60 @@
+{
+  "name": "Angel, Exodus",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Exodus&Family=Angel",
+  "source": "Starfinder #32: The Starstone Blockade pg. 55",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "outsider (angel, good, extraplanar)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., detect alignment, low-light vision;",
+  "perception": "+29",
+  "hp": "340",
+  "eac": "31",
+  "kac": "33",
+  "fort": "+19",
+  "ref": "+17",
+  "will": "+19",
+  "dr": "10/evil",
+  "sr": "28",
+  "immunities": "acid, cold, petrification;",
+  "resistances": "electricity 10, fire 10;",
+  "speed": "30 ft., fly 60 ft. (Su, average)",
+  "melee": "holy inferno skyfire sword",
+  "ranged": "holy zenith laser pistol",
+  "offensive_abilities": "side swipe",
+  "spell_like_abilities": {
+    "caster_info": "CL 17th",
+    "spells": "1/day—\nmass suggestion\n(DC 22)\n3/day—\nresistant aegis\nAt will—\nmake whole\n,\nshield other"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+5",
+    "con": "+8",
+    "int": "+1",
+    "wis": "+11",
+    "cha": "+3"
+  },
+  "skills": "Culture +29, Disguise +29, Piloting +34",
+  "languages": "Celestial, Draconic, Infernal; truespeech",
+  "other_abilities": "change shape (any Small, Medium, or Large humanoid), holy chariot",
+  "gear": "bespoke echelon fashion,",
+  "environment": "any (Heaven)",
+  "organization": "solitary, pair, or caravan (3–6)",
+  "special_abilities": [
+    {
+      "name": "Holy Chariot (Su)",
+      "description": "As a move action, an exodus angel can conjure a celestial motorcycle called a holy chariot as per\nphantom cycle\n(CL 17th) that has a speed of 75 feet, a full speed of 1,100 feet, and an overland speed of 110 mph. This holy chariot also has an item level of 12th, EAC of 26, a KAC of 28, 200 Hit Points, and a hardness of 10; it can also traverse difficult terrain without penalty and deals 11d10 bludgeoning damage on a collision (Reflex DC 19). The angel can board the holy chariot as part of conjuring it. Due to its divine connection with the holy chariot, the exodus angel doesn’t suffer attack roll penalties while riding the vehicle. An exodus angel must be driving their holy chariot to use their side swipe ability and can dismiss the vehicle as a swift action."
+    },
+    {
+      "name": "Side Swipe (Ex)",
+      "description": "When an exodus angel takes any full action to pilot their celestial motorcycle (race, ram, or run over), the angel can make a single melee attack against any one creature the vehicle is adjacent to at any point during its movement, though the angel cannot attack any creatures they target using ram or run over with this full action."
+    }
+  ],
+  "description": "Whether by choice or by force, many communities throughout the galaxy have ventured from their homes, risking the unknown to seek out new lands and opportunities for their people. Exodus angels serve as the guardians of these communities, watching over migrant groups as they wander. The angels remain within these new societies for several generations, disguised as mundane citizens, before returning to Heaven. As a result, these angels are sometimes considered by their wards to be spiritual embodiments of their associated diasporas—both a reminder of the community’s roots and a guardian of the new society that has been created.\nExodus angels are highly varied in their appearance, often taking on cultural aspects from the community they guard. Though they seek to avoid undue influence on their mortal neighbors, their quiet efforts to aid these communities and preserve unique cultural roots often means they become important, if niche, community leaders.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAngel (Creature Subtype) Graft Template\n-\nAngel (Summoning) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAngel\nAliens in the \"Angel\" Family\nName\nCR\nBarachius\n7\nExodus\n17\nAngel, Exodus\nSource\nStarfinder #32: The Starstone Blockade pg. 55\nExodus CR 17\nXP 102,400\nNG Medium outsider (angel, good, extraplanar)\nInit\n+5;\nSenses\ndarkvision 60 ft., detect alignment, low-light vision;\nPerception\n+29\nAura\nprotective aura (100 ft.)\nDefense\nHP\n340\nEAC\n31;\nKAC\n33\nFort\n+19;\nRef\n+17;\nWill\n+19; +4 vs. poison\nDR\n10/evil;\nImmunities\nacid, cold, petrification;\nResistances\nelectricity 10, fire 10;\nSR\n28\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, average)\nMelee\nholy inferno skyfire sword\n+32 (7d8+22 F; critical burn 4d12)\nRanged\nholy zenith laser pistol\n+29 (8d4+17 F; critical burn 4d4)\nOffensive Abilities\nside swipe\nSpell-Like Abilities\n(CL 17th)\n1/day—\nmass suggestion\n(DC 22)\n3/day—\nresistant aegis\nAt will—\nmake whole\n,\nshield other\nStatistics\nSTR\n+5;\nDEX\n+5;\nCON\n+8;\nINT\n+1;\nWIS\n+11;\nCHA\n+3\nSkills\nCulture +29, Disguise +29, Piloting +34\nLanguages\nCelestial, Draconic, Infernal; truespeech\nOther Abilities\nchange shape (any Small, Medium, or Large humanoid), holy chariot\nGear\nbespoke echelon fashion,\nholy inferno skyfire sword\nwith 2 batteries (20 charges each),\nholy zenith laser pistol\nwith 1 super-capacity battery (80 charges)\nEcology\nEnvironment\nany (Heaven)\nOrganization\nsolitary, pair, or caravan (3–6)\nSpecial Abilities\nHoly Chariot (Su)\nAs a move action, an exodus angel can conjure a celestial motorcycle called a holy chariot as per\nphantom cycle\n(CL 17th) that has a speed of 75 feet, a full speed of 1,100 feet, and an overland speed of 110 mph. This holy chariot also has an item level of 12th, EAC of 26, a KAC of 28, 200 Hit Points, and a hardness of 10; it can also traverse difficult terrain without penalty and deals 11d10 bludgeoning damage on a collision (Reflex DC 19). The angel can board the holy chariot as part of conjuring it. Due to its divine connection with the holy chariot, the exodus angel doesn’t suffer attack roll penalties while riding the vehicle. An exodus angel must be driving their holy chariot to use their side swipe ability and can dismiss the vehicle as a swift action.\nSide Swipe (Ex)\nWhen an exodus angel takes any full action to pilot their celestial motorcycle (race, ram, or run over), the angel can make a single melee attack against any one creature the vehicle is adjacent to at any point during its movement, though the angel cannot attack any creatures they target using ram or run over with this full action.\nDescription\nWhether by choice or by force, many communities throughout the galaxy have ventured from their homes, risking the unknown to seek out new lands and opportunities for their people. Exodus angels serve as the guardians of these communities, watching over migrant groups as they wander. The angels remain within these new societies for several generations, disguised as mundane citizens, before returning to Heaven. As a result, these angels are sometimes considered by their wards to be spiritual embodiments of their associated diasporas—both a reminder of the community’s roots and a guardian of the new society that has been created.\nExodus angels are highly varied in their appearance, often taking on cultural aspects from the community they guard. Though they seek to avoid undue influence on their mortal neighbors, their quiet efforts to aid these communities and preserve unique cultural roots often means they become important, if niche, community leaders.\nExtra Content\nThe following extra content was found for this creature:\n-\nAngel (Creature Subtype) Graft Template\n-\nAngel (Summoning) Graft Template",
+  "type": "outsider (angel, good, extraplanar)",
+  "category": "alien"
+}

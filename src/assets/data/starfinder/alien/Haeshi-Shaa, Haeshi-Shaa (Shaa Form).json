@@ -1,0 +1,68 @@
+{
+  "name": "Haeshi-Shaa, Haeshi-Shaa (Shaa Form)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Haeshi-Shaa (Shaa Form)&Family=Haeshi-Shaa",
+  "source": "Alien Archive 2 pg. 70",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+10",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft.;",
+  "perception": "+28",
+  "hp": "300",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+20",
+  "dr": "30/— and 100 temporary Hit Points",
+  "sr": "27",
+  "immunities": "bleed, critical hits, disease, mind-affecting effects, nonlethal, paralysis, poison, polymorph, sleep, stunning;",
+  "resistances": "cold 20, fire 20;",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "touch +25 (viral vapor)",
+  "ranged": "sonic bolt +27 (6d4+16 So)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "expand, thicken",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th; melee +25, ranged +27",
+    "spells": "1/day—\nshadowy fleet\n(DC 26),\ntrue seeing\n3/day—\ncrush skull\n(DC 25),\nmystic cure\n(5th level),\nremove affliction\n,\nsynapse overload\n(DC 25)\nAt will—\nfear\n(4th level, DC 24),\nmind probe\n(DC 24)"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+10",
+    "con": "+7",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +28 (+36 to fly), Life Science +28, Mysticism +33, Physical Science +28",
+  "languages": "Abyssal, Aklo, Common; telepathy 100 ft.",
+  "other_abilities": "no breath",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Expand (Ex)",
+      "description": "As a full action, a shaa can spread its matter thin, increasing its size to Gargantuan and gaining a space and reach of 20 feet. A shaa can maintain this ability as long as it concentrates, but it can take only purely mental actions or its thicken ability while in this state. A shaa can return to its normal size as a move action."
+    },
+    {
+      "name": "Sonic Bolt (Su)",
+      "description": "A haeshi-shaa can fire a beam of disruptive sound at a target within 100 feet."
+    },
+    {
+      "name": "Stench Aura (Ex)",
+      "description": "Haeshi-shaas exude a horrible stench. An affected creature must succeed at a Fortitude save with the listed DC or be sickened while within the aura’s effect. Sickened creatures become nauseated on subsequent failed saving throws."
+    },
+    {
+      "name": "Thicken (Ex)",
+      "description": "A shaa can agitate its molecules and assume a nearly impenetrable, semitransparent form. As a full action, a shaa can become solid for 1d6 rounds. In this form, the shaa is not incorporeal, gains DR 30/— and 100 temporary Hit Points, can take no actions, and is immovable. The shaa reverts to its natural form at the end of the duration and loses any remaining temporary Hit Points.\nViral Vapor\nType\ndisease (contact, inhaled, or injury);\nSave\nFortitude DC 18\nTrack\nphysical;\nFrequency\n1/day\nEffect\nAt the debilitated state, the victim becomes partially vaporous. Attacks made by or targeting the victim have a 25% miss chance. At bedridden, this effect ends and the victim is incorporeal. At dead, the victim’s form completely dissipates into fine particles.\nCure\n2 consecutive saves"
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHaeshi-Shaa\nSource\nAlien Archive 2 pg. 70\nServing as part of the priestly caste for the Dominion of the Black, haeshi-shaas are longlived creatures that shift between a liquid and a gaseous form many times over their long lives. Their liquid form, commonly referred to simply as haeshi, appears as a constantly churning, chunky fluid, while their vaporous form, known as shaa, appears as a hazy brown fog. Both forms hum with atonal harmonies that are unnerving, sometimes nauseating, to others.\nWhile both forms of haeshi-shaas constantly preach a doctrine of annihilation, each form takes a slightly different approach. The attitudes of an individual haeshi-shaa change as the creature shifts forms. Liquid haeshi are more aggressive, while vaporous shaa are more introspective.\nThe creatures’ dogma of obliteration and their reverence for black holes stem from their belief that all cosmic complexity should be reduced to its most basic particles, because only in that state can a being be truly one with the universe.\nHaeshi-shaas serve as oracles, as they claim the ability to see the invisible pathways through the universe connecting particles spiraling toward entropy. Though this claim is dubious, other creatures that serve the Dominion heed the lessons of both haeshi-shaas and chyzaedus, another member of its priestly caste.\nHaeshi-shaas and chyzaedus are relatively recent assimilations into the Dominion, given its galactic time scale, and each species has claimed a different role within the nightmarish collective. The Dominion of the Black doesn’t concern itself with faith and religion, but the coalition seems to have a use for these strange creatures that preach its philosophy.\nMany believe that the two species came into the role of priests among the Dominion because they are linked in destruction. Forgotten records claim that the tonal resonance that all chyzaedus experienced when their home planet was devoured by a black hole was a result of creatures that would become the haeshi-shaas. These creatures were known in ancient history as beings of pure sound whose strange, farreaching tones conveyed a slightly different message of consumption and destruction.\nHaeshi-shaas can’t predict when they might shift into their variant form. Some seek out events that might serve as a catalyst, while others wait for the change to occur naturally. These creatures can exist for ages, shifting thousands of times, but over time, the bonds that cause the cyclical shifts of a haeshi-shaa’s form deteriorate. A haeshi-shaa can live for as long as 25,000 years before its final shift comes to pass and it completely dissipates among the winds of the universe.\nAliens in the \"Haeshi-Shaa\" Family\nName\nCR\nHaeshi-Shaa (Haeshi Form)\n12\nHaeshi-Shaa (Shaa Form)\n16\nHaeshi-Shaa, Haeshi-Shaa (Shaa Form)\nSource\nAlien Archive 2 pg. 70\nHaeshi-Shaa (Shaa Form) CR 16\nXP 76,800\nNE Large aberration\nInit\n+10;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft.;\nPerception\n+28\nAura\nstench (10 ft., DC 22)\nDefense\nHP\n300\nEAC\n29;\nKAC\n30\nFort\n+14;\nRef\n+14;\nWill\n+20\nDefensive Abilities\nfast healing 5, incorporeal, unflankable;\nImmunities\nbleed, critical hits, disease, mind-affecting effects, nonlethal, paralysis, poison, polymorph, sleep, stunning;\nResistances\ncold 20, fire 20;\nSR\n27\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\ntouch +25 (viral vapor)\nRanged\nsonic bolt +27 (6d4+16 So)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nexpand, thicken\nSpell-Like Abilities\n(CL 16th; melee +25, ranged +27)\n1/day—\nshadowy fleet\n(DC 26),\ntrue seeing\n3/day—\ncrush skull\n(DC 25),\nmystic cure\n(5th level),\nremove affliction\n,\nsynapse overload\n(DC 25)\nAt will—\nfear\n(4th level, DC 24),\nmind probe\n(DC 24)\nStatistics\nSTR\n+2;\nDEX\n+10;\nCON\n+7;\nINT\n+3;\nWIS\n+5;\nCHA\n+5\nSkills\nAcrobatics +28 (+36 to fly), Life Science +28, Mysticism +33, Physical Science +28\nLanguages\nAbyssal, Aklo, Common; telepathy 100 ft.\nOther Abilities\nno breath\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nExpand (Ex)\nAs a full action, a shaa can spread its matter thin, increasing its size to Gargantuan and gaining a space and reach of 20 feet. A shaa can maintain this ability as long as it concentrates, but it can take only purely mental actions or its thicken ability while in this state. A shaa can return to its normal size as a move action.\nSonic Bolt (Su)\nA haeshi-shaa can fire a beam of disruptive sound at a target within 100 feet.\nStench Aura (Ex)\nHaeshi-shaas exude a horrible stench. An affected creature must succeed at a Fortitude save with the listed DC or be sickened while within the aura’s effect. Sickened creatures become nauseated on subsequent failed saving throws.\nThicken (Ex)\nA shaa can agitate its molecules and assume a nearly impenetrable, semitransparent form. As a full action, a shaa can become solid for 1d6 rounds. In this form, the shaa is not incorporeal, gains DR 30/— and 100 temporary Hit Points, can take no actions, and is immovable. The shaa reverts to its natural form at the end of the duration and loses any remaining temporary Hit Points.\nViral Vapor\nType\ndisease (contact, inhaled, or injury);\nSave\nFortitude DC 18\nTrack\nphysical;\nFrequency\n1/day\nEffect\nAt the debilitated state, the victim becomes partially vaporous. Attacks made by or targeting the victim have a 25% miss chance. At bedridden, this effect ends and the victim is incorporeal. At dead, the victim’s form completely dissipates into fine particles.\nCure\n2 consecutive saves",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Haeshi-Shaa.png"
+}

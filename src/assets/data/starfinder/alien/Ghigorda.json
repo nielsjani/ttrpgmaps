@@ -1,0 +1,56 @@
+{
+  "name": "Ghigorda",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghigorda&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 55",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "CE",
+  "size": "Colossal",
+  "creature_type": "magical beast",
+  "init": "+5",
+  "senses": "blindsense (thought) 120 ft., darkvision 120 ft., low-light vision;",
+  "perception": "+31",
+  "hp": "380",
+  "eac": "32",
+  "kac": "34",
+  "fort": "+21",
+  "ref": "+21",
+  "will": "+16",
+  "resistances": "cold 25, fire 25",
+  "speed": "120 ft., swim 80 ft.",
+  "melee": "slam +32 (13d6+29 B) or feeding tongue +32 (5d8+29 P)",
+  "space": "60 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "demolish structures, laser storm (60-ft. burst, 10d10+15 F, DC 23, usable every 1d6 rounds)",
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+6",
+    "con": "+8",
+    "int": "+4",
+    "wis": "+5",
+    "cha": "+5"
+  },
+  "skills": "Athletics +36 (+44 to swim), Intimidate +31, Survival +31",
+  "languages": "Ancient Daimalkan, Common",
+  "other_abilities": "water breathing",
+  "environment": "any (Daimalko)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Demolish Structures (Ex)",
+      "description": "A ghigorda’s melee attacks ignore the hardness of structures not made of adamantine alloy or a harder material. Against structures made of such materials, a ghigorda’s melee attacks ignore half the hardness."
+    },
+    {
+      "name": "Feeding Tongue (Ex)",
+      "description": "When a ghigorda attacks with a feeding tongue and hits a target’s KAC +4, it grapples the target and pulls them adjacent to the ghigorda; this movement doesn’t provoke attacks of opportunity. The ghigorda doesn’t need to have a limb free to perform or maintain this grapple and may have up to 3 targets grappled at any time. The ghigorda can maintain all grapples it has with the same attacks as a move action on subsequent rounds."
+    },
+    {
+      "name": "Laser Storm (Su)",
+      "description": "As a standard action, a ghigorda can channel energy through its shimmering scales to fill a 60-foot burst around it with intense beams of light. Each creature in the area takes 10d10+15 fire damage and is blinded for 1d6 rounds. A creature that succeeds at a DC 23 Reflex save takes half damage and reduces the blinded condition to 1 round. A ghigorda can use this ability every 1d6 rounds."
+    }
+  ],
+  "description": "Ghigordas are one of the various types of gargantuan monsters that roam the desolate surface of Daimalko, collectively known as colossi. These toad-like colossi are covered in glistening aquatic scales that can focus energy and direct it outward in a storm of superheated lasers. Ghigordas’ mouths can open quite wide, revealing eight sinuous “feeding tongues” each tipped with a biting maw. The beasts use these feeding tongues to restrain and rip apart their victims. Many who study ghigordas theorize that they are among the earliest species of colossi.\nGhigordas, much like other colossi on Daimalko, excel at delivering widespread violence and destruction. Unlike the kyokors that often target and attack high-population settlements, ghigordas are undiscerning in their attacks, and even small gatherings are not safe from them. They’re so violently hungry that they attempt to consume any living creatures they come across and often are even willing to fight other colossi for food.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhigorda\nSource\nStarfinder #39: The Gilded Cage pg. 55\nGhigorda CR 18\nXP 153,600\nCE Colossal magical beast\nInit\n+5;\nSenses\nblindsense (thought) 120 ft., darkvision 120 ft., low-light vision;\nPerception\n+31\nDefense\nHP\n380\nEAC\n32;\nKAC\n34\nFort\n+21;\nRef\n+21;\nWill\n+16\nResistances\ncold 25, fire 25\nOffense\nSpeed\n120 ft., swim 80 ft.\nMelee\nslam +32 (13d6+29 B) or feeding tongue +32 (5d8+29 P)\nMultiattack\n4 feeding tongues +26 (5d8+29 P)\nSpace\n60 ft.;\nReach\n30 ft.\nOffensive Abilities\ndemolish structures, laser storm (60-ft. burst, 10d10+15 F, DC 23, usable every 1d6 rounds)\nStatistics\nSTR\n+11;\nDEX\n+6;\nCON\n+8;\nINT\n+4;\nWIS\n+5;\nCHA\n+5\nSkills\nAthletics +36 (+44 to swim), Intimidate +31, Survival +31\nLanguages\nAncient Daimalkan, Common\nOther Abilities\nwater breathing\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary\nSpecial Abilities\nDemolish Structures (Ex)\nA ghigorda’s melee attacks ignore the hardness of structures not made of adamantine alloy or a harder material. Against structures made of such materials, a ghigorda’s melee attacks ignore half the hardness.\nFeeding Tongue (Ex)\nWhen a ghigorda attacks with a feeding tongue and hits a target’s KAC +4, it grapples the target and pulls them adjacent to the ghigorda; this movement doesn’t provoke attacks of opportunity. The ghigorda doesn’t need to have a limb free to perform or maintain this grapple and may have up to 3 targets grappled at any time. The ghigorda can maintain all grapples it has with the same attacks as a move action on subsequent rounds.\nLaser Storm (Su)\nAs a standard action, a ghigorda can channel energy through its shimmering scales to fill a 60-foot burst around it with intense beams of light. Each creature in the area takes 10d10+15 fire damage and is blinded for 1d6 rounds. A creature that succeeds at a DC 23 Reflex save takes half damage and reduces the blinded condition to 1 round. A ghigorda can use this ability every 1d6 rounds.\nDescription\nGhigordas are one of the various types of gargantuan monsters that roam the desolate surface of Daimalko, collectively known as colossi. These toad-like colossi are covered in glistening aquatic scales that can focus energy and direct it outward in a storm of superheated lasers. Ghigordas’ mouths can open quite wide, revealing eight sinuous “feeding tongues” each tipped with a biting maw. The beasts use these feeding tongues to restrain and rip apart their victims. Many who study ghigordas theorize that they are among the earliest species of colossi.\nGhigordas, much like other colossi on Daimalko, excel at delivering widespread violence and destruction. Unlike the kyokors that often target and attack high-population settlements, ghigordas are undiscerning in their attacks, and even small gatherings are not safe from them. They’re so violently hungry that they attempt to consume any living creatures they come across and often are even willing to fight other colossi for food.",
+  "type": "magical beast",
+  "category": "alien"
+}

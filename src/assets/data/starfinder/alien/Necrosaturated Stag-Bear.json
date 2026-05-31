@@ -1,0 +1,54 @@
+{
+  "name": "Necrosaturated Stag-Bear",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Necrosaturated Stag-Bear&Family=None",
+  "source": "Starfinder #40: Planetfall pg. 60",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+1",
+  "senses": "blindsense (life) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "weaknesses": "disruptive susceptibility",
+  "speed": "40 ft.",
+  "melee": "antlers +11 (1d6+6 B) or bite +8 (1d8+4 P)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "determined charge",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +7",
+  "environment": "any (Weydana-4)",
+  "organization": "solitary, pair, or herd (3–18)",
+  "special_abilities": [
+    {
+      "name": "Determined Charge (Ex)",
+      "description": "A stag-bear can charge without taking the normal charge penalties to its attack roll or AC. In addition, it can charge through difficult terrain."
+    },
+    {
+      "name": "Disruptive Susceptibility (Su)",
+      "description": "A necrosaturated creature takes half again as much damage (+50%) when it takes damage from a weapon with a disruptive fusion."
+    },
+    {
+      "name": "Too Tough to Die (Ex)",
+      "description": "Twice per day, when a necrosaturated stag-bear would be reduced to 0 Hit Points, it can use its reaction to remain at 1 Hit Point instead. It can’t use this ability if a critical hit reduced it to 0 Hit Points. Each time it uses this ability, it gains a cumulative –2 penalty to attack rolls for 24 hours."
+    }
+  ],
+  "description": "Some animals, magical beasts, and vermin contaminated with lingering negative energy begin to rot while still alive, rather that succumbing to the mercy of a swift death. Their flesh withers, making them resemble undead, even though they remain terribly—and painfully—alive.\nThe stag-bear is an omnivorous herd animal found throughout the plains across Weydana-4. The creatures resemble broad-shouldered bears with a wide rack of antlers. Stag-bears rarely pose a threat unless provoked.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNecrosaturated Stag-Bear\nSource\nStarfinder #40: Planetfall pg. 60\nNecrosaturated Stag-Bear CR 2\nXP 600\nNE Large magical beast\nInit\n+1;\nSenses\nblindsense (life) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+6;\nWill\n+1\nDefensive Abilities\ntoo tough to die (2/day)\nWeaknesses\ndisruptive susceptibility\nOffense\nSpeed\n40 ft.\nMelee\nantlers +11 (1d6+6 B) or bite +8 (1d8+4 P)\nSpace\n10 ft.;\nReach\n5 ft.\nOffensive Abilities\ndetermined charge\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+2;\nINT\n-4;\nWIS\n+1;\nCHA\n-2\nSkills\nAthletics +7\nEcology\nEnvironment\nany (Weydana-4)\nOrganization\nsolitary, pair, or herd (3–18)\nSpecial Abilities\nDetermined Charge (Ex)\nA stag-bear can charge without taking the normal charge penalties to its attack roll or AC. In addition, it can charge through difficult terrain.\nDisruptive Susceptibility (Su)\nA necrosaturated creature takes half again as much damage (+50%) when it takes damage from a weapon with a disruptive fusion.\nToo Tough to Die (Ex)\nTwice per day, when a necrosaturated stag-bear would be reduced to 0 Hit Points, it can use its reaction to remain at 1 Hit Point instead. It can’t use this ability if a critical hit reduced it to 0 Hit Points. Each time it uses this ability, it gains a cumulative –2 penalty to attack rolls for 24 hours.\nDescription\nSome animals, magical beasts, and vermin contaminated with lingering negative energy begin to rot while still alive, rather that succumbing to the mercy of a swift death. Their flesh withers, making them resemble undead, even though they remain terribly—and painfully—alive.\nThe stag-bear is an omnivorous herd animal found throughout the plains across Weydana-4. The creatures resemble broad-shouldered bears with a wide rack of antlers. Stag-bears rarely pose a threat unless provoked.",
+  "type": "magical beast",
+  "category": "alien"
+}

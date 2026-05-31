@@ -1,0 +1,62 @@
+{
+  "name": "Cable Serpent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cable Serpent&Family=None",
+  "source": "Starfinder #51: Into the Dataverse pg. 56",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "construct (magical, technological)",
+  "init": "+6",
+  "senses": "darkvision 60 ft, low-light vision;",
+  "perception": "+23",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+14",
+  "immunities": "construct immunities, electricity",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +21 (6d4+16 P & E)",
+  "ranged": "electroshock +23 (2d10+13 nonlethal E; critical stunned [DC 21])",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th; melee +21",
+    "spells": "1/day—\nfurious shriek\n(5th level, DC 24),\nsynapse overload\n(DC 24)\n3/day—\ndimension door\n,\noverload systems\n(DC 23),\nresistant armor\n,\nrewire flesh\n(DC 23)\nAt will—\narcing surge\n(DC 22),\ndischarge\n(DC 22)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "—",
+    "int": "+8",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +23, Athletics +23 (+31 to climb), Engineering +28, Mysticism +28",
+  "languages": "Common (can’t speak); shortwave 100 ft.",
+  "other_abilities": "chaotic exodus, unliving, welding restoration",
+  "environment": "any",
+  "organization": "solitary or bundle (2 or more)",
+  "special_abilities": [
+    {
+      "name": "Chaotic Exodus (Ex)",
+      "description": "When a cable serpent rips itself out of a piece of technology as part of its creation, its former host object or vehicle gains the broken condition (if the object is part of a starship, a random system gains the glitching condition), and the cable serpent gains the confused condition for 1d4 rounds."
+    },
+    {
+      "name": "Electroshock (Ex)",
+      "description": "As a ranged attack, a cable serpent can fire a burst of static electricity at a foe. This attack deals nonlethal electricity damage, has a range increment of 30 feet, and has the possibility of stunning the target on a critical hit."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "A cable serpent can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Welding Restoration (Su)",
+      "description": "A cable serpent can expend a spell slot to restore a number of Hit Points to an object or a construct as per a mystic cure spell of the same level as the slot sacrificed. When used on constructs with spell resistance or immunity to magic, this ability bypasses those defenses. A cable serpent can also use this ability to remove the broken condition from a piece of technology damaged by a cable serpent’s chaotic exodus."
+    }
+  ],
+  "description": "The interplay of forces technological and mystical can sometimes result in the formation of sentience, under the right circumstances. Cable serpent is the colloquial name given to bundles of conductive wires and similar technology that have come to life when suffused with enough magic. After twisting free from a host piece of technology, the ophidian-like creature seeks to make sense of their place in the universe. Unfortunately, the chaotic nature of a cable serpent’s emergence causes most onlookers to react with hostility, usually resulting in death and the destruction of property. However, a cable serpent can become an extremely valuable and powerful ally to those who can quickly recognize what’s before them. The first confirmed and documented cable serpent discovered was born on Aballon, at the site of a Drift beacon construction facility. This creature named themself Neshust and has since founded a small commune for others of their kind.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCable Serpent\nSource\nStarfinder #51: Into the Dataverse pg. 56\nCable Serpent CR 13\nXP 25,600\nCN Small construct (magical, technological)\nInit\n+6;\nSenses\ndarkvision 60 ft, low-light vision;\nPerception\n+23\nDefense\nHP\n190\nEAC\n26;\nKAC\n27\nFort\n+10;\nRef\n+10;\nWill\n+14\nImmunities\nconstruct immunities, electricity\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +21 (6d4+16 P & E)\nRanged\nelectroshock +23 (2d10+13 nonlethal E; critical stunned [DC 21])\nSpell-Like Abilities\n(CL 13th; melee +21)\n1/day—\nfurious shriek\n(5th level, DC 24),\nsynapse overload\n(DC 24)\n3/day—\ndimension door\n,\noverload systems\n(DC 23),\nresistant armor\n,\nrewire flesh\n(DC 23)\nAt will—\narcing surge\n(DC 22),\ndischarge\n(DC 22)\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n—;\nINT\n+8;\nWIS\n+2;\nCHA\n+4\nSkills\nAcrobatics +23, Athletics +23 (+31 to climb), Engineering +28, Mysticism +28\nLanguages\nCommon (can’t speak); shortwave 100 ft.\nOther Abilities\nchaotic exodus, unliving, welding restoration\nEcology\nEnvironment\nany\nOrganization\nsolitary or bundle (2 or more)\nSpecial Abilities\nChaotic Exodus (Ex)\nWhen a cable serpent rips itself out of a piece of technology as part of its creation, its former host object or vehicle gains the broken condition (if the object is part of a starship, a random system gains the glitching condition), and the cable serpent gains the confused condition for 1d4 rounds.\nElectroshock (Ex)\nAs a ranged attack, a cable serpent can fire a burst of static electricity at a foe. This attack deals nonlethal electricity damage, has a range increment of 30 feet, and has the possibility of stunning the target on a critical hit.\nShortwave (Ex)\nA cable serpent can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nWelding Restoration (Su)\nA cable serpent can expend a spell slot to restore a number of Hit Points to an object or a construct as per a mystic cure spell of the same level as the slot sacrificed. When used on constructs with spell resistance or immunity to magic, this ability bypasses those defenses. A cable serpent can also use this ability to remove the broken condition from a piece of technology damaged by a cable serpent’s chaotic exodus.\nDescription\nThe interplay of forces technological and mystical can sometimes result in the formation of sentience, under the right circumstances. Cable serpent is the colloquial name given to bundles of conductive wires and similar technology that have come to life when suffused with enough magic. After twisting free from a host piece of technology, the ophidian-like creature seeks to make sense of their place in the universe. Unfortunately, the chaotic nature of a cable serpent’s emergence causes most onlookers to react with hostility, usually resulting in death and the destruction of property. However, a cable serpent can become an extremely valuable and powerful ally to those who can quickly recognize what’s before them. The first confirmed and documented cable serpent discovered was born on Aballon, at the site of a Drift beacon construction facility. This creature named themself Neshust and has since founded a small commune for others of their kind.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

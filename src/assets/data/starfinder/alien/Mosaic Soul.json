@@ -1,0 +1,54 @@
+{
+  "name": "Mosaic Soul",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mosaic Soul&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 57",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+6",
+  "senses": "blindsight (emotion) 30 ft., darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "110",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+11",
+  "weaknesses": "disorganized emotion",
+  "speed": "fly 30 ft. (Su, perfect)",
+  "melee": "touch +17 (2d6+8 A plus mosaic touch [2d6 A, DC 18])",
+  "offensive_abilities": "swirling colors",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "—",
+    "int": "-1",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Intimidate +21, Stealth +16",
+  "other_abilities": "unliving",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Disorganized Emotion (Su)",
+      "description": "When a mosaic soul fails a saving throw against an emotion effect, a single solid hue takes over its chaotic form, and magical attacks deal damage to it as though it wasn’t incorporeal for 1d4 rounds. During this time, the mosaic soul can’t use swirling colors to blind opponents."
+    },
+    {
+      "name": "Mosaic Touch (Su)",
+      "description": "The mosaic soul’s touch unravels living targets into their component parts, leaving grievous wounds similar to acid burns. A living creature that takes Hit Point damage from the mosaic soul’s touch must attempt a DC 18 Fortitude save. On a failure, the target takes 2d6 acid damage each round at the start of their turn, similar to the corrode critical hit effect."
+    },
+    {
+      "name": "Swirling Colors (Su)",
+      "description": "A mosaic soul glows brightly, increasing the light by one level in a 50-foot radius. As a full action, a mosaic soul can unleash this radiance. Sighted creatures other than mosaic souls within 50 feet are blinded for 1 round unless they succeed at a DC 16 Fortitude save. Creatures that succeed at this save are immune to this effect from all mosaic souls for 24 hours."
+    }
+  ],
+  "description": "Mosaic souls are shattered collections of emotions left in the wake of deadly psychic magic or terrible Drift accidents that divide mind and soul. They appear as blurry abstract shapes, packed with spinning fragments of brilliant colors; true to their name, these undead creatures are often compared to mosaics, kaleidoscopes, or stained glass. They glow brightly, becoming painful to look at when they become agitated.\nAlthough a single event might create multiple mosaic souls, they find the company of their own kind disagreeable. Unlike many undead, mosaic souls are driven by chaotic urges and dream logic, wandering far from their original creation site.\nFollowers of Pharasma have proven that repeated application of emotion-based magic along with traditional therapy can eventually unify a mosaic soul and allow it to pass on. Although the process is prohibitively expensive compared to simply destroying a mosaic soul, some Pharasmin priests believe saving such a tormented soul is worth any price.",
+  "extra_content": "The following extra content was found for this creature:\n-\nMosaic Soul (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMosaic Soul\nSource\nStarfinder #45: The Culling Shadow pg. 57\nMosaic Soul CR 8\nXP 4,800\nCN Medium undead (incorporeal)\nInit\n+6;\nSenses\nblindsight (emotion) 30 ft., darkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n110\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+9;\nWill\n+11\nDefensive Abilities\nincorporeal, undead immunities\nWeaknesses\ndisorganized emotion\nOffense\nSpeed\nfly 30 ft. (Su, perfect)\nMelee\ntouch +17 (2d6+8 A plus mosaic touch [2d6 A, DC 18])\nOffensive Abilities\nswirling colors\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n—;\nINT\n-1;\nWIS\n+2;\nCHA\n+4\nSkills\nIntimidate +21, Stealth +16\nOther Abilities\nunliving\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nDisorganized Emotion (Su)\nWhen a mosaic soul fails a saving throw against an emotion effect, a single solid hue takes over its chaotic form, and magical attacks deal damage to it as though it wasn’t incorporeal for 1d4 rounds. During this time, the mosaic soul can’t use swirling colors to blind opponents.\nMosaic Touch (Su)\nThe mosaic soul’s touch unravels living targets into their component parts, leaving grievous wounds similar to acid burns. A living creature that takes Hit Point damage from the mosaic soul’s touch must attempt a DC 18 Fortitude save. On a failure, the target takes 2d6 acid damage each round at the start of their turn, similar to the corrode critical hit effect.\nSwirling Colors (Su)\nA mosaic soul glows brightly, increasing the light by one level in a 50-foot radius. As a full action, a mosaic soul can unleash this radiance. Sighted creatures other than mosaic souls within 50 feet are blinded for 1 round unless they succeed at a DC 16 Fortitude save. Creatures that succeed at this save are immune to this effect from all mosaic souls for 24 hours.\nDescription\nMosaic souls are shattered collections of emotions left in the wake of deadly psychic magic or terrible Drift accidents that divide mind and soul. They appear as blurry abstract shapes, packed with spinning fragments of brilliant colors; true to their name, these undead creatures are often compared to mosaics, kaleidoscopes, or stained glass. They glow brightly, becoming painful to look at when they become agitated.\nAlthough a single event might create multiple mosaic souls, they find the company of their own kind disagreeable. Unlike many undead, mosaic souls are driven by chaotic urges and dream logic, wandering far from their original creation site.\nFollowers of Pharasma have proven that repeated application of emotion-based magic along with traditional therapy can eventually unify a mosaic soul and allow it to pass on. Although the process is prohibitively expensive compared to simply destroying a mosaic soul, some Pharasmin priests believe saving such a tormented soul is worth any price.\nExtra Content\nThe following extra content was found for this creature:\n-\nMosaic Soul (Other) Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien"
+}

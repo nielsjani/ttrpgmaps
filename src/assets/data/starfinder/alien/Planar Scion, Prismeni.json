@@ -1,0 +1,48 @@
+{
+  "name": "Planar Scion, Prismeni",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Planar Scion, Prismeni&Family=None",
+  "source": "Starfinder #49: A Light in the Dark pg. 60",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+8",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "tactical dueling sword +6 (1d6+4 S)",
+  "ranged": "explorer handcoil +8 (1d6+4 E; critical arc 1d6)",
+  "offensive_abilities": "Drift Hop",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Computers +15, Engineering +10, Mysticism +15",
+  "languages": "Common and 5 others",
+  "other_abilities": "magic hacks (countertech), spell cache (tattoo)",
+  "gear": "basic lashunta tempweave, explorer handcoil with 2 batteries (20 charges each), tactical dueling sword",
+  "environment": "any",
+  "organization": "solitary, pair, or family (3–6)",
+  "special_abilities": [
+    {
+      "name": "Drift Hop (Su)",
+      "description": "Once per day as a move action, a prismeni can teleport 30 feet. The prismeni can't bring other creatures along, and if a solid object occupies the arrival point, the ability fails without expending its daily use. If the prismeni uses this ability while in the Drift, the distance they can teleport increases to 60 feet."
+    }
+  ],
+  "description": "Prismenis are planar scions touched by the Drift, the spectra native to that plane, or Triune. While they look much like their mortal parent species, they have odd features that set them apart from their peers, such as metallic gray eyes, rainbow-colored locks, thick cords or wire for hair, or f esh that shimmers with dif erent colors in various light.\nMost prismenis were born in the Drift. Others found themselves transformed into a prismeni after prolonged close contact with a spectra or being present at a spectra gathering. Very rarely, prismenis are naturally born to prominent or particularly devout Triunites, or else spontaneously transformed into a prismeni after performing a dangerous task on behalf of Triune.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion, Prismeni\nSource\nStarfinder #49: A Light in the Dark pg. 60\nPlanar Scion, Prismeni CR 4\nXP 1,200\nPrismeni technomancer\nNG Medium outsider (native)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+4;\nRef\n+4;\nWill\n+8\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\ntactical dueling sword +6 (1d6+4 S)\nRanged\nexplorer handcoil +8 (1d6+4 E; critical arc 1d6)\nOffensive Abilities\nDrift Hop\nTechnomancer Spells\nKnown (CL 4th; melee +6, ranged +8)\n2nd (3/day)—\ncaustic conversion, mirror image\n1st (6/day)—\ngrease\n(DC 16),\njolting surge, magic missile\n0 (at will)—\nenergy ray, mending\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+0;\nINT\n+5;\nWIS\n+1;\nCHA\n+1\nSkills\nComputers +15, Engineering +10, Mysticism +15\nLanguages\nCommon and 5 others\nOther Abilities\nmagic hacks (countertech), spell cache (tattoo)\nGear\nbasic lashunta tempweave, explorer handcoil with 2 batteries (20 charges each), tactical dueling sword\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or family (3–6)\nSpecial Abilities\nDrift Hop (Su)\nOnce per day as a move action, a prismeni can teleport 30 feet. The prismeni can't bring other creatures along, and if a solid object occupies the arrival point, the ability fails without expending its daily use. If the prismeni uses this ability while in the Drift, the distance they can teleport increases to 60 feet.\nDescription\nPrismenis are planar scions touched by the Drift, the spectra native to that plane, or Triune. While they look much like their mortal parent species, they have odd features that set them apart from their peers, such as metallic gray eyes, rainbow-colored locks, thick cords or wire for hair, or f esh that shimmers with dif erent colors in various light.\nMost prismenis were born in the Drift. Others found themselves transformed into a prismeni after prolonged close contact with a spectra or being present at a spectra gathering. Very rarely, prismenis are naturally born to prominent or particularly devout Triunites, or else spontaneously transformed into a prismeni after performing a dangerous task on behalf of Triune.",
+  "type": "outsider (native)",
+  "category": "alien"
+}

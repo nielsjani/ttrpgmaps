@@ -1,0 +1,50 @@
+{
+  "name": "Former Military, Quartermaster",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Quartermaster&Family=Former Military",
+  "source": "Interstellar Species pg. 164",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+13",
+  "immunities": "disease, poison;",
+  "resistances": "fire 5",
+  "weaknesses": "susceptible to cold",
+  "speed": "45 ft.",
+  "melee": "fangblade +18 (1d12+12 S; critical bleed 1d8)",
+  "ranged": "frostbite-class frost projector +16 (1d10+8 C; critical staggered) or advanced rail gun +16 (1d10+8 P)",
+  "offensive_abilities": "resourceful fighter",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+1"
+  },
+  "skills": "Athletics +16, Computers +16, Diplomacy +16, Engineer +16, Pilot +16, Profession (manager) +21, Sense Motive +16",
+  "feats": "Barricade",
+  "languages": "Common, Quorlu, up to 3 others",
+  "other_abilities": "multiarmed (3) , tunneler , unit tactics",
+  "gear": "estex suit III (frostbite-class frost projector with 2 batteries [40 charges each], quicksuit ), advanced rail gun AR with 75 longarm rounds, fangblade with 1 battery (20 charges), engineering tool kit, personal comm unit;",
+  "special_abilities": [
+    {
+      "name": "Resourceful Fighter (Ex)",
+      "description": "A quartermaster can spend 1 Resolve Point as a move action to draw a set of ammunition, healing serum, technological item, personal item, grenade, or similar small device at the GM’s discretion. The item’s level can’t exceed one-third the quartermaster’s CR and can’t be more than 1 bulk. The item functions until the quartermaster regains their Resolve Points."
+    }
+  ],
+  "description": "A quartermaster ensures equipment and supplies get where they need to go, are stored in good order, remain serviceable until needed, and oversees distribution. They’re not only capable bargainers: they also learn the basics of powered armor to operate cargo lifters and similar rigs.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormer Military\nSource\nInterstellar Species pg. 164\nMilitary training hones experts with varied skillsets, tempering them in battlefield conditions. Mercenary work is an obvious outlet for their skills, but former military pros function well as security forces and rescue teams, and on exploration missions and supply delivery in dangerous areas. They might be found in more mundane settings, such as corporate facilities or research labs, especially in places where people or facilities need extra protection. Each of these NPCs has the following ability.\nUnit Tactics (Ex)\nBefore rolling initiative, the character can choose to roll twice and take the lower result, and an ally within 30 feet can roll their initiative check twice and use the better result. When the character successfully uses covering fire, the selected ally gains the circumstance bonus to AC against the next two attacks made against them by creatures in the character’s line of effect.\nAliens in the \"Former Military\" Family\nName\nCR\nCombat Medic\n3\nOfficer\n12\nQuartermaster\n8\nSpec-ops Veteran\n16\nFormer Military, Quartermaster\nSource\nInterstellar Species pg. 164\nQuartermaster CR 8\nXP 4,800\nQuorlu\nN Medium monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+16\nDefense\nHP\n115;\nRP\n5\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+9;\nWill\n+13; +2 vs bleed, disease, and poison\nDefensive Abilities\nendothermic, lithic, stable, unflankable;\nImmunities\ndisease, poison;\nResistances\nfire 5\nWeaknesses\nsusceptible to cold\nOffense\nSpeed\n45 ft.\nMelee\nfangblade +18 (1d12+12 S; critical bleed 1d8)\nRanged\nfrostbite-class frost projector +16 (1d10+8 C; critical staggered) or advanced rail gun +16 (1d10+8 P)\nOffensive Abilities\nresourceful fighter\nStatistics\nSTR\n+4;\nDEX\n+0;\nCON\n+1;\nINT\n+3;\nWIS\n+5;\nCHA\n+1\nFeats\nBarricade\nSkills\nAthletics +16, Computers +16, Diplomacy +16, Engineer +16, Pilot +16, Profession (manager) +21, Sense Motive +16\nLanguages\nCommon, Quorlu, up to 3 others\nOther Abilities\nmultiarmed (3) , tunneler , unit tactics\nGear\nestex suit III (frostbite-class frost projector with 2 batteries [40 charges each], quicksuit ), advanced rail gun AR with 75 longarm rounds, fangblade with 1 battery (20 charges), engineering tool kit, personal comm unit;\nAugmentations\nAugmentations standard speed suspension\nSpecial Abilities\nResourceful Fighter (Ex)\nA quartermaster can spend 1 Resolve Point as a move action to draw a set of ammunition, healing serum, technological item, personal item, grenade, or similar small device at the GM’s discretion. The item’s level can’t exceed one-third the quartermaster’s CR and can’t be more than 1 bulk. The item functions until the quartermaster regains their Resolve Points.\nDescription\nA quartermaster ensures equipment and supplies get where they need to go, are stored in good order, remain serviceable until needed, and oversees distribution. They’re not only capable bargainers: they also learn the basics of powered armor to operate cargo lifters and similar rigs.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

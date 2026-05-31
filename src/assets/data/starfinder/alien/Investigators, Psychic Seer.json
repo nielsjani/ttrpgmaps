@@ -1,0 +1,49 @@
+{
+  "name": "Investigators, Psychic Seer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Psychic Seer&Family=Investigators",
+  "source": "Interstellar Species pg. 170",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NG",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+15",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+7",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "tactical handaxe +5 (1d6+4 S)",
+  "ranged": "murmur sonic suppressor +9 (1d4+4 So; critical stifle)",
+  "offensive_abilities": "foretell",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpell-Like Abilities\n(CL 4th)\n1/day—\naugury\n,\nzone of truth\n(DC 15)\n3/day—\ndetect thoughts\n(DC 14),\nmindlink\n,\nshare memory\nAt will—\nghost sound\n(DC 13),\ntelepathic message\nConstant—\ntongues"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+5",
+    "cha": "+3"
+  },
+  "skills": "Bluff +10, Mysticism +15, Sense Motive +15",
+  "languages": "Akan, Common, and up to 1 other",
+  "gear": "basic defrex hide, murmur sonic suppressor with 2 batteries (20 charges each), tactical handaxe",
+  "special_abilities": [
+    {
+      "name": "Foretell (Su)",
+      "description": "Before attempting an attack roll, saving throw, or skill check, a psychic seer can spend 1 Resolve Point to roll that check twice and use the better result."
+    }
+  ],
+  "description": "Psychic seers read the thoughts and intentions of others as easily as most would read a story. Due to the intrusive nature of their abilities, psychic seers sometimes experience legal limitations or even prejudice. Thus, these investigators often don’t advertise their talents openly, instead framing their skills as uncanny hunches and specialized know-how. However, in more tolerant communities, psychic seers often serve as leaders.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nInvestigators\nSource\nInterstellar Species pg. 170\nInvestigators uncover secrets and sift truth from lies. This often places investigators on the side of the law, but when the powers that be are corrupt, investigators might find themselves labeled vigilantes or ostracized. Yet they aren’t easily discouraged, and can become relentless foes.\nAliens in the \"Investigators\" Family\nName\nCR\nConspiracist\n1\nDetective\n7\nParanormal Investigator\n10\nPsychic Seer\n4\nInvestigators, Psychic Seer\nSource\nInterstellar Species pg. 170\nPsychic Seer CR 4\nXP 1,200\nHanakan\nNG Small magical beast\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+15\nDefense\nHP\n43;\nRP\n3\nEAC\n15;\nKAC\n16\nFort\n+5;\nRef\n+5;\nWill\n+7\nDefensive Abilities\natmospheric adaptation\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\ntactical handaxe +5 (1d6+4 S)\nRanged\nmurmur sonic suppressor +9 (1d4+4 So; critical stifle)\nOffensive Abilities\nforetell\nHanakan Spell-Like Abilities\n(CL 4th)\n1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpell-Like Abilities\n(CL 4th)\n1/day—\naugury\n,\nzone of truth\n(DC 15)\n3/day—\ndetect thoughts\n(DC 14),\nmindlink\n,\nshare memory\nAt will—\nghost sound\n(DC 13),\ntelepathic message\nConstant—\ntongues\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+1;\nINT\n+1;\nWIS\n+5;\nCHA\n+3\nSkills\nBluff +10, Mysticism +15, Sense Motive +15\nLanguages\nAkan, Common, and up to 1 other\nGear\nbasic defrex hide, murmur sonic suppressor with 2 batteries (20 charges each), tactical handaxe\nSpecial Abilities\nForetell (Su)\nBefore attempting an attack roll, saving throw, or skill check, a psychic seer can spend 1 Resolve Point to roll that check twice and use the better result.\nDescription\nPsychic seers read the thoughts and intentions of others as easily as most would read a story. Due to the intrusive nature of their abilities, psychic seers sometimes experience legal limitations or even prejudice. Thus, these investigators often don’t advertise their talents openly, instead framing their skills as uncanny hunches and specialized know-how. However, in more tolerant communities, psychic seers often serve as leaders.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

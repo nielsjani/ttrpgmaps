@@ -1,0 +1,51 @@
+{
+  "name": "Diplomats, Pact Worlds Delegate",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pact Worlds Delegate&Family=Diplomats",
+  "source": "Interstellar Species pg. 160",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NG",
+  "size": "Tiny",
+  "creature_type": "plant",
+  "init": "+1",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+9",
+  "speed": "30 ft.",
+  "melee": "tactical switchblade +12 (1d4+5 S)",
+  "ranged": "static arc pistol +14 (1d6+6 E; critical arc 2) Space 2-1/2 ft.; Reach 0 ft. (5 ft. with a one-handed weapon)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft. (5 ft. with a one-handed weapon)",
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Bluff +18, Computers +13, Culture +13, Diplomacy +18, Sense Motive +18",
+  "languages": "Brethedan, Common, Castrovelian, Raxi, Vercite",
+  "other_abilities": "diplomatic staff, LFAN , LFAN symbiosis , secure channel",
+  "gear": "elite stationwear, static arc pistol with 1 battery (20 charges), tactical switchblade , personal comm unit, professional clothing",
+  "special_abilities": [
+    {
+      "name": "Diplomatic Staff (Ex)",
+      "description": "Helpful functionaries assist a Pact Worlds delegate, who automatically gains the benefit of Aid Another on checks to recall knowledge and can make such checks untrained while in contact with their staff."
+    },
+    {
+      "name": "Secure Channel (Ex)",
+      "description": "By spending 10d6 minutes coordinating with contacts, a delegate can use a personal comm unit to send a message as though it were a system-wide comm unit, and they can use a system-wide comm unit to send a message as though it were an unlimited comm unit."
+    }
+  ],
+  "description": "Protectorates and Pact Worlds alike send delegates to the Pact Council, where these diplomats promote their respective worlds’ interests (though only Pact Worlds’ delegates have full voting rights). With such influence, a helpful delegate might direct the star system’s resources toward a favorite cause. Conversely, an offended delegate could become a project’s nemesis by consistently maligning its operations and blocking support. This power makes delegates targets of corruption or threats, and these dignitaries often hire armed guards while abroad.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiplomats\nSource\nInterstellar Species pg. 160\nDiplomats are ambassadors for their people, working to establish better relationships with those from other cultures, find ways for groups to collaborate, and realize peaceful solutions when violence seems imminent. Given the stakes for fumbling a negotiation, diplomats are highly trained professionals who are equally capable of charming others and evading political traps.\nHowever, diplomats aren’t necessarily the PCs’ allies. An evil empire might employ diplomats who suppress internal dissent and international complaints through clever misdirection. Diplomats  might  introduce  well-intentioned  political entanglements in defense of their own objectives, even if these limit the PCs’ abilities to thwart some greater evil. A diplomat is often a non-combat threat, challenging PCs to employ logic, guile, and charm to discourage, discredit, or sway their rival.\nAliens in the \"Diplomats\" Family\nName\nCR\nEmissary\n3\nPact Worlds Delegate\n6\nPlenipotentiary\n11\nReligious Peacekeeper\n7\nDiplomats, Pact Worlds Delegate\nSource\nInterstellar Species pg. 160\nPact Worlds Delegate CR 6\nXP 2,400\nRaxilite\nNG Tiny plant\nInit\n+1;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+7;\nRef\n+5;\nWill\n+9; +2 vs. mind-affecting effects,\nOffense\nSpeed\n30 ft.\nMelee\ntactical switchblade +12 (1d4+5 S)\nRanged\nstatic arc pistol +14 (1d6+6 E; critical arc 2) Space 2-1/2 ft.; Reach 0 ft. (5 ft. with a one-handed weapon)\nStatistics\nSTR\n-1;\nDEX\n+1;\nCON\n+0;\nINT\n+3;\nWIS\n+2;\nCHA\n+5\nSkills\nBluff +18, Computers +13, Culture +13, Diplomacy +18, Sense Motive +18\nLanguages\nBrethedan, Common, Castrovelian, Raxi, Vercite\nOther Abilities\ndiplomatic staff, LFAN , LFAN symbiosis , secure channel\nGear\nelite stationwear, static arc pistol with 1 battery (20 charges), tactical switchblade , personal comm unit, professional clothing\nSpecial Abilities\nDiplomatic Staff (Ex)\nHelpful functionaries assist a Pact Worlds delegate, who automatically gains the benefit of Aid Another on checks to recall knowledge and can make such checks untrained while in contact with their staff.\nSecure Channel (Ex)\nBy spending 10d6 minutes coordinating with contacts, a delegate can use a personal comm unit to send a message as though it were a system-wide comm unit, and they can use a system-wide comm unit to send a message as though it were an unlimited comm unit.\nDescription\nProtectorates and Pact Worlds alike send delegates to the Pact Council, where these diplomats promote their respective worlds’ interests (though only Pact Worlds’ delegates have full voting rights). With such influence, a helpful delegate might direct the star system’s resources toward a favorite cause. Conversely, an offended delegate could become a project’s nemesis by consistently maligning its operations and blocking support. This power makes delegates targets of corruption or threats, and these dignitaries often hire armed guards while abroad.",
+  "type": "plant",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Astriapi, Astriapi Defender",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Astriapi Defender&Family=Astriapi",
+  "source": "Alien Archive 4 pg. 13",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+8",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+1",
+  "will": "+3",
+  "speed": "30 ft., fly 30 ft. (Ex, average) (20 ft., fly 20 ft. [average] in armor)",
+  "melee": "standard taclash +5 (1d4+3 S nonlethal) or bite +5 (1d6+3 P)",
+  "ranged": "static arc caster +8 (1d8+1 E plus first arc 1d6; critical second arc 1d6) or stickybomb grenade I +8 (explode [10 ft., entangled 2d4 rounds, DC 10])",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with standard taclash)",
+  "offensive_abilities": "fighting styles (guard)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +5, Engineering +10, Mysticism +5",
+  "languages": "Astriapi, Common",
+  "other_abilities": "honey production",
+  "gear": "troop ceremonial plate, standard taclash, static arc caster with 2 batteries (20 charges each), stickybomb grenades I (2),",
+  "environment": "any urban (Colveare)",
+  "organization": "solitary, pair, or patrol (3–8)",
+  "special_abilities": [
+    {
+      "name": "Honey Production (Ex)",
+      "description": "Once per day, an astriapi can spend 10 minutes to produce a vial of magical honey. This honey functions as a\nmk 1 serum of healing\n. At 5th level (or CR 5), the honey functions as a\nmk 2 serum of healing\n, and at 9th level (or CR 9), it functions as a\nmk 3 serum of healing\n. Regardless of its level, the honey can’t be sold, and its magical properties expire after 24 hours, when it turns into mundane foodstuff."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nAstriapi Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAstriapi\nSource\nAlien Archive 4 pg. 13\nAstriapis are bipedal arthropods with chitinous exoskeletons, membranous insectile wings, and large powerful mandibles. Their pigmentation runs the gamut from dark blues through bold yellows, and some astriapis selectively carve their exoskeletons to create individualistic patterns. They can also naturally produce a restorative honey. On average, astriapis stand around 6 feet tall and weigh between 120 and 150 pounds.\nWhen astriapis awoke from the Gap, they found themselves as the sole sapient inhabitants of an immense megalopolis that covered the entire landmass of the Near Space planet Colveare. Through impressive feats of magical and engineering prowess, the planet’s natural resources and native species had been preserved, with every part of the planet’s ecosystem carefully integrated into the urban sprawl. Astriapi society as a whole immediately dedicated itself to studying the city-planet’s workings to maintain the integrity of the system they found themselves a part of, surviving the struggles of post-Gap adjustments through a natural inclination to regimentation and cooperative obedience.\nAccording to pre-Gap records, the city-planet of Colveare formed when a caste of astriapian warrior-priests produced and consumed honey made from the pollen of the zhufera flower (an aquatic plant native to the planet), which granted them prophetic dreams. Claiming these dreams foretold coming ecological and societal disaster, the priests led a violent planet-wide revolution, eventually creating a unified theocracy dedicated to the preservation of the planet through learning and faith. Today, those who claim descendance from these original revolutionaries refer to themselves as the Hierarchs, and they cultivate the only remaining crop of zhufera flowers from which they derive their closely guarded stores of the prophecy-producing honey. The Hierarchs pass accounts of their dreams down through a complex bureaucracy of executives, scientists, scholars, and engineers, who in turn interpret the dreams and assign tasks to other astriapis in a complicated, selfsustaining web of goals and assignments—all in the service of maintaining the city’s complex infrastructure.\nSome posit that Yaraesa granted visions through these dreams, while others see evidence of Oras’ evolutionary influence. Many astriapis, however, believe that the visions granted by the zhufera honey came from several gods.\nAliens in the \"Astriapi\" Family\nName\nCR\nAstriapi Defender\n1\nAstriapi Warden\n6\nAstriapi, Astriapi Defender\nSource\nAlien Archive 4 pg. 12\nAstriapi Defender CR 1\nXP 400\nAstriapi soldier\nLN Medium monstrous humanoid\nInit\n+8;\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+3;\nRef\n+1;\nWill\n+3\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average) (20 ft., fly 20 ft. [average] in armor)\nMelee\nstandard taclash +5 (1d4+3 S nonlethal) or bite +5 (1d6+3 P)\nRanged\nstatic arc caster +8 (1d8+1 E plus first arc 1d6; critical second arc 1d6) or stickybomb grenade I +8 (explode [10 ft., entangled 2d4 rounds, DC 10])\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with standard taclash)\nOffensive Abilities\nfighting styles (guard)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +5, Engineering +10, Mysticism +5\nLanguages\nAstriapi, Common\nOther Abilities\nhoney production\nGear\ntroop ceremonial plate, standard taclash, static arc caster with 2 batteries (20 charges each), stickybomb grenades I (2),\nastriapi honey\n(functions as\nmk 1 serum of healing\n)\nEcology\nEnvironment\nany urban (Colveare)\nOrganization\nsolitary, pair, or patrol (3–8)\nSpecial Abilities\nHoney Production (Ex)\nOnce per day, an astriapi can spend 10 minutes to produce a vial of magical honey. This honey functions as a\nmk 1 serum of healing\n. At 5th level (or CR 5), the honey functions as a\nmk 2 serum of healing\n, and at 9th level (or CR 9), it functions as a\nmk 3 serum of healing\n. Regardless of its level, the honey can’t be sold, and its magical properties expire after 24 hours, when it turns into mundane foodstuff.\nExtra Content\nThe following extra content was found for this creature:\n-\nAstriapi Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Astriapi_Defender.png"
+}

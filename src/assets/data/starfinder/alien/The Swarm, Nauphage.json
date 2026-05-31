@@ -1,0 +1,58 @@
+{
+  "name": "The Swarm, Nauphage",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Nauphage&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+12",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+5",
+  "immunities": "acid, fear effects",
+  "speed": "25 ft., climb 10 ft.",
+  "melee": "claw +9 (1d4+6 S)",
+  "ranged": "adhesive cannon +7 (1d4+2 E plus entangle)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+1",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Athletics +7, Computers +12, Engineering +12, Stealth +7",
+  "languages": "Shirren, telepathy 100 ft.",
+  "other_abilities": "organic rig, storage sac",
+  "environment": "any",
+  "organization": "pair or team (3–5)",
+  "special_abilities": [
+    {
+      "name": "Adhesive Cannon (Ex)",
+      "description": "As a ranged attack, a nauphage can fire blobs of electrically charged glue with a range increment of 30 feet. In addition to taking damage, a creature struck with this glue is entangled for 1d4 rounds; such a creature can escape with a successful DC 18 Acrobatics check or a DC 13 Strength check attempted as a standard action. This weapon can’t be disarmed and produces its own ammunition, so it never runs out."
+    },
+    {
+      "name": "Organic Rig (Ex)",
+      "description": "One of the nauphage’s arms ends in slender appendages that can be configured to perform a variety of tasks. A nauphage always counts as having the appropriate tool or basic kit for any Computers or Engineering check it attempts."
+    },
+    {
+      "name": "Storage Sac (Ex)",
+      "description": "A nauphage can store up to 2 cubic feet of items weighing no more than 4 bulk in total in a storage sac. It can transfer a single object between its sac and a claw as a swift action."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "A Swarm nauphage is a sturdy insectile creature with a bulbous body supported by three legs. One of the nauphage’s two arms ends in a series of thin digits that functions as an organic tool kit, while the other features a vicious claw onto which an organic ranged weapon is grafted. This gun fires an electrically charged adhesive. A translucent membrane on a nauphage’s torso serves as a handy storage sac that the creature can access with ease.\nWhile the Swarm solely uses organic biotechnology, the creatures often have to deal with other species’ technology as they seek to devour those worlds. Nauphages provide the Swarm with technical and logistical support when simply smashing the troublesome tech in question isn’t tactically sound. Adept at hacking and disassembling computers and other equipment, nauphages allow other Swarm components to bypass doors, turrets, and other technological hazards.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Nauphage\nSource\nStarfinder #20: The Last Refuge pg. 60\nNauphage CR 2\nXP 600\nCE Medium monstrous humanoid\nInit\n+1;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+12\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+3;\nRef\n+3;\nWill\n+5\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n25 ft., climb 10 ft.\nMelee\nclaw +9 (1d4+6 S)\nRanged\nadhesive cannon +7 (1d4+2 E plus entangle)\nStatistics\nSTR\n+4;\nDEX\n+1;\nCON\n+2;\nINT\n+1;\nWIS\n+0;\nCHA\n-3\nSkills\nAthletics +7, Computers +12, Engineering +12, Stealth +7\nLanguages\nShirren, telepathy 100 ft.\nOther Abilities\norganic rig, storage sac\nEcology\nEnvironment\nany\nOrganization\npair or team (3–5)\nSpecial Abilities\nAdhesive Cannon (Ex)\nAs a ranged attack, a nauphage can fire blobs of electrically charged glue with a range increment of 30 feet. In addition to taking damage, a creature struck with this glue is entangled for 1d4 rounds; such a creature can escape with a successful DC 18 Acrobatics check or a DC 13 Strength check attempted as a standard action. This weapon can’t be disarmed and produces its own ammunition, so it never runs out.\nOrganic Rig (Ex)\nOne of the nauphage’s arms ends in slender appendages that can be configured to perform a variety of tasks. A nauphage always counts as having the appropriate tool or basic kit for any Computers or Engineering check it attempts.\nStorage Sac (Ex)\nA nauphage can store up to 2 cubic feet of items weighing no more than 4 bulk in total in a storage sac. It can transfer a single object between its sac and a claw as a swift action.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nA Swarm nauphage is a sturdy insectile creature with a bulbous body supported by three legs. One of the nauphage’s two arms ends in a series of thin digits that functions as an organic tool kit, while the other features a vicious claw onto which an organic ranged weapon is grafted. This gun fires an electrically charged adhesive. A translucent membrane on a nauphage’s torso serves as a handy storage sac that the creature can access with ease.\nWhile the Swarm solely uses organic biotechnology, the creatures often have to deal with other species’ technology as they seek to devour those worlds. Nauphages provide the Swarm with technical and logistical support when simply smashing the troublesome tech in question isn’t tactically sound. Adept at hacking and disassembling computers and other equipment, nauphages allow other Swarm components to bypass doors, turrets, and other technological hazards.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Drakogor",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Drakogor&Family=Drakogor",
+  "source": "Mechageddon! pg. 158",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CE",
+  "size": "Gargantuan",
+  "creature_type": "magical beast (colossus)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision, sense the masses;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "resistances": "electricity 10, fire 10",
+  "speed": "80 ft.",
+  "melee": "bite +18 (2d6+12 P; critical burn 1d10) or claw +18 (2d6+12 S; critical bleed 1d6) or tail slap +18 (2d6+12 B; critical knockdown)",
+  "ranged": "particle laser blast +15 (2d6 F plus low radiation; critical burn 2d6; range 60 ft.)",
+  "space": "20 ft.",
+  "reach": "20 ft.",
+  "offensive_abilities": "breath weapon (60-ft. cone, 8d6 E&F, Reflex DC 14 half, usable every 1d4 rounds), living battery, roar (DC 14)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +14, Athletics +19, Intimidate +14",
+  "languages": "Ancient Daimalkan",
+  "other_abilities": "demolish structures",
+  "environment": "any (Daimalko)",
+  "organization": "solitary, pair",
+  "special_abilities": [
+    {
+      "name": "Living Battery (Ex)",
+      "description": "Drakogors recharge their breath weapons by consuming energy attacks. When a drakogor takes at least 10 damage from any weapon that targets its EAC, as a standard action on their next turn they redirect the energy into a breath weapon dealing the same type of damage as the attack."
+    },
+    {
+      "name": "Roar (Su)",
+      "description": "A drakogor’s roar creates unsettling vibrations. A drakogor roars as a standard action. Creatures within 300 feet must succeed at a DC 14 Fortitude save or become sickened for 1d6 rounds. Creatures who are shaken from a drakogor’s frightful presence are panicked for 1 round (no save). Once a creature has been exposed to a drakogor’s roar, it cannot be affected by any drakogor’s roar for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect. Other drakogors are immune."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDrakogor\nAliens in the \"Drakogor\" Family\nName\nCR\nDrakogor\n7\nGorged Drakogor\n22\nDrakogor\nSource\nMechageddon! pg. 158\nDrakogor CR 7\nXP 3,200\nCE Gargantuan magical beast (colossus)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision, sense the masses;\nPerception\n+14\nAura\nfrightful presence (120 ft., DC 14, shaken 2d4 rounds)\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+11;\nWill\n+6\nResistances\nelectricity 10, fire 10\nOffense\nSpeed\n80 ft.\nMelee\nbite +18 (2d6+12 P; critical burn 1d10) or claw +18 (2d6+12 S; critical bleed 1d6) or tail slap +18 (2d6+12 B; critical knockdown)\nRanged\nparticle laser blast +15 (2d6 F plus low radiation; critical burn 2d6; range 60 ft.)\nSpace\n20 ft.;\nReach\n20 ft.\nOffensive Abilities\nbreath weapon (60-ft. cone, 8d6 E&F, Reflex DC 14 half, usable every 1d4 rounds), living battery, roar (DC 14)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+4;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +14, Athletics +19, Intimidate +14\nLanguages\nAncient Daimalkan\nOther Abilities\ndemolish structures\nEcology\nEnvironment\nany (Daimalko)\nOrganization\nsolitary, pair\nSpecial Abilities\nLiving Battery (Ex)\nDrakogors recharge their breath weapons by consuming energy attacks. When a drakogor takes at least 10 damage from any weapon that targets its EAC, as a standard action on their next turn they redirect the energy into a breath weapon dealing the same type of damage as the attack.\nRoar (Su)\nA drakogor’s roar creates unsettling vibrations. A drakogor roars as a standard action. Creatures within 300 feet must succeed at a DC 14 Fortitude save or become sickened for 1d6 rounds. Creatures who are shaken from a drakogor’s frightful presence are panicked for 1 round (no save). Once a creature has been exposed to a drakogor’s roar, it cannot be affected by any drakogor’s roar for 24 hours. This is an emotion, fear, mind-affecting, and sense-dependent effect. Other drakogors are immune.",
+  "type": "magical beast (colossus)",
+  "category": "alien"
+}

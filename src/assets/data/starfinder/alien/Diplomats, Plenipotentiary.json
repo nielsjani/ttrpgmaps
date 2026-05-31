@@ -1,0 +1,46 @@
+{
+  "name": "Diplomats, Plenipotentiary",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Plenipotentiary&Family=Diplomats",
+  "source": "Interstellar Species pg. 160",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "LG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "perception": "+8",
+  "hp": "155",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+16",
+  "speed": "30 ft.",
+  "melee": "advanced retractable spike +22 (3d4+11 P)",
+  "ranged": "aphelion laser pistol +20 (3d4+11 F; critical burn 1d4)",
+  "spells": "(CL 11th)\n3/day—\naugury\n,\nshare language\nAt will—\ntelepathic message",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+5",
+    "wis": "+8",
+    "cha": "+3"
+  },
+  "skills": "Culture +25 Diplomacy +25, Intimidate +20, Mysticism +20, Sense Motive +25",
+  "feats": "Connection Inkling",
+  "languages": "Common, Psacynoa, up to 16 others",
+  "other_abilities": "multilimbed (4)",
+  "gear": "clearweave II AR , advanced retractable spike  AR , aphelion laser pistol with 1 battery (40 charges), professional clothing",
+  "special_abilities": [
+    {
+      "name": "Instinctive Command (Ex)",
+      "description": "As a move action, a plenipotentiary can issue an order with hypnotizing confidence to a creature within 60 feet. This functions as command (Will DC 20 negates). After using this ability, the plenipotentiary can’t do so again for 1d6 rounds, though at any time they can reduce the number of rounds by 3 for every Resolve Point they spend."
+    }
+  ],
+  "description": "A plenipotentiary is an elite diplomat vested with the full power of their government to act and craft novel treaties without prior clearance. They command potent tools: state secrets, communication magic, and often an entourage of capable assistants. They rarely achieve this role without showing exemplary wisdom and self-control; however, power corrupts some plenipotentiaries, turning them into terrifying political juggernauts who can spread chaos unless their patrons intervene quickly.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiplomats\nSource\nInterstellar Species pg. 160\nDiplomats are ambassadors for their people, working to establish better relationships with those from other cultures, find ways for groups to collaborate, and realize peaceful solutions when violence seems imminent. Given the stakes for fumbling a negotiation, diplomats are highly trained professionals who are equally capable of charming others and evading political traps.\nHowever, diplomats aren’t necessarily the PCs’ allies. An evil empire might employ diplomats who suppress internal dissent and international complaints through clever misdirection. Diplomats  might  introduce  well-intentioned  political entanglements in defense of their own objectives, even if these limit the PCs’ abilities to thwart some greater evil. A diplomat is often a non-combat threat, challenging PCs to employ logic, guile, and charm to discourage, discredit, or sway their rival.\nAliens in the \"Diplomats\" Family\nName\nCR\nEmissary\n3\nPact Worlds Delegate\n6\nPlenipotentiary\n11\nReligious Peacekeeper\n7\nDiplomats, Plenipotentiary\nSource\nInterstellar Species pg. 161\nPlenipotentiary CR 11\nXP 12,800\nPsacynoid\nLG Medium monstrous humanoid\nInit\n+2;\nPerception\n+8\nDefense\nHP\n155;\nRP\n6\nEAC\n24;\nKAC\n25\nFort\n+10;\nRef\n+12;\nWill\n+16; +4 vs. language-dependent and\nOffense\nSpeed\n30 ft.\nMelee\nadvanced retractable spike +22 (3d4+11 P)\nRanged\naphelion laser pistol +20 (3d4+11 F; critical burn 1d4)\nSpells Known\n(CL 11th)\n3/day—\naugury\n,\nshare language\nAt will—\ntelepathic message\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+5;\nWIS\n+8;\nCHA\n+3\nFeats\nConnection Inkling\nSkills\nCulture +25 Diplomacy +25, Intimidate +20, Mysticism +20, Sense Motive +25\nLanguages\nCommon, Psacynoa, up to 16 others\nOther Abilities\nmultilimbed (4)\nGear\nclearweave II AR , advanced retractable spike  AR , aphelion laser pistol with 1 battery (40 charges), professional clothing\nSpecial Abilities\nInstinctive Command (Ex)\nAs a move action, a plenipotentiary can issue an order with hypnotizing confidence to a creature within 60 feet. This functions as command (Will DC 20 negates). After using this ability, the plenipotentiary can’t do so again for 1d6 rounds, though at any time they can reduce the number of rounds by 3 for every Resolve Point they spend.\nDescription\nA plenipotentiary is an elite diplomat vested with the full power of their government to act and craft novel treaties without prior clearance. They command potent tools: state secrets, communication magic, and often an entourage of capable assistants. They rarely achieve this role without showing exemplary wisdom and self-control; however, power corrupts some plenipotentiaries, turning them into terrifying political juggernauts who can spread chaos unless their patrons intervene quickly.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

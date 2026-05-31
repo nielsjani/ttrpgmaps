@@ -1,0 +1,63 @@
+{
+  "name": "Mindscape Mindreaper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mindscape Mindreaper&Family=None",
+  "source": "Starfinder #23: Hive of Minds pg. 56",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+4",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.,",
+  "perception": "+21",
+  "hp": "105",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+13",
+  "immunities": "acid, fear effects",
+  "weaknesses": "mindscape dependency",
+  "speed": "30 ft., burrow 30 ft., climb 20 ft.",
+  "melee": "arm spike +16 (1d12+9 P; critical staggered [DC 18])",
+  "offensive_abilities": "trepan",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\nhaste\n,\nslow\n(DC 20)\n3/day—\nforce blast\n(DC 19),\ninflict pain\n(DC 19),\nmirror image\n,\nmystic cure\n(2nd level)\nAt will—\nmind thrust\n(1st level, DC 18)\nConstant—\nsee invisibility"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+6",
+    "cha": "-1"
+  },
+  "skills": "Athletics +16 (+24 to climb), Mysticism +21, Stealth +16",
+  "languages": "Shirren; telepathy 100 ft.",
+  "other_abilities": "formless demise (DC 18), mindscape simulacrum, semi-mindless, trepan analysis",
+  "environment": "any mindscape",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Formless Demise (Su)",
+      "description": "A slain mindscape creature disappears in a brief explosion of psychic shards. Each non-mindscape creature within 10 feet of a slain mindscape creature must succeed at a Will save or be staggered for 1 round."
+    },
+    {
+      "name": "Mindscape Dependency (Su)",
+      "description": "A mindscape creature can exist only within the mindscape in which it was created. It cannot survive outside, and it dies if it is forcibly removed from the mindscape, but the mindscape usually recreates it 1d4 rounds later."
+    },
+    {
+      "name": "Mindscape Simulacrum (Su)",
+      "description": "A mindscape creature retains its original creature type, but while it is within its mindscape, it also counts as an outsider with the native subtype for the purposes of spells or effects that target it."
+    },
+    {
+      "name": "Semi-Mindless (Ex)",
+      "description": "A mindscape creature gains a +4 bonus to saves against mind-affecting effects. A mindscape creature with the confused condition that rolls an “act normally” result must roll again and use the second result."
+    }
+  ],
+  "description": "When a truly powerful mind creates a mindscape, they often populate it with creatures drawn from their psyche.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMindscape Mindreaper\nSource\nStarfinder #23: Hive of Minds pg. 56\nMindscape Mindreaper CR 8\nXP 4,800\nMindscape Swarm mindreaper\nCE Medium monstrous humanoid\nInit\n+4;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.,\nsee invisibility\n;\nPerception\n+21\nDefense\nHP\n105\nEAC\n19;\nKAC\n20\nFort\n+7;\nRef\n+9;\nWill\n+13; +4 vs. mind-affecting effects\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nWeaknesses\nmindscape dependency\nOffense\nSpeed\n30 ft., burrow 30 ft., climb 20 ft.\nMelee\narm spike +16 (1d12+9 P; critical staggered [DC 18])\nOffensive Abilities\ntrepan\nSpell-Like Abilities\n(CL 8th)\n1/day—\nhaste\n,\nslow\n(DC 20)\n3/day—\nforce blast\n(DC 19),\ninflict pain\n(DC 19),\nmirror image\n,\nmystic cure\n(2nd level)\nAt will—\nmind thrust\n(1st level, DC 18)\nConstant—\nsee invisibility\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+2;\nINT\n+1;\nWIS\n+6;\nCHA\n-1\nSkills\nAthletics +16 (+24 to climb), Mysticism +21, Stealth +16\nLanguages\nShirren; telepathy 100 ft.\nOther Abilities\nformless demise (DC 18), mindscape simulacrum, semi-mindless, trepan analysis\nEcology\nEnvironment\nany mindscape\nOrganization\nsolitary or pair\nSpecial Abilities\nFormless Demise (Su)\nA slain mindscape creature disappears in a brief explosion of psychic shards. Each non-mindscape creature within 10 feet of a slain mindscape creature must succeed at a Will save or be staggered for 1 round.\nMindscape Dependency (Su)\nA mindscape creature can exist only within the mindscape in which it was created. It cannot survive outside, and it dies if it is forcibly removed from the mindscape, but the mindscape usually recreates it 1d4 rounds later.\nMindscape Simulacrum (Su)\nA mindscape creature retains its original creature type, but while it is within its mindscape, it also counts as an outsider with the native subtype for the purposes of spells or effects that target it.\nSemi-Mindless (Ex)\nA mindscape creature gains a +4 bonus to saves against mind-affecting effects. A mindscape creature with the confused condition that rolls an “act normally” result must roll again and use the second result.\nDescription\nWhen a truly powerful mind creates a mindscape, they often populate it with creatures drawn from their psyche.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

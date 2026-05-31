@@ -1,0 +1,54 @@
+{
+  "name": "Memory Muck",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Memory Muck&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 60",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CN",
+  "size": "Tiny",
+  "creature_type": "ooze",
+  "init": "+6",
+  "senses": "blindsight (emotion) 60 ft., sightless;",
+  "perception": "+17",
+  "hp": "165",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+13",
+  "ref": "+9",
+  "will": "+8",
+  "immunities": "ooze immunities",
+  "weaknesses": "vulnerable to",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +21 (2d6+12 A plus memory residue [DC 16])",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+4",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "other_abilities": "compression, mindless, recall",
+  "environment": "any",
+  "organization": "solitary or story (2–5)",
+  "special_abilities": [
+    {
+      "name": "Memory Residue (Su)",
+      "description": "A memory muck’s strikes are charged with hundreds of memory fragments from dozens of minds. A creature struck by a memory muck’s slam attack must succeed at a DC 16 Will saving throw or be overwhelmed by these sensations, becoming confused for 1 round. During this time, attacks from the memory muck that imparted this confusion don’t cause the confused target to automatically attack the memory muck. This is a mind-affecting effect."
+    },
+    {
+      "name": "Recall (Su)",
+      "description": "As a move action, a memory muck can momentarily slip through the Astral Plane to materialize in a creature’s space. The target must have an Intelligence score and be within the range of the memory muck’s blindsight. As a reaction, the target can attempt a DC 28 Bluff check to imagine false memories, redirecting the memory muck to a random empty adjacent square; use the rules for missing with a thrown weapon to determine this square. This is a mind-affecting teleportation effect."
+    },
+    {
+      "name": "Vulnerable to Modify Memory (Su)",
+      "description": "A memory muck can be targeted by\nmodify memory\ndespite being mindless. If a memory muck fails its saving throw against this spell, it is instantly destroyed."
+    }
+  ],
+  "description": "When a creature’s memories are removed or altered, a faint psychic residue forms on the Astral Plane. Normally, such small deposits are of little note, eventually dissipating harmlessly. However, in places where minds are violated regularly (such as in the operating theaters of gray facilities), this residue can build up and push its way onto the Material Plane to form colorful, unthinking oozes known as memory mucks.\nThese tiny creatures often have an instinctive fear of the beings whose memory-modifying magic or technology created them. Thanks to their size and composition, they can easily hide in the shadows and even slip through small cracks in the walls to move between chambers like vermin. Grays, for example, take little notice of memory mucks, only exterminating those oozes that become a large nuisance or damage abductees.\nOccasionally, a gray scientist will capture a handful of memory mucks to study their formation and their connection to the Astral Plane, attempting to separate out a specific creature’s memories with complex centrifuge-like machines. Invariably, this leads to the memory mucks’ destruction, leaving behind only a faint shimmering film of concentrated psychic energy that the grays have yet to find a use for, though some believe it could be weaponized.\nThe clergy of certain deities (such as Eloritu, Talavet, and Yaraesa) pay more attention to memory mucks, sometimes deliberately seeking out what others would consider living waste. They too believe that if these oozes are properly examined, important historical facts can be gleaned from their makeup. Some fringe archaeologists even go so far as to use memory-altering magic on themselves while camped out at sites they are studying in the hopes of creating memory mucks that are infused with the thoughts of the area’s previous inhabitants. These scholars believe they can unlock important mysteries of the past in this way, but many end up damaging their minds instead and ending up in sanatoriums.\nCertain mystics have theorized the existence of a star-sized memory muck somewhere in the universe that holds those memories lost due to the Gap, and have spent their lives chasing rumors of this titanic ooze. Others scoff at such obviously doomed endeavors, as most calculations suggest the muck’s mass would cause it to collapse into a black hole.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMemory Muck\nSource\nStarfinder #30: Puppets Without Strings pg. 60\nMemory Muck CR 9\nXP 6,400\nCN Tiny ooze\nInit\n+6;\nSenses\nblindsight (emotion) 60 ft., sightless;\nPerception\n+17\nDefense\nHP\n165\nEAC\n19;\nKAC\n21\nFort\n+13;\nRef\n+9;\nWill\n+8\nImmunities\nooze immunities\nWeaknesses\nvulnerable to\nmodify memory\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +21 (2d6+12 A plus memory residue [DC 16])\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+4;\nINT\n—;\nWIS\n+0;\nCHA\n+1\nOther Abilities\ncompression, mindless, recall\nEcology\nEnvironment\nany\nOrganization\nsolitary or story (2–5)\nSpecial Abilities\nMemory Residue (Su)\nA memory muck’s strikes are charged with hundreds of memory fragments from dozens of minds. A creature struck by a memory muck’s slam attack must succeed at a DC 16 Will saving throw or be overwhelmed by these sensations, becoming confused for 1 round. During this time, attacks from the memory muck that imparted this confusion don’t cause the confused target to automatically attack the memory muck. This is a mind-affecting effect.\nRecall (Su)\nAs a move action, a memory muck can momentarily slip through the Astral Plane to materialize in a creature’s space. The target must have an Intelligence score and be within the range of the memory muck’s blindsight. As a reaction, the target can attempt a DC 28 Bluff check to imagine false memories, redirecting the memory muck to a random empty adjacent square; use the rules for missing with a thrown weapon to determine this square. This is a mind-affecting teleportation effect.\nVulnerable to Modify Memory (Su)\nA memory muck can be targeted by\nmodify memory\ndespite being mindless. If a memory muck fails its saving throw against this spell, it is instantly destroyed.\nDescription\nWhen a creature’s memories are removed or altered, a faint psychic residue forms on the Astral Plane. Normally, such small deposits are of little note, eventually dissipating harmlessly. However, in places where minds are violated regularly (such as in the operating theaters of gray facilities), this residue can build up and push its way onto the Material Plane to form colorful, unthinking oozes known as memory mucks.\nThese tiny creatures often have an instinctive fear of the beings whose memory-modifying magic or technology created them. Thanks to their size and composition, they can easily hide in the shadows and even slip through small cracks in the walls to move between chambers like vermin. Grays, for example, take little notice of memory mucks, only exterminating those oozes that become a large nuisance or damage abductees.\nOccasionally, a gray scientist will capture a handful of memory mucks to study their formation and their connection to the Astral Plane, attempting to separate out a specific creature’s memories with complex centrifuge-like machines. Invariably, this leads to the memory mucks’ destruction, leaving behind only a faint shimmering film of concentrated psychic energy that the grays have yet to find a use for, though some believe it could be weaponized.\nThe clergy of certain deities (such as Eloritu, Talavet, and Yaraesa) pay more attention to memory mucks, sometimes deliberately seeking out what others would consider living waste. They too believe that if these oozes are properly examined, important historical facts can be gleaned from their makeup. Some fringe archaeologists even go so far as to use memory-altering magic on themselves while camped out at sites they are studying in the hopes of creating memory mucks that are infused with the thoughts of the area’s previous inhabitants. These scholars believe they can unlock important mysteries of the past in this way, but many end up damaging their minds instead and ending up in sanatoriums.\nCertain mystics have theorized the existence of a star-sized memory muck somewhere in the universe that holds those memories lost due to the Gap, and have spent their lives chasing rumors of this titanic ooze. Others scoff at such obviously doomed endeavors, as most calculations suggest the muck’s mass would cause it to collapse into a black hole.",
+  "type": "ooze",
+  "category": "alien"
+}

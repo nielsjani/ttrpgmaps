@@ -1,0 +1,62 @@
+{
+  "name": "Azata, Avigwyr",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Avigwyr&Family=Azata",
+  "source": "Starfinder #31: Waking the Worldseed pg. 55",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CG",
+  "size": "Medium",
+  "creature_type": "outsider (azata, chaotic, extraplanar, good)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+23",
+  "hp": "210",
+  "eac": "27",
+  "kac": "28",
+  "fort": "+14",
+  "ref": "+16",
+  "will": "+14",
+  "immunities": "electricity, petrification;",
+  "resistances": "cold 10, fire 10",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "limning shock ultrathin longsword +25 (4d8+17 E & S plus revealing strike)",
+  "ranged": "electric bolt +25 (2d10+13 E plus revealing strike)",
+  "offensive_abilities": "revealing strike",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\nbreak enchantment\n,\nholographic image\n(5th level, DC 22)\n3/day—\narcane eyes\n,\ndiscern lies\n(DC 21),\nmind probe\n(DC 21)\nAt will—\nclairaudience/clairvoyance\n,\nhologram memory\n(DC 20)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+8",
+    "wis": "+6",
+    "cha": "+2"
+  },
+  "skills": "Computers +28, Diplomacy +28, Engineering +23, Mysticism +23, Sense Motive +28",
+  "languages": "Celestial, Common; truespeech",
+  "other_abilities": "digital transfer",
+  "gear": "limning shock ultrathin longsword",
+  "environment": "any (Elysium)",
+  "organization": "solitary, pair, or cell (3–8)",
+  "special_abilities": [
+    {
+      "name": "Digital Transfer (Su)",
+      "description": "An avigwyr can turn themself into code to merge with a computer. This functions as\ntransfer consciousness\n, but the avigwyr can target only computers with this effect. An avigwyr’s body and gear disappear while they’re merged, and they can transfer to any other computer they’re connected to via a control module, infosphere, or network, provided that computer is a valid target for\ntransfer consciousness\n. An avigwyr can exit a computer they’re merged with at any time, appearing in an adjacent space."
+    },
+    {
+      "name": "Electric Bolt (Ex)",
+      "description": "An avigwyr can hurl deadly bolts of electricity as a ranged attack with a range increment of 50 feet."
+    },
+    {
+      "name": "Revealing Strike (Sp)",
+      "description": "An avigwyr’s attack reveals the true nature of their opponent. When a target is hit by an avigwyr’s attack, any illusions or spells that change the target’s appearance or shape (such as\npolymorph\n) are subject to\ndispel magic\nwith a caster level equal to the avigwyr’s CR. If the target is disguised, all creatures viewing the target can attempt a Perception check with a +10 circumstance bonus to pierce the disguise."
+    }
+  ],
+  "description": "Like other azatas, avigwyrs value freedom and truth. While tritidairs carry messages between stars, avigwyrs root out corruption and avarice on city streets, investigating greedy corporations and corrupt politicians. Their indigo skin, neon hair, and sparking fingertips make them easily recognizable, so they prefer operating behind the scenes. They often work together in covert cells or alongside like‑minded vigilante groups of mixed species. Avigwyrs too paranoid to trust a team work alone and likely assume any strangers who cross their path are agents sent by their enemies.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAzata (Summoning) Graft Template\n-\nAzata (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAzata\nAliens in the \"Azata\" Family\nName\nCR\nAvigwyr\n13\nTritidair\n8\nAzata, Avigwyr\nSource\nStarfinder #31: Waking the Worldseed pg. 55\nAvigwyr CR 13\nXP 25,600\nCG Medium outsider (azata, chaotic, extraplanar, good)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+23\nDefense\nHP\n210\nEAC\n27;\nKAC\n28\nFort\n+14;\nRef\n+16;\nWill\n+14\nImmunities\nelectricity, petrification;\nResistances\ncold 10, fire 10\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nlimning shock ultrathin longsword +25 (4d8+17 E & S plus revealing strike)\nRanged\nelectric bolt +25 (2d10+13 E plus revealing strike)\nOffensive Abilities\nrevealing strike\nSpell-Like Abilities\n(CL 13th)\n1/day—\nbreak enchantment\n,\nholographic image\n(5th level, DC 22)\n3/day—\narcane eyes\n,\ndiscern lies\n(DC 21),\nmind probe\n(DC 21)\nAt will—\nclairaudience/clairvoyance\n,\nhologram memory\n(DC 20)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n+8;\nWIS\n+6;\nCHA\n+2\nSkills\nComputers +28, Diplomacy +28, Engineering +23, Mysticism +23, Sense Motive +28\nLanguages\nCelestial, Common; truespeech\nOther Abilities\ndigital transfer\nGear\nlimning shock ultrathin longsword\nEcology\nEnvironment\nany (Elysium)\nOrganization\nsolitary, pair, or cell (3–8)\nSpecial Abilities\nDigital Transfer (Su)\nAn avigwyr can turn themself into code to merge with a computer. This functions as\ntransfer consciousness\n, but the avigwyr can target only computers with this effect. An avigwyr’s body and gear disappear while they’re merged, and they can transfer to any other computer they’re connected to via a control module, infosphere, or network, provided that computer is a valid target for\ntransfer consciousness\n. An avigwyr can exit a computer they’re merged with at any time, appearing in an adjacent space.\nElectric Bolt (Ex)\nAn avigwyr can hurl deadly bolts of electricity as a ranged attack with a range increment of 50 feet.\nRevealing Strike (Sp)\nAn avigwyr’s attack reveals the true nature of their opponent. When a target is hit by an avigwyr’s attack, any illusions or spells that change the target’s appearance or shape (such as\npolymorph\n) are subject to\ndispel magic\nwith a caster level equal to the avigwyr’s CR. If the target is disguised, all creatures viewing the target can attempt a Perception check with a +10 circumstance bonus to pierce the disguise.\nDescription\nLike other azatas, avigwyrs value freedom and truth. While tritidairs carry messages between stars, avigwyrs root out corruption and avarice on city streets, investigating greedy corporations and corrupt politicians. Their indigo skin, neon hair, and sparking fingertips make them easily recognizable, so they prefer operating behind the scenes. They often work together in covert cells or alongside like‑minded vigilante groups of mixed species. Avigwyrs too paranoid to trust a team work alone and likely assume any strangers who cross their path are agents sent by their enemies.\nExtra Content\nThe following extra content was found for this creature:\n-\nAzata (Summoning) Graft Template\n-\nAzata (Creature Subtype) Graft Template",
+  "type": "outsider (azata, chaotic, extraplanar, good)",
+  "category": "alien"
+}

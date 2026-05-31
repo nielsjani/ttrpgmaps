@@ -1,0 +1,46 @@
+{
+  "name": "Vermin (Space), Warpmoth Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Warpmoth Swarm&Family=Vermin (Space)",
+  "source": "Alien Archive 2 pg. 132",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "vermin (swarm)",
+  "init": "+5",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+5",
+  "immunities": "swarm immunities",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "swarm attack (2d6 P)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 14)",
+  "ability_scores": {
+    "str": "-5",
+    "dex": "+5",
+    "con": "+3",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +13 (+21 to fly)",
+  "other_abilities": "mindless",
+  "environment": "any vacuum",
+  "organization": "solitary, pair, or delusion (3–6)",
+  "special_abilities": [
+    {
+      "name": "Disorienting Aura (Ex)",
+      "description": "A warpmoth swarm creates an oscillating light (colloquially called its warp) that is disorienting. A creature that is within this aura, can see the light, and fails a DC 14 Will saving throw can move at only half speed, rounded down to the nearest 5-foot increment. This is a mind-affecting effect."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVermin (Space)\nSource\nAlien Archive 2 pg. 132\nEven the vacuum of space has bugs. Most of these void-dwelling vermin are harmless, but some are dangerous or predatory.\nAsteroid lice and planetoid beetles feed on minerals in the rock of their airless habitats. Asteroid lice are communal, but planetoid beetles are territorial, tolerating only one mate. These creatures and their eggs can float in space to a new home. However, careless quarrying and shipping have accelerated their spread through the galaxy.\nXenobiologists theorize many space vermin evolved in special circumstances. Necropedes were once centipede-like scavengers on Eox; they now have a bite that can digest undead flesh. A warpmoth is like a glowing blue-white speck attracted to moving light, such as other warpmoths or passing starships. Gathering in swarms and following ships helps the moths feed and mate. Comet wasps create nests in frozen interstellar bodies. These icy, venomous vespids lay their eggs in living creatures.\nAliens in the \"Vermin (Space)\" Family\nName\nCR\nAsteroid Louse\n1/2\nComet Wasp Swarm\n12\nNecropede\n3\nPlanetoid Beetle\n9\nWarpmoth Swarm\n6\nVermin (Space), Warpmoth Swarm\nSource\nAlien Archive 2 pg. 132\nWarpmoth Swarm CR 6\nXP 2,400\nN Fine vermin (swarm)\nInit\n+5;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+13\nAura\ndisorienting (15 ft., DC 14)\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+8;\nRef\n+10;\nWill\n+5\nDefensive Abilities\nswarm defenses, void adaptation;\nImmunities\nswarm immunities\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\nswarm attack (2d6 P)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 14)\nStatistics\nSTR\n-5;\nDEX\n+5;\nCON\n+3;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nAcrobatics +13 (+21 to fly)\nOther Abilities\nmindless\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary, pair, or delusion (3–6)\nSpecial Abilities\nDisorienting Aura (Ex)\nA warpmoth swarm creates an oscillating light (colloquially called its warp) that is disorienting. A creature that is within this aura, can see the light, and fails a DC 14 Will saving throw can move at only half speed, rounded down to the nearest 5-foot increment. This is a mind-affecting effect.",
+  "type": "vermin (swarm)",
+  "category": "alien"
+}

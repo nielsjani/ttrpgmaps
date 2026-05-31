@@ -1,0 +1,43 @@
+{
+  "name": "Oblivion Shade",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Oblivion Shade&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 277",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+5",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft.;;",
+  "perception": "+21",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "immunities": "undead immunities",
+  "speed": "fly 40 ft. (Su, perfect)",
+  "melee": "incorporeal touch +17 (1d12+8 A; critical corrode 1d6)",
+  "offensive_abilities": "create spawn (DC 18)",
+  "skills": "Acrobatics +21, Intimidate +21, Stealth +21",
+  "languages": "Common",
+  "other_abilities": "unliving, void leap",
+  "environment": "any",
+  "organization": "solitary or cabal (1–2 with 4–20 oblivion shade spawn)",
+  "special_abilities": [
+    {
+      "name": "Create Spawn (Su)",
+      "description": "A living humanoid creature killed by an oblivion shade’s incorporeal touch must attempt a DC 18 Will saving throw just before it’s killed. If it fails, it becomes an oblivion shade spawn under the control of the original oblivion shade in 1d4 rounds. An oblivion shade spawn usually has a CR that is 3 lower than that of the original oblivion shade."
+    },
+    {
+      "name": "Void Leap (Su)",
+      "description": "An oblivion shade can pass incorporeally through the center of a solid object whose space is larger than its own, but not an object whose space is larger than the distance an oblivion shade can move with a single move action (40 feet for most oblivion shades)."
+    }
+  ],
+  "description": "A kind of incorporeal undead, an oblivion shade comes into existence when an evil being dies in the throes of utter nihilism. With that negativity burning in its heart, the miserable soul rises again as an oblivion shade.\nOblivion shades are animate expressions of entropy, able to disintegrate matter with a touch. Though their bodies melt away to nearly nothing, victims killed by oblivion shades often find their souls twisted, becoming oblivion shade spawn under the thrall of the original undead.\nMost oblivion shades embrace devotion to the Devourer. Some function as soldiers of the Star-Eater’s cults, while others act as revered mystics and sages of the most faithful choirs. A few create their own sects by slaughtering innocents to create spawn. These “invisible choirs” are looked upon with fear and awe even by other cultists of the Devourer.",
+  "extra_content": "The following extra content was found for this creature:\n-\nOblivion Shade (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOblivion Shade\nSource\nStarfinder Dead Suns Adventure Path pg. 277\n,\nStarfinder #5: The Thirteenth Gate pg. 58\nOblivion Shade CR 8\nXP 4,800\nNE Medium undead (incorporeal)\nInit\n+5;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft.;;\nPerception\n+21\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+13\nDefensive Abilities\nincorporeal;\nImmunities\nundead immunities\nOffense\nSpeed\nfly 40 ft. (Su, perfect)\nMelee\nincorporeal touch +17 (1d12+8 A; critical corrode 1d6)\nOffensive Abilities\ncreate spawn (DC 18)\nStatistics\nSTR\n—;\nDEX\n+6;\nCON\n—;\nINT\n+4;\nWIS\n+2;\nCHA\n+2\nSkills\nAcrobatics +21, Intimidate +21, Stealth +21\nLanguages\nCommon\nOther Abilities\nunliving, void leap\nEcology\nEnvironment\nany\nOrganization\nsolitary or cabal (1–2 with 4–20 oblivion shade spawn)\nSpecial Abilities\nCreate Spawn (Su)\nA living humanoid creature killed by an oblivion shade’s incorporeal touch must attempt a DC 18 Will saving throw just before it’s killed. If it fails, it becomes an oblivion shade spawn under the control of the original oblivion shade in 1d4 rounds. An oblivion shade spawn usually has a CR that is 3 lower than that of the original oblivion shade.\nVoid Leap (Su)\nAn oblivion shade can pass incorporeally through the center of a solid object whose space is larger than its own, but not an object whose space is larger than the distance an oblivion shade can move with a single move action (40 feet for most oblivion shades).\nDescription\nA kind of incorporeal undead, an oblivion shade comes into existence when an evil being dies in the throes of utter nihilism. With that negativity burning in its heart, the miserable soul rises again as an oblivion shade.\nOblivion shades are animate expressions of entropy, able to disintegrate matter with a touch. Though their bodies melt away to nearly nothing, victims killed by oblivion shades often find their souls twisted, becoming oblivion shade spawn under the thrall of the original undead.\nMost oblivion shades embrace devotion to the Devourer. Some function as soldiers of the Star-Eater’s cults, while others act as revered mystics and sages of the most faithful choirs. A few create their own sects by slaughtering innocents to create spawn. These “invisible choirs” are looked upon with fear and awe even by other cultists of the Devourer.\nExtra Content\nThe following extra content was found for this creature:\n-\nOblivion Shade (Other) Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien"
+}

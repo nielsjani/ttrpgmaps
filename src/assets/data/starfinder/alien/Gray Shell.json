@@ -1,0 +1,59 @@
+{
+  "name": "Gray Shell",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gray Shell&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 57",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "humanoid (gray)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+18",
+  "weaknesses": "vulnerable to acid",
+  "speed": "30 ft.",
+  "melee": "HFD pulse gauntlet +20 (5d6+14 B & So; critical knockdown)",
+  "ranged": "LFD sonic rifle +22 (2d10+13 So; critical deafen [DC 21])",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th; ranged +22",
+    "spells": "1/day—\ndominate person\n(DC 24),\nmodify memory\n(DC 24)\n3/day—\nconfusion\n(DC 23),\ndiscern lies\n(DC 23),\nhold monster\n(DC 23),\nmind probe\n(DC 23)\nAt will—\ndeep slumber\n(DC 22),\nmind thrust\n(4th level, DC 22)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+8",
+    "wis": "+1",
+    "cha": "+6"
+  },
+  "skills": "Bluff +28, Disguise +28, Sense Motive +23",
+  "languages": "Aklo, Common; telepathy 100 ft.",
+  "other_abilities": "concealing shell, partial phasing",
+  "gear": "platinum AbadarCorp travel suit, HFD pulse gauntlet with 1 battery (20 charges), LFD sonic rifle with 2 high-capacity batteries (40 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or conspiracy (4–8)",
+  "special_abilities": [
+    {
+      "name": "Concealing Shell (Ex)",
+      "description": "A gray shell appears as a member of a humanoid or monstrous humanoid race, gaining a +10 racial bonus to Disguise checks to appear as that type of creature. However, a creature that succeeds at a DC 30 Medicine check when providing long-term care or long-term stability to a gray shell notices the strange hollowness of many of its internal organs."
+    },
+    {
+      "name": "Incorporeal Rider (Ex)",
+      "description": "When a gray shell is reduced to fewer than half its Hit Points, its corporeal exterior falls away, revealing the incorporeal gray-shaped animating force within. The gray shell’s size is reduced to Small, it loses its vulnerability to acid and the ability to use its gear, gains the incorporeal subtype, and gains a supernatural fly speed of 30 with perfect maneuverability."
+    },
+    {
+      "name": "Partial Phasing (Su)",
+      "description": "The animating force within a gray shell can pull its body out of phase temporarily. A gray shell can pass through walls or material objects (but not corporeal creatures) as long as it begins and ends its turn outside of any wall or obstacle."
+    }
+  ],
+  "description": "As part of their continued efforts to observe other species, a symposium of gray mysteriarchs collaborated to create a clone controlled by a more loyal force than is typical, a creature they call a gray shell. A gray shell has an exterior made of partially living organic material but is animated by an incorporeal gray-shaped being drawn from whatever world or dimension grays call home. These gray shells can be produced to look like nearly any humanoid form in the galaxy and, like the clones grays can engineer, are able to speak languages and exhibit cultural knowledge appropriate to whatever area they are meant to infiltrate. However, to keen onlookers, a gray shell’s skin is too smooth, their eyes slightly larger than normal for the species they are imitating.\nGray shells are still mostly experimental and haven’t seen much use outside of carefully monitored testing grounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGray Shell\nSource\nStarfinder #30: Puppets Without Strings pg. 57\nGray Shell CR 13\nXP 25,600\nNE Medium humanoid (gray)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nDefense\nHP\n190\nEAC\n26;\nKAC\n27\nFort\n+12;\nRef\n+12;\nWill\n+18\nDefensive Abilities\nincorporeal rider\nWeaknesses\nvulnerable to acid\nOffense\nSpeed\n30 ft.\nMelee\nHFD pulse gauntlet +20 (5d6+14 B & So; critical knockdown)\nRanged\nLFD sonic rifle +22 (2d10+13 So; critical deafen [DC 21])\nSpell-Like Abilities\n(CL 13th; ranged +22)\n1/day—\ndominate person\n(DC 24),\nmodify memory\n(DC 24)\n3/day—\nconfusion\n(DC 23),\ndiscern lies\n(DC 23),\nhold monster\n(DC 23),\nmind probe\n(DC 23)\nAt will—\ndeep slumber\n(DC 22),\nmind thrust\n(4th level, DC 22)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n-1;\nINT\n+8;\nWIS\n+1;\nCHA\n+6\nSkills\nBluff +28, Disguise +28, Sense Motive +23\nLanguages\nAklo, Common; telepathy 100 ft.\nOther Abilities\nconcealing shell, partial phasing\nGear\nplatinum AbadarCorp travel suit, HFD pulse gauntlet with 1 battery (20 charges), LFD sonic rifle with 2 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or conspiracy (4–8)\nSpecial Abilities\nConcealing Shell (Ex)\nA gray shell appears as a member of a humanoid or monstrous humanoid race, gaining a +10 racial bonus to Disguise checks to appear as that type of creature. However, a creature that succeeds at a DC 30 Medicine check when providing long-term care or long-term stability to a gray shell notices the strange hollowness of many of its internal organs.\nIncorporeal Rider (Ex)\nWhen a gray shell is reduced to fewer than half its Hit Points, its corporeal exterior falls away, revealing the incorporeal gray-shaped animating force within. The gray shell’s size is reduced to Small, it loses its vulnerability to acid and the ability to use its gear, gains the incorporeal subtype, and gains a supernatural fly speed of 30 with perfect maneuverability.\nPartial Phasing (Su)\nThe animating force within a gray shell can pull its body out of phase temporarily. A gray shell can pass through walls or material objects (but not corporeal creatures) as long as it begins and ends its turn outside of any wall or obstacle.\nDescription\nAs part of their continued efforts to observe other species, a symposium of gray mysteriarchs collaborated to create a clone controlled by a more loyal force than is typical, a creature they call a gray shell. A gray shell has an exterior made of partially living organic material but is animated by an incorporeal gray-shaped being drawn from whatever world or dimension grays call home. These gray shells can be produced to look like nearly any humanoid form in the galaxy and, like the clones grays can engineer, are able to speak languages and exhibit cultural knowledge appropriate to whatever area they are meant to infiltrate. However, to keen onlookers, a gray shell’s skin is too smooth, their eyes slightly larger than normal for the species they are imitating.\nGray shells are still mostly experimental and haven’t seen much use outside of carefully monitored testing grounds.",
+  "type": "humanoid (gray)",
+  "category": "alien"
+}

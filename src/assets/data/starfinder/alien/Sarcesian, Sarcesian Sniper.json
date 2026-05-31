@@ -1,0 +1,50 @@
+{
+  "name": "Sarcesian, Sarcesian Sniper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sarcesian Sniper&Family=Sarcesian",
+  "source": "Alien Archive pg. 98",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "humanoid (sarcesian)",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+17",
+  "hp": "64",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+4",
+  "ref": "+9",
+  "will": "+8",
+  "speed": "40 ft.",
+  "melee": "tactical dueling sword +10 (1d6+5 S)",
+  "ranged": "advanced Diasporan rifle +12 (2d8+5 F) or frag grenade II +12 (explode [15 ft., 2d6 P, DC 15])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "debilitating trick, trick attack +3d8",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +17, Bluff +12, Computers +12, Stealth +17, Survival +12",
+  "languages": "Common, Sarcesian",
+  "other_abilities": "operative exploits (cloaking field), specialization (ghost), void flyer",
+  "gear": "estex suit II, advanced Diasporan rifle (see page 99) with 2 batteries (20 charges each), frag grenades II (4), tactical dueling sword",
+  "environment": "any low-gravity (Diaspora)",
+  "organization": "solitary, pair, or squad (3–5)",
+  "special_abilities": [
+    {
+      "name": "Void Flyer (Su)",
+      "description": "A sarcesian can go 1 hour without breathing and can exist in a vacuum without suffering the associated environmental effects. By spending 1 Resolve Point, a sarcesian can extend this duration to a number of hours equal to her CR, or she can double that by spending 2 Resolve Points. When in a vacuum, sarcesians automatically grow wings made from pure energy that grant them a supernatural fly speed of 120 feet (average maneuverability) but that work only in a vacuum."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nSarcesian (Creature Subtype) Graft Template\n-\nSarcesian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSarcesian\nSource\nAlien Archive pg. 98\nSupposedly descended from the inhabitants of the two planets whose destruction long ago formed the Diaspora asteroid belt, sarcesians have adapted to low-gravity and thinair environments. Standing between 10 and 15 feet tall with bulbous eyes and spindly, elongated limbs, a sarcesian is able to adapt her physiology to survive in space by suspending her respiration and growing a pair of butterfly-like wings made of pure light. The wings act as solar sails, catching currents of radiation to propel her between the handful of inhabited asteroids and space platforms within the Diaspora.\nThanks to arcane engines left behind by the sarcesians’ ancestors, the race has long managed to maintain creche worlds—asteroids with enough magical atmosphere, gravity, and warmth for the inhabitants to live comfortably and raise offspring. Compared to some other planets in the Golarion system, sarcesian creche worlds are beautiful and idyllic. They contain fields, forests, hills, lakes, and bucolic towns whose populations number in the low thousands. Many of these sanctuaries are linked by the River Between, an unusual body of water that actually flows between and through the asteroids; the water is prevented from floating off into space by a tube-shaped force field crafted by unknown hands.\nSarcesians who leave the asteroid belt are sometimes hired as mercenaries specializing in surveillance and marksmanship, as they are accustomed to operating at vast distances from their targets. These sarcesians hone their innate patience even further in order to lie in wait for their marks for days atop bluffs, in dilapidated apartments, or even in the vacuum of space outside docking slips. Employers tend to pay well for this degree of dedication, making sarcesian snipers a highly sought-after commodity in certain areas of the galaxy.\nAliens in the \"Sarcesian\" Family\nName\nCR\nSarcesian Cybercommando\n8\nSarcesian Sniper\n5\nSarcesian, Sarcesian Sniper\nSource\nAlien Archive pg. 98\nSarcesian Sniper CR 5\nXP 1,600\nSarcesian operative\nLN Large humanoid (sarcesian)\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+17\nDefense\nHP\n64;\nRP\n4\nEAC\n19;\nKAC\n20\nFort\n+4;\nRef\n+9;\nWill\n+8\nDefensive Abilities\nevasion, uncanny agility\nOffense\nSpeed\n40 ft.\nMelee\ntactical dueling sword +10 (1d6+5 S)\nRanged\nadvanced Diasporan rifle +12 (2d8+5 F) or frag grenade II +12 (explode [15 ft., 2d6 P, DC 15])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ndebilitating trick, trick attack +3d8\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+0;\nINT\n+3;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +17, Bluff +12, Computers +12, Stealth +17, Survival +12\nLanguages\nCommon, Sarcesian\nOther Abilities\noperative exploits (cloaking field), specialization (ghost), void flyer\nGear\nestex suit II, advanced Diasporan rifle (see page 99) with 2 batteries (20 charges each), frag grenades II (4), tactical dueling sword\nEcology\nEnvironment\nany low-gravity (Diaspora)\nOrganization\nsolitary, pair, or squad (3–5)\nSpecial Abilities\nVoid Flyer (Su)\nA sarcesian can go 1 hour without breathing and can exist in a vacuum without suffering the associated environmental effects. By spending 1 Resolve Point, a sarcesian can extend this duration to a number of hours equal to her CR, or she can double that by spending 2 Resolve Points. When in a vacuum, sarcesians automatically grow wings made from pure energy that grant them a supernatural fly speed of 120 feet (average maneuverability) but that work only in a vacuum.\nExtra Content\nThe following extra content was found for this creature:\n-\nSarcesian (Creature Subtype) Graft Template\n-\nSarcesian Race Entry",
+  "type": "humanoid (sarcesian)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Sarcesian.png"
+}

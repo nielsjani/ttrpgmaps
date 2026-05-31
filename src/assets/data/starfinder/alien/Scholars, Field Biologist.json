@@ -1,0 +1,49 @@
+{
+  "name": "Scholars, Field Biologist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Field Biologist&Family=Scholars",
+  "source": "Interstellar Species pg. 176",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+6",
+  "speed": "35 ft.; climb 15 ft.",
+  "melee": "apprehension-class capture pole +18 (2d8+11 P) or claw  +18 (2d6+11 S)",
+  "ranged": "static arc rifle +15 (1d12+7 E) Size 10 ft.; Reach 5 ft. (10 ft. with capture pole)",
+  "offensive_abilities": "ferocious charge , precise aim, wrassle",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+2",
+    "int": "+5",
+    "wis": "-1",
+    "cha": "+0"
+  },
+  "skills": "Life Science +19, Medicine +14, Physical Science +14, Survival +14",
+  "languages": "Common, up to 5 others; limited telepathy 30 ft.",
+  "gear": "lashunta ringwear II, apprehension-class capture pole, static arc rifle with 2 high-capacity batteries (40 charges each), habitat box, tier 1 antitoxin, tier 2 sedative (4)",
+  "special_abilities": [
+    {
+      "name": "Precise Aim (Ex)",
+      "description": "When a field biologist scores a critical hit, their attack deals additional damage equal to their CR, applied after doubling the attack’s damage."
+    },
+    {
+      "name": "Wrassle (Ex)",
+      "description": "A field researcher can attempt a grapple combat maneuver with a +4 bonus as a full action. If they succeed, they can deal nonlethal damage to the target equal to their claw damage in addition to the grapple check’s other effects."
+    }
+  ],
+  "description": "Field biologists specialize in wilderness research and are often equipped with nonlethal weapons to subdue creatures so they can be carefully studied, chipped, and released back into the wild. Those who survive numerous expeditions often earn a reputation for resourcefulness and grit, attracting junior researchers and other colleagues. Most biologists deeply respect the life-forms they study, but some seek to capture creatures to perform illegal and harmful experiments for the sake of profit.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScholars\nSource\nInterstellar Species pg. 176\nThough many are students and educators at formal institutions, scholars are as likely to be solitary academics or self-taught. Adventurers might seek a scholar to decipher a mysterious text or perform a complicated spell. A scholar could be a party’s patron, sending them to retrieve artifacts or data from faraway planets. Villainous scholars might seek nefarious lore or publish dangerously fabricated research for profit or prestige.\nThese scholars have Intelligence-focused skills, yet you can replace these skills to represent other studies, such as a scholar of the arts having Profession (painter) instead of Engineering.\nAliens in the \"Scholars\" Family\nName\nCR\nField Biologist\n7\nPostgrad Student\n1\nScholar Of Magic\n11\nSubject Expert\n5\nScholars, Field Biologist\nSource\nInterstellar Species pg. 176\nField Biologist CR 7\nXP 3,200\nUplifted bear\nN Large magical beast\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+11;\nWill\n+6\nOffense\nSpeed\n35 ft.; climb 15 ft.\nMelee\napprehension-class capture pole +18 (2d8+11 P) or claw  +18 (2d6+11 S)\nRanged\nstatic arc rifle +15 (1d12+7 E) Size 10 ft.; Reach 5 ft. (10 ft. with capture pole)\nOffensive Abilities\nferocious charge , precise aim, wrassle\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+2;\nINT\n+5;\nWIS\n-1;\nCHA\n+0\nSkills\nLife Science +19, Medicine +14, Physical Science +14, Survival +14\nLanguages\nCommon, up to 5 others; limited telepathy 30 ft.\nGear\nlashunta ringwear II, apprehension-class capture pole, static arc rifle with 2 high-capacity batteries (40 charges each), habitat box, tier 1 antitoxin, tier 2 sedative (4)\nSpecial Abilities\nPrecise Aim (Ex)\nWhen a field biologist scores a critical hit, their attack deals additional damage equal to their CR, applied after doubling the attack’s damage.\nWrassle (Ex)\nA field researcher can attempt a grapple combat maneuver with a +4 bonus as a full action. If they succeed, they can deal nonlethal damage to the target equal to their claw damage in addition to the grapple check’s other effects.\nDescription\nField biologists specialize in wilderness research and are often equipped with nonlethal weapons to subdue creatures so they can be carefully studied, chipped, and released back into the wild. Those who survive numerous expeditions often earn a reputation for resourcefulness and grit, attracting junior researchers and other colleagues. Most biologists deeply respect the life-forms they study, but some seek to capture creatures to perform illegal and harmful experiments for the sake of profit.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

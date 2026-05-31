@@ -1,0 +1,53 @@
+{
+  "name": "Anemonite Communicant",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Anemonite Communicant&Family=None",
+  "source": "Starfinder #43: Icebound pg. 54",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "LN",
+  "size": "Fine",
+  "creature_type": "construct",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "170",
+  "eac": "25",
+  "kac": "26",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+15",
+  "immunities": "construct immunities, swarm immunities;",
+  "resistances": "acid 10",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "swarm attack (1d12+16 B & E)",
+  "ranged": "electroshock +21 (2d8+12 E)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 21)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "—",
+    "int": "—",
+    "wis": "+8",
+    "cha": "—"
+  },
+  "skills": "Acrobatics +27 (+35 to fly), Stealth +22",
+  "other_abilities": "mindless, polymorphic defragmentation, reconstruction protocol, unliving",
+  "environment": "Weydana-6",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Polymorphic Defragmentation (Ex)",
+      "description": "An anemonite communicant breaks down and reconstructs its victims in simpler, condensed forms. When an anemonite communicant kills a creature, the creature’s corpse disappears into the swarm. One round later, the anemonite communicant leaves behind a single cube of undifferentiated matter that includes all the material once found in that creature, including all its possessions."
+    },
+    {
+      "name": "Reconstruction Protocol (Ex)",
+      "description": "A communicant retains data records of all the creatures it has killed. A character with a custom rig or computer with a range upgrade can attempt to hack the communicant to recreate creatures it has slain. The hacker must take a full action and succeed at a DC 33 Computers check; on a failure, the hacker activates the communicant’s defense protocols, and the swarm moves toward the hacker as quickly as possible, targeting them with its attacks and spell-like abilities in an attempt to destroy them. On a success, the last creature slain by the communicant and not already reconstructed is returned to life in a space adjacent to the communicant, as if subjected to the raise dead spell."
+    }
+  ],
+  "description": "Anemonites are nanomachines that ride the preprogrammed storms of Weydana-6 in swarms called communicants. These nanomachines maintain Weydana-6’s dormant computer, defragmenting errant data worldwide and cataloging that data. Unfortunately for travelers exploring the mystery of Weydana-6, the mindless communicants register them as errant data and seek to eliminate them while simultaneously storing their engrams.\nCreatures defragmented by an anemonite communicant are subjected to excruciating pain as their bodies are broken down and reordered to be read more efficiently. If killed, these hapless individuals are reconfigured into cubes of matter that bear no resemblance to the living beings they once were. Those fortunate enough to survive anemonites have complained of splintered recall, a memory disorder in which the memories of one individual are transferred to another.\nEach communicant stores all data relevant to creatures it has killed, presumably for uploading to Weydana-6’s cosmic computer. However, that computer remains dormant, leaving this data within each anemonite swarm. Computer scientists have had some success hacking a swarm and using its own nanomachines to reconstruct individuals the swarm has defragmented.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnemonite Communicant\nSource\nStarfinder #43: Icebound pg. 54\nAnemonite Communicant CR 12\nXP 19,200\nLN Fine construct\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n170\nEAC\n25;\nKAC\n26\nFort\n+11;\nRef\n+11;\nWill\n+15\nDefensive Abilities\nswarm defenses;\nImmunities\nconstruct immunities, swarm immunities;\nResistances\nacid 10\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\nswarm attack (1d12+16 B & E)\nRanged\nelectroshock +21 (2d8+12 E)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 21)\nSpell-like Abilities\n(CL 12th)\n1/day—\ncorrosive haze\n,\ndestruction protocol\n3/day—\ninfect blood\n,\nnanite form\n,\nsmog bank\nAt will—\nknow coordinates\n,\nmanipulate tech\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n—;\nINT\n—;\nWIS\n+8;\nCHA\n—\nSkills\nAcrobatics +27 (+35 to fly), Stealth +22\nOther Abilities\nmindless, polymorphic defragmentation, reconstruction protocol, unliving\nEcology\nEnvironment\nWeydana-6\nOrganization\nsolitary\nSpecial Abilities\nPolymorphic Defragmentation (Ex)\nAn anemonite communicant breaks down and reconstructs its victims in simpler, condensed forms. When an anemonite communicant kills a creature, the creature’s corpse disappears into the swarm. One round later, the anemonite communicant leaves behind a single cube of undifferentiated matter that includes all the material once found in that creature, including all its possessions.\nReconstruction Protocol (Ex)\nA communicant retains data records of all the creatures it has killed. A character with a custom rig or computer with a range upgrade can attempt to hack the communicant to recreate creatures it has slain. The hacker must take a full action and succeed at a DC 33 Computers check; on a failure, the hacker activates the communicant’s defense protocols, and the swarm moves toward the hacker as quickly as possible, targeting them with its attacks and spell-like abilities in an attempt to destroy them. On a success, the last creature slain by the communicant and not already reconstructed is returned to life in a space adjacent to the communicant, as if subjected to the raise dead spell.\nDescription\nAnemonites are nanomachines that ride the preprogrammed storms of Weydana-6 in swarms called communicants. These nanomachines maintain Weydana-6’s dormant computer, defragmenting errant data worldwide and cataloging that data. Unfortunately for travelers exploring the mystery of Weydana-6, the mindless communicants register them as errant data and seek to eliminate them while simultaneously storing their engrams.\nCreatures defragmented by an anemonite communicant are subjected to excruciating pain as their bodies are broken down and reordered to be read more efficiently. If killed, these hapless individuals are reconfigured into cubes of matter that bear no resemblance to the living beings they once were. Those fortunate enough to survive anemonites have complained of splintered recall, a memory disorder in which the memories of one individual are transferred to another.\nEach communicant stores all data relevant to creatures it has killed, presumably for uploading to Weydana-6’s cosmic computer. However, that computer remains dormant, leaving this data within each anemonite swarm. Computer scientists have had some success hacking a swarm and using its own nanomachines to reconstruct individuals the swarm has defragmented.",
+  "type": "construct",
+  "category": "alien"
+}

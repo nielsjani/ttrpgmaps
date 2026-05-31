@@ -1,0 +1,46 @@
+{
+  "name": "Sports Figures, Parabolas Revivalist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Parabolas Revivalist&Family=Sports Figures",
+  "source": "Interstellar Species pg. 179",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "humanoid (shimreen)",
+  "init": "+4",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+5",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "light sap +6 (1d4+4 B nonlethal)",
+  "ranged": "frost subduer +8 (1d3+2 C; critical staggered)",
+  "offensive_abilities": "amplify (1d4)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +12, Athletics +12, Bluff +7, Culture +12, Sleight of Hand +7",
+  "languages": "Common, Shimreeni, up to 2 others",
+  "other_abilities": "gravitic agility, shift limb , stellar alignment (graviton)",
+  "gear": "freebooter armor I, frost subduer with 2 batteries (20 charges each), light sap",
+  "special_abilities": [
+    {
+      "name": "Gravitic Agility (Su)",
+      "description": "By making micro-adjustments to their personal gravity, parabolas revivalists can perform impressive feats of acrobatic prowess, even going airborne for short periods of time. While attuned, a parabolas revivalist gains a bonus to Acrobatics checks equal to one-third their CR. While fully attuned, a parabolas revivalist gains the ferocious charge universal creature rule and a fly speed of 30 feet when charging; after they use ferocious charge, they immediately become unattuned."
+    }
+  ],
+  "description": "When a recent Starfinder Society expedition to the copaxi planet Tabrid Minor uncovered the lost rules to a forgotten sport called parabolas, copaxi anthropologists and sports enthusiasts were electrified by the discovery. Today, following reconstructed rules, parabolas revivalists throughout the galaxy attempt to recreate it, rekindle popular interest in the pastime, and develop the skills of gravitational mastery required by the demanding acrobatic, gravity-bending sport.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSports Figures\nSource\nInterstellar Species pg. 179\nAcross the universe, sapient species have independently discovered the societal benefits of friendly (and not-so-friendly) competition—as well as the fame and fortune that can be made by widely broadcasting such competitions to die-hard fans. While some cultures thrive on intellectual games of skill and strategy, others revel in fast-paced displays of martial might, brute strength, or deadly struggle. No matter the culture, those who succeed in these displays of wit and brawn can amass quite a bit of wealth, cultural clout, and even interplanetary notoriety.\nSports figures are direct and to-the-point combatants with a focus on physicality, dexterity, or brute force, and they can easily serve in any role where violence is a means to an end. Re-skinned sports figures might serve as flashy mercenaries, daring pirates, specially trained guards, or hired muscle.\nAliens in the \"Sports Figures\" Family\nName\nCR\nBattleflower Master\n16\nBrutaris Lock-back\n10\nMagical Duelist\n6\nParabolas Revivalist\n2\nSports Figures, Parabolas Revivalist\nSource\nInterstellar Species pg. 179\nParabolas Revivalist CR 2\nXP 600\nShimreen\nNG Medium humanoid (shimreen)\nInit\n+4;\nPerception\n+7\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+1;\nRef\n+3;\nWill\n+5\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\nlight sap +6 (1d4+4 B nonlethal)\nRanged\nfrost subduer +8 (1d3+2 C; critical staggered)\nOffensive Abilities\namplify (1d4)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+0;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +12, Athletics +12, Bluff +7, Culture +12, Sleight of Hand +7\nLanguages\nCommon, Shimreeni, up to 2 others\nOther Abilities\ngravitic agility, shift limb , stellar alignment (graviton)\nGear\nfreebooter armor I, frost subduer with 2 batteries (20 charges each), light sap\nSpecial Abilities\nGravitic Agility (Su)\nBy making micro-adjustments to their personal gravity, parabolas revivalists can perform impressive feats of acrobatic prowess, even going airborne for short periods of time. While attuned, a parabolas revivalist gains a bonus to Acrobatics checks equal to one-third their CR. While fully attuned, a parabolas revivalist gains the ferocious charge universal creature rule and a fly speed of 30 feet when charging; after they use ferocious charge, they immediately become unattuned.\nDescription\nWhen a recent Starfinder Society expedition to the copaxi planet Tabrid Minor uncovered the lost rules to a forgotten sport called parabolas, copaxi anthropologists and sports enthusiasts were electrified by the discovery. Today, following reconstructed rules, parabolas revivalists throughout the galaxy attempt to recreate it, rekindle popular interest in the pastime, and develop the skills of gravitational mastery required by the demanding acrobatic, gravity-bending sport.",
+  "type": "humanoid (shimreen)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Neotophet",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Neotophet&Family=None",
+  "source": "Starfinder #18: Assault on the Crucible pg. 56",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical, technological)",
+  "init": "+5",
+  "senses": "darkvision, low-light vision;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+7",
+  "dr": "5/adamantine",
+  "immunities": "construct immunities, fire",
+  "speed": "40 ft.",
+  "melee": "bite +23 (2d10+18 B plus swallow whole) or slam +23 (2d10+18 B; critical knockdown)",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "swallow whole (special, EAC 23, KAC 25, 65 HP), trample (2d10+18 B, DC 17)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "—",
+    "int": "+1",
+    "wis": "+3",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Intimidate +19",
+  "languages": "Common",
+  "other_abilities": "conductive, unliving",
+  "environment": "any",
+  "organization": "solitary, capture team (1 plus 4 patrol-class security robots), or prison (2–12)",
+  "special_abilities": [
+    {
+      "name": "Conductive (Ex)",
+      "description": "If a neotophet is dealt fire or electricity damage, half the damage dealt passes through the neotophet and into any creatures inside it."
+    },
+    {
+      "name": "Swallow Whole (Ex)",
+      "description": "When a creature is placed inside a neotophet’s hollow spherical interior, the construct’s maw locks down, preventing the neotophet from using its bite attack but keeping the trapped creature from climbing out. If the neotophet moves 10 feet or more on its turn, a creature inside it must succeed at a DC 17 Reflex save or become staggered until the start of the neotophet’s next turn. A neotophet’s reinforced interior prison is stronger than normal for a creature of its CR—however, a swallowed creature can attempt to force open the locked access hatch built into the neotophet’s lower body. Doing so requires the creature trying to open the hatch to succeed at a DC 30 Engineering check. Once a creature escapes through the hatch, the hatch closes and locks again. This hatch can be opened from the outside only if the neotophet is unable to act or willing to open the hatch."
+    }
+  ],
+  "description": "A neotophet is a specialized robotic construct designed to imprison. The robot has a hybrid nanotech orifice that can grow large enough to swallow any creature smaller than the construct, and a spherical containment pod doubles as the robot’s lower body and its means of locomotion. As the neotophet glides along, this rolling sphere keeps the victim enclosed and disoriented.\nThe neotophet design is an innovation based on ancient constructs known as tophets, furnace guards, or iron gluttons. Neotophets retain their predecessors’ magical aspects, such as immunity to fire, but they also have state-of-the-art tech, such as gyroscopically stable rolling frames and virtual intelligence, making them even more effective at capturing and retaining prisoners.\nNeotophets are unswervingly loyal to their designated masters, and tyrants across the planes enjoy using them to retrieve stubborn vassals or punish dissidents and rivals. Devils and efreet favor the use of neotophets, especially against creatures that lack immunity to fire, enjoying the suffering of such unfortunates inside the containment sphere. For capture missions, companions such as security robots or guards run interference for the neotophet while it focuses on its target.\nA neotophet stands 10 feet tall and weighs 3,000 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNeotophet\nSource\nStarfinder #18: Assault on the Crucible pg. 56\nNeotophet CR 10\nXP 9,600\nN Large construct (magical, technological)\nInit\n+5;\nSenses\ndarkvision, low-light vision;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+10;\nRef\n+10;\nWill\n+7\nDR\n5/adamantine;\nImmunities\nconstruct immunities, fire\nOffense\nSpeed\n40 ft.\nMelee\nbite +23 (2d10+18 B plus swallow whole) or slam +23 (2d10+18 B; critical knockdown)\nSpace\n10 ft.;\nReach\n5 ft.\nOffensive Abilities\nswallow whole (special, EAC 23, KAC 25, 65 HP), trample (2d10+18 B, DC 17)\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n—;\nINT\n+1;\nWIS\n+3;\nCHA\n-1\nSkills\nAcrobatics +19, Athletics +24, Intimidate +19\nLanguages\nCommon\nOther Abilities\nconductive, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, capture team (1 plus 4 patrol-class security robots), or prison (2–12)\nSpecial Abilities\nConductive (Ex)\nIf a neotophet is dealt fire or electricity damage, half the damage dealt passes through the neotophet and into any creatures inside it.\nSwallow Whole (Ex)\nWhen a creature is placed inside a neotophet’s hollow spherical interior, the construct’s maw locks down, preventing the neotophet from using its bite attack but keeping the trapped creature from climbing out. If the neotophet moves 10 feet or more on its turn, a creature inside it must succeed at a DC 17 Reflex save or become staggered until the start of the neotophet’s next turn. A neotophet’s reinforced interior prison is stronger than normal for a creature of its CR—however, a swallowed creature can attempt to force open the locked access hatch built into the neotophet’s lower body. Doing so requires the creature trying to open the hatch to succeed at a DC 30 Engineering check. Once a creature escapes through the hatch, the hatch closes and locks again. This hatch can be opened from the outside only if the neotophet is unable to act or willing to open the hatch.\nDescription\nA neotophet is a specialized robotic construct designed to imprison. The robot has a hybrid nanotech orifice that can grow large enough to swallow any creature smaller than the construct, and a spherical containment pod doubles as the robot’s lower body and its means of locomotion. As the neotophet glides along, this rolling sphere keeps the victim enclosed and disoriented.\nThe neotophet design is an innovation based on ancient constructs known as tophets, furnace guards, or iron gluttons. Neotophets retain their predecessors’ magical aspects, such as immunity to fire, but they also have state-of-the-art tech, such as gyroscopically stable rolling frames and virtual intelligence, making them even more effective at capturing and retaining prisoners.\nNeotophets are unswervingly loyal to their designated masters, and tyrants across the planes enjoy using them to retrieve stubborn vassals or punish dissidents and rivals. Devils and efreet favor the use of neotophets, especially against creatures that lack immunity to fire, enjoying the suffering of such unfortunates inside the containment sphere. For capture missions, companions such as security robots or guards run interference for the neotophet while it focuses on its target.\nA neotophet stands 10 feet tall and weighs 3,000 pounds.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

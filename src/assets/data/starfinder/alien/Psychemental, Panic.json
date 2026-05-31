@@ -1,0 +1,53 @@
+{
+  "name": "Psychemental, Panic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Panic&Family=Psychemental",
+  "source": "Starfinder #47: Nightmare Scenario pg. 61",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "outsider (incorporeal)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.; thoughtsense 60 ft.;",
+  "perception": "+12",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+1",
+  "will": "+4",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "touch +4 (1d4+1 B; critical stunned [DC 12])",
+  "offensive_abilities": "synaptic pulse (DC 12)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +7, Bluff +12, Diplomacy +12, Sense Motive +7, Stealth +7",
+  "languages": "telepathy 60 ft.",
+  "other_abilities": "mindwipe, unliving",
+  "environment": "any (Astral Plane)",
+  "organization": "solitary, pair, or quorum (3–6",
+  "special_abilities": [
+    {
+      "name": "Synaptic Pulse (Su)",
+      "description": "As a standard action, a psychemental can emit a mental blast that stuns all creatures within range of its telepathy for 1 round. Other psychementals are immune to this effect. Once a creature has been affected by synaptic pulse, it’s immune to synaptic pulse for 24 hours."
+    },
+    {
+      "name": "Mental Static (Su)",
+      "description": "Creatures within 30 feet of a psychemental are affected by an impairing mind fog. Creatures inside the aura must succeed at a DC 12 Will save or take a –1 penalty to Will saves and Intelligence- and Wisdom-based skill checks."
+    },
+    {
+      "name": "Mindwipe (Su)",
+      "description": "A psychemental that moves through a creature can erase the memories and experiences of that creature. When it does so, the target loses one randomly determined spell, as if the spell had been cast, and the psychemental regains 5 Hit Points. A psychemental can affect a given creature only once per day with this ability."
+    }
+  ],
+  "description": "Psychementals are born on the Astral Plane from strong, concentrated emotions, especially those experienced by a number of creatures in close proximity to one another. They roam ceaselessly throughout the Astral Plane, drawn to emotions and thoughts similar to those which created them, and often slip through into the Material Plane in search of these sensations. Panic is only one of the many emotions that can cause psychementals to form, but it’s one of the most common.\nThe formation of psychementals is often mistaken for mass delusions or hallucinations, and their activity often goes undetected. A panicking crowd that erupts into violence and later can’t recall taking these actions might have been influenced by psychementals clouding their minds.\nNight hags and other beings who traffic in emotions trap psychementals in magical glass and lead containers, then offer these bottled emotions for sale to clients with unusual and supernatural tastes. Purchasing bottled joy, rage, or fear is especially appealing to emotivores and other creatures that feed on emotion, so this trade can be quite lucrative. Some Eoxian cities host shops catering to this market, run by night hags with easy access to the Astral Plane. Though many purveyors claim their emotions are “ethically sourced,” rumors whisper of emotion-farms in which imprisoned sapient beings are repeatedly exposed to extreme situations—typically through virtual reality programs—to produce psychementals for easy harvesting.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPsychemental\nAliens in the \"Psychemental\" Family\nName\nCR\nPanic\n1\nPsychemental, Panic\nSource\nStarfinder #47: Nightmare Scenario pg. 61\nPanic CR 1\nXP 400\nN Small outsider (incorporeal)\nInit\n+4;\nSenses\ndarkvision 60 ft.; thoughtsense 60 ft.;\nPerception\n+12\nAura\nmental static (30 ft., DC 12)\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+1;\nRef\n+1;\nWill\n+4\nDefensive Abilities\nincorporeal\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\ntouch +4 (1d4+1 B; critical stunned [DC 12])\nOffensive Abilities\nsynaptic pulse (DC 12)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n+2;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +7, Bluff +12, Diplomacy +12, Sense Motive +7, Stealth +7\nLanguages\ntelepathy 60 ft.\nOther Abilities\nmindwipe, unliving\nEcology\nEnvironment\nany (Astral Plane)\nOrganization\nsolitary, pair, or quorum (3–6\nSpecial Abilities\nSynaptic Pulse (Su)\nAs a standard action, a psychemental can emit a mental blast that stuns all creatures within range of its telepathy for 1 round. Other psychementals are immune to this effect. Once a creature has been affected by synaptic pulse, it’s immune to synaptic pulse for 24 hours.\nMental Static (Su)\nCreatures within 30 feet of a psychemental are affected by an impairing mind fog. Creatures inside the aura must succeed at a DC 12 Will save or take a –1 penalty to Will saves and Intelligence- and Wisdom-based skill checks.\nMindwipe (Su)\nA psychemental that moves through a creature can erase the memories and experiences of that creature. When it does so, the target loses one randomly determined spell, as if the spell had been cast, and the psychemental regains 5 Hit Points. A psychemental can affect a given creature only once per day with this ability.\nDescription\nPsychementals are born on the Astral Plane from strong, concentrated emotions, especially those experienced by a number of creatures in close proximity to one another. They roam ceaselessly throughout the Astral Plane, drawn to emotions and thoughts similar to those which created them, and often slip through into the Material Plane in search of these sensations. Panic is only one of the many emotions that can cause psychementals to form, but it’s one of the most common.\nThe formation of psychementals is often mistaken for mass delusions or hallucinations, and their activity often goes undetected. A panicking crowd that erupts into violence and later can’t recall taking these actions might have been influenced by psychementals clouding their minds.\nNight hags and other beings who traffic in emotions trap psychementals in magical glass and lead containers, then offer these bottled emotions for sale to clients with unusual and supernatural tastes. Purchasing bottled joy, rage, or fear is especially appealing to emotivores and other creatures that feed on emotion, so this trade can be quite lucrative. Some Eoxian cities host shops catering to this market, run by night hags with easy access to the Astral Plane. Though many purveyors claim their emotions are “ethically sourced,” rumors whisper of emotion-farms in which imprisoned sapient beings are repeatedly exposed to extreme situations—typically through virtual reality programs—to produce psychementals for easy harvesting.",
+  "type": "outsider (incorporeal)",
+  "category": "alien"
+}

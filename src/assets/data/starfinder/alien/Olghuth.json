@@ -1,0 +1,62 @@
+{
+  "name": "Olghuth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Olghuth&Family=None",
+  "source": "Redshift Rally pg. 62",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "aberration (aquatic)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+24",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+11",
+  "immunities": "poison;",
+  "resistances": "acid 15",
+  "speed": "10 ft., swim 40 ft.",
+  "melee": "bite +22 (2d10+18 P) or stinging tendrils +22 (2d6+18 E & S; critical stunned)",
+  "ranged": "caustic mucous +19 (2d10+10 A; critical sicken [DC 17])",
+  "space": "15 ft.",
+  "reach": "15 ft. (20 ft. with tendrils)",
+  "offensive_abilities": "agonized wail (30-ft. burst, 11d6 So, DC 17, usable every 1d6 rounds), sideswipe",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +19 (+27 to swim), Stealth +19, Survival +19",
+  "languages": "Aklo (can’t speak any language)",
+  "other_abilities": "amphibious, water breathing",
+  "environment": "cold and temperate aquatic (Aucturn)",
+  "organization": "solitary, pair, or lament (3–6)",
+  "special_abilities": [
+    {
+      "name": "Agonized Wail (Su)",
+      "description": "As a standard action, an olghuth can scream in anguish. Each creature within 30 feet of the olghuth takes 11d6 sonic damage and is shaken for 1d4 rounds. A creature that succeeds at a DC 17 Will save takes half damage and reduces the shaken condition to 1 round. An olghuth can use this ability every 1d6 rounds."
+    },
+    {
+      "name": "Caustic Mucous (Ex)",
+      "description": "As a ranged attack, an olghuth can heave a gob of caustic mucous with a range increment of 30 feet and the sicken critical hit effect."
+    },
+    {
+      "name": "Consumptive Linguist (Ex)",
+      "description": "After eating a creature with an Intelligence of 6 or higher who died within the last 24 hours, an olghuth gains the ability to speak Aklo for a number of minutes equal to the CR of the consumed creature. During this time, the olghuth becomes euphoric and can’t use agonized wail."
+    },
+    {
+      "name": "Sideswipe (Ex)",
+      "description": "As a full action, an olghuth can move up to double its speed. Each creature and vehicle the olghuth is adjacent to at any point during its movement takes 2d6+10 slashing damage from the olghuth’s razor sharp fins and spines. A creature that succeeds at a DC 17 Reflex save takes half damage."
+    }
+  ],
+  "description": "Olghuths are amphibious ambush predators that stalk Aucturn’s Undulating Sea. Similar in appearance to a bulbous fish with squat, salamander-like legs and razor-sharp spined fins, olghuths have dozens of eyestalks that line their backs and dense beards of electrified tendrils that can cause temporary paralysis. Olghuths are consumed by constant pain, making them insatiably ravenous. They prefer to eat sapient creatures, and they frequently hunt along coasts, shallows, and ocean trade routes, where they capsize or sink water vehicles.\nWhile many believe olghuths’ hunger causes their pain, centuries‑old rumors claim olghuths were once another creature entirely, or perhaps numerous creatures, who mutated into a monstrous amalgam due to Aucturn’s strange energies, which suggests their pain might be due to incompatible biology or mental anguish. Regardless, eating is the only balm for their wounds—after consuming a sapient creature, olghuths become temporarily euphoric and capable of speech. The cryptic, nonsensical ramblings of articulate olghuths are incredibly difficult to parse, but supposedly contain clues to the secrets of existence.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOlghuth\nSource\nRedshift Rally pg. 62\nOlghuth CR 10\nXP 9,600\nCE Huge aberration (aquatic)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+24\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+12;\nWill\n+11\nImmunities\npoison;\nResistances\nacid 15\nOffense\nSpeed\n10 ft., swim 40 ft.\nMelee\nbite +22 (2d10+18 P) or stinging tendrils +22 (2d6+18 E & S; critical stunned)\nRanged\ncaustic mucous +19 (2d10+10 A; critical sicken [DC 17])\nSpace\n15 ft.;\nReach\n15 ft. (20 ft. with tendrils)\nOffensive Abilities\nagonized wail (30-ft. burst, 11d6 So, DC 17, usable every 1d6 rounds), sideswipe\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-1;\nWIS\n+1;\nCHA\n-2\nSkills\nAthletics +19 (+27 to swim), Stealth +19, Survival +19\nLanguages\nAklo (can’t speak any language)\nOther Abilities\namphibious, water breathing\nEcology\nEnvironment\ncold and temperate aquatic (Aucturn)\nOrganization\nsolitary, pair, or lament (3–6)\nSpecial Abilities\nAgonized Wail (Su)\nAs a standard action, an olghuth can scream in anguish. Each creature within 30 feet of the olghuth takes 11d6 sonic damage and is shaken for 1d4 rounds. A creature that succeeds at a DC 17 Will save takes half damage and reduces the shaken condition to 1 round. An olghuth can use this ability every 1d6 rounds.\nCaustic Mucous (Ex)\nAs a ranged attack, an olghuth can heave a gob of caustic mucous with a range increment of 30 feet and the sicken critical hit effect.\nConsumptive Linguist (Ex)\nAfter eating a creature with an Intelligence of 6 or higher who died within the last 24 hours, an olghuth gains the ability to speak Aklo for a number of minutes equal to the CR of the consumed creature. During this time, the olghuth becomes euphoric and can’t use agonized wail.\nSideswipe (Ex)\nAs a full action, an olghuth can move up to double its speed. Each creature and vehicle the olghuth is adjacent to at any point during its movement takes 2d6+10 slashing damage from the olghuth’s razor sharp fins and spines. A creature that succeeds at a DC 17 Reflex save takes half damage.\nDescription\nOlghuths are amphibious ambush predators that stalk Aucturn’s Undulating Sea. Similar in appearance to a bulbous fish with squat, salamander-like legs and razor-sharp spined fins, olghuths have dozens of eyestalks that line their backs and dense beards of electrified tendrils that can cause temporary paralysis. Olghuths are consumed by constant pain, making them insatiably ravenous. They prefer to eat sapient creatures, and they frequently hunt along coasts, shallows, and ocean trade routes, where they capsize or sink water vehicles.\nWhile many believe olghuths’ hunger causes their pain, centuries‑old rumors claim olghuths were once another creature entirely, or perhaps numerous creatures, who mutated into a monstrous amalgam due to Aucturn’s strange energies, which suggests their pain might be due to incompatible biology or mental anguish. Regardless, eating is the only balm for their wounds—after consuming a sapient creature, olghuths become temporarily euphoric and capable of speech. The cryptic, nonsensical ramblings of articulate olghuths are incredibly difficult to parse, but supposedly contain clues to the secrets of existence.",
+  "type": "aberration (aquatic)",
+  "category": "alien"
+}

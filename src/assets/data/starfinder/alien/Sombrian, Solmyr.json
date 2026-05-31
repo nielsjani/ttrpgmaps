@@ -1,0 +1,74 @@
+{
+  "name": "Sombrian, Solmyr",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Solmyr&Family=Sombrian",
+  "source": "Alien Archive 4 pg. 112",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+8",
+  "senses": "low-light vision;;",
+  "perception": "+28",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+16",
+  "dr": "10/cold iron",
+  "sr": "24",
+  "immunities": "fire;;",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "touch +19 (6d4+17 F plus cursed critical)",
+  "ranged": "firebolt +21 (2d10+13 F plus cursed critical)",
+  "offensive_abilities": "ill omens, searing radiance",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\ncontact other plane\n,\nheat leech\n(DC 24)\n3/day—\ndivination\n,\nholographic image\n(4th level, DC 23),\ngreater invisibility\n,\nmind thrust\n(4th level, DC 23)\nAt will—\nslow\n(DC 22),\nprescience\n(DC 22)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+8",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+6",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +28, Mysticism +23, Sense Motive +23",
+  "languages": "Aklo, Common",
+  "other_abilities": "divination expert, limited spaceflight",
+  "environment": "any",
+  "organization": "solitary, pair, or court (1 solmyr and 2–7 lumyrs)",
+  "special_abilities": [
+    {
+      "name": "Cursed Critical (Su)",
+      "description": "When a solmyr successfully scores a critical hit against a foe with one of the solmyr’s natural weapons, the attack’s flames inflict a curse as\nbestow curse\n(Will DC 21 negates)."
+    },
+    {
+      "name": "Divination Expert (Su)",
+      "description": "When the solmyr casts a divination spell that involves a roll to determine whether the spell provides useful or misleading information, they roll twice and use the better result."
+    },
+    {
+      "name": "Firebolt (Su)",
+      "description": "A solmyr’s firebolt is a ranged attack with a range increment of 60 feet."
+    },
+    {
+      "name": "Ill Omens (Su)",
+      "description": "As a reaction when a creature the solmyr can see within 60 feet succeeds at an attack roll, saving throw, or skill check, the solmyr can spend 1 Resolve Point to force that creature to immediately reroll the check and use the lower result."
+    },
+    {
+      "name": "Limited Spaceflight (Su)",
+      "description": "A solmyrs can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days."
+    },
+    {
+      "name": "Searing Radiance (Ex)",
+      "description": "A solmyr is surrounded by an aura of fiery light that illuminates a 30-foot radius with bright light. The light also functions as a gaze ability, with affected creatures blinded for 1d3 rounds (Fortitude DC 21 negates). A solmyr can suppress or resume this ability as a swift action."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSombrian\nSource\nAlien Archive 4 pg. 112\nWhen celestial bodies align, the cosmic fabric between the Material Plane and the First World sometimes thins, especially when combined with the emotional energy of the mortal fears and myths of those celestial bodies’ populaces. These ideal astronomical and psychological conditions often birth a sombrian, a fey creature imbued with either the blazing energy of a star or the eerie light of a blood moon.\nThose born from a lunar eclipse are called lumyrs, while those born from a solar eclipse are called solmyrs. Both tend to resemble an intelligent species native to the system that birthed them. Most lumyrs have wings and other features reminiscent of nocturnal flying insects. However, their most unsettling feature is their apparent lack of internal organs; their mouths open into lightless voids, their wounds bleed only brief spatters of light, and their bodies are hollow, organ-less shells. Solmyrs’ eyes blaze like raging infernos and blinding light lines their bodies.\nWhile lumyrs are insatiably curious and hedonistic, solmyrs are more reclusive and less focused on the ephemeral amusements of their kin. Many mythologies purport that each solmyr is granted a piece of prophecy upon their creation, most often a portent or warning about their star system of origin.\nAliens in the \"Sombrian\" Family\nName\nCR\nLumyr\n8\nSolmyr\n13\nSombrian, Solmyr\nSource\nAlien Archive 4 pg. 112\nSolmyr CR 13\nXP 25,600\nLN Medium fey\nInit\n+8;\nSenses\nlow-light vision;;\nPerception\n+28\nDefense\nHP\n190;\nRP\n5\nEAC\n26;\nKAC\n27\nFort\n+14;\nRef\n+14;\nWill\n+16\nDefensive Abilities\nvoid adaptation DR 10/cold iron;\nImmunities\nfire;;\nSR\n24\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\ntouch +19 (6d4+17 F plus cursed critical)\nRanged\nfirebolt +21 (2d10+13 F plus cursed critical)\nOffensive Abilities\nill omens, searing radiance\nSpell-Like Abilities\n(CL 13th)\n1/day—\ncontact other plane\n,\nheat leech\n(DC 24)\n3/day—\ndivination\n,\nholographic image\n(4th level, DC 23),\ngreater invisibility\n,\nmind thrust\n(4th level, DC 23)\nAt will—\nslow\n(DC 22),\nprescience\n(DC 22)\nStatistics\nSTR\n+4;\nDEX\n+8;\nCON\n+2;\nINT\n+2;\nWIS\n+6;\nCHA\n+4\nSkills\nAcrobatics +28, Mysticism +23, Sense Motive +23\nLanguages\nAklo, Common\nOther Abilities\ndivination expert, limited spaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or court (1 solmyr and 2–7 lumyrs)\nSpecial Abilities\nCursed Critical (Su)\nWhen a solmyr successfully scores a critical hit against a foe with one of the solmyr’s natural weapons, the attack’s flames inflict a curse as\nbestow curse\n(Will DC 21 negates).\nDivination Expert (Su)\nWhen the solmyr casts a divination spell that involves a roll to determine whether the spell provides useful or misleading information, they roll twice and use the better result.\nFirebolt (Su)\nA solmyr’s firebolt is a ranged attack with a range increment of 60 feet.\nIll Omens (Su)\nAs a reaction when a creature the solmyr can see within 60 feet succeeds at an attack roll, saving throw, or skill check, the solmyr can spend 1 Resolve Point to force that creature to immediately reroll the check and use the lower result.\nLimited Spaceflight (Su)\nA solmyrs can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days.\nSearing Radiance (Ex)\nA solmyr is surrounded by an aura of fiery light that illuminates a 30-foot radius with bright light. The light also functions as a gaze ability, with affected creatures blinded for 1d3 rounds (Fortitude DC 21 negates). A solmyr can suppress or resume this ability as a swift action.",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Sombrian_Solmyr.png"
+}

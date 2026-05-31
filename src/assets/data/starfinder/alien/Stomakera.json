@@ -1,0 +1,45 @@
+{
+  "name": "Stomakera",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Stomakera&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 59",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision, tracking (scent);",
+  "perception": "+16",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "speed": "65 ft.",
+  "melee": "hooves +14 (1d6+11 B) or horn +14 (1d6+11 P; crit mercury poison)",
+  "space": "10 ft.",
+  "reach": "10 ft. (15 ft. with horn)",
+  "offensive_abilities": "trample (1d6+11 B, DC 13)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Athletics +16, Perception +11, Stealth +15, Survival +11",
+  "environment": "plains (Weydana-2)",
+  "organization": "solitary, pair, or crash (3–5)",
+  "special_abilities": [
+    {
+      "name": "Hide in Plain Sight (Ex)",
+      "description": "Stomakera hides are naturally reflective, a byproduct of their mercurial diet. They have a +4 racial bonus to Stealth and can attempt Stealth checks even when they don’t have cover or concealment and are directly observed."
+    }
+  ],
+  "description": "Stomakeras are large, horn-bearing mercurivores that roam the sediment-laden plains of Weydana-2. Adored both for their simple lifestyle and docile temperament, these magical beasts are easily identified by their reflective hide. A conical horn that protrudes from their jaw is made of hardened, hollowed keratin that allows the creature to use the horn as a straw, perfect for ingesting the massive quantities of liquid mercury that comprise their entire diet. The reflectiveness of their mirrored hide is a byproduct of this diet, and it has the beneficial side effect of making them hard to spot at a long distance.\nSadly, these physical traits have made stomakeras highly sought after by big-game trophy hunters like the Hinkhetxi Coterie, who craft stomakera horns into elaborate drinking vessels and modify their armor with highly reflective layers of stomakera hide. Since their recent expansion into the Weydana star system, the Coterie has established a hunting lodge in the system from which they’ve systematically decimated the stomakera population. This has prompted Greenspeaker Alca Gabrio of the Xenowardens to name the beasts a vulnerable species. She warns that if drastic and prompt action isn’t taken, stomakeras may well be extinct in less than a generation. She was characteristically secretive as to what form that “drastic action” ought to take, but independent groups have begun capturing and transplanting populations of stomakeras to new worlds in the hope of finding a home for them beyond the reach of big-game hunters. But capturing live stomakeras is no easy task, and these efforts' lack of coordinating oversight has resulted in many accidents and casualties already.\nMercury Poison\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nWisdom;\nOnset\n1 day;\nFrequency\n1/day\nEffect\nAs part of the impaired state, the victim suffers from violent mood swings and tremors.\nCure\n2 consecutive saves",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStomakera\nSource\nStarfinder #41: Serpents in the Cradle pg. 59\nStomakera CR 5\nXP 1,600\nN Large magical beast\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision, tracking (scent);\nPerception\n+16\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nDefensive Abilities\nhide in plain sight\nOffense\nSpeed\n65 ft.\nMelee\nhooves +14 (1d6+11 B) or horn +14 (1d6+11 P; crit mercury poison)\nSpace\n10 ft.;\nReach\n10 ft. (15 ft. with horn)\nOffensive Abilities\ntrample (1d6+11 B, DC 13)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-4;\nWIS\n+0;\nCHA\n-2\nSkills\nAthletics +16, Perception +11, Stealth +15, Survival +11\nEcology\nEnvironment\nplains (Weydana-2)\nOrganization\nsolitary, pair, or crash (3–5)\nSpecial Abilities\nHide in Plain Sight (Ex)\nStomakera hides are naturally reflective, a byproduct of their mercurial diet. They have a +4 racial bonus to Stealth and can attempt Stealth checks even when they don’t have cover or concealment and are directly observed.\nDescription\nStomakeras are large, horn-bearing mercurivores that roam the sediment-laden plains of Weydana-2. Adored both for their simple lifestyle and docile temperament, these magical beasts are easily identified by their reflective hide. A conical horn that protrudes from their jaw is made of hardened, hollowed keratin that allows the creature to use the horn as a straw, perfect for ingesting the massive quantities of liquid mercury that comprise their entire diet. The reflectiveness of their mirrored hide is a byproduct of this diet, and it has the beneficial side effect of making them hard to spot at a long distance.\nSadly, these physical traits have made stomakeras highly sought after by big-game trophy hunters like the Hinkhetxi Coterie, who craft stomakera horns into elaborate drinking vessels and modify their armor with highly reflective layers of stomakera hide. Since their recent expansion into the Weydana star system, the Coterie has established a hunting lodge in the system from which they’ve systematically decimated the stomakera population. This has prompted Greenspeaker Alca Gabrio of the Xenowardens to name the beasts a vulnerable species. She warns that if drastic and prompt action isn’t taken, stomakeras may well be extinct in less than a generation. She was characteristically secretive as to what form that “drastic action” ought to take, but independent groups have begun capturing and transplanting populations of stomakeras to new worlds in the hope of finding a home for them beyond the reach of big-game hunters. But capturing live stomakeras is no easy task, and these efforts' lack of coordinating oversight has resulted in many accidents and casualties already.\nMercury Poison\nType\npoison (injury);\nSave\nFortitude DC 13\nTrack\nWisdom;\nOnset\n1 day;\nFrequency\n1/day\nEffect\nAs part of the impaired state, the victim suffers from violent mood swings and tremors.\nCure\n2 consecutive saves",
+  "type": "magical beast",
+  "category": "alien"
+}

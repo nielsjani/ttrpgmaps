@@ -1,0 +1,52 @@
+{
+  "name": "Former Military, Spec-ops Veteran",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Spec-ops Veteran&Family=Former Military",
+  "source": "Interstellar Species pg. 164",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration (shapechanger)",
+  "init": "+8",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+28",
+  "hp": "280",
+  "eac": "30",
+  "kac": "31",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+21",
+  "dr": "5/—",
+  "weaknesses": "many forms",
+  "speed": "50 ft., fly 60 ft. (",
+  "melee": "zero-edge longsword +26 (7d8+21 S; critical severe wound) or unarmed strike +28 (5d6+21 B)",
+  "ranged": "parallax laser pistol +28 (5d4+16 F) or elite shirren-eye rifle +28 (4d10+16 P)",
+  "offensive_abilities": "spec-ops shooter, unnerving precision",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +33, Athletics +28, Culture +28, Intimidate +28, Pilot +28, Sense Motive +28, Stealth +33, Survival +28",
+  "languages": "Common, up to 4 others",
+  "other_abilities": "change form , compression , rapid revival , spec-ops stealth, unit tactics",
+  "gear": "shiftskin II (",
+  "special_abilities": [
+    {
+      "name": "Spec-Ops Shooter (Ex)",
+      "description": "A spec-ops veteran treats their target’s AC bonus from cover as 2 lower and reduces any miss chance due to concealment or total concealment by 10%. The spec-ops veteran reduces the penalty to Stealth checks for moving or sniping by 5."
+    },
+    {
+      "name": "Unnerving Precision (Ex)",
+      "description": "Once per round when an spec-ops veteran’s attack exceeds their target’s AC by 5 or more, the target becomes shaken for 1 round (Will negates, DC = 10 + the spec-ops veteran’s CR)."
+    }
+  ],
+  "description": "A spec-ops veteran is an elite soldier trained in reconnaissance, combat, and myriad other skills that make them a one-person army or capable commander.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormer Military\nSource\nInterstellar Species pg. 164\nMilitary training hones experts with varied skillsets, tempering them in battlefield conditions. Mercenary work is an obvious outlet for their skills, but former military pros function well as security forces and rescue teams, and on exploration missions and supply delivery in dangerous areas. They might be found in more mundane settings, such as corporate facilities or research labs, especially in places where people or facilities need extra protection. Each of these NPCs has the following ability.\nUnit Tactics (Ex)\nBefore rolling initiative, the character can choose to roll twice and take the lower result, and an ally within 30 feet can roll their initiative check twice and use the better result. When the character successfully uses covering fire, the selected ally gains the circumstance bonus to AC against the next two attacks made against them by creatures in the character’s line of effect.\nAliens in the \"Former Military\" Family\nName\nCR\nCombat Medic\n3\nOfficer\n12\nQuartermaster\n8\nSpec-ops Veteran\n16\nFormer Military, Spec-ops Veteran\nSource\nInterstellar Species pg. 165\nSpec-ops Veteran CR 16\nXP 76,800\nAstrazoan\nN Medium aberration (shapechanger)\nInit\n+8;\nSenses\ndarkvision 60 ft.;\nPerception\n+28\nDefense\nHP\n280\nEAC\n30;\nKAC\n31\nFort\n+14;\nRef\n+14;\nWill\n+21\nDR\n5/—\nWeaknesses\nmany forms\nOffense\nSpeed\n50 ft., fly 60 ft. (\nforcepack\n, average)\nMelee\nzero-edge longsword +26 (7d8+21 S; critical severe wound) or unarmed strike +28 (5d6+21 B)\nRanged\nparallax laser pistol +28 (5d4+16 F) or elite shirren-eye rifle +28 (4d10+16 P)\nOffensive Abilities\nspec-ops shooter, unnerving precision\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+1;\nINT\n+3;\nWIS\n+5;\nCHA\n+1\nSkills\nAcrobatics +33, Athletics +28, Culture +28, Intimidate +28, Pilot +28, Sense Motive +28, Stealth +33, Survival +28\nLanguages\nCommon, up to 4 others\nOther Abilities\nchange form , compression , rapid revival , spec-ops stealth, unit tactics\nGear\nshiftskin II (\nforcepack\n), elite shirren-eye rifle (combined\nflash suppressor\nand\nsilencer\n) with 36 longarm rounds, parallax laser pistol (2 batteries with 80 charges);\nAugmentations\nAugmentations standard speed suspension, mk 5 dermal plating\nSpecial Abilities\nSpec-Ops Shooter (Ex)\nA spec-ops veteran treats their target’s AC bonus from cover as 2 lower and reduces any miss chance due to concealment or total concealment by 10%. The spec-ops veteran reduces the penalty to Stealth checks for moving or sniping by 5.\nUnnerving Precision (Ex)\nOnce per round when an spec-ops veteran’s attack exceeds their target’s AC by 5 or more, the target becomes shaken for 1 round (Will negates, DC = 10 + the spec-ops veteran’s CR).\nDescription\nA spec-ops veteran is an elite soldier trained in reconnaissance, combat, and myriad other skills that make them a one-person army or capable commander.",
+  "type": "aberration (shapechanger)",
+  "environment": "—",
+  "category": "alien"
+}

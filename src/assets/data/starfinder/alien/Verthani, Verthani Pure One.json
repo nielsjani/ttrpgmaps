@@ -1,0 +1,52 @@
+{
+  "name": "Verthani, Verthani Pure One",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Verthani Pure One&Family=Verthani",
+  "source": "Alien Archive pg. 119",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (verthani)",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+17",
+  "hp": "116",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+12",
+  "speed": "30 ft.",
+  "melee": "carbon staff +15 (1d8+10 B; critical knockdown)",
+  "ranged": "aphelion laser pistol +17 (3d4+9 F; critical burn 1d4)",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th",
+    "spells": "9/day—\nmind probe\n(DC 20)\nAt will—\nmindlink\nMystic Spells Known\n(CL 9th)\n3rd (3/day)—\nmind thrust\n(DC 20),\ntongues\n2nd (6/day)—\naugury\n,\nforce blast\n(DC 19),\nhold person\n(DC 19),\nmystic cure\n1st (at will)—\ndetect thoughts\n(DC 18),\nidentify\nConnection\nAkashic"
+  },
+  "spells": "(CL 9th)\n3rd (3/day)—\nmind thrust\n(DC 20),\ntongues\n2nd (6/day)—\naugury\n,\nforce blast\n(DC 19),\nhold person\n(DC 19),\nmystic cure\n1st (at will)—\ndetect thoughts\n(DC 18),\nidentify\nConnection\nAkashic",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+6",
+    "cha": "+3"
+  },
+  "skills": "Culture +17, Diplomacy +17, Life Science +17, Medicine +22, Mysticism +22, Sense Motive +17",
+  "languages": "Abyssal, Celestial, Common, Vercite",
+  "other_abilities": "access Akashic Record, peer into the future 1/day, skin mimic",
+  "gear": "advanced lashunta tempweave, aphelion laser pistol with 2 high-capacity batteries (40 charges each), carbon staff, advanced medkit,",
+  "environment": "any (Verces)",
+  "organization": "solitary, pair, or cabal (3-5)",
+  "special_abilities": [
+    {
+      "name": "Skin Mimic (Ex)",
+      "description": "Verthani can manipulate the pigments in their skin at will and with astonishing precision, creating bright decorative patterns or deceptive camouflage. A verthani who stays stationary for 1 round gains a +10 racial bonus to Stealth checks (this bonus doesn’t stack with the\ninvisibility\nspell or similar effects). If the verthani takes any action, he loses this bonus until he once again spends 1 round remaining still. A verthani wearing clothing or armor that covers more than one-quarter of his body can’t use this ability."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nVerthani (Creature Subtype) Graft Template\n-\nVerthani Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVerthani\nSource\nAlien Archive pg. 119\nVerthani, the primary inhabitants of Verces, were some of the earliest humanoids in the Pact Worlds system to build spacefaring vessels—a response to the struggle to survive in the harsh conditions of their tidally locked planet.\nVerthani stand 8 feet tall on average, with delicate features and long limbs. Their eyes are pure-black orbs, protruding from their heads in half domes like the eyes of a mouse, and they can change the pigment of their skin at will to have complex patterns. Nearly all verthani learn to control these color changes by the time they reach puberty, but babies and children display bright, expressive patterns and colors that reflect their current mood. Some adults also refuse to control them, seeing in their random patterns hints of prophecy.\nLong ago, verthani society was split into three castes: the Augmented, the Pure Ones, and the God-Vessels. A verthani’s caste is chosen during adolescence. Though few verthani today bind themselves strictly by the system’s rules, the traditions still carry a measure of cultural pride, and some verthani proudly wear the labels.\nThe Augmented are verthani who modify their bodies with technology, usually cybernetic augmentations. This caste was particularly popular with those who piloted early aetherships (the elegant vessels verthani first sailed through the stars), and Augmented verthani pilots are still renowned as some of the most skilled in the Pact Worlds.\nIn contrast, Pure Ones traditionally eschewed all technological augmentation and were responsible for supporting other castes, farming, and governing. While many modern Pure Ones have accepted at least some modest cybernetic or biotech improvements to their bodies, these verthani remain proud of their traditional caretaker roles.\nGod-Vessels serve faithfully as living avatars of their deities, displaying this status by branding holy symbols called devotionals into their chests using either acid or flame. God-Vessels never cover up these distinctive marks, despite the fact that the scar tissue around them never fully heals and can no longer change color.\nVerthani culture is a model of independent, democratic cooperation. Forced to live on a cramped sliver of their planet, surrounded by nearly inhospitable lands on either side, verthani learned how to work together without violence or subjugation, and they choose to harness technology to increase resources rather than battle one another over scraps. Verces’s Ring of Nations remains a shining example of a one-world government in which citizens remain protected yet free to go their own way, and in many ways the Pact Worlds system itself was directly inspired by this aspect of verthani culture.\nAliens in the \"Verthani\" Family\nName\nCR\nVerthani Aether Pilot\n2\nVerthani Pure One\n9\nVerthani, Verthani Pure One\nSource\nAlien Archive pg. 118\nVerthani Pure One CR 9\nXP 6,400\nVerthani mystic\nN Medium humanoid (verthani)\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+17\nDefense\nHP\n116\nEAC\n23;\nKAC\n24\nFort\n+8;\nRef\n+8;\nWill\n+12\nOffense\nSpeed\n30 ft.\nMelee\ncarbon staff +15 (1d8+10 B; critical knockdown)\nRanged\naphelion laser pistol +17 (3d4+9 F; critical burn 1d4)\nMystic Spell-Like Abilities\n(CL 9th)\n9/day—\nmind probe\n(DC 20)\nAt will—\nmindlink\nMystic Spells Known\n(CL 9th)\n3rd (3/day)—\nmind thrust\n(DC 20),\ntongues\n2nd (6/day)—\naugury\n,\nforce blast\n(DC 19),\nhold person\n(DC 19),\nmystic cure\n1st (at will)—\ndetect thoughts\n(DC 18),\nidentify\nConnection\nAkashic\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+2;\nINT\n+2;\nWIS\n+6;\nCHA\n+3\nSkills\nCulture +17, Diplomacy +17, Life Science +17, Medicine +22, Mysticism +22, Sense Motive +17\nLanguages\nAbyssal, Celestial, Common, Vercite\nOther Abilities\naccess Akashic Record, peer into the future 1/day, skin mimic\nGear\nadvanced lashunta tempweave, aphelion laser pistol with 2 high-capacity batteries (40 charges each), carbon staff, advanced medkit,\nmk 2 serums of healing\n(3)\nEcology\nEnvironment\nany (Verces)\nOrganization\nsolitary, pair, or cabal (3-5)\nSpecial Abilities\nSkin Mimic (Ex)\nVerthani can manipulate the pigments in their skin at will and with astonishing precision, creating bright decorative patterns or deceptive camouflage. A verthani who stays stationary for 1 round gains a +10 racial bonus to Stealth checks (this bonus doesn’t stack with the\ninvisibility\nspell or similar effects). If the verthani takes any action, he loses this bonus until he once again spends 1 round remaining still. A verthani wearing clothing or armor that covers more than one-quarter of his body can’t use this ability.\nExtra Content\nThe following extra content was found for this creature:\n-\nVerthani (Creature Subtype) Graft Template\n-\nVerthani Race Entry",
+  "type": "humanoid (verthani)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Verthani_Pure_One.png"
+}

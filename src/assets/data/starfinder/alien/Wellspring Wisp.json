@@ -1,0 +1,56 @@
+{
+  "name": "Wellspring Wisp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Wellspring Wisp&Family=None",
+  "source": "To Defy the Dragon pg. 63",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "outsider (air, elemental, fire, native)",
+  "init": "+3",
+  "senses": "darkvision 60 ft;",
+  "perception": "+11",
+  "hp": "60",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+4",
+  "ref": "+8",
+  "will": "+6",
+  "immunities": "elemental immunities,fire",
+  "weaknesses": "vulnerable to cold, wellspring-bound",
+  "speed": "fly 40 ft. (Su, perfect)",
+  "melee": "tendril +6 (1d4+4 F)",
+  "ranged": "wisp flare +10 (1d4+5 F)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "energy surge, wellspring song",
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +16, Mysticism +11, Stealth +16",
+  "environment": "any wellspring (Genrovis)",
+  "organization": "solitary, pair, or phantasm (3–8)",
+  "special_abilities": [
+    {
+      "name": "Energy Surge (Su) Once per day as a standard action when within 60 feet of a wellspring fissure, a wellspring wisp can absorb a large amount of energy from the wellspring and exude it outward in a 30-foot burst. Non- wellspring wisps in the area take 6d6 force damage and are blinded for 1 round. A creature who succeeds at a DC 15 Fortitude save takes half this damage and is instead dazzled for 1 round.",
+      "description": ""
+    },
+    {
+      "name": "Wellspring-Bound (Ex)",
+      "description": "Wellspring wisps feed on wellspring energy and need to remain near wellspring fissures for sustenance. A wellspring wisp that's more than 1 mile away from a wellspring fissure is fatigued and begins to starve (Core Rulebook 404), treating each hour as one day for starvation, until it returns within range of a fissure."
+    },
+    {
+      "name": "Wellspring Song (Su)",
+      "description": "As a standard action, a wellspring wisp can emit an eerie hum to enthrall other creatures. Non-wisps within 60 feet who can hear the peculiar humming must succeed at a DC 15 Will save or be fascinated for as long as they're able to hear the sound. Each round, a fascinated creature moves toward the source of the noise but gets a new save against the effect at the end of its turn. If the creature takes damage, the effect ends immediately."
+    }
+  ],
+  "description": "Wellspring wisps are formed from the wellspring energy seeping up from the fissures in Genrovis's earth. They aren't only birthed from wellsprings, but depend on the energy they contain for sustenance. A wellspring wisp that strays too far from its fissure risks dwindling away to nothing. Though not terribly intelligent, wellspring wisps are sapient and often cause trouble for crews tapping the fissures, luring the unwary into often treacherous territory. Though their antics can be dangerous, they seem to be most interested in helping other creatures explore their wellspring homes.\nWellspring wisps appear as a small, indistinct orb of white light. Even when not using their song, they emit a pleasant-sounding hum. There are rumors of larger wellspring wisps existing below Genrovis's crust, but such tales are so far unsubstantiated.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWellspring Wisp\nSource\nTo Defy the Dragon pg. 63\nWellspring Wisp CR 5\nXP 1,600\nN Tiny outsider (air, elemental, fire, native)\nInit\n+3;\nSenses\ndarkvision 60 ft;\nPerception\n+11\nDefense\nHP\n60\nEAC\n16;\nKAC\n17\nFort\n+4;\nRef\n+8;\nWill\n+6\nDefensive Abilities\nfast healing 2 (within 60 feet of a wellspring fissure);\nImmunities\nelemental immunities,fire\nWeaknesses\nvulnerable to cold, wellspring-bound\nOffense\nSpeed\nfly 40 ft. (Su, perfect)\nMelee\ntendril +6 (1d4+4 F)\nRanged\nwisp flare +10 (1d4+5 F)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nOffensive Abilities\nenergy surge, wellspring song\nSpell-like Abilities\n(CL 5th)\n1/day—\ninvisibility\n,\nrecharge\n3/day—\ncontrol winds\n,\nholographic image\n(DC 16),\nlesser confusion\n(DC 16)\nAt will—\ndancing lights\n,\ndaze\n(DC 15)\nStatistics\nSTR\n-1;\nDEX\n+3;\nCON\n+1;\nINT\n-2;\nWIS\n+2;\nCHA\n+5\nSkills\nAcrobatics +16, Mysticism +11, Stealth +16\nEcology\nEnvironment\nany wellspring (Genrovis)\nOrganization\nsolitary, pair, or phantasm (3–8)\nSpecial Abilities\nEnergy Surge (Su) Once per day as a standard action when within 60 feet of a wellspring fissure, a wellspring wisp can absorb a large amount of energy from the wellspring and exude it outward in a 30-foot burst. Non- wellspring wisps in the area take 6d6 force damage and are blinded for 1 round. A creature who succeeds at a DC 15 Fortitude save takes half this damage and is instead dazzled for 1 round.\nWellspring-Bound (Ex)\nWellspring wisps feed on wellspring energy and need to remain near wellspring fissures for sustenance. A wellspring wisp that's more than 1 mile away from a wellspring fissure is fatigued and begins to starve (Core Rulebook 404), treating each hour as one day for starvation, until it returns within range of a fissure.\nWellspring Song (Su)\nAs a standard action, a wellspring wisp can emit an eerie hum to enthrall other creatures. Non-wisps within 60 feet who can hear the peculiar humming must succeed at a DC 15 Will save or be fascinated for as long as they're able to hear the sound. Each round, a fascinated creature moves toward the source of the noise but gets a new save against the effect at the end of its turn. If the creature takes damage, the effect ends immediately.\nDescription\nWellspring wisps are formed from the wellspring energy seeping up from the fissures in Genrovis's earth. They aren't only birthed from wellsprings, but depend on the energy they contain for sustenance. A wellspring wisp that strays too far from its fissure risks dwindling away to nothing. Though not terribly intelligent, wellspring wisps are sapient and often cause trouble for crews tapping the fissures, luring the unwary into often treacherous territory. Though their antics can be dangerous, they seem to be most interested in helping other creatures explore their wellspring homes.\nWellspring wisps appear as a small, indistinct orb of white light. Even when not using their song, they emit a pleasant-sounding hum. There are rumors of larger wellspring wisps existing below Genrovis's crust, but such tales are so far unsubstantiated.",
+  "type": "outsider (air, elemental, fire, native)",
+  "category": "alien"
+}

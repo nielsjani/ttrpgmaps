@@ -1,0 +1,54 @@
+{
+  "name": "Hobbe Hound",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hobbe Hound&Family=None",
+  "source": "Starfinder #34: We’re No Heroes pg. 61",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+2",
+  "senses": "blindsense (scent) 30 ft., low-light vision;",
+  "perception": "+7",
+  "hp": "24",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "resistances": "fire 5",
+  "weaknesses": "chemical intolerance",
+  "speed": "40 ft.",
+  "melee": "bite +10 (1d6+5 P plus grab; critical bleed 1d4)",
+  "offensive_abilities": "worry (DC 11)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +7, Athletics +7, Stealth +12",
+  "other_abilities": "skin secretions",
+  "environment": "any",
+  "organization": "solitary, pair, pack (3–6), or hunting party (2–4 plus 2–12 hobgoblin troopers)",
+  "special_abilities": [
+    {
+      "name": "Chemical Intolerance (Ex)",
+      "description": "Due to generations of experimentation, a hobbe hound’s blood is a cocktail of unstable chemicals that reacts unpredictably to certain pharmaceuticals. When a hobbe hound is injected with a medicinal (usually requiring a successful melee attack against its KAC by a foe), it immediately takes an amount of damage equal to 1d6 × the medicinal’s tier, in addition to the medicinal’s usual effects."
+    },
+    {
+      "name": "Skin Secretions (Ex)",
+      "description": "A hobbe hound’s skin releases an oily residue that makes it difficult to keep hold of or trap. A hobbe hound gains a +4 circumstance bonus to Acrobatics checks to escape."
+    },
+    {
+      "name": "Worry (Ex)",
+      "description": "As a reaction, when a hobbe hound successfully grabs a Medium or smaller creature with its bite attack, it can violently shake the grabbed creature. A creature shaken in this way gains the off-target condition for 1d3+1 rounds. The creature can reduce this time to 1 round by succeeding at a DC 11 Fortitude saving throw."
+    }
+  ],
+  "description": "Though hobbe hounds vaguely resemble canines, they are actually a species of large, blunt-nosed rodents descended from creatures known as “goblin dogs” on lost Golarion. Long ago, hobgoblins used alchemy and selective breeding to fashion their smaller cousins’ pets into sturdier and more ferocious stock for their warbands. The modern hobbe hound stands 4 feet tall at the shoulder and is 200 pounds of solid muscle. Most hobbe hounds are bred and trained to have vicious temperaments and to be loyal to only their hobgoblin keepers.\nWhile many hobgoblin societies—including the Gideron Authority)—rely more on electronic means of surveillance and protection, hobbe hounds continue to be used in fighting rings and as recreational hunting animals. In addition, these fiercely loyal beasts have found roles in certain hobgoblin military units, guarding posts and tracking down deserters in places where technology is unreliable. Some hobgoblin researchers have tried to apply various cybernetic enhancements to hobbe hounds, but the creatures’ physiology often rejects such implants. This has led to a counterculture movement among fringe hobgoblins who believe that hobgoblins should return to their pure roots and reject all forms of artificial enhancements.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHobbe Hound\nSource\nStarfinder #34: We’re No Heroes pg. 61\nHobbe Hound CR 2\nXP 600\nN Medium animal\nInit\n+2;\nSenses\nblindsense (scent) 30 ft., low-light vision;\nPerception\n+7\nDefense\nHP\n24\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+6;\nWill\n+1\nResistances\nfire 5\nWeaknesses\nchemical intolerance\nOffense\nSpeed\n40 ft.\nMelee\nbite +10 (1d6+5 P plus grab; critical bleed 1d4)\nOffensive Abilities\nworry (DC 11)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n-4;\nWIS\n+0;\nCHA\n-1\nSkills\nAcrobatics +7, Athletics +7, Stealth +12\nOther Abilities\nskin secretions\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, pack (3–6), or hunting party (2–4 plus 2–12 hobgoblin troopers)\nSpecial Abilities\nChemical Intolerance (Ex)\nDue to generations of experimentation, a hobbe hound’s blood is a cocktail of unstable chemicals that reacts unpredictably to certain pharmaceuticals. When a hobbe hound is injected with a medicinal (usually requiring a successful melee attack against its KAC by a foe), it immediately takes an amount of damage equal to 1d6 × the medicinal’s tier, in addition to the medicinal’s usual effects.\nSkin Secretions (Ex)\nA hobbe hound’s skin releases an oily residue that makes it difficult to keep hold of or trap. A hobbe hound gains a +4 circumstance bonus to Acrobatics checks to escape.\nWorry (Ex)\nAs a reaction, when a hobbe hound successfully grabs a Medium or smaller creature with its bite attack, it can violently shake the grabbed creature. A creature shaken in this way gains the off-target condition for 1d3+1 rounds. The creature can reduce this time to 1 round by succeeding at a DC 11 Fortitude saving throw.\nDescription\nThough hobbe hounds vaguely resemble canines, they are actually a species of large, blunt-nosed rodents descended from creatures known as “goblin dogs” on lost Golarion. Long ago, hobgoblins used alchemy and selective breeding to fashion their smaller cousins’ pets into sturdier and more ferocious stock for their warbands. The modern hobbe hound stands 4 feet tall at the shoulder and is 200 pounds of solid muscle. Most hobbe hounds are bred and trained to have vicious temperaments and to be loyal to only their hobgoblin keepers.\nWhile many hobgoblin societies—including the Gideron Authority)—rely more on electronic means of surveillance and protection, hobbe hounds continue to be used in fighting rings and as recreational hunting animals. In addition, these fiercely loyal beasts have found roles in certain hobgoblin military units, guarding posts and tracking down deserters in places where technology is unreliable. Some hobgoblin researchers have tried to apply various cybernetic enhancements to hobbe hounds, but the creatures’ physiology often rejects such implants. This has led to a counterculture movement among fringe hobgoblins who believe that hobgoblins should return to their pure roots and reject all forms of artificial enhancements.",
+  "type": "animal",
+  "category": "alien"
+}

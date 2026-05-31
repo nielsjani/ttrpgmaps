@@ -1,0 +1,47 @@
+{
+  "name": "Rift Stinger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Rift Stinger&Family=None",
+  "source": "Mechageddon! pg. 164",
+  "cr": "19",
+  "xp": "204,800",
+  "alignment": "N",
+  "size": "Colossal",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "blindsense (vibration) 30 ft., darkvision 120 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "340",
+  "eac": "33",
+  "kac": "35",
+  "fort": "+20",
+  "ref": "+20",
+  "will": "+16",
+  "immunities": "construct immunities",
+  "speed": "40 ft.",
+  "melee": "buzzblade +32 (upper limb—11d8+21 S; critical bleed 5d4) or stinger tail +32 (lower limb—11d6+21 P)",
+  "ranged": "acid dart rifle +29 (frame—11d8+16 A; critical corrode 5d4) or missile battery +29 (frame—11d6+16 F&P)",
+  "space": "30 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "cleave (2 PP), energized retort (2 PP), inject acid (2 PP), jam weapon (3 PP), kill engine (4 PP), sabotage power (2 PP, DC 24), self-destruct (3+ PP), volley",
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+6",
+    "con": "—",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+9"
+  },
+  "skills": "Acrobatics +28, Athletics +33, Intimidate +28",
+  "other_abilities": "ammo reserve, operator (1), phase (2+ PP; Tech Revolution 108), Power Points (3 total; regains 2/turn, max 8), unliving, summon additional operator (1 PP)",
+  "special_abilities": [
+    {
+      "name": "Inject Acid (2 PP)",
+      "description": "As a reaction, the stinger tail releases acidic mist. If the target is a mech, the acid harms only the operators. The mist deals 11d6 acid damage (DC 24 Reflex for half). On a failure the target takes a –2 penalty to sight-based Perception checks for one round.\nOperator\nThe demon operator has one move action, one reaction, and one standard action each turn. It cannot use more than two actions to move each turn, and it cannot use the same weapon or special ability more than once per round unless otherwise noted. If the main operator succeeds at the Summon Additional Operator ability, then the mech has one move action, one reaction, and two standard actions each turn.\nSelf-destruct\nAs a standard action, the mech can spend all its PP (minimum 3) to self-destruct, dealing 11d12 piercing damage to itself and all targets within a 60-foot radius (DC 24 Reflex save for half). The self-destructing mech automatically fails its own Reflex save.\nSummon Additional Operator\n(1 PP) As a reaction, the mech attempts a DC 24 Will save to summon another operator. Maintaining the summon costs 1 PP and requires a Will save each round (no action)."
+    }
+  ],
+  "description": "Sometimes, demons possess mechs or mortals summon them to act as additional operators. Demon-possessed mechs often have numerous limbs, long barbed tails, and uncanny speed. Demons are especially dangerous when possessing mechs, as they don’t care about the mechanical devices they inhabit for a brief time.Typically, a mech is only possessed by one demon at a time, as demons fight each other as much as they fight everyone else, but occasionally agendas align and two or more fiends act as multiple pilots in a mech. Such alliances don’t last long, and one demon sometimes expels a partner before the battle ends. Demons generally refuse to possess a mech that also has a mortal operator unless bound by powerful magic.Mechs designed by demons or by their allies maximize destruction. They’re built to tear through mortal cities and armored heroes. When fighting another mech, their attacks target the operator as well as the machine. Furthermore, they tend to explode once a demon realizes they have lost a battle, not caring if the mech is destroyed if they can hurt their enemies as well. Demon-possessed mechs are most dangerous when they’re close to defeat. First manufactured by Ersatz Movement under the supervision of Terra Lynx, the rift stinger model is designed for demonic possession. Originally conceived with Shivaska’s blessing, it’s only a matter of time until mortal manufacturers begin utilizing this tech after its appearance on Daimalko.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRift Stinger\nSource\nMechageddon! pg. 164\nRift Stinger CR 19\nXP 204,800\nN Colossal construct (technological)\nInit\n+4;\nSenses\nblindsense (vibration) 30 ft., darkvision 120 ft., low-light vision;\nPerception\n+28\nDefense\nHP\n340\nEAC\n33;\nKAC\n35; Shield points 68\nFort\n+20;\nRef\n+20;\nWill\n+16\nDefensive Abilities\nhardness 9;\nImmunities\nconstruct immunities\nOffense\nSpeed\n40 ft.\nMelee\nbuzzblade +32 (upper limb—11d8+21 S; critical bleed 5d4) or stinger tail +32 (lower limb—11d6+21 P)\nRanged\nacid dart rifle +29 (frame—11d8+16 A; critical corrode 5d4) or missile battery +29 (frame—11d6+16 F&P)\nSpace\n30 ft.;\nReach\n30 ft.\nOffensive Abilities\ncleave (2 PP), energized retort (2 PP), inject acid (2 PP), jam weapon (3 PP), kill engine (4 PP), sabotage power (2 PP, DC 24), self-destruct (3+ PP), volley\nStatistics\nSTR\n+11;\nDEX\n+6;\nCON\n—;\nINT\n—;\nWIS\n+2;\nCHA\n+9\nSkills\nAcrobatics +28, Athletics +33, Intimidate +28\nOther Abilities\nammo reserve, operator (1), phase (2+ PP; Tech Revolution 108), Power Points (3 total; regains 2/turn, max 8), unliving, summon additional operator (1 PP)\nSpecial Abilities\nInject Acid (2 PP)\nAs a reaction, the stinger tail releases acidic mist. If the target is a mech, the acid harms only the operators. The mist deals 11d6 acid damage (DC 24 Reflex for half). On a failure the target takes a –2 penalty to sight-based Perception checks for one round.\nOperator\nThe demon operator has one move action, one reaction, and one standard action each turn. It cannot use more than two actions to move each turn, and it cannot use the same weapon or special ability more than once per round unless otherwise noted. If the main operator succeeds at the Summon Additional Operator ability, then the mech has one move action, one reaction, and two standard actions each turn.\nSelf-destruct\nAs a standard action, the mech can spend all its PP (minimum 3) to self-destruct, dealing 11d12 piercing damage to itself and all targets within a 60-foot radius (DC 24 Reflex save for half). The self-destructing mech automatically fails its own Reflex save.\nSummon Additional Operator\n(1 PP) As a reaction, the mech attempts a DC 24 Will save to summon another operator. Maintaining the summon costs 1 PP and requires a Will save each round (no action).\nDescription\nSometimes, demons possess mechs or mortals summon them to act as additional operators. Demon-possessed mechs often have numerous limbs, long barbed tails, and uncanny speed. Demons are especially dangerous when possessing mechs, as they don’t care about the mechanical devices they inhabit for a brief time.Typically, a mech is only possessed by one demon at a time, as demons fight each other as much as they fight everyone else, but occasionally agendas align and two or more fiends act as multiple pilots in a mech. Such alliances don’t last long, and one demon sometimes expels a partner before the battle ends. Demons generally refuse to possess a mech that also has a mortal operator unless bound by powerful magic.Mechs designed by demons or by their allies maximize destruction. They’re built to tear through mortal cities and armored heroes. When fighting another mech, their attacks target the operator as well as the machine. Furthermore, they tend to explode once a demon realizes they have lost a battle, not caring if the mech is destroyed if they can hurt their enemies as well. Demon-possessed mechs are most dangerous when they’re close to defeat. First manufactured by Ersatz Movement under the supervision of Terra Lynx, the rift stinger model is designed for demonic possession. Originally conceived with Shivaska’s blessing, it’s only a matter of time until mortal manufacturers begin utilizing this tech after its appearance on Daimalko.",
+  "type": "construct (technological)",
+  "environment": "—",
+  "category": "alien"
+}

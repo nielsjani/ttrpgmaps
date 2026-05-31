@@ -1,0 +1,51 @@
+{
+  "name": "Stelezorn",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Stelezorn&Family=None",
+  "source": "Starfinder #22: The Forever Reliquary pg. 57",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "fey (shapechanger)",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+14",
+  "hp": "90",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+10",
+  "speed": "30 ft.",
+  "melee": "slam +14 (1d8+11 B)",
+  "ranged": "corona laser pistol +12 (2d4+7 F; critical burn 1d4)",
+  "offensive_abilities": "siphon fury, unleashed brutality",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Athletics +14, Bluff +19, Culture +14, Diplomacy +19, Intimidate +19",
+  "languages": "Common and up to seven others",
+  "other_abilities": "change shape (humanoid)",
+  "gear": "d-suit II, corona laser pistol with 2 batteries (20 charges each)",
+  "environment": "any urban",
+  "organization": "solitary, pair, or riot (3–8)",
+  "special_abilities": [
+    {
+      "name": "Siphon Fury (Su)",
+      "description": "Once every 2 rounds, as a full action, a stelezorn can forcefully drink in the wrathful emotions of those around them. Each creature within 40 feet of the stelezorn that has either made an attack roll, cast a non-harmless spell, used a spell-like ability on a foe, or taken damage from a foe during the previous round must succeed at a DC 17 Will save or become staggered for 1 round from the sudden mental imbalance. The stelezorn regains 5 Hit Points for each creature that fails the Will save. This is a mind-affecting emotion effect."
+    },
+    {
+      "name": "Unleashed Brutality (Su)",
+      "description": "As a move action, a stelezorn can tap into their inner fury, growing in size and tenacity. The stelezorn and their gear become Large, gaining a space and reach of 10 feet, plus the ferocity ability. If too little space exists for the stelezorn to grow, they grow as large as they can, distorting in shape so they still have extended reach. In addition, the stelezorn gains a +2 circumstance bonus to melee damage rolls, Strength checks, and Strength-based skill checks, and takes a –1 penalty to Armor Class. After 1 minute, the stelezorn reverts back to their original form and becomes fatigued for 1 minute. A stelezorn cannot use this ability while fatigued."
+    }
+  ],
+  "description": "Stelezorns are fey creatures who make their homes in densely populated areas, integrating with local cultures and building personal connections. Appearing as a member of the local humanoid populace, these charismatic creatures have little difficulty making fast friends and even faster rivals with their quick wit and flippant attitudes. As consummate rabble-rousers, they inevitably cause trouble for the communities that receive them.\nThe cause for the stelezorn’s aggravating tendencies lies within their unusual diet: they feed on the wrathful emotions of sapient beings. Stelezorns have a strong attunement to such emotions, absorbing the anger and frustration of nearby creatures in much the same way that plants gain nutrients from sunlight. They feed on nearby creatures, usually making passive-aggressive remarks that frustrate people around them while avoiding physical confrontation until such altercations become inevitable. Most stelezorns maintain a broad and carefully cultivated social network to keep their feeding from overtaxing any one individual, a process they refer to as “tending the garden.”\nIn contrast to the creatures they provoke, stelezorns endeavor to maintain composure. They see themselves as masters of their own emotions and consider themselves to be better than anyone who falls prey to their manipulations. In truth, they’re no less prone to outbursts than most humanoids. Their control places them in either stoic calm or frothing rage, but their emotions rarely see any middle ground. When threatened, a stelezorn can tap into reserves of siphoned wrath to grow into a hulking brute, but they do so only out of need, as such outbursts cause the creature to lose face among their own kind.\nIn their natural form, a stelezorn looks like an androgynous, green-skinned humanoid with dark hair and a pair of swept-back horns.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStelezorn\nSource\nStarfinder #22: The Forever Reliquary pg. 57\nStelezorn CR 7\nXP 3,200\nCN Medium fey (shapechanger)\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+14\nDefense\nHP\n90\nEAC\n19;\nKAC\n20\nFort\n+8;\nRef\n+8;\nWill\n+10\nOffense\nSpeed\n30 ft.\nMelee\nslam +14 (1d8+11 B)\nRanged\ncorona laser pistol +12 (2d4+7 F; critical burn 1d4)\nOffensive Abilities\nsiphon fury, unleashed brutality\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+5\nSkills\nAthletics +14, Bluff +19, Culture +14, Diplomacy +19, Intimidate +19\nLanguages\nCommon and up to seven others\nOther Abilities\nchange shape (humanoid)\nGear\nd-suit II, corona laser pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or riot (3–8)\nSpecial Abilities\nSiphon Fury (Su)\nOnce every 2 rounds, as a full action, a stelezorn can forcefully drink in the wrathful emotions of those around them. Each creature within 40 feet of the stelezorn that has either made an attack roll, cast a non-harmless spell, used a spell-like ability on a foe, or taken damage from a foe during the previous round must succeed at a DC 17 Will save or become staggered for 1 round from the sudden mental imbalance. The stelezorn regains 5 Hit Points for each creature that fails the Will save. This is a mind-affecting emotion effect.\nUnleashed Brutality (Su)\nAs a move action, a stelezorn can tap into their inner fury, growing in size and tenacity. The stelezorn and their gear become Large, gaining a space and reach of 10 feet, plus the ferocity ability. If too little space exists for the stelezorn to grow, they grow as large as they can, distorting in shape so they still have extended reach. In addition, the stelezorn gains a +2 circumstance bonus to melee damage rolls, Strength checks, and Strength-based skill checks, and takes a –1 penalty to Armor Class. After 1 minute, the stelezorn reverts back to their original form and becomes fatigued for 1 minute. A stelezorn cannot use this ability while fatigued.\nDescription\nStelezorns are fey creatures who make their homes in densely populated areas, integrating with local cultures and building personal connections. Appearing as a member of the local humanoid populace, these charismatic creatures have little difficulty making fast friends and even faster rivals with their quick wit and flippant attitudes. As consummate rabble-rousers, they inevitably cause trouble for the communities that receive them.\nThe cause for the stelezorn’s aggravating tendencies lies within their unusual diet: they feed on the wrathful emotions of sapient beings. Stelezorns have a strong attunement to such emotions, absorbing the anger and frustration of nearby creatures in much the same way that plants gain nutrients from sunlight. They feed on nearby creatures, usually making passive-aggressive remarks that frustrate people around them while avoiding physical confrontation until such altercations become inevitable. Most stelezorns maintain a broad and carefully cultivated social network to keep their feeding from overtaxing any one individual, a process they refer to as “tending the garden.”\nIn contrast to the creatures they provoke, stelezorns endeavor to maintain composure. They see themselves as masters of their own emotions and consider themselves to be better than anyone who falls prey to their manipulations. In truth, they’re no less prone to outbursts than most humanoids. Their control places them in either stoic calm or frothing rage, but their emotions rarely see any middle ground. When threatened, a stelezorn can tap into reserves of siphoned wrath to grow into a hulking brute, but they do so only out of need, as such outbursts cause the creature to lose face among their own kind.\nIn their natural form, a stelezorn looks like an androgynous, green-skinned humanoid with dark hair and a pair of swept-back horns.",
+  "type": "fey (shapechanger)",
+  "category": "alien"
+}

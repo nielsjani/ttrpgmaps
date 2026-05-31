@@ -1,0 +1,64 @@
+{
+  "name": "Devil, Erinyes",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Erinyes&Family=Devil",
+  "source": "Starfinder #46: The Perfect Storm pg. 56",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+12",
+  "will": "+7",
+  "dr": "5/good or silver",
+  "sr": "19",
+  "immunities": "fire, poison;",
+  "resistances": "acid 10, cold 10;",
+  "weaknesses": "good 5",
+  "speed": "30 ft., fly 50 ft. (Ex, average)",
+  "melee": "unholy flaming sintered longsword +17 (2d8+12 F & S)",
+  "ranged": "holy corona laser rifle +20 (2d6+8 F; critical burn 1d6) or rope of hair +20 (entangle or grab)",
+  "offensive_abilities": "flames of fury, furious fusillade, rope snare",
+  "spell_like_abilities": {
+    "caster_info": "CL 12th",
+    "spells": "1/day—\nholographic image\n(2nd level, DC 15),\nsummon allies\n(1 sigveir 60%),\nteleport\n(self plus 5 bulk of gear only)\n3/day—\ndimension door\n,\nfear\n(4th level, DC 17)\nAt will—\ndisguise self\nConstant—\ntrue seeing"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+4",
+    "int": "+4",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +16, Bluff +16, Diplomacy +16, Intimidate +21, Mysticism +16, Sense Motive +16, Stealth +16",
+  "languages": "Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
+  "gear": "infernal flight suit, corona laser rifle with 2 high-capacity batteries (40 charges each), rope of hair, sintered longsword",
+  "environment": "Hell",
+  "organization": "solitary, pair, or trio",
+  "special_abilities": [
+    {
+      "name": "Flames of Fury (Su)",
+      "description": "Any weapon an erinyes holds gains the effect of an unholy weapon fusion; if the weapon doesn’t already inflict fire damage, it also gains the effect of the flaming weapon fusion."
+    },
+    {
+      "name": "Furious Fusillade (Ex)",
+      "description": "If they’re flying, the erinyes can take a full action to hover in place and make one ranged attack with their laser rifle against every enemy in a 60-ft. cone."
+    },
+    {
+      "name": "Rope Snare (Su)",
+      "description": "All erinyes carry ropes woven from their own hair; the rope can attack targets up to 30 feet away. When the erinyes hits with a rope of hair attack, the target is entangled (DC 16 Acrobatics to escape) as a piece of the rope magically separates and wraps around them. Alternatively, if the erinyes’ attack exceeded the target’s KAC by 4 or more, the erinyes can choose to grapple the target instead; if they do, the erinyes can’t attack other creatures with the rope as long as the target is grappled."
+    }
+  ],
+  "description": "Erinyes are winged devils of vengeance, pursuing and punishing their victims. They also serve as warriors in Hell’s armies, exacting bloody justice in the service of Dis, their infernal masters, or any mortal bold enough to summon one.\nThe first erinyes, Eiseth, was a fallen angel, and erinyes are often mistaken for fallen angels. After Eiseth, however, erinyes have arisen in many other ways, such as being promoted from lesser devils or shaped from the twisted souls of torturers and persecutors.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Erinyes\nSource\nStarfinder #46: The Perfect Storm pg. 56\nErinyes CR 8\nXP 4,800\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+12;\nWill\n+7\nDR\n5/good or silver;\nImmunities\nfire, poison;\nResistances\nacid 10, cold 10;\nSR\n19\nWeaknesses\ngood 5\nOffense\nSpeed\n30 ft., fly 50 ft. (Ex, average)\nMelee\nunholy flaming sintered longsword +17 (2d8+12 F & S)\nRanged\nholy corona laser rifle +20 (2d6+8 F; critical burn 1d6) or rope of hair +20 (entangle or grab)\nOffensive Abilities\nflames of fury, furious fusillade, rope snare\nSpell-Like Abilities\n(CL 12th)\n1/day—\nholographic image\n(2nd level, DC 15),\nsummon allies\n(1 sigveir 60%),\nteleport\n(self plus 5 bulk of gear only)\n3/day—\ndimension door\n,\nfear\n(4th level, DC 17)\nAt will—\ndisguise self\nConstant—\ntrue seeing\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+4;\nINT\n+4;\nWIS\n+2;\nCHA\n+4\nSkills\nAcrobatics +16, Bluff +16, Diplomacy +16, Intimidate +21, Mysticism +16, Sense Motive +16, Stealth +16\nLanguages\nCelestial, Common, Draconic, Infernal; telepathy 100 ft.\nGear\ninfernal flight suit, corona laser rifle with 2 high-capacity batteries (40 charges each), rope of hair, sintered longsword\nEcology\nEnvironment\nHell\nOrganization\nsolitary, pair, or trio\nSpecial Abilities\nFlames of Fury (Su)\nAny weapon an erinyes holds gains the effect of an unholy weapon fusion; if the weapon doesn’t already inflict fire damage, it also gains the effect of the flaming weapon fusion.\nFurious Fusillade (Ex)\nIf they’re flying, the erinyes can take a full action to hover in place and make one ranged attack with their laser rifle against every enemy in a 60-ft. cone.\nRope Snare (Su)\nAll erinyes carry ropes woven from their own hair; the rope can attack targets up to 30 feet away. When the erinyes hits with a rope of hair attack, the target is entangled (DC 16 Acrobatics to escape) as a piece of the rope magically separates and wraps around them. Alternatively, if the erinyes’ attack exceeded the target’s KAC by 4 or more, the erinyes can choose to grapple the target instead; if they do, the erinyes can’t attack other creatures with the rope as long as the target is grappled.\nDescription\nErinyes are winged devils of vengeance, pursuing and punishing their victims. They also serve as warriors in Hell’s armies, exacting bloody justice in the service of Dis, their infernal masters, or any mortal bold enough to summon one.\nThe first erinyes, Eiseth, was a fallen angel, and erinyes are often mistaken for fallen angels. After Eiseth, however, erinyes have arisen in many other ways, such as being promoted from lesser devils or shaped from the twisted souls of torturers and persecutors.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

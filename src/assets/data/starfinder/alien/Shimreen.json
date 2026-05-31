@@ -1,0 +1,52 @@
+{
+  "name": "Shimreen",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shimreen&Family=None",
+  "source": "Starfinder #6: Empire of Bones pg. 61",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (shimreen)",
+  "init": "+7",
+  "perception": "+11",
+  "hp": "84",
+  "eac": "17",
+  "kac": "20",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+6",
+  "resistances": "electricity 5",
+  "speed": "35 ft.",
+  "melee": "crystal lance +14 (1d3+12 P)",
+  "ranged": "thunderstrike sonic rifle +11 (1d10+5 So; critical deafen [DC 13]) or frag grenade II +11 (explode [15 ft., 2d6 P, DC 13])",
+  "offensive_abilities": "amplify (1d4), charge attack, fighting styles (blitz)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +11, Athletics +16, Engineering +11",
+  "languages": "Shimreeni, Terran",
+  "other_abilities": "radiant",
+  "gear": "shimreen crystal extracarapace II (functions as lashunta ringwear II), thunderstrike sonic rifle with 1 high-capacity batteries (20 charge), frag grenades II (2)",
+  "environment": "any (Shimrinsara)",
+  "organization": "solitary, pair, or cluster (3-8)",
+  "special_abilities": [
+    {
+      "name": "Amplify (Ex)",
+      "description": "Whenever a shimreen takes energy damage, she can voluntarily take an additional 1d4 damage of the same type by amplifying the energy within her crystalline form. This empowers her next melee attack. The next melee attack the shimreen makes releases this energy, dealing an additional amount of damage equal to the extra damage the shimreen took (and of the same type). The shimreen can’t take additional damage again until she releases the energy she is storing. If unused, this stored energy dissipates after 10 minutes. The amount of extra damage the shimreen takes (and deals) increases to 2d4 at CR 8 and 3d4 at CR 16."
+    },
+    {
+      "name": "Radiant (Ex)",
+      "description": "Shimreens constantly emit light (dim, normal, or bright) in a 5-foot radius and are immune to the dazzled condition. Shimreens can adjust their current level of light as a move action, but they can never extinguish it."
+    }
+  ],
+  "description": "Shimreens hail from the storm-ravaged planet of Shimrinsara, and are humanoids formed of glowing, jagged crystal.",
+  "extra_content": "The following extra content was found for this creature:\n-\nShimreen (Creature Subtype) Graft Template\n-\nShimreen Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShimreen\nSource\nStarfinder #6: Empire of Bones pg. 61\nShimreen CR 5\nXP 1,600\nShimreen soldier\nLN Medium humanoid (shimreen)\nInit\n+7;\nPerception\n+11\nDefense\nHP\n84\nEAC\n17;\nKAC\n20\nFort\n+7;\nRef\n+5;\nWill\n+6\nResistances\nelectricity 5\nOffense\nSpeed\n35 ft.\nMelee\ncrystal lance +14 (1d3+12 P)\nRanged\nthunderstrike sonic rifle +11 (1d10+5 So; critical deafen [DC 13]) or frag grenade II +11 (explode [15 ft., 2d6 P, DC 13])\nOffensive Abilities\namplify (1d4), charge attack, fighting styles (blitz)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+0;\nINT\n+2;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +11, Athletics +16, Engineering +11\nLanguages\nShimreeni, Terran\nOther Abilities\nradiant\nGear\nshimreen crystal extracarapace II (functions as lashunta ringwear II), thunderstrike sonic rifle with 1 high-capacity batteries (20 charge), frag grenades II (2)\nEcology\nEnvironment\nany (Shimrinsara)\nOrganization\nsolitary, pair, or cluster (3-8)\nSpecial Abilities\nAmplify (Ex)\nWhenever a shimreen takes energy damage, she can voluntarily take an additional 1d4 damage of the same type by amplifying the energy within her crystalline form. This empowers her next melee attack. The next melee attack the shimreen makes releases this energy, dealing an additional amount of damage equal to the extra damage the shimreen took (and of the same type). The shimreen can’t take additional damage again until she releases the energy she is storing. If unused, this stored energy dissipates after 10 minutes. The amount of extra damage the shimreen takes (and deals) increases to 2d4 at CR 8 and 3d4 at CR 16.\nRadiant (Ex)\nShimreens constantly emit light (dim, normal, or bright) in a 5-foot radius and are immune to the dazzled condition. Shimreens can adjust their current level of light as a move action, but they can never extinguish it.\nDescription\nShimreens hail from the storm-ravaged planet of Shimrinsara, and are humanoids formed of glowing, jagged crystal.\nExtra Content\nThe following extra content was found for this creature:\n-\nShimreen (Creature Subtype) Graft Template\n-\nShimreen Race Entry",
+  "type": "humanoid (shimreen)",
+  "category": "alien"
+}

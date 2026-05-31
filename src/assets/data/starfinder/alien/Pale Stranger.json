@@ -1,0 +1,52 @@
+{
+  "name": "Pale Stranger",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pale Stranger&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 278",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+12",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "170",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+16",
+  "dr": "11/magic",
+  "sr": "21",
+  "immunities": "undead immunities;",
+  "speed": "30 ft.",
+  "melee": "ultrathin longsword +19 (4d8+14 S)",
+  "ranged": "elite semi-auto pistol +21 (3d6+10 E or F or P)",
+  "offensive_abilities": "stranger’s shot",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+8",
+    "con": "—",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +25, Athletics +25, Computers +20, Piloting +20, Stealth +25",
+  "feats": "Quick Draw",
+  "languages": "Common, Eoxian",
+  "other_abilities": "unliving",
+  "gear": "elite semi-auto pistols (4), ultrathin longsword",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Stranger’s Shot (Su)",
+      "description": "As long as a pale stranger is using a small arm (even a broken or archaic one), they can make ranged attacks without provoking attacks of opportunity and without consuming ammunition. With each attack, the pale stranger can choose to fire bullets (dealing piercing damage), electrical bolts (dealing electricity damage) or laser beams (dealing fire damage), regardless of the type of small arm used or the type of damage the weapon normally deals. These attacks never count as attacks from archaic weapons. Such attacks always target a foe’s KAC, even when dealing energy damage. Additionally, if the pale stranger aims as a swift action, the next ranged attack they make during that round ignores all concealment and cover (even total cover) and deals an additional 1d6 damage."
+    }
+  ],
+  "description": "Pale strangers are wasted-looking undead that wear dry, dusty garb, usually a uniform or clothing with similar significance. They always carry one or more small arms, with many ancient pale strangers favoring the weapons of bygone eras. A pale stranger arises from the corpse of a small arms expert who was killed through betrayal, by a hated enemy, or while seeking vengeance for an act committed against them or their family. The first act of an arisen pale stranger is to kill the person or entities responsible for their death.",
+  "extra_content": "The following extra content was found for this creature:\n-\nPale Stranger (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPale Stranger\nSource\nStarfinder Dead Suns Adventure Path pg. 278\n,\nStarfinder #6: Empire of Bones pg. 60\nPale Stranger CR 11\nXP 12,800\nNE Medium undead\nInit\n+12;\nSenses\ndarkvision 60 ft.;\nPerception\n+20\nAura\nfrightful presence (30 ft., DC 20)\nDefense\nHP\n170\nEAC\n24;\nKAC\n25\nFort\n+10;\nRef\n+10;\nWill\n+16\nDR\n11/magic;\nImmunities\nundead immunities;\nSR\n21\nOffense\nSpeed\n30 ft.\nMelee\nultrathin longsword +19 (4d8+14 S)\nRanged\nelite semi-auto pistol +21 (3d6+10 E or F or P)\nOffensive Abilities\nstranger’s shot\nStatistics\nSTR\n+3;\nDEX\n+8;\nCON\n—;\nINT\n+0;\nWIS\n+0;\nCHA\n+5\nFeats\nQuick Draw\nSkills\nAcrobatics +25, Athletics +25, Computers +20, Piloting +20, Stealth +25\nLanguages\nCommon, Eoxian\nOther Abilities\nunliving\nGear\nelite semi-auto pistols (4), ultrathin longsword\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nStranger’s Shot (Su)\nAs long as a pale stranger is using a small arm (even a broken or archaic one), they can make ranged attacks without provoking attacks of opportunity and without consuming ammunition. With each attack, the pale stranger can choose to fire bullets (dealing piercing damage), electrical bolts (dealing electricity damage) or laser beams (dealing fire damage), regardless of the type of small arm used or the type of damage the weapon normally deals. These attacks never count as attacks from archaic weapons. Such attacks always target a foe’s KAC, even when dealing energy damage. Additionally, if the pale stranger aims as a swift action, the next ranged attack they make during that round ignores all concealment and cover (even total cover) and deals an additional 1d6 damage.\nDescription\nPale strangers are wasted-looking undead that wear dry, dusty garb, usually a uniform or clothing with similar significance. They always carry one or more small arms, with many ancient pale strangers favoring the weapons of bygone eras. A pale stranger arises from the corpse of a small arms expert who was killed through betrayal, by a hated enemy, or while seeking vengeance for an act committed against them or their family. The first act of an arisen pale stranger is to kill the person or entities responsible for their death.\nExtra Content\nThe following extra content was found for this creature:\n-\nPale Stranger (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

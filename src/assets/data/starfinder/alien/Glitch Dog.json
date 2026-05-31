@@ -1,0 +1,56 @@
+{
+  "name": "Glitch Dog",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Glitch Dog&Family=None",
+  "source": "Starfinder #47: Nightmare Scenario pg. 58",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "magical beast",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+8",
+  "will": "+3",
+  "speed": "40 ft.",
+  "melee": "bite +13 (1d6+5 P plus trip)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Computers +15, Stealth +10, Survival +10",
+  "languages": "Common, Sylvan; digital telepathy 30 ft.",
+  "other_abilities": "digital transference",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–14)",
+  "special_abilities": [
+    {
+      "name": "Blink (Su)",
+      "description": "A glitch dog constantly phases back and forth between physical and digital states. Melee attacks against them have a 20% miss chance, as though they had concealment, and ranged attacks have a 50% miss chance, as if they had total concealment."
+    },
+    {
+      "name": "Digital Telepathy (Su)",
+      "description": "A glitch dog can communicate telepathically with digital devices and other creatures that have this ability (such as other glitch dogs). A glitch dog can also attempt Computers checks to access any computer within their telepathy’s range."
+    },
+    {
+      "name": "Digital Transference (Su)",
+      "description": "Three times per day, while within digital telepathy range of an active computer system, the glitch dog can move through the network as a standard action to transfer themself from their current location to any other location within 100 feet. This action is instantaneous and doesn’t provoke an attack of opportunity."
+    },
+    {
+      "name": "Trip (Ex)",
+      "description": "In addition to dealing the listed damage, if a glitch dog hits with their bite attack and the attack roll result equals or exceeds the target’s KAC + 4, they automatically trip their foe."
+    }
+  ],
+  "description": "Glitch dogs represent an evolutionary leap from their blink dog ancestors. In their eternal hunt for evil creatures from the Ethereal Plane—their ancestral enemies—blink dogs gradually adapted to enter shifting planar landscapes to find and destroy their quarry. Over generations of evolution, some packs learned to utilize their abilities to enter realms previously unheard of by blink dog sages.\nThe artificial reality of digital space was one of the emergent planes blink dogs entered. They became glitch dogs, transient beings of virtual spaces dedicated to eliminating digital recreations of phase spiders, as well as corrupted code of all types. Some crusading counter-hackers and technomancers enjoy the companionship of a glitch dog whose trust they’ve gained. Major tech companies have hired them as troubleshooters and living computer countermeasures.\nIn the physical world, glitch dogs stand about 3 feet tall at the shoulder and resemble sleek, long-eared canines. Their black fur is streaked with dark gray and lit from within by a blue nimbus of energy. Their moods heavily influences their appearances in digital space. Hunting glitch dogs might appear as fearsome wolves or three-headed hellhounds dripping blue fire and snippets of code. Among friendly company, glitch dogs can appear like cuddly dogs lined in azure. Since their existence is split between two realms, glitch dogs’ forms often stutter, their agile legs or bushy tails breaking into digital pixelation surrounded by their internal glow.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGlitch Dog\nSource\nStarfinder #47: Nightmare Scenario pg. 58\nGlitch Dog CR 4\nXP 1,200\nLN Medium magical beast\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+8;\nWill\n+3\nDefensive Abilities\nblink\nOffense\nSpeed\n40 ft.\nMelee\nbite +13 (1d6+5 P plus trip)\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n+0;\nINT\n+0;\nWIS\n+3;\nCHA\n+0\nSkills\nComputers +15, Stealth +10, Survival +10\nLanguages\nCommon, Sylvan; digital telepathy 30 ft.\nOther Abilities\ndigital transference\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–14)\nSpecial Abilities\nBlink (Su)\nA glitch dog constantly phases back and forth between physical and digital states. Melee attacks against them have a 20% miss chance, as though they had concealment, and ranged attacks have a 50% miss chance, as if they had total concealment.\nDigital Telepathy (Su)\nA glitch dog can communicate telepathically with digital devices and other creatures that have this ability (such as other glitch dogs). A glitch dog can also attempt Computers checks to access any computer within their telepathy’s range.\nDigital Transference (Su)\nThree times per day, while within digital telepathy range of an active computer system, the glitch dog can move through the network as a standard action to transfer themself from their current location to any other location within 100 feet. This action is instantaneous and doesn’t provoke an attack of opportunity.\nTrip (Ex)\nIn addition to dealing the listed damage, if a glitch dog hits with their bite attack and the attack roll result equals or exceeds the target’s KAC + 4, they automatically trip their foe.\nDescription\nGlitch dogs represent an evolutionary leap from their blink dog ancestors. In their eternal hunt for evil creatures from the Ethereal Plane—their ancestral enemies—blink dogs gradually adapted to enter shifting planar landscapes to find and destroy their quarry. Over generations of evolution, some packs learned to utilize their abilities to enter realms previously unheard of by blink dog sages.\nThe artificial reality of digital space was one of the emergent planes blink dogs entered. They became glitch dogs, transient beings of virtual spaces dedicated to eliminating digital recreations of phase spiders, as well as corrupted code of all types. Some crusading counter-hackers and technomancers enjoy the companionship of a glitch dog whose trust they’ve gained. Major tech companies have hired them as troubleshooters and living computer countermeasures.\nIn the physical world, glitch dogs stand about 3 feet tall at the shoulder and resemble sleek, long-eared canines. Their black fur is streaked with dark gray and lit from within by a blue nimbus of energy. Their moods heavily influences their appearances in digital space. Hunting glitch dogs might appear as fearsome wolves or three-headed hellhounds dripping blue fire and snippets of code. Among friendly company, glitch dogs can appear like cuddly dogs lined in azure. Since their existence is split between two realms, glitch dogs’ forms often stutter, their agile legs or bushy tails breaking into digital pixelation surrounded by their internal glow.",
+  "type": "magical beast",
+  "category": "alien"
+}

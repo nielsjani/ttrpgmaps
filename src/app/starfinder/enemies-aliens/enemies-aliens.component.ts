@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-enemies-aliens',
-  templateUrl: './enemies-aliens.component.html',
-  styleUrls: ['./enemies-aliens.component.scss']
+  template: `<app-starfinder-entry-list
+    category="alien"
+    title="Enemies – Aliens"
+    backRoute="/starfinder">
+  </app-starfinder-entry-list>`
 })
 export class EnemiesAliensComponent {}
 

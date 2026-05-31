@@ -1,0 +1,58 @@
+{
+  "name": "Devil, Mannequin (Oidranoth)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mannequin (Oidranoth)&Family=Devil",
+  "source": "Starfinder #48: Masters of Time and Space pg. 56",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., see in darkness;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+8",
+  "dr": "5/good or silver",
+  "immunities": "fire, poison;",
+  "resistances": "acid 10, cold 10",
+  "speed": "30 ft.",
+  "melee": "slam +22 (2d10+14 B; critical knockdown)",
+  "ranged": "infernal arc +19 (3d6+9 E; critical arc 2d6)",
+  "offensive_abilities": "brimstone adjustment",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+5",
+    "con": "+4",
+    "int": "+3",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +17, Athletics +22, Engineering +17",
+  "languages": "Infernal",
+  "other_abilities": "Fiendish construction",
+  "environment": "any (Hell)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Brimstone Adjustment (Su)",
+      "description": "As a move action, a mannequin devil can adjust their diabolic construction to better achieve a task. They choose one armor upgrade from the following list: mk 1 electrostatic field, hydrojet, jetpack, or load lifter. They can use that armor upgrade for 2 rounds as if it were installed in the appropriate armor with unlimited charges. After those 2 rounds, they can’t use this ability again for 1d4 rounds."
+    },
+    {
+      "name": "Fiendish Construction (Ex)",
+      "description": "For effects targeting creatures by type, a mannequin devil counts as both a construct and an outsider (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). They also receive a +2 racial bonus to saving throws against diseases, mind-affecting effects, poisons, and sleep effects, unless the effect specifies that it works against constructs."
+    },
+    {
+      "name": "Infernal Arc (Su)",
+      "description": "As a ranged attack, a mannequin devil can generate an arc of infernal electricity. This attack has a range increment of 40 feet and gains the benefits of an unholy weapon fusion."
+    }
+  ],
+  "description": "Certain sinful creatures spend their mortal lives enacting particular cruelty and violence against androids and other constructs with souls, When their own souls are sent to Hell, the forges of Dis prepare a deeply ironic punishment for them. Rather than letting their soulstuff form new bodies of its own accord in the blasted wastes of Avernus or even be absorbed by more powerful devils, the forges encase these souls in specially constructed bodies.\nThese mannequin devils, or oidranoths as they call themselves, experience an eternity of toil, forced to work building other mannequins, mining materials for diabolic constructions, and fighting and dying as shock troopers. Their bodies tend to be very similar to mortal androids, though made with black steel. Infernal electricity runs through them along crimson circuits. Their hands are crudely formed from brass and brimstone without much flexibility such that they can’t sabotage their work easily.\nAlthough their bodies are a cruel mockery of the creatures they abused as mortals, mannequin devils rarely rebel. They’re cogs of the machine of Hell, doing their work and desperately hoping to be elevated beyond their status over time.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Mannequin (Oidranoth)\nSource\nStarfinder #48: Masters of Time and Space pg. 56\nMannequin (Oidranoth) CR 9\nXP 6,400\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n+5;\nSenses\ndarkvision 60 ft., see in darkness;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+13;\nWill\n+8; +2 vs disease, mind-affecting effects, poison, and sleep\nDR\n5/good or silver;\nImmunities\nfire, poison;\nResistances\nacid 10, cold 10\nOffense\nSpeed\n30 ft.\nMelee\nslam +22 (2d10+14 B; critical knockdown)\nRanged\ninfernal arc +19 (3d6+9 E; critical arc 2d6)\nOffensive Abilities\nbrimstone adjustment\nStatistics\nSTR\n+5;\nDEX\n+5;\nCON\n+4;\nINT\n+3;\nWIS\n+1;\nCHA\n-2\nSkills\nAcrobatics +17, Athletics +22, Engineering +17\nLanguages\nInfernal\nOther Abilities\nFiendish construction\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary\nSpecial Abilities\nBrimstone Adjustment (Su)\nAs a move action, a mannequin devil can adjust their diabolic construction to better achieve a task. They choose one armor upgrade from the following list: mk 1 electrostatic field, hydrojet, jetpack, or load lifter. They can use that armor upgrade for 2 rounds as if it were installed in the appropriate armor with unlimited charges. After those 2 rounds, they can’t use this ability again for 1d4 rounds.\nFiendish Construction (Ex)\nFor effects targeting creatures by type, a mannequin devil counts as both a construct and an outsider (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). They also receive a +2 racial bonus to saving throws against diseases, mind-affecting effects, poisons, and sleep effects, unless the effect specifies that it works against constructs.\nInfernal Arc (Su)\nAs a ranged attack, a mannequin devil can generate an arc of infernal electricity. This attack has a range increment of 40 feet and gains the benefits of an unholy weapon fusion.\nDescription\nCertain sinful creatures spend their mortal lives enacting particular cruelty and violence against androids and other constructs with souls, When their own souls are sent to Hell, the forges of Dis prepare a deeply ironic punishment for them. Rather than letting their soulstuff form new bodies of its own accord in the blasted wastes of Avernus or even be absorbed by more powerful devils, the forges encase these souls in specially constructed bodies.\nThese mannequin devils, or oidranoths as they call themselves, experience an eternity of toil, forced to work building other mannequins, mining materials for diabolic constructions, and fighting and dying as shock troopers. Their bodies tend to be very similar to mortal androids, though made with black steel. Infernal electricity runs through them along crimson circuits. Their hands are crudely formed from brass and brimstone without much flexibility such that they can’t sabotage their work easily.\nAlthough their bodies are a cruel mockery of the creatures they abused as mortals, mannequin devils rarely rebel. They’re cogs of the machine of Hell, doing their work and desperately hoping to be elevated beyond their status over time.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

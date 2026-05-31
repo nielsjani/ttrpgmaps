@@ -1,0 +1,49 @@
+{
+  "name": "Diatha",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Diatha&Family=Diatha",
+  "source": "Alien Archive 3 pg. 18",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "vermin",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+2",
+  "will": "+0",
+  "immunities": "disease, poison",
+  "speed": "30 ft., burrow 10 ft.",
+  "melee": "bite +6 (1d4+1 S; critical burn 1)",
+  "offensive_abilities": "detonate, explosive charge",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+3",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Athletics +9",
+  "other_abilities": "compression, mindless",
+  "environment": "any land",
+  "organization": "solitary, pair, or rout (3–10)",
+  "special_abilities": [
+    {
+      "name": "Detonate (Ex)",
+      "description": "While the diatha has 4 or fewer Hit Points, its energy-dense flesh becomes unstable. If, while in this state, the diatha takes acid, electricity, fire, piercing, slashing, or sonic damage, or uses its explosive charge ability, it dies, exploding in a 10-foot-radius burst, dealing 1d6 fire damage (Reflex DC 9 half)."
+    },
+    {
+      "name": "Explosive Charge (Ex)",
+      "description": "While the diatha has 4 or fewer Hit Points, as a full action, the creature can move up to double its speed and make a bite attack. Its detonate ability then triggers."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiatha\nSource\nAlien Archive 3 pg. 18\nDiathas are a common species of what are known as “explosive slugs.” Found throughout the galaxy, including on Vesk-2, diathas store energy in chemical chains, rather than in fat deposits, causing the slugs to smell like raw petroleum. When threatened, diathas bite. and they sometimes regurgitate volatile materials that ignite on contact with air into the wound. Diathas are cooperative creatures that organize themselves into hives. These hives live in warrens normal diathas slowly dig in the dirt, making distinctive mounds of churned soil with stable passages underneath. Diathas usually dig their warrens into gently rolling ground, but some can be found on hillsides or sheltered in ruins. The slugs have also adapted to maintenance tunnels and power conduits big enough to facilitate their movement. A single diatha hive claims a wide territory, building numerous communal mounds with extensive connecting tunnels. The diathas fiercely defend this territory, especially the hive mounds.\nSuch an interconnected diatha hive can contain hundreds of normal diathas, which work to find food for larvae and for older, stronger diathas known as elders. Their ultimate defensive adaptation is the ability to detonate their energy-packed flesh while in an injured and excited state. If a foe manages to break into a diatha hive, each of the creatures within is a potential explosive deathtrap. The loss of several diathas does little harm to the hive as a whole. However, the explosions can destroy or drive away predators much larger and more powerful than the diathas.\nWhile diatha flesh is explosive, it is stable under in most circumstances. Like manufactured explosives, a diatha is difficult to set off unless “primed” first. Hurting a diatha initially has no effect. However, when a diatha is badly wounded, hormones released as a stress response destabilize its flesh. A diatha excited in this way launches itself into a suicide charge, slamming into a foe and detonating itself with an electrochemical spark from its brain. If the diatha’s body takes certain types of damage after it becomes unstable, the creature also explodes.\nAs diathas age, they become more energy-rich and buoyant with stored internal gases, and their malleable bodies can extend winglike flaps. These floating diathas rise in prominence within the hive and enjoy less and less work. Such elders are expected to scout for food and potential territory in places only they can reach. They also guard the hive.\nAlthough all diathas can exchange sex cells at any time, they produce no young until they achieve elder status. Elder diathas produce larvae, with a birth rate based on how much food the hive has. Normal diathas then care for the offspring. A hive with a dearth of food may struggle to produce enough larvae to replace diathas that die defending the hive, while hives with plentiful forage can expand so rapidly that one hive breaks into multiple smaller hives, expanding diatha territory in the region.\nDiathas eat anything that won’t kill them, converting it into the fuel-like liquid they require. They spread through battlefields, settlements, and starships, seeking out and eating energy-rich material, such as flamer petrol. A lone diatha is little threat. However, if an elder can break into a food source in a potential lair, that diatha can birth offspring. This new colony might become dangerous as the diatha population grows and the creatures become more territorial.\nDiathas that burrow into the infrastructure of starships are often carried to new star systems. Being resilient creatures, they quickly adapt to their new environments. Xenobiologists believe this to be one reason they can be found throughout the galaxy. Diathas can dominate worlds in early stages of biological development, displacing or killing native species. The Pact Worlds and Veskarium have strict quarantine measures for vessels arriving from systems known to have diatha infestations, as do many other planets. However, these laws most often are passed in the wake of a diatha-related disaster. A typical diatha is 2 feet long and weighs 90 pounds. Elders can grow to nearly 4 feet, weighing up to 50 pounds.\nAliens in the \"Diatha\" Family\nName\nCR\nDiatha\n1/2\nDiatha Elder\n5\nDiatha\nSource\nAlien Archive 3 pg. 18\nDiatha CR 1/2\nXP 200\nN Small vermin\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+4\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+2;\nWill\n+0\nImmunities\ndisease, poison\nOffense\nSpeed\n30 ft., burrow 10 ft.\nMelee\nbite +6 (1d4+1 S; critical burn 1)\nOffensive Abilities\ndetonate, explosive charge\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+3;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nAthletics +9\nOther Abilities\ncompression, mindless\nEcology\nEnvironment\nany land\nOrganization\nsolitary, pair, or rout (3–10)\nSpecial Abilities\nDetonate (Ex)\nWhile the diatha has 4 or fewer Hit Points, its energy-dense flesh becomes unstable. If, while in this state, the diatha takes acid, electricity, fire, piercing, slashing, or sonic damage, or uses its explosive charge ability, it dies, exploding in a 10-foot-radius burst, dealing 1d6 fire damage (Reflex DC 9 half).\nExplosive Charge (Ex)\nWhile the diatha has 4 or fewer Hit Points, as a full action, the creature can move up to double its speed and make a bite attack. Its detonate ability then triggers.",
+  "type": "vermin",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Diatha.png"
+}

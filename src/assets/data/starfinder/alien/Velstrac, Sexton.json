@@ -1,0 +1,60 @@
+{
+  "name": "Velstrac, Sexton",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sexton&Family=Velstrac",
+  "source": "Alien Archive 2 pg. 128",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (evil, extraplanar, lawful, velstrac)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., see in darkness;",
+  "perception": "+20",
+  "hp": "175",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+10",
+  "sr": "22",
+  "immunities": "cold;",
+  "weaknesses": "pain dependency, vulnerable to fire",
+  "speed": "30 ft.",
+  "melee": "integrated penitent shadow chains +24 (5d4+14 C; critical bind)",
+  "ranged": "shadow spine +21 (3d8+11 C; critical staggered [DC 18])",
+  "space": "5 ft.",
+  "reach": "ft. (10 ft. with penitent shadow chains)",
+  "offensive_abilities": "create darkness, unnerving gaze (30 ft., DC 18)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+8"
+  },
+  "skills": "Acrobatics +20, Athletics +20, Intimidate +25",
+  "languages": "Common, Infernal; telepathy 100 ft.",
+  "gear": "integrated penitent shadow chains",
+  "environment": "any (Plane of Shadow)",
+  "organization": "solitary, pair, escort (1d4 plus 1 velstrac of lower CR), or entourage (2d6 plus 1 velstrac of higher CR)",
+  "special_abilities": [
+    {
+      "name": "Pain Dependency (Ex)",
+      "description": "A sexton is addicted to pain. If it doesn’t take damage every 4 hours, it gains the sickened and fatigued conditions until the next time it takes damage."
+    },
+    {
+      "name": "Shadow Spine (Su)",
+      "description": "As a ranged attack, a sexton can fire the spines of solidified shadowstuff that protrude from its back at its foes. This attack has a range increment of 40 feet and a maximum range of 200 feet."
+    },
+    {
+      "name": "Unnerving Gaze (Su)",
+      "description": "A creature that views a sexton’s visage is beset by visions of torment. A creature that fails a DC 18 Will saving throw against this gaze is panicked by 1d4 rounds as horrifying images and sounds flood its mind. This is a mind-affecting fear effect. Whether a creature succeeds at the save or not, it can’t be affected by the panicking effect of a sexton’s unnerving gaze for 24 hours. However, every round after the first that a creature is within range of a sexton’s gaze, it is racked by phantom pains and must succeed at a DC 18 Fortitude save or be nauseated for 1 round. This is a mind-affecting pain effect."
+    }
+  ],
+  "description": "Exiled aeons ago from the First World for unspeakable crimes against other fey, svartalfars fled to the Shadow Plane. When Triune bestowed Drift technology to the universe, svartalfars channeled their vengeful energies away from the fey who expelled them to focus on an inscrutable endgame spanning both the galaxy and the planes. Many of these calculating killers have realized that the universal currencies of money and power can advance their race further than can the arcane knowledge they once sought as payment for their services.",
+  "extra_content": "The following extra content was found for this creature:\n-\nVelstrac (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVelstrac\nSource\nAlien Archive 2 pg. 128\nSometimes called “kytons” by mortals, velstracs are cruel fiends who dwell on the Shadow Plane. Each velstrac seeks to unlock its highest potential by following a path of methodical, self-inflicted pain while also psychically feeding on the fear and anguish of mortal creatures. Velstracs care only for this path of pain and its mystical destination; they see “lesser” beings as nothing more than stepping-stones for their own ascension.\nTransformation requires a velstrac to excise pieces of itself, spiritually and physically. Dross is cut away and replaced with grafts—artificial or natural, flesh or spirit, magical or technological. Each graft brings the velstrac closer to its ideal state and increases its power. In this practice, velstracs are more fanatical than even the Augmented are about cybernetic augmentations. The emotions and pain experienced during each step, they believe, cause spiritual evolution.\nLegend holds that the first velstracs emerged when mortals conceived of cruelty as an acceptable means of personal advancement. The goodly gods, astonished and dismayed, chained the velstracs in Hell. However, instead of struggling against their bonds, the velstracs subsumed their chains and eventually escaped into the Shadow Plane.\nVelstracs leave the Shadow Plane to prey on sentient creatures. They maintain installations and portals in dark locales, launching forays into the Material Plane from such places. Most mortals who fall into velstrac clutches are doomed to live out the remainder of their days—or minutes—in agony. However, such mortals can sometimes become velstracs themselves. The supposed methods of this shift differ wildly, but all involve terrible suffering that only escalates after the transformation is complete. These newest velstracs often become anchorites, fiendish ascetics devoted to the torment of themselves as much as of others. An anchorite’s first act must be to willingly mutilate its flesh, showing its dedication to the velstrac way.\nAnchorites are among the lowest-ranking fiends in the velstrac hierarchy. Often working in pairs or squads, they are crafters, gophers, and soldiers. Anchorite labor produces the majority of velstrac equipment, from their starships to their hide armors with inward-pointing studs and spikes. Anchorites take pains to make their creations macabre and ornate. These velstracs also make up the rank and file of velstrac exploration teams and starship crews.\nIn battle, anchorites aim to inflict maximum amounts of delicious agony upon themselves and their foes. Sharing pain is an ecstasy to anchorites as they guide each other along the path of evolution. Few velstracs of any sort refuse to telepathically pair with an anchorite and at least taste its pain, and it’s a rare and disgraceful act for an anchorite to refuse to share with another. A stronger velstrac who takes advantage of an anchorite to survive an otherwise deadly conflict is not considered to be acting dishonorably because in velstrac doctrine, the weak exist to serve the needs of the mighty. All velstracs answer to the demands of their strongest, the velstrac demagogues.\nVelstrac Starships\nA clear hierarchy commands all velstrac groupings, including the fiends’ starfaring forces. The velstracs’ fast and sleek\ncorvettes\nserve as heavy scouts and raiders, cutting into enemy territory and fleets like serrated blades. In starship combat, corvette crews fight as they would in personal combat, with the aim to deal maximum damage as brutally as possible. After strafing disabled ships with chain cannons, corvettes usually make boarding maneuvers to take prisoners. Corvette anchorite crews have even been known to use their escape pods as ballistic weapons against ships with weakened defenses, hoping to overcome those defenses and, perhaps, to improvise boarding at the same time.\nVelstrac Flensers\nVelstracs wield\nflensers\n—blades designed to slice skin from muscle and muscle from bone—sometimes mounting these knives on rifles as bayonets. Flensers are honed to supernatural sharpness and powered to vibrate with the rhythms of the wielder’s body. Velstracs have mastered the art of using these advanced melee weapons to inflict wounds while keeping targets alive. The table above shows an array of flensers, which can be purchased only in the darkest corners of the galaxy.\nAliens in the \"Velstrac\" Family\nName\nCR\nAnchorite\n4\nCantor\n9\nHeretic\n8\nPrior\n8\nSexton\n11\nVelstrac, Sexton\nSource\nStarfinder #11: The Penumbra Protocol pg. 61\nSexton CR 11\nXP 12,800\nLE Medium outsider (evil, extraplanar, lawful, velstrac)\nInit\n+5;\nSenses\ndarkvision 60 ft., see in darkness;\nPerception\n+20\nDefense\nHP\n175\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+10\nDefensive Abilities\nintegrated weapons, regeneration 5 (good or silver);\nImmunities\ncold;\nSR\n22\nWeaknesses\npain dependency, vulnerable to fire\nOffense\nSpeed\n30 ft.\nMelee\nintegrated penitent shadow chains +24 (5d4+14 C; critical bind)\nRanged\nshadow spine +21 (3d8+11 C; critical staggered [DC 18])\nSpace\n5 ft.;\nReach\nft. (10 ft. with penitent shadow chains)\nOffensive Abilities\ncreate darkness, unnerving gaze (30 ft., DC 18)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n+8\nSkills\nAcrobatics +20, Athletics +20, Intimidate +25\nLanguages\nCommon, Infernal; telepathy 100 ft.\nGear\nintegrated penitent shadow chains\nEcology\nEnvironment\nany (Plane of Shadow)\nOrganization\nsolitary, pair, escort (1d4 plus 1 velstrac of lower CR), or entourage (2d6 plus 1 velstrac of higher CR)\nSpecial Abilities\nPain Dependency (Ex)\nA sexton is addicted to pain. If it doesn’t take damage every 4 hours, it gains the sickened and fatigued conditions until the next time it takes damage.\nShadow Spine (Su)\nAs a ranged attack, a sexton can fire the spines of solidified shadowstuff that protrude from its back at its foes. This attack has a range increment of 40 feet and a maximum range of 200 feet.\nUnnerving Gaze (Su)\nA creature that views a sexton’s visage is beset by visions of torment. A creature that fails a DC 18 Will saving throw against this gaze is panicked by 1d4 rounds as horrifying images and sounds flood its mind. This is a mind-affecting fear effect. Whether a creature succeeds at the save or not, it can’t be affected by the panicking effect of a sexton’s unnerving gaze for 24 hours. However, every round after the first that a creature is within range of a sexton’s gaze, it is racked by phantom pains and must succeed at a DC 18 Fortitude save or be nauseated for 1 round. This is a mind-affecting pain effect.\nDescription\nExiled aeons ago from the First World for unspeakable crimes against other fey, svartalfars fled to the Shadow Plane. When Triune bestowed Drift technology to the universe, svartalfars channeled their vengeful energies away from the fey who expelled them to focus on an inscrutable endgame spanning both the galaxy and the planes. Many of these calculating killers have realized that the universal currencies of money and power can advance their race further than can the arcane knowledge they once sought as payment for their services.\nExtra Content\nThe following extra content was found for this creature:\n-\nVelstrac (Creature Subtype) Graft Template",
+  "type": "outsider (evil, extraplanar, lawful, velstrac)",
+  "category": "alien"
+}

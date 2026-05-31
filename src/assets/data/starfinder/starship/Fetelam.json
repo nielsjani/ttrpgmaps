@@ -1,0 +1,36 @@
+{
+  "name": "Fetelam",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Fetelam&Family=Starship",
+  "source": "Starfinder #43: Icebound pg. 55",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "starship magical beast",
+  "hp": "400",
+  "speed": "10;",
+  "other_abilities": "living starship, shocking fangs, space web, starshine, void adaptation",
+  "environment": "any vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Shocking Fangs (Sp)",
+      "description": "The fangs of the fetelam are capable of rending flesh and metals alike while sending paralyzing electrical pulses throughout its prey. Each time a starship is damaged by this attack, every character filling a crew role on the ship must succeed at a DC 19 Reflex save or take 5 points of electrical damage; characters who take this damage can take only a minor action on the next starship combat turn."
+    },
+    {
+      "name": "Space Web (Ex)",
+      "description": "Fetelams weave webs of advanced materials strong enough to capture a starship. A fetelam’s space web typically occupies 5–15 hexes and may be anchored between asteroids or abandoned starships. These webs are difficult to detect with starship sensors; noticing them requires a Science Officer to succeed at a DC 30 Computers check. A ship that enters or begins its turn in a hex containing space web must stop and move no further that round unless the pilot succeeds at a DC 30 Piloting check. A starship can attack space web (AC 5, TL 5); a hit that would deal at least 1 point of damage destroys all space web in a single hex."
+    },
+    {
+      "name": "Starshine (Ex)",
+      "description": "This fetelam’s body refracts light, creating the illusion of many stars from a distance and allowing it to blend into surrounding space. It takes half damage from weapons with the word “laser” in their names; the DCs for Computer checks to scan the fetelam are increased by 5."
+    },
+    {
+      "name": "Web Whip (Ex)",
+      "description": "Fetelams have extraordinary control over their webs and use a single long strand as a tail whip in combat. The damage threshold of a starship against a fetelam’s web whip attack is half its normal value, and any critical hit scored by the web whip is automatically an engines (1–50%) or power core (51–100%) critical. When not in combat, all levels of critical damage to these systems from a web whip can be repaired with 1 hour of work to clear the ship’s thrusters and other systems of the heavy webbing."
+    }
+  ],
+  "description": "Created by a species long forgotten, these massive, spacefaring arachnids live adrift in deep space, feeding on passing ships caught in their steel-like webs. Fetelams hunt by dazzling passing vessels with their twinkling bodies, confusing navigation systems into believing them to be starstudded areas of space. When a ship draws closer, it runs into a sticky trap impossible to escape. Fetelam webs were once prized as shipbuilding materials, and the creatures were hunted to near extinction. Now, elder star travelers often whisper of these rare and ancient creatures, whose lairs are legendary spaces where all who dare to travel could disappear forever.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFetelam\nSource\nStarfinder #43: Icebound pg. 55\nFetelam Tier 13\nN Medium starship magical beast\nSpeed\n10;\nManeuverability\ngood (turn 1);\nDrift\n—\nAC\n27;\nTL\n24\nHP\n400;\nDT\n—;\nCT\n80\nShields\nx\nAttack (Forward)\nshocking fangs (3d6; 1 hex)\nAttack (Aft)\nweb whip (5d6; 10 hexes)\nOther Abilities\nliving starship, shocking fangs, space web, starshine, void adaptation\nCrew\nEngineer (1 action)\nEngineering +23 (13 ranks)\nGunners (2 actions)\ngunnery +19 (13th level)\nPilot (1 action)\nPiloting +29 (13 ranks)\nScience Officer (1 action)\nComputers +23 (13 ranks)\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary\nSpecial Abilities\nShocking Fangs (Sp)\nThe fangs of the fetelam are capable of rending flesh and metals alike while sending paralyzing electrical pulses throughout its prey. Each time a starship is damaged by this attack, every character filling a crew role on the ship must succeed at a DC 19 Reflex save or take 5 points of electrical damage; characters who take this damage can take only a minor action on the next starship combat turn.\nSpace Web (Ex)\nFetelams weave webs of advanced materials strong enough to capture a starship. A fetelam’s space web typically occupies 5–15 hexes and may be anchored between asteroids or abandoned starships. These webs are difficult to detect with starship sensors; noticing them requires a Science Officer to succeed at a DC 30 Computers check. A ship that enters or begins its turn in a hex containing space web must stop and move no further that round unless the pilot succeeds at a DC 30 Piloting check. A starship can attack space web (AC 5, TL 5); a hit that would deal at least 1 point of damage destroys all space web in a single hex.\nStarshine (Ex)\nThis fetelam’s body refracts light, creating the illusion of many stars from a distance and allowing it to blend into surrounding space. It takes half damage from weapons with the word “laser” in their names; the DCs for Computer checks to scan the fetelam are increased by 5.\nWeb Whip (Ex)\nFetelams have extraordinary control over their webs and use a single long strand as a tail whip in combat. The damage threshold of a starship against a fetelam’s web whip attack is half its normal value, and any critical hit scored by the web whip is automatically an engines (1–50%) or power core (51–100%) critical. When not in combat, all levels of critical damage to these systems from a web whip can be repaired with 1 hour of work to clear the ship’s thrusters and other systems of the heavy webbing.\nDescription\nCreated by a species long forgotten, these massive, spacefaring arachnids live adrift in deep space, feeding on passing ships caught in their steel-like webs. Fetelams hunt by dazzling passing vessels with their twinkling bodies, confusing navigation systems into believing them to be starstudded areas of space. When a ship draws closer, it runs into a sticky trap impossible to escape. Fetelam webs were once prized as shipbuilding materials, and the creatures were hunted to near extinction. Now, elder star travelers often whisper of these rare and ancient creatures, whose lairs are legendary spaces where all who dare to travel could disappear forever.",
+  "cr": "13",
+  "type": "starship magical beast",
+  "category": "starship"
+}

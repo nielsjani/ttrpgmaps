@@ -1,0 +1,57 @@
+{
+  "name": "Protomander",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Protomander&Family=None",
+  "source": "Drift Crisis pg. 159",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "aberration (shapechanger)",
+  "init": "+6",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+21",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+9",
+  "immunities": "acid, polymorph;",
+  "resistances": "electricity 10, sonic 10",
+  "speed": "30 ft., climb 30 ft., swim 30 ft.",
+  "melee": "jaws +16 (3d4+12 P) or feeding tendril +19 (1d10+12 P plus grab)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "chaotic infusion (4d6, DC 16), multiheaded, warping funnel 1/day (15-ft. cone, DC 16)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +16, Intimidate +16",
+  "languages": "Common, Protean, Vesk",
+  "other_abilities": "change shape (any Medium or Large creature)",
+  "environment": "any (Vesk-3)",
+  "organization": "solitary, pair, or supercell (3–10)",
+  "special_abilities": [
+    {
+      "name": "Chaotic Infusion (Su)",
+      "description": "As a move action, a protomander can inflict the energy of the Maelstrom onto a creature that it has grappled. The grappled creature takes 4d6 fire, cold, electricity, or sonic damage (Fortitude DC 16 half); this damage type is determined randomly each time chaotic infusion is used."
+    },
+    {
+      "name": "Multiheaded (Su)",
+      "description": "A protomander can make three full jaws attacks (and no other attacks) as a full action with a –5 penalty to each jaws attack roll."
+    },
+    {
+      "name": "Warping Funnel (Su)",
+      "description": "Once per day, a protomander can unleash a 15-foot cone of pure chaos. Creatures in the cone are subjected to effects of warpwave with the listed Fortitude DC to negate."
+    }
+  ],
+  "description": "One rare phenomenon of the Drift Crash (page 88) was the expulsion of extraplanar material and energy from that transitive plane across the Great Beyond (Page 110). Some unfortunate creatures on the Material Plane found themselves caught in the wake of this movement and were transformed as a result of planar quintessence bonding to their flesh and bone. When a wave of this Drift seepage connected to the Maelstrom washed over Vesk‑3, it formed a strange amalgam that merged the already sometimes-unsettling features of a protean (Starfinder Alien Archive 4 86), skittermander (Starfinder Alien Archive 106), and stridermander (Starfinder Alien Archive 3 104) into one three-headed abomination called a protomander.\nBecause of this unique fusion, protomander behavior is extremely erratic and unpredictable. One minute, a protomander might use its change shape ability to ambush unsuspecting passersby. The next, its protean head starts bickering with its stridermander head to stop attempting to devour its skittermander head, rendering it harmless. Regardless, protomanders harbor extreme jealousy toward any creatures who have not been transformed into similar amalgams by the Crash, lashing out with violent rage.\nWhile protomanders can vary in form (much like the chaos of the Maelstrom), most have the serpentine body of a protean, several arms (usually between four to eight), three heads (one protean, one skittermander, and one stridermander), and between two and six stridermander feeding tendrils that sprout from its back.\nA typical protomander stands 9 feet tall and weighs 650 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProtomander\nSource\nDrift Crisis pg. 159\nProtomander CR 8\nXP 4,800\nCE Large aberration (shapechanger)\nInit\n+6;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft., low-light vision;\nPerception\n+21\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+10;\nWill\n+9\nDefensive Abilities\namorphous, unflankable;\nImmunities\nacid, polymorph;\nResistances\nelectricity 10, sonic 10\nOffense\nSpeed\n30 ft., climb 30 ft., swim 30 ft.\nMelee\njaws +16 (3d4+12 P) or feeding tendril +19 (1d10+12 P plus grab)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nchaotic infusion (4d6, DC 16), multiheaded, warping funnel 1/day (15-ft. cone, DC 16)\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+2;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +16, Intimidate +16\nLanguages\nCommon, Protean, Vesk\nOther Abilities\nchange shape (any Medium or Large creature)\nEcology\nEnvironment\nany (Vesk-3)\nOrganization\nsolitary, pair, or supercell (3–10)\nSpecial Abilities\nChaotic Infusion (Su)\nAs a move action, a protomander can inflict the energy of the Maelstrom onto a creature that it has grappled. The grappled creature takes 4d6 fire, cold, electricity, or sonic damage (Fortitude DC 16 half); this damage type is determined randomly each time chaotic infusion is used.\nMultiheaded (Su)\nA protomander can make three full jaws attacks (and no other attacks) as a full action with a –5 penalty to each jaws attack roll.\nWarping Funnel (Su)\nOnce per day, a protomander can unleash a 15-foot cone of pure chaos. Creatures in the cone are subjected to effects of warpwave with the listed Fortitude DC to negate.\nDescription\nOne rare phenomenon of the Drift Crash (page 88) was the expulsion of extraplanar material and energy from that transitive plane across the Great Beyond (Page 110). Some unfortunate creatures on the Material Plane found themselves caught in the wake of this movement and were transformed as a result of planar quintessence bonding to their flesh and bone. When a wave of this Drift seepage connected to the Maelstrom washed over Vesk‑3, it formed a strange amalgam that merged the already sometimes-unsettling features of a protean (Starfinder Alien Archive 4 86), skittermander (Starfinder Alien Archive 106), and stridermander (Starfinder Alien Archive 3 104) into one three-headed abomination called a protomander.\nBecause of this unique fusion, protomander behavior is extremely erratic and unpredictable. One minute, a protomander might use its change shape ability to ambush unsuspecting passersby. The next, its protean head starts bickering with its stridermander head to stop attempting to devour its skittermander head, rendering it harmless. Regardless, protomanders harbor extreme jealousy toward any creatures who have not been transformed into similar amalgams by the Crash, lashing out with violent rage.\nWhile protomanders can vary in form (much like the chaos of the Maelstrom), most have the serpentine body of a protean, several arms (usually between four to eight), three heads (one protean, one skittermander, and one stridermander), and between two and six stridermander feeding tendrils that sprout from its back.\nA typical protomander stands 9 feet tall and weighs 650 pounds.",
+  "type": "aberration (shapechanger)",
+  "category": "alien"
+}

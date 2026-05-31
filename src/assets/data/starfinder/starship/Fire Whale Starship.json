@@ -1,0 +1,36 @@
+{
+  "name": "Fire Whale Starship",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Fire Whale Starship&Family=Starship",
+  "source": "Starfinder #13: Fire Starters pg. 58",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "starship magical beast (extraplanar)",
+  "hp": "40",
+  "speed": "6;",
+  "other_abilities": "bite, fire affinity, living starship, solar adaptation, void adaptation",
+  "environment": "any",
+  "organization": "solitary, pair, or pod (3–8)",
+  "special_abilities": [
+    {
+      "name": "Bite (Ex)",
+      "description": "An augmented fire whale that enters another starship’s hex can bite that ship (+4 [2d4] with the ripper special property)."
+    },
+    {
+      "name": "Breath Weapon (Ex)",
+      "description": "The fire whale’s natural breath weapon has been cybernetically augmented into a direct-fire starship weapon that has short range and the broad arc special property."
+    },
+    {
+      "name": "Fire Affinity (Su)",
+      "description": "The fire whale takes half damage from starship laser weapons."
+    },
+    {
+      "name": "Living Starship (Ex)",
+      "description": "An augmented fire whale is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take crew actions using the skill bonuses and ranks listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the following table to determine the effects when a fire whale takes critical damage. The fire whale’s brain doesn’t take critical damage conditions.\nd%\nSystem\nEffect\n1–30\nWeapon\nCondition applies to all gunner actions.\n31–60\nPropulsion\nCondition applies to all pilot actions.\n61–90\nHeart\nCondition applies to all engineer actions, except when patching or repairing the heart.\n91–100\nBrain\nDuring the next round, each of the fire whale’s attempted actions has a 25% chance of failure."
+    }
+  ],
+  "description": "Titanic natives of the Plane of Fire, fire whales can be found swimming in the atmosphere of Material Plane stars or in space searching for food, from biological matter to inorganic material such as Tiny starships. Their innards refine this fodder into metals and gems. Deceased fire whales can be refitted and used as frames for Small starships.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFire Whale Starship\nSource\nStarfinder #13: Fire Starters pg. 58\nFire Whale Starship Tier 1/4\nN Small starship magical beast (extraplanar)\nSpeed\n6;\nManeuverability\ngood (turn 1);\nDrift\n—\nAC\n11;\nTL\n11\nHP\n40;\nDT\n—;\nCT\n8\nShields\nbasic 20 (forward 5, port 5, starboard 5, aft 5)\nAttack (Forward)\nbreath weapon (2d4)\nPower Core\nheart (75 PCU);\nDrift Engine\nnone;\nSystems\nnone;\nExpansion Bays\nnone\nOther Abilities\nbite, fire affinity, living starship, solar adaptation, void adaptation\nCrew\nEngineer (1 action)\nEngineering +5 (1 rank)\nGunner (1 action)\ngunnery +4\nPilot (1 action)\nPiloting +10 (1 rank)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pod (3–8)\nSpecial Abilities\nBite (Ex)\nAn augmented fire whale that enters another starship’s hex can bite that ship (+4 [2d4] with the ripper special property).\nBreath Weapon (Ex)\nThe fire whale’s natural breath weapon has been cybernetically augmented into a direct-fire starship weapon that has short range and the broad arc special property.\nFire Affinity (Su)\nThe fire whale takes half damage from starship laser weapons.\nLiving Starship (Ex)\nAn augmented fire whale is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take crew actions using the skill bonuses and ranks listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Use the following table to determine the effects when a fire whale takes critical damage. The fire whale’s brain doesn’t take critical damage conditions.\nd%\nSystem\nEffect\n1–30\nWeapon\nCondition applies to all gunner actions.\n31–60\nPropulsion\nCondition applies to all pilot actions.\n61–90\nHeart\nCondition applies to all engineer actions, except when patching or repairing the heart.\n91–100\nBrain\nDuring the next round, each of the fire whale’s attempted actions has a 25% chance of failure.\nDescription\nTitanic natives of the Plane of Fire, fire whales can be found swimming in the atmosphere of Material Plane stars or in space searching for food, from biological matter to inorganic material such as Tiny starships. Their innards refine this fodder into metals and gems. Deceased fire whales can be refitted and used as frames for Small starships.",
+  "cr": "1/4",
+  "type": "starship magical beast (extraplanar)",
+  "category": "starship"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Osifern, Sprout",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sprout&Family=Osifern",
+  "source": "Alien Archive 4 pg. 82",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "animal (aquatic)",
+  "init": "+1",
+  "senses": "blindsense 30 ft. (sound), blindsight 5 ft. (sound), sightless;",
+  "perception": "+4",
+  "hp": "10",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+0",
+  "speed": "swim 10 ft.",
+  "melee": "slam +3 (1d6+3 B)",
+  "ranged": "ebullient jet +6 (1d6+1 A)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+1",
+    "con": "+2",
+    "int": "-5",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +9, Stealth +4, Survival +4",
+  "environment": "aquatic (any water)",
+  "organization": "solitary, pair, or accumulation (3–13)",
+  "special_abilities": [
+    {
+      "name": "Ebullient Jet (Ex)",
+      "description": "As a standard action usable once every 1d4 rounds, an osifern can expel a jet of seawater and chemicals to a maximum range of 30 feet with no range increment. Any creature damaged by this attack is nauseated for 1 round (Fortitude DC 9 negates)."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOsifern\nSource\nAlien Archive 4 pg. 82\nOften mistaken for vegetation, osiferns have proliferated in countless worlds’ shallow waterways. These largely sessile filter feeders anchor themselves to rocks, coral, shipwrecks or, occasionally, the shells of larger creatures early in life, rarely if ever moving from that spot. Resembling translucent tubes, osiferns are famous for their visible and deceptively sturdy internal skeleton—a defensive counterpoint to the creatures’ soft and flexible exteriors. Opaque, varied markings give them the appearance of having faces, although they don’t have eyes. While these patterns provide camouflage for young osiferns or spook potential predators, many adults sport bright, distinctive “faces” that make them stand out rather than blend in.\nAlthough outwardly endearing and harmless, osiferns are remarkably dangerous. Highly resilient, these creatures can adapt to salty, brackish, or fresh water without difficulty. Osiferns also readily bludgeon neighboring creatures to eliminate competition within their territories, and the enzymes they spray in self-defense conveniently also break down trespassers’ flesh into morsels the osiferns can absorb. Their gregarious sprouts can grow into vast osifern gardens; they can alert each other to danger through chemical signals, rallying rudimentary group defenses.\nDangerous enough with their normal life cycle, osiferns infrequently congregate and then collectively metamorphose into an osifern enigma—a large, free-swimming predator with a central notochord and a mouth ringed with thick, ropy tendrils. The composite body has pneumatic mouthparts and teeth capable of grabbing and swallowing larger prey, in contrast to smaller osiferns’ filter feeding method. Most enigmas studied so far appear approximately 10 feet long and weigh 250 pounds, yet scars left on their escaped prey suggest they can reach twice this size or larger. Osifern enigmas can swiftly undulate through the water to reach deeper areas, where they commonly adapt to crushing depths and frigid temperatures (though enigmas that live near volcanic vents often have resistance to fire instead of cold).\nEnigmas demonstrate a surprising degree of aesthetic sensibilities, as they seem to enjoy making visual statements with their bodily markings, expelling jets of bioluminescence without warning and even grafting sparkly rocks or the bones of their prey onto their diaphanous bodies to augment their appearances.\nScientific expeditions regularly hire adventurous divers and submersible pilots to help study (or even capture) enigmas, whereas conservation programs just as often send contractors with the same skills to eliminate osifern infestations.\nAliens in the \"Osifern\" Family\nName\nCR\nEnigma\n8\nSprout\n1/2\nOsifern, Sprout\nSource\nAlien Archive 4 pg. 78\nSprout CR 1/2\nXP 200\nN Tiny animal (aquatic)\nInit\n+1;\nSenses\nblindsense 30 ft. (sound), blindsight 5 ft. (sound), sightless;\nPerception\n+4\nDefense\nHP\n10\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+4;\nWill\n+0\nDefensive Abilities\nregeneration 1 (electricity)\nOffense\nSpeed\nswim 10 ft.\nMelee\nslam +3 (1d6+3 B)\nRanged\nebullient jet +6 (1d6+1 A)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+3;\nDEX\n+1;\nCON\n+2;\nINT\n-5;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +9, Stealth +4, Survival +4\nEcology\nEnvironment\naquatic (any water)\nOrganization\nsolitary, pair, or accumulation (3–13)\nSpecial Abilities\nEbullient Jet (Ex)\nAs a standard action usable once every 1d4 rounds, an osifern can expel a jet of seawater and chemicals to a maximum range of 30 feet with no range increment. Any creature damaged by this attack is nauseated for 1 round (Fortitude DC 9 negates).",
+  "type": "animal (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Osifern_Sprout.png"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Veshred",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Veshred&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 60",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsight (heat) 60 ft., sightless;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+10",
+  "dr": "5/adamantine",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +21 (2d10+15 P; critical bleed 2d4) or claw +21 (2d10+15 S)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+3",
+    "con": "+4",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +17, Athletics +22 (+30 when jumping), Stealth +17",
+  "other_abilities": "powerful leap",
+  "environment": "any",
+  "organization": "solitary, pair, pack (3–12), or brood (13–30)",
+  "special_abilities": [
+    {
+      "name": "Pounce (Ex)",
+      "description": "When a veshred charges, it can also make a full attack."
+    },
+    {
+      "name": "Powerful Leap (Ex)",
+      "description": "When attempting an Athletics check to jump, a veshred is always considered to have taken a running start."
+    },
+    {
+      "name": "Thermal Plating (Ex)",
+      "description": "Veshreds are covered in dense overlapping plates that detect thermal energy, allowing them to sense heat signatures within 60 feet. While these protective plates are lowered, they sit flush against the veshred’s body, granting the veshred DR 5/adamantine. While these plates are raised, the veshred’s ability to detect thermal energy is greatly improved, increasing the range of their blindsight to 1 mile. A veshred can raise or lower their thermal plates as a move action."
+    }
+  ],
+  "description": "Veshreds are voracious, pack-hunting predators adapted to life in the void of space. Found throughout the universe, they’re particularly common in regions where asteroids and planetoids are clustered in close proximity, such as the Diaspora and the rings of Preluria.\nStocky quadrupeds with a hunched body and powerful hind legs, veshreds are adept leapers and climbers. Their eyeless heads are split by a massive mouth lined with rows of serrated teeth that cause terrible wounds. A veshred’s back is covered in tough, overlapping plates that detect, absorb, and metabolize thermal radiation, enabling veshreds to sense heat and consume external energy to sustain themselves without the need for food. When prey is scarce, veshreds raise these plates into a frill that covers much of their body; this greatly extends the distance at which they can detect thermal radiation and enables them to sense prey up to a mile away.\nVeshreds are perpetually ravenous, driven by an urge to consume vast quantities of flesh, and they will eat until they become so bloated they can barely move. Veshreds have only one gender and don’t need to mate to reproduce; once sufficiently fed, any veshred can lay a clutch of 3–5 large, scaled eggs, which they then cover in a mound of regurgitated food and soon abandon. Upon hatching, the veshred young consume this half-digested food and form a new pack with their clutchmates.\nVeshreds hunt and live in packs of three to 12, typically formed by the joining of two to three clutches of juvenile veshreds. Determined and clever, they’re capable of advanced problem-solving and are known to set ambushes, bait larger predators with feigned weakness, and wait out hidden prey for weeks at a time. Rarely, a powerful veshred unites multiple packs into a group called a brood.\nA typical veshred stands 3 feet tall and weighs 300 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVeshred\nSource\nStarfinder #39: The Gilded Cage pg. 60\nVeshred CR 9\nXP 6,400\nN Medium aberration\nInit\n+3;\nSenses\nblindsight (heat) 60 ft., sightless;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+11;\nWill\n+10\nDefensive Abilities\nvoid adaptation;\nDR\n5/adamantine\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +21 (2d10+15 P; critical bleed 2d4) or claw +21 (2d10+15 S)\nOffensive Abilities\npounce\nStatistics\nSTR\n+6;\nDEX\n+3;\nCON\n+4;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +17, Athletics +22 (+30 when jumping), Stealth +17\nOther Abilities\npowerful leap\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, pack (3–12), or brood (13–30)\nSpecial Abilities\nPounce (Ex)\nWhen a veshred charges, it can also make a full attack.\nPowerful Leap (Ex)\nWhen attempting an Athletics check to jump, a veshred is always considered to have taken a running start.\nThermal Plating (Ex)\nVeshreds are covered in dense overlapping plates that detect thermal energy, allowing them to sense heat signatures within 60 feet. While these protective plates are lowered, they sit flush against the veshred’s body, granting the veshred DR 5/adamantine. While these plates are raised, the veshred’s ability to detect thermal energy is greatly improved, increasing the range of their blindsight to 1 mile. A veshred can raise or lower their thermal plates as a move action.\nDescription\nVeshreds are voracious, pack-hunting predators adapted to life in the void of space. Found throughout the universe, they’re particularly common in regions where asteroids and planetoids are clustered in close proximity, such as the Diaspora and the rings of Preluria.\nStocky quadrupeds with a hunched body and powerful hind legs, veshreds are adept leapers and climbers. Their eyeless heads are split by a massive mouth lined with rows of serrated teeth that cause terrible wounds. A veshred’s back is covered in tough, overlapping plates that detect, absorb, and metabolize thermal radiation, enabling veshreds to sense heat and consume external energy to sustain themselves without the need for food. When prey is scarce, veshreds raise these plates into a frill that covers much of their body; this greatly extends the distance at which they can detect thermal radiation and enables them to sense prey up to a mile away.\nVeshreds are perpetually ravenous, driven by an urge to consume vast quantities of flesh, and they will eat until they become so bloated they can barely move. Veshreds have only one gender and don’t need to mate to reproduce; once sufficiently fed, any veshred can lay a clutch of 3–5 large, scaled eggs, which they then cover in a mound of regurgitated food and soon abandon. Upon hatching, the veshred young consume this half-digested food and form a new pack with their clutchmates.\nVeshreds hunt and live in packs of three to 12, typically formed by the joining of two to three clutches of juvenile veshreds. Determined and clever, they’re capable of advanced problem-solving and are known to set ambushes, bait larger predators with feigned weakness, and wait out hidden prey for weeks at a time. Rarely, a powerful veshred unites multiple packs into a group called a brood.\nA typical veshred stands 3 feet tall and weighs 300 pounds.",
+  "type": "aberration",
+  "category": "alien"
+}

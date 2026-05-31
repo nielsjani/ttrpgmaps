@@ -1,0 +1,55 @@
+{
+  "name": "Gatecrasher",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gatecrasher&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 269",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LE",
+  "size": "Large",
+  "creature_type": "undead",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "198",
+  "eac": "24",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+11",
+  "immunities": "undead immunities",
+  "speed": "20 ft.",
+  "melee": "advanced swoop hammer +22 (3d10+18 B; critical knockdown)",
+  "ranged": "aurora shock caster +19 (2d12+10 E, explode [15 ft., DC 19])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "juggernaut of destruction",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "—",
+    "int": "+0",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Athletics +19, Engineering +19, Intimidate +24",
+  "languages": "Common, Eoxian",
+  "other_abilities": "integral upgrades (forcepack, haste circuit, targeting computer), unliving",
+  "gear": "advanced swoop hammer, aurora shock caster with 3 high-capacity batteries (40 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or squad (3–6)",
+  "special_abilities": [
+    {
+      "name": "Integral Upgrades (Su)",
+      "description": "A gatecrasher can install up to three armor upgrades (each with an item level no greater than the gatecrasher’s CR) into its heavily armored frame. It’s treated as wearing heavy or powered armor for this purpose. Its armor upgrades cannot be damaged or removed unless the gatecrasher is destroyed and leaves intact physical remains."
+    },
+    {
+      "name": "Juggernaut of Destruction (Ex)",
+      "description": "A gatecrasher can use a two-handed weapon in one hand without taking a penalty, and when wielding two such weapons, as a full action can attack with each weapon once (taking a –6 penalty to each attack roll and to the saving throw DCs of any special properties or critical hit effects the weapons have), even if either weapon has the unwieldy weapon special property. A gatecrasher can use any weapons designed for creatures within one size category of its size without penalty."
+    }
+  ],
+  "description": "Gatecrashers are undead abominations, horrific blends of powered armor and necromancy-infused flesh. These undead monstrosities revel in combat, seeking it out wherever possible.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGatecrasher (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGatecrasher\nSource\nStarfinder Dead Suns Adventure Path pg. 269\n,\nStarfinder #6: Empire of Bones pg. 57\nGatecrasher CR 10\nXP 9,600\nLE Large undead\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n198\nEAC\n24;\nKAC\n25\nFort\n+12;\nRef\n+12;\nWill\n+11\nImmunities\nundead immunities\nOffense\nSpeed\n20 ft.\nMelee\nadvanced swoop hammer +22 (3d10+18 B; critical knockdown)\nRanged\naurora shock caster +19 (2d12+10 E, explode [15 ft., DC 19])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\njuggernaut of destruction\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n—;\nINT\n+0;\nWIS\n+3;\nCHA\n+1\nSkills\nAthletics +19, Engineering +19, Intimidate +24\nLanguages\nCommon, Eoxian\nOther Abilities\nintegral upgrades (forcepack, haste circuit, targeting computer), unliving\nGear\nadvanced swoop hammer, aurora shock caster with 3 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or squad (3–6)\nSpecial Abilities\nIntegral Upgrades (Su)\nA gatecrasher can install up to three armor upgrades (each with an item level no greater than the gatecrasher’s CR) into its heavily armored frame. It’s treated as wearing heavy or powered armor for this purpose. Its armor upgrades cannot be damaged or removed unless the gatecrasher is destroyed and leaves intact physical remains.\nJuggernaut of Destruction (Ex)\nA gatecrasher can use a two-handed weapon in one hand without taking a penalty, and when wielding two such weapons, as a full action can attack with each weapon once (taking a –6 penalty to each attack roll and to the saving throw DCs of any special properties or critical hit effects the weapons have), even if either weapon has the unwieldy weapon special property. A gatecrasher can use any weapons designed for creatures within one size category of its size without penalty.\nDescription\nGatecrashers are undead abominations, horrific blends of powered armor and necromancy-infused flesh. These undead monstrosities revel in combat, seeking it out wherever possible.\nExtra Content\nThe following extra content was found for this creature:\n-\nGatecrasher (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

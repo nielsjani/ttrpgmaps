@@ -1,0 +1,45 @@
+{
+  "name": "Dragon Ray",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dragon Ray&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 57",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast (aquatic)",
+  "init": "+4",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+7",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "tail whip +20 (3d4+14 S)",
+  "ranged": "barb +17 (3d6+8 P plus dragon ray poison)",
+  "offensive_abilities": "sting (DC 16)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +21",
+  "other_abilities": "amphibious",
+  "environment": "any aquatic",
+  "organization": "solitary, pair, or flight (3-8)",
+  "special_abilities": [
+    {
+      "name": "Sting (Ex)",
+      "description": "As a move action, a dragon ray can infuse its ranged barb attack with venom. A creature hit by a barb is affected by dragon ray poison. A dragon ray’s tail is hollow and can store 4 doses of this poison. The ray’s venom gland naturally replenishes this poison in 24 hours."
+    }
+  ],
+  "description": "The dragon ray is a graceful marine creature named for its flat, winged body and long tail. Spiny protrusions and finlike flares trail from the dragon ray, shifting through a range of vibrant colors depending on the temperature of the air or water and the direction of the wind or current. Dragon rays are amphibious creatures that can be seen diving low beneath the waves, skimming the water’s surface, or gliding above the ocean. Their beautiful yet fearsome appearance draws tourists, eager to photograph them. Though normally docile, a threatened dragon ray can deploy a lethal venom through its tail, which contains hundreds of reticulated barbs it can fling in self-defense. Despite this risk, some individuals train dragon rays and even keep them as pets. Dragon rays are vegetarians who skim algae and marine plants with their sucker-like mouths. They have no language or culture but communicate with one another through vibrations. The rhythmic pulses dragon rays produce were recently sampled by Pact World DJs to create unique tracks that are a hit in the system’s club scene.\nIn tiny amounts, dragon ray poison isn’t lethal and can be taken as a recreational drug. Partygoers across the galaxy have learned to dilute and distill the poison into a (mostly) safe mind‑altering substance. Colloquially referred to as “dragon juice” or “flight,” the drug can be processed into a powder or liquid and causes feelings of euphoria, a sensation of flying, and vivid hallucinations, with minor sensorimotor side effects.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDragon Ray\nSource\nStarfinder #44: Allies Against the Eye pg. 57\nDragon Ray CR 8\nXP 4,800\nN Huge magical beast (aquatic)\nInit\n+4;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+12;\nWill\n+7\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\ntail whip +20 (3d4+14 S)\nRanged\nbarb +17 (3d6+8 P plus dragon ray poison)\nOffensive Abilities\nsting (DC 16)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+4;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +21\nOther Abilities\namphibious\nEcology\nEnvironment\nany aquatic\nOrganization\nsolitary, pair, or flight (3-8)\nSpecial Abilities\nSting (Ex)\nAs a move action, a dragon ray can infuse its ranged barb attack with venom. A creature hit by a barb is affected by dragon ray poison. A dragon ray’s tail is hollow and can store 4 doses of this poison. The ray’s venom gland naturally replenishes this poison in 24 hours.\nDescription\nThe dragon ray is a graceful marine creature named for its flat, winged body and long tail. Spiny protrusions and finlike flares trail from the dragon ray, shifting through a range of vibrant colors depending on the temperature of the air or water and the direction of the wind or current. Dragon rays are amphibious creatures that can be seen diving low beneath the waves, skimming the water’s surface, or gliding above the ocean. Their beautiful yet fearsome appearance draws tourists, eager to photograph them. Though normally docile, a threatened dragon ray can deploy a lethal venom through its tail, which contains hundreds of reticulated barbs it can fling in self-defense. Despite this risk, some individuals train dragon rays and even keep them as pets. Dragon rays are vegetarians who skim algae and marine plants with their sucker-like mouths. They have no language or culture but communicate with one another through vibrations. The rhythmic pulses dragon rays produce were recently sampled by Pact World DJs to create unique tracks that are a hit in the system’s club scene.\nIn tiny amounts, dragon ray poison isn’t lethal and can be taken as a recreational drug. Partygoers across the galaxy have learned to dilute and distill the poison into a (mostly) safe mind‑altering substance. Colloquially referred to as “dragon juice” or “flight,” the drug can be processed into a powder or liquid and causes feelings of euphoria, a sensation of flying, and vivid hallucinations, with minor sensorimotor side effects.",
+  "type": "magical beast (aquatic)",
+  "category": "alien"
+}

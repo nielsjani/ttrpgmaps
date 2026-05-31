@@ -1,0 +1,57 @@
+{
+  "name": "Xararian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Xararian&Family=None",
+  "source": "Starfinder #24: The God-Host Ascends pg. 61",
+  "cr": "18",
+  "xp": "153,600",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "humanoid (xararian)",
+  "init": "+6",
+  "senses": "low-light vision;",
+  "perception": "+31",
+  "hp": "320",
+  "eac": "31",
+  "kac": "32",
+  "fort": "+16",
+  "ref": "+18",
+  "will": "+20",
+  "immunities": "vacuum",
+  "speed": "30 ft., fly 20 ft. (Su, average; in space only), starflight",
+  "melee": "hardlight staff +26 (8d8+18 B)",
+  "ranged": "force dart +28 (3d12+18 P)",
+  "offensive_abilities": "meteor shower (DC 25)",
+  "spell_like_abilities": {
+    "caster_info": "CL 18th",
+    "spells": "At will—\ndetect magic\n,\nlife bubble\nMystic Spell-Like Abilities\n(CL 18th)\n1/day—\ninterplanetary teleport\nAt will—\nmindlink\n,\ntelepathic bond\nMystic Spells Known\n(CL 18th, ranged +28)\n6th (3/day)—\nbaleful polymorph\n(DC 27),\ncontrol gravity\n(DC 27)\n5th (6/day)—\nbreak enchantment\n,\ncall cosmos\n,\nmind thrust\n(DC 26),\ntelekinesis\n4th (at will)—\ncosmic eddy\n(DC 25),\nremove radioactivity\nConnection\nstar shaman"
+  },
+  "spells": "(CL 18th, ranged +28)\n6th (3/day)—\nbaleful polymorph\n(DC 27),\ncontrol gravity\n(DC 27)\n5th (6/day)—\nbreak enchantment\n,\ncall cosmos\n,\nmind thrust\n(DC 26),\ntelekinesis\n4th (at will)—\ncosmic eddy\n(DC 25),\nremove radioactivity\nConnection\nstar shaman",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "+3",
+    "int": "+8",
+    "wis": "+11",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +31, Mysticism +36, Piloting +36",
+  "languages": "truespeech",
+  "other_abilities": "stargazer, starlight form (18 minutes, DC 25), starry bond, swap spells, walk the void",
+  "gear": "xararian robes (functions as freebooter armor V), hardlight staff, xararian spell tome",
+  "environment": "any",
+  "organization": "solitary, entourage (1 plus 2–5 guardian creatures)",
+  "special_abilities": [
+    {
+      "name": "Force Dart (Su)",
+      "description": "As a ranged attack, a xararian can generate a dart of glowing energy with a range increment of 100 feet. This attack has the force descriptor."
+    },
+    {
+      "name": "Swap Spells (Su)",
+      "description": "As a full action, a xararian mystic who has at least one free hand can replace any one of their spells known with a new spell of the same level contained within their spell tome. A typical xararian thaumaturge’s spell tome contains the following additional spells at the associated levels—\nanimate dead\n(4th),\nenervation\n(4th),\nfeeblemind\n(5th),\nmystic cure\n(4th through 6th),\nraise dead\n(5th), and\nwaves of fatigue\n(5th)."
+    }
+  ],
+  "description": "Xarar and its colony worlds in the Vast have been ruled for millennia by an elite hierarchy of powerful spellcasters. Those who show a talent for magic and embrace these values are collected from their homes and dispatched to arcane colleges that tower over the largest cities of Xarar, while the rest of the population are doomed to a life of backbreaking servitude. Both organized religion and technology are suppressed, out of fears that divine empowerment or advanced machinery might lead to a bloody peasant uprising.\nWhen Triune granted knowledge of the Drift to the people of Xarar, those in power on the planet saw it as the greatest of all possible threats, moving swiftly to destroy all record of its existence on their own world.\nRelying on divination and teleportation magic, dedicated thaumaturges were dispatched far and wide to assess the growing threat of technology from the greater universe. The majority of these agents are xararians, humanoids with wrinkled brows, long white hair, and pale skin. Rarely, other races under Xararian subjugation are also appointed as thaumaturges; after decades of study, they are finally allowed to don the traditional black flowing robes and elaborately carved staves that mark their high station.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nXararian\nSource\nStarfinder #24: The God-Host Ascends pg. 61\nXararian CR 18\nXP 153,600\nMale xararian mystic\nLE Medium humanoid (xararian)\nInit\n+6;\nSenses\nlow-light vision;\nPerception\n+31\nDefense\nHP\n320;\nRP\n6\nEAC\n31;\nKAC\n32\nFort\n+16;\nRef\n+18;\nWill\n+20\nImmunities\nvacuum\nOffense\nSpeed\n30 ft., fly 20 ft. (Su, average; in space only), starflight\nMelee\nhardlight staff +26 (8d8+18 B)\nRanged\nforce dart +28 (3d12+18 P)\nOffensive Abilities\nmeteor shower (DC 25)\nSpell-Like Abilities\n(CL 18th)\nAt will—\ndetect magic\n,\nlife bubble\nMystic Spell-Like Abilities\n(CL 18th)\n1/day—\ninterplanetary teleport\nAt will—\nmindlink\n,\ntelepathic bond\nMystic Spells Known\n(CL 18th, ranged +28)\n6th (3/day)—\nbaleful polymorph\n(DC 27),\ncontrol gravity\n(DC 27)\n5th (6/day)—\nbreak enchantment\n,\ncall cosmos\n,\nmind thrust\n(DC 26),\ntelekinesis\n4th (at will)—\ncosmic eddy\n(DC 25),\nremove radioactivity\nConnection\nstar shaman\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n+3;\nINT\n+8;\nWIS\n+11;\nCHA\n+4\nSkills\nAcrobatics +31, Mysticism +36, Piloting +36\nLanguages\ntruespeech\nOther Abilities\nstargazer, starlight form (18 minutes, DC 25), starry bond, swap spells, walk the void\nGear\nxararian robes (functions as freebooter armor V), hardlight staff, xararian spell tome\nEcology\nEnvironment\nany\nOrganization\nsolitary, entourage (1 plus 2–5 guardian creatures)\nSpecial Abilities\nForce Dart (Su)\nAs a ranged attack, a xararian can generate a dart of glowing energy with a range increment of 100 feet. This attack has the force descriptor.\nSwap Spells (Su)\nAs a full action, a xararian mystic who has at least one free hand can replace any one of their spells known with a new spell of the same level contained within their spell tome. A typical xararian thaumaturge’s spell tome contains the following additional spells at the associated levels—\nanimate dead\n(4th),\nenervation\n(4th),\nfeeblemind\n(5th),\nmystic cure\n(4th through 6th),\nraise dead\n(5th), and\nwaves of fatigue\n(5th).\nDescription\nXarar and its colony worlds in the Vast have been ruled for millennia by an elite hierarchy of powerful spellcasters. Those who show a talent for magic and embrace these values are collected from their homes and dispatched to arcane colleges that tower over the largest cities of Xarar, while the rest of the population are doomed to a life of backbreaking servitude. Both organized religion and technology are suppressed, out of fears that divine empowerment or advanced machinery might lead to a bloody peasant uprising.\nWhen Triune granted knowledge of the Drift to the people of Xarar, those in power on the planet saw it as the greatest of all possible threats, moving swiftly to destroy all record of its existence on their own world.\nRelying on divination and teleportation magic, dedicated thaumaturges were dispatched far and wide to assess the growing threat of technology from the greater universe. The majority of these agents are xararians, humanoids with wrinkled brows, long white hair, and pale skin. Rarely, other races under Xararian subjugation are also appointed as thaumaturges; after decades of study, they are finally allowed to don the traditional black flowing robes and elaborately carved staves that mark their high station.",
+  "type": "humanoid (xararian)",
+  "category": "alien"
+}

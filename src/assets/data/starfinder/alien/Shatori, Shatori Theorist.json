@@ -1,0 +1,55 @@
+{
+  "name": "Shatori, Shatori Theorist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shatori Theorist&Family=Shatori",
+  "source": "Alien Archive 3 pg. 94",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (shatori)",
+  "init": "+0",
+  "perception": "+19",
+  "hp": "140",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+13",
+  "speed": "30 ft.",
+  "melee": "buzzblade dueling sword +16 (2d6+10 S)",
+  "ranged": "elite semi-auto pistol +18 (3d6+8 P)",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "10/day—\nmind probe\n(DC 22)\nAt will—\nmindlink\nSpell-Like Abilities\n(CL 10th)\nAt will—\ndetect magic\n,\ngrave words\n,\nstabilize\nMystic Spells Known\n(CL 10th; ranged +18)\n4th (3/day)—\nconfusion\n(DC 22),\ndivination\n3rd (6/day)—\ndispel magic\n,\nmind thrust\n(DC 21),\nspeak with dead\n(DC 21),\ntongues\n2nd (at will)—\naugury\n,\nsee invisibility\nConnection\nAkashic"
+  },
+  "spells": "(CL 10th; ranged +18)\n4th (3/day)—\nconfusion\n(DC 22),\ndivination\n3rd (6/day)—\ndispel magic\n,\nmind thrust\n(DC 21),\nspeak with dead\n(DC 21),\ntongues\n2nd (at will)—\naugury\n,\nsee invisibility\nConnection\nAkashic",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+0",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+8",
+    "cha": "+5"
+  },
+  "skills": "Culture +19, Diplomacy +24, Mysticism +24, Sense Motive +19",
+  "languages": "Azlanti, Celestial, Common, Draconic, Infernal, Perani",
+  "other_abilities": "access Akashic Record, peer into the future 1/day, psychometry, shared stillness",
+  "gear": "freebooter armor III, buzzblade dueling sword with 1 battery (20 charges), elite semi-auto pistol with 24 small arm rounds",
+  "environment": "any (Perdure)",
+  "organization": "solitary, pair, or meeting (3–6)",
+  "special_abilities": [
+    {
+      "name": "Psychometry (Su)",
+      "description": "By taking a standard action to touch a creature or object, a shatori gains a +4 racial bonus to their next check to identify the creature, their next check to recall knowledge about the creature or the object, or their next Sense Motive check against the creature. To touch an unwilling creature, the shatori must succeed at a melee attack roll against that creature’s EAC."
+    },
+    {
+      "name": "Shared Stillness (Su)",
+      "description": "Allies within 10 feet of a shatori gain a +1 morale bonus to saving throws against fear effects."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nShatori (Creature Subtype) Graft Template\n-\nShatori Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShatori\nSource\nAlien Archive 3 pg. 94\nBefore the Gap, shatoris had a utopian civilization that spanned several words in the Disaj system in the Vast, built upon a wellspring of magic on their home world, Perdane. When the source of their power dwindled, the shatoris searched the planes for more eldritch energy. Their overreach led them to Abaddon, and when they retreated from that plane, an army of daemons followed them back to the Disaj system.\nThe daemons overwhelmed the defenses of Perdane, destroying civilization and the environment there. As the forces of Abaddon spread, the shatoris withdrew to Perdure, another world in their system, to plan. They knew their doom was a matter of time, so they hastily enacted a complex ritual that opened a demiplane to allow some of them to enter stasis for centuries. The complex spell was too rushed, though, and the survivors ended up in a pocket dimension connected to Pharasma’s Boneyard, where the shatoris slept for ages. As they did, the Boneyard’s energies altered them.\nWhen their spell released them, the remaining shatoris were changed. They each retained great height and grace, but their flesh had become semitransparent and their bones limned with light. This combination makes shatoris’ eyes glow and their bones visible through their translucent flesh. Shatoris are living creatures, but centuries of exposure to the energies of the Boneyard have have extended each shatori’s natural life indefinitely and rendered them sterile.\nThe shatoris returned to Perdure a shattered people. They had witnessed their species’ near extinction and their civilization’s ruin. All their previous accomplishments had been razed to ruins, and their future seems to be one of slow attrition. Despair gripped survivors in the early days after their return. The wisest shatoris could see that their people’s despondency might accomplish what the daemons could not. Nine of these shatoris, called the Shabani, drafted a document called the Shaban, laying out ideal behavior and enshrining a culture of impartiality and tranquility, placing the objective over the subjective. The Shaban endorses detachment from the material world and rejects the worship of gods. It instead recommends philosophical egoism that leans toward benevolent self-interest, which includes working to benefit others, seeing the common good as an extension of personal welfare. Based on the Shaban, shatoris believe they should each find a purpose and use their gifts to fulfill that reason for existing, profiting themselves and others. According to the Shaban, inaction is the greatest sin—a wasted life dishonors the billions of shatoris who were denied the chance to live at all.\nShatoris see each death among them as a potentially catastrophic loss. Therefore, they seek to ensure their personal knowledge and culture is remembered even if they fail to survive, keeping detailed records. Shatoris also distribute their knowledge with little restraint, including to other sapient species.\nWhen the Signal provided Drift travel to the shatoris, they had already expanded to Prevail, another world relatively untouched by the daemons in the Disaj system. Despite exploring Drift travel in theory, they remained in Disaj. When the Azlanti arrived in the Disaj system, the shatoris headed off conflict by offering their services as analysts, scholars, and magic‑users. The Disaj system became a vassal of the Azlanti Star Empire with no struggle. Shatoris serve the Azlanti with quiet obedience, fearing for their species’ survival. Still, some brave shatoris act subtly against the empire. As highly skilled servants, shatoris conduct research and fill bureaucratic roles essential to the empire’s stability and expansion. Many of these privileged positions allow shatoris to influence the course of the empire’s policy and future, and the stoic immortals hope the long-term impact of their actions changes the empire for the better of all.\nThe combination of shatori philosophy, dread of extinction, and desire for remembrance makes many averse to risk. Such shatoris remain in imperial space, hunting for ways to alter their fate. A few shatoris, however, are bold enough to take greater risks and travel the galaxy in search of answers and new possibilities.\nAliens in the \"Shatori\" Family\nName\nCR\nShatori Analyst\n4\nShatori Theorist\n10\nShatori, Shatori Theorist\nSource\nAlien Archive 3 pg. 94\nShatori Theorist CR 10\nXP 9,600\nShatori mystic\nLN Medium humanoid (shatori)\nInit\n+0;\nPerception\n+19\nDefense\nHP\n140;\nRP\n5\nEAC\n22;\nKAC\n23\nFort\n+9;\nRef\n+9;\nWill\n+13; +2 vs. death effects, disease, fear effects, poison\nOffense\nSpeed\n30 ft.\nMelee\nbuzzblade dueling sword +16 (2d6+10 S)\nRanged\nelite semi-auto pistol +18 (3d6+8 P)\nMystic Spell-Like Abilities\n(CL 10th)\n10/day—\nmind probe\n(DC 22)\nAt will—\nmindlink\nSpell-Like Abilities\n(CL 10th)\nAt will—\ndetect magic\n,\ngrave words\n,\nstabilize\nMystic Spells Known\n(CL 10th; ranged +18)\n4th (3/day)—\nconfusion\n(DC 22),\ndivination\n3rd (6/day)—\ndispel magic\n,\nmind thrust\n(DC 21),\nspeak with dead\n(DC 21),\ntongues\n2nd (at will)—\naugury\n,\nsee invisibility\nConnection\nAkashic\nStatistics\nSTR\n+0;\nDEX\n+0;\nCON\n+0;\nINT\n+3;\nWIS\n+8;\nCHA\n+5\nSkills\nCulture +19, Diplomacy +24, Mysticism +24, Sense Motive +19\nLanguages\nAzlanti, Celestial, Common, Draconic, Infernal, Perani\nOther Abilities\naccess Akashic Record, peer into the future 1/day, psychometry, shared stillness\nGear\nfreebooter armor III, buzzblade dueling sword with 1 battery (20 charges), elite semi-auto pistol with 24 small arm rounds\nEcology\nEnvironment\nany (Perdure)\nOrganization\nsolitary, pair, or meeting (3–6)\nSpecial Abilities\nPsychometry (Su)\nBy taking a standard action to touch a creature or object, a shatori gains a +4 racial bonus to their next check to identify the creature, their next check to recall knowledge about the creature or the object, or their next Sense Motive check against the creature. To touch an unwilling creature, the shatori must succeed at a melee attack roll against that creature’s EAC.\nShared Stillness (Su)\nAllies within 10 feet of a shatori gain a +1 morale bonus to saving throws against fear effects.\nExtra Content\nThe following extra content was found for this creature:\n-\nShatori (Creature Subtype) Graft Template\n-\nShatori Race Entry",
+  "type": "humanoid (shatori)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Shatori_Theorist.png"
+}

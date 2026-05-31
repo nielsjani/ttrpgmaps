@@ -1,0 +1,53 @@
+{
+  "name": "Velstrac, Anchorite",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Anchorite&Family=Velstrac",
+  "source": "Alien Archive 2 pg. 128",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (evil, extraplanar, velstrac, lawful)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+8",
+  "will": "+3",
+  "immunities": "cold",
+  "speed": "30 ft.",
+  "melee": "ascetic velstrac flenser +10 (1d4+5 S & So; critical bleed 1d4)",
+  "ranged": "tactical acid dart rifle +13 (1d8+4 A & P; critical corrode 1d4) or frag grenade II +13 (explode [15 ft., 2d6 P, DC 13])",
+  "offensive_abilities": "unnerving gaze (30 ft., DC 13)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +15, Athletics +10, Intimidate +10, Sense Motive +10",
+  "feats": "Opening Volley",
+  "languages": "Common, Infernal; telepathy 30 ft.",
+  "gear": "velstrac harness (functions as defrex hide), tactical acid dart rifle with 20 darts, ascetic velstrac flenser (see page 129) with 1 battery (20 charges), frag grenades II (2)",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, pair, habit (3–6), or priory (7–12)",
+  "special_abilities": [
+    {
+      "name": "Paired Pain (Su)",
+      "description": "As a reaction after taking damage, an anchorite can telepathically link with a willing allied velstrac that it can see within 30 feet. When either of the velstracs paired in this way takes further damage, that damage is divided evenly between the two. A velstrac of a higher CR can share its damage with an anchorite while refusing to take the anchorite’s shared damage. An anchorite already paired with another velstrac can’t use this ability to create a new pair. The pairing lasts for 1 minute, until one of the pair dies, or until one of the pair ends it as a move action. The pairing also ends if one partner is ever more than 30 feet from the other."
+    },
+    {
+      "name": "Unnerving Gaze (Su)",
+      "description": "The anchorite’s visage causes viewers to see themselves as the subject of the velstrac’s selfmutilation. A creature that fails a DC 13 Will save against this gaze is shaken for 1 round. This is a mind-affecting, fear effect."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nVelstrac (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVelstrac\nSource\nAlien Archive 2 pg. 128\nSometimes called “kytons” by mortals, velstracs are cruel fiends who dwell on the Shadow Plane. Each velstrac seeks to unlock its highest potential by following a path of methodical, self-inflicted pain while also psychically feeding on the fear and anguish of mortal creatures. Velstracs care only for this path of pain and its mystical destination; they see “lesser” beings as nothing more than stepping-stones for their own ascension.\nTransformation requires a velstrac to excise pieces of itself, spiritually and physically. Dross is cut away and replaced with grafts—artificial or natural, flesh or spirit, magical or technological. Each graft brings the velstrac closer to its ideal state and increases its power. In this practice, velstracs are more fanatical than even the Augmented are about cybernetic augmentations. The emotions and pain experienced during each step, they believe, cause spiritual evolution.\nLegend holds that the first velstracs emerged when mortals conceived of cruelty as an acceptable means of personal advancement. The goodly gods, astonished and dismayed, chained the velstracs in Hell. However, instead of struggling against their bonds, the velstracs subsumed their chains and eventually escaped into the Shadow Plane.\nVelstracs leave the Shadow Plane to prey on sentient creatures. They maintain installations and portals in dark locales, launching forays into the Material Plane from such places. Most mortals who fall into velstrac clutches are doomed to live out the remainder of their days—or minutes—in agony. However, such mortals can sometimes become velstracs themselves. The supposed methods of this shift differ wildly, but all involve terrible suffering that only escalates after the transformation is complete. These newest velstracs often become anchorites, fiendish ascetics devoted to the torment of themselves as much as of others. An anchorite’s first act must be to willingly mutilate its flesh, showing its dedication to the velstrac way.\nAnchorites are among the lowest-ranking fiends in the velstrac hierarchy. Often working in pairs or squads, they are crafters, gophers, and soldiers. Anchorite labor produces the majority of velstrac equipment, from their starships to their hide armors with inward-pointing studs and spikes. Anchorites take pains to make their creations macabre and ornate. These velstracs also make up the rank and file of velstrac exploration teams and starship crews.\nIn battle, anchorites aim to inflict maximum amounts of delicious agony upon themselves and their foes. Sharing pain is an ecstasy to anchorites as they guide each other along the path of evolution. Few velstracs of any sort refuse to telepathically pair with an anchorite and at least taste its pain, and it’s a rare and disgraceful act for an anchorite to refuse to share with another. A stronger velstrac who takes advantage of an anchorite to survive an otherwise deadly conflict is not considered to be acting dishonorably because in velstrac doctrine, the weak exist to serve the needs of the mighty. All velstracs answer to the demands of their strongest, the velstrac demagogues.\nVelstrac Starships\nA clear hierarchy commands all velstrac groupings, including the fiends’ starfaring forces. The velstracs’ fast and sleek\ncorvettes\nserve as heavy scouts and raiders, cutting into enemy territory and fleets like serrated blades. In starship combat, corvette crews fight as they would in personal combat, with the aim to deal maximum damage as brutally as possible. After strafing disabled ships with chain cannons, corvettes usually make boarding maneuvers to take prisoners. Corvette anchorite crews have even been known to use their escape pods as ballistic weapons against ships with weakened defenses, hoping to overcome those defenses and, perhaps, to improvise boarding at the same time.\nVelstrac Flensers\nVelstracs wield\nflensers\n—blades designed to slice skin from muscle and muscle from bone—sometimes mounting these knives on rifles as bayonets. Flensers are honed to supernatural sharpness and powered to vibrate with the rhythms of the wielder’s body. Velstracs have mastered the art of using these advanced melee weapons to inflict wounds while keeping targets alive. The table above shows an array of flensers, which can be purchased only in the darkest corners of the galaxy.\nAliens in the \"Velstrac\" Family\nName\nCR\nAnchorite\n4\nCantor\n9\nHeretic\n8\nPrior\n8\nSexton\n11\nVelstrac, Anchorite\nSource\nAlien Archive 2 pg. 128\nAnchorite CR 4\nXP 1,200\nLE Medium outsider (evil, extraplanar, velstrac, lawful)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+8;\nWill\n+3\nDefensive Abilities\npaired pain, regeneration 5 (good or silver);\nImmunities\ncold\nOffense\nSpeed\n30 ft.\nMelee\nascetic velstrac flenser +10 (1d4+5 S & So; critical bleed 1d4)\nRanged\ntactical acid dart rifle +13 (1d8+4 A & P; critical corrode 1d4) or frag grenade II +13 (explode [15 ft., 2d6 P, DC 13])\nOffensive Abilities\nunnerving gaze (30 ft., DC 13)\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n+1\nFeats\nOpening Volley\nSkills\nAcrobatics +15, Athletics +10, Intimidate +10, Sense Motive +10\nLanguages\nCommon, Infernal; telepathy 30 ft.\nGear\nvelstrac harness (functions as defrex hide), tactical acid dart rifle with 20 darts, ascetic velstrac flenser (see page 129) with 1 battery (20 charges), frag grenades II (2)\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, pair, habit (3–6), or priory (7–12)\nSpecial Abilities\nPaired Pain (Su)\nAs a reaction after taking damage, an anchorite can telepathically link with a willing allied velstrac that it can see within 30 feet. When either of the velstracs paired in this way takes further damage, that damage is divided evenly between the two. A velstrac of a higher CR can share its damage with an anchorite while refusing to take the anchorite’s shared damage. An anchorite already paired with another velstrac can’t use this ability to create a new pair. The pairing lasts for 1 minute, until one of the pair dies, or until one of the pair ends it as a move action. The pairing also ends if one partner is ever more than 30 feet from the other.\nUnnerving Gaze (Su)\nThe anchorite’s visage causes viewers to see themselves as the subject of the velstrac’s selfmutilation. A creature that fails a DC 13 Will save against this gaze is shaken for 1 round. This is a mind-affecting, fear effect.\nExtra Content\nThe following extra content was found for this creature:\n-\nVelstrac (Creature Subtype) Graft Template",
+  "type": "outsider (evil, extraplanar, velstrac, lawful)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Velstrac_Anchorite.png"
+}

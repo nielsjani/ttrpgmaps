@@ -1,0 +1,53 @@
+{
+  "name": "Mnemonic Stalker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mnemonic Stalker&Family=None",
+  "source": "Starfinder #43: Icebound pg. 57",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "outsider (incorporeal)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., thoughtsense (120 ft.);",
+  "perception": "+23",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+14",
+  "ref": "+12",
+  "will": "+16",
+  "speed": "30 ft.",
+  "melee": "touch +21 (1d6 Int drain)",
+  "ranged": "mnemonic tendril +23 (2d10+13 C & P; critical stun)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "-3",
+    "wis": "+6",
+    "cha": "+8"
+  },
+  "skills": "Acrobatics +23, Disguise +28, Stealth +28",
+  "languages": "can’t speak; telepathy 100 ft.",
+  "other_abilities": "astral travel, change shape (deific mimicry [DC 21])",
+  "environment": "Astral Plane",
+  "organization": "solitary, pair, or pack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Astral Travel (Su)",
+      "description": "A mnemonic stalker can take a full action to travel from the Astral Plane to the Material Plane or vice versa. When not on the Astral Plane, it gains the extraplanar subtype."
+    },
+    {
+      "name": "Deific Mimicry (Su)",
+      "description": "As a swift action, the mnemonic stalker can telepathically probe the mind of a creature within 100 feet, seeking concepts and images of a deity the target worships. As part of this action, the mnemonic stalker changes its shape, appearing as that deity. Alternatively, if the creature doesn’t revere a deity, the stalker changes shape into an individual of the creature’s species. Creatures that succeed at a DC 21 Will save recognize the altered shape as false but don’t see the stalker’s true form. The mnemonic stalker can maintain only one such shape at a time. This is a mind-affecting effect."
+    },
+    {
+      "name": "Mnemonic Predation (Su)",
+      "description": "Three times per day, when a creature casts a spell the mnemonic stalker knows, the stalker can take a reaction to consume the spell. The caster expends the spell, but the spell has no effect, and the mnemonic stalker regains one use of a spell-like ability of the same level or lower."
+    }
+  ],
+  "description": "Thanks to their psychic predation and shapeshifting powers, these formless creatures from the Astral Plane are often mistakenly believed to be either gods or devils. Mnemonic stalkers exist outside traditional understandings of good and evil; they consume the thoughts of thinking creatures for nourishment, yet aren’t sapient themselves. They know only the impulse to feed, following their innate attraction to living creatures’ thoughts using psychic sensory organs incomprehensible to denizens of the Material Plane.\nFor millennia, mnemonic stalkers preyed upon an ancient, now-forgotten civilization that once thrived on an unknown world in the Vast. Stalking the shadows of sacred sites and flitting unseen through bustling communal spaces, their predation inadvertently caused the native species to devolve into more instinctual, less intellectual beings—thus depriving mnemonic stalkers of their food source. Nearing starvation, mnemonic stalkers left their homeworld and began to hunt through the Astral Plane for new food sources.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMnemonic Stalker\nSource\nStarfinder #43: Icebound pg. 57\nMnemonic Stalker CR 13\nXP 25,600\nCN Medium outsider (incorporeal)\nInit\n+4;\nSenses\ndarkvision 60 ft., thoughtsense (120 ft.);\nPerception\n+23\nDefense\nHP\n190\nEAC\n26;\nKAC\n27\nFort\n+14;\nRef\n+12;\nWill\n+16\nDefensive Abilities\nincorporeal, mnemonic predation\nOffense\nSpeed\n30 ft.\nMelee\ntouch +21 (1d6 Int drain)\nRanged\nmnemonic tendril +23 (2d10+13 C & P; critical stun)\nSpell-like Abilities\n(CL 13th)\n3/day—\nmass baleful polymorph\n(5th level, DC 24),\nmind thrust\n(5th level, DC 24)\n6/day—\nconfusion\n(DC 23),\ncosmic eddy\n(DC 23),\ndimension door\n,\ngreater song of the cosmos\n(DC 23)\nAt will—\ndispel magic\n,\nmental block\n(DC 22)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n-3;\nWIS\n+6;\nCHA\n+8\nSkills\nAcrobatics +23, Disguise +28, Stealth +28\nLanguages\ncan’t speak; telepathy 100 ft.\nOther Abilities\nastral travel, change shape (deific mimicry [DC 21])\nEcology\nEnvironment\nAstral Plane\nOrganization\nsolitary, pair, or pack (3–5)\nSpecial Abilities\nAstral Travel (Su)\nA mnemonic stalker can take a full action to travel from the Astral Plane to the Material Plane or vice versa. When not on the Astral Plane, it gains the extraplanar subtype.\nDeific Mimicry (Su)\nAs a swift action, the mnemonic stalker can telepathically probe the mind of a creature within 100 feet, seeking concepts and images of a deity the target worships. As part of this action, the mnemonic stalker changes its shape, appearing as that deity. Alternatively, if the creature doesn’t revere a deity, the stalker changes shape into an individual of the creature’s species. Creatures that succeed at a DC 21 Will save recognize the altered shape as false but don’t see the stalker’s true form. The mnemonic stalker can maintain only one such shape at a time. This is a mind-affecting effect.\nMnemonic Predation (Su)\nThree times per day, when a creature casts a spell the mnemonic stalker knows, the stalker can take a reaction to consume the spell. The caster expends the spell, but the spell has no effect, and the mnemonic stalker regains one use of a spell-like ability of the same level or lower.\nDescription\nThanks to their psychic predation and shapeshifting powers, these formless creatures from the Astral Plane are often mistakenly believed to be either gods or devils. Mnemonic stalkers exist outside traditional understandings of good and evil; they consume the thoughts of thinking creatures for nourishment, yet aren’t sapient themselves. They know only the impulse to feed, following their innate attraction to living creatures’ thoughts using psychic sensory organs incomprehensible to denizens of the Material Plane.\nFor millennia, mnemonic stalkers preyed upon an ancient, now-forgotten civilization that once thrived on an unknown world in the Vast. Stalking the shadows of sacred sites and flitting unseen through bustling communal spaces, their predation inadvertently caused the native species to devolve into more instinctual, less intellectual beings—thus depriving mnemonic stalkers of their food source. Nearing starvation, mnemonic stalkers left their homeworld and began to hunt through the Astral Plane for new food sources.",
+  "type": "outsider (incorporeal)",
+  "category": "alien"
+}

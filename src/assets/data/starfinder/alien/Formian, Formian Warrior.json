@@ -1,0 +1,54 @@
+{
+  "name": "Formian, Formian Warrior",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Formian Warrior&Family=Formian",
+  "source": "Alien Archive pg. 50",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "39",
+  "eac": "17",
+  "kac": "20",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+4",
+  "resistances": "sonic 10",
+  "speed": "40 ft.",
+  "melee": "claw +11 (1d6+7 S) or stinger +11 (1d4+7 P plus formian toxin)",
+  "ranged": "azimuth laser rifle +8 (1d8+3 F; critical burn 1d6)",
+  "offensive_abilities": "deadly grasp, fighting styles (guard)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "-1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Intimidate +8, Stealth +8",
+  "languages": "Common; limited telepathy 60 ft.",
+  "other_abilities": "armor training, hive mind",
+  "gear": "squad defiance series, azimuth laser rifle with 2 batteries (20 charges each)",
+  "environment": "any land or underground (Castrovel)",
+  "organization": "solitary, pair, patrol (3–12), or band (5–8 plus 3–15 formian workers)",
+  "special_abilities": [
+    {
+      "name": "Deadly Grasp (Ex)",
+      "description": "When a formian warrior succeeds at a combat maneuver to maintain a grapple, it can make a melee attack with its stinger as a move action."
+    },
+    {
+      "name": "Hive Mind (Ex)",
+      "description": "Formians operate from a shared hive intelligence that allows them to communicate nearly instantaneously. While within telepathic range of at least one other formian with this ability, a formian gains a +4 bonus to initiative and Perception checks. If one formian is aware of a combatant, all members of the hive mind within range are aware of it, and a member of the hive mind cannot be surprised unless all members within range are surprised. If one member of the hive mind succeeds at a Will save to disbelieve an illusion effect, all members of that hive mind within telepathic range also disbelieve the effect.\nFormian Toxin\nType\npoison (injury)\nSave\nFortitude DC 12;\nTrack\nDexterity\nFrequency\n1/round for 6 rounds;\nCure\n1 save"
+    }
+  ],
+  "description": "Formian workers are the backbone of hive labor and hatched in large clutches-many workers never gain a name beyond their number within the clutch. While strong, they typically flee combat unless ordered to fight. Formian warriors, by contrast, are fierce sterile females, each with a stronger individual identity to allow for more effective battle tactics. This individualism makes warriors more likely to chafe under strict hive hierarchies, and these are the formians most likely to set out on their own.",
+  "extra_content": "The following extra content was found for this creature:\n-\nFormian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormian\nSource\nAlien Archive pg. 50\nFormians resemble giant ants with humanoid upper bodies, and carve their chitinous plates with insignias reflecting their individual names and achievements. Members of a hive all share a telepathic link, allowing them to coordinate efficiently.\nWithin a hive are castes specialized to particular tasks. The queen leads the hive and is its sole means of propagation, while castes like the aristocratic myrmarchs and mercantile taskmasters direct lower castes like warriors and workers.\nFormians are most common on Castrovel. For millennia they sought to eradicate the lashunta, their traditional foes, but their queens now instead focus on adopting other species’ technology to industrialize their traditional hive societies.\nAliens in the \"Formian\" Family\nName\nCR\nFormian Myrmarch\n10\nFormian Queen\n17\nFormian Taskmaster\n7\nFormian Warrior\n3\nFormian Worker\n1/2\nFormian, Formian Warrior\nSource\nAlien Archive pg. 50\nFormian Warrior CR 3\nXP 800\nFormian soldier\nLN Medium monstrous humanoid\nInit\n+2 (+6 with hive mind);\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+8 (+12 with hive mind)\nDefense\nHP\n39\nEAC\n17;\nKAC\n20\nFort\n+5;\nRef\n+3;\nWill\n+4\nResistances\nsonic 10\nOffense\nSpeed\n40 ft.\nMelee\nclaw +11 (1d6+7 S) or stinger +11 (1d4+7 P plus formian toxin)\nRanged\nazimuth laser rifle +8 (1d8+3 F; critical burn 1d6)\nOffensive Abilities\ndeadly grasp, fighting styles (guard)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n-1;\nCHA\n+0\nSkills\nAcrobatics +13, Intimidate +8, Stealth +8\nLanguages\nCommon; limited telepathy 60 ft.\nOther Abilities\narmor training, hive mind\nGear\nsquad defiance series, azimuth laser rifle with 2 batteries (20 charges each)\nEcology\nEnvironment\nany land or underground (Castrovel)\nOrganization\nsolitary, pair, patrol (3–12), or band (5–8 plus 3–15 formian workers)\nSpecial Abilities\nDeadly Grasp (Ex)\nWhen a formian warrior succeeds at a combat maneuver to maintain a grapple, it can make a melee attack with its stinger as a move action.\nHive Mind (Ex)\nFormians operate from a shared hive intelligence that allows them to communicate nearly instantaneously. While within telepathic range of at least one other formian with this ability, a formian gains a +4 bonus to initiative and Perception checks. If one formian is aware of a combatant, all members of the hive mind within range are aware of it, and a member of the hive mind cannot be surprised unless all members within range are surprised. If one member of the hive mind succeeds at a Will save to disbelieve an illusion effect, all members of that hive mind within telepathic range also disbelieve the effect.\nFormian Toxin\nType\npoison (injury)\nSave\nFortitude DC 12;\nTrack\nDexterity\nFrequency\n1/round for 6 rounds;\nCure\n1 save\nDescription\nFormian workers are the backbone of hive labor and hatched in large clutches-many workers never gain a name beyond their number within the clutch. While strong, they typically flee combat unless ordered to fight. Formian warriors, by contrast, are fierce sterile females, each with a stronger individual identity to allow for more effective battle tactics. This individualism makes warriors more likely to chafe under strict hive hierarchies, and these are the formians most likely to set out on their own.\nExtra Content\nThe following extra content was found for this creature:\n-\nFormian Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Formian_Warrior.png"
+}

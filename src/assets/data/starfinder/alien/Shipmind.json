@@ -1,0 +1,73 @@
+{
+  "name": "Shipmind",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shipmind&Family=None",
+  "source": "Alien Archive 2 pg. 112",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "ooze",
+  "init": "+6",
+  "senses": "blindsight (life) 60 ft., detect alignment;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+15",
+  "ref": "+17",
+  "will": "+10",
+  "dr": "10/—",
+  "sr": "24",
+  "immunities": "bludgeoning, charm, electricity, fire, ooze immunities;",
+  "weaknesses": "confined, vulnerable to cold",
+  "speed": "0 ft. (10 ft. outside of container)",
+  "melee": "slam +26 (3d12+21 B plus grab and thought disruption)",
+  "ranged": "plasma bolt +23 (5d6+13 E & F; critical burn 1d10)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "immerse",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th; ranged +23",
+    "spells": "1/day—\ntelekinesis\n(DC 20)\n3/day—\nconfusion\n(DC 19)\nAt will—\nslow\n(DC 18)"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+6",
+    "con": "+4",
+    "int": "+3",
+    "wis": "+4",
+    "cha": "+3"
+  },
+  "skills": "Computers +23, Engineering +23, Mysticism +23, Piloting +28, Sense Motive +23",
+  "languages": "Abyssal, Aklo, Common, Draconic, Drow, Infernal; telepathy 60 ft.",
+  "other_abilities": "ship interface",
+  "environment": "any (Dominion of the Black starships)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Confined (Ex)",
+      "description": "A shipmind dwells within an immobile container. While inside its container, a shipmind has a speed of 0 feet. When it leaves its container, it gains a speed of 10 feet and takes a –10 penalty to AC. A shipmind can live outside of its container for 1 hour without consequences, but at the start of each subsequent hour, it gains 1 negative level as it slowly dissolves. This process can be reversed only if the shipmind returns to its container, where the shipmind can then remove 1 negative level per hour. The container has hardness 10 and 60 Hit Points, and a creature that targets the container with a melee or ranged weapon attack automatically hits it. The crystalline nature of the container makes it vulnerable to sonic damage. A shipmind in a container that has the broken condition takes a –5 penalty to AC."
+    },
+    {
+      "name": "Immerse (Ex)",
+      "description": "When a shipmind in its container successfully grabs a Large or smaller target with one of its slam attacks and pins the target, it can drag that target into its body as a swift action, dealing 6d6 damage (Fortitude DC 19 half), half of which is electricity and half of which is fire, and subjecting the target to thought disruption. A creature that remains immersed takes this damage again at the start of each of the shipmind’s turns. In addition, an immersed creature without environmental protections is in danger of suffocating. A creature can attempt Acrobatics checks to escape immersion as if escaping from being pinned, gaining a +5 circumstance bonus if the shipmind’s container has the broken condition."
+    },
+    {
+      "name": "Plasma Bolt (Ex)",
+      "description": "A shipmind’s plasma bolt has a range increment of 80 feet."
+    },
+    {
+      "name": "Ship Interface (Ex)",
+      "description": "While a shipmind is interfaced with a Dominion starship, it can observe events anywhere within the vessel, as well as within 90 feet of its exterior hull, as if using\nclairaudience/clairvoyance\nfor as long as the shipmind concentrates. The shipmind’s detect alignment works through its remote sensor at the same range. While concentrating on an area, the shipmind can activate ship systems in that area as a swift action. In addition, the shipmind can converse with creatures in the area by vibrating the walls (or the hull while in atmosphere). In addition, during starship combat in a Dominion ship with which it is interfaced, a shipmind can take up to 5 crew actions, none of which can be captain actions."
+    },
+    {
+      "name": "Thought Disruption (Su)",
+      "description": "A shipmind’s alien psyche is disruptive to the minds of most other life-forms. A creature that touches or is hit by the ooze must succeed at a DC 19 Will saving throw or take 1d4 Wisdom damage. This is a mind-affecting effect."
+    }
+  ],
+  "description": "A shipmind is an ooze of thick, bubbling yellowish liquid. Unlike many oozes, this biological entity relies on a bizarre symbiosis with technology to survive. The creature lives in a container made of crystalline material and inorganic components, which serves the ooze like a shell. Outside this container, a shipmind is vulnerable and doomed to die, but this limited existence is little hindrance to a shipmind, since its sole purpose is to pilot starfaring vessels that serve the Dominion of the Black.\nDominion starships are bizarre amalgamations of organic and inorganic components. Strange membranes hold bulkheads and the hull together. Fibrous material resembling muscles and connective tissue work some of the ships’ mechanical components, such as doors, while a web of nerve-like cables carry power and data, and networks of tubules carry various fluids. At the center of this network in the largest Dominion ships is a shipmind, connected to everything through disturbingly organic cables.\nA shipmind has an intimate connection to its starship and can survive as long as its craft does, sometimes for many centuries. The creatures are cruel even to their supposed allies, and they are given to fits of inexplicable behavior.\nSeeders\nare the most common large Dominion starships. Some are scouts or assault vessels with only a shipmind aboard, while others travel with a crew of other entities affiliated with the Dominion of the Black. These ships land on life-rich planets, unleashing Dominion-allied creatures to infest the region around the landing site, assimilating native organisms.\nIf left alone planetside for too long, a Dominion seeder’s shipmind can quickly degenerate, causing the ship’s organic aspects to also decay. In about a decade, the ship rots into uselessness and the shipmind dies. During that time, the shipmind might leave of its own accord, or it might spend its remaining time brutally toying with any creature it can.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShipmind\nSource\nAlien Archive 2 pg. 112\nShipmind CR 13\nXP 25,600\nCE Huge ooze\nInit\n+6;\nSenses\nblindsight (life) 60 ft., detect alignment;\nPerception\n+23\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+15;\nRef\n+17;\nWill\n+10\nDefensive Abilities\nthought disruption;\nDR\n10/—;\nImmunities\nbludgeoning, charm, electricity, fire, ooze immunities;\nSR\n24\nWeaknesses\nconfined, vulnerable to cold\nOffense\nSpeed\n0 ft. (10 ft. outside of container)\nMelee\nslam +26 (3d12+21 B plus grab and thought disruption)\nRanged\nplasma bolt +23 (5d6+13 E & F; critical burn 1d10)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nimmerse\nSpell-Like Abilities\n(CL 13th; ranged +23)\n1/day—\ntelekinesis\n(DC 20)\n3/day—\nconfusion\n(DC 19)\nAt will—\nslow\n(DC 18)\nStatistics\nSTR\n+8;\nDEX\n+6;\nCON\n+4;\nINT\n+3;\nWIS\n+4;\nCHA\n+3\nSkills\nComputers +23, Engineering +23, Mysticism +23, Piloting +28, Sense Motive +23\nLanguages\nAbyssal, Aklo, Common, Draconic, Drow, Infernal; telepathy 60 ft.\nOther Abilities\nship interface\nEcology\nEnvironment\nany (Dominion of the Black starships)\nOrganization\nsolitary\nSpecial Abilities\nConfined (Ex)\nA shipmind dwells within an immobile container. While inside its container, a shipmind has a speed of 0 feet. When it leaves its container, it gains a speed of 10 feet and takes a –10 penalty to AC. A shipmind can live outside of its container for 1 hour without consequences, but at the start of each subsequent hour, it gains 1 negative level as it slowly dissolves. This process can be reversed only if the shipmind returns to its container, where the shipmind can then remove 1 negative level per hour. The container has hardness 10 and 60 Hit Points, and a creature that targets the container with a melee or ranged weapon attack automatically hits it. The crystalline nature of the container makes it vulnerable to sonic damage. A shipmind in a container that has the broken condition takes a –5 penalty to AC.\nImmerse (Ex)\nWhen a shipmind in its container successfully grabs a Large or smaller target with one of its slam attacks and pins the target, it can drag that target into its body as a swift action, dealing 6d6 damage (Fortitude DC 19 half), half of which is electricity and half of which is fire, and subjecting the target to thought disruption. A creature that remains immersed takes this damage again at the start of each of the shipmind’s turns. In addition, an immersed creature without environmental protections is in danger of suffocating. A creature can attempt Acrobatics checks to escape immersion as if escaping from being pinned, gaining a +5 circumstance bonus if the shipmind’s container has the broken condition.\nPlasma Bolt (Ex)\nA shipmind’s plasma bolt has a range increment of 80 feet.\nShip Interface (Ex)\nWhile a shipmind is interfaced with a Dominion starship, it can observe events anywhere within the vessel, as well as within 90 feet of its exterior hull, as if using\nclairaudience/clairvoyance\nfor as long as the shipmind concentrates. The shipmind’s detect alignment works through its remote sensor at the same range. While concentrating on an area, the shipmind can activate ship systems in that area as a swift action. In addition, the shipmind can converse with creatures in the area by vibrating the walls (or the hull while in atmosphere). In addition, during starship combat in a Dominion ship with which it is interfaced, a shipmind can take up to 5 crew actions, none of which can be captain actions.\nThought Disruption (Su)\nA shipmind’s alien psyche is disruptive to the minds of most other life-forms. A creature that touches or is hit by the ooze must succeed at a DC 19 Will saving throw or take 1d4 Wisdom damage. This is a mind-affecting effect.\nDescription\nA shipmind is an ooze of thick, bubbling yellowish liquid. Unlike many oozes, this biological entity relies on a bizarre symbiosis with technology to survive. The creature lives in a container made of crystalline material and inorganic components, which serves the ooze like a shell. Outside this container, a shipmind is vulnerable and doomed to die, but this limited existence is little hindrance to a shipmind, since its sole purpose is to pilot starfaring vessels that serve the Dominion of the Black.\nDominion starships are bizarre amalgamations of organic and inorganic components. Strange membranes hold bulkheads and the hull together. Fibrous material resembling muscles and connective tissue work some of the ships’ mechanical components, such as doors, while a web of nerve-like cables carry power and data, and networks of tubules carry various fluids. At the center of this network in the largest Dominion ships is a shipmind, connected to everything through disturbingly organic cables.\nA shipmind has an intimate connection to its starship and can survive as long as its craft does, sometimes for many centuries. The creatures are cruel even to their supposed allies, and they are given to fits of inexplicable behavior.\nSeeders\nare the most common large Dominion starships. Some are scouts or assault vessels with only a shipmind aboard, while others travel with a crew of other entities affiliated with the Dominion of the Black. These ships land on life-rich planets, unleashing Dominion-allied creatures to infest the region around the landing site, assimilating native organisms.\nIf left alone planetside for too long, a Dominion seeder’s shipmind can quickly degenerate, causing the ship’s organic aspects to also decay. In about a decade, the ship rots into uselessness and the shipmind dies. During that time, the shipmind might leave of its own accord, or it might spend its remaining time brutally toying with any creature it can.",
+  "type": "ooze",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Shipmind.png"
+}

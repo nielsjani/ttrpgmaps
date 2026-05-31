@@ -1,0 +1,55 @@
+{
+  "name": "Gremlin, Ship Glitch Gremlin",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ship Glitch Gremlin&Family=Gremlin",
+  "source": "Alien Archive 2 pg. 69",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "fey",
+  "init": "+3",
+  "senses": "detect tech",
+  "perception": "+5",
+  "hp": "14",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+4",
+  "sr": "12",
+  "immunities": "fire;",
+  "resistances": "cold 5;",
+  "speed": "30 ft., climb 30 ft., fly 60 ft. (Ex, clumsy)",
+  "melee": "attach +3 or bite +3 (1d4+1 A & P; critical corrode 1d4) or wing +3 (1d4+1 B; critical knockdown)",
+  "spell_like_abilities": {
+    "caster_info": "CL 2nd; ranged +2",
+    "spells": "1/day—\ngrease\n(DC 14),\nhold portal\n,\noverheat\n(DC 14)\nAt will—\ndancing lights\n,\nenergy ray\n(electricity or fire only),\nghost sound\n(DC 13)\nConstant—\ndetect tech\n(starships and their integrated systems only)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +5 (–3 to fly), Computers +5 (+10 to use starship systems), Engineering +10, Piloting +10",
+  "languages": "Aklo, Common",
+  "other_abilities": "spaceflight, stellar stowaway",
+  "environment": "any or vacuum",
+  "organization": "solitary, pair, or flock (3–12)",
+  "special_abilities": [
+    {
+      "name": "Aura of Disaster (Ex)",
+      "description": "Whenever an attack against a ship glitch gremlin fails to affect the gremlin for any reason while any part of a starship is within 30 feet of the gremlin and within range of the attack (including any time the gremlin is on board a starship), the attack ricochets wildly to cause damage to the ship and its systems. A randomly determined starship system becomes one step more damaged. (If the damaged system is life support, rather than the normal effect, a 10-foot-radius of the gremlin’s choice within the ship becomes a zero-gravity environment until the life support system is patched or repaired.) In addition, spilled oil or debris falls in 1d4 5-foot-squares of the gremlin’s choice within 30 feet, creating difficult terrain or cover as the gremlin prefers."
+    },
+    {
+      "name": "Stellar Stowaway (Ex)",
+      "description": "In starship combat, a ship glitch gremlin on board a ship can cause havoc at the end of its ship’s turn. It attempts an Engineering check against the same DC to patch a damaged starship system; if it succeeds, it causes the ship system of its choice to function as if one step more damaged until the end of starship combat. If that system is already critical, another randomly chosen system is degraded this way instead."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGremlin\nSource\nAlien Archive 2 pg. 69\nGremlins are fey spirits intimately tied to technological malfunctions. One variety of gremlin, called glitch gremlins, is especially common (and feared) in societies with advanced technology. Both computer glitch gremlins and ship glitch gremlins demonstrate remarkable single-mindedness in their pursuit of mayhem as they find new and more frustrating ways to make technology break, glitch, or fail.\nA computer glitch gremlin’s appearance varies widely with the digital data it has eaten, but they average 1 foot in height and weigh around 4 pounds. Ship glitch gremlins have lamprey-like mouths and long, spidery arms and legs. They stand 2-1/2 feet tall and weigh approximately 20 pounds.\nAliens in the \"Gremlin\" Family\nName\nCR\nComputer Glitch Gremlin\n1/2\nDrikluz\n1/2\nHobkins Gremlin\n1/2\nHobkins Gremlin Malefactor\n4\nShip Glitch Gremlin\n1\nVaigruuk\n2\nGremlin, Ship Glitch Gremlin\nSource\nAlien Archive 2 pg. 69\nShip Glitch Gremlin CR 1\nXP 400\nCE Small fey\nInit\n+3;\nSenses\ndetect tech\n(starships and their integrated systems only), low-light vision;\nPerception\n+5\nAura\ndisaster (30 ft.)\nDefense\nHP\n14\nEAC\n11;\nKAC\n12\nFort\n+3;\nRef\n+3;\nWill\n+4\nDefensive Abilities\nvoid adaptation;\nImmunities\nfire;\nResistances\ncold 5;\nSR\n12\nOffense\nSpeed\n30 ft., climb 30 ft., fly 60 ft. (Ex, clumsy)\nMelee\nattach +3 or bite +3 (1d4+1 A & P; critical corrode 1d4) or wing +3 (1d4+1 B; critical knockdown)\nMultiattack\nattach –3, bite –3 (1d4+1 A & P; critical corrode 1d4), and wing –3 (1d4+1 B; critical knockdown)\nSpell-Like Abilities\n(CL 2nd; ranged +2)\n1/day—\ngrease\n(DC 14),\nhold portal\n,\noverheat\n(DC 14)\nAt will—\ndancing lights\n,\nenergy ray\n(electricity or fire only),\nghost sound\n(DC 13)\nConstant—\ndetect tech\n(starships and their integrated systems only)\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +5 (–3 to fly), Computers +5 (+10 to use starship systems), Engineering +10, Piloting +10\nLanguages\nAklo, Common\nOther Abilities\nspaceflight, stellar stowaway\nEcology\nEnvironment\nany or vacuum\nOrganization\nsolitary, pair, or flock (3–12)\nSpecial Abilities\nAura of Disaster (Ex)\nWhenever an attack against a ship glitch gremlin fails to affect the gremlin for any reason while any part of a starship is within 30 feet of the gremlin and within range of the attack (including any time the gremlin is on board a starship), the attack ricochets wildly to cause damage to the ship and its systems. A randomly determined starship system becomes one step more damaged. (If the damaged system is life support, rather than the normal effect, a 10-foot-radius of the gremlin’s choice within the ship becomes a zero-gravity environment until the life support system is patched or repaired.) In addition, spilled oil or debris falls in 1d4 5-foot-squares of the gremlin’s choice within 30 feet, creating difficult terrain or cover as the gremlin prefers.\nStellar Stowaway (Ex)\nIn starship combat, a ship glitch gremlin on board a ship can cause havoc at the end of its ship’s turn. It attempts an Engineering check against the same DC to patch a damaged starship system; if it succeeds, it causes the ship system of its choice to function as if one step more damaged until the end of starship combat. If that system is already critical, another randomly chosen system is degraded this way instead.",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Gremlin_Ship_Glitch.png"
+}

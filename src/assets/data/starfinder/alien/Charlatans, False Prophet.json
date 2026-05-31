@@ -1,0 +1,54 @@
+{
+  "name": "Charlatans, False Prophet",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=False Prophet&Family=Charlatans",
+  "source": "Interstellar Species pg. 158",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "105",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+13",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "ultrathin sword cane +14 (2d4+8 P; critical bleed 1d4) or bite  +14 (1d12+8 P)",
+  "ranged": "advanced semi-auto pistol +16 (2d6+8 P)",
+  "offensive_abilities": "excommunicate",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\ndispel magic\n,\npsychokinetic strangulation\n(DC 20)\n3/day—\nhold person\n(DC 19),\ninflict pain\n(DC 19),\nmind thrust\n(2nd level, DC 19), mystic cure (2nd level)\nAt will—\ncommand\n(DC 18),\ndetect thoughts\n(DC 18)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+4",
+    "cha": "+6"
+  },
+  "skills": "Acrobatics +16, Bluff +21, Diplomacy +21, Mysticism +21, Sense Motive +16",
+  "languages": "Astriapi, Common, up to 2 others",
+  "other_abilities": "honey production , powerful prophecy",
+  "gear": "advanced lashunta tempweave, advanced semi-auto pistol with 24 small arm rounds, ultrathin sword cane",
+  "special_abilities": [
+    {
+      "name": "Excommunicate (Ex)",
+      "description": "As a move action, the false prophet denounces a foe within 60 feet as an enemy of their god or their divine purpose. The false prophet and their allies gain a +1 morale bonus to attack rolls made against that target for 1d4 rounds. That target is then immune to excommunicate for 24 hours."
+    },
+    {
+      "name": "Powerful Prophecy (Su)",
+      "description": "As a full action, the false prophet spends 1 Resolve Point and acts as if they were receiving a command or vision directly from their god that they transmit to bystanders. This manifests as either a blessing or a curse.\nIf the false prophet invokes a blessing, all allies of the false prophet within 30 feet who can see and hear the false prophet gain a number of temporary Hit Points equal to the false prophet’s CR for 1 minute.\nIf the false prophet invokes a curse, all enemies of the false prophet within 30 feet are shaken for 1d4 rounds unless they succeed at a Will save (the DC is equal to the ability DC for a spellcaster of the prophet’s CR; 18 for a CR 8 prophet). A false prophet can have only one powerful prophecy in effect at a time."
+    }
+  ],
+  "description": "False prophets are con artists who pose as priests, oracles, or even chosen vessels for a deity, often with a supposed divine mission or purpose that sets them apart from the bulk of the faith, all to take advantage of the faithful. While the least ambitious false prophets visit members of a faith to gather donations or beg hospitality and favors, most false prophets insinuate themselves into at-risk or unhappy communities and gather a congregation or cult around themselves, using innocents as resources, tools, or shields.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCharlatans\nSource\nInterstellar Species pg. 158\nThroughout the galaxy charlatans run countless cons, scams, and tricks, from small scale to large, from harmless to downright dangerous. Although their methods, modes, and goals vary, charlatans are nearly always selfish, greedy, and unscrupulous. Occasionally, a charlatan uses their skills to entertain, inspire, and astound—or to rip off oppressors, villains, and faceless mega corporations—but they’re the exception, not the rule. The following charlatans represent a diverse array of con artists, scammers, and impostors.\nAliens in the \"Charlatans\" Family\nName\nCR\nCon Artist\n1/2\nFalse Prophet\n8\nGrifter\n2\nImpostor\n6\nCharlatans, False Prophet\nSource\nInterstellar Species pg. 159\nFalse Prophet CR 8\nXP 4,800\nAstriapi\nLE Medium monstrous humanoid\nInit\n+1;\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n105;\nRP\n4\nEAC\n19;\nKAC\n20\nFort\n+7;\nRef\n+9;\nWill\n+13\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\nultrathin sword cane +14 (2d4+8 P; critical bleed 1d4) or bite  +14 (1d12+8 P)\nRanged\nadvanced semi-auto pistol +16 (2d6+8 P)\nOffensive Abilities\nexcommunicate\nSpell-Like Abilities\n(CL 8th)\n1/day—\ndispel magic\n,\npsychokinetic strangulation\n(DC 20)\n3/day—\nhold person\n(DC 19),\ninflict pain\n(DC 19),\nmind thrust\n(2nd level, DC 19), mystic cure (2nd level)\nAt will—\ncommand\n(DC 18),\ndetect thoughts\n(DC 18)\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+1;\nINT\n+2;\nWIS\n+4;\nCHA\n+6\nSkills\nAcrobatics +16, Bluff +21, Diplomacy +21, Mysticism +21, Sense Motive +16\nLanguages\nAstriapi, Common, up to 2 others\nOther Abilities\nhoney production , powerful prophecy\nGear\nadvanced lashunta tempweave, advanced semi-auto pistol with 24 small arm rounds, ultrathin sword cane\nSpecial Abilities\nExcommunicate (Ex)\nAs a move action, the false prophet denounces a foe within 60 feet as an enemy of their god or their divine purpose. The false prophet and their allies gain a +1 morale bonus to attack rolls made against that target for 1d4 rounds. That target is then immune to excommunicate for 24 hours.\nPowerful Prophecy (Su)\nAs a full action, the false prophet spends 1 Resolve Point and acts as if they were receiving a command or vision directly from their god that they transmit to bystanders. This manifests as either a blessing or a curse.\nIf the false prophet invokes a blessing, all allies of the false prophet within 30 feet who can see and hear the false prophet gain a number of temporary Hit Points equal to the false prophet’s CR for 1 minute.\nIf the false prophet invokes a curse, all enemies of the false prophet within 30 feet are shaken for 1d4 rounds unless they succeed at a Will save (the DC is equal to the ability DC for a spellcaster of the prophet’s CR; 18 for a CR 8 prophet). A false prophet can have only one powerful prophecy in effect at a time.\nDescription\nFalse prophets are con artists who pose as priests, oracles, or even chosen vessels for a deity, often with a supposed divine mission or purpose that sets them apart from the bulk of the faith, all to take advantage of the faithful. While the least ambitious false prophets visit members of a faith to gather donations or beg hospitality and favors, most false prophets insinuate themselves into at-risk or unhappy communities and gather a congregation or cult around themselves, using innocents as resources, tools, or shields.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Hortus, Hortinarch",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hortinarch&Family=Hortus",
+  "source": "Alien Archive 3 pg. 50",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "plant",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+14",
+  "dr": "5/slashing",
+  "speed": "30 ft.",
+  "melee": "advanced living staff +17 (4d6+13 B; critical bind)",
+  "ranged": "advanced rotating pistol +19 (4d4+11 P)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with advanced living staff)",
+  "spells": "(CL 11th; melee +17, ranged +19)\n4th (3/day)—\ncorrosive haze\n(DC 22),\ngreater invisibility\n3rd (6/day)—\ndisplacement\n,\ninstant virus\n(DC 21),\nslow\n(DC 21),\ntongues\n2nd (at will)—\ncaustic conversion\n,\nflight",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+8",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Computers +25, Mysticism +20, Physical Science +25",
+  "languages": "Azlanti, Common, Hortaa",
+  "other_abilities": "atmospheric alteration (DC 20), cache capacitor 1 (unseen servant), magic hacks (flash teleport, reboot mind), spell cache (advanced living staff)",
+  "gear": "kasatha microcord IV, advanced living staff with 2 batteries (20 charges each), advanced rotating pistol with 16 small arm rounds",
+  "environment": "any (Croban V)",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Atmospheric Alteration (Ex)",
+      "description": "As a move action while in atmosphere, a hortus can spend 1 Resolve Point to release a mix of spores into the air. When it uses this ability, the hortus chooses a type of saving throw (Fortitude, Reflex, or Will) and whether to enhance or penalize that save. If it enhances, creatures within 20 feet gain a +2 enhancement bonus to saving throws of the chosen type for 1d4 rounds; if it penalizes, creatures within 20 feet take a –1 penalty to saving throws of the chosen type for 1d4 rounds. A creature can attempt a Fortitude save before the bonus or penalty is applied to ignore this effect. This is an inhaled poison effect."
+    },
+    {
+      "name": "Limited Plant Benefits (Ex)",
+      "description": "Despite being plant creatures, hortuses don’t gain the standard immunities associated with creatures of the plant type. Instead, they gain a +2 racial bonus to saving throws against mind-affecting effects, paralysis, poison, polymorph, sleep, and stunning effects, unless the effect specifies that it is effective against plants."
+    },
+    {
+      "name": "Slightly Poisonous (Ex)",
+      "description": "A creature that hits a hortus with a bite attack must succeed at a Fortitude save or become sickened for 1d4 rounds."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nHortus Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHortus\nSource\nAlien Archive 3 pg. 50\nHailing from the Azlanti-conquered world of Croban V, hortuses are a sapient fungal species. Thick ligaments fill the interior of a hortus, granting them excellent defense against kinetic damage, though slashing weapons can sever these cords. These plant life-forms are renowned for their lethargic ways, and they are rarely found outside the strictly controlled borders of their homeworld. Hortuses speak in languid, drawn-out, monotone voices that impatient creatures find frustrating to follow. Among themselves, hortuses speak in a language of spore releases that other species can’t easily reproduce without the installation of complex augmentations. Hortuses’ caps and stalks can take a wide array of forms, with many reminiscent of mundane fungi found on worlds throughout the galaxy.\nOver millennia, hortuses converted their once relatively barren world into a vegetation-rich paradise, using their unique biology to expel a combination of chemicals and spores that altered atmospheric conditions to their liking. By the time the Azlanti arrived on Croban V, the hortuses had already developed into a relatively passive, contented species, mostly due to the sedative-like atmosphere they’d crafted for themselves. The Azlanti conquest of Croban V was a relatively bloodless affair, as what passed for hortus leadership wanted only to preserve the lax living conditions of their society. The Azlanti were content to let the hortuses continue their sedentary lifestyle in exchange for use of their unique means of atmospheric modification.\nOnly a small number of hortuses are active beyond their homeworld. Most of these hortuses work in direct service to the Azlanti Star Empire, either as scientists or as living agents of atmospheric change. The Azlanti often deposit large groups of hortus colonists on distant worlds. Over the course of generations, these hortus colonies gradually transform small, self-contained regions to be more amenable to human life.\nThe few hortuses who act outside of Azlanti supervision are renegades. Either possessing a modicum of genetic variance that makes them less susceptible to their species’ chemical spore concoctions, or having simply avoided larger congregations of their species, these hortuses each react differently to their freedom. Many renegade hortuses stand in opposition to the Azlanti, while others simply seek to explore the greater galaxy and find new meaning among the stars.\nAn average hortus is 4-1/2 feet tall and weighs 200 pounds.\nAliens in the \"Hortus\" Family\nName\nCR\nHortinarch\n11\nHortus\n2\nHortus, Hortinarch\nSource\nAlien Archive 3 pg. 50\nHortinarch CR 11\nXP 12,800\nHortus technomancer\nNG Medium plant\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+20\nDefense\nHP\n155;\nRP\n5\nEAC\n23;\nKAC\n24\nFort\n+12;\nRef\n+10;\nWill\n+14; +2 vs. mind-affecting, paralysis, poison, polymorph, sleep, stunned\nDefensive Abilities\nlimited plant benefits, slightly poisonous (DC 20);\nDR\n5/slashing\nOffense\nSpeed\n30 ft.\nMelee\nadvanced living staff +17 (4d6+13 B; critical bind)\nRanged\nadvanced rotating pistol +19 (4d4+11 P)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with advanced living staff)\nTechnomancer Spells Known\n(CL 11th; melee +17, ranged +19)\n4th (3/day)—\ncorrosive haze\n(DC 22),\ngreater invisibility\n3rd (6/day)—\ndisplacement\n,\ninstant virus\n(DC 21),\nslow\n(DC 21),\ntongues\n2nd (at will)—\ncaustic conversion\n,\nflight\nStatistics\nSTR\n+2;\nDEX\n+5;\nCON\n+2;\nINT\n+8;\nWIS\n+3;\nCHA\n+0\nSkills\nComputers +25, Mysticism +20, Physical Science +25\nLanguages\nAzlanti, Common, Hortaa\nOther Abilities\natmospheric alteration (DC 20), cache capacitor 1 (unseen servant), magic hacks (flash teleport, reboot mind), spell cache (advanced living staff)\nGear\nkasatha microcord IV, advanced living staff with 2 batteries (20 charges each), advanced rotating pistol with 16 small arm rounds\nEcology\nEnvironment\nany (Croban V)\nOrganization\nsolitary or pair\nSpecial Abilities\nAtmospheric Alteration (Ex)\nAs a move action while in atmosphere, a hortus can spend 1 Resolve Point to release a mix of spores into the air. When it uses this ability, the hortus chooses a type of saving throw (Fortitude, Reflex, or Will) and whether to enhance or penalize that save. If it enhances, creatures within 20 feet gain a +2 enhancement bonus to saving throws of the chosen type for 1d4 rounds; if it penalizes, creatures within 20 feet take a –1 penalty to saving throws of the chosen type for 1d4 rounds. A creature can attempt a Fortitude save before the bonus or penalty is applied to ignore this effect. This is an inhaled poison effect.\nLimited Plant Benefits (Ex)\nDespite being plant creatures, hortuses don’t gain the standard immunities associated with creatures of the plant type. Instead, they gain a +2 racial bonus to saving throws against mind-affecting effects, paralysis, poison, polymorph, sleep, and stunning effects, unless the effect specifies that it is effective against plants.\nSlightly Poisonous (Ex)\nA creature that hits a hortus with a bite attack must succeed at a Fortitude save or become sickened for 1d4 rounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nHortus Race Entry",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Hortus_Hortinarch.png"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Ursikka",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ursikka&Family=None",
+  "source": "Alien Archive 4 pg. 128",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision, blindsense (vibration) 30 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+9",
+  "resistances": "cold 20",
+  "speed": "40 ft., burrow 20 ft.; ice burrow",
+  "melee": "bite +23 (2d10+18 P plus freezing saliva) or claw +23 (2d10+18 S)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "coat claws, freezing saliva, spit",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Survival +19",
+  "other_abilities": "hibernation",
+  "environment": "any arctic (Triaxus)",
+  "organization": "solitary, pair, or hive (3–10)",
+  "special_abilities": [
+    {
+      "name": "Coat Claws (Ex)",
+      "description": "As a standard action, an ursikka can coat its pincerlike claws with freezing, viscous saliva. This coating lasts for 1 minute. Any creature hit by an ursikka’s coated claws takes an additional 2d10 cold damage (Reflex DC 17 half)."
+    },
+    {
+      "name": "Freezing Saliva (Ex)",
+      "description": "The saliva that drips from an ursikka’s mouth is sticky as well as cold, and any creature hit by its bite or spit attack becomes entangled for 1d4 rounds (Reflex DC 17 negates). At the end of each turn they’re entangled, a creature takes 2d10 cold damage. An entangled creature can end the entangled condition early with a successful DC 17 Acrobatics or Strength check as a standard action, or by dealing 15 points of fire or slashing damage to the saliva."
+    },
+    {
+      "name": "Hibernation (Ex)",
+      "description": "An ursikka can enter a prolonged state of hibernation by weaving a cocoon from its spittle. It takes 1 uninterrupted hour of work for an ursikka to create this cocoon and an additional 24 hours for the cocoon to fully harden, after which it has hardness 10 and 100 Hit Points. While hibernating, an ursikka doesn’t need to drink or eat. As long as the cocoon remains intact, the ursikka remains unharmed in its hibernation. An ursikka must use its attacks to break free from its cocoon."
+    },
+    {
+      "name": "Ice Burrow (Ex)",
+      "description": "Ursikkas have evolved to thrive in icy climes that are inhospitable to most other creatures. In addition to dirt, ursikkas can burrow through solid ice and through packed snow of any density."
+    },
+    {
+      "name": "Spit (Ex)",
+      "description": "As a standard action, an ursikka can spit a 60-foot line of its saliva. Creatures in the area take 6d10 cold damage and become entangled. A successful DC 17 Reflex save halves the damage and negates the entangled condition."
+    }
+  ],
+  "description": "Populating Triaxian children’s horror tales, ursikkas roam the Triaxian wilderness during the wandering planet’s winter years. These enormous, nightmarish praying mantises stretch 20 feet in length and stand as tall as 25 feet—mostly due to the long, slender walking legs on which they skitter with an eerie speed. Ursikkas’ grasping forelimbs each end in sharp pincers capable of shearing flesh from bone, and their three-part maws can open wide enough to swallow humans whole. Freezing saliva drips from their gnashing mandibles, which can injure and trap prey.\nUrsikkas are endlessly hungry creatures that act primarily on instinct. As such, they view all smaller creatures as food. During their planet’s long winters, ursikkas terrorize Triaxus’s extensive rural lands to secure the several tons of meat they need each week to survive. They prefer to consume large, cold-blooded creatures, but hungry ursikkas pursue any viable prey, particularly victims that seem sluggish and easy to catch.\nAs winter draws to a close, ursikkas become especially ravenous as they prepare for a long hibernation in their summer abodes: cocoons constructed from their own freezing saliva. The cocoons’ temperature resistance makes it an exceptional insulation material for delicate machinery, and Triaxian factories long ago devised chemical baths that make the cocoons more pliable. Freelance hunters can collect considerable bounties for these cocoons. Summerborn ryphorians actively seek and destroy slumbering ursikkas—not only to profit off their cocoons and hides, but also to cull the predators before they awaken the next winter and pose an active threat to communities. These local crews and hunting teams periodically join forces, each benefiting from the others’ aid. Their joint hunting ventures are limited to the summer seasons. This is in part because ursikkas almost always consume their cocoons to recoup the expended nutrients when they emerge in winter, and also because hunting hibernating ursikkas is safer than tracking active ones. The creatures are still ferocious even in summer, but their saliva production slows considerably during hibernation, and unless an awoken ursikka can eat enough to build a new cocoon, it often dies from exposure. Disturbed ursikkas sometimes rampage in the verdant summer wildernesses, desperate to eat and then return to sleep.\nThanks to their tempestuous tempers and voracious appetites, ursikkas typically live solitary existences. However, where prey is abundant, ursikkas sometimes live in pairs or, rarely, in small hives. Even then, they typically hunt alone and fiercely guard their kills from their kin.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUrsikka\nSource\nAlien Archive 4 pg. 128\nUrsikka CR 10\nXP 9,600\nN Huge magical beast\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision, blindsense (vibration) 30 ft.;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+14;\nWill\n+9\nDefensive Abilities\nferocity;\nResistances\ncold 20\nOffense\nSpeed\n40 ft., burrow 20 ft.; ice burrow\nMelee\nbite +23 (2d10+18 P plus freezing saliva) or claw +23 (2d10+18 S)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\ncoat claws, freezing saliva, spit\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-3;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +19, Athletics +24, Survival +19\nOther Abilities\nhibernation\nEcology\nEnvironment\nany arctic (Triaxus)\nOrganization\nsolitary, pair, or hive (3–10)\nSpecial Abilities\nCoat Claws (Ex)\nAs a standard action, an ursikka can coat its pincerlike claws with freezing, viscous saliva. This coating lasts for 1 minute. Any creature hit by an ursikka’s coated claws takes an additional 2d10 cold damage (Reflex DC 17 half).\nFreezing Saliva (Ex)\nThe saliva that drips from an ursikka’s mouth is sticky as well as cold, and any creature hit by its bite or spit attack becomes entangled for 1d4 rounds (Reflex DC 17 negates). At the end of each turn they’re entangled, a creature takes 2d10 cold damage. An entangled creature can end the entangled condition early with a successful DC 17 Acrobatics or Strength check as a standard action, or by dealing 15 points of fire or slashing damage to the saliva.\nHibernation (Ex)\nAn ursikka can enter a prolonged state of hibernation by weaving a cocoon from its spittle. It takes 1 uninterrupted hour of work for an ursikka to create this cocoon and an additional 24 hours for the cocoon to fully harden, after which it has hardness 10 and 100 Hit Points. While hibernating, an ursikka doesn’t need to drink or eat. As long as the cocoon remains intact, the ursikka remains unharmed in its hibernation. An ursikka must use its attacks to break free from its cocoon.\nIce Burrow (Ex)\nUrsikkas have evolved to thrive in icy climes that are inhospitable to most other creatures. In addition to dirt, ursikkas can burrow through solid ice and through packed snow of any density.\nSpit (Ex)\nAs a standard action, an ursikka can spit a 60-foot line of its saliva. Creatures in the area take 6d10 cold damage and become entangled. A successful DC 17 Reflex save halves the damage and negates the entangled condition.\nDescription\nPopulating Triaxian children’s horror tales, ursikkas roam the Triaxian wilderness during the wandering planet’s winter years. These enormous, nightmarish praying mantises stretch 20 feet in length and stand as tall as 25 feet—mostly due to the long, slender walking legs on which they skitter with an eerie speed. Ursikkas’ grasping forelimbs each end in sharp pincers capable of shearing flesh from bone, and their three-part maws can open wide enough to swallow humans whole. Freezing saliva drips from their gnashing mandibles, which can injure and trap prey.\nUrsikkas are endlessly hungry creatures that act primarily on instinct. As such, they view all smaller creatures as food. During their planet’s long winters, ursikkas terrorize Triaxus’s extensive rural lands to secure the several tons of meat they need each week to survive. They prefer to consume large, cold-blooded creatures, but hungry ursikkas pursue any viable prey, particularly victims that seem sluggish and easy to catch.\nAs winter draws to a close, ursikkas become especially ravenous as they prepare for a long hibernation in their summer abodes: cocoons constructed from their own freezing saliva. The cocoons’ temperature resistance makes it an exceptional insulation material for delicate machinery, and Triaxian factories long ago devised chemical baths that make the cocoons more pliable. Freelance hunters can collect considerable bounties for these cocoons. Summerborn ryphorians actively seek and destroy slumbering ursikkas—not only to profit off their cocoons and hides, but also to cull the predators before they awaken the next winter and pose an active threat to communities. These local crews and hunting teams periodically join forces, each benefiting from the others’ aid. Their joint hunting ventures are limited to the summer seasons. This is in part because ursikkas almost always consume their cocoons to recoup the expended nutrients when they emerge in winter, and also because hunting hibernating ursikkas is safer than tracking active ones. The creatures are still ferocious even in summer, but their saliva production slows considerably during hibernation, and unless an awoken ursikka can eat enough to build a new cocoon, it often dies from exposure. Disturbed ursikkas sometimes rampage in the verdant summer wildernesses, desperate to eat and then return to sleep.\nThanks to their tempestuous tempers and voracious appetites, ursikkas typically live solitary existences. However, where prey is abundant, ursikkas sometimes live in pairs or, rarely, in small hives. Even then, they typically hunt alone and fiercely guard their kills from their kin.",
+  "type": "magical beast",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Ursikka.png"
+}

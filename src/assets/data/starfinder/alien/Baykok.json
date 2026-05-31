@@ -1,0 +1,56 @@
+{
+  "name": "Baykok",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Baykok&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 266",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "144",
+  "eac": "23",
+  "kac": "23",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+10",
+  "immunities": "undead immunities",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "claw +18 (2d8+13 S)",
+  "ranged": "combat rifle +21 (3d8+9 P)",
+  "offensive_abilities": "devour soul, dread howl, infused ammunition",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "—",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +17, Stealth +22, Survival +17",
+  "other_abilities": "unliving",
+  "gear": "d-suit III, combat rifle",
+  "environment": "any",
+  "organization": "solitary, gang (2–5), or flight (6–12)",
+  "special_abilities": [
+    {
+      "name": "Devour Soul (Su)",
+      "description": "A baykok can take a standard action to devour the soul of an adjacent dead or dying creature. A dying creature can resist this attack with a successful DC 18 Fortitude save. If it fails, the target is instantly slain. If the creature is already dead, it can’t attempt the saving throw, although the target can’t have been dead for more than 1 hour. A creature subjected to this attack can’t be brought back to life via mystic cure cast as a 4th-level or higher spell (though raise dead and more powerful effects work normally). When a baykok devours a soul in this way, it recovers a number of Hit Points equal to 2d10 + its CR and becomes hasted for 4 rounds (as if affected by haste). This is a death effect."
+    },
+    {
+      "name": "Dread Howl (Su)",
+      "description": "Once per day as a standard action, a baykok can let out a howl. Each living creature within a 30-foot-radius burst must succeed at a DC 16 Fortitude save or become paralyzed with fear for 1 round. A creature that succeeds at this saving throw is instead shaken for 1 round. This is a sense-dependent fear effect."
+    },
+    {
+      "name": "Infused Ammunition (Su)",
+      "description": "As part of making an attack or full attack with a projectile weapon, a baykok can create a round or rounds of ammunition made from bone and infused with negative energy. This ammunition appears loaded into the projectile weapon the baykok is wielding. The baykok can’t create ammunition quickly enough to use when making an attack in automatic mode. Half the damage from attacks made with this ammunition is negative energy damage, and a creature struck by such an attack must succeed at a DC 16 Fortitude save or be paralyzed for 1d3 rounds. A baykok can fire normal ammunition from its projectile weapon if it wishes, though such ammunition doesn’t gain the extra benefits."
+    }
+  ],
+  "description": "Those who revel too much in the thrill of chasing and killing living creatures might arise as baykoks after death.",
+  "extra_content": "The following extra content was found for this creature:\n-\nBaykok (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBaykok\nSource\nStarfinder Dead Suns Adventure Path pg. 266\n,\nStarfinder #6: Empire of Bones pg. 55\nBaykok CR 9\nXP 6,400\nNE Medium undead\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n144\nEAC\n23;\nKAC\n23\nFort\n+11;\nRef\n+11;\nWill\n+10\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nclaw +18 (2d8+13 S)\nRanged\ncombat rifle +21 (3d8+9 P)\nOffensive Abilities\ndevour soul, dread howl, infused ammunition\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n—;\nINT\n+0;\nWIS\n+0;\nCHA\n+3\nSkills\nAcrobatics +17, Stealth +22, Survival +17\nOther Abilities\nunliving\nGear\nd-suit III, combat rifle\nEcology\nEnvironment\nany\nOrganization\nsolitary, gang (2–5), or flight (6–12)\nSpecial Abilities\nDevour Soul (Su)\nA baykok can take a standard action to devour the soul of an adjacent dead or dying creature. A dying creature can resist this attack with a successful DC 18 Fortitude save. If it fails, the target is instantly slain. If the creature is already dead, it can’t attempt the saving throw, although the target can’t have been dead for more than 1 hour. A creature subjected to this attack can’t be brought back to life via mystic cure cast as a 4th-level or higher spell (though raise dead and more powerful effects work normally). When a baykok devours a soul in this way, it recovers a number of Hit Points equal to 2d10 + its CR and becomes hasted for 4 rounds (as if affected by haste). This is a death effect.\nDread Howl (Su)\nOnce per day as a standard action, a baykok can let out a howl. Each living creature within a 30-foot-radius burst must succeed at a DC 16 Fortitude save or become paralyzed with fear for 1 round. A creature that succeeds at this saving throw is instead shaken for 1 round. This is a sense-dependent fear effect.\nInfused Ammunition (Su)\nAs part of making an attack or full attack with a projectile weapon, a baykok can create a round or rounds of ammunition made from bone and infused with negative energy. This ammunition appears loaded into the projectile weapon the baykok is wielding. The baykok can’t create ammunition quickly enough to use when making an attack in automatic mode. Half the damage from attacks made with this ammunition is negative energy damage, and a creature struck by such an attack must succeed at a DC 16 Fortitude save or be paralyzed for 1d3 rounds. A baykok can fire normal ammunition from its projectile weapon if it wishes, though such ammunition doesn’t gain the extra benefits.\nDescription\nThose who revel too much in the thrill of chasing and killing living creatures might arise as baykoks after death.\nExtra Content\nThe following extra content was found for this creature:\n-\nBaykok (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

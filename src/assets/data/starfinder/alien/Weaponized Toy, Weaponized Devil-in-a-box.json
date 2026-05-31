@@ -1,0 +1,58 @@
+{
+  "name": "Weaponized Toy, Weaponized Devil-in-a-box",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Weaponized Devil-in-a-box&Family=Weaponized Toy",
+  "source": "Alien Archive 3 pg. 132",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+0",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to critical hits",
+  "speed": "30 ft.",
+  "melee": "cutters +12 (1d6+4 S; critical bleed 1d4)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft. (or 5 ft.)",
+  "offensive_abilities": "mobile reach, pounce",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "—",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Athletics +8",
+  "feats": "Mobility, Spring Attack",
+  "languages": "Common (can’t speak any language)",
+  "other_abilities": "unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or cackle (3–8)",
+  "special_abilities": [
+    {
+      "name": "Boxed (Ex)",
+      "description": "A weaponized devil-in-a-box has an attached box with a lid. While inside its box or motionless, the creature looks like a normal toy.\nAs a move action, a weaponized devil-in-a-box can pull itself partially into its box, gaining partial cover. It takes a –2 penalty to attack rolls and can move at only half speed while doing so. As a full action, a weaponized devil-in-a-box can pull itself fully into its box, granting itself total cover. While withdrawn in this way, the devil-in-a-box can’t move or attack, and it can’t see. In either case, the devil-in-a-box can emerge from its box as a move action.\nThe box has hardness 10 and 20 Hit Points, and a creature that targets the container with a melee or ranged attack automatically hits it. A devil-in-a-box whose box has the broken condition takes a –2 penalty to AC. If the box is destroyed, the penalty increases to –4, and the devil-in-a-box is staggered until a new box is attached."
+    },
+    {
+      "name": "Mobile Reach (Ex)",
+      "description": "Provided it emerges fully from its box or moves before it attacks, a weaponized devil-in-a-box’s reach increases to 5 feet."
+    },
+    {
+      "name": "Pounce (Ex)",
+      "description": "When a weaponized devil-in-a-box charges, it can also make a full attack."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWeaponized Toy\nSource\nAlien Archive 3 pg. 132\nAs the weapons trade thrives, companies have become more strict about items they ship or allow in baggage. Weapons and combat-oriented creatures are commonly banned. In response, arms dealers and tech-minded assassins build combat drones disguised as toys. Many of these constructs are concealed only for transport, but some integrate their innocuous appearance into their functions with the intent of fooling potential victims as much as shipping securely. Not to be overlooked is the humiliation of being attacked by a toy.\nOne popular design is the devil-in-a-box. A figure, scary or cute, is stuffed into a box or similar container, from which it springs when activated. The construct has serrated limbs or jaws capable of slicing through modern composites and a keen virtual intelligence programmed to identify and track targets and to maim or kill. Common “devils” range from literal fiends to skittermanders with saw-like jaws or model Swarm thresher lords. These murderous toys are common enough that modern security gives more scrutiny to them in customs and boarding processes, but telling a mere toy from a killer drone is difficult.\nHigh-end gaming devices have been used for similar ends. Gamedroids normally function, singly or in groups, to create sophisticated holographic game environments using rechargeable banks of spell chips embedded in their onboard casting units. Installing new spell chips into a prepackaged casting unit is difficult. However, weaponized casting units can be scratch-built in a reasonable amount of time and installed into gamedroids. A shipment of gamedroids can then become a delivery of assassins, loaded with combat magic. Like other weaponized toys, these lethal constructs need only to be assigned a target. And, since off-the-shelf models can be weaponized, tracing the perpetrators can be problematic.\nLaws to control weaponized toys are hard to create and enforce. Lobbyists balk at legislation that burdens manufacturers or slows shipping. Apostae’s lobbyists in particular have been vocal that laws mustn’t hold producers accountable for misuse of their goods, as the precedent would be untenable and the reach overlarge. Responsibility lies, industry advocates insist, with law enforcement and the criminals who perpetrate such abuse.\nAliens in the \"Weaponized Toy\" Family\nName\nCR\nWeaponized Devil-in-a-box\n3\nWeaponized Gamedroid\n6\nWeaponized Toy, Weaponized Devil-in-a-box\nSource\nAlien Archive 3 pg. 132\nWeaponized Devil-in-a-box CR 3\nXP 800\nN Tiny construct (technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+0\nDefensive Abilities\nboxed;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to critical hits\nOffense\nSpeed\n30 ft.\nMelee\ncutters +12 (1d6+4 S; critical bleed 1d4)\nSpace\n2-1/2 ft.;\nReach\n0 ft. (or 5 ft.)\nOffensive Abilities\nmobile reach, pounce\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n—;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nFeats\nMobility, Spring Attack\nSkills\nAcrobatics +13, Athletics +8\nLanguages\nCommon (can’t speak any language)\nOther Abilities\nunliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or cackle (3–8)\nSpecial Abilities\nBoxed (Ex)\nA weaponized devil-in-a-box has an attached box with a lid. While inside its box or motionless, the creature looks like a normal toy.\nAs a move action, a weaponized devil-in-a-box can pull itself partially into its box, gaining partial cover. It takes a –2 penalty to attack rolls and can move at only half speed while doing so. As a full action, a weaponized devil-in-a-box can pull itself fully into its box, granting itself total cover. While withdrawn in this way, the devil-in-a-box can’t move or attack, and it can’t see. In either case, the devil-in-a-box can emerge from its box as a move action.\nThe box has hardness 10 and 20 Hit Points, and a creature that targets the container with a melee or ranged attack automatically hits it. A devil-in-a-box whose box has the broken condition takes a –2 penalty to AC. If the box is destroyed, the penalty increases to –4, and the devil-in-a-box is staggered until a new box is attached.\nMobile Reach (Ex)\nProvided it emerges fully from its box or moves before it attacks, a weaponized devil-in-a-box’s reach increases to 5 feet.\nPounce (Ex)\nWhen a weaponized devil-in-a-box charges, it can also make a full attack.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Weaponized_Toy_Devil-in-a-Box.png"
+}

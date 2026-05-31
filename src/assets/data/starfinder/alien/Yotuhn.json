@@ -1,0 +1,54 @@
+{
+  "name": "Yotuhn",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yotuhn&Family=None",
+  "source": "Starfinder #23: Hive of Minds pg. 61",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CN",
+  "size": "Large",
+  "creature_type": "monstrous humanoid (giant)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vi;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+10",
+  "sr": "22",
+  "speed": "40 ft.",
+  "melee": "handheld debris +23 (4d6+16 B; critical knockdown) or slam +23 (4d4+16 B)",
+  "ranged": "hurled debris +23 (3d10+11 B plus 5-ft.-radius area of difficult terrain around the target)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+8",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +25, Intimidate +20",
+  "environment": "any (Chonax)",
+  "organization": "solitary, pair, or band (3–8)",
+  "special_abilities": [
+    {
+      "name": "Handheld Debris (Ex)",
+      "description": "A yotuhn can turn nearly any debris in reach into a melee weapon. Such debris is available (either loose or readily torn from the environment without requiring an extra action) to the yotuhn unless the GM rules otherwise. A yotuhn takes no penalty to attack rolls with such improvised weapons, which are never considered to be archaic in the yotuhn’s hands. Whenever a yotuhn uses an improvised melee weapon, it gains the knockdown critical hit effect."
+    },
+    {
+      "name": "Hurled Debris (Ex)",
+      "description": "Much as with handheld debris, a yotuhn can turn nearly any debris in reach into a ranged weapon. A yotuhn’s hurled debris has a range increment of 25 feet. Such attacks also create difficult terrain in a 5-foot-radius area around the target."
+    },
+    {
+      "name": "Magic Disruption (Ex)",
+      "description": "This aura twists magic around the yotuhn. Any creature that casts a spell or uses a spell-like ability within 30 feet of the yotuhn must succeed at a DC 22 caster level check or the effect warps to become the result of a random roll on the table associated with the\nwonder grenade\n. If the spell comes from an item, the check is 1d20 + the item’s level. This randomized magical effect also occurs if a spell targets the yotuhn from any range and fails to overcome the creature’s spell resistance."
+    }
+  ],
+  "description": "Yotuhns are among the most adaptable and bellicose species to plague Chonax . Territorial and prone to violent outbursts, these horrors clash with all creatures they encounter. A yotuhn stands 13 feet tall and weighs 1,800 pounds.\nWhen provoked, yotuhns attack wildly, grabbing debris from their lairs or slamming about with furious kicks and fists. These giants also have an inherent aura that warps magic, causing it to behave in a random and chaotic manner, even changing that magic’s fundamental properties.\nThese giants lair most frequently in caves or ruined structures. Some scientists theorize their nature might somehow be connected to the intense storms that were pervasive on Chonax until 30 years ago. Unfortunately for those researchers, not only are yotuhns incapable of speaking, but they are also aggressive toward anyone other than other yotuhns.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYotuhn\nSource\nStarfinder #23: Hive of Minds pg. 61\nYotuhn CR 11\nXP 12,800\nCN Large monstrous humanoid (giant)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vi;\nPerception\n+20\nAura\nmagic disruption (30 ft.)\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+10\nSR\n22\nOffense\nSpeed\n40 ft.\nMelee\nhandheld debris +23 (4d6+16 B; critical knockdown) or slam +23 (4d4+16 B)\nRanged\nhurled debris +23 (3d10+11 B plus 5-ft.-radius area of difficult terrain around the target)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+8;\nINT\n-3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +25, Intimidate +20\nEcology\nEnvironment\nany (Chonax)\nOrganization\nsolitary, pair, or band (3–8)\nSpecial Abilities\nHandheld Debris (Ex)\nA yotuhn can turn nearly any debris in reach into a melee weapon. Such debris is available (either loose or readily torn from the environment without requiring an extra action) to the yotuhn unless the GM rules otherwise. A yotuhn takes no penalty to attack rolls with such improvised weapons, which are never considered to be archaic in the yotuhn’s hands. Whenever a yotuhn uses an improvised melee weapon, it gains the knockdown critical hit effect.\nHurled Debris (Ex)\nMuch as with handheld debris, a yotuhn can turn nearly any debris in reach into a ranged weapon. A yotuhn’s hurled debris has a range increment of 25 feet. Such attacks also create difficult terrain in a 5-foot-radius area around the target.\nMagic Disruption (Ex)\nThis aura twists magic around the yotuhn. Any creature that casts a spell or uses a spell-like ability within 30 feet of the yotuhn must succeed at a DC 22 caster level check or the effect warps to become the result of a random roll on the table associated with the\nwonder grenade\n. If the spell comes from an item, the check is 1d20 + the item’s level. This randomized magical effect also occurs if a spell targets the yotuhn from any range and fails to overcome the creature’s spell resistance.\nDescription\nYotuhns are among the most adaptable and bellicose species to plague Chonax . Territorial and prone to violent outbursts, these horrors clash with all creatures they encounter. A yotuhn stands 13 feet tall and weighs 1,800 pounds.\nWhen provoked, yotuhns attack wildly, grabbing debris from their lairs or slamming about with furious kicks and fists. These giants also have an inherent aura that warps magic, causing it to behave in a random and chaotic manner, even changing that magic’s fundamental properties.\nThese giants lair most frequently in caves or ruined structures. Some scientists theorize their nature might somehow be connected to the intense storms that were pervasive on Chonax until 30 years ago. Unfortunately for those researchers, not only are yotuhns incapable of speaking, but they are also aggressive toward anyone other than other yotuhns.",
+  "type": "monstrous humanoid (giant)",
+  "category": "alien"
+}

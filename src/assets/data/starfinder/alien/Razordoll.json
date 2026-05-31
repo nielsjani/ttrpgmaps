@@ -1,0 +1,47 @@
+{
+  "name": "Razordoll",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Razordoll&Family=None",
+  "source": "Starfinder #50: Clockwork Demons pg. 60",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead (android)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+8",
+  "immunities": "undead immunities",
+  "speed": "30 ft.",
+  "melee": "integrated limb blade +17 (2d8+11 S; critical bleed 1d6)",
+  "offensive_abilities": "slashing steps",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "—",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +14, Athletics +14, Stealth +19",
+  "languages": "Common (can’t speak)",
+  "other_abilities": "unliving",
+  "environment": "any urban",
+  "organization": "solitary, pair, or hunting party (3–5)",
+  "special_abilities": [
+    {
+      "name": "Slashing Steps (Ex)",
+      "description": "When a razordoll makes a full attack, it can move up to 15 feet between attacks as long as this movement places it within melee range of another target. The razordoll gains a +4 bonus to its Armor Class against attacks of opportunity it provokes from this movement."
+    }
+  ],
+  "description": "Razordolls tragically arise when misguided necromancers attempt to raise mutilated android corpses after replacing their missing parts with plastic and metal scraps. These nearly mindless abominations lose the ability to speak and all memories of their lives. In a state of constant pain, razordolls lash out in fury against the living with the crude blades jutting from their limbs. Despite their twisted appearances, razordolls are nimbler than they might seem, and they often move from target to target in combat with surprising fluidity. Silent, broken, and hateful, they’re terrifying foes.\nSome believe the process for creating a razordoll was accidentally discovered during the Gap, when a heartbroken medic who lost their android partner in a terrible explosion turned to the necromantic arts. The unfortunate medic was slain instantly by their newly risen creation, who went on to kill dozens more before being put down by a brigade of Stewards. Of course, this tale can’t be verified, but it has given rise to Razordolls Resurrection, a popular series of horror holovids that released its thirteenth installment last year and is set to become a Pact Worlds top seller yet again.\nOne notable razordoll operates in the Spike district of Absalom Station. Known as Crimson Kiss, this jawless android corpse speaks only through a series of rhythmic blinks with its black and red eyes. Crimson Kiss has murdered at least a dozen gang members in the Spike, and its motivations remain unknown, save that it collects a left arm from every victim.",
+  "extra_content": "The following extra content was found for this creature:\n-\nRazordoll Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRazordoll\nSource\nStarfinder #50: Clockwork Demons pg. 60\nRazordoll CR 7\nXP 3,200\nCE Medium undead (android)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+9;\nWill\n+8\nDefensive Abilities\nferocity, integrated weapons;;\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft.\nMelee\nintegrated limb blade +17 (2d8+11 S; critical bleed 1d6)\nOffensive Abilities\nslashing steps\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n—;\nINT\n+2;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +14, Athletics +14, Stealth +19\nLanguages\nCommon (can’t speak)\nOther Abilities\nunliving\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or hunting party (3–5)\nSpecial Abilities\nSlashing Steps (Ex)\nWhen a razordoll makes a full attack, it can move up to 15 feet between attacks as long as this movement places it within melee range of another target. The razordoll gains a +4 bonus to its Armor Class against attacks of opportunity it provokes from this movement.\nDescription\nRazordolls tragically arise when misguided necromancers attempt to raise mutilated android corpses after replacing their missing parts with plastic and metal scraps. These nearly mindless abominations lose the ability to speak and all memories of their lives. In a state of constant pain, razordolls lash out in fury against the living with the crude blades jutting from their limbs. Despite their twisted appearances, razordolls are nimbler than they might seem, and they often move from target to target in combat with surprising fluidity. Silent, broken, and hateful, they’re terrifying foes.\nSome believe the process for creating a razordoll was accidentally discovered during the Gap, when a heartbroken medic who lost their android partner in a terrible explosion turned to the necromantic arts. The unfortunate medic was slain instantly by their newly risen creation, who went on to kill dozens more before being put down by a brigade of Stewards. Of course, this tale can’t be verified, but it has given rise to Razordolls Resurrection, a popular series of horror holovids that released its thirteenth installment last year and is set to become a Pact Worlds top seller yet again.\nOne notable razordoll operates in the Spike district of Absalom Station. Known as Crimson Kiss, this jawless android corpse speaks only through a series of rhythmic blinks with its black and red eyes. Crimson Kiss has murdered at least a dozen gang members in the Spike, and its motivations remain unknown, save that it collects a left arm from every victim.\nExtra Content\nThe following extra content was found for this creature:\n-\nRazordoll Graft Template",
+  "type": "undead (android)",
+  "category": "alien"
+}

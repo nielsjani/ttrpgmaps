@@ -1,0 +1,49 @@
+{
+  "name": "Tangler",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tangler&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 60",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+4",
+  "senses": "blindsight (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+4",
+  "speed": "40 ft., climb 40 ft.",
+  "melee": "tentacle +11 (1d6+5 B plus grab; critical bind) or swing +11 (1d4+5 B)",
+  "space": "5 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "sticky (DC 30)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +8, Stealth +13, Survival +8",
+  "environment": "any (underground)",
+  "organization": "solitary, pair, or skein (3–6)",
+  "special_abilities": [
+    {
+      "name": "Sticky (Ex)",
+      "description": "A tangler’s tentacles are extremely sticky. The DC to escape from a tangler’s grapple or pin is equal to its KAC + 14 (DC 30 for most tanglers)."
+    },
+    {
+      "name": "Swing (Ex)",
+      "description": "As a standard action, a tangler can swing a Medium-sized or smaller opponent that it has grappled into another opponent within 10 feet. The tangler makes a melee attack against the second opponent’s KAC; if it hits, it deals the listed damage to both opponents."
+    }
+  ],
+  "description": "A tangler's anatomy consists almost solely of a mass of tentacles. These many arms excrete a powerful natural adhesive that allow it to swing from stalactite to stalactite in the underground caverns in which it dwells. Fast moving and quiet, a tangler ambushes its prey from above, grabbing it with flailing tentacles and sometimes even bashing one opponent with the still-living body of another. Once it has a pulverized a victim to death, a tangler envelops the corpse. Chemosynthetic bacteria in its adhesive slowly digest any organic material and convert it into nutrients that the tangler absorbs. This process takes hours and leaves nothing but metals, plastics, and other inorganic material behind.\nEven though a tangler’s many tentacles join at a single point in the creature’s center, some xenobiologists argue that a tangler isn’t a single organism and that each tentacle is its own entity operating as a gestalt intelligence. Given that a tangler reacts to stimuli with incredible reflexes, such a theory has been difficult to prove. In addition, capturing a live tangler has proven challenging for most research teams. However, those who have gotten a chance to study a tangler note that its natural adhesive could have incredible commercial uses. The possible applications range from simple industrial glue to a replacement for the prosthetic adhesive found in most disguise kits to integration into certain biotech augmentations. It could take months, if not years, of testing to see whether or not it causes allergic reactions to various types of skin before “tangler glue” becomes commonplace throughout the galaxy.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTangler\nSource\nStarfinder #41: Serpents in the Cradle pg. 60\nTangler CR 3\nXP 800\nN Medium aberration\nInit\n+4;\nSenses\nblindsight (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+5;\nRef\n+5;\nWill\n+4\nDefensive Abilities\nunflankable\nOffense\nSpeed\n40 ft., climb 40 ft.\nMelee\ntentacle +11 (1d6+5 B plus grab; critical bind) or swing +11 (1d4+5 B)\nSpace\n5 ft.;\nReach\n15 ft.\nOffensive Abilities\nsticky (DC 30)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +8, Stealth +13, Survival +8\nEcology\nEnvironment\nany (underground)\nOrganization\nsolitary, pair, or skein (3–6)\nSpecial Abilities\nSticky (Ex)\nA tangler’s tentacles are extremely sticky. The DC to escape from a tangler’s grapple or pin is equal to its KAC + 14 (DC 30 for most tanglers).\nSwing (Ex)\nAs a standard action, a tangler can swing a Medium-sized or smaller opponent that it has grappled into another opponent within 10 feet. The tangler makes a melee attack against the second opponent’s KAC; if it hits, it deals the listed damage to both opponents.\nDescription\nA tangler's anatomy consists almost solely of a mass of tentacles. These many arms excrete a powerful natural adhesive that allow it to swing from stalactite to stalactite in the underground caverns in which it dwells. Fast moving and quiet, a tangler ambushes its prey from above, grabbing it with flailing tentacles and sometimes even bashing one opponent with the still-living body of another. Once it has a pulverized a victim to death, a tangler envelops the corpse. Chemosynthetic bacteria in its adhesive slowly digest any organic material and convert it into nutrients that the tangler absorbs. This process takes hours and leaves nothing but metals, plastics, and other inorganic material behind.\nEven though a tangler’s many tentacles join at a single point in the creature’s center, some xenobiologists argue that a tangler isn’t a single organism and that each tentacle is its own entity operating as a gestalt intelligence. Given that a tangler reacts to stimuli with incredible reflexes, such a theory has been difficult to prove. In addition, capturing a live tangler has proven challenging for most research teams. However, those who have gotten a chance to study a tangler note that its natural adhesive could have incredible commercial uses. The possible applications range from simple industrial glue to a replacement for the prosthetic adhesive found in most disguise kits to integration into certain biotech augmentations. It could take months, if not years, of testing to see whether or not it causes allergic reactions to various types of skin before “tangler glue” becomes commonplace throughout the galaxy.",
+  "type": "aberration",
+  "category": "alien"
+}

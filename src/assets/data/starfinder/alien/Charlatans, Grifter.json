@@ -1,0 +1,46 @@
+{
+  "name": "Charlatans, Grifter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Grifter&Family=Charlatans",
+  "source": "Interstellar Species pg. 158",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "humanoid (worlanisi)",
+  "init": "+4",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+1",
+  "weaknesses": "psychic reverb",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "tactical switchblade +10 (1d4+3 S)",
+  "ranged": "diffraction perforator pistol +7 (1d4+2 So; critical bleed 1d4)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +7, Bluff +7, Sleight of Hand +12",
+  "feats": "Improved Feint",
+  "languages": "Common, Worlanisi; limited telepathy 60 ft.",
+  "other_abilities": "distracting prattle, multiarmed (4) , worlanisi gamble , worlanisi luck",
+  "gear": "freebooter armor I, diffraction perforator pistol with 2 batteries (20 charges each), tactical switchblade",
+  "special_abilities": [
+    {
+      "name": "Distracting Prattle (Ex)",
+      "description": "As a move action, the grifter talks incessantly, covering their motions and distracting their marks with misleading conversation. The grifter gains a +2 circumstance bonus to Bluff and Sleight of Hand checks until the end of their turn."
+    }
+  ],
+  "description": "Grifters work up close and personal, earning their credits through sleight of hand and misleading prattle, and are always ready to flee if they’re caught cheating or their marks lose their temper. Most pick pockets or run street-corner hustles, but many work at festivals and circus midways, or play or rig games at casinos and gambling dens. Some work in groups, with one grifter distracting an audience or mark while another relieves them of their credits, possessions, or vehicle. The most benevolent work as magicians and use their skills to entertain.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCharlatans\nSource\nInterstellar Species pg. 158\nThroughout the galaxy charlatans run countless cons, scams, and tricks, from small scale to large, from harmless to downright dangerous. Although their methods, modes, and goals vary, charlatans are nearly always selfish, greedy, and unscrupulous. Occasionally, a charlatan uses their skills to entertain, inspire, and astound—or to rip off oppressors, villains, and faceless mega corporations—but they’re the exception, not the rule. The following charlatans represent a diverse array of con artists, scammers, and impostors.\nAliens in the \"Charlatans\" Family\nName\nCR\nCon Artist\n1/2\nFalse Prophet\n8\nGrifter\n2\nImpostor\n6\nCharlatans, Grifter\nSource\nInterstellar Species pg. 158\nGrifter CR 2\nXP 600\nWorlanisi\nCN Small humanoid (worlanisi)\nInit\n+4;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+4;\nRef\n+6;\nWill\n+1; –1 vs. mind-affecting effects\nWeaknesses\npsychic reverb\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\ntactical switchblade +10 (1d4+3 S)\nRanged\ndiffraction perforator pistol +7 (1d4+2 So; critical bleed 1d4)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n+2\nFeats\nImproved Feint\nSkills\nAcrobatics +7, Bluff +7, Sleight of Hand +12\nLanguages\nCommon, Worlanisi; limited telepathy 60 ft.\nOther Abilities\ndistracting prattle, multiarmed (4) , worlanisi gamble , worlanisi luck\nGear\nfreebooter armor I, diffraction perforator pistol with 2 batteries (20 charges each), tactical switchblade\nSpecial Abilities\nDistracting Prattle (Ex)\nAs a move action, the grifter talks incessantly, covering their motions and distracting their marks with misleading conversation. The grifter gains a +2 circumstance bonus to Bluff and Sleight of Hand checks until the end of their turn.\nDescription\nGrifters work up close and personal, earning their credits through sleight of hand and misleading prattle, and are always ready to flee if they’re caught cheating or their marks lose their temper. Most pick pockets or run street-corner hustles, but many work at festivals and circus midways, or play or rig games at casinos and gambling dens. Some work in groups, with one grifter distracting an audience or mark while another relieves them of their credits, possessions, or vehicle. The most benevolent work as magicians and use their skills to entertain.",
+  "type": "humanoid (worlanisi)",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Supenga, Pup",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pup&Family=Supenga",
+  "source": "Alien Archive 4 pg. 120",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "plant",
+  "init": "+3",
+  "senses": "blindsense (vibration) 60 ft., low-light vision;;",
+  "perception": "+11",
+  "hp": "75",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "plant immunities;;",
+  "resistances": "cold 5, fire 5",
+  "weaknesses": "vulnerable to slashing",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +12 (1d6+10 P plus epicuticular enzyme) or tail +14 (1d6+10 B)",
+  "offensive_abilities": "spinning charge",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +11",
+  "environment": "warm or temperate deserts",
+  "organization": "solitary or clutch (2–5)",
+  "special_abilities": [
+    {
+      "name": "Epicuticular Enzyme (Ex)",
+      "description": "The wax coating a supenga’s teeth contains a digestive, paralytic enzyme. When a supenga damages a creature with its bite, the target must succeed at a DC 13 Fortitude save or gain the paralyzed condition for 1d4 rounds. As a full action, the target can attempt a new save to end the condition. This is a poison effect."
+    },
+    {
+      "name": "Spinning Charge (Ex)",
+      "description": "A supenga can curl into a ball and launch itself at enemies. When performing this special charge, the supenga ignores the charge penalties, must use its tail to perform the charge’s melee attack, and increases the attack’s damage by 5. After resolving a spinning charge, the supenga is staggered until the end of its next turn (Fortitude DC 13 negates)."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSupenga\nSource\nAlien Archive 4 pg. 120\nWhereas most desert plants in the Pact Worlds and beyond rely on endurance and luck to survive between intermittent rains, the hardy supengas enjoy another approach: carnivory. A supenga’s body consists of fleshy stalks and storage bulbs covered by a coat of dense, vibrant, sun-stressed succulent leaves. Not only can these leaves move independently, creating rippling displays that reflect the supenga’s moods, but specialized leaves along its body, feet, and mouth function as protective studs, claws, and teeth, respectively. They even see through highly evolved leaves that serve as their eyes by reflecting light through a wide range of colored chlorophyll.\nSupengas’ waxy leaf coating staves off the worst of heat, cold, and dehydration, letting these plants wander with little concern for shade and shelter. Their epicuticular wax is also poisonous, and supengas’ leafy teeth have an especially virulent version of the toxin that induces momentary paralysis.\nInsatiable eaters, supengas have adapted to gorge whenever possible to prepare for lean seasons. Pups slowly bud and grow from reproductive shoots along their parent’s back, forming inconspicuous rosettes that swell into scaled fruits. Once developed, a pup uncurls, plucks itself free, and hides among its parent’s foliage for several years, rarely descending except to scavenge scraps. It stays until it’s ready for better feeding grounds or its exasperated parent at last shakes it free. Solitary pups typically survive on a steady supply of smaller animals like squoxes; pups from the same supenga brood commonly set off as a group, using their combined strength to take down much larger prey.\nUpon growing to about 15 feet in total length, a supenga’s physical development slows considerably as it directs much of its energy toward reproduction. Known as titans, these mature adults produce as many as several hundred offspring over a century.\nIn the Pact Worlds, supengas roam stretches of Akiton and the Fullbright wastes of Verces, but their largest population traverses the northern and western deserts of Castrovel’s Colonies.\nAliens in the \"Supenga\" Family\nName\nCR\nPup\n5\nTitan\n15\nSupenga, Pup\nSource\nAlien Archive 4 pg. 120\nPup CR 5\nXP 1,600\nN Medium plant\nInit\n+3;\nSenses\nblindsense (vibration) 60 ft., low-light vision;;\nPerception\n+11\nDefense\nHP\n75\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nferocity;\nImmunities\nplant immunities;;\nResistances\ncold 5, fire 5\nWeaknesses\nvulnerable to slashing\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +12 (1d6+10 P plus epicuticular enzyme) or tail +14 (1d6+10 B)\nOffensive Abilities\nspinning charge\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-3;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +11\nEcology\nEnvironment\nwarm or temperate deserts\nOrganization\nsolitary or clutch (2–5)\nSpecial Abilities\nEpicuticular Enzyme (Ex)\nThe wax coating a supenga’s teeth contains a digestive, paralytic enzyme. When a supenga damages a creature with its bite, the target must succeed at a DC 13 Fortitude save or gain the paralyzed condition for 1d4 rounds. As a full action, the target can attempt a new save to end the condition. This is a poison effect.\nSpinning Charge (Ex)\nA supenga can curl into a ball and launch itself at enemies. When performing this special charge, the supenga ignores the charge penalties, must use its tail to perform the charge’s melee attack, and increases the attack’s damage by 5. After resolving a spinning charge, the supenga is staggered until the end of its next turn (Fortitude DC 13 negates).",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Supenga_Pup.png"
+}

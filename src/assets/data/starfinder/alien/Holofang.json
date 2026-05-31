@@ -1,0 +1,66 @@
+{
+  "name": "Holofang",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Holofang&Family=None",
+  "source": "Starfinder #35: Merchants of the Void pg. 59",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast (aquatic)",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision, tentacular eye;",
+  "perception": "+15",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+3",
+  "dr": "10/— when its maw is closed. This DR also applies against attacks made by creatures the holofang has swallowed who attempt to cut their way out.",
+  "resistances": "cold 10",
+  "weaknesses": "photosensitive eye",
+  "speed": "10 ft., climb 10 ft., swim 20 ft.",
+  "melee": "bite +13 (1d6+9 P plus swallow whole) or pseudopod +11 (1d4+9 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "cavernous maw, holographic lure, swallow whole (1d6+9 B, EAC 16, KAC 14, 12 HP)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +15, Stealth +10, Survival +10",
+  "languages": "Common (can’t speak any language)",
+  "other_abilities": "amphibious, water breathing",
+  "environment": "aquatic (Gaskar III)",
+  "organization": "solitary, bed (2–8), or carpet (9–20)",
+  "special_abilities": [
+    {
+      "name": "Cavernous Maw (Ex)",
+      "description": "A holofang can open or close its maw as a move action and can make bite attacks or use its holographic lure ability only if its maw is open. If the holofang grapples or pins a creature with its swallow whole ability, its maw closes and remains closed for as long as the creature is swallowed. If a swallowed creature climbs out of the holofang, the maw reopens."
+    },
+    {
+      "name": "Hardened Carapace (Su)",
+      "description": "A holofang gains DR 10/— when its maw is closed. This DR also applies against attacks made by creatures the holofang has swallowed who attempt to cut their way out."
+    },
+    {
+      "name": "Holographic Lure (Su)",
+      "description": "As a move action, a holofang submerged underwater that has its maw open can project a visual hologram and minor sounds, as a 2nd-level casting of holographic image (DC 13) with a range of 100 feet and limited to no more than 10 feet beyond the water’s surface."
+    },
+    {
+      "name": "Photosensitive Eye (Su)",
+      "description": "When a creature scores a hit with a laser weapon on the holofang while the holofang’s maw is open, the attack is a critical hit, and the holofang is both blinded and unable to use its holographic lure ability until the end of its next turn."
+    },
+    {
+      "name": "Tentacular Eye (Ex)",
+      "description": "When a holofang’s maw is shut, its single eye is trapped inside its mouth, granting the creature the blinded condition."
+    }
+  ],
+  "description": "A holofang is a large, amphibious, mollusk-like creature covered in a hinged carapace as dense as tempered steel with massive, interlocking teeth lining the inside. When it opens its maw, the holofang reveals a retractable pseudopod used for locomotion topped by an orb of membranous tissue that pulses with light. Known as a holofang’s eye—for granting the creature sight—this appendage contains thousands of nanoscale photopolymers that absorb and refract sunlight to project holographic images. Hundreds of microphonic cilia rim the eye, allowing the holofang to replicate simple sounds. To lure prey toward its vice-like jaws, a holofang projects illusions of drowning creatures or partially buried treasure near the water’s surface while it lurks silently underneath. Native to Gaskar III but occasionally found on other worlds, holofangs feed on amphibians, reptiles, and leaping eels found in the rocky lowlands and river valleys of their home planet but prefer the prolonged sustenance provided by the carcasses of humanoid creatures.\nAn adult holofang measures about 10 feet in diameter and weighs almost half a ton.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHolofang\nSource\nStarfinder #35: Merchants of the Void pg. 59\nHolofang CR 4\nXP 1,200\nN Large magical beast (aquatic)\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision, tentacular eye;\nPerception\n+15\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+8;\nWill\n+3\nDefensive Abilities\nhardened carapace;\nResistances\ncold 10\nWeaknesses\nphotosensitive eye\nOffense\nSpeed\n10 ft., climb 10 ft., swim 20 ft.\nMelee\nbite +13 (1d6+9 P plus swallow whole) or pseudopod +11 (1d4+9 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ncavernous maw, holographic lure, swallow whole (1d6+9 B, EAC 16, KAC 14, 12 HP)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n-1;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +15, Stealth +10, Survival +10\nLanguages\nCommon (can’t speak any language)\nOther Abilities\namphibious, water breathing\nEcology\nEnvironment\naquatic (Gaskar III)\nOrganization\nsolitary, bed (2–8), or carpet (9–20)\nSpecial Abilities\nCavernous Maw (Ex)\nA holofang can open or close its maw as a move action and can make bite attacks or use its holographic lure ability only if its maw is open. If the holofang grapples or pins a creature with its swallow whole ability, its maw closes and remains closed for as long as the creature is swallowed. If a swallowed creature climbs out of the holofang, the maw reopens.\nHardened Carapace (Su)\nA holofang gains DR 10/— when its maw is closed. This DR also applies against attacks made by creatures the holofang has swallowed who attempt to cut their way out.\nHolographic Lure (Su)\nAs a move action, a holofang submerged underwater that has its maw open can project a visual hologram and minor sounds, as a 2nd-level casting of holographic image (DC 13) with a range of 100 feet and limited to no more than 10 feet beyond the water’s surface.\nPhotosensitive Eye (Su)\nWhen a creature scores a hit with a laser weapon on the holofang while the holofang’s maw is open, the attack is a critical hit, and the holofang is both blinded and unable to use its holographic lure ability until the end of its next turn.\nTentacular Eye (Ex)\nWhen a holofang’s maw is shut, its single eye is trapped inside its mouth, granting the creature the blinded condition.\nDescription\nA holofang is a large, amphibious, mollusk-like creature covered in a hinged carapace as dense as tempered steel with massive, interlocking teeth lining the inside. When it opens its maw, the holofang reveals a retractable pseudopod used for locomotion topped by an orb of membranous tissue that pulses with light. Known as a holofang’s eye—for granting the creature sight—this appendage contains thousands of nanoscale photopolymers that absorb and refract sunlight to project holographic images. Hundreds of microphonic cilia rim the eye, allowing the holofang to replicate simple sounds. To lure prey toward its vice-like jaws, a holofang projects illusions of drowning creatures or partially buried treasure near the water’s surface while it lurks silently underneath. Native to Gaskar III but occasionally found on other worlds, holofangs feed on amphibians, reptiles, and leaping eels found in the rocky lowlands and river valleys of their home planet but prefer the prolonged sustenance provided by the carcasses of humanoid creatures.\nAn adult holofang measures about 10 feet in diameter and weighs almost half a ton.",
+  "type": "magical beast (aquatic)",
+  "category": "alien"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Silicanid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Silicanid&Family=None",
+  "source": "Starfinder #40: Planetfall pg. 61",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "animal (fire)",
+  "init": "+4",
+  "senses": "blindsense (scent) 60 ft., low-light vision;",
+  "perception": "+12",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "immunities": "fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "40 ft.; burrow 20 ft.",
+  "melee": "bite +10 (1d6+3 F & P; critical burn 1d4) or claw +10 (1d6+3 F & S; critical burn 1d4)",
+  "offensive_abilities": "takedown",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +7, Sense Motive +7, Survival +12",
+  "other_abilities": "tracking (scent)",
+  "environment": "any land (Waydana-1)",
+  "organization": "solitary, pair, pack (3–6)",
+  "special_abilities": [
+    {
+      "name": "Aura of Warmth (Ex)",
+      "description": "Silicanids exude an aura of soothing warmth. Creatures adjacent to a silicanid are immune to the effects of cold weather, treat severe cold as cold weather, and treat extreme cold as severe cold."
+    },
+    {
+      "name": "Takedown (Ex)",
+      "description": "When a silicanid attacks on a charge and hits a creature of Medium size or smaller, the target is knocked prone."
+    }
+  ],
+  "description": "As their name implies, silicanids are canids native to Weydana-1 that have inorganic, silicone-based bodies that resemble obsidian and magma more than flesh and blood; even their coats are a collection of soot and ash instead of fur. Doglike in both appearance and behavior, silicanids are natural hunters just like their carbon-based cousins, and they’re armed with teeth and claws of solid quartz. They instinctually chase down their prey, even burrowing into dens when necessary.\nAs companions, silicanids have a well-earned reputation as excellent varmint-hunters, due to their small stature and tenacity. Their aura of warmth makes them especially popular among vesk and other cold-blooded species, and they are much in demand as therapy animals or as companions in frigid environments. Silicanids are pack animals in the wild, and they form a fierce bond with others.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSilicanid\nSource\nStarfinder #40: Planetfall pg. 61\nSilicanid CR 2\nXP 600\nN Small animal (fire)\nInit\n+4;\nSenses\nblindsense (scent) 60 ft., low-light vision;\nPerception\n+12\nAura\nwarmth (5 ft.)\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+6;\nWill\n+1\nImmunities\nfire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n40 ft.; burrow 20 ft.\nMelee\nbite +10 (1d6+3 F & P; critical burn 1d4) or claw +10 (1d6+3 F & S; critical burn 1d4)\nOffensive Abilities\ntakedown\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +7, Sense Motive +7, Survival +12\nOther Abilities\ntracking (scent)\nEcology\nEnvironment\nany land (Waydana-1)\nOrganization\nsolitary, pair, pack (3–6)\nSpecial Abilities\nAura of Warmth (Ex)\nSilicanids exude an aura of soothing warmth. Creatures adjacent to a silicanid are immune to the effects of cold weather, treat severe cold as cold weather, and treat extreme cold as severe cold.\nTakedown (Ex)\nWhen a silicanid attacks on a charge and hits a creature of Medium size or smaller, the target is knocked prone.\nDescription\nAs their name implies, silicanids are canids native to Weydana-1 that have inorganic, silicone-based bodies that resemble obsidian and magma more than flesh and blood; even their coats are a collection of soot and ash instead of fur. Doglike in both appearance and behavior, silicanids are natural hunters just like their carbon-based cousins, and they’re armed with teeth and claws of solid quartz. They instinctually chase down their prey, even burrowing into dens when necessary.\nAs companions, silicanids have a well-earned reputation as excellent varmint-hunters, due to their small stature and tenacity. Their aura of warmth makes them especially popular among vesk and other cold-blooded species, and they are much in demand as therapy animals or as companions in frigid environments. Silicanids are pack animals in the wild, and they form a fierce bond with others.",
+  "type": "animal (fire)",
+  "category": "alien"
+}

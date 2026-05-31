@@ -1,0 +1,55 @@
+{
+  "name": "Anacite, Anacite Laborer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Anacite Laborer&Family=Anacite",
+  "source": "Alien Archive pg. 10",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+19",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+8",
+  "immunities": "construct immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "40 ft.",
+  "melee": "plasma cutter +16 (1d8+12 F)",
+  "ranged": "electrical burst +14 (1d8+7 E)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "—",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Computers +19, Engineering +19, Piloting +14, Stealth +14",
+  "languages": "Common; shortwave 100 ft.",
+  "other_abilities": "reconfigure, unliving",
+  "environment": "any (Aballon)",
+  "organization": "solitary, pair, or crew (3-8)",
+  "special_abilities": [
+    {
+      "name": "Reconfigure (Ex)",
+      "description": "Anacite laborers are capable of adapting and improving their designs. An anacite laborer has a number of built-in abilities equal to its CR divided by 3 (minimum 1), chosen from the list below. An anacite laborer can change these abilities by spending 1 uninterrupted hour for each ability it wants to change. The anacite laborer must also have access to an appropriate workspace for the duration. An ability can be gained only once unless stated otherwise. In addition, modifications other than those listed here might exist.\nAdvanced treads that increase its base speed to 60 feet.\nA sensor that grants blindsight (vibration) 120 feet.\nElongated arms that extend its reach by 5 feet.\nA modified chassis that grants a burrow, climb, or swim speed equal to its base speed. This ability can be taken multiple times. Its effects do not stack. Each time it is taken, it applies to a new movement type.\nReinforced systems granting resistance 10 against a single energy type (acid, cold, electricity, fire, or sonic). This ability can be taken multiple times. Its effects do not stack. Each time it is taken, it applies to a new energy type.\nSpecialized plating that increases its AC by 2."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "An anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Anacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnacite\nSource\nAlien Archive pg. 10\nAnacites are native to Aballon, the Pact World closest to the sun. A race of machines left behind by eons-departed masters, these constructs developed the capacity for evolution and self-improvement, creating an entire mechanical ecosystem.\nThe most common design for anacites is a basic arthropodan form of silvery metal, with multiple legs for efficient travel and claws or manipulators for accomplishing their assigned tasks. Depending on their role, however, an anacite might be anything from a bulldozer-sized mining specialist to a floating electronic brain designed for advanced problem-solving, and even those anacites who fit the stereotypical metal-insect design usually have a modification or two, and almost all anacites can reconfigure parts of themselves to adapt to their circumstances.\nIn the uncounted millennia since the departure of the so-called “First Ones,” anacites have not been idle. The two primary factions of anacites, Those Who Wait and Those Who Become, have very different ideas of their purpose in life, yet the two are more alike than different. While they variously wait for the First Ones to return or work toward taking on their progenitors’ mantle, anacites endlessly strive to acquire wealth and influence in preparation for their great goal’s fulfillment.\nWhile “anacite” officially refers only to the sentient varieties of Aballonian machines—those capable of learning and participating in Aballonian society—many offworlders use it as a catchall term for the world’s mechanical life. Dragonflylike wingbots are an example of Aballonian technobiology. These artificial creatures lack basic sentience yet nevertheless reproduce and fill one of the planet’s ecological niches. These 4-foot-long machines whir from ridge to ridge on wings glittering with solar panels, feeding on the blazing light of the sun. Wingbots can be territorial, and they occasionally attack offworlders or other anacites.\nAliens in the \"Anacite\" Family\nName\nCR\nAnacite Ambassador\n6\nAnacite Laborer\n7\nAnacite Predator Drone\n10\nAnacite Wingbot\n1/2\nDustar\n1\nMonitor\n3\nSentry\n3\nAnacite, Anacite Laborer\nSource\nAlien Archive pg. 10\nAnacite Laborer CR 7\nXP 3,200\nLN Medium construct (technological)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+19\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+4;\nRef\n+4;\nWill\n+8\nImmunities\nconstruct immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\n40 ft.\nMelee\nplasma cutter +16 (1d8+12 F)\nRanged\nelectrical burst +14 (1d8+7 E)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n—;\nINT\n+4;\nWIS\n+0;\nCHA\n+0\nSkills\nComputers +19, Engineering +19, Piloting +14, Stealth +14\nLanguages\nCommon; shortwave 100 ft.\nOther Abilities\nreconfigure, unliving\nEcology\nEnvironment\nany (Aballon)\nOrganization\nsolitary, pair, or crew (3-8)\nSpecial Abilities\nReconfigure (Ex)\nAnacite laborers are capable of adapting and improving their designs. An anacite laborer has a number of built-in abilities equal to its CR divided by 3 (minimum 1), chosen from the list below. An anacite laborer can change these abilities by spending 1 uninterrupted hour for each ability it wants to change. The anacite laborer must also have access to an appropriate workspace for the duration. An ability can be gained only once unless stated otherwise. In addition, modifications other than those listed here might exist.\nAdvanced treads that increase its base speed to 60 feet.\nA sensor that grants blindsight (vibration) 120 feet.\nElongated arms that extend its reach by 5 feet.\nA modified chassis that grants a burrow, climb, or swim speed equal to its base speed. This ability can be taken multiple times. Its effects do not stack. Each time it is taken, it applies to a new movement type.\nReinforced systems granting resistance 10 against a single energy type (acid, cold, electricity, fire, or sonic). This ability can be taken multiple times. Its effects do not stack. Each time it is taken, it applies to a new energy type.\nSpecialized plating that increases its AC by 2.\nShortwave (Ex)\nAn anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nSunlight Dependency (Ex)\nAnacites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, they gain the sickened condition.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Anacite_Laborer.png"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Shimreen, Shimreen Worker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shimreen Worker&Family=Shimreen",
+  "source": "Alien Archive 3 pg. 96",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (shimreen)",
+  "init": "+2",
+  "perception": "+5",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+2",
+  "immunities": "dazzled;",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "crystal lance +4 (1d3+2 P)",
+  "ranged": "azimuth laser pistol +6 (1d4+1 F; critical 1d4 burn)",
+  "offensive_abilities": "amplify (1d4), target tracking",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Computers +10, Engineering +10, Medicine +5, Physical Science +10, Piloting +5",
+  "languages": "Shimreeni, Terran",
+  "other_abilities": "artificial intelligence (exocortex), custom rig (arm augmentation), radiant, shfit limb",
+  "gear": "flight suit stationwear, azimuth laser pistol with 2 batteries (20 charges each)",
+  "environment": "any (Shimrinsara)",
+  "organization": "solitary, pair, or geode (3–8)",
+  "special_abilities": [
+    {
+      "name": "Amplify (Ex)",
+      "description": "Whenever a shimreen takes energy damage, they can voluntarily take an additional 1d4 damage of the same type by amplifying the energy within their crystalline form. The next time the shimreen hits with a melee attack, they release this energy, dealing an additional amount of damage equal to the extra damage the shimreen took (and of the same type). The shimreen can’t take additional damage in this way again until they release the energy they’re storing. If unused, this stored energy dissipates after 10 minutes. The amount of extra damage the shimreen takes (and deals) increases to 2d4 at 8th level (or CR 8) and 3d4 at 16th level (or CR 16)."
+    },
+    {
+      "name": "Radiant (Ex)",
+      "description": "A shimreen constantly emits dim, normal, or bright light in a 5-foot radius and is immune to the dazzled condition. A shimreen can adjust their current level of light as a move action, but they can’t extinguish it."
+    },
+    {
+      "name": "Shift Limb (Ex)",
+      "description": "As a swift action, a shimreen can transform one of their hands into a natural weapon that deals piercing damage. While transformed, this hand can’t be used to hold or use anything. The shimreen can reverse the transformation as a swift action."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nShimreen (Creature Subtype) Graft Template\n-\nShimreen Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShimreen\nSource\nAlien Archive 3 pg. 96\nThe world of Shimrinsara, deep in the Vast, is constantly plagued by violent storms, but seven glittering dome-cities protrude through the tempestuous clouds. These metropolises stand as a testament to the perseverance and resourcefulness of the planet’s most notable inhabitants: crystalline humanoids known as shimreens. Shimreens built their domes not only to protect their cities from the storms, but also to harness the abundant available energy that powers their civilization. According to surviving records, the crystalline people have been doing this since long before the Gap.\nShimreens are composed of glimmering crystal, and the average shimreen is 7 feet tall and weighs 600 pounds. Though their tall, angular bodies can be any color (or even clear), most tend toward cool, bright jewel tones such as blue, purple, or teal. Much like their radiant metropolises, shimreens glow from within.\nThe most popular legend about how shimreens came to be holds that the first shimreen was kissed by lightning, rising out of the earth and into sapience—and that their spark has passed down through the generations. Whatever their origins, modern shimreen are not so much born as they are made. Pharasma’s Forge, once merely a small volcanic hotspot, has developed over millennia into a sacred temple of making and unmaking. Narrow canals, carved into the mountain’s face in ray-like patterns, direct small rivers of lava into creation chambers. To form a new shimreen, fragments from one or more living parents are placed into a chamber, which is superheated by lava until either a soul is attracted to the seed crystals and a new shimreen is formed, or the contributed shards are consumed. It’s possible for a single shimreen to reproduce alone, or for each member of a large family unit to donate a piece of themselves. Since shimreens generally live for centuries, when one passes away, their body is taken in a solemn procession to be added to the lava that powers Pharasma’s Forge so that they may contribute to the making of new life. Shimreens are able to change their body slightly to fit their needs, including shifting an arm into a crystal lance or adjusting their constant internal glow. A significant number of shimreens shape the crystals atop their heads to form crowns, while others let the crystals around their faces grow wild to form clusters they call manes— and some do both.\nThanks to Shimrinsara’s endless source of energy, its citizens are employed chiefly in the pursuit of culture and trade, rather than toiling to gather resources. Two castes make up the majority of shimreen inhabitants: workers and warriors. Workers can have a variety of skilled occupations and include artisans, engineers, entertainers, and scientists. Warriors are mainly tasked with fending off attempted incursions from outsiders who covet the shimreens’ plentiful resources, though they are also skilled in hunting the wild creatures that survive unprotected in the planet’s harsh atmosphere.\nThe seven glowing cities of Shimrinsara are called the Jewels of Shimreen, and the largest of these is Kaniqlu, where elected representatives from each city form a council of seven that governs the planet. While most shimreens are fiercely protective of their home world, they do enjoy engaging in trade with other cultures so that they may learn and grow. During shimreen holidays, citizens gather to watch parades featuring several battalions of warriors, all performing intricate routines that are a mixture of elegant, flowing dance and ruthlessly lethal combat maneuvers.\nAliens in the \"Shimreen\" Family\nName\nCR\nShimreen Warrior\n5\nShimreen Worker\n1\nShimreen, Shimreen Worker\nSource\nAlien Archive 3 pg. 96\nShimreen Worker CR 1\nXP 400\nShimreen mechanic\nLN Medium humanoid (shimreen)\nInit\n+2;\nPerception\n+5\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+3;\nRef\n+3;\nWill\n+2\nImmunities\ndazzled;\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\ncrystal lance +4 (1d3+2 P)\nRanged\nazimuth laser pistol +6 (1d4+1 F; critical 1d4 burn)\nOffensive Abilities\namplify (1d4), target tracking\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+1;\nINT\n+4;\nWIS\n+0;\nCHA\n+0\nSkills\nComputers +10, Engineering +10, Medicine +5, Physical Science +10, Piloting +5\nLanguages\nShimreeni, Terran\nOther Abilities\nartificial intelligence (exocortex), custom rig (arm augmentation), radiant, shfit limb\nGear\nflight suit stationwear, azimuth laser pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany (Shimrinsara)\nOrganization\nsolitary, pair, or geode (3–8)\nSpecial Abilities\nAmplify (Ex)\nWhenever a shimreen takes energy damage, they can voluntarily take an additional 1d4 damage of the same type by amplifying the energy within their crystalline form. The next time the shimreen hits with a melee attack, they release this energy, dealing an additional amount of damage equal to the extra damage the shimreen took (and of the same type). The shimreen can’t take additional damage in this way again until they release the energy they’re storing. If unused, this stored energy dissipates after 10 minutes. The amount of extra damage the shimreen takes (and deals) increases to 2d4 at 8th level (or CR 8) and 3d4 at 16th level (or CR 16).\nRadiant (Ex)\nA shimreen constantly emits dim, normal, or bright light in a 5-foot radius and is immune to the dazzled condition. A shimreen can adjust their current level of light as a move action, but they can’t extinguish it.\nShift Limb (Ex)\nAs a swift action, a shimreen can transform one of their hands into a natural weapon that deals piercing damage. While transformed, this hand can’t be used to hold or use anything. The shimreen can reverse the transformation as a swift action.\nExtra Content\nThe following extra content was found for this creature:\n-\nShimreen (Creature Subtype) Graft Template\n-\nShimreen Race Entry",
+  "type": "humanoid (shimreen)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Shimreen_Worker.png"
+}

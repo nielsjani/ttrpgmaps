@@ -1,0 +1,56 @@
+{
+  "name": "Ursolha",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ursolha&Family=None",
+  "source": "Starfinder #39: The Gilded Cage pg. 59",
+  "cr": "15",
+  "xp": "51,200",
+  "alignment": "CN",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+2",
+  "senses": "darkvision 60 ft. Perception +25;",
+  "perception": "+25",
+  "hp": "235",
+  "eac": "28",
+  "kac": "29",
+  "fort": "+13",
+  "ref": "+11",
+  "will": "+20",
+  "sr": "26",
+  "speed": "fly 50 ft. (Su, perfect)",
+  "melee": "slam +24 (5d8+20 B)",
+  "ranged": "eye beam +22 (4d6+15 E plus dazzled [DC 23])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 15th",
+    "spells": "1/day—greater dispel magic, waves of fatigue\n1/day—\ngreater dispel magic\n,\nwaves of fatigue\n3/day—\nconfusion\n(DC 24),\ncosmic eddy\n(DC 24),\nmind thrust\n(4th-level, DC 24),\noverload systems\n(DC 24)\nAt will—\ncharm monster\n(DC 23),\nmystic cure\n(3rd-level)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+7",
+    "int": "+9",
+    "wis": "+5",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +26 (+34 to fly), Life Science +22, Mysticism +31, Physical Science +22, Sense Motive +22",
+  "languages": "Abyssal, Celestial, Common, Infernal, Ursolhan; telepathy 100 ft.",
+  "other_abilities": "constructed, synthetic",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Eye Beam (Ex)",
+      "description": "As a ranged attack, an ursolha can fire a beam of electricity with a range increment of 100 feet. A target hit by this attack must succeed at a DC 23 Reflex save or be dazzled for 1 round."
+    },
+    {
+      "name": "Protective Tablets (Ex)",
+      "description": "As a reaction to taking energy damage, an ursolha can gain resistance 10 against that damage type that lasts until the beginning of the ursolha’s next turn. This resistance applies to the damage that triggered the reaction. An ursolha cannot use this ability if they are grabbed."
+    }
+  ],
+  "description": "The construct-like floating obelisks known as ursolhas usually stand around 15 feet tall and weigh several dozen tons. Each of the four sides of their bodies have a vertical row of three glowing, circular eyes. A mass of twitching tentacles protrudes from their base, much like an aberrant cephalopod, though they generally don’t use these for locomotion. Scattered strange tablets covered in indecipherable glowing runes orbit about them and can absorb energy attacks. Despite their appearance, an ursolha is a living being, though some of their traits lead many scholars to believe they are partially synthetic, much in the same way as androids. Their coloration can range from sandy browns to stone grays.\nThere have been only a handful of reports of ursolha encounters, and no two of these rendezvous have been the same. Ursolhas have been reported digging up artifacts, harvesting fruit, pouring over data slates, dissecting living creatures, and performing a wide array of other activities. They’ve both worked peacefully with individuals and attacked others on sight. No one is certain what drives ursolhas, and while they are clearly intelligent beings capable of understanding a number of languages, they rarely speak anything other than their own tongue, Ursolhan, which has proven difficult to translate. Some xenolinguists who have spent extended periods studying the rare language have reported being plagued with terrible nightmares and waking visions.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUrsolha\nSource\nStarfinder #39: The Gilded Cage pg. 59\nUrsolha CR 15\nXP 51,200\nCN Large aberration\nInit\n+2;\nSenses\ndarkvision 60 ft. Perception +25;\nPerception\n+25\nDefense\nHP\n235\nEAC\n28;\nKAC\n29\nFort\n+13;\nRef\n+11;\nWill\n+20\nDefensive Abilities\nprotective tablets, unflankable, void adaptation SR 26;\nSR\n26\nOffense\nSpeed\nfly 50 ft. (Su, perfect)\nMelee\nslam +24 (5d8+20 B)\nRanged\neye beam +22 (4d6+15 E plus dazzled [DC 23])\nSpace\n10 ft.;\nReach\n10 ft.\nSpell-Like Abilities\n(CL 15th) 1/day—greater dispel magic, waves of fatigue\n1/day—\ngreater dispel magic\n,\nwaves of fatigue\n3/day—\nconfusion\n(DC 24),\ncosmic eddy\n(DC 24),\nmind thrust\n(4th-level, DC 24),\noverload systems\n(DC 24)\nAt will—\ncharm monster\n(DC 23),\nmystic cure\n(3rd-level)\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+7;\nINT\n+9;\nWIS\n+5;\nCHA\n+3\nSkills\nAcrobatics +26 (+34 to fly), Life Science +22, Mysticism +31, Physical Science +22, Sense Motive +22\nLanguages\nAbyssal, Celestial, Common, Infernal, Ursolhan; telepathy 100 ft.\nOther Abilities\nconstructed, synthetic\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nEye Beam (Ex)\nAs a ranged attack, an ursolha can fire a beam of electricity with a range increment of 100 feet. A target hit by this attack must succeed at a DC 23 Reflex save or be dazzled for 1 round.\nProtective Tablets (Ex)\nAs a reaction to taking energy damage, an ursolha can gain resistance 10 against that damage type that lasts until the beginning of the ursolha’s next turn. This resistance applies to the damage that triggered the reaction. An ursolha cannot use this ability if they are grabbed.\nDescription\nThe construct-like floating obelisks known as ursolhas usually stand around 15 feet tall and weigh several dozen tons. Each of the four sides of their bodies have a vertical row of three glowing, circular eyes. A mass of twitching tentacles protrudes from their base, much like an aberrant cephalopod, though they generally don’t use these for locomotion. Scattered strange tablets covered in indecipherable glowing runes orbit about them and can absorb energy attacks. Despite their appearance, an ursolha is a living being, though some of their traits lead many scholars to believe they are partially synthetic, much in the same way as androids. Their coloration can range from sandy browns to stone grays.\nThere have been only a handful of reports of ursolha encounters, and no two of these rendezvous have been the same. Ursolhas have been reported digging up artifacts, harvesting fruit, pouring over data slates, dissecting living creatures, and performing a wide array of other activities. They’ve both worked peacefully with individuals and attacked others on sight. No one is certain what drives ursolhas, and while they are clearly intelligent beings capable of understanding a number of languages, they rarely speak anything other than their own tongue, Ursolhan, which has proven difficult to translate. Some xenolinguists who have spent extended periods studying the rare language have reported being plagued with terrible nightmares and waking visions.",
+  "type": "aberration",
+  "category": "alien"
+}

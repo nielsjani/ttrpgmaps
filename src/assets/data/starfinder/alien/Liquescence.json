@@ -1,0 +1,46 @@
+{
+  "name": "Liquescence",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Liquescence&Family=None",
+  "source": "Starfinder #46: The Perfect Storm pg. 59",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "ooze (aquatic, water)",
+  "init": "+2",
+  "senses": "blindsight (life) 60 ft., sightless;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+2",
+  "will": "-1",
+  "dr": "5/piercing or slashing",
+  "immunities": "ooze immunities",
+  "speed": "20 ft., swim 40 ft.",
+  "melee": "slam +10 (1d6+3 B; critical deteriorate [DC 11])",
+  "offensive_abilities": "engulf (1d6+3 A, DC 11)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+4",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +7, Stealth +12 (+16 underwater)",
+  "other_abilities": "mindless",
+  "environment": "any water (Plane of Water)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Deteriorate (Su)",
+      "description": "When a liquescence deals a critical hit with its slam attack, it pours into every crevice and joint possible. The target must succeed at a DC 11 Reflex saving throw or have 1d4+2 of its hybrid and technological weapons, armor, and gear (randomly determined) gain the broken condition for 1d4 rounds. Items with the analog property are unaffected."
+    }
+  ],
+  "description": "Liquescences are living pools of slightly murky water that drift through the seas of the Plane of Water in search of easy prey. In their native environment, liquescences are nearly impossible to spot. They are faintly translucent and a slightly different color from surrounding waters, though they are a bit easier to spot after they have fed, with the decomposing remains of their victims slowly digesting within. On the Material Plane, liquescences commonly appear on ocean worlds or planets with substantial amounts of water. However, they don’t require an aquatic habitat to survive.\nA liquescence is a mindless creature of instinct with few predators on its native plane. Though sightless, it has evolved a psychic ability to sense living creatures in its vicinity. It predominantly hunts by floating into schools of smaller creatures and enveloping prey within its acidic body to slowly digest over time. Prey too large to fully engulf is often beaten into submission, with the ooze rising up into a vaguely humanoid shape approximately 6 feet in height before pouring itself into its victim to digest it from within.\nReproduction is assumed to be through binary fission, but liquescences are rare and difficult enough to find that most scientific study on the matter is inconclusive. To date, liquescences have never bred in captivity, and other than response to stimuli and food, Pact Worlds scientists have difficulty proving liquescences are alive at all. The chemical makeup of their biological acids has resulted in an active secondary market in infiltration, weapon, and cleaning industries.\nSome unscrupulous planar travelers use liquescences as living traps or hazards that require only periodic feeding to keep alive. Many an unwary mercenary has found a small pool of water or odd dark puddle in a cavern, mine, or forgotten space station corridor that rises to attack when anyone ventures too close.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLiquescence\nSource\nStarfinder #46: The Perfect Storm pg. 59\nLiquescence CR 2\nXP 600\nN Medium ooze (aquatic, water)\nInit\n+2;\nSenses\nblindsight (life) 60 ft., sightless;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+2;\nWill\n-1\nDefensive Abilities\namorphous;\nDR\n5/piercing or slashing;\nImmunities\nooze immunities\nOffense\nSpeed\n20 ft., swim 40 ft.\nMelee\nslam +10 (1d6+3 B; critical deteriorate [DC 11])\nOffensive Abilities\nengulf (1d6+3 A, DC 11)\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+4;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +7, Stealth +12 (+16 underwater)\nOther Abilities\nmindless\nEcology\nEnvironment\nany water (Plane of Water)\nOrganization\nsolitary\nSpecial Abilities\nDeteriorate (Su)\nWhen a liquescence deals a critical hit with its slam attack, it pours into every crevice and joint possible. The target must succeed at a DC 11 Reflex saving throw or have 1d4+2 of its hybrid and technological weapons, armor, and gear (randomly determined) gain the broken condition for 1d4 rounds. Items with the analog property are unaffected.\nDescription\nLiquescences are living pools of slightly murky water that drift through the seas of the Plane of Water in search of easy prey. In their native environment, liquescences are nearly impossible to spot. They are faintly translucent and a slightly different color from surrounding waters, though they are a bit easier to spot after they have fed, with the decomposing remains of their victims slowly digesting within. On the Material Plane, liquescences commonly appear on ocean worlds or planets with substantial amounts of water. However, they don’t require an aquatic habitat to survive.\nA liquescence is a mindless creature of instinct with few predators on its native plane. Though sightless, it has evolved a psychic ability to sense living creatures in its vicinity. It predominantly hunts by floating into schools of smaller creatures and enveloping prey within its acidic body to slowly digest over time. Prey too large to fully engulf is often beaten into submission, with the ooze rising up into a vaguely humanoid shape approximately 6 feet in height before pouring itself into its victim to digest it from within.\nReproduction is assumed to be through binary fission, but liquescences are rare and difficult enough to find that most scientific study on the matter is inconclusive. To date, liquescences have never bred in captivity, and other than response to stimuli and food, Pact Worlds scientists have difficulty proving liquescences are alive at all. The chemical makeup of their biological acids has resulted in an active secondary market in infiltration, weapon, and cleaning industries.\nSome unscrupulous planar travelers use liquescences as living traps or hazards that require only periodic feeding to keep alive. Many an unwary mercenary has found a small pool of water or odd dark puddle in a cavern, mine, or forgotten space station corridor that rises to attack when anyone ventures too close.",
+  "type": "ooze (aquatic, water)",
+  "category": "alien"
+}

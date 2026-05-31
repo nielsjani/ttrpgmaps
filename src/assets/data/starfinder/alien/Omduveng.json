@@ -1,0 +1,51 @@
+{
+  "name": "Omduveng",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Omduveng&Family=None",
+  "source": "Drift Crisis pg. 157",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+12",
+  "will": "+11",
+  "sr": "21",
+  "speed": "30 ft.",
+  "melee": "slam +23 (2d8+18 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +24, Sense Motive +19, Survival +19",
+  "languages": "Duvengan",
+  "other_abilities": "called item",
+  "environment": "any (Domdun’s Bilestone)",
+  "organization": "solitary, pair, or drear (3–6)",
+  "special_abilities": [
+    {
+      "name": "Called Item (Su)",
+      "description": "As a standard action, an omduveng can attune to an object they’re holding. The omduveng can call the attuned object to hand as a swift action, as the called weapon fusion, as long as the object is within 1 mile and the omduveng has enough hands free to hold it. Multiple omduvengs can attune to the same object. An omduveng can attune to three items at a time; if they attune to a fourth, they must choose an existing object to lose its attunement."
+    },
+    {
+      "name": "Teleportation Beacon (Su)",
+      "description": "Omduvengs act as living teleportation beacons. A creature that would arrive within 100 feet of an omduveng with a teleportation effect senses the beacon and can choose to arrive in an open space adjacent to the omduveng, even if that space is outside the range of the teleportation effect. A creature arriving next to an omduveng can’t further redirect the arrival space to another omduveng’s aura. An omduveng can concentrate on this effect as a standard action to increase the range to 1 mile for 1 minute. At the GM’s discretion, multiple omduvengs with overlapping auras can extend this range even further or force creatures teleporting into the area to land in their midst."
+    }
+  ],
+  "description": "Lumbering creatures with four muscular arms and bovine faces, omduvengs act as living homing beacons that metaphysically bend space to pull teleporting creatures or objects to themselves. Though they can focus this aura to teleport familiar items into their hands, they passively attract errant objects and creatures. Omduvengs consider this ability a tiresome burden inflicted on them at the dawn of time by their mythical creator, a divine being known as Domdun, and most omduvengs adopt a weary, dejected attitude from this supernatural inconvenience.\nYet this ability is crucial to their survival. Their home world in the Vast is a planetoid called Domdun’s Bilestone, whose nutritious lichens wouldn’t sustain the omduvengs were it not for the random creatures and other arrivals that are occasionally torn from astral space and into the omduvengs’ reach. Periodically, omduvengs’ teleportation curse works in reverse, transporting a small population to a distant world. Wherever they live, omduvengs typically use simple tools, rarely showing interest in more complex machinery, even if it’s designed for their blunt fingers.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOmduveng\nSource\nDrift Crisis pg. 157\nOmduveng CR 10\nXP 9,600\nN Large magical beast\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nAura\nteleportation beacon (100 ft.)\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+12;\nWill\n+11\nSR\n21\nOffense\nSpeed\n30 ft.\nMelee\nslam +23 (2d8+18 B)\nMultiattack\n4 slams +17 (2d8+18 B)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +24, Sense Motive +19, Survival +19\nLanguages\nDuvengan\nOther Abilities\ncalled item\nEcology\nEnvironment\nany (Domdun’s Bilestone)\nOrganization\nsolitary, pair, or drear (3–6)\nSpecial Abilities\nCalled Item (Su)\nAs a standard action, an omduveng can attune to an object they’re holding. The omduveng can call the attuned object to hand as a swift action, as the called weapon fusion, as long as the object is within 1 mile and the omduveng has enough hands free to hold it. Multiple omduvengs can attune to the same object. An omduveng can attune to three items at a time; if they attune to a fourth, they must choose an existing object to lose its attunement.\nTeleportation Beacon (Su)\nOmduvengs act as living teleportation beacons. A creature that would arrive within 100 feet of an omduveng with a teleportation effect senses the beacon and can choose to arrive in an open space adjacent to the omduveng, even if that space is outside the range of the teleportation effect. A creature arriving next to an omduveng can’t further redirect the arrival space to another omduveng’s aura. An omduveng can concentrate on this effect as a standard action to increase the range to 1 mile for 1 minute. At the GM’s discretion, multiple omduvengs with overlapping auras can extend this range even further or force creatures teleporting into the area to land in their midst.\nDescription\nLumbering creatures with four muscular arms and bovine faces, omduvengs act as living homing beacons that metaphysically bend space to pull teleporting creatures or objects to themselves. Though they can focus this aura to teleport familiar items into their hands, they passively attract errant objects and creatures. Omduvengs consider this ability a tiresome burden inflicted on them at the dawn of time by their mythical creator, a divine being known as Domdun, and most omduvengs adopt a weary, dejected attitude from this supernatural inconvenience.\nYet this ability is crucial to their survival. Their home world in the Vast is a planetoid called Domdun’s Bilestone, whose nutritious lichens wouldn’t sustain the omduvengs were it not for the random creatures and other arrivals that are occasionally torn from astral space and into the omduvengs’ reach. Periodically, omduvengs’ teleportation curse works in reverse, transporting a small population to a distant world. Wherever they live, omduvengs typically use simple tools, rarely showing interest in more complex machinery, even if it’s designed for their blunt fingers.",
+  "type": "magical beast",
+  "category": "alien"
+}

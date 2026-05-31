@@ -1,0 +1,61 @@
+{
+  "name": "Cerebric Fungus",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cerebric Fungus&Family=Cerebric Fungus",
+  "source": "Alien Archive 2 pg. 27",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "plant",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "26",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+4",
+  "ref": "+2",
+  "will": "+6",
+  "immunities": "plant immunities;",
+  "resistances": "cold 5",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft.",
+  "melee": "bite +7 (1d4+4 P) or tendril +7 (1d4+4 S plus grab; critical stunned)",
+  "space": "5 ft.",
+  "reach": "5 ft. (15 ft. with tendrils)",
+  "offensive_abilities": "star shriek (DC 14)",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "3/day—\nfear\n(1st level, DC 16),\nlesser confusion\n(DC 16)\nAt will—\ndaze\n(DC 15),\ndetect thoughts\n(DC 16)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Bluff +13, Diplomacy +13, Stealth +8",
+  "languages": "telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or colony (3–12)",
+  "special_abilities": [
+    {
+      "name": "Otherworldly Mind (Ex)",
+      "description": "Any non-plant creature attempting to read a cerebric fungus’s mind with a divination spell or similar effect must succeed at the listed Will save or be overwhelmed by its alien thoughts. A creature that fails takes 1d6 damage and is confused for 1d3 rounds, and the divination effect immediately ends."
+    },
+    {
+      "name": "Star Shriek (Ex)",
+      "description": "Once per day as a full action, a cerebric fungus can unleash a shrill scream in tones that are difficult for minds to process. Each non-plant creature within 30 feet must succeed at the listed Will save or be nauseated for 1 round. This is a sonic, mind-affecting effect."
+    },
+    {
+      "name": "Unsettling Appearance (Su)",
+      "description": "A cerebric fungus constantly scans the minds of those around it, projecting around itself a confusing collage of images gleaned from their thoughts. Each creature within 60 feet that can see the fungus must succeed at the listed Will save or be off-target while within the aura’s radius. A creature that succeeds at a save against a cerebric fungus’s unsettling appearance is immune to this effect for 24 hours. This is a mind-affecting effect."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCerebric Fungus\nSource\nAlien Archive 2 pg. 27\nCerebric fungi are carnivorous plants, but they are also intelligent interstellar explorers with colonies in many star systems, including the Pact Worlds, where they have carved out homes in corners of Castrovel and the Liavaran moon Nchak. Within the colonies of their isolated home system in the Vast, cerebric fungi debate philosophy and mysticism to perfect their shared understanding of the universe and to outshine the intellectual insights of the other colonies.\nIn an effort to prove esoteric points on behalf of their home colonies—or to spite other colonies—cerebric fungi enjoy studying creatures less intelligent than themselves. The fungi have been pleased to find suitable subjects on other planets.\nCerebric fungi greet strangers they meet with telepathic questions that might seem inane or even senseless. The fungi have difficulty comprehending the needs and concerns of non-fungoid creatures and easily distress others with experiments meant not to harm but rather to test pet theories.\nWith millennia of starflight and space exploration informing their culture, cerebric fungi can offer information that other civilizations would otherwise have little chance of learning. However, it often takes much time, patience, and psychic fortitude for other creatures to interpret a cerebric fungus’s insights, as elements other creatures might consider necessary context, the fungus considers obvious or irrelevant. The typical cerebric fungus is approximately 4 feet in diameter and weighs 150 pounds.\nFungal Computers\nCerebric fungi reproduce by budding. They can also grow specialized buds, removing them before they reach maturity, to produce living computers. By adjusting the timing and chemical mixture of this process, cerebric fungi can create computer modules and countermeasures that can be incorporated into any computer. Cerebric fungi sell their creations to fund further explorations. A fungal computer’s base cost is 10% higher than a normal computer and has the following traits.\nChemosynthesis\n: A fungal computer can synthesize its own energy from most atmospheres. This functions as a free self-charging upgrade.\nReticulated Spine\n: A fungal computer has a complex network and a fibrous core that can’t be reduced in size. No miniaturization upgrade can be applied to a fungal computer.\nTelepathic Interface\n: A fungal computer has only a telepathic user interface (see the upgrade below). A hacking kit can access a fungal computer, but otherwise a typical computer with a complex control module must be purchased separately and installed to provide a digital interface for a fungal computer.\nAliens in the \"Cerebric Fungus\" Family\nName\nCR\nCerebric Fungus\n3\nCerebric Fungus Voyager\n9\nCerebric Fungus\nSource\nAlien Archive 2 pg. 26\nCerebric Fungus CR 3\nXP 800\nN Medium plant\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nAura\nunsettling appearance (60 ft., DC 14)\nDefense\nHP\n26\nEAC\n13;\nKAC\n14\nFort\n+4;\nRef\n+2;\nWill\n+6\nDefensive Abilities\nfast healing 2, otherworldly mind (DC 14);\nImmunities\nplant immunities;\nResistances\ncold 5\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft.\nMelee\nbite +7 (1d4+4 P) or tendril +7 (1d4+4 S plus grab; critical stunned)\nSpace\n5 ft.;\nReach\n5 ft. (15 ft. with tendrils)\nOffensive Abilities\nstar shriek (DC 14)\nSpell-Like Abilities\n(CL 3rd)\n3/day—\nfear\n(1st level, DC 16),\nlesser confusion\n(DC 16)\nAt will—\ndaze\n(DC 15),\ndetect thoughts\n(DC 16)\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+2;\nINT\n+1;\nWIS\n+4;\nCHA\n+1\nSkills\nBluff +13, Diplomacy +13, Stealth +8\nLanguages\ntelepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or colony (3–12)\nSpecial Abilities\nOtherworldly Mind (Ex)\nAny non-plant creature attempting to read a cerebric fungus’s mind with a divination spell or similar effect must succeed at the listed Will save or be overwhelmed by its alien thoughts. A creature that fails takes 1d6 damage and is confused for 1d3 rounds, and the divination effect immediately ends.\nStar Shriek (Ex)\nOnce per day as a full action, a cerebric fungus can unleash a shrill scream in tones that are difficult for minds to process. Each non-plant creature within 30 feet must succeed at the listed Will save or be nauseated for 1 round. This is a sonic, mind-affecting effect.\nUnsettling Appearance (Su)\nA cerebric fungus constantly scans the minds of those around it, projecting around itself a confusing collage of images gleaned from their thoughts. Each creature within 60 feet that can see the fungus must succeed at the listed Will save or be off-target while within the aura’s radius. A creature that succeeds at a save against a cerebric fungus’s unsettling appearance is immune to this effect for 24 hours. This is a mind-affecting effect.",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Cerebric_Fungus.png"
+}

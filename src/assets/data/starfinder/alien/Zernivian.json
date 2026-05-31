@@ -1,0 +1,60 @@
+{
+  "name": "Zernivian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Zernivian&Family=None",
+  "source": "Starfinder #28: The Hollow Cabal pg. 61",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "aberration",
+  "init": "+6",
+  "senses": "darkvision 60 ft., herbsight 60 ft., low-light vision;",
+  "perception": "+22",
+  "hp": "135",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+12",
+  "immunities": "disease",
+  "speed": "30 ft.",
+  "melee": "tongue +17 (1d6+12 A & B plus zernivian toxin; critical stunned)",
+  "ranged": "acid spittle +19 (2d6+9 A plus zernivian toxin)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft. (5 ft. with tongue)",
+  "offensive_abilities": "herbicide",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Disguise +17, Life Science +17, Sense Motive +17, Stealth +22, Survival +22",
+  "other_abilities": "animal puppeteer (DC 18), spaceflight (Survival)",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Acid Spittle (Ex)",
+      "description": "As a ranged attack, a zernivian can hurl a blob of acidic spittle with a maximum range of 30 feet."
+    },
+    {
+      "name": "Animal Puppeteer (Ex)",
+      "description": "As a full action, a zernivian can insert itself into the body of an adjacent unconscious or helpless Small animal with an Intelligence modifier no greater than –4 (Fortitude DC 18 negates). While inside an animal in this way, the zernivian has total cover and takes no actions of its own; however, it gains full control of the host animal’s actions. The zernivian can use its or its host’s saving throw bonuses (whichever are higher), its host’s extraordinary abilities, and its or its host’s natural attacks. The zernivian remains in control of the animal until it leaves the host’s body, which it can do as a full action; the host animal is then stunned for 1 round but is otherwise unharmed."
+    },
+    {
+      "name": "Herbicide (Ex)",
+      "description": "Plant creatures and creatures with the dycepskian subtype or the plantlike universal creature rule aren’t immune to a zernivian’s toxin. When such creatures attempt a Fortitude saving throw against zernivian toxin, they must roll twice and use the worse result."
+    },
+    {
+      "name": "Herbsight (Ex)",
+      "description": "Zernivians have an extrasensory ability that enables them to rapidly seek out and find plant life. This ability functions as blindsight (scent), except a zernivian can only detect plant creatures and creatures with the dycepskian subtype or the plantlike universal creature rule.\nZernivian Toxin\nType\npoison (injury);\nSave\nFortitude DC 18\nTrack\nConstitution;\nFrequency\n1/round for 6 rounds\nCure\n1 save"
+    }
+  ],
+  "description": "Zernivians are a species of rodent-sized aberrations whose bodies are covered in grisly fur the color and texture of exposed arteries. Constantly driven to root out and consume intelligent plant creatures, zernivians stalk their prey by taking over the bodies of harmless animals as a means of camouflage. Once a zernivian locates a plant creature, it quickly emerges from the host animal and attacks, using a combination of tongue lashings and a natural herbicide to take down its victim. Xenobiologists are unsure where the solitary zernivians originate from or even how they reproduce.\nAlthough zernivians have become a problem on Ghorus Prime, the native ghorans are far from the zernivian’s favorite food. That “honor” goes to the fungal dycepskians, who do whatever they can to terminate these predators on sight, as zernivians have the uncanny ability to sniff out dycepskians occupying even the most unlikely of host bodies.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nZernivian\nSource\nStarfinder #28: The Hollow Cabal pg. 61\nZernivian CR 9\nXP 6,400\nN Tiny aberration\nInit\n+6;\nSenses\ndarkvision 60 ft., herbsight 60 ft., low-light vision;\nPerception\n+22\nDefense\nHP\n135\nEAC\n22;\nKAC\n23\nFort\n+8;\nRef\n+10;\nWill\n+12\nImmunities\ndisease\nOffense\nSpeed\n30 ft.\nMelee\ntongue +17 (1d6+12 A & B plus zernivian toxin; critical stunned)\nMultiattack\n4 tongues +11 (1d6+12 A & B plus zernivian toxin; critical stunned)\nRanged\nacid spittle +19 (2d6+9 A plus zernivian toxin)\nSpace\n2-1/2 ft.;\nReach\n0 ft. (5 ft. with tongue)\nOffensive Abilities\nherbicide\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+0;\nINT\n+0;\nWIS\n+4;\nCHA\n+0\nSkills\nDisguise +17, Life Science +17, Sense Motive +17, Stealth +22, Survival +22\nOther Abilities\nanimal puppeteer (DC 18), spaceflight (Survival)\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nAcid Spittle (Ex)\nAs a ranged attack, a zernivian can hurl a blob of acidic spittle with a maximum range of 30 feet.\nAnimal Puppeteer (Ex)\nAs a full action, a zernivian can insert itself into the body of an adjacent unconscious or helpless Small animal with an Intelligence modifier no greater than –4 (Fortitude DC 18 negates). While inside an animal in this way, the zernivian has total cover and takes no actions of its own; however, it gains full control of the host animal’s actions. The zernivian can use its or its host’s saving throw bonuses (whichever are higher), its host’s extraordinary abilities, and its or its host’s natural attacks. The zernivian remains in control of the animal until it leaves the host’s body, which it can do as a full action; the host animal is then stunned for 1 round but is otherwise unharmed.\nHerbicide (Ex)\nPlant creatures and creatures with the dycepskian subtype or the plantlike universal creature rule aren’t immune to a zernivian’s toxin. When such creatures attempt a Fortitude saving throw against zernivian toxin, they must roll twice and use the worse result.\nHerbsight (Ex)\nZernivians have an extrasensory ability that enables them to rapidly seek out and find plant life. This ability functions as blindsight (scent), except a zernivian can only detect plant creatures and creatures with the dycepskian subtype or the plantlike universal creature rule.\nZernivian Toxin\nType\npoison (injury);\nSave\nFortitude DC 18\nTrack\nConstitution;\nFrequency\n1/round for 6 rounds\nCure\n1 save\nDescription\nZernivians are a species of rodent-sized aberrations whose bodies are covered in grisly fur the color and texture of exposed arteries. Constantly driven to root out and consume intelligent plant creatures, zernivians stalk their prey by taking over the bodies of harmless animals as a means of camouflage. Once a zernivian locates a plant creature, it quickly emerges from the host animal and attacks, using a combination of tongue lashings and a natural herbicide to take down its victim. Xenobiologists are unsure where the solitary zernivians originate from or even how they reproduce.\nAlthough zernivians have become a problem on Ghorus Prime, the native ghorans are far from the zernivian’s favorite food. That “honor” goes to the fungal dycepskians, who do whatever they can to terminate these predators on sight, as zernivians have the uncanny ability to sniff out dycepskians occupying even the most unlikely of host bodies.",
+  "type": "aberration",
+  "category": "alien"
+}

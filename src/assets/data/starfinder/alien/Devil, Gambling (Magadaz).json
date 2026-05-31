@@ -1,0 +1,61 @@
+{
+  "name": "Devil, Gambling (Magadaz)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gambling (Magadaz)&Family=Devil",
+  "source": "Starfinder #48: Masters of Time and Space pg. 55",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+1",
+  "senses": "darkvision 60 ft., see in darkness;",
+  "perception": "+10",
+  "hp": "45",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+7",
+  "immunities": "fire, poison;",
+  "resistances": "acid 5, cold 5",
+  "speed": "30 ft.",
+  "melee": "slam +11 (1d6+6 B)",
+  "ranged": "thrown coin +9 (1d4+4 B)",
+  "offensive_abilities": "double down, produce coins",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nsummon allies\n(1 magadaz 50%)\nAt will—\nteleport\n(self plus 5 bulk of gear only)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+4"
+  },
+  "skills": "Bluff +15, Computers +10, Profession (gambler) +15, Sense Motive +10, Sleight of Hand +15",
+  "languages": "Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
+  "other_abilities": "change shape (humanoid)",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or table (3–9)",
+  "special_abilities": [
+    {
+      "name": "Double Down (Su)",
+      "description": "A gambling devil’s understanding of probability is so good that they know the best moment to play their hand, even if that means having to lose one first. As a reaction, when a gambling devil in an encounter with a significant enemy rolls a d20 for an attack roll, saving throw, or skill check, they can take a penalty of up to 1/2 their Charisma modifier on the roll (–2 for most magadazes). The next time within 1 minute they attempt a d20 roll of the same category (for example, if the first roll was a skill check, the second can be any skill check), they gain a bonus to the roll equal to double the penalty taken earlier (+4 for most magadazes)."
+    },
+    {
+      "name": "Produce Coins (Su)",
+      "description": "As a free action, a gambling devil can draw from their body up to 50 coins of the local currency equivalent to 1 credit each. Typically, a magadaz uses this ability to pay their debts at a gaming table. To conceal the supernatural nature of this ability from observers, they must succeed at a Sleight of Hand check according to the rules for hide object. Coins produced in this way disappear 1 hour after leaving the gambling devil’s possession. In addition, a gambling devil can hurl a coin at a single creature within 30 feet. Their thrown coins target KAC and count as evil, lawful, and magic for the purpose of overcoming damage reduction. A gambling devil can produce a total of 500 coins per day."
+    },
+    {
+      "name": "Risk Aura (Su)",
+      "description": "The presence of a gambling devil encourages nearby creatures to make riskier decisions and take bigger gambles. Any non-devil creature within 30 feet of a gambling devil must succeed at a DC 15 Will saving throw each round or be compelled to throw caution to the wind for as long as it remains within the aura. Whenever a situation calls for a d20 roll, any creature affected by this ability must roll twice. If either roll is a natural 20, the affected creature can use that roll. Otherwise, it must use the lower of the two results. A gambling devil can take a swift action to suppress this aura for 1 round."
+    }
+  ],
+  "description": "These golden-skinned devils love to insinuate themselves into games of chance, gradually upping the stakes against mortals until they can win a soul or impose an obligation to perform some damning deed.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Gambling (Magadaz)\nSource\nStarfinder #48: Masters of Time and Space pg. 55\nGambling (Magadaz) CR 4\nXP 1,200\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n+1;\nSenses\ndarkvision 60 ft., see in darkness;\nPerception\n+10\nAura\nrisk aura (30 ft., DC 15)\nDefense\nHP\n45\nEAC\n16;\nKAC\n17\nFort\n+3;\nRef\n+5;\nWill\n+7\nImmunities\nfire, poison;\nResistances\nacid 5, cold 5\nOffense\nSpeed\n30 ft.\nMelee\nslam +11 (1d6+6 B)\nRanged\nthrown coin +9 (1d4+4 B)\nOffensive Abilities\ndouble down, produce coins\nSpell-Like Abilities\n(CL 4th)\n1/day—\nsummon allies\n(1 magadaz 50%)\nAt will—\nteleport\n(self plus 5 bulk of gear only)\nStatistics\nSTR\n+3;\nDEX\n+1;\nCON\n+1;\nINT\n+1;\nWIS\n+0;\nCHA\n+4\nSkills\nBluff +15, Computers +10, Profession (gambler) +15, Sense Motive +10, Sleight of Hand +15\nLanguages\nCelestial, Common, Draconic, Infernal; telepathy 100 ft.\nOther Abilities\nchange shape (humanoid)\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or table (3–9)\nSpecial Abilities\nDouble Down (Su)\nA gambling devil’s understanding of probability is so good that they know the best moment to play their hand, even if that means having to lose one first. As a reaction, when a gambling devil in an encounter with a significant enemy rolls a d20 for an attack roll, saving throw, or skill check, they can take a penalty of up to 1/2 their Charisma modifier on the roll (–2 for most magadazes). The next time within 1 minute they attempt a d20 roll of the same category (for example, if the first roll was a skill check, the second can be any skill check), they gain a bonus to the roll equal to double the penalty taken earlier (+4 for most magadazes).\nProduce Coins (Su)\nAs a free action, a gambling devil can draw from their body up to 50 coins of the local currency equivalent to 1 credit each. Typically, a magadaz uses this ability to pay their debts at a gaming table. To conceal the supernatural nature of this ability from observers, they must succeed at a Sleight of Hand check according to the rules for hide object. Coins produced in this way disappear 1 hour after leaving the gambling devil’s possession. In addition, a gambling devil can hurl a coin at a single creature within 30 feet. Their thrown coins target KAC and count as evil, lawful, and magic for the purpose of overcoming damage reduction. A gambling devil can produce a total of 500 coins per day.\nRisk Aura (Su)\nThe presence of a gambling devil encourages nearby creatures to make riskier decisions and take bigger gambles. Any non-devil creature within 30 feet of a gambling devil must succeed at a DC 15 Will saving throw each round or be compelled to throw caution to the wind for as long as it remains within the aura. Whenever a situation calls for a d20 roll, any creature affected by this ability must roll twice. If either roll is a natural 20, the affected creature can use that roll. Otherwise, it must use the lower of the two results. A gambling devil can take a swift action to suppress this aura for 1 round.\nDescription\nThese golden-skinned devils love to insinuate themselves into games of chance, gradually upping the stakes against mortals until they can win a soul or impose an obligation to perform some damning deed.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Reflection",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Reflection&Family=None",
+  "source": "Starfinder #50: Clockwork Demons pg. 61",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (elemental, extraplanar, water)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+11",
+  "immunities": "elemental immunities",
+  "speed": "20 ft., swim 80 ft.",
+  "melee": "slam +18 (1d12+12 B)",
+  "ranged": "hard-water ray +16 (2d6+8 B; critical knockdown)",
+  "offensive_abilities": "redirect energy (specular phase only)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+6",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +21 (+29 to swim), Intimidate +16, Mysticism +21, Stealth +16, Survival +21",
+  "languages": "Aquan, Common",
+  "other_abilities": "phase shift",
+  "environment": "any aquatic",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Absorb Energy (Su)",
+      "description": "When in diffuse phase, a reflection can absorb some of the kinetic energy from melee strikes against it. As a reaction when hit with a melee attack that deals bludgeoning, piercing, or slashing damage, the reflection regains one-quarter of the damage dealt as temporary Hit Points."
+    },
+    {
+      "name": "Hard-Water Ray (Su)",
+      "description": "As a ranged attack, a reflection can shoot a ray of pummeling water with a range increment of 30 feet. This attack can’t be disarmed and knocks the target prone on a critical hit."
+    },
+    {
+      "name": "Phase Shift (Su)",
+      "description": "As a swift action, a reflection can alter its watery surface to either absorb or reflect energy, entering either diffuse phase or specular phase or switching from one phase to another. The reflection remains in the chosen phase until it chooses the other phase as a swift action or is reduced to 0 Hit Points. In addition, a reflection can choose a phase when it rolls initiative at the start of combat."
+    },
+    {
+      "name": "Redirect Energy (Su)",
+      "description": "When in specular phase, a reflection’s mirror-like surface can deflect ranged energy attacks. As a reaction when hit with a ranged attack that deals acid, cold, electricity, fire, or sonic damage, the reflection can reduce the amount of energy damage it takes by half and reflect the remaining damage to a target within 20 feet. To do so, the reflection makes a ranged attack with a total bonus of +16. On a hit, the target takes the remaining damage. On a miss, no one takes the remaining damage."
+    }
+  ],
+  "description": "On the rare occasion when a water elemental manifests on the Material Plane in a place of great emotional turmoil or near an area where the barrier between the Material Plane and the Ethereal Plane is thin, the outsider can take on an echo of mortal consciousness, becoming a creature known as a reflection. A reflection takes on an ambiguous humanoid shape, and though it’s still composed entirely of elemental water, a reflection can be differentiated from a normal elemental by the glistening mirror-like sheen of its surface.\nA reflection’s mind is in a state of continual flux as it tries to reconcile the imbued fragment of mortal consciousness with its elemental nature. One minute, it might act and speak as a denizen of the Material Plane; the next, it might dissolve into the fury of a stormy ocean.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReflection\nSource\nStarfinder #50: Clockwork Demons pg. 61\nReflection CR 8\nXP 4,800\nN Medium outsider (elemental, extraplanar, water)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+9;\nRef\n+7;\nWill\n+11\nDefensive Abilities\nabsorb energy (diffuse phase only);\nImmunities\nelemental immunities\nOffense\nSpeed\n20 ft., swim 80 ft.\nMelee\nslam +18 (1d12+12 B)\nRanged\nhard-water ray +16 (2d6+8 B; critical knockdown)\nOffensive Abilities\nredirect energy (specular phase only)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+6;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +21 (+29 to swim), Intimidate +16, Mysticism +21, Stealth +16, Survival +21\nLanguages\nAquan, Common\nOther Abilities\nphase shift\nEcology\nEnvironment\nany aquatic\nOrganization\nsolitary or pair\nSpecial Abilities\nAbsorb Energy (Su)\nWhen in diffuse phase, a reflection can absorb some of the kinetic energy from melee strikes against it. As a reaction when hit with a melee attack that deals bludgeoning, piercing, or slashing damage, the reflection regains one-quarter of the damage dealt as temporary Hit Points.\nHard-Water Ray (Su)\nAs a ranged attack, a reflection can shoot a ray of pummeling water with a range increment of 30 feet. This attack can’t be disarmed and knocks the target prone on a critical hit.\nPhase Shift (Su)\nAs a swift action, a reflection can alter its watery surface to either absorb or reflect energy, entering either diffuse phase or specular phase or switching from one phase to another. The reflection remains in the chosen phase until it chooses the other phase as a swift action or is reduced to 0 Hit Points. In addition, a reflection can choose a phase when it rolls initiative at the start of combat.\nRedirect Energy (Su)\nWhen in specular phase, a reflection’s mirror-like surface can deflect ranged energy attacks. As a reaction when hit with a ranged attack that deals acid, cold, electricity, fire, or sonic damage, the reflection can reduce the amount of energy damage it takes by half and reflect the remaining damage to a target within 20 feet. To do so, the reflection makes a ranged attack with a total bonus of +16. On a hit, the target takes the remaining damage. On a miss, no one takes the remaining damage.\nDescription\nOn the rare occasion when a water elemental manifests on the Material Plane in a place of great emotional turmoil or near an area where the barrier between the Material Plane and the Ethereal Plane is thin, the outsider can take on an echo of mortal consciousness, becoming a creature known as a reflection. A reflection takes on an ambiguous humanoid shape, and though it’s still composed entirely of elemental water, a reflection can be differentiated from a normal elemental by the glistening mirror-like sheen of its surface.\nA reflection’s mind is in a state of continual flux as it tries to reconcile the imbued fragment of mortal consciousness with its elemental nature. One minute, it might act and speak as a denizen of the Material Plane; the next, it might dissolve into the fury of a stormy ocean.",
+  "type": "outsider (elemental, extraplanar, water)",
+  "category": "alien"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Devil, Lemure",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lemure&Family=Devil",
+  "source": "Starfinder #46: The Perfect Storm pg. 57",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "-1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+2",
+  "will": "+0",
+  "immunities": "fire, poison;",
+  "resistances": "acid 5, cold 5",
+  "weaknesses": "vulnerable to good-aligned or silver weapons",
+  "speed": "25 ft.",
+  "melee": "claws +7 (1d6+2 S)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "-1",
+    "con": "+3",
+    "int": "-2",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Athletics +9, Intimidate +4, Stealth +4",
+  "languages": "Infernal; telepathy 100 ft.",
+  "environment": "any (Hell)",
+  "organization": "solitary, pair, or swarm (3 or more)",
+  "special_abilities": [
+    {
+      "name": "Repulsive Nature (Su)",
+      "description": "A creature that begins its turn within 5 feet of a lemure must succeed at a DC 9 Fortitude save or be sickened for 1 round. A creature who succeeds at this Fortitude save is unaffected by any lemure’s repulsive nature for 1 day."
+    }
+  ],
+  "description": "Lemures, the least of all devils, are made from the souls of cruel and selfish mortals. Upon death, these individuals travel the River of Souls and—if not devoured by an astral leviathan or caught in the net of a night hag for resale on the soul market—eventually find themselves at Pharasma’s court in the Boneyard. There, the wicked actions these individuals performed in life earn them eternal damnation, and Pharasma condemns them to the Nine Hells.\nThese pathetic fiends are nearly mindless, forming only after the souls of the damned lose every trace of their former selves. Because lemures lack identities, their faces change and churn through different features, often mirroring the appearance of the last person they saw—an unnerving sight for those unused to lemure physiology. Their bodies are nearly formless, with drooping, misshapen limbs and melting heads. They move by oozing across the ground; at rest, they appear to be little more than lumps of shapeless, stinking flesh.\nThough they count among the most loathsome creatures in existence, lemures occupy a vital role in Hell’s ecology. After centuries or torment and corruption, Hell itself twists the souls of the damned into lemures, who begin their journeys in the wastelands of Avernus and travel downward through Hell’s layers until they finally reach the depth that suits their soul’s crimes. Lemures assemble in vast, putrid mobs across the Hells, joining together and awaiting the day a greater devil finds them and combines the fetid mass to create a singular true devil, ready to serve in Hell’s damned legions.\nIn addition, the ubiquity of lemures in Hell makes them a source of nearly unlimited utility, provided their master remembers not to expect too much of them. A wave of lemures can probe an enemy’s defenses, overwhelm a foe through sheer numbers, clear a minefield, or simply perform manual labor without requiring nourishment or rest. They make poor soldiers, but there are simply so many of them that Hell’s overlords and middle managers often keep a swarm of lemures at the ready, just in case.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Lemure\nSource\nStarfinder #46: The Perfect Storm pg. 57\nLemure CR 1/2\nXP 200\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n-1;\nSenses\ndarkvision 60 ft.;\nPerception\n+4\nAura\nrepulsive nature (5 ft., Fortitude DC 9)\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+2;\nWill\n+0\nImmunities\nfire, poison;\nResistances\nacid 5, cold 5\nWeaknesses\nvulnerable to good-aligned or silver weapons\nOffense\nSpeed\n25 ft.\nMelee\nclaws +7 (1d6+2 S)\nStatistics\nSTR\n+2;\nDEX\n-1;\nCON\n+3;\nINT\n-2;\nWIS\n+0;\nCHA\n-2\nSkills\nAthletics +9, Intimidate +4, Stealth +4\nLanguages\nInfernal; telepathy 100 ft.\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, pair, or swarm (3 or more)\nSpecial Abilities\nRepulsive Nature (Su)\nA creature that begins its turn within 5 feet of a lemure must succeed at a DC 9 Fortitude save or be sickened for 1 round. A creature who succeeds at this Fortitude save is unaffected by any lemure’s repulsive nature for 1 day.\nDescription\nLemures, the least of all devils, are made from the souls of cruel and selfish mortals. Upon death, these individuals travel the River of Souls and—if not devoured by an astral leviathan or caught in the net of a night hag for resale on the soul market—eventually find themselves at Pharasma’s court in the Boneyard. There, the wicked actions these individuals performed in life earn them eternal damnation, and Pharasma condemns them to the Nine Hells.\nThese pathetic fiends are nearly mindless, forming only after the souls of the damned lose every trace of their former selves. Because lemures lack identities, their faces change and churn through different features, often mirroring the appearance of the last person they saw—an unnerving sight for those unused to lemure physiology. Their bodies are nearly formless, with drooping, misshapen limbs and melting heads. They move by oozing across the ground; at rest, they appear to be little more than lumps of shapeless, stinking flesh.\nThough they count among the most loathsome creatures in existence, lemures occupy a vital role in Hell’s ecology. After centuries or torment and corruption, Hell itself twists the souls of the damned into lemures, who begin their journeys in the wastelands of Avernus and travel downward through Hell’s layers until they finally reach the depth that suits their soul’s crimes. Lemures assemble in vast, putrid mobs across the Hells, joining together and awaiting the day a greater devil finds them and combines the fetid mass to create a singular true devil, ready to serve in Hell’s damned legions.\nIn addition, the ubiquity of lemures in Hell makes them a source of nearly unlimited utility, provided their master remembers not to expect too much of them. A wave of lemures can probe an enemy’s defenses, overwhelm a foe through sheer numbers, clear a minefield, or simply perform manual labor without requiring nourishment or rest. They make poor soldiers, but there are simply so many of them that Hell’s overlords and middle managers often keep a swarm of lemures at the ready, just in case.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

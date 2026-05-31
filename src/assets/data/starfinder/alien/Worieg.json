@@ -1,0 +1,57 @@
+{
+  "name": "Worieg",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Worieg&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 61",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "fey (shapeshifter)",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+18",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+9",
+  "dr": "5/cold iron",
+  "sr": "16",
+  "speed": "30 ft., fly 30 ft. (average)",
+  "melee": "antlers +9 (1d6+5 P plus wanderlust)",
+  "ranged": "sting pistol +11 (1d8+6 A & P; critical corrode 1d6)",
+  "offensive_abilities": "wanderlust (DC 16)",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "1/day—\nhold person\n(DC 18),\ninvisibility\n,\nmake whole\n3/day—\ncommand\n(DC 17),\nshare language\nAt will—\nghost sound\n(DC 16),\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +13, Bluff +18, Computers +13 (+18 with Drift deceit), Engineering +13, Mysticism +13, Piloting +18",
+  "languages": "common, sylvan, and six other languages",
+  "other_abilities": "change shape (Small humanoid), Drift deceit",
+  "gear": "ysoki refractor suit (jetpack), ant sting pistol with 2 batteries (20 charges each), astrogator’s kit",
+  "environment": "any",
+  "organization": "solitary or tour group (2–8)",
+  "special_abilities": [
+    {
+      "name": "Drift Deceit (Su)",
+      "description": "A worieg can spend 1 minute at a ship’s computer secretly changing the ship’s destination to a location the worieg has never been before. The ship must be traveling through the Drift, and the worieg must succeed at a Computers check; the DC for this check is the DC to hack the computer, according to its tier. If the worieg fails at this check, it can try again after 1 day. If the worieg succeeds at this check, the ship’s computer is unaware of the changed destination, and all the ship’s systems continue to indicate the ship is moving toward its original destination. A character searching a ship’s computer for signs of hacking or tampering can detect the worieg’s Drift deceit with a successful DC 23 Computers check, but they must succeed at a DC 28 Computers check to correct the course to the original destination."
+    },
+    {
+      "name": "Wanderlust (Su)",
+      "description": "A creature struck by a worieg experiences a compulsion to travel and must succeed at a DC 16 Will save or spend the next 1d4 rounds moving at their full speed away from the worieg, looking for some place they’ve never been before. If the creature is able to reach a place it has never been before, they stop, and the effect ends at the end of their turn."
+    }
+  ],
+  "description": "Woriegs are small fey with silky striped fur and intricate antlers, but they travel in search of new worlds and new experiences while disguised as skittermanders, ysoki, or other common Small spacefaring races. Consummate hitchhikers and stowaways, woriegs prefer exploration vessels but will settle for any ship traveling somewhere they’ve never been before. Aboard such a ship, they compulsively clean and maintain the vessel, repairing broken items, organizing supplies, and cooking meals. Worieg crew members are personable and polite but obsessed with stories of unusual locales and unique local lore.\nA worieg passenger isn’t always a blessing on a starship; to ensure they see new sights, a worieg might reprogram the vessel’s navigation computers, concealing their hacking through fey magic. Most crews don’t recognize the change in course until their ship arrives at the new destination. This can result in disastrous ramifications if the starship was carrying timesensitive cargo, but this is of no concern to the worieg who caused the problem.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWorieg\nSource\nStarfinder #45: The Culling Shadow pg. 61\nWorieg CR 6\nXP 2,400\nCN Small fey (shapeshifter)\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+18\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+7;\nRef\n+7;\nWill\n+9\nDefensive Abilities\nDR 5/cold iron;\nSR\n16\nOffense\nSpeed\n30 ft., fly 30 ft. (average)\nMelee\nantlers +9 (1d6+5 P plus wanderlust)\nRanged\nsting pistol +11 (1d8+6 A & P; critical corrode 1d6)\nOffensive Abilities\nwanderlust (DC 16)\nWorieg Spell-Like Abilities\n(CL 6th)\n1/day—\nhold person\n(DC 18),\ninvisibility\n,\nmake whole\n3/day—\ncommand\n(DC 17),\nshare language\nAt will—\nghost sound\n(DC 16),\ntoken spell\nStatistics\nSTR\n-1;\nDEX\n+2;\nCON\n+0;\nINT\n+3;\nWIS\n+0;\nCHA\n+5\nSkills\nAcrobatics +13, Bluff +18, Computers +13 (+18 with Drift deceit), Engineering +13, Mysticism +13, Piloting +18\nLanguages\ncommon, sylvan, and six other languages\nOther Abilities\nchange shape (Small humanoid), Drift deceit\nGear\nysoki refractor suit (jetpack), ant sting pistol with 2 batteries (20 charges each), astrogator’s kit\nEcology\nEnvironment\nany\nOrganization\nsolitary or tour group (2–8)\nSpecial Abilities\nDrift Deceit (Su)\nA worieg can spend 1 minute at a ship’s computer secretly changing the ship’s destination to a location the worieg has never been before. The ship must be traveling through the Drift, and the worieg must succeed at a Computers check; the DC for this check is the DC to hack the computer, according to its tier. If the worieg fails at this check, it can try again after 1 day. If the worieg succeeds at this check, the ship’s computer is unaware of the changed destination, and all the ship’s systems continue to indicate the ship is moving toward its original destination. A character searching a ship’s computer for signs of hacking or tampering can detect the worieg’s Drift deceit with a successful DC 23 Computers check, but they must succeed at a DC 28 Computers check to correct the course to the original destination.\nWanderlust (Su)\nA creature struck by a worieg experiences a compulsion to travel and must succeed at a DC 16 Will save or spend the next 1d4 rounds moving at their full speed away from the worieg, looking for some place they’ve never been before. If the creature is able to reach a place it has never been before, they stop, and the effect ends at the end of their turn.\nDescription\nWoriegs are small fey with silky striped fur and intricate antlers, but they travel in search of new worlds and new experiences while disguised as skittermanders, ysoki, or other common Small spacefaring races. Consummate hitchhikers and stowaways, woriegs prefer exploration vessels but will settle for any ship traveling somewhere they’ve never been before. Aboard such a ship, they compulsively clean and maintain the vessel, repairing broken items, organizing supplies, and cooking meals. Worieg crew members are personable and polite but obsessed with stories of unusual locales and unique local lore.\nA worieg passenger isn’t always a blessing on a starship; to ensure they see new sights, a worieg might reprogram the vessel’s navigation computers, concealing their hacking through fey magic. Most crews don’t recognize the change in course until their ship arrives at the new destination. This can result in disastrous ramifications if the starship was carrying timesensitive cargo, but this is of no concern to the worieg who caused the problem.",
+  "type": "fey (shapeshifter)",
+  "category": "alien"
+}

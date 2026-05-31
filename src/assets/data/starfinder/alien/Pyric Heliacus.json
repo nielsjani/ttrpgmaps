@@ -1,0 +1,73 @@
+{
+  "name": "Pyric Heliacus",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pyric Heliacus&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 59",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "NE",
+  "size": "Large",
+  "creature_type": "undead",
+  "init": "+5",
+  "senses": "darkvision 120 ft., see in darkness,",
+  "perception": "+19",
+  "hp": "145",
+  "eac": "22",
+  "kac": "22",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+15",
+  "immunities": "fire,",
+  "speed": "30 ft., fly 30 ft. (Su, average)",
+  "melee": "slam +18 (2d8+10 B & F plus pyric curse; critical burn",
+  "ranged": "arcing pyric beam +18 (3d4+10 F plus pyric curse;",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "eclipse shroud, implosion, pyric fire",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "1/day—\ngreater invisibility, wall of fire\n(pyric fire)\n3/day—\ndispel magic\nConstant—\nsee invisibility, nondetection"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "—",
+    "int": "+2",
+    "wis": "+8",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +19, Intimidate +24, Mysticism +24",
+  "languages": "Aklo; telepathy 60 ft.",
+  "other_abilities": "illuminated, unliving",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Arcing Pyric Beam (Su)",
+      "description": "Once per round as a standard action, a pyric\r\nheliacus can project pyric fire out to a range of 120 feet.\r\nThis attack has the line weapon special property. In addition,\r\nonce per round after hitting a target, the heliacus can bend\r\nthe line, causing it to continue along a new trajectory."
+    },
+    {
+      "name": "Ash Consumption (Su)",
+      "description": "When a creature within 30 feet takes\r\nfire damage, a pyric heliacus regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the harbinger’s CR per round."
+    },
+    {
+      "name": "Eclipse Shroud (Su)",
+      "description": "As a standard action, a heliacus can force a\r\ncreature to succeed at a DC 19 Will saving throw or take 4d8\r\ncold damage and become blinded for 1 minute. An affected\r\ncreature must repeat the saving throw at the start of each of\r\nits turns, taking 4d8 cold damage on a failure and ending the\r\nblinded condition on a success."
+    },
+    {
+      "name": "Illuminated (Su)",
+      "description": "Light within 10 feet of a pyric wraith\r\nincreases by two steps. Light for 10 more feet beyond that\r\nincreases one step. Magical darkness decreases this light\r\nonly if from a source with a CR or level higher than the\r\nheliacus’s CR."
+    },
+    {
+      "name": "Implosion (Su)",
+      "description": "When destroyed, a heliacus implodes, becoming\r\na gravitational singularity, as the spell (+22 to attack, 5d6\r\ndamage), in a random square of its space for 3 rounds."
+    },
+    {
+      "name": "Pyric Fire (Su)",
+      "description": "The fire damage of a pyric harbinger burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 19\nEffect\nA creature that fails the save gains the burning 2d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse."
+    }
+  ],
+  "description": "A few sapient pyric revenants master the spiritual fires within\r\nthem, becoming pyric heliacuses instead of pyric wraiths. With\r\nphenomenal mental discipline, a heliacus can bend fire and light,\r\nincluding cutting victims off from warmth and sight. Heliacuses\r\nhunger for knowledge as much as flesh and spirit, so they\r\nconverse with other beings and seek out repositories of lore.\r\nHowever, heliacuses are imperious and malevolent, consuming\r\nanyone who fails to edify or impress them.\nAs a heliacus’s enlightenment grows, so does its body, until the\r\ncreature tops 12 feet. However, as little more than flame, skin, and\r\nbone, a heliacus weighs only 300 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPyric Heliacus\nSource\nStarfinder #16: The Blind City pg. 59\nPyric Heliacus CR 10\nXP 9,600\nNE Large undead\nInit\n+5;\nSenses\ndarkvision 120 ft., see in darkness,\nsee\r\ninvisibility\n, sense through (life) 30 ft.;\nPerception\n+19\nAura\nalien presence (10 ft., DC 19, sickened 1 round)\nDefense\nHP\n145\nEAC\n22;\nKAC\n22\nFort\n+9;\nRef\n+9;\nWill\n+15\nDefensive Abilities\nash consumption;\nImmunities\nfire,\r\nundead immunities\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, average)\nMelee\nslam +18 (2d8+10 B & F plus pyric curse; critical burn\r\n2d4 F)\nRanged\narcing pyric beam +18 (3d4+10 F plus pyric curse;\r\ncritical burn 2d4 F)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\neclipse shroud, implosion, pyric fire\nSpell-Like Abilities\n(CL 10th)\n1/day—\ngreater invisibility, wall of fire\n(pyric fire)\n3/day—\ndispel magic\nConstant—\nsee invisibility, nondetection\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n—;\nINT\n+2;\nWIS\n+8;\nCHA\n+3\nSkills\nAcrobatics +19, Intimidate +24, Mysticism +24\nLanguages\nAklo; telepathy 60 ft.\nOther Abilities\nilluminated, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nArcing Pyric Beam (Su)\nOnce per round as a standard action, a pyric\r\nheliacus can project pyric fire out to a range of 120 feet.\r\nThis attack has the line weapon special property. In addition,\r\nonce per round after hitting a target, the heliacus can bend\r\nthe line, causing it to continue along a new trajectory.\nAsh Consumption (Su)\nWhen a creature within 30 feet takes\r\nfire damage, a pyric heliacus regains a number of Hit Points\r\nequal to the damage the creature took, up to a maximum\r\nequal to the harbinger’s CR per round.\nEclipse Shroud (Su)\nAs a standard action, a heliacus can force a\r\ncreature to succeed at a DC 19 Will saving throw or take 4d8\r\ncold damage and become blinded for 1 minute. An affected\r\ncreature must repeat the saving throw at the start of each of\r\nits turns, taking 4d8 cold damage on a failure and ending the\r\nblinded condition on a success.\nIlluminated (Su)\nLight within 10 feet of a pyric wraith\r\nincreases by two steps. Light for 10 more feet beyond that\r\nincreases one step. Magical darkness decreases this light\r\nonly if from a source with a CR or level higher than the\r\nheliacus’s CR.\nImplosion (Su)\nWhen destroyed, a heliacus implodes, becoming\r\na gravitational singularity, as the spell (+22 to attack, 5d6\r\ndamage), in a random square of its space for 3 rounds.\nPyric Fire (Su)\nThe fire damage of a pyric harbinger burns body\r\nand spirit, ignoring fire resistance and dealing half damage\r\neven to creatures with fire immunity. A creature burning\r\ndue to this fire can gain no bonuses to end that condition. A\r\ncreature that dies due to pyric fire damage becomes a\r\npyric revenant 1d4 hours later.\nPYRIC CURSE\nType\ncurse;\nSave\nFortitude DC 19\nEffect\nA creature that fails the save gains the burning 2d4\r\ncondition. This flame is pyric fire (see special ability). While\r\naffected, the creature succeeds at saving throws against\r\nother pyric curses of the same or weaker potency.\nCure\n1 save; successful saves against the burning condition are\r\nsuccessful saves against the curse.\nDescription\nA few sapient pyric revenants master the spiritual fires within\r\nthem, becoming pyric heliacuses instead of pyric wraiths. With\r\nphenomenal mental discipline, a heliacus can bend fire and light,\r\nincluding cutting victims off from warmth and sight. Heliacuses\r\nhunger for knowledge as much as flesh and spirit, so they\r\nconverse with other beings and seek out repositories of lore.\r\nHowever, heliacuses are imperious and malevolent, consuming\r\nanyone who fails to edify or impress them.\nAs a heliacus’s enlightenment grows, so does its body, until the\r\ncreature tops 12 feet. However, as little more than flame, skin, and\r\nbone, a heliacus weighs only 300 pounds.",
+  "type": "undead",
+  "category": "alien"
+}

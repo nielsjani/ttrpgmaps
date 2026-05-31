@@ -1,0 +1,48 @@
+{
+  "name": "Ghoul",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghoul&Family=Ghoul",
+  "source": "Alien Archive 2 pg. 61",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "18",
+  "eac": "12",
+  "kac": "12",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+3",
+  "immunities": "undead immunities",
+  "speed": "30 ft.",
+  "melee": "bite +5 (1d6+3 P plus ghoul fever and paralysis) or claw +5 (1d6+3 S plus paralysis)",
+  "ranged": "azimuth laser pistol +8 (1d4+1 F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +5, Athletics +5, Stealth +10",
+  "languages": "Common, Eoxian",
+  "other_abilities": "unliving",
+  "gear": "azimuth laser pistol with 1 battery (20 charges)",
+  "environment": "any",
+  "organization": "solitary, gang (2–6), or pack (7–12)",
+  "special_abilities": [
+    {
+      "name": "Paralysis (Ex)",
+      "description": "When a ghoul deals damage to a creature with its bite or claw attack, the target must succeed at a DC 12 Fortitude saving throw or gain the paralyzed condition for 1d4+1 rounds. As a full action, the target can attempt a new saving throw to end the condition. Creatures with the elf subtype are immune to a ghoul’s paralysis.\nGhoul Fever\nType\ndisease (injury);\nSave\nFortitude DC 12\nTrack\nphysical;\nFrequency\n1/day\nEffect\nA creature that dies of ghoul fever rises as a ghoul within 24 hours.\nCure\n1 save"
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nGhoul Graft Template\n-\nGhast (Ghoul) Graft Template\n-\nLacedon (Ghoul) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhoul\nSource\nAlien Archive 2 pg. 61\nIn ages past, ghouls shunned society and haunted cemeteries and city sewers. However, ghouls in the Pact Worlds are more likely to live in cities, especially settlements inhabited primarily by undead. Ghouls are resourceful and hardy, and make good workers across a variety of industries. Their adaptability is striking even for undead creatures, and ghouls who are patient and dedicated can become excellent researchers, scholars, soldiers, laborers, and more. Ghouls of all proficiencies and backgrounds are especially populous on the undead planet of Eox.\nGhouls spread—sometimes purposefully—a virulent disease known as ghoul fever through their saliva. As creatures that die of ghoul fever often rise as ghouls themselves, a population explosion can easily result. However, even in ghoul society, it is frowned upon to inflict ghoul fever on large numbers of living creatures. Such behavior leads to unwanted attention from authorities, particularly on worlds adjacent to or in the Pact Worlds.\nRather than spread the undead scourge they carry inside them, ambitious ghouls instead seek training and selfimprovement in pursuits that interest them. Many of these ghouls become ghoul shock troopers. Others find that technology suits them and become mechanics or technomancers, fusing their shrewd understanding of their own organic biology with the elegance of machinery. Ghoul envoys are rare, since undead are stubbornly independent as a rule, and few living crew members would follow the commands of someone so off-putting as a ghoul.\nWhether on Eox or beyond, certain powerful ghouls known as ghasts can affect even elves with their paralysis, and exude a powerful stench; these undead usually hold important positions in ghoul society. Ghouls that lurk underwater and in coastal areas are called lacedons. In many cases, powerful ghouls and lacedons are high-ranking members of the military on Eox or even the Corpse Fleet.\nAliens in the \"Ghoul\" Family\nName\nCR\nGhoul\n1\nGhoul Shock Trooper\n11\nGhoul\nSource\nAlien Archive 2 pg. 60\n,\nStarfinder #3: Splintered Worlds pg. 54\nGhoul CR 1\nXP 400\nCE Medium undead\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n18\nEAC\n12;\nKAC\n12\nFort\n+3;\nRef\n+3;\nWill\n+3\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft.\nMelee\nbite +5 (1d6+3 P plus ghoul fever and paralysis) or claw +5 (1d6+3 S plus paralysis)\nRanged\nazimuth laser pistol +8 (1d4+1 F; critical burn 1d4)\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+1\nSkills\nAcrobatics +5, Athletics +5, Stealth +10\nLanguages\nCommon, Eoxian\nOther Abilities\nunliving\nGear\nazimuth laser pistol with 1 battery (20 charges)\nEcology\nEnvironment\nany\nOrganization\nsolitary, gang (2–6), or pack (7–12)\nSpecial Abilities\nParalysis (Ex)\nWhen a ghoul deals damage to a creature with its bite or claw attack, the target must succeed at a DC 12 Fortitude saving throw or gain the paralyzed condition for 1d4+1 rounds. As a full action, the target can attempt a new saving throw to end the condition. Creatures with the elf subtype are immune to a ghoul’s paralysis.\nGhoul Fever\nType\ndisease (injury);\nSave\nFortitude DC 12\nTrack\nphysical;\nFrequency\n1/day\nEffect\nA creature that dies of ghoul fever rises as a ghoul within 24 hours.\nCure\n1 save\nExtra Content\nThe following extra content was found for this creature:\n-\nGhoul Graft Template\n-\nGhast (Ghoul) Graft Template\n-\nLacedon (Ghoul) Graft Template",
+  "type": "undead",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Ghoul.png"
+}

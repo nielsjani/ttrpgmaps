@@ -1,0 +1,51 @@
+{
+  "name": "Oni, Oni, Spirit",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Oni, Spirit&Family=Oni",
+  "source": "Alien Archive 2 pg. 88",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LE",
+  "size": "Tiny",
+  "creature_type": "outsider (native, oni)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.,",
+  "perception": "+7",
+  "hp": "20",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+1",
+  "ref": "+6",
+  "will": "+4",
+  "speed": "10 ft., fly 30 ft. (Su, average)",
+  "melee": "bite +8 (1d6 P) or gore +8 (1d6 P plus oni venom)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "spell_like_abilities": {
+    "caster_info": "CL 2nd",
+    "spells": "1/week—\ncontact other plane\n1/day—\ncommand\n(DC 11),\ninvisibility\n(self only)\nAt will—\npsychokinetic hand\nConstant—\ndetect magic"
+  },
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +12, Bluff +7, Mysticism +7, Sense Motive +7, Stealth +12",
+  "languages": "Common",
+  "other_abilities": "mask symbiosis",
+  "environment": "any",
+  "organization": "solitary, pair, or rack (3–12)",
+  "special_abilities": [
+    {
+      "name": "Mask Symbiosis (Ex)",
+      "description": "A spirit oni can be worn as a mask by a willing Small or Medium creature. While wearing the oni in this way, the wearer can see through the oni’s eyes and speak through its mouth, although the wearer retains its own senses and voice. The oni grants its wearer a +2 insight bonus to Perception checks. The spirit oni remains a separate creature and must detach from the wearer’s face (as a move action) if it wishes to take any action of its own (including attacking or using a spell-like ability).\nOni Venom\nType\npoison (injury);\nSave\nFortitude DC 11\nTrack\nCharisma (special);\nOnset\n1 round;\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Weakened—Impaired—Pliable; pliable is the end state.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "While most oni transition from their spirit state to a physical form on their own, spirit oni are instead forced into their lesser forms through the work of evil spellcasters. These spellcasters perform a unique ritual that allows them to draw upon an unmanifested spirit and bind it to a unique mask. These masks are key to these rituals and are usually crafted with fearsome and fiendish visages that resemble typical oni faces. If the spellcaster’s ritual is successful, a spirit oni enters the mask and transforms it into an animated, living creature bound to the spellcaster.\nThe ritual to create the spirit oni robs the oni of the opportunity to ever coalesce into a humanoid form on its own and effectively traps it in the mask indefinitely. This leads many spirit oni to develop foul tempers and act abrasive toward others, including their masters. A spellcaster will often make use of their spirit oni’s harsh nature by wearing the outsider as a mask to appear more intimidating. In cases where intimidation fails, such a spellcaster can then unleash the spirit oni against their foes. If a spirit oni’s master dies, the oni is left to fend for itself and is free to live its own life. Spirit oni are cowardly and dishonorable creatures, however, and are usually quick to seek out other oni in hopes that these new masters would grant the spirit oni positions of power that befit their larger-than-life personalities.",
+  "extra_content": "The following extra content was found for this creature:\n-\nOni (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOni\nSource\nAlien Archive 2 pg. 88\nOni are a race of malevolent spirits given physical form. Most oni begin their existence as kami, spirits tasked with the protection of a specific part of the natural world, but for some reason reject their duties and turn to evil. Less often, the souls of particularly vile mortals can become oni upon death. When oni first form, they are intangible, powerless spirits. In places with strong connections to evil, or as a result of unspeakable rituals, these formless spirits can gain physical bodies drawn from a humanoid species, often one predisposed to war— though their spiritual origins also give them the power to shapeshift. There are known to be oni that resemble drow, humans, giants, shirrens, and vesk, but among the most common oni are the ja noi, who have ties to the violent and militarist race of\nhobgoblins\n.\nJa noi are distinct from hobgoblins in appearance due to their bright-red color, prominent ridges on their brow and forehead, a near-permanent facial grimace, and even greater size and muscular frames. Ja noi stand over 6 feet tall and weigh roughly 220 pounds. A ja noi is particularly driven to experience the sensations of battle, actively seeking to lead armies and build empires. Ja noi fight in close combat if possible, and while perfectly capable of reveling in victory won with starships and huge fighting machines, they take every opportunity to lead infantry assaults and fight in face-to-face confrontations. Ja noi often gather hobgoblin soldiers to fulfill their need to command troops. For their part, hobgoblins normally embrace the presence of a ja noi within their ranks, seeing them as among the most perfect expressions of the hobgoblin form and treating them as mighty heroes.\nSome hobgoblin groups interact so closely with ja noi that children are sometimes born to one ja noi parent and one hobgoblin parent. Known as kanabo, a term that means “the strongest,” these oni-blooded goblinoids breed true with both ja noi and other goblinoids. They have innate powers that often make them champions of their people, though they also often develop an independent streak that causes them to reject hobgoblin rules and society. Kanabo share the size of their oni ancestors, but their appearance is much more variable, ranging from stout hobgoblins to forms closer to half-orcs, and some even appear nearly human. The average kanabo is over 6 feet tall and weighs 250 pounds.\nAliens in the \"Oni\" Family\nName\nCR\nJa Noi\n5\nKanabo Commando\n3\nOni, Spirit\n2\nTsabagu\n10\nOni, Oni, Spirit\nSource\nStarfinder #25: The Chimera Mystery pg. 59\nOni, Spirit CR 2\nXP 600\nLE Tiny outsider (native, oni)\nInit\n+4;\nSenses\ndarkvision 60 ft.,\ndetect magic\n;\nPerception\n+7\nDefense\nHP\n20\nEAC\n14;\nKAC\n16\nFort\n+1;\nRef\n+6;\nWill\n+4\nDefensive Abilities\nfast healing 2\nOffense\nSpeed\n10 ft., fly 30 ft. (Su, average)\nMelee\nbite +8 (1d6 P) or gore +8 (1d6 P plus oni venom)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nSpell-Like Abilities\n(CL 2nd)\n1/week—\ncontact other plane\n1/day—\ncommand\n(DC 11),\ninvisibility\n(self only)\nAt will—\npsychokinetic hand\nConstant—\ndetect magic\nStatistics\nSTR\n-2;\nDEX\n+4;\nCON\n+1;\nINT\n+1;\nWIS\n+1;\nCHA\n+2\nSkills\nAcrobatics +12, Bluff +7, Mysticism +7, Sense Motive +7, Stealth +12\nLanguages\nCommon\nOther Abilities\nmask symbiosis\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or rack (3–12)\nSpecial Abilities\nMask Symbiosis (Ex)\nA spirit oni can be worn as a mask by a willing Small or Medium creature. While wearing the oni in this way, the wearer can see through the oni’s eyes and speak through its mouth, although the wearer retains its own senses and voice. The oni grants its wearer a +2 insight bonus to Perception checks. The spirit oni remains a separate creature and must detach from the wearer’s face (as a move action) if it wishes to take any action of its own (including attacking or using a spell-like ability).\nOni Venom\nType\npoison (injury);\nSave\nFortitude DC 11\nTrack\nCharisma (special);\nOnset\n1 round;\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Weakened—Impaired—Pliable; pliable is the end state.\nCure\n2 consecutive saves\nDescription\nWhile most oni transition from their spirit state to a physical form on their own, spirit oni are instead forced into their lesser forms through the work of evil spellcasters. These spellcasters perform a unique ritual that allows them to draw upon an unmanifested spirit and bind it to a unique mask. These masks are key to these rituals and are usually crafted with fearsome and fiendish visages that resemble typical oni faces. If the spellcaster’s ritual is successful, a spirit oni enters the mask and transforms it into an animated, living creature bound to the spellcaster.\nThe ritual to create the spirit oni robs the oni of the opportunity to ever coalesce into a humanoid form on its own and effectively traps it in the mask indefinitely. This leads many spirit oni to develop foul tempers and act abrasive toward others, including their masters. A spellcaster will often make use of their spirit oni’s harsh nature by wearing the outsider as a mask to appear more intimidating. In cases where intimidation fails, such a spellcaster can then unleash the spirit oni against their foes. If a spirit oni’s master dies, the oni is left to fend for itself and is free to live its own life. Spirit oni are cowardly and dishonorable creatures, however, and are usually quick to seek out other oni in hopes that these new masters would grant the spirit oni positions of power that befit their larger-than-life personalities.\nExtra Content\nThe following extra content was found for this creature:\n-\nOni (Creature Subtype) Graft Template",
+  "type": "outsider (native, oni)",
+  "category": "alien"
+}

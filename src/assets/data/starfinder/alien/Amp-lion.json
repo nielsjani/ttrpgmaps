@@ -1,0 +1,62 @@
+{
+  "name": "Amp-lion",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Amp-lion&Family=None",
+  "source": "Starfinder #51: Into the Dataverse pg. 54",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "vermin",
+  "init": "+4",
+  "senses": "blindsense (scent [metal and plastic only]) 60 ft., blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+15",
+  "will": "+12",
+  "immunities": "electricity;",
+  "resistances": "acid 10",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft., burrow 20 ft.",
+  "melee": "bite +26 (3d12+21 A & P plus swallow whole; critical corrode 1d6) or claw +26 (2d12+21 S plus grab)",
+  "ranged": "corrosive spit +23 (5d6+13 A; critical corrode 1d6)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with claws)",
+  "offensive_abilities": "mag-well (15-ft.-burst, 5d6 E plus pulled 10 ft., DC 19), scrapper, swallow whole (3d12+21 A, EAC 27, KAC 25, 56 HP)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "+6",
+    "int": "—",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Athletics +28, Survival +23",
+  "other_abilities": "mindless",
+  "environment": "any warm",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Corrosive Spit (Ex)",
+      "description": "As a ranged attack, an amp-lion can spray a jet of acid from its stomach with a range of 60 feet. This attack has the line and unwieldy properties."
+    },
+    {
+      "name": "Electromagnetic Field (Ex)",
+      "description": "The amp-lion’s complex digestive system emits a weak but constant electromagnetic field as it breaks down electronics. A technological construct that begins its turn in this aura is staggered for 1 round (DC 19 Fortitude negates)."
+    },
+    {
+      "name": "Mag-Well (Ex)",
+      "description": "Once every 1d4 rounds as a standard action, an amp-lion can surge with electrical power, drawing in all unattended metal and technological objects within 15 feet toward it. Each creature in the area takes 6d6 electricity damage, and technological constructs, as well as those wielding or wearing powered weapons or wearing powered armor, are pulled 10 feet closer to the amp-lion. This movement doesn’t provoke attacks of opportunity. A creature takes half the damage and negates the pull effect with a successful DC 19 Reflex save."
+    },
+    {
+      "name": "Scrapper (Ex)",
+      "description": "An amp-lion’s stomach acid is perfect for tearing apart electronic devices for digestion. An amp-lion gains a +4 racial bonus to sunder combat maneuvers, and damage from its bite and corrosive acid attacks treats the hardness of objects made of metal and plastic as 10 lower than normal. In addition, an amp-lion can burrow through metal and plastic as though it were dirt."
+    }
+  ],
+  "description": "Amp-lions are massive invertebrate insects that evolved to feed on inorganic matter, usually technological scrap, live wires, and plastic deposits. Different amp-lion species appear on various technologically advanced planets, differing in shape, coloration, and number of appendages, but all share the ability to digest materials used for technological production. Underground amp-lion dens can be detected by tracing the creatures’ weak electromagnetic field. Even a solitary amp-lion poses a dangerous threat, as they’re known to swallow whole robots and those wearing heavy powered armor. Exterminating just one of these vermin could require a large group of skilled warriors wielding analog weapons.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAmp-lion\nSource\nStarfinder #51: Into the Dataverse pg. 54\nAmp-lion CR 13\nXP 25,600\nN Huge vermin\nInit\n+4;\nSenses\nblindsense (scent [metal and plastic only]) 60 ft., blindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+23\nAura\nelectromagnetic field (30 ft., Fortitude DC 19)\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+15;\nWill\n+12\nImmunities\nelectricity;\nResistances\nacid 10\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft., burrow 20 ft.\nMelee\nbite +26 (3d12+21 A & P plus swallow whole; critical corrode 1d6) or claw +26 (2d12+21 S plus grab)\nRanged\ncorrosive spit +23 (5d6+13 A; critical corrode 1d6)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with claws)\nOffensive Abilities\nmag-well (15-ft.-burst, 5d6 E plus pulled 10 ft., DC 19), scrapper, swallow whole (3d12+21 A, EAC 27, KAC 25, 56 HP)\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n+6;\nINT\n—;\nWIS\n+1;\nCHA\n-3\nSkills\nAthletics +28, Survival +23\nOther Abilities\nmindless\nEcology\nEnvironment\nany warm\nOrganization\nsolitary or pair\nSpecial Abilities\nCorrosive Spit (Ex)\nAs a ranged attack, an amp-lion can spray a jet of acid from its stomach with a range of 60 feet. This attack has the line and unwieldy properties.\nElectromagnetic Field (Ex)\nThe amp-lion’s complex digestive system emits a weak but constant electromagnetic field as it breaks down electronics. A technological construct that begins its turn in this aura is staggered for 1 round (DC 19 Fortitude negates).\nMag-Well (Ex)\nOnce every 1d4 rounds as a standard action, an amp-lion can surge with electrical power, drawing in all unattended metal and technological objects within 15 feet toward it. Each creature in the area takes 6d6 electricity damage, and technological constructs, as well as those wielding or wearing powered weapons or wearing powered armor, are pulled 10 feet closer to the amp-lion. This movement doesn’t provoke attacks of opportunity. A creature takes half the damage and negates the pull effect with a successful DC 19 Reflex save.\nScrapper (Ex)\nAn amp-lion’s stomach acid is perfect for tearing apart electronic devices for digestion. An amp-lion gains a +4 racial bonus to sunder combat maneuvers, and damage from its bite and corrosive acid attacks treats the hardness of objects made of metal and plastic as 10 lower than normal. In addition, an amp-lion can burrow through metal and plastic as though it were dirt.\nDescription\nAmp-lions are massive invertebrate insects that evolved to feed on inorganic matter, usually technological scrap, live wires, and plastic deposits. Different amp-lion species appear on various technologically advanced planets, differing in shape, coloration, and number of appendages, but all share the ability to digest materials used for technological production. Underground amp-lion dens can be detected by tracing the creatures’ weak electromagnetic field. Even a solitary amp-lion poses a dangerous threat, as they’re known to swallow whole robots and those wearing heavy powered armor. Exterminating just one of these vermin could require a large group of skilled warriors wielding analog weapons.",
+  "type": "vermin",
+  "category": "alien"
+}

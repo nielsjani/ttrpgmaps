@@ -1,0 +1,62 @@
+{
+  "name": "Limina",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Limina&Family=None",
+  "source": "Starfinder #32: The Starstone Blockade pg. 59",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+10",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "255",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+16",
+  "ref": "+16",
+  "will": "+19",
+  "dr": "10/cold iron",
+  "sr": "27",
+  "resistances": "cold 10, fire 10;",
+  "weaknesses": "susceptible to",
+  "speed": "30 ft.",
+  "melee": "zero-edge longsword +25 (7d8+23 S; critical severe wound [DC 24])",
+  "ranged": "wasp sting pistol +23 (5d8+16 A & B; critical corrode 3d6)",
+  "offensive_abilities": "grasping vines",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th",
+    "spells": "1/day—\nplanar barrier\n,\nplane shift\n(Elemental Planes, First World, and Material Plane),\nterraform\n(only an area around or adjacent to a First World breach)\n3/day—\ncall cosmos\n,\ncommune with nature\n,\nheat leech\n(DC 25),\nsummon allies\n(1 limina 35% or 1 hulsa 60%)\nAt will—\ndimension door\n,\ndisplacement\n(self only)\nConstant—\nlife bubble\n(self only)"
+  },
+  "ability_scores": {
+    "str": "+7",
+    "dex": "+10",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +33, Bluff +33, Mysticism +28",
+  "languages": "Common, First Speech, Gnome; truespeech",
+  "gear": "wasp sting pistol with 2 high-capacity batteries (40 charges each), zero-edge longsword",
+  "environment": "any First World or Material Plane",
+  "organization": "solitary or rift (2–4)",
+  "special_abilities": [
+    {
+      "name": "Commune with Nature (Sp)",
+      "description": "When a limina casts commune with nature, it can sense any First World breaches or places where the dimensional barrier between the First World and Material Plane is thin, within the spell’s range."
+    },
+    {
+      "name": "Grasping Vines (Su)",
+      "description": "As a standard action, a limina can use the xenodruid mystic’s grasping vines connection power (Reflex DC 24) as if the limina was a 16th-level mystic."
+    },
+    {
+      "name": "Susceptible to Dimensional Anchor (Su)",
+      "description": "When targeted by\ndimensional anchor\nor similar effects, a limina’s spell resistance does not apply, and the limina takes 4d10 points of damage in addition to the normal effects of the spell or other effect."
+    }
+  ],
+  "description": "A limina embodies a tear in the fabric of reality between the First World and the Material Plane. Known as a “breach” or a “bloom,” these dimensional rents create beachheads of stability in the First World and zones of wild, verdant growth on the Material Plane. Unlike many fey, the limina are not abandoned divine concepts, instead created by the First World itself in response to breaches. They are kin to the similarly created calecor and offer loyalty to the Eldest Ng. Limina are haughty and exacting, and decide whether a breach should be tolerated or sealed. They crave secrets to curry favor with their Eldest, and the promise of a valuable secret is incentive enough to open a dialogue or negotiation with one. Liminas know the ritual to open or seal a breach from the Material Plane or First World, which requires the sacrifice of a fey or mortal creature, respectively.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLimina\nSource\nStarfinder #32: The Starstone Blockade pg. 59\nLimina CR 16\nXP 76,800\nN Medium fey\nInit\n+10;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+28\nDefense\nHP\n255\nEAC\n29;\nKAC\n30\nFort\n+16;\nRef\n+16;\nWill\n+19\nDefensive Abilities\nfast healing 10;\nDR\n10/cold iron;\nResistances\ncold 10, fire 10;\nSR\n27\nWeaknesses\nsusceptible to\ndimensional anchor\nOffense\nSpeed\n30 ft.\nMelee\nzero-edge longsword +25 (7d8+23 S; critical severe wound [DC 24])\nRanged\nwasp sting pistol +23 (5d8+16 A & B; critical corrode 3d6)\nOffensive Abilities\ngrasping vines\nSpell-Like Abilities\n(CL 16th)\n1/day—\nplanar barrier\n,\nplane shift\n(Elemental Planes, First World, and Material Plane),\nterraform\n(only an area around or adjacent to a First World breach)\n3/day—\ncall cosmos\n,\ncommune with nature\n,\nheat leech\n(DC 25),\nsummon allies\n(1 limina 35% or 1 hulsa 60%)\nAt will—\ndimension door\n,\ndisplacement\n(self only)\nConstant—\nlife bubble\n(self only)\nStatistics\nSTR\n+7;\nDEX\n+10;\nCON\n+0;\nINT\n+5;\nWIS\n+2;\nCHA\n+5\nSkills\nAcrobatics +33, Bluff +33, Mysticism +28\nLanguages\nCommon, First Speech, Gnome; truespeech\nGear\nwasp sting pistol with 2 high-capacity batteries (40 charges each), zero-edge longsword\nEcology\nEnvironment\nany First World or Material Plane\nOrganization\nsolitary or rift (2–4)\nSpecial Abilities\nCommune with Nature (Sp)\nWhen a limina casts commune with nature, it can sense any First World breaches or places where the dimensional barrier between the First World and Material Plane is thin, within the spell’s range.\nGrasping Vines (Su)\nAs a standard action, a limina can use the xenodruid mystic’s grasping vines connection power (Reflex DC 24) as if the limina was a 16th-level mystic.\nSusceptible to Dimensional Anchor (Su)\nWhen targeted by\ndimensional anchor\nor similar effects, a limina’s spell resistance does not apply, and the limina takes 4d10 points of damage in addition to the normal effects of the spell or other effect.\nDescription\nA limina embodies a tear in the fabric of reality between the First World and the Material Plane. Known as a “breach” or a “bloom,” these dimensional rents create beachheads of stability in the First World and zones of wild, verdant growth on the Material Plane. Unlike many fey, the limina are not abandoned divine concepts, instead created by the First World itself in response to breaches. They are kin to the similarly created calecor and offer loyalty to the Eldest Ng. Limina are haughty and exacting, and decide whether a breach should be tolerated or sealed. They crave secrets to curry favor with their Eldest, and the promise of a valuable secret is incentive enough to open a dialogue or negotiation with one. Liminas know the ritual to open or seal a breach from the Material Plane or First World, which requires the sacrifice of a fey or mortal creature, respectively.",
+  "type": "fey",
+  "category": "alien"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Aanung-an",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Aanung-an&Family=None",
+  "source": "Starfinder #25: The Chimera Mystery pg. 55",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+1",
+  "senses": "darkvision 60 ft., blindsense (thought) 30 ft.;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+9",
+  "dr": "5/magic",
+  "sr": "15",
+  "immunities": "undead immunities;",
+  "speed": "30 ft., fly 20 ft. (Su, perfect)",
+  "melee": "claw +8 (1d4+4 S plus grab)",
+  "offensive_abilities": "ritual scar",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th; ranged +8",
+    "spells": "1/day—\ninflict pain\n(DC 17),\nmind thrust\n(2nd level, DC 17)\n3/day—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\nfear\n(DC 16)\nAt will—\nghost sound\n(DC 15),\ntelekinetic projectile"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "—",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+3"
+  },
+  "skills": "Athletics +10, Intimidate +15, Mysticism +15, Stealth +15",
+  "languages": "Aklo, Common, up to three others; limited telepathy 30 ft.",
+  "other_abilities": "unliving",
+  "environment": "any",
+  "organization": "solitary or circle (1 plus 3–5 occult zombies)",
+  "special_abilities": [
+    {
+      "name": "Ritual Scar (Su)",
+      "description": "An aanung-an that starts its turn grappling a creature can attempt to carve a ritual scar into its victim’s body as a standard action, afflicting it with potent magic. The aanung-an attempts a Mysticism check (DC = 20 + target’s level or CR). On a success, the aanung-an renews the grapple, and the target takes 1d6+4 slashing damage as the aanung-an claws a symbol into its body. The target must then succeed at a DC 15 Will saving throw or suffer one of the following effects of the aanung-an’s choice:\nbestow curse\n,\nslow\n, or\nsuggestion\n. These effects function at the aanung-an’s caster level. Certain aanung-ans might inflict different or unique effects with this ability, at the GM’s discretion."
+    }
+  ],
+  "description": "Aanung-ans, sometimes called the occulted dead, are rare undead creatures that rise from the corpses of those who died while performing vile and malignant occult rituals. Rising as gangly, emaciated corpses attired in ritual trappings, aanung-ans wield obscure lore in service to unknowable agendas. Some scholars theorize that aanung-ans are somehow linked to one another and are attempting to enact a galaxywide ritual, though none agree on their final goal. Conjecture runs from summoning an eldritch horror from beyond space and time to snuffing out all life in the blink of an eye.\nWhile aanung-ans are almost always solitary, rumors persist of individual aanung-ans raising small cabals of zombies to function as bodyguards and servants. Such aanung-ans are likely very powerful spellcasters with sinister schemes.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAanung-an (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAanung-an\nSource\nStarfinder #25: The Chimera Mystery pg. 55\nAanung-an CR 4\nXP 1,200\nLE Medium undead\nInit\n+1;\nSenses\ndarkvision 60 ft., blindsense (thought) 30 ft.;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+9\nDR\n5/magic;\nImmunities\nundead immunities;\nSR\n15\nOffense\nSpeed\n30 ft., fly 20 ft. (Su, perfect)\nMelee\nclaw +8 (1d4+4 S plus grab)\nOffensive Abilities\nritual scar\nSpell-Like Abilities\n(CL 4th; ranged +8)\n1/day—\ninflict pain\n(DC 17),\nmind thrust\n(2nd level, DC 17)\n3/day—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\nfear\n(DC 16)\nAt will—\nghost sound\n(DC 15),\ntelekinetic projectile\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n—;\nINT\n+5;\nWIS\n+1;\nCHA\n+3\nSkills\nAthletics +10, Intimidate +15, Mysticism +15, Stealth +15\nLanguages\nAklo, Common, up to three others; limited telepathy 30 ft.\nOther Abilities\nunliving\nEcology\nEnvironment\nany\nOrganization\nsolitary or circle (1 plus 3–5 occult zombies)\nSpecial Abilities\nRitual Scar (Su)\nAn aanung-an that starts its turn grappling a creature can attempt to carve a ritual scar into its victim’s body as a standard action, afflicting it with potent magic. The aanung-an attempts a Mysticism check (DC = 20 + target’s level or CR). On a success, the aanung-an renews the grapple, and the target takes 1d6+4 slashing damage as the aanung-an claws a symbol into its body. The target must then succeed at a DC 15 Will saving throw or suffer one of the following effects of the aanung-an’s choice:\nbestow curse\n,\nslow\n, or\nsuggestion\n. These effects function at the aanung-an’s caster level. Certain aanung-ans might inflict different or unique effects with this ability, at the GM’s discretion.\nDescription\nAanung-ans, sometimes called the occulted dead, are rare undead creatures that rise from the corpses of those who died while performing vile and malignant occult rituals. Rising as gangly, emaciated corpses attired in ritual trappings, aanung-ans wield obscure lore in service to unknowable agendas. Some scholars theorize that aanung-ans are somehow linked to one another and are attempting to enact a galaxywide ritual, though none agree on their final goal. Conjecture runs from summoning an eldritch horror from beyond space and time to snuffing out all life in the blink of an eye.\nWhile aanung-ans are almost always solitary, rumors persist of individual aanung-ans raising small cabals of zombies to function as bodyguards and servants. Such aanung-ans are likely very powerful spellcasters with sinister schemes.\nExtra Content\nThe following extra content was found for this creature:\n-\nAanung-an (Creature Subtype) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

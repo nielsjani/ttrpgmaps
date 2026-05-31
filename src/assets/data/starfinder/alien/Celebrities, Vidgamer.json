@@ -1,0 +1,45 @@
+{
+  "name": "Celebrities, Vidgamer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vidgamer&Family=Celebrities",
+  "source": "Interstellar Species pg. 156",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "reptilian humanoid (kobold)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "35",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+6",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "ranged": "frost subduer +9 (1d3+3 nonlethal C; critical staggered)",
+  "offensive_abilities": "get good",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "-2",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Bluff +10, Computers +15, Engineering +15, Intimidate +10, Physical Science +10, Profession (vidgamer) +15",
+  "languages": "Common, Draconic",
+  "gear": "second skin, frost subduer with 1 battery (20 charges), tier 2 computer (miniaturization [2])",
+  "special_abilities": [
+    {
+      "name": "Get Good (Ex)",
+      "description": "When a vidgamer scores a critical hit against a creature within 60 feet, they can also attempt an Intimidate check to demoralize that creature as a reaction before the end of their turn. When a vidgamer rolls a natural 20 for a Profession (vidgamer) check to play a game, they can also attempt to demoralize one other participant in that game as a reaction before the end of their turn."
+    }
+  ],
+  "description": "Vidgamers are professionals who game competitively, filling stadiums with cheering fans as they play in competitive tournaments. To make it to the professional stage, vidgamers must have sharpened senses and near-perfect reflexes that set them apart from millions of other gamers. Like other athletes, they train for hours every day to stay in peak condition.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCelebrities\nSource\nInterstellar Species pg. 156\nCelebrities shine in ways that often draw admiration, adoration, or amusement from fans across their home worlds and beyond. They regularly engage with fans through interviews, social media, and special appearances, boosting their sway in the court of public opinion. Some celebrities use their massive platforms to influence policy and elections, and it’s not uncommon for groups with specific political or corporate interests to secretly plant or sponsor celebrities to advance particular agendas.\nAliens in the \"Celebrities\" Family\nName\nCR\nInfluencer\n7\nPerformer\n4\nStreamer\n2\nVidgamer\n3\nCelebrities, Vidgamer\nSource\nInterstellar Species pg. 156\nVidgamer CR 3\nXP 800\nKobold\nN Small reptilian humanoid (kobold)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n35\nEAC\n15;\nKAC\n16\nFort\n+2;\nRef\n+4;\nWill\n+6\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nRanged\nfrost subduer +9 (1d3+3 nonlethal C; critical staggered)\nOffensive Abilities\nget good\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n-2;\nINT\n+2;\nWIS\n+1;\nCHA\n+2\nSkills\nBluff +10, Computers +15, Engineering +15, Intimidate +10, Physical Science +10, Profession (vidgamer) +15\nLanguages\nCommon, Draconic\nGear\nsecond skin, frost subduer with 1 battery (20 charges), tier 2 computer (miniaturization [2])\nSpecial Abilities\nGet Good (Ex)\nWhen a vidgamer scores a critical hit against a creature within 60 feet, they can also attempt an Intimidate check to demoralize that creature as a reaction before the end of their turn. When a vidgamer rolls a natural 20 for a Profession (vidgamer) check to play a game, they can also attempt to demoralize one other participant in that game as a reaction before the end of their turn.\nDescription\nVidgamers are professionals who game competitively, filling stadiums with cheering fans as they play in competitive tournaments. To make it to the professional stage, vidgamers must have sharpened senses and near-perfect reflexes that set them apart from millions of other gamers. Like other athletes, they train for hours every day to stay in peak condition.",
+  "type": "reptilian humanoid (kobold)",
+  "environment": "—",
+  "category": "alien"
+}

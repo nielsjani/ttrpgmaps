@@ -1,0 +1,57 @@
+{
+  "name": "Autofly Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Autofly Swarm&Family=None",
+  "source": "Starfinder #27: Deceivers’ Moon pg. 55",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CN",
+  "size": "Diminutive",
+  "creature_type": "construct (swarm, technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+0",
+  "immunities": "construct immunities, swarm immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "10 ft., fly 30 ft. (Ex, perfect)",
+  "melee": "swarm attack (1d4 P plus consume flesh)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 12)",
+  "ability_scores": {
+    "str": "-3",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Stealth +13",
+  "languages": "Common (can’t speak any language)",
+  "other_abilities": "rebuild, unliving",
+  "environment": "any (Aballon)",
+  "organization": "solitary or tempest (5–20)",
+  "special_abilities": [
+    {
+      "name": "Consume Flesh (Ex)",
+      "description": "The autofly swarm strips the flesh from living creatures and breaks down the material into components it can use to create more autoflies. For every 2 damage dealt by an autofly swarm to living creatures in a single round, the autofly swarm regains 1 Hit Point."
+    },
+    {
+      "name": "Rebuild (Ex)",
+      "description": "The autofly swarm can also repair other constructs. Once per day as a full action, the autofly swarm can restore 1d8 Hit Points to any constructs or objects that share its space."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Like anacites, autoflies are solar-powered constructs, though they can function at reduced capacity away from light. In areas of darkness, the autofly swarm gains the staggered condition."
+    }
+  ],
+  "description": "Originating from Aballon, an autofly swarm consists of hundreds of 6-inch-long metallic insects. Because they are designed to rebuild both themselves and other constructs, constructs see them as beneficial, potentially immortal guardians. However, due to their nature as protectors, they are ravenous when around most living things.\nWhile autofly swarms can fix physical damage to constructs and machines, they cannot restore data or uncorrupt code. Over the centuries, their original programming has corrupted, so even though they were once designed to serve a particular area, they now roam the blasted lands of Aballon and beyond. They are attracted to creatures of flesh and blood for consumption, but they are also drawn toward high electrical activity, such as that produced by large machines, constructs, and cities (which are usually also filled with living beings).\nAnacites do not consider autoflies to be part of their own species, though the swarms can be incredibly useful to them. However, autoflies are mindless and can’t be reasoned with, a fact that frustrates most anacites. Since their discovery on Aballon, autoflies have been accidentally brought aboard the ships of unfortunate starfarers and have now spread across the galaxy, despite all attempts to contain them.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAutofly Swarm\nSource\nStarfinder #27: Deceivers’ Moon pg. 55\nAutofly Swarm CR 3\nXP 800\nCN Diminutive construct (swarm, technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+0\nDefensive Abilities\nswarm defenses;\nImmunities\nconstruct immunities, swarm immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\n10 ft., fly 30 ft. (Ex, perfect)\nMelee\nswarm attack (1d4 P plus consume flesh)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 12)\nStatistics\nSTR\n-3;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+2;\nCHA\n+0\nSkills\nStealth +13\nLanguages\nCommon (can’t speak any language)\nOther Abilities\nrebuild, unliving\nEcology\nEnvironment\nany (Aballon)\nOrganization\nsolitary or tempest (5–20)\nSpecial Abilities\nConsume Flesh (Ex)\nThe autofly swarm strips the flesh from living creatures and breaks down the material into components it can use to create more autoflies. For every 2 damage dealt by an autofly swarm to living creatures in a single round, the autofly swarm regains 1 Hit Point.\nRebuild (Ex)\nThe autofly swarm can also repair other constructs. Once per day as a full action, the autofly swarm can restore 1d8 Hit Points to any constructs or objects that share its space.\nSunlight Dependency (Ex)\nLike anacites, autoflies are solar-powered constructs, though they can function at reduced capacity away from light. In areas of darkness, the autofly swarm gains the staggered condition.\nDescription\nOriginating from Aballon, an autofly swarm consists of hundreds of 6-inch-long metallic insects. Because they are designed to rebuild both themselves and other constructs, constructs see them as beneficial, potentially immortal guardians. However, due to their nature as protectors, they are ravenous when around most living things.\nWhile autofly swarms can fix physical damage to constructs and machines, they cannot restore data or uncorrupt code. Over the centuries, their original programming has corrupted, so even though they were once designed to serve a particular area, they now roam the blasted lands of Aballon and beyond. They are attracted to creatures of flesh and blood for consumption, but they are also drawn toward high electrical activity, such as that produced by large machines, constructs, and cities (which are usually also filled with living beings).\nAnacites do not consider autoflies to be part of their own species, though the swarms can be incredibly useful to them. However, autoflies are mindless and can’t be reasoned with, a fact that frustrates most anacites. Since their discovery on Aballon, autoflies have been accidentally brought aboard the ships of unfortunate starfarers and have now spread across the galaxy, despite all attempts to contain them.",
+  "type": "construct (swarm, technological)",
+  "category": "alien"
+}

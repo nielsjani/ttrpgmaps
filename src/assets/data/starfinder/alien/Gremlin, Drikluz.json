@@ -1,0 +1,61 @@
+{
+  "name": "Gremlin, Drikluz",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Drikluz&Family=Gremlin",
+  "source": "Alien Archive 2 pg. 69",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "fey",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+4",
+  "hp": "11",
+  "eac": "9",
+  "kac": "10",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+3",
+  "sr": "11",
+  "speed": "30 ft.",
+  "melee": "bite +1 (1d4 P plus biting bugs, DC 11)",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st; ranged +1",
+    "spells": "1/day—\ncommand\n(DC 14),\nfear\n(1st level, DC 14)\nAt will—\nghost sound\n(DC 13),\ntelekinetic projectile"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-2",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Bluff +9, Intimidate +4, Stealth +9",
+  "languages": "Aklo, Common",
+  "other_abilities": "vermin empathy",
+  "environment": "any",
+  "organization": "solitary, pair, or infestation (3–6)",
+  "special_abilities": [
+    {
+      "name": "Biting Bugs (Ex)",
+      "description": "A creature struck by a drikluz’s bite attack must attempt a DC 11 Fortitude save or become fatigued for 1 round. This has no effect on a creature that is already fatigued or exhausted."
+    },
+    {
+      "name": "Insect Pacifism (Su)",
+      "description": "A drikluz emit a psychic call that draws in insects and makes them well-disposed to the drikluz. Vermin and insectile creatures of other types, such as Swarm creatures and shirrens, have a –2 penalty on attack rolls against a drikluz. The GM determines whether a creature is sufficiently insect-like to be affected by this ability."
+    },
+    {
+      "name": "Vermin Empathy (Ex)",
+      "description": "A drikluz can communicate basic concepts with mindless vermin and can use language‑dependent abilities on them (such as Diplomacy checks to change their attitude or Intimidate checks to bully). The drikluz can affect mindless vermin with their spell‑like abilities as though spells didn’t have the mind‑affecting descriptor."
+    },
+    {
+      "name": "Verminlike (Ex)",
+      "description": "For effects targeting creatures by type, a drikluz counts as both fey and vermin (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). The drikluz also gains a +2 racial bonus to saving throws against mind-affecting effects."
+    }
+  ],
+  "description": "Not all gremlins are intimately tied to technology; some represent older troubles that have plagued civilization for eons. One unpleasant example is the drikluz, or vermin gremlin. No more than 2-1/2 feet tall (and nearly as wide), drikluzes boast round, furry bodies teeming with lice, biting flies, and other loathsome insects. A drikluz has a helmetlike carapace over its forehead and crown, which protects its insectile face and two antenna. The drikluzes' antennae focus the gremlins’ latent psychic powers into a constant, crooning telepathic drone that soothes nearby insects into a complacent state and attracts them to their round, hairy bodies. They then bully and cajole their mindless minions into causing as much trouble as possible, including sabotaging insect traps and spoiling or hiding pesticides. Drikluzes have been noted to exhibit some limited ability to twist the minds of larger creatures as well, but they rarely do so for any purpose other than compelling such creatures to leave them alone.\nWhile a creature that lures vermin away may seem a fine service in theory, the presence of drikluzes in a community is far from beneficial, as these gremlins are mean-spirited and rarely content to simply lead vermin away. They love seeing insects spoil crops, terrorize pets, and infest bedding.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGremlin\nSource\nAlien Archive 2 pg. 69\nGremlins are fey spirits intimately tied to technological malfunctions. One variety of gremlin, called glitch gremlins, is especially common (and feared) in societies with advanced technology. Both computer glitch gremlins and ship glitch gremlins demonstrate remarkable single-mindedness in their pursuit of mayhem as they find new and more frustrating ways to make technology break, glitch, or fail.\nA computer glitch gremlin’s appearance varies widely with the digital data it has eaten, but they average 1 foot in height and weigh around 4 pounds. Ship glitch gremlins have lamprey-like mouths and long, spidery arms and legs. They stand 2-1/2 feet tall and weigh approximately 20 pounds.\nAliens in the \"Gremlin\" Family\nName\nCR\nComputer Glitch Gremlin\n1/2\nDrikluz\n1/2\nHobkins Gremlin\n1/2\nHobkins Gremlin Malefactor\n4\nShip Glitch Gremlin\n1\nVaigruuk\n2\nGremlin, Drikluz\nSource\nStarfinder #40: Planetfall pg. 56\nDrikluz CR 1/2\nXP 200\nNE Small fey\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+4\nDefense\nHP\n11\nEAC\n9;\nKAC\n10\nFort\n+2;\nRef\n+2;\nWill\n+3\nDefensive Abilities\ninsect pacifism, verminlike;\nSR\n11\nOffense\nSpeed\n30 ft.\nMelee\nbite +1 (1d4 P plus biting bugs, DC 11)\nSpell-Like Abilities\n(CL 1st; ranged +1)\n1/day—\ncommand\n(DC 14),\nfear\n(1st level, DC 14)\nAt will—\nghost sound\n(DC 13),\ntelekinetic projectile\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+1;\nINT\n-2;\nWIS\n+0;\nCHA\n-2\nSkills\nBluff +9, Intimidate +4, Stealth +9\nLanguages\nAklo, Common\nOther Abilities\nvermin empathy\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or infestation (3–6)\nSpecial Abilities\nBiting Bugs (Ex)\nA creature struck by a drikluz’s bite attack must attempt a DC 11 Fortitude save or become fatigued for 1 round. This has no effect on a creature that is already fatigued or exhausted.\nInsect Pacifism (Su)\nA drikluz emit a psychic call that draws in insects and makes them well-disposed to the drikluz. Vermin and insectile creatures of other types, such as Swarm creatures and shirrens, have a –2 penalty on attack rolls against a drikluz. The GM determines whether a creature is sufficiently insect-like to be affected by this ability.\nVermin Empathy (Ex)\nA drikluz can communicate basic concepts with mindless vermin and can use language‑dependent abilities on them (such as Diplomacy checks to change their attitude or Intimidate checks to bully). The drikluz can affect mindless vermin with their spell‑like abilities as though spells didn’t have the mind‑affecting descriptor.\nVerminlike (Ex)\nFor effects targeting creatures by type, a drikluz counts as both fey and vermin (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). The drikluz also gains a +2 racial bonus to saving throws against mind-affecting effects.\nDescription\nNot all gremlins are intimately tied to technology; some represent older troubles that have plagued civilization for eons. One unpleasant example is the drikluz, or vermin gremlin. No more than 2-1/2 feet tall (and nearly as wide), drikluzes boast round, furry bodies teeming with lice, biting flies, and other loathsome insects. A drikluz has a helmetlike carapace over its forehead and crown, which protects its insectile face and two antenna. The drikluzes' antennae focus the gremlins’ latent psychic powers into a constant, crooning telepathic drone that soothes nearby insects into a complacent state and attracts them to their round, hairy bodies. They then bully and cajole their mindless minions into causing as much trouble as possible, including sabotaging insect traps and spoiling or hiding pesticides. Drikluzes have been noted to exhibit some limited ability to twist the minds of larger creatures as well, but they rarely do so for any purpose other than compelling such creatures to leave them alone.\nWhile a creature that lures vermin away may seem a fine service in theory, the presence of drikluzes in a community is far from beneficial, as these gremlins are mean-spirited and rarely content to simply lead vermin away. They love seeing insects spoil crops, terrorize pets, and infest bedding.",
+  "type": "fey",
+  "category": "alien"
+}

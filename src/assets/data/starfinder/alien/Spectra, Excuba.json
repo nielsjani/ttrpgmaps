@@ -1,0 +1,64 @@
+{
+  "name": "Spectra, Excuba",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Excuba&Family=Spectra",
+  "source": "Alien Archive 3 pg. 102",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "outsider (extraplanar, spectra, swarm)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "35",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+3",
+  "ref": "+5",
+  "will": "+7",
+  "dr": "5/chaotic",
+  "sr": "14",
+  "immunities": "electricity, swarm immunities;",
+  "resistances": "cold 5, sonic 5;",
+  "speed": "20 ft. (humanoid form only), fly 50 ft. (Ex, perfect, swarm form only)",
+  "melee": "swarm attack (2d6 S)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 15)",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nimplant data\n,\nknock\n3/day—\nerase\n,\nhold portal\nAt will—\ndetect tech"
+  },
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Computers +15, Disguise +15, Engineering +15, Mysticism +10, Stealth +10",
+  "languages": "machine telepathy 100 ft., truespeech",
+  "other_abilities": "change shape (Small humanoid), data dump, slip drive, spaceflight (Mysticism)",
+  "environment": "any (the Drift)",
+  "organization": "solitary, pair, or host (3–12)",
+  "special_abilities": [
+    {
+      "name": "Autoencode (Ex)",
+      "description": "An excuba’s features are automatically disguised to technological sensors (including cameras and creatures with the technological subtype). While in swarm form, the excuba appears as a formless shadow, gaining concealment to such sensors. While in humanoid form, the excuba appears as a familiar or unremarkable Small humanoid to these sensors. A sensor can pierce either disguise with a successful Perception check (DC = 10 + the excuba’s Disguise modifier)."
+    },
+    {
+      "name": "Change Shape (Su)",
+      "description": "An excuba in humanoid form appears to be comprised of tiny robots. While the excuba can use the Disguise skill to mask its features further, this ability does not grant the excuba a +10 bonus to Disguise checks."
+    },
+    {
+      "name": "Data Dump (Ex)",
+      "description": "An excuba’s body can copy and store up to 10 secure data modules as if it were a computer; an average secure data module occupies 3 of these spaces, and a large data module occupies 9 spaces. As a full action, an excuba can destroy any number of these stored copies.\nAs a standard action once per minute, an excuba can extract memories from a technological creature they touch (using a melee attack modifier of +10 against EAC). The excuba observes 10 minutes of the target’s memories, as if the creature had targeted the excuba with the share memory spell; the target can negate this with a successful DC 15 Will save. The excuba automatically makes a copy of the memories and stores them as a specific secure data module if it has space available."
+    }
+  ],
+  "description": "Excubas act as spies and infiltrators for spectras, tasked with data collection and observation in often inscrutable operations. Once an excuba has secured sufficient information, it ferries it to more powerful spectras for analysis and then seeks out new secrets elsewhere. Sightings of excubas were rare prior to the Drift Crash, but these spectra now seem common, as if they are comprised of shattered Drift material scattered by the Crash and given purpose.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSpectra\nSource\nAlien Archive 3 pg. 102\nSpectra, a race of outsiders native to the newly discovered hyperspace plane of the Drift, are unique in the Great Beyond as a relatively recent addition to the multiverse, rising in prominence over the last 300 years alongside the proliferation of Drift technology. Concerned primarily with the protection and promulgation of the nascent plane, and of advanced technology in general, spectra are beings of paradox and dichotomy. Some metaphysicians believe that, just as the Drift grows by pulling in pieces of the multiverse each time a starship uses it to travel, so too are spectra created—amalgamations of raw, sometimes opposing energies born from the stolen pieces of other planes. Yet spectra are also undeniably of the Drift itself. They have inherent resistance to magic and can slip in and out of the Drift via innate esoteric—though purely technological—means. Some theorists posit that, like the beacons that enable travel through the Drift, spectra somehow exist simultaneously in multiple planes, manifesting in only one at any given time. Spectra rarely speak using their own voices, which are a mix of low-fidelity synthesized tones. They prefer to use their machine telepathy to temporarily harness nearby communication technology, speaking using a starship’s intercom or causing text to appear on a vidscreen, for instance.\nIridias are one of the few spectra encountered outside the Drift, most often on the Material Plane. Averaging 6 feet tall with opalescent skin and a coil of glistening rainbow light for hair, iridias serve as messengers and ambassadors to species of all planes, evangelizing the benefits of advanced technology and enforcing the tripartite will of Triune. Iridias have been known to visit remote worlds in the Vast where Triune’s original signal containing the secrets of Drift travel were lost or suppressed, bringing with them instructions and a second chance to join the galactic community. They are also keen to see mortal technology continue to grow and advance—an interest that can put them at odds with societies that choose to limit technology’s influence, as well as others wary of sudden unfettered progress, such as the tekhoinos aeons.\nAspecnas, powerful spectra paragons with fan-like tails and faces that resemble blooming flowers, rarely interact directly with the Material Plane. These formidable outsiders instead concern themselves with maintaining the precarious balance of power among extraplanar forces in the Drift, opposing any who would attempt to establish strongholds with the intent of laying their own claim to a substantial expanse of Triune’s realm. Aspecnas have on occasion appeared to correct the course of mortals who have become lost in the ever-shifting plane, and even intervened to protect weaker mortals from the predation of malevolent Drift-marooned outsiders. These rare but memorable acts have earned aspecnas the nickname “Drift angels” among those who regularly travel through the plane.\nAliens in the \"Spectra\" Family\nName\nCR\nAspecna\n18\nExcuba\n4\nIridia\n8\nNacrea\n16\nSondria\n14\nWyspiria\n11\nSpectra, Excuba\nSource\nDrift Crisis pg. 162\nExcuba CR 4\nXP 1,200\nN Fine outsider (extraplanar, spectra, swarm)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n35\nEAC\n16;\nKAC\n17\nFort\n+3;\nRef\n+5;\nWill\n+7\nDefensive Abilities\nautoencode, swarm defenses, void adaptation;\nDR\n5/chaotic, evil, good, or law;\nImmunities\nelectricity, swarm immunities;\nResistances\ncold 5, sonic 5;\nSR\n14\nOffense\nSpeed\n20 ft. (humanoid form only), fly 50 ft. (Ex, perfect, swarm form only)\nMelee\nswarm attack (2d6 S)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 15)\nSpell-Like Abilities\n(CL 4th)\n1/day—\nimplant data\n,\nknock\n3/day—\nerase\n,\nhold portal\nAt will—\ndetect tech\nStatistics\nSTR\n-1;\nDEX\n+5;\nCON\n+1;\nINT\n+3;\nWIS\n+0;\nCHA\n+1\nSkills\nComputers +15, Disguise +15, Engineering +15, Mysticism +10, Stealth +10\nLanguages\nmachine telepathy 100 ft., truespeech\nOther Abilities\nchange shape (Small humanoid), data dump, slip drive, spaceflight (Mysticism)\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary, pair, or host (3–12)\nSpecial Abilities\nAutoencode (Ex)\nAn excuba’s features are automatically disguised to technological sensors (including cameras and creatures with the technological subtype). While in swarm form, the excuba appears as a formless shadow, gaining concealment to such sensors. While in humanoid form, the excuba appears as a familiar or unremarkable Small humanoid to these sensors. A sensor can pierce either disguise with a successful Perception check (DC = 10 + the excuba’s Disguise modifier).\nChange Shape (Su)\nAn excuba in humanoid form appears to be comprised of tiny robots. While the excuba can use the Disguise skill to mask its features further, this ability does not grant the excuba a +10 bonus to Disguise checks.\nData Dump (Ex)\nAn excuba’s body can copy and store up to 10 secure data modules as if it were a computer; an average secure data module occupies 3 of these spaces, and a large data module occupies 9 spaces. As a full action, an excuba can destroy any number of these stored copies.\nAs a standard action once per minute, an excuba can extract memories from a technological creature they touch (using a melee attack modifier of +10 against EAC). The excuba observes 10 minutes of the target’s memories, as if the creature had targeted the excuba with the share memory spell; the target can negate this with a successful DC 15 Will save. The excuba automatically makes a copy of the memories and stores them as a specific secure data module if it has space available.\nDescription\nExcubas act as spies and infiltrators for spectras, tasked with data collection and observation in often inscrutable operations. Once an excuba has secured sufficient information, it ferries it to more powerful spectras for analysis and then seeks out new secrets elsewhere. Sightings of excubas were rare prior to the Drift Crash, but these spectra now seem common, as if they are comprised of shattered Drift material scattered by the Crash and given purpose.\nExtra Content\nThe following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "type": "outsider (extraplanar, spectra, swarm)",
+  "category": "alien"
+}

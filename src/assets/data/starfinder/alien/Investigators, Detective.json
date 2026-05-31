@@ -1,0 +1,50 @@
+{
+  "name": "Investigators, Detective",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Detective&Family=Investigators",
+  "source": "Interstellar Species pg. 170",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+8",
+  "speed": "40 ft.",
+  "melee": "medium sap +18 (1d6+9 B) or horn  +18 (2d6+9 P)",
+  "ranged": "merciful advanced semi-auto pistol",
+  "offensive_abilities": "apprehend, gore , pursue suspect",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+2",
+    "int": "+5",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Athletics +14, Culture +14, Diplomacy +14, Intimidation +14, Sense Motive +14",
+  "languages": "Common, and up to 5 others",
+  "other_abilities": "maze mind",
+  "gear": "freebooter armor II, medium sap ,",
+  "special_abilities": [
+    {
+      "name": "Apprehend (Ex)",
+      "description": "If a detective’s melee attack roll equals or exceeds its target’s KAC + 8 (or KAC + 4 if the detective is using a nonlethal weapon), the detective automatically grapples the target."
+    },
+    {
+      "name": "Pursue Suspect (Ex)",
+      "description": "A detective can designate a target they can see and suspect has committed a crime as a suspect as a move action. A target remains a suspect until apprehended, proven innocent, or until the detective clears the target of suspicion as a full action. A detective can have a maximum number of suspects equal to their half their Wisdom modifier at one time. A detective gains a +2 bonus on attack rolls and skill checks against their suspects."
+    }
+  ],
+  "description": "Detectives pursue and apprehend those deemed criminals, leaving matters of judgment and incarceration to the courts to handle. They specialize in subduing their foes, often considering lethal tactics to be unprofessional or beyond their jurisdiction. Most detectives work within the law, but some work outside or even against it, particularly in areas where government authorities can’t be counted upon to uphold the law.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nInvestigators\nSource\nInterstellar Species pg. 170\nInvestigators uncover secrets and sift truth from lies. This often places investigators on the side of the law, but when the powers that be are corrupt, investigators might find themselves labeled vigilantes or ostracized. Yet they aren’t easily discouraged, and can become relentless foes.\nAliens in the \"Investigators\" Family\nName\nCR\nConspiracist\n1\nDetective\n7\nParanormal Investigator\n10\nPsychic Seer\n4\nInvestigators, Detective\nSource\nInterstellar Species pg. 170\nDetective CR 7\nXP 3,200\nNuar\nLG Medium monstrous humanoid\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+19\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+8\nOffense\nSpeed\n40 ft.\nMelee\nmedium sap +18 (1d6+9 B) or horn  +18 (2d6+9 P)\nRanged\nmerciful advanced semi-auto pistol\n+15 (2d6+7 P) or mk 3 riot grenade +15 (explode [15 ft., staggered, DC 15])\nOffensive Abilities\napprehend, gore , pursue suspect\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+2;\nINT\n+5;\nWIS\n+4;\nCHA\n+1\nSkills\nAthletics +14, Culture +14, Diplomacy +14, Intimidation +14, Sense Motive +14\nLanguages\nCommon, and up to 5 others\nOther Abilities\nmaze mind\nGear\nfreebooter armor II, medium sap ,\nmerciful advanced semi-auto pistol\nwith 20 rounds, mk 3 riot grenade (2), detective’s badge, manacles with key (4)\nSpecial Abilities\nApprehend (Ex)\nIf a detective’s melee attack roll equals or exceeds its target’s KAC + 8 (or KAC + 4 if the detective is using a nonlethal weapon), the detective automatically grapples the target.\nPursue Suspect (Ex)\nA detective can designate a target they can see and suspect has committed a crime as a suspect as a move action. A target remains a suspect until apprehended, proven innocent, or until the detective clears the target of suspicion as a full action. A detective can have a maximum number of suspects equal to their half their Wisdom modifier at one time. A detective gains a +2 bonus on attack rolls and skill checks against their suspects.\nDescription\nDetectives pursue and apprehend those deemed criminals, leaving matters of judgment and incarceration to the courts to handle. They specialize in subduing their foes, often considering lethal tactics to be unprofessional or beyond their jurisdiction. Most detectives work within the law, but some work outside or even against it, particularly in areas where government authorities can’t be counted upon to uphold the law.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

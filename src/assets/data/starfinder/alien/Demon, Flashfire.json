@@ -1,0 +1,51 @@
+{
+  "name": "Demon, Flashfire",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Flashfire&Family=Demon",
+  "source": "Starfinder #22: The Forever Reliquary pg. 56",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (chaotic, demon, evil, extraplanar)",
+  "init": "+3",
+  "senses": "blindsense (life) 60 ft., darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "170",
+  "eac": "25",
+  "kac": "26",
+  "fort": "+13",
+  "ref": "+11",
+  "will": "+15",
+  "immunities": "acid, disease, fire, poison;",
+  "resistances": "cold 10, electricity 10",
+  "speed": "30 ft., fly 30 ft. (Su, perfect)",
+  "melee": "claw +22 (2d12+15 F & S; critical burn 3d4)",
+  "offensive_abilities": "sabotaging compulsion (DC 21)",
+  "spell_like_abilities": {
+    "caster_info": "CL 12th",
+    "spells": "1/day—\ngreater invisibility\n,\nlogic bomb\n(DC 21),\nwall of fire\n3/day—\nexplosive blast\n(DC 22),\nmental block\n(DC 22),\nnondetection\n,\nslow\n(DC 22)\nAt will—\nknock\n,\nsecurity seal"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+3",
+    "con": "+4",
+    "int": "+5",
+    "wis": "+4",
+    "cha": "+8"
+  },
+  "skills": "Computers +27, Engineering +27, Stealth +22",
+  "languages": "Abyssal, Celestial, Common; telepathy 100 ft.",
+  "environment": "any (Abyss)",
+  "organization": "solitary, thrall team (1 plus 1–2 compelled creatures)",
+  "special_abilities": [
+    {
+      "name": "Sabotaging Compulsion (Su)",
+      "description": "Once per day as a full action, a flashfire demon can compel a creature to covertly commit sabotage. If the target fails a DC 21 Will saving throw, it begins enacting a plan dictated by the flashfire demon to cause maximum loss of sapient life with a minimum chance of detection. The compelled creature makes all efforts to avoid being discovered, including acting normally while being observed and eliminating evidence of its actions. It retains no memory of the sabotage it enacts or the demon. This effect lasts for 12 days. However, at the end of each day, as well as when the target undertakes any action that threatens its own safety, the target can attempt a new saving throw to end the effect. Once the effect ends, no flashfire demon can affect the creature with this ability for 24 hours. This is a mind-affecting effect, but non-mindless undead are not immune to it."
+    }
+  ],
+  "description": "Throughout the galaxy, constructed environments make life possible in even the most hazardous environments, but the failure of such infrastructure can result in ghastly tragedies. A flashfire demon embodies the threat and chaos of such sudden disasters.\nFlashfire demons are master saboteurs, using the inherent dangers of malfunctioning systems to slaughter innocents. They prefer methods that result in abrupt, catastrophic failures that minimize the chance for survivors. Their name derives from their common tactic of sabotaging life support systems to increase oxygen in a closed atmosphere such that a spark causes an explosive fire. However, these demons are endlessly creative in their schemes. They experiment with new methods to freeze, asphyxiate, dissolve, electrocute, explode, or obliterate their victims.\nGrand acts of sabotage are difficult tasks, and direct intervention could reveal a flashfire demon’s involvement to their victims. Therefore, flashfire demons “recruit” help whenever possible using their sabotaging compulsion ability while they lurk in the nearby shadows.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDemon (Summoning) Graft Template\n-\nDemon (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDemon\nAliens in the \"Demon\" Family\nName\nCR\nFlashfire\n12\nPluprex\n13\nPrexian Mutantspawn\n11\nDemon, Flashfire\nSource\nStarfinder #22: The Forever Reliquary pg. 56\nFlashfire CR 12\nXP 19,200\nCE Medium outsider (chaotic, demon, evil, extraplanar)\nInit\n+3;\nSenses\nblindsense (life) 60 ft., darkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n170\nEAC\n25;\nKAC\n26\nFort\n+13;\nRef\n+11;\nWill\n+15\nDefensive Abilities\nvoid adaptation;\nImmunities\nacid, disease, fire, poison;\nResistances\ncold 10, electricity 10\nOffense\nSpeed\n30 ft., fly 30 ft. (Su, perfect)\nMelee\nclaw +22 (2d12+15 F & S; critical burn 3d4)\nOffensive Abilities\nsabotaging compulsion (DC 21)\nSpell-Like Abilities\n(CL 12th)\n1/day—\ngreater invisibility\n,\nlogic bomb\n(DC 21),\nwall of fire\n3/day—\nexplosive blast\n(DC 22),\nmental block\n(DC 22),\nnondetection\n,\nslow\n(DC 22)\nAt will—\nknock\n,\nsecurity seal\nStatistics\nSTR\n+3;\nDEX\n+3;\nCON\n+4;\nINT\n+5;\nWIS\n+4;\nCHA\n+8\nSkills\nComputers +27, Engineering +27, Stealth +22\nLanguages\nAbyssal, Celestial, Common; telepathy 100 ft.\nEcology\nEnvironment\nany (Abyss)\nOrganization\nsolitary, thrall team (1 plus 1–2 compelled creatures)\nSpecial Abilities\nSabotaging Compulsion (Su)\nOnce per day as a full action, a flashfire demon can compel a creature to covertly commit sabotage. If the target fails a DC 21 Will saving throw, it begins enacting a plan dictated by the flashfire demon to cause maximum loss of sapient life with a minimum chance of detection. The compelled creature makes all efforts to avoid being discovered, including acting normally while being observed and eliminating evidence of its actions. It retains no memory of the sabotage it enacts or the demon. This effect lasts for 12 days. However, at the end of each day, as well as when the target undertakes any action that threatens its own safety, the target can attempt a new saving throw to end the effect. Once the effect ends, no flashfire demon can affect the creature with this ability for 24 hours. This is a mind-affecting effect, but non-mindless undead are not immune to it.\nDescription\nThroughout the galaxy, constructed environments make life possible in even the most hazardous environments, but the failure of such infrastructure can result in ghastly tragedies. A flashfire demon embodies the threat and chaos of such sudden disasters.\nFlashfire demons are master saboteurs, using the inherent dangers of malfunctioning systems to slaughter innocents. They prefer methods that result in abrupt, catastrophic failures that minimize the chance for survivors. Their name derives from their common tactic of sabotaging life support systems to increase oxygen in a closed atmosphere such that a spark causes an explosive fire. However, these demons are endlessly creative in their schemes. They experiment with new methods to freeze, asphyxiate, dissolve, electrocute, explode, or obliterate their victims.\nGrand acts of sabotage are difficult tasks, and direct intervention could reveal a flashfire demon’s involvement to their victims. Therefore, flashfire demons “recruit” help whenever possible using their sabotaging compulsion ability while they lurk in the nearby shadows.\nExtra Content\nThe following extra content was found for this creature:\n-\nDemon (Summoning) Graft Template\n-\nDemon (Creature Subtype) Graft Template",
+  "type": "outsider (chaotic, demon, evil, extraplanar)",
+  "category": "alien"
+}

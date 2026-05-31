@@ -1,0 +1,46 @@
+{
+  "name": "Ihonva",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ihonva&Family=None",
+  "source": "Starfinder #11: The Penumbra Protocol pg. 56",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+6",
+  "will": "+5",
+  "resistances": "fire 5",
+  "speed": "30 ft.",
+  "melee": "slam +13 (1d6+7 S plus grab)",
+  "ranged": "static arc pistol +10 (1d6+2 E; critical arc 2)",
+  "offensive_abilities": "implant young",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+0",
+    "con": "+5",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Athletics +15, Stealth +10, Survival +10",
+  "languages": "Common, Ihonva",
+  "gear": "static arc pistol with 3 batteries (20 charges each)",
+  "environment": "warm desert (Verces)",
+  "organization": "solitary, pair, raid (3–12), or tribe (20+)",
+  "special_abilities": [
+    {
+      "name": "Implant Young (Ex)",
+      "description": "As a standard action, an ihonva can lick a grappled or helpless creature to expose it to ihonva infestation.\nIhonva Infestation\nType\ndisease (injury);\nSave\nFortitude DC 13\nTrack\nphysical;\nFrequency\n1/day\nEffect\nIhonva young emerge after 7 days, or 1 day after a victim dies, whichever results in more time.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "Ihonvas are native to the blistering deserts of Fullbright. Although these infamous humanoids call themselves ihonvas, a collective term for their race and their nation of federated tribes, most of Verces’s population knows ihonvas by another, sinister name: skin-stitchers. An ihonva is a wormlike being with a chitinous shell, usually dusty yellow or red to match its environment. For appendages, an ihonva has flexible tentacles that, like its tail, separate into multiple parts and allow fine manipulation. A single, outsized eye shaped much like a sideways hourglass dominates an ihonva’s face, the pupil a colored horizontal line across the glossy-black cornea. Below the eye, several feet of trunk end in a circle of teeth. This trunk serves as the ihonva’s only orifice, used for feeding, excretion, and mating.\nIhonva reproduction begins with both partners exchanging gametes through their snouts in a practice they call “the long kiss.” Each ihonva stores the resulting zygotes until an appropriate host—preferably another intelligent humanoid—is captured and immobilized. The would-be-parent ihonva licks the host’s eyes and other mucous membranes, creating a bridge for the zygotes to enter the host’s bloodstream, where they act as parasites. Ihonva parents stake hosts out in the desert to allow their flesh to wither and cure, and to prevent magic or medical treatment from removing the young. The larval infants grow rapidly in size, sickening and eventually killing their host. When the baby ihonvas are mature enough, they exit through existing openings. Newborns battle until the strongest drives the others away. The winner then claims the host’s skin as a trophy, flaying it with the overlarge teeth that only neonatal ihonvas have. When this victor returns to ihonva society, other ihonvas fashion this “birth-skin” into ceremonial clothing.\nCitizens of the Ring of Nations leave ihonvas alone despite their brutal mating habits. Ihonvas have a fearsome reputation and prey mostly on members of the Outlaw Kingdoms, rarely killing sapients for reasons other than self-defense or breeding. Some ihonva tribes even engage in trade, and a few have settled for using nonsapients as hosts, to the horror of their kind.\nAn ihonva stands 6 feet tall and weighs 350 pounds. They reach maturity at about 10 years and have a natural lifespan of 50 years.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nIhonva\nSource\nStarfinder #11: The Penumbra Protocol pg. 56\nIhonva CR 4\nXP 1,200\nNE Medium monstrous humanoid\nInit\n+0;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+6;\nWill\n+5\nResistances\nfire 5\nOffense\nSpeed\n30 ft.\nMelee\nslam +13 (1d6+7 S plus grab)\nRanged\nstatic arc pistol +10 (1d6+2 E; critical arc 2)\nOffensive Abilities\nimplant young\nStatistics\nSTR\n+3;\nDEX\n+0;\nCON\n+5;\nINT\n-1;\nWIS\n+1;\nCHA\n-1\nSkills\nAthletics +15, Stealth +10, Survival +10\nLanguages\nCommon, Ihonva\nGear\nstatic arc pistol with 3 batteries (20 charges each)\nEcology\nEnvironment\nwarm desert (Verces)\nOrganization\nsolitary, pair, raid (3–12), or tribe (20+)\nSpecial Abilities\nImplant Young (Ex)\nAs a standard action, an ihonva can lick a grappled or helpless creature to expose it to ihonva infestation.\nIhonva Infestation\nType\ndisease (injury);\nSave\nFortitude DC 13\nTrack\nphysical;\nFrequency\n1/day\nEffect\nIhonva young emerge after 7 days, or 1 day after a victim dies, whichever results in more time.\nCure\n2 consecutive saves\nDescription\nIhonvas are native to the blistering deserts of Fullbright. Although these infamous humanoids call themselves ihonvas, a collective term for their race and their nation of federated tribes, most of Verces’s population knows ihonvas by another, sinister name: skin-stitchers. An ihonva is a wormlike being with a chitinous shell, usually dusty yellow or red to match its environment. For appendages, an ihonva has flexible tentacles that, like its tail, separate into multiple parts and allow fine manipulation. A single, outsized eye shaped much like a sideways hourglass dominates an ihonva’s face, the pupil a colored horizontal line across the glossy-black cornea. Below the eye, several feet of trunk end in a circle of teeth. This trunk serves as the ihonva’s only orifice, used for feeding, excretion, and mating.\nIhonva reproduction begins with both partners exchanging gametes through their snouts in a practice they call “the long kiss.” Each ihonva stores the resulting zygotes until an appropriate host—preferably another intelligent humanoid—is captured and immobilized. The would-be-parent ihonva licks the host’s eyes and other mucous membranes, creating a bridge for the zygotes to enter the host’s bloodstream, where they act as parasites. Ihonva parents stake hosts out in the desert to allow their flesh to wither and cure, and to prevent magic or medical treatment from removing the young. The larval infants grow rapidly in size, sickening and eventually killing their host. When the baby ihonvas are mature enough, they exit through existing openings. Newborns battle until the strongest drives the others away. The winner then claims the host’s skin as a trophy, flaying it with the overlarge teeth that only neonatal ihonvas have. When this victor returns to ihonva society, other ihonvas fashion this “birth-skin” into ceremonial clothing.\nCitizens of the Ring of Nations leave ihonvas alone despite their brutal mating habits. Ihonvas have a fearsome reputation and prey mostly on members of the Outlaw Kingdoms, rarely killing sapients for reasons other than self-defense or breeding. Some ihonva tribes even engage in trade, and a few have settled for using nonsapients as hosts, to the horror of their kind.\nAn ihonva stands 6 feet tall and weighs 350 pounds. They reach maturity at about 10 years and have a natural lifespan of 50 years.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

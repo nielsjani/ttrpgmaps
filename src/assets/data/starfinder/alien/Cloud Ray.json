@@ -1,0 +1,51 @@
+{
+  "name": "Cloud Ray",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cloud Ray&Family=Cloud Ray",
+  "source": "Alien Archive 4 pg. 20",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Gargantuan",
+  "creature_type": "animal",
+  "init": "+6",
+  "senses": "low-light vision;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+17",
+  "will": "+12",
+  "resistances": "electricity 15",
+  "weaknesses": "vulnerable to fire",
+  "speed": "5 ft., fly 70 ft. (Ex, perfect)",
+  "melee": "tail lash +26 (2d12+15 S plus 2d6 E; critical stunned)",
+  "space": "20 ft.",
+  "reach": "25 ft.",
+  "offensive_abilities": "natural thruster",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+6",
+    "con": "+3",
+    "int": "-5",
+    "wis": "+4",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +23 (+31 to fly), Athletics +28, Stealth +23",
+  "environment": "any sky (Bretheda, Liavara)",
+  "organization": "solitary, pair or eclipse (3–12)",
+  "special_abilities": [
+    {
+      "name": "Explosive Death (Ex)",
+      "description": "If a cloud skate is reduced to 0 Hit Points by fire or electricity damage, its internal reservoirs of explosive gases and combustible fluids detonate, dealing the listed fire damage to all targets in a 20-foot burst centered on itself (Reflex DC 14 half)."
+    },
+    {
+      "name": "Natural Thruster (Ex)",
+      "description": "Three times per day as a swift action, a cloud skate can gain a burst of speed until the beginning of its next turn. During this time, it doubles its fly speed, gains Spring Attack as a bonus feat, and deals an additional 1d12 damage with its tail lash attack."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCloud Ray\nSource\nAlien Archive 4 pg. 20\nGliding dreamily through the cloudy ecosystems of Bretheda, Liavara, and other gas giants, cloud rays move with fluid grace and terrifying speed. Their wide bodies consist of a single broad wing and three trailing tails, with two rows of yellow-green eyes and a wide maw set forward, roughly denoting a “head.” Mottled patterns of orange, red, and purple line their backs; their coloration grows brighter and more distinct as they age. Schools of these majestic predators periodically flock in the dozens, grazing on clouds of drift algae in the upper atmosphere for months before descending into the thick, lower atmosphere to actively hunt larger prey. Because of this cyclical behavior, many assume cloud rays are gentle giants emblematic of the Pact Worlds’ unspoiled wilds before getting caught by surprise and attacked during the rays’ aggressive cycle.\nLike many Brethedan creatures, a cloud ray almost constantly filter feeds. It ingests organic compounds from the gas giant’s atmosphere before breaking them down for energy and storing the lighter-than-air byproduct gases in float bladders to maintain its buoyancy at rest. When in distress or in pursuit, a cloud ray ejects a portion of this gas into its blast siphons, specialized organs located on either side of its body. A cloud ray’s body has evolved to withstand these blasts and high-G maneuvers—with its flexible cartilaginous skeleton, cushioned nervous system, and sharp tails that gain lethal momentum from the burst—yet the ray isn’t equipped to withstand explosive forces outside the blast siphon. Deadly heat can accidentally trigger the volatile gases, causing a cloud ray to detonate in a dangerous fireball.\nSmaller and more social cousins to cloud rays, cloud skates remain together in small hunting packs when they enter their aggression cycle. Cloud skates tend to act more skittish, however, and keep their distance from settlements.\nThough cloud rays travel in small groups during their passive cycles and when breeding, they hunt alone once they enter their aggression cycle. Mature males typically maintain their active cycles for longer periods, lurking in the soupy lower atmosphere, and they periodically jostle each other in fin-slapping dominance displays that echo hauntingly for miles. Like most Brethedan creatures, cloud rays can easily shift their sex to adapt to their social surroundings, but once an adult shifts to male, it generally remains too aggressive and isolated to shift to another sex. After rising to the upper atmosphere to mate, a female deposits her eggs in delicate wisps kept aloft by the wind. These eggs hatch several weeks later, and the tiny rays shelter within drifting plant habitats for a few months before growing large enough to set off in search of richer nutrition. Reaching adulthood takes roughly 15 years for a cloud ray or 9 years for a cloud skate, after which either species can live as long as a century—if not killed for food before then.\nDespite their fish-like appearance, the predominantly warm-blooded cloud rays supplement their warmth by basking in sunlight and adjusting their coloration to absorb or reflect more solar energy. Their movements generate electrical charges that they store in an organic capacitor at the base of their tails and can discharge into prey. However, the smaller cloud skates possess only a rudimentary version of this organ that merely absorbs minor charges and gradually releases them as an underdeveloped form of electroreception.\nAliens in the \"Cloud Ray\" Family\nName\nCR\nCloud Ray\n13\nCloud Skate\n6\nCloud Ray\nSource\nAlien Archive 4 pg. 20\nCloud Ray CR 13\nXP 25,600\nN Gargantuan animal\nInit\n+6;\nSenses\nlow-light vision;\nPerception\n+23\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+17;\nWill\n+12\nDefensive Abilities\nexplosive death (9d8 F, 30 ft., Reflex DC 19);\nResistances\nelectricity 15\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n5 ft., fly 70 ft. (Ex, perfect)\nMelee\ntail lash +26 (2d12+15 S plus 2d6 E; critical stunned)\nMultiattack\n3 tail lashes +21 (2d12+15 E plus 2d6 E; critical stunned)\nSpace\n20 ft.;\nReach\n25 ft.\nOffensive Abilities\nnatural thruster\nStatistics\nSTR\n+8;\nDEX\n+6;\nCON\n+3;\nINT\n-5;\nWIS\n+4;\nCHA\n-1\nSkills\nAcrobatics +23 (+31 to fly), Athletics +28, Stealth +23\nEcology\nEnvironment\nany sky (Bretheda, Liavara)\nOrganization\nsolitary, pair or eclipse (3–12)\nSpecial Abilities\nExplosive Death (Ex)\nIf a cloud skate is reduced to 0 Hit Points by fire or electricity damage, its internal reservoirs of explosive gases and combustible fluids detonate, dealing the listed fire damage to all targets in a 20-foot burst centered on itself (Reflex DC 14 half).\nNatural Thruster (Ex)\nThree times per day as a swift action, a cloud skate can gain a burst of speed until the beginning of its next turn. During this time, it doubles its fly speed, gains Spring Attack as a bonus feat, and deals an additional 1d12 damage with its tail lash attack.",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Cloud_Ray.png"
+}

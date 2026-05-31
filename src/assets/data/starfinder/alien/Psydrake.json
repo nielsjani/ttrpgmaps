@@ -1,0 +1,49 @@
+{
+  "name": "Psydrake",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Psydrake&Family=None",
+  "source": "Starfinder #27: Deceivers’ Moon pg. 58",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "dragon",
+  "init": "+1",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "immunities": "paralysis, sleep",
+  "speed": "30 ft., climb 20 ft., fly 30 ft. (Ex, perfect)",
+  "melee": "bite +15 (1d6+7 P) or claw +15 (1d6+7 S) or tail slap +15 (1d4+7 B)",
+  "offensive_abilities": "diatribe (120 ft., DC 14)",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "1/day—\nmirror image\n,\nsee invisibility"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+3",
+    "cha": "+2"
+  },
+  "skills": "Bluff +18, Culture +18, Diplomacy +13, Sense Motive +18, Stealth +13",
+  "languages": "Common, Draconic; limited telepathy 120 ft.",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Diatribe (Su)",
+      "description": "As a full action, a psydrake can start a lengthy diatribe detailing various conspiracy theories it believes or explaining the esoteric connections between two concepts. Each creature within 120 feet that can hear and understand the psydrake must attempt a DC 14 Will saving throw or become fascinated by the creature’s ramblings for as long as it speaks. The psydrake must take a move action each round to continue talking. This is a mind-affecting, language-dependent, and sensedependent effect."
+    }
+  ],
+  "description": "While most dragons hoard treasure and others consolidate power, this smaller species of dragon values a different sort of asset: information. The psydrake has a particular fondness for conspiracy theories and sets itself up as an information broker in order to learn as much new knowledge as possible before finding a new area to prowl. A psydrake makes a nest in one place long enough to make contacts, investigate leads, and collect rumors, but they don’t feel comfortable in one location for long. Even when a psydrake stays put, they are difficult to locate, as only their most trusted contacts know where to find them. The few bits of physical evidence a psydrake keeps of their theories tend to be cryptic; they make enough sense to help the psydrake follow clues in case their memories are somehow tampered with, but they’re nearly impossible for anyone else to interpret, meaning no one can learn of a psydrake’s theories without speaking to them.\nA psydrake is more than happy to spread the seeds of their conspiracy theories to anyone who will listen, but they charge a high price for full details or any kind of proof. They can be convinced to trade a story for a story—the more outlandish and unusual, the better. After a lifetime of investigating wild claims, however, a psydrake can root out true theories of conspiracy from stories fabricated to falsify a trade, and the dragon does not take kindly to being tricked. Even once a bargain is struck, they must hear a story before telling one of their own, and they tend to leave out major details of whatever they share so as not to reveal all their secrets. The best way to rid yourself of a psydrake demanding information is to trick it into trading theories with another psydrake so it ends up swapping stories back and forth endlessly with the other.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPsydrake\nSource\nStarfinder #27: Deceivers’ Moon pg. 58\nPsydrake CR 6\nXP 2,400\nCE Small dragon\nInit\n+1;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+13; +17 vs. mind-affecting effects\nImmunities\nparalysis, sleep\nOffense\nSpeed\n30 ft., climb 20 ft., fly 30 ft. (Ex, perfect)\nMelee\nbite +15 (1d6+7 P) or claw +15 (1d6+7 S) or tail slap +15 (1d4+7 B)\nOffensive Abilities\ndiatribe (120 ft., DC 14)\nSpell-Like Abilities\n(CL 6th)\n1/day—\nmirror image\n,\nsee invisibility\nStatistics\nSTR\n+1;\nDEX\n+1;\nCON\n+0;\nINT\n+5;\nWIS\n+3;\nCHA\n+2\nSkills\nBluff +18, Culture +18, Diplomacy +13, Sense Motive +18, Stealth +13\nLanguages\nCommon, Draconic; limited telepathy 120 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nDiatribe (Su)\nAs a full action, a psydrake can start a lengthy diatribe detailing various conspiracy theories it believes or explaining the esoteric connections between two concepts. Each creature within 120 feet that can hear and understand the psydrake must attempt a DC 14 Will saving throw or become fascinated by the creature’s ramblings for as long as it speaks. The psydrake must take a move action each round to continue talking. This is a mind-affecting, language-dependent, and sensedependent effect.\nDescription\nWhile most dragons hoard treasure and others consolidate power, this smaller species of dragon values a different sort of asset: information. The psydrake has a particular fondness for conspiracy theories and sets itself up as an information broker in order to learn as much new knowledge as possible before finding a new area to prowl. A psydrake makes a nest in one place long enough to make contacts, investigate leads, and collect rumors, but they don’t feel comfortable in one location for long. Even when a psydrake stays put, they are difficult to locate, as only their most trusted contacts know where to find them. The few bits of physical evidence a psydrake keeps of their theories tend to be cryptic; they make enough sense to help the psydrake follow clues in case their memories are somehow tampered with, but they’re nearly impossible for anyone else to interpret, meaning no one can learn of a psydrake’s theories without speaking to them.\nA psydrake is more than happy to spread the seeds of their conspiracy theories to anyone who will listen, but they charge a high price for full details or any kind of proof. They can be convinced to trade a story for a story—the more outlandish and unusual, the better. After a lifetime of investigating wild claims, however, a psydrake can root out true theories of conspiracy from stories fabricated to falsify a trade, and the dragon does not take kindly to being tricked. Even once a bargain is struck, they must hear a story before telling one of their own, and they tend to leave out major details of whatever they share so as not to reveal all their secrets. The best way to rid yourself of a psydrake demanding information is to trick it into trading theories with another psydrake so it ends up swapping stories back and forth endlessly with the other.",
+  "type": "dragon",
+  "category": "alien"
+}

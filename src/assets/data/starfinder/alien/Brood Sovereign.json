@@ -1,0 +1,66 @@
+{
+  "name": "Brood Sovereign",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Brood Sovereign&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 56",
+  "cr": "20",
+  "xp": "307,200",
+  "alignment": "NE",
+  "size": "Gargantuan",
+  "creature_type": "magical beast (aquatic, cold)",
+  "init": "+5",
+  "senses": "blindsight (vibration) 120 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+34",
+  "hp": "400",
+  "eac": "34",
+  "kac": "35",
+  "fort": "+19",
+  "ref": "+19",
+  "will": "+22",
+  "immunities": "cold",
+  "weaknesses": "vulnerable to fire",
+  "speed": "20 ft., swim 60 ft.",
+  "melee": "slam +29 (13d6+25 B plus swallow whole)",
+  "ranged": "keratin dart +31 (8d8+20 P)",
+  "space": "20 ft.",
+  "reach": "20 ft.",
+  "offensive_abilities": "rage spasm (two 120-ft. cones, 4d12+20 E plus terrify, Reflex DC 27 half, usable every 1d4 rounds), swallow whole (13d6+25 A, EAC 34, KAC 31, 100 HP), terrify (DC 27)",
+  "spell_like_abilities": {
+    "caster_info": "CL 20th; ranged +31",
+    "spells": "1/day—\nmass inflict pain\n(DC 29),\nmass suggestion\n(DC 29),\nmind thrust\n(6th level, DC 29),\npsychic surgery\n3/day—\ndominate person\n(DC 28),\nfeeblemind\n(DC 28),\ngreater synaptic pulse\n(DC 28)\nAt will—\nconfusion\n(DC 27),\nfear\n(4th level, DC 27)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+5",
+    "con": "+9",
+    "int": "+6",
+    "wis": "+12",
+    "cha": "+6"
+  },
+  "skills": "Athletics +34 (+42 to swim), Intimidate +39, Mysticism +39, Stealth +34, Survival +34",
+  "languages": "Common, Sarcesian (can’t speak any language); telepathy 120 ft.",
+  "other_abilities": "compression, water breathing",
+  "environment": "any cold aquatic (Nisis)",
+  "organization": "solitary or breeding scrum (2–4)",
+  "special_abilities": [
+    {
+      "name": "Depth-Inured (Ex)",
+      "description": "A brood sovereign’s invertebrate body is accustomed to navigating ocean depths. They’re immune to damage related to changes in atmospheric or liquid pressure."
+    },
+    {
+      "name": "Keratin Dart (Ex)",
+      "description": "As a ranged attack, a brood sovereign can fire a horn-like dart with a range increment of 100 feet. This ranged attack ignores penalties for attacking underwater."
+    },
+    {
+      "name": "Rage Spasm (Su)",
+      "description": "A brood sovereign’s xenophobic rage is so great that they can radiate it from their bodies in both physical and psychic manifestations. As a full action, a brood sovereign can cause their tree-like crowns to spasm violently, sending out two 120-foot cones of concentrated psychic anger that can be aimed independently. A creature caught in the area of at least one cone takes 4d12+20 electricity damage as its brain and nervous system short out (Reflex DC 27 half)."
+    },
+    {
+      "name": "Terrify (Su)",
+      "description": "A creature that takes damage from a brood sovereign’s rage spasm ability must attempt a DC 27 Will saving throw. On a failure, the creature gains the panicked condition for 1d6 rounds. At the end of an affected creature’s turn, it can attempt an additional saving throw to end the panicked condition early; on a successful save, it’s instead shaken for the remainder of the effect’s duration."
+    }
+  ],
+  "description": "These rare, titanic slug-like creatures dwell amid coral reefs of polar oceans, such as the core of icy Nisis in the Diaspora. Nibbling on the reef ridges with their rasping footpads and conifer-like sensory appendages, brood sovereigns consume silicon‑laced corallites, and their bodies process the element into defensive dermal nodules and pseudo‑circuitry within their brains. Over millennia, this augmented brainpower has endowed brood sovereigns with true, but malign, intelligence.\nThe brood sovereigns of Nisis believe themselves the world’s true rulers, so they’ve begun to psychically direct other sea life to drive off the intelligent species that they view as interlopers.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBrood Sovereign\nSource\nStarfinder #33: Dominion’s End pg. 56\nBrood Sovereign CR 20\nXP 307,200\nNE Gargantuan magical beast (aquatic, cold)\nInit\n+5;\nSenses\nblindsight (vibration) 120 ft., darkvision 60 ft., low-light vision;\nPerception\n+34\nDefense\nHP\n400\nEAC\n34;\nKAC\n35\nFort\n+19;\nRef\n+19;\nWill\n+22\nDefensive Abilities\ndepth-inured;\nImmunities\ncold\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n20 ft., swim 60 ft.\nMelee\nslam +29 (13d6+25 B plus swallow whole)\nRanged\nkeratin dart +31 (8d8+20 P)\nSpace\n20 ft.;\nReach\n20 ft.\nOffensive Abilities\nrage spasm (two 120-ft. cones, 4d12+20 E plus terrify, Reflex DC 27 half, usable every 1d4 rounds), swallow whole (13d6+25 A, EAC 34, KAC 31, 100 HP), terrify (DC 27)\nSpell-Like Abilities\n(CL 20th; ranged +31)\n1/day—\nmass inflict pain\n(DC 29),\nmass suggestion\n(DC 29),\nmind thrust\n(6th level, DC 29),\npsychic surgery\n3/day—\ndominate person\n(DC 28),\nfeeblemind\n(DC 28),\ngreater synaptic pulse\n(DC 28)\nAt will—\nconfusion\n(DC 27),\nfear\n(4th level, DC 27)\nStatistics\nSTR\n+5;\nDEX\n+5;\nCON\n+9;\nINT\n+6;\nWIS\n+12;\nCHA\n+6\nSkills\nAthletics +34 (+42 to swim), Intimidate +39, Mysticism +39, Stealth +34, Survival +34\nLanguages\nCommon, Sarcesian (can’t speak any language); telepathy 120 ft.\nOther Abilities\ncompression, water breathing\nEcology\nEnvironment\nany cold aquatic (Nisis)\nOrganization\nsolitary or breeding scrum (2–4)\nSpecial Abilities\nDepth-Inured (Ex)\nA brood sovereign’s invertebrate body is accustomed to navigating ocean depths. They’re immune to damage related to changes in atmospheric or liquid pressure.\nKeratin Dart (Ex)\nAs a ranged attack, a brood sovereign can fire a horn-like dart with a range increment of 100 feet. This ranged attack ignores penalties for attacking underwater.\nRage Spasm (Su)\nA brood sovereign’s xenophobic rage is so great that they can radiate it from their bodies in both physical and psychic manifestations. As a full action, a brood sovereign can cause their tree-like crowns to spasm violently, sending out two 120-foot cones of concentrated psychic anger that can be aimed independently. A creature caught in the area of at least one cone takes 4d12+20 electricity damage as its brain and nervous system short out (Reflex DC 27 half).\nTerrify (Su)\nA creature that takes damage from a brood sovereign’s rage spasm ability must attempt a DC 27 Will saving throw. On a failure, the creature gains the panicked condition for 1d6 rounds. At the end of an affected creature’s turn, it can attempt an additional saving throw to end the panicked condition early; on a successful save, it’s instead shaken for the remainder of the effect’s duration.\nDescription\nThese rare, titanic slug-like creatures dwell amid coral reefs of polar oceans, such as the core of icy Nisis in the Diaspora. Nibbling on the reef ridges with their rasping footpads and conifer-like sensory appendages, brood sovereigns consume silicon‑laced corallites, and their bodies process the element into defensive dermal nodules and pseudo‑circuitry within their brains. Over millennia, this augmented brainpower has endowed brood sovereigns with true, but malign, intelligence.\nThe brood sovereigns of Nisis believe themselves the world’s true rulers, so they’ve begun to psychically direct other sea life to drive off the intelligent species that they view as interlopers.",
+  "type": "magical beast (aquatic, cold)",
+  "category": "alien"
+}

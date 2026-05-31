@@ -1,0 +1,53 @@
+{
+  "name": "Midships Mimic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Midships Mimic&Family=None",
+  "source": "Starfinder #37: The White Glove Affair pg. 58",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "aberration (shapechanger)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+7",
+  "speed": "10 ft.",
+  "melee": "slam +19 (3d4+14 B plus grab)",
+  "ranged": "coolant spray +16 (2d8+8 C) Special Attacks constrict (3d4+14 B)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+4",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Computers +16, Disguise +21 (+31 to mimic a starship part), Engineering +16",
+  "languages": "Common",
+  "other_abilities": "mimic starship part",
+  "environment": "any (starship)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Constrict (Ex)",
+      "description": "When a midships mimic successfully renews a grapple or pin against a creature, it automatically deals 3d4+14 bludgeoning damage to that creature."
+    },
+    {
+      "name": "Coolant Spray (Ex)",
+      "description": "As a ranged attack, a midships mimic can spray nearby foes with the coolant-like substance that runs naturally throughout its body. This attack has a range of 20 feet and the blast special property."
+    },
+    {
+      "name": "Mimic Starship Part (Ex)",
+      "description": "As a full action, a midships mimic can assume the general shape of a mechanism or part of an internal system of a Medium or larger starship. A midships mimic can use Disguise to impersonate such a mechanism, as if it were disguising itself as a creature of its own type and size category; it gains a +10 racial bonus to its Disguise check to do so. If the midships mimic is near a functioning part of the starship system (such as a vessel’s engines or power core) that it is mimicking, it can digest and replace the complex machinery over the course of 24 hours. During this time, the system is treated as if it has the glitching critical damage condition, but when the midships mimic is finished, the system functions as normal. Afterward, each time that system gains a critical damage condition, the midships mimic loses 40 Hit Points; removing that critical damage condition fully heals the creature. If an integrated midships mimic is reduced to 0 Hit Points, the system it has replaced immediately gains the wrecked critical damage condition, but can be repaired normally; see the critical damage effect table on page 321 of the Starfinder Core Rulebook for a list of starship systems that can be affected. Each starship system can sustain one midships mimic at a time."
+    }
+  ],
+  "description": "Tales from Lost Golarion’s past speak of shapechanging aberrations posing as treasure chests in crumbling dungeons to prey on adventurers. Many believe that the creatures called midships mimics are descended from those creatures, as they can perform similar feats of masquerade. However, a midships mimic can integrate itself into a starship’s system, seamlessly replacing vital components and feeding off the ship’s power. Even when discovered, many crews opt to leave a midships mimic undisturbed, knowing that destroying the creature will leave the system decidedly damaged.\nGiven enough time however, a midships mimic might reproduce, with offspring consuming more and more of a starship until its most vital systems are more aberration than machine. This leaves the vessel in a precarious situation, for if any of the midships mimics leave or are killed, the ship would become an essentially useless floating wreck.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMidships Mimic\nSource\nStarfinder #37: The White Glove Affair pg. 58\nMidships Mimic CR 8\nXP 4,800\nN Large aberration (shapechanger)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+10;\nWill\n+7\nOffense\nSpeed\n10 ft.\nMelee\nslam +19 (3d4+14 B plus grab)\nRanged\ncoolant spray +16 (2d8+8 C) Special Attacks constrict (3d4+14 B)\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+4;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nSkills\nComputers +16, Disguise +21 (+31 to mimic a starship part), Engineering +16\nLanguages\nCommon\nOther Abilities\nmimic starship part\nEcology\nEnvironment\nany (starship)\nOrganization\nsolitary\nSpecial Abilities\nConstrict (Ex)\nWhen a midships mimic successfully renews a grapple or pin against a creature, it automatically deals 3d4+14 bludgeoning damage to that creature.\nCoolant Spray (Ex)\nAs a ranged attack, a midships mimic can spray nearby foes with the coolant-like substance that runs naturally throughout its body. This attack has a range of 20 feet and the blast special property.\nMimic Starship Part (Ex)\nAs a full action, a midships mimic can assume the general shape of a mechanism or part of an internal system of a Medium or larger starship. A midships mimic can use Disguise to impersonate such a mechanism, as if it were disguising itself as a creature of its own type and size category; it gains a +10 racial bonus to its Disguise check to do so. If the midships mimic is near a functioning part of the starship system (such as a vessel’s engines or power core) that it is mimicking, it can digest and replace the complex machinery over the course of 24 hours. During this time, the system is treated as if it has the glitching critical damage condition, but when the midships mimic is finished, the system functions as normal. Afterward, each time that system gains a critical damage condition, the midships mimic loses 40 Hit Points; removing that critical damage condition fully heals the creature. If an integrated midships mimic is reduced to 0 Hit Points, the system it has replaced immediately gains the wrecked critical damage condition, but can be repaired normally; see the critical damage effect table on page 321 of the Starfinder Core Rulebook for a list of starship systems that can be affected. Each starship system can sustain one midships mimic at a time.\nDescription\nTales from Lost Golarion’s past speak of shapechanging aberrations posing as treasure chests in crumbling dungeons to prey on adventurers. Many believe that the creatures called midships mimics are descended from those creatures, as they can perform similar feats of masquerade. However, a midships mimic can integrate itself into a starship’s system, seamlessly replacing vital components and feeding off the ship’s power. Even when discovered, many crews opt to leave a midships mimic undisturbed, knowing that destroying the creature will leave the system decidedly damaged.\nGiven enough time however, a midships mimic might reproduce, with offspring consuming more and more of a starship until its most vital systems are more aberration than machine. This leaves the vessel in a precarious situation, for if any of the midships mimics leave or are killed, the ship would become an essentially useless floating wreck.",
+  "type": "aberration (shapechanger)",
+  "category": "alien"
+}

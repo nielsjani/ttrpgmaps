@@ -1,0 +1,59 @@
+{
+  "name": "The Swarm, Ceretoram",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ceretoram&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+6",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+22",
+  "hp": "120",
+  "eac": "21",
+  "kac": "22",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+14",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "claw +15 (3d4+12 S; critical bleed 2d6) or tentacle +15 (1d8+12 P plus consume; critical staggered [DC 18])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "remote pulse",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th; ranged +17",
+    "spells": "1/day—\nray of exhaustion\n(DC 20),\nsynaptic pulse\n(DC 20)\n3/day—\ndaze monster\n(DC 19),\nfear\n(2nd level, DC 19),\nforce blast\n(DC 19),\nhold person\n(DC 19)\nAt will—\nlesser confusion\n(DC 18),\nmind thrust\n(1st level, DC 18)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +17, Athletics +17, Sense Motive +22",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or purge (3–6)",
+  "special_abilities": [
+    {
+      "name": "Consume (Ex)",
+      "description": "A creature struck by a Swarm ceretoram’s tentacle must succeed at a DC 18 Fortitude save or have some of its biological matter siphoned off by the attack, taking an additional 1d8 piercing damage. The ceretoram then regains Hit Points equal to double this additional damage."
+    },
+    {
+      "name": "Remote Pulse (Su)",
+      "description": "As a reaction when a creature fails its save against a ceretoram’s\nmind thrust\nspell-like ability, the ceretoram can immediately cast its\nsynaptic pulse\nspell-like ability, centering the effect on the target of the\nmind thrust\n. That creature isn’t subject to the effects of the\nsynaptic pulse\n."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Swarm ceretorams employ a vicious set of mental abilities that allow them to quickly overwhelm their opposition through psychic might before closing in and rending with their claws in close combat. They can feed on nearly all forms of matter, including constructs and undead.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Ceretoram\nSource\nStarfinder #23: Hive of Minds pg. 59\nCeretoram CR 9\nXP 6,400\nCE Large monstrous humanoid\nInit\n+6;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+22\nDefense\nHP\n120\nEAC\n21;\nKAC\n22\nFort\n+8;\nRef\n+10;\nWill\n+14\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\nclaw +15 (3d4+12 S; critical bleed 2d6) or tentacle +15 (1d8+12 P plus consume; critical staggered [DC 18])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nremote pulse\nSpell-Like Abilities\n(CL 9th; ranged +17)\n1/day—\nray of exhaustion\n(DC 20),\nsynaptic pulse\n(DC 20)\n3/day—\ndaze monster\n(DC 19),\nfear\n(2nd level, DC 19),\nforce blast\n(DC 19),\nhold person\n(DC 19)\nAt will—\nlesser confusion\n(DC 18),\nmind thrust\n(1st level, DC 18)\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+0;\nINT\n+0;\nWIS\n+4;\nCHA\n-1\nSkills\nAcrobatics +17, Athletics +17, Sense Motive +22\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or purge (3–6)\nSpecial Abilities\nConsume (Ex)\nA creature struck by a Swarm ceretoram’s tentacle must succeed at a DC 18 Fortitude save or have some of its biological matter siphoned off by the attack, taking an additional 1d8 piercing damage. The ceretoram then regains Hit Points equal to double this additional damage.\nRemote Pulse (Su)\nAs a reaction when a creature fails its save against a ceretoram’s\nmind thrust\nspell-like ability, the ceretoram can immediately cast its\nsynaptic pulse\nspell-like ability, centering the effect on the target of the\nmind thrust\n. That creature isn’t subject to the effects of the\nsynaptic pulse\n.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nSwarm ceretorams employ a vicious set of mental abilities that allow them to quickly overwhelm their opposition through psychic might before closing in and rending with their claws in close combat. They can feed on nearly all forms of matter, including constructs and undead.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

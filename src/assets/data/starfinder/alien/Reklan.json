@@ -1,0 +1,48 @@
+{
+  "name": "Reklan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Reklan&Family=None",
+  "source": "Starfinder #10: The Diaspora Strain pg. 57",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+5",
+  "senses": "blindsense (thought) 120 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "110",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+7",
+  "speed": "40 ft., climb 40 ft., fly 40 ft. (Su, average), swim 40 ft.",
+  "melee": "spiny tentacle +18 (2d8+7 P) or",
+  "ranged": "spine barrage +18 (2d8+7 P)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +14, Athletics +14 (+22 to climb or swim), Stealth +19",
+  "other_abilities": "compression, habitable field",
+  "environment": "any (Diaspora)",
+  "organization": "solitary or mating knot (2–7)",
+  "special_abilities": [
+    {
+      "name": "Habitable Field (Su)",
+      "description": "A reklan generates a magical field that makes its surroundings habitable. This field extends in a spherical spread 1,200 feet from the reklan. Within this field, the reklan and other creatures are affected as if by the life bubble spell."
+    },
+    {
+      "name": "Spine Barrage (Ex)",
+      "description": "A reklan can fling its tail spines with a range increment of 60 feet."
+    }
+  ],
+  "description": "Reklans are the result of an ancient sarcesian attempt to make the Diaspora more habitable through magical engineering. In one sense, the attempt succeeded—each reklan can magically provide a habitat comfortable to most Pact Worlds species in otherwise lifeless conditions. However, reklans turned on their creators. A reklan that senses a nearby sapient being immediately begins hunting it, stopping only when seriously wounded or killed, or when the intruder has been devoured.\nEach reklan has two long, tentacular tails studded with bony spines similar to the creature’s teeth. The reklan usually keeps these tails rolled up, but in combat, it lashes out with them, flicking detachable spines like darts. A reklan also has two sets of smaller front tentacles linked by webs of skin, which it flaps like wings. These tentacles attach just behind the reklan’s fanged mouth. A typical reklan is only 3 feet long with its tails coiled. Most weigh around 90 pounds, and their spongy flesh allows them to squeeze through tiny spaces.\nReklans are native to the Diaspora, where they inhabit ruins they keep empty with their own hunting. They can also fly through vacuum in their magical bubbles. These creatures are usually found alone, although—because each reklan is capable of producing eggs and fertilizing the eggs of other reklans—they occasionally gather in small groups to mate.\nOver the centuries, reklans have spread throughout the Pact Worlds and beyond, thanks to starfarers who use them as portable life-support systems. If kept carefully contained and unable to sense thought, a reklan is content to hibernate indefinitely, allowing captors to harness the beast’s aura. Such arrangements are dangerous, though, since a reklan that breaks containment inevitably stalks its captors, stealthily moving through ventilation shafts and behind bulkheads to slaughter its prey with cunning efficiency.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReklan\nSource\nStarfinder #10: The Diaspora Strain pg. 57\nReklan CR 7\nXP 3,200\nN Small magical beast\nInit\n+5;\nSenses\nblindsense (thought) 120 ft., darkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n110\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+7\nOffense\nSpeed\n40 ft., climb 40 ft., fly 40 ft. (Su, average), swim 40 ft.\nMelee\nspiny tentacle +18 (2d8+7 P) or\r\nbite +18 (2d6+11 P)\nRanged\nspine barrage +18 (2d8+7 P)\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n+2;\nINT\n-3;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +14, Athletics +14 (+22 to climb or swim), Stealth +19\nOther Abilities\ncompression, habitable field\nEcology\nEnvironment\nany (Diaspora)\nOrganization\nsolitary or mating knot (2–7)\nSpecial Abilities\nHabitable Field (Su)\nA reklan generates a magical field that makes its surroundings habitable. This field extends in a spherical spread 1,200 feet from the reklan. Within this field, the reklan and other creatures are affected as if by the life bubble spell.\nSpine Barrage (Ex)\nA reklan can fling its tail spines with a range increment of 60 feet.\nDescription\nReklans are the result of an ancient sarcesian attempt to make the Diaspora more habitable through magical engineering. In one sense, the attempt succeeded—each reklan can magically provide a habitat comfortable to most Pact Worlds species in otherwise lifeless conditions. However, reklans turned on their creators. A reklan that senses a nearby sapient being immediately begins hunting it, stopping only when seriously wounded or killed, or when the intruder has been devoured.\nEach reklan has two long, tentacular tails studded with bony spines similar to the creature’s teeth. The reklan usually keeps these tails rolled up, but in combat, it lashes out with them, flicking detachable spines like darts. A reklan also has two sets of smaller front tentacles linked by webs of skin, which it flaps like wings. These tentacles attach just behind the reklan’s fanged mouth. A typical reklan is only 3 feet long with its tails coiled. Most weigh around 90 pounds, and their spongy flesh allows them to squeeze through tiny spaces.\nReklans are native to the Diaspora, where they inhabit ruins they keep empty with their own hunting. They can also fly through vacuum in their magical bubbles. These creatures are usually found alone, although—because each reklan is capable of producing eggs and fertilizing the eggs of other reklans—they occasionally gather in small groups to mate.\nOver the centuries, reklans have spread throughout the Pact Worlds and beyond, thanks to starfarers who use them as portable life-support systems. If kept carefully contained and unable to sense thought, a reklan is content to hibernate indefinitely, allowing captors to harness the beast’s aura. Such arrangements are dangerous, though, since a reklan that breaks containment inevitably stalks its captors, stealthily moving through ventilation shafts and behind bulkheads to slaughter its prey with cunning efficiency.",
+  "type": "magical beast",
+  "category": "alien"
+}

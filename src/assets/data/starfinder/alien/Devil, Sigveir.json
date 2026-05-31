@@ -1,0 +1,59 @@
+{
+  "name": "Devil, Sigveir",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sigveir&Family=Devil",
+  "source": "Starfinder #46: The Perfect Storm pg. 58",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "outsider (devil, evil, extraplanar, lawful)",
+  "init": "+1",
+  "senses": "blindsense (emotion), darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "32",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+6",
+  "dr": "5/good or silver",
+  "immunities": "fire, poison;",
+  "resistances": "acid 5, cold 5",
+  "speed": "30 ft.",
+  "melee": "trunk +6 (1d4+3 B) or bite +6 (1d4 P plus sigveir poison)",
+  "ranged": "azimuth laser pistol +8 (1d4+3 F; critical burn 1d4)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with trunk)",
+  "offensive_abilities": "devour emotions, incite emotions",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "1st (3/day)—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\ndisguise self\n0 (at will)—\ncharming veneer\n,\ndaze\n(DC 14),\nghost sound\n(DC 15)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Bluff +13, Computers +10, Sense Motive +8, Stealth +7",
+  "languages": "Celestial, Common, Draconic, Infernal, telepathy 100 ft.",
+  "environment": "any (Hell)",
+  "organization": "solitary, partnership (2–4), or firm (5 or more)",
+  "special_abilities": [
+    {
+      "name": "Devour Emotions (Su)",
+      "description": "A sigveir can take a standard action to extend their trunk toward one creature within 30 feet that’s affected by an enchantment (emotion) effect, and then feed on its emotions. The creature’s emotional effect ends, but it’s dazed for 1 round, and the sigveir gains 2d8 temporary hit points."
+    },
+    {
+      "name": "Incite Emotions (Su)",
+      "description": "A sigveir can take a full action to bring the dormant emotions of nearby creatures to the surface, overwhelming their reason. When the devil does this, all non-devils within 30 feet must succeed at a DC 14 Will save or be overcome by intense exaggerations of whatever emotions they might already be feeling. The effect lasts for 1 minute or until the sigveir is killed, and affected creatures take a –2 penalty to attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks. This is an enchantment (emotion) effect.\nSigveir Poison\nType\npoison (injury);\nSave Fortitude\nDC 14\nTrack\nWisdom;\nFrequency\n1/round for 6 rounds\nCure\n1 save"
+    }
+  ],
+  "description": "Sigveirs, also known as propaganda devils, are fiends who tempt mortals into signing infernal contracts using disinformation and fearmongering. They slip inside mortal communities to whisper frightening lies into the ears of the meek, inspiring panic and dread that ultimately drive victims to turn against their neighbors. Sigveirs feed on emotions and delight in cultivating sparks of hope and joy in their prey before devouring every strong feeling their target holds, leaving mortals despondent and vacant. In the legions of Hell, sigveirs serve as messengers and heralds, sometimes becoming clerks or aides to mid-ranking devils.",
+  "extra_content": "The following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDevil\nAliens in the \"Devil\" Family\nName\nCR\nConvergent\n3\nEndbringer Devil (Dhalochar)\n19\nErinyes\n8\nGambling (Magadaz)\n4\nHacker (Lislaroth)\n10\nImp\n2\nLemure\n1/2\nMannequin (Oidranoth)\n9\nSigveir\n3\nWarmonger Devil (Levaloch)\n7\nDevil, Sigveir\nSource\nStarfinder #46: The Perfect Storm pg. 58\nSigveir CR 3\nXP 800\nLE Medium outsider (devil, evil, extraplanar, lawful)\nInit\n+1;\nSenses\nblindsense (emotion), darkvision 60 ft.;\nPerception\n+8\nDefense\nHP\n32\nEAC\n13;\nKAC\n14\nFort\n+2;\nRef\n+4;\nWill\n+6\nDR\n5/good or silver;\nImmunities\nfire, poison;\nResistances\nacid 5, cold 5\nOffense\nSpeed\n30 ft.\nMelee\ntrunk +6 (1d4+3 B) or bite +6 (1d4 P plus sigveir poison)\nRanged\nazimuth laser pistol +8 (1d4+3 F; critical burn 1d4)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with trunk)\nOffensive Abilities\ndevour emotions, incite emotions\nSpell-Like Abilities\n(CL 3rd)\n1st (3/day)—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\ndisguise self\n0 (at will)—\ncharming veneer\n,\ndaze\n(DC 14),\nghost sound\n(DC 15)\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+1;\nINT\n+2;\nWIS\n+2;\nCHA\n+4\nSkills\nBluff +13, Computers +10, Sense Motive +8, Stealth +7\nLanguages\nCelestial, Common, Draconic, Infernal, telepathy 100 ft.\nEcology\nEnvironment\nany (Hell)\nOrganization\nsolitary, partnership (2–4), or firm (5 or more)\nSpecial Abilities\nDevour Emotions (Su)\nA sigveir can take a standard action to extend their trunk toward one creature within 30 feet that’s affected by an enchantment (emotion) effect, and then feed on its emotions. The creature’s emotional effect ends, but it’s dazed for 1 round, and the sigveir gains 2d8 temporary hit points.\nIncite Emotions (Su)\nA sigveir can take a full action to bring the dormant emotions of nearby creatures to the surface, overwhelming their reason. When the devil does this, all non-devils within 30 feet must succeed at a DC 14 Will save or be overcome by intense exaggerations of whatever emotions they might already be feeling. The effect lasts for 1 minute or until the sigveir is killed, and affected creatures take a –2 penalty to attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks. This is an enchantment (emotion) effect.\nSigveir Poison\nType\npoison (injury);\nSave Fortitude\nDC 14\nTrack\nWisdom;\nFrequency\n1/round for 6 rounds\nCure\n1 save\nDescription\nSigveirs, also known as propaganda devils, are fiends who tempt mortals into signing infernal contracts using disinformation and fearmongering. They slip inside mortal communities to whisper frightening lies into the ears of the meek, inspiring panic and dread that ultimately drive victims to turn against their neighbors. Sigveirs feed on emotions and delight in cultivating sparks of hope and joy in their prey before devouring every strong feeling their target holds, leaving mortals despondent and vacant. In the legions of Hell, sigveirs serve as messengers and heralds, sometimes becoming clerks or aides to mid-ranking devils.\nExtra Content\nThe following extra content was found for this creature:\n-\nDevil (Summoning) Graft Template\n-\nDevil (Creature Subtype) Graft Template",
+  "type": "outsider (devil, evil, extraplanar, lawful)",
+  "category": "alien"
+}

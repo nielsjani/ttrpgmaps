@@ -1,0 +1,46 @@
+{
+  "name": "Electrovore Colony Troop",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Electrovore Colony Troop&Family=None",
+  "source": "Starfinder #38: Crash and Burn pg. 61",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast (troop)",
+  "init": "+8",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+17",
+  "hp": "165",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+8",
+  "immunities": "electricity, troop immunities",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "troop attack (1d10+13 B)",
+  "space": "20 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "electrical field",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "+3",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +22, Athletics +17, Stealth +17, Survival +17",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Electrical Field (Ex)",
+      "description": "On its turn, an electrovore colony can spend 1 Resolve Point to energize its troop attack with electricity. When it does, its reach increases to 10 feet for 1 round and its troop attack deals bludgeoning and electricity damage. A creature that takes electricity damage from this attack must succeed at a DC 16 Reflex save or be staggered for 1 round."
+    }
+  ],
+  "description": "Electrovores breed rapidly, quickly overwhelming starships or space stations if left unchecked. Ordinarily these skittish creatures hide in a starship’s crawlspaces and fight only in self-defense, but a colony that lives without harassment for a prolonged time may eventually come to think of its regular feeding area as its territory. Because starship power cores and maintenance areas are often close, confined spaces, colonies discovered there often fill all available space, defending their home in a single, writhing unit.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nElectrovore Colony Troop\nSource\nStarfinder #38: Crash and Burn pg. 61\nElectrovore Colony Troop CR 9\nXP 6,400\nN Small magical beast (troop)\nInit\n+8;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+17\nDefense\nHP\n165;\nRP\n4\nEAC\n22;\nKAC\n24\nFort\n+13;\nRef\n+13;\nWill\n+8\nDefensive Abilities\ntroop defenses;\nImmunities\nelectricity, troop immunities\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\ntroop attack (1d10+13 B)\nSpace\n20 ft.;\nReach\n5 ft.\nOffensive Abilities\nelectrical field\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n+3;\nINT\n-4;\nWIS\n+2;\nCHA\n-1\nSkills\nAcrobatics +22, Athletics +17, Stealth +17, Survival +17\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nElectrical Field (Ex)\nOn its turn, an electrovore colony can spend 1 Resolve Point to energize its troop attack with electricity. When it does, its reach increases to 10 feet for 1 round and its troop attack deals bludgeoning and electricity damage. A creature that takes electricity damage from this attack must succeed at a DC 16 Reflex save or be staggered for 1 round.\nDescription\nElectrovores breed rapidly, quickly overwhelming starships or space stations if left unchecked. Ordinarily these skittish creatures hide in a starship’s crawlspaces and fight only in self-defense, but a colony that lives without harassment for a prolonged time may eventually come to think of its regular feeding area as its territory. Because starship power cores and maintenance areas are often close, confined spaces, colonies discovered there often fill all available space, defending their home in a single, writhing unit.",
+  "type": "magical beast (troop)",
+  "category": "alien"
+}

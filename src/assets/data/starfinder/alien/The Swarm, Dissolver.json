@@ -1,0 +1,54 @@
+{
+  "name": "The Swarm, Dissolver",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dissolver&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+12",
+  "immunities": "acid, fear effects;",
+  "resistances": "fire 10",
+  "speed": "20 ft., climb 10 ft.",
+  "melee": "slam +28 (4d6+19 B; critical push 10 ft.)",
+  "ranged": "corrosive jet +23 (3d8+11 A & F; critical corrode 2d4)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "wing gust",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +20, Athletics +25 (+33 to climb)",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "pair or pack (1–2 plus 3–8 Swarm creatures)",
+  "special_abilities": [
+    {
+      "name": "Corrosive Jet (Ex)",
+      "description": "The Swarm dissolver can spew a jet of corrosive chemicals with a range of 30 feet. This attack has the line and unwieldy weapon special properties."
+    },
+    {
+      "name": "Wing Gust (Ex)",
+      "description": "A Swarm dissolver’s vestigial wings have surprising power. As a standard action, a Swarm dissolver can beat its wings rapidly to create a powerful gust of wind in a 30-foot cone. All nonmagical flames in the cone are extinguished, and any Medium or smaller creatures in the area must succeed at a DC 18 Reflex save or be pushed 10 feet away from the Swarm dissolver and knocked prone."
+    }
+  ],
+  "description": "There is a seemingly infinite variety of Swarm components, as the species adapts and creates specialized spawn to counter the many obstacles it faces in its effort to devour the galaxy.\nA Swarm dissolver’s main focus is to protect smaller Swarm components and provide an impenetrable front line during combat, incinerating the most formidable foes while also accompanying corrovoxes, mindreapers, and other Swarm shock troops when they swoop in to clean up after a battle. A dissolver’s exoskeleton is thicker than that of most other Swarm creatures, but its most prominent offensive feature—sturdy horns that curl back toward the dissolver’s body— are surprisingly not its primary weapons; these horns instead function as a last-resort defense, allowing a dissolver to fling enemies away with a mighty shove. A dissolver’s main mode of attack is actually hidden between its mandibles: two vascular conduits pump highly corrosive and combustible chemicals from within separate glands in the dissolver’s abdomen. These chemicals are inert when separate but explode when combined, in a conflagration of acid and fire. Like many other Swarm components, a dissolver bears a set of insectile wings, but they aren’t powerful enough for the massive, heavy creature to fly.\nSwarm xersks are a rare sight, and in fact only a handful have been seen by members of other species who lived to spread news of their existence. These creatures rarely resort to physical attacks, instead relying on their potent psychic abilities to mentally assault and frighten intelligent creatures.\nThese bizarre Swarm components have large, crested heads covered in a horrifying array of staring eyes. Those who look into a xersk’s eyes for even a few seconds begin to question reality, and may eventually lose their hold on it altogether.\nSuperficially, xersks appear to exhibit more free will than most Swarm components. They can often be found alone, quietly observing a geographical feature or distant constellation. Despite this odd behavior, xersks are still very much a part of the Swarm’s hive mind, and like every Swarm component, they act solely to further the Swarm’s machinations, no matter how nebulous their demeanor might seem to outside observers.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Dissolver\nSource\nAlien Archive 3 pg. 106\nDissolver CR 11\nXP 12,800\nCE Large monstrous humanoid\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+20\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+12\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects;\nResistances\nfire 10\nOffense\nSpeed\n20 ft., climb 10 ft.\nMelee\nslam +28 (4d6+19 B; critical push 10 ft.)\nRanged\ncorrosive jet +23 (3d8+11 A & F; critical corrode 2d4)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nwing gust\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n+1;\nWIS\n+0;\nCHA\n-2\nSkills\nAcrobatics +20, Athletics +25 (+33 to climb)\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\npair or pack (1–2 plus 3–8 Swarm creatures)\nSpecial Abilities\nCorrosive Jet (Ex)\nThe Swarm dissolver can spew a jet of corrosive chemicals with a range of 30 feet. This attack has the line and unwieldy weapon special properties.\nWing Gust (Ex)\nA Swarm dissolver’s vestigial wings have surprising power. As a standard action, a Swarm dissolver can beat its wings rapidly to create a powerful gust of wind in a 30-foot cone. All nonmagical flames in the cone are extinguished, and any Medium or smaller creatures in the area must succeed at a DC 18 Reflex save or be pushed 10 feet away from the Swarm dissolver and knocked prone.\nDescription\nThere is a seemingly infinite variety of Swarm components, as the species adapts and creates specialized spawn to counter the many obstacles it faces in its effort to devour the galaxy.\nA Swarm dissolver’s main focus is to protect smaller Swarm components and provide an impenetrable front line during combat, incinerating the most formidable foes while also accompanying corrovoxes, mindreapers, and other Swarm shock troops when they swoop in to clean up after a battle. A dissolver’s exoskeleton is thicker than that of most other Swarm creatures, but its most prominent offensive feature—sturdy horns that curl back toward the dissolver’s body— are surprisingly not its primary weapons; these horns instead function as a last-resort defense, allowing a dissolver to fling enemies away with a mighty shove. A dissolver’s main mode of attack is actually hidden between its mandibles: two vascular conduits pump highly corrosive and combustible chemicals from within separate glands in the dissolver’s abdomen. These chemicals are inert when separate but explode when combined, in a conflagration of acid and fire. Like many other Swarm components, a dissolver bears a set of insectile wings, but they aren’t powerful enough for the massive, heavy creature to fly.\nSwarm xersks are a rare sight, and in fact only a handful have been seen by members of other species who lived to spread news of their existence. These creatures rarely resort to physical attacks, instead relying on their potent psychic abilities to mentally assault and frighten intelligent creatures.\nThese bizarre Swarm components have large, crested heads covered in a horrifying array of staring eyes. Those who look into a xersk’s eyes for even a few seconds begin to question reality, and may eventually lose their hold on it altogether.\nSuperficially, xersks appear to exhibit more free will than most Swarm components. They can often be found alone, quietly observing a geographical feature or distant constellation. Despite this odd behavior, xersks are still very much a part of the Swarm’s hive mind, and like every Swarm component, they act solely to further the Swarm’s machinations, no matter how nebulous their demeanor might seem to outside observers.",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Swarm_Dissolver.png"
+}

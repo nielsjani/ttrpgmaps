@@ -1,0 +1,45 @@
+{
+  "name": "Diplomats, Emissary",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Emissary&Family=Diplomats",
+  "source": "Interstellar Species pg. 160",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CG",
+  "size": "Medium",
+  "creature_type": "humanoid (pahtra)",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "35",
+  "eac": "14",
+  "kac": "14",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+6",
+  "speed": "30 ft.",
+  "melee": "unarmed strike +7 (1d3+3 B nonlethal)",
+  "ranged": "static arc pistol +9 (1d6+3 E; critical arc 2)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Bluff +13, Culture +8, Diplomacy +13, Disguise +8, Sense Motive +13",
+  "languages": "Common, Pahtra, Vesk",
+  "other_abilities": "focused purpose",
+  "gear": "second skin, static arc pistol with 1 battery (20 charges), professional clothing",
+  "special_abilities": [
+    {
+      "name": "Focused Purpose (Ex)",
+      "description": "Once per day by concentrating for 1 minute, an emissary can dedicate themself to a goal that lasts for 24 hours. Before attempting a saving throw, skill check, or ability check that would directly help the emissary fulfill their goal, they can spend 1 Resolve Point to roll the check twice and use the better result."
+    }
+  ],
+  "description": "Emissaries are professional negotiators who communicate, advocate for, and verbally defend their patron’s interests. This might require appearing before a trade commission to dispute a contract, courting Pact Council favor to push for a planet’s admission as a protectorate, or smoothing over an awkward incident. More often, an emissary plays a subtle and sustained role by building connections and keeping their patron on another party’s figurative radar. Whatever their objectives, these diplomats do whatever is necessary to fulfill their mission.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDiplomats\nSource\nInterstellar Species pg. 160\nDiplomats are ambassadors for their people, working to establish better relationships with those from other cultures, find ways for groups to collaborate, and realize peaceful solutions when violence seems imminent. Given the stakes for fumbling a negotiation, diplomats are highly trained professionals who are equally capable of charming others and evading political traps.\nHowever, diplomats aren’t necessarily the PCs’ allies. An evil empire might employ diplomats who suppress internal dissent and international complaints through clever misdirection. Diplomats  might  introduce  well-intentioned  political entanglements in defense of their own objectives, even if these limit the PCs’ abilities to thwart some greater evil. A diplomat is often a non-combat threat, challenging PCs to employ logic, guile, and charm to discourage, discredit, or sway their rival.\nAliens in the \"Diplomats\" Family\nName\nCR\nEmissary\n3\nPact Worlds Delegate\n6\nPlenipotentiary\n11\nReligious Peacekeeper\n7\nDiplomats, Emissary\nSource\nInterstellar Species pg. 160\nEmissary CR 3\nXP 800\nPahtra\nCG Medium humanoid (pahtra)\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n35;\nRP\n3\nEAC\n14;\nKAC\n14\nFort\n+2;\nRef\n+4;\nWill\n+6\nDefensive Abilities\nnimble\nOffense\nSpeed\n30 ft.\nMelee\nunarmed strike +7 (1d3+3 B nonlethal)\nRanged\nstatic arc pistol +9 (1d6+3 E; critical arc 2)\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+0;\nINT\n+2;\nWIS\n+4;\nCHA\n+1\nSkills\nBluff +13, Culture +8, Diplomacy +13, Disguise +8, Sense Motive +13\nLanguages\nCommon, Pahtra, Vesk\nOther Abilities\nfocused purpose\nGear\nsecond skin, static arc pistol with 1 battery (20 charges), professional clothing\nSpecial Abilities\nFocused Purpose (Ex)\nOnce per day by concentrating for 1 minute, an emissary can dedicate themself to a goal that lasts for 24 hours. Before attempting a saving throw, skill check, or ability check that would directly help the emissary fulfill their goal, they can spend 1 Resolve Point to roll the check twice and use the better result.\nDescription\nEmissaries are professional negotiators who communicate, advocate for, and verbally defend their patron’s interests. This might require appearing before a trade commission to dispute a contract, courting Pact Council favor to push for a planet’s admission as a protectorate, or smoothing over an awkward incident. More often, an emissary plays a subtle and sustained role by building connections and keeping their patron on another party’s figurative radar. Whatever their objectives, these diplomats do whatever is necessary to fulfill their mission.",
+  "type": "humanoid (pahtra)",
+  "environment": "—",
+  "category": "alien"
+}

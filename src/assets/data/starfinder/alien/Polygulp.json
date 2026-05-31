@@ -1,0 +1,52 @@
+{
+  "name": "Polygulp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Polygulp&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 57",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsight (vibration) 60 ft., darkvision 60 ft;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+6",
+  "resistances": "acid 5",
+  "weaknesses": "vulnerable to fire",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "bite +14 (1d6+10 B plus swallow whole)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "burp (DC 13), expanded gullet, swallow whole (1d6+10 A, EAC 17, KAC 15, 17 HP).",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +16, Stealth +11",
+  "other_abilities": "amphibious, compression",
+  "environment": "any aquatic underground",
+  "organization": "solitary, pair, or digestion (3–6)",
+  "special_abilities": [
+    {
+      "name": "Burp (Ex)",
+      "description": "Once it has swallowed a creature whole, a polygulp can burp as a move action, sickening creatures within 10 feet for 1 round, including those it swallowed (DC 13 Fortitude negates). This is a sense-dependent effect."
+    },
+    {
+      "name": "Expanded Gullet (Ex)",
+      "description": "A polygulp’s oversized maw can hold two creatures, allowing it to grapple two targets at once when it takes a full action to attack with its bite attack. On the following turn, if both targets are still grappled, it can attempt to swallow them both with another full action to attack. A polygulp has double capacity per size category for victims in its stomach (for a Huge polygulp, that is two Large creatures, four Medium creatures, eight Small creatures, and so on)."
+    }
+  ],
+  "description": "A polygulp is a near-shapeless mass of living slime and mud that is easily mistaken for an ooze. It lurks in watery subterranean environments, waiting for pools of fish and other aquatic creatures to swim by, so that it can swallow as many of the creatures as its stomach can hold—which is a considerable amount, as a polygulp’s only true internal organ is its stomach. A polygulp occasionally slithers onto land to sate its eternal hunger, as it senses prey by the vibrations they make, attacking creatures that cross its path. The aberration can also compress into thin cracks in a wall or slide under doors, making outrunning it difficult. Despite its bizarre nature, a polygulp fills the role of apex predator within its ecosystem, preventing overpopulation among the polygulp’s prey species.\nDespite (or perhaps because of) its greedy hunger, a polygulp suffers from a constant form of indigestion when it feeds, worsening its already aggressive temperament. As its stomach acids churn, a polygulp can relieve some of the discomfort by emitting a foul-smelling burp that few can tolerate—even underwater. The odor doesn’t linger, and since a polygulp digests everything it consumes, it is tricky to determine when one has stumbled into a polygulp’s hunting grounds until it is too late.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPolygulp\nSource\nStarfinder #41: Serpents in the Cradle pg. 57\nPolygulp CR 5\nXP 1,600\nN Huge aberration\nInit\n+3;\nSenses\nblindsight (vibration) 60 ft., darkvision 60 ft;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+6\nDefensive Abilities\namorphous;\nResistances\nacid 5\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\nbite +14 (1d6+10 B plus swallow whole)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nburp (DC 13), expanded gullet, swallow whole (1d6+10 A, EAC 17, KAC 15, 17 HP).\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +16, Stealth +11\nOther Abilities\namphibious, compression\nEcology\nEnvironment\nany aquatic underground\nOrganization\nsolitary, pair, or digestion (3–6)\nSpecial Abilities\nBurp (Ex)\nOnce it has swallowed a creature whole, a polygulp can burp as a move action, sickening creatures within 10 feet for 1 round, including those it swallowed (DC 13 Fortitude negates). This is a sense-dependent effect.\nExpanded Gullet (Ex)\nA polygulp’s oversized maw can hold two creatures, allowing it to grapple two targets at once when it takes a full action to attack with its bite attack. On the following turn, if both targets are still grappled, it can attempt to swallow them both with another full action to attack. A polygulp has double capacity per size category for victims in its stomach (for a Huge polygulp, that is two Large creatures, four Medium creatures, eight Small creatures, and so on).\nDescription\nA polygulp is a near-shapeless mass of living slime and mud that is easily mistaken for an ooze. It lurks in watery subterranean environments, waiting for pools of fish and other aquatic creatures to swim by, so that it can swallow as many of the creatures as its stomach can hold—which is a considerable amount, as a polygulp’s only true internal organ is its stomach. A polygulp occasionally slithers onto land to sate its eternal hunger, as it senses prey by the vibrations they make, attacking creatures that cross its path. The aberration can also compress into thin cracks in a wall or slide under doors, making outrunning it difficult. Despite its bizarre nature, a polygulp fills the role of apex predator within its ecosystem, preventing overpopulation among the polygulp’s prey species.\nDespite (or perhaps because of) its greedy hunger, a polygulp suffers from a constant form of indigestion when it feeds, worsening its already aggressive temperament. As its stomach acids churn, a polygulp can relieve some of the discomfort by emitting a foul-smelling burp that few can tolerate—even underwater. The odor doesn’t linger, and since a polygulp digests everything it consumes, it is tricky to determine when one has stumbled into a polygulp’s hunting grounds until it is too late.",
+  "type": "aberration",
+  "category": "alien"
+}

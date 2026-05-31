@@ -1,0 +1,47 @@
+{
+  "name": "Writher Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Writher Swarm&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 285",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "plant (swarm)",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+14",
+  "ref": "+12",
+  "will": "+9",
+  "immunities": "plant immunities, swarm immunities",
+  "speed": "10 ft., climb 10 ft.",
+  "melee": "swarm attack (2d10+9 P plus distraction [DC 16] and writher infestation)",
+  "ranged": "distraction (DC 16)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+6",
+    "int": "—",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Athletics +17 (+25 to climb), Survival +17",
+  "other_abilities": "mindless",
+  "environment": "any temperate or warm lands",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Writher Infestation",
+      "description": "Type\ndisease (injury);\nSave\nFortitude DC 16\nTrack\nphysical;\nFrequency\n1/day\nEffect\nIf the victim dies from this disease, a new writher swarm immediately bursts forth from the corpse and attacks nearby creatures.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "A writher swarm consists of thousands of pale white fungal filaments that wave slowly back and forth, as if swaying in a light breeze. This mobile mold creeps its way through even the narrowest of crevices to infest a building and slowly digests all the organic matter within, whether discarded food, flesh, or wood. A writher swarm leaves behind only ceramic, concrete, metal, plastic, and stone, making them less of a threat in large urban centers where structures are largely composed of such materials, but potentially devastating to less advanced settlements.\nA single spore of a writher swarm can lie dormant for as long as several centuries, whether as a passenger on a meteor or in a cavern deep below the ground. Under the right conditions, that spore can attach to a modicum of organic material, such as a stale piece of bread or the rotting corpse of a tiny animal, after which it quickly begins growing and multiplying. If it is not eradicated, a writher swarm becomes fully mobile in a matter of weeks and can start to seek out new sources of nourishment. Even if a writher swarm presence is discovered before this point and thoroughly scoured, it’s likely that several spores will survive undetected, possibly hitching rides to new environs.\nThough a writher swarm’s tiny filaments can pierce hide and flesh, the true danger comes from the infectious particles it can implant in the wounds of its prey. These infestations grow at a rapid rate just under the victim’s skin, draining the creature’s vitality, forcing it into a coma, and eventually killing it. Unless the unfortunate victim is treated before it dies, it becomes host to a new writher swarm, which tears its way out through the creature’s skin after it dies.\nWhen a writher swarm infests a structure for several decades—getting enough food to sustain it but not causing so much death as to draw attention to itself—it grows long, rootlike filaments that thread through the floors, ceilings, and walls. This allows the plant to surround itself with a kind of organic security system that alerts it as soon as new prey sets foot in its domain. However, this fungal framework can eventually supplant the building’s own structural supports, and when such a writher swarm dies and its network of filaments turns to dust, the surrounding building often collapses soon afterward.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nWrither Swarm\nSource\nStarfinder Dead Suns Adventure Path pg. 285\n,\nStarfinder #4: The Ruined Clouds pg. 61\nWrither Swarm CR 9\nXP 6,400\nN Fine plant (swarm)\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+14;\nRef\n+12;\nWill\n+9\nDefensive Abilities\nswarm defenses;\nImmunities\nplant immunities, swarm immunities\nOffense\nSpeed\n10 ft., climb 10 ft.\nMelee\nswarm attack (2d10+9 P plus distraction [DC 16] and writher infestation)\nRanged\ndistraction (DC 16)\nSpace\n10 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+6;\nINT\n—;\nWIS\n+3;\nCHA\n+0\nSkills\nAthletics +17 (+25 to climb), Survival +17\nOther Abilities\nmindless\nEcology\nEnvironment\nany temperate or warm lands\nOrganization\nsolitary\nSpecial Abilities\nWrither Infestation\nType\ndisease (injury);\nSave\nFortitude DC 16\nTrack\nphysical;\nFrequency\n1/day\nEffect\nIf the victim dies from this disease, a new writher swarm immediately bursts forth from the corpse and attacks nearby creatures.\nCure\n2 consecutive saves\nDescription\nA writher swarm consists of thousands of pale white fungal filaments that wave slowly back and forth, as if swaying in a light breeze. This mobile mold creeps its way through even the narrowest of crevices to infest a building and slowly digests all the organic matter within, whether discarded food, flesh, or wood. A writher swarm leaves behind only ceramic, concrete, metal, plastic, and stone, making them less of a threat in large urban centers where structures are largely composed of such materials, but potentially devastating to less advanced settlements.\nA single spore of a writher swarm can lie dormant for as long as several centuries, whether as a passenger on a meteor or in a cavern deep below the ground. Under the right conditions, that spore can attach to a modicum of organic material, such as a stale piece of bread or the rotting corpse of a tiny animal, after which it quickly begins growing and multiplying. If it is not eradicated, a writher swarm becomes fully mobile in a matter of weeks and can start to seek out new sources of nourishment. Even if a writher swarm presence is discovered before this point and thoroughly scoured, it’s likely that several spores will survive undetected, possibly hitching rides to new environs.\nThough a writher swarm’s tiny filaments can pierce hide and flesh, the true danger comes from the infectious particles it can implant in the wounds of its prey. These infestations grow at a rapid rate just under the victim’s skin, draining the creature’s vitality, forcing it into a coma, and eventually killing it. Unless the unfortunate victim is treated before it dies, it becomes host to a new writher swarm, which tears its way out through the creature’s skin after it dies.\nWhen a writher swarm infests a structure for several decades—getting enough food to sustain it but not causing so much death as to draw attention to itself—it grows long, rootlike filaments that thread through the floors, ceilings, and walls. This allows the plant to surround itself with a kind of organic security system that alerts it as soon as new prey sets foot in its domain. However, this fungal framework can eventually supplant the building’s own structural supports, and when such a writher swarm dies and its network of filaments turns to dust, the surrounding building often collapses soon afterward.",
+  "type": "plant (swarm)",
+  "category": "alien"
+}

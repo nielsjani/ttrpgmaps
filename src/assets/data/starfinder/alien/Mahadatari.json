@@ -1,0 +1,58 @@
+{
+  "name": "Mahadatari",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mahadatari&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 59",
+  "cr": "19",
+  "xp": "204,800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "humanoid (kasatha)",
+  "init": "+11",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+37",
+  "hp": "385",
+  "eac": "33",
+  "kac": "34",
+  "fort": "+18",
+  "ref": "+18",
+  "will": "+18",
+  "speed": "60 ft., fly 40 ft. (Su, perfect)",
+  "melee": "slam +31 (3d12+25 B)",
+  "offensive_abilities": "tempered arms (19th level)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+9",
+    "con": "+6",
+    "int": "+3",
+    "wis": "+11",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +37, Athletics +37, Culture +32, Mysticism +37, Sense Motive +32",
+  "languages": "Common, Kasatha; telepathy 100 ft.",
+  "other_abilities": "multiarmed (4), preternatural grace, testament to history",
+  "gear": "bespoke echelon fashion",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Preternatural Grace (Su)",
+      "description": "A mahadatari moves with almost unreal agility. As a swift action, they can spend 1 Resolve Point to be affected by\nhaste\nfor 1 minute."
+    },
+    {
+      "name": "Sandstorm (Su)",
+      "description": "A mahadatari can call forth the power of Kasath’s deserts. As a move action, they surround themself with the swirling winds of a sandstorm. When a creature enters or begins its turn in the aura, it must attempt a DC 26 Reflex save or be blinded for 1 round and take 4d12 slashing damage (which counts as magic); on a success, it takes half damage and isn’t blinded."
+    },
+    {
+      "name": "Testament to History (Su)",
+      "description": "A mahadatari is a testament to the history of Kasath and all its people. As a swift action, they can spend 1 Resolve Point to choose three combat feats whose prerequisites they meet and gain one of those feats for 1 minute. As a move action while benefiting from this ability, a mahadatari can exchange the chosen feat for one of the other chosen feats for the remaining duration or until they exchange the feat again."
+    },
+    {
+      "name": "Tempered Arms (Su)",
+      "description": "When the mahadatari makes a multiattack with its slams, another set of four ghostly arms materializes and infuses the mahadatari’s corporeal arms with magic. All the mahadatari’s slam attacks gain the benefits of weapon fusions of the mahadatari’s choice until the beginning of their next turn. These weapon fusions must be able to be placed on melee weapons, and multiple fusions can be used on a single slam, but they can’t have a combined item level greater than the mahadatari’s CR."
+    }
+  ],
+  "description": "Within the Sholar Adat on the\nIdari\n, wise kasathas known as adatas prepare and guard the most treasured cultural memories of their society in the form of technomagically treated slices of kasatha brains. When adatas sort through these memories, they use a machine called the Sensorium. The process of opening their minds to another’s memories can be quite exhausting and sometimes dangerous but also very enlightening. Rarely, adatas who undergo this experience multiple times over the course of decades unlock powerful psychic potential, leading them to become mahadataris. Once ascended, a mahadatari usually leaves the Sholar Adat to explore the galaxy on a journey referred to as the Second Tempering.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMahadatari\nSource\nStarfinder #33: Dominion’s End pg. 59\nMahadatari CR 19\nXP 204,800\nLN Medium humanoid (kasatha)\nInit\n+11;\nSenses\ndarkvision 60 ft.;\nPerception\n+37\nAura\nsandstorm (30 ft., DC 26)\nDefense\nHP\n385;\nRP\n6\nEAC\n33;\nKAC\n34\nFort\n+18;\nRef\n+18;\nWill\n+18\nOffense\nSpeed\n60 ft., fly 40 ft. (Su, perfect)\nMelee\nslam +31 (3d12+25 B)\nMultiattack\n4 slams +25 (3d12+25 B)\nOffensive Abilities\ntempered arms (19th level)\nStatistics\nSTR\n+6;\nDEX\n+9;\nCON\n+6;\nINT\n+3;\nWIS\n+11;\nCHA\n+3\nSkills\nAcrobatics +37, Athletics +37, Culture +32, Mysticism +37, Sense Motive +32\nLanguages\nCommon, Kasatha; telepathy 100 ft.\nOther Abilities\nmultiarmed (4), preternatural grace, testament to history\nGear\nbespoke echelon fashion\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nPreternatural Grace (Su)\nA mahadatari moves with almost unreal agility. As a swift action, they can spend 1 Resolve Point to be affected by\nhaste\nfor 1 minute.\nSandstorm (Su)\nA mahadatari can call forth the power of Kasath’s deserts. As a move action, they surround themself with the swirling winds of a sandstorm. When a creature enters or begins its turn in the aura, it must attempt a DC 26 Reflex save or be blinded for 1 round and take 4d12 slashing damage (which counts as magic); on a success, it takes half damage and isn’t blinded.\nTestament to History (Su)\nA mahadatari is a testament to the history of Kasath and all its people. As a swift action, they can spend 1 Resolve Point to choose three combat feats whose prerequisites they meet and gain one of those feats for 1 minute. As a move action while benefiting from this ability, a mahadatari can exchange the chosen feat for one of the other chosen feats for the remaining duration or until they exchange the feat again.\nTempered Arms (Su)\nWhen the mahadatari makes a multiattack with its slams, another set of four ghostly arms materializes and infuses the mahadatari’s corporeal arms with magic. All the mahadatari’s slam attacks gain the benefits of weapon fusions of the mahadatari’s choice until the beginning of their next turn. These weapon fusions must be able to be placed on melee weapons, and multiple fusions can be used on a single slam, but they can’t have a combined item level greater than the mahadatari’s CR.\nDescription\nWithin the Sholar Adat on the\nIdari\n, wise kasathas known as adatas prepare and guard the most treasured cultural memories of their society in the form of technomagically treated slices of kasatha brains. When adatas sort through these memories, they use a machine called the Sensorium. The process of opening their minds to another’s memories can be quite exhausting and sometimes dangerous but also very enlightening. Rarely, adatas who undergo this experience multiple times over the course of decades unlock powerful psychic potential, leading them to become mahadataris. Once ascended, a mahadatari usually leaves the Sholar Adat to explore the galaxy on a journey referred to as the Second Tempering.",
+  "type": "humanoid (kasatha)",
+  "category": "alien"
+}

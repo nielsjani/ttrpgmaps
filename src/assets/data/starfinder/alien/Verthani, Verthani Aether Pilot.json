@@ -1,0 +1,48 @@
+{
+  "name": "Verthani, Verthani Aether Pilot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Verthani Aether Pilot&Family=Verthani",
+  "source": "Alien Archive pg. 119",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (verthani)",
+  "init": "+4",
+  "senses": "low-light vision;",
+  "perception": "+8",
+  "hp": "23",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+1",
+  "ref": "+4",
+  "will": "+5",
+  "speed": "30 ft.",
+  "melee": "survival knife +6 (1d4+3 S)",
+  "ranged": "static arc pistol +8 (1d6+2 E; critical arc 2) or tactical shirren-eye rifle +8 (1d10+2 P)",
+  "offensive_abilities": "trick attack +1d4",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +13, Computers +8, Engineering +8, Piloting +16, Stealth +13",
+  "languages": "Common, Vercite",
+  "other_abilities": "operative exploits (uncanny pilot), operative specialization (ghost), skin mimic",
+  "gear": "estex suit I, static arc pistol with 2 batteries (20 charges each), survival knife, tactical shirren-eye rifle with 20 longarm rounds;",
+  "environment": "any (Verces)",
+  "organization": "solitary, pair, or squad (3-8)",
+  "special_abilities": [
+    {
+      "name": "Skin Mimic (Ex)",
+      "description": "Verthani can manipulate the pigments in their skin at will and with astonishing precision, creating bright decorative patterns or deceptive camouflage. A verthani who stays stationary for 1 round gains a +10 racial bonus to Stealth checks (this bonus doesn’t stack with the\ninvisibility\nspell or similar effects). If the verthani takes any action, he loses this bonus until he once again spends 1 round remaining still. A verthani wearing clothing or armor that covers more than one-quarter of his body can’t use this ability."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nVerthani (Creature Subtype) Graft Template\n-\nVerthani Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVerthani\nSource\nAlien Archive pg. 119\nVerthani, the primary inhabitants of Verces, were some of the earliest humanoids in the Pact Worlds system to build spacefaring vessels—a response to the struggle to survive in the harsh conditions of their tidally locked planet.\nVerthani stand 8 feet tall on average, with delicate features and long limbs. Their eyes are pure-black orbs, protruding from their heads in half domes like the eyes of a mouse, and they can change the pigment of their skin at will to have complex patterns. Nearly all verthani learn to control these color changes by the time they reach puberty, but babies and children display bright, expressive patterns and colors that reflect their current mood. Some adults also refuse to control them, seeing in their random patterns hints of prophecy.\nLong ago, verthani society was split into three castes: the Augmented, the Pure Ones, and the God-Vessels. A verthani’s caste is chosen during adolescence. Though few verthani today bind themselves strictly by the system’s rules, the traditions still carry a measure of cultural pride, and some verthani proudly wear the labels.\nThe Augmented are verthani who modify their bodies with technology, usually cybernetic augmentations. This caste was particularly popular with those who piloted early aetherships (the elegant vessels verthani first sailed through the stars), and Augmented verthani pilots are still renowned as some of the most skilled in the Pact Worlds.\nIn contrast, Pure Ones traditionally eschewed all technological augmentation and were responsible for supporting other castes, farming, and governing. While many modern Pure Ones have accepted at least some modest cybernetic or biotech improvements to their bodies, these verthani remain proud of their traditional caretaker roles.\nGod-Vessels serve faithfully as living avatars of their deities, displaying this status by branding holy symbols called devotionals into their chests using either acid or flame. God-Vessels never cover up these distinctive marks, despite the fact that the scar tissue around them never fully heals and can no longer change color.\nVerthani culture is a model of independent, democratic cooperation. Forced to live on a cramped sliver of their planet, surrounded by nearly inhospitable lands on either side, verthani learned how to work together without violence or subjugation, and they choose to harness technology to increase resources rather than battle one another over scraps. Verces’s Ring of Nations remains a shining example of a one-world government in which citizens remain protected yet free to go their own way, and in many ways the Pact Worlds system itself was directly inspired by this aspect of verthani culture.\nAliens in the \"Verthani\" Family\nName\nCR\nVerthani Aether Pilot\n2\nVerthani Pure One\n9\nVerthani, Verthani Aether Pilot\nSource\nAlien Archive pg. 118\nVerthani Aether Pilot CR 2\nXP 600\nVerthani operative\nN Medium humanoid (verthani)\nInit\n+4;\nSenses\nlow-light vision;\nPerception\n+8\nDefense\nHP\n23\nEAC\n14;\nKAC\n15\nFort\n+1;\nRef\n+4;\nWill\n+5\nDefensive Abilities\nevasion\nOffense\nSpeed\n30 ft.\nMelee\nsurvival knife +6 (1d4+3 S)\nRanged\nstatic arc pistol +8 (1d6+2 E; critical arc 2) or tactical shirren-eye rifle +8 (1d10+2 P)\nOffensive Abilities\ntrick attack +1d4\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+1;\nINT\n+2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +13, Computers +8, Engineering +8, Piloting +16, Stealth +13\nLanguages\nCommon, Vercite\nOther Abilities\noperative exploits (uncanny pilot), operative specialization (ghost), skin mimic\nGear\nestex suit I, static arc pistol with 2 batteries (20 charges each), survival knife, tactical shirren-eye rifle with 20 longarm rounds;\nAugmentations\ndatajack, prosthetic arm\nEcology\nEnvironment\nany (Verces)\nOrganization\nsolitary, pair, or squad (3-8)\nSpecial Abilities\nSkin Mimic (Ex)\nVerthani can manipulate the pigments in their skin at will and with astonishing precision, creating bright decorative patterns or deceptive camouflage. A verthani who stays stationary for 1 round gains a +10 racial bonus to Stealth checks (this bonus doesn’t stack with the\ninvisibility\nspell or similar effects). If the verthani takes any action, he loses this bonus until he once again spends 1 round remaining still. A verthani wearing clothing or armor that covers more than one-quarter of his body can’t use this ability.\nExtra Content\nThe following extra content was found for this creature:\n-\nVerthani (Creature Subtype) Graft Template\n-\nVerthani Race Entry",
+  "type": "humanoid (verthani)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Verthani_Pilot.png"
+}

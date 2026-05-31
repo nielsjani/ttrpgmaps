@@ -1,0 +1,50 @@
+{
+  "name": "Magmin",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Magmin&Family=None",
+  "source": "Starfinder #16: The Blind City pg. 57",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "outsider (elemental, extraplanar, fire)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+8",
+  "hp": "32",
+  "eac": "15",
+  "kac": "17",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+3",
+  "dr": "5/magic",
+  "immunities": "elemental immunities, fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft.",
+  "melee": "slam +11 (1d6+4 B & F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +8, Athletics +8, Stealth +13",
+  "languages": "Ignan",
+  "environment": "any land (Plane of Fire)",
+  "organization": "solitary, pair, flow (3–8), eruption (9–24)",
+  "special_abilities": [
+    {
+      "name": "Molten Body (Su)",
+      "description": "Any melee weapon striking the magmin\r\ntakes 1d4 fire damage, ignoring hardness. If the weapon’s\r\nwielder fails a DC 12 Reflex save, the weapon gains the\r\nburning condition, which deals 1d4 fire damage that\r\nignores hardness."
+    },
+    {
+      "name": "Searing Aura (Su)",
+      "description": "A magmin radiates volcanic heat, and any\r\ncreature that starts its turn in the aura must succeed at a\r\nDC 12 Fortitude save or take 1d4 fire damage."
+    }
+  ],
+  "description": "The mischievous magmins seek places where their native\r\nPlane of Fire touches the Material Plane, allowing them to\r\nslip between planes. When a magmin appears on the Material\r\nPlane, it does so in places of immense heat, such as within\r\nlava. An influx of magmins can disrupt magma flows, causing\r\nvolcanic eruptions and earthquakes.\nThough few mortals know what causes magmins to begin\r\ntheir exodus from their home plane, the truth is that\r\nmagmins aren’t very imposing in comparison to other\r\ncreatures that inhabit the Plane of Fire. Such creatures\r\nregularly push magmins around or annex their\r\nterritory, forcing magmins to migrate, sometimes in\r\nlarge groups. Ousted magmins are untrusting and\r\ninquisitive, bombarding intruders with questions\r\nin a harsh tone. If magmins dislike the answers to\r\nthese interrogations, they can become aggressive,\r\neven against stronger beings.\nMagmin settlements can be found within the protective crust\r\nof magma pillars caused by geyser-like eruptions, where many\r\npools of lava can be found. Magmins enjoy dwelling in these\r\npools and use them for all sorts of purposes, much like other\r\nspecies use hot springs. Unlike other species, magmins also use\r\nthese pools to kill interlopers and cook them, consuming the\r\nash, bones, and minerals left over as a tasty treat.\nMagma flows through a magmin’s veins and washes over its\r\nbody, giving off extreme heat. A tiny, fiery heart burns within\r\na magmin, like the core of a terrestrial planet. Few have seen\r\na magmin’s heart, however. Magmins cool quickly when they\r\ndie or disintegrate into the surrounding lava. Cracking a dead\r\nmagmin open reveals only dense rock and, sometimes, a few\r\neven denser gemstones. What magmins lack in height, they\r\nmake up for in weight. They stand roughly 4 feet tall and weigh\r\naround 300 pounds due to their rocky makeup.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMagmin\nSource\nStarfinder #16: The Blind City pg. 57\nMagmin CR 3\nXP 800\nCN Small outsider (elemental, extraplanar, fire)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+8\nAura\nsearing (5 ft., DC 12)\nDefense\nHP\n32\nEAC\n15;\nKAC\n17\nFort\n+6;\nRef\n+4;\nWill\n+3\nDefensive Abilities\nmolten body;\nDR\n5/magic;\nImmunities\nelemental immunities, fire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft.\nMelee\nslam +11 (1d6+4 B & F; critical burn 1d4)\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+4;\nINT\n-1;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +8, Athletics +8, Stealth +13\nLanguages\nIgnan\nEcology\nEnvironment\nany land (Plane of Fire)\nOrganization\nsolitary, pair, flow (3–8), eruption (9–24)\nSpecial Abilities\nMolten Body (Su)\nAny melee weapon striking the magmin\r\ntakes 1d4 fire damage, ignoring hardness. If the weapon’s\r\nwielder fails a DC 12 Reflex save, the weapon gains the\r\nburning condition, which deals 1d4 fire damage that\r\nignores hardness.\nSearing Aura (Su)\nA magmin radiates volcanic heat, and any\r\ncreature that starts its turn in the aura must succeed at a\r\nDC 12 Fortitude save or take 1d4 fire damage.\nDescription\nThe mischievous magmins seek places where their native\r\nPlane of Fire touches the Material Plane, allowing them to\r\nslip between planes. When a magmin appears on the Material\r\nPlane, it does so in places of immense heat, such as within\r\nlava. An influx of magmins can disrupt magma flows, causing\r\nvolcanic eruptions and earthquakes.\nThough few mortals know what causes magmins to begin\r\ntheir exodus from their home plane, the truth is that\r\nmagmins aren’t very imposing in comparison to other\r\ncreatures that inhabit the Plane of Fire. Such creatures\r\nregularly push magmins around or annex their\r\nterritory, forcing magmins to migrate, sometimes in\r\nlarge groups. Ousted magmins are untrusting and\r\ninquisitive, bombarding intruders with questions\r\nin a harsh tone. If magmins dislike the answers to\r\nthese interrogations, they can become aggressive,\r\neven against stronger beings.\nMagmin settlements can be found within the protective crust\r\nof magma pillars caused by geyser-like eruptions, where many\r\npools of lava can be found. Magmins enjoy dwelling in these\r\npools and use them for all sorts of purposes, much like other\r\nspecies use hot springs. Unlike other species, magmins also use\r\nthese pools to kill interlopers and cook them, consuming the\r\nash, bones, and minerals left over as a tasty treat.\nMagma flows through a magmin’s veins and washes over its\r\nbody, giving off extreme heat. A tiny, fiery heart burns within\r\na magmin, like the core of a terrestrial planet. Few have seen\r\na magmin’s heart, however. Magmins cool quickly when they\r\ndie or disintegrate into the surrounding lava. Cracking a dead\r\nmagmin open reveals only dense rock and, sometimes, a few\r\neven denser gemstones. What magmins lack in height, they\r\nmake up for in weight. They stand roughly 4 feet tall and weigh\r\naround 300 pounds due to their rocky makeup.",
+  "type": "outsider (elemental, extraplanar, fire)",
+  "category": "alien"
+}

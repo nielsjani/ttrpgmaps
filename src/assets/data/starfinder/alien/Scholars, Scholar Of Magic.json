@@ -1,0 +1,54 @@
+{
+  "name": "Scholars, Scholar Of Magic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Scholar Of Magic&Family=Scholars",
+  "source": "Interstellar Species pg. 176",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "LN",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+14",
+  "speed": "40 ft.; climb 20 ft.",
+  "melee": "zero edge sword cane +18 (2d6+11 P; critical bleed 1d6)",
+  "ranged": "ferric ionizer +20 (4d4+11 E; critical arc 2d4)",
+  "offensive_abilities": "channel magic, ultimate power",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpells Known\n(CL 11th; ranged +20)\n4th (3/day)—\ncreation\n,\nflight\n3rd (6/day)—\narcane sight\n,\ndispel magic\n,\nexplosive blast\n(DC 21),\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image"
+  },
+  "spells": "(CL 11th; ranged +20)\n4th (3/day)—\ncreation\n,\nflight\n3rd (6/day)—\narcane sight\n,\ndispel magic\n,\nexplosive blast\n(DC 21),\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+5",
+    "wis": "+8",
+    "cha": "+3"
+  },
+  "skills": "Culture +20, Medicine +25, Mysticism +25",
+  "languages": "Akan, Common, up to 5 others",
+  "gear": "kasatha microcord III, feric ionizer with 2 batteries (20 charges each), zero-edge sword cane",
+  "special_abilities": [
+    {
+      "name": "Channel Magic (Su)",
+      "description": "Before making an attack with a weapon, a scholar of magic can spend 1 Resolve Point and expend a spell slot or spell gem to gain a circumstance bonus to the attack equal to half the spell’s level and a bonus to the attack’s damage equal to 3 × the spell’s level."
+    },
+    {
+      "name": "Ultimate Power (Su)",
+      "description": "A scholar of magic can spend 1 Resolve Point when they cast a damaging spell to treat any damage dice that roll a 1 as though they’d instead rolled the maximum result."
+    }
+  ],
+  "description": "Eminent magical scholars have extensively studied the theory and application of magic and how it interacts with the rest of the universe. They’re often deans of arcane academies, chief magical officers of corporations, or innovators reinventing magic for the next generation. They sometimes hire assistants to participate in dangerous experiments or acquire rare magical objects.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScholars\nSource\nInterstellar Species pg. 176\nThough many are students and educators at formal institutions, scholars are as likely to be solitary academics or self-taught. Adventurers might seek a scholar to decipher a mysterious text or perform a complicated spell. A scholar could be a party’s patron, sending them to retrieve artifacts or data from faraway planets. Villainous scholars might seek nefarious lore or publish dangerously fabricated research for profit or prestige.\nThese scholars have Intelligence-focused skills, yet you can replace these skills to represent other studies, such as a scholar of the arts having Profession (painter) instead of Engineering.\nAliens in the \"Scholars\" Family\nName\nCR\nField Biologist\n7\nPostgrad Student\n1\nScholar Of Magic\n11\nSubject Expert\n5\nScholars, Scholar Of Magic\nSource\nInterstellar Species pg. 177\nScholar Of Magic CR 11\nXP 12,800\nHanakan\nLN Small magical beast\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+20\nDefense\nHP\n155;\nRP\n5\nEAC\n23;\nKAC\n24\nFort\n+12;\nRef\n+12;\nWill\n+14\nDefensive Abilities\natmospheric adaptation\nOffense\nSpeed\n40 ft.; climb 20 ft.\nMelee\nzero edge sword cane +18 (2d6+11 P; critical bleed 1d6)\nRanged\nferric ionizer +20 (4d4+11 E; critical arc 2d4)\nOffensive Abilities\nchannel magic, ultimate power\nSpell-Like Abilities\n(CL 11th)\n1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpells Known\n(CL 11th; ranged +20)\n4th (3/day)—\ncreation\n,\nflight\n3rd (6/day)—\narcane sight\n,\ndispel magic\n,\nexplosive blast\n(DC 21),\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image\nStatistics\nSTR\n+0;\nDEX\n+0;\nCON\n+1;\nINT\n+5;\nWIS\n+8;\nCHA\n+3\nSkills\nCulture +20, Medicine +25, Mysticism +25\nLanguages\nAkan, Common, up to 5 others\nGear\nkasatha microcord III, feric ionizer with 2 batteries (20 charges each), zero-edge sword cane\nSpecial Abilities\nChannel Magic (Su)\nBefore making an attack with a weapon, a scholar of magic can spend 1 Resolve Point and expend a spell slot or spell gem to gain a circumstance bonus to the attack equal to half the spell’s level and a bonus to the attack’s damage equal to 3 × the spell’s level.\nUltimate Power (Su)\nA scholar of magic can spend 1 Resolve Point when they cast a damaging spell to treat any damage dice that roll a 1 as though they’d instead rolled the maximum result.\nDescription\nEminent magical scholars have extensively studied the theory and application of magic and how it interacts with the rest of the universe. They’re often deans of arcane academies, chief magical officers of corporations, or innovators reinventing magic for the next generation. They sometimes hire assistants to participate in dangerous experiments or acquire rare magical objects.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

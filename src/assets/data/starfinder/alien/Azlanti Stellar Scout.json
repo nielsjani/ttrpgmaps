@@ -1,0 +1,62 @@
+{
+  "name": "Azlanti Stellar Scout",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Azlanti Stellar Scout&Family=None",
+  "source": "Drift Crisis pg. 149",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical, technological)",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "185",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+16",
+  "dr": "10/magic",
+  "sr": "23",
+  "immunities": "0/magic;",
+  "resistances": "fire 20;",
+  "speed": "40 ft., fly 80 ft. (Ex, perfect)",
+  "melee": "nanite blade +20 (6d4+15 S; critical nanite burst [DC 21])",
+  "ranged": "radiance beam +22 (2d10+13 F; critical blind [DC 21])",
+  "offensive_abilities": "self-destruct (5d10 P, DC 21)",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th; melee +20",
+    "spells": "1/day—\ncontrol machines\n(DC 24),\ntransfer consciousness\n(DC 24) 3/day—\ndestruction protocol\n(DC 23),\ndigital doorway\n,\noverload systems\n(DC 23) At will—\ndischarge\n(DC 22),\ninvisibility to technology\n,\nmanipulate tech"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+6",
+    "con": "+4",
+    "int": "+8",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +23 (+31 to fly), Computers +28, Engineering +28, Stealth +28",
+  "languages": "Azlanti, Common, Vesk, plus any 6 languages",
+  "other_abilities": "spaceflight",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Nanite Blade (Ex)",
+      "description": "An Azlanti stellar scout’s blade is composed of the same nanites as the construct itself, and functions as if it has the nanite weapon fusion."
+    },
+    {
+      "name": "Nanite Repair (Ex)",
+      "description": "Every hour, an Azlanti stellar scout regains 13 Hit Points as its nanites repair its body. Once per day as a full action, it can restore 5d8 Hit Points to itself, or to a touched construct or object."
+    },
+    {
+      "name": "Self-Destruct (Ex)",
+      "description": "When an Azlanti stellar scout’s Hit Points are reduced to 10 or fewer, it explodes on its next turn in a 15-foot-radius burst, even if it has already been destroyed. Creatures within range take 5d10 piercing damage (Reflex DC 21 half). As a full action that provokes attacks of opportunity, a creature adjacent to the scout can attempt a DC 34 Engineering check to disarm the self-destruct mechanism before it detonates."
+    }
+  ],
+  "description": "Stellar scouts are among the Azlanti Star Empire’s most sophisticated robots. Each is an anthropomorphic construct housing countless arcane nanites the robot can shape into powerful weapons and armor. Azlanti invasions often disperse dozens of these constructs prior to a major battle, relying on the robots’ spaceflight abilities to reach enemy starships. Once on board, a stellar scout infiltrates the starship’s essential systems, quietly sabotaging core functions, stealing data, neutralizing key crew members, or planting explosives. As with so many Azlanti technologies, a stellar scout offensively self-destructs when at risk of capture.\nEach stellar scout’s core contains an aeon stone. By resonating the stone at specific frequencies, the robot can emulate magical feats, and the stressed aeon stone generates interference that stymies technological sensors and can overwhelm mundane programming. This construction requires regular replacement, so stellar scouts rarely remain active more than a few years before destroying the magic item.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAzlanti Stellar Scout\nSource\nDrift Crisis pg. 149\nAzlanti Stellar Scout CR 6\nXP 2,400\nN Medium construct (magical, technological)\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nDefense\nHP\n185\nEAC\n26;\nKAC\n27\nFort\n+12;\nRef\n+12;\nWill\n+16\nDefensive Abilities\nvoid adaptation;\nDR\n10/magic;\nImmunities\n0/magic;\nResistances\nfire 20;\nSR\n23\nOffense\nSpeed\n40 ft., fly 80 ft. (Ex, perfect)\nMelee\nnanite blade +20 (6d4+15 S; critical nanite burst [DC 21])\nRanged\nradiance beam +22 (2d10+13 F; critical blind [DC 21])\nOffensive Abilities\nself-destruct (5d10 P, DC 21)\nSpell-Like Abilities\n(CL 13th; melee +20)\n1/day—\ncontrol machines\n(DC 24),\ntransfer consciousness\n(DC 24) 3/day—\ndestruction protocol\n(DC 23),\ndigital doorway\n,\noverload systems\n(DC 23) At will—\ndischarge\n(DC 22),\ninvisibility to technology\n,\nmanipulate tech\nStatistics\nSTR\n+2;\nDEX\n+6;\nCON\n+4;\nINT\n+8;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +23 (+31 to fly), Computers +28, Engineering +28, Stealth +28\nLanguages\nAzlanti, Common, Vesk, plus any 6 languages\nOther Abilities\nspaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nNanite Blade (Ex)\nAn Azlanti stellar scout’s blade is composed of the same nanites as the construct itself, and functions as if it has the nanite weapon fusion.\nNanite Repair (Ex)\nEvery hour, an Azlanti stellar scout regains 13 Hit Points as its nanites repair its body. Once per day as a full action, it can restore 5d8 Hit Points to itself, or to a touched construct or object.\nSelf-Destruct (Ex)\nWhen an Azlanti stellar scout’s Hit Points are reduced to 10 or fewer, it explodes on its next turn in a 15-foot-radius burst, even if it has already been destroyed. Creatures within range take 5d10 piercing damage (Reflex DC 21 half). As a full action that provokes attacks of opportunity, a creature adjacent to the scout can attempt a DC 34 Engineering check to disarm the self-destruct mechanism before it detonates.\nDescription\nStellar scouts are among the Azlanti Star Empire’s most sophisticated robots. Each is an anthropomorphic construct housing countless arcane nanites the robot can shape into powerful weapons and armor. Azlanti invasions often disperse dozens of these constructs prior to a major battle, relying on the robots’ spaceflight abilities to reach enemy starships. Once on board, a stellar scout infiltrates the starship’s essential systems, quietly sabotaging core functions, stealing data, neutralizing key crew members, or planting explosives. As with so many Azlanti technologies, a stellar scout offensively self-destructs when at risk of capture.\nEach stellar scout’s core contains an aeon stone. By resonating the stone at specific frequencies, the robot can emulate magical feats, and the stressed aeon stone generates interference that stymies technological sensors and can overwhelm mundane programming. This construction requires regular replacement, so stellar scouts rarely remain active more than a few years before destroying the magic item.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

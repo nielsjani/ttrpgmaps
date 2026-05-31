@@ -1,0 +1,54 @@
+{
+  "name": "Starmetal Eater, Abysium Eater",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Abysium Eater&Family=Starmetal Eater",
+  "source": "Alien Archive 4 pg. 116",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "ooze",
+  "init": "+2",
+  "senses": "blindsense (scent [abysium only]) 1 mile, blindsight (vibration) 60 ft., sightless;",
+  "perception": "+11",
+  "hp": "75",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+5",
+  "will": "+2",
+  "immunities": "ooze immunities, radiation",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +14 (1d6+10 B plus fallout susceptibility; critical shear shielding)",
+  "offensive_abilities": "fallout susceptibility, shear shielding",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +16",
+  "other_abilities": "mindless",
+  "environment": "any",
+  "organization": "solitary or pair",
+  "special_abilities": [
+    {
+      "name": "Fallout Susceptibility (Ex)",
+      "description": "A creature hit by an abysium eater’s slam attack takes a –1 penalty to its next saving throw against radiation sickness attempted within the next 24 hours. This penalty stacks, to a maximum equal to half the abysium eater’s CR (–2 for a typical specimen)."
+    },
+    {
+      "name": "Irradiation (Ex)",
+      "description": "An abysium eater emanates medium radiation in a 20-foot radius. This radiation suffuses an area in 20-foot increments. An abysium eater is considered a natural radioactive material for the purposes of spells that remove radiation, such as\nremove radioactivity\n."
+    },
+    {
+      "name": "Shear Shielding (Ex)",
+      "description": "When an abysium eater critically hits a creature wearing armor that grants immunity to radiation levels, the target loses that radiation immunity (Reflex DC 13 negates), though the armor continues to provide its saving throw bonus against radiation as normal. This damage persists until the armor is repaired."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nAbysium Eater (Starmetal Eater\r\n) Graft Template\n-\nHoracalcum Eater (Starmetal Eater) Graft Template\n-\nInubrix Eater (Starmetal Eater) Graft Template\n-\nNoqual Eater (Starmetal Eater) Graft Template\n-\nSiccatite Eater (Starmetal Eater) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nStarmetal Eater\nSource\nAlien Archive 4 pg. 116\nStrange protoplasmic pests that subsist on the rarest of metals, starmetal eaters usually remain microscopic and innocuous. Yet when these creatures gorge themselves on a rich vein of naturally occurring starmetal or even items made of starmetal alloy—either of which they can detect at great distances—they experience a swift growth spurt and can reach several feet in diameter. Each starmetal eater fixates its diet on one specific type of starmetal, gaining strange abilities as its appearance and essence are suffused with its metal of choice.\nAliens in the \"Starmetal Eater\" Family\nName\nCR\nAbysium Eater\n5\nHoracalcum Eater\n13\nStarmetal Eater, Abysium Eater\nSource\nAlien Archive 4 pg. 116\nAbysium Eater CR 5\nXP 1,600\nN Small ooze\nInit\n+2;\nSenses\nblindsense (scent [abysium only]) 1 mile, blindsight (vibration) 60 ft., sightless;\nPerception\n+11\nAura\nirradiation (medium, DC 13, 20 ft.)\nDefense\nHP\n75\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+5;\nWill\n+2\nImmunities\nooze immunities, radiation\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +14 (1d6+10 B plus fallout susceptibility; critical shear shielding)\nOffensive Abilities\nfallout susceptibility, shear shielding\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +16\nOther Abilities\nmindless\nEcology\nEnvironment\nany\nOrganization\nsolitary or pair\nSpecial Abilities\nFallout Susceptibility (Ex)\nA creature hit by an abysium eater’s slam attack takes a –1 penalty to its next saving throw against radiation sickness attempted within the next 24 hours. This penalty stacks, to a maximum equal to half the abysium eater’s CR (–2 for a typical specimen).\nIrradiation (Ex)\nAn abysium eater emanates medium radiation in a 20-foot radius. This radiation suffuses an area in 20-foot increments. An abysium eater is considered a natural radioactive material for the purposes of spells that remove radiation, such as\nremove radioactivity\n.\nShear Shielding (Ex)\nWhen an abysium eater critically hits a creature wearing armor that grants immunity to radiation levels, the target loses that radiation immunity (Reflex DC 13 negates), though the armor continues to provide its saving throw bonus against radiation as normal. This damage persists until the armor is repaired.\nExtra Content\nThe following extra content was found for this creature:\n-\nAbysium Eater (Starmetal Eater\r\n) Graft Template\n-\nHoracalcum Eater (Starmetal Eater) Graft Template\n-\nInubrix Eater (Starmetal Eater) Graft Template\n-\nNoqual Eater (Starmetal Eater) Graft Template\n-\nSiccatite Eater (Starmetal Eater) Graft Template",
+  "type": "ooze",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Starmetal_Eater_Abysium.png"
+}

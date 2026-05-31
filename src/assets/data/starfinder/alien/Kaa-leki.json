@@ -1,0 +1,47 @@
+{
+  "name": "Kaa-leki",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kaa-leki&Family=None",
+  "source": "Starfinder #38: Crash and Burn pg. 59",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "humanoid (kaa-leki, plantlike)",
+  "init": "+9",
+  "senses": "low-light vision, sense through (vision [crystal only]);",
+  "perception": "+17",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+10",
+  "will": "+11",
+  "speed": "40 ft., climb 30 ft., swim 30 ft.",
+  "melee": "tactical knife +15 (2d4+10 S)",
+  "ranged": "lattice resonant pistol +17 (1d6+8 So; critical deafen [DC 18])",
+  "offensive_abilities": "debilitating trick, evaluate construct (+8), terrain attack, trick attack +4d8, triple attack",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +22, Athletics +22 (+30 to climb, +30 to swim), Engineering +21, Life Science +17, Physical Science +17",
+  "languages": "Common, Hawanni",
+  "other_abilities": "no breath, operative exploits (sure-footed), plantlike, specialization (daredevil) advanced lashunta tempweave (brown force field, jump jets), lattice resonant pistol with 2 high-capacity batteries (40 charges each), tactical knife, bonding epoxy, titanium alloy cable line (50 ft.), gear clamp, industrial backpack",
+  "environment": "any (Hawanna)",
+  "organization": "solitary or reaper crew (2–5)",
+  "special_abilities": [
+    {
+      "name": "Evaluate Construct (Ex)",
+      "description": "As a move action, a kaa-leki can attempt a Perception check against a construct it can see (DC = 15 + 1-1/2 × the construct’s CR). On a success, the kaa-leki’s next successful attack against that construct made before the end of their next turn deals an additional amount of damage equal to twice their Wisdom modifier; this extra damage bypasses all DR."
+    }
+  ],
+  "description": "As composites of flesh, bone, and moss, kaa-lekis are striking figures that stand 7 feet tall on average. Kaa-lekis are tripodal humanoids with patches of blue-green moss that grow naturally on their skin; these dense clumps luminesce involuntarily (but faintly) when the kaa-leki experiences strong emotions. The kaa-leki home world is the corpse of a titanic organic crystalline creature called Hawanna (see page 62), but their legends claim they originated elsewhere. Kaa-lekis have learned to handle the strange and hostile crystal constructs that roam Hawanna’s surface, but the true history of the constructs is lost to the Gap.\nKaa-leki society centers around small, semi-nomadic family groups and extended kin networks. The role of each family member is passed on through generations, though some may be given a different task if they show an affinity for it. One of the most important of these roles is that of “reaper.” Reapers venture into the crystal caverns of Hawanna to harvest the crystals used to craft the sonic weapons that are the bulk of their world’s exports. This usually puts the reapers in the path of Hawanna’s roaming constructs, making it a dangerous job for only the bravest kaa-lekis. To increase their chance of survival, reapers must undergo months of intensive training before being allowed to undertake such missions.",
+  "extra_content": "The following extra content was found for this creature:\n-\nKaa-leki Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKaa-leki\nSource\nStarfinder #38: Crash and Burn pg. 59\nKaa-leki CR 8\nXP 4,800\nKaa-leki operative\nNG Medium humanoid (kaa-leki, plantlike)\nInit\n+9;\nSenses\nlow-light vision, sense through (vision [crystal only]);\nPerception\n+17\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+10;\nWill\n+11\nDefensive Abilities\nevasion, uncanny agility\nOffense\nSpeed\n40 ft., climb 30 ft., swim 30 ft.\nMelee\ntactical knife +15 (2d4+10 S)\nRanged\nlattice resonant pistol +17 (1d6+8 So; critical deafen [DC 18])\nOffensive Abilities\ndebilitating trick, evaluate construct (+8), terrain attack, trick attack +4d8, triple attack\nStatistics\nSTR\n+2;\nDEX\n+6;\nCON\n+0;\nINT\n+2;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +22, Athletics +22 (+30 to climb, +30 to swim), Engineering +21, Life Science +17, Physical Science +17\nLanguages\nCommon, Hawanni\nOther Abilities\nno breath, operative exploits (sure-footed), plantlike, specialization (daredevil) advanced lashunta tempweave (brown force field, jump jets), lattice resonant pistol with 2 high-capacity batteries (40 charges each), tactical knife, bonding epoxy, titanium alloy cable line (50 ft.), gear clamp, industrial backpack\nEcology\nEnvironment\nany (Hawanna)\nOrganization\nsolitary or reaper crew (2–5)\nSpecial Abilities\nEvaluate Construct (Ex)\nAs a move action, a kaa-leki can attempt a Perception check against a construct it can see (DC = 15 + 1-1/2 × the construct’s CR). On a success, the kaa-leki’s next successful attack against that construct made before the end of their next turn deals an additional amount of damage equal to twice their Wisdom modifier; this extra damage bypasses all DR.\nDescription\nAs composites of flesh, bone, and moss, kaa-lekis are striking figures that stand 7 feet tall on average. Kaa-lekis are tripodal humanoids with patches of blue-green moss that grow naturally on their skin; these dense clumps luminesce involuntarily (but faintly) when the kaa-leki experiences strong emotions. The kaa-leki home world is the corpse of a titanic organic crystalline creature called Hawanna (see page 62), but their legends claim they originated elsewhere. Kaa-lekis have learned to handle the strange and hostile crystal constructs that roam Hawanna’s surface, but the true history of the constructs is lost to the Gap.\nKaa-leki society centers around small, semi-nomadic family groups and extended kin networks. The role of each family member is passed on through generations, though some may be given a different task if they show an affinity for it. One of the most important of these roles is that of “reaper.” Reapers venture into the crystal caverns of Hawanna to harvest the crystals used to craft the sonic weapons that are the bulk of their world’s exports. This usually puts the reapers in the path of Hawanna’s roaming constructs, making it a dangerous job for only the bravest kaa-lekis. To increase their chance of survival, reapers must undergo months of intensive training before being allowed to undertake such missions.\nExtra Content\nThe following extra content was found for this creature:\n-\nKaa-leki Race Entry",
+  "type": "humanoid (kaa-leki, plantlike)",
+  "category": "alien"
+}

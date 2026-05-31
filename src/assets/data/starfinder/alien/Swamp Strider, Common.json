@@ -1,0 +1,55 @@
+{
+  "name": "Swamp Strider, Common",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Common&Family=Swamp Strider",
+  "source": "Alien Archive 4 pg. 122",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "animal",
+  "init": "+5",
+  "senses": "blindsense (scent) 60 ft.;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "16",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "weaknesses": "flammable",
+  "speed": "60 ft., swim 30 ft.",
+  "melee": "gore +10 (1d6+4 P) or tail +10 (1d4+4 B)",
+  "space": "10 ft.",
+  "reach": "5 ft. (10 ft. with tail)",
+  "offensive_abilities": "ferocious charge",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "-5",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Athletics +7",
+  "other_abilities": "marshborn",
+  "environment": "any marsh (Castrovel)",
+  "organization": "solitary, pair, or herd (3–12)",
+  "special_abilities": [
+    {
+      "name": "Algal Gas (Ex)",
+      "description": "Swamp striders’ fur supports thriving colonies of algae that emit malodorous, flammable gas. Creatures in the algal gas effect are sickened while they remain in the aura and for 1 round afterward (Fortitude DC 11 negates). Creatures with active environmental protections or no sense of smell are immune to this sickened effect."
+    },
+    {
+      "name": "Flammable (Ex)",
+      "description": "When a swamp strider takes fire damage, it also gains the burning (1d8 F) condition, after which the creature’s algal gas and flammable abilities are disabled for 1 hour. While it burns, the swamp strider’s attacks deal an additional 1d4 fire damage."
+    },
+    {
+      "name": "Marshborn (Ex)",
+      "description": "A swamp strider can move through bogs without penalty to its normal speed."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSwamp Strider\nSource\nAlien Archive 4 pg. 122\nSwamp striders stand about 8 feet tall at the shoulder and weigh around 1,250 pounds. Excellently adapted to wetland biomes, these spindly herbivores specialize in browsing on the leaves, bark, and branches of shrubs and young trees, grazing on grasses only when they lack access to other foods. They depart their swamps infrequently; the ripening of seasonal fruits might lure them out, and the fire-wary swamp striders also know to move away during droughts when desiccated marshes ignite all too easily.\nRoaming so far afield can leave swamp striders vulnerable to predators like shotalashus, nyssholoras, tashtaris, and a host of tyrannosaurid renkroda subspecies. Even lashuntas have hunted this popular prey since time immemorial; the meat’s taste is among the most synthesized food flavorings for Castrovelian snacks. Despite their lanky profile and awkward gait, swamp striders boast numerous defenses, including their extraordinary speed and agility under pressure. When on the run, a scattering herd often throws caution to the wind, hurling themselves through vegetation with wanton disregard; most humanoid deaths by swamp striders occur as a result of the creatures fleeing from something far deadlier and crashing into unsuspecting bystanders. In the presence of water, swamp striders either dive for cover in deeper pools or ably dash across shallower bogs, their broad footpads distributing their weight just as their feet’s hydrophobic skin limits the grip of sucking mud.\nBut speed isn’t swamp striders’ only protection. Their bodies sport an array of defensive spines, most often spikes on their forelimbs designed to sweep backward and spear any creature unwise enough to target the herbivore’s hindquarters. The crested swamp strider species boasts fearsome head horns as well, and swamp striders of any type ferociously lash out whenever they feel threatened.\nYet what most people know about swamp striders is their stench, which arises from the multitudinous algae that grow in their thick fur. The motley green, brown, and red flora help camouflage the creatures visually among the wetland grasses and mosses. Their smell, in contrast, is so strong that it overwhelms the sensitive nostrils of their predators, practically disabling others’ olfactory senses and also deterring all but the most determined hunters. Moreover, each swamp strider’s colony has a slightly different composition and scent, helping the creatures recognize each other and identify interlopers, whom the herd challenges with low clicking sounds.\nAliens in the \"Swamp Strider\" Family\nName\nCR\nCommon\n2\nCrested\n10\nSwamp Strider, Common\nSource\nAlien Archive 4 pg. 122\nCommon CR 2\nXP 600\nN Large animal\nInit\n+5;\nSenses\nblindsense (scent) 60 ft.;\nPerception\n+7\nAura\nalgal gas (30 ft., Fortitude DC 11)\nDefense\nHP\n25\nEAC\n13;\nKAC\n16\nFort\n+6;\nRef\n+6;\nWill\n+1\nWeaknesses\nflammable\nOffense\nSpeed\n60 ft., swim 30 ft.\nMelee\ngore +10 (1d6+4 P) or tail +10 (1d4+4 B)\nSpace\n10 ft.;\nReach\n5 ft. (10 ft. with tail)\nOffensive Abilities\nferocious charge\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n-5;\nWIS\n+1;\nCHA\n-2\nSkills\nAthletics +7\nOther Abilities\nmarshborn\nEcology\nEnvironment\nany marsh (Castrovel)\nOrganization\nsolitary, pair, or herd (3–12)\nSpecial Abilities\nAlgal Gas (Ex)\nSwamp striders’ fur supports thriving colonies of algae that emit malodorous, flammable gas. Creatures in the algal gas effect are sickened while they remain in the aura and for 1 round afterward (Fortitude DC 11 negates). Creatures with active environmental protections or no sense of smell are immune to this sickened effect.\nFlammable (Ex)\nWhen a swamp strider takes fire damage, it also gains the burning (1d8 F) condition, after which the creature’s algal gas and flammable abilities are disabled for 1 hour. While it burns, the swamp strider’s attacks deal an additional 1d4 fire damage.\nMarshborn (Ex)\nA swamp strider can move through bogs without penalty to its normal speed.",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Swamp_Strider_Common.png"
+}

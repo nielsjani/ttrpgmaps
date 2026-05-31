@@ -1,0 +1,49 @@
+{
+  "name": "Bounty Hunters, Recovery Agent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Recovery Agent&Family=Bounty Hunters",
+  "source": "Interstellar Species pg. 154",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (maraquoi)",
+  "init": "+9",
+  "senses": "blindsense (sound) 30 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+4",
+  "ref": "+6",
+  "will": "+8",
+  "speed": "40 ft., climb 20 ft., fly 30 ft. (jetpack, average)",
+  "melee": "tactical dueling sword +12 (1d6+6 S)",
+  "ranged": "tactical semi-auto pistol +14 (1d6+6 P) or stickybomb grenade II +14 (explode 15 ft., entangled 2d4 rounds [DC 16])",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Culture +11, Diplomacy +16, Intimidate +11, Piloting +11, Profession (bounty hunter) +16, Sense Motive +11, Stealth +11, Survival +11",
+  "languages": "Brethedan, Common, Maraquoi",
+  "other_abilities": "mark, prehensile tail , swift stalker",
+  "gear": "freebooter armor II (jetpack), tactical dueling sword, tactical semi-auto pistol (",
+  "special_abilities": [
+    {
+      "name": "Mark (Ex)",
+      "description": "A recovery agent can choose one sapient creature as a mark, provided the recovery agent can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The recovery agent gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the recovery agent’s CR divided by 6 (+2 total at CR 6). Also, the recovery agent can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark."
+    },
+    {
+      "name": "Swift Stalker (Ex)",
+      "description": "A recovery agent reduces the penalty for following tracks using Survival while moving at full speed to 0. The agent also reduces the penalty for moving at more than half speed while using Stealth to hide to –5."
+    }
+  ],
+  "description": "Recovery agents are often veteran skip tracers who act across a larger region and handle harder cases. These hunters confront criminals, sometimes on quasi-legal or violent terms. A recovery agent opens with investigation and diplomacy but is prepared for a fight. Pursuit often leads a recovery agent from city streets into the wilderness, where their survival skills provide an edge.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBounty Hunters\nSource\nInterstellar Species pg. 154\nAnyone who seeks and catches those who don’t want to be caught may be called a bounty hunter, though in practice, the term comprises an array of professionals. Most bounty hunters have legal sanction, such as a license to hunt fugitives, but many also work in a gray area between legal authority and vigilantism. Bounty hunters take jobs from legitimate authorities, but what legitimate means varies by location. Little stops a bounty hunter from acting as an agent of a private party, and many are enforcers for the unscrupulous. Some clever bounty hunters double as private investigators, tracking down missing people or runaways.\nAliens in the \"Bounty Hunters\" Family\nName\nCR\nBounty Hunter\n10\nNotorious Bounty Hunter\n14\nRecovery Agent\n6\nSkip Tracer\n1\nBounty Hunters, Recovery Agent\nSource\nInterstellar Species pg. 154\nRecovery Agent CR 6\nXP 2,400\nMaraquoi\nN Medium humanoid (maraquoi)\nInit\n+9;\nSenses\nblindsense (sound) 30 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+4;\nRef\n+6;\nWill\n+8\nOffense\nSpeed\n40 ft., climb 20 ft., fly 30 ft. (jetpack, average)\nMelee\ntactical dueling sword +12 (1d6+6 S)\nRanged\ntactical semi-auto pistol +14 (1d6+6 P) or stickybomb grenade II +14 (explode 15 ft., entangled 2d4 rounds [DC 16])\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+1;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nCulture +11, Diplomacy +16, Intimidate +11, Piloting +11, Profession (bounty hunter) +16, Sense Motive +11, Stealth +11, Survival +11\nLanguages\nBrethedan, Common, Maraquoi\nOther Abilities\nmark, prehensile tail , swift stalker\nGear\nfreebooter armor II (jetpack), tactical dueling sword, tactical semi-auto pistol (\ninertial dampener\n) with 27 small arm rounds, stickybomb grenade II, binder restraints (5), manacles;\nAugmentations\nminimal speed suspension\nSpecial Abilities\nMark (Ex)\nA recovery agent can choose one sapient creature as a mark, provided the recovery agent can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The recovery agent gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the recovery agent’s CR divided by 6 (+2 total at CR 6). Also, the recovery agent can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark.\nSwift Stalker (Ex)\nA recovery agent reduces the penalty for following tracks using Survival while moving at full speed to 0. The agent also reduces the penalty for moving at more than half speed while using Stealth to hide to –5.\nDescription\nRecovery agents are often veteran skip tracers who act across a larger region and handle harder cases. These hunters confront criminals, sometimes on quasi-legal or violent terms. A recovery agent opens with investigation and diplomacy but is prepared for a fight. Pursuit often leads a recovery agent from city streets into the wilderness, where their survival skills provide an edge.",
+  "type": "humanoid (maraquoi)",
+  "environment": "—",
+  "category": "alien"
+}

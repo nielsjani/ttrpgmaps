@@ -1,0 +1,70 @@
+{
+  "name": "Genie, Shaitan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shaitan&Family=Genie",
+  "source": "Starfinder #17: Solar Strike pg. 58",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "outsider (earth, extraplanar)",
+  "init": "+1",
+  "senses": "blindsight 60 ft. (ground vibration); darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "18",
+  "kac": "22",
+  "fort": "+11",
+  "ref": "+6",
+  "will": "+9",
+  "immunities": "electricity",
+  "speed": "20 ft., burrow 60 ft., climb 20 ft.",
+  "melee": "sintered longsword +18 (2d8+12 S) or slam +18 (2d6+12 B)",
+  "ranged": "tactical reaction cannon +14 (2d10+7 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "earth mastery, metalmorph, stone curse",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th; ranged +18",
+    "spells": "1/day—\nwall of stone, slow\n(DC 16)\n3/day—\ndust cloud\n(as fog cloud),\nhold person\n(DC 15),\nreflecting armor\n(DC 15)\nAt will—\ndisguise self, grease\n(DC 14),\nplane shift\n(willing targets to elemental planes, Astral Plane, or Material Plane only)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+4",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Bluff +14, Engineering +19, Mysticism +14, Sense Motive +14",
+  "languages": "Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.",
+  "other_abilities": "metal glide",
+  "gear": "shaitan armor (as d-suit II), sintered longsword, tactical reaction cannon with 12 heavy rounds",
+  "environment": "any (Plane of Earth)",
+  "organization": "solitary, pair, company (3–6), or band (7–12)",
+  "special_abilities": [
+    {
+      "name": "Blindsight (Ex)",
+      "description": "A shaitan can pinpoint the location of a creature touching the same ground the shaitan is on or on a solid surface connected to that ground."
+    },
+    {
+      "name": "Earth Mastery (Ex)",
+      "description": "A shaitan gains a +1 bonus to attack and damage rolls if both it and its foe are touching the solid surface of a planet or an asteroid. If an opponent is airborne or waterborne, the shaitan takes a −2 penalty to attack and damage rolls. These modifiers apply to initiating or resisting bull rush combat maneuvers."
+    },
+    {
+      "name": "Metal Glide (Ex)",
+      "description": "As the earth glide universal creature rule, but the shaitan can also move through metal."
+    },
+    {
+      "name": "Metalmorph (Su)",
+      "description": "As a standard action, a shaitan can touch a single metal object of no more than 1 bulk and transform it into any other metal. The transformation lasts 1 day."
+    },
+    {
+      "name": "Stone Curse (Su)",
+      "description": "Any melee attack a shaitan makes against a foe adjacent to an earth, stone, or metal surface gains the entangle weapon special property as if from a weapon with an item level equal to the shaitan’s CR. The surface does the entangling, rather than the weapon."
+    }
+  ],
+  "description": "Shaitans are proud genies resembling giants carved from stone and gems. They hail from the Plane of Earth where they control vast corporations that vie for mineral-rich regions. They treat mortal sapient beings as, at best, valued employees. However, these genies reward industry and pay their debts.\nA shaitan stands 11 feet tall and weighs 5,000 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenie\nAliens in the \"Genie\" Family\nName\nCR\nDjinni\n5\nEfreeti\n8\nJanni\n4\nMarid\n9\nShaitan\n7\nGenie, Shaitan\nSource\nStarfinder #17: Solar Strike pg. 58\nShaitan CR 7\nXP 3,200\nLN Large outsider (earth, extraplanar)\nInit\n+1;\nSenses\nblindsight 60 ft. (ground vibration); darkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n105\nEAC\n18;\nKAC\n22\nFort\n+11;\nRef\n+6;\nWill\n+9\nImmunities\nelectricity\nOffense\nSpeed\n20 ft., burrow 60 ft., climb 20 ft.\nMelee\nsintered longsword +18 (2d8+12 S) or slam +18 (2d6+12 B)\nRanged\ntactical reaction cannon +14 (2d10+7 P)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nearth mastery, metalmorph, stone curse\nSpell-Like Abilities\n(CL 7th; ranged +18)\n1/day—\nwall of stone, slow\n(DC 16)\n3/day—\ndust cloud\n(as fog cloud),\nhold person\n(DC 15),\nreflecting armor\n(DC 15)\nAt will—\ndisguise self, grease\n(DC 14),\nplane shift\n(willing targets to elemental planes, Astral Plane, or Material Plane only)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+4;\nINT\n+2;\nWIS\n+2;\nCHA\n+2\nSkills\nBluff +14, Engineering +19, Mysticism +14, Sense Motive +14\nLanguages\nAquan, Auran, Common, Ignan, Terran; telepathy 100 ft.\nOther Abilities\nmetal glide\nGear\nshaitan armor (as d-suit II), sintered longsword, tactical reaction cannon with 12 heavy rounds\nEcology\nEnvironment\nany (Plane of Earth)\nOrganization\nsolitary, pair, company (3–6), or band (7–12)\nSpecial Abilities\nBlindsight (Ex)\nA shaitan can pinpoint the location of a creature touching the same ground the shaitan is on or on a solid surface connected to that ground.\nEarth Mastery (Ex)\nA shaitan gains a +1 bonus to attack and damage rolls if both it and its foe are touching the solid surface of a planet or an asteroid. If an opponent is airborne or waterborne, the shaitan takes a −2 penalty to attack and damage rolls. These modifiers apply to initiating or resisting bull rush combat maneuvers.\nMetal Glide (Ex)\nAs the earth glide universal creature rule, but the shaitan can also move through metal.\nMetalmorph (Su)\nAs a standard action, a shaitan can touch a single metal object of no more than 1 bulk and transform it into any other metal. The transformation lasts 1 day.\nStone Curse (Su)\nAny melee attack a shaitan makes against a foe adjacent to an earth, stone, or metal surface gains the entangle weapon special property as if from a weapon with an item level equal to the shaitan’s CR. The surface does the entangling, rather than the weapon.\nDescription\nShaitans are proud genies resembling giants carved from stone and gems. They hail from the Plane of Earth where they control vast corporations that vie for mineral-rich regions. They treat mortal sapient beings as, at best, valued employees. However, these genies reward industry and pay their debts.\nA shaitan stands 11 feet tall and weighs 5,000 pounds.",
+  "type": "outsider (earth, extraplanar)",
+  "category": "alien"
+}

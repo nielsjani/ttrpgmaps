@@ -1,0 +1,55 @@
+{
+  "name": "Void Slime",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Void Slime&Family=None",
+  "source": "Starfinder #37: The White Glove Affair pg. 61",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "ooze",
+  "init": "+3",
+  "senses": "blindsight (life) 60 ft., sightless;;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+5",
+  "will": "+2",
+  "sr": "16",
+  "immunities": "cold, disease, ooze immunities Resistances fire 5;",
+  "resistances": "fire 5;",
+  "weaknesses": "susceptible to salt water",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "slam +14 (1d6+7 B; critical dispel)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+5",
+    "int": "—",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +11",
+  "other_abilities": "deaf, mindless, no breath",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Deaf (Ex)",
+      "description": "A void slime can’t attempt Perception checks to listen and is immune to effects that rely on hearing to function."
+    },
+    {
+      "name": "Dispel (Ex)",
+      "description": "On a critical hit, a void slime’s slam attack gains the effects of a dispelling weapon fusion, treating the void slime’s CR as the slam’s item level."
+    },
+    {
+      "name": "Susceptible to Salt Water (Ex)",
+      "description": "A splash of salt water deals 1d6 damage to a void slime, and full immersion in salt water deals 4d6 damage per round."
+    }
+  ],
+  "description": "When an akata infects a humanoid with its foul method of reproduction, it typically results in a host called a void zombie which gestates a larval akata in its rotting form for several weeks before once again dying. However, if the void death—the disease that grows a latent akata larva in one’s system—claims a creature who lacks the nutrients necessary to feed the larva, the gestating creature might trigger a period of hibernation prematurely. This usually transforms the host’s corpse into a slurry of noqual shards, grisly flesh, and larva paste known as a void slime. This misbegotten, half-living form is a thing of insatiable hunger and constant pain.\nWhile a void slime would be dangerous enough with resistances similar to those of an akata, shards of noqual—the starmetal that usually makes up an akata’s hibernating cocoon—jut from the ooze’s surface at irregular angles. These fragments provide a void slime with a measure of protection against magic and grant its reaching pseudopods the possibility of dispelling magic from those it strikes. Luckily for those with the knowledge to take advantage, a void slime also shares an akata’s susceptibility to salt water.\nBoth treasure hunters and xenobiologists are fascinated with void slimes, albeit for different reasons. The fortune seekers want only to harvest a void slime’s precious noqual, while scientists wish to study the process by which it—and similarly, an akata—creates the starmetal with its unusual biology. Of course, the danger of either task lies in the fact that seeking rare void slimes often means coming into contact with packs of akatas, risking infection with void death in the process.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVoid Slime\nSource\nStarfinder #37: The White Glove Affair pg. 61\nVoid Slime CR 5\nXP 1,600\nN Medium ooze\nInit\n+3;\nSenses\nblindsight (life) 60 ft., sightless;;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+5;\nWill\n+2\nImmunities\ncold, disease, ooze immunities Resistances fire 5;\nSR\n16\nWeaknesses\nsusceptible to salt water\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nslam +14 (1d6+7 B; critical dispel)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+5;\nINT\n—;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +11\nOther Abilities\ndeaf, mindless, no breath\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nDeaf (Ex)\nA void slime can’t attempt Perception checks to listen and is immune to effects that rely on hearing to function.\nDispel (Ex)\nOn a critical hit, a void slime’s slam attack gains the effects of a dispelling weapon fusion, treating the void slime’s CR as the slam’s item level.\nSusceptible to Salt Water (Ex)\nA splash of salt water deals 1d6 damage to a void slime, and full immersion in salt water deals 4d6 damage per round.\nDescription\nWhen an akata infects a humanoid with its foul method of reproduction, it typically results in a host called a void zombie which gestates a larval akata in its rotting form for several weeks before once again dying. However, if the void death—the disease that grows a latent akata larva in one’s system—claims a creature who lacks the nutrients necessary to feed the larva, the gestating creature might trigger a period of hibernation prematurely. This usually transforms the host’s corpse into a slurry of noqual shards, grisly flesh, and larva paste known as a void slime. This misbegotten, half-living form is a thing of insatiable hunger and constant pain.\nWhile a void slime would be dangerous enough with resistances similar to those of an akata, shards of noqual—the starmetal that usually makes up an akata’s hibernating cocoon—jut from the ooze’s surface at irregular angles. These fragments provide a void slime with a measure of protection against magic and grant its reaching pseudopods the possibility of dispelling magic from those it strikes. Luckily for those with the knowledge to take advantage, a void slime also shares an akata’s susceptibility to salt water.\nBoth treasure hunters and xenobiologists are fascinated with void slimes, albeit for different reasons. The fortune seekers want only to harvest a void slime’s precious noqual, while scientists wish to study the process by which it—and similarly, an akata—creates the starmetal with its unusual biology. Of course, the danger of either task lies in the fact that seeking rare void slimes often means coming into contact with packs of akatas, risking infection with void death in the process.",
+  "type": "ooze",
+  "category": "alien"
+}

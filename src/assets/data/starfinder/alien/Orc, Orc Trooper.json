@@ -1,0 +1,48 @@
+{
+  "name": "Orc, Orc Trooper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Orc Trooper&Family=Orc",
+  "source": "Alien Archive 2 pg. 90",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "humanoid (orc)",
+  "init": "+7",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+4",
+  "weaknesses": "light sensitivity",
+  "speed": "45 ft. (40 ft. in armor)",
+  "melee": "fangblade +14 (1d12+7 S; critical bleed 1d8)",
+  "ranged": "thunderstrike sonic rifle +13 (1d10+3 So; critical deafen [DC 13])",
+  "offensive_abilities": "charge attack, fighting styles (blitz), rapid response",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Intimidate +11, Survival +16",
+  "languages": "Common, Orc",
+  "gear": "officer ceremonial plate, fangblade with 1 battery (20 charges), thunderstrike sonic rifle with 1 highcapacity battery (40 charges);",
+  "environment": "any (Apostae)",
+  "organization": "solitary, pair, or squad (3–4)",
+  "special_abilities": [
+    {
+      "name": "Light Sensitivity (Ex)",
+      "description": "An orc is dazzled as long as she remains in an area of bright light."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nOrc (Creature Subtype) Graft Template\n-\nOrc Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOrc\nSource\nAlien Archive 2 pg. 90\nOrcs are rare, although records suggest they were numerous on lost Golarion. Today, they can be found in greatest numbers on Apostae, where most are drow-held slaves. Over the ages, however, some orcs have gained freedom, creating formidable armed clans on Apostae and a few other worlds in the galaxy, though many free orcs of Apostae remain second-class citizens who still serve the drow as mercenaries, technicians, and laborers.\nFew people of the Pact Worlds have ever seen an orc up close, but most people know their reputation as brutal monsters. Even the free orcs on Apostae suffer from isolation and drow propaganda, remaining ignorant of wider possibilities. On average, orcs have difficulty with attention, memory, and impulse control. Drow care little for where these tendencies come from, but their centuries-long influence has changed the orcs from the brutes described in pre-Gap histories. The drow have socially engineered their orc chattel to make them useful servants. From an early age, capable orc youngsters have a duty to care for any orcs who require help to survive. Aged or feeble orcs are permitted to endure only to teach the young valuable skills while indoctrinating them with the appropriate regard for their betters. Drow overseers keep watch over these enclaves, with the aid of half-orcs and a few elder orcs rewarded for loyal service with the right to “retire” to teaching positions.\nWithin orc enclaves on Apostae, a specialized program of reward and punishment accompanies education and tempers orcs for the jobs they are expected to perform. For example, an orc anticipated to be a technician might be conditioned to respond well and even take pleasure in technical work, such that her skill seems abnormally good. A bodyguard could be habituated to extreme ferocity in defense of a ward, belied by an otherwise composed demeanor. When an orc becomes an adult, she moves on to serve the drow house to which she belongs in her trained capacity. There, her conditioned mind keeps her bound better than any chains could.\nThis social engineering took place for long enough that free orcs display a similar cultural structure. These orcs teach their young with analogous and comparably brutal methods of reward and punishment. The young and weak take on jobs that tougher orcs have the clout and muscle to refuse. Eventually, a young orc might join the ranks of the strong and earn the right to take on responsibilities that garner more prestige. She then sloughs off tasks she considers to be beneath her onto the shoulders of those she sees as lower than her in status.\nAn orc is ideally suited to her prescribed duties thanks to the extensive conditioning she receives. Her confidence in such areas is also high. An orc trained to scout the caves of Apostae, for instance, is likely to be a sharp climber and shrewd explorer. She also knows enough about the ilee (a lost race native to Apostae) to know when she has made an important discovery.\nThe social conditions in which most orcs exist often make it challenging for them to assimilate into other cultures. Orcs are gruff and terse, interacting with others only when necessary. An orc without a hierarchy to embrace or reject often struggles to find her position in a pecking order that might not exist.\nAn orc has large and imposing tusks that jut from her mouth, as well as pointed ears. Most orcs stand around 6 feet tall and weigh 200 pounds or more, with welldefined musculature.\nAliens in the \"Orc\" Family\nName\nCR\nOrc Technician\n1/2\nOrc Trooper\n5\nOrc, Orc Trooper\nSource\nAlien Archive 2 pg. 90\nOrc Trooper CR 5\nXP 1,600\nOrc soldier\nCE Medium humanoid (orc)\nInit\n+7;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nferocity\nWeaknesses\nlight sensitivity\nOffense\nSpeed\n45 ft. (40 ft. in armor)\nMelee\nfangblade +14 (1d12+7 S; critical bleed 1d8)\nRanged\nthunderstrike sonic rifle +13 (1d10+3 So; critical deafen [DC 13])\nOffensive Abilities\ncharge attack, fighting styles (blitz), rapid response\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n+0;\nWIS\n+0;\nCHA\n-1\nSkills\nIntimidate +11, Survival +16\nLanguages\nCommon, Orc\nGear\nofficer ceremonial plate, fangblade with 1 battery (20 charges), thunderstrike sonic rifle with 1 highcapacity battery (40 charges);\nAugmentations\nadaptive biochain (minimal speed suspension)\nEcology\nEnvironment\nany (Apostae)\nOrganization\nsolitary, pair, or squad (3–4)\nSpecial Abilities\nLight Sensitivity (Ex)\nAn orc is dazzled as long as she remains in an area of bright light.\nExtra Content\nThe following extra content was found for this creature:\n-\nOrc (Creature Subtype) Graft Template\n-\nOrc Race Entry",
+  "type": "humanoid (orc)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Orc_Trooper.png"
+}

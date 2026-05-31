@@ -1,0 +1,61 @@
+{
+  "name": "Gremlin, Computer Glitch Gremlin",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Computer Glitch Gremlin&Family=Gremlin",
+  "source": "Alien Archive 2 pg. 69",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "LE",
+  "size": "Tiny",
+  "creature_type": "fey",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+4",
+  "hp": "5",
+  "eac": "9",
+  "kac": "10",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+3",
+  "sr": "11",
+  "resistances": "cold 5, electricity 5;",
+  "weaknesses": "vulnerable to fire",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "bite +2 (1d4–1 P plus glitch module, DC 10)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "glitch module, networked technomancy",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st; melee +1, ranged +1",
+    "spells": "1/day—\nerase\n,\njolting surge\nAt will—\nenergy ray\n(electricity only),\nghost sound\n(DC 13),\ntransfer charge\nConstant—\ndetect tech\n(computers only)"
+  },
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+3",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Computers +9, Engineering +4 (+9 to use computers), Stealth +9",
+  "languages": "Aklo, Common; digital telepathy 30 ft.",
+  "environment": "any",
+  "organization": "pair or infection (3–8)",
+  "special_abilities": [
+    {
+      "name": "Digital Telepathy (Su)",
+      "description": "A computer glitch gremlin can communicate telepathically only with digital devices and with other creatures that can do so (such as other computer glitch gremlins). This allows the glitch gremlin to attempt Computers checks to access any computer within the telepathy’s range."
+    },
+    {
+      "name": "Glitch Module (Su)",
+      "description": "When a glitch gremlin succeeds at a Computers check to access a system or hits a foe with an attack or spell, the accessed system or one random computer held or carried by the struck creature glitches. An attended computer (including any computer on a creature hit by a computer glitch gremlin’s attack or spell) negate this effect by succeeding at a DC 10 Will save. The glitch causes one of the following effects, which functions as if the system had the indicated countermeasure (DC = 16 + the number of glitch gremlins within 30 feet when the glitch was added): a fake shell countermeasure that obstructs all users, an alarm that plays a loud and potentially embarrassing audio or holographic file when accessed by any user unless the user succeeds at a Computers check as if hacking the system, or one randomly determined countermeasure that applies even to users with root access. Disabling or removing this glitch requires a Computers check as if disabling or removing a module. A disabled glitch reactivates after 1d10 minutes if not removed. A system can have no more than one glitch per module."
+    },
+    {
+      "name": "Networked Technomancy (Sp)",
+      "description": "When gathered in groups, computer glitch gremlins share their magic. As long as a computer glitch gremlin is within 30 feet of another of its kind, it gains concealment thanks to erratic holograms that falteringly appear near it and emulate the appearance of surrounding objects. Groups of computer glitch goblins can also use more potent spell-like abilities; each gremlin in the group except for one takes a standard action to prepare the spell-like ability, and the final gremlin actually uses it. Two computer glitch gremlins can use\nimplant data\nor\nlogic bomb\n(DC 15), four can use\nholographic image\n(3rd level, DC 16) or\ninstant virus\n(DC 16), and six can use\ndestruction protocol\n(DC 17)."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGremlin\nSource\nAlien Archive 2 pg. 69\nGremlins are fey spirits intimately tied to technological malfunctions. One variety of gremlin, called glitch gremlins, is especially common (and feared) in societies with advanced technology. Both computer glitch gremlins and ship glitch gremlins demonstrate remarkable single-mindedness in their pursuit of mayhem as they find new and more frustrating ways to make technology break, glitch, or fail.\nA computer glitch gremlin’s appearance varies widely with the digital data it has eaten, but they average 1 foot in height and weigh around 4 pounds. Ship glitch gremlins have lamprey-like mouths and long, spidery arms and legs. They stand 2-1/2 feet tall and weigh approximately 20 pounds.\nAliens in the \"Gremlin\" Family\nName\nCR\nComputer Glitch Gremlin\n1/2\nDrikluz\n1/2\nHobkins Gremlin\n1/2\nHobkins Gremlin Malefactor\n4\nShip Glitch Gremlin\n1\nVaigruuk\n2\nGremlin, Computer Glitch Gremlin\nSource\nAlien Archive 2 pg. 68\nComputer Glitch Gremlin CR 1/2\nXP 200\nLE Tiny fey\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+4\nDefense\nHP\n5\nEAC\n9;\nKAC\n10\nFort\n+2;\nRef\n+2;\nWill\n+3\nDefensive Abilities\nnetworked technomancy;\nResistances\ncold 5, electricity 5;\nSR\n11\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\nbite +2 (1d4–1 P plus glitch module, DC 10)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nOffensive Abilities\nglitch module, networked technomancy\nSpell-Like Abilities\n(CL 1st; melee +1, ranged +1)\n1/day—\nerase\n,\njolting surge\nAt will—\nenergy ray\n(electricity only),\nghost sound\n(DC 13),\ntransfer charge\nConstant—\ndetect tech\n(computers only)\nStatistics\nSTR\n-1;\nDEX\n+2;\nCON\n+1;\nINT\n+3;\nWIS\n+1;\nCHA\n-2\nSkills\nComputers +9, Engineering +4 (+9 to use computers), Stealth +9\nLanguages\nAklo, Common; digital telepathy 30 ft.\nEcology\nEnvironment\nany\nOrganization\npair or infection (3–8)\nSpecial Abilities\nDigital Telepathy (Su)\nA computer glitch gremlin can communicate telepathically only with digital devices and with other creatures that can do so (such as other computer glitch gremlins). This allows the glitch gremlin to attempt Computers checks to access any computer within the telepathy’s range.\nGlitch Module (Su)\nWhen a glitch gremlin succeeds at a Computers check to access a system or hits a foe with an attack or spell, the accessed system or one random computer held or carried by the struck creature glitches. An attended computer (including any computer on a creature hit by a computer glitch gremlin’s attack or spell) negate this effect by succeeding at a DC 10 Will save. The glitch causes one of the following effects, which functions as if the system had the indicated countermeasure (DC = 16 + the number of glitch gremlins within 30 feet when the glitch was added): a fake shell countermeasure that obstructs all users, an alarm that plays a loud and potentially embarrassing audio or holographic file when accessed by any user unless the user succeeds at a Computers check as if hacking the system, or one randomly determined countermeasure that applies even to users with root access. Disabling or removing this glitch requires a Computers check as if disabling or removing a module. A disabled glitch reactivates after 1d10 minutes if not removed. A system can have no more than one glitch per module.\nNetworked Technomancy (Sp)\nWhen gathered in groups, computer glitch gremlins share their magic. As long as a computer glitch gremlin is within 30 feet of another of its kind, it gains concealment thanks to erratic holograms that falteringly appear near it and emulate the appearance of surrounding objects. Groups of computer glitch goblins can also use more potent spell-like abilities; each gremlin in the group except for one takes a standard action to prepare the spell-like ability, and the final gremlin actually uses it. Two computer glitch gremlins can use\nimplant data\nor\nlogic bomb\n(DC 15), four can use\nholographic image\n(3rd level, DC 16) or\ninstant virus\n(DC 16), and six can use\ndestruction protocol\n(DC 17).",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Gremlin_Computer_ Glitch.png"
+}

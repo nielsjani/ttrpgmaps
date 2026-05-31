@@ -1,0 +1,47 @@
+{
+  "name": "Replicant Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Replicant Ooze&Family=None",
+  "source": "Starfinder #26: Flight of the Sleepers pg. 58",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "ooze (shapechanger)",
+  "init": "+2",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+15",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+12",
+  "ref": "+4",
+  "will": "+4",
+  "immunities": "ooze immunities",
+  "speed": "20 ft.",
+  "melee": "slam +15 (1d8+11 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+5",
+    "int": "—",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +15, Bluff +20, Disguise +20, Sense Motive +20, Stealth +15",
+  "languages": "Aklo (can’t speak any language)",
+  "other_abilities": "mimic corpse, mindless",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Mimic Corpse (Ex)",
+      "description": "A replicant ooze can engulf the adjacent corpse of a Large or smaller creature as a full action. Over the course of the following 10 minutes, the ooze consumes the corpse, apart from its brain (or similar organ), while shaping its own biomass into a replica of the creature. After this time, the replicant ooze looks like an exact duplicate of the dead creature, though without any major visible trauma, and compressing any excess ooze material within itself. While in this form, the replicant ooze loses the blindsense, mindless, and sightless abilities and gains the consumed creature’s size, reach, natural attacks, non-magical move speeds, languages (as well as ability to speak all languages it knows), and memories, as well as an Intelligence modifier equal to that of the creature consumed minus 1. Also, the replicant ooze has the skills the creature had in life, using the creature’s total skill bonus with a –5 penalty. This ability otherwise functions as change shape. When a replicant ooze loses more than half of its total Hit Points, it immediately reverts back to its Large ooze form. When this happens, the ooze can’t use this ability again until it regains all its Hit Points."
+    }
+  ],
+  "description": "Grays bioengineered the first replicant oozes during their first attempts to create full clones. While the grays found that the protoplasm could be shaped into the forms of sapient creatures through liberal use of electric shocks, the resultant shape was essentially still an ooze, requiring actual brains to be able to function. Once the grays incorporated brains into the protoplasm, they realized that the altered oozes took on the personality and memories of the “donors.\" Grays then began to use these oozes as quick, albeit messy, ways to replace subjects who accidentally perished from too-rigorous experimentation.\nA replicant ooze requires a fresh brain (or similar organ) to be able to believably impersonate a victim, usually requiring the ooze to consume the corpse within minutes after it has died. When a replicant ooze duplicates a person, it often doesn’t realize it is an impostor and attempts to live out the victim’s daily life. After a while, though, the victim’s friends and family begin to suspect that something is wrong, as the replicant ooze is usually less intelligent and socially adept than the original.\nThough replicant oozes are eventually found out if left out in the field for too long, gray agents use them as stopgap measures. Eventually, grays usually abduct the replicant ooze and replace it with a true clone, using memory extraction and implantation technology to copy any memories the replicant ooze might have formed into the clone’s brain.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReplicant Ooze\nSource\nStarfinder #26: Flight of the Sleepers pg. 58\nReplicant Ooze CR 7\nXP 3,200\nN Large ooze (shapechanger)\nInit\n+2;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+15\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+12;\nRef\n+4;\nWill\n+4\nImmunities\nooze immunities\nOffense\nSpeed\n20 ft.\nMelee\nslam +15 (1d8+11 B)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+5;\nINT\n—;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +15, Bluff +20, Disguise +20, Sense Motive +20, Stealth +15\nLanguages\nAklo (can’t speak any language)\nOther Abilities\nmimic corpse, mindless\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nMimic Corpse (Ex)\nA replicant ooze can engulf the adjacent corpse of a Large or smaller creature as a full action. Over the course of the following 10 minutes, the ooze consumes the corpse, apart from its brain (or similar organ), while shaping its own biomass into a replica of the creature. After this time, the replicant ooze looks like an exact duplicate of the dead creature, though without any major visible trauma, and compressing any excess ooze material within itself. While in this form, the replicant ooze loses the blindsense, mindless, and sightless abilities and gains the consumed creature’s size, reach, natural attacks, non-magical move speeds, languages (as well as ability to speak all languages it knows), and memories, as well as an Intelligence modifier equal to that of the creature consumed minus 1. Also, the replicant ooze has the skills the creature had in life, using the creature’s total skill bonus with a –5 penalty. This ability otherwise functions as change shape. When a replicant ooze loses more than half of its total Hit Points, it immediately reverts back to its Large ooze form. When this happens, the ooze can’t use this ability again until it regains all its Hit Points.\nDescription\nGrays bioengineered the first replicant oozes during their first attempts to create full clones. While the grays found that the protoplasm could be shaped into the forms of sapient creatures through liberal use of electric shocks, the resultant shape was essentially still an ooze, requiring actual brains to be able to function. Once the grays incorporated brains into the protoplasm, they realized that the altered oozes took on the personality and memories of the “donors.\" Grays then began to use these oozes as quick, albeit messy, ways to replace subjects who accidentally perished from too-rigorous experimentation.\nA replicant ooze requires a fresh brain (or similar organ) to be able to believably impersonate a victim, usually requiring the ooze to consume the corpse within minutes after it has died. When a replicant ooze duplicates a person, it often doesn’t realize it is an impostor and attempts to live out the victim’s daily life. After a while, though, the victim’s friends and family begin to suspect that something is wrong, as the replicant ooze is usually less intelligent and socially adept than the original.\nThough replicant oozes are eventually found out if left out in the field for too long, gray agents use them as stopgap measures. Eventually, grays usually abduct the replicant ooze and replace it with a true clone, using memory extraction and implantation technology to copy any memories the replicant ooze might have formed into the clone’s brain.",
+  "type": "ooze (shapechanger)",
+  "category": "alien"
+}

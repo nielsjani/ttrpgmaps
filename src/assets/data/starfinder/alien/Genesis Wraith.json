@@ -1,0 +1,51 @@
+{
+  "name": "Genesis Wraith",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Genesis Wraith&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 57",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "undead (incorporeal)",
+  "init": "+3",
+  "senses": "blindsight (life) 60 ft., darkvision 60 ft.;",
+  "perception": "+29",
+  "hp": "310",
+  "eac": "30",
+  "kac": "31",
+  "fort": "+15",
+  "ref": "+15",
+  "will": "+22",
+  "immunities": "undead immunities",
+  "speed": "fly 60 ft. (Su, perfect)",
+  "melee": "incorporeal claw +29 (4d8+17 S plus lignify [DC 24])",
+  "offensive_abilities": "erupting branches (20-ft. burst, 3d12+17 P, Reflex DC 24 half, usable every 1d4 rounds)",
+  "skills": "Intimidate +32, Life Science +34, Mysticism +34, Stealth +34, Survival +32",
+  "languages": "Common, Gnome",
+  "other_abilities": "unearthly terraforming, unliving",
+  "environment": "any vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Erupting Branches (Su)",
+      "description": "As a standard action, a genesis wraith can cause branches to erupt from a nearby computer, access panel, or other technological item within 120 feet. The branches deal 3d12+17 piercing damage to the item and each creature in a 20-foot burst centered on the item (Reflex DC 24 half)."
+    },
+    {
+      "name": "Life Sphere (Su)",
+      "description": "A genesis wraith exudes a 30-foot-radius aura of tolerable living conditions, similar to those provided by life bubble."
+    },
+    {
+      "name": "Lignify (Su)",
+      "description": "A creature struck by a genesis wraith’s incorporeal claw must succeed at a DC 24 Fortitude save or take a cumulative –1 penalty to attack rolls, Reflex saving throws, and Dexterity-based ability and skill checks as they slowly turn to wood. Creatures with the plant subtype and plantlike universal creature rule have a +4 racial bonus to this saving throw. These penalties last for 10 minutes or until the genesis wraith is slain, whichever comes first. This is a curse effect."
+    },
+    {
+      "name": "Unearthly Terraforming (Sp)",
+      "description": "Once per day, a genesis wraith can cast terraform as a spell-like ability (CL 17th) without having to spend credits. Any structure or starship within the area of effect takes 50 damage, ignoring hardness or Damage Threshold."
+    }
+  ],
+  "description": "When a traveler with strong ties to nature (such as a xenodruid or intelligent plant) dies in the airless void of space or on blasted, lifeless terrain, their unique trauma sometimes traps them between life and death as a genesis wraith. This incorporeal undead seeks to manifest light, oxygen, and greenery where they perished, but they often destroy technology in the process.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGenesis Wraith (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenesis Wraith\nSource\nStarfinder #33: Dominion’s End pg. 57\nGenesis Wraith CR 17\nXP 102,400\nN Medium undead (incorporeal)\nInit\n+3;\nSenses\nblindsight (life) 60 ft., darkvision 60 ft.;\nPerception\n+29\nAura\nlife sphere (30 ft.)\nDefense\nHP\n310\nEAC\n30;\nKAC\n31\nFort\n+15;\nRef\n+15;\nWill\n+22\nDefensive Abilities\nincorporeal;\nImmunities\nundead immunities\nOffense\nSpeed\nfly 60 ft. (Su, perfect)\nMelee\nincorporeal claw +29 (4d8+17 S plus lignify [DC 24])\nOffensive Abilities\nerupting branches (20-ft. burst, 3d12+17 P, Reflex DC 24 half, usable every 1d4 rounds)\nStatistics\nSTR\n—;\nDEX\n+8;\nCON\n—;\nINT\n+5;\nWIS\n+11;\nCHA\n+5\nSkills\nIntimidate +32, Life Science +34, Mysticism +34, Stealth +34, Survival +32\nLanguages\nCommon, Gnome\nOther Abilities\nunearthly terraforming, unliving\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary\nSpecial Abilities\nErupting Branches (Su)\nAs a standard action, a genesis wraith can cause branches to erupt from a nearby computer, access panel, or other technological item within 120 feet. The branches deal 3d12+17 piercing damage to the item and each creature in a 20-foot burst centered on the item (Reflex DC 24 half).\nLife Sphere (Su)\nA genesis wraith exudes a 30-foot-radius aura of tolerable living conditions, similar to those provided by life bubble.\nLignify (Su)\nA creature struck by a genesis wraith’s incorporeal claw must succeed at a DC 24 Fortitude save or take a cumulative –1 penalty to attack rolls, Reflex saving throws, and Dexterity-based ability and skill checks as they slowly turn to wood. Creatures with the plant subtype and plantlike universal creature rule have a +4 racial bonus to this saving throw. These penalties last for 10 minutes or until the genesis wraith is slain, whichever comes first. This is a curse effect.\nUnearthly Terraforming (Sp)\nOnce per day, a genesis wraith can cast terraform as a spell-like ability (CL 17th) without having to spend credits. Any structure or starship within the area of effect takes 50 damage, ignoring hardness or Damage Threshold.\nDescription\nWhen a traveler with strong ties to nature (such as a xenodruid or intelligent plant) dies in the airless void of space or on blasted, lifeless terrain, their unique trauma sometimes traps them between life and death as a genesis wraith. This incorporeal undead seeks to manifest light, oxygen, and greenery where they perished, but they often destroy technology in the process.\nExtra Content\nThe following extra content was found for this creature:\n-\nGenesis Wraith (Other) Graft Template",
+  "type": "undead (incorporeal)",
+  "category": "alien"
+}

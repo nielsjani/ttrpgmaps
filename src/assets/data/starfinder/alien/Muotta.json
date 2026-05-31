@@ -1,0 +1,44 @@
+{
+  "name": "Muotta",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Muotta&Family=None",
+  "source": "Starfinder #20: The Last Refuge pg. 57",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "animal",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+12",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+5",
+  "resistances": "sonic 5",
+  "speed": "20 ft., fly 50 ft. (Ex, average), swim 10 ft.",
+  "melee": "talon +8 (1d4+3 S)",
+  "offensive_abilities": "dive bomb",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +12, Athletics +7 (+15 to swim), Sleight of Hand +12, Stealth +7, Survival +7",
+  "environment": "any sky (Utraneus)",
+  "organization": "solitary, pair, or flock (2–8)",
+  "special_abilities": [
+    {
+      "name": "Dive Bomb (Ex)",
+      "description": "As a full action, a muotta in flight can move up to double its fly speed and make one attack at any point in its movement. The muotta takes a –2 penalty to the attack roll, but the movement doesn’t provoke an attack of opportunity from the target of the attack. Alternatively, the muotta can attempt a Sleight of Hand check to pick a target’s pocket instead of making an attack. If successful, the muotta can steal a single item of light or negligible bulk that is easily accessible on the target’s body but not wielded by the target."
+    }
+  ],
+  "description": "Muottas are the descendants of a species of harmless birds from Suskillon that were transplanted to the colony on Utraneus to aid with the colonists’ early attempts to foster normal soil farming in Utraneus’s rocky landscape. Due to their altered diet and other various environmental conditions in this new landscape, the species evolved over the centuries to become the ill‑regarded avian pests they are today.\nMuottas are squat birds with small heads on long necks, pointy, short-toothed beaks, and tails with a broad fan. These birds have four wings; the smaller set sprouting from where its short legs connect to its body. Their webbed feet have sharp, grasping talons, and their plumage is usually a dingy white with spots of gray. While not sapient, muottas do have rudimentary problem-solving abilities, as well as an attraction to shiny objects.\nMuottas feed on small aquatic organisms, from fish to shellfish to large algae. Near settlements, they have rapidly adapted to scavenge for both food and nesting materials. Their relative intelligence, territorial nature, and acquisitive tendencies make them the bane of Utraneus’s colonists, as they routinely steal vital components and attempt to nest in critical locations such as communications towers. Inventing muotta-repelling devices and systems has become a cottage industry in New Grakka.\nTypically, the largest muotta in a flock is female. Always territorial, muottas become particularly defensive when they have flightless hatchlings in their nests, doing their utmost to drive off intruders. Adult muottas in a flock alternate between gathering food to regurgitate for the hatchlings and guarding the vicinity of the nest. After approximately 3 months, the hatchlings grow their flight plumage, learn to fly, and join the flock in gathering food and claiming territory. Young muottas disperse after about a year, with males attempting to impress potential mates by building mock nests out of any brightly colored or reffective material they can find. Sometimes cooperative female siblings prove more successful in finding food and holding territory than lone muottas and become sister-leaders of their own flocks.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMuotta\nSource\nStarfinder #20: The Last Refuge pg. 57\nMuotta CR 2\nXP 600\nN Small animal\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+12\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+3;\nRef\n+3;\nWill\n+5\nDefensive Abilities\nevasion;\nResistances\nsonic 5\nOffense\nSpeed\n20 ft., fly 50 ft. (Ex, average), swim 10 ft.\nMelee\ntalon +8 (1d4+3 S)\nOffensive Abilities\ndive bomb\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +12, Athletics +7 (+15 to swim), Sleight of Hand +12, Stealth +7, Survival +7\nEcology\nEnvironment\nany sky (Utraneus)\nOrganization\nsolitary, pair, or flock (2–8)\nSpecial Abilities\nDive Bomb (Ex)\nAs a full action, a muotta in flight can move up to double its fly speed and make one attack at any point in its movement. The muotta takes a –2 penalty to the attack roll, but the movement doesn’t provoke an attack of opportunity from the target of the attack. Alternatively, the muotta can attempt a Sleight of Hand check to pick a target’s pocket instead of making an attack. If successful, the muotta can steal a single item of light or negligible bulk that is easily accessible on the target’s body but not wielded by the target.\nDescription\nMuottas are the descendants of a species of harmless birds from Suskillon that were transplanted to the colony on Utraneus to aid with the colonists’ early attempts to foster normal soil farming in Utraneus’s rocky landscape. Due to their altered diet and other various environmental conditions in this new landscape, the species evolved over the centuries to become the ill‑regarded avian pests they are today.\nMuottas are squat birds with small heads on long necks, pointy, short-toothed beaks, and tails with a broad fan. These birds have four wings; the smaller set sprouting from where its short legs connect to its body. Their webbed feet have sharp, grasping talons, and their plumage is usually a dingy white with spots of gray. While not sapient, muottas do have rudimentary problem-solving abilities, as well as an attraction to shiny objects.\nMuottas feed on small aquatic organisms, from fish to shellfish to large algae. Near settlements, they have rapidly adapted to scavenge for both food and nesting materials. Their relative intelligence, territorial nature, and acquisitive tendencies make them the bane of Utraneus’s colonists, as they routinely steal vital components and attempt to nest in critical locations such as communications towers. Inventing muotta-repelling devices and systems has become a cottage industry in New Grakka.\nTypically, the largest muotta in a flock is female. Always territorial, muottas become particularly defensive when they have flightless hatchlings in their nests, doing their utmost to drive off intruders. Adult muottas in a flock alternate between gathering food to regurgitate for the hatchlings and guarding the vicinity of the nest. After approximately 3 months, the hatchlings grow their flight plumage, learn to fly, and join the flock in gathering food and claiming territory. Young muottas disperse after about a year, with males attempting to impress potential mates by building mock nests out of any brightly colored or reffective material they can find. Sometimes cooperative female siblings prove more successful in finding food and holding territory than lone muottas and become sister-leaders of their own flocks.",
+  "type": "animal",
+  "category": "alien"
+}

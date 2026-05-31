@@ -1,0 +1,54 @@
+{
+  "name": "Comanide",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Comanide&Family=None",
+  "source": "Starfinder #9: The Rune Drive Gambit pg. 57",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+14",
+  "hp": "90",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+10",
+  "immunities": "cold",
+  "speed": "30 ft., fly 60 ft. (Su, average)",
+  "melee": "claw +14 (1d8+7 C & S; critical bleed 1d8)",
+  "offensive_abilities": "comet form",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th; melee +14",
+    "spells": "1/day—\nbestow curse\n(DC 20),\nprobability prediction\n3/day—\naugury\n,\nfog cloud\nAt will—\nmind thrust\n(DC 18),\ntelepathic message\n(system-wide)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+4",
+    "wis": "+5",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +14, Culture +19, Mysticism +19",
+  "languages": "Common; telepathy 100 ft.",
+  "other_abilities": "spaceflight",
+  "environment": "any",
+  "organization": "solitary, pair, or group (3–5)",
+  "special_abilities": [
+    {
+      "name": "Comet Form (Su)",
+      "description": "As a full action, a comanide can fly up to 240 feet in a straight line, trailing a dazzling jet of plasma. This movement doesn’t provoke attacks of opportunity, and the comanide can make one claw attack against each creature it can reach during this movement, taking a –4 penalty to each attack roll. A creature within 30 feet of the comanide that can see it during this movement must succeed at a DC 17 Will saving throw or become fascinated for 1 round. Once the comanide uses this ability, it can’t use it again until after it rests for 10 minutes."
+    },
+    {
+      "name": "Icy Crown (Su)",
+      "description": "While a comanide wears its icy crown, the fey emanates a glowing cloud of frigid plasma in a spherical radius of 30 feet. This aura casts normal light in a 30-foot radius, and dim light for an additional 30 feet. While within the aura, the comanide has fire resistance 10. Creatures other than comanides that end their turns in the aura take 3d6 cold damage (Fortitude DC 17 half). A comanide can apply or remove its crown as a move action. The crown can be sundered (hardness 2, HP 35), and it can be taken from the comanide with a successful disarm combat maneuver or when a foe successfully renews a grapple. A non-comanide wearing the crown emits light and gains cold resistance 10 so long as the comanide lives."
+    }
+  ],
+  "description": "Comanides are fey born from comets. A comanide can outlive its parent comet, and over the span of wakeful centuries, these fey notice mystical patterns in the movements of astronomical bodies and mortal affairs. Comanides have been known to telepathically contact people or visit planets to caution that a current course of action is likely to lead to chaos or severe imbalance, and so they appear in historical annals on numerous worlds. In some cases, a comanide’s advice has raised a person to prophet status or shaped long-term cultural beliefs. In others, proof of a comanide’s counsel exists only in records buried deep within the ruins left by a society that didn’t heed a comanide’s advice.\nAs retiring fey, comanides avoid violence. They can become angry when they or their warnings are disrespected. A comanide’s full fury is reserved for those who dare to touch its icy crown.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nComanide\nSource\nStarfinder #9: The Rune Drive Gambit pg. 57\nComanide CR 7\nXP 3,200\nN Medium fey\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+14\nAura\nicy crown (30 ft., DC 17)\nDefense\nHP\n90\nEAC\n18;\nKAC\n19\nFort\n+8;\nRef\n+8;\nWill\n+10\nDefensive Abilities\nvoid adaptation;\nImmunities\ncold\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, average)\nMelee\nclaw +14 (1d8+7 C & S; critical bleed 1d8)\nOffensive Abilities\ncomet form\nSpell-Like Abilities\n(CL 7th; melee +14)\n1/day—\nbestow curse\n(DC 20),\nprobability prediction\n3/day—\naugury\n,\nfog cloud\nAt will—\nmind thrust\n(DC 18),\ntelepathic message\n(system-wide)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+0;\nINT\n+4;\nWIS\n+5;\nCHA\n+2\nSkills\nAcrobatics +14, Culture +19, Mysticism +19\nLanguages\nCommon; telepathy 100 ft.\nOther Abilities\nspaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or group (3–5)\nSpecial Abilities\nComet Form (Su)\nAs a full action, a comanide can fly up to 240 feet in a straight line, trailing a dazzling jet of plasma. This movement doesn’t provoke attacks of opportunity, and the comanide can make one claw attack against each creature it can reach during this movement, taking a –4 penalty to each attack roll. A creature within 30 feet of the comanide that can see it during this movement must succeed at a DC 17 Will saving throw or become fascinated for 1 round. Once the comanide uses this ability, it can’t use it again until after it rests for 10 minutes.\nIcy Crown (Su)\nWhile a comanide wears its icy crown, the fey emanates a glowing cloud of frigid plasma in a spherical radius of 30 feet. This aura casts normal light in a 30-foot radius, and dim light for an additional 30 feet. While within the aura, the comanide has fire resistance 10. Creatures other than comanides that end their turns in the aura take 3d6 cold damage (Fortitude DC 17 half). A comanide can apply or remove its crown as a move action. The crown can be sundered (hardness 2, HP 35), and it can be taken from the comanide with a successful disarm combat maneuver or when a foe successfully renews a grapple. A non-comanide wearing the crown emits light and gains cold resistance 10 so long as the comanide lives.\nDescription\nComanides are fey born from comets. A comanide can outlive its parent comet, and over the span of wakeful centuries, these fey notice mystical patterns in the movements of astronomical bodies and mortal affairs. Comanides have been known to telepathically contact people or visit planets to caution that a current course of action is likely to lead to chaos or severe imbalance, and so they appear in historical annals on numerous worlds. In some cases, a comanide’s advice has raised a person to prophet status or shaped long-term cultural beliefs. In others, proof of a comanide’s counsel exists only in records buried deep within the ruins left by a society that didn’t heed a comanide’s advice.\nAs retiring fey, comanides avoid violence. They can become angry when they or their warnings are disrespected. A comanide’s full fury is reserved for those who dare to touch its icy crown.",
+  "type": "fey",
+  "category": "alien"
+}

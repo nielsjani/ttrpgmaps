@@ -1,0 +1,51 @@
+{
+  "name": "Mewclock",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mewclock&Family=None",
+  "source": "Starfinder #50: Clockwork Demons pg. 59",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "construct (magical, technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "32",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+0",
+  "ref": "+4",
+  "will": "+0",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "claws +6 (1d4+4 S)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "pack distraction",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "1/day—\ncharm person\n(DC 16),\nwisp ally\nAt will—\nhazard\n(electricity only, DC 15),\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "—",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Athletics +8 (+16 to climb), Bluff +8, Stealth +13",
+  "other_abilities": "unliving",
+  "environment": "any urban",
+  "organization": "solitary or college (4–7)",
+  "special_abilities": [
+    {
+      "name": "Pack Distraction (Ex)",
+      "description": "When a mewclock starts its turn adjacent to a creature that’s adjacent to at least one other mewclock, as a full action, it can enter that creature’s square, make a single melee attack, and then return to its original position. This movement doesn’t provoke attacks of opportunity."
+    }
+  ],
+  "description": "A mewclock is a clockwork automaton imbued with a magical spark of sentience that gives it an animal-like level of intelligence. Designed to look like tiny, adorable felines, mewclocks are often mistaken for simple toys. However, like any stray animal, a mewclock found in the wild (usually in abandoned urban buildings in areas where clockwork engineering is prevalent) is slow to trust a creature it doesn’t know. Attempting to snatch up and take a mewclock home often results in receiving a jolt of electricity or some slashed skin. However, once a feral mewclock is domesticated, it can become an affectionate companion. In certain civilizations where clockwork is the prevalent form of technology, mewclocks are constructed and sold as pets.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMewclock\nSource\nStarfinder #50: Clockwork Demons pg. 59\nMewclock CR 3\nXP 800\nN Tiny construct (magical, technological)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n32\nEAC\n13;\nKAC\n14\nFort\n+0;\nRef\n+4;\nWill\n+0\nDefensive Abilities\nconstruct immunities\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\nclaws +6 (1d4+4 S)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nOffensive Abilities\npack distraction\nSpell-Like Abilities\n(CL 3rd)\n1/day—\ncharm person\n(DC 16),\nwisp ally\nAt will—\nhazard\n(electricity only, DC 15),\ntoken spell\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n—;\nINT\n-4;\nWIS\n+0;\nCHA\n+2\nSkills\nAthletics +8 (+16 to climb), Bluff +8, Stealth +13\nOther Abilities\nunliving\nEcology\nEnvironment\nany urban\nOrganization\nsolitary or college (4–7)\nSpecial Abilities\nPack Distraction (Ex)\nWhen a mewclock starts its turn adjacent to a creature that’s adjacent to at least one other mewclock, as a full action, it can enter that creature’s square, make a single melee attack, and then return to its original position. This movement doesn’t provoke attacks of opportunity.\nDescription\nA mewclock is a clockwork automaton imbued with a magical spark of sentience that gives it an animal-like level of intelligence. Designed to look like tiny, adorable felines, mewclocks are often mistaken for simple toys. However, like any stray animal, a mewclock found in the wild (usually in abandoned urban buildings in areas where clockwork engineering is prevalent) is slow to trust a creature it doesn’t know. Attempting to snatch up and take a mewclock home often results in receiving a jolt of electricity or some slashed skin. However, once a feral mewclock is domesticated, it can become an affectionate companion. In certain civilizations where clockwork is the prevalent form of technology, mewclocks are constructed and sold as pets.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

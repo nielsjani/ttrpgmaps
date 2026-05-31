@@ -1,0 +1,57 @@
+{
+  "name": "Ossiworm Agent",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ossiworm Agent&Family=None",
+  "source": "Drift Crisis pg. 158",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "undead (shapechanger)",
+  "init": "+7",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+20",
+  "hp": "150",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+9",
+  "ref": "+12",
+  "will": "+12",
+  "dr": "5/bludgeoning",
+  "immunities": "undead immunities",
+  "speed": "40 ft.",
+  "melee": "tactical knife +20 (2d4+12 S) or nanofiber garrote +20 (2d4+12 S)",
+  "ranged": "rime subduer +18 (1d12+10 C; critical staggered)",
+  "offensive_abilities": "fearful reveal, forgetful strike (DC 19)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+7",
+    "con": "—",
+    "int": "+5",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +19, Bluff +24, Computers +19, Culture +24, Disguise +24, Sleight of Hand +19, Stealth +19",
+  "languages": "Common, Eoxian, plus up to 3 of the host’s languages",
+  "other_abilities": "change shape (host only), unliving",
+  "gear": "tactical knife, nanofiber garrote, rime subduer with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or infestation (3–6)",
+  "special_abilities": [
+    {
+      "name": "Change Shape",
+      "description": "An ossiworm agent can take the form only of its host creature."
+    },
+    {
+      "name": "Fearful Reveal (Ex)",
+      "description": "A shapechanged ossiworm agent can revert to its natural form as a move action. Any creature within 30 feet who can see this process becomes shaken for 1d6 rounds (Will DC 19 negates). This is an emotion, fear, mind-affecting, and sense-dependent effect."
+    },
+    {
+      "name": "Forgetful Strike (Su)",
+      "description": "An ossiworm agent can attempt a single attack or grapple combat maneuver that erases the target’s memories in addition to its normal effects. If the attack or grapple succeeds, the target becomes flat-footed for 1 minute (DC 19 Will negates), after which it forgets anything that happened during that period. Once the ossiworm agent has successfully affected a creature with this ability, it cannot do so again for 1d6 × 10 minutes. This is a mind-affecting effect."
+    }
+  ],
+  "description": "For centuries, the Corpse Fleet has infiltrated Pact Worlds facilities by abducting living creatures and implanting them with ossiworms, a carefully engineered undead parasite. While dormant, an ossiworm emotionally nudges its host to excel, receive promotions, and gain access to increasingly sensitive infrastructure. At an arranged signal, the ossiworm hatches, consuming its host’s flesh and memories in a few excruciating minutes. All that’s left behind is an ossiworm agent, an undead skeleton threaded with veiny tendrils fully under the parasite’s control. Once activated, the agent pursues its creator’s prearranged objectives, readily re-creating its host’s living appearance as needed. Once its mission is complete, the agent engages in other sabotage on its own initiative, prioritizing its own secrecy and survival.\nScores of active and latent ossiworm agents inhabit government offices, maintenance crews, and Stewards squadrons. Most concerning of all, a cadre exists among Pharasma’s faithful, having innovated some means of evading magical detection as they foment factional disputes. So far, most ossiworm implantation procedures have occurred in Corpse Fleet facilities before the sedated, unsuspecting hosts are released. However, a few rogue ossiworm agents have developed a way to infect new hosts independently, making the Corpse Fleet question these agents’ loyalty and reliability.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nOssiworm Agent\nSource\nDrift Crisis pg. 158\nOssiworm Agent CR 10\nXP 9,600\nNE Medium undead (shapechanger)\nInit\n+7;\nSenses\ndarkvision 60 ft.;\nPerception\n+20\nDefense\nHP\n150\nEAC\n23;\nKAC\n24\nFort\n+9;\nRef\n+12;\nWill\n+12\nDR\n5/bludgeoning;\nImmunities\nundead immunities\nOffense\nSpeed\n40 ft.\nMelee\ntactical knife +20 (2d4+12 S) or nanofiber garrote +20 (2d4+12 S)\nRanged\nrime subduer +18 (1d12+10 C; critical staggered)\nOffensive Abilities\nfearful reveal, forgetful strike (DC 19)\nStatistics\nSTR\n+2;\nDEX\n+7;\nCON\n—;\nINT\n+5;\nWIS\n+3;\nCHA\n+1\nSkills\nAcrobatics +19, Bluff +24, Computers +19, Culture +24, Disguise +24, Sleight of Hand +19, Stealth +19\nLanguages\nCommon, Eoxian, plus up to 3 of the host’s languages\nOther Abilities\nchange shape (host only), unliving\nGear\ntactical knife, nanofiber garrote, rime subduer with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or infestation (3–6)\nSpecial Abilities\nChange Shape\nAn ossiworm agent can take the form only of its host creature.\nFearful Reveal (Ex)\nA shapechanged ossiworm agent can revert to its natural form as a move action. Any creature within 30 feet who can see this process becomes shaken for 1d6 rounds (Will DC 19 negates). This is an emotion, fear, mind-affecting, and sense-dependent effect.\nForgetful Strike (Su)\nAn ossiworm agent can attempt a single attack or grapple combat maneuver that erases the target’s memories in addition to its normal effects. If the attack or grapple succeeds, the target becomes flat-footed for 1 minute (DC 19 Will negates), after which it forgets anything that happened during that period. Once the ossiworm agent has successfully affected a creature with this ability, it cannot do so again for 1d6 × 10 minutes. This is a mind-affecting effect.\nDescription\nFor centuries, the Corpse Fleet has infiltrated Pact Worlds facilities by abducting living creatures and implanting them with ossiworms, a carefully engineered undead parasite. While dormant, an ossiworm emotionally nudges its host to excel, receive promotions, and gain access to increasingly sensitive infrastructure. At an arranged signal, the ossiworm hatches, consuming its host’s flesh and memories in a few excruciating minutes. All that’s left behind is an ossiworm agent, an undead skeleton threaded with veiny tendrils fully under the parasite’s control. Once activated, the agent pursues its creator’s prearranged objectives, readily re-creating its host’s living appearance as needed. Once its mission is complete, the agent engages in other sabotage on its own initiative, prioritizing its own secrecy and survival.\nScores of active and latent ossiworm agents inhabit government offices, maintenance crews, and Stewards squadrons. Most concerning of all, a cadre exists among Pharasma’s faithful, having innovated some means of evading magical detection as they foment factional disputes. So far, most ossiworm implantation procedures have occurred in Corpse Fleet facilities before the sedated, unsuspecting hosts are released. However, a few rogue ossiworm agents have developed a way to infect new hosts independently, making the Corpse Fleet question these agents’ loyalty and reliability.",
+  "type": "undead (shapechanger)",
+  "category": "alien"
+}

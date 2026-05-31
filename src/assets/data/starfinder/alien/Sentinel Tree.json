@@ -1,0 +1,52 @@
+{
+  "name": "Sentinel Tree",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sentinel Tree&Family=None",
+  "source": "Starfinder #18: Assault on the Crucible pg. 60",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "plant",
+  "init": "+5",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+19",
+  "hp": "107",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+6",
+  "immunities": "plant immunities",
+  "speed": "10 ft.",
+  "melee": "slam +17 (2d6+12 B)",
+  "ranged": "thorn barrage +14 (2d8+7 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Intimidate +14, Sense Motive +14, Stealth +14 (+20 in forests and gardens)",
+  "languages": "Common (cannot speak)",
+  "other_abilities": "freeze, tracking (heat)",
+  "environment": "any urban",
+  "organization": "solitary, pair, or copse (3–6)",
+  "special_abilities": [
+    {
+      "name": "Freeze (Ex)",
+      "description": "A sentinel tree can remain so still that it appears to be a normal tree. A sentinel tree that uses freeze can take 20 on its Stealth check to hide in plain sight as a normal tree."
+    },
+    {
+      "name": "Thorn Barrage (Ex)",
+      "description": "As an attack, a sentinel tree can fire a burst of sharp, hardened thorns with a range increment of 20 feet. This natural attack has the burst and unwieldy weapon special properties."
+    }
+  ],
+  "description": "At first glance, a sentinel tree appears to be an elegantly manicured shrub or tall tree that wouldn’t be out of place on a lawn or in a garden. In fact, these intelligent guardians have been cultivated through centuries of genetic engineering and magic, and they are favored by the wealthy elite for their ability to keep out interlopers while avoiding the unsightly appearance of armed guards. Sentinel trees are capable of learning the difference between friend and foe, acknowledging temporary exceptions to their standard orders, and using their own judgment in handling corner cases.\nSentinel trees are usually employed for a pair of simple tasks: eliminating hostile intruders and maintaining the beauty of their surroundings. While capable of independent locomotion, sentinel trees rarely leave their original emplacements and typically do so only to track intruders or dispose of any unsightly bodies that result from their guard duties.\nThe aesthetic concerns of a sentinel tree are perhaps their greatest weakness. While unlikely to be fooled by disguises or tricks and trained to be alert for signs of stealthy foes, a sentinel tree often avoids making attacks that risk damaging their surrounding environments overmuch.\nWhile a sentinel tree is unable to alter their own appearance, those who grow and sell them usually cultivate a wide variety of styles, replicating the general appearance of nearly any similar-sized plant, from perfectly squared hedges to succulent, evergreen, or broad-leafed trees. On worlds where greenery would stand out as unusual, sentinel trees are sometimes engineered to resemble thorny brambles, or even abstract crystalline spires.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSentinel Tree\nSource\nStarfinder #18: Assault on the Crucible pg. 60\nSentinel Tree CR 7\nXP 3,200\nN Large plant\nInit\n+5;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+19\nDefense\nHP\n107\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+9;\nWill\n+6\nImmunities\nplant immunities\nOffense\nSpeed\n10 ft.\nMelee\nslam +17 (2d6+12 B)\nRanged\nthorn barrage +14 (2d8+7 P)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n+1;\nWIS\n+2;\nCHA\n+0\nSkills\nIntimidate +14, Sense Motive +14, Stealth +14 (+20 in forests and gardens)\nLanguages\nCommon (cannot speak)\nOther Abilities\nfreeze, tracking (heat)\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or copse (3–6)\nSpecial Abilities\nFreeze (Ex)\nA sentinel tree can remain so still that it appears to be a normal tree. A sentinel tree that uses freeze can take 20 on its Stealth check to hide in plain sight as a normal tree.\nThorn Barrage (Ex)\nAs an attack, a sentinel tree can fire a burst of sharp, hardened thorns with a range increment of 20 feet. This natural attack has the burst and unwieldy weapon special properties.\nDescription\nAt first glance, a sentinel tree appears to be an elegantly manicured shrub or tall tree that wouldn’t be out of place on a lawn or in a garden. In fact, these intelligent guardians have been cultivated through centuries of genetic engineering and magic, and they are favored by the wealthy elite for their ability to keep out interlopers while avoiding the unsightly appearance of armed guards. Sentinel trees are capable of learning the difference between friend and foe, acknowledging temporary exceptions to their standard orders, and using their own judgment in handling corner cases.\nSentinel trees are usually employed for a pair of simple tasks: eliminating hostile intruders and maintaining the beauty of their surroundings. While capable of independent locomotion, sentinel trees rarely leave their original emplacements and typically do so only to track intruders or dispose of any unsightly bodies that result from their guard duties.\nThe aesthetic concerns of a sentinel tree are perhaps their greatest weakness. While unlikely to be fooled by disguises or tricks and trained to be alert for signs of stealthy foes, a sentinel tree often avoids making attacks that risk damaging their surrounding environments overmuch.\nWhile a sentinel tree is unable to alter their own appearance, those who grow and sell them usually cultivate a wide variety of styles, replicating the general appearance of nearly any similar-sized plant, from perfectly squared hedges to succulent, evergreen, or broad-leafed trees. On worlds where greenery would stand out as unusual, sentinel trees are sometimes engineered to resemble thorny brambles, or even abstract crystalline spires.",
+  "type": "plant",
+  "category": "alien"
+}

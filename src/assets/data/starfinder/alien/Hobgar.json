@@ -1,0 +1,51 @@
+{
+  "name": "Hobgar",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hobgar&Family=None",
+  "source": "Starfinder #7: The Reach of Empire pg. 57",
+  "cr": "1/3",
+  "xp": "135",
+  "alignment": "N",
+  "size": "Tiny",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+3",
+  "hp": "6",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+2",
+  "immunities": "electricity",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "bite +1 (1d4 P)",
+  "ranged": "electricity ray +3 (1d3 E)",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+0",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +7, Athletics +3 (+11 to climb), Sleight of Hand +7, Stealth +7, Survival +3",
+  "other_abilities": "compression",
+  "environment": "any forests (Nakondis)",
+  "organization": "solitary, pair, or pack (3–20)",
+  "special_abilities": [
+    {
+      "name": "Electricity Ray (Su)",
+      "description": "A hobgar can discharge a ray of electricity at a single target as a standard action. This attack has a maximum range of 20 feet."
+    },
+    {
+      "name": "Evasion (Ex)",
+      "description": "This ability functions as the operative class feature of the same name."
+    }
+  ],
+  "description": "Hobgars are small, simian pests native to the misty forests of the planet Nakondis. The arboreal creatures have large eyes, flat noses, and wide mouths. Most hobgars are covered with short tufts of blue and brown fur, which is thickest on the head, chest, and upper arms. They have long, dexterous fingers and toes, with opposable thumbs on both hands and feet. Hobgars are exceptionally skillful climbers, able to fold their bones—including their skulls—to fit into narrow spaces. Most hobgars are 2 feet long and weigh 8 pounds, although rumors of significantly larger hobgars persist despite a lack of solid substantiating evidence.\nHobgars are immune to the electrified mist that pervades Nakondis. Instead, they store ambient electrical charge in specialized skin cells, communicating with each other by modulating this energy to silently wave their fur. Hobgars can also release bits of their stored energy in short-range jolts, but a hobgar removed from Nakondis loses the ability to discharge its electricity ray after 24 hours.\nHobgars have no need to drink, as their wide, soft noses draw all the moisture they need from the misty air. They are omnivorous and can consume a startling variety of objects for nourishment. While hobgars generally subsist on insects and fruit, the creatures particularly relish the taste of conductive metals, which they gnaw with sawlike motions of their two rows of teeth.\nSocial by nature, hobgars congregate in small packs that interact frequently. Packs coexisting in an area freely share information about food sources and potential dangers, and an adult hobgar will choose its mate from a neighboring pack, never from its own. Hobgar females bear live young, but infants are too frail to survive in the outside world for the first several hours after birth. To shelter her young, a hobgar in labor finds a source of protected warmth, such as a stout log or the corpse of a larger creature, and births her litter into the object. She then waits as the infants consume the object from within, quickly gaining size and strength until they burst out in an explosion of electrical energy.\nHobgars are fearless and curious, so they are a persistent nuisance to explorers on Nakondis. They sneak into camps to take apart equipment, gnaw on cables and batteries, and steal small objects, and their social nature means one incursion will inevitably draw other hobgars to join the fun. Hobgars aren’t normally aggressive, preferring to flee from danger, but they attack if mistreated or encountered while tending to their young. A few of the colonists on Nakondis have attempted to domesticate hobgars, but the simians are very headstrong and reluctant to take to the training.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHobgar\nSource\nStarfinder #7: The Reach of Empire pg. 57\nHobgar CR 1/3\nXP 135\nN Tiny magical beast\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+3\nDefense\nHP\n6\nEAC\n10;\nKAC\n11\nFort\n+2;\nRef\n+2;\nWill\n+2\nDefensive Abilities\nevasion;\nImmunities\nelectricity\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nbite +1 (1d4 P)\nRanged\nelectricity ray +3 (1d3 E)\nSpace\n2-1/2 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+0;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +7, Athletics +3 (+11 to climb), Sleight of Hand +7, Stealth +7, Survival +3\nOther Abilities\ncompression\nEcology\nEnvironment\nany forests (Nakondis)\nOrganization\nsolitary, pair, or pack (3–20)\nSpecial Abilities\nElectricity Ray (Su)\nA hobgar can discharge a ray of electricity at a single target as a standard action. This attack has a maximum range of 20 feet.\nEvasion (Ex)\nThis ability functions as the operative class feature of the same name.\nDescription\nHobgars are small, simian pests native to the misty forests of the planet Nakondis. The arboreal creatures have large eyes, flat noses, and wide mouths. Most hobgars are covered with short tufts of blue and brown fur, which is thickest on the head, chest, and upper arms. They have long, dexterous fingers and toes, with opposable thumbs on both hands and feet. Hobgars are exceptionally skillful climbers, able to fold their bones—including their skulls—to fit into narrow spaces. Most hobgars are 2 feet long and weigh 8 pounds, although rumors of significantly larger hobgars persist despite a lack of solid substantiating evidence.\nHobgars are immune to the electrified mist that pervades Nakondis. Instead, they store ambient electrical charge in specialized skin cells, communicating with each other by modulating this energy to silently wave their fur. Hobgars can also release bits of their stored energy in short-range jolts, but a hobgar removed from Nakondis loses the ability to discharge its electricity ray after 24 hours.\nHobgars have no need to drink, as their wide, soft noses draw all the moisture they need from the misty air. They are omnivorous and can consume a startling variety of objects for nourishment. While hobgars generally subsist on insects and fruit, the creatures particularly relish the taste of conductive metals, which they gnaw with sawlike motions of their two rows of teeth.\nSocial by nature, hobgars congregate in small packs that interact frequently. Packs coexisting in an area freely share information about food sources and potential dangers, and an adult hobgar will choose its mate from a neighboring pack, never from its own. Hobgar females bear live young, but infants are too frail to survive in the outside world for the first several hours after birth. To shelter her young, a hobgar in labor finds a source of protected warmth, such as a stout log or the corpse of a larger creature, and births her litter into the object. She then waits as the infants consume the object from within, quickly gaining size and strength until they burst out in an explosion of electrical energy.\nHobgars are fearless and curious, so they are a persistent nuisance to explorers on Nakondis. They sneak into camps to take apart equipment, gnaw on cables and batteries, and steal small objects, and their social nature means one incursion will inevitably draw other hobgars to join the fun. Hobgars aren’t normally aggressive, preferring to flee from danger, but they attack if mistreated or encountered while tending to their young. A few of the colonists on Nakondis have attempted to domesticate hobgars, but the simians are very headstrong and reluctant to take to the training.",
+  "type": "magical beast",
+  "category": "alien"
+}

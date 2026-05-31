@@ -1,0 +1,57 @@
+{
+  "name": "Robot (Security), Patrol-Class Security Robot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Patrol-Class Security Robot&Family=Robot (Security)",
+  "source": "Alien Archive pg. 94",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+10",
+  "hp": "52",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+1",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to critical hits, vulnerable to electricity",
+  "speed": "30 ft.",
+  "melee": "slam +10 (1d6+7 B)",
+  "ranged": "integrated tactical arc emitter +13 (1d4+4 E)",
+  "offensive_abilities": "jolting arc",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Computers +10, Intimidate +15",
+  "languages": "Common",
+  "other_abilities": "unliving",
+  "gear": "tactical arc emitter with 2 batteries (20 charges each)",
+  "environment": "any urban",
+  "organization": "solitary, pair, or patrol (3–7)",
+  "special_abilities": [
+    {
+      "name": "Integrated Weapons (Ex)",
+      "description": "A security robot’s weapons are integrated into its frame and can’t be disarmed."
+    },
+    {
+      "name": "Jolting Arc (Ex)",
+      "description": "Once every 1d4 rounds as a standard action, a patrol-class security robot can shoot an arc of electricity at up to four creatures within 40 feet (no two of which can be more than 30 feet apart). This arc deals 1d8 electricity damage to each target (Reflex DC 13 half)."
+    },
+    {
+      "name": "Nanite Repair (Ex)",
+      "description": "A patrol-class security robot’s nanites heal it, restoring a number of Hit Points per hour equal to its CR (4 Hit Points per hour for most security robots). Once per day as a full action, a patrol-class security robot can restore 3d8 Hit Points to itself or any touched construct with the technological subtype."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot (Security)\nSource\nAlien Archive pg. 94\nSecurity robots come in a wide variety of makes and models, with a near-endless variety of customizations based on both the manufacturer and the aesthetics and needs of the consumer. Crafted with advanced user interfaces mimicking moderate intelligence, but without any of the emotions, unpredictability, or bias of a true AI or sentient creature, security bots are an eminently practical, reasonable solution to a wide variety of security needs. Unlike full-on military models, security robots usually come preprogrammed with certain fail-safes preventing them from engaging in violence beyond what’s necessary for the protection of their assigned population or property, making them a go-to option for police forces, corporations, and even wealthy individuals looking for peace of mind.\nOne of the cheapest and most common types of security robot is the observer. Observer-class bots are usually small, flying robots designed primarily to record and report specific unsavory activities for later review by their owners, though they are also equipped to fend off minor threats. Whether buzzing through the access ducts of secure facilities or hovering over crowded marketplaces, observers are nearly ubiquitous in some advanced settlements. On Absalom Station, the most prominent brand is AbadarCorp’s VizAll, a flying orb with gentle contours designed to put citizens at ease, with a central eye, stubby fins, and relentlessly cheerful speech patterns. Aballon’s Sunward Corporation produces the more disconcerting Arbitron, whose insectile form mimics those of the resident anacites, while Triaxus’s Bluescale Industries crafts theirs to resemble tiny, mechanical drakes. Regardless of their shape, however, observers are known for their convenience, but they are infamous for their limited nuance—a problem for owners who forget their own security passphrase. Some of the cheapest models also have faulty programming that causes them to develop personality quirks, making a particular bot act especially aggressive, friendly, or even dejected.\nPatrol-class security robots are more humanoid in shape, standing about 6 feet tall with integrated armaments that keep the robots’ limbs free to apprehend offenders and engage in close combat. Given their deadlier weaponry and tougher armor plating, patrol-class security robots (sometimes simply called “patrol bots”) are more regulated in their sale and use. They are found mostly in large space stations and corporate facilities under government or syndicate control. As with observer-class robots, these models run the gamut from four-armed Idaran Peacekeepers to the artistic Castrovelian Linewalkers that guard against dangerous jungle beasts, yet the overwhelming industry leader is AbadarCorp’s Town Guard series. With blank, circular faces of glass or glowing energy and cleanly contoured limbs capable of folding up for easy storage, AbadarCorp’s patrol bot is a triumph of industrial design and defense. This model’s reputation has been further boosted due to the fact that it’s the only model of patrol bot currently used by Absalom Station’s government, with many going straight into service from the corporation’s manufactories in the Spike.\nUnfortunately, not all security bots end up working for law-abiding corporations or state governments. Various planets in the Pact Worlds system have their own rules about who is or is not licensed to own a security robot, and the Pact Worlds government generally finds it easier to look the other way than to get embroiled in the contentious issues of rights-to- weapons and planetary sovereignty. As a result, it’s not difficult for individuals to purchase security robots entirely unregulated on the black market, albeit at a high cost. In cases where a world outlaws such sales, these models are usually formerly legal models that have been stolen and cracked by hacker gangs, while in other places corporations quietly sell to known criminal enterprises without asking questions. Such security robots are sometimes marked by their owners to show their “allegiance”—they might be painted with gang symbols or have their heads replaced with disturbing mannequin busts. Other groups maintain their robots’ official appearances, the better to carry out kidnappings and extortion. Because of this, passersby occasionally stumble across pitched firefights between squads of similar-looking security robots. Those who wish to get involved must be careful to identify each side’s master, as they could find themselves unintentionally taking sides in a gang war.\nThough both observer and patrol models have safeguards to protect against it, glitches can occasionally develop in a security robot’s firmware, often the result of massive damage sustained during a firefight or improper diagnostics after such an altercation. In such cases, the glitch can override the bot’s usual baselevel programming regarding tiers of force and the logic of conflict escalation, or even its protocol to protect the innocent. This can result in a bloody rampage, with the robot either going berserk over perceived violation of nonexistent laws, or technically following the law but executing lethal punishment for even the smallest infraction. Even worse, an infected patrol bot’s nanites can carry its corrupted code like a virus, turning other security robots rogue. When this occurs, manufacturers like AbadarCorp are usually quick to hire discreet “contractors” to deal with the menace (as maintaining their own strike-and-disassembly force would publicly acknowledge the threat).\nAliens in the \"Robot (Security)\" Family\nName\nCR\nLuminance-class Security Robot\n5\nObserver-Class Security Robot\n1\nPatrol-Class Security Robot\n4\nRobot (Security), Patrol-Class Security Robot\nSource\nAlien Archive pg. 94\nPatrol-Class Security Robot CR 4\nXP 1,200\nN Medium construct (technological)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+10\nDefense\nHP\n52\nEAC\n16;\nKAC\n18\nFort\n+4;\nRef\n+4;\nWill\n+1\nDefensive Abilities\nintegrated weapons, nanite repair;\nImmunities\nconstruct immunities\nWeaknesses\nvulnerable to critical hits, vulnerable to electricity\nOffense\nSpeed\n30 ft.\nMelee\nslam +10 (1d6+7 B)\nRanged\nintegrated tactical arc emitter +13 (1d4+4 E)\nOffensive Abilities\njolting arc\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +10, Computers +10, Intimidate +15\nLanguages\nCommon\nOther Abilities\nunliving\nGear\ntactical arc emitter with 2 batteries (20 charges each)\nEcology\nEnvironment\nany urban\nOrganization\nsolitary, pair, or patrol (3–7)\nSpecial Abilities\nIntegrated Weapons (Ex)\nA security robot’s weapons are integrated into its frame and can’t be disarmed.\nJolting Arc (Ex)\nOnce every 1d4 rounds as a standard action, a patrol-class security robot can shoot an arc of electricity at up to four creatures within 40 feet (no two of which can be more than 30 feet apart). This arc deals 1d8 electricity damage to each target (Reflex DC 13 half).\nNanite Repair (Ex)\nA patrol-class security robot’s nanites heal it, restoring a number of Hit Points per hour equal to its CR (4 Hit Points per hour for most security robots). Once per day as a full action, a patrol-class security robot can restore 3d8 Hit Points to itself or any touched construct with the technological subtype.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Robot_Security_Patrol.png"
+}

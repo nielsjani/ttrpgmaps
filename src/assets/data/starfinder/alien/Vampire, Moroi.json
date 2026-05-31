@@ -1,0 +1,82 @@
+{
+  "name": "Vampire, Moroi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Moroi&Family=Vampire",
+  "source": "Starfinder #42: Whispers of the Eclipse pg. 56",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+3",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+9",
+  "dr": "5/magic and silver",
+  "immunities": "undead immunities;",
+  "resistances": "cold 10, electricity 10",
+  "weaknesses": "vampire weaknesses",
+  "speed": "30 ft.; spider climb",
+  "melee": "claw +25 (3d4+14 S plus grab)",
+  "offensive_abilities": "blood drain, communalism, dominate",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th; ranged +19",
+    "spells": "1/day—\ndeep slumber\n(DC 16),\nfear\n(DC 16)\n3/day—\ncommand undead\n(DC 15),\nhold person\n(DC 15),\ninflict pain\n(DC 15),\nsee invisibility\n(DC 15)\nAt will—\nmemory lapse\n(DC 14),\nnecromantic revitalization\n(1st)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Athletics +21, Bluff +16, Culture +16, Diplomacy +16, Intimidate +16, Mysticism +21, Stealth +16",
+  "languages": "Common; children of the night, limited telepathy (30 ft.)",
+  "other_abilities": "children of the night, create spawn, mist form, unliving",
+  "environment": "any",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Blood Drain (Su)",
+      "description": "When a vampire successfully grapples a target, they can suck blood from their victim with their fangs. The victim must attempt a DC 16 Fortitude save; on a failure, it gains 1 negative level, and the vampire gains 5 temporary hit points that last for 1 hour (up to a maximum number of temporary hit points equal to their full normal hit points)."
+    },
+    {
+      "name": "Change Shape (Su)",
+      "description": "A vampire can change shape into the form of one or more animals, typically a Small or Medium predator (Alien Archive 2 102) native to their home world. While in this animal shape, the vampire gains any senses, extraordinary abilities, and movement abilities of the animal. The vampire’s gear disappears when the vampire assumes animal shape and returns when they returns to their normal form. This shirren vampire can turn into a Medium spider (low-light vision, climb 30 ft., bite inflicts piercing instead of slashing damage, and damaged creatures are exposed to turbocurarine [Character Operations Manual 127]) or a Small insect (low-light vision, fly 60 ft., stinger inflicts piercing instead of slashing damage)."
+    },
+    {
+      "name": "Children of the Night (Su)",
+      "description": "The vampire’s presence brings forth creatures of the night, typically Small or Medium predators or predator swarms (Alien Archive 2 102), to do their master’s bidding. The vampire can give telepathic orders to these creatures as long as they’re within 100 ft., but they can’t communicate back."
+    },
+    {
+      "name": "Coffin Restoration (Su)",
+      "description": "When a vampire is reduced to 0 HP, they don’t die. Instead, they fall unconscious. If they rest in their coffin for 1 hour, the vampire regains 1 HP, after which their fast healing functions normally."
+    },
+    {
+      "name": "Create Spawn (Su)",
+      "description": "If a creature dies from the vampire’s blood drain ability, the vampire can turn this victim into a moroi vampire or vampire spawn by donating some of their blood to the victim and burying it in the ground for 3 days. If the new vampire is lower in CR than their creator, they’re under the creator’s control. If a vampire controls too many spawn at once (as determined by the GM), strong-willed spawn can free themselves by succeeding at a DC 16 Will save."
+    },
+    {
+      "name": "Dominate (Su)",
+      "description": "A vampire can crush a humanoid opponent’s will as a standard action, targeting a single creature within 30 ft. that must succeed at a DC 16 Will save or fall instantly under the vampire’s influence, as though subject to dominate person (caster level 8th). A creature that successfully saves against this ability is immune to the vampire’s dominate ability for 24 hours."
+    },
+    {
+      "name": "Mist Form (Su)",
+      "description": "A vampire can take a move action to transform into a cloud of mist, smoke, or other vapor. In this form, they’re immune to physical damage, gain a fly speed of 30 ft., and can fit through any opening that isn’t airtight. They can’t make attacks or use any ability that requires a target to attempt a saving throw. While using this power, the vampire’s fast healing doesn’t function. The vampire can remain in mist form indefinitely and can return to their normal form with a move action."
+    },
+    {
+      "name": "Vampire Weaknesses (Su)",
+      "description": "Vampires have many distinctive weaknesses; some vampires can ignore or mitigate one or more of these weaknesses, but most can’t. A vampire is held at bay by garlic or the holy symbol of a non-evil deity. They must stay at least 5 ft. from the object of their revulsion and can’t touch or make melee attacks against a creature brandishing such an object. Holding a vampire at bay takes a standard action. After being held at bay for 1 round, a vampire can attempt a DC 22 Will save at the beginning of their turn to act normally.\nA vampire can’t enter a residence unless they’re invited inside, can’t enter any area filled with the smell of garlic, and can’t voluntarily cross running water or enter the Drift unless transported while inside their coffin.\nA vampire exposed to direct sunlight is staggered; if exposed to direct sunlight for 2 consecutive rounds, the vampire is destroyed.\nA wooden stake driven through the heart of an unconscious vampire reduces the vampire to 0 HP and prevents them from healing above 0 HP, even in their coffin; if the stake is removed, the vampire can heal, and if the vampire is in their coffin, the 1-hour rest period begins once the stake is removed. If the vampire’s head is severed and anointed with holy water while the stake is in place, the vampire is destroyed."
+    }
+  ],
+  "description": "Vampires are undead creatures who feed on the blood of the living. They come in many varieties, differentiated by culture, species, and planet of origin, but the one described here is the most common variety; known as “moroi” among their own kind, these creatures are synonymous with the word “vampire” throughout the Pact Worlds, Near Space, and the Vast.\nAlthough a vampire has many well-known weaknesses, most can blend into mortal society and even carry on something like a normal life. They hide in their coffins by day, emerging at night to hunt for food, and are protected by mortal minions who willingly serve in the hope of one day being given immortality—something that they might realize too late is more of a curse than a blessing.\nInterstellar travel has enabled vampires to escape those who threaten them, and even avoid some of their most debilitating weaknesses; vampires justly fear the deadly light of the sun, but a vampire who lives on the dark side of Verces never has to worry about the dawn. Vampires have also discovered a new weakness since the Signal: similar to their old inability to cross running water, they can’t willingly enter the Drift unless within the protection of their coffin. Sometimes, a vampire’s coffin takes the shape of an arcane mortuary or cryo-chamber (Starship Operations Manual 24), some of which are equipped with cybernetic systems that enable the vampire to control the surrounding starship from within their coffin. As vampirism has spread to alien species, their association with bats, wolves, and other nocturnal creatures has expanded to include various alien fauna found in systems beyond the Pact Worlds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nJiang-Shi (Vampire) Graft Template\n-\nMoroi (Vampire) Graft Template\n-\nMoroi Spawn (Vampire) Graft Template\n-\nNosferatu (Vampire) Graft Template\n-\nVoidshard (Vampire) Graft Template\n-\nVoidshard Spawn (Vampire) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVampire\nAliens in the \"Vampire\" Family\nName\nCR\nJiang-Shi\n6\nMoroi\n8\nNosferatu\n12\nVoidshard\n8\nVampire, Moroi\nSource\nStarfinder #42: Whispers of the Eclipse pg. 56\nMoroi CR 8\nXP 4,800\nShirren moroi\nCE Medium undead\nInit\n+3;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+10;\nWill\n+9\nDefensive Abilities\ncoffin restoration, fast healing 5;\nDR\n5/magic and silver;\nImmunities\nundead immunities;\nResistances\ncold 10, electricity 10\nWeaknesses\nvampire weaknesses\nOffense\nSpeed\n30 ft.; spider climb\nMelee\nclaw +25 (3d4+14 S plus grab)\nOffensive Abilities\nblood drain, communalism, dominate\nSpell-Like Abilities\n(CL 8th; ranged +19)\n1/day—\ndeep slumber\n(DC 16),\nfear\n(DC 16)\n3/day—\ncommand undead\n(DC 15),\nhold person\n(DC 15),\ninflict pain\n(DC 15),\nsee invisibility\n(DC 15)\nAt will—\nmemory lapse\n(DC 14),\nnecromantic revitalization\n(1st)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+2;\nCHA\n+3\nSkills\nAthletics +21, Bluff +16, Culture +16, Diplomacy +16, Intimidate +16, Mysticism +21, Stealth +16\nLanguages\nCommon; children of the night, limited telepathy (30 ft.)\nOther Abilities\nchildren of the night, create spawn, mist form, unliving\nEcology\nEnvironment\nany\nOrganization\nany\nSpecial Abilities\nBlood Drain (Su)\nWhen a vampire successfully grapples a target, they can suck blood from their victim with their fangs. The victim must attempt a DC 16 Fortitude save; on a failure, it gains 1 negative level, and the vampire gains 5 temporary hit points that last for 1 hour (up to a maximum number of temporary hit points equal to their full normal hit points).\nChange Shape (Su)\nA vampire can change shape into the form of one or more animals, typically a Small or Medium predator (Alien Archive 2 102) native to their home world. While in this animal shape, the vampire gains any senses, extraordinary abilities, and movement abilities of the animal. The vampire’s gear disappears when the vampire assumes animal shape and returns when they returns to their normal form. This shirren vampire can turn into a Medium spider (low-light vision, climb 30 ft., bite inflicts piercing instead of slashing damage, and damaged creatures are exposed to turbocurarine [Character Operations Manual 127]) or a Small insect (low-light vision, fly 60 ft., stinger inflicts piercing instead of slashing damage).\nChildren of the Night (Su)\nThe vampire’s presence brings forth creatures of the night, typically Small or Medium predators or predator swarms (Alien Archive 2 102), to do their master’s bidding. The vampire can give telepathic orders to these creatures as long as they’re within 100 ft., but they can’t communicate back.\nCoffin Restoration (Su)\nWhen a vampire is reduced to 0 HP, they don’t die. Instead, they fall unconscious. If they rest in their coffin for 1 hour, the vampire regains 1 HP, after which their fast healing functions normally.\nCreate Spawn (Su)\nIf a creature dies from the vampire’s blood drain ability, the vampire can turn this victim into a moroi vampire or vampire spawn by donating some of their blood to the victim and burying it in the ground for 3 days. If the new vampire is lower in CR than their creator, they’re under the creator’s control. If a vampire controls too many spawn at once (as determined by the GM), strong-willed spawn can free themselves by succeeding at a DC 16 Will save.\nDominate (Su)\nA vampire can crush a humanoid opponent’s will as a standard action, targeting a single creature within 30 ft. that must succeed at a DC 16 Will save or fall instantly under the vampire’s influence, as though subject to dominate person (caster level 8th). A creature that successfully saves against this ability is immune to the vampire’s dominate ability for 24 hours.\nMist Form (Su)\nA vampire can take a move action to transform into a cloud of mist, smoke, or other vapor. In this form, they’re immune to physical damage, gain a fly speed of 30 ft., and can fit through any opening that isn’t airtight. They can’t make attacks or use any ability that requires a target to attempt a saving throw. While using this power, the vampire’s fast healing doesn’t function. The vampire can remain in mist form indefinitely and can return to their normal form with a move action.\nVampire Weaknesses (Su)\nVampires have many distinctive weaknesses; some vampires can ignore or mitigate one or more of these weaknesses, but most can’t. A vampire is held at bay by garlic or the holy symbol of a non-evil deity. They must stay at least 5 ft. from the object of their revulsion and can’t touch or make melee attacks against a creature brandishing such an object. Holding a vampire at bay takes a standard action. After being held at bay for 1 round, a vampire can attempt a DC 22 Will save at the beginning of their turn to act normally.\nA vampire can’t enter a residence unless they’re invited inside, can’t enter any area filled with the smell of garlic, and can’t voluntarily cross running water or enter the Drift unless transported while inside their coffin.\nA vampire exposed to direct sunlight is staggered; if exposed to direct sunlight for 2 consecutive rounds, the vampire is destroyed.\nA wooden stake driven through the heart of an unconscious vampire reduces the vampire to 0 HP and prevents them from healing above 0 HP, even in their coffin; if the stake is removed, the vampire can heal, and if the vampire is in their coffin, the 1-hour rest period begins once the stake is removed. If the vampire’s head is severed and anointed with holy water while the stake is in place, the vampire is destroyed.\nDescription\nVampires are undead creatures who feed on the blood of the living. They come in many varieties, differentiated by culture, species, and planet of origin, but the one described here is the most common variety; known as “moroi” among their own kind, these creatures are synonymous with the word “vampire” throughout the Pact Worlds, Near Space, and the Vast.\nAlthough a vampire has many well-known weaknesses, most can blend into mortal society and even carry on something like a normal life. They hide in their coffins by day, emerging at night to hunt for food, and are protected by mortal minions who willingly serve in the hope of one day being given immortality—something that they might realize too late is more of a curse than a blessing.\nInterstellar travel has enabled vampires to escape those who threaten them, and even avoid some of their most debilitating weaknesses; vampires justly fear the deadly light of the sun, but a vampire who lives on the dark side of Verces never has to worry about the dawn. Vampires have also discovered a new weakness since the Signal: similar to their old inability to cross running water, they can’t willingly enter the Drift unless within the protection of their coffin. Sometimes, a vampire’s coffin takes the shape of an arcane mortuary or cryo-chamber (Starship Operations Manual 24), some of which are equipped with cybernetic systems that enable the vampire to control the surrounding starship from within their coffin. As vampirism has spread to alien species, their association with bats, wolves, and other nocturnal creatures has expanded to include various alien fauna found in systems beyond the Pact Worlds.\nExtra Content\nThe following extra content was found for this creature:\n-\nJiang-Shi (Vampire) Graft Template\n-\nMoroi (Vampire) Graft Template\n-\nMoroi Spawn (Vampire) Graft Template\n-\nNosferatu (Vampire) Graft Template\n-\nVoidshard (Vampire) Graft Template\n-\nVoidshard Spawn (Vampire) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

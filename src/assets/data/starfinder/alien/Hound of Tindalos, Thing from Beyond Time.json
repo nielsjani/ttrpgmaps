@@ -1,0 +1,69 @@
+{
+  "name": "Hound of Tindalos, Thing from Beyond Time",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Thing from Beyond Time&Family=Hound of Tindalos",
+  "source": "Alien Archive 3 pg. 52",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "NE",
+  "size": "Huge",
+  "creature_type": "outsider (evil, extraplanar)",
+  "init": "+11",
+  "senses": "darkvision 120 ft., discern prey;",
+  "perception": "+34",
+  "hp": "295",
+  "eac": "31",
+  "kac": "32",
+  "fort": "+15",
+  "ref": "+20",
+  "will": "+17",
+  "dr": "10/magic and piercing",
+  "immunities": "mind-affecting effects, poison",
+  "speed": "50 ft., fly 50 ft. (flight, average)",
+  "melee": "bite +29 (6d8+22 P) or tongue +29 (3d12+22 P plus mind drain) claws +29 (6d8+22 S)",
+  "space": "15 ft.",
+  "reach": "15 ft. (20 ft. with tongue)",
+  "offensive_abilities": "ripping gaze (30 ft., 11d6 S; Fort DC 24)",
+  "spell_like_abilities": {
+    "caster_info": "CL 17th; ranged +29",
+    "spells": "1/day—\nhaste\n,\nslow\n(DC 21)\n3/day—\nfog cloud\n,\ngreater invisibility\n,\nplane shift\n(self only)\nAt will—\ndimensional anchor\n,\ninterplanetary teleport\n(casting time swift action; self only)\nConstant—\nflight\n(3rd level; 50-ft. speed; self only)"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+11",
+    "con": "+5",
+    "int": "+2",
+    "wis": "+8",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +34, Mysticism +34, Sense Motive +29, Stealth +29",
+  "languages": "Aklo",
+  "other_abilities": "angled entry",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Angled Entry (Sp)",
+      "description": "A hound of Tindalos can use\ninterplanetary teleport\nor\nplane shift\nonly when adjacent to a fixed angle in the physical environment. Temporary angles are insufficient, as are angles that also include curves."
+    },
+    {
+      "name": "Discern Prey (Su)",
+      "description": "Hounds of Tindalos can sense their prey, which is any creature that violates the laws of time and space, including trying to use magic to enter the Drift. A hound senses such creatures as if it had blindsense with a range of 120 feet, and the hound always knows the direction toward its prey. This directional sense works at any distance and across planar boundaries. If the prey is protected from divination, the hound must attempt a check, rolling 1d20 + the hound’s CR against a DC that equals 11 + the caster level or CR of the creator of the antidivination effect. On a success, the hound ignores the effect. If the check fails, the hound can’t try again and can’t sense the prey while the effect lasts."
+    },
+    {
+      "name": "Mind Drain (Ex)",
+      "description": "When the thing from beyond time hits with its barbed tongue, its target must succeed at a DC 24 Fortitude saving throw or gain 1 permanent negative level."
+    },
+    {
+      "name": "Otherworldly Mind (Ex)",
+      "description": "Any creature that uses a mind-affecting effect on a hound or communicates with it telepathically must attempt a DC 24 Will saving throw. A creature that fails takes 10d10 damage and becomes confused for 2d4 rounds. This is a mind-affecting effect."
+    },
+    {
+      "name": "Ripping Gaze (Su)",
+      "description": "The gaze’s damage is magical. A creature that succeeds on its save is immune to that hound’s gaze for 24 hours."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHound of Tindalos\nSource\nAlien Archive 3 pg. 52\nLittle is known about the Dimension of Time beyond the fact of its existence. Some speculate that more was known pre-Gap, but if this is true, that knowledge has been lost. Still extant, however, are the plane’s predators, the hounds of Tindalos.\nThese otherworldly hunters are outsiders in the truest sense. Scientists speculate the hounds dwell among the angles of time, whereas other life dwells on its curves. As a result, the hounds treat angles as doorways in the fabric of time and space. The hounds use these angles to come and go, first appearing like smoke, then scrabbling into reality.\nThe hounds enter the world to track down and slaughter those who have dared to test or go beyond the bounds of reality. Would-be time travelers and those who subvert the limits of time and space are their primary prey. Misuse of the Drift has also roused the hounds’ ire. Derelict vessels found with evidence of hound visitations lend truth to fearful tales of the creatures invading starships before they enter or after they exit the Drift. Within that plane, abandoned hulks have been boarded with hounds still trapped inside, unable to use their magic to escape the Drift.\nHounds of Tindalos also pursue yithians (see page 134), especially when a yithian is in a borrowed body and even more so during any long-term exchange. Speculation is that mind swapping offends the hounds, who see it as a method of transcending time and space. In the past, yithians attempted to mind swap with hounds but quickly learned such attempts were futile and sometimes fatal.\nTales are also told of enormous hounds, known as “things from beyond time,” manifesting in proximity to black holes. What draws the attention of these massive creatures is a mystery, but one story tells of such a hound entering a vesk capital ship while it traveled home with an artifact taken from Vesk-2. Official reports say the craft was lost to Swarm scouts.\nWhat “Tindalos” represents is another mystery. A few texts, such as Prekliken’s Book of Cults, refer to it as a location found on “the far side of time” that is guarded by the hounds. Other works claim Tindalos is a creature, such as a Great Old One. Still other scholarly pieces posit the word is from a lost language and means something akin to “apocalypse.”\nAliens in the \"Hound of Tindalos\" Family\nName\nCR\nHound of Tindalos\n7\nThing from Beyond Time\n17\nHound of Tindalos, Thing from Beyond Time\nSource\nAlien Archive 3 pg. 52\nThing from Beyond Time CR 17\nXP 102,400\nNE Huge outsider (evil, extraplanar)\nInit\n+11;\nSenses\ndarkvision 120 ft., discern prey;\nPerception\n+34\nDefense\nHP\n295\nEAC\n31;\nKAC\n32\nFort\n+15;\nRef\n+20;\nWill\n+17\nDefensive Abilities\notherworldly mind;\nDR\n10/magic and piercing;\nImmunities\nmind-affecting effects, poison\nOffense\nSpeed\n50 ft., fly 50 ft. (flight, average)\nMelee\nbite +29 (6d8+22 P) or tongue +29 (3d12+22 P plus mind drain) claws +29 (6d8+22 S)\nSpace\n15 ft.;\nReach\n15 ft. (20 ft. with tongue)\nOffensive Abilities\nripping gaze (30 ft., 11d6 S; Fort DC 24)\nSpell-Like Abilities\n(CL 17th; ranged +29)\n1/day—\nhaste\n,\nslow\n(DC 21)\n3/day—\nfog cloud\n,\ngreater invisibility\n,\nplane shift\n(self only)\nAt will—\ndimensional anchor\n,\ninterplanetary teleport\n(casting time swift action; self only)\nConstant—\nflight\n(3rd level; 50-ft. speed; self only)\nStatistics\nSTR\n+5;\nDEX\n+11;\nCON\n+5;\nINT\n+2;\nWIS\n+8;\nCHA\n+2\nSkills\nAcrobatics +34, Mysticism +34, Sense Motive +29, Stealth +29\nLanguages\nAklo\nOther Abilities\nangled entry\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nAngled Entry (Sp)\nA hound of Tindalos can use\ninterplanetary teleport\nor\nplane shift\nonly when adjacent to a fixed angle in the physical environment. Temporary angles are insufficient, as are angles that also include curves.\nDiscern Prey (Su)\nHounds of Tindalos can sense their prey, which is any creature that violates the laws of time and space, including trying to use magic to enter the Drift. A hound senses such creatures as if it had blindsense with a range of 120 feet, and the hound always knows the direction toward its prey. This directional sense works at any distance and across planar boundaries. If the prey is protected from divination, the hound must attempt a check, rolling 1d20 + the hound’s CR against a DC that equals 11 + the caster level or CR of the creator of the antidivination effect. On a success, the hound ignores the effect. If the check fails, the hound can’t try again and can’t sense the prey while the effect lasts.\nMind Drain (Ex)\nWhen the thing from beyond time hits with its barbed tongue, its target must succeed at a DC 24 Fortitude saving throw or gain 1 permanent negative level.\nOtherworldly Mind (Ex)\nAny creature that uses a mind-affecting effect on a hound or communicates with it telepathically must attempt a DC 24 Will saving throw. A creature that fails takes 10d10 damage and becomes confused for 2d4 rounds. This is a mind-affecting effect.\nRipping Gaze (Su)\nThe gaze’s damage is magical. A creature that succeeds on its save is immune to that hound’s gaze for 24 hours.",
+  "type": "outsider (evil, extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Hound_of_tindalos.png"
+}

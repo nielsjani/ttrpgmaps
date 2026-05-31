@@ -1,0 +1,56 @@
+{
+  "name": "Ashypsozoan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ashypsozoan&Family=None",
+  "source": "Starfinder #22: The Forever Reliquary pg. 55",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "blindsight (heat or vibration) 120 ft., sightless;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+11",
+  "immunities": "cold, electricity, paralysis, polymorph, stunning",
+  "weaknesses": "fire",
+  "speed": "10 ft., burrow 30 ft., fly 30 ft. (Ex, average; functions in vacuum)",
+  "melee": "tentacle +22 (2d6+18 B & E plus bioelectric pull [DC 17])",
+  "ranged": "shock arc +19 (2d8+10 E; critical arc 2d6)",
+  "space": "10 ft.",
+  "reach": "5 ft. (15 ft. with tentacles)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Stealth +24, Survival +19",
+  "other_abilities": "compression",
+  "environment": "any (Ashypso)",
+  "organization": "solitary, pair, or bloom (3–6)",
+  "special_abilities": [
+    {
+      "name": "Bioelectric Growth (Ex)",
+      "description": "Whenever an ashypsozoan’s electricity immunity prevents it from taking electricity damage from an attack, it regains 10 Hit Points."
+    },
+    {
+      "name": "Bioelectric Pull (Ex)",
+      "description": "A creature that takes damage from an ashypsozoan’s tentacle must succeed at a DC 17 Fortitude save or be staggered for 1 round. Additionally, if the ashypsozoan’s attack roll successfully hits the target’s KAC + 4, the ashypsozoan can perform a reposition combat maneuver on that target."
+    },
+    {
+      "name": "Shock Arc (Ex)",
+      "description": "As a ranged attack, an ashypsozoan can fire an arc of bioelectricity with a 40-foot range increment, to a maximum range of 80 feet."
+    }
+  ],
+  "description": "After nearly 500 years, the atmospheric glaciers on Ashypso are thawing, finally revealing the planet below. Its sapient inhabitants, trinirs, have awoken from a long hibernation to discover an existence they have no memory of. However, they weren’t the only secret buried under the kilometers of frozen atmosphere.\nAshypsozoans are massive medusozoans, akin to hydrozoans, made up of a colony of specialized organisms working in concert. These creatures individually encysted during Ashypso’s great freeze. As the ice melts, these tiny organisms continue to emerge from their stasis and once again bond to form large colonies. Each of these creatures is nearly mindless alone, but when they join together, they gain a predatory cunning.\nOnce awoken, an ashypsozoan is ravenous, burrowing through lattices of ice and flying through the thin atmosphere searching for viable prey. The colony feeds on anything it finds, from microorganisms to larger prey that can be taken down with the substantial amounts of bioelectricity an ashypsozoan creates. An ashypsozoan can absorb lighter artificial materials in addition to organic compounds, meaning artificial beings such as androids and trinirs aren’t safe. Strong electromagnetic fields break down what the colony consumes, reducing it to essential components the ashypsozoan uses for nourishment and atmospheric buoyancy.\nA typical ashypsozoan is 12 feet long, although its tentacles can extend much farther. Despite its size, much of the creature is filled with gas or space, so it weighs only about 200 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAshypsozoan\nSource\nStarfinder #22: The Forever Reliquary pg. 55\nAshypsozoan CR 10\nXP 9,600\nN Large aberration\nInit\n+3;\nSenses\nblindsight (heat or vibration) 120 ft., sightless;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+12;\nWill\n+11\nDefensive Abilities\namorphous, bioelectric growth, unflankable;\nImmunities\ncold, electricity, paralysis, polymorph, stunning\nWeaknesses\nfire\nOffense\nSpeed\n10 ft., burrow 30 ft., fly 30 ft. (Ex, average; functions in vacuum)\nMelee\ntentacle +22 (2d6+18 B & E plus bioelectric pull [DC 17])\nRanged\nshock arc +19 (2d8+10 E; critical arc 2d6)\nSpace\n10 ft.;\nReach\n5 ft. (15 ft. with tentacles)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n-4;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +19, Stealth +24, Survival +19\nOther Abilities\ncompression\nEcology\nEnvironment\nany (Ashypso)\nOrganization\nsolitary, pair, or bloom (3–6)\nSpecial Abilities\nBioelectric Growth (Ex)\nWhenever an ashypsozoan’s electricity immunity prevents it from taking electricity damage from an attack, it regains 10 Hit Points.\nBioelectric Pull (Ex)\nA creature that takes damage from an ashypsozoan’s tentacle must succeed at a DC 17 Fortitude save or be staggered for 1 round. Additionally, if the ashypsozoan’s attack roll successfully hits the target’s KAC + 4, the ashypsozoan can perform a reposition combat maneuver on that target.\nShock Arc (Ex)\nAs a ranged attack, an ashypsozoan can fire an arc of bioelectricity with a 40-foot range increment, to a maximum range of 80 feet.\nDescription\nAfter nearly 500 years, the atmospheric glaciers on Ashypso are thawing, finally revealing the planet below. Its sapient inhabitants, trinirs, have awoken from a long hibernation to discover an existence they have no memory of. However, they weren’t the only secret buried under the kilometers of frozen atmosphere.\nAshypsozoans are massive medusozoans, akin to hydrozoans, made up of a colony of specialized organisms working in concert. These creatures individually encysted during Ashypso’s great freeze. As the ice melts, these tiny organisms continue to emerge from their stasis and once again bond to form large colonies. Each of these creatures is nearly mindless alone, but when they join together, they gain a predatory cunning.\nOnce awoken, an ashypsozoan is ravenous, burrowing through lattices of ice and flying through the thin atmosphere searching for viable prey. The colony feeds on anything it finds, from microorganisms to larger prey that can be taken down with the substantial amounts of bioelectricity an ashypsozoan creates. An ashypsozoan can absorb lighter artificial materials in addition to organic compounds, meaning artificial beings such as androids and trinirs aren’t safe. Strong electromagnetic fields break down what the colony consumes, reducing it to essential components the ashypsozoan uses for nourishment and atmospheric buoyancy.\nA typical ashypsozoan is 12 feet long, although its tentacles can extend much farther. Despite its size, much of the creature is filled with gas or space, so it weighs only about 200 pounds.",
+  "type": "aberration",
+  "category": "alien"
+}

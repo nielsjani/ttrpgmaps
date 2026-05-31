@@ -1,0 +1,56 @@
+{
+  "name": "Vorclash",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vorclash&Family=None",
+  "source": "Drift Crisis pg. 167",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CN",
+  "size": "Huge",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+7",
+  "speed": "fly 40 ft. (Su, average)",
+  "melee": "slam +20 (3d4+14 A & B; critical knockdown)",
+  "ranged": "unstable debris +17 (2d6+8 B plus explode [10 ft., 1d6 A, DC 16])",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "explosive demise (20-ft. burst, 1d6+8 A, Reflex DC 16 half)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16, Athletics +21, Intimidation +16",
+  "languages": "Common and any languages of its component planes (can’t speak any language)",
+  "other_abilities": "Drift flight",
+  "environment": "vacuum (the Drift)",
+  "organization": "solitary, pair, or storm (3–6)",
+  "special_abilities": [
+    {
+      "name": "Explosive Demise (Su)",
+      "description": "When a vorclash dies, it explodes, dealing 1d6+8 acid damage to all creatures within a 20-foot burst (Reflex DC 16 half)."
+    },
+    {
+      "name": "Torment (Su)",
+      "description": "A vorclash is in constant pain, as its incompatible fused components desperately try to split apart. Amplified by planar energy, its agony ripples out as a powerful psychic assault. A creature in the area must succeed at a DC 16 Will save or be sickened for as long as it remains in the area. A creature that succeeds at its saving throw can’t be affected by the same vorclash’s torment aura for 24 hours. This is an emotion, mind-affecting effect."
+    },
+    {
+      "name": "Unstable Debris (Su)",
+      "description": "As a ranged attack, a vorclash can hurl a chunk of its unstable form at a foe with a range increment of 25 feet. On a hit, the debris explodes in a burst of disintegrating energy with a radius of 10 feet."
+    }
+  ],
+  "description": "On the rare occasion that pieces of planar debris collide in the Drift, they can form a planar abomination known as a vorclash. These unstable beings are amalgamations of powerful planar energy, bound to the otherwise incompatible debris fused together by their collision. Though intelligent, a vorclash is stripped of reason from the moment of its creation; the constant pain caused by its disparate parts attempting to separate mean a vorclash mostly acts out of frustration. Only the destruction of a vorclash (usually through violence) will free its component parts, though this causes an eruption of dangerous energy as the creature’s various planar essences attempt to return to their associated planes.\nFor reasons unknown even to itself, a vorclash is drawn to Alluvion, the city that functions as Triune’s realm within the Drift. A vorclash often conflicts with explorers who enter the planar bubble in which it’s been created as the outsider tries to force its way onto the passing vessel, hoping it’s heading to Alluvion. A vorclash that reaches Alluvion seeks out spellcasters who might be able to send it to any one of the planes from which its parts originated. If a vorclash ever makes it to such a plane, its torment isn’t ended, as its other components strain even harder to return their native planes. This often results in the vorclash going on a terrible rampage in despair.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVorclash\nSource\nDrift Crisis pg. 167\nVorclash CR 8\nXP 4,800\nCN Huge outsider (extraplanar)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nAura\ntorment (20 ft., DC 16)\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+10;\nWill\n+7\nOffense\nSpeed\nfly 40 ft. (Su, average)\nMelee\nslam +20 (3d4+14 A & B; critical knockdown)\nRanged\nunstable debris +17 (2d6+8 B plus explode [10 ft., 1d6 A, DC 16])\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nexplosive demise (20-ft. burst, 1d6+8 A, Reflex DC 16 half)\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+4;\nINT\n-1;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +16, Athletics +21, Intimidation +16\nLanguages\nCommon and any languages of its component planes (can’t speak any language)\nOther Abilities\nDrift flight\nEcology\nEnvironment\nvacuum (the Drift)\nOrganization\nsolitary, pair, or storm (3–6)\nSpecial Abilities\nExplosive Demise (Su)\nWhen a vorclash dies, it explodes, dealing 1d6+8 acid damage to all creatures within a 20-foot burst (Reflex DC 16 half).\nTorment (Su)\nA vorclash is in constant pain, as its incompatible fused components desperately try to split apart. Amplified by planar energy, its agony ripples out as a powerful psychic assault. A creature in the area must succeed at a DC 16 Will save or be sickened for as long as it remains in the area. A creature that succeeds at its saving throw can’t be affected by the same vorclash’s torment aura for 24 hours. This is an emotion, mind-affecting effect.\nUnstable Debris (Su)\nAs a ranged attack, a vorclash can hurl a chunk of its unstable form at a foe with a range increment of 25 feet. On a hit, the debris explodes in a burst of disintegrating energy with a radius of 10 feet.\nDescription\nOn the rare occasion that pieces of planar debris collide in the Drift, they can form a planar abomination known as a vorclash. These unstable beings are amalgamations of powerful planar energy, bound to the otherwise incompatible debris fused together by their collision. Though intelligent, a vorclash is stripped of reason from the moment of its creation; the constant pain caused by its disparate parts attempting to separate mean a vorclash mostly acts out of frustration. Only the destruction of a vorclash (usually through violence) will free its component parts, though this causes an eruption of dangerous energy as the creature’s various planar essences attempt to return to their associated planes.\nFor reasons unknown even to itself, a vorclash is drawn to Alluvion, the city that functions as Triune’s realm within the Drift. A vorclash often conflicts with explorers who enter the planar bubble in which it’s been created as the outsider tries to force its way onto the passing vessel, hoping it’s heading to Alluvion. A vorclash that reaches Alluvion seeks out spellcasters who might be able to send it to any one of the planes from which its parts originated. If a vorclash ever makes it to such a plane, its torment isn’t ended, as its other components strain even harder to return their native planes. This often results in the vorclash going on a terrible rampage in despair.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

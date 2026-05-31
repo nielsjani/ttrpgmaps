@@ -1,0 +1,54 @@
+{
+  "name": "Chirosepia",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Chirosepia&Family=None",
+  "source": "Starfinder #47: Nightmare Scenario pg. 56",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+2",
+  "senses": "all-around vision, darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+5",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "40 ft., fly 60 ft. (Ex, average)",
+  "melee": "bite +17 (1d8+11 S; critical bleed 1d6) or tentacle +17 (1d8+11 B plus grab)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +13, Stealth +13, Survival +18",
+  "other_abilities": "phase through, spaceflight, void adaptation",
+  "environment": "any vacuum",
+  "organization": "solitary or audience (2–6)",
+  "special_abilities": [
+    {
+      "name": "All-Around Vision (Ex)",
+      "description": "A chirosepia sees in all directions at once and can’t be flanked."
+    },
+    {
+      "name": "Phase Through (Su)",
+      "description": "A chirosepia can momentarily shift out of phase with reality. As a full action, a chirosepia can spend 1 Resolve Point to move through up to 15 feet of solid matter. If it attempts to phase through something that’s too thick, the attempt fails, but its Resolve Points are still expended. A chirosepia can’t phase through force effects such as force fields."
+    },
+    {
+      "name": "Technological Disruption (Su)",
+      "description": "Chirosepias constantly emit a silent pulse that disrupts technology. While a creature is inside the aura, attacks made using weapons without the analog trait take a –1 penalty to attack and damage rolls. Armor with environmental protections expends 1 hour of that protection for every round a creature remains in the aura. Computer and Engineering checks to operate technology take a –1 penalty, and the bonus granted by any technological item to skill checks decreases by 1. In addition, the Hit Points provided by technological shields and force fields are reduced by 5 (to a minimum of 0). The effects of multiple technological disruption auras don’t stack."
+    }
+  ],
+  "description": "Looking out their starship’s viewports during a jaunt through the Drift, a crew member or passenger might catch a glimpse of a passing chirosepia—an oblong creature half as large as a tiny starship, with 20 writhing appendages unfurling from a tri-paneled beak. Dozens of bulbous, unblinking visual sensors line its powerful tentacles. Veteran travelers call these creatures driftkrakens, a term generally hated among the scientific community for its luridness and imprecision.\nThrough dissection and study, xenobiologists discovered that chirosepias were modified at a genetic level through exposure to the ambient energies existing in pockets of the Drift. Their closest genetic relative is the ksarik. In order to store breathable air for long periods in the vacuum of the Drift, chirosepias inflate specialized organs with oxygen, which they then process with their unique respiratory systems.\nSome adventurers hunt chirosepias for sport, but the enormous creatures make difficult prey. Technological malfunctions occur frequently around them, and their prehensile appendages and serrated beaks can wreak havoc on a hull. Most chirosepias, though, flee when attacked, phasing though their assailants to confuse them.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nChirosepia\nSource\nStarfinder #47: Nightmare Scenario pg. 56\nChirosepia CR 6\nXP 2,400\nN Huge outsider (extraplanar)\nInit\n+2;\nSenses\nall-around vision, darkvision 60 ft.;\nPerception\n+13\nAura\ntechnological disruption (60 ft.)\nDefense\nHP\n90;\nRP\n4\nEAC\n18;\nKAC\n20\nFort\n+10;\nRef\n+8;\nWill\n+5\nDefensive Abilities\nferocity\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\n40 ft., fly 60 ft. (Ex, average)\nMelee\nbite +17 (1d8+11 S; critical bleed 1d6) or tentacle +17 (1d8+11 B plus grab)\nSpace\n15 ft.;\nReach\n15 ft.\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +13, Stealth +13, Survival +18\nOther Abilities\nphase through, spaceflight, void adaptation\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary or audience (2–6)\nSpecial Abilities\nAll-Around Vision (Ex)\nA chirosepia sees in all directions at once and can’t be flanked.\nPhase Through (Su)\nA chirosepia can momentarily shift out of phase with reality. As a full action, a chirosepia can spend 1 Resolve Point to move through up to 15 feet of solid matter. If it attempts to phase through something that’s too thick, the attempt fails, but its Resolve Points are still expended. A chirosepia can’t phase through force effects such as force fields.\nTechnological Disruption (Su)\nChirosepias constantly emit a silent pulse that disrupts technology. While a creature is inside the aura, attacks made using weapons without the analog trait take a –1 penalty to attack and damage rolls. Armor with environmental protections expends 1 hour of that protection for every round a creature remains in the aura. Computer and Engineering checks to operate technology take a –1 penalty, and the bonus granted by any technological item to skill checks decreases by 1. In addition, the Hit Points provided by technological shields and force fields are reduced by 5 (to a minimum of 0). The effects of multiple technological disruption auras don’t stack.\nDescription\nLooking out their starship’s viewports during a jaunt through the Drift, a crew member or passenger might catch a glimpse of a passing chirosepia—an oblong creature half as large as a tiny starship, with 20 writhing appendages unfurling from a tri-paneled beak. Dozens of bulbous, unblinking visual sensors line its powerful tentacles. Veteran travelers call these creatures driftkrakens, a term generally hated among the scientific community for its luridness and imprecision.\nThrough dissection and study, xenobiologists discovered that chirosepias were modified at a genetic level through exposure to the ambient energies existing in pockets of the Drift. Their closest genetic relative is the ksarik. In order to store breathable air for long periods in the vacuum of the Drift, chirosepias inflate specialized organs with oxygen, which they then process with their unique respiratory systems.\nSome adventurers hunt chirosepias for sport, but the enormous creatures make difficult prey. Technological malfunctions occur frequently around them, and their prehensile appendages and serrated beaks can wreak havoc on a hull. Most chirosepias, though, flee when attacked, phasing though their assailants to confuse them.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

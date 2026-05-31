@@ -1,0 +1,47 @@
+{
+  "name": "Moyishuu",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Moyishuu&Family=None",
+  "source": "Starfinder #37: The White Glove Affair pg. 59",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+6",
+  "senses": "blindsense (emotion) 10 ft., low-light vision;;",
+  "perception": "+14",
+  "hp": "98",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+8",
+  "will": "+10",
+  "speed": "30 ft.",
+  "melee": "tactical knife +13 (2d4+7 B)",
+  "ranged": "advanced semi-auto pistol +15 (2d6+7 P) Special Attacks soulfeel (joy, DC 17)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+4",
+    "wis": "+1",
+    "cha": "+5"
+  },
+  "skills": "Bluff +19, Computers +14, Culture +14, Diplomacy +19, Physical Science +19, Sense Motive +19",
+  "languages": "Castrovelian, Common, Dwarven, Gnome",
+  "other_abilities": "envoy improvisations (get ’em, inspiring oration, quick inspiring boost)",
+  "gear": "silver AbadarCorp travel suit, advanced semi-auto pistol with 25 small arm rounds, tactical knife",
+  "environment": "any (Veyvilla-6)",
+  "organization": "solitary, pair, or choir (3–12)",
+  "special_abilities": [
+    {
+      "name": "Soulfeel (Su)",
+      "description": "A moyishuu is connected to a single dominant emotion that not only affects their personality, but also grants them a unique ability. The moyishuu can use this ability as a standard action, and they can’t use it again until they take a 10-minute rest to regain Stamina Points. The moyishuu chooses their soulfeel after taking a full night’s rest. Each soulfeel ability is a mind-affecting enchantment effect with a range of 30 feet. A successful Will saving throw negates the effect. The three most common soulfeels are fury, joy and sorrow (all three are detailed below).\nFury:\nThe moyishuu provokes intense rage in a target, causing it to lose its concentration. The target is off-target for 1 round.\nJoy:\nThe moyishuu overwhelms the target with a sense of joy and exultation, compelling it to dance about. The target must move at least 10 feet during its next turn.\nSorrow:\nThe moyishuu forces the target to dwell on its past mistakes and misfortunes. The target is unable to take a swift action during its next turn."
+    }
+  ],
+  "description": "The origins of the fey people known as moyishuus are as mysterious as their tightly restricted method of harvesting sensations on their home world. They emerged in the wake of the post-Gap planar terraforming of Veyvilla-6 with inexplicable insight into the planet’s mineable emotions, and they quickly set up a monopoly on the substance, as well as oversight of all mining on the planet.\nUpon waking each day, a moyishuu chooses a dominant emotion that influences their personality and that they can project onto others with their soulfeel ability. While two moyishuus’ soulfeels might tap into the same emotion, they individualize it in as many ways as they can; for example, joy might manifest as mischievous glee, kind benevolence, or even sadistic pleasure.\nMoyishuus are humanoids with brightly colored skin and darker natural markings across their forearms and shins. They have long, pointed ears and crystalline hair. A typical moyishuu is between 5-1/2 and 6 feet tall, weighs about 135 pounds, and has an average lifespan of over 200 years.",
+  "extra_content": "The following extra content was found for this creature:\n-\nMoyishuu Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMoyishuu\nSource\nStarfinder #37: The White Glove Affair pg. 59\nMoyishuu CR 7\nXP 3,200\nMoyishuu envoy\nCN Medium fey\nInit\n+6;\nSenses\nblindsense (emotion) 10 ft., low-light vision;;\nPerception\n+14\nDefense\nHP\n98\nEAC\n19;\nKAC\n20\nFort\n+6;\nRef\n+8;\nWill\n+10\nOffense\nSpeed\n30 ft.\nMelee\ntactical knife +13 (2d4+7 B)\nRanged\nadvanced semi-auto pistol +15 (2d6+7 P) Special Attacks soulfeel (joy, DC 17)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+0;\nINT\n+4;\nWIS\n+1;\nCHA\n+5\nSkills\nBluff +19, Computers +14, Culture +14, Diplomacy +19, Physical Science +19, Sense Motive +19\nLanguages\nCastrovelian, Common, Dwarven, Gnome\nOther Abilities\nenvoy improvisations (get ’em, inspiring oration, quick inspiring boost)\nGear\nsilver AbadarCorp travel suit, advanced semi-auto pistol with 25 small arm rounds, tactical knife\nEcology\nEnvironment\nany (Veyvilla-6)\nOrganization\nsolitary, pair, or choir (3–12)\nSpecial Abilities\nSoulfeel (Su)\nA moyishuu is connected to a single dominant emotion that not only affects their personality, but also grants them a unique ability. The moyishuu can use this ability as a standard action, and they can’t use it again until they take a 10-minute rest to regain Stamina Points. The moyishuu chooses their soulfeel after taking a full night’s rest. Each soulfeel ability is a mind-affecting enchantment effect with a range of 30 feet. A successful Will saving throw negates the effect. The three most common soulfeels are fury, joy and sorrow (all three are detailed below).\nFury:\nThe moyishuu provokes intense rage in a target, causing it to lose its concentration. The target is off-target for 1 round.\nJoy:\nThe moyishuu overwhelms the target with a sense of joy and exultation, compelling it to dance about. The target must move at least 10 feet during its next turn.\nSorrow:\nThe moyishuu forces the target to dwell on its past mistakes and misfortunes. The target is unable to take a swift action during its next turn.\nDescription\nThe origins of the fey people known as moyishuus are as mysterious as their tightly restricted method of harvesting sensations on their home world. They emerged in the wake of the post-Gap planar terraforming of Veyvilla-6 with inexplicable insight into the planet’s mineable emotions, and they quickly set up a monopoly on the substance, as well as oversight of all mining on the planet.\nUpon waking each day, a moyishuu chooses a dominant emotion that influences their personality and that they can project onto others with their soulfeel ability. While two moyishuus’ soulfeels might tap into the same emotion, they individualize it in as many ways as they can; for example, joy might manifest as mischievous glee, kind benevolence, or even sadistic pleasure.\nMoyishuus are humanoids with brightly colored skin and darker natural markings across their forearms and shins. They have long, pointed ears and crystalline hair. A typical moyishuu is between 5-1/2 and 6 feet tall, weighs about 135 pounds, and has an average lifespan of over 200 years.\nExtra Content\nThe following extra content was found for this creature:\n-\nMoyishuu Race Entry",
+  "type": "fey",
+  "category": "alien"
+}

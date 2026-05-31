@@ -1,0 +1,47 @@
+{
+  "name": "Scholars, Postgrad Student",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Postgrad Student&Family=Scholars",
+  "source": "Interstellar Species pg. 176",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "blindsense (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+6",
+  "weaknesses": "atrophied",
+  "speed": "5 ft.; fly 30 ft. (average)",
+  "melee": "tactical sword cane +5 (1d4 P)",
+  "ranged": "azimuth laser pistol +7 (1d4+1 F; critical burn)",
+  "offensive_abilities": "applied knowledge",
+  "ability_scores": {
+    "str": "-1",
+    "dex": "+0",
+    "con": "-1",
+    "int": "+4",
+    "wis": "+1",
+    "cha": "+2"
+  },
+  "skills": "Computers +10, Culture +10, Engineering +10, Life Science +5, Physical Science +5",
+  "languages": "Akitonian, Common, up to 4 others; telepathy 100 ft.",
+  "other_abilities": "formal education",
+  "gear": "flight suit stationwear, azimuth laser pistol with 2 batteries (20 charges each), tactical sword cane",
+  "special_abilities": [
+    {
+      "name": "Formal Education (Ex)",
+      "description": "Once per day, a postgrad student can roll 1d10+10 instead of rolling 1d20 when attempting an Intelligence-based skill check."
+    }
+  ],
+  "description": "Postgrad students have attained one of their field’s highest academic degrees, typically involving years of study and perhaps also a portfolio of published works. Postgrad students often experience pressure to make a name for themselves, which can motivate risky or even unethical decisions, such as dangerous experiments that endanger bystanders or stealing data.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nScholars\nSource\nInterstellar Species pg. 176\nThough many are students and educators at formal institutions, scholars are as likely to be solitary academics or self-taught. Adventurers might seek a scholar to decipher a mysterious text or perform a complicated spell. A scholar could be a party’s patron, sending them to retrieve artifacts or data from faraway planets. Villainous scholars might seek nefarious lore or publish dangerously fabricated research for profit or prestige.\nThese scholars have Intelligence-focused skills, yet you can replace these skills to represent other studies, such as a scholar of the arts having Profession (painter) instead of Engineering.\nAliens in the \"Scholars\" Family\nName\nCR\nField Biologist\n7\nPostgrad Student\n1\nScholar Of Magic\n11\nSubject Expert\n5\nScholars, Postgrad Student\nSource\nInterstellar Species pg. 176\nPostgrad Student CR 1\nXP 400\nContemplative\nN Medium monstrous humanoid\nInit\n+0;\nSenses\nblindsense (thought) 60 ft., darkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+1;\nRef\n+3;\nWill\n+6\nWeaknesses\natrophied\nOffense\nSpeed\n5 ft.; fly 30 ft. (average)\nMelee\ntactical sword cane +5 (1d4 P)\nRanged\nazimuth laser pistol +7 (1d4+1 F; critical burn)\nOffensive Abilities\napplied knowledge\nStatistics\nSTR\n-1;\nDEX\n+0;\nCON\n-1;\nINT\n+4;\nWIS\n+1;\nCHA\n+2\nSkills\nComputers +10, Culture +10, Engineering +10, Life Science +5, Physical Science +5\nLanguages\nAkitonian, Common, up to 4 others; telepathy 100 ft.\nOther Abilities\nformal education\nGear\nflight suit stationwear, azimuth laser pistol with 2 batteries (20 charges each), tactical sword cane\nSpecial Abilities\nFormal Education (Ex)\nOnce per day, a postgrad student can roll 1d10+10 instead of rolling 1d20 when attempting an Intelligence-based skill check.\nDescription\nPostgrad students have attained one of their field’s highest academic degrees, typically involving years of study and perhaps also a portfolio of published works. Postgrad students often experience pressure to make a name for themselves, which can motivate risky or even unethical decisions, such as dangerous experiments that endanger bystanders or stealing data.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

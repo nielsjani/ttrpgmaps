@@ -1,0 +1,59 @@
+{
+  "name": "Akata",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Akata&Family=Akata",
+  "source": "Alien Archive 2 pg. 8",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+6",
+  "senses": "blindsense (life) 10 ft., blindsense (scent) 60 ft., darkvision 120 ft.;",
+  "perception": "+5",
+  "hp": "18",
+  "eac": "12",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+3",
+  "immunities": "cold, disease, poison, starvation;",
+  "resistances": "fire 5",
+  "weaknesses": "susceptible to salt water",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "bite +8 (1d6+2 P plus void bite)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +5, Athletics +5 (+13 to climb), Stealth +10",
+  "other_abilities": "deaf, hibernation, no breath",
+  "environment": "any",
+  "organization": "solitary, pair, pack (3–11), or colony (12–30)",
+  "special_abilities": [
+    {
+      "name": "Deaf (Ex)",
+      "description": "Akatas cannot attempt Perception checks to listen and are immune to effects that rely on hearing to function."
+    },
+    {
+      "name": "Hibernation (Ex)",
+      "description": "Akatas can enter a state of hibernation for an indefinite period of time when food is scarce. After 3 or more days without eating, an akata can secrete a fibrous material that hardens into a dense cocoon of the starmetal called noqual. The cocoon has hardness 30 and 30 Hit Points, and it is immune to bludgeoning and fire damage. As long as the cocoon remains intact, the akata within remains unharmed. The akata remains in a state of hibernation until it is exposed to extreme heat or senses a living creature with its blindsense, at which point it claws itself free of its cocoon in 1d4 minutes, leaving the fragments of its cocoon behind."
+    },
+    {
+      "name": "Susceptible to Salt Water (Ex)",
+      "description": "A splash of salt water deals 1d6 damage to an akata, and full immersion in salt water deals 4d6 damage per round."
+    },
+    {
+      "name": "Void Bite (Ex)",
+      "description": "Akatas hold hundreds of microscopic larval young within their mouths, and they spread their parasitic offspring to hosts through their bite. Only humanoids make suitable hosts for akata young—all other creature types are immune to this parasitic infection. This affliction is known as void death.\nVoid Death\nType\ndisease (injury);\nSave\nFortitude DC 10\nTrack\nphysical;\nFrequency\n1/day\nEffect\nNo latent/carrier state; an infected creature that dies rises as a void zombie 2d4 hours later.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "Terrifying predators that dwell in the vast void of space, akatas make their homes on lifeless asteroids, comets, and dying planets, hibernating in cocoons composed of the starmetal noqual for countless centuries. An akata looks similar in shape to a lion, but with hairless, rubbery blue skin and a mane of thick, lashing tentacles. Its face is little more than two eyes glowing with ever-changing light and a fanged maw. Two long tentacular tails extend from its muscular hindquarters. A typical akata stands 3-1/2 feet tall and weighs 400 pounds.\nAkatas lack auditory organs, lungs, and vocal cords, and they can’t hear or vocalize in any way. Instead, they communicate with each other through sight and scent. Akatas can change the color of their eyes to over a thousand shades, which they use in conjunction with complex tail movements to communicate visually. Scent glands located just behind the jawbone on akatas’ necks produce a wide variety of smells that other akatas can “taste” with their tongues.\nAkatas live in colonies of up to 30 individuals. Massive akatas known as akata alphas rule the largest of these colonies. Most colonies inhabit small asteroids or meteors hurtling through the depths of space. Akatas can hibernate for centuries, protecting themselves in cocoons made from a combination of resin from the creatures’ pores and noqual. When a meteorite carrying an akata colony crashes onto a planet or another astronomical object that can support life, the akatas awake from their cocoons. Akatas usually consume the remains of their cocoons upon awakening, but 1 bulk of noqual worth 500 credits can be harvested from the remnants of a single akata cocoon (see page 64 of Starfinder Armory for more information on noqual). Once awakened, akatas can drastically depopulate a planet as they seek out suitable hosts for their young.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAkata\nAliens in the \"Akata\" Family\nName\nCR\nAkata\n1\nVoid Zombie\n1\nAkata\nSource\nAlien Archive 2 pg. 8\n,\nStarfinder #1: Incident at Absalom Station pg. 55\nAkata CR 1\nXP 400\nN Medium aberration\nInit\n+6;\nSenses\nblindsense (life) 10 ft., blindsense (scent) 60 ft., darkvision 120 ft.;\nPerception\n+5\nDefense\nHP\n18\nEAC\n12;\nKAC\n13\nFort\n+3;\nRef\n+3;\nWill\n+3\nImmunities\ncold, disease, poison, starvation;\nResistances\nfire 5\nWeaknesses\nsusceptible to salt water\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\nbite +8 (1d6+2 P plus void bite)\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+4;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +5, Athletics +5 (+13 to climb), Stealth +10\nOther Abilities\ndeaf, hibernation, no breath\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, pack (3–11), or colony (12–30)\nSpecial Abilities\nDeaf (Ex)\nAkatas cannot attempt Perception checks to listen and are immune to effects that rely on hearing to function.\nHibernation (Ex)\nAkatas can enter a state of hibernation for an indefinite period of time when food is scarce. After 3 or more days without eating, an akata can secrete a fibrous material that hardens into a dense cocoon of the starmetal called noqual. The cocoon has hardness 30 and 30 Hit Points, and it is immune to bludgeoning and fire damage. As long as the cocoon remains intact, the akata within remains unharmed. The akata remains in a state of hibernation until it is exposed to extreme heat or senses a living creature with its blindsense, at which point it claws itself free of its cocoon in 1d4 minutes, leaving the fragments of its cocoon behind.\nSusceptible to Salt Water (Ex)\nA splash of salt water deals 1d6 damage to an akata, and full immersion in salt water deals 4d6 damage per round.\nVoid Bite (Ex)\nAkatas hold hundreds of microscopic larval young within their mouths, and they spread their parasitic offspring to hosts through their bite. Only humanoids make suitable hosts for akata young—all other creature types are immune to this parasitic infection. This affliction is known as void death.\nVoid Death\nType\ndisease (injury);\nSave\nFortitude DC 10\nTrack\nphysical;\nFrequency\n1/day\nEffect\nNo latent/carrier state; an infected creature that dies rises as a void zombie 2d4 hours later.\nCure\n2 consecutive saves\nDescription\nTerrifying predators that dwell in the vast void of space, akatas make their homes on lifeless asteroids, comets, and dying planets, hibernating in cocoons composed of the starmetal noqual for countless centuries. An akata looks similar in shape to a lion, but with hairless, rubbery blue skin and a mane of thick, lashing tentacles. Its face is little more than two eyes glowing with ever-changing light and a fanged maw. Two long tentacular tails extend from its muscular hindquarters. A typical akata stands 3-1/2 feet tall and weighs 400 pounds.\nAkatas lack auditory organs, lungs, and vocal cords, and they can’t hear or vocalize in any way. Instead, they communicate with each other through sight and scent. Akatas can change the color of their eyes to over a thousand shades, which they use in conjunction with complex tail movements to communicate visually. Scent glands located just behind the jawbone on akatas’ necks produce a wide variety of smells that other akatas can “taste” with their tongues.\nAkatas live in colonies of up to 30 individuals. Massive akatas known as akata alphas rule the largest of these colonies. Most colonies inhabit small asteroids or meteors hurtling through the depths of space. Akatas can hibernate for centuries, protecting themselves in cocoons made from a combination of resin from the creatures’ pores and noqual. When a meteorite carrying an akata colony crashes onto a planet or another astronomical object that can support life, the akatas awake from their cocoons. Akatas usually consume the remains of their cocoons upon awakening, but 1 bulk of noqual worth 500 credits can be harvested from the remnants of a single akata cocoon (see page 64 of Starfinder Armory for more information on noqual). Once awakened, akatas can drastically depopulate a planet as they seek out suitable hosts for their young.",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Akata.png"
+}

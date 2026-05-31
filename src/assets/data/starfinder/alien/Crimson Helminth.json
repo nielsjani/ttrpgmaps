@@ -1,0 +1,51 @@
+{
+  "name": "Crimson Helminth",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Crimson Helminth&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 56",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "magical beast",
+  "init": "+0",
+  "senses": "blindsense (life) 200 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+24",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+9",
+  "immunities": "fire",
+  "speed": "10 ft., burrow 50 ft., swim 30 ft.",
+  "melee": "tentacle +23 (2d10+18 B & F, plus swallow whole)",
+  "space": "15 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "scorching eruption, swallow whole (2d10+18 P & F, EAC 23, KAC 21, 41 HP)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+0",
+    "con": "+5",
+    "int": "-4",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Athletics +19, Survival +19",
+  "other_abilities": "molten drift, no breath",
+  "environment": "glass substrate and surface of Weydana-5",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Molten Drift (Su)",
+      "description": "A crimson helminth moves through glass or similar substances by creating a localized area of molten material. Treat this ability as earth glide, except it only works in glass or similar materials, and the helminth leaves a visible trail in its wake."
+    },
+    {
+      "name": "Scorching Eruption (Su)",
+      "description": "As a full round action, a helminth can move up to double its burrow speed and burst to the surface; on its native planet or other similar environments, this creates a 30-foot-radius area filled with searing hot glass and razor shards. Creatures in this area take 5d6 fire damage and become entangled; creatures who succeed at a DC 17 Reflex save take half damage and are not entangled. Entangled creatures can free themselves by succeeding at a DC 20 Strength or Acrobatics check; attempting this check is a move action.\nAfter the helminth uses this ability, the ground within the area is difficult terrain, covered with slag and razor-sharp shards of glass. The DC of Acrobatics checks within this area increases by 5. A successful DC 20 Acrobatics check is required to run or charge across the area—creatures who fail this check take 1d4 piercing damage and their movement ends. A creature that falls prone in the area takes 2d6 slashing damage from the jagged shards (Reflex DC 17 half)."
+    }
+  ],
+  "description": "A predator native to the glass-like surface of Weydana-5, the crimson helminth is a magical beast with six clawed flippers and a head of six crystal-tipped tentacles that radiate around its mouth of inward-pointing teeth. The helminth is often seen from Weydana-5’s surface as it burrows, locking its tentacles into an arrowhead formation and generating blistering heat through the crystal tips, melting the glass as it moves.\nHelminths swim gracefully through the molten glass they create in the planet’s crust, leaving beautiful spiraling trails as the material cools—trails that can observed from the planet’s surface, and which sometimes become home to other species seeking safe haven from the planet’s otherwise inhospitable climate. The helminth is an indiscriminate predator, which senses living prey before bursting to the surface in a spray of molten glass. Once they’ve revealed themselves, they immediately stuff their gullet with whatever they can catch, then dive once more, returning to their subterranean wanderings.\nThere are rumors of other helminth species, larger and with ties to elemental planes other than fire, but these rumors have yet to be substantiated.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCrimson Helminth\nSource\nStarfinder #44: Allies Against the Eye pg. 56\nCrimson Helminth CR 10\nXP 9,600\nN Huge magical beast\nInit\n+0;\nSenses\nblindsense (life) 200 ft., darkvision 60 ft., low-light vision;\nPerception\n+24\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+14;\nWill\n+9\nImmunities\nfire\nOffense\nSpeed\n10 ft., burrow 50 ft., swim 30 ft.\nMelee\ntentacle +23 (2d10+18 B & F, plus swallow whole)\nSpace\n15 ft.;\nReach\n10 ft.\nOffensive Abilities\nscorching eruption, swallow whole (2d10+18 P & F, EAC 23, KAC 21, 41 HP)\nStatistics\nSTR\n+8;\nDEX\n+0;\nCON\n+5;\nINT\n-4;\nWIS\n+3;\nCHA\n+0\nSkills\nAthletics +19, Survival +19\nOther Abilities\nmolten drift, no breath\nEcology\nEnvironment\nglass substrate and surface of Weydana-5\nOrganization\nsolitary\nSpecial Abilities\nMolten Drift (Su)\nA crimson helminth moves through glass or similar substances by creating a localized area of molten material. Treat this ability as earth glide, except it only works in glass or similar materials, and the helminth leaves a visible trail in its wake.\nScorching Eruption (Su)\nAs a full round action, a helminth can move up to double its burrow speed and burst to the surface; on its native planet or other similar environments, this creates a 30-foot-radius area filled with searing hot glass and razor shards. Creatures in this area take 5d6 fire damage and become entangled; creatures who succeed at a DC 17 Reflex save take half damage and are not entangled. Entangled creatures can free themselves by succeeding at a DC 20 Strength or Acrobatics check; attempting this check is a move action.\nAfter the helminth uses this ability, the ground within the area is difficult terrain, covered with slag and razor-sharp shards of glass. The DC of Acrobatics checks within this area increases by 5. A successful DC 20 Acrobatics check is required to run or charge across the area—creatures who fail this check take 1d4 piercing damage and their movement ends. A creature that falls prone in the area takes 2d6 slashing damage from the jagged shards (Reflex DC 17 half).\nDescription\nA predator native to the glass-like surface of Weydana-5, the crimson helminth is a magical beast with six clawed flippers and a head of six crystal-tipped tentacles that radiate around its mouth of inward-pointing teeth. The helminth is often seen from Weydana-5’s surface as it burrows, locking its tentacles into an arrowhead formation and generating blistering heat through the crystal tips, melting the glass as it moves.\nHelminths swim gracefully through the molten glass they create in the planet’s crust, leaving beautiful spiraling trails as the material cools—trails that can observed from the planet’s surface, and which sometimes become home to other species seeking safe haven from the planet’s otherwise inhospitable climate. The helminth is an indiscriminate predator, which senses living prey before bursting to the surface in a spray of molten glass. Once they’ve revealed themselves, they immediately stuff their gullet with whatever they can catch, then dive once more, returning to their subterranean wanderings.\nThere are rumors of other helminth species, larger and with ties to elemental planes other than fire, but these rumors have yet to be substantiated.",
+  "type": "magical beast",
+  "category": "alien"
+}

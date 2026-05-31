@@ -1,0 +1,60 @@
+{
+  "name": "Arcane Asp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Arcane Asp&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 54",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (magical, technological)",
+  "init": "+2",
+  "senses": "blindsense (scent) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+7",
+  "immunities": "construct immunities;",
+  "resistances": "acid 5",
+  "weaknesses": "vulnerable to fire",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "bite +13 (1d6+11 P plus grab)",
+  "ranged": "acid spit +11 (1d6+6 A; critical corrode 1d4)",
+  "offensive_abilities": "constrict (1d6+11 B), overheated circuits",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th; ranged +11",
+    "spells": "1/day—\ncaustic conversion\n,\nhold person\n(DC 18)\n3/day—\ndetect tech\n,\nfear\n(1st level, DC 17),\nmagic missile\nAt will—\npsychokinetic hand\n,\ntoken spell"
+  },
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "—",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +13, Intimidate +18, Mysticism +18, Stealth +13",
+  "languages": "Common and up to 3 others",
+  "environment": "any",
+  "organization": "solitary, pair, or nest (3–6)",
+  "special_abilities": [
+    {
+      "name": "Acid Spit (Ex)",
+      "description": "As a ranged attack, an arcane asp can spit a gob of acid with a range increment of 30 ft. On a critical hit, the acid inflicts the corrode critical hit effect for 1d4 additional acid damage."
+    },
+    {
+      "name": "Constrict (Ex)",
+      "description": "When an arcane asp successfully renews a grapple or a pin against an opponent, it automatically deals 1d6+11 bludgeoning damage to that creature."
+    },
+    {
+      "name": "Overclocked Circuits (Ex)",
+      "description": "Engineering shortcuts taken during arcane asps’ creation cause the constructs processing and circuitry to overclock when exposed to extreme heat. When arcane asps take fire damage, they get a +10-foot enhancement bonus to their speeds."
+    }
+  ],
+  "description": "The Aspis Consortium’s leading technomancers designed arcane asps to be part guardian, part magical research assistant. Their mystically developed programming includes an advanced form of virtual intelligence that is nearly indistinguishable from sentience. Each arcane asp has its own personality, though they’re commonly haughty and condescending, sometimes even to their Aspis users. Aspis agents are usually assigned an arcane asp that is tasked with keeping track of hundreds of small details about the project at hand, such as schedules, plans, and contact information. Agents with arcane asps keep close watch on these valuable assets, as the information held within the constructs is a prime target for a talented hacker—but the asp must be defeated, first.\nBecause of their distinctive serpentine appearance, these unique constructs generally remain out of sight while working; even in legal and publicly claimed venues, arcane asps prefer not to show themselves to outsiders, and they often pose as glittering statues unless they’re needed. Intruders who have overstayed their welcome often see a serpentine statue snap to life—right before they’re neutralized. In combat, arcane asps insult their opponents, and they analyze their victims’ failings aloud as they squeeze them to death.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nArcane Asp\nSource\nStarfinder #41: Serpents in the Cradle pg. 54\nArcane Asp CR 6\nXP 2,400\nN Medium construct (magical, technological)\nInit\n+2;\nSenses\nblindsense (scent) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+3;\nRef\n+3;\nWill\n+7\nDefensive Abilities\nfast healing 5;\nImmunities\nconstruct immunities;\nResistances\nacid 5\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\nbite +13 (1d6+11 P plus grab)\nRanged\nacid spit +11 (1d6+6 A; critical corrode 1d4)\nOffensive Abilities\nconstrict (1d6+11 B), overheated circuits\nSpell-Like Abilities\n(CL 6th; ranged +11)\n1/day—\ncaustic conversion\n,\nhold person\n(DC 18)\n3/day—\ndetect tech\n,\nfear\n(1st level, DC 17),\nmagic missile\nAt will—\npsychokinetic hand\n,\ntoken spell\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n—;\nINT\n+3;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +13, Intimidate +18, Mysticism +18, Stealth +13\nLanguages\nCommon and up to 3 others\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or nest (3–6)\nSpecial Abilities\nAcid Spit (Ex)\nAs a ranged attack, an arcane asp can spit a gob of acid with a range increment of 30 ft. On a critical hit, the acid inflicts the corrode critical hit effect for 1d4 additional acid damage.\nConstrict (Ex)\nWhen an arcane asp successfully renews a grapple or a pin against an opponent, it automatically deals 1d6+11 bludgeoning damage to that creature.\nOverclocked Circuits (Ex)\nEngineering shortcuts taken during arcane asps’ creation cause the constructs processing and circuitry to overclock when exposed to extreme heat. When arcane asps take fire damage, they get a +10-foot enhancement bonus to their speeds.\nDescription\nThe Aspis Consortium’s leading technomancers designed arcane asps to be part guardian, part magical research assistant. Their mystically developed programming includes an advanced form of virtual intelligence that is nearly indistinguishable from sentience. Each arcane asp has its own personality, though they’re commonly haughty and condescending, sometimes even to their Aspis users. Aspis agents are usually assigned an arcane asp that is tasked with keeping track of hundreds of small details about the project at hand, such as schedules, plans, and contact information. Agents with arcane asps keep close watch on these valuable assets, as the information held within the constructs is a prime target for a talented hacker—but the asp must be defeated, first.\nBecause of their distinctive serpentine appearance, these unique constructs generally remain out of sight while working; even in legal and publicly claimed venues, arcane asps prefer not to show themselves to outsiders, and they often pose as glittering statues unless they’re needed. Intruders who have overstayed their welcome often see a serpentine statue snap to life—right before they’re neutralized. In combat, arcane asps insult their opponents, and they analyze their victims’ failings aloud as they squeeze them to death.",
+  "type": "construct (magical, technological)",
+  "category": "alien"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Moonflower",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Moonflower&Family=Moonflower",
+  "source": "Alien Archive 2 pg. 85",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "plant",
+  "init": "+0",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+7",
+  "will": "+10",
+  "dr": "10/slashing",
+  "immunities": "electricity, plant immunities;",
+  "resistances": "cold 10",
+  "weaknesses": "vulnerable to fire",
+  "speed": "20 ft.",
+  "melee": "bite +19 (2d6+14 B plus swallow whole)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "light pulse, swallow whole (0 or 4d6 A [see text], EAC 20, KAC 18, 31 HP)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+0",
+    "con": "+4",
+    "int": "-3",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Stealth +16 (+21 in dense vegetation)",
+  "languages": "telepathy (1 mile, other moonflowers only)",
+  "other_abilities": "pod spawn",
+  "environment": "any land",
+  "organization": "solitary, pair, or cluster (3–8)",
+  "special_abilities": [
+    {
+      "name": "Light Pulse (Su)",
+      "description": "As a standard action, a moonflower can emit a pulse of bright light from its body. Creatures within 50 feet of and able to see the moonflower must succeed at a DC 16 Fortitude save or be blinded for 1d4 rounds."
+    },
+    {
+      "name": "Pod Spawn (Ex)",
+      "description": "A Small or larger living creature that dies while enclosed in a digestive pod is digested, its body completely destroyed in 1 hour. Another hour later, the pod sprouts into a new moonflower. This new moonflower has features that bear a minor resemblance to the digested creature. Any equipment the digested creature carried remains inside the new moonflower."
+    },
+    {
+      "name": "Swallow Whole (Ex)",
+      "description": "If a moonflower successfully swallows a target, that creature remains inside the moonflower for 2 rounds, during which the victim takes no damage and the moonflower can’t swallow another creature. After this time, the target is enclosed in a fibrous digestive pod and expelled into a space adjacent to the moonflower. The pod then acts as the swallowing creature, with the same swallow whole statistics but now able to deal acid damage. A creature can’t use Athletics to climb out of this enclosing pod. Other creatures can attack the pod, but the enclosed creature takes damage equal to half the damage dealt to the pod. An external attacker can avoid dealing the enclosed creature damage by using a bladed weapon to make one attack against the pod as a full action."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMoonflower\nSource\nAlien Archive 2 pg. 85\nA moonflower is an enormous plant with a twisted, knotted trunk that reaches a height of 20 feet or more. Atop this stem is a maw capable of swallowing large prey. Powerful tendrils at the base of the creature dig deeply into the ground beneath, but these can quickly uproot, allowing the moonflower to move.\nDespite their presence on many worlds, moonflowers are poorly understood. They aren’t known to communicate with other living creatures, but they do use a bizarre form of telepathy that allows them to communicate with one another. When someone has managed to intrude upon a moonflower’s strange thoughts, the only images to be found are of dense forests, jungles, or swamps ruled by sentient plant life. Whether these images mean the creatures share a consciousness, have some type of genetic memory, or portend something entirely different remains unclear.\nWhat is clear is that all moonflowers feed and reproduce through similar means. Biotechnologists have long studied moonflower reproduction for its cloning ramifications and possible application to other fields. The researchers who observe moonflowers usually do so remotely to remain safe, but they have managed to learn quite a bit about the plant’s curious life cycle. When a moonflower creates a pod spawn, the root systems of the progenitor and its offspring become intertwined and share the nutrients of the digested creature. In this way, several groves in the Pact Worlds have flourished in areas rich with animal life. The island of Feylonar on Castrovel is home to one of the most well-known groves. Xenobotanists assume some mechanism keeps moonflowers from eating all available life and running out of food, while others speculate that moonflowers “manage” the animal population where they live. However, the truth is unknown.\nSome massive moonflower specimens have been dubbed “titans” for their prodigious size and appetites. Growing up to 50 feet in height, these creatures tower over their smaller kin while maintaining a similar overall appearance. The nutrition such creatures need to sustain themselves makes them quite rare. On the planet Galvix, however, where the primary sentient population is humanoid giants, a significant population of moonflower titans thrives. As a response, the native giants have developed hunting traditions around pruning the moonflowers every decade or so to keep their numbers in check. During these times, human-sized and smaller offworlders are invited to try their hands at moonflower hunts.\nMoonflower Lightgrafts\nXenobotanists have long been intrigued by the moonflower’s ability to produce powerful bursts of light. After many unsuccessful attempts to harness this capability from moonflower tissue alone, they discovered that grafting a bioengineered light-producing nodule to another living creature could give that host the ability to activate a similar light-burst effect. Given the strange thoughts of moonflowers, however, few customers elect to have such an\naugmentation\ninstalled.\nAliens in the \"Moonflower\" Family\nName\nCR\nMoonflower\n8\nMoonflower Titan\n16\nMoonflower\nSource\nAlien Archive 2 pg. 84\nMoonflower CR 8\nXP 4,800\nN Huge plant\nInit\n+0;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+7;\nWill\n+10\nDR\n10/slashing;\nImmunities\nelectricity, plant immunities;\nResistances\ncold 10\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n20 ft.\nMelee\nbite +19 (2d6+14 B plus swallow whole)\nMultiattack\nbite +13 (2d6+14 B plus swallow whole), 2 tentacles +13 (1d8+14 B)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nlight pulse, swallow whole (0 or 4d6 A [see text], EAC 20, KAC 18, 31 HP)\nStatistics\nSTR\n+6;\nDEX\n+0;\nCON\n+4;\nINT\n-3;\nWIS\n+2;\nCHA\n+0\nSkills\nStealth +16 (+21 in dense vegetation)\nLanguages\ntelepathy (1 mile, other moonflowers only)\nOther Abilities\npod spawn\nEcology\nEnvironment\nany land\nOrganization\nsolitary, pair, or cluster (3–8)\nSpecial Abilities\nLight Pulse (Su)\nAs a standard action, a moonflower can emit a pulse of bright light from its body. Creatures within 50 feet of and able to see the moonflower must succeed at a DC 16 Fortitude save or be blinded for 1d4 rounds.\nPod Spawn (Ex)\nA Small or larger living creature that dies while enclosed in a digestive pod is digested, its body completely destroyed in 1 hour. Another hour later, the pod sprouts into a new moonflower. This new moonflower has features that bear a minor resemblance to the digested creature. Any equipment the digested creature carried remains inside the new moonflower.\nSwallow Whole (Ex)\nIf a moonflower successfully swallows a target, that creature remains inside the moonflower for 2 rounds, during which the victim takes no damage and the moonflower can’t swallow another creature. After this time, the target is enclosed in a fibrous digestive pod and expelled into a space adjacent to the moonflower. The pod then acts as the swallowing creature, with the same swallow whole statistics but now able to deal acid damage. A creature can’t use Athletics to climb out of this enclosing pod. Other creatures can attack the pod, but the enclosed creature takes damage equal to half the damage dealt to the pod. An external attacker can avoid dealing the enclosed creature damage by using a bladed weapon to make one attack against the pod as a full action.",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Moonflower.png"
+}

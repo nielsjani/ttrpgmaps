@@ -1,0 +1,52 @@
+{
+  "name": "Kurobozu",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kurobozu&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 273",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "135",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+8",
+  "ref": "+10",
+  "will": "+12",
+  "immunities": "undead immunities;",
+  "resistances": "cold or fire 5",
+  "speed": "50 ft.",
+  "melee": "unarmed strike +19 (1d6+13 B; critical stunned)",
+  "offensive_abilities": "black apoxia (30-ft. cone, DC 18), flashing strikes, sage’s bane (DC 18), stellar revelations (black hole [30-ft.-radius, pull 20 ft., DC 16], crush [DC 16], gravity surge [+7], starquake [1d8 B, DC 16])",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+6",
+    "con": "—",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +22, Athletics +22, Mysticism +22, Stealth +17",
+  "languages": "Common, Eoxian",
+  "other_abilities": "solar manifestation (armor), stellar alignment (graviton), unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or guard (3–5)",
+  "special_abilities": [
+    {
+      "name": "Black Apoxia (Su)",
+      "description": "As a standard action, a kurobozu can create a 30-foot cone of breathlessness, making it hard for creatures to breathe properly even if they are wearing environmental protection, such as a sealed suit of armor. Each creature within the area must succeed at a DC 18 Fortitude saving throw or be fatigued for 1d4 minutes. Creatures that do not breathe are immune to this effect."
+    },
+    {
+      "name": "Sage’s Bane (Su)",
+      "description": "Once per day, as a reaction when a kurobozu successfully damages a foe with a melee attack, the kurobozu can cloud that foe’s mind. The target must succeed at a DC 18 Fortitude saving throw or gain the flat-footed and off-target conditions, as well as be rendered unable to use any Wisdom-based skills or communicate through any means for 1d4 minutes."
+    }
+  ],
+  "description": "Kurobozus, also known as black monks, are the vengeful undead remains of members of highly structured groups, such as ascetics, priesthoods, and solarian orders. They have empty, black eye sockets and often seem to be little more than leathery husks of skin, despite their significant physical power.\nSome kurobozus arise when they violate the tenets of their orders in ways that create great suffering. Others are the result of living creatures following a rigid path designed specifically to lead to this undead state. Their entire lives are spent preparing themselves for a vile ceremony in which they are ritualistically choked to death.",
+  "extra_content": "The following extra content was found for this creature:\n-\nKurobozu (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKurobozu\nSource\nStarfinder Dead Suns Adventure Path pg. 273\n,\nStarfinder #6: Empire of Bones pg. 58\nKurobozu CR 9\nXP 6,400\nHuman kurobozu solarian\nCE Medium undead\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n135\nEAC\n23;\nKAC\n24\nFort\n+8;\nRef\n+10;\nWill\n+12\nDefensive Abilities\nevasion;\nImmunities\nundead immunities;\nResistances\ncold or fire 5\nOffense\nSpeed\n50 ft.\nMelee\nunarmed strike +19 (1d6+13 B; critical stunned)\nMultiattack\n4 unarmed strikes +14 (1d6+13 B; critical stunned)\nOffensive Abilities\nblack apoxia (30-ft. cone, DC 18), flashing strikes, sage’s bane (DC 18), stellar revelations (black hole [30-ft.-radius, pull 20 ft., DC 16], crush [DC 16], gravity surge [+7], starquake [1d8 B, DC 16])\nStatistics\nSTR\n+4;\nDEX\n+6;\nCON\n—;\nINT\n+0;\nWIS\n+0;\nCHA\n+3\nSkills\nAcrobatics +22, Athletics +22, Mysticism +22, Stealth +17\nLanguages\nCommon, Eoxian\nOther Abilities\nsolar manifestation (armor), stellar alignment (graviton), unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or guard (3–5)\nSpecial Abilities\nBlack Apoxia (Su)\nAs a standard action, a kurobozu can create a 30-foot cone of breathlessness, making it hard for creatures to breathe properly even if they are wearing environmental protection, such as a sealed suit of armor. Each creature within the area must succeed at a DC 18 Fortitude saving throw or be fatigued for 1d4 minutes. Creatures that do not breathe are immune to this effect.\nSage’s Bane (Su)\nOnce per day, as a reaction when a kurobozu successfully damages a foe with a melee attack, the kurobozu can cloud that foe’s mind. The target must succeed at a DC 18 Fortitude saving throw or gain the flat-footed and off-target conditions, as well as be rendered unable to use any Wisdom-based skills or communicate through any means for 1d4 minutes.\nDescription\nKurobozus, also known as black monks, are the vengeful undead remains of members of highly structured groups, such as ascetics, priesthoods, and solarian orders. They have empty, black eye sockets and often seem to be little more than leathery husks of skin, despite their significant physical power.\nSome kurobozus arise when they violate the tenets of their orders in ways that create great suffering. Others are the result of living creatures following a rigid path designed specifically to lead to this undead state. Their entire lives are spent preparing themselves for a vile ceremony in which they are ritualistically choked to death.\nExtra Content\nThe following extra content was found for this creature:\n-\nKurobozu (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Cargo Creep",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cargo Creep&Family=None",
+  "source": "Starfinder #25: The Chimera Mystery pg. 58",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "46",
+  "eac": "16",
+  "kac": "17",
+  "fort": "+7",
+  "ref": "+5",
+  "will": "+5",
+  "dr": "5/—",
+  "weaknesses": "vulnerable to acid",
+  "speed": "15 ft., climb 20 ft.",
+  "melee": "tentacle +10 (1d4+5 B)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tentacle)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+5",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +10 (+18 when climbing), Disguise +15 (+19 when imitating an appropriate material), Stealth +15 (+19 when in an appropriate environment), Survival +15",
+  "languages": "Common (can’t speak any language)",
+  "other_abilities": "compression",
+  "environment": "any",
+  "organization": "solitary, pair, or pod (3–5)",
+  "special_abilities": [
+    {
+      "name": "Molecular Mimicry (Ex)",
+      "description": "As a standard action, a cargo creep can alter its physical composition to match a material within reach of its tentacle. When it does so, it gains a specific benefit and a vulnerability to a specific energy type based on the material. In addition, the cargo creep gains a +4 circumstance bonus to Disguise and Stealth checks when attempting to imitate or hide among that material, such as disguising itself as a metal plate in metallic form or hiding among plants in vegetation form. A cargo creep can match one of the following materials and can revert back to its default flesh state as a move action. The above cargo creep begins in its flesh state.\nFlesh:\nWhen a cargo creep touches the flesh, fur, scales, or other skin covering of a creature, it gains a +2 circumstance bonus to Reflex saving throws and a vulnerability to acid.\nMetallic:\nWhen a cargo creep touches worked metal, it gains DR 5/adamantine and a vulnerability to electricity.\nMineral:\nWhen a cargo creep touches natural, nonworked minerals such as stones and gems, it gains a +1 circumstance bonus to KAC and a vulnerability to sonic.\nSynthetic:\nWhen a cargo creep touches material like fibers, plastics, and polymers, it gains a +1 circumstance bonus to EAC and a vulnerability to cold.\nVegetation:\nWhen a cargo creep touches natural plant matter (including that of plant creatures) or worked wood, it gains a +2 circumstance bonus to Fortitude saving throws and a vulnerability to fire."
+    }
+  ],
+  "description": "The exact origin of cargo creeps is a mystery, though those who have seen them understand they are nuisances to crews of transport ships, especially those carrying the types of perishable goods that cargo creeps find delicious. A cargo creep vaguely resembles a cephalopod, with four large eyes and five tentacles that it uses for locomotion. The unusual cells in its skin allow a cargo creep to mimic any sort of material with uncanny accuracy, almost down to its molecular structure. This allows a cargo creep to hide almost anywhere and easily slip into cargo holds in search for food. A cargo creep is generally quick to hide or flee at the first sign of danger, except when cornered, at which point it strikes out at anything that gets too close.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCargo Creep\nSource\nStarfinder #25: The Chimera Mystery pg. 58\nCargo Creep CR 4\nXP 1,200\nN Medium aberration\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n46\nEAC\n16;\nKAC\n17\nFort\n+7;\nRef\n+5;\nWill\n+5\nDefensive Abilities\nmolecular mimicry;\nDR\n5/—\nWeaknesses\nvulnerable to acid\nOffense\nSpeed\n15 ft., climb 20 ft.\nMelee\ntentacle +10 (1d4+5 B)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tentacle)\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+5;\nINT\n-3;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +10 (+18 when climbing), Disguise +15 (+19 when imitating an appropriate material), Stealth +15 (+19 when in an appropriate environment), Survival +15\nLanguages\nCommon (can’t speak any language)\nOther Abilities\ncompression\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pod (3–5)\nSpecial Abilities\nMolecular Mimicry (Ex)\nAs a standard action, a cargo creep can alter its physical composition to match a material within reach of its tentacle. When it does so, it gains a specific benefit and a vulnerability to a specific energy type based on the material. In addition, the cargo creep gains a +4 circumstance bonus to Disguise and Stealth checks when attempting to imitate or hide among that material, such as disguising itself as a metal plate in metallic form or hiding among plants in vegetation form. A cargo creep can match one of the following materials and can revert back to its default flesh state as a move action. The above cargo creep begins in its flesh state.\nFlesh:\nWhen a cargo creep touches the flesh, fur, scales, or other skin covering of a creature, it gains a +2 circumstance bonus to Reflex saving throws and a vulnerability to acid.\nMetallic:\nWhen a cargo creep touches worked metal, it gains DR 5/adamantine and a vulnerability to electricity.\nMineral:\nWhen a cargo creep touches natural, nonworked minerals such as stones and gems, it gains a +1 circumstance bonus to KAC and a vulnerability to sonic.\nSynthetic:\nWhen a cargo creep touches material like fibers, plastics, and polymers, it gains a +1 circumstance bonus to EAC and a vulnerability to cold.\nVegetation:\nWhen a cargo creep touches natural plant matter (including that of plant creatures) or worked wood, it gains a +2 circumstance bonus to Fortitude saving throws and a vulnerability to fire.\nDescription\nThe exact origin of cargo creeps is a mystery, though those who have seen them understand they are nuisances to crews of transport ships, especially those carrying the types of perishable goods that cargo creeps find delicious. A cargo creep vaguely resembles a cephalopod, with four large eyes and five tentacles that it uses for locomotion. The unusual cells in its skin allow a cargo creep to mimic any sort of material with uncanny accuracy, almost down to its molecular structure. This allows a cargo creep to hide almost anywhere and easily slip into cargo holds in search for food. A cargo creep is generally quick to hide or flee at the first sign of danger, except when cornered, at which point it strikes out at anything that gets too close.",
+  "type": "aberration",
+  "category": "alien"
+}

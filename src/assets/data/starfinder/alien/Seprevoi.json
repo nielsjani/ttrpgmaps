@@ -1,0 +1,55 @@
+{
+  "name": "Seprevoi",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Seprevoi&Family=None",
+  "source": "Starfinder #5: The Thirteenth Gate pg. 61",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid (seprevoi)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+6",
+  "weaknesses": "vulnerable to disease",
+  "speed": "40 ft.",
+  "melee": "tactical dueling sword +9 (1d6+4 S)",
+  "ranged": "autotarget rifle +11 (1d6+3 P)",
+  "offensive_abilities": "analog attunement",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+0",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +13, Culture +8, Diplomacy +8, Sense Motive +13",
+  "languages": "Seprevoi",
+  "environment": "any (Sepres VI)",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Analog Attunement (Ex)",
+      "description": "A seprevoi using a weapon with the analog or archaic weapon property receives a +1 racial bonus on attack rolls, due to the centuries of rationing that restricted the race’s access to and familiarity with powered or otherwise advanced technology."
+    },
+    {
+      "name": "Multi-Legged (Ex)",
+      "description": "Seprevois have four legs, which makes them particularly stable in areas of normal or higher gravity. A seprevois gains a +2 bonus to its KAC against combat maneuvers to trip or move it from its position."
+    },
+    {
+      "name": "Orbital Adaptation (Ex)",
+      "description": "Most seprevois live their whole lives in zero-g environments in the spacecraft orbiting their home world. While a seprevoi must still attempt all required skill checks to move in zero-g, failure at any such checks never imparts the off-kilter condition to the creature. Additionally, seprevois have a natural resistance to radiation. A seprevoi gains a +2 bonus to saving throws to resist radiation and radiation sickness (\nStarfinder Core Rulebook\n404). Finally, seprevois have weakened immune systems, such that they take a –2 penalty to saving throws against diseases (except radiation sickness)."
+    }
+  ],
+  "description": "Seprevois evolved from the simian creatures of their home world (see page 50). They are covered in fine, short hair ranging in color from dark brown to pale blond, except for the black skin of their faces and hands. Seprevois have six elongated fingers on each hand, each featuring an additional joint compared to a human’s hand. Seprevois’ four feet have three unjointed toes each.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSeprevoi Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSeprevoi\nSource\nStarfinder #5: The Thirteenth Gate pg. 61\nSeprevoi CR 3\nXP 800\nLN Medium monstrous humanoid (seprevoi)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+4;\nRef\n+4;\nWill\n+6; +2 vs. radiation, -2 vs. disease\nDefensive Abilities\nmulti-legged, orbital adaptation\nWeaknesses\nvulnerable to disease\nOffense\nSpeed\n40 ft.\nMelee\ntactical dueling sword +9 (1d6+4 S)\nRanged\nautotarget rifle +11 (1d6+3 P)\nOffensive Abilities\nanalog attunement\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+0;\nINT\n-1;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +13, Culture +8, Diplomacy +8, Sense Motive +13\nLanguages\nSeprevoi\nEcology\nEnvironment\nany (Sepres VI)\nOrganization\nany\nSpecial Abilities\nAnalog Attunement (Ex)\nA seprevoi using a weapon with the analog or archaic weapon property receives a +1 racial bonus on attack rolls, due to the centuries of rationing that restricted the race’s access to and familiarity with powered or otherwise advanced technology.\nMulti-Legged (Ex)\nSeprevois have four legs, which makes them particularly stable in areas of normal or higher gravity. A seprevois gains a +2 bonus to its KAC against combat maneuvers to trip or move it from its position.\nOrbital Adaptation (Ex)\nMost seprevois live their whole lives in zero-g environments in the spacecraft orbiting their home world. While a seprevoi must still attempt all required skill checks to move in zero-g, failure at any such checks never imparts the off-kilter condition to the creature. Additionally, seprevois have a natural resistance to radiation. A seprevoi gains a +2 bonus to saving throws to resist radiation and radiation sickness (\nStarfinder Core Rulebook\n404). Finally, seprevois have weakened immune systems, such that they take a –2 penalty to saving throws against diseases (except radiation sickness).\nDescription\nSeprevois evolved from the simian creatures of their home world (see page 50). They are covered in fine, short hair ranging in color from dark brown to pale blond, except for the black skin of their faces and hands. Seprevois have six elongated fingers on each hand, each featuring an additional joint compared to a human’s hand. Seprevois’ four feet have three unjointed toes each.\nExtra Content\nThe following extra content was found for this creature:\n-\nSeprevoi Race Entry",
+  "type": "monstrous humanoid (seprevoi)",
+  "category": "alien"
+}

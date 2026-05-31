@@ -1,0 +1,46 @@
+{
+  "name": "Thieves, Pickpocket",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Pickpocket&Family=Thieves",
+  "source": "Interstellar Species pg. 185",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "humanoid (kobold)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "17",
+  "eac": "11",
+  "kac": "12",
+  "fort": "+1",
+  "ref": "+3",
+  "will": "+4",
+  "resistances": "electricity 5",
+  "speed": "30 ft.",
+  "melee": "survival knife +4 (1d4+1 S)",
+  "ranged": "pulsecaster pistol +6 (1d4+1 E nonlethal)",
+  "offensive_abilities": "swipe",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Bluff +5, Engineering +5, Physical Science +10, Sleight of Hand +10, Stealth +10",
+  "languages": "Common, Draconic",
+  "gear": "flight suit stationwear, pulsecaster pistol with 2 batteries (20 charges each), survival knife",
+  "special_abilities": [
+    {
+      "name": "Swipe (Ex)",
+      "description": "As a standard action, the pickpocket can attempt a Sleight of Hand check (DC 20 + the target’s level or CR) in combat to snatch a small, non-held item from a target, disguising it as a feint or dodge. On a success, the pickpocket takes the item and quickly conceals it on their person. The target can attempt an opposed Perception check against the pickpocket’s Sleight of Hand result to notice the theft."
+    }
+  ],
+  "description": "Pickpockets are found in virtually all major settlements, particularly those with heavy tourism. Many prefer to avoid violence, whether from moral scruples or because they don’t expect to win such fights. Pickpockets might belong to criminal gangs, while others operate on their own. PCs could run afoul of a pickpocket when exploring a new city, or they could be asked to track down a troublesome pickpocket gang by concerned business owners. Some pickpockets steal simply to survive, which might give PCs encountering them an ethical quandary.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThieves\nSource\nInterstellar Species pg. 185\nThieves are common throughout the galaxy, though more numerous in larger cities and space stations. They have a variety of methods and motivations for snaring others’ property; some thieves strike back against an amoral corporate system that left them behind, while others selfishly prey on those with little power to defend their possessions. PCs can encounter thieves in numerous circumstances, whether as unsavory associates, crafty foes, or on-again-off-again allies and rivals.\nAliens in the \"Thieves\" Family\nName\nCR\nMugger\n6\nPhantom Thief\n15\nPickpocket\n1\nSafecracker\n10\nThieves, Pickpocket\nSource\nInterstellar Species pg. 185\nPickpocket CR 1\nXP 400\nKobold\nCN Small humanoid (kobold)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n17\nEAC\n11;\nKAC\n12\nFort\n+1;\nRef\n+3;\nWill\n+4\nResistances\nelectricity 5\nOffense\nSpeed\n30 ft.\nMelee\nsurvival knife +4 (1d4+1 S)\nRanged\npulsecaster pistol +6 (1d4+1 E nonlethal)\nOffensive Abilities\nswipe\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n-1;\nINT\n+1;\nWIS\n+0;\nCHA\n+2\nSkills\nBluff +5, Engineering +5, Physical Science +10, Sleight of Hand +10, Stealth +10\nLanguages\nCommon, Draconic\nGear\nflight suit stationwear, pulsecaster pistol with 2 batteries (20 charges each), survival knife\nSpecial Abilities\nSwipe (Ex)\nAs a standard action, the pickpocket can attempt a Sleight of Hand check (DC 20 + the target’s level or CR) in combat to snatch a small, non-held item from a target, disguising it as a feint or dodge. On a success, the pickpocket takes the item and quickly conceals it on their person. The target can attempt an opposed Perception check against the pickpocket’s Sleight of Hand result to notice the theft.\nDescription\nPickpockets are found in virtually all major settlements, particularly those with heavy tourism. Many prefer to avoid violence, whether from moral scruples or because they don’t expect to win such fights. Pickpockets might belong to criminal gangs, while others operate on their own. PCs could run afoul of a pickpocket when exploring a new city, or they could be asked to track down a troublesome pickpocket gang by concerned business owners. Some pickpockets steal simply to survive, which might give PCs encountering them an ethical quandary.",
+  "type": "humanoid (kobold)",
+  "environment": "—",
+  "category": "alien"
+}

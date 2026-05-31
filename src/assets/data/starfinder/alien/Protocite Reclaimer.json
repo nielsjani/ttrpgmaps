@@ -1,0 +1,62 @@
+{
+  "name": "Protocite Reclaimer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Protocite Reclaimer&Family=None",
+  "source": "Starfinder #15: Sun Divers pg. 58",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+8",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+0",
+  "immunities": "construct immunities",
+  "weaknesses": "sunlight dependency",
+  "speed": "30 ft., climb 30 ft.",
+  "melee": "claw +12 (1d6+7 S plus grab)",
+  "ranged": "polyfluid volley +10 (explode [15 ft., 1d6 B plus entangled 1d4 rounds, DC 12])",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with claws)",
+  "offensive_abilities": "grind",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Athletics +13, Stealth +8",
+  "languages": "Noma (can’t speak any language); shortwave 100 ft.",
+  "other_abilities": "unliving",
+  "environment": "any (Noma)",
+  "organization": "solitary, pair, or crew (3–6)",
+  "special_abilities": [
+    {
+      "name": "Grind (Ex)",
+      "description": "A reclaimer’s grinding mouthparts can tear any material to shreds. If a reclaimer starts its turn grappling a creature, it can use a full action to grind into the creature, dealing 6d6 slashing damage (Fortitude DC 12 half) and applying the wound critical hit effect (save DC 12)."
+    },
+    {
+      "name": "Polyfluid Volley (Ex)",
+      "description": "A reclaimer can repurpose its polyfluid extruder, normally used for transferring that raw material, to lob thick globs of the substance at enemy creatures. This attack has a range increment of 20 feet."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "A protocite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    },
+    {
+      "name": "Sunlight Dependency (Ex)",
+      "description": "Protocites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, protocites gain the sickened condition."
+    }
+  ],
+  "description": "Noma’s so-called protocites are as numerous and varied as their distant cousins, the anacites of Aballon. It’s probable that the enigmatic First Ones created both. However, anacites were designed to harvest resources and have proliferated from that origin, while protocites were designed as experiments in form and function. Several models have the ability to iterate upon their own forms, while others serve specialized roles. Despite different origins and purposes, similar types of protocites and anacites have developed in parallel, while others are distinct.\nProtocite reclaimers form one such unique model line. These scorpion-like constructs serve as the backbone of their home’s ceaseless creativity. Noma’s AI can conceive of endless possibilities for creatures and contraptions, and the surrounding star provides the energy for its experiments. The material resource required for this is polyfluid, a UPB-like liquid that can form any number of molecule chains, allowing the creation of any substance. Reclaimers provide a vital service as mobile recycling centers, capable of scaling any structure in Noma and gradually devouring it. They turn what they consume back into polyfluid via a complex internal system of enzymatic machinery and filters. Reclaimers then use their extruders to deposit the polyfluid in receptacles so the material can be reused.\nMost of the time, reclaimers keep busy recycling materials from Noma’s completed experiments. However, they also serve as a frontline immune system, attacking and recycling protocites that operate outside acceptable parameters. With recent incursions into Noma, reclaimers have adapted to recognize and process hostile visitors.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProtocite Reclaimer\nSource\nStarfinder #15: Sun Divers pg. 58\nProtocite Reclaimer CR 3\nXP 800\nN Medium construct (technological)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+8\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+0\nImmunities\nconstruct immunities\nWeaknesses\nsunlight dependency\nOffense\nSpeed\n30 ft., climb 30 ft.\nMelee\nclaw +12 (1d6+7 S plus grab)\nRanged\npolyfluid volley +10 (explode [15 ft., 1d6 B plus entangled 1d4 rounds, DC 12])\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with claws)\nOffensive Abilities\ngrind\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+0\nSkills\nAthletics +13, Stealth +8\nLanguages\nNoma (can’t speak any language); shortwave 100 ft.\nOther Abilities\nunliving\nEcology\nEnvironment\nany (Noma)\nOrganization\nsolitary, pair, or crew (3–6)\nSpecial Abilities\nGrind (Ex)\nA reclaimer’s grinding mouthparts can tear any material to shreds. If a reclaimer starts its turn grappling a creature, it can use a full action to grind into the creature, dealing 6d6 slashing damage (Fortitude DC 12 half) and applying the wound critical hit effect (save DC 12).\nPolyfluid Volley (Ex)\nA reclaimer can repurpose its polyfluid extruder, normally used for transferring that raw material, to lob thick globs of the substance at enemy creatures. This attack has a range increment of 20 feet.\nShortwave (Ex)\nA protocite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nSunlight Dependency (Ex)\nProtocites are solar-powered constructs, although they can function at reduced capacity away from light. In areas of darkness, protocites gain the sickened condition.\nDescription\nNoma’s so-called protocites are as numerous and varied as their distant cousins, the anacites of Aballon. It’s probable that the enigmatic First Ones created both. However, anacites were designed to harvest resources and have proliferated from that origin, while protocites were designed as experiments in form and function. Several models have the ability to iterate upon their own forms, while others serve specialized roles. Despite different origins and purposes, similar types of protocites and anacites have developed in parallel, while others are distinct.\nProtocite reclaimers form one such unique model line. These scorpion-like constructs serve as the backbone of their home’s ceaseless creativity. Noma’s AI can conceive of endless possibilities for creatures and contraptions, and the surrounding star provides the energy for its experiments. The material resource required for this is polyfluid, a UPB-like liquid that can form any number of molecule chains, allowing the creation of any substance. Reclaimers provide a vital service as mobile recycling centers, capable of scaling any structure in Noma and gradually devouring it. They turn what they consume back into polyfluid via a complex internal system of enzymatic machinery and filters. Reclaimers then use their extruders to deposit the polyfluid in receptacles so the material can be reused.\nMost of the time, reclaimers keep busy recycling materials from Noma’s completed experiments. However, they also serve as a frontline immune system, attacking and recycling protocites that operate outside acceptable parameters. With recent incursions into Noma, reclaimers have adapted to recognize and process hostile visitors.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

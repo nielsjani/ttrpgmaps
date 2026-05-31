@@ -1,0 +1,59 @@
+{
+  "name": "Mi-Go, Mi-Go High Priest",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mi-Go High Priest&Family=Mi-Go",
+  "source": "Alien Archive 2 pg. 83",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "plant",
+  "init": "+3",
+  "senses": "blindsight (vibration) 30 ft., low-light vision;",
+  "perception": "+20",
+  "hp": "155",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+14",
+  "dr": "5/slashing",
+  "immunities": "cold, plant immunities;",
+  "resistances": "electricity 10, fire 10",
+  "speed": "30 ft., fly 50 ft. (Su, average)",
+  "melee": "claw +19 (2d10+12 S plus grab)",
+  "ranged": "mi-go hailstorm-class zero pistol +19 (2d6+13 C; critical staggered [DC 20])",
+  "offensive_abilities": "evisceration",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th",
+    "spells": "At will—\nmindlink\n,\ntelepathic bond\n11/day—\nmind probe\n(DC 22)\nMystic Spells Known\n(CL 11th; ranged +19)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ncharm monster\n(DC 21),\ndispel magic\n,\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nfog cloud\n,\ninflict pain\n(DC 20)\nConnection\nAkashic"
+  },
+  "spells": "(CL 11th; ranged +19)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ncharm monster\n(DC 21),\ndispel magic\n,\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nfog cloud\n,\ninflict pain\n(DC 20)\nConnection\nAkashic",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+2",
+    "int": "+5",
+    "wis": "+8",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +20, Bluff +25, Life Science +20, Medicine +20, Mysticism +25",
+  "languages": "Aklo, Common, Mi-Go",
+  "other_abilities": "access Akashic record, Akashic knowledge, mi-go technology, spaceflight (Mysticism), peer into the future (2/day)",
+  "gear": "mi-go hailstorm-class zero pistol with 2 mi-go high-capacity batteries (40 charges each)",
+  "environment": "any",
+  "organization": "solitary, cult (1 plus 3-9 mi-go), or invasion (1-4 plus 6-15 mi-go)",
+  "special_abilities": [
+    {
+      "name": "Evisceration (Ex)",
+      "description": "A mi-go is capable of performing swift surgical operations upon targets that are helpless or that the mi-go currently has grappled. Against such a target, any hit with the mi-go’s claw counts as a critical hit that has the severe wound critical hit effect with a save DC of 20. If the mi-go actually scores a critical hit against such a target, the mi-go rolls the damage three times instead of twice, and the save DC increases to 22."
+    },
+    {
+      "name": "Mi-Go Technology (Ex)",
+      "description": "Mi-go use Life Science in place of Engineering to craft technological and hybrid items. These are technological or hybrid biotech items that work like their typical counterparts, except that Life Science is also used to repair them. Species other than mi-go can use Engineering or Life Science to identify this gear, which is alien tech."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMi-Go\nSource\nAlien Archive 2 pg. 83\nMi-go are scientists, explorers, inventors, and colonists, as well as eerie servitors of the Outer Gods and Great Old Ones. These creatures come from deep space and view the universe as a canvas to be controlled and mastered. Their population on any one planet varies, but when counted across the entire galaxy, their numbers are mind-numbing in scale.\nAlthough a mi-go resembles an arthropod, the creature is actually a highly evolved form of fungus. Mi-go can speak in a buzzing voice, but their own language consists of the complex shifting of color patterns upon their bulbous heads. This communication allows for the dissemination of astounding amounts of information quickly, but for those other than mi-go, speaking the language requires special equipment.\nMi-go meld faith and science, magic and technology, and other themes together into an unsettling whole. Most mi-go serve Nyarlathotep or other entities of the Elder Mythos, and their minds work in a fashion alien to typical humanoid thinking. To migo, their devotion to their gods isn’t admiration, slavery, or worship—it’s akin to the relationship between a student and a professor.\nOther minions of the Elder Mythos might be allies, but mi-go consider themselves to be superior to most living things. Gifted with supernatural skill in surgery and biotechnology, mi-go can rework the flesh of those they capture with precision, remaking their victims into forms more appropriate for servitude or for truly alien aesthetics. These alien fungi can also keep creatures alive through the most invasive surgical procedures, so those who fall prey to mi-go don’t retain their sanity for long. Using their technology and ability to squeeze into a tighter shape, mi-go construct cunning disguises, replacing those whose brains they’ve harvested in order to invade societies from within. Only the mi-go know the extent to which they’ve infiltrated societies throughout the galaxy. A mi-go is the size of a human but weighs only 90 pounds.\nAliens in the \"Mi-Go\" Family\nName\nCR\nMi-Go\n6\nMi-Go High Priest\n11\nMi-Go, Mi-Go High Priest\nSource\nAlien Archive 2 pg. 82\nMi-Go High Priest CR 11\nXP 12,800\nMi-go mystic\nNE Medium plant\nInit\n+3;\nSenses\nblindsight (vibration) 30 ft., low-light vision;\nPerception\n+20\nDefense\nHP\n155;\nRP\n5\nEAC\n23;\nKAC\n24\nFort\n+12;\nRef\n+10;\nWill\n+14\nDefensive Abilities\nvoid adaptation;\nDR\n5/slashing;\nImmunities\ncold, plant immunities;\nResistances\nelectricity 10, fire 10\nOffense\nSpeed\n30 ft., fly 50 ft. (Su, average)\nMelee\nclaw +19 (2d10+12 S plus grab)\nRanged\nmi-go hailstorm-class zero pistol +19 (2d6+13 C; critical staggered [DC 20])\nOffensive Abilities\nevisceration\nMystic Spell-Like Abilities\n(CL 11th)\nAt will—\nmindlink\n,\ntelepathic bond\n11/day—\nmind probe\n(DC 22)\nMystic Spells Known\n(CL 11th; ranged +19)\n4th (3/day)—\nconfusion\n(DC 22),\nmind thrust\n(DC 22)\n3rd (6/day)—\ncharm monster\n(DC 21),\ndispel magic\n,\nsuggestion\n(DC 21),\ntongues\n2nd (at will)—\nfog cloud\n,\ninflict pain\n(DC 20)\nConnection\nAkashic\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+2;\nINT\n+5;\nWIS\n+8;\nCHA\n+1\nSkills\nAcrobatics +20, Bluff +25, Life Science +20, Medicine +20, Mysticism +25\nLanguages\nAklo, Common, Mi-Go\nOther Abilities\naccess Akashic record, Akashic knowledge, mi-go technology, spaceflight (Mysticism), peer into the future (2/day)\nGear\nmi-go hailstorm-class zero pistol with 2 mi-go high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, cult (1 plus 3-9 mi-go), or invasion (1-4 plus 6-15 mi-go)\nSpecial Abilities\nEvisceration (Ex)\nA mi-go is capable of performing swift surgical operations upon targets that are helpless or that the mi-go currently has grappled. Against such a target, any hit with the mi-go’s claw counts as a critical hit that has the severe wound critical hit effect with a save DC of 20. If the mi-go actually scores a critical hit against such a target, the mi-go rolls the damage three times instead of twice, and the save DC increases to 22.\nMi-Go Technology (Ex)\nMi-go use Life Science in place of Engineering to craft technological and hybrid items. These are technological or hybrid biotech items that work like their typical counterparts, except that Life Science is also used to repair them. Species other than mi-go can use Engineering or Life Science to identify this gear, which is alien tech.",
+  "type": "plant",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Mi-Go.png"
+}

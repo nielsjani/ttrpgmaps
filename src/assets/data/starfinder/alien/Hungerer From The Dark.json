@@ -1,0 +1,56 @@
+{
+  "name": "Hungerer From The Dark",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hungerer From The Dark&Family=None",
+  "source": "Starfinder #30: Puppets Without Strings pg. 59",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+4",
+  "senses": "blindsight (thought) 30 ft., darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+15",
+  "ref": "+15",
+  "will": "+14",
+  "dr": "10/—",
+  "speed": "30 ft., fly 60 ft. (Ex, average)",
+  "melee": "claws +27 (3d8+21 S; critical severe wound [DC 21] plus consume flesh) or horns +27 (3d12+21 P; critical bleed 2d8) or jaws +27 (3d10+21 P; critical wound [DC 21] plus consume flesh)",
+  "space": "10 ft.",
+  "reach": "Offensive Abilities",
+  "offensive_abilities": "predatory instincts",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+4",
+    "con": "+6",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +28, Athletics +23, Intimidate +23, Stealth +23",
+  "languages": "Aklo",
+  "other_abilities": "spaceflight (Acrobatics)",
+  "environment": "vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Consume Flesh (Ex)",
+      "description": "When a creature attempts a saving throw against a hungerer from the dark’s wound or severe wound critical effect and fails, the hungerer in the dark can spend 1 Resolve Point as a reaction to consume the wounded body part. Upon doing so, the hungerer in the dark heals 9d8+6 points of damage. If this healing exceeds the total amount of Hit Point damage that the hungerer from the dark has taken, it also gains the benefits of a haste spell (CL 13th)."
+    },
+    {
+      "name": "Frightful Presence (Ex)",
+      "description": "When a creature fails a saving throw against the hungerer from the dark’s frightful presence, the hungerer can spend 1 Resolve Point as a reaction. If it does, the creature is also paralyzed for 1 round."
+    },
+    {
+      "name": "Predatory Instincts (Ex)",
+      "description": "As a swift action, a hungerer from the dark can designate any one humanoid or monstrous humanoid as its prey. Against its prey, a hungerer from the dark can multiattack, making a claws, horns, and jaws attack, each at a –6 penalty. If the hungerer rolls a natural 19 on any of these attacks and hits, it applies its critical hit effect to the target, but does not roll damage twice and add the results together, nor does it double the static damage bonus, as it would on a critical hit. A hungerer in the dark can only designate one target as its prey at a time."
+    }
+  ],
+  "description": "At home in the depths of space where starlight is but a memory, creatures known as hungerers from the dark soar from world to world on bat-like wings, driven by their insatiable appetites for humanoid flesh. While intelligent, these creatures are so spurred by their incessant cravings that they care little for tactics or subtlety, preferring violent ambushes that quickly overwhelm their prey.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHungerer From The Dark\nSource\nStarfinder #30: Puppets Without Strings pg. 59\nHungerer From The Dark CR 13\nXP 25,600\nCE Large aberration\nInit\n+4;\nSenses\nblindsight (thought) 30 ft., darkvision 60 ft.;\nPerception\n+23\nAura\nfrightful presence (30 ft., DC 19)\nDefense\nHP\n225;\nRP\n5\nEAC\n27;\nKAC\n29\nFort\n+15;\nRef\n+15;\nWill\n+14\nDefensive Abilities\nvoid adaptation;\nDR\n10/—\nOffense\nSpeed\n30 ft., fly 60 ft. (Ex, average)\nMelee\nclaws +27 (3d8+21 S; critical severe wound [DC 21] plus consume flesh) or horns +27 (3d12+21 P; critical bleed 2d8) or jaws +27 (3d10+21 P; critical wound [DC 21] plus consume flesh)\nSpace\nflesh)\r\nSpace 10 ft.; Reach;\nReach\nflesh)\r\nSpace 10 ft.; Reach\nOffensive Abilities\npredatory instincts\nStatistics\nSTR\n+8;\nDEX\n+4;\nCON\n+6;\nINT\n+0;\nWIS\n+2;\nCHA\n+3\nSkills\nAcrobatics +28, Athletics +23, Intimidate +23, Stealth +23\nLanguages\nAklo\nOther Abilities\nspaceflight (Acrobatics)\nEcology\nEnvironment\nvacuum\nOrganization\nsolitary\nSpecial Abilities\nConsume Flesh (Ex)\nWhen a creature attempts a saving throw against a hungerer from the dark’s wound or severe wound critical effect and fails, the hungerer in the dark can spend 1 Resolve Point as a reaction to consume the wounded body part. Upon doing so, the hungerer in the dark heals 9d8+6 points of damage. If this healing exceeds the total amount of Hit Point damage that the hungerer from the dark has taken, it also gains the benefits of a haste spell (CL 13th).\nFrightful Presence (Ex)\nWhen a creature fails a saving throw against the hungerer from the dark’s frightful presence, the hungerer can spend 1 Resolve Point as a reaction. If it does, the creature is also paralyzed for 1 round.\nPredatory Instincts (Ex)\nAs a swift action, a hungerer from the dark can designate any one humanoid or monstrous humanoid as its prey. Against its prey, a hungerer from the dark can multiattack, making a claws, horns, and jaws attack, each at a –6 penalty. If the hungerer rolls a natural 19 on any of these attacks and hits, it applies its critical hit effect to the target, but does not roll damage twice and add the results together, nor does it double the static damage bonus, as it would on a critical hit. A hungerer in the dark can only designate one target as its prey at a time.\nDescription\nAt home in the depths of space where starlight is but a memory, creatures known as hungerers from the dark soar from world to world on bat-like wings, driven by their insatiable appetites for humanoid flesh. While intelligent, these creatures are so spurred by their incessant cravings that they care little for tactics or subtlety, preferring violent ambushes that quickly overwhelm their prey.",
+  "type": "aberration",
+  "category": "alien"
+}

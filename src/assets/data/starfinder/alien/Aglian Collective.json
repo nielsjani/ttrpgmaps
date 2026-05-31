@@ -1,0 +1,50 @@
+{
+  "name": "Aglian Collective",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Aglian Collective&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 56",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CN",
+  "size": "Tiny",
+  "creature_type": "animal (swarm)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+8",
+  "sr": "16",
+  "immunities": "swarm immunities;",
+  "resistances": "cold 5;",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "swim 40 ft.",
+  "melee": "swarm attack (1d4+5 P)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +16, Athletics +11 (+19 to swim)",
+  "languages": "Aglian, Common; telepathy 60 ft.",
+  "other_abilities": "dominant concepts, water breathing",
+  "environment": "any water",
+  "organization": "solitary or intellection (6–12)",
+  "special_abilities": [
+    {
+      "name": "Dominant Concepts (Ex)",
+      "description": "Each aglian collective has three different dominant concepts drawn from its collective members; examples are described below. These concepts determine the aglian collective’s personality, form its name, and affect its statistics. When other aglians are present, the collective can take a full action to change any of its dominant concepts, though no concept can repeat. This stat block represents a school with no concepts applied to it. At the GM’s discretion, aglian collectives can have other dominant concepts with varying effects.\nAnger:\nMelee attack damage increases by one die size.\nCharity:\nAlignment changes to CG.\nCuriosity:\nCulture and Life Science are master skills.\nFear:\n+10-foot bonus to swim speed.\nHope:\nCan reroll one d20 roll. This can be used only once per day, no matter how many times the collective changes its component concepts.\nLove:\nDiplomacy and Medicine are master skills.\nMistrust:\n+1 bonus to KAC."
+    }
+  ],
+  "description": "Each of these tiny eel-like natives of the aquatic world of Entha (page 62) has a limited individual consciousness focused around a single idea—usually a broad theoretical concept but sometimes a specific object or action like coral, bedrock, swim, or search. An aglian’s coloration varies based on the content and complexity of their particular thought, from dull gray for those that concentrate on narrow concepts to rainbow hues for those that embody curiosity or truth.\nWhile individual aglians can function in perfunctory ways, they are usually found in schools, telepathically linking with each other like neurons in a brain to form a new consciousness. EJ Corp scientists have dismissed the species as nonsapient, but the large schools in which most aglians spend their time are indeed sapient. Each member contributes and receives each other’s concept, building a collective yet individual personhood for each aglian in the school.\nWhen aglians reproduce, two or more parents contribute genetic material, and the offspring, called an elver, has an equal chance to embody either the same concept as a parent or an entirely new thought resulting from the experiences of each. In this way, the aglian population of Entha has grown to embody extremely specific and refined concepts. Their recent interactions with EJ Corp employees, however limited and scattered, have already begun to produce elvers that embody concepts like wonder, dismissal, and greed.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAglian Collective\nSource\nStarfinder #36: Professional Courtesy pg. 56\nAglian Collective CR 5\nXP 1,600\nCN Tiny animal (swarm)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+11\nDefense\nHP\n65\nEAC\n17;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+8\nDefensive Abilities\nswarm defenses;\nImmunities\nswarm immunities;\nResistances\ncold 5;\nSR\n16\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\nswim 40 ft.\nMelee\nswarm attack (1d4+5 P)\nSpace\n10 ft.;\nReach\n0 ft.\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n+2;\nINT\n+2;\nWIS\n+3;\nCHA\n+1\nSkills\nAcrobatics +16, Athletics +11 (+19 to swim)\nLanguages\nAglian, Common; telepathy 60 ft.\nOther Abilities\ndominant concepts, water breathing\nEcology\nEnvironment\nany water\nOrganization\nsolitary or intellection (6–12)\nSpecial Abilities\nDominant Concepts (Ex)\nEach aglian collective has three different dominant concepts drawn from its collective members; examples are described below. These concepts determine the aglian collective’s personality, form its name, and affect its statistics. When other aglians are present, the collective can take a full action to change any of its dominant concepts, though no concept can repeat. This stat block represents a school with no concepts applied to it. At the GM’s discretion, aglian collectives can have other dominant concepts with varying effects.\nAnger:\nMelee attack damage increases by one die size.\nCharity:\nAlignment changes to CG.\nCuriosity:\nCulture and Life Science are master skills.\nFear:\n+10-foot bonus to swim speed.\nHope:\nCan reroll one d20 roll. This can be used only once per day, no matter how many times the collective changes its component concepts.\nLove:\nDiplomacy and Medicine are master skills.\nMistrust:\n+1 bonus to KAC.\nDescription\nEach of these tiny eel-like natives of the aquatic world of Entha (page 62) has a limited individual consciousness focused around a single idea—usually a broad theoretical concept but sometimes a specific object or action like coral, bedrock, swim, or search. An aglian’s coloration varies based on the content and complexity of their particular thought, from dull gray for those that concentrate on narrow concepts to rainbow hues for those that embody curiosity or truth.\nWhile individual aglians can function in perfunctory ways, they are usually found in schools, telepathically linking with each other like neurons in a brain to form a new consciousness. EJ Corp scientists have dismissed the species as nonsapient, but the large schools in which most aglians spend their time are indeed sapient. Each member contributes and receives each other’s concept, building a collective yet individual personhood for each aglian in the school.\nWhen aglians reproduce, two or more parents contribute genetic material, and the offspring, called an elver, has an equal chance to embody either the same concept as a parent or an entirely new thought resulting from the experiences of each. In this way, the aglian population of Entha has grown to embody extremely specific and refined concepts. Their recent interactions with EJ Corp employees, however limited and scattered, have already begun to produce elvers that embody concepts like wonder, dismissal, and greed.",
+  "type": "animal (swarm)",
+  "category": "alien"
+}

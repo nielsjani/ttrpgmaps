@@ -1,0 +1,57 @@
+{
+  "name": "Kiirinta, Shaman",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shaman&Family=Kiirinta",
+  "source": "Alien Archive 4 pg. 62",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CN",
+  "size": "Small",
+  "creature_type": "fey",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+9",
+  "speed": "30 ft., fly 20 ft. (Ex, average)",
+  "melee": "medium sap +9 (1d6+6 B nonlethal)",
+  "ranged": "corona laser pistol +11 (2d4+6 F; critical burn 1d4)",
+  "offensive_abilities": "grasping vines (DC 16), reverberating shriek (DC 16)",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "At will—\nmindlink\nMystic Spells Known\n(CL 6th)\n2nd (3/day)—\nfog cloud\n,\nforce blast\n(DC 18)\n1st (6/day)—\nlife bubble\n,\nmind thrust\n(DC 17),\nmystic cure\n0 (at will)—\ndetect magic\n,\nstabilize\nConnection\nxenodruid"
+  },
+  "spells": "(CL 6th)\n2nd (3/day)—\nfog cloud\n,\nforce blast\n(DC 18)\n1st (6/day)—\nlife bubble\n,\nmind thrust\n(DC 17),\nmystic cure\n0 (at will)—\ndetect magic\n,\nstabilize\nConnection\nxenodruid",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+2",
+    "int": "+2",
+    "wis": "+5",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +13, Life Science +18, Mysticism +18, Survival +13",
+  "languages": "Common, Kiirinta; limited telepathy 30 ft., speak with animals",
+  "other_abilities": "animal adaptation (6 minutes)",
+  "gear": "freebooter armor II, corona laser pistol, medium sapAR",
+  "environment": "any (Stabrisis-14)",
+  "organization": "solitary, pair, or kaleidoscope (3–10)",
+  "special_abilities": [
+    {
+      "name": "Fluttercloud (Ex)",
+      "description": "Once every 10 minutes, as a move action, a kiirinta within 15 feet of the ground can flutter its wings to stir up a cloud of debris and glistening sparkles around themself, granting the kiirinta concealment (20% miss chance) for 1d4 rounds or until they leave their space."
+    },
+    {
+      "name": "Reverberating Shriek (Ex)",
+      "description": "Once every 10 minutes, as a standard action, a kiirinta can emit a shriek of sonic energy at an adjacent creature, causing painful vibrations throughout the target’s body. This gives the target the staggered condition for 1d4 rounds. The target can attempt a DC 16 Fortitude save to negate the effect."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nKiirinta Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKiirinta\nSource\nAlien Archive 4 pg. 62\nKiirintas are small, moth-like creatures with brightly colored wings, six limbs, and a pair of feathery antennae above their insectile eyes. Their front two limbs have three grasping, finger-like appendages for manipulating objects. Their back limbs have several jagged claws, and they can rear up on their two hindmost limbs to reach their full height of 3 to 4 feet. Kiirintas can live up to 500 years and reach adulthood at 30.\nKiirintas’ home world, called Stabrisis-14 by the Starfinder Society, is the fourth planet orbiting an immense red star in Near Space. Kiirintas themselves referred to their planet simply as “the world,” but now that they have begun to make contact with galactic society, those who go off-planet typically refer to their home by its Starfinder Society moniker. Stabrisis-14 is a verdant jungle planet that experiences frequent influxes of planar energy from the First World, influencing its landscape and inhabitants. Though there are currently no active portals to the wild plane, kiirintas pass down legends of how their ancestors migrated to their planet via a now-lost planar breach.\nTraditionally, kiirintas work as nomadic hunter-gatherers who venerate a pantheon of nature deities. Across the planet, they are organized into various groups, each with its own territory. Each group has multiple small settlements across the jungles that members rotate between based on the season and their mood. The majority of kiirintas divide themselves into two castes: the Reflectors and the Builders. The Builders focus on physical pursuits and serve as warriors and hunters, whereas the Reflectors focus on mental pursuits, studying magic and strategy. The castes are equal in terms of status, and individuals in either can rise to positions of power within a tribe. Due to the kiirintas’ strong tendency toward individualism, hereditary positions are rare. While impressive parentage can be influential, most kiirintas believe in judging others by their deeds.\nKiirinta society rewards boldness and daring, and the ability to recount one’s exploits for others is almost as important as the deeds themselves. Kiirinta culture prizes storytelling—the more outlandish the tale, the better. As a result, kiirintas’ historical records are somewhat muddled, as they often tell tall tales and embellish even the most minor details to make their stories all the more impressive.\nRecently, the Starfinder Society interceded on Stabrisis-14 when several weapon caches were dropped on the planet, inciting conflict within a kiirinta tribe and resulting in kiirintas’ introduction to the larger galaxy. Though still somewhat localized, word of the life forms and technologies on other planets is spreading quickly among kiirintas, and their natural curiosity is encouraging many to find their way off Stabrisis-14 to explore the universe. Kiirintas of both castes have taken an eager interest in newly discovered technologies and peoples.\nAliens in the \"Kiirinta\" Family\nName\nCR\nGuard\n3\nShaman\n6\nKiirinta, Shaman\nSource\nAlien Archive 4 pg. 62\nShaman CR 6\nXP 2,400\nKiirinta mystic\nCN Small fey\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n75;\nRP\n4\nEAC\n17;\nKAC\n18\nFort\n+7;\nRef\n+7;\nWill\n+9\nDefensive Abilities\nfluttercloud\nOffense\nSpeed\n30 ft., fly 20 ft. (Ex, average)\nMelee\nmedium sap +9 (1d6+6 B nonlethal)\nRanged\ncorona laser pistol +11 (2d4+6 F; critical burn 1d4)\nOffensive Abilities\ngrasping vines (DC 16), reverberating shriek (DC 16)\nMystic Spell-Like Abilities\n(CL 6th)\nAt will—\nmindlink\nMystic Spells Known\n(CL 6th)\n2nd (3/day)—\nfog cloud\n,\nforce blast\n(DC 18)\n1st (6/day)—\nlife bubble\n,\nmind thrust\n(DC 17),\nmystic cure\n0 (at will)—\ndetect magic\n,\nstabilize\nConnection\nxenodruid\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+2;\nINT\n+2;\nWIS\n+5;\nCHA\n+1\nSkills\nAcrobatics +13, Life Science +18, Mysticism +18, Survival +13\nLanguages\nCommon, Kiirinta; limited telepathy 30 ft., speak with animals\nOther Abilities\nanimal adaptation (6 minutes)\nGear\nfreebooter armor II, corona laser pistol, medium sapAR\nEcology\nEnvironment\nany (Stabrisis-14)\nOrganization\nsolitary, pair, or kaleidoscope (3–10)\nSpecial Abilities\nFluttercloud (Ex)\nOnce every 10 minutes, as a move action, a kiirinta within 15 feet of the ground can flutter its wings to stir up a cloud of debris and glistening sparkles around themself, granting the kiirinta concealment (20% miss chance) for 1d4 rounds or until they leave their space.\nReverberating Shriek (Ex)\nOnce every 10 minutes, as a standard action, a kiirinta can emit a shriek of sonic energy at an adjacent creature, causing painful vibrations throughout the target’s body. This gives the target the staggered condition for 1d4 rounds. The target can attempt a DC 16 Fortitude save to negate the effect.\nExtra Content\nThe following extra content was found for this creature:\n-\nKiirinta Race Entry",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Kiirita_Shaman.png"
+}

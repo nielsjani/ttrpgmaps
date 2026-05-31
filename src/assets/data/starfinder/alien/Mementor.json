@@ -1,0 +1,47 @@
+{
+  "name": "Mementor",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mementor&Family=None",
+  "source": "Starfinder #12: Heart of Night pg. 58",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "fey (extraplanar)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+23",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+16",
+  "speed": "30 ft., fly 90 ft. (Ex, average)",
+  "melee": "claws +21 (4d6+16 S and memory theft; critical confuse [DC 21])",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th",
+    "spells": "1/day—\ngreater synaptic pulse\n(DC 24),\nmodify memory\n(DC 24)\n3/day—\nconfusion\n(DC 23),\ndiscern lies\n(DC 23),\nhaste\n,\nmind probe\n(DC 23)\nAt will—\nhologram memory\n(DC 22),\nmind thrust\n(3rd level, DC 22)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +23, Bluff 28, Culture +23, Sense Motive +28, Stealth +28",
+  "languages": "Common, First Speech; truespeech",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary or convocation (2–4)",
+  "special_abilities": [
+    {
+      "name": "Memory Theft (Su)",
+      "description": "A creature that takes damage from a mementor’s claws must succeed at a DC 21 Will save or suffer memory loss that takes the form of a cumulative –1 penalty to Intelligence-, Wisdom-, and Charisma-based ability checks and skill checks, as well as to the DCs of spells and special abilities based on those ability scores. If this penalty ever reduces a spellcaster’s key ability score modifier to +0 or lower, the spellcaster can no longer cast their highest level of spells. When the penalty reduces a creature’s ability modifier in any affected ability score to –5, the creature is immediately affected as if by the feeblemind spell. A creature that doesn’t arrive at the feeblemind stage can recover from the penalty as if each –1 increment were a temporary negative level. The restoration spell works on each –1 increment as if it were a permanent negative level, but psychic surgery can cure the entire penalty at once. Mindless creatures are immune to this effect."
+    }
+  ],
+  "description": "Skeletally slim, a mementor is like a humanoid mantis with chitin of various hues. The creature also has mantis-like wings, which it drones, shimmers, and vibrates in specific patterns to create its confusion spell-like ability, and which it snaps to create its greater synaptic pulse.\nMementors are fey embodiments of the horrors of memory loss. They consume memories, causing lasting amnesia in their victims. Such prey can end up in a permanent state of infantile wonder, fear, or bewilderment. Though fey, mementors are native to the Shadow Plane and tied to Count Ranalc, one of the Eldest. Some scholars believe they manifested from the count’s fear of or rage at being forgotten. Others say mementors arose as a byproduct of the Gap. Unscrupulous corporations and governments employ mementors as memory assassins to wipe knowledge from targets without killing them. Mementors of this sort often work with a team of mortal mercenaries.\nA mementor stands 6 feet tall but weighs just 100 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMementor\nSource\nStarfinder #12: Heart of Night pg. 58\nMementor CR 13\nXP 25,600\nN Medium fey (extraplanar)\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+23\nDefense\nHP\n190\nEAC\n26;\nKAC\n27\nFort\n+14;\nRef\n+14;\nWill\n+16\nOffense\nSpeed\n30 ft., fly 90 ft. (Ex, average)\nMelee\nclaws +21 (4d6+16 S and memory theft; critical confuse [DC 21])\nSpell-Like Abilities\n(CL 13th)\n1/day—\ngreater synaptic pulse\n(DC 24),\nmodify memory\n(DC 24)\n3/day—\nconfusion\n(DC 23),\ndiscern lies\n(DC 23),\nhaste\n,\nmind probe\n(DC 23)\nAt will—\nhologram memory\n(DC 22),\nmind thrust\n(3rd level, DC 22)\nStatistics\nSTR\n+3;\nDEX\n+6;\nCON\n+0;\nINT\n+3;\nWIS\n+5;\nCHA\n+4\nSkills\nAcrobatics +23, Bluff 28, Culture +23, Sense Motive +28, Stealth +28\nLanguages\nCommon, First Speech; truespeech\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary or convocation (2–4)\nSpecial Abilities\nMemory Theft (Su)\nA creature that takes damage from a mementor’s claws must succeed at a DC 21 Will save or suffer memory loss that takes the form of a cumulative –1 penalty to Intelligence-, Wisdom-, and Charisma-based ability checks and skill checks, as well as to the DCs of spells and special abilities based on those ability scores. If this penalty ever reduces a spellcaster’s key ability score modifier to +0 or lower, the spellcaster can no longer cast their highest level of spells. When the penalty reduces a creature’s ability modifier in any affected ability score to –5, the creature is immediately affected as if by the feeblemind spell. A creature that doesn’t arrive at the feeblemind stage can recover from the penalty as if each –1 increment were a temporary negative level. The restoration spell works on each –1 increment as if it were a permanent negative level, but psychic surgery can cure the entire penalty at once. Mindless creatures are immune to this effect.\nDescription\nSkeletally slim, a mementor is like a humanoid mantis with chitin of various hues. The creature also has mantis-like wings, which it drones, shimmers, and vibrates in specific patterns to create its confusion spell-like ability, and which it snaps to create its greater synaptic pulse.\nMementors are fey embodiments of the horrors of memory loss. They consume memories, causing lasting amnesia in their victims. Such prey can end up in a permanent state of infantile wonder, fear, or bewilderment. Though fey, mementors are native to the Shadow Plane and tied to Count Ranalc, one of the Eldest. Some scholars believe they manifested from the count’s fear of or rage at being forgotten. Others say mementors arose as a byproduct of the Gap. Unscrupulous corporations and governments employ mementors as memory assassins to wipe knowledge from targets without killing them. Mementors of this sort often work with a team of mortal mercenaries.\nA mementor stands 6 feet tall but weighs just 100 pounds.",
+  "type": "fey (extraplanar)",
+  "category": "alien"
+}

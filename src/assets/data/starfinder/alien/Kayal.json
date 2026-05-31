@@ -1,0 +1,53 @@
+{
+  "name": "Kayal",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kayal&Family=None",
+  "source": "Starfinder #12: Heart of Night pg. 57",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+7",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+15",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+9",
+  "will": "+10",
+  "resistances": "cold 5, electricity 5",
+  "speed": "40 ft.",
+  "melee": "tactical knife +15 (2d4+8 S)",
+  "ranged": "red star plasma pistol +13 (1d8+7 E & F; critical burn 1d8) or triple focus rifle +13 (3d4+7 F; critical burn 2d4)",
+  "offensive_abilities": "debilitating trick, trick attack",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th",
+    "spells": "1/day—\ndisguise self\n(humanoid only)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+5",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +20, Bluff 20, Mysticism +15, Sleight of Hand +15, Stealth +20, Survival +15",
+  "languages": "Common, Shadowtongue",
+  "other_abilities": "operative exploits (bleeding shot, cloaking field), specialization (ghost)",
+  "gear": "d-suit II, red star plasma pistol with 2 batteries (20 charges each), triple focus rifle with 1 high-capacity battery (40 charges), tactical knife",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, hunting party (2–6), or collective (7–20)",
+  "special_abilities": [
+    {
+      "name": "Shadow Blending (Su)",
+      "description": "Attacks against a kayal in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance."
+    }
+  ],
+  "description": "Also known as fetchlings, kayals are descendants of humans trapped on the Shadow Plane millennia ago. The ambient essence of shadow has long since permeated their forms, making them their own unique species. Their time spent without direct access to light has left them bleached of color. Dark, pale, or gray of skin tone, with white or pitch-black hair and yellow eyes, kayals have tall, lithe bodies that seem to blend in and out of darkness effortlessly. Some kayals are said to be able to command the shadows themselves, manipulating their appearance or using them as a conduit to travel across space and even between the planes.\nKayals have spent hundreds of centuries dealing with creatures native to the Shadow Plane, which requires a certain amount of moral ambiguity. As a result, they have made deals and agreements with creatures that most other species would consider dangerous or evil. For kayals, these agreements were a matter of simple survival—the pragmatic decision is always the right one, even if it involves shaking hands with those others might consider to be monsters.\nKayals on the Material Plane tend to conceal their appearances with hooded cloaks or masks, even though they are not sensitive to bright light. These kayals hide themselves either out of fear of prejudice from those who had bad dealings with their ancestors or because they are embarking on nefarious deeds and don’t wish to be recognized by local authorities.",
+  "extra_content": "The following extra content was found for this creature:\n-\nKayal Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKayal\nSource\nStarfinder #12: Heart of Night pg. 57\nKayal CR 7\nXP 3,200\nKayal operative\nN Medium outsider (native)\nInit\n+7;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+15\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+6;\nRef\n+9;\nWill\n+10\nDefensive Abilities\nevasion, shadow blending, uncanny agility;\nResistances\ncold 5, electricity 5\nOffense\nSpeed\n40 ft.\nMelee\ntactical knife +15 (2d4+8 S)\nRanged\nred star plasma pistol +13 (1d8+7 E & F; critical burn 1d8) or triple focus rifle +13 (3d4+7 F; critical burn 2d4)\nOffensive Abilities\ndebilitating trick, trick attack \r\n+4d8\nKayal Spell-Like Abilities\n(CL 7th)\n1/day—\ndisguise self\n(humanoid only)\nStatistics\nSTR\n+1;\nDEX\n+5;\nCON\n+1;\nINT\n+4;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +20, Bluff 20, Mysticism +15, Sleight of Hand +15, Stealth +20, Survival +15\nLanguages\nCommon, Shadowtongue\nOther Abilities\noperative exploits (bleeding shot, cloaking field), specialization (ghost)\nGear\nd-suit II, red star plasma pistol with 2 batteries (20 charges each), triple focus rifle with 1 high-capacity battery (40 charges), tactical knife\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, hunting party (2–6), or collective (7–20)\nSpecial Abilities\nShadow Blending (Su)\nAttacks against a kayal in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance.\nDescription\nAlso known as fetchlings, kayals are descendants of humans trapped on the Shadow Plane millennia ago. The ambient essence of shadow has long since permeated their forms, making them their own unique species. Their time spent without direct access to light has left them bleached of color. Dark, pale, or gray of skin tone, with white or pitch-black hair and yellow eyes, kayals have tall, lithe bodies that seem to blend in and out of darkness effortlessly. Some kayals are said to be able to command the shadows themselves, manipulating their appearance or using them as a conduit to travel across space and even between the planes.\nKayals have spent hundreds of centuries dealing with creatures native to the Shadow Plane, which requires a certain amount of moral ambiguity. As a result, they have made deals and agreements with creatures that most other species would consider dangerous or evil. For kayals, these agreements were a matter of simple survival—the pragmatic decision is always the right one, even if it involves shaking hands with those others might consider to be monsters.\nKayals on the Material Plane tend to conceal their appearances with hooded cloaks or masks, even though they are not sensitive to bright light. These kayals hide themselves either out of fear of prejudice from those who had bad dealings with their ancestors or because they are embarking on nefarious deeds and don’t wish to be recognized by local authorities.\nExtra Content\nThe following extra content was found for this creature:\n-\nKayal Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

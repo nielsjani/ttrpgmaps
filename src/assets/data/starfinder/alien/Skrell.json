@@ -1,0 +1,51 @@
+{
+  "name": "Skrell",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Skrell&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 60",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "speed": "20 ft., fly 40 ft. (Su, perfect)",
+  "melee": "tail barb +15 (1d12+8 P) or tentacle +15 (1d4+8 B plus grab)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with tentacles)",
+  "offensive_abilities": "mindsiphon",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "-1",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +21 (+29 to fly), Bluff +16, Mysticism +16, Sleight of Hand +21, Stealth +21",
+  "languages": "Aklo, Common, and 5 others (can’t speak any language); telepathy 100 ft.",
+  "other_abilities": "compression",
+  "environment": "any (Shadari Confederacy)",
+  "organization": "solitary, trio, or fellowship (6 or more)",
+  "special_abilities": [
+    {
+      "name": "Cognitive Blur (Su)",
+      "description": "As a move action, a skrell can tap into their innate psychic power to cause their outline to shift and blur, making their exact positioning difficult to determine visually. The skrell gains concealment until they deactivate this ability with another move action. This is a mind-affecting effect that other skrells are immune to."
+    },
+    {
+      "name": "Mindsiphon (Su)",
+      "description": "As a standard action, a skrell can make a single tentacle attack against an opponent they began their turn grappling, wrapping the appendage around its head. A successful attack deals 2d8+10 damage (instead of the tentacle’s usual piercing damage) as the skrell assaults the target’s mind. On a critical hit, the target also moves one step down the Intelligence poison track if it fails a DC 18 Will saving throw. This is a mind-affecting effect."
+    }
+  ],
+  "description": "Skrells are rare psychic beings hailing from the dreary gas giant Fifth Shadar. A skrell resembles a bulbous, violet mandrake root, with several tentacle-like “roots” hanging below their main body. An additional tentacle with a powerful barbed tip functions as both a defense mechanism and a stabilizing tail during flight. A skrell has no facial features to speak of; they receive sensory input from millions of nearly invisible cilia across their body and speak solely through telepathy.\nAs a societal evolution stemming from a lack of solid land within Fifth Shadar, skrells are often nomadic. However, the gas giant does occasionally attract large pieces of space debris—such as meteorites—that survive entry into its roiling mists. Such masses of rock function as tiny islands upon which skrells build organic-looking towns of crystal and resin. With the aid of other species such as draeliks, skrells have taken to the stars in the past few centuries. Many are adherents of the philosophy of Ataxxea, while others simply seek to expand their knowledge of all things mystical. Less reputable skrells hire themselves out to groups looking to use their unique psychic gifts—and ability to gain entry to a wide variety of places—for illegal and nefarious purposes.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSkrell\nSource\nStarfinder #44: Allies Against the Eye pg. 60\nSkrell CR 8\nXP 4,800\nCN Medium aberration\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+13\nDefensive Abilities\ncognitive blur\nOffense\nSpeed\n20 ft., fly 40 ft. (Su, perfect)\nMelee\ntail barb +15 (1d12+8 P) or tentacle +15 (1d4+8 B plus grab)\nMultiattack\n4 tentacles +9 (1d4+8 B plus grab)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with tentacles)\nOffensive Abilities\nmindsiphon\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n-1;\nINT\n+6;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +21 (+29 to fly), Bluff +16, Mysticism +16, Sleight of Hand +21, Stealth +21\nLanguages\nAklo, Common, and 5 others (can’t speak any language); telepathy 100 ft.\nOther Abilities\ncompression\nEcology\nEnvironment\nany (Shadari Confederacy)\nOrganization\nsolitary, trio, or fellowship (6 or more)\nSpecial Abilities\nCognitive Blur (Su)\nAs a move action, a skrell can tap into their innate psychic power to cause their outline to shift and blur, making their exact positioning difficult to determine visually. The skrell gains concealment until they deactivate this ability with another move action. This is a mind-affecting effect that other skrells are immune to.\nMindsiphon (Su)\nAs a standard action, a skrell can make a single tentacle attack against an opponent they began their turn grappling, wrapping the appendage around its head. A successful attack deals 2d8+10 damage (instead of the tentacle’s usual piercing damage) as the skrell assaults the target’s mind. On a critical hit, the target also moves one step down the Intelligence poison track if it fails a DC 18 Will saving throw. This is a mind-affecting effect.\nDescription\nSkrells are rare psychic beings hailing from the dreary gas giant Fifth Shadar. A skrell resembles a bulbous, violet mandrake root, with several tentacle-like “roots” hanging below their main body. An additional tentacle with a powerful barbed tip functions as both a defense mechanism and a stabilizing tail during flight. A skrell has no facial features to speak of; they receive sensory input from millions of nearly invisible cilia across their body and speak solely through telepathy.\nAs a societal evolution stemming from a lack of solid land within Fifth Shadar, skrells are often nomadic. However, the gas giant does occasionally attract large pieces of space debris—such as meteorites—that survive entry into its roiling mists. Such masses of rock function as tiny islands upon which skrells build organic-looking towns of crystal and resin. With the aid of other species such as draeliks, skrells have taken to the stars in the past few centuries. Many are adherents of the philosophy of Ataxxea, while others simply seek to expand their knowledge of all things mystical. Less reputable skrells hire themselves out to groups looking to use their unique psychic gifts—and ability to gain entry to a wide variety of places—for illegal and nefarious purposes.",
+  "type": "aberration",
+  "category": "alien"
+}

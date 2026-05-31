@@ -1,0 +1,53 @@
+{
+  "name": "Charlatans, Impostor",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Impostor&Family=Charlatans",
+  "source": "Interstellar Species pg. 158",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "aberration (shapechanger)",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+13",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+11",
+  "speed": "30 ft.",
+  "melee": "distortion mirage dagger +14 (1d4+8 F)",
+  "ranged": "corona laser pistol +12 (2d4+6 F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+1",
+    "con": "+0",
+    "int": "+3",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Bluff +18, Culture +18, Diplomacy +13, Disguise +18, Intimidate +13, Sense Motive +13",
+  "languages": "Common, up to 2 others",
+  "other_abilities": "change form , compression , cover slip-up, deep cover, many forms",
+  "gear": "lashunta mind mail I (",
+  "special_abilities": [
+    {
+      "name": "Cover Slip-Up (Ex)",
+      "description": "The first time each day a creature would succeed at a Perception check to see through the impostor’s disguise or a Sense Motive check to disbelieve the impostor’s lie, treat that creature’s result as if it rolled a natural 1 on its check."
+    },
+    {
+      "name": "Deep Cover (Ex)",
+      "description": "Twenty-four hours after initially adopting a persona, an impostor gains a +2 bonus on Bluff checks to lie and Disguise checks made to maintain that persona. The impostor loses these bonuses immediately upon impersonating another person with Disguise or change form."
+    },
+    {
+      "name": "Friendly Face (Ex)",
+      "description": "As a reaction when the impostor is the target of an attack roll, they can temporarily shift their facial features and demeanor to resemble an innocent or someone their attacker knows. The impostor attempts a Disguise check with a DC equal to 10 + their attacker’s Sense Motive modifier. On a success, the attacker takes a –2 penalty to the triggering attack roll."
+    }
+  ],
+  "description": "Impostors are expert actors and liars, trained to look like countless species and to portray these species in conjunction with other cultures, social strata, jobs, and personalities. Impostors are perceptive, think on their feet, and always ready to adapt to changing circumstances. More benign impostors find work as actors, celebrity impersonators, and comedians.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCharlatans\nSource\nInterstellar Species pg. 158\nThroughout the galaxy charlatans run countless cons, scams, and tricks, from small scale to large, from harmless to downright dangerous. Although their methods, modes, and goals vary, charlatans are nearly always selfish, greedy, and unscrupulous. Occasionally, a charlatan uses their skills to entertain, inspire, and astound—or to rip off oppressors, villains, and faceless mega corporations—but they’re the exception, not the rule. The following charlatans represent a diverse array of con artists, scammers, and impostors.\nAliens in the \"Charlatans\" Family\nName\nCR\nCon Artist\n1/2\nFalse Prophet\n8\nGrifter\n2\nImpostor\n6\nCharlatans, Impostor\nSource\nInterstellar Species pg. 158\nImpostor CR 6\nXP 2,400\nAstrazoan\nNE Medium aberration (shapechanger)\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+13\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+5;\nRef\n+5;\nWill\n+11\nDefensive Abilities\nfriendly face\nOffense\nSpeed\n30 ft.\nMelee\ndistortion mirage dagger +14 (1d4+8 F)\nRanged\ncorona laser pistol +12 (2d4+6 F; critical burn 1d4)\nStatistics\nSTR\n+2;\nDEX\n+1;\nCON\n+0;\nINT\n+3;\nWIS\n+2;\nCHA\n+5\nSkills\nBluff +18, Culture +18, Diplomacy +13, Disguise +18, Intimidate +13, Sense Motive +13\nLanguages\nCommon, up to 2 others\nOther Abilities\nchange form , compression , cover slip-up, deep cover, many forms\nGear\nlashunta mind mail I (\nglamer projector\n), corona laser pistol with 2 batteries (20 charges each), distortion mirage dagger with 2 batteries (20 charges each)\nSpecial Abilities\nCover Slip-Up (Ex)\nThe first time each day a creature would succeed at a Perception check to see through the impostor’s disguise or a Sense Motive check to disbelieve the impostor’s lie, treat that creature’s result as if it rolled a natural 1 on its check.\nDeep Cover (Ex)\nTwenty-four hours after initially adopting a persona, an impostor gains a +2 bonus on Bluff checks to lie and Disguise checks made to maintain that persona. The impostor loses these bonuses immediately upon impersonating another person with Disguise or change form.\nFriendly Face (Ex)\nAs a reaction when the impostor is the target of an attack roll, they can temporarily shift their facial features and demeanor to resemble an innocent or someone their attacker knows. The impostor attempts a Disguise check with a DC equal to 10 + their attacker’s Sense Motive modifier. On a success, the attacker takes a –2 penalty to the triggering attack roll.\nDescription\nImpostors are expert actors and liars, trained to look like countless species and to portray these species in conjunction with other cultures, social strata, jobs, and personalities. Impostors are perceptive, think on their feet, and always ready to adapt to changing circumstances. More benign impostors find work as actors, celebrity impersonators, and comedians.",
+  "type": "aberration (shapechanger)",
+  "environment": "—",
+  "category": "alien"
+}

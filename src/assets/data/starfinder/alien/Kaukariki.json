@@ -1,0 +1,42 @@
+{
+  "name": "Kaukariki",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kaukariki&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 271",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+5",
+  "hp": "18",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+5",
+  "ref": "+5",
+  "will": "+1",
+  "speed": "30 ft., climb 30 ft., fly 40 ft. (Ex, clumsy)",
+  "melee": "sting +9 (1d4+2 P plus kaukariki venom)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +5, Intimidate +5, Stealth +5",
+  "environment": "warm forests (Castrovel)",
+  "organization": "solitary, pair, or troop (3–18)",
+  "special_abilities": [
+    {
+      "name": "Scamper (Ex)",
+      "description": "When a kaukariki is hit by an attack of opportunity, it can attempt an Acrobatics check as a reaction. If the result of the Acrobatics check equals or exceeds the result of the attack roll, the attack of opportunity misses, and the kaukariki gains a +1 morale bonus to attack and damage rolls until the end of its next turn.\nKaukariki Venom\nType\npoison (injury);\nSave\nFortitude DC 11\nTrack\nDexterity;\nFrequency\n1/round for 6 rounds\nCure\n1 save"
+    }
+  ],
+  "description": "Kaukarikis are inquisitive pests named after the sound of their warning vocalizations in the presence of threats; most who interact with the creatures directly prefer to call them by the less endearing moniker of “stingbats.” Primarily frugivores, kaukarikis scamper about in woodland canopies and glide from tree to tree, each troop migrating widely over its claimed territory to exploit seasonal food sources. The creatures readily take advantage of other sources of food as needed, including insects, young leaves, bark, and even meat on rare occasions. In fact, particularly large troops—especially those with a newly ascendant alpha female—sometimes organize a hunt to take down modest prey and share the kill to reinforce social bonds within the group.\nThe creature’s eponymous stinger serves both defensive and offensive purposes. Few predators in the kaukarikis’ range are willing to risk the painful venom, especially because the pests often rally to one another’s defense to mob assailants. This fearsome reputation seems to embolden kaukarikis, which infamously incite each other to harass trespassers as a way of demonstrating bravery and establishing a pecking order within the troop. For all their venom’s power, it isn’t produced directly by the kaukarikis’ bodies; many of their favorite fruits and seeds are toxic, and the creatures’ digestive systems separate and store the poisons within a small venom sac near the tip of the tail. As a result, kaukarikis fed different diets might develop venom that damages a different ability score or lose their poison altogether.\nKaukariki mating habits often coincide with massive feasts of fruits, with the male that consumes the most food being seen as the most desirable mate. The alpha female chooses first from among the potential mates, followed by the other females that have the alpha’s permission. A female that attempts to take a mate without permission is often attacked and driven off by the rest of the troop. Such a kaukariki is then left to fend for herself, and sometimes she becomes the alpha of her own troop.\nKaukarikis are most common on the continent of Ukulam, though on Asana they have adapted to the dominant lashunta city-states by adopting new habits better suited to urban environments. The people of Castrovel err on the side of deterring and dispersing kaukarikis back into the wild, though they don’t hesitate to take more drastic action when a local population gets out of hand. That’s even truer in the famed fruit orchards of southern Asana, where the kaukarikis can be so disruptive that local authorities often incentivize  hunting  down the creatures to trim their numbers.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKaukariki\nSource\nStarfinder Dead Suns Adventure Path pg. 271\n,\nStarfinder #2: Temple of the Twelve pg. 56\nKaukariki CR 1\nXP 400\nN Small magical beast\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+5\nDefense\nHP\n18\nEAC\n11;\nKAC\n13\nFort\n+5;\nRef\n+5;\nWill\n+1\nDefensive Abilities\nscamper\nOffense\nSpeed\n30 ft., climb 30 ft., fly 40 ft. (Ex, clumsy)\nMelee\nsting +9 (1d4+2 P plus kaukariki venom)\nStatistics\nSTR\n+1;\nDEX\n+3;\nCON\n+1;\nINT\n-2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +10, Athletics +5, Intimidate +5, Stealth +5\nEcology\nEnvironment\nwarm forests (Castrovel)\nOrganization\nsolitary, pair, or troop (3–18)\nSpecial Abilities\nScamper (Ex)\nWhen a kaukariki is hit by an attack of opportunity, it can attempt an Acrobatics check as a reaction. If the result of the Acrobatics check equals or exceeds the result of the attack roll, the attack of opportunity misses, and the kaukariki gains a +1 morale bonus to attack and damage rolls until the end of its next turn.\nKaukariki Venom\nType\npoison (injury);\nSave\nFortitude DC 11\nTrack\nDexterity;\nFrequency\n1/round for 6 rounds\nCure\n1 save\nDescription\nKaukarikis are inquisitive pests named after the sound of their warning vocalizations in the presence of threats; most who interact with the creatures directly prefer to call them by the less endearing moniker of “stingbats.” Primarily frugivores, kaukarikis scamper about in woodland canopies and glide from tree to tree, each troop migrating widely over its claimed territory to exploit seasonal food sources. The creatures readily take advantage of other sources of food as needed, including insects, young leaves, bark, and even meat on rare occasions. In fact, particularly large troops—especially those with a newly ascendant alpha female—sometimes organize a hunt to take down modest prey and share the kill to reinforce social bonds within the group.\nThe creature’s eponymous stinger serves both defensive and offensive purposes. Few predators in the kaukarikis’ range are willing to risk the painful venom, especially because the pests often rally to one another’s defense to mob assailants. This fearsome reputation seems to embolden kaukarikis, which infamously incite each other to harass trespassers as a way of demonstrating bravery and establishing a pecking order within the troop. For all their venom’s power, it isn’t produced directly by the kaukarikis’ bodies; many of their favorite fruits and seeds are toxic, and the creatures’ digestive systems separate and store the poisons within a small venom sac near the tip of the tail. As a result, kaukarikis fed different diets might develop venom that damages a different ability score or lose their poison altogether.\nKaukariki mating habits often coincide with massive feasts of fruits, with the male that consumes the most food being seen as the most desirable mate. The alpha female chooses first from among the potential mates, followed by the other females that have the alpha’s permission. A female that attempts to take a mate without permission is often attacked and driven off by the rest of the troop. Such a kaukariki is then left to fend for herself, and sometimes she becomes the alpha of her own troop.\nKaukarikis are most common on the continent of Ukulam, though on Asana they have adapted to the dominant lashunta city-states by adopting new habits better suited to urban environments. The people of Castrovel err on the side of deterring and dispersing kaukarikis back into the wild, though they don’t hesitate to take more drastic action when a local population gets out of hand. That’s even truer in the famed fruit orchards of southern Asana, where the kaukarikis can be so disruptive that local authorities often incentivize  hunting  down the creatures to trim their numbers.",
+  "type": "magical beast",
+  "category": "alien"
+}

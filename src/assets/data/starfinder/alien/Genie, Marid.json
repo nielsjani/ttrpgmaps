@@ -1,0 +1,57 @@
+{
+  "name": "Genie, Marid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Marid&Family=Genie",
+  "source": "Starfinder #18: Assault on the Crucible pg. 55",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CN",
+  "size": "Large",
+  "creature_type": "outsider (aquatic, extraplanar, water)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+10",
+  "speed": "20 ft., swim 60 ft.",
+  "melee": "slam +22 (2d10+15 B; critical knockdown)",
+  "ranged": "water bolt +20 (5d4+9 B & C; critical blind)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "vortex (4d6+9 B, DC 16, 1/10 minutes)",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th",
+    "spells": "1/year—\nwish\n(for non-genies only)\n1/day—\nholographic image\n(4th level, DC 17)\n3/day—\ninvisibility\n,\nsee invisibility\nAt will—\narcane sight\n,\nfog cloud\n,\nlife bubble\n,\nplane shift\n(willing targets to Elemental Planes, Astral Plane, or Material Plane only)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+4",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+3"
+  },
+  "skills": "Athletics +22, Diplomacy +17, Mysticism +17, Sense Motive +17, Stealth +17",
+  "languages": "Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.",
+  "other_abilities": "amphibious, change shape (humanoid)",
+  "gear": "gold AbadarCorp travel suit",
+  "environment": "any (Plane of Water)",
+  "organization": "solitary, pair, company (3–6), or band (7–12)",
+  "special_abilities": [
+    {
+      "name": "Water Bolt (Su)",
+      "description": "As a standard action, a marid can emit a bolt of heat-sapping water in a 60-foot line. The marid can choose whether or not this line of water deals damage. Regardless, the line ends the burning condition on any creature it hits and puts out fires in its area. If a fire is magical, it goes out only if its creator is of a CR or level equal to or lower than the marid’s CR.\nIn addition, the marid can cause the bolt to be continuous. Doing so has no additional effect on targets already within the line, but anything that moves across the line is attacked using the original attack roll and damage. A target the line hits but doesn’t damage blocks the line as normal. If an existing blockage is removed, the line extends out to its maximum range unless blocked anew, and it can damage creatures and objects it failed to reach previously. The marid can’t damage a target more than once per round with this continuous line. If the marid moves from where the line was initiated, the line ends immediately."
+    },
+    {
+      "name": "Water Mastery (Ex)",
+      "description": "Waterborne creatures take a –1 penalty to attack and damage rolls against a marid."
+    }
+  ],
+  "description": "While they are powerful elemental outsiders, marids are also among the most freewheeling, fun-loving, and capricious of genies. Others among their extraplanar kin—especially efreet and shaitans—see marids as annoyingly mercurial or embarrassingly frivolous, while marids find their dour counterparts too serious or rigid.\nMost marids are passionate about their pursuit of creativity and knowledge, including artistic endeavors, such as dance or storytelling, and scholarly pursuits, such as science or engineering. Curious and outgoing, they also enjoy the company of other peoples. Many travel in search of new experiences, wider audiences, and fellow philosophers; the Material Plane is a common destination, especially watery worlds or moons, such as Kalo-Mahoi.\nMarids claim to rule the Plane of Water, but the truth is that they are divided into numerous nations there. Although these states rarely engage in open conflict, they work together equally as rarely. Most ruling marids, usually monarchs, are as individualistic and capricious as the genies they rule. Marid society has complex rules of hospitality, developed over eons, to rein in their worst impulses. They also have a tradition of rewarding those they find worthy. Marids are most likely to grant a wish to another romantic or visionary, but even these whimsical genies use their reality-altering power with great care.\nA typical marid stands 16 feet tall and weighs 2,500 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGenie\nAliens in the \"Genie\" Family\nName\nCR\nDjinni\n5\nEfreeti\n8\nJanni\n4\nMarid\n9\nShaitan\n7\nGenie, Marid\nSource\nStarfinder #18: Assault on the Crucible pg. 55\nMarid CR 9\nXP 6,400\nCN Large outsider (aquatic, extraplanar, water)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+11;\nWill\n+10\nDefensive Abilities\nwater mastery\nOffense\nSpeed\n20 ft., swim 60 ft.\nMelee\nslam +22 (2d10+15 B; critical knockdown)\nRanged\nwater bolt +20 (5d4+9 B & C; critical blind)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nvortex (4d6+9 B, DC 16, 1/10 minutes)\nSpell-Like Abilities\n(CL 9th)\n1/year—\nwish\n(for non-genies only)\n1/day—\nholographic image\n(4th level, DC 17)\n3/day—\ninvisibility\n,\nsee invisibility\nAt will—\narcane sight\n,\nfog cloud\n,\nlife bubble\n,\nplane shift\n(willing targets to Elemental Planes, Astral Plane, or Material Plane only)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+4;\nINT\n+2;\nWIS\n+2;\nCHA\n+3\nSkills\nAthletics +22, Diplomacy +17, Mysticism +17, Sense Motive +17, Stealth +17\nLanguages\nAquan, Auran, Common, Ignan, Terran; telepathy 100 ft.\nOther Abilities\namphibious, change shape (humanoid)\nGear\ngold AbadarCorp travel suit\nEcology\nEnvironment\nany (Plane of Water)\nOrganization\nsolitary, pair, company (3–6), or band (7–12)\nSpecial Abilities\nWater Bolt (Su)\nAs a standard action, a marid can emit a bolt of heat-sapping water in a 60-foot line. The marid can choose whether or not this line of water deals damage. Regardless, the line ends the burning condition on any creature it hits and puts out fires in its area. If a fire is magical, it goes out only if its creator is of a CR or level equal to or lower than the marid’s CR.\nIn addition, the marid can cause the bolt to be continuous. Doing so has no additional effect on targets already within the line, but anything that moves across the line is attacked using the original attack roll and damage. A target the line hits but doesn’t damage blocks the line as normal. If an existing blockage is removed, the line extends out to its maximum range unless blocked anew, and it can damage creatures and objects it failed to reach previously. The marid can’t damage a target more than once per round with this continuous line. If the marid moves from where the line was initiated, the line ends immediately.\nWater Mastery (Ex)\nWaterborne creatures take a –1 penalty to attack and damage rolls against a marid.\nDescription\nWhile they are powerful elemental outsiders, marids are also among the most freewheeling, fun-loving, and capricious of genies. Others among their extraplanar kin—especially efreet and shaitans—see marids as annoyingly mercurial or embarrassingly frivolous, while marids find their dour counterparts too serious or rigid.\nMost marids are passionate about their pursuit of creativity and knowledge, including artistic endeavors, such as dance or storytelling, and scholarly pursuits, such as science or engineering. Curious and outgoing, they also enjoy the company of other peoples. Many travel in search of new experiences, wider audiences, and fellow philosophers; the Material Plane is a common destination, especially watery worlds or moons, such as Kalo-Mahoi.\nMarids claim to rule the Plane of Water, but the truth is that they are divided into numerous nations there. Although these states rarely engage in open conflict, they work together equally as rarely. Most ruling marids, usually monarchs, are as individualistic and capricious as the genies they rule. Marid society has complex rules of hospitality, developed over eons, to rein in their worst impulses. They also have a tradition of rewarding those they find worthy. Marids are most likely to grant a wish to another romantic or visionary, but even these whimsical genies use their reality-altering power with great care.\nA typical marid stands 16 feet tall and weighs 2,500 pounds.",
+  "type": "outsider (aquatic, extraplanar, water)",
+  "category": "alien"
+}

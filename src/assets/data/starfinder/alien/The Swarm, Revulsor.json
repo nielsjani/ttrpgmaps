@@ -1,0 +1,49 @@
+{
+  "name": "The Swarm, Revulsor",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Revulsor&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+5",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+8",
+  "will": "+5",
+  "immunities": "acid, fear effects",
+  "speed": "40 ft., climb 10 ft.",
+  "melee": "claw +13 (1d6+7 S)",
+  "offensive_abilities": "ear-splitting shriek (30‑ft. cone, 4d6 So plus deafen, DC 13), ferocity",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+1",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +15, Athletics +10, Intimidate +10",
+  "languages": "Shirren, telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or squad (3–7)",
+  "special_abilities": [
+    {
+      "name": "Ear-Splitting Shriek (Ex)",
+      "description": "As a standard action, a Swarm revulsor can let out a shriek that can split eardrums and disrupt other auditory receptors. Each creature within a 30-foot cone takes 4d6 sonic damage (Reflex DC 13 half) and is deafened for 1d4 minutes (Fortitude DC 13 negates). This shriek also ignores 4 hardness when damaging objects."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Swarm revulsors move in rapid bounds on two abnormally long lower legs. Their upper limbs end in vicious claws, while their small middle limbs are used to carry objects and assist in climbing when necessary. Their thick necks contain powerful vocal cords and highly compressed air sacs. Revulsors can often be found on the front lines of a Swarm advance, pushing back enemies with their ear-splitting shrieks. They also heal quickly and fight savagely until they or their opponents are destroyed. Revulsors almost never withdraw from combat unless compelled by the hive mind, which is very rare.\nRevulsors are usually more brightly colored than other Swarm components, as if daring enemies to target them exclusively, which helps stealthier components move to flanking positions. Revulsor carapaces also contain swatches of ultraviolet pigmentation, which some scholars believe were first developed to intimidate a long-lost enemy species that could see such colors. The few revulsors that manage to survive a campaign undergo an organic process that increases the bright and ultraviolet shades on their carapaces. Other, smaller components instinctively defer to such revulsors, who are given honored places at the forefront of the next battle.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Revulsor\nSource\nStarfinder #20: The Last Refuge pg. 61\nRevulsor CR 4\nXP 1,200\nCE Medium monstrous humanoid\nInit\n+5;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+8;\nWill\n+5\nDefensive Abilities\nSwarm mind, regeneration 5 (fire);\nImmunities\nacid, fear effects\nOffense\nSpeed\n40 ft., climb 10 ft.\nMelee\nclaw +13 (1d6+7 S)\nOffensive Abilities\near-splitting shriek (30‑ft. cone, 4d6 So plus deafen, DC 13), ferocity\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+1;\nINT\n-1;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +15, Athletics +10, Intimidate +10\nLanguages\nShirren, telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or squad (3–7)\nSpecial Abilities\nEar-Splitting Shriek (Ex)\nAs a standard action, a Swarm revulsor can let out a shriek that can split eardrums and disrupt other auditory receptors. Each creature within a 30-foot cone takes 4d6 sonic damage (Reflex DC 13 half) and is deafened for 1d4 minutes (Fortitude DC 13 negates). This shriek also ignores 4 hardness when damaging objects.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nSwarm revulsors move in rapid bounds on two abnormally long lower legs. Their upper limbs end in vicious claws, while their small middle limbs are used to carry objects and assist in climbing when necessary. Their thick necks contain powerful vocal cords and highly compressed air sacs. Revulsors can often be found on the front lines of a Swarm advance, pushing back enemies with their ear-splitting shrieks. They also heal quickly and fight savagely until they or their opponents are destroyed. Revulsors almost never withdraw from combat unless compelled by the hive mind, which is very rare.\nRevulsors are usually more brightly colored than other Swarm components, as if daring enemies to target them exclusively, which helps stealthier components move to flanking positions. Revulsor carapaces also contain swatches of ultraviolet pigmentation, which some scholars believe were first developed to intimidate a long-lost enemy species that could see such colors. The few revulsors that manage to survive a campaign undergo an organic process that increases the bright and ultraviolet shades on their carapaces. Other, smaller components instinctively defer to such revulsors, who are given honored places at the forefront of the next battle.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

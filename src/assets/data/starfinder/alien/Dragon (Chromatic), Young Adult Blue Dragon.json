@@ -1,0 +1,56 @@
+{
+  "name": "Dragon (Chromatic), Young Adult Blue Dragon",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Young Adult Blue Dragon&Family=Dragon (Chromatic)",
+  "source": "Alien Archive pg. 38",
+  "cr": "3",
+  "xp": "12,800",
+  "alignment": "LE",
+  "size": "Huge",
+  "creature_type": "dragon (earth)",
+  "init": "+4",
+  "senses": "blindsense 60 ft., darkvision 120 ft.;",
+  "perception": "+20",
+  "hp": "183",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+13",
+  "dr": "5/magic",
+  "immunities": "electricity, paralysis, sleep",
+  "speed": "40 ft., burrow 20 ft., fly 200 ft. (Ex, clumsy)",
+  "melee": "bite +24 (4d6+19 P)",
+  "ranged": "aurora arc rifle +21 (2d12+11 E, critical arc 2d6)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with bite)",
+  "offensive_abilities": "breath weapon (80-ft. line, 12d8 E, Reflex DC 18 half, usable every 1d4 rounds), crush (4d6+19 B)",
+  "spell_like_abilities": {
+    "caster_info": "CL 11th; melee +24",
+    "spells": "1/day—\ndimension door\n,\noverload systems\n(DC 17)\n3/day—\narcing surge\n(DC 16),\ndischarge\n(DC 16),\ninstant virus\n(DC 16),\ntongues\nAt will—\nrecharge\n,\nsee invisibility"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+0",
+    "con": "+5",
+    "int": "+3",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +25 (+17 when flying), Bluff +25, Computers +20, Engineering +20, Mysticism +20",
+  "languages": "Auran, Common, Draconic, Terran",
+  "other_abilities": "sound imitation",
+  "gear": "aurora arc rifle with 4 high-capacity batteries (40 charges each)",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Sound Imitation (Ex)",
+      "description": "A blue dragon can mimic any voice or sound it has heard by succeeding at a Bluff check opposed by a listener’s Sense Motive check."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nBlack Dragon (Dragon (Chromatic)) Graft Template\n-\nBlue Dragon (Dragon (Chromatic)) Graft Template\n-\nGreen Dragon (Dragon (Chromatic)) Graft Template\n-\nRed Dragon (Dragon (Chromatic)) Graft Template\n-\nWhite Dragon (Dragon (Chromatic)) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDragon (Chromatic)\nSource\nAlien Archive pg. 38\nDragons are powerful, reptilian creatures of high intelligence and ingenuity. The vast majority of dragons fall into one of two categories: chromatic or metallic (though other categories exist). Chromatic dragons (see below) are usually evil, while metallic dragons are generally good and strive to better society. Some dragons develop the ability to take on the form of a humanoid or other biped to better integrate themselves into a surrounding community. After hatching from large eggs, dragons mature through 12 age categories: wyrmling (CR 3—4), very young (CR 5—6), young (CR 7–8), juvenile (CR 9—10), young adult (CR 11—12), adult (CR 13—14), mature adult (CR 15—16), old (CR 17—18), very old (CR 19—20), ancient (CR 21—22), wyrm (CR 23—24), and great wyrm (CR 25).\nDragons in the Drakelands of Triaxus enjoy positions of rulership (often as CEOs) over the second-class humanoid citizens. Inveterate schemers, Triaxian dragons are always thinking ahead, and the risks involved in working for these dragons are matched only by the potential for lavish rewards.\nAliens in the \"Dragon (Chromatic)\" Family\nName\nCR\nYoung Adult Blue Dragon\n11\nDragon (Chromatic), Young Adult Blue Dragon\nSource\nAlien Archive pg. 38\nYoung Adult Blue Dragon CR 11\nXP 12,800\nLE Huge dragon (earth)\nInit\n+4;\nSenses\nblindsense 60 ft., darkvision 120 ft.;\nPerception\n+20\nAura\nfrightful presence (170 ft., DC 18)\nDefense\nHP\n183\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+13\nDR\n5/magic;\nImmunities\nelectricity, paralysis, sleep\nOffense\nSpeed\n40 ft., burrow 20 ft., fly 200 ft. (Ex, clumsy)\nMelee\nbite +24 (4d6+19 P)\nMultiattack\nbite +18 (4d6+19 P), 2 claws +18 (2d8+19 S), tail slap +18 (2d6+19 B)\nRanged\naurora arc rifle +21 (2d12+11 E, critical arc 2d6)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with bite)\nOffensive Abilities\nbreath weapon (80-ft. line, 12d8 E, Reflex DC 18 half, usable every 1d4 rounds), crush (4d6+19 B)\nSpell-Like Abilities\n(CL 11th; melee +24)\n1/day—\ndimension door\n,\noverload systems\n(DC 17)\n3/day—\narcing surge\n(DC 16),\ndischarge\n(DC 16),\ninstant virus\n(DC 16),\ntongues\nAt will—\nrecharge\n,\nsee invisibility\nStatistics\nSTR\n+8;\nDEX\n+0;\nCON\n+5;\nINT\n+3;\nWIS\n+3;\nCHA\n+3\nSkills\nAcrobatics +25 (+17 when flying), Bluff +25, Computers +20, Engineering +20, Mysticism +20\nLanguages\nAuran, Common, Draconic, Terran\nOther Abilities\nsound imitation\nGear\naurora arc rifle with 4 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nSound Imitation (Ex)\nA blue dragon can mimic any voice or sound it has heard by succeeding at a Bluff check opposed by a listener’s Sense Motive check.\nExtra Content\nThe following extra content was found for this creature:\n-\nBlack Dragon (Dragon (Chromatic)) Graft Template\n-\nBlue Dragon (Dragon (Chromatic)) Graft Template\n-\nGreen Dragon (Dragon (Chromatic)) Graft Template\n-\nRed Dragon (Dragon (Chromatic)) Graft Template\n-\nWhite Dragon (Dragon (Chromatic)) Graft Template",
+  "type": "dragon (earth)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Dragon_Young_Adult_Blue.png"
+}

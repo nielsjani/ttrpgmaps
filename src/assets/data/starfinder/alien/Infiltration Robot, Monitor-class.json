@@ -1,0 +1,49 @@
+{
+  "name": "Infiltration Robot, Monitor-class",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Monitor-class&Family=Infiltration Robot",
+  "source": "Alien Archive 4 pg. 102",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.; low light vision;;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "12",
+  "kac": "15",
+  "fort": "-1",
+  "ref": "-1",
+  "will": "+2",
+  "dr": "2/— Immunities construct immunities",
+  "immunities": "construct immunities",
+  "weaknesses": "vulnerable to critical hits, vulnerable to electricity",
+  "speed": "40 ft.",
+  "melee": "slam +7 (1d4+2 B)",
+  "ranged": "tactical semi-auto pistol +9 (1d6+2 P)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "—",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +7, Bluff +12, Disguise +12, Sense Motive +7, Stealth +12",
+  "languages": "Common",
+  "other_abilities": "unliving",
+  "gear": "tactical semi-auto pistol with 18 small-arm rounds",
+  "environment": "Any",
+  "organization": "solitary or conspiracy (2–4)",
+  "special_abilities": [
+    {
+      "name": "Synthskin (Ex)",
+      "description": "Infiltration robots are covered in a thick layer of synthetic, adaptive flesh, allowing them to impersonate other species and insulating them from typical robot weaknesses; however, this facade fades and loses its protective qualities once heavily damaged. While its synthskin is active, an infiltration robot appears to be a member of a medium-sized humanoid or monstrous humanoid species (chosen at the robot’s creation) and it is not vulnerable to critical hits or electricity. While an infiltration robot has fewer than half of its Hit Points remaining, its synthskin is deactivated, it is revealed as a construct, and it is vulnerable to critical hits and electricity as normal."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nInfiltration Robot\nSource\nAlien Archive 4 pg. 102\nBeneath layers of synthskin and expert disguises, every infiltration robot is basically identical. A spindly, humanoid machine’s frame between 4 and 6 feet in height, lacking any feature that might indicate some specific design inspiration. By design, however, this interior is rarely seen. To most, an infiltration robot simply looks like some humanoid they know: a grocer, a pilot, or even a coworker with a penchant for cheesy snacks.\nThese disguises are made possible by the synthskin that coats every infiltration robot. Synthskin is a pliable, synthetic substance that can be tuned to perfectly mimic a variety of humanoid species, even simulating blood and internal organs. Paired with an adjustable chassis, synthskin allows infiltration robots to be built as near-perfect replicas of a variety of humanoid species and subspecies. Social mimicry is handled by advanced processing centers that border on true AI, allowing for swift swapping between simulated personalities as well as resulting in all the quirks and personality development of intelligent life.\nThe most basic form of infiltration robot is the monitor class. Monitors are primarily meant to observe and report upon their targets. While capable of combat, and in theory assassination, it is generally considered a last resort. Whatever information the monitor can get back to its controller is likely far more valuable than anyone it could reasonably kill, and damage from combat risks revealing the mechanical nature of the spy. As such, if a monitor initiates combat is likely believes that it has been found out, or that something far more valuable than its mission is at stake.\nMore advanced by far are exterminator-class infiltration robots. Exterminators feature prototype nanobot swarms embedded in their chassis, allowing them to shrug off damage and swiftly repair their synthskin if it is damaged in battle. They can also effortlessly reshape their synthskin, changing their height, color, gender expression, apparent age, and species on the fly. This makes them both more resilient in battle and far more adaptable as assassins than monitor-class robots, as they can shift disguises as often as needed to approach virtually any target unsuspected. This adaptability also makes them much more aggressive; exterminators whose disguise is compromised can simply shift into another, so they are much more likely to initiate deadly combat without concern for their discovery.\nAliens in the \"Infiltration Robot\" Family\nName\nCR\nExterminator-class\n7\nMonitor-class\n2\nInfiltration Robot, Monitor-class\nSource\nAlien Archive 4 pg. 102\nMonitor-class CR 2\nXP 600\nLN Medium construct (technological)\nInit\n+4;\nSenses\ndarkvision 60 ft.; low light vision;;\nPerception\n+7\nDefense\nHP\n25\nEAC\n12;\nKAC\n15\nFort\n-1;\nRef\n-1;\nWill\n+2\nDefensive Abilities\nsynthskin;\nDR\n2/— Immunities construct immunities\nWeaknesses\nvulnerable to critical hits, vulnerable to electricity\nOffense\nSpeed\n40 ft.\nMelee\nslam +7 (1d4+2 B)\nRanged\ntactical semi-auto pistol +9 (1d6+2 P)\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n—;\nINT\n+1;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +7, Bluff +12, Disguise +12, Sense Motive +7, Stealth +12\nLanguages\nCommon\nOther Abilities\nunliving\nGear\ntactical semi-auto pistol with 18 small-arm rounds\nEcology\nEnvironment\nAny\nOrganization\nsolitary or conspiracy (2–4)\nSpecial Abilities\nSynthskin (Ex)\nInfiltration robots are covered in a thick layer of synthetic, adaptive flesh, allowing them to impersonate other species and insulating them from typical robot weaknesses; however, this facade fades and loses its protective qualities once heavily damaged. While its synthskin is active, an infiltration robot appears to be a member of a medium-sized humanoid or monstrous humanoid species (chosen at the robot’s creation) and it is not vulnerable to critical hits or electricity. While an infiltration robot has fewer than half of its Hit Points remaining, its synthskin is deactivated, it is revealed as a construct, and it is vulnerable to critical hits and electricity as normal.",
+  "type": "construct (technological)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Robot_Infiltration_Monitor-Class.png"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Cephalume",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Cephalume&Family=None",
+  "source": "Alien Archive 3 pg. 10",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "aberration (plantlike)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+12",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+3",
+  "resistances": "cold 5",
+  "speed": "10 ft., swim 30 ft.",
+  "melee": "tactical dueling sword +10 (1d6+6 S)",
+  "ranged": "static arc pistol +7 (1d6+2 E; critical arc 2)",
+  "space": "5 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "beguiling glow (DC 11)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +7 (+15 to swim), Mysticism +7, Stealth +7 (+11 with bioluminescence suppressed)",
+  "languages": "Common, Lumos",
+  "other_abilities": "bioluminescence, no breath, plantlike, symbiote adaption (tentacle krikik)",
+  "gear": "second skin, static arc pistol with 2 batteries (20 charges each), tactical dueling sword",
+  "environment": "any (Luminar)",
+  "organization": "solitary, pair, or shade (3–7)",
+  "special_abilities": [
+    {
+      "name": "Beguiling Glow (Ex)",
+      "description": "As a standard action (as long as their bioluminescence isn’t suppressed), a cephalume can create flickering patterns in the light emanating from their skin. Each sighted creature within 20 feet must succeed at a DC 13 Will saving throw or be fascinated for as long as the cephalume continues this presentation (a standard action each round). Creature that understand Lumos are unaffected. This is a sense-dependent effect."
+    },
+    {
+      "name": "Bioluminescence (Ex)",
+      "description": "A cephalume increases the light level by one step out to a radius of 20 feet. A cephalume can suppress or reactivate this light as a move action, and they receive a +4 racial bonus to Stealth checks when their light is suppressed. A cephalume also uses this light to communicate with others."
+    },
+    {
+      "name": "Depth Inured (Ex)",
+      "description": "A cephalume is immune to the dangers of extreme depths."
+    },
+    {
+      "name": "Symbiote Adaption (Ex)",
+      "description": "Cephalumes form symbiotic unions with krikiks, a living biological augmentation unique to their race. Most cephalumes have one of the following krikik symbiotes.\nAirjet Krikik:\nAn air bladder in the krikik increases the cephalume’s land and swim speeds by 10 feet. Once per day as a swift action, the cephalume can double their movement speed for that round.\nElectrostatic Krikik:\nThe krikik is covered in thin, electrically charged spines that allow the cephalume to cause any weapon they wield to deal half its damage as electricity damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with electricity. In addition, this allows the cephalume to grant any weapon they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the cephalume chooses only one to apply on a critical hit.\nSharprock Krikik:\nThe krikik’s hard crust grants the cephalume a +1 racial bonus to AC.\nSiltsight Krikik:\nThe krikik has heat-sensitive eyes that allow the cephalume to double the range of their darkvision and to see through non-magical fog, mist, and clouds without penalty, ignoring any cover or concealment bonuses from those effects.\nTentacle Krikik:\nThe krikik has a prehensile tentacle that increases the cephalume’s natural reach by 5 feet."
+    }
+  ],
+  "description": "Cephalumes are native to the Near Space planet Luminar, a gas giant with a thick outer atmosphere of hydrogen and helium and a dense, high-pressure ocean of liquid methane with a frozen icy floor. Cephalumes predominantly live in the middle strata of these methane seas, a lightless expanse with no discernible ground or sky. Cephalumes have cephalopod-like bodies with a prominent head and a large single foot. Their skin is naturally bioluminescent, and cephalumes flicker this light to communicate in Lumos, a visual language comprised of sequential, carefully timed blinks. As a result, most cephalume clothing and armor incorporate transparent force fields to allow light to shine through.\nCephalumes form symbiotic unions with small bioelectric arthropods known as krikiks. These symbiotes can communicate with their hosts in a tactile variant of Lumos that uses soft electrical pulses. Krikiks have significantly longer life spans than cephalumes do, and they are sometimes gifted from cephalume to cephalume as heirlooms. Cephalumes can bond with multiple krikiks as they age, though such a distinction is reserved for respected cephalumes of high station.\nCephalume culture is subtle and traditional, valuing community, curiosity, and exploration. Cephalumes engage in a unique form of ancestor worship, and the buildings in their settlements are actually the calcified remains of their dead, often the only solid structures to be found in the aquatic void they live in. Many cephalumes continue to regard these edifices as the people they once were, and even hold conversations with them to talk out their problems in times of stress.\nLike most other civilizations, cephalumes achieved spaceflight at some point during the Gap and now embark on celestial walkabouts across the galaxy. They strive to learn about the technologies and cultures of other civilizations before they return to Luminar, adding their discoveries to the collective knowledge of their people. Cephalume starships, like their buildings, are made from the remains of their dead. Cephalumes consider it to be a great honor to explore the universe with one of your ancestors serving as your vessel.",
+  "extra_content": "The following extra content was found for this creature:\n-\nCephalume Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nCephalume\nSource\nAlien Archive 3 pg. 10\nCephalume CR 2\nXP 600\nNG Medium aberration (plantlike)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+12\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+4;\nRef\n+4;\nWill\n+3; +2 vs. mind-affecting effects, paralysis, poison, polymorph, sleep, and stunning\nDefensive Abilities\ndepth inured;\nResistances\ncold 5\nOffense\nSpeed\n10 ft., swim 30 ft.\nMelee\ntactical dueling sword +10 (1d6+6 S)\nRanged\nstatic arc pistol +7 (1d6+2 E; critical arc 2)\nSpace\n5 ft.;\nReach\n10 ft.\nOffensive Abilities\nbeguiling glow (DC 11)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+0;\nINT\n+1;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +7 (+15 to swim), Mysticism +7, Stealth +7 (+11 with bioluminescence suppressed)\nLanguages\nCommon, Lumos\nOther Abilities\nbioluminescence, no breath, plantlike, symbiote adaption (tentacle krikik)\nGear\nsecond skin, static arc pistol with 2 batteries (20 charges each), tactical dueling sword\nEcology\nEnvironment\nany (Luminar)\nOrganization\nsolitary, pair, or shade (3–7)\nSpecial Abilities\nBeguiling Glow (Ex)\nAs a standard action (as long as their bioluminescence isn’t suppressed), a cephalume can create flickering patterns in the light emanating from their skin. Each sighted creature within 20 feet must succeed at a DC 13 Will saving throw or be fascinated for as long as the cephalume continues this presentation (a standard action each round). Creature that understand Lumos are unaffected. This is a sense-dependent effect.\nBioluminescence (Ex)\nA cephalume increases the light level by one step out to a radius of 20 feet. A cephalume can suppress or reactivate this light as a move action, and they receive a +4 racial bonus to Stealth checks when their light is suppressed. A cephalume also uses this light to communicate with others.\nDepth Inured (Ex)\nA cephalume is immune to the dangers of extreme depths.\nSymbiote Adaption (Ex)\nCephalumes form symbiotic unions with krikiks, a living biological augmentation unique to their race. Most cephalumes have one of the following krikik symbiotes.\nAirjet Krikik:\nAn air bladder in the krikik increases the cephalume’s land and swim speeds by 10 feet. Once per day as a swift action, the cephalume can double their movement speed for that round.\nElectrostatic Krikik:\nThe krikik is covered in thin, electrically charged spines that allow the cephalume to cause any weapon they wield to deal half its damage as electricity damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with electricity. In addition, this allows the cephalume to grant any weapon they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the cephalume chooses only one to apply on a critical hit.\nSharprock Krikik:\nThe krikik’s hard crust grants the cephalume a +1 racial bonus to AC.\nSiltsight Krikik:\nThe krikik has heat-sensitive eyes that allow the cephalume to double the range of their darkvision and to see through non-magical fog, mist, and clouds without penalty, ignoring any cover or concealment bonuses from those effects.\nTentacle Krikik:\nThe krikik has a prehensile tentacle that increases the cephalume’s natural reach by 5 feet.\nDescription\nCephalumes are native to the Near Space planet Luminar, a gas giant with a thick outer atmosphere of hydrogen and helium and a dense, high-pressure ocean of liquid methane with a frozen icy floor. Cephalumes predominantly live in the middle strata of these methane seas, a lightless expanse with no discernible ground or sky. Cephalumes have cephalopod-like bodies with a prominent head and a large single foot. Their skin is naturally bioluminescent, and cephalumes flicker this light to communicate in Lumos, a visual language comprised of sequential, carefully timed blinks. As a result, most cephalume clothing and armor incorporate transparent force fields to allow light to shine through.\nCephalumes form symbiotic unions with small bioelectric arthropods known as krikiks. These symbiotes can communicate with their hosts in a tactile variant of Lumos that uses soft electrical pulses. Krikiks have significantly longer life spans than cephalumes do, and they are sometimes gifted from cephalume to cephalume as heirlooms. Cephalumes can bond with multiple krikiks as they age, though such a distinction is reserved for respected cephalumes of high station.\nCephalume culture is subtle and traditional, valuing community, curiosity, and exploration. Cephalumes engage in a unique form of ancestor worship, and the buildings in their settlements are actually the calcified remains of their dead, often the only solid structures to be found in the aquatic void they live in. Many cephalumes continue to regard these edifices as the people they once were, and even hold conversations with them to talk out their problems in times of stress.\nLike most other civilizations, cephalumes achieved spaceflight at some point during the Gap and now embark on celestial walkabouts across the galaxy. They strive to learn about the technologies and cultures of other civilizations before they return to Luminar, adding their discoveries to the collective knowledge of their people. Cephalume starships, like their buildings, are made from the remains of their dead. Cephalumes consider it to be a great honor to explore the universe with one of your ancestors serving as your vessel.\nExtra Content\nThe following extra content was found for this creature:\n-\nCephalume Race Entry",
+  "type": "aberration (plantlike)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Cephalume.png"
+}

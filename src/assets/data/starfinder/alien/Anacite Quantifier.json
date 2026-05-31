@@ -1,0 +1,66 @@
+{
+  "name": "Anacite Quantifier",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Anacite Quantifier&Family=None",
+  "source": "Starfinder #49: A Light in the Dark pg. 57",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "LN",
+  "size": "Large",
+  "creature_type": "construct (technological)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+18",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+7",
+  "immunities": "construct immunities",
+  "weaknesses": "light dependency",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "pincer +13 (1d4+8 P) or slam +13 (1d6+8 B; critical push [5 ft.])",
+  "ranged": "precision laser +15 (1d6+6 F; critical burn 1d4)",
+  "space": "10",
+  "reach": "10",
+  "offensive_abilities": "assess variable",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+2",
+    "con": "—",
+    "int": "+5",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Computers +18, Culture +13, Engineering +13, Life Science +13, Physical Science +18, Sense Motive +18",
+  "languages": "Common, up to 5 others; shortwave 100 ft.",
+  "other_abilities": "calculate outcome, unliving",
+  "environment": "any (Aballon)",
+  "organization": "solitary, pair, or sum (3–9)",
+  "special_abilities": [
+    {
+      "name": "Assess Variable (Ex)",
+      "description": "As a move action, an anacite quantif er can assess a target within 60 feet that it can see. The quantif er gains a +1 circumstance bonus to attack rolls against the assessed target and a +2 circumstance bonus to EAC and KAC against the assessed target. The quantifier can have only one assessed target at a time."
+    },
+    {
+      "name": "Calculate Outcome (Ex)",
+      "description": "An anacite quantif er constantly calculates the most ef cient course of action, considering countless variables. A quantifier can take 10 on any skill check, even during combat or if stress or distractions would normally prevent it from doing so. In addition, once per day, a quantif er can reroll a failed ability check, attack roll, or saving throw."
+    },
+    {
+      "name": "Light Dependency (Ex)",
+      "description": "An anacite quantifier can acquire power from dim or brighter light, and it can store power generated in this way. The anacite can operate in darkness for 2 hours. After this time, the anacite gains the sickened condition until it returns to an area of dim or brighter light."
+    },
+    {
+      "name": "Precision Laser (Ex)",
+      "description": "An anacite quantifier's precision laser has a range increment of 90 feet."
+    },
+    {
+      "name": "Shortwave (Ex)",
+      "description": "An anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype."
+    }
+  ],
+  "description": "Anacite quantif ers are the assessors of Aballon. They quantify the odds of success and try to determine all potential outcomes, constantly estimating potential risk, reward, and payof for myriad situations, from the viability of a new technology or policy to the f nancial success of stocks. Incredibly intelligent and quick thinkers, quantif ers perform advanced mathematical calculations and statistical analyses in fractions of a second. They use these calculations and assessments to determine potential outcomes in the physical world, digital spaces, cultural paradigms, and biological behavior.\nQuantif ers are similar in shape to a praying mantis, with an enlarged cranial cavity and four dexterous pincers. The majority of them work in governance, determining the potential outcomes of proposals and policies, but others guide planetary economics and investments or even serve as bookies.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAnacite Quantifier\nSource\nStarfinder #49: A Light in the Dark pg. 57\nAnacite Quantifier CR 6\nXP 2,400\nLN Large construct (technological)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+18\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+3;\nRef\n+3;\nWill\n+7\nImmunities\nconstruct immunities\nWeaknesses\nlight dependency\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\npincer +13 (1d4+8 P) or slam +13 (1d6+8 B; critical push [5 ft.])\nMultiattack\n3 pincers +7 (1d4+8 P)\nRanged\nprecision laser +15 (1d6+6 F; critical burn 1d4)\nSpace\n10;\nReach\n10\nOffensive Abilities\nassess variable\nStatistics\nSTR\n+2;\nDEX\n+2;\nCON\n—;\nINT\n+5;\nWIS\n+3;\nCHA\n+1\nSkills\nComputers +18, Culture +13, Engineering +13, Life Science +13, Physical Science +18, Sense Motive +18\nLanguages\nCommon, up to 5 others; shortwave 100 ft.\nOther Abilities\ncalculate outcome, unliving\nEcology\nEnvironment\nany (Aballon)\nOrganization\nsolitary, pair, or sum (3–9)\nSpecial Abilities\nAssess Variable (Ex)\nAs a move action, an anacite quantif er can assess a target within 60 feet that it can see. The quantif er gains a +1 circumstance bonus to attack rolls against the assessed target and a +2 circumstance bonus to EAC and KAC against the assessed target. The quantifier can have only one assessed target at a time.\nCalculate Outcome (Ex)\nAn anacite quantif er constantly calculates the most ef cient course of action, considering countless variables. A quantifier can take 10 on any skill check, even during combat or if stress or distractions would normally prevent it from doing so. In addition, once per day, a quantif er can reroll a failed ability check, attack roll, or saving throw.\nLight Dependency (Ex)\nAn anacite quantifier can acquire power from dim or brighter light, and it can store power generated in this way. The anacite can operate in darkness for 2 hours. After this time, the anacite gains the sickened condition until it returns to an area of dim or brighter light.\nPrecision Laser (Ex)\nAn anacite quantifier's precision laser has a range increment of 90 feet.\nShortwave (Ex)\nAn anacite can communicate wirelessly. This acts as telepathy, but only with other creatures with this ability or constructs with the technological subtype.\nDescription\nAnacite quantif ers are the assessors of Aballon. They quantify the odds of success and try to determine all potential outcomes, constantly estimating potential risk, reward, and payof for myriad situations, from the viability of a new technology or policy to the f nancial success of stocks. Incredibly intelligent and quick thinkers, quantif ers perform advanced mathematical calculations and statistical analyses in fractions of a second. They use these calculations and assessments to determine potential outcomes in the physical world, digital spaces, cultural paradigms, and biological behavior.\nQuantif ers are similar in shape to a praying mantis, with an enlarged cranial cavity and four dexterous pincers. The majority of them work in governance, determining the potential outcomes of proposals and policies, but others guide planetary economics and investments or even serve as bookies.",
+  "type": "construct (technological)",
+  "category": "alien"
+}

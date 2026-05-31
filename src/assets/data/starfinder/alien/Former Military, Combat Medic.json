@@ -1,0 +1,45 @@
+{
+  "name": "Former Military, Combat Medic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Combat Medic&Family=Former Military",
+  "source": "Interstellar Species pg. 164",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (hadrogaan)",
+  "init": "+2",
+  "senses": "blindsense (vibration) 30 ft.;",
+  "perception": "+8",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+4",
+  "will": "+6",
+  "speed": "30 ft.",
+  "melee": "tactical dueling sword +7 (1d6+4 S)",
+  "ranged": "autotarget rifle +9 (1d6+3 P)",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+4",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Athletics +8, Life Science +13, Medicine +13, Physical Science +8",
+  "languages": "Castrovelian, Common, up to 4 others; limited telepathy 30 ft.",
+  "other_abilities": "combat medic, dual nervous system , unit tactics",
+  "gear": "regimental dress I (easy access kit  AR [basic medkit]), autotarget rifle (light bayonet bracket with tactical dueling sword) with 50 longarm rounds, chemalyzer , personal comm unit, 2 batteries (20 charges each)",
+  "special_abilities": [
+    {
+      "name": "Combat Medic (Ex)",
+      "description": "When a combat medic exceeds a Medicine check DC by 5 or more, the combat medic can also perform the treat deadly wounds task on the target without spending additional time. If the check exceeds the DC by 10 or more, the combat medic also applies their Intelligence modifier to the amount healed by treat deadly wounds, as normal."
+    }
+  ],
+  "description": "A combat medic learns to perform emergency first aid on the battlefield—skills that transfer directly to paramedic roles in civilian situations. A combat medic is valuable to a fighting unit because, in addition to providing fire support, the medic can patch up allies and get them back into the fight or enable their retreat.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormer Military\nSource\nInterstellar Species pg. 164\nMilitary training hones experts with varied skillsets, tempering them in battlefield conditions. Mercenary work is an obvious outlet for their skills, but former military pros function well as security forces and rescue teams, and on exploration missions and supply delivery in dangerous areas. They might be found in more mundane settings, such as corporate facilities or research labs, especially in places where people or facilities need extra protection. Each of these NPCs has the following ability.\nUnit Tactics (Ex)\nBefore rolling initiative, the character can choose to roll twice and take the lower result, and an ally within 30 feet can roll their initiative check twice and use the better result. When the character successfully uses covering fire, the selected ally gains the circumstance bonus to AC against the next two attacks made against them by creatures in the character’s line of effect.\nAliens in the \"Former Military\" Family\nName\nCR\nCombat Medic\n3\nOfficer\n12\nQuartermaster\n8\nSpec-ops Veteran\n16\nFormer Military, Combat Medic\nSource\nInterstellar Species pg. 164\nCombat Medic CR 3\nXP 800\nLuma hadrogaan\nN Medium humanoid (hadrogaan)\nInit\n+2;\nSenses\nblindsense (vibration) 30 ft.;\nPerception\n+8\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+2;\nRef\n+4;\nWill\n+6\nOffense\nSpeed\n30 ft.\nMelee\ntactical dueling sword +7 (1d6+4 S)\nRanged\nautotarget rifle +9 (1d6+3 P)\nStatistics\nSTR\n+1;\nDEX\n+2;\nCON\n+0;\nINT\n+4;\nWIS\n+1;\nCHA\n+1\nSkills\nAthletics +8, Life Science +13, Medicine +13, Physical Science +8\nLanguages\nCastrovelian, Common, up to 4 others; limited telepathy 30 ft.\nOther Abilities\ncombat medic, dual nervous system , unit tactics\nGear\nregimental dress I (easy access kit  AR [basic medkit]), autotarget rifle (light bayonet bracket with tactical dueling sword) with 50 longarm rounds, chemalyzer , personal comm unit, 2 batteries (20 charges each)\nSpecial Abilities\nCombat Medic (Ex)\nWhen a combat medic exceeds a Medicine check DC by 5 or more, the combat medic can also perform the treat deadly wounds task on the target without spending additional time. If the check exceeds the DC by 10 or more, the combat medic also applies their Intelligence modifier to the amount healed by treat deadly wounds, as normal.\nDescription\nA combat medic learns to perform emergency first aid on the battlefield—skills that transfer directly to paramedic roles in civilian situations. A combat medic is valuable to a fighting unit because, in addition to providing fire support, the medic can patch up allies and get them back into the fight or enable their retreat.",
+  "type": "humanoid (hadrogaan)",
+  "environment": "—",
+  "category": "alien"
+}

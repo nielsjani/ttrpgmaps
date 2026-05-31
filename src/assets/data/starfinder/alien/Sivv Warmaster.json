@@ -1,0 +1,61 @@
+{
+  "name": "Sivv Warmaster",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Sivv Warmaster&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 61",
+  "cr": "17",
+  "xp": "102,400",
+  "alignment": "LE",
+  "size": "Medium",
+  "creature_type": "aberration (sivv)",
+  "init": "+4",
+  "senses": "blindsense (vibration) 60 ft., darkvision 60 ft.;",
+  "perception": "+34",
+  "hp": "340",
+  "eac": "31",
+  "kac": "33",
+  "fort": "+19",
+  "ref": "+19",
+  "will": "+17",
+  "sr": "28",
+  "immunities": "fear effects;",
+  "speed": "30 ft.",
+  "melee": "military quantum entangler +31 (8d6+28 A & So; critical degeneration 3d6)",
+  "ranged": "military degenerator rifle +28 (7d8+17 A & So; critical degeneration 4d6) or mutation gun +28 (7d10+17 A & So; critical mutation [DC 22]) or degeneration grenade +28 (explode [20 ft., 11d6 A & So, degeneration 5d6, DC 22])",
+  "offensive_abilities": "domineering gaze (30 feet; DC 22), rel-state dispersal (ranged +28; DC 22)",
+  "ability_scores": {
+    "str": "+11",
+    "dex": "+4",
+    "con": "+8",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+5"
+  },
+  "skills": "Athletics +29, Computers +29, Intimidate +34",
+  "languages": "Sivvian; telepathy 100 ft.",
+  "other_abilities": "intangible step, quantum storage",
+  "gear": "vitrum plate, military quantum entangler with 2 batteries (20 charges each), military degenerator rifle with 2 highcapacity batteries (40 charges each), mutation gun (page 49) with 1 battery (20 charges), degeneration grenades (2)",
+  "environment": "any (Davvirex or",
+  "organization": "solitary, pair, or tyranny (3–8)",
+  "special_abilities": [
+    {
+      "name": "Domineering Gaze (Su)",
+      "description": "As a move action, a sivv warmaster unsettles its foes with a stern look bolstered by psychic conditioning. Each non-sivv creature within 30 feet is staggered for 1d4 rounds unless it succeeds at a DC 22 Will save. A creature staggered by this effect has a –2 penalty to attacks made against creatures with the sivv subtype, and it reduces the DC of its spells and abilities used against creatures with the sivv subtype by 2. This is a mind-affecting, sense-dependent effect."
+    },
+    {
+      "name": "Intangible Step (Su)",
+      "description": "A sivv sage-coffer can enter rel-state on their own for a brief period. As a move action, they can spend 1 Resolve Point to become incorporeal and move up to their speed. They become corporeal at the end of their movement."
+    },
+    {
+      "name": "Quantum Storage (Su)",
+      "description": "As a move action, the sage-coffer can shift an item in their possession into rel-state, quantum entangling the item’s molecules with their own. This effectively reduces the item’s bulk to 0 and makes the item impossible to disarm or otherwise remove from the sage-coffer, though the item can’t be used. The sage-coffer can shift items weighing a total of 10 bulk, though no one item can be more than 4 bulk. The sage-coffer can retrieve an item from rel-state as a move action. Anything that the sage-coffer placed into rel-state becomes fully real when the sage-coffer is killed."
+    },
+    {
+      "name": "Rel-State Dispersal (Sp)",
+      "description": "As a standard action, a sivv warmaster can spend 1 Resolve Point to cast disintegrate as a spell-like ability with a caster level equal to its CR. The beam of energy forces many of the target’s molecules into rel-state, potentially destroying it."
+    }
+  ],
+  "description": "Sivvs are serious-minded and domineering aberrations with long, curving necks; grasping claws; and a sturdy carapace from which several tentacles protrude. Eons ago, sivvs formed the Sivv Dominion, which subjugated its galactic neighbors with its superior hybrid technology until its own hubris allowed one of its enemies, the kishalee, to deal a mortal blow to its economy.\nDuring the Sivv Dominion’s period of expansion, the most brutal and martially inclined sivvs trained as warmasters, leading assaults throughout the galaxy. These warriors underwent rigorous mental conditioning to render them immune to fear and to command obedience in non-sivvs with merely a stern look. Equipped with the best weaponry the Sivv Dominion had to offer, warmasters served as powerful combatants, and like all sivvs, they’re skilled in the use of rel-state. For more information, see “Relics of the Sivvs” on page 46.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSivv Warmaster\nSource\nStarfinder #33: Dominion’s End pg. 61\nSivv Warmaster CR 17\nXP 102,400\nLE Medium aberration (sivv)\nInit\n+4;\nSenses\nblindsense (vibration) 60 ft., darkvision 60 ft.;\nPerception\n+34\nDefense\nHP\n340;\nRP\n6\nEAC\n31;\nKAC\n33\nFort\n+19;\nRef\n+19;\nWill\n+17\nDefensive Abilities\nfast healing 5;\nImmunities\nfear effects;\nSR\n28\nOffense\nSpeed\n30 ft.\nMelee\nmilitary quantum entangler +31 (8d6+28 A & So; critical degeneration 3d6)\nRanged\nmilitary degenerator rifle +28 (7d8+17 A & So; critical degeneration 4d6) or mutation gun +28 (7d10+17 A & So; critical mutation [DC 22]) or degeneration grenade +28 (explode [20 ft., 11d6 A & So, degeneration 5d6, DC 22])\nOffensive Abilities\ndomineering gaze (30 feet; DC 22), rel-state dispersal (ranged +28; DC 22)\nStatistics\nSTR\n+11;\nDEX\n+4;\nCON\n+8;\nINT\n+1;\nWIS\n+0;\nCHA\n+5\nSkills\nAthletics +29, Computers +29, Intimidate +34\nLanguages\nSivvian; telepathy 100 ft.\nOther Abilities\nintangible step, quantum storage\nGear\nvitrum plate, military quantum entangler with 2 batteries (20 charges each), military degenerator rifle with 2 highcapacity batteries (40 charges each), mutation gun (page 49) with 1 battery (20 charges), degeneration grenades (2)\nEcology\nEnvironment\nany (Davvirex or\nArk Prime\n)\nOrganization\nsolitary, pair, or tyranny (3–8)\nSpecial Abilities\nDomineering Gaze (Su)\nAs a move action, a sivv warmaster unsettles its foes with a stern look bolstered by psychic conditioning. Each non-sivv creature within 30 feet is staggered for 1d4 rounds unless it succeeds at a DC 22 Will save. A creature staggered by this effect has a –2 penalty to attacks made against creatures with the sivv subtype, and it reduces the DC of its spells and abilities used against creatures with the sivv subtype by 2. This is a mind-affecting, sense-dependent effect.\nIntangible Step (Su)\nA sivv sage-coffer can enter rel-state on their own for a brief period. As a move action, they can spend 1 Resolve Point to become incorporeal and move up to their speed. They become corporeal at the end of their movement.\nQuantum Storage (Su)\nAs a move action, the sage-coffer can shift an item in their possession into rel-state, quantum entangling the item’s molecules with their own. This effectively reduces the item’s bulk to 0 and makes the item impossible to disarm or otherwise remove from the sage-coffer, though the item can’t be used. The sage-coffer can shift items weighing a total of 10 bulk, though no one item can be more than 4 bulk. The sage-coffer can retrieve an item from rel-state as a move action. Anything that the sage-coffer placed into rel-state becomes fully real when the sage-coffer is killed.\nRel-State Dispersal (Sp)\nAs a standard action, a sivv warmaster can spend 1 Resolve Point to cast disintegrate as a spell-like ability with a caster level equal to its CR. The beam of energy forces many of the target’s molecules into rel-state, potentially destroying it.\nDescription\nSivvs are serious-minded and domineering aberrations with long, curving necks; grasping claws; and a sturdy carapace from which several tentacles protrude. Eons ago, sivvs formed the Sivv Dominion, which subjugated its galactic neighbors with its superior hybrid technology until its own hubris allowed one of its enemies, the kishalee, to deal a mortal blow to its economy.\nDuring the Sivv Dominion’s period of expansion, the most brutal and martially inclined sivvs trained as warmasters, leading assaults throughout the galaxy. These warriors underwent rigorous mental conditioning to render them immune to fear and to command obedience in non-sivvs with merely a stern look. Equipped with the best weaponry the Sivv Dominion had to offer, warmasters served as powerful combatants, and like all sivvs, they’re skilled in the use of rel-state. For more information, see “Relics of the Sivvs” on page 46.",
+  "type": "aberration (sivv)",
+  "category": "alien"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Glaiad",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Glaiad&Family=None",
+  "source": "Starfinder #35: Merchants of the Void pg. 58",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+9",
+  "dr": "5/cold iron",
+  "immunities": "cold",
+  "weaknesses": "ring dependent",
+  "speed": "30 ft.; particle step",
+  "melee": "iceblade +9 (1d8+6 C & S)",
+  "ranged": "ice shards +11 (1d10+6 C & P; critical bleed 1d6)",
+  "offensive_abilities": "storm of shards (20-ft. burst, 7d6 C, DC 16, usable every 1d4 rounds)",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th; melee +9",
+    "spells": "1/day—\ndaze monster\n(DC 18),\nsong of the cosmos\n(DC 18)\n3/day—\ncharm person\n(DC 17),\nlife bubble\n,\nmystic cure\n(1st level)\nAt will—\ndancing lights\n,\nhazard\n(DC 16, cold only)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Diplomacy +13, Life Science +18, Survival +13",
+  "languages": "Common, Sylvan",
+  "other_abilities": "particle mastery",
+  "environment": "space (planetary rings)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Ice Shards (Su)",
+      "description": "As a ranged attack, a glaiad can magically conjure and fling sharp shards of ice with a range increment of 40 feet. On a critical hit, a shard also deals 1d6 bleed damage."
+    },
+    {
+      "name": "Particle Mastery (Su)",
+      "description": "A glaiad creates temporary areas of gravity along their bonded ring system. As a standard action, a glaiad can control the composition of the rings within 1,000 feet of them, creating a surface solid enough to walk upon or dispersing the particles. They can also determine the strength of gravity relative to the rings in the affected area. These effects last until the glaiad leaves the area or spends another standard action to change them."
+    },
+    {
+      "name": "Particle Step (Su)",
+      "description": "As a standard action, a glaiad can teleport to any other particle of their ring system within sight as long as the destination particle is at least the size of the glaiad’s space. They can’t take any other creatures with them, but they can teleport objects they’re currently carrying."
+    },
+    {
+      "name": "Ring Dependent (Su)",
+      "description": "A glaiad is mystically bonded to the rings of a single planet or moon and must never travel further from those rings than the surface of the planet they orbit; if they do, they immediately become sickened. A glaiad that remains out of range of their rings gains 1 negative level for each day they remain separated. A glaiad can forge a new bond with a new ring system by performing a 24-hour ritual while in physical contact with the new ring system."
+    },
+    {
+      "name": "Storm of Shards (Su)",
+      "description": "A glaiad can gather and hurl razor shards of ice from their ring system in a 20-foot burst at a range of 100 feet as a standard action. Each creature within the area takes 7d6 cold damage (Reflex DC 16 half). The glaiad must wait 1d4 rounds for the particles of the ring system to disperse and redistribute before creating another storm of shards."
+    }
+  ],
+  "description": "A glaiad belongs to the nymph family: fey with deep intrinsic bonds to a particular feature of nature. Ancient legends told only of dryads, naiads, and similar creatures tied to terrestrial features—but in those days, few knew of the nymphs who forged their bonds not with a single tree or river, but with the glorious ring systems surrounding a distant planet or moon. Like most nymphs, glaiads fiercely protect their bonded ring systems, defending them at all costs. This position has drawn some glaiads into diplomatic contact with other peoples while working to preserve their homes; however, others have become embittered and violent, feeling that’s their only recourse against unbridled disruption of their bonded planets.\nAlthough it might seem difficult—if not impossible—for a single creature to look after something that stretches for thousands of miles, a glaiad’s bond with their ring grants them the ability to teleport from one particle in it to another in a matter of seconds, allowing them a wide range of movement.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGlaiad\nSource\nStarfinder #35: Merchants of the Void pg. 58\nGlaiad CR 6\nXP 2,400\nCN Medium fey\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+7;\nRef\n+7;\nWill\n+9\nDefensive Abilities\nvoid adaptation;\nDR\n5/cold iron;\nImmunities\ncold\nWeaknesses\nring dependent\nOffense\nSpeed\n30 ft.; particle step\nMelee\niceblade +9 (1d8+6 C & S)\nRanged\nice shards +11 (1d10+6 C & P; critical bleed 1d6)\nOffensive Abilities\nstorm of shards (20-ft. burst, 7d6 C, DC 16, usable every 1d4 rounds)\nSpell-Like Abilities\n(CL 6th; melee +9)\n1/day—\ndaze monster\n(DC 18),\nsong of the cosmos\n(DC 18)\n3/day—\ncharm person\n(DC 17),\nlife bubble\n,\nmystic cure\n(1st level)\nAt will—\ndancing lights\n,\nhazard\n(DC 16, cold only)\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+0;\nINT\n+1;\nWIS\n+2;\nCHA\n+5\nSkills\nDiplomacy +13, Life Science +18, Survival +13\nLanguages\nCommon, Sylvan\nOther Abilities\nparticle mastery\nEcology\nEnvironment\nspace (planetary rings)\nOrganization\nsolitary\nSpecial Abilities\nIce Shards (Su)\nAs a ranged attack, a glaiad can magically conjure and fling sharp shards of ice with a range increment of 40 feet. On a critical hit, a shard also deals 1d6 bleed damage.\nParticle Mastery (Su)\nA glaiad creates temporary areas of gravity along their bonded ring system. As a standard action, a glaiad can control the composition of the rings within 1,000 feet of them, creating a surface solid enough to walk upon or dispersing the particles. They can also determine the strength of gravity relative to the rings in the affected area. These effects last until the glaiad leaves the area or spends another standard action to change them.\nParticle Step (Su)\nAs a standard action, a glaiad can teleport to any other particle of their ring system within sight as long as the destination particle is at least the size of the glaiad’s space. They can’t take any other creatures with them, but they can teleport objects they’re currently carrying.\nRing Dependent (Su)\nA glaiad is mystically bonded to the rings of a single planet or moon and must never travel further from those rings than the surface of the planet they orbit; if they do, they immediately become sickened. A glaiad that remains out of range of their rings gains 1 negative level for each day they remain separated. A glaiad can forge a new bond with a new ring system by performing a 24-hour ritual while in physical contact with the new ring system.\nStorm of Shards (Su)\nA glaiad can gather and hurl razor shards of ice from their ring system in a 20-foot burst at a range of 100 feet as a standard action. Each creature within the area takes 7d6 cold damage (Reflex DC 16 half). The glaiad must wait 1d4 rounds for the particles of the ring system to disperse and redistribute before creating another storm of shards.\nDescription\nA glaiad belongs to the nymph family: fey with deep intrinsic bonds to a particular feature of nature. Ancient legends told only of dryads, naiads, and similar creatures tied to terrestrial features—but in those days, few knew of the nymphs who forged their bonds not with a single tree or river, but with the glorious ring systems surrounding a distant planet or moon. Like most nymphs, glaiads fiercely protect their bonded ring systems, defending them at all costs. This position has drawn some glaiads into diplomatic contact with other peoples while working to preserve their homes; however, others have become embittered and violent, feeling that’s their only recourse against unbridled disruption of their bonded planets.\nAlthough it might seem difficult—if not impossible—for a single creature to look after something that stretches for thousands of miles, a glaiad’s bond with their ring grants them the ability to teleport from one particle in it to another in a matter of seconds, allowing them a wide range of movement.",
+  "type": "fey",
+  "category": "alien"
+}

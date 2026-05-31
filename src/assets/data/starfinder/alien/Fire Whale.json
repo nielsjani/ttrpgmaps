@@ -1,0 +1,54 @@
+{
+  "name": "Fire Whale",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Fire Whale&Family=None",
+  "source": "Starfinder #13: Fire Starters pg. 58",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Colossal",
+  "creature_type": "magical beast (extraplanar)",
+  "init": "+3",
+  "senses": "blindsense (sound) 60 ft., darkvision 60 ft., low-light vision;",
+  "perception": "+28",
+  "hp": "330",
+  "eac": "29",
+  "kac": "30",
+  "fort": "+20",
+  "ref": "+16",
+  "will": "+18",
+  "dr": "15/adamantine",
+  "immunities": "fire, paralysis, poison, sleep;",
+  "resistances": "cold 15",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "burrow 20 ft., fly 120 ft. (Su, average), swim 120 ft.",
+  "melee": "bite +30 (6d10+26 B & F; critical burn 4d4) or tail slap +30 (5d12+26 B & F; critical burn 4d4 or knockdown)",
+  "space": "30 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "breath weapon (90-ft. cone, 16d6 B & F, Reflex DC 22 half, usable every 1d4 rounds), crush (5d12+26 B & F)",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th",
+    "spells": "1/day—\nplane shift\n(self only; Elemental Planes or Material Plane only)"
+  },
+  "ability_scores": {
+    "str": "+10",
+    "dex": "+3",
+    "con": "+7",
+    "int": "-3",
+    "wis": "+5",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +28",
+  "languages": "Ignan, Terran (can’t speak any language)",
+  "environment": "any",
+  "organization": "solitary, pair, or pod (3–8)",
+  "special_abilities": [
+    {
+      "name": "Scorching Body (Su)",
+      "description": "A creature that touches the fire whale takes 2d6 fire damage. A creature in contact with a fire whale takes 6d6 fire damage each round the contact persists."
+    }
+  ],
+  "description": "Titanic natives of the Plane of Fire, fire whales can be found swimming in the atmosphere of Material Plane stars or in space searching for food, from biological matter to inorganic material such as Tiny starships. Their innards refine this fodder into metals and gems. Deceased fire whales can be refitted and used as frames for Small starships.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFire Whale\nSource\nStarfinder #13: Fire Starters pg. 58\nFire Whale CR 16\nXP 76,800\nN Colossal magical beast (extraplanar)\nInit\n+3;\nSenses\nblindsense (sound) 60 ft., darkvision 60 ft., low-light vision;\nPerception\n+28\nDefense\nHP\n330\nEAC\n29;\nKAC\n30\nFort\n+20;\nRef\n+16;\nWill\n+18\nDefensive Abilities\nscorching body, solar adaptation, void adaptation;\nDR\n15/adamantine;\nImmunities\nfire, paralysis, poison, sleep;\nResistances\ncold 15\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\nburrow 20 ft., fly 120 ft. (Su, average), swim 120 ft.\nMelee\nbite +30 (6d10+26 B & F; critical burn 4d4) or tail slap +30 (5d12+26 B & F; critical burn 4d4 or knockdown)\nSpace\n30 ft.;\nReach\n30 ft.\nOffensive Abilities\nbreath weapon (90-ft. cone, 16d6 B & F, Reflex DC 22 half, usable every 1d4 rounds), crush (5d12+26 B & F)\nSpell-Like Abilities\n(CL 16th)\n1/day—\nplane shift\n(self only; Elemental Planes or Material Plane only)\nStatistics\nSTR\n+10;\nDEX\n+3;\nCON\n+7;\nINT\n-3;\nWIS\n+5;\nCHA\n+0\nSkills\nAcrobatics +28\nLanguages\nIgnan, Terran (can’t speak any language)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pod (3–8)\nSpecial Abilities\nScorching Body (Su)\nA creature that touches the fire whale takes 2d6 fire damage. A creature in contact with a fire whale takes 6d6 fire damage each round the contact persists.\nDescription\nTitanic natives of the Plane of Fire, fire whales can be found swimming in the atmosphere of Material Plane stars or in space searching for food, from biological matter to inorganic material such as Tiny starships. Their innards refine this fodder into metals and gems. Deceased fire whales can be refitted and used as frames for Small starships.",
+  "type": "magical beast (extraplanar)",
+  "category": "alien"
+}

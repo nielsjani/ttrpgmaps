@@ -1,0 +1,43 @@
+{
+  "name": "Mercenaries, Mercenary Commando",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mercenary Commando&Family=Mercenaries",
+  "source": "Pact Worlds pg. 174",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (lashunta)",
+  "init": "+8",
+  "perception": "+20",
+  "hp": "150",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+9",
+  "ref": "+12",
+  "will": "+13",
+  "speed": "50 ft.",
+  "melee": "incapacitator +20 (3d4+12 B nonlethal; critical staggered [DC 19])",
+  "ranged": "elite semi-auto pistol +20 (3d6+10 P) or advanced shirren-eye rifle +20 (2d10+10 P)",
+  "offensive_abilities": "debilitating trick, trick attack +5d8, triple attack",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "1/day—\ndetect thoughts (DC\n17)\nAt will—\ndaze\n(DC 16),\npsychokinetic hand"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+8",
+    "con": "+2",
+    "int": "+5",
+    "wis": "+3",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +25, Bluff +20, Culture +25, Disguise +20, Stealth +25 (+29 when using trick attack)",
+  "languages": "Castrovelian, Common, up to 5 others; limited telepathy 30 ft.",
+  "other_abilities": "operative exploits (cloaking field, master of disguise [3/day, 100 minutes or 10 minutes, DC 19]), specialization (ghost)",
+  "gear": "freebooter armor III, advanced shirren-eye rifle with 12 sniper rounds, elite semi-auto pistol with 36 small arm rounds, incapacitator with 1 battery (20 charges)",
+  "description": "A mercenary commando is the best there is at quickly and quietly eliminating enemies and hazards for an employer, preferably leaving little or no collateral damage, evidence, or witnesses. Some lead teams of rookie mercenaries, but many operate alone or in small strike teams against well-researched targets. Teams that operate with commandos often demand high prices.\nCommandos prefer to go in knowing all the angles, but they are very good at improvising when that simply isn't an option. Those who pride themselves on cold professionalism speak only to further their latest ploy, but the most storied commandos are those who take pleasure in playful banter with challenging foes, especially ones who survive to face them again another time.\nAdaptation:\nA mercenary commando can be an assassin serving Lao Shu Po or a master Steward spy working a mission that cannot be officially acknowledged.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMercenaries\nSource\nPact Worlds pg. 174\nMercenaries work for the highest bidder, generally with no questions asked (except by those who belong to the Skyfire Legion and a few other more principled companies). Mercenaries can serve the interests of almost any faction with enough credits, but most often they work for employers who can't employ a formal military force or who can't be seen getting their own hands dirty. Since their ultimate goal is simply to get paid, mercenaries are rarely willing to fight to the death unless they fear failure will ruin them completely anyway. If approached with an appealing offer, some particularly ruthless mercenaries are willing to betray their employers, but their new loyalty is just as fickle. Many mercenaries know that changing sides in the middle of a job could ruin their reputations, so they are therefore willing to be bought off only in a way that they can plausibly deny later or that will make them so much money that they will be set for life. There are countless mercenary groups throughout the Pact Worlds, ranging from large and acclaimed to small and obscure. Many groups specialize in certain types of missions; some take on only jobs that put them on the battlefield, while others prefer to stick to the shadows. Mercenary groups accept a variety of forms of payment, from hard credits to technological gear and weapons to magic items.\nExample Mercenaries\nThree example mercenaries are presented below, along with advice on how to use them in similar NPC roles.\nAdaptation:\nMercenaries can serve almost any business, faction, government, or organization, especially those concerned about being found out for their involvement in unsavory dealings. The Skyfire Legion, perhaps the most famous and most principled mercenary company, offers its services to colonists and others with legitimate interests outside the Pact Worlds. Skyfire Legionnaires are more often dragonkin and ryphorians rather than the races described here.\nEncounters\nMercenaries generally function in teams organized by mercenary companies, although a few prefer to operate alone or on small freelance teams.\nThreat Assessment Team (CR 10):\nTwo mercenary rookies, one mercenary technomancer.\nStrike Team (CR 12): Three mercenary rookies, one mercenary technomancer, one mercenary commando.\nHigh-Tech Extraction Team (CR 14): Two mercenary technomancers, three mercenary commandos.\nAliens in the \"Mercenaries\" Family\nName\nCR\nMercenary Commando\n10\nMercenary Rookie\n6\nMercenary Technomancer\n8\nMercenaries, Mercenary Commando\nSource\nPact Worlds pg. 175\nMercenary Commando CR 10\nXP 9,600\nDamaya lashunta operative\nN Medium humanoid (lashunta)\nInit\n+8;\nPerception\n+20\nDefense\nHP\n150\nEAC\n23;\nKAC\n24\nFort\n+9;\nRef\n+12;\nWill\n+13\nDefensive Abilities\nevasion, uncanny agility\nOffense\nSpeed\n50 ft.\nMelee\nincapacitator +20 (3d4+12 B nonlethal; critical staggered [DC 19])\nRanged\nelite semi-auto pistol +20 (3d6+10 P) or advanced shirren-eye rifle +20 (2d10+10 P)\nOffensive Abilities\ndebilitating trick, trick attack +5d8, triple attack\nLashunta Spell-Like Abilities\n(CL 10th)\n1/day—\ndetect thoughts (DC\n17)\nAt will—\ndaze\n(DC 16),\npsychokinetic hand\nStatistics\nSTR\n+2;\nDEX\n+8;\nCON\n+2;\nINT\n+5;\nWIS\n+3;\nCHA\n+3\nSkills\nAcrobatics +25, Bluff +20, Culture +25, Disguise +20, Stealth +25 (+29 when using trick attack)\nLanguages\nCastrovelian, Common, up to 5 others; limited telepathy 30 ft.\nOther Abilities\noperative exploits (cloaking field, master of disguise [3/day, 100 minutes or 10 minutes, DC 19]), specialization (ghost)\nGear\nfreebooter armor III, advanced shirren-eye rifle with 12 sniper rounds, elite semi-auto pistol with 36 small arm rounds, incapacitator with 1 battery (20 charges)\nDescription\nA mercenary commando is the best there is at quickly and quietly eliminating enemies and hazards for an employer, preferably leaving little or no collateral damage, evidence, or witnesses. Some lead teams of rookie mercenaries, but many operate alone or in small strike teams against well-researched targets. Teams that operate with commandos often demand high prices.\nCommandos prefer to go in knowing all the angles, but they are very good at improvising when that simply isn't an option. Those who pride themselves on cold professionalism speak only to further their latest ploy, but the most storied commandos are those who take pleasure in playful banter with challenging foes, especially ones who survive to face them again another time.\nAdaptation:\nA mercenary commando can be an assassin serving Lao Shu Po or a master Steward spy working a mission that cannot be officially acknowledged.",
+  "type": "humanoid (lashunta)",
+  "environment": "—",
+  "category": "alien"
+}

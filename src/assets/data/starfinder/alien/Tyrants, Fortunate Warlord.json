@@ -1,0 +1,46 @@
+{
+  "name": "Tyrants, Fortunate Warlord",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Fortunate Warlord&Family=Tyrants",
+  "source": "Interstellar Species pg. 186",
+  "cr": "11",
+  "xp": "12,800",
+  "alignment": "NE",
+  "size": "Small",
+  "creature_type": "humanoid (worlanisi)",
+  "init": "+8",
+  "perception": "+20",
+  "hp": "180",
+  "eac": "24",
+  "kac": "26",
+  "fort": "+15",
+  "ref": "+13",
+  "will": "+10",
+  "weaknesses": "psychic reverb",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "tactical plasma sword +20 (2d8+16 E&F; critical severe wound)",
+  "ranged": "medium machine gun +23 (3d10+11 P) or cryo grenade II +20 (explode [15 ft., 2d8 C plus staggered, DC 18])",
+  "offensive_abilities": "lucky bounce",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+8",
+    "con": "+2",
+    "int": "+1",
+    "wis": "+0",
+    "cha": "+3"
+  },
+  "skills": "Bluff +20, Diplomacy +20, Intimidate +25",
+  "languages": "Common, Worlanisi; limited telepathy 60 ft.",
+  "other_abilities": "multiarmed (4) , worlanisi gamble , worlanisi luck",
+  "gear": "freebooter armor III, medium machine gun with 240 rounds, tactical plasma sword with 2 batteries (20 charges each), cryo grenades II (3)",
+  "special_abilities": [
+    {
+      "name": "Lucky Bounce (Ex)",
+      "description": "As a move action, a fortunate warlord can draw and throw a grenade with a –10 penalty to their attack roll. When a fortunate warlord misses a ranged attack with a thrown weapon, they can reduce the number of squares the weapon lands away from the target by 1. In addition, they roll 1d8 twice and use either result to determine the misdirection of the throw."
+    }
+  ],
+  "description": "Some worlanisi leverage their preternatural luck to best their rivals, forging loyal armies that revere the leader’s track record of uncanny victories. These fiefdoms typically thrive less on careful planning than they do on aggression, creating situations where the warlord can beat the odds in one fell swoop. These leaders most often run pirate ships or mercenary crews, where a quick tongue and quicker aim can win the day.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTyrants\nSource\nInterstellar Species pg. 186\nThose who amass extraordinary wealth, power, and influence often use them to perpetuate their advantages, typically through violent or coercive means. Tyrants might maintain their rule through subterfuge and surveillance or through age-old and expedient threats and brute force. What unifies tyrants across philosophical and ideological divides is the willingness and ruthlessness to pursue extraordinarily ends to justify their means, often at a terrible cost to those who dare oppose them.\nAliens in the \"Tyrants\" Family\nName\nCR\nColveare Hierarch\n14\nFortunate Warlord\n11\nSingularity Accelerationist\n7\nUnderworld Mastermind\n19\nTyrants, Fortunate Warlord\nSource\nInterstellar Species pg. 186\nFortunate Warlord CR 11\nXP 12,800\nWorlanisi\nNE Small humanoid (worlanisi)\nInit\n+8;\nPerception\n+20\nDefense\nHP\n180\nEAC\n24;\nKAC\n26\nFort\n+15;\nRef\n+13;\nWill\n+10; –1 vs. mind-affecting effects\nWeaknesses\npsychic reverb\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\ntactical plasma sword +20 (2d8+16 E&F; critical severe wound)\nRanged\nmedium machine gun +23 (3d10+11 P) or cryo grenade II +20 (explode [15 ft., 2d8 C plus staggered, DC 18])\nOffensive Abilities\nlucky bounce\nStatistics\nSTR\n+5;\nDEX\n+8;\nCON\n+2;\nINT\n+1;\nWIS\n+0;\nCHA\n+3\nSkills\nBluff +20, Diplomacy +20, Intimidate +25\nLanguages\nCommon, Worlanisi; limited telepathy 60 ft.\nOther Abilities\nmultiarmed (4) , worlanisi gamble , worlanisi luck\nGear\nfreebooter armor III, medium machine gun with 240 rounds, tactical plasma sword with 2 batteries (20 charges each), cryo grenades II (3)\nSpecial Abilities\nLucky Bounce (Ex)\nAs a move action, a fortunate warlord can draw and throw a grenade with a –10 penalty to their attack roll. When a fortunate warlord misses a ranged attack with a thrown weapon, they can reduce the number of squares the weapon lands away from the target by 1. In addition, they roll 1d8 twice and use either result to determine the misdirection of the throw.\nDescription\nSome worlanisi leverage their preternatural luck to best their rivals, forging loyal armies that revere the leader’s track record of uncanny victories. These fiefdoms typically thrive less on careful planning than they do on aggression, creating situations where the warlord can beat the odds in one fell swoop. These leaders most often run pirate ships or mercenary crews, where a quick tongue and quicker aim can win the day.",
+  "type": "humanoid (worlanisi)",
+  "environment": "—",
+  "category": "alien"
+}

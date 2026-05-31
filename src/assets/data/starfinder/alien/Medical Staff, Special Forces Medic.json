@@ -1,0 +1,50 @@
+{
+  "name": "Medical Staff, Special Forces Medic",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Special Forces Medic&Family=Medical Staff",
+  "source": "Interstellar Species pg. 172",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+28",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+15",
+  "ref": "+17",
+  "will": "+14",
+  "speed": "35 ft.",
+  "melee": "horn  +27 (3d12+21 P) or",
+  "ranged": "called returning alto singing disk",
+  "offensive_abilities": "friendly fire , gore",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+1",
+    "con": "+4",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Athletics +23, Medicine +28, Survival +23",
+  "languages": "Common, Orc, and up to 3 others",
+  "other_abilities": "maze mind , rapid treatment, shield the fallen",
+  "gear": "pinion skyfire armor, called returning alto singing disk,",
+  "special_abilities": [
+    {
+      "name": "Rapid Treatment (Ex)",
+      "description": "A special forces medic can spend 1 Resolve Point to use Medicine to treat deadly wounds as a standard action rather than requiring 1 minute of treatment. If the Medicine check is successful, the target receives twice as many Hit Points as normal."
+    },
+    {
+      "name": "Shield the Fallen (Ex)",
+      "description": "When the medic uses Medicine to provide first aid, treat deadly wounds, treat disease, or treat drugs or poison, they gain Bodyguard and In Harm’s Way as bonus feats for 1 minute, but they can only use these feats to protect the target of their Medicine check."
+    }
+  ],
+  "description": "For elite combat medics, doing their job often means exposing themselves to the same fangs and gunfire that wounded their comrades a moment earlier. These doctors are typically part of a military unit and receive training in combat and infiltration.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMedical Staff\nSource\nInterstellar Species pg. 172\nIn many societies, practicing medicine requires extensive (and often formal) education and even certification. Yet the galaxy is a big, dangerous place, and some of the best healers are self-taught, work outside of official networks, or both. Altruism, prestige, or profit motivate most medics to provide life-saving care. However, medics can be villains, with criminals, charlatans, and unethical innovators willing to provide risky surgeries, experimental drugs, or cure-all placebos for the right price.\nAliens in the \"Medical Staff\" Family\nName\nCR\nEmt\n3\nPhysician\n6\nPsychic Healer\n9\nSpecial Forces Medic\n13\nMedical Staff, Special Forces Medic\nSource\nInterstellar Species pg. 173\nSpecial Forces Medic CR 13\nXP 25,600\nNuar\nN Medium monstrous humanoid\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+28\nDefense\nHP\n225;\nRP\n7\nEAC\n27;\nKAC\n29\nFort\n+15;\nRef\n+17;\nWill\n+14\nOffense\nSpeed\n35 ft.\nMelee\nhorn  +27 (3d12+21 P) or\ncalled returning alto singing disk\n+27 (3d6+21 So; critical confuse)\nRanged\ncalled returning alto singing disk\n+24 (3d6+21 So; critical confuse)\nOffensive Abilities\nfriendly fire , gore\nStatistics\nSTR\n+8;\nDEX\n+1;\nCON\n+4;\nINT\n+6;\nWIS\n+2;\nCHA\n+0\nSkills\nAthletics +23, Medicine +28, Survival +23\nLanguages\nCommon, Orc, and up to 3 others\nOther Abilities\nmaze mind , rapid treatment, shield the fallen\nGear\npinion skyfire armor, called returning alto singing disk,\nmk 3 serums of healing\n(3), advanced medkit, white nanite hypopens (3);\nAugmentations\nmk 2 force soles\nSpecial Abilities\nRapid Treatment (Ex)\nA special forces medic can spend 1 Resolve Point to use Medicine to treat deadly wounds as a standard action rather than requiring 1 minute of treatment. If the Medicine check is successful, the target receives twice as many Hit Points as normal.\nShield the Fallen (Ex)\nWhen the medic uses Medicine to provide first aid, treat deadly wounds, treat disease, or treat drugs or poison, they gain Bodyguard and In Harm’s Way as bonus feats for 1 minute, but they can only use these feats to protect the target of their Medicine check.\nDescription\nFor elite combat medics, doing their job often means exposing themselves to the same fangs and gunfire that wounded their comrades a moment earlier. These doctors are typically part of a military unit and receive training in combat and infiltration.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

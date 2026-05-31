@@ -1,0 +1,64 @@
+{
+  "name": "Sombrian, Lumyr",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Lumyr&Family=Sombrian",
+  "source": "Alien Archive 4 pg. 112",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CN",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+21",
+  "hp": "105",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+11",
+  "immunities": "bleed, cold",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "+12 touch (1d12+8 C plus confounding frost)",
+  "ranged": "+14 cryobolt (1d10+8 C plus confounding frost)",
+  "offensive_abilities": "ill omen",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\nanimate dead\n3/day—\ncommand undead\n(DC 19),\nfog cloud\n,\ninvisibility\n,\nmirror image\nAt will—\ncharm person\n(DC 18),\nwisp ally"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +16, Bluff +16, Stealth +21",
+  "languages": "Aklo, Common",
+  "other_abilities": "limited spaceflight",
+  "environment": "any",
+  "organization": "solitary, pair, or gambol (3–6)",
+  "special_abilities": [
+    {
+      "name": "Confounding Frost (Su)",
+      "description": "When a lumyr scores a critical hit against a foe with one of the lumyr’s natural weapons, the mystical frost also confuses the target for 1 round (Will DC 18 negates)."
+    },
+    {
+      "name": "Cryobolt (Su)",
+      "description": "A lumyr’s cryobolt is a ranged attack with a range increment of 60 feet."
+    },
+    {
+      "name": "Ill Omen (Su)",
+      "description": "Once per day as a reaction when a creature the lumyr can see within 60 feet succeeds at an attack roll, saving throw or skill check, the lumyr can force that creature to immediately reroll the check and use the lower result."
+    },
+    {
+      "name": "Limited Spaceflight (Su)",
+      "description": "A lumyr can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSombrian\nSource\nAlien Archive 4 pg. 112\nWhen celestial bodies align, the cosmic fabric between the Material Plane and the First World sometimes thins, especially when combined with the emotional energy of the mortal fears and myths of those celestial bodies’ populaces. These ideal astronomical and psychological conditions often birth a sombrian, a fey creature imbued with either the blazing energy of a star or the eerie light of a blood moon.\nThose born from a lunar eclipse are called lumyrs, while those born from a solar eclipse are called solmyrs. Both tend to resemble an intelligent species native to the system that birthed them. Most lumyrs have wings and other features reminiscent of nocturnal flying insects. However, their most unsettling feature is their apparent lack of internal organs; their mouths open into lightless voids, their wounds bleed only brief spatters of light, and their bodies are hollow, organ-less shells. Solmyrs’ eyes blaze like raging infernos and blinding light lines their bodies.\nWhile lumyrs are insatiably curious and hedonistic, solmyrs are more reclusive and less focused on the ephemeral amusements of their kin. Many mythologies purport that each solmyr is granted a piece of prophecy upon their creation, most often a portent or warning about their star system of origin.\nAliens in the \"Sombrian\" Family\nName\nCR\nLumyr\n8\nSolmyr\n13\nSombrian, Lumyr\nSource\nAlien Archive 4 pg. 112\nLumyr CR 8\nXP 4,800\nCN Medium fey\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+21\nDefense\nHP\n105\nEAC\n19;\nKAC\n20\nFort\n+9;\nRef\n+9;\nWill\n+11\nDefensive Abilities\nvoid adaptation Immunities bleed, cold\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\n+12 touch (1d12+8 C plus confounding frost)\nRanged\n+14 cryobolt (1d10+8 C plus confounding frost)\nOffensive Abilities\nill omen\nSpell-Like Abilities\n(CL 8th)\n1/day—\nanimate dead\n3/day—\ncommand undead\n(DC 19),\nfog cloud\n,\ninvisibility\n,\nmirror image\nAt will—\ncharm person\n(DC 18),\nwisp ally\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n+0;\nINT\n+2;\nWIS\n+2;\nCHA\n+4\nSkills\nAcrobatics +16, Bluff +16, Stealth +21\nLanguages\nAklo, Common\nOther Abilities\nlimited spaceflight\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or gambol (3–6)\nSpecial Abilities\nConfounding Frost (Su)\nWhen a lumyr scores a critical hit against a foe with one of the lumyr’s natural weapons, the mystical frost also confuses the target for 1 round (Will DC 18 negates).\nCryobolt (Su)\nA lumyr’s cryobolt is a ranged attack with a range increment of 60 feet.\nIll Omen (Su)\nOnce per day as a reaction when a creature the lumyr can see within 60 feet succeeds at an attack roll, saving throw or skill check, the lumyr can force that creature to immediately reroll the check and use the lower result.\nLimited Spaceflight (Su)\nA lumyr can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days.",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Sombrian_Lumyr.png"
+}

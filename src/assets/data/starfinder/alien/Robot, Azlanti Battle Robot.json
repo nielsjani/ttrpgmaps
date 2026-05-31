@@ -1,0 +1,62 @@
+{
+  "name": "Robot, Azlanti Battle Robot",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Azlanti Battle Robot&Family=Robot",
+  "source": "Alien Archive 2 pg. 108",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "construct (technological)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+18",
+  "hp": "90",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+3",
+  "sr": "17",
+  "immunities": "construct immunities;",
+  "weaknesses": "Azlanti programming, vulnerable to electricity",
+  "speed": "40 ft.",
+  "melee": "slam +17 (1d8+11 B)",
+  "ranged": "disintegrator beam +14 (2d6+6 A; critical corrode 1d6)",
+  "offensive_abilities": "self-destruct (3d6 P, DC 14)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "—",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Engineering +13, Intimidate +13",
+  "languages": "Azlanti",
+  "other_abilities": "embedded aeon stone (",
+  "environment": "any urban (Azlanti Star Empire)",
+  "organization": "solitary, pair, or patrol (3–7)",
+  "special_abilities": [
+    {
+      "name": "Azlanti Programming (Ex)",
+      "description": "An Azlanti battle robot’s programming is so meticulous that it is incapable of attacking an Azlanti human. However, its sensors aren’t foolproof and a creature can deceive the robot with a successful Disguise check."
+    },
+    {
+      "name": "Disintegrator Beam (Ex)",
+      "description": "An Azlanti battle robot has a disintegrator beam as a natural weapon built into one of its arms. This beam has a range increment of 30 feet and prevents the robot from wielding any other weapon that requires two hands."
+    },
+    {
+      "name": "Embedded Aeon Stone (Ex)",
+      "description": "As a full action, an aeon stone can be slotted into (or removed from) an Azlanti battle robot’s forehead while the robot is helpless, pinned, or willing. The robot gains the benefit of a slotted aeon stone provided the stone’s item level is no greater than the robot’s CR + 1."
+    },
+    {
+      "name": "Self-Destruct (Ex)",
+      "description": "When an Azlanti battle robot’s Hit Points are reduced to 10 or fewer, it explodes on its next turn in a 10-foot-radius burst, even if it has already been destroyed. Creatures within range take 3d6 piercing damage (Reflex DC 14 half). As a full action that provokes attacks of opportunity, a creature adjacent to the robot can attempt a DC 24 Engineering check to disarm the self-destruct mechanism before it detonates."
+    }
+  ],
+  "description": "Azlanti battle robots can be found at the front of most Azlanti Star Empire advances. Their unwavering loyalty and disposability, coupled with their propensity to self-destruct amid enemy soldiers, makes them invaluable on the battlefield. These robots resemble members of the iconic Aeon Guard with exposed gears and pistons, which call back to the wondrous clockwork creations of the ancient Azlanti people of lost Golarion. Further, these constructs are incapable of directly assaulting anyone of pure Azlanti heritage. However, field tests have shown that exceptional disguises can trick the robots. Azlanti roboticists are hard at work correcting this flaw. Mass-produced in imperial factories, each Azlanti robot stands 7 feet tall and weighs 500 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRobot\nSource\nAlien Archive 2 pg. 108\nRobots serve a variety of functions. They’re often employed in situations where the risks to living beings are too great or emotional responses are a hindrance—notably murder and war.\nAssassin robots are killing machines useful for stealthy slayings or gruesome public displays. A user can program targets into the robot, dispatch the unit, and rest assured. The robot relentlessly pursues its quarry, fearing nothing and using microfiber setae on its hands and feet to traverse vertical and horizontal surfaces with ease. Whether it succeeds, fails, escapes, or suffers destruction, the robot leaves little evidence behind—an assassin robot that is captured or destroyed automatically purges its memory and burns out its sensitive hardware components, making tracing the robot’s mission and origin extremely difficult.\nTypical assassin robots are 6 feet tall, weigh 300 pounds, and use the weapons detailed in the stat block on page 108, but they can be outfitted with other armaments as a mission requires. In particular, assassin robots on missions where more subtlety is called for use needler pistols stocked with poisoned darts.\nThere is nothing subtle, however, about a siege robot. These machines serve as artificially intelligent assault vehicles, and many rightly fear these engines of war. Merciless and efficient, a siege robot is as effective at unloading massive damage against a single target as it is at mowing down enemy troops en masse, and its vehicle form makes it difficult to escape from on an open battlefield. Most siege robots are outfitted with large reserves of ammunition, enough to sustain a constant barrage for minutes at a time.\nSiege Robots As Vehicles\nA siege robot can be used as a vehicle in vehicle combat or vehicle chases. In such cases it acts as its own pilot and has the following additional statistics: item level equal to its CR; drive speed 60 ft., full speed 500 ft., overland speed 60 mph, (hover); hardness 8; collision damage 16d10 B (DC 19); –3 attack roll penalty (–6 at full speed). A siege robot acting as a vehicle can carry up to 4 Medium passengers but provides them no cover.\nAliens in the \"Robot\" Family\nName\nCR\nAssassin Robot\n9\nAzlanti Adjutant\n3\nAzlanti Battle Robot\n6\nGuardian Robot\n5\nIncapacitator\n3\nKeeper Robot\n18\nMining\n9\nSiege Robot\n15\nTerminator-Class Security\n10\nRobot, Azlanti Battle Robot\nSource\nStarfinder #9: The Rune Drive Gambit pg. 60\nAzlanti Battle Robot CR 6\nXP 2,400\nN Medium construct (technological)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+18\nDefense\nHP\n90\nEAC\n18;\nKAC\n20\nFort\n+6;\nRef\n+6;\nWill\n+3\nImmunities\nconstruct immunities;\nSR\n17\nWeaknesses\nAzlanti programming, vulnerable to electricity\nOffense\nSpeed\n40 ft.\nMelee\nslam +17 (1d8+11 B)\nRanged\ndisintegrator beam +14 (2d6+6 A; critical corrode 1d6)\nOffensive Abilities\nself-destruct (3d6 P, DC 14)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n—;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nSkills\nEngineering +13, Intimidate +13\nLanguages\nAzlanti\nOther Abilities\nembedded aeon stone (\npurple sphere aeon stone\n), unliving\nEcology\nEnvironment\nany urban (Azlanti Star Empire)\nOrganization\nsolitary, pair, or patrol (3–7)\nSpecial Abilities\nAzlanti Programming (Ex)\nAn Azlanti battle robot’s programming is so meticulous that it is incapable of attacking an Azlanti human. However, its sensors aren’t foolproof and a creature can deceive the robot with a successful Disguise check.\nDisintegrator Beam (Ex)\nAn Azlanti battle robot has a disintegrator beam as a natural weapon built into one of its arms. This beam has a range increment of 30 feet and prevents the robot from wielding any other weapon that requires two hands.\nEmbedded Aeon Stone (Ex)\nAs a full action, an aeon stone can be slotted into (or removed from) an Azlanti battle robot’s forehead while the robot is helpless, pinned, or willing. The robot gains the benefit of a slotted aeon stone provided the stone’s item level is no greater than the robot’s CR + 1.\nSelf-Destruct (Ex)\nWhen an Azlanti battle robot’s Hit Points are reduced to 10 or fewer, it explodes on its next turn in a 10-foot-radius burst, even if it has already been destroyed. Creatures within range take 3d6 piercing damage (Reflex DC 14 half). As a full action that provokes attacks of opportunity, a creature adjacent to the robot can attempt a DC 24 Engineering check to disarm the self-destruct mechanism before it detonates.\nDescription\nAzlanti battle robots can be found at the front of most Azlanti Star Empire advances. Their unwavering loyalty and disposability, coupled with their propensity to self-destruct amid enemy soldiers, makes them invaluable on the battlefield. These robots resemble members of the iconic Aeon Guard with exposed gears and pistons, which call back to the wondrous clockwork creations of the ancient Azlanti people of lost Golarion. Further, these constructs are incapable of directly assaulting anyone of pure Azlanti heritage. However, field tests have shown that exceptional disguises can trick the robots. Azlanti roboticists are hard at work correcting this flaw. Mass-produced in imperial factories, each Azlanti robot stands 7 feet tall and weighs 500 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nRobot (Summoning) Graft Template",
+  "type": "construct (technological)",
+  "category": "alien"
+}

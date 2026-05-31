@@ -1,0 +1,45 @@
+{
+  "name": "Skittermander, Skittermander Whelp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Skittermander Whelp&Family=Skittermander",
+  "source": "Alien Archive pg. 106",
+  "cr": "1/3",
+  "xp": "135",
+  "alignment": "N",
+  "size": "Diminutive",
+  "creature_type": "humanoid (skittermander)",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+7",
+  "hp": "6",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+0",
+  "ref": "+4",
+  "will": "+0",
+  "speed": "30 ft., climb 20 ft.",
+  "melee": "bite +2 (1d4–2 P plus attach)",
+  "space": "1 ft.",
+  "reach": "0 ft. (5 ft. with bite)",
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+3",
+    "con": "+0",
+    "int": "-2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +7, Athletics +3 (+11 when climbing), Stealth +7",
+  "environment": "any (Vesk-3)",
+  "organization": "solitary or nest (5-24)",
+  "special_abilities": [
+    {
+      "name": "Attach (Ex)",
+      "description": "A skittermander whelp that hits with a bite attack automatically initiates a special combat maneuver against its target (this does not take an action) with a +4 racial bonus. If successful, the skittermander whelp moves into the target’s space without provoking an attack of opportunity and attaches to the target. The whelp gains partial cover, (though not against attacks made by the target) as well as a +2 circumstance bonus to melee attacks and damage rolls, but it can attack only the creature to which it is attached. The target (or an ally adjacent to the target) can remove an attached skittermander whelp with a successful DC 10 Strength check as a move action."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nSkittermander (Creature Subtype) Graft Template\n-\nSkittermander Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSkittermander\nSource\nAlien Archive pg. 106\nNear-ubiquitous inhabitants of the planet Vesk-3, skittermanders led a simple, mostly agrarian lifestyle before the Veskarium annexed their planet. They have a unique outlook: individualistic without being anarchic, and somehow unable (or perhaps unwilling) to grasp the concept of permanent governance. They understand and enjoy teamwork, and naturally follow a qualified leader to undertake large projects such as the building of domiciles, but once that task has been completed, the leader doesn’t continue to hold sway over the others. Coupled with their unusual life cycle, it would seem as if skittermanders would be very difficult to rule. But such is not exactly the case.\nWhen vesk warships appeared in the sky, skittermanders across Vesk-3 were more than happy to get out of the invaders’ way—not out of fear, but more because of their innate desire to help. Skittermanders instinctively recognized the Veskarium’s superior strength and felt they could best aid the empire by simply not being in the same location as its soldiers. In this way, skittermanders believed the vesk could quickly achieve their goals and move on. They didn’t understand the vesk’s aim was to subdue their world. Since vesk’s code of honor forbade them from shooting the cheerfully acquiescent skittermanders in the back, the invaders were confused and infuriated by the situation.\nEventually, in a meeting that the empire notes as the official date that Vesk-3 was conquered, a vesk general plainly told a group of skittermanders that the Veskarium ruled their planet. The skittermanders nodded and got back to their lives. Since then, the empire has ruled Vesk-3, though it hasn’t truly been in control of it. Skittermanders cheerfully accept jobs given to them by vesk, but never truly acknowledge the vesk as being in charge. Some outside the Veskarium believe skittermanders are being deliberately obtuse, reaping all the technological and social benefits the empire offers while still partially maintaining their freedom as a society, but no skittermander has ever confirmed this theory.\nToday, skittermanders can be found throughout the Veskarium, often serving in clerical positions that allow them to aid as many people as possible. They have fully embraced technology and enjoy the many sights the galaxy has to offer, traveling to the Pact Worlds and beyond. Those who employ skittermanders quickly learn to give them missions that have open-ended parameters, as a skittermander who feels she has completed a task won’t necessarily report back to a superior for further instructions if she finds someone else who needs her help first. Outsiders often find them cheerfully manic, noting a goblin-like flair for the ridiculous but none of that race’s innate malice.\nThough skittermanders are mammals, they begin life in something akin to a larval stage. A skittermander whelp looks like a miniature version of an adult, but with more prominent ears and a tiny, secondary mouth on its abdomen. Once born, whelps are left to fend for themselves. They are truly omnivorous, capable of digesting fruits, leaves, raw meat, and seeds. Additionally, a whelp’s secondary mouth allows it to attach itself to large prey and feed at its leisure. Thanks to a numbing mucus secreted by this mouth, less intelligent animals rarely even notice the whelp’s samplings. A swarm of skittermander whelps has been known to bring down a trundling bovine monoux in a matter of minutes.\nAfter 6 years, whelps mature into adult skittermanders, begin to walk upright, and lose their secondary mouths, but they maintain their taste for anything remotely edible. Skittermanders living in tropical climes have short, soft fur, while their arctic cousins grow tough, shaggy hair. Their coloration varies even more, with tones of blue, green, and violet being the most common, but with no obvious correlation to their surroundings.\nThe average adult skittermander is 3 feet tall and weighs about 35 pounds.\nAliens in the \"Skittermander\" Family\nName\nCR\nSkittermander\n2\nSkittermander Whelp\n1/3\nSkittermander, Skittermander Whelp\nSource\nAlien Archive pg. 106\nSkittermander Whelp CR 1/3\nXP 135\nN Diminutive humanoid (skittermander)\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+7\nDefense\nHP\n6\nEAC\n10;\nKAC\n11\nFort\n+0;\nRef\n+4;\nWill\n+0\nOffense\nSpeed\n30 ft., climb 20 ft.\nMelee\nbite +2 (1d4–2 P plus attach)\nSpace\n1 ft.;\nReach\n0 ft. (5 ft. with bite)\nStatistics\nSTR\n-2;\nDEX\n+3;\nCON\n+0;\nINT\n-2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +7, Athletics +3 (+11 when climbing), Stealth +7\nEcology\nEnvironment\nany (Vesk-3)\nOrganization\nsolitary or nest (5-24)\nSpecial Abilities\nAttach (Ex)\nA skittermander whelp that hits with a bite attack automatically initiates a special combat maneuver against its target (this does not take an action) with a +4 racial bonus. If successful, the skittermander whelp moves into the target’s space without provoking an attack of opportunity and attaches to the target. The whelp gains partial cover, (though not against attacks made by the target) as well as a +2 circumstance bonus to melee attacks and damage rolls, but it can attack only the creature to which it is attached. The target (or an ally adjacent to the target) can remove an attached skittermander whelp with a successful DC 10 Strength check as a move action.\nExtra Content\nThe following extra content was found for this creature:\n-\nSkittermander (Creature Subtype) Graft Template\n-\nSkittermander Race Entry",
+  "type": "humanoid (skittermander)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Skittermander_Whelp.png"
+}

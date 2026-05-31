@@ -1,0 +1,54 @@
+{
+  "name": "Thermatrod, Caldera",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Caldera&Family=Thermatrod",
+  "source": "Alien Archive 4 pg. 124",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "CN",
+  "size": "Huge",
+  "creature_type": "magical beast (fire)",
+  "init": "+3",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+19",
+  "hp": "162",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+9",
+  "immunities": "fire",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft., burrow 30 ft.",
+  "melee": "slam +23 (2d10+18 F)",
+  "offensive_abilities": "slag bombardment (6d6 F, DC 17)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Intimidate +19",
+  "other_abilities": "deaf, earth glide",
+  "environment": "any warm mountains",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Deaf (Ex)",
+      "description": "Thermatrods can’t attempt Perception checks to listen and are immune to effects that rely on hearing to function."
+    },
+    {
+      "name": "Melting Aura (Ex)",
+      "description": "A creature that begins its turn within 5 feet of a thermatrod takes 1d4 fire damage from the creature’s intense internal temperature."
+    },
+    {
+      "name": "Slag Bombardment (Ex)",
+      "description": "As a full action, a thermatrod can spray part of its core at up to three grid intersections within 60 feet. Each creature within 10 feet of these intersections takes 6d6 fire damage and gains the staggered condition as the molten material hardens. An affected creature can attempt a DC 12 Reflex save to halve the damage and negate the staggered condition. Otherwise, the staggered condition lasts for 1 minute or until the target or an adjacent creature uses a full action to free the target. A creature caught in two or more overlapping areas affected by this ability is subject to the damage only once but takes a –2 penalty to the Reflex saving throw."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThermatrod\nSource\nAlien Archive 4 pg. 124\nDespite being large, bipedal creatures, thermatrods use a knuckle-walking quadrupedal gait resembling a gorilla’s stride, though they occasionally stand on their back legs or use their arms to climb. A mix of several types of molten stone and metal found on their native planet make up thermatrods’ torsos, allowing them to digest heavy minerals inedible to most living creatures. Several interlocking raised hexagonal plates resembling basalt columns make up their cooler backside. Due to this composition, a typical thermatrod stands 10 feet tall and weighs several tons.\nMany mystics believe that the worlds thermatrods inhabit must also have connections to the Elemental Planes of Earth and Fire—thin spots where the energies of those places bleed through into the Material Plane. After much study by dedicated xenobiologists, however, current wisdom maintains that though the creatures might strongly resemble the elemental inhabitants of those planes, they’re simply silicon-based beasts that thrive in extreme heat.\nLike some other silicon-based life-forms, thermatrods’ chemical evolution didn’t result in traditional sensory organs such as eyes and ears. However, fine crystalline matrices within the stone of a thermatrod’s head allow it to sense even very fine tremors. The one typical sense organ it does have is its dripping maw, into which the beast crams loose stones for sustenance.\nPact Worlds scientists don’t yet fully understand how a thermatrod’s silicon core maintains its intense heat. Some believe that, like a planet, it must contain radioactive elements that decay to generate this energy. The fact that thermatrods appear more prevalent in warm areas that contain a larger percentage of naturally radioactive metals supports this theory, but some question why the creatures themselves aren’t radioactive. Other xenobiologists posit that thermatrods might contain fragments of Hellfire that never cease burning, but no one has proven this hypothesis.\nThermatrods’ method of reproduction adds to the mystery of their biology. They travel to a hot geographical location, such as volcano or a thermal spring, to undergo a kind of mitosis. A thermatrod’s torso cracks open before spilling forth a portion of its molten core onto the ground. The exterior of this blob cools into the general shape of another thermatrod, which instinctively seeks out stone and metals to consume. If the surrounding area has an appropriate amount of sustenance, the newborn thermatrod grows to standard size within hours. Otherwise, the creature dies, leaving nothing behind but a strangely shaped rock, for which some collectors pay handsomely. In either case, the original thermatrod moves on long before the new one finishes developing.\nOn rare occasions, a severe disturbance in a planet’s magnetic field can cause two thermatrods in the same place to completely expel their cores, forming a single new mass. This pile hardens into a huge, four-armed thermatrod that devours any and all nearby metal-laced stones and crystals. Known as a thermatrod caldera, this creature constantly seeks out more materials to consume, its burning appetite for ore almost impossible to sate. Unfortunate mining operations that happen to be in the same area as a caldera’s feeding grounds usually get torn apart by the ravenous beast, often killing any workers caught in the way, as well as causing hundreds of thousands of credits worth in damages and lost profits. As such, mining companies that operate in areas of known thermatrod activity often spend extra resources on defensive barriers and equip their security with cryo weapons. Otherwise, these corporations must rely on freelancers to travel to an overrun mine and deal with any rampaging behemoths, which can often run up an even steeper bill.\nAliens in \"Thermatrod\" Family\nName\nCR\nCaldera\n10\nThermatrod\n3\nThermatrod, Caldera\nSource\nAlien Archive 4 pg. 124\nCaldera CR 10\nXP 9,600\nCN Huge magical beast (fire)\nInit\n+3;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+19\nAura\nmelting aura (5 ft., 3d4 F)\nDefense\nHP\n162\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+14;\nWill\n+9\nImmunities\nfire\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft., burrow 30 ft.\nMelee\nslam +23 (2d10+18 F)\nMultiattack\n4 slams +17 (1d10+18 F)\nOffensive Abilities\nslag bombardment (6d6 F, DC 17)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n+5;\nINT\n+0;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +19, Athletics +24, Intimidate +19\nOther Abilities\ndeaf, earth glide\nEcology\nEnvironment\nany warm mountains\nOrganization\nsolitary\nSpecial Abilities\nDeaf (Ex)\nThermatrods can’t attempt Perception checks to listen and are immune to effects that rely on hearing to function.\nMelting Aura (Ex)\nA creature that begins its turn within 5 feet of a thermatrod takes 1d4 fire damage from the creature’s intense internal temperature.\nSlag Bombardment (Ex)\nAs a full action, a thermatrod can spray part of its core at up to three grid intersections within 60 feet. Each creature within 10 feet of these intersections takes 6d6 fire damage and gains the staggered condition as the molten material hardens. An affected creature can attempt a DC 12 Reflex save to halve the damage and negate the staggered condition. Otherwise, the staggered condition lasts for 1 minute or until the target or an adjacent creature uses a full action to free the target. A creature caught in two or more overlapping areas affected by this ability is subject to the damage only once but takes a –2 penalty to the Reflex saving throw.",
+  "type": "magical beast (fire)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Thermatrod.png"
+}

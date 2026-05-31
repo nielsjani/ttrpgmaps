@@ -1,0 +1,50 @@
+{
+  "name": "Kathum",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kathum&Family=None",
+  "source": "Starfinder #49: A Light in the Dark pg. 59",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "Animal",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+7",
+  "hp": "25",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+1",
+  "speed": "40 ft., spider climb",
+  "melee": "slam +10 (1d6+5 B)",
+  "space": "120",
+  "reach": "10",
+  "offensive_abilities": "gravity crash (1d6, DC 13)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+2",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +12 (+16 to jump), Athletics +12",
+  "other_abilities": "personal gravity",
+  "environment": "any forest (Volunisp)",
+  "organization": "solitary or herd (10-30)",
+  "special_abilities": [
+    {
+      "name": "Gravity Crash (Su)",
+      "description": "When a kathum succeeds at an Athletics check to jump 30 or more feet horizontally or falls at least 30 feet, it deals 1d6+5 bludgeoning damage to all non-kathum creatures within 10 feet of where it lands. A successful DC 13 Fortitude save halves this damage."
+    },
+    {
+      "name": "Personal Gravity (Su)",
+      "description": "A kathum's primary evolutionary advantage is the manipulation of its own personal gravity, allowing it to jump tremendous distances and cushion its falls. While conscious, a kathum takes no falling damage no matter how far it has fallen. When a kathum attempts an Athletics check to jump, it always counts as having taken a 10-foot running start and the DC of the check is equal to half the number of feet it's trying to jump horizontally or twice the number of feet it's trying to jump vertically (instead of equal to the number of feet and four times the number of feet, respectively)."
+    }
+  ],
+  "description": "Those who visit the vast forests of Volunisp—a once-uninhabited planet in Near Space close to the Veskarium—often remark on the lack of large-scale predators, when they aren't complaining about the ever-present clouds of small biting insects. Xenobiologists attribute this unusual ecosystem to the presence of what some call “the apex herbivore of Volunisp,” the strange and unusual kathum. A kathum is an armored quadruped with long ears and well-muscled legs, though they hardly seem necessary as a kathum's unique ability to alter its own gravity allows it to leap from forest floor to canopy in a moment's notice and walk along thin leafy branches as if they were on solid ground. A kathum will use this gift to aggressively make dive-bomb attacks against those who dare to trespass within its wide-reaching territory.\nKathums travel in herds averaging 20 members. Born live, a kathum calf takes 3 weeks to gain enough control over its own gravity to ride safely upon its mother's back. They are particularly vulnerable until then, and older kathums will fiercely protect their newborn young, even chasing perceived threats beyond their usual territorial borders. A typical herd spends 4 hours a day in the treetops feeding, coming down to rest at night. Kathums nest in elevated areas such as large rocks and hills, though never further than 60 feet from the nearest treeline. A typical kathum is approximately 10 feet long and lives for nearly 200 years.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKathum\nSource\nStarfinder #49: A Light in the Dark pg. 59\nKathum CR 2\nXP 600\nN Large Animal\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+7\nDefense\nHP\n25\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+6;\nWill\n+1\nOffense\nSpeed\n40 ft., spider climb\nMelee\nslam +10 (1d6+5 B)\nSpace\n120;\nReach\n10\nOffensive Abilities\ngravity crash (1d6, DC 13)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+2;\nINT\n-4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +12 (+16 to jump), Athletics +12\nOther Abilities\npersonal gravity\nEcology\nEnvironment\nany forest (Volunisp)\nOrganization\nsolitary or herd (10-30)\nSpecial Abilities\nGravity Crash (Su)\nWhen a kathum succeeds at an Athletics check to jump 30 or more feet horizontally or falls at least 30 feet, it deals 1d6+5 bludgeoning damage to all non-kathum creatures within 10 feet of where it lands. A successful DC 13 Fortitude save halves this damage.\nPersonal Gravity (Su)\nA kathum's primary evolutionary advantage is the manipulation of its own personal gravity, allowing it to jump tremendous distances and cushion its falls. While conscious, a kathum takes no falling damage no matter how far it has fallen. When a kathum attempts an Athletics check to jump, it always counts as having taken a 10-foot running start and the DC of the check is equal to half the number of feet it's trying to jump horizontally or twice the number of feet it's trying to jump vertically (instead of equal to the number of feet and four times the number of feet, respectively).\nDescription\nThose who visit the vast forests of Volunisp—a once-uninhabited planet in Near Space close to the Veskarium—often remark on the lack of large-scale predators, when they aren't complaining about the ever-present clouds of small biting insects. Xenobiologists attribute this unusual ecosystem to the presence of what some call “the apex herbivore of Volunisp,” the strange and unusual kathum. A kathum is an armored quadruped with long ears and well-muscled legs, though they hardly seem necessary as a kathum's unique ability to alter its own gravity allows it to leap from forest floor to canopy in a moment's notice and walk along thin leafy branches as if they were on solid ground. A kathum will use this gift to aggressively make dive-bomb attacks against those who dare to trespass within its wide-reaching territory.\nKathums travel in herds averaging 20 members. Born live, a kathum calf takes 3 weeks to gain enough control over its own gravity to ride safely upon its mother's back. They are particularly vulnerable until then, and older kathums will fiercely protect their newborn young, even chasing perceived threats beyond their usual territorial borders. A typical herd spends 4 hours a day in the treetops feeding, coming down to rest at night. Kathums nest in elevated areas such as large rocks and hills, though never further than 60 feet from the nearest treeline. A typical kathum is approximately 10 feet long and lives for nearly 200 years.",
+  "type": "Animal",
+  "category": "alien"
+}

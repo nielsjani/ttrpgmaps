@@ -1,0 +1,50 @@
+{
+  "name": "The Swarm, Swarm Dredger (Troop)",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Swarm Dredger (Troop)&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CE",
+  "size": "Small",
+  "creature_type": "monstrous humanoid (troop)",
+  "init": "+4",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+15",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+9",
+  "will": "+6",
+  "immunities": "acid, fear effects, troop immunities",
+  "speed": "30 ft., burrow 20 ft.",
+  "melee": "troop attack (1d4+8 S plus cling [DC 13])",
+  "space": "20 ft.",
+  "reach": "5 ft.",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+4",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +11, Athletics +11, Stealth +11",
+  "languages": "Shirren (can’t speak); telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or throng (3–6)",
+  "special_abilities": [
+    {
+      "name": "Cling (Ex)",
+      "description": "Each creature that takes damage from a dredger troop’s troop attack must succeed at a DC 13 Reflex save or gain the flat-footed and off-target conditions until the end of the troop’s next turn as dredgers cling to the target’s body, throwing off their aim and balance."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "Thanks to their hive-mind intelligence, Swarm components organize easily into troop formations, becoming all the deadlier. The above stat block represents a group of dredgers, which are used by the Swarm en masse for digging trenches and burrowing behind enemy lines to cause remarkable amounts of chaos.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Swarm Dredger (Troop)\nSource\nStarfinder #21: Huskworld pg. 60\nSwarm Dredger (Troop) CR 5\nXP 1,600\nCE Small monstrous humanoid (troop)\nInit\n+4;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+15\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+9;\nWill\n+6\nDefensive Abilities\nSwarm mind, troop defenses;\nImmunities\nacid, fear effects, troop immunities\nOffense\nSpeed\n30 ft., burrow 20 ft.\nMelee\ntroop attack (1d4+8 S plus cling [DC 13])\nSpace\n20 ft.;\nReach\n5 ft.\nStatistics\nSTR\n+5;\nDEX\n+4;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n-2\nSkills\nAcrobatics +11, Athletics +11, Stealth +11\nLanguages\nShirren (can’t speak); telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or throng (3–6)\nSpecial Abilities\nCling (Ex)\nEach creature that takes damage from a dredger troop’s troop attack must succeed at a DC 13 Reflex save or gain the flat-footed and off-target conditions until the end of the troop’s next turn as dredgers cling to the target’s body, throwing off their aim and balance.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nThanks to their hive-mind intelligence, Swarm components organize easily into troop formations, becoming all the deadlier. The above stat block represents a group of dredgers, which are used by the Swarm en masse for digging trenches and burrowing behind enemy lines to cause remarkable amounts of chaos.",
+  "type": "monstrous humanoid (troop)",
+  "category": "alien"
+}

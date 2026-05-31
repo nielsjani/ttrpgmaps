@@ -1,0 +1,50 @@
+{
+  "name": "Entu Colony",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Entu Colony&Family=Entu Colony",
+  "source": "Alien Archive 4 pg. 34",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "ooze",
+  "init": "+0",
+  "senses": "blindsight (emotion) 60 ft.;",
+  "perception": "+4",
+  "hp": "12",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+2",
+  "ref": "-2",
+  "will": "+1",
+  "speed": "30 ft.",
+  "melee": "tactical baton +4 (1d4 B)",
+  "ability_scores": {
+    "str": "-2",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+3"
+  },
+  "skills": "Diplomacy +9, Life Science +9, Sense Motive +9, Stealth +4",
+  "languages": "Common; limited telepathy 30 ft.",
+  "other_abilities": "tactical symbiosis",
+  "gear": "tactical baton",
+  "environment": "any",
+  "organization": "solitary, pair, or growth (3—20)",
+  "special_abilities": [
+    {
+      "name": "Limited Ooze Benefits (Ex)",
+      "description": "Entu colonies gain a +2 racial bonus on saving throws against illusion, paralysis, poison, polymorph, sleep, and stunning effects, unless the effect specifies that it’s effective against oozes."
+    },
+    {
+      "name": "Tactical Symbiosis (Ex)",
+      "description": "Once per day as a standard action, an entu colony can temporarily merge a portion of themself with a willing non-entu colony creature they’ve telepathically communicated with and can touch. This symbiosis lasts until the beginning of the entu colony’s next turn; during this time the entu colony can’t take any actions but can use each of the following abilities once. A creature can benefit from only one tactical symbiosis at a time.\nCellular Restoration:\nRestore a number of Hit Points to the host equal to twice the entu colony’s CR or level.\nImprove Condition:\nGrant the host an additional save against an ongoing affliction with a +2 circumstance bonus.\nSynaptic Pulse:\nGrant the host a +2 circumstance bonus to Reflex saves until the entu colony’s next turn."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nEntu Colony Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEntu Colony\nSource\nAlien Archive 4 pg. 34\nEntu colonies begin their life cycle as a collection of minuscule spores. Over time, the spores fuse together through intricate networks of mycelia that function similarly to neurons, creating sapient and mobile fungal colonies. These structures generate conscious thought and obtain sensory information about the colony’s environment.\nIn their first weeks of life, entu spores gradually coalesce into amorphous pools of opalescent slime with malleable pseudopod‑like organs. At this stage, colonies can communicate telepathically with other creatures using a lexicon of sensory and emotional concepts. Entu colonies can reproduce asexually once they reach maturity, typically six months after they first sprout mycelia. Most of the resulting spores integrate into the parent colony, but some may split off to form a separate colony.\nThought not parasitic, entu colonies feed on emotion and thought. In fact, some seek to consensually merge with other sentient creatures rather than form into full-fledged and independent colonies. Instead of harming their host, an entu fungus’s adaptable cells mimic the host’s brain and nerve tissue. Their mycelia intertwine with their host’s central nervous system, creating new synapses and enhancing sections of the host’s brain. Despite inhabiting the host’s body, the entu fungus retains a separate consciousness which intertwines with its host through shared functional memories and sensory input. The resultant symbiotic life-form, called an entu symbiote, eventually attains self-awareness, complex thought, and even linguistic ability. Entu integration can sometimes result in entu symbiotes’ offspring already being seeded with the fungal life integrated into their bodies and brains; this development has led to the “uplifting” of entire species of previously non-sapient animals.\nThe nelentu, one of the founding species of the Kreiholm Freehold, is a prominent example of a successful symbiosis that spans generations. Originally a species of bat-like animals called neleks that evolved on Agillae-2, these once unintelligent, fruit-eating creatures encountered entu spores early in their evolution and willingly became their hosts. The two species formed a society based on this symbiosis. Today, nelentus inhabit tiered jungle-cities built around green spaces, known as Gardens of Thought, where they cultivate entu spores for future generations. Nelentus consider themselves to be one species, referring to themselves and other nelentus using plural pronouns in deference to their dual nature.\nEntu fungi of all kinds seek constant exposure to emotion and thought to thrive, and those involved with symbiotes prioritize their hosts’ physical needs. They prefer to enter symbiotic relationships with creatures who can benefit from their cellular mimicry, living as long as the host creature does—and dying along with it. Entu colonies, on the other hand, can survive for up to 300 years.\nAliens in the \"Entu Colony\" Family\nName\nCR\nEntu Colony\n1/2\nNelentu\n7\nEntu Colony\nSource\nAlien Archive 4 pg. 34\nEntu Colony CR 1/2\nXP 200\nN Small ooze\nInit\n+0;\nSenses\nblindsight (emotion) 60 ft.;\nPerception\n+4\nDefense\nHP\n12\nEAC\n10;\nKAC\n11\nFort\n+2;\nRef\n-2;\nWill\n+1\nDefensive Abilities\namorphous, limited ooze benefits\nOffense\nSpeed\n30 ft.\nMelee\ntactical baton +4 (1d4 B)\nStatistics\nSTR\n-2;\nDEX\n+0;\nCON\n+1;\nINT\n+2;\nWIS\n+1;\nCHA\n+3\nSkills\nDiplomacy +9, Life Science +9, Sense Motive +9, Stealth +4\nLanguages\nCommon; limited telepathy 30 ft.\nOther Abilities\ntactical symbiosis\nGear\ntactical baton\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or growth (3—20)\nSpecial Abilities\nLimited Ooze Benefits (Ex)\nEntu colonies gain a +2 racial bonus on saving throws against illusion, paralysis, poison, polymorph, sleep, and stunning effects, unless the effect specifies that it’s effective against oozes.\nTactical Symbiosis (Ex)\nOnce per day as a standard action, an entu colony can temporarily merge a portion of themself with a willing non-entu colony creature they’ve telepathically communicated with and can touch. This symbiosis lasts until the beginning of the entu colony’s next turn; during this time the entu colony can’t take any actions but can use each of the following abilities once. A creature can benefit from only one tactical symbiosis at a time.\nCellular Restoration:\nRestore a number of Hit Points to the host equal to twice the entu colony’s CR or level.\nImprove Condition:\nGrant the host an additional save against an ongoing affliction with a +2 circumstance bonus.\nSynaptic Pulse:\nGrant the host a +2 circumstance bonus to Reflex saves until the entu colony’s next turn.\nExtra Content\nThe following extra content was found for this creature:\n-\nEntu Colony Race Entry",
+  "type": "ooze",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Entu_Colony.png"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Paralith",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Paralith&Family=None",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 59",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+1",
+  "senses": "blindsight (electromagnetic broadcast) 60 ft., sightless;",
+  "perception": "+15",
+  "hp": "52",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+6",
+  "will": "+5",
+  "immunities": "mind-affecting effects, radiation, vacuum;",
+  "resistances": "cold 5, fire 5",
+  "weaknesses": "force field blindness",
+  "speed": "35 ft.",
+  "melee": "claw +12 (1d6+9 S plus ultraviolet infection)",
+  "ranged": "cylindrical lens pistol +9 (1d8+4 F; critical burn 1d4)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +10 (+14 to jump), Intimidate +10",
+  "feats": "Cleave",
+  "languages": "Paralithi",
+  "gear": "cylindrical lens pistol with 1 battery (20 charges)",
+  "environment": "any forests or jungles",
+  "organization": "solitary, pair, or pack (3–15)",
+  "special_abilities": [
+    {
+      "name": "Force Field Blindness (Ex)",
+      "description": "Force fields interfere with a paralith’s perception. A paralith takes a –4 penalty to attack rolls and Perception checks against a creature that has an active force field armor upgrade or energy shield gained from the mechanic trick of the same name."
+    },
+    {
+      "name": "Ultraviolet Infection (Su)",
+      "description": "A creature struck by a paralith’s melee attack must attempt a DC 13 Fortitude save. Failure means the wound becomes infected by ultraviolet light for 24 hours. An infected wound glows, dealing a –4 penalty (that doesn’t stack) to the victim’s Stealth checks. If another creature restores Hit Points to the infected victim using the Medicine skill, the creature administering the healing takes an amount of untyped damage equal to the number of Hit Points restored."
+    }
+  ],
+  "description": "A paralith is a hulking humanoid-shaped creature with broad claws and a thick blue hide. Its neck is short, and its horselike head has only one feature—a mouth with large, blunt teeth.\nWhere these creatures originally come from is unknown. They prefer hot jungles, though an individual paralith might venture into a civilized area. Such venturesome paraliths rarely cause trouble beyond their apparent inability to understand social mores, so they are more of a curiosity than a threat. Paraliths encountered in the jungle are much more aggressive and dangerous, traveling in packs and often found around ruined temples and monoliths.\nXenolinguists have yet to gather enough information to be able to understand and reproduce the Paralithi language. Even when they’re able to communicate with paraliths through magical means, conversations are difficult and confusing. Paraliths punctuate their sentences with seemingly random strings of numbers, the significance of which is still a mystery.\nParaliths are an asexual species. A paralith reproduces by releasing a few buds from a biological opening in its back. Each of these sprouts grows into a mature paralith in a matter of days.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nParalith\nSource\nStarfinder #8: Escape from the Prison Moon pg. 59\nParalith CR 4\nXP 1,200\nN Medium aberration\nInit\n+1;\nSenses\nblindsight (electromagnetic broadcast) 60 ft., sightless;\nPerception\n+15\nDefense\nHP\n52\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+6;\nWill\n+5\nDefensive Abilities\nfast healing 5 (becomes regeneration 5 in irradiated areas);\nImmunities\nmind-affecting effects, radiation, vacuum;\nResistances\ncold 5, fire 5\nWeaknesses\nforce field blindness\nOffense\nSpeed\n35 ft.\nMelee\nclaw +12 (1d6+9 S plus ultraviolet infection)\nRanged\ncylindrical lens pistol +9 (1d8+4 F; critical burn 1d4)\nStatistics\nSTR\n+5;\nDEX\n+1;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nFeats\nCleave\nSkills\nAthletics +10 (+14 to jump), Intimidate +10\nLanguages\nParalithi\nGear\ncylindrical lens pistol with 1 battery (20 charges)\nEcology\nEnvironment\nany forests or jungles\nOrganization\nsolitary, pair, or pack (3–15)\nSpecial Abilities\nForce Field Blindness (Ex)\nForce fields interfere with a paralith’s perception. A paralith takes a –4 penalty to attack rolls and Perception checks against a creature that has an active force field armor upgrade or energy shield gained from the mechanic trick of the same name.\nUltraviolet Infection (Su)\nA creature struck by a paralith’s melee attack must attempt a DC 13 Fortitude save. Failure means the wound becomes infected by ultraviolet light for 24 hours. An infected wound glows, dealing a –4 penalty (that doesn’t stack) to the victim’s Stealth checks. If another creature restores Hit Points to the infected victim using the Medicine skill, the creature administering the healing takes an amount of untyped damage equal to the number of Hit Points restored.\nDescription\nA paralith is a hulking humanoid-shaped creature with broad claws and a thick blue hide. Its neck is short, and its horselike head has only one feature—a mouth with large, blunt teeth.\nWhere these creatures originally come from is unknown. They prefer hot jungles, though an individual paralith might venture into a civilized area. Such venturesome paraliths rarely cause trouble beyond their apparent inability to understand social mores, so they are more of a curiosity than a threat. Paraliths encountered in the jungle are much more aggressive and dangerous, traveling in packs and often found around ruined temples and monoliths.\nXenolinguists have yet to gather enough information to be able to understand and reproduce the Paralithi language. Even when they’re able to communicate with paraliths through magical means, conversations are difficult and confusing. Paraliths punctuate their sentences with seemingly random strings of numbers, the significance of which is still a mystery.\nParaliths are an asexual species. A paralith reproduces by releasing a few buds from a biological opening in its back. Each of these sprouts grows into a mature paralith in a matter of days.",
+  "type": "aberration",
+  "category": "alien"
+}

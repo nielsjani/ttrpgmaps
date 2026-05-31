@@ -1,0 +1,52 @@
+{
+  "name": "Gammenore",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Gammenore&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 59",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "magical beast (cold)",
+  "init": "+2",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+16",
+  "hp": "128",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+9",
+  "immunities": "cold;",
+  "resistances": "fire 10",
+  "weaknesses": "vulnerable to fire",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "pincer +20 (3d4+14 S plus grab; critical bleed 1d4)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "thermokinesis (100 ft., 6d8 C or F plus staggered, DC 16, usable every 1d4 rounds)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+4",
+    "int": "-3",
+    "wis": "+3",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +16, Athletics +21, Stealth +16 (+24 in snow or icy terrain)",
+  "environment": "any cold (Triaxus)",
+  "organization": "solitary, pair, cluster (3-9)",
+  "special_abilities": [
+    {
+      "name": "Shell of Ice (Su)",
+      "description": "Much of a gammenore’s carapace is encased in a thick layer of ice that helps regulate the creature’s body temperature, granting it resistance 10 to fire. The shell can absorb up to 60 fire damage before melting. Once the shell melts, the gammenore takes a –2 penalty to its AC and loses its resistance to fire. A gammenore can reconstitute a melted shell by spending time in areas of intense cold. This process takes 2 hours in a cold environment, 3d10+8 minutes in areas of severe cold, and 1d10 minutes in areas of extreme cold."
+    },
+    {
+      "name": "Thermokinesis (Su)",
+      "description": "Once every 1d4 rounds, a gammenore can drastically raise or lower the body temperature of another creature. It can target either a creature within 100 feet as a standard action or one it has just struck with its pincer as a reaction. In either case, the target takes 6d8 cold or fire damage and is staggered for 1 round; a successful DC 16 Fortitude save halves the damage and negates the staggered effect."
+    }
+  ],
+  "description": "Sparse ancient records note that gammenores were once rarely seen outside of Triaxus’s long winters, but these giant, blue, ice-armored crabs now range across the planet’s wild areas regardless of season. The creatures have been able to expand their habitat thanks to their thermokinesis ability: gammenores can supernaturally modulate their own internal temperature or that of creatures nearby. This ability allows gammenores to freeze or boil prey at will, though most prefer ice-coated meals. Gammenores seem attracted to extreme temperatures.\nIn remote areas, the usually solitary beasts are found scuttling around commercial refrigeration units or hot springs. Settlements close to mating sites must contend with crustaceans breaking into such locations to lay their eggs. This is a serious threat, and most communities have anti-gammenore security protocols in place.\nThe creatures migrate yearly toward Triaxus’s poles or the equator in clattering hordes. Populous cities accommodate their passage with arched roadways or creative architecture, but sometimes security forces need to intervene. Some communities make their arrival a festival, with thrill seekers attempting to stay ahead of a gammenore cluster as it charges through the streets.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGammenore\nSource\nStarfinder #36: Professional Courtesy pg. 59\nGammenore CR 8\nXP 4,800\nN Large magical beast (cold)\nInit\n+2;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+16\nDefense\nHP\n128\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+10;\nWill\n+9\nDefensive Abilities\nshell of ice (60 fire);\nImmunities\ncold;\nResistances\nfire 10\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\npincer +20 (3d4+14 S plus grab; critical bleed 1d4)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nthermokinesis (100 ft., 6d8 C or F plus staggered, DC 16, usable every 1d4 rounds)\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+4;\nINT\n-3;\nWIS\n+3;\nCHA\n-2\nSkills\nAcrobatics +16, Athletics +21, Stealth +16 (+24 in snow or icy terrain)\nEcology\nEnvironment\nany cold (Triaxus)\nOrganization\nsolitary, pair, cluster (3-9)\nSpecial Abilities\nShell of Ice (Su)\nMuch of a gammenore’s carapace is encased in a thick layer of ice that helps regulate the creature’s body temperature, granting it resistance 10 to fire. The shell can absorb up to 60 fire damage before melting. Once the shell melts, the gammenore takes a –2 penalty to its AC and loses its resistance to fire. A gammenore can reconstitute a melted shell by spending time in areas of intense cold. This process takes 2 hours in a cold environment, 3d10+8 minutes in areas of severe cold, and 1d10 minutes in areas of extreme cold.\nThermokinesis (Su)\nOnce every 1d4 rounds, a gammenore can drastically raise or lower the body temperature of another creature. It can target either a creature within 100 feet as a standard action or one it has just struck with its pincer as a reaction. In either case, the target takes 6d8 cold or fire damage and is staggered for 1 round; a successful DC 16 Fortitude save halves the damage and negates the staggered effect.\nDescription\nSparse ancient records note that gammenores were once rarely seen outside of Triaxus’s long winters, but these giant, blue, ice-armored crabs now range across the planet’s wild areas regardless of season. The creatures have been able to expand their habitat thanks to their thermokinesis ability: gammenores can supernaturally modulate their own internal temperature or that of creatures nearby. This ability allows gammenores to freeze or boil prey at will, though most prefer ice-coated meals. Gammenores seem attracted to extreme temperatures.\nIn remote areas, the usually solitary beasts are found scuttling around commercial refrigeration units or hot springs. Settlements close to mating sites must contend with crustaceans breaking into such locations to lay their eggs. This is a serious threat, and most communities have anti-gammenore security protocols in place.\nThe creatures migrate yearly toward Triaxus’s poles or the equator in clattering hordes. Populous cities accommodate their passage with arched roadways or creative architecture, but sometimes security forces need to intervene. Some communities make their arrival a festival, with thrill seekers attempting to stay ahead of a gammenore cluster as it charges through the streets.",
+  "type": "magical beast (cold)",
+  "category": "alien"
+}

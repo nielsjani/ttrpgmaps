@@ -1,0 +1,52 @@
+{
+  "name": "Thieves, Safecracker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Safecracker&Family=Thieves",
+  "source": "Interstellar Species pg. 185",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "NE",
+  "size": "Tiny",
+  "creature_type": "plant",
+  "init": "+5",
+  "senses": "low-light vision;",
+  "perception": "+24",
+  "hp": "150",
+  "eac": "23",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+9",
+  "speed": "30 ft.",
+  "melee": "sintered handaxe +18 (2d6+13 S)",
+  "ranged": "aphelion laser pistol +20 (3d4+10 F; critical burn 1d4) Space 2-1/2 ft.; Reach 0 ft.",
+  "space": "2-1/2 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "jam shot",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+8",
+    "wis": "+1",
+    "cha": "+1"
+  },
+  "skills": "Bluff +24, Computers +24, Engineering +24 (+26 to disable a device), Physical Science +19, Sense Motive +19",
+  "languages": "Akitonian, Aklo, Castrovelian, Common, Raxi, Triaxian, Vercite, Vesk, Ysoki",
+  "other_abilities": "LFAN , LFAN symbiosis , swift recalibration",
+  "gear": "white carbon carbon skin, aphelion laser pistol with 2 high-capacity batteries (20 charges each), sintered handaxe, laser drill, microgoggles",
+  "special_abilities": [
+    {
+      "name": "Jam Shot (Ex)",
+      "description": "Once per day as a standard action, the safecracker can apply a small explosive to a 5-foot square. They can trigger this explosive as a reaction when a creature enters this space, dealing fire damage equal to twice the safecracker’s CR, pushing the target back 5 feet into an empty space, and knocking it prone. The creature can attempt a Reflex save (DC = 10 + the safecracker’s CR) to halve the damage and avoid being pushed and knocked prone."
+    },
+    {
+      "name": "Swift Recalibration (Ex)",
+      "description": "The safecracker’s keen eye quickly notes mistakes. They can spend 1 Resolve Point to immediately reroll a failed Engineering check to arm explosives, disable a device, or repair an item, taking the better of the two results."
+    }
+  ],
+  "description": "Safecrackers specialize in getting into vaults and other secured locations, often working with a small team. Some safecrackers go after treasures like gemstones and art objects, while others target less-tangible things, such as corporate secrets. The PCs might encounter a safecracker if they interrupt a robbery while on another mission, or might be asked to investigate a break-in after it occurs.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThieves\nSource\nInterstellar Species pg. 185\nThieves are common throughout the galaxy, though more numerous in larger cities and space stations. They have a variety of methods and motivations for snaring others’ property; some thieves strike back against an amoral corporate system that left them behind, while others selfishly prey on those with little power to defend their possessions. PCs can encounter thieves in numerous circumstances, whether as unsavory associates, crafty foes, or on-again-off-again allies and rivals.\nAliens in the \"Thieves\" Family\nName\nCR\nMugger\n6\nPhantom Thief\n15\nPickpocket\n1\nSafecracker\n10\nThieves, Safecracker\nSource\nInterstellar Species pg. 185\nSafecracker CR 10\nXP 9,600\nRaxilite\nNE Tiny plant\nInit\n+5;\nSenses\nlow-light vision;\nPerception\n+24\nDefense\nHP\n150;\nRP\n5\nEAC\n23;\nKAC\n24\nFort\n+11;\nRef\n+13;\nWill\n+9\nDefensive Abilities\nlimited plant benefits\nOffense\nSpeed\n30 ft.\nMelee\nsintered handaxe +18 (2d6+13 S)\nRanged\naphelion laser pistol +20 (3d4+10 F; critical burn 1d4) Space 2-1/2 ft.; Reach 0 ft.\nOffensive Abilities\njam shot\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+3;\nINT\n+8;\nWIS\n+1;\nCHA\n+1\nSkills\nBluff +24, Computers +24, Engineering +24 (+26 to disable a device), Physical Science +19, Sense Motive +19\nLanguages\nAkitonian, Aklo, Castrovelian, Common, Raxi, Triaxian, Vercite, Vesk, Ysoki\nOther Abilities\nLFAN , LFAN symbiosis , swift recalibration\nGear\nwhite carbon carbon skin, aphelion laser pistol with 2 high-capacity batteries (20 charges each), sintered handaxe, laser drill, microgoggles\nSpecial Abilities\nJam Shot (Ex)\nOnce per day as a standard action, the safecracker can apply a small explosive to a 5-foot square. They can trigger this explosive as a reaction when a creature enters this space, dealing fire damage equal to twice the safecracker’s CR, pushing the target back 5 feet into an empty space, and knocking it prone. The creature can attempt a Reflex save (DC = 10 + the safecracker’s CR) to halve the damage and avoid being pushed and knocked prone.\nSwift Recalibration (Ex)\nThe safecracker’s keen eye quickly notes mistakes. They can spend 1 Resolve Point to immediately reroll a failed Engineering check to arm explosives, disable a device, or repair an item, taking the better of the two results.\nDescription\nSafecrackers specialize in getting into vaults and other secured locations, often working with a small team. Some safecrackers go after treasures like gemstones and art objects, while others target less-tangible things, such as corporate secrets. The PCs might encounter a safecracker if they interrupt a robbery while on another mission, or might be asked to investigate a break-in after it occurs.",
+  "type": "plant",
+  "environment": "—",
+  "category": "alien"
+}

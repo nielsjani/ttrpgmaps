@@ -1,0 +1,51 @@
+{
+  "name": "Astro-krill Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Astro-krill Swarm&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 54",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "vermin (swarm)",
+  "init": "+8",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+15",
+  "will": "+12",
+  "immunities": "radiation, swarm immunities",
+  "speed": "30 ft., fly 60 ft. (Su, perfect)",
+  "melee": "swarm attack (2d8+17 P plus attach)",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "distraction (DC 19)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+8",
+    "con": "+6",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +28 (+36 to fly)",
+  "other_abilities": "feeding frenzy, mindless",
+  "environment": "any vacuum (Weydana-5)",
+  "organization": "swarm",
+  "special_abilities": [
+    {
+      "name": "Bioluminescence (Ex)",
+      "description": "An astro-krill swarm emits brilliant and complex light patterns. Creatures affected by the aura are dazed; creatures who successfully save are dazzled for 1d4 rounds and immune to this ability for 1 day."
+    },
+    {
+      "name": "Feeding Frenzy (Ex)",
+      "description": "Astro-krill instinctively try to eat any solid object they come in contact with. Any melee weapon that hits an astro-krill swarm and inflicts bludgeoning, piercing, or slashing damage must attempt a DC 19 Fortitude save or be broken, while broken items are instead destroyed. If a creature takes damage from the astro-krill’s swarm attack and is wearing armor, that armor must attempt this save, with the same results."
+    }
+  ],
+  "description": "Astro-krill are spacefaring crustaceans indigenous to the asteroid shell surrounding Weydana-5. They’ve adapted to the harsh living conditions of the void, and their diet consists entirely of inorganic material. Unfortunately, they’re indiscriminate in this hunger; astro-krill consume asteroids and the space suits of hapless explorers with equal relish.\nNo longer than two-and-a-half inches and weighing only a fraction of an ounce, an astro-krill’s exoskeleton is segmented and translucent. This translucency, in turn, allows for the creatures’ dazzling bioluminescence to shine through. Though the Xenowardens generally agree that astro-krill are mindless, some have posited that this bioluminescence may be a form of nascent communication.\nThe question of astro-krill sentience is of grave concern to one corporation: Koji! Can Fisheries. Koji! Can incorporated shortly after Weydana-4 was settled, and they’ve cornered the market on harvesting fresh astro-krill swarms as a food alternative. Their chief product is Biobright, an astro-krill paste high in protein and low in calories. The aftertaste leaves something to be desired, but children love how their tongues are left dyed with vibrant color after every meal. Koji! Can has plans to go public soon, and all this talk of possible sentience among the krill has left potential investors skittish.\nHarvesting astro-krill is not for the faint of heart. This time-consuming process involves a spacewalk, luring each swarm into a specialized container using hand-held light emitters that attract the krill and react to the swarm’s bioluminescence. Storage containers are reinforced with impervious force fields, and crews must keep their distance; accidents in which a crew member gets too close and ends up exposed to vacuum are all too common. Once a swarm is contained, it can be loaded onto a spacecraft and taken to Koji! Can processing plants. The current rate for a living or fresh astro-krill swarm is 50,000 credits.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAstro-krill Swarm\nSource\nStarfinder #44: Allies Against the Eye pg. 54\nAstro-krill Swarm CR 13\nXP 25,600\nN Fine vermin (swarm)\nInit\n+8;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nAura\nbioluminescence (60 ft., Will DC 19)\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+15;\nWill\n+12\nDefensive Abilities\nswarm defenses, void adaptation;\nImmunities\nradiation, swarm immunities\nOffense\nSpeed\n30 ft., fly 60 ft. (Su, perfect)\nMelee\nswarm attack (2d8+17 P plus attach)\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndistraction (DC 19)\nStatistics\nSTR\n+4;\nDEX\n+8;\nCON\n+6;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nAcrobatics +28 (+36 to fly)\nOther Abilities\nfeeding frenzy, mindless\nEcology\nEnvironment\nany vacuum (Weydana-5)\nOrganization\nswarm\nSpecial Abilities\nBioluminescence (Ex)\nAn astro-krill swarm emits brilliant and complex light patterns. Creatures affected by the aura are dazed; creatures who successfully save are dazzled for 1d4 rounds and immune to this ability for 1 day.\nFeeding Frenzy (Ex)\nAstro-krill instinctively try to eat any solid object they come in contact with. Any melee weapon that hits an astro-krill swarm and inflicts bludgeoning, piercing, or slashing damage must attempt a DC 19 Fortitude save or be broken, while broken items are instead destroyed. If a creature takes damage from the astro-krill’s swarm attack and is wearing armor, that armor must attempt this save, with the same results.\nDescription\nAstro-krill are spacefaring crustaceans indigenous to the asteroid shell surrounding Weydana-5. They’ve adapted to the harsh living conditions of the void, and their diet consists entirely of inorganic material. Unfortunately, they’re indiscriminate in this hunger; astro-krill consume asteroids and the space suits of hapless explorers with equal relish.\nNo longer than two-and-a-half inches and weighing only a fraction of an ounce, an astro-krill’s exoskeleton is segmented and translucent. This translucency, in turn, allows for the creatures’ dazzling bioluminescence to shine through. Though the Xenowardens generally agree that astro-krill are mindless, some have posited that this bioluminescence may be a form of nascent communication.\nThe question of astro-krill sentience is of grave concern to one corporation: Koji! Can Fisheries. Koji! Can incorporated shortly after Weydana-4 was settled, and they’ve cornered the market on harvesting fresh astro-krill swarms as a food alternative. Their chief product is Biobright, an astro-krill paste high in protein and low in calories. The aftertaste leaves something to be desired, but children love how their tongues are left dyed with vibrant color after every meal. Koji! Can has plans to go public soon, and all this talk of possible sentience among the krill has left potential investors skittish.\nHarvesting astro-krill is not for the faint of heart. This time-consuming process involves a spacewalk, luring each swarm into a specialized container using hand-held light emitters that attract the krill and react to the swarm’s bioluminescence. Storage containers are reinforced with impervious force fields, and crews must keep their distance; accidents in which a crew member gets too close and ends up exposed to vacuum are all too common. Once a swarm is contained, it can be loaded onto a spacecraft and taken to Koji! Can processing plants. The current rate for a living or fresh astro-krill swarm is 50,000 credits.",
+  "type": "vermin (swarm)",
+  "category": "alien"
+}

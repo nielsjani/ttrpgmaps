@@ -1,0 +1,35 @@
+{
+  "name": "Fuhlgeist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Fuhlgeist&Family=None",
+  "source": "Starfinder #37: The White Glove Affair pg. 56",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "outsider (incorporeal)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., blindsight (emotion) 30 ft.;;",
+  "perception": "+16",
+  "hp": "110",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "speed": "fly 30 ft. (Su, perfect)",
+  "melee": "slam +18 (2d6+8 B plus inflame passions [DC 18])",
+  "skills": "Acrobatics +16 (+24 to fly), Bluff +21, Mysticism +16, Sense Motive +21, Stealth +21",
+  "languages": "Common, Gnome; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Inflame Passions (Su)",
+      "description": "A creature hit by a fuhlgeist’s slam must succeed at a DC 18 Will saving throw or experience an overwhelming emotion (chosen by the fuhlgeist). A single creature can be under only one affect at a time. This is a mind-affecting emotion effect.\nAnger:\nThe victim is overcome with irrational rage and is flat-footed for 1d4+1 rounds.\nDespair:\nThe victim is gripped by a terrible sadness and is fatigued for 1d4+1 rounds.\nFear:\nThe victim is consumed by inexplicable dread and is shaken for 1d4+1 rounds.\nJealousy:\nThe victim becomes envious of everyone they see and is sickened for 1d4+1 rounds.\nRemorse:\nThe victim is nearly paralyzed by guilt and has their speeds reduced to 10 feet for 1d4+1 rounds."
+    }
+  ],
+  "description": "Strong emotions have subtle psychic effects on the Ethereal Plane, the ghostly realm that serves as a buffer between the Material Plane and the Shadow Plane. When an excess of negative emotions occurs in one place, it sometimes leaves an impression in the ether that gains a rudimentary form of sentience, resulting in a creature known as a fuhlgeist. Though it has no true form and no soul—it’s more a mass of spiritstuff and ectoplasm than anything else—it believes itself to be a full, living creature. Gripped by raw, shifting emotions, this outsider can manifest on the Material Plane to lash out at those nearby. Such an occurrence is often mistaken as a haunting, and though fuhlgeists and ghosts have much in common, the former can’t be banished by divine means. On the other hand, once a fuhlgeist has been destroyed, it doesn’t rejuvenate like a ghost does, and there’s no need to discover the tragic story behind its creation (which would be a difficult task, as a fuhlgeist’s speech patterns are often disjointed and erratic).\nThe “emotion crystals” mined by the fey moyishuus sometimes attract fuhlgeists like candle flames attract moths. Indeed, the Veyvilla system has the highest recorded fuhlgeist sightings in the known galaxy. The moyishuu government has no clear plans on how to prevent future incursions and unfortunately tends to hush up the most grievous cases of injuries caused by these hostile outsiders.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFuhlgeist\nSource\nStarfinder #37: The White Glove Affair pg. 56\nFuhlgeist CR 8\nXP 4,800\nCE Medium outsider (incorporeal)\nInit\n+6;\nSenses\ndarkvision 60 ft., blindsight (emotion) 30 ft.;;\nPerception\n+16\nDefense\nHP\n110\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+13\nDefensive Abilities\nincorporeal Immune mind-affecting effects\nOffense\nSpeed\nfly 30 ft. (Su, perfect)\nMelee\nslam +18 (2d6+8 B plus inflame passions [DC 18])\nStatistics\nSTR\n—;\nDEX\n+6;\nCON\n+0;\nINT\n+2;\nWIS\n+0;\nCHA\n+4\nSkills\nAcrobatics +16 (+24 to fly), Bluff +21, Mysticism +16, Sense Motive +21, Stealth +21\nLanguages\nCommon, Gnome; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nInflame Passions (Su)\nA creature hit by a fuhlgeist’s slam must succeed at a DC 18 Will saving throw or experience an overwhelming emotion (chosen by the fuhlgeist). A single creature can be under only one affect at a time. This is a mind-affecting emotion effect.\nAnger:\nThe victim is overcome with irrational rage and is flat-footed for 1d4+1 rounds.\nDespair:\nThe victim is gripped by a terrible sadness and is fatigued for 1d4+1 rounds.\nFear:\nThe victim is consumed by inexplicable dread and is shaken for 1d4+1 rounds.\nJealousy:\nThe victim becomes envious of everyone they see and is sickened for 1d4+1 rounds.\nRemorse:\nThe victim is nearly paralyzed by guilt and has their speeds reduced to 10 feet for 1d4+1 rounds.\nDescription\nStrong emotions have subtle psychic effects on the Ethereal Plane, the ghostly realm that serves as a buffer between the Material Plane and the Shadow Plane. When an excess of negative emotions occurs in one place, it sometimes leaves an impression in the ether that gains a rudimentary form of sentience, resulting in a creature known as a fuhlgeist. Though it has no true form and no soul—it’s more a mass of spiritstuff and ectoplasm than anything else—it believes itself to be a full, living creature. Gripped by raw, shifting emotions, this outsider can manifest on the Material Plane to lash out at those nearby. Such an occurrence is often mistaken as a haunting, and though fuhlgeists and ghosts have much in common, the former can’t be banished by divine means. On the other hand, once a fuhlgeist has been destroyed, it doesn’t rejuvenate like a ghost does, and there’s no need to discover the tragic story behind its creation (which would be a difficult task, as a fuhlgeist’s speech patterns are often disjointed and erratic).\nThe “emotion crystals” mined by the fey moyishuus sometimes attract fuhlgeists like candle flames attract moths. Indeed, the Veyvilla system has the highest recorded fuhlgeist sightings in the known galaxy. The moyishuu government has no clear plans on how to prevent future incursions and unfortunately tends to hush up the most grievous cases of injuries caused by these hostile outsiders.",
+  "type": "outsider (incorporeal)",
+  "category": "alien"
+}

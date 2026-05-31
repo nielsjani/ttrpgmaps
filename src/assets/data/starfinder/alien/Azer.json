@@ -1,0 +1,50 @@
+{
+  "name": "Azer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Azer&Family=None",
+  "source": "Starfinder #13: Fire Starters pg. 55",
+  "cr": "2",
+  "xp": "600",
+  "alignment": "LN",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, fire)",
+  "init": "+1",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+7",
+  "hp": "23",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+5",
+  "ref": "+3",
+  "will": "+3",
+  "sr": "13",
+  "immunities": "fire;",
+  "weaknesses": "vulnerable to cold",
+  "speed": "30 ft.",
+  "melee": "assault hammer +7 (1d6+1 B; critical burn 1d4)",
+  "ranged": "wave modulator I +7 (1d4+2 F or So; critical burn 1d4)",
+  "offensive_abilities": "elemental fire, target tracking",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+1",
+    "con": "+2",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Athletics +7, Computers +12, Engineering +12, Physical Science +7, Piloting +7",
+  "languages": "Common, Ignan",
+  "other_abilities": "artificial intelligence (exocortex), custom rig (cerebral implant with standard datajack), mechanic tricks (neural shunt)",
+  "gear": "freebooter armor, assault hammer, wave modulator I with 2 batteries (20 charges each)",
+  "environment": "any (Plane of Fire)",
+  "organization": "solitary, pair, order (3–6), guild (11–20), and union (30–100)",
+  "special_abilities": [
+    {
+      "name": "Elemental Fire (Su)",
+      "description": "Azers can cause any weapon they wield to deal half its damage as fire damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with fire. In addition, azers can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the azer chooses only one to apply on a critical hit."
+    }
+  ],
+  "description": "Azers maintain regimented societies whose members are born into a caste reflecting the trade practiced by their ancestors. Caste determines how azers participate in their society. Members of the brass caste are often noble-born ambassadors or politicians. Bronze-caste azers work as merchants or artisans. Members of the copper caste work as mechanics and crafters who build the starships, weapons, and armor regulated or sold by other castes. While most azers prefer order, discipline, and hard work, a few choose to spurn tradition, opting for mercenary work or other venturesome vocations.\nIndependent azers build settlements on the Plane of Fire and some fiery Material Plane worlds. They are also part of other societies, including that of Corona on the Burning Archipelago. In the City of Brass and other efreet-ruled domains, azers are second-class citizens or worse. Free azers dislike efreet, but azers raised among those genies are proud servants upholding a hierarchy not their own.\nAn azer is 4 feet tall and weighs 200 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAzer\nSource\nStarfinder #13: Fire Starters pg. 55\nAzer CR 2\nXP 600\nAzer mechanic\nLN Medium outsider (extraplanar, fire)\nInit\n+1;\nSenses\ndarkvision 60 ft.;\nPerception\n+7\nDefense\nHP\n23\nEAC\n13;\nKAC\n14\nFort\n+5;\nRef\n+3;\nWill\n+3\nImmunities\nfire;\nSR\n13\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\n30 ft.\nMelee\nassault hammer +7 (1d6+1 B; critical burn 1d4)\nRanged\nwave modulator I +7 (1d4+2 F or So; critical burn 1d4)\nOffensive Abilities\nelemental fire, target tracking\nStatistics\nSTR\n+1;\nDEX\n+1;\nCON\n+2;\nINT\n+4;\nWIS\n+0;\nCHA\n-1\nSkills\nAthletics +7, Computers +12, Engineering +12, Physical Science +7, Piloting +7\nLanguages\nCommon, Ignan\nOther Abilities\nartificial intelligence (exocortex), custom rig (cerebral implant with standard datajack), mechanic tricks (neural shunt)\nGear\nfreebooter armor, assault hammer, wave modulator I with 2 batteries (20 charges each)\nEcology\nEnvironment\nany (Plane of Fire)\nOrganization\nsolitary, pair, order (3–6), guild (11–20), and union (30–100)\nSpecial Abilities\nElemental Fire (Su)\nAzers can cause any weapon they wield to deal half its damage as fire damage, becoming lethal and non-archaic if it is not already. If the weapon already deals two damage types, this effect replaces one with fire. In addition, azers can grant weapons they wield the burn critical hit effect (1d4, 2d4 at CR 6, 3d4 at CR 11, and 3d4 at CR 16+). If the weapon has any other critical hit effects, the azer chooses only one to apply on a critical hit.\nDescription\nAzers maintain regimented societies whose members are born into a caste reflecting the trade practiced by their ancestors. Caste determines how azers participate in their society. Members of the brass caste are often noble-born ambassadors or politicians. Bronze-caste azers work as merchants or artisans. Members of the copper caste work as mechanics and crafters who build the starships, weapons, and armor regulated or sold by other castes. While most azers prefer order, discipline, and hard work, a few choose to spurn tradition, opting for mercenary work or other venturesome vocations.\nIndependent azers build settlements on the Plane of Fire and some fiery Material Plane worlds. They are also part of other societies, including that of Corona on the Burning Archipelago. In the City of Brass and other efreet-ruled domains, azers are second-class citizens or worse. Free azers dislike efreet, but azers raised among those genies are proud servants upholding a hierarchy not their own.\nAn azer is 4 feet tall and weighs 200 pounds.",
+  "type": "outsider (extraplanar, fire)",
+  "category": "alien"
+}

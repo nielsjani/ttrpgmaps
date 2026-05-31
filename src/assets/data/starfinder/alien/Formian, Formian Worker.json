@@ -1,0 +1,57 @@
+{
+  "name": "Formian, Formian Worker",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Formian Worker&Family=Formian",
+  "source": "Alien Archive pg. 50",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "LN",
+  "size": "Small",
+  "creature_type": "monstrous humanoid",
+  "init": "+2",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "12",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+2",
+  "resistances": "sonic 10",
+  "speed": "40 ft., burrow 10 ft.",
+  "melee": "bite +5 (1d4+3 P)",
+  "ranged": "survival flare gun +3 (1d3 F; critical burn 1d6)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "skills": "Athletics +9, Engineering +9, Physical Science +4, Profession (miner) +9, Survival +4",
+  "languages": "Common; limited telepathy 60 ft.",
+  "other_abilities": "able assistant, hive mind, peerless bearer",
+  "gear": "survival flare gun with 10 flares",
+  "environment": "any land or underground (Castrovel)",
+  "organization": "solitary, work crew (6–12), or band (3–15 plus 5–8 formian warriors)",
+  "special_abilities": [
+    {
+      "name": "Able Assistant (Ex)",
+      "description": "When supporting an ally within range of its limited telepathy through covering fire, harrying fire, or the aid another action, a formian worker provides a +4 bonus to its ally’s AC, attack roll, or skill check instead of the normal +2 bonus."
+    },
+    {
+      "name": "Hive Mind (Ex)",
+      "description": "Formians operate from a shared hive intelligence that allows them to communicate nearly instantaneously. While within telepathic range of at least one other formian with this ability, a formian gains a +4 bonus to initiative and Perception checks. If one formian is aware of a combatant, all members of the hive mind within range are aware of it, and a member of the hive mind cannot be surprised unless all members within range are surprised. If one member of the hive mind succeeds at a Will save to disbelieve an illusion effect, all members of that hive mind within telepathic range also disbelieve the effect."
+    },
+    {
+      "name": "Peerless Bearer (Ex)",
+      "description": "Formian workers are bred for heavy labor. A formian worker can carry 5 additional bulk beyond the normal limits for its Strength before becoming encumbered or overburdened."
+    }
+  ],
+  "description": "Formian workers are the backbone of hive labor and hatched in large clutches-many workers never gain a name beyond their number within the clutch. While strong, they typically flee combat unless ordered to fight. Formian warriors, by contrast, are fierce sterile females, each with a stronger individual identity to allow for more effective battle tactics. This individualism makes warriors more likely to chafe under strict hive hierarchies, and these are the formians most likely to set out on their own.",
+  "extra_content": "The following extra content was found for this creature:\n-\nFormian Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nFormian\nSource\nAlien Archive pg. 50\nFormians resemble giant ants with humanoid upper bodies, and carve their chitinous plates with insignias reflecting their individual names and achievements. Members of a hive all share a telepathic link, allowing them to coordinate efficiently.\nWithin a hive are castes specialized to particular tasks. The queen leads the hive and is its sole means of propagation, while castes like the aristocratic myrmarchs and mercantile taskmasters direct lower castes like warriors and workers.\nFormians are most common on Castrovel. For millennia they sought to eradicate the lashunta, their traditional foes, but their queens now instead focus on adopting other species’ technology to industrialize their traditional hive societies.\nAliens in the \"Formian\" Family\nName\nCR\nFormian Myrmarch\n10\nFormian Queen\n17\nFormian Taskmaster\n7\nFormian Warrior\n3\nFormian Worker\n1/2\nFormian, Formian Worker\nSource\nAlien Archive pg. 50\nFormian Worker CR 1/2\nXP 200\nLN Small monstrous humanoid\nInit\n+2 (+6 with hive mind);\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+4 (+8 with hive mind)\nDefense\nHP\n12\nEAC\n10;\nKAC\n11\nFort\n+2;\nRef\n+2;\nWill\n+2\nResistances\nsonic 10\nOffense\nSpeed\n40 ft., burrow 10 ft.\nMelee\nbite +5 (1d4+3 P)\nRanged\nsurvival flare gun +3 (1d3 F; critical burn 1d6)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n-1\nSkills\nAthletics +9, Engineering +9, Physical Science +4, Profession (miner) +9, Survival +4\nLanguages\nCommon; limited telepathy 60 ft.\nOther Abilities\nable assistant, hive mind, peerless bearer\nGear\nsurvival flare gun with 10 flares\nEcology\nEnvironment\nany land or underground (Castrovel)\nOrganization\nsolitary, work crew (6–12), or band (3–15 plus 5–8 formian warriors)\nSpecial Abilities\nAble Assistant (Ex)\nWhen supporting an ally within range of its limited telepathy through covering fire, harrying fire, or the aid another action, a formian worker provides a +4 bonus to its ally’s AC, attack roll, or skill check instead of the normal +2 bonus.\nHive Mind (Ex)\nFormians operate from a shared hive intelligence that allows them to communicate nearly instantaneously. While within telepathic range of at least one other formian with this ability, a formian gains a +4 bonus to initiative and Perception checks. If one formian is aware of a combatant, all members of the hive mind within range are aware of it, and a member of the hive mind cannot be surprised unless all members within range are surprised. If one member of the hive mind succeeds at a Will save to disbelieve an illusion effect, all members of that hive mind within telepathic range also disbelieve the effect.\nPeerless Bearer (Ex)\nFormian workers are bred for heavy labor. A formian worker can carry 5 additional bulk beyond the normal limits for its Strength before becoming encumbered or overburdened.\nDescription\nFormian workers are the backbone of hive labor and hatched in large clutches-many workers never gain a name beyond their number within the clutch. While strong, they typically flee combat unless ordered to fight. Formian warriors, by contrast, are fierce sterile females, each with a stronger individual identity to allow for more effective battle tactics. This individualism makes warriors more likely to chafe under strict hive hierarchies, and these are the formians most likely to set out on their own.\nExtra Content\nThe following extra content was found for this creature:\n-\nFormian Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Formian_Worker.png"
+}

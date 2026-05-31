@@ -1,0 +1,59 @@
+{
+  "name": "Kalo-mahoi Bloom",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Kalo-mahoi Bloom&Family=None",
+  "source": "Starfinder #44: Allies Against the Eye pg. 58",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "plant (aquatic, cold)",
+  "init": "+6",
+  "senses": "blindsense (emotion) 5 ft., sightless;",
+  "perception": "+23",
+  "hp": "190",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+12",
+  "ref": "+12",
+  "will": "+16",
+  "immunities": "cold, plant immunities",
+  "weaknesses": "vulnerable to fire",
+  "speed": "swim 15 ft.",
+  "melee": "caress +22 (6d4+13 C plus energy drain)",
+  "space": "15 ft.",
+  "reach": "30 ft.",
+  "offensive_abilities": "change shape, energy drain (2 levels, DC 21), water breathing",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th, ranged +20",
+    "spells": "1/day—\nmass inflict pain\n(DC 25)\n3/day—\nfeeblemind\n(DC 24)\nAt will—\nmind probe\n(DC 23)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+8",
+    "cha": "+0"
+  },
+  "skills": "Athletics +23, Sense Motive +28, Survival +23",
+  "environment": "aquatic",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Change Shape (Su)",
+      "description": "As a swift action, a Kalo-Mahoi bloom can transmute any of its many amorphous buds into flowers of its choosing. It uses this ability to create flowers its prey recognizes—knowledge the bloom acquires through the use of mind probe. The bloom then uses its steal memory ability to hide the memory in one of these flowers."
+    },
+    {
+      "name": "Eidetic Mimicry (Su)",
+      "description": "As a standard action, a Kalo-Mahoi bloom can share a memory it has stolen with its steal memory ability with all creatures within 60 feet; this is identical to the spell share memory (Character Operations Manual 141) except the targets don’t need to be willing."
+    },
+    {
+      "name": "Steal Memory (Su)",
+      "description": "A Kalo-Mahoi bloom can steal a memory from another creature. First, it must identify a specific memory through the use of mind probe or a similar effect. Then, as a standard action, the bloom targets its victim, who must be within 60 feet and must attempt a DC 21 Will save. On a failure, the target loses the chosen memory, which is moved into one of the bloom’s flowers. This effect works like the displace memory spell except the bloom can target other creatures and anyone touching the object can recall the displaced memory. If the flower is destroyed, the memory returns to the target creature."
+    }
+  ],
+  "description": "A Kalo-Mahoi bloom is an invasive, perennial seaweed that lurks in the ocean depths. As the name suggests, this macroalgae is native to Kalo-Mahoi, a moon of Bretheda, where it’s a simple and harmless foodstuff. But travelers and interstellar commerce have brought the Kalo-Mahoi bloom to aquatic environments on other worlds where, bereft of its natural predators, the algae grows exponentially. When exposed to certain forms of radiation or heavy water—such as that found in the seas of Weydana-5—it “blooms,” mutating and developing predatory spell-like abilities.\nThough not sentient, Kalo-Mahoi blooms possess a cunning bordering on intelligence. They telepathically lure victims to a watery grave by stealing cherished memories and moving them into tubular buds found throughout the tangled mass of vegetation that compose their bodies. These buds then bloom, tauntingly transmuted to the likeness of their victim’s favorite flower. Xenowardens warn that if measures aren’t taken soon, Kalo-Mahoi blooms will threaten ecosystems on many worlds, potentially even becoming the dominant life form. To date, kalos take no responsibility for this ecological nightmare.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nKalo-mahoi Bloom\nSource\nStarfinder #44: Allies Against the Eye pg. 58\nKalo-mahoi Bloom CR 13\nXP 25,600\nN Huge plant (aquatic, cold)\nInit\n+6;\nSenses\nblindsense (emotion) 5 ft., sightless;\nPerception\n+23\nDefense\nHP\n190\nEAC\n26;\nKAC\n27\nFort\n+12;\nRef\n+12;\nWill\n+16\nImmunities\ncold, plant immunities\nWeaknesses\nvulnerable to fire\nOffense\nSpeed\nswim 15 ft.\nMelee\ncaress +22 (6d4+13 C plus energy drain)\nSpace\n15 ft.;\nReach\n30 ft.\nOffensive Abilities\nchange shape, energy drain (2 levels, DC 21), water breathing\nSpell-Like Abilities\n(CL 13th, ranged +20)\n1/day—\nmass inflict pain\n(DC 25)\n3/day—\nfeeblemind\n(DC 24)\nAt will—\nmind probe\n(DC 23)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+1;\nINT\n-4;\nWIS\n+8;\nCHA\n+0\nSkills\nAthletics +23, Sense Motive +28, Survival +23\nEcology\nEnvironment\naquatic\nOrganization\nsolitary\nSpecial Abilities\nChange Shape (Su)\nAs a swift action, a Kalo-Mahoi bloom can transmute any of its many amorphous buds into flowers of its choosing. It uses this ability to create flowers its prey recognizes—knowledge the bloom acquires through the use of mind probe. The bloom then uses its steal memory ability to hide the memory in one of these flowers.\nEidetic Mimicry (Su)\nAs a standard action, a Kalo-Mahoi bloom can share a memory it has stolen with its steal memory ability with all creatures within 60 feet; this is identical to the spell share memory (Character Operations Manual 141) except the targets don’t need to be willing.\nSteal Memory (Su)\nA Kalo-Mahoi bloom can steal a memory from another creature. First, it must identify a specific memory through the use of mind probe or a similar effect. Then, as a standard action, the bloom targets its victim, who must be within 60 feet and must attempt a DC 21 Will save. On a failure, the target loses the chosen memory, which is moved into one of the bloom’s flowers. This effect works like the displace memory spell except the bloom can target other creatures and anyone touching the object can recall the displaced memory. If the flower is destroyed, the memory returns to the target creature.\nDescription\nA Kalo-Mahoi bloom is an invasive, perennial seaweed that lurks in the ocean depths. As the name suggests, this macroalgae is native to Kalo-Mahoi, a moon of Bretheda, where it’s a simple and harmless foodstuff. But travelers and interstellar commerce have brought the Kalo-Mahoi bloom to aquatic environments on other worlds where, bereft of its natural predators, the algae grows exponentially. When exposed to certain forms of radiation or heavy water—such as that found in the seas of Weydana-5—it “blooms,” mutating and developing predatory spell-like abilities.\nThough not sentient, Kalo-Mahoi blooms possess a cunning bordering on intelligence. They telepathically lure victims to a watery grave by stealing cherished memories and moving them into tubular buds found throughout the tangled mass of vegetation that compose their bodies. These buds then bloom, tauntingly transmuted to the likeness of their victim’s favorite flower. Xenowardens warn that if measures aren’t taken soon, Kalo-Mahoi blooms will threaten ecosystems on many worlds, potentially even becoming the dominant life form. To date, kalos take no responsibility for this ecological nightmare.",
+  "type": "plant (aquatic, cold)",
+  "category": "alien"
+}

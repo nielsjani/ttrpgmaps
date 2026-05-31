@@ -1,0 +1,47 @@
+{
+  "name": "Ravenous Skull",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ravenous Skull&Family=Ravenous Skull",
+  "source": "Starfinder #49: A Light in the Dark pg. 61",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "NE",
+  "size": "Tiny",
+  "creature_type": "undead",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+3",
+  "dr": "5/magic",
+  "immunities": "cold, undead immunities",
+  "speed": "10 ft., fly 30 ft. (Su, average)",
+  "melee": "bite +8 (1d6+2 P plus gnaw)",
+  "space": "0",
+  "reach": "0",
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "—",
+    "int": "—",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Stealth +5",
+  "other_abilities": "mindless, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or chatter (3-8)",
+  "special_abilities": [
+    {
+      "name": "Gnaw (Ex)",
+      "description": "A ravenous skull that hits with a bite attack automatically attaches to its target. This does not take an action or provoke an attack of opportunity. Once attached, the skull gains a +4 bonus to its AC (from cover) and a +2 circumstance bonus to melee attacks, but it can attack only the creature to which it's attached. While attached, the skull can't move on its own (though it moves with its target) or take attacks of opportunity. An attached skull can be removed with a successful DC 11 Strength check as a move action, or it can remove itself from its target as a move action."
+    }
+  ],
+  "description": "Ravenous skulls are flying humanoid skulls driven by ceaseless hunger to consume living f esh. Mindless creatures, they act on instinct, and are often formed from the skulls of those who died of starvation or in terrible necromantic rituals. Rarely, a group of ravenous skulls forms a skull swarm.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nRavenous Skull\nAliens in the \"Ravenous Skull\" Family\nName\nCR\nRavenous Skull\n1\nRavenous Skull Swarm\n6\nRavenous Skull\nSource\nStarfinder #49: A Light in the Dark pg. 61\nRavenous Skull CR 1\nXP 400\nNE Tiny undead\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+3;\nRef\n+3;\nWill\n+3\nDR\n5/magic;\nImmunities\ncold, undead immunities\nOffense\nSpeed\n10 ft., fly 30 ft. (Su, average)\nMelee\nbite +8 (1d6+2 P plus gnaw)\nSpace\n0;\nReach\n0\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n—;\nINT\n—;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +10, Stealth +5\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or chatter (3-8)\nSpecial Abilities\nGnaw (Ex)\nA ravenous skull that hits with a bite attack automatically attaches to its target. This does not take an action or provoke an attack of opportunity. Once attached, the skull gains a +4 bonus to its AC (from cover) and a +2 circumstance bonus to melee attacks, but it can attack only the creature to which it's attached. While attached, the skull can't move on its own (though it moves with its target) or take attacks of opportunity. An attached skull can be removed with a successful DC 11 Strength check as a move action, or it can remove itself from its target as a move action.\nDescription\nRavenous skulls are flying humanoid skulls driven by ceaseless hunger to consume living f esh. Mindless creatures, they act on instinct, and are often formed from the skulls of those who died of starvation or in terrible necromantic rituals. Rarely, a group of ravenous skulls forms a skull swarm.",
+  "type": "undead",
+  "category": "alien"
+}

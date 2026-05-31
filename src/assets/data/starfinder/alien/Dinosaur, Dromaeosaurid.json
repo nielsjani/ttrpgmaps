@@ -1,0 +1,43 @@
+{
+  "name": "Dinosaur, Dromaeosaurid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Dromaeosaurid&Family=Dinosaur",
+  "source": "Alien Archive 2 pg. 39",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+8",
+  "hp": "45",
+  "eac": "13",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+7",
+  "will": "+2",
+  "speed": "50 ft.",
+  "melee": "talons +11 (1d6+5 S; critical bleed 1d6) or bite +11 (1d6+5 P)",
+  "offensive_abilities": "pounce",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +8, Stealth +13",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–12)",
+  "special_abilities": [
+    {
+      "name": "Pounce (Ex)",
+      "description": "When a dromaeosaurid charges, it can also make a full attack."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDinosaur\nSource\nAlien Archive 2 pg. 39\nThe term “dinosaur” refers to a category of reptilelike fauna associated with a planet’s prehistoric evolutionary scale. Dinosaurs vary in size, although many are quite large, and they come in a variety of forms. A ceratopsid is a quadruped that has bony frills extending from its head back over its shoulders, as well as horns that adorn its face; one example is the herbivorous triceratops. Dromaeosaurids are bipedal, feathered carnivores, like the pack-hunting deinonychus (also called a raptor). Plesiosaurs are marine reptiles with long necks and toothy mouths that dwell and hunt near the water’s surface. Pterosaurs are flying reptilian beasts with membranous wings and long, sharp, triangular beaks. Sauropods are immense, lumbering quadrupeds with long necks and tails and towering stature, such as brachiosaurus and diplodocus. Theropods are bipedal dinosaurs, generally carnivorous, with fearsome, fanged jaws and clawed digits, like the tyrannosaurus. Thyreophorans are quadrupedal dinosaurs with armor-plated backs and tails weaponized with bludgeoning bone or piercing spikes, including the ankylosaurus and the stegosaurus.\nCreating Dinosaurs\nThe dinosaurs in this entry serve a couple of purposes. Employ them as written when you need statistics for this sort of creature. To create a unique dinosaur, use the stat blocks here and your concept as starting points. Decide what type of natural weapon the animal has, altering the damage type to suit the weapon. Then add elements from Appendix 2: Environmental Grafts. Tailor anything you want to fit your concept.\nAliens in the \"Dinosaur\" Family\nName\nCR\nCeratopsid\n8\nDromaeosaurid\n3\nPlesiosaur\n7\nPterosaur\n3\nSauropod\n10\nTheropod\n9\nThyreophoran\n6\nWeydanasaurus\n5\nDinosaur, Dromaeosaurid\nSource\nAlien Archive 2 pg. 38\nDromaeosaurid CR 3\nXP 800\nN Medium animal\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+8\nDefense\nHP\n45\nEAC\n13;\nKAC\n15\nFort\n+6;\nRef\n+7;\nWill\n+2\nOffense\nSpeed\n50 ft.\nMelee\ntalons +11 (1d6+5 S; critical bleed 1d6) or bite +11 (1d6+5 P)\nOffensive Abilities\npounce\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +8, Stealth +13\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–12)\nSpecial Abilities\nPounce (Ex)\nWhen a dromaeosaurid charges, it can also make a full attack.",
+  "type": "animal",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Dinosaur1.png"
+}

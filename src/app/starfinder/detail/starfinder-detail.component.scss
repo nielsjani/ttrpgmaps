@@ -1,0 +1,212 @@
+.sf-detail-page {
+  padding: 24px 32px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 0.84rem;
+  color: #888;
+  margin-bottom: 20px;
+  a { color: #1565c0; text-decoration: none; &:hover { text-decoration: underline; } }
+  .sep { margin: 0 6px; }
+}
+
+/* ── Creature image ── */
+.creature-image {
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  max-height: 380px;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+    max-height: 348px;
+    object-fit: contain;
+    border-radius: 2px;
+    display: block;
+  }
+}
+
+/* ── Stat block shell ── */
+.stat-block {
+  border: 1px solid #c9b88a;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+
+/* ── Header ── */
+.stat-header {
+  background: #722;
+  color: white;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  h1 {
+    margin: 0;
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+
+  .header-badges {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .cr-badge {
+    background: rgba(255,255,255,.22);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .xp-badge {
+    font-size: 0.85rem;
+    opacity: .85;
+  }
+}
+
+/* ── Type line (alignment/size/type) ── */
+.type-line {
+  background: #b8943a;
+  color: white;
+  padding: 5px 20px;
+  font-style: italic;
+  font-size: 0.92rem;
+}
+
+/* ── Source line ── */
+.source-line {
+  background: #faf6ee;
+  border-bottom: 1px solid #e5d9bb;
+  padding: 7px 20px;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+/* ── Init/Senses/Perception ── */
+.inline-stats {
+  background: #faf6ee;
+  border-bottom: 1px solid #e5d9bb;
+  padding: 7px 20px;
+  font-size: 0.88rem;
+}
+
+/* ── Sections ── */
+.section {
+  border-bottom: 1px solid #e5d9bb;
+}
+
+.section-head {
+  background: #2a5f80;
+  color: white;
+  padding: 4px 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.section-body {
+  background: #faf6ee;
+  padding: 12px 20px;
+
+  &.sa-list { padding: 0; }
+}
+
+.stat-row {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin-bottom: 4px;
+
+  &:last-child { margin-bottom: 0; }
+
+  .lbl { font-weight: 700; }
+
+  &.ability-row {
+    font-family: monospace;
+    font-size: 0.9rem;
+    letter-spacing: .03em;
+    color: #222;
+  }
+}
+
+/* ── Special abilities ── */
+.special-ability {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0e8d4;
+
+  &:last-child { border-bottom: none; }
+
+  .sa-name {
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: #7a1111;
+  }
+
+  .sa-desc {
+    font-size: 0.86rem;
+    color: #333;
+    line-height: 1.65;
+    margin-top: 4px;
+    white-space: pre-line;   /* fallback: preserve \n even without pipe */
+
+    /* line breaks from [innerHTML] pipe */
+    br { display: block; content: ''; margin-top: 4px; }
+  }
+}
+
+/* ── Description ── */
+.description {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: #333;
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* ── Extra content ── */
+.extra-content {
+  background: #f4eedf;
+  border-bottom: 1px solid #e5d9bb;
+  padding: 10px 20px;
+  font-size: 0.82rem;
+  color: #666;
+  p { margin: 0; }
+}
+
+/* ── Source footer ── */
+.source-footer {
+  background: #faf6ee;
+  padding: 12px 20px;
+  a {
+    color: #1565c0;
+    font-size: 0.84rem;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+/* ── States ── */
+.state-msg {
+  padding: 48px;
+  text-align: center;
+  color: #aaa;
+  font-size: 1rem;
+  &.error { color: #e53935; }
+}
+
+
+
+

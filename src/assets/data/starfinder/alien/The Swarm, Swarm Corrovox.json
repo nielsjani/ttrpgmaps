@@ -1,0 +1,55 @@
+{
+  "name": "The Swarm, Swarm Corrovox",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Swarm Corrovox&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+4",
+  "senses": "darkvision 60 ft., blindsense (vibration) 30 ft.;",
+  "perception": "+13",
+  "hp": "40",
+  "eac": "14",
+  "kac": "16",
+  "fort": "+5",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "acid, fear effects",
+  "speed": "40 ft., climb 30 ft.",
+  "melee": "claw +9 (1d6+5 S)",
+  "ranged": "acid cannon +12 (1d4+3 A; critical corrode 1d4)",
+  "offensive_abilities": "psychic assault",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+1",
+    "int": "-1",
+    "wis": "+1",
+    "cha": "-3"
+  },
+  "skills": "Acrobatics +8, Athletics +8 (+16 when climbing), Stealth +8",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3-8)",
+  "special_abilities": [
+    {
+      "name": "Acid Cannon (Ex)",
+      "description": "A corrovox has an organic acid cannon grafted onto its forearm that can fire blobs of organic acid at a range increment of 40 feet. This weapon can’t be disarmed and produces its own ammunition, so it never runs out."
+    },
+    {
+      "name": "Psychic Assault (Su)",
+      "description": "A corrovox can unleash a burst of harmful mental chatter at a target within 30 feet as a standard action. The target takes an amount of damage equal to 1d4 × the corrovox’s CR (3d4 damage for most corrovoxes). A successful DC 12 Will save halves this damage."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures.) In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    }
+  ],
+  "description": "The two Swarm components listed here are some of the most common aspects of the Swarm’s varied evolutions.\nCorrovoxes are Swarm shock troops. They act as advance scouts and worldseekers for the Swarm, and moving vast hordes across potential feeder worlds. Like many Swarm creatures, corrovoxes have latent telepathic ability and are capable of psychically ravaging a foe’s mind. Thresher lords descend on their foes on insectile wings and, as their name implies, quickly cut prey down with the massive razor-sharp blades that grow from their arms. When the carnage is complete, other components of the Swarm arrive to feast upon the bloody remains.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Swarm Corrovox\nSource\nAlien Archive pg. 110\nSwarm Corrovox CR 3\nXP 800\nCE Medium monstrous humanoid\nInit\n+4;\nSenses\ndarkvision 60 ft., blindsense (vibration) 30 ft.;\nPerception\n+13\nDefense\nHP\n40\nEAC\n14;\nKAC\n16\nFort\n+5;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nswarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n40 ft., climb 30 ft.\nMelee\nclaw +9 (1d6+5 S)\nRanged\nacid cannon +12 (1d4+3 A; critical corrode 1d4)\nOffensive Abilities\npsychic assault\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+1;\nINT\n-1;\nWIS\n+1;\nCHA\n-3\nSkills\nAcrobatics +8, Athletics +8 (+16 when climbing), Stealth +8\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3-8)\nSpecial Abilities\nAcid Cannon (Ex)\nA corrovox has an organic acid cannon grafted onto its forearm that can fire blobs of organic acid at a range increment of 40 feet. This weapon can’t be disarmed and produces its own ammunition, so it never runs out.\nPsychic Assault (Su)\nA corrovox can unleash a burst of harmful mental chatter at a target within 30 feet as a standard action. The target takes an amount of damage equal to 1d4 × the corrovox’s CR (3d4 damage for most corrovoxes). A successful DC 12 Will save halves this damage.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures within 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures.) In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nDescription\nThe two Swarm components listed here are some of the most common aspects of the Swarm’s varied evolutions.\nCorrovoxes are Swarm shock troops. They act as advance scouts and worldseekers for the Swarm, and moving vast hordes across potential feeder worlds. Like many Swarm creatures, corrovoxes have latent telepathic ability and are capable of psychically ravaging a foe’s mind. Thresher lords descend on their foes on insectile wings and, as their name implies, quickly cut prey down with the massive razor-sharp blades that grow from their arms. When the carnage is complete, other components of the Swarm arrive to feast upon the bloody remains.",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Swarm_Corrovox.png"
+}

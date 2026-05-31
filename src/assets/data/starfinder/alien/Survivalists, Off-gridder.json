@@ -1,0 +1,46 @@
+{
+  "name": "Survivalists, Off-gridder",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Off-gridder&Family=Survivalists",
+  "source": "Interstellar Species pg. 182",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (ryphorian)",
+  "init": "+1",
+  "senses": "low-light vision;",
+  "perception": "+9",
+  "hp": "13",
+  "eac": "10",
+  "kac": "12",
+  "fort": "+4",
+  "ref": "+2",
+  "will": "+0",
+  "resistances": "cold 5",
+  "speed": "30 ft.",
+  "melee": "survival knife +6 (1d4 S)",
+  "ranged": "bow +3 (1d6 P)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+1",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Medicine +4, Stealth +4, Survival +9",
+  "feats": "Mobility",
+  "languages": "Common, Triaxian",
+  "gear": "second skin, bow with 20 arrows, survival knife, R2E meals (5)",
+  "special_abilities": [
+    {
+      "name": "Determination (Ex)",
+      "description": "Once per day, when damage would reduce the off-gridder’s HP to 0, it instead reduces their HP to 1."
+    }
+  ],
+  "description": "Off-gridders are those who—by choice or necessity—live apart from a technological society and are accustomed to self-sufficiency. Some off-gridders hold a deep-seated distrust of advanced technology, perhaps worried it might one day fail and plunge civilization into chaos. Others might be victims of circumstance, such as castaways who crash-landed on an uninhabited planet or criminals hiding from the law.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSurvivalists\nSource\nInterstellar Species pg. 182\nSurvivalists are defined by independence and self-sufficiency. They often expertly navigate specific types of hostile or dangerous terrain: forests, deserts, or more remote locales such as dead space or post-apocalyptic cityscapes. Survivalists generally don’t rely on others and commonly live and work alone. However, the following statistics can represent hunters and warriors within a community as well as hermits. A survivalist might have some kind of sentient companion or a creature companion, such as a beast of burden or a hunting beast. A survivalist might arrive at a critical moment to help PCs as they travel through a barren wasteland. Alternatively, a survivalist makes an excellent antagonist in a wilderness setting since they’re capable of using every aspect of the environment against their foes.\nAliens in the \"Survivalists\" Family\nName\nCR\nCareer Ranger\n3\nMysterious Hermit\n14\nOff-gridder\n1/2\nTrophy Hunter\n9\nSurvivalists, Off-gridder\nSource\nInterstellar Species pg. 182\nOff-gridder CR 1/2\nXP 200\nWinterborn ryphorian\nN Medium humanoid (ryphorian)\nInit\n+1;\nSenses\nlow-light vision;\nPerception\n+9\nDefense\nHP\n13\nEAC\n10;\nKAC\n12\nFort\n+4;\nRef\n+2;\nWill\n+0\nDefensive Abilities\ndetermination;\nResistances\ncold 5\nOffense\nSpeed\n30 ft.\nMelee\nsurvival knife +6 (1d4 S)\nRanged\nbow +3 (1d6 P)\nStatistics\nSTR\n+0;\nDEX\n+1;\nCON\n+3;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nFeats\nMobility\nSkills\nMedicine +4, Stealth +4, Survival +9\nLanguages\nCommon, Triaxian\nGear\nsecond skin, bow with 20 arrows, survival knife, R2E meals (5)\nSpecial Abilities\nDetermination (Ex)\nOnce per day, when damage would reduce the off-gridder’s HP to 0, it instead reduces their HP to 1.\nDescription\nOff-gridders are those who—by choice or necessity—live apart from a technological society and are accustomed to self-sufficiency. Some off-gridders hold a deep-seated distrust of advanced technology, perhaps worried it might one day fail and plunge civilization into chaos. Others might be victims of circumstance, such as castaways who crash-landed on an uninhabited planet or criminals hiding from the law.",
+  "type": "humanoid (ryphorian)",
+  "environment": "—",
+  "category": "alien"
+}

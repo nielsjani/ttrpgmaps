@@ -1,0 +1,48 @@
+{
+  "name": "Religious Figures, Prophet",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Prophet&Family=Religious Figures",
+  "source": "Interstellar Species pg. 174",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+0",
+  "senses": "blindsense (vibration) 30 ft.;",
+  "perception": "+16",
+  "hp": "105",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+11",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "void staff +15 (1d10+9 C; critical suffocate) tentacle  +15 (1d10+9 A)",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th",
+    "spells": "1/day—\nbreak enchantment\n,\ncontact other plane\n,\nreincarnate\n,\nretrocognition\n,\ntelepathy\n3/day—\ndivination\n,\nmystic cure\n(4th level)\nAt will—\nclairaudience/clairvoyance\n,\ntongues"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+2",
+    "wis": "+6",
+    "cha": "+4"
+  },
+  "skills": "Diplomacy +21, Mysticism +21, Stealth +16 (+20 in water)",
+  "languages": "Aquan, Common, Scyphozoan",
+  "other_abilities": "amphibious , fortuitous prophecy",
+  "gear": "lashunta mind mail I , crypt-class void staff , holy symbol",
+  "special_abilities": [
+    {
+      "name": "Fortuitous Prophecy (Su)",
+      "description": "By performing a personalized ritual for 10 minutes, a prophet can bestow a prophecy on a willing creature within 30 feet. Once during the next year, the creature can invoke the prophecy before attempting an attack roll, skill check, or saving throw to roll the check 5 times and use the best result. Once a creature benefits from a fortuitous prophecy, they’re immune to further uses of this ability for 10 years."
+    }
+  ],
+  "description": "Prophets are chosen by the gods to foretell the future, though they rarely have a choice in the matter. Their prophecies manifest as waking visions, astrological readings, cosmic energy pulses, or even direct conversations with their deities. While some prophets embrace their gift and serve as impartial messengers, others become overwhelmed by their prophecies, either in the hope of bringing their visions to fruition or in an attempt to stop some unfavorable future. These prophets often fall victim to exploitative opportunists who try to use them as a tool to foresee and manipulate the future.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nReligious Figures\nSource\nInterstellar Species pg. 174\nReligious figures are typically individuals who rise in their faith’s ranks due to their unrivaled devotion and skill—or even due to the blessings bestowed upon them by their deity. Religious figures don’t just lead the devout; they often also steer nonreligious discourse. Depending on their congregation and ambitions, the leader might even overshadow the government of a city or planet. Although this arrangement might bring peace, it could as easily realize a terrible regime of divine tyranny or terror.\nAliens in the \"Religious Figures\" Family\nName\nCR\nChampion\n14\nDivine Avatar\n20\nExcommunicant\n4\nProphet\n8\nReligious Figures, Prophet\nSource\nInterstellar Species pg. 174\nProphet CR 8\nXP 4,800\nScyphozoan\nNG Medium aberration\nInit\n+0;\nSenses\nblindsense (vibration) 30 ft.;\nPerception\n+16\nDefense\nHP\n105\nEAC\n19;\nKAC\n20\nFort\n+7;\nRef\n+7;\nWill\n+11\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\nvoid staff +15 (1d10+9 C; critical suffocate) tentacle  +15 (1d10+9 A)\nSpell-Like Abilities\n(CL 8th)\n1/day—\nbreak enchantment\n,\ncontact other plane\n,\nreincarnate\n,\nretrocognition\n,\ntelepathy\n3/day—\ndivination\n,\nmystic cure\n(4th level)\nAt will—\nclairaudience/clairvoyance\n,\ntongues\nStatistics\nSTR\n+1;\nDEX\n+0;\nCON\n+1;\nINT\n+2;\nWIS\n+6;\nCHA\n+4\nSkills\nDiplomacy +21, Mysticism +21, Stealth +16 (+20 in water)\nLanguages\nAquan, Common, Scyphozoan\nOther Abilities\namphibious , fortuitous prophecy\nGear\nlashunta mind mail I , crypt-class void staff , holy symbol\nSpecial Abilities\nFortuitous Prophecy (Su)\nBy performing a personalized ritual for 10 minutes, a prophet can bestow a prophecy on a willing creature within 30 feet. Once during the next year, the creature can invoke the prophecy before attempting an attack roll, skill check, or saving throw to roll the check 5 times and use the best result. Once a creature benefits from a fortuitous prophecy, they’re immune to further uses of this ability for 10 years.\nDescription\nProphets are chosen by the gods to foretell the future, though they rarely have a choice in the matter. Their prophecies manifest as waking visions, astrological readings, cosmic energy pulses, or even direct conversations with their deities. While some prophets embrace their gift and serve as impartial messengers, others become overwhelmed by their prophecies, either in the hope of bringing their visions to fruition or in an attempt to stop some unfavorable future. These prophets often fall victim to exploitative opportunists who try to use them as a tool to foresee and manipulate the future.",
+  "type": "aberration",
+  "environment": "—",
+  "category": "alien"
+}

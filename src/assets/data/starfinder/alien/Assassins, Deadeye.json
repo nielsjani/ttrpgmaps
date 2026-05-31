@@ -1,0 +1,47 @@
+{
+  "name": "Assassins, Deadeye",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Deadeye&Family=Assassins",
+  "source": "Interstellar Species pg. 152",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+8",
+  "senses": "blindsense (scent) 30 ft., darkvision 60 ft.;",
+  "perception": "+25",
+  "hp": "250",
+  "eac": "28",
+  "kac": "30",
+  "fort": "+16",
+  "ref": "+18",
+  "will": "+14",
+  "resistances": "sonic 10",
+  "speed": "40 ft.",
+  "melee": "claw  +25 (8d6+16 S)",
+  "ranged": "elite shirren-eye rifle +28 (4d10+14 P)",
+  "offensive_abilities": "skip shot",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+8",
+    "con": "+2",
+    "int": "+6",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +30, Stealth +30",
+  "languages": "Common, limited telepathy 60 ft.",
+  "other_abilities": "hive mind",
+  "gear": "freebooter armor IV, elite shirren-eye rifle with 6 sniper rounds",
+  "special_abilities": [
+    {
+      "name": "Skip Shot (Su)",
+      "description": "When a deadeye fires a sniper weapon, the ammunition blinks onto a different plane and then reappears just before reaching the target. As long as a deadeye has line of sight to their target, they don’t need line of effect to make a ranged attack."
+    }
+  ],
+  "description": "Deadeyes specialize in neutralizing targets at ranges so long their bullets lodge within their targets long before the target hears the weapon firing. Some can temporarily bend their bullets into different planes, making them even harder to protect against. Deadeyes are notoriously difficult to track after an assassination attempt since they can alter the trajectory of their fired ammunition. Their bullets sometimes appear to come from walls.\nDuring major events and ceremonies, the slightest threat of a deadeye can increase the required security perimeter tenfold. Their skill at eliminating their targets in public settings makes deadeyes particularly coveted assassins for clients seeking to cause panic and societal unrest.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAssassins\nSource\nInterstellar Species pg. 152\nAssassins are skilled killers who excel in eliminating single targets. Often using various forms of stealth and subterfuge, they can pass between guards undetected and skillfully navigate traps to quickly dispatch their marked query. High-profile corporations, cults, or criminal syndicates may employ assassins, but most work alone or as part of secretive guilds for hire and by contract.\nAssassins work in the shadows, with some operating discreetly among the underbellies of society and others conducting their business while hiding in plain sight. Regardless of their methods, they’re valued for their ability to hide their tracks and maintain their employer’s anonymity. The most skilled assassins can take out high-profile figures without leaving any evidence for investigators to follow. The more difficult the job and the greater the prominence of the target, the higher the fee they command.\nAliens in the \"Assassins\" Family\nName\nCR\nDeadeye\n14\nMasked Assassin\n5\nSpecter\n18\nViper\n9\nAssassins, Deadeye\nSource\nInterstellar Species pg. 152\nDeadeye CR 14\nXP 38,400\nFormian\nNE Medium monstrous humanoid\nInit\n+8 (+12 with hive mind);\nSenses\nblindsense (scent) 30 ft., darkvision 60 ft.;\nPerception\n+25 (+29 with hive mind)\nDefense\nHP\n250\nEAC\n28;\nKAC\n30\nFort\n+16;\nRef\n+18;\nWill\n+14\nResistances\nsonic 10\nOffense\nSpeed\n40 ft.\nMelee\nclaw  +25 (8d6+16 S)\nRanged\nelite shirren-eye rifle +28 (4d10+14 P)\nOffensive Abilities\nskip shot\nStatistics\nSTR\n+2;\nDEX\n+8;\nCON\n+2;\nINT\n+6;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +30, Stealth +30\nLanguages\nCommon, limited telepathy 60 ft.\nOther Abilities\nhive mind\nGear\nfreebooter armor IV, elite shirren-eye rifle with 6 sniper rounds\nSpecial Abilities\nSkip Shot (Su)\nWhen a deadeye fires a sniper weapon, the ammunition blinks onto a different plane and then reappears just before reaching the target. As long as a deadeye has line of sight to their target, they don’t need line of effect to make a ranged attack.\nDescription\nDeadeyes specialize in neutralizing targets at ranges so long their bullets lodge within their targets long before the target hears the weapon firing. Some can temporarily bend their bullets into different planes, making them even harder to protect against. Deadeyes are notoriously difficult to track after an assassination attempt since they can alter the trajectory of their fired ammunition. Their bullets sometimes appear to come from walls.\nDuring major events and ceremonies, the slightest threat of a deadeye can increase the required security perimeter tenfold. Their skill at eliminating their targets in public settings makes deadeyes particularly coveted assassins for clients seeking to cause panic and societal unrest.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

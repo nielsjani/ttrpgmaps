@@ -1,0 +1,63 @@
+{
+  "name": "Program Creature, Overlord Algorithm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Overlord Algorithm&Family=Program Creature",
+  "source": "Starfinder #51: Into the Dataverse pg. 58",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "CE",
+  "size": "Huge",
+  "creature_type": "dragon",
+  "init": "+0",
+  "senses": "blindsense (vibration) 60 ft., darkvision 120 ft., low-light vision, sense through (vision [smoke only]);",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+17",
+  "ref": "+17",
+  "will": "+14",
+  "dr": "10/magic",
+  "sr": "24",
+  "immunities": "fire, paralysis, sleep;",
+  "weaknesses": "virtual dependency, vulnerable to cold",
+  "speed": "50 ft., 200 ft. (Su, clumsy)",
+  "melee": "bite +27 (2d12+21 P)",
+  "space": "15 ft.",
+  "reach": "10 ft. (15 ft. with bite)",
+  "offensive_abilities": "breath weapon (cone 45 ft., 14d10 F, DC 19, usable every 1d4 rounds)",
+  "spell_like_abilities": {
+    "caster_info": "CL 13th; ranged +24",
+    "spells": "1/day—\ncrush skull\n(DC 20),\nwaves of fatigue\n(DC 20)\n3/day—\ndimension door\n,\ngreater invisibility\n,\nusurp spell\n,\nwall of fire\nAt Will—\nexplosive blast\n(DC 18),\nslow\n(DC 18)"
+  },
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+0",
+    "con": "+6",
+    "int": "+4",
+    "wis": "+2",
+    "cha": "+4"
+  },
+  "skills": "Athletics +28 (+20 to fly), Intimidate +23, Mysticism +23",
+  "languages": "Common, Draconic, Ignan",
+  "other_abilities": "computerized mind, data construct",
+  "environment": "any virtual space",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Computerized Mind (Ex)",
+      "description": "Program creatures gain a +4 bonus to saves against mind-affecting effects unless those effects specifically target constructs. A creature can target a program creature with a spell that could affect a computer or other technological device, such as remote operation (Starfinder Character Operations Manual 140), or a mechanic’s overload class feature. The program creature can attempt a Will saving throw to negate this effect, even if the effect doesn’t normally allow a saving throw; use the effect’s regular DC or a DC of 10 + 1/2 the effect user’s level + the effect user’s key ability score modifier, whichever is higher. If the program creature fails this saving throw, they become afflicted with one condition (chosen by the effect user) for the ability’s duration or a number of rounds equal to the effect user’s level, whichever is shorter. The conditions that can be chosen include: blinded, confused, exhausted, frightened, or staggered."
+    },
+    {
+      "name": "Data Construct (Ex)",
+      "description": "Program creatures gain the technological subtype and count as both their original type and constructs for all effects (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). A program creature receives a +2 bonus to saving throws against disease, poison, and sleep unless those effects specifically target constructs. Non-program creatures wielding a hacking kit can attempt to alter a nearby program creature’s subroutines, allowing them to attempt a Computers checks to feint or lie to a program instead of using Bluff, change a program’s attitude instead of using Diplomacy, bully or demoralize them instead of using Intimidate, or to perform any skill task of the Medicine skill instead of using Medicine."
+    },
+    {
+      "name": "Virtual Dependency (Ex)",
+      "description": "A program creature can exist only within the virtual space in which it was created. If forcibly removed from the virtual space, it dies immediately, but computer backups in the virtual space usually recreate the program creature 1d4 minutes later. Directly modifying the code of the virtual space, or destroying its server, is the only way to ensure the destruction of a programmed creature."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nProgram Creature (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nProgram Creature\nSource\nStarfinder #51: Into the Dataverse pg. 58\nPrograms are semi-sapient creatures native to virtual spaces, such as Triune’s Dataverse. Formed not from material elements but raw data, these creatures operate on complex algorithmic routines and subroutines that almost perfectly mimic those of real, thinking creatures.\nIn many cases, these programs exist to act as guardians over sensitive digital areas. Rather than trust valuable data strictly to a hackable server, some enterprises have embedded their data to be accessible via entering digital worlds and contending with one or more programmed guardians.\nThe demon lord of clocks and prisons, Shivaska, is known to force those she captures to toil in digital realms she hosts. In these places, the imprisoned work ceaselessly to mine a digital currency known as SoulCoin, and corrupt programmed creatures ensure obedience and maintain fear among the digitized prisoners.\nAliens in the \"Program Creature\" Family\nName\nCR\nHuge Firewall\n7\nLurking Spyware\n10\nOverlord Algorithm\n13\nUnwitting Subroutine\n5\nProgram Creature, Overlord Algorithm\nSource\nStarfinder #51: Into the Dataverse pg. 59\nOverlord Algorithm CR 13\nXP 25,600\nProgram adult red dragon\nCE Huge dragon\nInit\n+0;\nSenses\nblindsense (vibration) 60 ft., darkvision 120 ft., low-light vision, sense through (vision [smoke only]);\nPerception\n+23\nAura\nfrightful presence (190 ft., DC 19)\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+17;\nRef\n+17;\nWill\n+14; +4 vs. mind-affecting effects\nDR\n10/magic;\nImmunities\nfire, paralysis, sleep;\nSR\n24\nWeaknesses\nvirtual dependency, vulnerable to cold\nOffense\nSpeed\n50 ft., 200 ft. (Su, clumsy)\nMelee\nbite +27 (2d12+21 P)\nMultiattack\nbite +21 (2d12+21 P), 2 claws +21 (2d8+21 S), tail +21 (2d8+21 B)\nSpace\n15 ft.;\nReach\n10 ft. (15 ft. with bite)\nOffensive Abilities\nbreath weapon (cone 45 ft., 14d10 F, DC 19, usable every 1d4 rounds)\nSpell-Like Abilities\n(CL 13th; ranged +24)\n1/day—\ncrush skull\n(DC 20),\nwaves of fatigue\n(DC 20)\n3/day—\ndimension door\n,\ngreater invisibility\n,\nusurp spell\n,\nwall of fire\nAt Will—\nexplosive blast\n(DC 18),\nslow\n(DC 18)\nStatistics\nSTR\n+8;\nDEX\n+0;\nCON\n+6;\nINT\n+4;\nWIS\n+2;\nCHA\n+4\nSkills\nAthletics +28 (+20 to fly), Intimidate +23, Mysticism +23\nLanguages\nCommon, Draconic, Ignan\nOther Abilities\ncomputerized mind, data construct\nEcology\nEnvironment\nany virtual space\nOrganization\nsolitary\nSpecial Abilities\nComputerized Mind (Ex)\nProgram creatures gain a +4 bonus to saves against mind-affecting effects unless those effects specifically target constructs. A creature can target a program creature with a spell that could affect a computer or other technological device, such as remote operation (Starfinder Character Operations Manual 140), or a mechanic’s overload class feature. The program creature can attempt a Will saving throw to negate this effect, even if the effect doesn’t normally allow a saving throw; use the effect’s regular DC or a DC of 10 + 1/2 the effect user’s level + the effect user’s key ability score modifier, whichever is higher. If the program creature fails this saving throw, they become afflicted with one condition (chosen by the effect user) for the ability’s duration or a number of rounds equal to the effect user’s level, whichever is shorter. The conditions that can be chosen include: blinded, confused, exhausted, frightened, or staggered.\nData Construct (Ex)\nProgram creatures gain the technological subtype and count as both their original type and constructs for all effects (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). A program creature receives a +2 bonus to saving throws against disease, poison, and sleep unless those effects specifically target constructs. Non-program creatures wielding a hacking kit can attempt to alter a nearby program creature’s subroutines, allowing them to attempt a Computers checks to feint or lie to a program instead of using Bluff, change a program’s attitude instead of using Diplomacy, bully or demoralize them instead of using Intimidate, or to perform any skill task of the Medicine skill instead of using Medicine.\nVirtual Dependency (Ex)\nA program creature can exist only within the virtual space in which it was created. If forcibly removed from the virtual space, it dies immediately, but computer backups in the virtual space usually recreate the program creature 1d4 minutes later. Directly modifying the code of the virtual space, or destroying its server, is the only way to ensure the destruction of a programmed creature.\nExtra Content\nThe following extra content was found for this creature:\n-\nProgram Creature (Other) Graft Template",
+  "type": "dragon",
+  "category": "alien"
+}

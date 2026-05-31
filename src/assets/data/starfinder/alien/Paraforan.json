@@ -1,0 +1,54 @@
+{
+  "name": "Paraforan",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Paraforan&Family=None",
+  "source": "Alien Archive 3 pg. 76",
+  "cr": "12",
+  "xp": "19,200",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+27",
+  "hp": "222",
+  "eac": "26",
+  "kac": "27",
+  "fort": "+11",
+  "ref": "+13",
+  "will": "+15",
+  "speed": "fly 120 ft. (Su, perfect)",
+  "melee": "slam +22 (2d12+16 B)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "shrieking chorus",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+8",
+    "con": "+5",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +27 (+35 to fly), Athletics +22, Piloting +27 (to navigate only), Stealth +22",
+  "other_abilities": "healing incandescence, hyperspace master, spaceflight",
+  "environment": "vacuum (the Drift)",
+  "organization": "solitary or voyage (2–4)",
+  "special_abilities": [
+    {
+      "name": "Healing Incandescence (Su)",
+      "description": "Once per day as a full action, a paraforan can pulse with a shimmering light that heals it. The paraforan gains fast healing 15 for 1d4+1 rounds. During this time, any creature that begins its turn or moves adjacent to the paraforan must succeed at a DC 21 Reflex save or gain the blinded condition for 1 round. This is a sense-dependent effect."
+    },
+    {
+      "name": "Hyperspace Master (Su)",
+      "description": "When navigating, a paraforan treats all Drift beacons as frequently visited, even if it has never traveled to that beacon."
+    },
+    {
+      "name": "Shrieking Chorus (Su)",
+      "description": "Three times per day as a standard action, a paraforan can vibrate its entire body to cause massive psychic pain. Each non-paraforan creature within 60 feet takes 4d8+12 damage and gains the shaken condition for 1d4 rounds. A creature that succeeds at a DC 21 Will save takes half damage, isn’t shaken, and cannot be affected by the same paraforan’s shrieking chorus for 24 hours. This is a mind-affecting effect."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nParaforan\nSource\nAlien Archive 3 pg. 76\nParaforan CR 12\nXP 19,200\nN Large outsider (extraplanar)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+27\nDefense\nHP\n222\nEAC\n26;\nKAC\n27\nFort\n+11;\nRef\n+13;\nWill\n+15\nDefensive Abilities\nvoid adaptation\nOffense\nSpeed\nfly 120 ft. (Su, perfect)\nMelee\nslam +22 (2d12+16 B)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nshrieking chorus\nStatistics\nSTR\n+4;\nDEX\n+8;\nCON\n+5;\nINT\n+1;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +27 (+35 to fly), Athletics +22, Piloting +27 (to navigate only), Stealth +22\nOther Abilities\nhealing incandescence, hyperspace master, spaceflight\nEcology\nEnvironment\nvacuum (the Drift)\nOrganization\nsolitary or voyage (2–4)\nSpecial Abilities\nHealing Incandescence (Su)\nOnce per day as a full action, a paraforan can pulse with a shimmering light that heals it. The paraforan gains fast healing 15 for 1d4+1 rounds. During this time, any creature that begins its turn or moves adjacent to the paraforan must succeed at a DC 21 Reflex save or gain the blinded condition for 1 round. This is a sense-dependent effect.\nHyperspace Master (Su)\nWhen navigating, a paraforan treats all Drift beacons as frequently visited, even if it has never traveled to that beacon.\nShrieking Chorus (Su)\nThree times per day as a standard action, a paraforan can vibrate its entire body to cause massive psychic pain. Each non-paraforan creature within 60 feet takes 4d8+12 damage and gains the shaken condition for 1d4 rounds. A creature that succeeds at a DC 21 Will save takes half damage, isn’t shaken, and cannot be affected by the same paraforan’s shrieking chorus for 24 hours. This is a mind-affecting effect.",
+  "type": "outsider (extraplanar)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Paraforan.png"
+}

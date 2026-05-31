@@ -1,0 +1,52 @@
+{
+  "name": "Emergency Workers, Elite Rescuer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Elite Rescuer&Family=Emergency Workers",
+  "source": "Interstellar Species pg. 162",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "humanoid (vlaka)",
+  "init": "+5",
+  "senses": "blindsight (scent) 30 ft., blindsight (life, dying and stable living creatures only) 30 ft., deafened, low-light vision;",
+  "perception": "+24",
+  "hp": "140",
+  "eac": "22",
+  "kac": "23",
+  "fort": "+11",
+  "ref": "+9",
+  "will": "+13",
+  "resistances": "cold 10",
+  "speed": "30 ft., fly 60 ft. (average)",
+  "melee": "sintered handaxe +16 (2d6+12 S)",
+  "ranged": "elite semi-auto pistol +18 (3d6+10 P)",
+  "offensive_abilities": "cooperative",
+  "spell_like_abilities": {
+    "caster_info": "CL 10th",
+    "spells": "1/day—\nknow coordinates\nSpells Known\n(CL 10th; ranged +18)\n4th (3/day)—\narcane eye\n,\nremove radioactivity\n(DC 22)\n3rd (6/day)—\nclairaudience/clairvoyance\n,\ndispel magic\n,\nhealing junkbot\n,\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image"
+  },
+  "spells": "(CL 10th; ranged +18)\n4th (3/day)—\narcane eye\n,\nremove radioactivity\n(DC 22)\n3rd (6/day)—\nclairaudience/clairvoyance\n,\ndispel magic\n,\nhealing junkbot\n,\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+4",
+    "con": "+3",
+    "int": "+6",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Medicine +24, Survival +24",
+  "languages": "Common, Vlakan (spoken, signed, and tactile), up to 8 others",
+  "other_abilities": "buoy , on your feet",
+  "gear": "freebooter III (forcepack), sintered handaxe , elite semi-auto pistol with 24 small arm rounds,",
+  "special_abilities": [
+    {
+      "name": "On Your Feet (Ex)",
+      "description": "When an elite rescuer uses Medicine to treat deadly wounds and exceeds the check’s DC by 5 or more, they also suppress one of the following conditions the target might have for 1d4 hours: dazzled, deafened, fatigued, nauseated, shaken, sickened, or staggered. Alternatively, the elite rescuer can reduce any movement speed penalty a target’s experiencing by 10 feet for 1d4 hours."
+    }
+  ],
+  "description": "For disasters covering a huge area or with several victims, magically adept rescuers can use divinations and specialized senses to search for survivors. These experts often work alone, and must be fit enough to clamber over terrain, remove obstacles, and potentially carry their charges back to safety. 163",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEmergency Workers\nSource\nInterstellar Species pg. 162\nEmergency workers administer medical care, handle hazardous materials, evacuate disaster victims, and provide myriad other services in the wake of tragedy. They can be selfless idealists, exhausted municipal workers, or mercenaries who don’t lift a finger unless they’re under contract. Whatever their motivations, emergency workers are capable, resourceful, and tough, able to work long hours under difficult conditions.\nAliens in the \"Emergency Workers\" Family\nName\nCR\nElite Rescuer\n10\nEnercopter Pilot\n9\nHazard Professional\n6\nHazard Response Crew\n3\nEmergency Workers, Elite Rescuer\nSource\nInterstellar Species pg. 162\nElite Rescuer CR 10\nXP 9,600\nVlaka\nNG Medium humanoid (vlaka)\nInit\n+5;\nSenses\nblindsight (scent) 30 ft., blindsight (life, dying and stable living creatures only) 30 ft., deafened, low-light vision;\nPerception\n+24\nDefense\nHP\n140;\nRP\n4\nEAC\n22;\nKAC\n23\nFort\n+11;\nRef\n+9;\nWill\n+13\nResistances\ncold 10\nOffense\nSpeed\n30 ft., fly 60 ft. (average)\nMelee\nsintered handaxe +16 (2d6+12 S)\nRanged\nelite semi-auto pistol +18 (3d6+10 P)\nOffensive Abilities\ncooperative\nSpell-Like Abilities\n(CL 10th)\n1/day—\nknow coordinates\nSpells Known\n(CL 10th; ranged +18)\n4th (3/day)—\narcane eye\n,\nremove radioactivity\n(DC 22)\n3rd (6/day)—\nclairaudience/clairvoyance\n,\ndispel magic\n,\nhealing junkbot\n,\nslow\n(DC 21)\n2nd (at will)—\ncaustic conversion\n,\nmirror image\nStatistics\nSTR\n+2;\nDEX\n+4;\nCON\n+3;\nINT\n+6;\nWIS\n+3;\nCHA\n+0\nSkills\nAcrobatics +19, Medicine +24, Survival +24\nLanguages\nCommon, Vlakan (spoken, signed, and tactile), up to 8 others\nOther Abilities\nbuoy , on your feet\nGear\nfreebooter III (forcepack), sintered handaxe , elite semi-auto pistol with 24 small arm rounds,\nmk 3 serums of healing\n(2),\nspell gem of tongues\n, advanced medkit, emergency beacon , grappler, sprayflesh (4), titanium alloy cable line (150 ft.);\nAugmentations\nsynchronous heart\nSpecial Abilities\nOn Your Feet (Ex)\nWhen an elite rescuer uses Medicine to treat deadly wounds and exceeds the check’s DC by 5 or more, they also suppress one of the following conditions the target might have for 1d4 hours: dazzled, deafened, fatigued, nauseated, shaken, sickened, or staggered. Alternatively, the elite rescuer can reduce any movement speed penalty a target’s experiencing by 10 feet for 1d4 hours.\nDescription\nFor disasters covering a huge area or with several victims, magically adept rescuers can use divinations and specialized senses to search for survivors. These experts often work alone, and must be fit enough to clamber over terrain, remove obstacles, and potentially carry their charges back to safety. 163",
+  "type": "humanoid (vlaka)",
+  "environment": "—",
+  "category": "alien"
+}

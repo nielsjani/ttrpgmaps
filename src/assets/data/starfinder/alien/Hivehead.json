@@ -1,0 +1,48 @@
+{
+  "name": "Hivehead",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Hivehead&Family=None",
+  "source": "Starfinder #36: Professional Courtesy pg. 61",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+5",
+  "senses": "blindsense (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+9",
+  "ref": "+11",
+  "will": "+8",
+  "immunities": "mind-affecting effects",
+  "speed": "30 ft.",
+  "melee": "slam +15 (1d8+11 B)",
+  "offensive_abilities": "stingswarm (15-ft. cone, 1d6+7 P plus neurotoxic venom, DC 15)",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th",
+    "spells": "1/day—\nmind thrust\n(3rd level, DC 16)"
+  },
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+5",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+0",
+    "cha": "-4"
+  },
+  "skills": "Stealth +14",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Stingswarm (Ex)",
+      "description": "As a standard action, a hivehead can exhale a swarm of neuralwasp drones in a 15-foot cone. Each creature in the cone takes 1d6+7 piercing damage (Reflex DC 15 half) and is subjected to neurotoxic venom.\nNeurotoxic Venom\nType\npoison (injury);\nSave\nFortitude DC 15\nTrack\nDexterity (special);\nFrequency\n1/round for 4 rounds\nEffect\nprogression track is Healthy—Staggered—Paralyzed; no end state\nCure\n1 save"
+    }
+  ],
+  "description": "No one knows exactly where the dangerous pests called neuralwasps come from. Theories vary wildly, speculating that they’re a mutant offshoot of the Swarm or the result of a mad apiarist’s experiments in arcane crossbreeding (and everything in between). However, those attacked by a neuralwasp are less concerned about their origin than their paralytic sting, as these carnivorous insects usually attack sentient creatures for one of two reasons: to feed on their flesh or to build a living hive, called a hivehead.\nThe creation of a hivehead is a horrifying affair. The drones swarm over a paralyzed victim and coat the victim’s head with a waxy saliva, leaving only small openings for the victim to breathe through. The material dries over the course of a few minutes while the victim is still conscious, after which the neuralwasp queen takes residence inside their skull. The queen psychically assumes control of the host’s senses and motor functions while slowly consuming the host’s brain, transforming it into a kind of royal jelly to feed her eggs. As this happens, the unfortunate victim stumbles about, attacking anyone who would try to disturb the queen.\nFor 1 week after a queen takes over, the victim can still be saved, though potential rescuers must fight off dozens of neuralwasps and the hivehead themself. If the host can be subdued, the queen can be removed with careful surgery or powerful magic, though victims can take months to recover from the loss of brain tissue, and some are never the same again. After that week, however, the infestation is permanent, as the host’s brain has been almost completely dissolved. The body still lives and must eat and sleep as normal, but the queen is fully in control of its actions. A hivehead can live for years as its queen lays eggs to strengthen her swarm, eventually birthing a new queen who then leaves to take over a new host.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nHivehead\nSource\nStarfinder #36: Professional Courtesy pg. 61\nHivehead CR 7\nXP 3,200\nN Medium monstrous humanoid\nInit\n+5;\nSenses\nblindsense (thought) 60 ft., darkvision 60 ft.;\nPerception\n+14\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+9;\nRef\n+11;\nWill\n+8\nImmunities\nmind-affecting effects\nOffense\nSpeed\n30 ft.\nMelee\nslam +15 (1d8+11 B)\nOffensive Abilities\nstingswarm (15-ft. cone, 1d6+7 P plus neurotoxic venom, DC 15)\nSpell-Like Abilities\n(CL 7th)\n1/day—\nmind thrust\n(3rd level, DC 16)\nStatistics\nSTR\n+4;\nDEX\n+5;\nCON\n+0;\nINT\n+2;\nWIS\n+0;\nCHA\n-4\nSkills\nStealth +14\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nStingswarm (Ex)\nAs a standard action, a hivehead can exhale a swarm of neuralwasp drones in a 15-foot cone. Each creature in the cone takes 1d6+7 piercing damage (Reflex DC 15 half) and is subjected to neurotoxic venom.\nNeurotoxic Venom\nType\npoison (injury);\nSave\nFortitude DC 15\nTrack\nDexterity (special);\nFrequency\n1/round for 4 rounds\nEffect\nprogression track is Healthy—Staggered—Paralyzed; no end state\nCure\n1 save\nDescription\nNo one knows exactly where the dangerous pests called neuralwasps come from. Theories vary wildly, speculating that they’re a mutant offshoot of the Swarm or the result of a mad apiarist’s experiments in arcane crossbreeding (and everything in between). However, those attacked by a neuralwasp are less concerned about their origin than their paralytic sting, as these carnivorous insects usually attack sentient creatures for one of two reasons: to feed on their flesh or to build a living hive, called a hivehead.\nThe creation of a hivehead is a horrifying affair. The drones swarm over a paralyzed victim and coat the victim’s head with a waxy saliva, leaving only small openings for the victim to breathe through. The material dries over the course of a few minutes while the victim is still conscious, after which the neuralwasp queen takes residence inside their skull. The queen psychically assumes control of the host’s senses and motor functions while slowly consuming the host’s brain, transforming it into a kind of royal jelly to feed her eggs. As this happens, the unfortunate victim stumbles about, attacking anyone who would try to disturb the queen.\nFor 1 week after a queen takes over, the victim can still be saved, though potential rescuers must fight off dozens of neuralwasps and the hivehead themself. If the host can be subdued, the queen can be removed with careful surgery or powerful magic, though victims can take months to recover from the loss of brain tissue, and some are never the same again. After that week, however, the infestation is permanent, as the host’s brain has been almost completely dissolved. The body still lives and must eat and sleep as normal, but the queen is fully in control of its actions. A hivehead can live for years as its queen lays eggs to strengthen her swarm, eventually birthing a new queen who then leaves to take over a new host.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

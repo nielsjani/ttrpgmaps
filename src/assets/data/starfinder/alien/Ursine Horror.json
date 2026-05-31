@@ -1,0 +1,57 @@
+{
+  "name": "Ursine Horror",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ursine Horror&Family=None",
+  "source": "Starfinder #41: Serpents in the Cradle pg. 61",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "outsider (chaotic, evil, extraplanar, incorporeal)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+18",
+  "hp": "120",
+  "eac": "21",
+  "kac": "22",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+14",
+  "immunities": "disease, fire, poison;",
+  "resistances": "cold 10, electricity 10",
+  "speed": "30 ft., fly 40 ft. (Su, perfect)",
+  "melee": "slam +18 (3d4+9 B) or bite +16 (3d4+9 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "frightful feast",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th; ranged +18",
+    "spells": "1/day—\nfear\n(3rd level, DC 20),\nsuggestion\n(DC 20),\nsummon allies\n(1 ursine horror 35%)\n3/day—\nforce blast\n(DC 19),\nmind thrust\n(2nd level, DC 19),\nhold person\n(DC 19),\nzone of truth\n(DC 19)\nAt will—\ndetect thoughts\n(DC 18),\nfear\n(1st level, DC 18)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+2",
+    "con": "+4",
+    "int": "+3",
+    "wis": "+3",
+    "cha": "+6"
+  },
+  "skills": "Intimidate +22, Sense Motive +22, Survival +17",
+  "languages": "Abyssal, Common (can’t speak); telepathy 100 ft.",
+  "other_abilities": "penetrating fear, spaceflight (Survival)",
+  "environment": "any vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Frightful Feast (Su)",
+      "description": "An ursine horror preys on those who are afraid of it. Once per turn when it moves, the ursine horror can move through the space of a creature with the frightened condition. When it does, the creature takes nonlethal damage equal to the ursine horror’s CR (9 for a typical ursine horror); a successful DC 18 Will save negates this effect. The ursine horror gains temporary HP equal to the damage it inflicts. This is a mind-affecting fear effect."
+    },
+    {
+      "name": "Penetrating Fear (Su)",
+      "description": "When an ursine horror casts fear, the spell-like ability affects living creatures with a CR equal to or less than the ursine horror’s CR (9 for a typical ursine horror)."
+    }
+  ],
+  "description": "Ursine horrors are incorporeal, bear-shaped outsiders that range the cosmos, feasting on people’s fears. Some uplifted bears believe them to be former members of that species who, confronted with the cruel and capricious nature of the universe, fell from grace and were transformed. Regardless, they appear on the Material Plane as incorporeal creatures of malevolent hellfire, burning through space like ghostly comets. An ursine horror wields telepathic powers, clawing at the mind of its victim. Once their prey becomes frightened, the ursine horror feeds on that fear. Ursine horrors are territorial, ranging across a star system; when not hunting for prey, they hibernate near Drift beacons.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nUrsine Horror\nSource\nStarfinder #41: Serpents in the Cradle pg. 61\nUrsine Horror CR 9\nXP 6,400\nCE Large outsider (chaotic, evil, extraplanar, incorporeal)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+18\nAura\nfrightful presence (30 ft., DC 18)\nDefense\nHP\n120\nEAC\n21;\nKAC\n22\nFort\n+8;\nRef\n+8;\nWill\n+14\nDefensive Abilities\nincorporeal, void adaptation;\nImmunities\ndisease, fire, poison;\nResistances\ncold 10, electricity 10\nOffense\nSpeed\n30 ft., fly 40 ft. (Su, perfect)\nMelee\nslam +18 (3d4+9 B) or bite +16 (3d4+9 P)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nfrightful feast\nSpell-Like Abilities\n(CL 9th; ranged +18)\n1/day—\nfear\n(3rd level, DC 20),\nsuggestion\n(DC 20),\nsummon allies\n(1 ursine horror 35%)\n3/day—\nforce blast\n(DC 19),\nmind thrust\n(2nd level, DC 19),\nhold person\n(DC 19),\nzone of truth\n(DC 19)\nAt will—\ndetect thoughts\n(DC 18),\nfear\n(1st level, DC 18)\nStatistics\nSTR\n+3;\nDEX\n+2;\nCON\n+4;\nINT\n+3;\nWIS\n+3;\nCHA\n+6\nSkills\nIntimidate +22, Sense Motive +22, Survival +17\nLanguages\nAbyssal, Common (can’t speak); telepathy 100 ft.\nOther Abilities\npenetrating fear, spaceflight (Survival)\nEcology\nEnvironment\nany vacuum\nOrganization\nsolitary\nSpecial Abilities\nFrightful Feast (Su)\nAn ursine horror preys on those who are afraid of it. Once per turn when it moves, the ursine horror can move through the space of a creature with the frightened condition. When it does, the creature takes nonlethal damage equal to the ursine horror’s CR (9 for a typical ursine horror); a successful DC 18 Will save negates this effect. The ursine horror gains temporary HP equal to the damage it inflicts. This is a mind-affecting fear effect.\nPenetrating Fear (Su)\nWhen an ursine horror casts fear, the spell-like ability affects living creatures with a CR equal to or less than the ursine horror’s CR (9 for a typical ursine horror).\nDescription\nUrsine horrors are incorporeal, bear-shaped outsiders that range the cosmos, feasting on people’s fears. Some uplifted bears believe them to be former members of that species who, confronted with the cruel and capricious nature of the universe, fell from grace and were transformed. Regardless, they appear on the Material Plane as incorporeal creatures of malevolent hellfire, burning through space like ghostly comets. An ursine horror wields telepathic powers, clawing at the mind of its victim. Once their prey becomes frightened, the ursine horror feeds on that fear. Ursine horrors are territorial, ranging across a star system; when not hunting for prey, they hibernate near Drift beacons.",
+  "type": "outsider (chaotic, evil, extraplanar, incorporeal)",
+  "category": "alien"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Yaruk",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Yaruk&Family=None",
+  "source": "Starfinder #2: Temple of the Twelve pg. 61",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Gargantuan",
+  "creature_type": "animal",
+  "init": "+0",
+  "senses": "blindsense (scent), low-light vision;",
+  "perception": "+21",
+  "hp": "130",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+7",
+  "dr": "5/—",
+  "resistances": "sonic 10",
+  "speed": "40 ft.",
+  "melee": "slam +20 (3d4+14 B) or tail slap +17 (2d6+14 B)",
+  "space": "20 ft.",
+  "reach": "15 ft. (20 ft. with tail slap)",
+  "offensive_abilities": "bulldoze, trample, trumpet",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+0",
+    "con": "+4",
+    "int": "-4",
+    "wis": "+2",
+    "cha": "+1"
+  },
+  "skills": "Athletics +16, Survival +16",
+  "environment": "temperate plains and forests (Castrovel)",
+  "organization": "solitary or moot (2–12)",
+  "special_abilities": [
+    {
+      "name": "Bulldoze (Ex)",
+      "description": "When a yaruk uses its trample ability, it ignores difficult terrain created by plants. Each inanimate obstacle in its path takes twice the yaruk’s trample damage (inanimate plants take quadruple damage), and if this would reduce the obstacle to half its Hit Points or fewer, the yaruk can move through the obstacle as though it were difficult terrain."
+    },
+    {
+      "name": "Trample (Ex)",
+      "description": "As a full action, a yaruk can move up to its speed and through the space of any creatures that are at least one size smaller than itself. The yaruk does not need to make an attack roll; each creature whose space it moves through takes 3d4+14 bludgeoning damage. A target of a trample can attempt a DC 16 Reflex save to take half damage; if it does, it can’t make an attack of opportunity against the yaruk due to the yaruk’s movement. A yaruk can deal trample damage to the same creature only once per round."
+    },
+    {
+      "name": "Trumpet (Ex)",
+      "description": "A yaruk’s vocalizations are audible up to 3 miles away in typical outdoor conditions. As a standard action once per 1d6 rounds, a yaruk can blare loudly in a 60-foot cone, dealing 2d8+8 sonic damage and inflicting both the deafened condition and the off-target condition for 1d4 rounds (a successful DC 16 Fortitude save halves the damage and negates these conditions)."
+    }
+  ],
+  "description": "Yaruks are immense herbivores that can readily crop tree leaves, even using their sturdy forelimbs to partly climb trunks to reach even higher. Yaruks are infamously destructive in their ongoing migrations, toppling whatever isn’t convenient to walk around. This has hidden benefits, though. Not only does this create natural pathways and game trails that other species exploit, but it also clears swaths through thick canopies, allowing for new growth.\nWhile most yaruks are solitary, they regularly call to their neighbors with deafening bellows magnified by their hollow crests. The yaruks then form temporary gatherings, called moots, and wander together for up to a week afterward before the individual yaruks gradually disperse.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nYaruk\nSource\nStarfinder #2: Temple of the Twelve pg. 61\nYaruk CR 8\nXP 4,800\nN Gargantuan animal\nInit\n+0;\nSenses\nblindsense (scent), low-light vision;\nPerception\n+21\nDefense\nHP\n130\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+10;\nWill\n+7\nDR\n5/—;\nResistances\nsonic 10\nOffense\nSpeed\n40 ft.\nMelee\nslam +20 (3d4+14 B) or tail slap +17 (2d6+14 B)\nSpace\n20 ft.;\nReach\n15 ft. (20 ft. with tail slap)\nOffensive Abilities\nbulldoze, trample, trumpet\nStatistics\nSTR\n+6;\nDEX\n+0;\nCON\n+4;\nINT\n-4;\nWIS\n+2;\nCHA\n+1\nSkills\nAthletics +16, Survival +16\nEcology\nEnvironment\ntemperate plains and forests (Castrovel)\nOrganization\nsolitary or moot (2–12)\nSpecial Abilities\nBulldoze (Ex)\nWhen a yaruk uses its trample ability, it ignores difficult terrain created by plants. Each inanimate obstacle in its path takes twice the yaruk’s trample damage (inanimate plants take quadruple damage), and if this would reduce the obstacle to half its Hit Points or fewer, the yaruk can move through the obstacle as though it were difficult terrain.\nTrample (Ex)\nAs a full action, a yaruk can move up to its speed and through the space of any creatures that are at least one size smaller than itself. The yaruk does not need to make an attack roll; each creature whose space it moves through takes 3d4+14 bludgeoning damage. A target of a trample can attempt a DC 16 Reflex save to take half damage; if it does, it can’t make an attack of opportunity against the yaruk due to the yaruk’s movement. A yaruk can deal trample damage to the same creature only once per round.\nTrumpet (Ex)\nA yaruk’s vocalizations are audible up to 3 miles away in typical outdoor conditions. As a standard action once per 1d6 rounds, a yaruk can blare loudly in a 60-foot cone, dealing 2d8+8 sonic damage and inflicting both the deafened condition and the off-target condition for 1d4 rounds (a successful DC 16 Fortitude save halves the damage and negates these conditions).\nDescription\nYaruks are immense herbivores that can readily crop tree leaves, even using their sturdy forelimbs to partly climb trunks to reach even higher. Yaruks are infamously destructive in their ongoing migrations, toppling whatever isn’t convenient to walk around. This has hidden benefits, though. Not only does this create natural pathways and game trails that other species exploit, but it also clears swaths through thick canopies, allowing for new growth.\nWhile most yaruks are solitary, they regularly call to their neighbors with deafening bellows magnified by their hollow crests. The yaruks then form temporary gatherings, called moots, and wander together for up to a week afterward before the individual yaruks gradually disperse.",
+  "type": "animal",
+  "category": "alien"
+}

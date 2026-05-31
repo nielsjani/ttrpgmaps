@@ -1,0 +1,65 @@
+{
+  "name": "Lucandrian, Albedo Lucandrian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Albedo Lucandrian&Family=Lucandrian",
+  "source": "Alien Archive 3 pg. 68",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "fey",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+8",
+  "hp": "33",
+  "eac": "15",
+  "kac": "15",
+  "fort": "+4",
+  "ref": "+4",
+  "will": "+6",
+  "dr": "5/cold iron",
+  "immunities": "cold, laser weapons",
+  "speed": "40 ft., fly 40 ft. (Su, perfect)",
+  "melee": "tactical dueling sword +6 (1d6+1 S; critical staggered)",
+  "ranged": "bow +8 (1d6+1 P; critical staggered)",
+  "offensive_abilities": "cold radiance, reffected moonbeam",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "3/day—\nreffecting armor\n(DC 14)\nAt will—\ndancing lights\n,\nfatigue\n(DC 13)"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+4"
+  },
+  "skills": "Acrobatics +8 (+16 to fly), Bluff +13, Physical Science +13, Stealth +8 (or +13)",
+  "languages": "Common",
+  "other_abilities": "limited spaceflight, lunar aspect",
+  "gear": "bow with 20 arrows, tactical dueling sword",
+  "environment": "any lunar",
+  "organization": "solitary, pair, or coterie (3–8)",
+  "special_abilities": [
+    {
+      "name": "Cold Radiance (Su)",
+      "description": "Lucandrians can cause any weapon they wield to deal half its damage as cold damage, which makes the weapon neither archaic nor nonlethal. If the weapon already deals two damage types, this effect replaces one with cold. In addition, lucandrians can grant weapons they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the lucandrian chooses only one to apply on a critical hit."
+    },
+    {
+      "name": "Limited Spaceflight (Su)",
+      "description": "A lucandrian can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days. The fey always arrives at its intended destination."
+    },
+    {
+      "name": "Lunar Aspect (Su)",
+      "description": "In the light of a waxing moon or on the lighted surface of a moon, an albedo lucandrian has a +5 racial bonus to Perception. In the light of a waning moon or on the dark side of a moon, the fey has a +5 racial bonus to Stealth. If on a planet experiencing a solar eclipse, an albedo lucandrian has both bonuses."
+    },
+    {
+      "name": "Reffected Moonbeam (Su)",
+      "description": "When an albedo lucandrian dismisses its reflecting armor, a creature that succeeds at the saving throw is also dazzled for 1 round, and a creature that fails the saving throw is blinded for 1 round instead of dazzled. If the target fails the saving throw by 5 or more, the creature is also confused for 2 rounds."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nLucandrian\nSource\nAlien Archive 3 pg. 68\nLucandrians were once humanoidshaped beings of light who took solid form over the ages. They can vary widely in appearance, but they are typically 6 feet tall and around 165 pounds. Most have pale skin tinted in a pastel color, such as blue or purple, but some are stone gray or bone white.\nThese fey derive their powers from moons. Most have abilities related to reffected light, and as lucandrians mature, they can develop other lunar magic. Perigean lucandrians, for instance, cultivate gravitational powers.\nBecause of their nature, lucandrians are drawn to worlds that have numerous moons, such as Liavara and Bretheda. However, their curiosity, manifested as scholarly interest, makes them natural explorers. Young lucandrians search the galaxy for trinkets and amusements, as well as lunar influences, to develop new powers. Mature lucandrians are more introspective, prone to spending long periods in contemplation or creating unique objects. Lucandrians enjoy charting the nighttime sky, nurturing crystal gardens, and decorating their dwellings.\nThough lucandrians are an overall-peaceful species, they can be territorial, which has led to clashes with those interested in commercializing the moons on which these fey dwell. Lucandrians sometimes set their sights on inscrutable personal aims as they explore or develop their supernatural capabilities, bringing them into conflict with those around them. Lucandrians also fight to protect their secrets. Offering help, honest respect, or a gift can head off such clashes. Lucandrians treasure and defend young creatures of any species, perhaps because lucandrian offspring are difficult to create. Prospective parents combine tiny bits of soul with dust from a moon in a complex magical process, placing the mixture into an ovoid crystalline vessel. This “egg” gestates for 27 days. If the ritual is successful, a new lucandrian coalesces inside the vessel at that time, emerging as a small, yet fully formed lucandrian another 27 days later.\nAliens in the \"Lucandrian\" Family\nName\nCR\nAlbedo Lucandrian\n3\nPerigean Lucandrian\n9\nLucandrian, Albedo Lucandrian\nSource\nAlien Archive 3 pg. 68\nAlbedo Lucandrian CR 3\nXP 800\nN Medium fey\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+8 (or +13)\nDefense\nHP\n33\nEAC\n15;\nKAC\n15\nFort\n+4;\nRef\n+4;\nWill\n+6\nDefensive Abilities\nvoid adaptation;\nDR\n5/cold iron;\nImmunities\ncold, laser weapons\nOffense\nSpeed\n40 ft., fly 40 ft. (Su, perfect)\nMelee\ntactical dueling sword +6 (1d6+1 S; critical staggered)\nRanged\nbow +8 (1d6+1 P; critical staggered)\nOffensive Abilities\ncold radiance, reffected moonbeam\nSpell-Like Abilities\n(CL 3rd)\n3/day—\nreffecting armor\n(DC 14)\nAt will—\ndancing lights\n,\nfatigue\n(DC 13)\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+0;\nINT\n+1;\nWIS\n+1;\nCHA\n+4\nSkills\nAcrobatics +8 (+16 to fly), Bluff +13, Physical Science +13, Stealth +8 (or +13)\nLanguages\nCommon\nOther Abilities\nlimited spaceflight, lunar aspect\nGear\nbow with 20 arrows, tactical dueling sword\nEcology\nEnvironment\nany lunar\nOrganization\nsolitary, pair, or coterie (3–8)\nSpecial Abilities\nCold Radiance (Su)\nLucandrians can cause any weapon they wield to deal half its damage as cold damage, which makes the weapon neither archaic nor nonlethal. If the weapon already deals two damage types, this effect replaces one with cold. In addition, lucandrians can grant weapons they wield the staggered critical hit effect. If the weapon has any other critical hit effects, the lucandrian chooses only one to apply on a critical hit.\nLimited Spaceflight (Su)\nA lucandrian can fly between a moon or similar satellite and the planet it orbits, or from one satellite to another, arriving in 1d3 days. The fey always arrives at its intended destination.\nLunar Aspect (Su)\nIn the light of a waxing moon or on the lighted surface of a moon, an albedo lucandrian has a +5 racial bonus to Perception. In the light of a waning moon or on the dark side of a moon, the fey has a +5 racial bonus to Stealth. If on a planet experiencing a solar eclipse, an albedo lucandrian has both bonuses.\nReffected Moonbeam (Su)\nWhen an albedo lucandrian dismisses its reflecting armor, a creature that succeeds at the saving throw is also dazzled for 1 round, and a creature that fails the saving throw is blinded for 1 round instead of dazzled. If the target fails the saving throw by 5 or more, the creature is also confused for 2 rounds.",
+  "type": "fey",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Lucandrian_Albedo.png"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Ijtikri, Ijtikri Commando",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ijtikri Commando&Family=Ijtikri",
+  "source": "Alien Archive 3 pg. 54",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+5",
+  "speed": "30 ft. (crawl at half this speed), swim 30 ft.",
+  "melee": "hook sword +11 (1d8+6 S; critical bleed 1d4)",
+  "ranged": "thunderstrike sonic rifle +12 (1d10+2 So; critical deafen [DC 13])",
+  "offensive_abilities": "fighting style (sharpshoot), sniper’s aim",
+  "spell_like_abilities": {
+    "caster_info": "CL 4th",
+    "spells": "1/day—\nkeen senses"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10, Athletics +10, Stealth +15",
+  "feats": "Kip Up",
+  "languages": "Common, Iji, Vesk",
+  "gear": "defrex hide, hook sword, thunderstrike sonic rifle with 2 high-capacity batteries (40 charges each)",
+  "environment": "any (Vesk-2)",
+  "organization": "solitary or squad (2–7)",
+  "special_abilities": [
+    {
+      "name": "Hardened Mantle (Ex)",
+      "description": "An ijtikri reduces the damage they take from any critical hit by 7, to a minimum of 1 (unless reduced by other means)."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nIjtikri Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nIjtikri\nSource\nAlien Archive 3 pg. 54\nNative to island-strewn Vesk-2, ijtikris are sapient beings that resemble squids, though they are terrestrial upon reaching adulthood. Each has an oblong body that they hold roughly vertically atop the muscular arms that surround their mouth. An ijtikri has two long and dexterous feeding tentacles that are tipped with pads that serve as manipulators and allow the ijtikri to use tools. An ijtikri’s head is close to the ground and covered with an array of visual sensors: an eye on each side of the head, three simple dorsal eyespots, and a pair of complex eyes on the upper trunk. This last pair allows an ijtikri to see without exposing much of their body.\nAn ijtikri has a shell that covers the head and lower mantle, with a lighter exoskeletal lattice protecting the upper mantle. This facial plating gives rise to the vesk nickname for the species: stone‑faced squids. Many genes in ijtikris activate only in response to certain environmental stimuli, so an ijtikri’s shell shape and instinctive skills develop in predictable ways according to external influences. As a result, ijtikris from a particular region have a similar appearance. The common varieties include gray, indigo, and crimson ijtikris.\nAn ijtikri hatches in water from a free-floating egg. Though these eggs get consumed by a variety of marine life, those that survive hatch into larvae that in turn feed on zooplankton. Once large enough to risk being prey to larger creatures, ijtikri larvae migrate into coastal waters and anchor to hollows in rocks or reefs. During this phase, the anchored ijtikri filter feeds and grows. By the latter part of their second year of life, a juvenile has built up a large enough reserve of fat and minerals that they cease feeding, break down the anchor, and undergo a metamorphosis into their adult form, including air-breathing lungs, before rising to the surface and swimming for land.\nBecause they reach physical maturity without social interaction, ijtikris emerge from the water with only instinctive skills. However, each ijtikri has a cluster of ganglia known as a skenoseen organ, which helps the ijtikri smell and locate the nearest group of mature ijtikris. These groups incorporate any newcomer, whose adoptive cousins teach them language, culture, and the skills necessary to survive.\nAdult ijtikris mate numerous times over the course of their life, with each partner taking some gametes to store in specialized organs; however, fertilization doesn’t occur during adulthood. Instead, an adult ijtikri can begin a final metamorphosis at any point. Over several weeks, the ijtikri’s body fills with gas, splits its shell, and grows to up to 20 feet in length. The body achieves aerial buoyancy and rises into the air, gently propelling itself toward the open sea. Once far from land, the ijtikri fertilizes stored eggs and disperses them. Then, the ijtikri dies and descends into the water, where various life forms consume the remains. Modern ijtikris view this metamorphosis as a worthy sacrifice once one’s legacy is secure. However, advanced medical techniques allow ijtikris to fertilize eggs in small batches without such a transformation.\nIjtikris started as nomadic hunter-gatherers. Adoption of stone tools 6,000 years ago allowed them to implement agriculture, build villages, and fend off predators. When vesk starships landed on Vesk-2, the ijtikris had city-states with iron-age technology. Resistance to vesk rule was brief. Within several years, the planet became part of the Veskarium. Ijtikris who have just emerged from the sea readily adopt almost any accepting group as surrogate families, so they are natural recruits for Veskarium organizations. Modern ijtikris have largely adopted vesk culture. Those who remain on Vesk-2 contribute to local industries, such as fish farming, salt production, and defrex ranching.\nIjtikris clashed with the vesk most strongly over ancient ruins that predate ijtikri stone-age culture. Most are little more than foundations among paved plazas. Nevertheless, ijtikris avoided these places. The vesk instead explored them, despite ijtikri pleading, especially the island of Trafodi, which had intact edifices. Within a vault on Trafodi, vesk discovered the Trafodi Paradox. This artifact was lost in transit to Vesk Prime, supposedly to the Swarm, though rumors speak of another possibility.\nAliens in the \"Ijtikri\" Family\nName\nCR\nIjtikri\n1/2\nIjtikri Commando\n4\nIjtikri, Ijtikri Commando\nSource\nAlien Archive 3 pg. 54\nIjtikri Commando CR 4\nXP 1,200\nIjtikri soldier\nN Medium aberration\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+6;\nRef\n+4;\nWill\n+5; +4 vs. critical hit effects\nDefensive Abilities\nhardened mantle\nOffense\nSpeed\n30 ft. (crawl at half this speed), swim 30 ft.\nMelee\nhook sword +11 (1d8+6 S; critical bleed 1d4)\nRanged\nthunderstrike sonic rifle +12 (1d10+2 So; critical deafen [DC 13])\nOffensive Abilities\nfighting style (sharpshoot), sniper’s aim\nSpell-Like Abilities\n(CL 4th)\n1/day—\nkeen senses\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+3;\nINT\n+0;\nWIS\n+2;\nCHA\n+0\nFeats\nKip Up\nSkills\nAcrobatics +10, Athletics +10, Stealth +15\nLanguages\nCommon, Iji, Vesk\nGear\ndefrex hide, hook sword, thunderstrike sonic rifle with 2 high-capacity batteries (40 charges each)\nEcology\nEnvironment\nany (Vesk-2)\nOrganization\nsolitary or squad (2–7)\nSpecial Abilities\nHardened Mantle (Ex)\nAn ijtikri reduces the damage they take from any critical hit by 7, to a minimum of 1 (unless reduced by other means).\nExtra Content\nThe following extra content was found for this creature:\n-\nIjtikri Race Entry",
+  "type": "aberration",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Ijtikri_Commando.png"
+}

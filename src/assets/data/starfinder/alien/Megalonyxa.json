@@ -1,0 +1,51 @@
+{
+  "name": "Megalonyxa",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Megalonyxa&Family=None",
+  "source": "Starfinder #27: Deceivers’ Moon pg. 57",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "LG",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "43",
+  "eac": "15",
+  "kac": "16",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+7",
+  "dr": "5/—",
+  "speed": "20 ft.",
+  "melee": "survival knife +8 (1d4+7 S)",
+  "ranged": "thunderstrike sonic pistol +6 (1d8+4 So; critical deafen [DC 15]) or squad machine gun +6 (1d10+4 P)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "spells": "(CL 4th; ranged +6)\n2nd (3/day)—\ncaustic conversion\n,\nfog cloud\n1st (6/day)—\nhold portal\n,\nmagic missile\n,\nsupercharge weapon\n0 (at will)—\ndancing lights\n,\ntelepathic message",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+0",
+    "con": "+0",
+    "int": "+5",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Computers +15, Engineering +15, Mysticism +10",
+  "languages": "Common, Dwarven, Megalonic, Terran, Vesk",
+  "other_abilities": "efficient sabotage, magic hacks (countertech), spell cache (tattoo)",
+  "gear": "defrex hide, squad machine gun with 40 heavy rounds, survival knife, thunderstrike sonic pistol with 2 batteries (20 charges each)",
+  "environment": "any",
+  "organization": "solitary, pair, or family (3–8)",
+  "special_abilities": [
+    {
+      "name": "Efficient Sabotage (Ex)",
+      "description": "Once per day when attempting an Engineering check to disable a device, a megaloynxa can roll 1d6 and add the result of the roll as an insight bonus to the check."
+    }
+  ],
+  "description": "The stocky megalonyxa hail from the heavy gravity world of Karnoq in the Vast. There, they contemplated the stars as a mostly sedentary species, and were able to build a thriving civilization through the use of magic. Spaceflight eluded them, however. As such, when extraplanetary visitors arrived, they found a highly evolved society eager to take to the stars. Within a few decades, all megalonyxas left Karnoq, consigning their cities and other settlements to the wastes of history. Explorers from other worlds can learn much from these remains if they can withstand the planet’s crushing gravity.\nA typical megalonyxa stands about 10 feet tall and weighs 500 pounds.",
+  "extra_content": "The following extra content was found for this creature:\n-\nMegalonyxa Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMegalonyxa\nSource\nStarfinder #27: Deceivers’ Moon pg. 57\nMegalonyxa CR 4\nXP 1,200\nMegalonyxa technomancer\nLG Large monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n43\nEAC\n15;\nKAC\n16\nFort\n+3;\nRef\n+3;\nWill\n+7\nDR\n5/—\nOffense\nSpeed\n20 ft.\nMelee\nsurvival knife +8 (1d4+7 S)\nRanged\nthunderstrike sonic pistol +6 (1d8+4 So; critical deafen [DC 15]) or squad machine gun +6 (1d10+4 P)\nSpace\n10 ft.;\nReach\n10 ft.\nTechnomancer Spells Known\n(CL 4th; ranged +6)\n2nd (3/day)—\ncaustic conversion\n,\nfog cloud\n1st (6/day)—\nhold portal\n,\nmagic missile\n,\nsupercharge weapon\n0 (at will)—\ndancing lights\n,\ntelepathic message\nStatistics\nSTR\n+3;\nDEX\n+0;\nCON\n+0;\nINT\n+5;\nWIS\n+1;\nCHA\n+0\nSkills\nComputers +15, Engineering +15, Mysticism +10\nLanguages\nCommon, Dwarven, Megalonic, Terran, Vesk\nOther Abilities\nefficient sabotage, magic hacks (countertech), spell cache (tattoo)\nGear\ndefrex hide, squad machine gun with 40 heavy rounds, survival knife, thunderstrike sonic pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or family (3–8)\nSpecial Abilities\nEfficient Sabotage (Ex)\nOnce per day when attempting an Engineering check to disable a device, a megaloynxa can roll 1d6 and add the result of the roll as an insight bonus to the check.\nDescription\nThe stocky megalonyxa hail from the heavy gravity world of Karnoq in the Vast. There, they contemplated the stars as a mostly sedentary species, and were able to build a thriving civilization through the use of magic. Spaceflight eluded them, however. As such, when extraplanetary visitors arrived, they found a highly evolved society eager to take to the stars. Within a few decades, all megalonyxas left Karnoq, consigning their cities and other settlements to the wastes of history. Explorers from other worlds can learn much from these remains if they can withstand the planet’s crushing gravity.\nA typical megalonyxa stands about 10 feet tall and weighs 500 pounds.\nExtra Content\nThe following extra content was found for this creature:\n-\nMegalonyxa Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

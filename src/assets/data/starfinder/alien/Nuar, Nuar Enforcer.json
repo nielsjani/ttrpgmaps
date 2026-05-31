@@ -1,0 +1,57 @@
+{
+  "name": "Nuar, Nuar Enforcer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Nuar Enforcer&Family=Nuar",
+  "source": "Alien Archive pg. 86",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+10",
+  "hp": "52",
+  "eac": "18",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+4",
+  "will": "+5",
+  "speed": "35 ft.",
+  "melee": "tactical cryopike +12 (1d8+11 C) or horn +12 (1d6+11 P)",
+  "ranged": "frostbite-class zero rifle +9 (1d8+4 C; critical staggered [DC 13]) or frag grenade II +9 (explode [15ft., 2d6 P, DC 13])",
+  "offensive_abilities": "gore, fighting styles (hit-and-run), knockdown",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+0",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +15, Intimidate +10, Survival +10",
+  "feats": "Opening Volley",
+  "languages": "Common, Orc",
+  "other_abilities": "maze mind",
+  "gear": "lashunta ringwear II, maze-core frostbite-class zero rifle and tactical cryopike with 2 high-capacity batteries (40 charges each), frag grenades II (3)",
+  "environment": "any (Absalom Station)",
+  "organization": "solitary, pair, or brute squad (3–6)",
+  "special_abilities": [
+    {
+      "name": "Gore (Ex)",
+      "description": "A nuar can charge without taking the normal charge penalties to the attack roll or its AC. If the nuar has another ability that allows it to charge without taking these penalties (such as the charge attack ability from the soldier’s blitz attack fighting style), the nuar also gains the ability to charge through difficult terrain."
+    },
+    {
+      "name": "Knockdown (Ex)",
+      "description": "When a nuar enforcer scores a critical hit with a melee weapon that has no other critical effects, the attack gains the knockdown critical effect."
+    },
+    {
+      "name": "Maze Mind (Ex)",
+      "description": "Nuars have a naturally strong sense of direction and an instinctive understanding of complex patterns. As a result, they very rarely get lost. A nuar can attempt a special level-based Wisdom check (1d20 + CR or level + Wisdom bonus) instead of using his total bonus in the Piloting skill to navigate or his total bonus in the Survival skill for orienteering."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nNuar Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nNuar\nSource\nAlien Archive pg. 86\nNuars are pale, minotaur-like creatures with formidable frames and roughly bovine faces, hooves, and horns. Their skin and hair range in coloration from snow white to cream, light gray, or tan, with eyes that are generally pink or red, though they much more rarely may be bright blue, green, or yellow. Nuars’ bestial appearance often convinces others that the creatures are slow-witted and simple, but this is far from the truth.\nNuars trace their origins to lost Golarion, claiming they are a race distinct from the larger and less intelligent race of common minotaurs. Their accepted history states they existed on Absalom Station, and before that in the ancient city of Absalom, long before the Gap. With no firm scholarship to rely on, nuars have built a new mythology and history by borrowing elements from numerous other species and faiths.\nNuars have a strong appreciation for the culture of orcs and half-orcs, and often follow orc conventions and traditions that don’t interfere with their endeavors in invention and innovation. They are drawn to technology and commonly worship Triune or Yaraesa, with their most senior priests also serving as skilled designers, engineers, and inventors.\nNuars are not a numerous race, even on their declared home of Absalom Station. They have no known major settlements of their own, though rumors persist of technologically advanced labyrinths hidden deep within asteroids of the Diaspora. Beyond Absalom Station, they are most often found on exploratory ships, as their combination of impressive physiques, keen intellects, and urges to research and create serve them well. However, as nuars age, they also tend to want to establish roots, often returning to Absalom Station to start a family or build a community.\nA typical nuar stands between 7 and 7-1/2 feet tall and weighs about 300 pounds.\nMaze-Cores\nThe nuars’ natural grasp of complex patterns and shifting connections has allowed them to develop special kinds of multifunctional devices using an adjustable component known as a maze-core. A maze-core device acts as two different pieces of equipment, though it can function as only one of the two at any given time. Only powered or technological equipment can be built as maze-core devices, and the items must be melee weapons, small arms, longarms, heavy weapons, computers, or technological devices.\nTo create a maze-core device, select two pieces of equipment. The maze-core device has a bulk equal to that of the bulkiest of the two items + 1, and a cost equal to the most expensive of the two items + 1-1/2 times the cost of the less expensive item. When determining the maze-core equipment’s hardness and Hit Points, treat it as having the higher level of the two items, but for all other calculations, each item retains its own item level. If both items require the same kind of ammunition or power (such as a battery), they share a single battery of the highest capacity either device uses.\nChanging a piece of maze-core equipment to function as the alternate piece of equipment is a swift action.\nAliens in the \"Nuar\" Family\nName\nCR\nNuar Enforcer\n4\nNuar Specialist\n8\nNuar, Nuar Enforcer\nSource\nAlien Archive pg. 86\nNuar Enforcer CR 4\nXP 1,200\nNuar soldier\nN Medium monstrous humanoid\nInit\n+0;\nSenses\ndarkvision 60 ft.;\nPerception\n+10\nDefense\nHP\n52\nEAC\n18;\nKAC\n20\nFort\n+6;\nRef\n+4;\nWill\n+5\nOffense\nSpeed\n35 ft.\nMelee\ntactical cryopike +12 (1d8+11 C) or horn +12 (1d6+11 P)\nRanged\nfrostbite-class zero rifle +9 (1d8+4 C; critical staggered [DC 13]) or frag grenade II +9 (explode [15ft., 2d6 P, DC 13])\nOffensive Abilities\ngore, fighting styles (hit-and-run), knockdown\nStatistics\nSTR\n+5;\nDEX\n+0;\nCON\n+3;\nINT\n+1;\nWIS\n+1;\nCHA\n+0\nFeats\nOpening Volley\nSkills\nAthletics +15, Intimidate +10, Survival +10\nLanguages\nCommon, Orc\nOther Abilities\nmaze mind\nGear\nlashunta ringwear II, maze-core frostbite-class zero rifle and tactical cryopike with 2 high-capacity batteries (40 charges each), frag grenades II (3)\nEcology\nEnvironment\nany (Absalom Station)\nOrganization\nsolitary, pair, or brute squad (3–6)\nSpecial Abilities\nGore (Ex)\nA nuar can charge without taking the normal charge penalties to the attack roll or its AC. If the nuar has another ability that allows it to charge without taking these penalties (such as the charge attack ability from the soldier’s blitz attack fighting style), the nuar also gains the ability to charge through difficult terrain.\nKnockdown (Ex)\nWhen a nuar enforcer scores a critical hit with a melee weapon that has no other critical effects, the attack gains the knockdown critical effect.\nMaze Mind (Ex)\nNuars have a naturally strong sense of direction and an instinctive understanding of complex patterns. As a result, they very rarely get lost. A nuar can attempt a special level-based Wisdom check (1d20 + CR or level + Wisdom bonus) instead of using his total bonus in the Piloting skill to navigate or his total bonus in the Survival skill for orienteering.\nExtra Content\nThe following extra content was found for this creature:\n-\nNuar Race Entry",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA1_Nuar.png"
+}

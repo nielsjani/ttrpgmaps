@@ -1,0 +1,54 @@
+{
+  "name": "Tromlin, Bloodseeker Trooper",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Bloodseeker Trooper&Family=Tromlin",
+  "source": "The Liberation of Locus-1 pg. 62",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "humanoid (tromlin)",
+  "init": "+7",
+  "senses": "blindsense (scent) 30 ft., blood scent, low-light vision;",
+  "perception": "+5",
+  "hp": "20",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+3",
+  "speed": "40 ft.",
+  "melee": "claws +7 (1d3+3 S) or bite +7 (1d3+3 P)",
+  "ranged": "static arc pistol +8 (1d6 E; critical arc 2) or stickybomb I grenade +8 (explode [10 ft., entangled 2d4 rounds])",
+  "offensive_abilities": "fighting style (blitz), pounce",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +10 (+18 to jump), Intimidate +5, Stealth +5",
+  "languages": "Azlanti, Tromlin",
+  "other_abilities": "jumper",
+  "gear": "second skin (leapers), static arc pistol with 2 batteries (20 charges each), 2 stickybomb I grenades",
+  "environment": "any",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Blood Scent (Ex)",
+      "description": "A tromlin bloodseeker can smell blood; the range of their blindsense is doubled to 60 ft. for creatures with the bleeding condition or who are at half or less of their maximum Hit Points."
+    },
+    {
+      "name": "Jumper (Ex)",
+      "description": "A tromlin bloodseeker can jump twice as far as normal."
+    },
+    {
+      "name": "Pounce (Ex)",
+      "description": "When a tromlin bloodseeker charges, they can also make a full attack."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTromlin\nSource\nThe Liberation of Locus-1 pg. 62\nOne of three sapient species native to the Gjor III in the Azlanti vassal system of Gjor, tromlins are a bellicose people divided into two distinct subspecies who warred for ages on the plains and forest floors of Gjor III. The bloodseeker strain is a bipedal, reptilian humanoid, while tromlin hardshells are natural quadrupeds. This ancient war is egged on by belief in tribes of warring spirits. Bloodseekers kill and eat any being too weak to oppose them, while herbivorous hardshells fight against their flesh-eating kin.\nTromlins stubbornly resisted the Star Empire, but the two subspecies were unable to unite, and their technology was not advanced. Each surrendered to enslavement to forestall extinction. The Azlanti turned the warrior ethos of tromlins into a recruiting tool, and both subspecies became regular draftees into the Azlanti Alien Cohort.\nEven when serving in the same army, tromlins require strict leadership to prevent their rivalries from breaking out into violence. Mixed tromlin squads have yet to be deployed in offensive operations, but the imperial military has found success with tromlins of each subspecies working alongside each other in garrison duty.\nAliens in the \"Tromlin\" Family\nName\nCR\nBloodseeker Trooper\n1\nHardshell Defender\n1\nTromlin, Bloodseeker Trooper\nSource\nThe Liberation of Locus-1 pg. 62\nBloodseeker Trooper CR 1\nXP 400\nNE Medium humanoid (tromlin)\nInit\n+7;\nSenses\nblindsense (scent) 30 ft., blood scent, low-light vision;\nPerception\n+5\nDefense\nHP\n20\nEAC\n11;\nKAC\n13\nFort\n+3;\nRef\n+3;\nWill\n+3\nOffense\nSpeed\n40 ft.\nMelee\nclaws +7 (1d3+3 S) or bite +7 (1d3+3 P)\nRanged\nstatic arc pistol +8 (1d6 E; critical arc 2) or stickybomb I grenade +8 (explode [10 ft., entangled 2d4 rounds])\nOffensive Abilities\nfighting style (blitz), pounce\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+1;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +10 (+18 to jump), Intimidate +5, Stealth +5\nLanguages\nAzlanti, Tromlin\nOther Abilities\njumper\nGear\nsecond skin (leapers), static arc pistol with 2 batteries (20 charges each), 2 stickybomb I grenades\nEcology\nEnvironment\nany\nOrganization\nany\nSpecial Abilities\nBlood Scent (Ex)\nA tromlin bloodseeker can smell blood; the range of their blindsense is doubled to 60 ft. for creatures with the bleeding condition or who are at half or less of their maximum Hit Points.\nJumper (Ex)\nA tromlin bloodseeker can jump twice as far as normal.\nPounce (Ex)\nWhen a tromlin bloodseeker charges, they can also make a full attack.",
+  "type": "humanoid (tromlin)",
+  "category": "alien"
+}

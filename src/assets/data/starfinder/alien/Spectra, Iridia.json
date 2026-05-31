@@ -1,0 +1,54 @@
+{
+  "name": "Spectra, Iridia",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Iridia&Family=Spectra",
+  "source": "Alien Archive 3 pg. 102",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar, spectra)",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "115",
+  "eac": "20",
+  "kac": "21",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+13",
+  "dr": "5/chaotic",
+  "sr": "19",
+  "immunities": "electricity;",
+  "resistances": "cold 5, sonic 5;",
+  "speed": "30 ft., fly 60 ft. (Ex, perfect)",
+  "melee": "slam +16 (1d12+8 B)",
+  "ranged": "dusk ray +18 (1d10+8 C & E)",
+  "spell_like_abilities": {
+    "caster_info": "CL 8th; ranged +18",
+    "spells": "1/day—\nholographic image\n(3rd level),\nteleport\n(self only)\n3/day—\ncaustic conversion\n,\nimplant data\n,\nmake whole\n,\nrecharge\nAt will—\ndetect tech\n,\ndisguise self"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+2",
+    "int": "+6",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +16 (+24 to fly), Computers +21, Diplomacy +16, Engineering +21, Mysticism +21, Sense Motive +16",
+  "languages": "machine telepathy 100 ft., truespeech",
+  "other_abilities": "slip drive, spaceflight (Mysticism)",
+  "environment": "any (the Drift)",
+  "organization": "solitary or sequence (2, 3, 5, or 8)",
+  "special_abilities": [
+    {
+      "name": "Dusk Ray (Ex)",
+      "description": "An iridia’s dusk ray is a ranged attack with a range increment of 60 feet and the line weapon special property."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSpectra\nSource\nAlien Archive 3 pg. 102\nSpectra, a race of outsiders native to the newly discovered hyperspace plane of the Drift, are unique in the Great Beyond as a relatively recent addition to the multiverse, rising in prominence over the last 300 years alongside the proliferation of Drift technology. Concerned primarily with the protection and promulgation of the nascent plane, and of advanced technology in general, spectra are beings of paradox and dichotomy. Some metaphysicians believe that, just as the Drift grows by pulling in pieces of the multiverse each time a starship uses it to travel, so too are spectra created—amalgamations of raw, sometimes opposing energies born from the stolen pieces of other planes. Yet spectra are also undeniably of the Drift itself. They have inherent resistance to magic and can slip in and out of the Drift via innate esoteric—though purely technological—means. Some theorists posit that, like the beacons that enable travel through the Drift, spectra somehow exist simultaneously in multiple planes, manifesting in only one at any given time. Spectra rarely speak using their own voices, which are a mix of low-fidelity synthesized tones. They prefer to use their machine telepathy to temporarily harness nearby communication technology, speaking using a starship’s intercom or causing text to appear on a vidscreen, for instance.\nIridias are one of the few spectra encountered outside the Drift, most often on the Material Plane. Averaging 6 feet tall with opalescent skin and a coil of glistening rainbow light for hair, iridias serve as messengers and ambassadors to species of all planes, evangelizing the benefits of advanced technology and enforcing the tripartite will of Triune. Iridias have been known to visit remote worlds in the Vast where Triune’s original signal containing the secrets of Drift travel were lost or suppressed, bringing with them instructions and a second chance to join the galactic community. They are also keen to see mortal technology continue to grow and advance—an interest that can put them at odds with societies that choose to limit technology’s influence, as well as others wary of sudden unfettered progress, such as the tekhoinos aeons.\nAspecnas, powerful spectra paragons with fan-like tails and faces that resemble blooming flowers, rarely interact directly with the Material Plane. These formidable outsiders instead concern themselves with maintaining the precarious balance of power among extraplanar forces in the Drift, opposing any who would attempt to establish strongholds with the intent of laying their own claim to a substantial expanse of Triune’s realm. Aspecnas have on occasion appeared to correct the course of mortals who have become lost in the ever-shifting plane, and even intervened to protect weaker mortals from the predation of malevolent Drift-marooned outsiders. These rare but memorable acts have earned aspecnas the nickname “Drift angels” among those who regularly travel through the plane.\nAliens in the \"Spectra\" Family\nName\nCR\nAspecna\n18\nExcuba\n4\nIridia\n8\nNacrea\n16\nSondria\n14\nWyspiria\n11\nSpectra, Iridia\nSource\nAlien Archive 3 pg. 102\nIridia CR 8\nXP 4,800\nN Medium outsider (extraplanar, spectra)\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n115\nEAC\n20;\nKAC\n21\nFort\n+7;\nRef\n+7;\nWill\n+13\nDefensive Abilities\nvoid adaptation;\nDR\n5/chaotic, evil, good, or lawful;\nImmunities\nelectricity;\nResistances\ncold 5, sonic 5;\nSR\n19\nOffense\nSpeed\n30 ft., fly 60 ft. (Ex, perfect)\nMelee\nslam +16 (1d12+8 B)\nRanged\ndusk ray +18 (1d10+8 C & E)\nSpell-Like Abilities\n(CL 8th; ranged +18)\n1/day—\nholographic image\n(3rd level),\nteleport\n(self only)\n3/day—\ncaustic conversion\n,\nimplant data\n,\nmake whole\n,\nrecharge\nAt will—\ndetect tech\n,\ndisguise self\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+2;\nINT\n+6;\nWIS\n+2;\nCHA\n+2\nSkills\nAcrobatics +16 (+24 to fly), Computers +21, Diplomacy +16, Engineering +21, Mysticism +21, Sense Motive +16\nLanguages\nmachine telepathy 100 ft., truespeech\nOther Abilities\nslip drive, spaceflight (Mysticism)\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary or sequence (2, 3, 5, or 8)\nSpecial Abilities\nDusk Ray (Ex)\nAn iridia’s dusk ray is a ranged attack with a range increment of 60 feet and the line weapon special property.\nExtra Content\nThe following extra content was found for this creature:\n-\nSpectra (Creature Subtype) Graft Template",
+  "type": "outsider (extraplanar, spectra)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Spectra_Iridia.png"
+}

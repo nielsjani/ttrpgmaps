@@ -1,0 +1,54 @@
+{
+  "name": "Sports Figures, Magical Duelist",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Magical Duelist&Family=Sports Figures",
+  "source": "Interstellar Species pg. 179",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+13",
+  "hp": "75",
+  "eac": "17",
+  "kac": "18",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+9",
+  "speed": "40 ft., climb 20 ft.",
+  "melee": "tactical dueling sword +11 (1d6+6 S)",
+  "ranged": "advanced skipshot pistol",
+  "offensive_abilities": "evocation mastery, subtle distractions",
+  "spell_like_abilities": {
+    "caster_info": "CL 6th",
+    "spells": "1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpells Known\n(CL 6th; ranged +13)\n2nd (3/day)—caustic conversion, emberstep (DC 18)\n1st (6/day)—\nmagic missile\n,\noverheat\n(DC 17),\nreflecting armor\n(DC 17)\n0 (at will)—\ndaze\n(DC 16),\nenergy ray"
+  },
+  "spells": "(CL 6th; ranged +13)\n2nd (3/day)—caustic conversion, emberstep (DC 18)\n1st (6/day)—\nmagic missile\n,\noverheat\n(DC 17),\nreflecting armor\n(DC 17)\n0 (at will)—\ndaze\n(DC 16),\nenergy ray",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+3",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+2",
+    "cha": "+5"
+  },
+  "skills": "Acrobatics +13, Bluff +18, Mysticism +18",
+  "languages": "Common, Akan",
+  "gear": "elite stationwear,",
+  "special_abilities": [
+    {
+      "name": "Evocation Mastery (Su)",
+      "description": "When rolling damage for an evocation spell, the magical duelist adds 1 damage per die rolled."
+    },
+    {
+      "name": "Subtle Distractions (Ex)",
+      "description": "If a magical duelist successfully feints against an opponent, that creature also takes a –2 penalty to any saving throws against spells the duelist casts until the end of the duelist’s next turn."
+    }
+  ],
+  "description": "Every four years, hanakans hold an exhibition in their home system of Ash’Akan, where the most adept spellcasters throughout the galaxy display their technical expertise and most exciting thaumaturgical breakthroughs to win prestige for their respective homes. The magical fighting competition, named the Trials of Power, is one of the most eagerly awaited events of the symposium. While some attempt to win on wit or unexpected tactics, others attempt to show their proficiency through overwhelming arcane firepower.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSports Figures\nSource\nInterstellar Species pg. 179\nAcross the universe, sapient species have independently discovered the societal benefits of friendly (and not-so-friendly) competition—as well as the fame and fortune that can be made by widely broadcasting such competitions to die-hard fans. While some cultures thrive on intellectual games of skill and strategy, others revel in fast-paced displays of martial might, brute strength, or deadly struggle. No matter the culture, those who succeed in these displays of wit and brawn can amass quite a bit of wealth, cultural clout, and even interplanetary notoriety.\nSports figures are direct and to-the-point combatants with a focus on physicality, dexterity, or brute force, and they can easily serve in any role where violence is a means to an end. Re-skinned sports figures might serve as flashy mercenaries, daring pirates, specially trained guards, or hired muscle.\nAliens in the \"Sports Figures\" Family\nName\nCR\nBattleflower Master\n16\nBrutaris Lock-back\n10\nMagical Duelist\n6\nParabolas Revivalist\n2\nSports Figures, Magical Duelist\nSource\nInterstellar Species pg. 179\nMagical Duelist CR 6\nXP 2,400\nHanakan\nN Small magical beast\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+13\nDefense\nHP\n75\nEAC\n17;\nKAC\n18\nFort\n+7;\nRef\n+7;\nWill\n+9\nDefensive Abilities\natmospheric adaptation\nOffense\nSpeed\n40 ft., climb 20 ft.\nMelee\ntactical dueling sword +11 (1d6+6 S)\nRanged\nadvanced skipshot pistol\n+13 (2d4+6 P; critical bleed 1d6)\nOffensive Abilities\nevocation mastery, subtle distractions\nHanakan Spell-Like Abilities\n(CL 6th)\n1/day—\nwisp ally\nAt will—\ndetect magic\n,\ntoken spell\nSpells Known\n(CL 6th; ranged +13)\n2nd (3/day)—caustic conversion, emberstep (DC 18)\n1st (6/day)—\nmagic missile\n,\noverheat\n(DC 17),\nreflecting armor\n(DC 17)\n0 (at will)—\ndaze\n(DC 16),\nenergy ray\nStatistics\nSTR\n+0;\nDEX\n+3;\nCON\n+2;\nINT\n+0;\nWIS\n+2;\nCHA\n+5\nSkills\nAcrobatics +13, Bluff +18, Mysticism +18\nLanguages\nCommon, Akan\nGear\nelite stationwear,\nadvanced skipshot pistol\nwith 40 small arm rounds, tactical dueling sword\nSpecial Abilities\nEvocation Mastery (Su)\nWhen rolling damage for an evocation spell, the magical duelist adds 1 damage per die rolled.\nSubtle Distractions (Ex)\nIf a magical duelist successfully feints against an opponent, that creature also takes a –2 penalty to any saving throws against spells the duelist casts until the end of the duelist’s next turn.\nDescription\nEvery four years, hanakans hold an exhibition in their home system of Ash’Akan, where the most adept spellcasters throughout the galaxy display their technical expertise and most exciting thaumaturgical breakthroughs to win prestige for their respective homes. The magical fighting competition, named the Trials of Power, is one of the most eagerly awaited events of the symposium. While some attempt to win on wit or unexpected tactics, others attempt to show their proficiency through overwhelming arcane firepower.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

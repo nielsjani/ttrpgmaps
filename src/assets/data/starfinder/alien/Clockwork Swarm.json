@@ -1,0 +1,52 @@
+{
+  "name": "Clockwork Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Clockwork Swarm&Family=None",
+  "source": "Starfinder #50: Clockwork Demons pg. 57",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "construct (swarm)",
+  "init": "+6",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+5",
+  "immunities": "construct immunities, swarm immunities",
+  "weaknesses": "vulnerable to sonic",
+  "speed": "30 ft.",
+  "melee": "swarm attack (3d4+8 S)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "coordinated trip, distraction (DC 16), swarm the fallen (+8)",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+6",
+    "con": "—",
+    "int": "—",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Athletics +16, Acrobatics +21, Stealth +16",
+  "other_abilities": "mindless, unliving",
+  "environment": "any",
+  "organization": "solitary, pair, or infestation (3–8)",
+  "special_abilities": [
+    {
+      "name": "Coordinated Trip (Ex)",
+      "description": "As a standard action, the majority of the components of the clockwork swarm shifts to focus on a single target that’s completely in the swarm’s space and attempts a trip combat maneuver with a total bonus of +20."
+    },
+    {
+      "name": "Swarm the Fallen (Ex)",
+      "description": "A creature that’s prone and completely in the clockwork swarm’s space at the end of the swarm’s turn takes an additional 8 points of damage from the swarm’s swarm attack."
+    }
+  ],
+  "description": "Clockwork artificers often test their skills by seeing how small they can make functioning constructs. It takes precision, a steady hand, and years of experience to craft a working clockwork no bigger than an insect. Often these automata are lone curiosities gracing a clockwork engineer’s workshop, but sometimes, an artisan will build hundreds and hundreds of them, linking their programming together to act as a coordinated swarm. These clockwork swarms can prove quite dangerous, usually instructed to do nothing more than to maim and kill.While clockwork swarms are rare presently, a few civilizations tell stories of multiple clockwork swarms capable of razing entire cities as well as repairing their damaged numbers and even constructing new components out of scrap. These tales have yet to be confirmed, though explorers still search for the mythical ruins mentioned.\nOne edition of the Starfinder Chronicles from over a century ago posits a connection between clockwork swarms, clockwork predators, and several other clockwork constructs that exist. Beyond just their physical appearances and composition, it would seem the clockwork swarms might be a type of builder organism in a larger hierarchy of clockwork creatures. The goals of such constructs remain unknown, and modern clockwork creatures remain mindless, following only pre-programmed routines.\nVariant Clockwork Swarm\nThe types of component automata within a clockwork swarm can alter its size and the type of damage it deals with its swarm attack. In addition, you can use the environmental grafts found on pages 138–141 of Alien Archive 2 to adapt a clockwork swarm to various types of terrain. For instance, a swarm of clockwork birds has the airborne graft and deals piercing damage with its multitude of beaks. A swarm of clockwork constructs designed to look like tiny salamanders might be able to withstand heat with the desert graft and deals fire and slashing damage with many burning claws.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nClockwork Swarm\nSource\nStarfinder #50: Clockwork Demons pg. 57\nClockwork Swarm CR 8\nXP 4,800\nN Fine construct (swarm)\nInit\n+6;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+8;\nRef\n+8;\nWill\n+5\nDefensive Abilities\nswarm defenses;\nImmunities\nconstruct immunities, swarm immunities\nWeaknesses\nvulnerable to sonic\nOffense\nSpeed\n30 ft.\nMelee\nswarm attack (3d4+8 S)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\ncoordinated trip, distraction (DC 16), swarm the fallen (+8)\nStatistics\nSTR\n+0;\nDEX\n+6;\nCON\n—;\nINT\n—;\nWIS\n+4;\nCHA\n+0\nSkills\nAthletics +16, Acrobatics +21, Stealth +16\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or infestation (3–8)\nSpecial Abilities\nCoordinated Trip (Ex)\nAs a standard action, the majority of the components of the clockwork swarm shifts to focus on a single target that’s completely in the swarm’s space and attempts a trip combat maneuver with a total bonus of +20.\nSwarm the Fallen (Ex)\nA creature that’s prone and completely in the clockwork swarm’s space at the end of the swarm’s turn takes an additional 8 points of damage from the swarm’s swarm attack.\nDescription\nClockwork artificers often test their skills by seeing how small they can make functioning constructs. It takes precision, a steady hand, and years of experience to craft a working clockwork no bigger than an insect. Often these automata are lone curiosities gracing a clockwork engineer’s workshop, but sometimes, an artisan will build hundreds and hundreds of them, linking their programming together to act as a coordinated swarm. These clockwork swarms can prove quite dangerous, usually instructed to do nothing more than to maim and kill.While clockwork swarms are rare presently, a few civilizations tell stories of multiple clockwork swarms capable of razing entire cities as well as repairing their damaged numbers and even constructing new components out of scrap. These tales have yet to be confirmed, though explorers still search for the mythical ruins mentioned.\nOne edition of the Starfinder Chronicles from over a century ago posits a connection between clockwork swarms, clockwork predators, and several other clockwork constructs that exist. Beyond just their physical appearances and composition, it would seem the clockwork swarms might be a type of builder organism in a larger hierarchy of clockwork creatures. The goals of such constructs remain unknown, and modern clockwork creatures remain mindless, following only pre-programmed routines.\nVariant Clockwork Swarm\nThe types of component automata within a clockwork swarm can alter its size and the type of damage it deals with its swarm attack. In addition, you can use the environmental grafts found on pages 138–141 of Alien Archive 2 to adapt a clockwork swarm to various types of terrain. For instance, a swarm of clockwork birds has the airborne graft and deals piercing damage with its multitude of beaks. A swarm of clockwork constructs designed to look like tiny salamanders might be able to withstand heat with the desert graft and deals fire and slashing damage with many burning claws.",
+  "type": "construct (swarm)",
+  "category": "alien"
+}

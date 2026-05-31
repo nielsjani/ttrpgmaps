@@ -1,0 +1,52 @@
+{
+  "name": "Shadow Mastiff",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Shadow Mastiff&Family=None",
+  "source": "Starfinder #11: The Penumbra Protocol pg. 59",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "outsider (evil, extraplanar)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "70",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+7",
+  "will": "+6",
+  "speed": "50 ft.",
+  "melee": "bite +15 (1d6+10 P & C plus trip) or",
+  "offensive_abilities": "bay",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+2",
+    "con": "+3",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +11, Athletics +11, Stealth +16 (+20 when not in bright light)",
+  "languages": "Common, Shadowtongue (can’t speak any language)",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, pair, or pack (3–8)",
+  "special_abilities": [
+    {
+      "name": "Bay (Su)",
+      "description": "When a shadow mastiff howls or barks, every creature within a 300-foot spread except evil outsiders must succeed at a DC 15 Will save or become panicked for 1d4 rounds. This is a sense-dependent, mind-affecting fear effect. Whether a creature succeeds at the save or not, it can’t be affect by the same shadow mastiff’s bay for 24 hours."
+    },
+    {
+      "name": "Shadow Blend (Su)",
+      "description": "In any condition of illumination other than bright light, a shadow mastiff disappears into the shadows, giving it concealment (50% miss chance). A shadow mastiff can suspend or resume this ability as a swift action. In addition, a shadow mastiff gains a +4 racial bonus to Stealth checks while in any condition of illumination other than bright light, and it can hide even if it is observed or lacks cover."
+    },
+    {
+      "name": "Trip (Ex)",
+      "description": "In addition to dealing the listed damage, if a shadow mastiff hits with its bite attack and the attack roll result equals or exceeds the target’s KAC + 4, the shadow mastiff also automatically trips the foe (this takes no action)."
+    }
+  ],
+  "description": "Native to dimly lit areas of the Shadow Plane, these ferocious and alien-yet-familiar beasts often inspire a primal terror in those who witness them in drug-fueled nightmares and visions of that dimension.\nThough they are commonly known as shadow mastiffs, these creatures have little in common with actual canines except for their appearance, and shadow mastiffs encountered outside of the Pact Worlds might bear a closer resemblance to local predatory beasts. Shadow mastiffs discover new hunting grounds when power-hungry or corrupt mortals summon them, or when mystical and technomagical rituals tear the veil that separates their world from the Material Plane.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nShadow Mastiff\nSource\nStarfinder #11: The Penumbra Protocol pg. 59\nShadow Mastiff CR 5\nXP 1,600\nNE Medium outsider (evil, extraplanar)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n70\nEAC\n17;\nKAC\n19\nFort\n+7;\nRef\n+7;\nWill\n+6\nDefensive Abilities\nshadow blend\nOffense\nSpeed\n50 ft.\nMelee\nbite +15 (1d6+10 P & C plus trip) or\r\ntail slap +15 (1d4+10 B)\nOffensive Abilities\nbay\nStatistics\nSTR\n+5;\nDEX\n+2;\nCON\n+3;\nINT\n-3;\nWIS\n+0;\nCHA\n+1\nSkills\nAcrobatics +11, Athletics +11, Stealth +16 (+20 when not in bright light)\nLanguages\nCommon, Shadowtongue (can’t speak any language)\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, pair, or pack (3–8)\nSpecial Abilities\nBay (Su)\nWhen a shadow mastiff howls or barks, every creature within a 300-foot spread except evil outsiders must succeed at a DC 15 Will save or become panicked for 1d4 rounds. This is a sense-dependent, mind-affecting fear effect. Whether a creature succeeds at the save or not, it can’t be affect by the same shadow mastiff’s bay for 24 hours.\nShadow Blend (Su)\nIn any condition of illumination other than bright light, a shadow mastiff disappears into the shadows, giving it concealment (50% miss chance). A shadow mastiff can suspend or resume this ability as a swift action. In addition, a shadow mastiff gains a +4 racial bonus to Stealth checks while in any condition of illumination other than bright light, and it can hide even if it is observed or lacks cover.\nTrip (Ex)\nIn addition to dealing the listed damage, if a shadow mastiff hits with its bite attack and the attack roll result equals or exceeds the target’s KAC + 4, the shadow mastiff also automatically trips the foe (this takes no action).\nDescription\nNative to dimly lit areas of the Shadow Plane, these ferocious and alien-yet-familiar beasts often inspire a primal terror in those who witness them in drug-fueled nightmares and visions of that dimension.\nThough they are commonly known as shadow mastiffs, these creatures have little in common with actual canines except for their appearance, and shadow mastiffs encountered outside of the Pact Worlds might bear a closer resemblance to local predatory beasts. Shadow mastiffs discover new hunting grounds when power-hungry or corrupt mortals summon them, or when mystical and technomagical rituals tear the veil that separates their world from the Material Plane.",
+  "type": "outsider (evil, extraplanar)",
+  "category": "alien"
+}

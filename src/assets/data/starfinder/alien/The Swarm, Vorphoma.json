@@ -1,0 +1,57 @@
+{
+  "name": "The Swarm, Vorphoma",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Vorphoma&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "16",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+3",
+  "ref": "+3",
+  "will": "+4",
+  "immunities": "acid, fear effects",
+  "speed": "30 ft., fly 30 ft. (Ex, average)",
+  "melee": "bite +3 (1d4+2 P) or claw +3 (1d6+2 S)",
+  "ranged": "arm barb +5 (1d4+1 P plus venom)",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st",
+    "spells": "1/day—\nfear\n(1st level, DC 14),\nlesser confusion\n(DC 14)\n0 (at will)—\ndaze\n(DC 13),\nghost sound\n(DC 13)"
+  },
+  "ability_scores": {
+    "str": "+1",
+    "dex": "+4",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +5, Athletics +5, Stealth +10",
+  "languages": "Shirren; telepathy 100 ft.",
+  "environment": "any",
+  "organization": "solitary, pair, or pack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Arm Barb (Ex)",
+      "description": "As a ranged attack, a vorphoma can shoot a finger-sized barb from one of its arms with a range increment of 60 feet. A vorphoma can shoot a total of 8 barbs before it must take 10 minutes to regrow them."
+    },
+    {
+      "name": "Swarm Mind (Ex)",
+      "description": "Members of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect."
+    },
+    {
+      "name": "Venom (Ex)",
+      "description": "A living creature that takes damage from an arm barb must succeed at a DC 12 Fortitude save or be sickened for 1d3 rounds."
+    }
+  ],
+  "description": "Swarm vorphomas resemble humanoid stick insects with piercing mandibles. They can eject the spines growing from their arms as dangerous ranged projectiles. These barbs are coated with a numbing enzyme that slows a living creature’s reactions. Vorphomas also have the ability to fly and can mentally sow fear and confusion in the minds of their enemies. With multi-segmented bodies of dark mottled chitin, vorphomas are innately stealthy.\nA vorphoma often operates alone, in pairs, or in small packs of five or fewer. They are usually sent behind enemy lines to terrorize and soften up the Swarm’s foes before larger units begin their assault. A vorphoma instinctively targets the weakest-looking enemies with its spell-like abilities from the shadows or from heights that are difficult to reach. If it is spotted, it then begins flinging its arm barbs at its prey. It resorts to melee combat only when it runs out of ammunition, descending from the skies to bite ravenously or claw at its chosen enemies.\nA typical Swarm vorphoma is approximately 5-1/2 feet tall, though its lanky form and its wings often make it seem taller.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Vorphoma\nSource\nStarfinder #19: Fate of the Fifth pg. 61\nVorphoma CR 1\nXP 400\nCE Medium monstrous humanoid\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n16\nEAC\n10;\nKAC\n11\nFort\n+3;\nRef\n+3;\nWill\n+4\nDefensive Abilities\nSwarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n30 ft., fly 30 ft. (Ex, average)\nMelee\nbite +3 (1d4+2 P) or claw +3 (1d6+2 S)\nRanged\narm barb +5 (1d4+1 P plus venom)\nSpell-Like Abilities\n(CL 1st)\n1/day—\nfear\n(1st level, DC 14),\nlesser confusion\n(DC 14)\n0 (at will)—\ndaze\n(DC 13),\nghost sound\n(DC 13)\nStatistics\nSTR\n+1;\nDEX\n+4;\nCON\n+1;\nINT\n+0;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +5, Athletics +5, Stealth +10\nLanguages\nShirren; telepathy 100 ft.\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or pack (3–5)\nSpecial Abilities\nArm Barb (Ex)\nAs a ranged attack, a vorphoma can shoot a finger-sized barb from one of its arms with a range increment of 60 feet. A vorphoma can shoot a total of 8 barbs before it must take 10 minutes to regrow them.\nSwarm Mind (Ex)\nMembers of the Swarm are bound together into a singular hive mind by a blend of exuded pheromones, imperceptible movements of antennae and limbs, electrostatic fields, and telepathic communication. All Swarm creatures with 30 feet of each other are in constant communication; if one is aware of a threat, all are. (Such awareness can spread along a “chain” of Swarm creatures under appropriate circumstances, potentially alerting distant Swarm creatures). In addition, once per round when within 30 feet of another Swarm creature, a Swarm creature can roll twice and take the better result on a saving throw against a mind-affecting effect.\nVenom (Ex)\nA living creature that takes damage from an arm barb must succeed at a DC 12 Fortitude save or be sickened for 1d3 rounds.\nDescription\nSwarm vorphomas resemble humanoid stick insects with piercing mandibles. They can eject the spines growing from their arms as dangerous ranged projectiles. These barbs are coated with a numbing enzyme that slows a living creature’s reactions. Vorphomas also have the ability to fly and can mentally sow fear and confusion in the minds of their enemies. With multi-segmented bodies of dark mottled chitin, vorphomas are innately stealthy.\nA vorphoma often operates alone, in pairs, or in small packs of five or fewer. They are usually sent behind enemy lines to terrorize and soften up the Swarm’s foes before larger units begin their assault. A vorphoma instinctively targets the weakest-looking enemies with its spell-like abilities from the shadows or from heights that are difficult to reach. If it is spotted, it then begins flinging its arm barbs at its prey. It resorts to melee combat only when it runs out of ammunition, descending from the skies to bite ravenously or claw at its chosen enemies.\nA typical Swarm vorphoma is approximately 5-1/2 feet tall, though its lanky form and its wings often make it seem taller.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

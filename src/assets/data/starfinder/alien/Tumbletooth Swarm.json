@@ -1,0 +1,51 @@
+{
+  "name": "Tumbletooth Swarm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tumbletooth Swarm&Family=None",
+  "source": "Starfinder #18: Assault on the Crucible pg. 61",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "CN",
+  "size": "Tiny",
+  "creature_type": "fey (swarm)",
+  "init": "+5",
+  "senses": "low-light vision.;",
+  "perception": "+11",
+  "hp": "60",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+9",
+  "will": "+4",
+  "immunities": "swarm immunities",
+  "speed": "30 ft., climb 15 ft.",
+  "melee": "swarm attack (1d4+8 P plus distraction [DC 13])",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "drag down (+17, +3 damage)",
+  "spell_like_abilities": {
+    "caster_info": "CL 5th",
+    "spells": "1/day—\nknock\n3/day—\nhold portal\nAt will—\nghost sound\n(DC 11)"
+  },
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+2",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "-1"
+  },
+  "skills": "Acrobatics +11, Athletics +11 (+19 to climb), Stealth +16",
+  "languages": "Common, Sylvan (cannot speak)",
+  "environment": "any",
+  "organization": "solitary or gorge (2–5)",
+  "special_abilities": [
+    {
+      "name": "Drag Down (Ex)",
+      "description": "As a standard action when a tumbletooth swarm occupies an opponent’s space, it can attempt a trip combat maneuver with a total +17 bonus. A tumbletooth swarm deals an amount of extra damage to a prone creature equal to its Strength modifier (+3 for most tumbletooth swarms)."
+    }
+  ],
+  "description": "Tumbleteeth are small, verminous fey that are minor nuisances when encountered alone but much more dangerous in groups, as they gain a kind of collective intelligence that gifts them psychic abilities. A single tumbletooth resembles a hairless rat with reddish-brown skin, beady red eyes, and a single large fang. A tumbletooth moves in a series of somersaults—the source of its whimsical name. When a tumbletooth isn’t feasting or sleeping, it’s usually seeking a new meal, as these fey have utterly insatiable appetites and will consume anything even remotely resembling food, from unprocessed grain to rotting carrion. A single tumbletooth swarm can devour a small agrarian community’s entire stockpile of stored foodstuffs in a matter of hours. Though tumbleteeth tend to avoid conflict, a swarm of them will attack living creatures if they get hungry enough.\nMost scholars believe the first tumbleteeth slipped through a portal from the First World centuries ago and began to rapidly multiply and spread throughout the galaxy. Though they look like mammals, tumbleteeth reproduce by laying leathery, self-fertilized eggs, usually after consuming a staggering amount of food. The fey move on after hiding their eggs in secluded areas. The eggs sometimes remain unhatched for years, quickening only when the young tumbletooth inside senses the presence of large amounts of food nearby. Since tumbleteeth are relatively rare, these eggs usually go undiscovered or unrecognized until it’s too late to stop the resulting swarm.\nWhen tumbleteeth gather en masse, their individual animal intelligences psychically link up to form a low cunning that grants the swarm the ability to understand languages, act as one unit, and even use spell-like abilities. Driven by hunger, most tumbletooth swarms use their magic to get into locked storage bins, keep doors closed to feast in peace, and spook other animals and more superstitious creatures with strange sounds. Communities familiar with the tumbletooth menace attempt to eradicate the creatures as soon as possible to avoid the formation of swarms, using scanning technology or trained animals to hunt down both adults and egg caches.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTumbletooth Swarm\nSource\nStarfinder #18: Assault on the Crucible pg. 61\nTumbletooth Swarm CR 5\nXP 1,600\nCN Tiny fey (swarm)\nInit\n+5;\nSenses\nlow-light vision.;\nPerception\n+11\nDefense\nHP\n60\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+9;\nWill\n+4\nDefensive Abilities\nswarm defenses;\nImmunities\nswarm immunities\nOffense\nSpeed\n30 ft., climb 15 ft.\nMelee\nswarm attack (1d4+8 P plus distraction [DC 13])\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ndrag down (+17, +3 damage)\nSpell-Like Abilities\n(CL 5th)\n1/day—\nknock\n3/day—\nhold portal\nAt will—\nghost sound\n(DC 11)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+2;\nINT\n+0;\nWIS\n+1;\nCHA\n-1\nSkills\nAcrobatics +11, Athletics +11 (+19 to climb), Stealth +16\nLanguages\nCommon, Sylvan (cannot speak)\nEcology\nEnvironment\nany\nOrganization\nsolitary or gorge (2–5)\nSpecial Abilities\nDrag Down (Ex)\nAs a standard action when a tumbletooth swarm occupies an opponent’s space, it can attempt a trip combat maneuver with a total +17 bonus. A tumbletooth swarm deals an amount of extra damage to a prone creature equal to its Strength modifier (+3 for most tumbletooth swarms).\nDescription\nTumbleteeth are small, verminous fey that are minor nuisances when encountered alone but much more dangerous in groups, as they gain a kind of collective intelligence that gifts them psychic abilities. A single tumbletooth resembles a hairless rat with reddish-brown skin, beady red eyes, and a single large fang. A tumbletooth moves in a series of somersaults—the source of its whimsical name. When a tumbletooth isn’t feasting or sleeping, it’s usually seeking a new meal, as these fey have utterly insatiable appetites and will consume anything even remotely resembling food, from unprocessed grain to rotting carrion. A single tumbletooth swarm can devour a small agrarian community’s entire stockpile of stored foodstuffs in a matter of hours. Though tumbleteeth tend to avoid conflict, a swarm of them will attack living creatures if they get hungry enough.\nMost scholars believe the first tumbleteeth slipped through a portal from the First World centuries ago and began to rapidly multiply and spread throughout the galaxy. Though they look like mammals, tumbleteeth reproduce by laying leathery, self-fertilized eggs, usually after consuming a staggering amount of food. The fey move on after hiding their eggs in secluded areas. The eggs sometimes remain unhatched for years, quickening only when the young tumbletooth inside senses the presence of large amounts of food nearby. Since tumbleteeth are relatively rare, these eggs usually go undiscovered or unrecognized until it’s too late to stop the resulting swarm.\nWhen tumbleteeth gather en masse, their individual animal intelligences psychically link up to form a low cunning that grants the swarm the ability to understand languages, act as one unit, and even use spell-like abilities. Driven by hunger, most tumbletooth swarms use their magic to get into locked storage bins, keep doors closed to feast in peace, and spook other animals and more superstitious creatures with strange sounds. Communities familiar with the tumbletooth menace attempt to eradicate the creatures as soon as possible to avoid the formation of swarms, using scanning technology or trained animals to hunt down both adults and egg caches.",
+  "type": "fey (swarm)",
+  "category": "alien"
+}

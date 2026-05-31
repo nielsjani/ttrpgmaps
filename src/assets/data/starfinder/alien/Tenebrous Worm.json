@@ -1,0 +1,47 @@
+{
+  "name": "Tenebrous Worm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tenebrous Worm&Family=None",
+  "source": "Starfinder #10: The Diaspora Strain pg. 59",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+12",
+  "ref": "+10",
+  "will": "+7",
+  "immunities": "acid",
+  "speed": "20 ft.",
+  "melee": "bite +17 (1d8+11 P plus shadow acid; critical corrode 1d6)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+3",
+    "con": "+6",
+    "int": "-4",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Stealth +16",
+  "environment": "any land (Shadow Plane)",
+  "organization": "solitary, pair, swarm (3–6)",
+  "special_abilities": [
+    {
+      "name": "Poisonous Bristles (Su)",
+      "description": "Bristles of shadow extend from between the tenebrous worm’s armored plates. Each time a creature within 10 feet of the worm attacks it, several of these bristles reactively shoot off at the attacker. The attacker must succeed at a DC 16 Reflex save or take 1d4 piercing damage and be exposed to tenebrous worm poison (see below). An attacker that strikes the worm with an unarmed strike or grapples the worm is automatically damaged and exposed to the poison."
+    },
+    {
+      "name": "Shadow Acid (Su)",
+      "description": "A tenebrous worm’s bite delivers a mystical acid that dissolves organic matter into wisps of shadow. In dim light, this acid deals 3d6 acid damage. In normal light, it deals 2d6 acid damage. In bright light or darkness, it deals 1d6 acid damage.\nTENEBROUS WORM POISON\nType\npoison (injury);\nSave\nFortitude DC 16\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered—Immobile; no end state.\nCure\n2 consecutive saves"
+    }
+  ],
+  "description": "A tenebrous worm is the larval stage of the\ngloomwing\n, but this young creature is more dangerous than the adult. When young hatch from the eggs a gloomwing lays in an unfortunate victim, the strongest among the hatchlings sometimes kills and eats its siblings. Other times, the larvae remain together in a pack or scatter into the surrounding environment to hunt. Tenebrous worms crave flesh, and they eat it in whatever form they find, it’s already carrion or living prey they’ve hunted down.\nA tenebrous worm’s belly is pale to the point of translucence, and its organs churn with shadowy fluids visible through its segmented carapace. As the worm grows, these liquids mix and partially solidify, poking out between the creature’s plates to form poisonous bristles. A similar substance fills a reservoir near its mandibles, but this substance turns flesh to shadow that the worm consumes to supplement its diet of meat.\nWhen a tenebrous worm has fed enough, it finds a hiding place where it can spin a cocoon of shadowy silk. This chrysalis absorbs surrounding light, reducing nonmagical bright and normal light to dim light in a radius of 20 feet. A tenebrous worm transforms inside the cocoon, emerging after several days as a gloomwing. The cocoon’s remains, tattered gray sheets of silk, lose their light-absorbing properties.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTenebrous Worm\nSource\nStarfinder #10: The Diaspora Strain pg. 59\nTenebrous Worm CR 8\nXP 4,800\nN Medium outsider (extraplanar)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+12;\nRef\n+10;\nWill\n+7\nDefensive Abilities\npoisonous bristles;\nImmunities\nacid\nOffense\nSpeed\n20 ft.\nMelee\nbite +17 (1d8+11 P plus shadow acid; critical corrode 1d6)\nStatistics\nSTR\n+3;\nDEX\n+3;\nCON\n+6;\nINT\n-4;\nWIS\n+0;\nCHA\n-2\nSkills\nStealth +16\nEcology\nEnvironment\nany land (Shadow Plane)\nOrganization\nsolitary, pair, swarm (3–6)\nSpecial Abilities\nPoisonous Bristles (Su)\nBristles of shadow extend from between the tenebrous worm’s armored plates. Each time a creature within 10 feet of the worm attacks it, several of these bristles reactively shoot off at the attacker. The attacker must succeed at a DC 16 Reflex save or take 1d4 piercing damage and be exposed to tenebrous worm poison (see below). An attacker that strikes the worm with an unarmed strike or grapples the worm is automatically damaged and exposed to the poison.\nShadow Acid (Su)\nA tenebrous worm’s bite delivers a mystical acid that dissolves organic matter into wisps of shadow. In dim light, this acid deals 3d6 acid damage. In normal light, it deals 2d6 acid damage. In bright light or darkness, it deals 1d6 acid damage.\nTENEBROUS WORM POISON\nType\npoison (injury);\nSave\nFortitude DC 16\nTrack\nDexterity (special);\nFrequency\n1/round for 6 rounds\nEffect\nprogression track is Healthy—Sluggish—Stiffened—Staggered—Immobile; no end state.\nCure\n2 consecutive saves\nDescription\nA tenebrous worm is the larval stage of the\ngloomwing\n, but this young creature is more dangerous than the adult. When young hatch from the eggs a gloomwing lays in an unfortunate victim, the strongest among the hatchlings sometimes kills and eats its siblings. Other times, the larvae remain together in a pack or scatter into the surrounding environment to hunt. Tenebrous worms crave flesh, and they eat it in whatever form they find, it’s already carrion or living prey they’ve hunted down.\nA tenebrous worm’s belly is pale to the point of translucence, and its organs churn with shadowy fluids visible through its segmented carapace. As the worm grows, these liquids mix and partially solidify, poking out between the creature’s plates to form poisonous bristles. A similar substance fills a reservoir near its mandibles, but this substance turns flesh to shadow that the worm consumes to supplement its diet of meat.\nWhen a tenebrous worm has fed enough, it finds a hiding place where it can spin a cocoon of shadowy silk. This chrysalis absorbs surrounding light, reducing nonmagical bright and normal light to dim light in a radius of 20 feet. A tenebrous worm transforms inside the cocoon, emerging after several days as a gloomwing. The cocoon’s remains, tattered gray sheets of silk, lose their light-absorbing properties.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

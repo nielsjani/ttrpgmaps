@@ -1,0 +1,54 @@
+{
+  "name": "Planar Scion, Undine",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Undine&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "1",
+  "xp": "400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+5",
+  "hp": "16",
+  "eac": "10",
+  "kac": "11",
+  "fort": "+1",
+  "ref": "+1",
+  "will": "+4",
+  "resistances": "cold 5",
+  "speed": "30 ft., swim 30 ft.",
+  "melee": "survival knife +2 (1d4+1 S)",
+  "ranged": "tactical semi-auto pistol +4 (1d6+1 P)",
+  "offensive_abilities": "water affinity",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st; +4 ranged",
+    "spells": "At will—\nenergy ray\n(cold only)\nMystic Spells Known\n(CL 1st)\n1st (3/day)—\nlife bubble\n,\nmystic cure\n0 (at will)—\nstabilize\n,\ntoken spell\nConnection\nhealer"
+  },
+  "spells": "(CL 1st)\n1st (3/day)—\nlife bubble\n,\nmystic cure\n0 (at will)—\nstabilize\n,\ntoken spell\nConnection\nhealer",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+1",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+1"
+  },
+  "skills": "Athletics +5 (+13 to swim), Medicine +10, Mysticism +10",
+  "languages": "Aquan, Common",
+  "other_abilities": "healing channel (2d8 HP)",
+  "gear": "second skin, survival knife, tactical semi-auto pistol with 18 small arm rounds",
+  "environment": "any",
+  "organization": "solitary, pair, or team (3-5)",
+  "special_abilities": [
+    {
+      "name": "Water Affinity (EX)",
+      "description": "Whenever an undine deals cold damage while either the undine or her target is swimming, or in precipitation or storms heavy enough to reduce visibility ranges, they deal an amount of additional damage equal to twice their level."
+    }
+  ],
+  "description": "Undines are the descendants of humanoids and beings who hail from the Plane of Water. Through they don’t require water to live, undines tend to settle near water and make ideal underwater explorers.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nUndine Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion, Undine\nSource\nStarfinder #18: Assault on the Crucible pg. 58\nUndine CR 1\nXP 400\nUndine mystic\nN Medium outsider (native)\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+5\nDefense\nHP\n16;\nRP\n4\nEAC\n10;\nKAC\n11\nFort\n+1;\nRef\n+1;\nWill\n+4\nResistances\ncold 5\nOffense\nSpeed\n30 ft., swim 30 ft.\nMelee\nsurvival knife +2 (1d4+1 S)\nRanged\ntactical semi-auto pistol +4 (1d6+1 P)\nOffensive Abilities\nwater affinity\nUndine Spell-Like Abilities\n(CL 1st; +4 ranged)\nAt will—\nenergy ray\n(cold only)\nMystic Spells Known\n(CL 1st)\n1st (3/day)—\nlife bubble\n,\nmystic cure\n0 (at will)—\nstabilize\n,\ntoken spell\nConnection\nhealer\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+1;\nINT\n+0;\nWIS\n+4;\nCHA\n+1\nSkills\nAthletics +5 (+13 to swim), Medicine +10, Mysticism +10\nLanguages\nAquan, Common\nOther Abilities\nhealing channel (2d8 HP)\nGear\nsecond skin, survival knife, tactical semi-auto pistol with 18 small arm rounds\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or team (3-5)\nSpecial Abilities\nWater Affinity (EX)\nWhenever an undine deals cold damage while either the undine or her target is swimming, or in precipitation or storms heavy enough to reduce visibility ranges, they deal an amount of additional damage equal to twice their level.\nDescription\nUndines are the descendants of humanoids and beings who hail from the Plane of Water. Through they don’t require water to live, undines tend to settle near water and make ideal underwater explorers.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template\n-\nUndine Race Entry",
+  "type": "outsider (native)",
+  "category": "alien"
+}

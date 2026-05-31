@@ -1,0 +1,61 @@
+{
+  "name": "Driftspun",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Driftspun&Family=None",
+  "source": "Starfinder #49: A Light in the Dark pg. 58",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+4",
+  "senses": "blindsense (thought) 30 ft., darkvision 60 ft.;",
+  "perception": "+17",
+  "hp": "120",
+  "eac": "21",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+8",
+  "will": "+12",
+  "dr": "10/—",
+  "weaknesses": "conflicting accounts",
+  "speed": "30 ft., f y 30 ft. (Su, perfect)",
+  "melee": "slam +18 (3d4+15 B)",
+  "space": "15",
+  "reach": "15",
+  "offensive_abilities": "plot twist (DC 18)",
+  "spell_like_abilities": {
+    "caster_info": "CL 9th",
+    "spells": "1/day—\ndisplacement\n,\nholographic image\n(3rd level, DC 20)\n3/day—\nfog cloud\n,\ninvisibility\n,\nmind thrust\n(2nd level, DC 19),\nmirror image\nAt will—\ndetect thoughts\n(DC 18),\nmind thrust\n(1st level, DC 18)"
+  },
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+3",
+    "int": "-3",
+    "wis": "+1",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +17 (+23 to fly), Athletics +22, Culture +17, Intimidate +17, Piloting +17, Stealth +17",
+  "languages": "truespeech; telepathy 100 ft",
+  "other_abilities": "spaceflight",
+  "environment": "the Drift",
+  "organization": "solitary, pair, or anthology (3–6)",
+  "special_abilities": [
+    {
+      "name": "Conflicting Accounts (Ex)",
+      "description": "As a creature formed mainly from thoughts and stories, a driftspun is susceptible to psychic energy. It takes a –4 penalty to saves against mind-affecting spells and abilities, and when it fails a save against such an effect, it loses its damage reduction for 1 round."
+    },
+    {
+      "name": "Plot Twist (Su)",
+      "description": "As a swift action, a driftspun can manipulate its surroundings to confound and hinder opponents. All creatures except for the driftspun in the driftspun's aura must succeed a DC 18 Fortitude save or suffer one of the following ef ects (chosen by the driftspun) for 1d4 rounds (or 1 round if they disbelieved the settingscape).\nQuake\n: The affected creature treats the area of the driftspun's settingscape as difficult terrain.\nRipple\n: The affected creature is flat-footed.\nShift\n: The affected creature is off-target."
+    },
+    {
+      "name": "Settingscape (Su)",
+      "description": "A driftspun surrounds itself with a psychic aura with the ef ects of a constant holographic terrain spell (CL 9th), changing the appearance of the environment and any items and structures within 30 feet to match the story that manifested the driftspun. Creatures that succeed at a DC 18 Will save to disbelieve this holographic terrain are immune to this driftspun's aura for 24 hours."
+    }
+  ],
+  "description": "Scholars believe the first driftspun was created when the Drift absorbed a part of the Akashic Record, manifesting an entity that conformed to a story. Since then, the resulting psychic radiation has spread throughout the Drift. Occasionally, travelers through the hyperspace plane f nd that the weight of the stories they tell each other on the long journeys interact with this energy to form a driftspun.\nEach driftspun has a dif erent appearance, based on the story that manifested it. Some are shapeless clouds of darkness, others larger-than-life humanoids, and a few even resemble well-known threats within the Drift. As such, a particular driftspun might deal a dif erent type of damage with its attacks or af ect foes dif erently with its plot twist ability.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDriftspun\nSource\nStarfinder #49: A Light in the Dark pg. 58\nDriftspun CR 9\nXP 6,400\nN Huge outsider (extraplanar)\nInit\n+4;\nSenses\nblindsense (thought) 30 ft., darkvision 60 ft.;\nPerception\n+17\nAura\nsettingscape (30 ft., Will DC 18)\nDefense\nHP\n120\nEAC\n21;\nKAC\n22\nFort\n+10;\nRef\n+8;\nWill\n+12; –4 against mind-af ecting ef ects\nDefensive Abilities\nvoid adaptation;\nDR\n10/—\nWeaknesses\nconflicting accounts\nOffense\nSpeed\n30 ft., f y 30 ft. (Su, perfect)\nMelee\nslam +18 (3d4+15 B)\nSpace\n15;\nReach\n15\nOffensive Abilities\nplot twist (DC 18)\nSpell-Like Abilities\n(CL 9th)\n1/day—\ndisplacement\n,\nholographic image\n(3rd level, DC 20)\n3/day—\nfog cloud\n,\ninvisibility\n,\nmind thrust\n(2nd level, DC 19),\nmirror image\nAt will—\ndetect thoughts\n(DC 18),\nmind thrust\n(1st level, DC 18)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+3;\nINT\n-3;\nWIS\n+1;\nCHA\n+3\nSkills\nAcrobatics +17 (+23 to fly), Athletics +22, Culture +17, Intimidate +17, Piloting +17, Stealth +17\nLanguages\ntruespeech; telepathy 100 ft\nOther Abilities\nspaceflight\nEcology\nEnvironment\nthe Drift\nOrganization\nsolitary, pair, or anthology (3–6)\nSpecial Abilities\nConflicting Accounts (Ex)\nAs a creature formed mainly from thoughts and stories, a driftspun is susceptible to psychic energy. It takes a –4 penalty to saves against mind-affecting spells and abilities, and when it fails a save against such an effect, it loses its damage reduction for 1 round.\nPlot Twist (Su)\nAs a swift action, a driftspun can manipulate its surroundings to confound and hinder opponents. All creatures except for the driftspun in the driftspun's aura must succeed a DC 18 Fortitude save or suffer one of the following ef ects (chosen by the driftspun) for 1d4 rounds (or 1 round if they disbelieved the settingscape).\nQuake\n: The affected creature treats the area of the driftspun's settingscape as difficult terrain.\nRipple\n: The affected creature is flat-footed.\nShift\n: The affected creature is off-target.\nSettingscape (Su)\nA driftspun surrounds itself with a psychic aura with the ef ects of a constant holographic terrain spell (CL 9th), changing the appearance of the environment and any items and structures within 30 feet to match the story that manifested the driftspun. Creatures that succeed at a DC 18 Will save to disbelieve this holographic terrain are immune to this driftspun's aura for 24 hours.\nDescription\nScholars believe the first driftspun was created when the Drift absorbed a part of the Akashic Record, manifesting an entity that conformed to a story. Since then, the resulting psychic radiation has spread throughout the Drift. Occasionally, travelers through the hyperspace plane f nd that the weight of the stories they tell each other on the long journeys interact with this energy to form a driftspun.\nEach driftspun has a dif erent appearance, based on the story that manifested it. Some are shapeless clouds of darkness, others larger-than-life humanoids, and a few even resemble well-known threats within the Drift. As such, a particular driftspun might deal a dif erent type of damage with its attacks or af ect foes dif erently with its plot twist ability.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

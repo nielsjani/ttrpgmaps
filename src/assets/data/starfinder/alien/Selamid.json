@@ -1,0 +1,57 @@
+{
+  "name": "Selamid",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Selamid&Family=None",
+  "source": "Starfinder #5: The Thirteenth Gate pg. 60",
+  "cr": "6",
+  "xp": "2,400",
+  "alignment": "NG",
+  "size": "Medium",
+  "creature_type": "ooze (selamid)",
+  "init": "+3",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+18",
+  "hp": "80",
+  "eac": "18",
+  "kac": "19",
+  "fort": "+7",
+  "ref": "+3",
+  "will": "+7",
+  "speed": "30 ft., climb 20 ft., swim 10 ft.",
+  "melee": "pseudopod +12 (1d6+8 B plus grab)",
+  "ranged": "advanced semi-auto pistol +14 (2d6+6 P)",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with pseudopod)",
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+5",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Athletics +18, Culture +18, Sense Motive +13, Survival +13",
+  "languages": "Common, Selamidian",
+  "other_abilities": "advanced ooze biology, compression, malleable",
+  "gear": "advanced semi-auto pistol with 12 rounds",
+  "environment": "any (Silselrik)",
+  "organization": "solitary, pair, work crew (3–12), or community (50+ plus 50% noncombatants)",
+  "special_abilities": [
+    {
+      "name": "Advanced Ooze Biology (Ex)",
+      "description": "Selamids are not immune to critical hits, are not mindless, and can gain and use skills normally. For effects targeting creatures by type, selamids count as both humanoids and oozes (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both creature types)."
+    },
+    {
+      "name": "Gravity Adaptation (Ex)",
+      "description": "Selamids can always take 10 on Athletics checks in zero gravity."
+    },
+    {
+      "name": "Malleable (Ex)",
+      "description": "A selamid can manipulate and wear equipment as a creature with two arms, and equipment and armor of the appropriate size never needs to be adjusted to allow the selamid to use it. It gains a +8 racial bonus to Acrobatics checks to escape."
+    }
+  ],
+  "description": "Adapted to survive in fluctuating gravity, selamids are creatures of complex, flexible protoplasm. Though selamids can eat nearly any organic matter, their diets usually consist of material sloughed from other oozes on their home world (see page 52). At the end of its 40-year life span, a selamid divides to “birth” new selamids.",
+  "extra_content": "The following extra content was found for this creature:\n-\nSelamid Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSelamid\nSource\nStarfinder #5: The Thirteenth Gate pg. 60\nSelamid CR 6\nXP 2,400\nNG Medium ooze (selamid)\nInit\n+3;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+18\nDefense\nHP\n80\nEAC\n18;\nKAC\n19\nFort\n+7;\nRef\n+3;\nWill\n+7; +2 vs. gravity effects\nDefensive Abilities\namorphous, gravity adaptation\nOffense\nSpeed\n30 ft., climb 20 ft., swim 10 ft.\nMelee\npseudopod +12 (1d6+8 B plus grab)\nRanged\nadvanced semi-auto pistol +14 (2d6+6 P)\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with pseudopod)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+5;\nINT\n+0;\nWIS\n+1;\nCHA\n+0\nSkills\nAthletics +18, Culture +18, Sense Motive +13, Survival +13\nLanguages\nCommon, Selamidian\nOther Abilities\nadvanced ooze biology, compression, malleable\nGear\nadvanced semi-auto pistol with 12 rounds\nEcology\nEnvironment\nany (Silselrik)\nOrganization\nsolitary, pair, work crew (3–12), or community (50+ plus 50% noncombatants)\nSpecial Abilities\nAdvanced Ooze Biology (Ex)\nSelamids are not immune to critical hits, are not mindless, and can gain and use skills normally. For effects targeting creatures by type, selamids count as both humanoids and oozes (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both creature types).\nGravity Adaptation (Ex)\nSelamids can always take 10 on Athletics checks in zero gravity.\nMalleable (Ex)\nA selamid can manipulate and wear equipment as a creature with two arms, and equipment and armor of the appropriate size never needs to be adjusted to allow the selamid to use it. It gains a +8 racial bonus to Acrobatics checks to escape.\nDescription\nAdapted to survive in fluctuating gravity, selamids are creatures of complex, flexible protoplasm. Though selamids can eat nearly any organic matter, their diets usually consist of material sloughed from other oozes on their home world (see page 52). At the end of its 40-year life span, a selamid divides to “birth” new selamids.\nExtra Content\nThe following extra content was found for this creature:\n-\nSelamid Race Entry",
+  "type": "ooze (selamid)",
+  "category": "alien"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Aqlath",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Aqlath&Family=None",
+  "source": "Starfinder #33: Dominion’s End pg. 55",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "monstrous humanoid",
+  "init": "+7",
+  "senses": "darkvision 60 ft;",
+  "perception": "+28",
+  "hp": "300",
+  "eac": "30",
+  "kac": "32",
+  "fort": "+20",
+  "ref": "+18",
+  "will": "+16",
+  "immunities": "cold;",
+  "resistances": "acid 10",
+  "speed": "30 ft.",
+  "melee": "gore +31 (6d10+26 P)",
+  "ranged": "ice shard +28 (7d6+16 C & S; critical staggered [DC 22])",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "psychic horns",
+  "spell_like_abilities": {
+    "caster_info": "CL 16th",
+    "spells": "1/day—\nmass inflict pain\n(DC 22)\n3/day—\nmind thrust\n(5th level; DC 21)\nAt will—\nhold monster\n(DC 20),\nshare language"
+  },
+  "ability_scores": {
+    "str": "+10",
+    "dex": "+4",
+    "con": "+7",
+    "int": "+3",
+    "wis": "+5",
+    "cha": "+2"
+  },
+  "skills": "Athletics +33, Mysticism +28, Survival +28",
+  "languages": "Aqlathian",
+  "environment": "any (Lathlath IV)",
+  "organization": "solitary, pair, or squad (3–6)",
+  "special_abilities": [
+    {
+      "name": "Ice Shard (Su)",
+      "description": "As a ranged attack, an aqlath can psychically manifest and hurl a shard of ice. This attack targets EAC and has a range of 40 feet."
+    },
+    {
+      "name": "Psychic Horns (Su)",
+      "description": "An aqlath’s crown of horns is a psychic manifestation that allows them to wrench revitalizing energy from an enemy’s mind. An aqlath’s crown always has as many protrusions as their current number of Resolve Points. When a creature fails a saving throw against one of the aqlath’s mind-affecting spell-like abilities, the aqlath can spend 1 Resolve Point as a reaction to regain 40 Hit Points. When an aqlath has 0 Resolve Points (and therefore no more horns in their crown), they can’t use their spell-like abilities."
+    }
+  ],
+  "description": "Aqlaths resemble shaggy, humanoid boars with large tusks and three legs. As the predominant species on Lathlath IV, these creatures have adapted to the perpetual winter caused by the inhospitable planet’s distant position from its sun. Aqlaths value physical might and insight, and over thousands of generations, their people have grown strong and developed powerful communal bonds. Good sites to build large cities on Lathlath are rare; yet long ago, aqlaths learned to hew the permafrost and stone of their cold world, working together to create settlements and fortifications. Aqlaths warm their buildings by tapping into geothermal heat beneath the thick planetary crust. Centuries of digging for heat have made aqlaths skilled miners, and they’ve learned that the crust of their world contains many rare and valuable elements. Their sudden arrival in interplanetary trading markets has attracted many enemies who wish to subjugate the aqlaths and steal their planet’s wealth—including sivvs.\nEven a young aqlath towers several feet taller than a human. Aqlaths grow ever larger as they age, reaching heights of 15 feet or more. As they mature, aqlaths develop psychic abilities that allow them to inflict their will on others. These abilities manifest as a crown of psychically charged bone horns sprouting from their furry heads. Larger aqlaths have bigger and more numerous horns, therefore possessing stronger psychic abilities. Only the most misanthropic aqlaths use their psychic abilities against others of their species; as with their great strength, aqlaths hone their mental powers only to defend their world against alien aggressors.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAqlath\nSource\nStarfinder #33: Dominion’s End pg. 55\nAqlath CR 16\nXP 76,800\nN Large monstrous humanoid\nInit\n+7;\nSenses\ndarkvision 60 ft;\nPerception\n+28\nDefense\nHP\n300;\nRP\n6\nEAC\n30;\nKAC\n32\nFort\n+20;\nRef\n+18;\nWill\n+16\nDefensive Abilities\nferocity;\nImmunities\ncold;\nResistances\nacid 10\nOffense\nSpeed\n30 ft.\nMelee\ngore +31 (6d10+26 P)\nRanged\nice shard +28 (7d6+16 C & S; critical staggered [DC 22])\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\npsychic horns\nSpell-Like Abilities\n(CL 16th)\n1/day—\nmass inflict pain\n(DC 22)\n3/day—\nmind thrust\n(5th level; DC 21)\nAt will—\nhold monster\n(DC 20),\nshare language\nStatistics\nSTR\n+10;\nDEX\n+4;\nCON\n+7;\nINT\n+3;\nWIS\n+5;\nCHA\n+2\nSkills\nAthletics +33, Mysticism +28, Survival +28\nLanguages\nAqlathian\nEcology\nEnvironment\nany (Lathlath IV)\nOrganization\nsolitary, pair, or squad (3–6)\nSpecial Abilities\nIce Shard (Su)\nAs a ranged attack, an aqlath can psychically manifest and hurl a shard of ice. This attack targets EAC and has a range of 40 feet.\nPsychic Horns (Su)\nAn aqlath’s crown of horns is a psychic manifestation that allows them to wrench revitalizing energy from an enemy’s mind. An aqlath’s crown always has as many protrusions as their current number of Resolve Points. When a creature fails a saving throw against one of the aqlath’s mind-affecting spell-like abilities, the aqlath can spend 1 Resolve Point as a reaction to regain 40 Hit Points. When an aqlath has 0 Resolve Points (and therefore no more horns in their crown), they can’t use their spell-like abilities.\nDescription\nAqlaths resemble shaggy, humanoid boars with large tusks and three legs. As the predominant species on Lathlath IV, these creatures have adapted to the perpetual winter caused by the inhospitable planet’s distant position from its sun. Aqlaths value physical might and insight, and over thousands of generations, their people have grown strong and developed powerful communal bonds. Good sites to build large cities on Lathlath are rare; yet long ago, aqlaths learned to hew the permafrost and stone of their cold world, working together to create settlements and fortifications. Aqlaths warm their buildings by tapping into geothermal heat beneath the thick planetary crust. Centuries of digging for heat have made aqlaths skilled miners, and they’ve learned that the crust of their world contains many rare and valuable elements. Their sudden arrival in interplanetary trading markets has attracted many enemies who wish to subjugate the aqlaths and steal their planet’s wealth—including sivvs.\nEven a young aqlath towers several feet taller than a human. Aqlaths grow ever larger as they age, reaching heights of 15 feet or more. As they mature, aqlaths develop psychic abilities that allow them to inflict their will on others. These abilities manifest as a crown of psychically charged bone horns sprouting from their furry heads. Larger aqlaths have bigger and more numerous horns, therefore possessing stronger psychic abilities. Only the most misanthropic aqlaths use their psychic abilities against others of their species; as with their great strength, aqlaths hone their mental powers only to defend their world against alien aggressors.",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

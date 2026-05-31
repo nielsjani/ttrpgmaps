@@ -1,0 +1,47 @@
+{
+  "name": "Sports Figures, Brutaris Lock-back",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Brutaris Lock-back&Family=Sports Figures",
+  "source": "Interstellar Species pg. 179",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "CN",
+  "size": "Large",
+  "creature_type": "magical beast",
+  "init": "+3",
+  "senses": "low-light vision;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+14",
+  "ref": "+14",
+  "will": "+9",
+  "speed": "40 ft., climb 20 ft. (35 ft., climb 15 ft. in armor)",
+  "melee": "bite  +23 (2d10+15 S) Space 10 ft.; Reach 5 ft.",
+  "space": "10 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "ferocious charge, unstoppable momentum",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+8",
+    "int": "+3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +19, Athletics +24, Intimidate +19",
+  "feats": "Improved Combat Maneuver (bull rush)",
+  "languages": "Common; limited telepathy  30 ft.",
+  "gear": "kyokor plating III",
+  "special_abilities": [
+    {
+      "name": "Unstoppable Momentum (Ex)",
+      "description": "When using the ferocious charge ability, a brutaris lock-back can attempt a bull rush in the place of the trip attempt. If the bull rush attempt succeeds, treat the result as 5 higher for the purpose of determining the distance the target is knocked back."
+    }
+  ],
+  "description": "In the Pact Worlds sport of brutaris, the role of the lock-back, or demoralizer, is traditionally given to the biggest or toughest member of the team. Brutaris team owners find lock-backs who exhibit a combination of strength, swiftness, and especially ferocity make for highly entertaining matches with lots of ad revenue; thus, the most illustrious brutaris teams center the lock-back in their line-up.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSports Figures\nSource\nInterstellar Species pg. 179\nAcross the universe, sapient species have independently discovered the societal benefits of friendly (and not-so-friendly) competition—as well as the fame and fortune that can be made by widely broadcasting such competitions to die-hard fans. While some cultures thrive on intellectual games of skill and strategy, others revel in fast-paced displays of martial might, brute strength, or deadly struggle. No matter the culture, those who succeed in these displays of wit and brawn can amass quite a bit of wealth, cultural clout, and even interplanetary notoriety.\nSports figures are direct and to-the-point combatants with a focus on physicality, dexterity, or brute force, and they can easily serve in any role where violence is a means to an end. Re-skinned sports figures might serve as flashy mercenaries, daring pirates, specially trained guards, or hired muscle.\nAliens in the \"Sports Figures\" Family\nName\nCR\nBattleflower Master\n16\nBrutaris Lock-back\n10\nMagical Duelist\n6\nParabolas Revivalist\n2\nSports Figures, Brutaris Lock-back\nSource\nInterstellar Species pg. 179\nBrutaris Lock-back CR 10\nXP 9,600\nUplifted bear\nCN Large magical beast\nInit\n+3;\nSenses\nlow-light vision;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+14;\nRef\n+14;\nWill\n+9\nOffense\nSpeed\n40 ft., climb 20 ft. (35 ft., climb 15 ft. in armor)\nMelee\nbite  +23 (2d10+15 S) Space 10 ft.; Reach 5 ft.\nOffensive Abilities\nferocious charge, unstoppable momentum\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+8;\nINT\n+3;\nWIS\n+0;\nCHA\n+0\nFeats\nImproved Combat Maneuver (bull rush)\nSkills\nAcrobatics +19, Athletics +24, Intimidate +19\nLanguages\nCommon; limited telepathy  30 ft.\nGear\nkyokor plating III\nSpecial Abilities\nUnstoppable Momentum (Ex)\nWhen using the ferocious charge ability, a brutaris lock-back can attempt a bull rush in the place of the trip attempt. If the bull rush attempt succeeds, treat the result as 5 higher for the purpose of determining the distance the target is knocked back.\nDescription\nIn the Pact Worlds sport of brutaris, the role of the lock-back, or demoralizer, is traditionally given to the biggest or toughest member of the team. Brutaris team owners find lock-backs who exhibit a combination of strength, swiftness, and especially ferocity make for highly entertaining matches with lots of ad revenue; thus, the most illustrious brutaris teams center the lock-back in their line-up.",
+  "type": "magical beast",
+  "environment": "—",
+  "category": "alien"
+}

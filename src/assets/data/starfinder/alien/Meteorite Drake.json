@@ -1,0 +1,55 @@
+{
+  "name": "Meteorite Drake",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Meteorite Drake&Family=None",
+  "source": "Starfinder #32: The Starstone Blockade pg. 56",
+  "cr": "16",
+  "xp": "76,800",
+  "alignment": "N",
+  "size": "Small",
+  "creature_type": "magical beast (earth)",
+  "init": "+7",
+  "senses": "blindsight (vibration) 60 ft., darkvision 200 ft.;",
+  "perception": "+33",
+  "hp": "300",
+  "eac": "30",
+  "kac": "32",
+  "fort": "+20",
+  "ref": "+20",
+  "will": "+14",
+  "dr": "10/adamantine",
+  "immunities": "fire",
+  "speed": "20 ft., burrow 10 ft., fly 200 ft. (Su, perfect)",
+  "melee": "claw +31 (6d10+26 S plus grab and carry off)",
+  "ranged": "hurl micrometeorite +27 (6d10+16 B)",
+  "offensive_abilities": "explosive impact, ferocious charge",
+  "ability_scores": {
+    "str": "+10",
+    "dex": "+7",
+    "con": "+5",
+    "int": "-1",
+    "wis": "+3",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +28 (+36 to fly), Athletics +28, Stealth +28",
+  "feats": "Spring Attack",
+  "environment": "any high elevation",
+  "organization": "solitary, pair, or shower (3–10)",
+  "special_abilities": [
+    {
+      "name": "Carry Off (Ex)",
+      "description": "A meteorite drake is extremely strong and can carry things much heavier than itself. If the drake grapples a target of Large size or smaller, it can bring the creature with it when it flies. This ability can be combined with Spring Attack. If the target is Medium, the drake’s fly speed is reduced to 100 feet (average); if the target is Large, the drake’s fly speed is reduced to 50 feet (clumsy) and the drake is flat footed."
+    },
+    {
+      "name": "Explosive Impact (Ex)",
+      "description": "As a full action, a meteorite drake can fly up to twice its speed and slam into a hard surface, creating a 20 ft. radius explosion centered on the point of impact. Any creature in the blast must succeed at a DC 22 Reflex save or take 17d10 bludgeoning and fire damage and be knocked prone (a successful save halves the damage and negates the prone condition). The drake retains some heat from this explosion, making its attacks more dangerous but softening its stony hide. For the next 1d4+1 rounds, the drake’s attacks deal an extra 2d6 fire damage, it loses the benefit of its damage reduction, and it cannot use explosive impact."
+    },
+    {
+      "name": "Hurl Micrometeorite (Ex)",
+      "description": "As a standard action, a meteorite drake can rip off and hurl a piece of its stony hide. This attack has a range increment of 30 feet and deals 1d6 damage to the meteorite drake."
+    }
+  ],
+  "description": "Though meteorite drakes bear a striking resemblance to dragons, these high-flying predators are not actually related to them. With a short stature and wide wingspan, a meteorite drake is frequently misidentified as an ordinary bird of prey as it circles overhead—a mistake that often proves fatal. Like raptors, the meteorite drake takes advantage of its blazing speed to swoop down on unsuspecting prey and attack with its vicious talons. Deceptively strong for its size, the drake can also carry off prey much larger than itself. Unafraid to take on large groups of creatures to secure a meal, the drake emulates its astronomical namesake by slamming into the ground at a high speed. Protected from the impact and the resulting explosion by its stony hide, it carries off its choice of prey in the resulting confusion.\nFound on planets throughout Near Space, the meteorite drake lays eggs deep within large boulders that it then hurls into space. The eggs lay dormant within these stony cradles for years—even millennia—until incubated by the heat of reentry into the atmosphere of their new home.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMeteorite Drake\nSource\nStarfinder #32: The Starstone Blockade pg. 56\nMeteorite Drake CR 16\nXP 76,800\nN Small magical beast (earth)\nInit\n+7;\nSenses\nblindsight (vibration) 60 ft., darkvision 200 ft.;\nPerception\n+33\nDefense\nHP\n300\nEAC\n30;\nKAC\n32\nFort\n+20;\nRef\n+20;\nWill\n+14\nDR\n10/adamantine;\nImmunities\nfire\nOffense\nSpeed\n20 ft., burrow 10 ft., fly 200 ft. (Su, perfect)\nMelee\nclaw +31 (6d10+26 S plus grab and carry off)\nRanged\nhurl micrometeorite +27 (6d10+16 B)\nOffensive Abilities\nexplosive impact, ferocious charge\nStatistics\nSTR\n+10;\nDEX\n+7;\nCON\n+5;\nINT\n-1;\nWIS\n+3;\nCHA\n+0\nFeats\nSpring Attack\nSkills\nAcrobatics +28 (+36 to fly), Athletics +28, Stealth +28\nEcology\nEnvironment\nany high elevation\nOrganization\nsolitary, pair, or shower (3–10)\nSpecial Abilities\nCarry Off (Ex)\nA meteorite drake is extremely strong and can carry things much heavier than itself. If the drake grapples a target of Large size or smaller, it can bring the creature with it when it flies. This ability can be combined with Spring Attack. If the target is Medium, the drake’s fly speed is reduced to 100 feet (average); if the target is Large, the drake’s fly speed is reduced to 50 feet (clumsy) and the drake is flat footed.\nExplosive Impact (Ex)\nAs a full action, a meteorite drake can fly up to twice its speed and slam into a hard surface, creating a 20 ft. radius explosion centered on the point of impact. Any creature in the blast must succeed at a DC 22 Reflex save or take 17d10 bludgeoning and fire damage and be knocked prone (a successful save halves the damage and negates the prone condition). The drake retains some heat from this explosion, making its attacks more dangerous but softening its stony hide. For the next 1d4+1 rounds, the drake’s attacks deal an extra 2d6 fire damage, it loses the benefit of its damage reduction, and it cannot use explosive impact.\nHurl Micrometeorite (Ex)\nAs a standard action, a meteorite drake can rip off and hurl a piece of its stony hide. This attack has a range increment of 30 feet and deals 1d6 damage to the meteorite drake.\nDescription\nThough meteorite drakes bear a striking resemblance to dragons, these high-flying predators are not actually related to them. With a short stature and wide wingspan, a meteorite drake is frequently misidentified as an ordinary bird of prey as it circles overhead—a mistake that often proves fatal. Like raptors, the meteorite drake takes advantage of its blazing speed to swoop down on unsuspecting prey and attack with its vicious talons. Deceptively strong for its size, the drake can also carry off prey much larger than itself. Unafraid to take on large groups of creatures to secure a meal, the drake emulates its astronomical namesake by slamming into the ground at a high speed. Protected from the impact and the resulting explosion by its stony hide, it carries off its choice of prey in the resulting confusion.\nFound on planets throughout Near Space, the meteorite drake lays eggs deep within large boulders that it then hurls into space. The eggs lay dormant within these stony cradles for years—even millennia—until incubated by the heat of reentry into the atmosphere of their new home.",
+  "type": "magical beast (earth)",
+  "category": "alien"
+}

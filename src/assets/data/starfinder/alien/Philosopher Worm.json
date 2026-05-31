@@ -1,0 +1,57 @@
+{
+  "name": "Philosopher Worm",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Philosopher Worm&Family=Philosopher Worm",
+  "source": "Alien Archive 3 pg. 78",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "LG",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+0",
+  "senses": "blindsense (thought) 60 ft., darkvision 60 ft.;",
+  "perception": "+14",
+  "hp": "100",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+8",
+  "ref": "+6",
+  "will": "+12",
+  "speed": "30 ft.",
+  "melee": "claw +15 (1d8+7 P)",
+  "offensive_abilities": "reality eddy",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th; ranged +16",
+    "spells": "1/day—\ndispel magic\n,\ndivination\n,\nsynaptic pulse\n(DC 18)\n3/day—\naugury\n,\nstatus\n,\nmind thrust\n(2nd level; DC 17),\ntelepathic bond\nAt will—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\nmindlink\n,\npsychokinetic hand\n,\ntelekinetic projectile"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+0",
+    "con": "+1",
+    "int": "+4",
+    "wis": "+4",
+    "cha": "+4"
+  },
+  "skills": "Culture +14, Diplomacy +19, Life Science +14, Medicine +14, Mysticism +19, Sense Motive +19",
+  "languages": "Common, Nchaki, Shirren, and up to three others; telepathy 60 ft.",
+  "other_abilities": "evaluate",
+  "environment": "any (Nchak)",
+  "organization": "solitary, pair, or synod (3–9)",
+  "special_abilities": [
+    {
+      "name": "Evaluate (Su)",
+      "description": "A philosopher worm can cast\ndetect thoughts\nas a swift action, and when cast, the spell works as if it had been active for 3 rounds. If the worm reads a creature’s surface thoughts and the creature fails the saving throw against the spell, the worm also learns the creature’s defensive abilities, weaknesses, and active defenses from items or spells."
+    },
+    {
+      "name": "Reality Eddy (Sp)",
+      "description": "A philosopher worm can sense the metaphysical weave underlying reality and manipulate it to devastating effect. This ability works like the cosmic eddy spell (Reflex DC 19), except the damage it deals has the force descriptor and the eddy has a duration of only 1 round. Once a philosopher worm has used this ability, it can only do so again after 1 hour."
+    },
+    {
+      "name": "Soothing Presence (Su)",
+      "description": "A creature in the aura must succeed at a DC 17 Will saving throw to attempt to harm the philosopher worm. A creature that succeeds at the saving throw or is attacked by any philosopher worm is immune to this aura from any philosopher worm for 24 hours. The philosopher worm has a +4 insight bonus to Diplomacy checks made to influence affected insectile creatures of any creature type in this aura. Although the aura is a mind-affecting compulsion, mindless vermin aren’t immune to it."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPhilosopher Worm\nSource\nAlien Archive 3 pg. 78\nThe sapient arthropods of Nchak are unified in their veneration of the Forever Queen, whom they believe to be a mortal incarnation of the goddess Hylax. As efficient as autocracies can be, the unwillingness of subjects to question their ruler’s judgment can be a fatal weakness. To correct this potential problem, the first Forever Queen established a caste of trusted advisors she called the philosopher worms.\nUnlike most of Nchak’s residents, a philosopher worm has only a few arthropodan features. It has an insectile thorax and six arms, but its lower body resembles that of a segmented worm. Its head is a flat, half-moon shape—a vertical semicircle of hardened flesh bearing a line of illuminated runes along its curved edge. The philosopher worms’ runes, which pulse in time with the beating of its three hearts, are manifestations of innate psychic magic and act as the creature’s sensory organs. An average philosopher worm is 8 feet long and weighs 500 pounds, but they grow throughout their long lives. The oldest can be up to 16 feet long and weigh more than 2 tons.\nPhilosopher worms occupy a unique role in the Forever Queen’s government. Although a vital part of church and state, they remain separate from both, acting with autonomy. The worms focus their minds on deciphering the intricacies of the universe. Through a mixture of magic and teleological reasoning, the worms study what they describe as the “metaphysical threads” from which the gods wove reality, manipulating them to learn hidden knowledge or future events. They use what they learn to educate the Forever Queen and challenge her thinking on matters of state, ensuring she benefits from their scholarship.\nOnly the most prestigious and accomplished worms warrant regular audiences with the queen. Most significant among these is the teleologarch, who acts as the queen’s primary advisor and is second only to her in authority. Philosopher worms who have yet to rise to such positions either assist their elders or organize other Nchaki citizens for institutional projects. Numerous trox serve the philosopher worms directly, most often working as the muscle and face to the worms’ intellect and political wishes. Most such trox serve as explorers, laborers, or sentinels, but some are aides, diplomats, or students. These trox act as surrogates for the worms in the wider galaxy, facilitating the worms’ aims and studies. This connection between the two species, which the trox are unforthcoming about, has led to all sorts of conspiracy theories about the nature of the philosopher worms. However, the trox speak the truth when they say the worms loyally serve the benevolent Forever Queen.\nShirrens are second only to trox in their service to philosopher worms. Since shirrens arrived in the Pact Worlds and rediscovered their ties to Hylax, countless shirrens have sought to serve on Nchak. Few shirrens work for a philosopher worm directly, instead taking positions in a worm’s staff, subordinate to the trox. However, the shirrens have been in the Pact Worlds for centuries now, and several have risen to prominence on Nchak and studied directly with the worms.\nAliens in the \"Philosopher Worm\" Family\nName\nCR\nPhilosopher Worm\n7\nPhilosopher Worm Teleologarch\n16\nPhilosopher Worm\nSource\nAlien Archive 3 pg. 78\nPhilosopher Worm CR 7\nXP 3,200\nLG Medium monstrous humanoid\nInit\n+0;\nSenses\nblindsense (thought) 60 ft., darkvision 60 ft.;\nPerception\n+14\nAura\nsoothing presence (60 ft., Will DC 17)\nDefense\nHP\n100\nEAC\n19;\nKAC\n20\nFort\n+8;\nRef\n+6;\nWill\n+12\nOffense\nSpeed\n30 ft.\nMelee\nclaw +15 (1d8+7 P)\nOffensive Abilities\nreality eddy\nSpell-Like Abilities\n(CL 7th; ranged +16)\n1/day—\ndispel magic\n,\ndivination\n,\nsynaptic pulse\n(DC 18)\n3/day—\naugury\n,\nstatus\n,\nmind thrust\n(2nd level; DC 17),\ntelepathic bond\nAt will—\ncommand\n(DC 16),\ndetect thoughts\n(DC 16),\nmindlink\n,\npsychokinetic hand\n,\ntelekinetic projectile\nStatistics\nSTR\n+0;\nDEX\n+0;\nCON\n+1;\nINT\n+4;\nWIS\n+4;\nCHA\n+4\nSkills\nCulture +14, Diplomacy +19, Life Science +14, Medicine +14, Mysticism +19, Sense Motive +19\nLanguages\nCommon, Nchaki, Shirren, and up to three others; telepathy 60 ft.\nOther Abilities\nevaluate\nEcology\nEnvironment\nany (Nchak)\nOrganization\nsolitary, pair, or synod (3–9)\nSpecial Abilities\nEvaluate (Su)\nA philosopher worm can cast\ndetect thoughts\nas a swift action, and when cast, the spell works as if it had been active for 3 rounds. If the worm reads a creature’s surface thoughts and the creature fails the saving throw against the spell, the worm also learns the creature’s defensive abilities, weaknesses, and active defenses from items or spells.\nReality Eddy (Sp)\nA philosopher worm can sense the metaphysical weave underlying reality and manipulate it to devastating effect. This ability works like the cosmic eddy spell (Reflex DC 19), except the damage it deals has the force descriptor and the eddy has a duration of only 1 round. Once a philosopher worm has used this ability, it can only do so again after 1 hour.\nSoothing Presence (Su)\nA creature in the aura must succeed at a DC 17 Will saving throw to attempt to harm the philosopher worm. A creature that succeeds at the saving throw or is attacked by any philosopher worm is immune to this aura from any philosopher worm for 24 hours. The philosopher worm has a +4 insight bonus to Diplomacy checks made to influence affected insectile creatures of any creature type in this aura. Although the aura is a mind-affecting compulsion, mindless vermin aren’t immune to it.",
+  "type": "monstrous humanoid",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA3_Philosopher_Worm.png"
+}

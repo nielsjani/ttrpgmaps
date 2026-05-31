@@ -1,0 +1,51 @@
+{
+  "name": "Mohrg",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mohrg&Family=None",
+  "source": "Starfinder Dead Suns Adventure Path pg. 276",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "undead",
+  "init": "+4",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+16",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+9",
+  "immunities": "undead immunities",
+  "speed": "30 ft.",
+  "melee": "clawed tongue +19 (1d6+14 S plus paralyzing touch [DC 18]) orslam +19 (1d10+14 B)",
+  "offensive_abilities": "create spawn, paralyzing touch (DC 18)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "—",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+2"
+  },
+  "skills": "Acrobatics +16, Athletics +21, Stealth +16",
+  "languages": "Common, Eoxian",
+  "other_abilities": "unliving",
+  "environment": "any",
+  "organization": "solitary, gang (2–4), or mob (3–5 plus 4–12 occult zombies)",
+  "special_abilities": [
+    {
+      "name": "Create Spawn (Su)",
+      "description": "A living humanoid creature slain by a mohrg’s slam attack rises immediately as an occult zombie of a CR equal to the victim’s CR or level. This zombie is permanently under the mohrg’s control. The mohrg recovers 1d8+4 Hit Points from the surge of negative energy created by the spawning process."
+    },
+    {
+      "name": "Paralyzing Touch (Su)",
+      "description": "A mohrg uses its clawed tongue to make its first melee attack each round. If a target is struck and damaged by this attack, it must succeed at a DC 18 Fortitude save or be paralyzed for 1d4 minutes."
+    }
+  ],
+  "description": "A mohrg is a horrific undead that appears to be an ambulatory skeleton with a writhing, rotting mass of intestines held within its ribcage (or the creature’s anatomical equivalent). A tendril of these intestines winds up into the mohrg’s mouth, with a clawed tongue at the end. Though mohrgs can wear clothing and armor, they usually don’t (or they wear clothes that expose their torsos), ensuring that their horrific appearances are maintained and their clawed tongues remain free to make attacks.\nMohrgs are created from the souls of those who revel in killing sentient victims, preferably in ways that bring considerable pain and suffering. In life, most mohrgs were executioners, murderers, torturers, or warmongering soldiers who dedicated themselves to spilling blood and eliciting tortured cries. So strong are these urges that even death can’t stop them, and while the rest of their bodies rot away, a vile core of their bones and guts remains.\nEarly in a mohrg’s existence, its need to kill often overrides its desire for self-preservation, leading many to take extreme risks to reach more victims, which sometimes leads to their own destruction. But as they age and grow more powerful, mohrgs become more cunning about fulfilling their urges. They often become part of larger groups, ranging from packs of undead roaming the dark places near civilization to organized military units such as the Corpse Fleet. They use their positions within such groups to ensure their bloodlust can be slaked consistently for centuries to come.",
+  "extra_content": "The following extra content was found for this creature:\n-\nMohrg (Other) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMohrg\nSource\nStarfinder Dead Suns Adventure Path pg. 276\n,\nStarfinder #6: Empire of Bones pg. 59\nMohrg CR 8\nXP 4,800\nCE Medium undead\nInit\n+4;\nSenses\ndarkvision 60 ft.;\nPerception\n+16\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+10;\nWill\n+9\nImmunities\nundead immunities\nOffense\nSpeed\n30 ft.\nMelee\nclawed tongue +19 (1d6+14 S plus paralyzing touch [DC 18]) orslam +19 (1d10+14 B)\nMultiattack\n2 slams +13 (1d10+14 B) and clawed tongue +13 (1d6+14 S plus paralyzing touch [DC 18])\nOffensive Abilities\ncreate spawn, paralyzing touch (DC 18)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n—;\nINT\n+0;\nWIS\n+0;\nCHA\n+2\nSkills\nAcrobatics +16, Athletics +21, Stealth +16\nLanguages\nCommon, Eoxian\nOther Abilities\nunliving\nEcology\nEnvironment\nany\nOrganization\nsolitary, gang (2–4), or mob (3–5 plus 4–12 occult zombies)\nSpecial Abilities\nCreate Spawn (Su)\nA living humanoid creature slain by a mohrg’s slam attack rises immediately as an occult zombie of a CR equal to the victim’s CR or level. This zombie is permanently under the mohrg’s control. The mohrg recovers 1d8+4 Hit Points from the surge of negative energy created by the spawning process.\nParalyzing Touch (Su)\nA mohrg uses its clawed tongue to make its first melee attack each round. If a target is struck and damaged by this attack, it must succeed at a DC 18 Fortitude save or be paralyzed for 1d4 minutes.\nDescription\nA mohrg is a horrific undead that appears to be an ambulatory skeleton with a writhing, rotting mass of intestines held within its ribcage (or the creature’s anatomical equivalent). A tendril of these intestines winds up into the mohrg’s mouth, with a clawed tongue at the end. Though mohrgs can wear clothing and armor, they usually don’t (or they wear clothes that expose their torsos), ensuring that their horrific appearances are maintained and their clawed tongues remain free to make attacks.\nMohrgs are created from the souls of those who revel in killing sentient victims, preferably in ways that bring considerable pain and suffering. In life, most mohrgs were executioners, murderers, torturers, or warmongering soldiers who dedicated themselves to spilling blood and eliciting tortured cries. So strong are these urges that even death can’t stop them, and while the rest of their bodies rot away, a vile core of their bones and guts remains.\nEarly in a mohrg’s existence, its need to kill often overrides its desire for self-preservation, leading many to take extreme risks to reach more victims, which sometimes leads to their own destruction. But as they age and grow more powerful, mohrgs become more cunning about fulfilling their urges. They often become part of larger groups, ranging from packs of undead roaming the dark places near civilization to organized military units such as the Corpse Fleet. They use their positions within such groups to ensure their bloodlust can be slaked consistently for centuries to come.\nExtra Content\nThe following extra content was found for this creature:\n-\nMohrg (Other) Graft Template",
+  "type": "undead",
+  "category": "alien"
+}

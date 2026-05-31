@@ -1,0 +1,48 @@
+{
+  "name": "Solar Wisp, Juvenile Solar Wisp",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Juvenile Solar Wisp&Family=Solar Wisp",
+  "source": "Alien Archive 2 pg. 116",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "outsider (air, elemental, fire, native)",
+  "init": "+5",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+11",
+  "hp": "63",
+  "eac": "17",
+  "kac": "19",
+  "fort": "+9",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "elemental immunities, fire, radiation",
+  "weaknesses": "vulnerable to cold",
+  "speed": "fly 30 ft. (Su, perfect)",
+  "melee": "slam +15 (1d6+8 F)",
+  "space": "15 ft.",
+  "reach": "5 ft.",
+  "offensive_abilities": "engulf (1d6+8 F, DC 13)",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+5",
+    "con": "+2",
+    "int": "-3",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16 (+24 to fly)",
+  "other_abilities": "aglow (20 ft.), solar adaptation, spaceflight",
+  "environment": "temperate or warm land or vacuum",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Aglow (Ex)",
+      "description": "A solar wisp increases the light level by one step out to a radius of 10 feet × half the solar wisp’s CR."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSolar Wisp\nSource\nAlien Archive 2 pg. 116\nLife exists in myriad forms across the universe, dwelling everywhere from the vast depths of space to the heart of a star—and the places in between. Solar wisps are blobs of ejecta from a sun’s corona that have taken on a modicum of sentience. No one is exactly sure how solar wisps originate, though some believe it is Sarenrae’s divine will, while others point toward a consciousness similar to that of elementals, claiming that solar wisps are nothing more than cousins of fire elementals. But while it is true solar wisps are amorphous orbs of burning plasma with almost animal-level intelligence, the similarities end there. These creatures have a long and unique life cycle that begins in a star and can end in calamity.\nWhen a solar wisp is “born,” it measures about 20 feet in diameter, but the material of its being is loosely held together by minor gravitational forces. At this point, a solar wisp isn’t much more than a red-hot cloud of colloidal matter. Driven by instinct, the solar wisp attaches itself to a nearby fast-moving celestial body (usually a comet), which eventually takes it close to a planet or moon containing the minerals on which the solar wisp feeds. As it burns its way across such a landscape, the solar wisp gains more mass but shrinks in size. Responding to unknown stimuli, the solar wisp launches itself back into space to latch onto another comet or meteor to repeat the process.\nAs a solar wisp feeds and ages, it increases in density but decreases in diameter. Despite its reduction in size to a mere few feet in diameter, a mature solar wisp burns with far greater intensity and is much more dangerous than a juvenile. A solar wisp of any age and size can pose a threat, however, as it is unwavering in its pursuit of food, consuming the minerals it seeks out in its internal furnace. This can be a destructive process that puts it in conflict with other species—especially if those species also rely on the same minerals for economic stability. Most creatures that attempt to stop a mature solar wisp underestimate its abilities thanks to its small size. Its effects on local gravity and its intense heat mean that most who confront a solar wisp are lucky if they get away with only severe burns.\nThough it has a life span measured in centuries—and sometimes multiple thousands of years—a solar wisp does eventually die. An elderly solar wisp is a tiny ball that burns like a nuclear explosion, and when it expires, it implodes into a gravitational singularity that affects a half-mile radius. Though this miniature black hole lasts for less than an hour, it poses a great danger to those caught in its pull. A recent report from Near Space tells of an entire nascent colony wiped out by a dying solar wisp that, until then, had served as a kind of mascot and beacon for the unfortunate settlers.\nPhotino Crystals\nIn their travels, solar wisps sometimes shed portions of themselves, which cool rapidly into a glittering stream of beautiful bright-orange jewels called\nphotino crystals\nthat are used throughout the Pact Worlds (and beyond) as naturally occurring solarian weapon crystals. A few small starship crews make a dangerous living by following wisps— at a great distance—and waiting for this molting, scooping up the resulting jewels until their cargo holds are full, and then returning to a safer location to sort them by quality. Despite the danger inherent in collecting the gems, these solarian weapon crystals are widely available, especially in the sun’s Burning Archipelago in the Pact Worlds; aboard the kasathan worldship the\nIdari\n; and in Fullbright, Verces’s scorched, sun-facing hemisphere.\nAliens in the \"Solar Wisp\" Family\nName\nCR\nJuvenile Solar Wisp\n5\nMature Solar Wisp\n19\nSolar Wisp, Juvenile Solar Wisp\nSource\nAlien Archive 2 pg. 116\nJuvenile Solar Wisp CR 5\nXP 1,600\nN Huge outsider (air, elemental, fire, native)\nInit\n+5;\nSenses\ndarkvision 60 ft.;\nPerception\n+11\nDefense\nHP\n63\nEAC\n17;\nKAC\n19\nFort\n+9;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nvoid adaptation;\nImmunities\nelemental immunities, fire, radiation\nWeaknesses\nvulnerable to cold\nOffense\nSpeed\nfly 30 ft. (Su, perfect)\nMelee\nslam +15 (1d6+8 F)\nSpace\n15 ft.;\nReach\n5 ft.\nOffensive Abilities\nengulf (1d6+8 F, DC 13)\nStatistics\nSTR\n+3;\nDEX\n+5;\nCON\n+2;\nINT\n-3;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +16 (+24 to fly)\nOther Abilities\naglow (20 ft.), solar adaptation, spaceflight\nEcology\nEnvironment\ntemperate or warm land or vacuum\nOrganization\nsolitary\nSpecial Abilities\nAglow (Ex)\nA solar wisp increases the light level by one step out to a radius of 10 feet × half the solar wisp’s CR.",
+  "type": "outsider (air, elemental, fire, native)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA2_Solar_Wisp.png"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Drake, Radiation Drake",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Radiation Drake&Family=Drake",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 56",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "CE",
+  "size": "Large",
+  "creature_type": "dragon",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+13",
+  "ref": "+13",
+  "will": "+10",
+  "dr": "5/magic",
+  "immunities": "paralysis, radiation, sleep",
+  "speed": "30 ft., fly 60 ft. (Ex, average)",
+  "melee": "bite +22 (2d10+15 P plus radiation exposure)",
+  "ranged": "atomic bolt +19 (3d10+3 F plus radiation exposure; critical burn 2d6)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "breath weapon (30-ft. cone, 6d10 F plus radiation exposure, Reflex DC 16 half, usable every 1d6 rounds)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+3",
+    "int": "-2",
+    "wis": "+2",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +17, Intimidate +22, Survival +17",
+  "languages": "Draconic",
+  "environment": "any",
+  "organization": "solitary, pair, or rad (3–9)",
+  "special_abilities": [
+    {
+      "name": "Atomic Bolt (Ex)",
+      "description": "A radiation drake’s atomic bolt has a range increment of 60 feet."
+    },
+    {
+      "name": "Radiation Exposure (Ex)",
+      "description": "A creature that takes Hit Point damage from the radiation drake’s attacks is exposed to medium radiation. This radiation bypasses armor environmental protections."
+    }
+  ],
+  "description": "Radiation drakes are mighty and dangerous predators found on worlds with extensive radioactivity, such as natural deposits of radioactive ores or irradiated wastelands left by atomic warfare. These drakes are also common on worlds with kaiju—enormous creatures that exist outside the world’s ecosystem. It’s a mystery whether a link between radiation drakes and kaiju exists that leads to their overlapping presence on some planets, but it’s worth noting that when kaiju and radiation drakes meet, they are likely to ignore each other. However, some radiation drakes live in symbiotic relationships with specific kaiju, feeding on parasites that infest the massive monsters, cleaning up after their kills, and sometimes dwelling among young kaiju and protecting them from predators. It has been suggested that radiation drakes are the offspring of some dragon kaiju, though there is little evidence to support this. Radiation drakes are capable of speech and advanced planning, but primarily act out of instinct.\nA radiation drake is dark in coloration, most often black or dull green, but it has bright crystalline teeth and spikes running along its spine. The drake has a draconic appearance, long neck and tail, wings, and powerful hind legs, but no front legs. In addition to its bite, a radiation drake is able to unleash radioactive fire breath in either singletarget bolts or a wide cone of irradiated flames. A split second before unleashing this breath weapon, the crystal spikes along a radiation drake’s spines glow with the white-hot light of a nuclear fire.\nA typical radiation drake is 15 feet long from nose to tail tip and weighs 1,000 pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nDrake\nAliens in the \"Drake\" Family\nName\nCR\nRadiation Drake\n9\nDrake, Radiation Drake\nSource\nStarfinder #8: Escape from the Prison Moon pg. 56\nRadiation Drake CR 9\nXP 6,400\nCE Large dragon\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+17\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+13;\nRef\n+13;\nWill\n+10\nDR\n5/magic;\nImmunities\nparalysis, radiation, sleep\nOffense\nSpeed\n30 ft., fly 60 ft. (Ex, average)\nMelee\nbite +22 (2d10+15 P plus radiation exposure)\nMultiattack\nbite +16 (2d10+15 P plus radiation exposure), 2 talons +16 (2d4+15 S)\nRanged\natomic bolt +19 (3d10+3 F plus radiation exposure; critical burn 2d6)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nbreath weapon (30-ft. cone, 6d10 F plus radiation exposure, Reflex DC 16 half, usable every 1d6 rounds)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+3;\nINT\n-2;\nWIS\n+2;\nCHA\n+0\nSkills\nAcrobatics +17, Intimidate +22, Survival +17\nLanguages\nDraconic\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or rad (3–9)\nSpecial Abilities\nAtomic Bolt (Ex)\nA radiation drake’s atomic bolt has a range increment of 60 feet.\nRadiation Exposure (Ex)\nA creature that takes Hit Point damage from the radiation drake’s attacks is exposed to medium radiation. This radiation bypasses armor environmental protections.\nDescription\nRadiation drakes are mighty and dangerous predators found on worlds with extensive radioactivity, such as natural deposits of radioactive ores or irradiated wastelands left by atomic warfare. These drakes are also common on worlds with kaiju—enormous creatures that exist outside the world’s ecosystem. It’s a mystery whether a link between radiation drakes and kaiju exists that leads to their overlapping presence on some planets, but it’s worth noting that when kaiju and radiation drakes meet, they are likely to ignore each other. However, some radiation drakes live in symbiotic relationships with specific kaiju, feeding on parasites that infest the massive monsters, cleaning up after their kills, and sometimes dwelling among young kaiju and protecting them from predators. It has been suggested that radiation drakes are the offspring of some dragon kaiju, though there is little evidence to support this. Radiation drakes are capable of speech and advanced planning, but primarily act out of instinct.\nA radiation drake is dark in coloration, most often black or dull green, but it has bright crystalline teeth and spikes running along its spine. The drake has a draconic appearance, long neck and tail, wings, and powerful hind legs, but no front legs. In addition to its bite, a radiation drake is able to unleash radioactive fire breath in either singletarget bolts or a wide cone of irradiated flames. A split second before unleashing this breath weapon, the crystal spikes along a radiation drake’s spines glow with the white-hot light of a nuclear fire.\nA typical radiation drake is 15 feet long from nose to tail tip and weighs 1,000 pounds.",
+  "type": "dragon",
+  "category": "alien"
+}

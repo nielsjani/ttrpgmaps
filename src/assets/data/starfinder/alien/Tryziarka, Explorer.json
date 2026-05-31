@@ -1,0 +1,55 @@
+{
+  "name": "Tryziarka, Explorer",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Explorer&Family=Tryziarka",
+  "source": "Alien Archive 4 pg. 126",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (tryziarka)",
+  "init": "+4",
+  "perception": "+9",
+  "hp": "35",
+  "eac": "14",
+  "kac": "15",
+  "fort": "+2",
+  "ref": "+5",
+  "will": "+6",
+  "speed": "40 ft.",
+  "melee": "survival knife +7 (1d4+3 S)",
+  "ranged": "semi-auto tactical pistol +9 (1d6+3 P)",
+  "offensive_abilities": "stunt and strike COM, stuntsCOM (Culture; analyze, distracting blather) Tryziarka Spell-Like Abilities (CL 3rd) 1/day—stabilize",
+  "spell_like_abilities": {
+    "caster_info": "CL 3rd",
+    "spells": "1/day—stabilize"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+4",
+    "con": "+0",
+    "int": "+2",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +14 (+16 to escape grapple), Athletics +9, Culture +14, Stealth +9, Survival +14",
+  "languages": "Common",
+  "other_abilities": "operative exploit (without a traceCOM), specialization (explorer), tattoo magic, tattoo transference",
+  "gear": "graphite carbon skin, semi-auto tactical pistol with 18 small arm rounds, survival knife",
+  "environment": "any",
+  "organization": "solitary, pair, or quest (3–8)",
+  "special_abilities": [
+    {
+      "name": "Tattoo Magic (Sp)",
+      "description": "Tryziarkas’ magical ooze symbiotes can manifest in many forms. At character creation, a tryziarka chooses a 0-level spell from the mystic spell list and can cast it at will as a spell-like ability. Upon reaching 5th level, a tryziarka chooses a 1st-level mystic spell and can also cast it once per day as a spell-like ability. Their caster level for these spell-like abilities is equal to the tryziarka’s character level, and Wisdom is the key ability score."
+    },
+    {
+      "name": "Tattoo Transference (Sp)",
+      "description": "Tryziarkas can temporarily tattoo parts of the magic held by their karakande on other creatures. Once per day, a tryziarka spend 1 minute in physical contact with a willing creature to place some of their ooze-magic on that creature, granting that creature the tattoo magic ability (identical to the tryziarka’s own); that creature loses this ability at the end of 24 hours. A creature can benefit from only one such ability at a time (not counting their own from being a tryziarka)."
+    }
+  ],
+  "extra_content": "The following extra content was found for this creature:\n-\nTryziarka (Creature Subtype) Graft Template\n-\nTryziarka Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTryziarka\nSource\nAlien Archive 4 pg. 126\nTryziarkas originated on the world Suron in the Vast. As their system’s star died, the tryziarka nations built dozens of legacy starships, each of which served as a self-contained biosphere capable of supporting life for the indefinite future. In these legacy ships, tryziarkas scattered across the stars in the hopes of finding new homes.\nTryziarkas’ double-jointed elbows and knees lend great flexibility to their tall, hairless, humanoid forms. Their skin comes in many hues, and many have mottling of a second color across their bodies. In early childhood, each tryziarka pairs with a magical ooze known as a karakande in a symbiotic relationship. This ooze forms a faintly glowing, tattoo-like pattern on the surface of a tryziarka’s body and communicates with its host through empathetic pulses of emotion and magic. Tryziarkas have bonded with karakandes since their days on Suron, and they see their ooze companions as an intrinsic part of themselves, and the magic they grant as part of their identities. The average tryziarka is 7 feet tall and weighs 250 pounds.\nEach individual tryziarka’s ooze-tattoo manifests in its own unique design, and tryziarkas can choose to imbue trusted others with their design, temporarily granting them a piece the ooze’s magic. Depending on the recipient species and the intent of both parties, the tattoo can become nonmagical and even permanent, serving as a symbol of friendship—and often something deeper— between the two creatures. Tryziarka family members often trade tattoos, as do members of other close-knit social units.\nAs tryziarkas spread across the galaxy in their legacy ships, some found new homes on uninhabited worlds, others fatally crash landed or succumbed to dangerous stellar phenomena, and some travel still on a quest for a new world.\nAliens in the \"Tryziarka\" Family\nName\nCR\nExplorer\n3\nLegacy-captain\n12\nTryziarka, Explorer\nSource\nAlien Archive 4 pg. 126\nExplorer CR 3\nXP 800\nTryziarka operative\nN Medium humanoid (tryziarka)\nInit\n+4;\nPerception\n+9\nDefense\nHP\n35\nEAC\n14;\nKAC\n15\nFort\n+2;\nRef\n+5;\nWill\n+6\nDefensive Abilities\nevasion\nOffense\nSpeed\n40 ft.\nMelee\nsurvival knife +7 (1d4+3 S)\nRanged\nsemi-auto tactical pistol +9 (1d6+3 P)\nOffensive Abilities\nstunt and strike COM, stuntsCOM (Culture; analyze, distracting blather) Tryziarka Spell-Like Abilities (CL 3rd) 1/day—stabilize\nStatistics\nSTR\n+0;\nDEX\n+4;\nCON\n+0;\nINT\n+2;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +14 (+16 to escape grapple), Athletics +9, Culture +14, Stealth +9, Survival +14\nLanguages\nCommon\nOther Abilities\noperative exploit (without a traceCOM), specialization (explorer), tattoo magic, tattoo transference\nGear\ngraphite carbon skin, semi-auto tactical pistol with 18 small arm rounds, survival knife\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or quest (3–8)\nSpecial Abilities\nTattoo Magic (Sp)\nTryziarkas’ magical ooze symbiotes can manifest in many forms. At character creation, a tryziarka chooses a 0-level spell from the mystic spell list and can cast it at will as a spell-like ability. Upon reaching 5th level, a tryziarka chooses a 1st-level mystic spell and can also cast it once per day as a spell-like ability. Their caster level for these spell-like abilities is equal to the tryziarka’s character level, and Wisdom is the key ability score.\nTattoo Transference (Sp)\nTryziarkas can temporarily tattoo parts of the magic held by their karakande on other creatures. Once per day, a tryziarka spend 1 minute in physical contact with a willing creature to place some of their ooze-magic on that creature, granting that creature the tattoo magic ability (identical to the tryziarka’s own); that creature loses this ability at the end of 24 hours. A creature can benefit from only one such ability at a time (not counting their own from being a tryziarka).\nExtra Content\nThe following extra content was found for this creature:\n-\nTryziarka (Creature Subtype) Graft Template\n-\nTryziarka Race Entry",
+  "type": "humanoid (tryziarka)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Tryziarka_Explorer.png"
+}

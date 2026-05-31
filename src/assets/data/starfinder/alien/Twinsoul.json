@@ -1,0 +1,56 @@
+{
+  "name": "Twinsoul",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Twinsoul&Family=None",
+  "source": "Starfinder #9: The Rune Drive Gambit pg. 61",
+  "cr": "8",
+  "xp": "4,800",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "aberration",
+  "init": "+2",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+21",
+  "hp": "125",
+  "eac": "20",
+  "kac": "22",
+  "fort": "+10",
+  "ref": "+10",
+  "will": "+9",
+  "immunities": "cold, radiation",
+  "weaknesses": "ethereal vulnerability",
+  "speed": "fly 60 ft. (Su, clumsy)",
+  "melee": "tentacle +19 (1d6+14 B) or ethereal tentacle +19 (1d6+14 C)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+2",
+    "con": "+0",
+    "int": "-2",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +16 (+8 to fly), Survival +16",
+  "languages": "Aklo; telepathy 100 ft.",
+  "other_abilities": "dual existence, planar melding",
+  "environment": "any vacuum (Material and Ethereal Planes)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Dual Existence (Su)",
+      "description": "A twinsoul exists simultaneously on the Ethereal and Material Planes, occupying both planes at the same time. These two forms are always coterminous with one another, and if the twinsoul is reduced to 0 Hit Points on either plane, it dies. Because of its dual existence, as a move action a twinsoul can grant itself the benefit of flanking one target within its reach until the start of its next turn."
+    },
+    {
+      "name": "Ethereal Vulnerability (Ex)",
+      "description": "A twinsoul takes half again as much damage (+50%) from kinetic attacks against its ethereal form originating on the Ethereal Plane. It also takes half again as much damage from force effects."
+    },
+    {
+      "name": "Planar Melding (Su)",
+      "description": "Once per day as a standard action, a twinsoul can meld its two forms until the start of its next turn, phasing slightly out of existence. While melded, a twinsoul has concealment and can pass through solid objects (excluding force effects such as force fields) on the Material Plane as long as it ends this movement outside any object. When the twinsoul returns to normal, it regains 8d6 Hit Points."
+    }
+  ],
+  "description": "A dweller in two worlds, a twinsoul is an aberration that floats simultaneously through the vacuum of space and the void of the Ethereal Plane, seeking out thinning planar barriers. No one is certain where twinsouls originated or what purpose they serve, but many scholars of cosmic phenomena find them fascinating.\nTwinsouls have two bodies, one on each plane. These bodies remain close together across planar boundaries. However, they can separate, the ethereal twinsoul providing its physical counterpart a ghostly partner in battle. The ethereal portion is particularly ephemeral, and thus vulnerable to ethereal attack and force effects.\nNormally, a twinsoul melds with its ethereal half once per day, and only for a fleeting moment. However, when a twinsoul discovers a rift between the Material Plane and Ethereal Plane, it can perform an extended meld known as the joining. During this period of togetherness, the twinsoul mates with itself and creates a single spawn. Such an offspring stays with its parent for several decades before attaining maturity and departing on its own ineffable mission.\nA twinsoul resembles a floating sphere of fluid about 12 feet in diameter with several probing tentacles, and weighs only a few pounds.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTwinsoul\nSource\nStarfinder #9: The Rune Drive Gambit pg. 61\nTwinsoul CR 8\nXP 4,800\nN Large aberration\nInit\n+2;\nSenses\ndarkvision 60 ft.;\nPerception\n+21\nDefense\nHP\n125\nEAC\n20;\nKAC\n22\nFort\n+10;\nRef\n+10;\nWill\n+9\nDefensive Abilities\nunflankable, void adaptation;\nImmunities\ncold, radiation\nWeaknesses\nethereal vulnerability\nOffense\nSpeed\nfly 60 ft. (Su, clumsy)\nMelee\ntentacle +19 (1d6+14 B) or ethereal tentacle +19 (1d6+14 C)\nMultiattack\n2 tentacles +13 (1d6+14 B), 2 ethereal tentacles +13 (1d6+14 C)\nSpace\n10 ft.;\nReach\n10 ft.\nStatistics\nSTR\n+6;\nDEX\n+2;\nCON\n+0;\nINT\n-2;\nWIS\n+4;\nCHA\n+0\nSkills\nAcrobatics +16 (+8 to fly), Survival +16\nLanguages\nAklo; telepathy 100 ft.\nOther Abilities\ndual existence, planar melding\nEcology\nEnvironment\nany vacuum (Material and Ethereal Planes)\nOrganization\nsolitary\nSpecial Abilities\nDual Existence (Su)\nA twinsoul exists simultaneously on the Ethereal and Material Planes, occupying both planes at the same time. These two forms are always coterminous with one another, and if the twinsoul is reduced to 0 Hit Points on either plane, it dies. Because of its dual existence, as a move action a twinsoul can grant itself the benefit of flanking one target within its reach until the start of its next turn.\nEthereal Vulnerability (Ex)\nA twinsoul takes half again as much damage (+50%) from kinetic attacks against its ethereal form originating on the Ethereal Plane. It also takes half again as much damage from force effects.\nPlanar Melding (Su)\nOnce per day as a standard action, a twinsoul can meld its two forms until the start of its next turn, phasing slightly out of existence. While melded, a twinsoul has concealment and can pass through solid objects (excluding force effects such as force fields) on the Material Plane as long as it ends this movement outside any object. When the twinsoul returns to normal, it regains 8d6 Hit Points.\nDescription\nA dweller in two worlds, a twinsoul is an aberration that floats simultaneously through the vacuum of space and the void of the Ethereal Plane, seeking out thinning planar barriers. No one is certain where twinsouls originated or what purpose they serve, but many scholars of cosmic phenomena find them fascinating.\nTwinsouls have two bodies, one on each plane. These bodies remain close together across planar boundaries. However, they can separate, the ethereal twinsoul providing its physical counterpart a ghostly partner in battle. The ethereal portion is particularly ephemeral, and thus vulnerable to ethereal attack and force effects.\nNormally, a twinsoul melds with its ethereal half once per day, and only for a fleeting moment. However, when a twinsoul discovers a rift between the Material Plane and Ethereal Plane, it can perform an extended meld known as the joining. During this period of togetherness, the twinsoul mates with itself and creates a single spawn. Such an offspring stays with its parent for several decades before attaining maturity and departing on its own ineffable mission.\nA twinsoul resembles a floating sphere of fluid about 12 feet in diameter with several probing tentacles, and weighs only a few pounds.",
+  "type": "aberration",
+  "category": "alien"
+}

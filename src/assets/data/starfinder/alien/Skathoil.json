@@ -1,0 +1,53 @@
+{
+  "name": "Skathoil",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Skathoil&Family=None",
+  "source": "Starfinder #45: The Culling Shadow pg. 59",
+  "cr": "13",
+  "xp": "25,600",
+  "alignment": "NE",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "init": "+6",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+23",
+  "hp": "225",
+  "eac": "27",
+  "kac": "29",
+  "fort": "+15",
+  "ref": "+15",
+  "will": "+14",
+  "weaknesses": "light sensitivity",
+  "speed": "fly 60 ft. (Ex, perfect)",
+  "melee": "shadow strike +24 (4d6+21 cold plus energy drain)",
+  "offensive_abilities": "create darkness, energy drain (2 levels, DC 21), shadow meld, shadowy menace",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+6",
+    "con": "+3",
+    "int": "+4",
+    "wis": "+0",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +23, Athletics +23, Intimidate +28, Sense Motive +23, Stealth +28",
+  "languages": "telepathy 60 ft., truespeech",
+  "environment": "any",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Light Sensitivity (Su)",
+      "description": "Skathoil take 50% more damage from lasers and weapons with the bright special property. In bright light, they move at half their speed."
+    },
+    {
+      "name": "Shadow Meld (Su)",
+      "description": "A skathoil is invisible while within an area of dim light or darkness."
+    },
+    {
+      "name": "Shadowy Menace (Su)",
+      "description": "A skathoil can take a move action to amplify the fears of a creature within 30 feet that’s suffering from any fear effect. The target creature must succeed at a DC 21 Will save or be staggered for 1d4 rounds. This is a fear effect."
+    }
+  ],
+  "description": "Across many star systems, tales are told of “thought drainers,” hungry creatures from beyond the stars who prey on lone travelers, draining a victim’s will to live and ensuring they never return to friends and loved ones. Scholars who study these collected stories have named these creatures skathoil and believe they lurk in shadows and the depths of space. They appear to live solely on the energy they leech from others, and while they’re known to haunt the Diaspora and Absalom Station’s ghost levels, they’ve also been spotted in the Drift.\nA skathoil is a patient hunter, lurking in shadows and darkness. They stalk their chosen victim, remaining close enough that the unsettling aura of fear that accompanies them everywhere intensifies the prey’s emotional vulnerability. Once their victim is truly afraid, the thought eater strikes, draining all positive thoughts from the victim until all that remains is a husk of sorrow and pain. Such victims are identified by the horrified look frozen on their faces; the skathoil leave no other trace.\nRegions plagued by a skathoil circulate sometimes wild stories of the creature for generations. People who live in these places try to thwart the thought drainer by brightly illuminating all corridors and chambers and surrounding settlements with floodlights. A skathoil will lurk patiently on the outskirts of such a settlement, waiting for a chance blackout or for a careless traveler who accidentally provides it a way in.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nSkathoil\nSource\nStarfinder #45: The Culling Shadow pg. 59\nSkathoil CR 13\nXP 25,600\nNE Medium Aberration\nInit\n+6;\nSenses\ndarkvision 60 ft.;\nPerception\n+23\nAura\nfrightful presence (30 ft., DC 21)\nDefense\nHP\n225\nEAC\n27;\nKAC\n29\nFort\n+15;\nRef\n+15;\nWill\n+14\nDefensive Abilities\namorphous, void adaptation\nWeaknesses\nlight sensitivity\nOffense\nSpeed\nfly 60 ft. (Ex, perfect)\nMelee\nshadow strike +24 (4d6+21 cold plus energy drain)\nOffensive Abilities\ncreate darkness, energy drain (2 levels, DC 21), shadow meld, shadowy menace\nStatistics\nSTR\n+8;\nDEX\n+6;\nCON\n+3;\nINT\n+4;\nWIS\n+0;\nCHA\n+0\nSkills\nAcrobatics +23, Athletics +23, Intimidate +28, Sense Motive +23, Stealth +28\nLanguages\ntelepathy 60 ft., truespeech\nEcology\nEnvironment\nany\nOrganization\nsolitary\nSpecial Abilities\nLight Sensitivity (Su)\nSkathoil take 50% more damage from lasers and weapons with the bright special property. In bright light, they move at half their speed.\nShadow Meld (Su)\nA skathoil is invisible while within an area of dim light or darkness.\nShadowy Menace (Su)\nA skathoil can take a move action to amplify the fears of a creature within 30 feet that’s suffering from any fear effect. The target creature must succeed at a DC 21 Will save or be staggered for 1d4 rounds. This is a fear effect.\nDescription\nAcross many star systems, tales are told of “thought drainers,” hungry creatures from beyond the stars who prey on lone travelers, draining a victim’s will to live and ensuring they never return to friends and loved ones. Scholars who study these collected stories have named these creatures skathoil and believe they lurk in shadows and the depths of space. They appear to live solely on the energy they leech from others, and while they’re known to haunt the Diaspora and Absalom Station’s ghost levels, they’ve also been spotted in the Drift.\nA skathoil is a patient hunter, lurking in shadows and darkness. They stalk their chosen victim, remaining close enough that the unsettling aura of fear that accompanies them everywhere intensifies the prey’s emotional vulnerability. Once their victim is truly afraid, the thought eater strikes, draining all positive thoughts from the victim until all that remains is a husk of sorrow and pain. Such victims are identified by the horrified look frozen on their faces; the skathoil leave no other trace.\nRegions plagued by a skathoil circulate sometimes wild stories of the creature for generations. People who live in these places try to thwart the thought drainer by brightly illuminating all corridors and chambers and surrounding settlements with floodlights. A skathoil will lurk patiently on the outskirts of such a settlement, waiting for a chance blackout or for a careless traveler who accidentally provides it a way in.",
+  "type": "Aberration",
+  "category": "alien"
+}

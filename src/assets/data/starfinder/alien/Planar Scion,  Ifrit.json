@@ -1,0 +1,52 @@
+{
+  "name": "Planar Scion,  Ifrit",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName= Ifrit&Family=Planar Scion",
+  "source": "Alien Archive 2 pg. 98",
+  "cr": "1/2",
+  "xp": "200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "outsider (native)",
+  "init": "+3",
+  "senses": "darkvision 60 ft.;",
+  "perception": "+4",
+  "hp": "11",
+  "eac": "11",
+  "kac": "13",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+2",
+  "resistances": "fire 5",
+  "speed": "30 ft.",
+  "melee": "longsword +5 (1d8+1 S)",
+  "ranged": "azimuth laser rifle +6 (1d8 F; critical burn 1d6) or frag grenade I +6 (explode [15 ft., 1d6 P, DC 11])",
+  "offensive_abilities": "fighting styles (sharpshoot), fire affinity, sniper’s aim",
+  "spell_like_abilities": {
+    "caster_info": "CL 1st",
+    "spells": "1/day—\noverheat\n(DC 10)"
+  },
+  "ability_scores": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+0",
+    "cha": "+1"
+  },
+  "skills": "Acrobatics +9, Athletics +4, Intimidate +4",
+  "languages": "Common, Ignan",
+  "gear": "second skin, azimuth laser rifle with 2 batteries (20 charges each), longsword, frag grenade I",
+  "environment": "any",
+  "organization": "solitary, pair, or gang (3–6)",
+  "special_abilities": [
+    {
+      "name": "Fire Affinity (Su):",
+      "description": "Ifrits have an instinctive affinity for fire, subtly bending it to their will. Once per day, an ifrit making an attack that deals fire damage can roll a single attack roll twice and use the higher result."
+    }
+  ],
+  "description": "Ifrits are the descendants of mortal species and creatures from the Plane of Fire, usually efreet. These native outsiders are fiercely independent and many see even their friends as tools to be used.",
+  "extra_content": "The following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nPlanar Scion\nSource\nAlien Archive 2 pg. 98\nMany kinds of extraplanar beings can infuse humanoids’ bloodlines, whether as a side effect of powerful magic or the result of a tryst; those in whom extraplanar traits surface strongly are known as planar scions. Aasimars and tieflings, the mortal offspring of celestials and fiends, respectively, are the most common of these. Though planar scions resemble their humanoid kin, their appearance and demeanor bear supernatural touches. Tieflings might have horns, vestigial wings, or cloven hooves, while aasimars may have glowing eyes or a metallic sheen to their hair and skin.\nBecause of their innate curiosity, humans are more likely to dally with outsiders, and as a consequence, a significant percentage of planar scions living in the Pact Worlds are descended from humans. However, because humans are far less populous than in pre-Gap eras, planar scions descended from other humanoid races are now far more numerous. A planar scion might pass for a member of the humanoid parent’s species, or the scion’s otherworldly features could make their origin obvious to those who are familiar with the species’ normal characteristics. Those whose outsider blood is evident still find acceptance in most major settlements across the Pact Worlds, where diverse beings coexist in peace. On Absalom Station, the hub of interspecies relations, few people bat an eye when they meet an aasimar or tiefling.\nHowever, in insular or tradition-bound communities, any signs of plane-touched heritage can be a blessing—or a death sentence—depending on the dominant traditions. The demon-worshiping drow of Apostae see tieflings as a favor from demonic patrons, while the elves of Sovyrian on Castrovel are likely to banish children who bear such fiendish heritage. The Radiant Cathedral, on the other hand, trains aasimars to become beacons of the Sarenite faith, and also guides tieflings to a brighter future than their heritage suggests. Formians, shobhads, vesk, and other species with flexible morality view aasimars and tieflings, particularly those descended from their own kind, with both admiration and suspicion.\nPlanar scions are often outliers in their community, either put on a pedestal or ostracized because of their ancestry. The potent blood that courses through the veins of aasimars and tieflings also makes them ambitious; many choose a dangerous but rewarding profession, such as explorer, mercenary, spy, or pilot.\nAliens in the \"Planar Scion\" Family\nName\nCR\nIfrit\n1/2\nAasimar\n1\nGanzi\n3\nOread\n1\nSuli\n1\nSylph\n2\nTiefling\n2\nUndine\n1\nPlanar Scion,  Ifrit\nSource\nStarfinder #13: Fire Starters pg. 60\nIfrit CR 1/2\nXP 200\nIfrit soldier\nN Medium outsider (native)\nInit\n+3;\nSenses\ndarkvision 60 ft.;\nPerception\n+4\nDefense\nHP\n11\nEAC\n11;\nKAC\n13\nFort\n+2;\nRef\n+2;\nWill\n+2\nResistances\nfire 5\nOffense\nSpeed\n30 ft.\nMelee\nlongsword +5 (1d8+1 S)\nRanged\nazimuth laser rifle +6 (1d8 F; critical burn 1d6) or frag grenade I +6 (explode [15 ft., 1d6 P, DC 11])\nOffensive Abilities\nfighting styles (sharpshoot), fire affinity, sniper’s aim\nIfrit Spell-Like Abilities\n(CL 1st)\n1/day—\noverheat\n(DC 10)\nStatistics\nSTR\n+2;\nDEX\n+3;\nCON\n+0;\nINT\n+0;\nWIS\n+0;\nCHA\n+1\nSkills\nAcrobatics +9, Athletics +4, Intimidate +4\nLanguages\nCommon, Ignan\nGear\nsecond skin, azimuth laser rifle with 2 batteries (20 charges each), longsword, frag grenade I\nEcology\nEnvironment\nany\nOrganization\nsolitary, pair, or gang (3–6)\nSpecial Abilities\nFire Affinity (Su):\nIfrits have an instinctive affinity for fire, subtly bending it to their will. Once per day, an ifrit making an attack that deals fire damage can roll a single attack roll twice and use the higher result.\nDescription\nIfrits are the descendants of mortal species and creatures from the Plane of Fire, usually efreet. These native outsiders are fiercely independent and many see even their friends as tools to be used.\nExtra Content\nThe following extra content was found for this creature:\n-\nAasimar (Planar Scion) Graft Template\n-\nTiefling (Planar Scion) Graft Template\n-\nIfrit (Planar Scion) Graft Template\n-\nSuli (Planar Scion) Graft Template\n-\nSylph (Planar Scion) Graft Template\n-\nOread (Planar Scion) Graft Template\n-\nUndine (Planar Scion) Graft Template",
+  "type": "outsider (native)",
+  "category": "alien"
+}

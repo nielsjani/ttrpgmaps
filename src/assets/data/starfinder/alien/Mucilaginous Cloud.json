@@ -1,0 +1,52 @@
+{
+  "name": "Mucilaginous Cloud",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Mucilaginous Cloud&Family=None",
+  "source": "Starfinder #7: The Reach of Empire pg. 58",
+  "cr": "5",
+  "xp": "1,600",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "ooze",
+  "init": "+3",
+  "senses": "blindsight (vibration) 90 ft., sightless;",
+  "perception": "+11",
+  "hp": "65",
+  "eac": "19",
+  "kac": "15",
+  "fort": "+6",
+  "ref": "+2",
+  "will": "+6",
+  "immunities": "acid, ooze immunities;",
+  "resistances": "cold 5",
+  "speed": "fly 30 ft. (Ex, perfect)",
+  "melee": "tendril +12 (1d4+10 A & B plus swallow whole)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "distraction (DC 15), swallow whole (1d4+10 A, EAC 19, KAC 11, 16 HP)",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+2",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-2"
+  },
+  "skills": "Acrobatics +3 (+11 to fly), Stealth +3 (+13 in fog, smoke, or clouds)",
+  "other_abilities": "buoyant, camouflaging haze, compression, mindless",
+  "environment": "any sky",
+  "organization": "solitary, pair, or pack (3–5)",
+  "special_abilities": [
+    {
+      "name": "Buoyant (Ex)",
+      "description": "A mucilaginous cloud is naturally buoyant. It can hover as part of any action it takes without needing to roll a check. If unable to take actions, it naturally floats in the air, moving with air currents."
+    },
+    {
+      "name": "Camouflaging Haze (Ex)",
+      "description": "Mucilaginous clouds are translucent, but their skin interacts with the environment to produce a camouflaging haze that matches the color of the surrounding atmosphere. While camouflaged, a mucilaginous cloud appears to be merely a patch of fog or a cloud. This camouflage provides a +10 bonus to Stealth checks while in fog, smoke, or clouds, and it allows a mucilaginous cloud to attempt a Stealth check even when lacking cover or concealment. Once a creature succeeds at a Perception check to realize a mucilaginous cloud is more than it appears, the ooze loses the benefit of this camouflage against that creature until the creature can no longer see the ooze. Once a mucilaginous cloud has swallowed a victim whole, that ooze can’t use its camouflaging haze until the victim is digested (in 2 to 6 hours) or escapes."
+    }
+  ],
+  "description": "Most explorers refer to the predatory flying oozes found on a wide array of planets as mucilaginous clouds, although those oozes are not identical. Scholars theorize they have a common ancestor: an airborne creature that evolved billions of years ago and, as part of its life cycle, sprayed spores from the upper atmosphere of its world into space.\nCamouflaging vapor normally hides a mucilaginous cloud’s true form; unconcealed, they are membranes of churning protoplasm, sometimes still visibly containing a victim’s undigested remains. The digestive chemicals secreted by a mucilaginous cloud’s outer layer nauseate victims on contact, leaving them vulnerable to being sucked in and slowly consumed. A mucilaginous cloud is nearly 15 feet wide and 15 feet long, but as its body is mostly full of pockets of acidic gas, it weighs only 100 pounds. Furthermore, a mucilaginous cloud can compress itself to greater density or expand itself so as to float even when unconscious. Its amorphous form also allows it to extend long tendrils, which it can use to attack.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMucilaginous Cloud\nSource\nStarfinder #7: The Reach of Empire pg. 58\nMucilaginous Cloud CR 5\nXP 1,600\nN Huge ooze\nInit\n+3;\nSenses\nblindsight (vibration) 90 ft., sightless;\nPerception\n+11\nDefense\nHP\n65\nEAC\n19;\nKAC\n15\nFort\n+6;\nRef\n+2;\nWill\n+6\nImmunities\nacid, ooze immunities;\nResistances\ncold 5\nOffense\nSpeed\nfly 30 ft. (Ex, perfect)\nMelee\ntendril +12 (1d4+10 A & B plus swallow whole)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\ndistraction (DC 15), swallow whole (1d4+10 A, EAC 19, KAC 11, 16 HP)\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+2;\nINT\n—;\nWIS\n+0;\nCHA\n-2\nSkills\nAcrobatics +3 (+11 to fly), Stealth +3 (+13 in fog, smoke, or clouds)\nOther Abilities\nbuoyant, camouflaging haze, compression, mindless\nEcology\nEnvironment\nany sky\nOrganization\nsolitary, pair, or pack (3–5)\nSpecial Abilities\nBuoyant (Ex)\nA mucilaginous cloud is naturally buoyant. It can hover as part of any action it takes without needing to roll a check. If unable to take actions, it naturally floats in the air, moving with air currents.\nCamouflaging Haze (Ex)\nMucilaginous clouds are translucent, but their skin interacts with the environment to produce a camouflaging haze that matches the color of the surrounding atmosphere. While camouflaged, a mucilaginous cloud appears to be merely a patch of fog or a cloud. This camouflage provides a +10 bonus to Stealth checks while in fog, smoke, or clouds, and it allows a mucilaginous cloud to attempt a Stealth check even when lacking cover or concealment. Once a creature succeeds at a Perception check to realize a mucilaginous cloud is more than it appears, the ooze loses the benefit of this camouflage against that creature until the creature can no longer see the ooze. Once a mucilaginous cloud has swallowed a victim whole, that ooze can’t use its camouflaging haze until the victim is digested (in 2 to 6 hours) or escapes.\nDescription\nMost explorers refer to the predatory flying oozes found on a wide array of planets as mucilaginous clouds, although those oozes are not identical. Scholars theorize they have a common ancestor: an airborne creature that evolved billions of years ago and, as part of its life cycle, sprayed spores from the upper atmosphere of its world into space.\nCamouflaging vapor normally hides a mucilaginous cloud’s true form; unconcealed, they are membranes of churning protoplasm, sometimes still visibly containing a victim’s undigested remains. The digestive chemicals secreted by a mucilaginous cloud’s outer layer nauseate victims on contact, leaving them vulnerable to being sucked in and slowly consumed. A mucilaginous cloud is nearly 15 feet wide and 15 feet long, but as its body is mostly full of pockets of acidic gas, it weighs only 100 pounds. Furthermore, a mucilaginous cloud can compress itself to greater density or expand itself so as to float even when unconscious. Its amorphous form also allows it to extend long tendrils, which it can use to attack.",
+  "type": "ooze",
+  "category": "alien"
+}

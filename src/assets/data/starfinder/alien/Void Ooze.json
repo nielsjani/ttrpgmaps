@@ -1,0 +1,53 @@
+{
+  "name": "Void Ooze",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Void Ooze&Family=None",
+  "source": "Starfinder #10: The Diaspora Strain pg. 61",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "ooze",
+  "init": "+2",
+  "senses": "blindsight (vibration) 60 ft., sightless;",
+  "perception": "+14",
+  "hp": "105",
+  "eac": "19",
+  "kac": "21",
+  "fort": "+11",
+  "ref": "+7",
+  "will": "+4",
+  "immunities": "ooze immunities;",
+  "resistances": "cold 5",
+  "speed": "20 ft., climb 20 ft.",
+  "melee": "pseudopod +17 (1d6+11 B plus 1d6 cold and numb senses)",
+  "ability_scores": {
+    "str": "+4",
+    "dex": "+2",
+    "con": "+5",
+    "int": "—",
+    "wis": "+0",
+    "cha": "-3"
+  },
+  "skills": "Stealth +19",
+  "other_abilities": "mindless, split",
+  "environment": "any (Shadow Plane)",
+  "organization": "solitary, pair, or gloom (3–6)",
+  "special_abilities": [
+    {
+      "name": "Numb Senses (Su)",
+      "description": "When a void ooze hits with a pseudopod attack, the target must succeed at a DC 15 Fortitude saving throw or its senses are shrouded for 1 round as if the creature were in a dark void. The target is blinded and deafened, as well as unable to smell, taste, and feel subtle sensations. A target’s blindsense and blindsight are also ineffective for the duration."
+    },
+    {
+      "name": "Shadow Siphon (Su)",
+      "description": "Nonmagical bright or normal light within 20 feet of a void ooze is reduced to dim light. If a dying creature in this aura loses a Resolve Point or spends any Resolve Points to stabilize, the ooze regains 10 Hit Points. If a creature dies in the aura, the ooze regains 10 Hit Points. If the ooze enters the space of a dead creature, the creature’s body disintegrates into fine black ash and the ooze regains 10 Hit Points."
+    },
+    {
+      "name": "Split (Ex)",
+      "description": "If a void ooze would regain more Hit Points from its shadow siphon ability than its Hit Point maximum, it instead splits into two identical oozes, each with Hit Points equal to half the original’s current total plus half the Hit Points the original ooze would have regained."
+    }
+  ],
+  "description": "Void oozes originate from the lightless depths of outer space on the Shadow Plane. They are drawn to open interplanar portals and to areas where the barriers between dimensions are weak. Life, especially when coupled with warmth, attracts these creatures like the stench of death attracts carrion birds. The oozes feed on the subtle negative energy surrounding the dying and recently dead, using that energy to reproduce.\nThese creatures can hibernate indefinitely, and they are inured to outer space and airless environments. Because of these traits, void oozes can be found almost anywhere. Explorers have encountered them on planets (habitable or not), asteroids, and spacedocks. The oozes have also been found aboard vessels that have traveled in the darkest regions of space, where the oozes attached themselves to the hull of a passing starship.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nVoid Ooze\nSource\nStarfinder #10: The Diaspora Strain pg. 61\nVoid Ooze CR 7\nXP 3,200\nN Medium ooze\nInit\n+2;\nSenses\nblindsight (vibration) 60 ft., sightless;\nPerception\n+14\nAura\nshadow siphon (20 ft.)\nDefense\nHP\n105\nEAC\n19;\nKAC\n21\nFort\n+11;\nRef\n+7;\nWill\n+4\nDefensive Abilities\nvoid adaptation;\nImmunities\nooze immunities;\nResistances\ncold 5\nOffense\nSpeed\n20 ft., climb 20 ft.\nMelee\npseudopod +17 (1d6+11 B plus 1d6 cold and numb senses)\nStatistics\nSTR\n+4;\nDEX\n+2;\nCON\n+5;\nINT\n—;\nWIS\n+0;\nCHA\n-3\nSkills\nStealth +19\nOther Abilities\nmindless, split\nEcology\nEnvironment\nany (Shadow Plane)\nOrganization\nsolitary, pair, or gloom (3–6)\nSpecial Abilities\nNumb Senses (Su)\nWhen a void ooze hits with a pseudopod attack, the target must succeed at a DC 15 Fortitude saving throw or its senses are shrouded for 1 round as if the creature were in a dark void. The target is blinded and deafened, as well as unable to smell, taste, and feel subtle sensations. A target’s blindsense and blindsight are also ineffective for the duration.\nShadow Siphon (Su)\nNonmagical bright or normal light within 20 feet of a void ooze is reduced to dim light. If a dying creature in this aura loses a Resolve Point or spends any Resolve Points to stabilize, the ooze regains 10 Hit Points. If a creature dies in the aura, the ooze regains 10 Hit Points. If the ooze enters the space of a dead creature, the creature’s body disintegrates into fine black ash and the ooze regains 10 Hit Points.\nSplit (Ex)\nIf a void ooze would regain more Hit Points from its shadow siphon ability than its Hit Point maximum, it instead splits into two identical oozes, each with Hit Points equal to half the original’s current total plus half the Hit Points the original ooze would have regained.\nDescription\nVoid oozes originate from the lightless depths of outer space on the Shadow Plane. They are drawn to open interplanar portals and to areas where the barriers between dimensions are weak. Life, especially when coupled with warmth, attracts these creatures like the stench of death attracts carrion birds. The oozes feed on the subtle negative energy surrounding the dying and recently dead, using that energy to reproduce.\nThese creatures can hibernate indefinitely, and they are inured to outer space and airless environments. Because of these traits, void oozes can be found almost anywhere. Explorers have encountered them on planets (habitable or not), asteroids, and spacedocks. The oozes have also been found aboard vessels that have traveled in the darkest regions of space, where the oozes attached themselves to the hull of a passing starship.",
+  "type": "ooze",
+  "category": "alien"
+}

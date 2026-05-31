@@ -1,0 +1,62 @@
+{
+  "name": "Aeon Stone Network",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Aeon Stone Network&Family=None",
+  "source": "Starfinder #8: Escape from the Prison Moon pg. 55",
+  "cr": "7",
+  "xp": "3,200",
+  "alignment": "N",
+  "size": "Fine",
+  "creature_type": "construct (magical, swarm, technological)",
+  "init": "+5",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+14",
+  "hp": "91",
+  "eac": "19",
+  "kac": "20",
+  "fort": "+6",
+  "ref": "+10",
+  "will": "+6",
+  "sr": "18",
+  "immunities": "construct immunities, swarm immunities;",
+  "weaknesses": "vulnerable to electricity",
+  "speed": "fly 40 ft. (Su, perfect)",
+  "melee": "swarm attack (1d6+9 B plus distraction [DC 17])",
+  "space": "10 ft.",
+  "reach": "0 ft.",
+  "offensive_abilities": "telekinetic whirlwind",
+  "spell_like_abilities": {
+    "caster_info": "CL 7th",
+    "spells": "At will—\nmagic missile"
+  },
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+5",
+    "con": "—",
+    "int": "+1",
+    "wis": "+3",
+    "cha": "+1"
+  },
+  "skills": "Computers +14, Engineering +14, Life Science +19, Mysticism +19, Physical Science +19",
+  "languages": "Azlanti (can’t speak); telepathy 100 ft.",
+  "other_abilities": "aeon upgrade (",
+  "environment": "any",
+  "organization": "any",
+  "special_abilities": [
+    {
+      "name": "Aeon Upgrade (Su)",
+      "description": "An aeon stone network benefits from one\naeon stone\nwith an item level of its CR or lower."
+    },
+    {
+      "name": "Remote Hack (Ex)",
+      "description": "An aeon stone network has the remote hack feature as if it were a mechanic of a level equal to its CR."
+    },
+    {
+      "name": "Telekinetic Whirlwind (Su)",
+      "description": "Once per day as a standard action, an aeon stone network can spiral around a Large or smaller creature or object that is completely in its space, negating gravity for that target while it’s inside the vortex. The network can remain in this form for 4 rounds, but it can return to its normal form as a move action at any time. The target creature or object moves with the aeon stone network. A creature caught in the telekinetic whirlwind is off-target and must attempt a DC 17 Reflex saving throw at the end of each of its turns. On a failed save, the creature becomes off-kilter until the end of its next turn or until it leaves the aeon stone network’s space, whichever comes first. A creature can leave the aeon stone network’s space if it has some way to move itself in zero gravity or if, as a standard action, it succeeds at an Acrobatics skill check (DC = 10 + the network’s KAC). On a success, the target moves to a square adjacent to the aeon stone network."
+    }
+  ],
+  "description": "Aeon stone networks are created from specially enhanced\naeon stones\nthat orbit one another to form a wireless digital network. These swarms are employed as loyal and tireless system administrators for large corporations in the Azlanti Star Empire, and their creation is strictly regulated.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nAeon Stone Network\nSource\nStarfinder #8: Escape from the Prison Moon pg. 55\nAeon Stone Network CR 7\nXP 3,200\nN Fine construct (magical, swarm, technological)\nInit\n+5;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+14\nDefense\nHP\n91\nEAC\n19;\nKAC\n20\nFort\n+6;\nRef\n+10;\nWill\n+6\nDefensive Abilities\nswarm defenses;\nImmunities\nconstruct immunities, swarm immunities;\nSR\n18\nWeaknesses\nvulnerable to electricity\nOffense\nSpeed\nfly 40 ft. (Su, perfect)\nMelee\nswarm attack (1d6+9 B plus distraction [DC 17])\nSpace\n10 ft.;\nReach\n0 ft.\nOffensive Abilities\ntelekinetic whirlwind\nSpell-Like Abilities\n(CL 7th)\nAt will—\nmagic missile\nStatistics\nSTR\n+0;\nDEX\n+5;\nCON\n—;\nINT\n+1;\nWIS\n+3;\nCHA\n+1\nSkills\nComputers +14, Engineering +14, Life Science +19, Mysticism +19, Physical Science +19\nLanguages\nAzlanti (can’t speak); telepathy 100 ft.\nOther Abilities\naeon upgrade (\npurple sphere aeon stone\n), remote hack, unliving\nEcology\nEnvironment\nany\nOrganization\nany\nSpecial Abilities\nAeon Upgrade (Su)\nAn aeon stone network benefits from one\naeon stone\nwith an item level of its CR or lower.\nRemote Hack (Ex)\nAn aeon stone network has the remote hack feature as if it were a mechanic of a level equal to its CR.\nTelekinetic Whirlwind (Su)\nOnce per day as a standard action, an aeon stone network can spiral around a Large or smaller creature or object that is completely in its space, negating gravity for that target while it’s inside the vortex. The network can remain in this form for 4 rounds, but it can return to its normal form as a move action at any time. The target creature or object moves with the aeon stone network. A creature caught in the telekinetic whirlwind is off-target and must attempt a DC 17 Reflex saving throw at the end of each of its turns. On a failed save, the creature becomes off-kilter until the end of its next turn or until it leaves the aeon stone network’s space, whichever comes first. A creature can leave the aeon stone network’s space if it has some way to move itself in zero gravity or if, as a standard action, it succeeds at an Acrobatics skill check (DC = 10 + the network’s KAC). On a success, the target moves to a square adjacent to the aeon stone network.\nDescription\nAeon stone networks are created from specially enhanced\naeon stones\nthat orbit one another to form a wireless digital network. These swarms are employed as loyal and tireless system administrators for large corporations in the Azlanti Star Empire, and their creation is strictly regulated.",
+  "type": "construct (magical, swarm, technological)",
+  "category": "alien"
+}

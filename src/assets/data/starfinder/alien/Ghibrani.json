@@ -1,0 +1,49 @@
+{
+  "name": "Ghibrani",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Ghibrani&Family=None",
+  "source": "Starfinder #5: The Thirteenth Gate pg. 55",
+  "cr": "3",
+  "xp": "800",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "humanoid (ghibrani)",
+  "init": "+2",
+  "senses": "low-light vision;",
+  "perception": "+13",
+  "hp": "32",
+  "eac": "13",
+  "kac": "14",
+  "fort": "+2",
+  "ref": "+2",
+  "will": "+6",
+  "speed": "30 ft., fly 20 ft. (Ex, average)",
+  "melee": "battle staff +5 (1d4+3 B; critical knockdown)",
+  "ranged": "static arc pistol +7 (1d6+3 E; critical arc 2)",
+  "offensive_abilities": "distracting buzz (DC 15)",
+  "spells": "(CL 3rd)\n1st (3/day)—\ndetect thoughts\n(DC 16),\nmind thrust\n(DC 16)\n0 (at will)—\ndaze\n(DC 15),\ntelepathic message\nConnection\nempath",
+  "ability_scores": {
+    "str": "+0",
+    "dex": "+2",
+    "con": "+0",
+    "int": "+0",
+    "wis": "+4",
+    "cha": "+0"
+  },
+  "skills": "Culture +8, Diplomacy +13, Mysticism +13, Sense Motive +13",
+  "languages": "Ghibran",
+  "other_abilities": "empathy, greater mindlink",
+  "gear": "casual stationwear, battle staff, static arc pistol with 2 batteries (20 charges each)",
+  "environment": "any (Elytrio)",
+  "organization": "solitary, pair, or coterie (3-6)",
+  "special_abilities": [
+    {
+      "name": "Distracting Buzz (Ex)",
+      "description": "As a standard action, a membrane ghibrani can vibrate her wings fast enough to produce an almost imperceptible hum. All creatures within 15 feet of the membrane ghibrani that hear this buzz must attempt a Will saving throw (DC = 10 + half the ghibrani’s character level or CR + her Wisdom modifier) or gain the off-target condition for 1 round. This is a mind-affecting, sense-dependent ability. The membrane ghibrani can’t use her wings to fly in the same round in which she uses this ability."
+    }
+  ],
+  "description": "Ghibranis are beetle-like humanoids native to the planet Elytrio (see page 46). After the ghibranis devastated their world with nuclear war, some of the survivors fended for themselves in the wastes, while the rest lived comfortably in a city protected by a bubble of force. The lingering radiation (even within the city) caused a rapid change in their biology, leading to two subspecies: husks, who have lost the use of their wings, and membranes, who have grown idle in their luxury.",
+  "extra_content": "The following extra content was found for this creature:\n-\nGhibrani Race Entry",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nGhibrani\nSource\nStarfinder #5: The Thirteenth Gate pg. 55\nGhibrani CR 3\nXP 800\nMembrane ghibrani mystic\nN Medium humanoid (ghibrani)\nInit\n+2;\nSenses\nlow-light vision;\nPerception\n+13\nDefense\nHP\n32\nEAC\n13;\nKAC\n14\nFort\n+2;\nRef\n+2;\nWill\n+6\nOffense\nSpeed\n30 ft., fly 20 ft. (Ex, average)\nMelee\nbattle staff +5 (1d4+3 B; critical knockdown)\nRanged\nstatic arc pistol +7 (1d6+3 E; critical arc 2)\nOffensive Abilities\ndistracting buzz (DC 15)\nMystic Spells Known\n(CL 3rd)\n1st (3/day)—\ndetect thoughts\n(DC 16),\nmind thrust\n(DC 16)\n0 (at will)—\ndaze\n(DC 15),\ntelepathic message\nConnection\nempath\nStatistics\nSTR\n+0;\nDEX\n+2;\nCON\n+0;\nINT\n+0;\nWIS\n+4;\nCHA\n+0\nSkills\nCulture +8, Diplomacy +13, Mysticism +13, Sense Motive +13\nLanguages\nGhibran\nOther Abilities\nempathy, greater mindlink\nGear\ncasual stationwear, battle staff, static arc pistol with 2 batteries (20 charges each)\nEcology\nEnvironment\nany (Elytrio)\nOrganization\nsolitary, pair, or coterie (3-6)\nSpecial Abilities\nDistracting Buzz (Ex)\nAs a standard action, a membrane ghibrani can vibrate her wings fast enough to produce an almost imperceptible hum. All creatures within 15 feet of the membrane ghibrani that hear this buzz must attempt a Will saving throw (DC = 10 + half the ghibrani’s character level or CR + her Wisdom modifier) or gain the off-target condition for 1 round. This is a mind-affecting, sense-dependent ability. The membrane ghibrani can’t use her wings to fly in the same round in which she uses this ability.\nDescription\nGhibranis are beetle-like humanoids native to the planet Elytrio (see page 46). After the ghibranis devastated their world with nuclear war, some of the survivors fended for themselves in the wastes, while the rest lived comfortably in a city protected by a bubble of force. The lingering radiation (even within the city) caused a rapid change in their biology, leading to two subspecies: husks, who have lost the use of their wings, and membranes, who have grown idle in their luxury.\nExtra Content\nThe following extra content was found for this creature:\n-\nGhibrani Race Entry",
+  "type": "humanoid (ghibrani)",
+  "category": "alien"
+}

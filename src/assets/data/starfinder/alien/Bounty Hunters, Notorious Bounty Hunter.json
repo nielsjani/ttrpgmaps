@@ -1,0 +1,51 @@
+{
+  "name": "Bounty Hunters, Notorious Bounty Hunter",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Notorious Bounty Hunter&Family=Bounty Hunters",
+  "source": "Interstellar Species pg. 154",
+  "cr": "14",
+  "xp": "38,400",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+12",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+25",
+  "hp": "235",
+  "eac": "28",
+  "kac": "29",
+  "fort": "+12",
+  "ref": "+14",
+  "will": "+17",
+  "speed": "70 ft., fly 60 ft. (",
+  "melee": "grindblade +25 (4d10+17 S; critical bleed 2d8) or unarmed strike +25 (1d3+21 B)",
+  "ranged": "advanced magnetar rifle +23 (4d8+14 P) or riot grenade III +23 (explode 15 ft., 1d8 S nonlethal and staggered [DC 22])",
+  "offensive_abilities": "gore",
+  "ability_scores": {
+    "str": "+3",
+    "dex": "+8",
+    "con": "+1",
+    "int": "+1",
+    "wis": "+4",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +25, Athletics +30, Culture +25, Intimidate +25, Piloting +25, Profession (bounty hunter) +30, Sense Motive +25, Stealth +25, Survival +25",
+  "feats": "Cleave, Great Cleave",
+  "languages": "Common, up to 2 others",
+  "other_abilities": "intimidating, mark, maze mind",
+  "gear": "freebooter armor IV (auto-injector [",
+  "special_abilities": [
+    {
+      "name": "Intimidating (Ex)",
+      "description": "A notorious bounty hunter can demoralize using Intimidate as a move action. As a full action, the bounty hunter can demoralize up to 10 creatures within 60 feet; the Intimidate DC equals the highest DC to demoralize among the targets. If the check succeeds, the shaken condition lasts only 1 round for all affected targets."
+    },
+    {
+      "name": "Mark (Ex)",
+      "description": "A notorious bounty hunter can choose one sapient creature as a mark, provided the notorious bounty hunter can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The notorious bounty hunter gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the notorious bounty hunter’s CR divided by 6 (+3 total at CR 14). Also, the notorious bounty hunter can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark."
+    }
+  ],
+  "description": "A notorious bounty hunter has not only a reputation for success, but also one of mercilessness and resilience. Such bounty hunters take on the toughest targets, preferring dead-or-alive contracts that can increase their renown. These bounty hunters prefer intimidation, using crowd control tactics and few nonlethal options. Even when apparently killed, these professionals rarely stay dead, ensuring they’re as immortal as their legends are.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nBounty Hunters\nSource\nInterstellar Species pg. 154\nAnyone who seeks and catches those who don’t want to be caught may be called a bounty hunter, though in practice, the term comprises an array of professionals. Most bounty hunters have legal sanction, such as a license to hunt fugitives, but many also work in a gray area between legal authority and vigilantism. Bounty hunters take jobs from legitimate authorities, but what legitimate means varies by location. Little stops a bounty hunter from acting as an agent of a private party, and many are enforcers for the unscrupulous. Some clever bounty hunters double as private investigators, tracking down missing people or runaways.\nAliens in the \"Bounty Hunters\" Family\nName\nCR\nBounty Hunter\n10\nNotorious Bounty Hunter\n14\nRecovery Agent\n6\nSkip Tracer\n1\nBounty Hunters, Notorious Bounty Hunter\nSource\nInterstellar Species pg. 155\nNotorious Bounty Hunter CR 14\nXP 38,400\nNuar\nN Medium monstrous humanoid\nInit\n+12;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+25\nDefense\nHP\n235;\nRP\n5\nEAC\n28;\nKAC\n29\nFort\n+12;\nRef\n+14;\nWill\n+17\nOffense\nSpeed\n70 ft., fly 60 ft. (\nforcepack\n, average)\nMelee\ngrindblade +25 (4d10+17 S; critical bleed 2d8) or unarmed strike +25 (1d3+21 B)\nRanged\nadvanced magnetar rifle +23 (4d8+14 P) or riot grenade III +23 (explode 15 ft., 1d8 S nonlethal and staggered [DC 22])\nOffensive Abilities\ngore\nStatistics\nSTR\n+3;\nDEX\n+8;\nCON\n+1;\nINT\n+1;\nWIS\n+4;\nCHA\n+3\nFeats\nCleave, Great Cleave\nSkills\nAcrobatics +25, Athletics +30, Culture +25, Intimidate +25, Piloting +25, Profession (bounty hunter) +30, Sense Motive +25, Stealth +25, Survival +25\nLanguages\nCommon, up to 2 others\nOther Abilities\nintimidating, mark, maze mind\nGear\nfreebooter armor IV (auto-injector [\nmk 3 serum of healing\n]),\nforcepack\n), advanced magnetar rifle (grenadier bracket AR with squad NIL grenade launcher) with 120 longarm rounds, grindblade (\ninertial dampener\n), riot grenades III AR (2), binder restraints (5),\nefficient bandolier\n,\nmk 3 serums of healing\n(2);\nAugmentations\ncomplete speed suspension\nSpecial Abilities\nIntimidating (Ex)\nA notorious bounty hunter can demoralize using Intimidate as a move action. As a full action, the bounty hunter can demoralize up to 10 creatures within 60 feet; the Intimidate DC equals the highest DC to demoralize among the targets. If the check succeeds, the shaken condition lasts only 1 round for all affected targets.\nMark (Ex)\nA notorious bounty hunter can choose one sapient creature as a mark, provided the notorious bounty hunter can identify that creature by a specific identity and has studied the mark for 1 hour using available information, or directly observed the mark for 1 minute outside of combat or as a full action in combat. The notorious bounty hunter gains an insight bonus on skill checks made to investigate, track, or gather information on the mark, as well as on Sense Motive checks against the mark. This bonus equals 1 + the notorious bounty hunter’s CR divided by 6 (+3 total at CR 14). Also, the notorious bounty hunter can use Sense Motive instead of Perception to use the pierce disguise or search tasks of the Perception skill against the mark.\nDescription\nA notorious bounty hunter has not only a reputation for success, but also one of mercilessness and resilience. Such bounty hunters take on the toughest targets, preferring dead-or-alive contracts that can increase their renown. These bounty hunters prefer intimidation, using crowd control tactics and few nonlethal options. Even when apparently killed, these professionals rarely stay dead, ensuring they’re as immortal as their legends are.",
+  "type": "monstrous humanoid",
+  "environment": "—",
+  "category": "alien"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Earthhallowed Guardian",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Earthhallowed Guardian&Family=None",
+  "source": "To Defy the Dragon pg. 62",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "N",
+  "size": "Large",
+  "creature_type": "construct (magical)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+10",
+  "ref": "+7",
+  "will": "+10",
+  "sr": "21",
+  "immunities": "construct immunities;",
+  "speed": "30 ft.",
+  "melee": "slam +23 (2d10+18 B; critical siphon charge [DC 17])",
+  "ranged": "wellspring lance +20 (2d10+18 F; critical burn)",
+  "space": "10 ft.",
+  "reach": "10 ft.",
+  "offensive_abilities": "radiant gaze (60 ft., DC 17)",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+3",
+    "con": "—",
+    "int": "—",
+    "wis": "+5",
+    "cha": "+0"
+  },
+  "skills": "Athletics +24, Intimidate +19",
+  "other_abilities": "mindless, unliving",
+  "environment": "any wellspring (Genrovis)",
+  "organization": "solitary, pair, or brigade (3–6)",
+  "special_abilities": [
+    {
+      "name": "Radiant Gaze (Su)",
+      "description": "The eyes of an earthhallowed guardian emit a bright glow from the wellspring energy infused within. A creature who can see an earthhallowed guardian must succeed at a DC 17 Fortitude saving throw against this ability, or it's blinded until the beginning of its next turn."
+    },
+    {
+      "name": "Siphon Charge (Ex)",
+      "description": "A creature who takes critical hit damage from an earthhallowed guardian must attempt a DC 17 Reflex save. On a failure, all charges are drained from the battery of a technological weapon the creature is wielding; if the creature is wielding more than one technological weapon, the weapon drained is determined randomly. If the earthhallowed guardian successfully siphons charges this way, it gains the benefits of haste until the end of its next turn."
+    },
+    {
+      "name": "Wellspring Lance (Ex)",
+      "description": "As a swift action, an earthhallowed guardian can form nearby wellspring energy into a superheated lance that functions as a thrown weapon with a range of 40 feet. The earthhallowed guardian must be within 60 feet of a wellspring fissure to use this ability."
+    }
+  ],
+  "description": "Ancient Genrovians developed a technique to infuse wellspring energy into stone statues, magically animating them to act as fissure guardians. Though their method of creation has been lost to time, many of these constructs still exist, standing sentinel over the cracks from which Genrovis draws its power. Modern Genrovians respect the earthhallowed guardians for their history, but their task of defending the wellspring fissures—now at Ayleth's behest—in an environment where energy is scarce causes many citizens to view them with resentment. Legend says those who use energy wastefully draw the ire of the earthhallowed guardians, and egregious offenders might soon hear admonishing stone hands knocking at their doors—although as mindless constructs, the earthhallowed guardians are unlikely to be capable of sensing such activities.\nAn earthhallowed guardian's form can vary as much as the stone it was carved from. Most are large humanoid figures, standing about 15 feet tall and carved from marble or granite. Brilliant white light emitted by the wellspring energy encased within constantly glows from a guardian's eyes and seams. An earthhallowed guardian requires ambient energy from the wellspring to function and powers down completely if taken more than a mile or two away from a wellspring fissure.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nEarthhallowed Guardian\nSource\nTo Defy the Dragon pg. 62\nEarthhallowed Guardian CR 10\nXP 9,600\nN Large construct (magical)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+19\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+10;\nRef\n+7;\nWill\n+10\nDefensive Abilities\nfast healing 5 (within 60 feet of a wellspring fissure);\nImmunities\nconstruct immunities;\nSR\n21\nOffense\nSpeed\n30 ft.\nMelee\nslam +23 (2d10+18 B; critical siphon charge [DC 17])\nRanged\nwellspring lance +20 (2d10+18 F; critical burn)\nSpace\n10 ft.;\nReach\n10 ft.\nOffensive Abilities\nradiant gaze (60 ft., DC 17)\nStatistics\nSTR\n+8;\nDEX\n+3;\nCON\n—;\nINT\n—;\nWIS\n+5;\nCHA\n+0\nSkills\nAthletics +24, Intimidate +19\nOther Abilities\nmindless, unliving\nEcology\nEnvironment\nany wellspring (Genrovis)\nOrganization\nsolitary, pair, or brigade (3–6)\nSpecial Abilities\nRadiant Gaze (Su)\nThe eyes of an earthhallowed guardian emit a bright glow from the wellspring energy infused within. A creature who can see an earthhallowed guardian must succeed at a DC 17 Fortitude saving throw against this ability, or it's blinded until the beginning of its next turn.\nSiphon Charge (Ex)\nA creature who takes critical hit damage from an earthhallowed guardian must attempt a DC 17 Reflex save. On a failure, all charges are drained from the battery of a technological weapon the creature is wielding; if the creature is wielding more than one technological weapon, the weapon drained is determined randomly. If the earthhallowed guardian successfully siphons charges this way, it gains the benefits of haste until the end of its next turn.\nWellspring Lance (Ex)\nAs a swift action, an earthhallowed guardian can form nearby wellspring energy into a superheated lance that functions as a thrown weapon with a range of 40 feet. The earthhallowed guardian must be within 60 feet of a wellspring fissure to use this ability.\nDescription\nAncient Genrovians developed a technique to infuse wellspring energy into stone statues, magically animating them to act as fissure guardians. Though their method of creation has been lost to time, many of these constructs still exist, standing sentinel over the cracks from which Genrovis draws its power. Modern Genrovians respect the earthhallowed guardians for their history, but their task of defending the wellspring fissures—now at Ayleth's behest—in an environment where energy is scarce causes many citizens to view them with resentment. Legend says those who use energy wastefully draw the ire of the earthhallowed guardians, and egregious offenders might soon hear admonishing stone hands knocking at their doors—although as mindless constructs, the earthhallowed guardians are unlikely to be capable of sensing such activities.\nAn earthhallowed guardian's form can vary as much as the stone it was carved from. Most are large humanoid figures, standing about 15 feet tall and carved from marble or granite. Brilliant white light emitted by the wellspring energy encased within constantly glows from a guardian's eyes and seams. An earthhallowed guardian requires ambient energy from the wellspring to function and powers down completely if taken more than a mile or two away from a wellspring fissure.",
+  "type": "construct (magical)",
+  "category": "alien"
+}

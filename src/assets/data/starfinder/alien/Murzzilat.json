@@ -1,0 +1,48 @@
+{
+  "name": "Murzzilat",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Murzzilat&Family=Murzzilat",
+  "source": "Alien Archive 4 pg. 78",
+  "cr": "4",
+  "xp": "1,200",
+  "alignment": "N",
+  "size": "Medium",
+  "creature_type": "animal (aquatic)",
+  "init": "+3",
+  "senses": "darkvision 60 ft., low-light vision;;",
+  "perception": "+10",
+  "hp": "50",
+  "eac": "16",
+  "kac": "18",
+  "fort": "+8",
+  "ref": "+8",
+  "will": "+3",
+  "speed": "10 ft., fly 30 ft. (Ex, perfect), swim 30 ft.",
+  "melee": "bite +12 (1d6+9 P) or attach +12",
+  "ranged": "melodic assault +9 (1d4+4 So; critical off-target [DC 13])",
+  "ability_scores": {
+    "str": "+5",
+    "dex": "+3",
+    "con": "+1",
+    "int": "-4",
+    "wis": "+1",
+    "cha": "+0"
+  },
+  "skills": "Acrobatics +10 (+18 to fly), Athletics +15 (+23 to swim), Intimidate +10",
+  "other_abilities": "amphibious, compression, rallying song, water breathing",
+  "environment": "any underground or water",
+  "organization": "solitary, pair, or choir (1 with 2–6 murzzilat bantlings)",
+  "special_abilities": [
+    {
+      "name": "Melodic Assault (Ex)",
+      "description": "As a ranged attack that targets EAC, a murzzilat can sing a sonic blast with a range increment of 60 feet at a single target. On a critical hit, the target must succeed at a DC 13 Fortitude save or become off-target for 1 round."
+    },
+    {
+      "name": "Rallying Song (Ex)",
+      "description": "As a standard action, a murzzilat can sing an inspiring song that rallies allies within 30 feet to battle, granting them a +1 morale bonus to attack rolls and skill checks for 1 minute. A creature can be affected by only one murzzilat’s rallying song at a time."
+    }
+  ],
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nMurzzilat\nSource\nAlien Archive 4 pg. 78\nDeep in the lightless depths of countless worlds live murzzilats, amphibious mammals known for their grotesque contortions and ethereal vocalizations. Capable of both swimming and flight, these creatures are ungainly on land but well adapted to life in partially submerged tunnels and caverns, where their songs echo for miles in a haunting underground symphony.\nA murzzilat has an oversized head with massive bulging eyes and a wide mouth it unhinges to swallow small prey whole. Green scales lined with dozens of powerful pectoral fins covers its elongated, shriveled body. Membranous wings protrude from its back, and six spindly limbs dangle down from its body, each ending in a sharp hook. Although these weak limbs can’t support its body weight, a murzzilat can shove them deep into cracks to drag small prey out of hiding or use them to latch onto large prey. An average murzzilat is 6 feet long and weighs 35 pounds.\nWhile swimming, murzzilats fold their wings flat against their backs and fold their legs up under their bodies, propelling themselves through the water with their fins. The incredibly flexible creatures squeeze through narrow tunnels and cracks by contorting and twisting their bodies, displaying their internal organs, and popping their limbs in and out of joint. These adaptations enable murzzilats to escape from cave-ins and travel through tiny tunnels that creatures of their size typically couldn’t pass.\nMurzzilats have scent glands along their backs, which they rub along stone to mark their territory. This overwhelmingly strong scent is long lasting but pleasing to most sentient species. Highly valued in the beauty and cleaning industries, the scent glands of a murzzilat fetch a high price on the black market and make poaching a profitable venture, particularly on Akiton and other planets with lax environmental regulations.\nIncredibly vocal, murzzilats have a multitude of calls, cries, and songs. From clicking trills and deep bellows to haunting nocturnes and joyful refrains, their many songs echo throughout the tunnels and caverns they call home, both above and below water. Considered holy to some adherents of the goddess Shelyn, murzzilat songs have inspired artists throughout the Pact Worlds and beyond. Five years ago, a team of xenozoologists set out to catalog murzzilats’ songs, recording vocalizations from multiple worlds. Preliminary research from the ongoing study indicates murzzilats consistently add new vocalizations to their repertoires. Interested zoologists often seek to enlist the aid of locals and trustworthy explorers to track the evolution of the creatures’ songs.\nMurzzilats find the death or theft of their young, called bantlings, incredibly distressing; such an occurrence causes them to enter a torpor for a prolonged period of time, refusing to sing for months on end. Although both parents mourn, the parent that birthed the bantling will follow the scent of the deceased or missing bantling for miles in search of its remains, going as far as to collect the leavings from a dangerous predator.\nAliens in the \"Murzzilat\" Family\nName\nCR\nBantling\n1\nMurzzilat\n4\nMurzzilat\nSource\nAlien Archive 4 pg. 76\nMurzzilat CR 4\nXP 1,200\nN Medium animal (aquatic)\nInit\n+3;\nSenses\ndarkvision 60 ft., low-light vision;;\nPerception\n+10\nDefense\nHP\n50\nEAC\n16;\nKAC\n18\nFort\n+8;\nRef\n+8;\nWill\n+3\nOffense\nSpeed\n10 ft., fly 30 ft. (Ex, perfect), swim 30 ft.\nMelee\nbite +12 (1d6+9 P) or attach +12\nRanged\nmelodic assault +9 (1d4+4 So; critical off-target [DC 13])\nStatistics\nSTR\n+5;\nDEX\n+3;\nCON\n+1;\nINT\n-4;\nWIS\n+1;\nCHA\n+0\nSkills\nAcrobatics +10 (+18 to fly), Athletics +15 (+23 to swim), Intimidate +10\nOther Abilities\namphibious, compression, rallying song, water breathing\nEcology\nEnvironment\nany underground or water\nOrganization\nsolitary, pair, or choir (1 with 2–6 murzzilat bantlings)\nSpecial Abilities\nMelodic Assault (Ex)\nAs a ranged attack that targets EAC, a murzzilat can sing a sonic blast with a range increment of 60 feet at a single target. On a critical hit, the target must succeed at a DC 13 Fortitude save or become off-target for 1 round.\nRallying Song (Ex)\nAs a standard action, a murzzilat can sing an inspiring song that rallies allies within 30 feet to battle, granting them a +1 morale bonus to attack rolls and skill checks for 1 minute. A creature can be affected by only one murzzilat’s rallying song at a time.",
+  "type": "animal (aquatic)",
+  "category": "alien",
+  "imageUrl": "https://www.aonsrd.com/Images/Aliens/AA4_Murzzilat.png"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "The Swarm, Bolaji",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Bolaji&Family=The Swarm",
+  "source": "Alien Archive pg. 110",
+  "cr": "10",
+  "xp": "9,600",
+  "alignment": "CE",
+  "size": "Medium",
+  "creature_type": "monstrous humanoid",
+  "init": "+5",
+  "senses": "blindsense (vibration) 30 ft., darkvision 60 ft.;",
+  "perception": "+19",
+  "hp": "165",
+  "eac": "23",
+  "kac": "25",
+  "fort": "+12",
+  "ref": "+14",
+  "will": "+11",
+  "immunities": "acid, fear effects",
+  "speed": "40 ft.; spider climb",
+  "melee": "bite +23 (2d10+18 P; critical bleed 1d8) or claw +23 (3d4+18 S and grab; critical severe wound [DC 17])",
+  "space": "5 ft.",
+  "reach": "5 ft. (10 ft. with claw)",
+  "offensive_abilities": "carry off",
+  "ability_scores": {
+    "str": "+8",
+    "dex": "+5",
+    "con": "+3",
+    "int": "+1",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "skills": "Athletics +19, Engineering +19, Stealth +24",
+  "languages": "Shirren; telepathy (100 ft.)",
+  "environment": "any",
+  "organization": "solitary or clutch (2–4)",
+  "special_abilities": [
+    {
+      "name": "Carry Off (Ex)",
+      "description": "As a full action, a bolaji can renew a grapple or pin on a creature its size or smaller, and move up to its speed, dragging the grappled or pinned creature with it."
+    },
+    {
+      "name": "Discorporate (Ex)",
+      "description": "When a bolaji is reduced to 0 Hit Points, it doesn’t die unless it was reduced to 0 Hit Points by an area effect. Instead, it immediately breaks apart into a swarm of Fine components (no larger than an ordinary insect) with an extraordinary fly speed of 30 feet with perfect maneuverability, and it can move up to that speed as a reaction. In its discorporated state, the Swarm bolaji can’t attack, activate items, or manipulate objects, but it gains swarm defenses, swarm immunities, and regeneration 10 (area effects). It can return to its normal form at any time as a full action, but automatically does so when it returns to full Hit Points."
+    }
+  ],
+  "description": "Some scientists call the bolaji the truest incarnation of the Swarm, since the creature is itself made up of thousands of insect-sized Swarm components. Together, these tiny creatures combine into a single deadly being capable of shredding most humanoids in seconds with its long, scythe-like claws and razor-sharp mandibles. When sorely hurt, the bolaji breaks apart into its many components, allowing it to flee into tiny spaces where its enemies can rarely follow. Once in hiding, the surviving components rapidly multiply to rebuild the bolaji’s body, and soon it returns to kill again.\nThe bolaji is a cunning hunter, almost soundless in its movement, and capable of rigging traps and other devices of great technical complexity. Subtle telepathic emanations create an unspeakable fear in all who see one. Bolajis move ahead of Swarm invasions, gathering intelligence and waging guerrilla campaigns of terror and chaos. Often, they construct signal devices that help Swarm starships target strategic objectives. After an invasion is complete and the Swarm depart the ruined husk of a world, bolajis are sometimes left behind, where they linger in a torpor-like state until interstellar travelers arrive to seek survivors or scavenge the wreckage. Then, the bolajis awaken, sneak aboard the newly arrived vessel, and begin a new murder spree.\nSwarm scholars believe that this particular variation of the creatures appeared only after the Swarm consumed a research station staffed by several hundred spathinae (Alien Archive 3 101).",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nThe Swarm\nSource\nAlien Archive pg. 110\nOriginally an insectile race called the kucharn, the Swarm is now a single-minded collective with a desire to consume all things and absorb their best qualities into itself. The Swarm moves from planet to planet in tremendous organic hive-ships, reducing each so-called “feeder world” to a barren husk incapable of supporting life, and occasionally altering its own DNA in the process to take on qualities from that world’s species. Once it has consumed everything of use on a planet, the Swarm moves on, not bothering to hold territory.\nIronically, one of the most violent races in the galaxy also birthed one of the most peaceful, as a mutation within a sub-hive gave life to the shirrens, who broke away to form a new species. The Swarm is notorious not just because of the invasion that finally ended hostilities between the Pact Worlds and the Veskarium, but also thanks to the warnings of shirrens, who understand the Swarm’s might and its hunger as no other race can.\nWhile individual components of the Swarm have some form of intelligence—or at least a set of complex programmed behaviors that resembles intellect—they cannot generally be reasoned with in any fashion. Swarm components rarely communicate with other creatures, as they see every alien entity as either a food source or a threat. The Swarm’s morale is unbreakable, and while individual components might retreat for tactical reasons, fear is utterly unknown to the Swarm and its components.\nThe Swarm rarely wields manufactured weapons, instead integrating biotechnology grown or grafted onto component creatures. Because of its constant genetic upgrading and experimentation, the Swarm encompasses components with a wide variety of shapes, sizes, and capabilities, from the mighty dreadlancers to the microscopic, bloodstream-infesting toxicytes.\nAliens in \"The Swarm\" Family\nName\nCR\nAntecursor\n3\nBolaji\n10\nCeretoram\n9\nConvecyte\n2\nDissolver\n11\nDramovire\n8\nDredger\n1/2\nEffigene\n5\nEscutchide\n5\nKlendat\n11\nMolitera\n6\nNauphage\n2\nPyschovox\n12\nRematern\n7\nRevulsor\n4\nSwarm Corrovox\n3\nSwarm Dredger (Troop)\n5\nSwarm Mindreaper\n7\nSwarm Thresher Lord\n10\nTeracta\n3\nVorphoma\n1\nXersk\n16\nThe Swarm, Bolaji\nSource\nStarfinder #43: Icebound pg. 58\nBolaji CR 10\nXP 9,600\nCE Medium monstrous humanoid\nInit\n+5;\nSenses\nblindsense (vibration) 30 ft., darkvision 60 ft.;\nPerception\n+19\nAura\nfrightful presence (30 ft., Will DC 17)\nDefense\nHP\n165\nEAC\n23;\nKAC\n25\nFort\n+12;\nRef\n+14;\nWill\n+11\nDefensive Abilities\ndiscorporate, Swarm mind;\nImmunities\nacid, fear effects\nOffense\nSpeed\n40 ft.; spider climb\nMelee\nbite +23 (2d10+18 P; critical bleed 1d8) or claw +23 (3d4+18 S and grab; critical severe wound [DC 17])\nSpace\n5 ft.;\nReach\n5 ft. (10 ft. with claw)\nOffensive Abilities\ncarry off\nStatistics\nSTR\n+8;\nDEX\n+5;\nCON\n+3;\nINT\n+1;\nWIS\n+2;\nCHA\n+2\nSkills\nAthletics +19, Engineering +19, Stealth +24\nLanguages\nShirren; telepathy (100 ft.)\nEcology\nEnvironment\nany\nOrganization\nsolitary or clutch (2–4)\nSpecial Abilities\nCarry Off (Ex)\nAs a full action, a bolaji can renew a grapple or pin on a creature its size or smaller, and move up to its speed, dragging the grappled or pinned creature with it.\nDiscorporate (Ex)\nWhen a bolaji is reduced to 0 Hit Points, it doesn’t die unless it was reduced to 0 Hit Points by an area effect. Instead, it immediately breaks apart into a swarm of Fine components (no larger than an ordinary insect) with an extraordinary fly speed of 30 feet with perfect maneuverability, and it can move up to that speed as a reaction. In its discorporated state, the Swarm bolaji can’t attack, activate items, or manipulate objects, but it gains swarm defenses, swarm immunities, and regeneration 10 (area effects). It can return to its normal form at any time as a full action, but automatically does so when it returns to full Hit Points.\nDescription\nSome scientists call the bolaji the truest incarnation of the Swarm, since the creature is itself made up of thousands of insect-sized Swarm components. Together, these tiny creatures combine into a single deadly being capable of shredding most humanoids in seconds with its long, scythe-like claws and razor-sharp mandibles. When sorely hurt, the bolaji breaks apart into its many components, allowing it to flee into tiny spaces where its enemies can rarely follow. Once in hiding, the surviving components rapidly multiply to rebuild the bolaji’s body, and soon it returns to kill again.\nThe bolaji is a cunning hunter, almost soundless in its movement, and capable of rigging traps and other devices of great technical complexity. Subtle telepathic emanations create an unspeakable fear in all who see one. Bolajis move ahead of Swarm invasions, gathering intelligence and waging guerrilla campaigns of terror and chaos. Often, they construct signal devices that help Swarm starships target strategic objectives. After an invasion is complete and the Swarm depart the ruined husk of a world, bolajis are sometimes left behind, where they linger in a torpor-like state until interstellar travelers arrive to seek survivors or scavenge the wreckage. Then, the bolajis awaken, sneak aboard the newly arrived vessel, and begin a new murder spree.\nSwarm scholars believe that this particular variation of the creatures appeared only after the Swarm consumed a research station staffed by several hundred spathinae (Alien Archive 3 101).",
+  "type": "monstrous humanoid",
+  "category": "alien"
+}

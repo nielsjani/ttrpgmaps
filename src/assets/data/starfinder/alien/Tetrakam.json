@@ -1,0 +1,50 @@
+{
+  "name": "Tetrakam",
+  "source_url": "https://www.aonsrd.com/AlienDisplay.aspx?ItemName=Tetrakam&Family=None",
+  "source": "Drift Crisis pg. 164",
+  "cr": "9",
+  "xp": "6,400",
+  "alignment": "N",
+  "size": "Huge",
+  "creature_type": "outsider (extraplanar)",
+  "init": "+4",
+  "senses": "darkvision 60 ft., low-light vision;",
+  "perception": "+17",
+  "hp": "145",
+  "eac": "22",
+  "kac": "24",
+  "fort": "+11",
+  "ref": "+11",
+  "will": "+8",
+  "speed": "60 ft.",
+  "melee": "slam +21 (2d10+15 B)",
+  "space": "15 ft.",
+  "reach": "15 ft.",
+  "offensive_abilities": "unbearable longing (DC 16)",
+  "ability_scores": {
+    "str": "+6",
+    "dex": "+4",
+    "con": "+3",
+    "int": "+0",
+    "wis": "+1",
+    "cha": "+3"
+  },
+  "skills": "Acrobatics +17, Athletics +22",
+  "languages": "Celestial; telepathy 30 ft.",
+  "environment": "any (the Drift)",
+  "organization": "solitary",
+  "special_abilities": [
+    {
+      "name": "Alluring Presence (Su)",
+      "description": "Each tetrakam possesses a strange, unique beauty, and its presence fascinates its foes. A creature that begins its turn in the aura takes 5d6 damage if it doesn’t end its turn closer to the tetrakam, adjacent to it, or in the closest available space to it (Will DC 16 negates). A creature that succeeds at its saving throw becomes immune to the alluring presence for 1d4 rounds, and a creature that successfully saves twice in a day becomes immune to the aura for 24 hours. A tetrakam can suppress or resume this aura on its turn without spending an action. This is an emotion, mind-affecting, and sense‑dependent effect."
+    },
+    {
+      "name": "Unbearable Longing (Su)",
+      "description": "A tetrakam can project debilitating loneliness into the minds of nearby creatures, affecting one creature if used as a move action, two as a standard action, or three as a full action. This deals 5d6 damage and makes the target shaken for 1 round (Will DC 18 negates). Any creature adjacent to the tetrakam gains a +2 circumstance bonus to this save, or +4 if either creature is grappling the other. This is an emotion and mind-affecting effect."
+    }
+  ],
+  "description": "Every faith has its secrets, and hidden to all but Triune’s highest‑ranking priests is a troubling scrap of apocrypha: a fourth being sought to join with the All-Code centuries ago. Whether by veto of other three deities, some intrinsic incompatibility, or another explanation altogether, the fourth being was denied. Ever since, it has remained hidden, watching enviously from afar, occasionally engaging with the cosmos through its agents. Known as tetrakams, most witnesses refer to them colloquially as “seekers.”\nTetrakams vary widely in their appearance, ranging from humanoids to fiendish cyborgs to floating cityscapes. The only consistent element is that each has three similar features with a clear indication that there should be a fourth feature that’s now absent or never existed, such as an angelic being wearing a four-pointed crown that’s conspicuously missing most of one peak, or a robot with three eyes and one damaged, empty socket.\nAs if echoing their creators’ longing to join Triune, tetrakams crave other beings’ thoughts and adoration— especially from Triunites. They periodically gather followers or try to join existing organizations, though these unions often end in tragedy when the seeker’s overwhelming desire for integration melts its new friends’ minds or drives the tetrakam to messily try to fuse its allies to its body. Those who successfully ally with tetrakams often do so by acquiescing to their increasingly elaborate schemes to petition, trick, or force Triune to adopt a fourth constituent deity, though the creatures struggle to recall the identity of this wronged god.\nThese beings are especially prevalent and at home in the Drift, likely drawing comfort from that plane’s figurative proximity to Triune.",
+  "full_text": "All\n|\nA\n|\nB\n|\nC\n|\nD\n|\nE\n|\nF\n|\nG\n|\nH\n|\nI\n|\nJ\n|\nK\n|\nL\n|\nM\n|\nN\n|\nO\n|\nP\n|\nQ\n|\nR\n|\nS\n|\nStarship-Scale\n|\nT\n|\nU\n|\nV\n|\nW\n|\nX\n|\nY\n|\nZ\nTemplate Grafts\n|\nUniversal Monster Rules\nTetrakam\nSource\nDrift Crisis pg. 164\nTetrakam CR 9\nXP 6,400\nN Huge outsider (extraplanar)\nInit\n+4;\nSenses\ndarkvision 60 ft., low-light vision;\nPerception\n+17\nAura\nalluring presence (30 ft., DC 16)\nDefense\nHP\n145\nEAC\n22;\nKAC\n24\nFort\n+11;\nRef\n+11;\nWill\n+8\nDefensive Abilities\nunflankable\nOffense\nSpeed\n60 ft.\nMelee\nslam +21 (2d10+15 B)\nSpace\n15 ft.;\nReach\n15 ft.\nOffensive Abilities\nunbearable longing (DC 16)\nStatistics\nSTR\n+6;\nDEX\n+4;\nCON\n+3;\nINT\n+0;\nWIS\n+1;\nCHA\n+3\nSkills\nAcrobatics +17, Athletics +22\nLanguages\nCelestial; telepathy 30 ft.\nEcology\nEnvironment\nany (the Drift)\nOrganization\nsolitary\nSpecial Abilities\nAlluring Presence (Su)\nEach tetrakam possesses a strange, unique beauty, and its presence fascinates its foes. A creature that begins its turn in the aura takes 5d6 damage if it doesn’t end its turn closer to the tetrakam, adjacent to it, or in the closest available space to it (Will DC 16 negates). A creature that succeeds at its saving throw becomes immune to the alluring presence for 1d4 rounds, and a creature that successfully saves twice in a day becomes immune to the aura for 24 hours. A tetrakam can suppress or resume this aura on its turn without spending an action. This is an emotion, mind-affecting, and sense‑dependent effect.\nUnbearable Longing (Su)\nA tetrakam can project debilitating loneliness into the minds of nearby creatures, affecting one creature if used as a move action, two as a standard action, or three as a full action. This deals 5d6 damage and makes the target shaken for 1 round (Will DC 18 negates). Any creature adjacent to the tetrakam gains a +2 circumstance bonus to this save, or +4 if either creature is grappling the other. This is an emotion and mind-affecting effect.\nDescription\nEvery faith has its secrets, and hidden to all but Triune’s highest‑ranking priests is a troubling scrap of apocrypha: a fourth being sought to join with the All-Code centuries ago. Whether by veto of other three deities, some intrinsic incompatibility, or another explanation altogether, the fourth being was denied. Ever since, it has remained hidden, watching enviously from afar, occasionally engaging with the cosmos through its agents. Known as tetrakams, most witnesses refer to them colloquially as “seekers.”\nTetrakams vary widely in their appearance, ranging from humanoids to fiendish cyborgs to floating cityscapes. The only consistent element is that each has three similar features with a clear indication that there should be a fourth feature that’s now absent or never existed, such as an angelic being wearing a four-pointed crown that’s conspicuously missing most of one peak, or a robot with three eyes and one damaged, empty socket.\nAs if echoing their creators’ longing to join Triune, tetrakams crave other beings’ thoughts and adoration— especially from Triunites. They periodically gather followers or try to join existing organizations, though these unions often end in tragedy when the seeker’s overwhelming desire for integration melts its new friends’ minds or drives the tetrakam to messily try to fuse its allies to its body. Those who successfully ally with tetrakams often do so by acquiescing to their increasingly elaborate schemes to petition, trick, or force Triune to adopt a fourth constituent deity, though the creatures struggle to recall the identity of this wronged god.\nThese beings are especially prevalent and at home in the Drift, likely drawing comfort from that plane’s figurative proximity to Triune.",
+  "type": "outsider (extraplanar)",
+  "category": "alien"
+}

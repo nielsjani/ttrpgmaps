@@ -16,51 +16,101 @@
     <!-- Row 2: dropdowns + CR slider -->
     <div class="filter-row">
 
-      <!-- Type multiselect -->
+      <!-- Main Type multiselect -->
       <div class="filter-group">
         <label class="filter-label">Type</label>
-        <div class="dropdown" [class.open]="openDropdown === 'type'">
-          <button class="dropdown-btn" (click)="toggleDropdown('type', $event)">
-            {{ typeLabel }}<span class="caret">▾</span>
+        <div class="dropdown" [class.open]="openDropdown === 'mainType'">
+          <button class="dropdown-btn" (click)="toggleDropdown('mainType', $event)">
+            {{ mainTypeLabel }}<span class="caret">▾</span>
           </button>
           <div class="dropdown-panel" (click)="stopProp($event)">
-            <input class="dp-search" type="text" [(ngModel)]="typeSearch"
+            <input class="dp-search" type="text" [(ngModel)]="mainTypeSearch"
                    placeholder="Search types…">
             <div class="dp-options">
-              <label class="dp-option" *ngFor="let t of filteredTypeOptions">
-                <input type="checkbox" [checked]="selectedTypes.has(t)" (change)="toggleType(t)">
+              <label class="dp-option" *ngFor="let t of filteredMainTypeOptions">
+                <input type="checkbox" [checked]="selectedMainTypes.has(t)" (change)="toggleMainType(t)">
                 <span>{{ t }}</span>
               </label>
-              <div class="dp-empty" *ngIf="filteredTypeOptions.length === 0">No results</div>
+              <div class="dp-empty" *ngIf="filteredMainTypeOptions.length === 0">No results</div>
             </div>
             <div class="dp-footer">
-              <button (click)="clearTypes()">Clear selection</button>
-              <span class="dp-count">{{ selectedTypes.size }} / {{ allTypes.length }}</span>
+              <button (click)="clearMainTypes()">Clear selection</button>
+              <span class="dp-count">{{ selectedMainTypes.size }} / {{ allMainTypes.length }}</span>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Environment multiselect -->
+      <!-- Subtype multiselect (only shown when ≥1 main type selected and subtypes exist) -->
+      <div class="filter-group" *ngIf="hasSubtypes">
+        <label class="filter-label">Subtype</label>
+        <div class="dropdown" [class.open]="openDropdown === 'subtype'">
+          <button class="dropdown-btn" (click)="toggleDropdown('subtype', $event)">
+            {{ subtypeLabel }}<span class="caret">▾</span>
+          </button>
+          <div class="dropdown-panel" (click)="stopProp($event)">
+            <input class="dp-search" type="text" [(ngModel)]="subtypeSearch"
+                   placeholder="Search subtypes…">
+            <div class="dp-options">
+              <label class="dp-option" *ngFor="let s of filteredSubtypeOptions">
+                <input type="checkbox" [checked]="selectedSubtypes.has(s)" (change)="toggleSubtype(s)">
+                <span>{{ s }}</span>
+              </label>
+              <div class="dp-empty" *ngIf="filteredSubtypeOptions.length === 0">No results</div>
+            </div>
+            <div class="dp-footer">
+              <button (click)="clearSubtypes()">Clear selection</button>
+              <span class="dp-count">{{ selectedSubtypes.size }} / {{ availableSubtypes.length }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Environment multiselect -->
       <div class="filter-group">
         <label class="filter-label">Environment</label>
         <div class="dropdown" [class.open]="openDropdown === 'env'">
           <button class="dropdown-btn" (click)="toggleDropdown('env', $event)">
-            {{ envLabel }}<span class="caret">▾</span>
+            {{ mainEnvLabel }}<span class="caret">▾</span>
           </button>
           <div class="dropdown-panel" (click)="stopProp($event)">
-            <input class="dp-search" type="text" [(ngModel)]="envSearch"
+            <input class="dp-search" type="text" [(ngModel)]="mainEnvSearch"
                    placeholder="Search environments…">
             <div class="dp-options">
-              <label class="dp-option" *ngFor="let e of filteredEnvOptions">
-                <input type="checkbox" [checked]="selectedEnvironments.has(e)" (change)="toggleEnv(e)">
+              <label class="dp-option" *ngFor="let e of filteredMainEnvOptions">
+                <input type="checkbox" [checked]="selectedMainEnvs.has(e)" (change)="toggleMainEnv(e)">
                 <span>{{ e }}</span>
               </label>
-              <div class="dp-empty" *ngIf="filteredEnvOptions.length === 0">No results</div>
+              <div class="dp-empty" *ngIf="filteredMainEnvOptions.length === 0">No results</div>
             </div>
             <div class="dp-footer">
-              <button (click)="clearEnvs()">Clear selection</button>
-              <span class="dp-count">{{ selectedEnvironments.size }} / {{ allEnvironments.length }}</span>
+              <button (click)="clearMainEnvs()">Clear selection</button>
+              <span class="dp-count">{{ selectedMainEnvs.size }} / {{ allMainEnvs.length }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Environment location multiselect (only shown when ≥1 main env selected and locations exist) -->
+      <div class="filter-group" *ngIf="hasEnvSubs">
+        <label class="filter-label">Location</label>
+        <div class="dropdown" [class.open]="openDropdown === 'envSub'">
+          <button class="dropdown-btn" (click)="toggleDropdown('envSub', $event)">
+            {{ envSubLabel }}<span class="caret">▾</span>
+          </button>
+          <div class="dropdown-panel" (click)="stopProp($event)">
+            <input class="dp-search" type="text" [(ngModel)]="envSubSearch"
+                   placeholder="Search locations…">
+            <div class="dp-options">
+              <label class="dp-option" *ngFor="let s of filteredEnvSubOptions">
+                <input type="checkbox" [checked]="selectedEnvSubs.has(s)" (change)="toggleEnvSub(s)">
+                <span>{{ s }}</span>
+              </label>
+              <div class="dp-empty" *ngIf="filteredEnvSubOptions.length === 0">No results</div>
+            </div>
+            <div class="dp-footer">
+              <button (click)="clearEnvSubs()">Clear selection</button>
+              <span class="dp-count">{{ selectedEnvSubs.size }} / {{ availableEnvSubs.length }}</span>
             </div>
           </div>
         </div>

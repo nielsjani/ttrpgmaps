@@ -21,7 +21,7 @@
       </p>
     </header>
 
-    <div class="description" *ngIf="graft.description" [innerHTML]="graft.description | safeHtml"></div>
+    <div class="description" *ngIf="safeDescription" [innerHTML]="safeDescription"></div>
     <p class="no-description" *ngIf="!graft.description">No description available.</p>
   </ng-container>
 </div>

@@ -74,6 +74,11 @@ h1 {
   line-height: 1.7;
   color: #333;
 
+  p {
+    margin: 0 0 12px;
+    &:first-child { margin-top: 0; }
+  }
+
   b, strong { font-weight: 700; }
 
   a {
@@ -81,6 +86,8 @@ h1 {
     text-decoration: none;
     &:hover { text-decoration: underline; }
   }
+
+  i, em { font-style: italic; }
 }
 
 .no-description {

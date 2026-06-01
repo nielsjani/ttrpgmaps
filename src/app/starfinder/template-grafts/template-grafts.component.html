@@ -1,0 +1,76 @@
+<div class="tg-page">
+  <a class="back-link" routerLink="/starfinder">← Back to Starfinder</a>
+  <h1>🧬 Template Grafts</h1>
+  <p class="intro">
+    Modular templates applied to NPCs to represent class training, creature types, subtypes, environments, and more.
+  </p>
+
+  <!-- Filter bar -->
+  <div class="filter-bar">
+    <div class="filter-group search-group">
+      <label class="filter-label">Search by name</label>
+      <input
+        class="search-input"
+        type="text"
+        [(ngModel)]="searchText"
+        placeholder="e.g. Biohacker, Undead…"
+        autocomplete="off">
+    </div>
+
+    <div class="filter-group">
+      <label class="filter-label">Graft type</label>
+      <div class="multiselect-wrapper">
+        <button class="multiselect-btn" (click)="toggleDropdown()" [class.active]="selectedCategories.size > 0">
+          {{ categoryButtonLabel }}
+          <span class="dropdown-arrow">▾</span>
+        </button>
+        <div class="multiselect-dropdown" *ngIf="categoryDropdownOpen">
+          <label class="dropdown-option" *ngFor="let cat of categories">
+            <input type="checkbox" [checked]="isCategorySelected(cat)" (change)="toggleCategory(cat)">
+            {{ cat }}
+          </label>
+          <div class="dropdown-footer" *ngIf="selectedCategories.size > 0">
+            <button class="clear-btn" (click)="clearCategoryFilter()">Clear filter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="results-info" *ngIf="!loading && !error">
+      Showing <strong>{{ filteredGrafts.length }}</strong> of {{ grafts.length }} grafts
+    </div>
+  </div>
+
+  <!-- States -->
+  <div class="state-msg" *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <!-- Table -->
+  <div class="table-wrapper" *ngIf="!loading && !error">
+    <table class="tg-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Family</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let g of filteredGrafts">
+          <td class="name-cell">
+            <a [routerLink]="[g.slug]">{{ g.name }}</a>
+          </td>
+          <td class="cat-cell">
+            <span class="cat-badge" [attr.data-cat]="g.category">{{ g.category }}</span>
+          </td>
+          <td class="family-cell">{{ g.family }}</td>
+          <td class="source-cell">{{ g.source || '—' }}</td>
+        </tr>
+        <tr *ngIf="filteredGrafts.length === 0">
+          <td colspan="4" class="no-results">No grafts match the current filters.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

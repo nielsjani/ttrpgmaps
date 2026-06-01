@@ -1,0 +1,27 @@
+<div class="tg-detail-page">
+  <a class="back-link" routerLink="/starfinder/template-grafts">← Back to Template Grafts</a>
+
+  <div class="state-msg" *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <ng-container *ngIf="graft">
+    <header class="detail-header">
+      <div class="breadcrumb">
+        <span class="cat-badge" [attr.data-cat]="graft.category">{{ graft.category }}</span>
+        <span class="breadcrumb-sep">›</span>
+        <span class="family-label">{{ graft.family }}</span>
+      </div>
+      <h1>{{ graft.name }}</h1>
+      <p class="source-line" *ngIf="graft.source">
+        <strong>Source:</strong>
+        <a *ngIf="graft.source_url" [href]="graft.source_url" target="_blank" rel="noopener">
+          {{ graft.source }}
+        </a>
+        <span *ngIf="!graft.source_url">{{ graft.source }}</span>
+      </p>
+    </header>
+
+    <div class="description" *ngIf="graft.description" [innerHTML]="graft.description | safeHtml"></div>
+    <p class="no-description" *ngIf="!graft.description">No description available.</p>
+  </ng-container>
+</div>

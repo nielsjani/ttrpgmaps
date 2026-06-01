@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { StarfinderEntry, StarfinderDetail, UniversalMonsterRule } from '../types/starfinder.types';
+import { StarfinderEntry, StarfinderDetail, UniversalMonsterRule, TemplateGraft } from '../types/starfinder.types';
 
 @Injectable({ providedIn: 'root' })
 export class StarfinderDataService {
@@ -23,6 +23,12 @@ export class StarfinderDataService {
   getUniversalMonsterRules(): Observable<UniversalMonsterRule[]> {
     return this.http.get<UniversalMonsterRule[]>(`${this.base}/universal-monster-rules.json`).pipe(
       map(rules => rules.map(r => ({ ...r, slug: this.toSlug(r.name) })))
+    );
+  }
+
+  getTemplateGrafts(): Observable<TemplateGraft[]> {
+    return this.http.get<TemplateGraft[]>(`${this.base}/template-grafts.json`).pipe(
+      map(grafts => grafts.map(g => ({ ...g, slug: this.toSlug(g.name) })))
     );
   }
 

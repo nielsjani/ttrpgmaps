@@ -73,3 +73,14 @@ export interface UniversalMonsterRule {
   description?: string;
   slug?: string;           // derived client-side
 }
+
+export interface TemplateGraft {
+  name: string;
+  slug?: string;           // derived client-side
+  family: string;          // URL Family param value (e.g. "Class", "Dragon (Chromatic)")
+  category: string;        // one of the 7 main categories
+  source?: string;         // e.g. "Alien Archive pg. 132"
+  source_url?: string;     // link to this graft's page on aonsrd.com
+  book_url?: string;       // link to the source book on paizo.com
+  description?: string;    // raw HTML of the graft content
+}

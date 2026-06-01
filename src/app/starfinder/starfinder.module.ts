@@ -13,6 +13,8 @@ import { StarfinderDetailComponent } from './detail/starfinder-detail.component'
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { UniversalMonsterRulesComponent } from './universal-monster-rules/universal-monster-rules.component';
 import { UmrDetailComponent } from './universal-monster-rules/umr-detail.component';
+import { TemplateGraftsComponent } from './template-grafts/template-grafts.component';
+import { TemplateGraftDetailComponent } from './template-grafts/template-graft-detail.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { UmrDetailComponent } from './universal-monster-rules/umr-detail.compone
     SafeHtmlPipe,
     UniversalMonsterRulesComponent,
     UmrDetailComponent,
+    TemplateGraftsComponent,
+    TemplateGraftDetailComponent,
   ],
   imports: [
     CommonModule,

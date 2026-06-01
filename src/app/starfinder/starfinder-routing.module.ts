@@ -6,6 +6,8 @@ import { EnemiesStarshipsComponent } from './enemies-starships/enemies-starships
 import { StarfinderDetailComponent } from './detail/starfinder-detail.component';
 import { UniversalMonsterRulesComponent } from './universal-monster-rules/universal-monster-rules.component';
 import { UmrDetailComponent } from './universal-monster-rules/umr-detail.component';
+import { TemplateGraftsComponent } from './template-grafts/template-grafts.component';
+import { TemplateGraftDetailComponent } from './template-grafts/template-graft-detail.component';
 
 const routes: Routes = [
   { path: 'starfinder', component: StarfinderComponent },
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: 'starfinder/enemies-starships/:slug', component: StarfinderDetailComponent, data: { category: 'starship' } },
   { path: 'starfinder/universal-monster-rules', component: UniversalMonsterRulesComponent },
   { path: 'starfinder/universal-monster-rules/:slug', component: UmrDetailComponent },
+  { path: 'starfinder/template-grafts', component: TemplateGraftsComponent },
+  { path: 'starfinder/template-grafts/:slug', component: TemplateGraftDetailComponent },
 ];
 
 @NgModule({

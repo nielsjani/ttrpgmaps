@@ -84,3 +84,21 @@ export interface TemplateGraft {
   book_url?: string;       // link to the source book on paizo.com
   description?: string;    // raw HTML of the graft content
 }
+
+export interface FightingStyleAbility {
+  name: string;
+  full_title: string;
+  ability_type: string;
+  level: number;
+  description: string;
+}
+
+export interface FightingStyle {
+  name: string;
+  slug: string;
+  source?: string;
+  source_url?: string;
+  book_url?: string;
+  description?: string;
+  special_abilities: FightingStyleAbility[];
+}

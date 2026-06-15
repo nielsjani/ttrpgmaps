@@ -1,0 +1,117 @@
+.fs-detail-page {
+  padding: 24px 32px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #1976d2;
+  text-decoration: none;
+  font-size: 0.9rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.detail-header {
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+.source-line {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+
+  a {
+    color: #1976d2;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.description,
+.ability-description {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+
+  :is(p, ul, ol) {
+    margin: 0 0 12px;
+  }
+
+  a {
+    color: #1976d2;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.abilities-section {
+  margin-top: 28px;
+
+  h2 {
+    font-size: 1.4rem;
+    margin: 0 0 16px;
+  }
+}
+
+.ability-card {
+  background: #f5f7fa;
+  border: 1px solid #dde2ea;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  scroll-margin-top: 18px;
+
+  h3 {
+    font-size: 1.15rem;
+    margin: 0 0 10px;
+  }
+}
+
+.ability-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.meta-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e3f0fb;
+  color: #1565c0;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.no-description {
+  color: #aaa;
+  font-style: italic;
+}
+
+.state-msg {
+  padding: 48px;
+  text-align: center;
+  color: #aaa;
+  font-size: 1rem;
+
+  &.error {
+    color: #e53935;
+  }
+}

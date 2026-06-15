@@ -1,0 +1,70 @@
+<div class="fs-page">
+  <a class="back-link" routerLink="/starfinder">← Back to Starfinder</a>
+  <h1>⚔️ Fighting Styles</h1>
+  <p class="intro">
+    Soldier fighting styles define a combat approach, granting specialized abilities that unfold as characters gain levels.
+  </p>
+
+  <div class="filter-bar">
+    <div class="filter-group search-group">
+      <label class="filter-label" for="style-search">Search by style name</label>
+      <input
+        id="style-search"
+        class="search-input"
+        type="text"
+        [(ngModel)]="searchText"
+        placeholder="e.g. Ambusher, Blitz…"
+        autocomplete="off">
+    </div>
+
+    <div class="filter-group search-group">
+      <label class="filter-label" for="ability-search">Search by ability name</label>
+      <input
+        id="ability-search"
+        class="search-input"
+        type="text"
+        [(ngModel)]="abilitySearch"
+        placeholder="e.g. Vigilance, Onslaught…"
+        autocomplete="off">
+    </div>
+
+    <div class="results-info" *ngIf="!loading && !error">
+      Showing <strong>{{ filteredStyles.length }}</strong> of {{ styles.length }} fighting styles
+    </div>
+  </div>
+
+  <div class="state-msg" *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <div class="table-wrapper" *ngIf="!loading && !error">
+    <table class="fs-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Source</th>
+          <th>Abilities</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let style of filteredStyles">
+          <td class="name-cell">
+            <a [routerLink]="['/starfinder/fighting-styles', style.slug]">{{ style.name }}</a>
+          </td>
+          <td class="source-cell">{{ style.source || '—' }}</td>
+          <td class="abilities-cell">
+            <ng-container *ngFor="let ability of style.special_abilities; let i = index">
+              <a
+                [routerLink]="['/starfinder/fighting-styles', style.slug]"
+                [fragment]="abilityAnchorId(ability, i)">
+                {{ ability.name }}
+              </a><span *ngIf="i < style.special_abilities.length - 1">, </span>
+            </ng-container>
+          </td>
+        </tr>
+        <tr *ngIf="filteredStyles.length === 0">
+          <td colspan="3" class="no-results">No fighting styles match the current filters.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

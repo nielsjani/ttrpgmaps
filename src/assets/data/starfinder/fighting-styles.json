@@ -1,0 +1,1300 @@
+[
+  {
+    "name": "Ambusher",
+    "slug": "ambusher",
+    "source": "Character Operations Manual pg. 19",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Ambusher",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "The ambusher fighting style focuses on stealth, tactical positioning, and superior reflexes to gain an edge. You must have Stealth as a class skill to select this fighting style.",
+    "special_abilities": [
+      {
+        "name": "Vigilance",
+        "full_title": "Vigilance (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You watch for danger and respond swiftly. You gain Improved Initiative as a bonus feat. Whenever you act before an enemy during the first round of combat, you gain a +1 insight bonus to weapon attack rolls against that enemy until the beginning of your next turn."
+      },
+      {
+        "name": "Cheap Shot",
+        "full_title": "Cheap Shot (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you are hidden from a target or when you have improved or total cover against a target, as a full action you can make one ranged attack against that target that deals additional damage equal to half your Dexterity bonus."
+      },
+      {
+        "name": "Deadly Reflexes",
+        "full_title": "Deadly Reflexes (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When an enemy attacks you before you have taken any actions in combat, you can use your quick reflexes to retaliate. As a reaction, you can spend 1 Resolve Point to make one attack with a ranged weapon you are wielding immediately after the enemy’s attack."
+      },
+      {
+        "name": "Exploit Cover",
+        "full_title": "Exploit Cover (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "When you attempt a Stealth check to hide from an enemy that can see you, you gain a +4 insight bonus to the check if you can move into improved or total cover. In addition, whenever you attempt a Stealth check to hide while sniping, the penalty to your Stealth check is only –10."
+      },
+      {
+        "name": "Ambusher’s Edge",
+        "full_title": "Ambusher’s Edge (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a full action, you can make one attack that, in addition to dealing its normal damage and effects, causes the target to gain the off-target condition until the end of its next turn. You can also use this ability as a standard action against any creature that is flat-footed."
+      }
+    ]
+  },
+  {
+    "name": "Arcane Assailant",
+    "slug": "arcane-assailant",
+    "source": "Starfinder Core Rulebook pg. 112",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Arcane Assailant",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The arcane assailant fighting style supplements its combat effectiveness with magic powers, drawing on traditions of warrior-wizards dating back to well before the Gap. This allows you to use magic runes to augment your weapons and call on legendary powers, giving you access to arcane options even when you don’t have a magic weapon in your possession.",
+    "special_abilities": [
+      {
+        "name": "Rune of the Eldritch Knight",
+        "full_title": "Rune of the Eldritch Knight (Su) - 1st Level",
+        "ability_type": "Su",
+        "level": 1,
+        "description": "You can imbue a weapon with a magic sigil, the rune of the eldritch knight, allowing the weapon to act as a magic weapon for the purposes of bypassing DR and affecting incorporeal creatures. This takes 10 minutes, and you can imbue only a single weapon at a time. If you imbue a new weapon with the rune of the eldritch knight, any previously imbued weapon loses this benefit. When calculating the Hit Points and hardness of a weapon imbued with the rune of the eldritch knight, treat its item level as 5 higher."
+      },
+      {
+        "name": "Secret of the Magi",
+        "full_title": "Secret of the Magi (Su) - 5th Level",
+        "ability_type": "Su",
+        "level": 5,
+        "description": "When you imbue a weapon with the rune of the eldritch knight, in addition to its normal benefits, the rune grants the weapon one of the following weapon fusions of your choice: flaming, frost, ghost killer, merciful, or shock. The weapon can’t gain a fusion it already has, and this bonus fusion doesn’t count toward the maximum total level of fusions the weapon can have at once. The bonus fusion ends when the weapon ceases to be imbued with the rune of the eldritch knight. For more information on fusions, see page 191."
+      },
+      {
+        "name": "Power of Legend",
+        "full_title": "Power of Legend (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "You can call on the link between you and the legendary heroes who wielded powerful magic weapons eons ago to overcome adversity. As a move action when wielding a magic weapon or a weapon imbued with the rune of the eldritch knight, you can spend 1 Resolve Point to end one of the following conditions affecting you: bleeding, burning, confused, exhausted, fatigued, flat-footed, off-target, shaken, or sickened. Alternatively, you can spend 1 Resolve Point to change the cowering condition to the frightened condition or change the frightened condition to the shaken condition. In this case, the new condition lasts for the same duration the original condition would have and can’t be further affected by this ability."
+      },
+      {
+        "name": "Secret of the Archmagi",
+        "full_title": "Secret of the Archmagi (Su) - 13th Level",
+        "ability_type": "Su",
+        "level": 13,
+        "description": "You can imbue two weapons with the rune of the eldritch knight. If you attempt to imbue a third weapon, the weapon infused first loses its rune and all benefits. In addition to the normal benefits, the runes grant the weapons one or more of the following weapon fusions (see page 191) of your choice: <i>bane</i>, <i>corrosive</i>, <i>ethereal</i>, <i>flaming</i>, <i>frost</i>, <i>holy</i>, <i>merciful</i>, <i>shock</i>, <i>thundering</i>, or <i>unholy</i>. You can grant no more than 10 total levels’ worth of fusions between the two weapons, and the bane fusion counts as a 10th-level fusion for this purpose."
+      },
+      {
+        "name": "Arcane Attack",
+        "full_title": "Arcane Attack (Su) - 17th Level",
+        "ability_type": "Su",
+        "level": 17,
+        "description": "As a standard action, you can spend 1 Resolve Point to use a weapon imbued with the rune of the eldritch knight to make an attack that strikes true. This attack ignores all cover and concealment, including total concealment (though you must at least be aware of a creature’s presence to target it with this attack). If the attack is a ranged attack, the target must be within the first range increment. The attack only affects your selected target, even if it normally affects an area or multiple targets. You still must make a normal attack roll, and if your attack misses, it has no effect."
+      }
+    ]
+  },
+  {
+    "name": "Archer",
+    "slug": "archer",
+    "source": "Galactic Magic pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Archer",
+    "book_url": "https://store.paizo.com/starfinder-galactic-magic/",
+    "description": "Choosing a bow over a laser rifle is often an defiant act performed to prove that obstacles can be overcome with the ancient weapon.",
+    "special_abilities": [
+      {
+        "name": "Snapshot",
+        "full_title": "Snapshot (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain proficiency with analog bow-like special weapons, including bows and apocalypse bows (referred to hereafter as bows). You can draw a bow or arrow as a swift action, or as part of the action used to make an attack or full attack. At 3rd level, you gain weapon specialization in bows as if your class granted proficiency."
+      },
+      {
+        "name": "Close-Combat Arrows",
+        "full_title": "Close-Combat Arrows (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You gain a +4 bonus to your Armor Class against attacks of opportunity you provoke by making a ranged attack with a bow. You can wield an arrow as though it were a dueling sword (Core Rulebook 187) with the analog property and an item level equal to or lower than your soldier level. These attacks deal piercing damage rather than slashing damage."
+      },
+      {
+        "name": "Pinpoint Targeting",
+        "full_title": "Pinpoint Targeting (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "As a standard action, you can make a single attack with a bow, increasing your bonus to damage from Weapon Specialization for the attack to 1-1/2 × your soldier level. The attack ignores an amount of the target’s damage reduction or hardness (if any) by an amount equal to your key ability modifier."
+      },
+      {
+        "name": "Fistful of Arrows",
+        "full_title": "Fistful of Arrows (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "As a full action, you can draw, nock, and fire copious arrows in one motion, making an attack as though your bow had the automatic or line weapon special property. This attack expends ammunition as if you made 10 attacks; if you can’t expend that ammunition, you can’t use this ability."
+      },
+      {
+        "name": "Saving Shot",
+        "full_title": "Saving Shot (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a reaction when a ranged attack is made against you or a target you can see within 30 feet of you, you can spend 1 Resolve Point to fire an arrow that might deflect the incoming projectile. Make a ranged attack with your bow and compare the result to the triggering attack’s result. If your roll is greater than the triggering attack’s result by 4 or less, the attacker rerolls the attack and uses the new result. If your attack roll exceeds the triggering attack’s result by 5 or more, the triggering attack misses. If the triggering attack was made with a grenade and would miss, you can choose a new target for the grenade that is within 20 feet of its original target. This ability can’t deflect unusually large projectiles, such as starship attacks, boulders, or large missiles."
+      }
+    ]
+  },
+  {
+    "name": "Armor Storm",
+    "slug": "armor-storm",
+    "source": "Starfinder Core Rulebook pg. 113",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Armor Storm",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The armor storm fighting style focuses on using armor as a weapon by maximizing the damage of armor-based weapons while withstanding enemy fire. You learn to increase the effectiveness of attacks made with your armor and to add equipment normally beyond your armor’s capacity.",
+    "special_abilities": [
+      {
+        "name": "Hammer Fist",
+        "full_title": "Hammer Fist (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You treat any unarmed strike you make while wearing heavy or powered armor as being made with a battleglove (see page 187) with an item level equal to or lower than your soldier level, and you calculate damage for these attacks as if you had the melee striker gear boost (see page 112). If you have the melee striker gear boost, you gain a +2 bonus to damage rolls with your unarmed strikes when using this ability. These unarmed strikes don’t benefit from other abilities that apply specifically to unarmed strikes (such as the Improved Unarmed Strike feat)."
+      },
+      {
+        "name": "Enhanced Tank",
+        "full_title": "Enhanced Tank (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You gain the Powered Armored Proficiency feat, ignoring prerequisites, and access to improved armor. This might be the result of your own engineering abilities or a powerful patron giving you gear not available to the general public. You can add one more upgrade to your armor than its normal maximum number of upgrade slots. If you add this bonus upgrade to heavy armor, you can select an upgrade normally limited to powered armor. An upgrade placed in this bonus slot costs half the normal credit amount and sells for 10% of the reduced cost. If you move an upgrade from this bonus slot to another slot, you must pay the difference between the upgrade’s reduced cost and its normal cost."
+      },
+      {
+        "name": "Smash Through",
+        "full_title": "Smash Through (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "While you are wearing heavy armor or powered armor, you gain a +4 bonus to attack rolls to perform a bull rush combat maneuver (see page 246). If you successfully push the target back 10 feet or more, you can also damage the target with an unarmed strike (and can use your hammer fist ability when doing so)."
+      },
+      {
+        "name": "Mobile Army",
+        "full_title": "Mobile Army (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You become a master of all weapons associated with your armor. You deal 1d6 additional damage with any attack from a weapon that is part of your armor, including unarmed strikes using the hammer fist ability and weapons that have been attached to your armor as an armor upgrade. The additional damage is of the same type as the weapon’s normal type. Also, while wearing heavy or powered armor, you gain a +2 bonus to your KAC against combat maneuvers."
+      },
+      {
+        "name": "On the Bounce",
+        "full_title": "On the Bounce (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You learn to control your armor with such ease, you are actually more maneuverable in it than out of it. While wearing heavy armor or powered armor, you can move up to your speed when you make a full attack. You can move before or after all your attacks, but not both. If you have the Shot on the Run feat, you can divide your movement to move both before and after making a full attack as long as all the attacks are ranged attacks. If you have the Spring Attack feat, you can divide your movement to move both before and after making a full attack as long as all the attacks are melee attacks. If you have both feats, your attacks can be any combination of melee and ranged attacks."
+      }
+    ]
+  },
+  {
+    "name": "Battlemaster",
+    "slug": "battlemaster",
+    "source": "Character Operations Manual pg. 27",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Battlemaster",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "The battlemaster fighting style focuses on adapting your natural advantages to new dangers and situations as they arise. By anticipating particular threats or adjusting mid-combat to deal with specific foes, you can assure your survival and gain the advantage. The following soldier fighting style is an adaptation of this technique that has made its way to the Pact Worlds. You must have the armor savant and natural weapons racial traits to take this fighting style.",
+    "special_abilities": [
+      {
+        "name": "Bolster Resilience",
+        "full_title": "Bolster Resilience (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "As a move action, you can grant yourself DR 1/— for a number of rounds equal to your Strength or Constitution modifier (whichever is higher; minimum 1 round). Once you have used this ability, you can use it again only after you take a 10-minute rest to regain Stamina Points. This DR increases to DR 2/— at 5th level, DR 3/— at 9th level, DR 4/— at 13th level, and DR 5/— at 17th level. If you have DR from any other sources, the DR you gain from this ability increases by 1. Each time you are attacked while this ability is active, you can use either this DR or the DR gained from another source."
+      },
+      {
+        "name": "Instinctive Strike",
+        "full_title": "Instinctive Strike (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a move action, you can study a target to spot vulnerabilities that make your melee attacks more effective. You gain a +1 insight bonus to the next melee attack roll you make against that target before the end of your next turn. You can study only one target at a time, and if you use this ability to gain a bonus against a new foe, any previous bonus is lost. Once you have made an attack against a creature with this bonus, you can’t use instinctive strike against that foe again for 24 hours."
+      },
+      {
+        "name": "Reactive Resistance",
+        "full_title": "Reactive Resistance (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When you take energy damage, you can expend 1 Resolve Point as a reaction to gain energy resistance 10 against that type of energy damage (including the triggering damage) for 1 minute. If you took damage from multiple types of energy damage as part of the same attack or effect, you choose one to gain energy resistance against. You can have resistance against only one energy type from reactive resistance at a time. If you use this ability to gain resistance against a new damage type, any previous resistance gained from this ability is lost."
+      },
+      {
+        "name": "Anticipate Ambush",
+        "full_title": "Anticipate Ambush (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You can act during a surprise round."
+      },
+      {
+        "name": "Empower Defenses",
+        "full_title": "Empower Defenses (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a move action, you can double the DR you gain from your bolster resilience style technique and the energy resistance you gain from your reactive resistance style technique until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "name": "Blitz",
+    "slug": "blitz",
+    "source": "Starfinder Core Rulebook pg. 113",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Blitz",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The blitz fighting style is all about using speed and aggression to get into the thick of melee. You increase your speed and responsiveness, gain abilities that make you better at melee combat than your enemies, and keep on fighting even when surrounded by foes.",
+    "special_abilities": [
+      {
+        "name": "Rapid Response",
+        "full_title": "Rapid Response (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain a +4 bonus to initiative checks and increase your land speed by 10 feet."
+      },
+      {
+        "name": "Charge Attack",
+        "full_title": "Charge Attack (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a standard action, you can make a charge without the charge penalties (see page 248), and you can substitute a bull rush for the melee attack at the end of the charge. When you gain the soldier’s onslaught class feature, you can make two attacks instead of one at the end of your charge, both with a –4 penalty."
+      },
+      {
+        "name": "Keep Fighting",
+        "full_title": "Keep Fighting (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "As a move action, you can spend 1 Resolve Point to regain Stamina Points equal to 2d6 + your soldier level. You can’t use this ability again until after you regain Stamina Points from a 10-minute rest. The number of Stamina Points you regain increases by 1d6 at 10th level, 15th level, and 20th level."
+      },
+      {
+        "name": "Perfect Opportunity",
+        "full_title": "Perfect Opportunity (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "When you hit a creature with an attack of opportunity, that creature can’t move out of the squares you threaten until the start of its next turn. In addition, when an enemy takes a guarded step (see page 247) out of a square you threaten, you can make an attack of opportunity against it with a –2 penalty to the attack roll. If the target provoked an attack of opportunity by moving, hitting with your attack of opportunity ends the target’s movement immediately, preventing it from carrying out the rest of its movement."
+      },
+      {
+        "name": "Against the Odds",
+        "full_title": "Against the Odds (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You gain a bonus to melee damage rolls equal to double the number of enemies within 10 feet of you. Enemies who don’t constitute a significant threat (those with a CR equal to your level – 4 or less, or as determined by the GM) don’t count when calculating this bonus."
+      }
+    ]
+  },
+  {
+    "name": "Bombard",
+    "slug": "bombard",
+    "source": "Starfinder Core Rulebook pg. 114",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Bombard",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The bombard fighting style emphasizes attacking multiple targets, often using grenades, and leverages substantial physical strength to control large weapons with significant recoil. At higher levels, you can use launchers, missiles, and other heavy weapons.",
+    "special_abilities": [
+      {
+        "name": "Grenade Expert",
+        "full_title": "Grenade Expert (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You increase the range increment of your thrown grenades by 5 × your Strength bonus. In addition, you’re able to salvage enough materials to create a grenade without paying for it. Creating a grenade takes 10 minutes. You can create any grenade whose item level is less than or equal to your soldier level, but this grenade is unstable and only you can use it effectively. If anyone else tries to use the grenade, it is a dud. You can have only one grenade created by this ability at one time (if you create a new grenade using this ability, the old grenade no longer works)."
+      },
+      {
+        "name": "Heavy Fire",
+        "full_title": "Heavy Fire (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You can use your physical power to steady your weapon and make your attacks more dangerous. As a full action, you can make a single ranged attack that deals additional damage equal to your Strength bonus to all targets. You can use this ability in conjunction with the automatic, explode, or unwieldy special property (see pages 180–182)."
+      },
+      {
+        "name": "Debilitating Attack",
+        "full_title": "Debilitating Attack (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When you hit an enemy with a ranged attack or an attack with a weapon with the blast or explode special property, you can spend 1 Resolve Point to inflict a debilitating effect on that enemy for a number of rounds equal to your Strength bonus. You can choose to make the target deafened, flat-footed, or off-target (see pages 275–277), or to reduce its speeds by half (to a minimum of 10 feet). The target can negate this effect with a successful Fortitude save (DC = 10 + half your soldier level + your Strength modifier)."
+      },
+      {
+        "name": "Explosives Acumen",
+        "full_title": "Explosives Acumen (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You increase the DC to avoid attacks you make using weapons with the explode special property by 1. You reduce the amount of any damage you take from any weapon with the explode special property by an amount equal to your Strength bonus."
+      },
+      {
+        "name": "Impactful Attack",
+        "full_title": "Impactful Attack (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a full action, you can make a ranged attack that knocks enemies back. Targets you hit are knocked back 5 feet from you. If you use a weapon with the explode special property, all targets that fail their saving throws are instead knocked back 5 feet from the center of the explosion. An enemy that you critically hit or that rolls a natural 1 on its saving throw is also knocked prone. You can’t make an impactful attack with an automatic weapon, but you can use this ability with a weapon that has the blast special property."
+      }
+    ]
+  },
+  {
+    "name": "Bullet Rain",
+    "slug": "bullet-rain",
+    "source": "Tech Revolution pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Bullet Rain",
+    "book_url": "https://store.paizo.com/starfinder-tech-revolution/",
+    "description": "Whether the roar of flamethrowers heralds your entrance or the staccato beat of bullets punctuates your battle cries, you’re a master at using heavy weapons.",
+    "special_abilities": [
+      {
+        "name": "Spray Targets",
+        "full_title": "Spray Targets (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "When attacking an area (like a line or cone) with heavy weapons, you ignore concealment and any cover less than total cover."
+      },
+      {
+        "name": "Focus Fire",
+        "full_title": "Focus Fire (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you make a single attack against an area—such as by using a weapon’s automatic mode—and the attack would affect only a single target, you can focus your attack on that target. If you hit, the target chooses to either drop prone or take additional damage from the attack equal to your soldier level. Dropping prone doesn’t negate the normal damage, nor does it affect the target’s AC against the triggering attack. This attack expends all of the weapon’s remaining ammunition, even if the attack wouldn’t normally do so."
+      },
+      {
+        "name": "Furious Reload",
+        "full_title": "Furious Reload (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "On your turn, you can spend 1 Resolve Point to reload a heavy weapon without using an action. When you do so, you gain a +1 morale bonus to attack rolls made with the reloaded weapon as well as temporary Hit Points equal to your key ability score modifier. Both effects last until the beginning of your next turn."
+      },
+      {
+        "name": "One-Handed Gunner",
+        "full_title": "One-Handed Gunner (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You can wield a two-handed heavy weapon with only one hand as long as your Strength exceeds the minimum Strength needed to wield the weapon without a penalty by 2 or more. When you’re using two hands to operate a heavy weapon you could wield one-handed, once per round when you hit a target with the weapon, you can provide covering fire to one of your allies against the target you hit in addition to dealing damage."
+      },
+      {
+        "name": "Overwhelming Firepower",
+        "full_title": "Overwhelming Firepower (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "When you use a heavy weapon to attack an area, choose any number of targets in the area that you missed with the attack and that don’t benefit from total cover. The selected targets still take damage from the attack equal to your soldier level or equal to the weapon’s damage, whichever is lower. The damage type is identical to that dealt by the weapon."
+      }
+    ]
+  },
+  {
+    "name": "Chaldiralist",
+    "slug": "chaldiralist",
+    "source": "Starfinder Enhanced pg. 72",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Chaldiralist",
+    "book_url": "https://store.paizo.com/starfinder-rpg-starfinder-enhanced/",
+    "description": "The deity Chaldira champions the righteous underdog, and her followers have immortalized her tenets in a unique fighting style. Through psychological conditioning and honed reflexes, a Chaldirilist trains to laugh off obstacles, engage the toughest foes, avenge anyone who would hurt an ally, and have fun. Though developed by halflings, variants of this style have spread elsewhere in the galaxy.",
+    "special_abilities": [
+      {
+        "name": "Bully Battler",
+        "full_title": "Bully Battler (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You punch up harder than others can punch down. Against any foe you’ve witnessed deal damage to an ally or to a creature whose level is at least 4 lower than the foe’s CR, your next successful melee attack against that foe before the end of your next turn deals additional damage equal to 1d4 + half your soldier level. Alternatively, you can treat that foe as flat-footed against your next bull rush, reposition, or trip combat maneuver you attempt against them before the end of your next turn."
+      },
+      {
+        "name": "Laugh Off Tyranny",
+        "full_title": "Laugh Off Tyranny (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "If you have the confused, fascinated, fatigued, shaken, sickened, or staggered condition caused by a foe at the beginning of your turn, you can spend 1 Resolve Point to attempt a Will save against the effect that gave you that condition, using that effect’s save DC. If you succeed, you don’t suffer the effects of that condition (though you continue experiencing anything else caused by the effect) for 1d4 rounds. The condition is merely suppressed, not removed, and its effects resume afterward. Against an effect that has no saving throw, the Will save DC equals 8 + the foe’s CR."
+      },
+      {
+        "name": "Anything for a Friend",
+        "full_title": "Anything for a Friend (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You gain Bodyguard as a bonus feat, or In Harm’s Way if you already have Bodyguard; if you have both feats, you gain a different combat feat for which you qualify. You can use Bodyguard to protect an ally who is up to 10 feet away, rather than just an adjacent ally. When you use In Harm’s Way to intercept an attack, you gain the effects of your bully battler ability against the attacker as if your ally had taken damage, and the additional damage that ability deals increases to 1d12 + half your soldier level."
+      },
+      {
+        "name": "Lethal Gambit",
+        "full_title": "Lethal Gambit (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "At the start of your turn, you can activate this ability to be especially reckless and bold, granting effects that last until the beginning of your next turn. You gain the flat-footed condition, and attacks against you score a critical hit on a natural 19 or 20 die result. When you move toward a significant foe, you gain a +10-foot enhancement bonus to your movement speeds, you gain a +1 circumstance bonus to melee attack rolls against significant foes, and you score a critical hit with melee attacks against a significant foe on a natural 19 or 20 die result. After you score a critical hit on a natural 19 die result with this ability, you cannot activate the ability again for 1d4 rounds."
+      },
+      {
+        "name": "The Bigger They Are",
+        "full_title": "The Bigger They Are (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a standard action, you can attempt a single melee attack against a significant foe. If the attack hits, you can spend 1 Resolve Point to knock the target prone and deal 5d6 additional damage as though the target had fallen 50 feet (Fortitude negates). If the target is larger than Medium and at least one size category larger than you, increase the falling damage by 5 and increase the Fortitude save DC by 1. If the target is larger than Large and at least two size categories larger than you, instead increase the falling damage by 10, and increase the Fortitude save DC by 2."
+      }
+    ]
+  },
+  {
+    "name": "Commander",
+    "slug": "commander",
+    "source": "Starfinder #44: Allies Against the Eye pg. 47",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Commander",
+    "book_url": "https://store.paizo.com/starfinder-adventure-path-allies-against-the-eye-horizons-of-the-vast-5-of-6/",
+    "description": "You’re a symbol of salvation for those in your squad, a peerless tactician whose battlefield acumen is matched only by your skill at arms.",
+    "special_abilities": [
+      {
+        "name": "Tactful Tactician",
+        "full_title": "Tactful Tactician (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "Add Diplomacy to your list of soldier class skills. You gain Coordinated Shot as a bonus feat, and you can choose Charisma instead of Strength or Dexterity as your key ability score if you choose the commander fighting style as your primary fighting style.<br/> Starting at 7th level, whenever you gain a gear boost, you can instead select an envoy expertise talent. You count as having expertise with Bluff, Diplomacy, Intimidate, and Sense Motive for this purpose, and you can select only expertise talents that require expertise with one of these four skills. If an expertise talent would require you to forgo your expertise die, you must instead spend 1 Resolve Point to use that talent."
+      },
+      {
+        "name": "Lead by Example",
+        "full_title": "Lead by Example (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a move action, you can choose one opponent within 30 feet. If you hit that opponent with any attack before the end of your turn, your allies gain the attack bonus from Coordinated Shot against that opponent, and you don’t provide that opponent cover. These benefits last until the start of your next turn."
+      },
+      {
+        "name": "Coordinated Defense",
+        "full_title": "Coordinated Defense (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "Whenever an ally attempts an attack roll while flanking with you, or when an ally benefits from your Coordinated Shot feat, they also gain a +1 insight bonus to Reflex saves and AC until the start of their next turn. If your ally’s attack hits, you gain a +1 insight bonus to Reflex saves and AC until the start of your next turn.<br/> When you use lead by example and you hit with the attack, you can spend 1 Resolve Point to grant the attack bonus from Coordinated Shot to all allies attacking any enemy within 30 feet of you; when you do, you don’t provide cover to any enemies. Both these benefits last until the start of your next turn."
+      },
+      {
+        "name": "Rallying Cry",
+        "full_title": "Rallying Cry (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "As a move action, you can choose one ally within 30 feet that’s affected by an emotion effect and attempt a Diplomacy or Intimidate check (DC = 10 + 1-1/2 × the ally’s level). If you succeed, the effect ends. Once an ally has benefited from your rallying cry, that ally can’t gain the benefits of your rallying cry again until they take a 10-minute rest to recover Stamina Points. This is a mind-affecting, language-dependent effect.<br/> In addition, whenever you critically hit an opponent or reduce an opponent’s Hit Points to 0, you can take a reaction to grant the attack bonus from Coordinated Shot to all allies attacking any enemy within 30 feet of you; when you do, you don’t provide cover to any enemies. Both of these benefits last until the start of your next turn."
+      },
+      {
+        "name": "Legendary Example",
+        "full_title": "Legendary Example (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "When you successfully attack an enemy, you automatically use lead by example; this doesn’t require an action."
+      }
+    ]
+  },
+  {
+    "name": "Exosuit",
+    "slug": "exosuit",
+    "source": "Starfinder Enhanced pg. 72",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Exosuit",
+    "book_url": "https://store.paizo.com/starfinder-rpg-starfinder-enhanced/",
+    "description": "You thrive not when wearing armor, but when piloting it. For you, a mech is like a second skin, and you’re able to push your favorite mech to its limits. <br/>Mechs do not feature in every Starfinder campaign, so it’s important to check with your GM before selecting this fighting style to understand how regularly you might apply its benefits.",
+    "special_abilities": [
+      {
+        "name": "The Only Mech for Me",
+        "full_title": "The Only Mech for Me (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "Once per day, you’re able to develop a special bond with a mech by performing maintenance, testing maneuvers, running diagnostics, and appreciating its grandeur for 8 hours over a 24-hour period; you can spend 1 or more Resolve Points to reduce the time needed to form this bond by 1d4 hours per RP spent, to a minimum of a full action to form the bond. If you bond with a different mech, your previous bond ends.<br/>You gain a +1 insight bonus to Piloting checks, which increases by 1 at 3rd level and every 4 levels thereafter (maximum +6 at 19th level). This insight bonus applies to all your skills for the purpose of performing the maneuver Power Point ability. Finally, you can enter an allied or unattended mech as a standard action, or exit a mech as a standard action (rather than as a full action)."
+      },
+      {
+        "name": "Intuitive Commands",
+        "full_title": "Intuitive Commands (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you operate your bonded mech to grant it an additional move action or standard action, you can grant the mech a special benefit depending on the type of action you performed with the mech. If you used the action to move, you grant the mech a +1 enhancement bonus to AC until the beginning of your next turn. If you used the action to make one or more attacks, you can reduce the Power Point cost of the devastating hit ability or the called shot ability by 1 (minimum 2 PP). Once you use intuitive commands, you cannot do so again for 1d4 rounds. At 15th level, this is reduced to 1d4–1 rounds."
+      },
+      {
+        "name": "Titan’s Onslaught",
+        "full_title": "Titan’s Onslaught (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "When you operate your bonded mech, use its additional granted action to perform a full attack, and use the aim Power Point ability, you apply part of the enhanced aim to all the attacks. Apply the full insight bonus to the first attack roll; reduce the bonus by 1 (minimum 0) and apply it to the second attack; and reduce the bonus by 2 (minimum 0) and apply it to any additional attacks made as part of the full attack. Additionally, when you use the additional action you grant to the mech to make a full attack, you can apply your soldier’s onslaught class ability to the full attack, making three attacks with a –6 penalty to each attack.<br/>At 20th level, you can use your kill shot class ability with mech weapon attacks you make."
+      },
+      {
+        "name": "Alpha Strike",
+        "full_title": "Alpha Strike (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "Once per day when you operate your bonded mech, you can grant the mech both a move action and a standard action. If you use these to perform a full attack, you can make one attack with each of the mech’s weapons, to a maximum of four attacks. If you make three or four attacks in this way, make each attack with a –6 penalty instead of a –4 penalty. These attacks ignore and are not counted against the mech’s limit of activating its weapons more than once per round. Finally, if any of these attacks damage the same target, you can combine those attacks’ damage for the purpose of overcoming energy resistance and damage reduction."
+      }
+    ]
+  },
+  {
+    "name": "Farshot",
+    "slug": "farshot",
+    "source": "Interstellar Species pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Farshot",
+    "book_url": "https://store.paizo.com/starfinder-rpg-interstellar-species/",
+    "description": "For some, the best combat strategies eliminate the opposition before they’re even halfway close enough to pose a credible threat. You’re adept at keeping a low profile while launching consistent, patient, and deadly attacks from afar. This style is especially well suited to sniper weapons; activating a weapon’s sniper special property to increase a weapon’s range (typically as a move action) is referred to below as “aiming a sniper weapon,” and attacks made with that increased range are referred to as “aimed shots.”",
+    "special_abilities": [
+      {
+        "name": "Steady Shot",
+        "full_title": "Steady Shot (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain Stealth as a class skill. When you make an aimed shot, you can reroll any damage dice with a result of 1 and use the second result instead."
+      },
+      {
+        "name": "Patient Precision",
+        "full_title": "Patient Precision (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You can aim a sniper weapon as a full action instead of as a move action, designating a target when you do so. The next ranged attack you make against the target with that weapon before the end of your next turn is resolved as an aimed shot. If the attack is a critical hit, you roll your damage three times (rather than two times) and add the rolls together to calculate the critical hit’s damage, and the saving throw DCs of any of the attack’s critical hit effects are increased by 1."
+      },
+      {
+        "name": "Lethal Near and Far",
+        "full_title": "Lethal Near and Far (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "While you’re adept at sniping, you’ve also turned your gun into a deadly improvised weapon. You increase the sniper weapon special property range increment of any weapon you wield by 20%. You can also attack with any sniper weapon of at least 1 bulk as though it were a two-handed basic melee weapon with the block weapon special property and the knockdown critical hit effect that deals bludgeoning damage based on its item level; if the sniper weapon’s item level is 7 or lower, it deals 1d8 damage, and this damage increases by 1d8 at item level 9 and every 2 item levels thereafter (maximum 7d8 at item level 19)."
+      },
+      {
+        "name": "Instant Aim",
+        "full_title": "Instant Aim (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You can aim a sniper weapon as a swift action rather than as a move action, or you can aim your sniper weapon using your patient precision ability as a standard action. Once you use this ability, you can’t do so again until you rest for 10 minutes to regain Stamina Points. You can use this ability additional times without resting, but you must spend 1 Resolve Point for each additional use."
+      },
+      {
+        "name": "One Shot, One Kill",
+        "full_title": "One Shot, One Kill (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You gain the increased critical hit damage and increased critical effect save DC of your patient precision ability whenever you perform an aimed shot. If you use patient precision to aim as a full action (or as a standard action with instant aim), the next aimed shot you attempt before the end of your next turn scores a critical hit dealing double damage on a natural die result of 18 or 19, and it scores a critical hit dealing the full triple damage on a natural die result of 20."
+      }
+    ]
+  },
+  {
+    "name": "Fourfold Tactician",
+    "slug": "fourfold-tactician",
+    "source": "Character Operations Manual pg. 20",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Fourfold Tactician",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "A fourfold tactician is a master of making use of multiple weapons and still having a spare hand. You must have four or more arms to select or use this fighting style.",
+    "special_abilities": [
+      {
+        "name": "Double Draw",
+        "full_title": "Double Draw (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain Double Draw as a bonus feat. If you have Double Draw, you can instead select a combat feat for which you meet the prerequisites. Starting at 9th level, you can draw or sheathe as many weapons as you have limbs, using the same action normally required to do so with one weapon."
+      },
+      {
+        "name": "Feint and Strike",
+        "full_title": "Feint and Strike (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "While wielding at least two weapons, you can feint and make one attack as a standard action. This ability counts as Improved Feint for meeting prerequisites. If you have Improved Feint, you instead gain a +2 insight bonus to Bluff checks to feint while you are wielding at least two weapons."
+      },
+      {
+        "name": "Instant Reload",
+        "full_title": "Instant Reload (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You can expend 1 Resolve Point to reload every weapon you are wielding as a move action."
+      },
+      {
+        "name": "Run and Gun",
+        "full_title": "Run and Gun (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "While you are holding two or more weapons, you can move up to your speed before or after a full attack. You can’t move between attacks, and you can make no more than one attack with each weapon you are holding unless another ability, such as the Fusillade feat, allows you to do so."
+      },
+      {
+        "name": "Overkill",
+        "full_title": "Overkill (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a full attack, you can fire two automatic weapons in their automatic mode, taking the same penalty to attack rolls you normally do for making a full attack."
+      }
+    ]
+  },
+  {
+    "name": "Gloom Gunner",
+    "slug": "gloom-gunner",
+    "source": "Starfinder #12: Heart of Night pg. 52",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Gloom Gunner",
+    "book_url": "https://store.paizo.com/starfinder-adventure-path-12-heart-of-night-signal-of-screams-3-of-3/",
+    "description": "A gloom gunner has an eldritch connection to the Shadow Plane. By choosing this style, you create this link and use it to infuse your weapon attacks with the dark dimension’s uncanny magic. As your martial skill increases, so does your bond to the Shadow Plane. This stronger union with shadow allows you to become a frightening combatant with any armaments you wield.<br/>A couple of these features add bonus fusions to a weapon you wield. No weapon can gain a fusion it already has. However, these bonus fusions don’t count toward the maximum total level of fusions the weapon can have at once.",
+    "special_abilities": [
+      {
+        "name": "Gloom Weapons",
+        "full_title": "Gloom Weapons (Su) - 1st Level",
+        "ability_type": "Su",
+        "level": 1,
+        "description": "Due to your connection with the Shadow Plane, any weapon you wield is infused with planar power. Your melee and ranged attacks count as magic for the purposes of bypassing damage reduction and other situations, such as attacking incorporeal creatures."
+      },
+      {
+        "name": "Shadow Fusion",
+        "full_title": "Shadow Fusion (Su) - 5th Level",
+        "ability_type": "Su",
+        "level": 5,
+        "description": "Weapons are considered to have the <a href=\"WeaponFusions.aspx?ItemName=Ominous\" style=\"text-decoration:underline\">ominous fusion</a> while you wield them. A creature that gains the shaken condition from your bonus ominous fusion can gain that condition again from the same weapon, even if 24 hours haven’t passed."
+      },
+      {
+        "name": "Ominous Power",
+        "full_title": "Ominous Power (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "If you score a critical hit with a weapon you wield, you can apply the critical hit effect of the <a href=\"WeaponFusions.aspx?ItemName=Ominous\" style=\"text-decoration:underline\">ominous fusion</a> in addition to one other critical hit effect the weapon has. When you render a target shaken, you can spend 1 Resolve Point to change that condition to frightened for the same duration. In addition, once per day when you fail a saving throw against a mind-affecting effect, you can reroll that saving throw."
+      },
+      {
+        "name": "Shadow Secrets",
+        "full_title": "Shadow Secrets (Su) - 13th Level",
+        "ability_type": "Su",
+        "level": 13,
+        "description": "Weapons are considered to have the <a href=\"WeaponFusions.aspx?ItemName=Ghost%20Killer\" style=\"text-decoration:underline\">ghost killer fusion</a> while you wield them (this is in addition to the <a href=\"WeaponFusions.aspx?ItemName=Ominous\" style=\"text-decoration:underline\">ominous fusion</a> granted by your shadow fusion ability). In addition, you can use your connection to the Shadow Plane to add one of the following benefits to a weapon you wield. These benefits cause bizarre visual distortions when you use them because they’re made possible by your manipulation of the spatial incongruities between the Shadow Plane and the Material Plane. A chosen benefit lasts until the end of your turn.<br/> <ul> <li>As part of the action you use to attack, increase your reach with the weapon by 5 feet.</li> <li>As part of the action you use to attack, double the weapon’s range increment.</li> <li>When you hit a creature, you can use a swift action to perform a dirty trick combat maneuver against it.</li> <li>As part of the action you use to attack, damage from the weapon you are using ignores hardness equal to your soldier level.</li> </ul>"
+      },
+      {
+        "name": "Shadow Attack",
+        "full_title": "Shadow Attack (Su) - 17th Level",
+        "ability_type": "Su",
+        "level": 17,
+        "description": "As a standard action, you can spend 1 Resolve Point to make an attack against a creature you are aware of, ignoring all cover and concealment (including total). If the attack is a ranged attack, the target must be within your weapon’s first range increment. The attack affects only your selected target, even if it normally affects an area or multiple targets. You still have to roll to hit your target, and an attack that misses has no effect."
+      }
+    ]
+  },
+  {
+    "name": "Guard",
+    "slug": "guard",
+    "source": "Starfinder Core Rulebook pg. 114",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Guard",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The guard fighting style focuses on defense. You become adept at wearing armor, protecting against attacks, and enduring damage and other setbacks from attacks that get through your defenses.",
+    "special_abilities": [
+      {
+        "name": "Armor Training",
+        "full_title": "Armor Training (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You reduce the armor check penalty of armor you wear by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1."
+      },
+      {
+        "name": "Guard’s Protection",
+        "full_title": "Guard’s Protection (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When an ally adjacent to you is damaged by an attack, you can use your reaction to intercede. You take half the damage, and your ally takes the other half. This has no effect on spells, and any conditions delivered by the attack apply to both of you. In addition, you are now proficient with powered armor."
+      },
+      {
+        "name": "Rapid Recovery",
+        "full_title": "Rapid Recovery (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You can spend Resolve Points to ignore detrimental conditions. As a move action, you can spend 1 Resolve Point to suppress one of the following conditions for 10 minutes: exhausted, fatigued, frightened, nauseated, shaken, sickened, or staggered (see pages 276–277). After 10 minutes, if the condition’s duration hasn’t ended, the condition’s effects return. You can suppress only one condition at a time; if you are both fatigued and shaken, you can avoid the effects of only one of them, and if you are affected by two different instances of the same condition, you’re still affected by the second one."
+      },
+      {
+        "name": "Kinetic Resistance",
+        "full_title": "Kinetic Resistance (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You gain DR 3/—. At 17th level, this DR increases to 5/—."
+      },
+      {
+        "name": "Impenetrable Defense",
+        "full_title": "Impenetrable Defense (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a standard action, you can set up a strong defense for yourself and an adjacent ally. Until the start of your next turn, you gain three benefits: your damage reduction increases to DR 10/—; you and the chosen ally each gain a +4 bonus to AC; and if you use guard’s protection, you direct all the damage to yourself such that your ally takes none."
+      }
+    ]
+  },
+  {
+    "name": "Hit-and-Run",
+    "slug": "hit-and-run",
+    "source": "Starfinder Core Rulebook pg. 115",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Hit-and-Run",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The hit-and-run fighting style focuses on tactical movement as you move in and out of combat. You use ranged weapons but fight close up, and you can even mix ranged and melee attacks. Your abilities allow you to move even when you make full attacks and to avoid getting locked down by your enemies.",
+    "special_abilities": [
+      {
+        "name": "Opening Volley",
+        "full_title": "Opening Volley (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain Opening Volley as a bonus feat. If you already have this feat, choose a bonus combat feat instead. At 9th level, you can use Opening Volley on both your first and second turns in combat."
+      },
+      {
+        "name": "Nimble Fusillade",
+        "full_title": "Nimble Fusillade (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you make a full attack, you can also either take a guarded step or move up to half your speed. This movement can come before, between, or after your attacks, but it can’t be split up."
+      },
+      {
+        "name": "Duck and Weave",
+        "full_title": "Duck and Weave (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When you move or make a ranged attack, you can spend 1 Resolve Point to avoid provoking attacks of opportunity from that movement or ranged attack."
+      },
+      {
+        "name": "Elusive Target",
+        "full_title": "Elusive Target (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "On any turn in which you move, you gain a +1 insight bonus to your AC until the start of your next turn."
+      },
+      {
+        "name": "Harrying Shot",
+        "full_title": "Harrying Shot (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a full action, you can make one attack and give the benefit of harrying fire (see page 247) against any creature you hit with that attack. If you use a blast weapon or automatic weapon, the benefit applies against all targets hit. You can also take your nimble fusillade movement before or after this attack."
+      }
+    ]
+  },
+  {
+    "name": "Hunter",
+    "slug": "hunter",
+    "source": "Character Operations Manual pg. 90",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Hunter",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "You’re a master of hunting all sorts of creatures, from big-game animals to runaway criminals and similar marks. You may use this expertise as a sniper, trophy hunter, sport enthusiast, or fugitive tracer. Far more focused on skills than other soldiers, your unique talents combine experience in the field with refined combat ability.",
+    "special_abilities": [
+      {
+        "name": "Hunter’s Expertise",
+        "full_title": "Hunter’s Expertise (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You add Perception to your list of class skills, and you gain a free skill rank at each soldier level you can use only for Perception or Survival (this does not allow you to exceed the maximum number of skill ranks in a single skill). If you take the hunter fighting style as your secondary fighting style, you gain a free skill rank for these skills only at 9th level and at each soldier level gained thereafter."
+      },
+      {
+        "name": "Hunt Foe",
+        "full_title": "Hunt Foe (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a move action, you can choose one opponent that you have line of sight to and that you are aware of and attempt a Survival check (DC = 15 + 1-1/2 × the creature’s CR). Alternatively you can attempt this skill check against a creature that you can’t see or aren’t aware of if you’ve discovered and identified a set of tracks belonging to the chosen creature that are within 30 feet of you. If you succeed, you gain a +1 insight bonus to damage rolls against the target, and to Bluff, Perception, Sense Motive, and Survival checks against them, as well as all skill checks to recall knowledge about them. The save DCs of your weapon attacks and soldier class abilities also increase by 1 against the target. You can maintain these bonuses against only one opponent at a time, and the bonuses remain in effect until your target is dead, you hunt a new target, or you end the effect without spending an action. If you fail the check to hunt your foe, you can’t attempt to hunt any creature again for 24 hours."
+      },
+      {
+        "name": "Fast Hunting",
+        "full_title": "Fast Hunting (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You take no penalty when using the Survival skill to find or follow tracks while moving at your full speed, and you reduce the penalty for finding or following tracks while moving twice your normal speed to –2."
+      },
+      {
+        "name": "Hunting Party",
+        "full_title": "Hunting Party (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You can hunt two foes simultaneously using the hunt foe fighting technique, though each foe requires a separate move or swift action and a separate successful skill check to hunt. In addition, you can rally your allies to hunt your foes by spending 1 Resolve Point as a standard action, granting each ally within light of sight of you the benefits of your hunt foe style technique against your current designated target for 1 minute."
+      },
+      {
+        "name": "Peerless Hunter",
+        "full_title": "Peerless Hunter (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You can hunt three foes simultaneously using the hunt foe fighting technique, though each foe requires a separate move or swift action and a separate successful skill check to hunt. In addition, you take no penalty to Survival checks for finding or following tracks at twice your normal speed."
+      }
+    ]
+  },
+  {
+    "name": "Mine Menace",
+    "slug": "mine-menace",
+    "source": "Interstellar Species pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Mine Menace",
+    "book_url": "https://store.paizo.com/starfinder-rpg-interstellar-species/",
+    "description": "A fair fight might earn a soldier bragging rights, but it’s just as likely to earn them a shallow grave. To compensate for their smaller stature, kobolds often employ traps to hinder their foes and level the playing field. Most notably, this fighting style relies on deploying inexpensive proximity mines and making cunning strikes while an opponent is rattled by the explosions.",
+    "special_abilities": [
+      {
+        "name": "Set Charge",
+        "full_title": "Set Charge (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain Stealth as a class skill. You can create an explosive mine with light bulk without paying for it; this process takes 10 minutes and can be performed when you spend a Resolve Point to rest and regain Stamina Points. You can have only one mine created by this ability at a time. As a full action that requires a free hand, you can draw, arm, and deploy the mine in a 5-foot square within 30 feet, after which the mine conceals itself with an active camouflage field. Only you can use your mines effectively.<br/>Any creatures observing you when you deploy the mine automatically notices the mine’s location; other creatures must attempt a Perception check (DC 10 + your soldier level + your key ability score modifier) the first time they’re within 30 feet of the mine to spot it; this doesn’t require an action. A creature can disable a mine it spotted with a successful Engineering check (DC 10 + your soldier level + your key ability score modifier) as though it were a trap, and the mine deactivates harmlessly if destroyed (hardness 10, with Hit Points equal to 3 × your soldier level). A mine remains armed for 1 hour or until you create a new mine.<br/>The next time a creature enters the square, the mine explodes, dealing 1d4 fire and piercing damage to any creature in that square and imposing a –5-foot penalty to its speed for 1d4 rounds. A mine doesn’t explode if a creature begins its turn in the same square, but it does explode if the creature leaves and reenters the square. The damage increases to 1d8 at your 3rd soldier level, 2d8 at 7th level, 3d8 at 11th level, 5d8 at 15th level, and 8d8 at 19th level. The speed penalty increases to –10 feet at 11th level, but it can’t reduce a creature’s speeds below half their normal values."
+      },
+      {
+        "name": "Explosive Maneuver",
+        "full_title": "Explosive Maneuver (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You gain a +2 circumstance bonus to attack rolls made to perform bull rush or reposition combat maneuvers to move a creature into a square that contains your deployed mine. This bonus increases to +3 at 9th level, +4 at 13th level, and +5 at 17th level."
+      },
+      {
+        "name": "Cunning Strike",
+        "full_title": "Cunning Strike (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "Choose Intelligence, Wisdom, or Charisma when you gain this ability. You gain a bonus to weapon damage equal to the chosen ability score’s modifier against creatures that are entangled, helpless, stunned, or have a penalty to their movement speed. This damage bonus increases by 1 at 11th level and every 2 levels thereafter."
+      },
+      {
+        "name": "Minefield",
+        "full_title": "Minefield (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You can now create 1d3 mines with 10 minutes of work, and have and deploy up to three armed mines at a time. You can’t deploy a mine within 10 feet of another mine."
+      },
+      {
+        "name": "Masterful Mayhem",
+        "full_title": "Masterful Mayhem (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "Once per round when a mine you deployed is triggered you can increase its area of effect to also affect all squares within 10 feet of the mine. All creatures in that area take damage (Reflex half), but only the triggering creature gains the speed penalty. As a reaction when one of your mines explodes, you can choose a number of squares equal to your key ability score that aren’t affected."
+      }
+    ]
+  },
+  {
+    "name": "Pistol Dancer",
+    "slug": "pistol-dancer",
+    "source": "Starfinder #25: The Chimera Mystery pg. 50",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Pistol Dancer",
+    "book_url": "https://store.paizo.com/starfinder-adventure-path-25-the-chimera-mystery-the-threefold-conspiracy-1-of-6/",
+    "description": "A soldier’s familiar rifles and heavy weapons are often too obvious for discreet work, but pistols are easily concealed and, in the right hands, elegant engines of death. The pistol dancer combat style teaches you to wield small arms to devastating effect while moving with precision to sidestep the usual tactics employed by other gunfighters.",
+    "special_abilities": [
+      {
+        "name": "Small Arm Tango",
+        "full_title": "Small Arm Tango (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You learn to treat a pistol as an extension of your body. Sleight of Hand becomes a class skill for you. You can reload a small arm as a swift action, and you can wield a small arm in melee combat as if it were a battleglove with an item level equal to or lower than your soldier level."
+      },
+      {
+        "name": "Staccato Strut",
+        "full_title": "Staccato Strut (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you make a full attack with small arms and target a different creature with each attack, reduce the penalty to each attack by 1."
+      },
+      {
+        "name": "Ricochet Waltz",
+        "full_title": "Ricochet Waltz (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When you fight defensively, double the bonus to your Armor Class against attacks from small arms and longarms."
+      },
+      {
+        "name": "Pistol Pirouette",
+        "full_title": "Pistol Pirouette (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "As a full action when you are wielding two or more identical small arms, you can spend 1 Resolve Point to fire them all simultaneously to shoot at all creatures in a burst centered on you with a radius equal to one-quarter the weapon’s range increment. This otherwise duplicates the effect of an automatic weapon."
+      },
+      {
+        "name": "Choreography of Death",
+        "full_title": "Choreography of Death (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You gain a cumulative +2 insight bonus to damage rolls for every previous successful ranged or melee attack with a small arm in the same combat, to a maximum bonus equal to half your soldier level. The bonus doesn’t reset if you miss with an attack, but it does if you didn’t spend the previous round attacking with a small arm."
+      }
+    ]
+  },
+  {
+    "name": "Powerhouse Style",
+    "slug": "powerhouse-style",
+    "source": "Tech Revolution pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Powerhouse Style",
+    "book_url": "https://store.paizo.com/starfinder-tech-revolution/",
+    "description": "You specialize in getting the most out of unwieldy weapons, swinging the likes of doshkos and swoop hammers with unstoppable force. After all, you only need to hit your opponent once, as long as you hit them hard enough.",
+    "special_abilities": [
+      {
+        "name": "Unwieldy Cleave",
+        "full_title": "Unwieldy Cleave (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain the Cleave feat even if you wouldn’t normally meet its requirements, and you can use Cleave with an unwieldy melee weapon, which isn’t normally possible. If you already have this feat, choose a bonus combat feat for which you qualify instead."
+      },
+      {
+        "name": "Weapon Blocking",
+        "full_title": "Weapon Blocking (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a move action, you can grant an unwieldy melee weapon you wield the block weapon special property until the beginning of your next turn. If you use an unwieldy melee weapon with the block special ability to critically hit a target, the block property’s enhancement bonus to AC increases to +2 until the beginning of your next turn."
+      },
+      {
+        "name": "Unwieldy Opportunist",
+        "full_title": "Unwieldy Opportunist (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When a creature provokes an attack of opportunity from you, you can spend 1 Resolve Point to make the attack of opportunity with an unwieldy melee weapon you’re wielding, even if you’ve already attacked with it this round. If you have the soldier’s onslaught class ability or a similar ability that allows you to attack three or more times with full attack, you can spend 1 Resolve Point to use an unwieldy melee weapon you’re wielding to perform the full attack; when you do so, you perform one less attack than normal (e.g. making two attacks at a –6 penalty when using soldier’s onslaught). Once you use this ability, you can’t do so again until you take a 10-minute rest to recover Stamina Points."
+      },
+      {
+        "name": "Forceful Attack",
+        "full_title": "Forceful Attack (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "As a full action, you can make one attack with an unwieldy melee weapon. If you hit, in addition to dealing damage, you can also perform a bull rush combat maneuver against the target, using your attack roll’s result as your combat maneuver’s attack roll to determine how far you push the target."
+      },
+      {
+        "name": "Unwieldy Power",
+        "full_title": "Unwieldy Power (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You bring an unbelievable amount of strength to your attacks, striking down your opponents with ease. When you use an unwieldy melee weapon, your damage from weapon specialization increases to 1-1/2 times your character level."
+      }
+    ]
+  },
+  {
+    "name": "Qi Adept",
+    "slug": "qi-adept",
+    "source": "Character Operations Manual pg. 90",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Qi Adept",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "You are able to tap into your personal life force, enabling you to unleash incredible strikes upon your foes. Whether you’ve discovered these techniques on your own or studied at ancient monasteries and temples devoted to these lost arts, yours is a power cultivated through intense training and skill.",
+    "special_abilities": [
+      {
+        "name": "Qi Strike",
+        "full_title": "Qi Strike (Su) - 1st Level",
+        "ability_type": "Su",
+        "level": 1,
+        "description": "Your life-giving qi infuses your weapon attacks with your life essence, granting them eldritch power. Whenever you have at least 1 Resolve Point, your melee and ranged attacks count as magic for the purpose of bypassing damage reduction and other situations, such as attacking incorporeal creatures."
+      },
+      {
+        "name": "Gather Qi",
+        "full_title": "Gather Qi (Su) - 5th Level",
+        "ability_type": "Su",
+        "level": 5,
+        "description": "As a move action, you assert a degree of control over your body’s qi, allowing you to perform incredible feats of spiritual power. Each time you use gather qi, you spend 1 Resolve Point and choose one of the following qi powers. You gain that qi power until you rest for 8 hours or you use gather qi again to swap benefits.<br/> <b>Extreme Speed:</b> You gain a +10-foot enhancement bonus to your land speed.<br/> <b>Plasma Blast:</b> You condense your body’s qi into a beam of superheated plasma, allowing you to make a special ranged unarmed strike that targets KAC, requires one hand, is not archaic, has a range increment of 30 feet, deals lethal electricity and fire damage, and has the stunned critical hit effect. For the duration of this ability, you gain a special version of the Weapon Specialization feat that adds 1-1/2 times your level to the damage of this unarmed strike (rather than adding your level).<br/> <b>Qi Flight:</b> You gain a fly speed equal to your base speed with average maneuverability. At the end of each turn, if you are not on ground able to support you, you fall. If you already have a fly speed, it increases by 10 feet instead."
+      },
+      {
+        "name": "Bountiful Qi",
+        "full_title": "Bountiful Qi (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "Whenever you use gather qi, you can gain one qi power without spending any Resolve Points or two qi powers by spending 1 Resolve Point. Alternatively, you can gain one qi power with its associated enhancement (see below) by spending 1 Resolve Point. The list of qi power enhancements is described below.<br/> <b>Extreme Speed:</b> The enhancement bonus to speed that you gain from this qi power increases to 20 feet.<br/> <b>Plasma Blast:</b> Choose one of the following weapon special properties: blast, explode (10 ft.; DC = 10 + half your character level + your Constitution modifier), or line. Each time you attack with your plasma blast, you can make the attack with the chosen weapon special property and the unwieldy weapon special property.<br/> <b>Qi Flight:</b> The fly speed you gain from this qi power is equal to twice your base speed or your fly speed + 20 feet (whichever is higher)."
+      },
+      {
+        "name": "Qi Overflow",
+        "full_title": "Qi Overflow (Su) - 13th Level",
+        "ability_type": "Su",
+        "level": 13,
+        "description": "You gain a +1 insight bonus to the save DCs of all your soldier class features, weapon special properties, critical hit effects, and weapon fusions."
+      },
+      {
+        "name": "Abundant Qi",
+        "full_title": "Abundant Qi (Su) - 17th Level",
+        "ability_type": "Su",
+        "level": 17,
+        "description": "Whenever you use gather qi, you can gain one qi power with its associated bountiful qi enhancement without spending any Resolve Points, two such powers by spending 1 Resolve Point, or all three such powers by spending 2 Resolve Points."
+      }
+    ]
+  },
+  {
+    "name": "Rover",
+    "slug": "rover",
+    "source": "Galaxy Exploration Manual pg. 26",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Rover",
+    "book_url": "https://store.paizo.com/starfinder-galaxy-exploration-manual/",
+    "description": "No wilderness gets the better of you, and thanks to your special training and hard-learned lessons, your leadership might be crucial to your companions surviving the wilds as well.",
+    "special_abilities": [
+      {
+        "name": "Survivalist",
+        "full_title": "Survivalist (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You are at ease in the wilderness, able to navigate treacherous terrain, and capable of recognizing flora and fauna. You gain the Nimble Moves feat. If you already have the Nimble Moves feat, you gain an additional combat feat of your choice for which you qualify. Further, you can use Survival in place of Life Science to identify creatures of the plant, animal, and vermin types, and you gain a +1 insight bonus to Survival checks. This bonus increases by 1 at 5th level and every four levels afterward to a maximum of +5 at 17th level."
+      },
+      {
+        "name": "All-Terrain Movement",
+        "full_title": "All-Terrain Movement (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You gain a climb speed and a swim speed equal to your land speed. Further, when you gain a fly speed from any source, your fly speed increases by 10 feet. This effect stacks with abilities such as the Sky Jockey feat. As a swift action, you can spend 1 Resolve Point to inspire allies within 30 feet who can see you to match your athletic prowess; affected allies gain a +2 insight bonus to Athletics checks for a number of rounds equal to your key ability modifier."
+      },
+      {
+        "name": "Astounding Fortitude",
+        "full_title": "Astounding Fortitude (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You gain Improved Great Fortitude as a bonus feat. As a reaction, you can spend 1 Resolve Point to have an ally you can see within 10 feet reroll a failed Fortitude save. You can’t affect another ally in this way until you take a 10-minute rest to recover Stamina Points."
+      },
+      {
+        "name": "Deft Movement",
+        "full_title": "Deft Movement (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You easily move around both treacherous terrain and dangerous creatures without either slowing you down. You ignore all non-magical difficult terrain. Further, you don’t provoke attacks of opportunity from moving through an enemy’s threatened space, though you still provoke attacks of opportunity as normal when casting a spell or making a ranged attack."
+      },
+      {
+        "name": "Environmental Tolerance",
+        "full_title": "Environmental Tolerance (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "You gain cold and fire resistance equal to your level. If you have cold or fire resistance from another source, then this resistance stacks with one other source to a maximum value of 1-1/2 × your soldier level."
+      }
+    ]
+  },
+  {
+    "name": "Sharpshoot",
+    "slug": "sharpshoot",
+    "source": "Starfinder Core Rulebook pg. 115",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Sharpshoot",
+    "book_url": "https://store.paizo.com/starfinder-core-rulebook/",
+    "description": "The sharpshoot fighting style enables you to excel at making accurate attacks, usually with ranged weapons at a long distance. You can ignore cover and other impediments to your shots, and your attacks are improved by your intense focus.",
+    "special_abilities": [
+      {
+        "name": "Sniper’s Aim",
+        "full_title": "Sniper’s Aim (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "When you make a ranged attack against a target with cover, reduce the AC bonus from cover by 2. You can’t use sniper’s aim against an enemy with total cover."
+      },
+      {
+        "name": "Focus Fire",
+        "full_title": "Focus Fire (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "When you make a full attack with a ranged weapon, you can make both attacks with a –3 penalty instead of a –4 penalty as long as they both target the same creature. If your first attack kills or knocks out the target, you can instead make the second attack against a different creature at a –4 penalty. Once you have the soldier’s onslaught class feature (see page 112), you can use this ability with it, making three attacks against the same creature at a –5 penalty; if your first or second attack kills or knocks out your target, you can make your remaining attacks against a different creature at a –6 penalty."
+      },
+      {
+        "name": "Intense Focus",
+        "full_title": "Intense Focus (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "When you make a ranged attack against a target with cover or concealment, you can spend 1 Resolve Point to negate its AC bonus from cover and reduce its concealment by one category (from total concealment to concealment or from concealment to no concealment). This benefit applies to all ranged attacks you make against that target this round. You can’t use intense focus more than once per round, nor can you use it against an enemy with total cover."
+      },
+      {
+        "name": "Focused Damage",
+        "full_title": "Focused Damage (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "When you use focus fire, each attack against the first target deals 2d6 additional damage. Additional creatures you attack after killing or knocking out your first target don’t take this extra damage."
+      },
+      {
+        "name": "Prepared Shot",
+        "full_title": "Prepared Shot (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a standard action, you can study a target before you attack. The target must be within line of sight of you and either flat-footed or unaware of your presence. On the first attack you make against that target on your next turn, you gain a +2 bonus to your attack roll. If your attack hits, the target is staggered for 1 round; if you score a critical hit, the target is instead stunned for 1 round. Once you make a prepared shot, you can’t use this ability again against the same target for 24 hours. You can’t make an attack on the same round you study the target, even if an ability would let you attack without spending a standard or full action."
+      }
+    ]
+  },
+  {
+    "name": "Shock and Awe",
+    "slug": "shock-and-awe",
+    "source": "Starfinder Armory pg. 155",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Shock and Awe",
+    "book_url": "https://store.paizo.com/starfinder-armory/",
+    "description": "The shock and awe fighting style excels at overwhelming enemies senses with overpowering auditory and visual stimuli. You can modify your weapons to issue thunderous booms or blazing flashes of light, at the same time mitigating these effects with regard to your own senses. This style is strongest with weapons that deal sonic damage or that affect an area.",
+    "special_abilities": [
+      {
+        "name": "Loud and Proud",
+        "full_title": "Loud and Proud (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You gain a +2 bonus to saving throws against effects that would blind or deafen you. Any weapon you wield that has the powered weapon special property or that uses ammunition gains the bright weapon special property; you can activate or deactivate this ability as a swift or move action. Bright weapons you wield gain the blind critical hit effect or the deafen critical hit effect. If your bright weapon already has a critical hit effect, when you score a critical hit, you apply either the weapon’s normal critical hit effect, the blind critical hit effect, or the deafen critical hit effect."
+      },
+      {
+        "name": "Awesome Cacophony",
+        "full_title": "Awesome Cacophony (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a full action, you can make a single attack using a weapon that deals sonic damage or has the bright special property. After resolving the attack, as part of the full action you can attempt an Intimidate check to demoralize any one creature within 60 feet of you that the attack hit or damaged. You can spend 1 Resolve Point to instead attempt an Intimidate check to demoralize every creature within 60 feet of you that the attack hit or damaged."
+      },
+      {
+        "name": "Explosive Entrance",
+        "full_title": "Explosive Entrance (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "As a swift action on your first turn of combat or as a reaction after being subject to a critical hit, you can spend 1 Resolve Point to cause your armor, weapons, and other devices’ displays to flash with brilliant lights, blare loudly, or both. This causes all creatures within 10 feet of you to gain your choice of the flat-footed or off-target condition until the end of your next turn. A creature can negate this effect with a successful Fortitude save (DC = 10 + half your soldier level + your Strength modifier). At 15th level, you can affect all creatures within 15 feet of you."
+      },
+      {
+        "name": "Oppressive Cadence",
+        "full_title": "Oppressive Cadence (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "When you make a full attack using a weapon that deals sonic damage or has the bright special property, your targets take a cumulative –1 penalty to saving throws against your critical hit effects for each of your previous attacks that hit that target since the beginning of your turn. When a target fails its save against your blind critical hit effect, it also takes 4d6 fire damage. When a target fails its save against your deafened critical hit effect, it also takes 4d6 sonic damage."
+      },
+      {
+        "name": "Crank It to Eleven",
+        "full_title": "Crank It to Eleven (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "When attacking with a weapon that deals sonic damage or has the bright special property, you deal an amount of additional damage equal to your Strength modifier to targets with the blinded, deafened, or shaken condition."
+      }
+    ]
+  },
+  {
+    "name": "Silent Slayer",
+    "slug": "silent-slayer",
+    "source": "Starfinder #25: The Chimera Mystery pg. 50",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Silent Slayer",
+    "book_url": "https://store.paizo.com/starfinder-adventure-path-25-the-chimera-mystery-the-threefold-conspiracy-1-of-6/",
+    "description": "The silent slayer fighting style focuses on lurking quietly in the shadows and striking in close combat without warning. You train heavily in the use of melee weapons and light armor, pushing both beyond their normal limits, and eventually learn to fade away as quickly as you emerge.",
+    "special_abilities": [
+      {
+        "name": "Claws of the Shadow",
+        "full_title": "Claws of the Shadow (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "Stealth becomes a class skill for you, and when you strike silently, you disorient your opponent. When you successfully attack a target from hiding with a melee weapon with the operative weapon special quality, that target is off-target until the end of its next turn."
+      },
+      {
+        "name": "Darting Shadow",
+        "full_title": "Darting Shadow (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "You gain Mobility as a bonus feat. If you already have Mobility, you instead gain Spring Attack as a bonus feat."
+      },
+      {
+        "name": "Fading Shadow",
+        "full_title": "Fading Shadow (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "As a move action, you can spend 1 Resolve Point to vanish in a whorl of shadows and teleport yourself to any point within 30 feet that you can see. This counts as a diversion, as if you had just successfully used the Bluff skill, so you can immediately attempt a Stealth check to hide with only a –10 penalty. Starting at 15th level, if you have the Spring Attack feat, you can use this ability to teleport, make a single melee attack against an opponent within reach, and then teleport away. The total distance you move between both teleports cannot exceed 30 feet. Like with Spring Attack, you can’t attack a foe that is adjacent to you at the start of your turn."
+      },
+      {
+        "name": "Severing Shadow",
+        "full_title": "Severing Shadow (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "Any melee weapon you wield gains the wound critical hit effect. If it already has the wound critical hit effect, it gains the severe wound critical hit effect. If a weapon already has a critical hit effect, you can apply either the critical hit effect from this ability or the weapon’s normal critical hit effect when you score a critical hit."
+      },
+      {
+        "name": "Weeping Shadow",
+        "full_title": "Weeping Shadow (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "Your unexpected attacks leave targets devastated and erratic. When you hit an opponent with a melee attack who was not aware of your presence, it is frightened for 1d4 rounds. If you score a critical hit, the target is instead panicked for 1d4 rounds. The target can attempt a Will saving throw at the end of each round to remove the frightened or panicked condition (DC = 10 + half your soldier level + your key ability modifier)."
+      }
+    ]
+  },
+  {
+    "name": "Spellbrawler",
+    "slug": "spellbrawler",
+    "source": "Galactic Magic pg. 32",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Spellbrawler",
+    "book_url": "https://store.paizo.com/starfinder-galactic-magic/",
+    "description": "This fighting style enables soldiers to harness arcane abilities that enhance their attacks and defenses.",
+    "special_abilities": [
+      {
+        "name": "Arcane Arsenal",
+        "full_title": "Arcane Arsenal (Su) - 1st Level",
+        "ability_type": "Su",
+        "level": 1,
+        "description": "You gain Mysticism as a class skill. As a standard action, you can conjure an analog weapon whose item level is no greater than your soldier level – 2 (minimum 1st level). This weapon appears in your hand(s) fully loaded with the appropriate type of basic ammunition. The weapon and any remaining ammunition dissipate after 1 minute. Once you use this ability, you can’t use it again until you have regained Stamina Points following a 10-minute rest."
+      },
+      {
+        "name": "Spell Siphon",
+        "full_title": "Spell Siphon (Su) - 5th Level",
+        "ability_type": "Su",
+        "level": 5,
+        "description": "After you deal damage to a creature within 30 feet with an attack, you can spend 2 Resolve Points (or 1 Resolve Point if the attack was a critical hit) as a reaction to drain a portion of that creature’s magical energy (Will negates) to empower your next attack. If the creature fails its saving throw, it loses one spell slot of the highest level it knows, as if it had expended it. If the creature has only spell-like abilities, it loses one daily use of the highest-level spell-like ability it can cast (determined randomly). If the creature can’t cast spells or spell-like abilities, this ability has no effect, and you regain the Resolve Points expended.<br/> If you successfully drain a spell or spell-like ability, you gain a +1 enhancement bonus to AC until the end of your next turn. When you deal damage with a weapon attack, you can dismiss this AC bonus to increase the damage dealt to one target by 1d6 per level of the drained spell or spell-like ability."
+      },
+      {
+        "name": "Dispelling Weapon",
+        "full_title": "Dispelling Weapon (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "By either spending 1 Resolve Point or dismissing the AC bonus granted by your spell siphon as a move action, you empower your next successful attack made against a target within 30 feet before the end of your next turn to disrupt magic. This functions as dispel magic for the targeted dispel function, using your soldier level as the dispel check’s caster level. At 17th level, this can instead function as greater dispel magic for the targeted dispel function. Once you use this ability, you can’t use it again until you have regained Stamina Points following a 10-minute rest."
+      },
+      {
+        "name": "Arcane Armor",
+        "full_title": "Arcane Armor (Su) - 13th Level",
+        "ability_type": "Su",
+        "level": 13,
+        "description": "The bonus to AC granted by spell siphon now lasts a number of rounds equal to the level of the drained spell (minimum 2 rounds), and the enhancement bonus also applies to your saves. You can dismiss these bonuses as a reaction to reduce the damage you take from an attack or effect by an amount equal to 1d6 per level of the drained spell or spell-like ability."
+      },
+      {
+        "name": "Siphoned Storm",
+        "full_title": "Siphoned Storm (Su) - 17th Level",
+        "ability_type": "Su",
+        "level": 17,
+        "description": "When you dismiss the bonus to AC granted by your spell siphon to increase the damage dealt by your weapon attack, you instead add 1d8 per level of the drained spell or spell-like ability. Until the end of your next turn, you gain a bonus to damage with any subsequent weapon attacks equal to the level of the drained spell or spell-like ability."
+      }
+    ]
+  },
+  {
+    "name": "Squad",
+    "slug": "squad",
+    "source": "Character Operations Manual pg. 33",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Squad",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "Soldiers in large organizations, such as the Stewards, learn to fight effectively together in small squads. You have mastered these techniques, and your combat skills focus on aiding your allies. Halfelves epitomize the cooperative spirit this style taps into.",
+    "special_abilities": [
+      {
+        "name": "Coordinated Aim",
+        "full_title": "Coordinated Aim (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You can help squad mates hit targets even if you’re in the way. You gain Coordinated Shot as a bonus feat. Your allies gain the bonus even if you are providing cover to the target. If you already have that feat, you gain a bonus combat feat instead."
+      },
+      {
+        "name": "Quick Backup",
+        "full_title": "Quick Backup (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "As a full action, you can move up to twice your speed and make one attack, but your target must be a creature threatening an ally. Once you have used this ability, you cannot do so again until you have taken a 10-minute rest to regain Stamina Points."
+      },
+      {
+        "name": "Mystic Swap",
+        "full_title": "Mystic Swap (Su) - 9th Level",
+        "ability_type": "Su",
+        "level": 9,
+        "description": "As a move action, you can expend 1 Resolve Point to teleport, switching places with one ally within 60 feet."
+      },
+      {
+        "name": "Precise Flanker",
+        "full_title": "Precise Flanker (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "You and allies who flank a foe with you gain an extra +1 bonus (+3 total) to your melee attack rolls against that target. If the flanked creature takes a guarded step, it provokes attacks of opportunity from you and allies who flank it with you."
+      },
+      {
+        "name": "Share Training",
+        "full_title": "Share Training (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "Select three combat feats you have. When you start your turn adjacent to an ally, as a reaction, you can select one of these feats and grant the ally its benefit for 1 round. To benefit from the selected feat, the ally must still meet its prerequisites."
+      }
+    ]
+  },
+  {
+    "name": "Tunnel Striker",
+    "slug": "tunnel-striker",
+    "source": "Starfinder Enhanced pg. 73",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Tunnel Striker",
+    "book_url": "https://store.paizo.com/starfinder-rpg-starfinder-enhanced/",
+    "description": "Vast as space may be, the reality of starship rooms and space station corridors is far more cramped. The tunnel striker fighting style specializes in swiftly navigating, controlling, and clearing tight spaces, all while capitalizing on the devastating impact of area effects.",
+    "special_abilities": [
+      {
+        "name": "Kick in the Door",
+        "full_title": "Kick in the Door (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "You easily knock aside barriers, allowing you to leap into whatever action lies beyond. Once per minute, you can either open a door as a swift action, open a door as part of an action used to move (such as charging, moving your speed, or taking a guarded step), or open a door as part of a full action used to make a full attack. You can open the door at any point during that action, such as moving part of your speed, opening a door, and then moving the remaining distance.<br/>You gain a +2 insight bonus to Strength checks to move or destroy obstacles, such as removing debris or breaking down a door. This bonus increases to +3 at 5th level and to +4 at 13th level."
+      },
+      {
+        "name": "Flush Them Out",
+        "full_title": "Flush Them Out (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "Foes fleeing your area attacks rarely guard against follow-up attacks. When you make a weapon attack that affects an area or multiple targets (such as a grenade or a weapon fired in automatic mode), any creature you hit with the attack or who fails their saving throw to reduce the damage becomes spooked until the end of your next turn. A spooked creature has the shaken condition while inside the area affected by your attack; outside the area affected by your attack, a spooked creature instead becomes flat-footed. After being spooked, a creature becomes immune to this ability for 1 hour. This is a fear effect."
+      },
+      {
+        "name": "Claustrophobic Comfort",
+        "full_title": "Claustrophobic Comfort (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "You feel the safest in tight quarters. When squeezing through or into a space that isn’t as wide as your normal space, you can move at your normal speed, and you are not considered entangled as a result of squeezing. In addition, as long as you are adjacent to any combination of at least three walls, you gain a +2 morale bonus to saving throws against fear and mind-affecting effects. For this purpose, treat a floor or ceiling as a wall."
+      },
+      {
+        "name": "Rebounding Blast",
+        "full_title": "Rebounding Blast (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "Your explosive attacks ricochet in tight quarters. When you make an attack that targets an area, and obstacles block the attack from affecting at least half its usual area of effect, part of the effect bounces off those obstacles and makes the attack harder to avoid for those in the affected area. If your attack requires an attack roll to hit the targets’ Armor Classes, those targets are flat-footed against the attacks. If your attack instead provides a saving throw to reduce the damage taken, the affected creatures take a –2 penalty to their initial saving throw to resist the effect. For either type of attack, you can reroll any of the attack’s damage dice whose result is 1 and use the second result."
+      },
+      {
+        "name": "Secure the Area",
+        "full_title": "Secure the Area (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a standard action, you can spend 1 Resolve Point to establish a secure area in a 30-foot-radius burst centered on you. The secure area does not move with you and lasts for a number of rounds equal to half your key ability score modifier (rounded down) or until you leave the area. While in the secure area, you and your allies each gain an additional reaction each round that can only be used to make attacks of opportunity, though affected creatures can still only take one reaction per triggering event. Additionally, you and each ally in the area increase any AC bonus from cover by 1, and you increase the DC of Acrobatics checks made to tumble through your threatened spaces by 3. Once you use this ability, you cannot do so again until you spend 1 Resolve Point to regain Stamina Points while resting for 10 minutes.<br/>You can also activate this ability as a full action rather than as a standard action. If you do, you can take a guarded step and ready an action to make an attack immediately before creating the secure area. If your readied action successfully damages one or more creatures in the secure area, you can increase the damage dealt to one of those creatures by an amount equal to half your soldier level."
+      }
+    ]
+  },
+  {
+    "name": "Wrathful Warrior",
+    "slug": "wrathful-warrior",
+    "source": "Character Operations Manual pg. 91",
+    "source_url": "https://www.aonsrd.com/FightingStyles.aspx?ItemName=Wrathful Warrior",
+    "book_url": "https://store.paizo.com/starfinder-character-operations-manual/",
+    "description": "The wrathful warrior style draws upon your emotions—specifically your rage and wrath—to enable devastating attacks. You may have trained yourself to intentionally overload your fight-or-flight adrenaline response, or may just come from a long line of berserker warriors. At higher levels, you’re able to use your anger to ignore damage and strike with impudence.",
+    "special_abilities": [
+      {
+        "name": "Frenzied Fighting",
+        "full_title": "Frenzied Fighting (Ex) - 1st Level",
+        "ability_type": "Ex",
+        "level": 1,
+        "description": "As a swift action, you can enter a frenzy that empowers your attacks and deadens you to fear and pain for a number of rounds equal to 1d4 + half your soldier level (rounded up). While frenzied, you gain a +2 bonus to melee damage rolls and Will saves, as well as a –1 penalty to AC.<br/> At 5th level and every 4 levels thereafter, the bonus to melee damage rolls granted by your frenzy increases by 1. While frenzied, you can’t use any ability that requires patience or concentration, such as spellcasting. or any Charisma-, Dexterity-, or Intelligence-based skills except Acrobatics, Intimidate, and Piloting. You can’t use this ability again until after your frenzy ends and you rest for 10 minutes to regain Stamina Points."
+      },
+      {
+        "name": "Ignore Pain",
+        "full_title": "Ignore Pain (Ex) - 5th Level",
+        "ability_type": "Ex",
+        "level": 5,
+        "description": "Each time you use the frenzied fighting technique, you gain a number of temporary Hit Points equal to your soldier level. These temporary Hit Points are lost when your frenzy ends. You also gain a +4 bonus to saving throws against pain effects while frenzied."
+      },
+      {
+        "name": "Close Enough to Kill",
+        "full_title": "Close Enough to Kill (Ex) - 9th Level",
+        "ability_type": "Ex",
+        "level": 9,
+        "description": "Whenever you attempt an attack roll against an opponent while frenzied and miss, but your d20 roll is not a 1, you can spend 1 Resolve Point to treat the attack as a successful hit. This attack automatically deals minimum damage. For example, if you would normally deal 4d6+10 damage on a hit and use this ability, you would deal a total of 14 damage."
+      },
+      {
+        "name": "Shrug Off the Pain",
+        "full_title": "Shrug Off the Pain (Ex) - 13th Level",
+        "ability_type": "Ex",
+        "level": 13,
+        "description": "Choose either kinetic damage or one of acid, cold, electricity, fire, or sonic. If you choose kinetic damage, you gain damage reduction equal to half your soldier level. If you choose acid, cold, electricity, fire, or sonic, you gain energy resistance against that type of energy equal to half your soldier level. If you have the Enhanced Resistance feat or later gain it, you must choose different damage types for each ability."
+      },
+      {
+        "name": "Adaptive Damage Reduction",
+        "full_title": "Adaptive Damage Reduction (Ex) - 17th Level",
+        "ability_type": "Ex",
+        "level": 17,
+        "description": "As a swift action, or as a reaction whenever you take damage, you can change which type of damage your shrug off the pain ability applies to. This lasts until the next time you use this ability, but once you use adaptive damage reduction, you can’t do so again until you spend 1 Resolve Point to regain Stamina Points."
+      }
+    ]
+  }
+]

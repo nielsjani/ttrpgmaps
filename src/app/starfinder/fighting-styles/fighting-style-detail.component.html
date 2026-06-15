@@ -1,0 +1,38 @@
+<div class="fs-detail-page">
+  <a class="back-link" routerLink="/starfinder/fighting-styles">← Back to Fighting Styles</a>
+
+  <div class="state-msg" *ngIf="loading">Loading…</div>
+  <div class="state-msg error" *ngIf="error">{{ error }}</div>
+
+  <ng-container *ngIf="style">
+    <header class="detail-header">
+      <h1>{{ style.name }}</h1>
+      <p class="source-line" *ngIf="style.source">
+        <strong>Source:</strong>
+        <a *ngIf="style.source_url" [href]="style.source_url" target="_blank" rel="noopener">
+          {{ style.source }}
+        </a>
+        <span *ngIf="!style.source_url">{{ style.source }}</span>
+      </p>
+    </header>
+
+    <div class="description" *ngIf="style.description" [innerHTML]="style.description | safeHtml"></div>
+    <p class="no-description" *ngIf="!style.description">No description available.</p>
+
+    <section class="abilities-section" *ngIf="style.special_abilities.length > 0">
+      <h2>Special Abilities</h2>
+
+      <article
+        class="ability-card"
+        *ngFor="let ability of style.special_abilities; let i = index"
+        [attr.id]="abilityAnchorId(ability, i)">
+        <h3>{{ ability.full_title }}</h3>
+        <div class="ability-meta">
+          <span class="meta-pill">Level {{ ability.level }}</span>
+          <span class="meta-pill">{{ ability.ability_type }}</span>
+        </div>
+        <div class="ability-description" [innerHTML]="ability.description | safeHtml"></div>
+      </article>
+    </section>
+  </ng-container>
+</div>

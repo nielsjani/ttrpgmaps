@@ -15,6 +15,8 @@ import { UniversalMonsterRulesComponent } from './universal-monster-rules/univer
 import { UmrDetailComponent } from './universal-monster-rules/umr-detail.component';
 import { TemplateGraftsComponent } from './template-grafts/template-grafts.component';
 import { TemplateGraftDetailComponent } from './template-grafts/template-graft-detail.component';
+import { FightingStylesComponent } from './fighting-styles/fighting-styles.component';
+import { FightingStyleDetailComponent } from './fighting-styles/fighting-style-detail.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { TemplateGraftDetailComponent } from './template-grafts/template-graft-d
     UmrDetailComponent,
     TemplateGraftsComponent,
     TemplateGraftDetailComponent,
+    FightingStylesComponent,
+    FightingStyleDetailComponent,
   ],
   imports: [
     CommonModule,

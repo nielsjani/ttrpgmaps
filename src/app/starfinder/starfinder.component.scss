@@ -33,5 +33,42 @@
       }
     }
   }
+
+  .sf-group {
+    margin-top: 32px;
+    border-top: 1px solid #dde2ea;
+    padding-top: 24px;
+  }
+
+  .sf-group-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #444;
+    margin: 0 0 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .sf-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    a {
+      display: inline-block;
+      padding: 9px 20px;
+      background: #455a64;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.15s;
+
+      &:hover {
+        background: #2c3e50;
+      }
+    }
+  }
 }
 

@@ -5,6 +5,9 @@
     <div class="eb-title-row">
       <h1>⚔ Encounter Builder</h1>
       <div class="eb-actions">
+        <button class="btn-share" (click)="copyShareLink()">
+          {{ shareLinkCopied ? '✓ Link copied!' : '🔗 Copy link' }}
+        </button>
         <button class="btn-clear" (click)="clearEncounter()" [disabled]="encounter.length === 0">
           Clear Encounter
         </button>
@@ -18,11 +21,11 @@
     <div class="eb-settings">
       <div class="setting-group">
         <label class="setting-label">APL (Average Party Level)</label>
-        <input type="number" class="setting-input" [(ngModel)]="apl" min="1" max="25" step="1">
+        <input type="number" class="setting-input" [(ngModel)]="apl" (ngModelChange)="scheduleUrlUpdate()" min="1" max="25" step="1">
       </div>
       <div class="setting-group">
         <label class="setting-label">Party Size</label>
-        <input type="number" class="setting-input" [(ngModel)]="partySize" min="1" max="12" step="1">
+        <input type="number" class="setting-input" [(ngModel)]="partySize" (ngModelChange)="scheduleUrlUpdate()" min="1" max="12" step="1">
       </div>
     </div>
 

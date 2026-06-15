@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { StarfinderDataService } from '../services/starfinder-data.service';
 import { StarfinderEntry, StarfinderDetail } from '../types/starfinder.types';
 
@@ -74,13 +75,75 @@ export class EncounterBuilderComponent implements OnInit {
 
   encounter: EncounterEntry[] = [];
   exportDone = false;
+  shareLinkCopied = false;
 
-  constructor(private sf: StarfinderDataService) {}
+  private urlUpdateTimer: any = null;
+  private pendingRestore: { apl: number; party: number; creatures: { slug: string; count: number }[] } | null = null;
+
+  constructor(
+    private sf: StarfinderDataService,
+    private route: ActivatedRoute,
+    private router: Router,
+  ) {}
 
   ngOnInit(): void {
+    // Read URL state before loading aliens so settings (APL, party) are applied immediately
+    const encoded = this.route.snapshot.queryParams['state'];
+    if (encoded) {
+      try {
+        const parsed = JSON.parse(atob(encoded));
+        this.apl = parsed.apl ?? this.apl;
+        this.partySize = parsed.party ?? this.partySize;
+        this.pendingRestore = parsed;
+      } catch { /* ignore malformed state */ }
+    }
+
     this.sf.getIndex('alien').subscribe({
-      next: data => { this.allAliens = data; this.loadingAliens = false; },
+      next: data => {
+        this.allAliens = data;
+        this.loadingAliens = false;
+        this.restoreCreaturesFromUrl();
+      },
       error: () => { this.loadingAliens = false; }
+    });
+  }
+
+  private restoreCreaturesFromUrl(): void {
+    if (!this.pendingRestore?.creatures?.length) return;
+    for (const { slug, count } of this.pendingRestore.creatures) {
+      const alien = this.allAliens.find(a => a.slug === slug);
+      if (alien) {
+        this.addCreature(alien);
+        const entry = this.encounter.find(e => e.slug === slug);
+        if (entry) entry.count = count;
+      }
+    }
+    this.pendingRestore = null;
+  }
+
+  scheduleUrlUpdate(): void {
+    clearTimeout(this.urlUpdateTimer);
+    this.urlUpdateTimer = setTimeout(() => this.updateUrl(), 400);
+  }
+
+  private updateUrl(): void {
+    const state = {
+      apl: this.apl,
+      party: this.partySize,
+      creatures: this.encounter.map(e => ({ slug: e.slug, count: e.count })),
+    };
+    const encoded = btoa(JSON.stringify(state));
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: { state: encoded },
+      replaceUrl: true,
+    });
+  }
+
+  copyShareLink(): void {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      this.shareLinkCopied = true;
+      setTimeout(() => this.shareLinkCopied = false, 2500);
     });
   }
 
@@ -157,7 +220,7 @@ export class EncounterBuilderComponent implements OnInit {
 
   addCreature(entry: StarfinderEntry): void {
     const existing = this.encounter.find(e => e.slug === entry.slug);
-    if (existing) { existing.count++; return; }
+    if (existing) { existing.count++; this.scheduleUrlUpdate(); return; }
 
     const newEntry: EncounterEntry = {
       slug: entry.slug,
@@ -171,26 +234,28 @@ export class EncounterBuilderComponent implements OnInit {
       collapsed: false,
     };
     this.encounter.push(newEntry);
+    this.scheduleUrlUpdate();
     this.sf.getDetail('alien', entry.slug).subscribe({
       next: d  => { newEntry.detail = d; newEntry.loadingDetail = false; },
       error: () => { newEntry.loadingDetail = false; }
     });
   }
 
-  increment(entry: EncounterEntry): void { entry.count++; }
+  increment(entry: EncounterEntry): void { entry.count++; this.scheduleUrlUpdate(); }
 
   decrement(entry: EncounterEntry): void {
-    if (entry.count > 1) entry.count--;
+    if (entry.count > 1) { entry.count--; this.scheduleUrlUpdate(); }
     else this.remove(entry);
   }
 
   remove(entry: EncounterEntry): void {
     this.encounter = this.encounter.filter(e => e.slug !== entry.slug);
+    this.scheduleUrlUpdate();
   }
 
   toggleCollapse(entry: EncounterEntry): void { entry.collapsed = !entry.collapsed; }
 
-  clearEncounter(): void { this.encounter = []; }
+  clearEncounter(): void { this.encounter = []; this.scheduleUrlUpdate(); }
 
   isInEncounter(slug: string): boolean {
     return this.encounter.some(e => e.slug === slug);

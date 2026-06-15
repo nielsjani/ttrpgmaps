@@ -39,6 +39,19 @@
   flex-wrap: wrap;
 }
 
+.btn-share {
+  padding: 7px 16px;
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.35);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  transition: background 0.15s;
+
+  &:hover { background: rgba(255,255,255,.25); }
+}
+
 .btn-clear {
   padding: 7px 16px;
   background: transparent;

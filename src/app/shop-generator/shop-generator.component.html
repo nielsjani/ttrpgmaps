@@ -169,6 +169,12 @@
                     <ng-container *ngIf="!si.priceEditable">
                       <span [class.discounted]="shop.discount > 0">{{ formatPrice(getEffectivePrice(shop, si)) }}</span>
                       <span class="original-price" *ngIf="shop.discount > 0">{{ formatPrice(si.calculatedPrice) }}</span>
+                      <span
+                        *ngIf="hasBreakdown(si)"
+                        class="price-info-icon"
+                        [attr.data-tooltip]="getPriceBreakdownTooltip(si)"
+                        aria-label="Price breakdown"
+                      >ℹ</span>
                     </ng-container>
                     <div *ngIf="si.priceEditable" class="price-input-wrap">
                       <input

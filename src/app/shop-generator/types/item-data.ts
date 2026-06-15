@@ -22,6 +22,9 @@ export interface ItemData {
   armor?: boolean;
   stealth?: boolean;
 
+  // Base item reference (e.g. "breastplate|phb")
+  baseItem?: string;
+
   // Attunement
   reqAttune?: boolean | string;
 

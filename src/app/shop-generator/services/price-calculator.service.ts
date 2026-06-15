@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, tap } from 'rxjs';
+import { PriceBreakdown } from '../types/shop-item';
 
 interface ItemPriceEntry {
   basePrice: number;
@@ -60,6 +61,49 @@ export class PriceCalculatorService {
       roll += Math.floor(Math.random() * priceData.randomNumberMax) + 1;
     }
     return priceData.basePrice * roll;
+  }
+
+  /**
+   * Calculates price with a full breakdown, including an optional base item cost.
+   * Mundane items return the item value with no magic roll.
+   * Magic items: total = magicRoll + baseItemCost.
+   */
+  calculatePriceWithBreakdown(
+    rarity: string,
+    baseItemCost: number = 0,
+    baseItemName: string = '',
+    itemValue?: number
+  ): { total: number; breakdown: PriceBreakdown } {
+    const normalised = (rarity ?? '').toLowerCase().trim();
+    if (normalised === 'none' || normalised === '') {
+      const total = itemValue ?? 0;
+      return {
+        total,
+        breakdown: { magicRoll: total, baseItemCost: 0, baseItemName: '' }
+      };
+    }
+    if (!this.prices) {
+      return {
+        total: baseItemCost,
+        breakdown: { magicRoll: 0, baseItemCost, baseItemName }
+      };
+    }
+    const priceData = this.prices[normalised];
+    if (!priceData) {
+      return {
+        total: baseItemCost,
+        breakdown: { magicRoll: 0, baseItemCost, baseItemName }
+      };
+    }
+    let roll = 0;
+    for (let i = 0; i < priceData.modifier; i++) {
+      roll += Math.floor(Math.random() * priceData.randomNumberMax) + 1;
+    }
+    const magicRoll = priceData.basePrice * roll;
+    return {
+      total: magicRoll + baseItemCost,
+      breakdown: { magicRoll, baseItemCost, baseItemName }
+    };
   }
 
   /** Formats a copper piece amount as a readable gp/sp/cp string. */

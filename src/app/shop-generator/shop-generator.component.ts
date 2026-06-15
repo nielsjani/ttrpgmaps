@@ -206,9 +206,28 @@ export class ShopGeneratorComponent implements OnInit {
     });
   }
 
+  private buildBaseItemMap(allItems: ItemData[]): Map<string, { name: string; value: number }> {
+    const map = new Map<string, { name: string; value: number }>();
+    for (const item of allItems) {
+      if (!item.baseItem && item.value != null) {
+        // This is a base item — key by lowercased name slug
+        map.set(item.name.toLowerCase(), { name: item.name, value: item.value });
+      }
+    }
+    return map;
+  }
+
+  private getBaseItemInfo(item: ItemData, baseItemMap: Map<string, { name: string; value: number }>): { name: string; cost: number } {
+    if (!item.baseItem) return { name: '', cost: 0 };
+    const slug = item.baseItem.split('|')[0].toLowerCase();
+    const baseItem = baseItemMap.get(slug);
+    return baseItem ? { name: baseItem.name, cost: baseItem.value } : { name: slug, cost: 0 };
+  }
+
   private buildShopItems(allItems: ItemData[], shop: ShopInstance): ShopItem[] {
     const result: ShopItem[] = [];
     const priceMultiplier = this.HALF_PRICE_SHOPS.includes(shop.selectedShopType) ? 0.5 : 1;
+    const baseItemMap = this.buildBaseItemMap(allItems);
     for (const cfg of shop.rarityConfigs) {
       if (!cfg.enabled || cfg.count <= 0) continue;
       const pool = allItems.filter(i => {
@@ -219,12 +238,16 @@ export class ShopGeneratorComponent implements OnInit {
       if (pool.length === 0) continue;
       const selected = this.pickRandom(pool, cfg.count);
       for (const item of selected) {
-        const rawPrice = this.priceCalc.calculatePrice(item.rarity, item.value);
+        const { name: baseItemName, cost: baseItemCost } = this.getBaseItemInfo(item, baseItemMap);
+        const { total, breakdown } = this.priceCalc.calculatePriceWithBreakdown(
+          item.rarity, baseItemCost, baseItemName, item.value
+        );
         result.push({
           id: this.nextId(),
           item,
-          calculatedPrice: Math.round(rawPrice * priceMultiplier),
-          priceEditable: this.isMundaneUnknown(item)
+          calculatedPrice: Math.round(total * priceMultiplier),
+          priceEditable: this.isMundaneUnknown(item),
+          priceBreakdown: breakdown
         });
       }
     }
@@ -248,7 +271,14 @@ export class ShopGeneratorComponent implements OnInit {
 
   rerollPrice(shop: ShopInstance, id: string): void {
     const si = shop.shopItems.find(s => s.id === id);
-    if (si) si.calculatedPrice = this.priceCalc.calculatePrice(si.item.rarity, si.item.value);
+    if (!si) return;
+    const baseItemCost = si.priceBreakdown?.baseItemCost ?? 0;
+    const baseItemName = si.priceBreakdown?.baseItemName ?? '';
+    const { total, breakdown } = this.priceCalc.calculatePriceWithBreakdown(
+      si.item.rarity, baseItemCost, baseItemName, si.item.value
+    );
+    si.calculatedPrice = total;
+    si.priceBreakdown = breakdown;
   }
 
   rerollItem(shop: ShopInstance, id: string): void {
@@ -261,7 +291,13 @@ export class ShopGeneratorComponent implements OnInit {
     const newItem = pool[Math.floor(Math.random() * pool.length)];
     si.item = newItem;
     si.priceEditable = this.isMundaneUnknown(newItem);
-    si.calculatedPrice = this.priceCalc.calculatePrice(newItem.rarity, newItem.value);
+    const baseItemMap = this.buildBaseItemMap(shop.allItems);
+    const { name: baseItemName, cost: baseItemCost } = this.getBaseItemInfo(newItem, baseItemMap);
+    const { total, breakdown } = this.priceCalc.calculatePriceWithBreakdown(
+      newItem.rarity, baseItemCost, baseItemName, newItem.value
+    );
+    si.calculatedPrice = total;
+    si.priceBreakdown = breakdown;
   }
 
   setPrice(shop: ShopInstance, id: string, event: Event): void {
@@ -279,6 +315,29 @@ export class ShopGeneratorComponent implements OnInit {
 
   formatPrice(cp: number): string {
     return this.priceCalc.formatPrice(cp);
+  }
+
+  getPriceBreakdownTooltip(si: ShopItem): string {
+    const bd = si.priceBreakdown;
+    if (!bd) return '';
+    const rarity = (si.item.rarity ?? 'none').toLowerCase().trim();
+    if (rarity === 'none' || rarity === '') return '';
+    const lines: string[] = [];
+    lines.push(`Magic roll: ${this.priceCalc.formatPrice(bd.magicRoll)}`);
+    if (bd.baseItemCost > 0) {
+      lines.push(`Base item (${bd.baseItemName}): ${this.priceCalc.formatPrice(bd.baseItemCost)}`);
+    }
+    lines.push(`Total: ${this.priceCalc.formatPrice(bd.magicRoll + bd.baseItemCost)}`);
+    return lines.join('\n');
+  }
+
+  hasBreakdown(si: ShopItem): boolean {
+    const bd = si.priceBreakdown;
+    if (!bd) return false;
+    const rarity = (si.item.rarity ?? 'none').toLowerCase().trim();
+    if (rarity === 'none' || rarity === '') return false;
+    // Only show icon when there are multiple components (magic roll + base item cost)
+    return bd.baseItemCost > 0;
   }
 
   getEffectivePrice(shop: ShopInstance, si: ShopItem): number {

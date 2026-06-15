@@ -607,6 +607,55 @@
 .price-col { text-align: right; }
 .actions-col { text-align: right; white-space: nowrap; }
 
+/* ===== PRICE INFO ICON & TOOLTIP ===== */
+.price-info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #1976d2;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  font-style: normal;
+  cursor: default;
+  vertical-align: middle;
+  line-height: 1;
+  flex-shrink: 0;
+
+  &::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 8px);
+    right: 0;
+    background: #263238;
+    color: #eceff1;
+    font-size: 0.8rem;
+    font-weight: 400;
+    white-space: pre;        /* preserve newlines */
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.15s, transform 0.15s;
+    z-index: 100;
+    min-width: 180px;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .item-name {
   font-weight: 500;
   color: #222;

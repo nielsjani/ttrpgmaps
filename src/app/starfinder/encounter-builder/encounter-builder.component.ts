@@ -76,6 +76,7 @@ export class EncounterBuilderComponent implements OnInit {
   encounter: EncounterEntry[] = [];
   exportDone = false;
   shareLinkCopied = false;
+  playerMode = false;
 
   private urlUpdateTimer: any = null;
   private pendingRestore: { apl: number; party: number; creatures: { slug: string; count: number }[] } | null = null;

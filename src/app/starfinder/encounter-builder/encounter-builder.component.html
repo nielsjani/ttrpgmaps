@@ -2,23 +2,28 @@
 
   <!-- ── Top bar ─────────────────────────────────────────────── -->
   <div class="eb-topbar">
-    <div class="eb-title-row">
+      <div class="eb-title-row">
       <h1>⚔ Encounter Builder</h1>
       <div class="eb-actions">
-        <button class="btn-share" (click)="copyShareLink()">
-          {{ shareLinkCopied ? '✓ Link copied!' : '🔗 Copy link' }}
+        <button class="btn-mode" (click)="playerMode = !playerMode" [class.player-active]="playerMode">
+          {{ playerMode ? '🛠 Builder mode' : '🎲 Player mode' }}
         </button>
-        <button class="btn-clear" (click)="clearEncounter()" [disabled]="encounter.length === 0">
-          Clear Encounter
-        </button>
-        <button class="btn-export" (click)="exportToMarkdown()" [disabled]="encounter.length === 0">
-          {{ exportDone ? '✓ Copied!' : '📋 Export to Obsidian' }}
-        </button>
+        <ng-container *ngIf="!playerMode">
+          <button class="btn-share" (click)="copyShareLink()">
+            {{ shareLinkCopied ? '✓ Link copied!' : '🔗 Copy link' }}
+          </button>
+          <button class="btn-clear" (click)="clearEncounter()" [disabled]="encounter.length === 0">
+            Clear Encounter
+          </button>
+          <button class="btn-export" (click)="exportToMarkdown()" [disabled]="encounter.length === 0">
+            {{ exportDone ? '✓ Copied!' : '📋 Export to Obsidian' }}
+          </button>
+        </ng-container>
       </div>
     </div>
 
     <!-- Settings row -->
-    <div class="eb-settings">
+    <div class="eb-settings" *ngIf="!playerMode">
       <div class="setting-group">
         <label class="setting-label">APL (Average Party Level)</label>
         <input type="number" class="setting-input" [(ngModel)]="apl" (ngModelChange)="scheduleUrlUpdate()" min="1" max="25" step="1">
@@ -60,10 +65,10 @@
   </div>
 
   <!-- ── Main two-column layout ────────────────────────────────── -->
-  <div class="eb-body">
+  <div class="eb-body" [class.player-mode]="playerMode">
 
     <!-- LEFT: alien browser -->
-    <aside class="eb-browser">
+    <aside class="eb-browser" *ngIf="!playerMode">
       <h2 class="panel-title">Add Creatures</h2>
 
       <div class="browser-filters">
@@ -131,13 +136,16 @@
               <span class="card-xp">{{ entry.xpEach | number }} XP each</span>
             </div>
             <div class="card-header-right">
-              <div class="count-controls" (click)="$event.stopPropagation()">
-                <button class="count-btn" (click)="decrement(entry)">−</button>
-                <span class="count-value">{{ entry.count }}</span>
-                <button class="count-btn" (click)="increment(entry)">+</button>
-              </div>
-              <span class="card-total-xp">= {{ entry.xpEach * entry.count | number }} XP</span>
-              <button class="remove-btn" (click)="remove(entry); $event.stopPropagation()" title="Remove">✕</button>
+              <ng-container *ngIf="!playerMode">
+                <div class="count-controls" (click)="$event.stopPropagation()">
+                  <button class="count-btn" (click)="decrement(entry)">−</button>
+                  <span class="count-value">{{ entry.count }}</span>
+                  <button class="count-btn" (click)="increment(entry)">+</button>
+                </div>
+                <span class="card-total-xp">= {{ entry.xpEach * entry.count | number }} XP</span>
+                <button class="remove-btn" (click)="remove(entry); $event.stopPropagation()" title="Remove">✕</button>
+              </ng-container>
+              <span class="count-badge" *ngIf="playerMode && entry.count > 1">×{{ entry.count }}</span>
               <span class="collapse-arrow">{{ entry.collapsed ? '▸' : '▾' }}</span>
             </div>
           </div>

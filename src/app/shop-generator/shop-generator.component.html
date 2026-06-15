@@ -1,19 +1,27 @@
 <div class="shop-generator-page">
 
+  <!-- ===== READ-ONLY BANNER ===== -->
+  <div class="readonly-banner" *ngIf="isReadOnly">
+    🔗 <strong>Shared View</strong> — This is a read-only snapshot of a generated shop inventory.
+  </div>
+
   <!-- ===== PAGE HEADER ===== -->
   <div class="page-header">
     <h1 class="page-title">🏪 Shop Generator</h1>
     <div class="page-actions">
-      <button class="add-shop-btn" (click)="addShop()">＋ Add Shop</button>
-      <button class="one-of-each-btn" (click)="generateOneOfEach()">🎲 One of Each</button>
-      <button class="export-btn" *ngIf="anyGenerated" (click)="exportToHtml()">
+      <button class="add-shop-btn" (click)="addShop()" *ngIf="!isReadOnly">＋ Add Shop</button>
+      <button class="one-of-each-btn" (click)="generateOneOfEach()" *ngIf="!isReadOnly">🎲 One of Each</button>
+      <button class="export-btn" *ngIf="anyGenerated && !isReadOnly" (click)="exportToHtml()">
         📄 Export to HTML
+      </button>
+      <button class="share-btn" *ngIf="anyGenerated" (click)="shareToLink()">
+        {{ linkCopied ? '✅ Link Copied!' : '🔗 Share Link' }}
       </button>
     </div>
   </div>
 
   <!-- ===== GLOBAL DISCOUNT BAR ===== -->
-  <div class="global-discount-bar">
+  <div class="global-discount-bar" *ngIf="!isReadOnly">
     <span class="global-discount-label">🌐 Global Discount</span>
     <input
       type="range" min="0" max="100" step="1"
@@ -31,13 +39,16 @@
       <!-- ── Card header ── -->
       <div class="shop-card-header">
         <input
+          *ngIf="!isReadOnly"
           class="shop-name-input"
           [(ngModel)]="shop.name"
           placeholder="Shop name…"
           maxlength="60"
         />
+        <span *ngIf="isReadOnly" class="shop-name-static">{{ shop.name || 'Unnamed Shop' }}</span>
         <div class="shop-card-controls">
           <button
+            *ngIf="!isReadOnly"
             class="toggle-config-btn"
             (click)="shop.configCollapsed = !shop.configCollapsed"
             [title]="shop.configCollapsed ? 'Show configuration' : 'Hide configuration'"
@@ -48,13 +59,13 @@
             class="remove-shop-btn"
             (click)="removeShop(shop)"
             title="Remove this shop"
-            *ngIf="shops.length > 1"
+            *ngIf="shops.length > 1 && !isReadOnly"
           >✕</button>
         </div>
       </div>
 
       <!-- ── Configuration ── -->
-      <div class="config-body" [hidden]="shop.configCollapsed">
+      <div class="config-body" [hidden]="shop.configCollapsed || isReadOnly">
 
         <!-- Edition -->
         <div class="form-group">
@@ -146,7 +157,7 @@
                 <th>Name</th>
                 <th>Rarity</th>
                 <th class="price-col">Price</th>
-                <th class="actions-col">Actions</th>
+                <th class="actions-col" *ngIf="!isReadOnly">Actions</th>
               </tr>
             </thead>
             <tbody>
@@ -176,7 +187,7 @@
                         aria-label="Price breakdown"
                       >ℹ</span>
                     </ng-container>
-                    <div *ngIf="si.priceEditable" class="price-input-wrap">
+                    <div *ngIf="si.priceEditable && !isReadOnly" class="price-input-wrap">
                       <input
                         type="number"
                         class="price-input"
@@ -188,8 +199,9 @@
                       />
                       <span class="price-unit">gp</span>
                     </div>
+                    <span *ngIf="si.priceEditable && isReadOnly" class="price-unknown">?</span>
                   </td>
-                  <td class="item-actions" (click)="$event.stopPropagation()">
+                  <td class="item-actions" (click)="$event.stopPropagation()" *ngIf="!isReadOnly">
                     <button class="action-btn remove-btn" (click)="removeItem(shop, si.id)" title="Remove item">🗑</button>
                     <button class="action-btn reroll-btn" (click)="rerollItem(shop, si.id)" title="Reroll item">↻ Item</button>
                     <button
@@ -203,7 +215,7 @@
 
                 <!-- Expandable detail row -->
                 <tr *ngIf="shop.selectedItemId === si.id" class="detail-row">
-                  <td colspan="5" class="detail-cell">
+                  <td [attr.colspan]="isReadOnly ? 4 : 5" class="detail-cell">
                     <div class="item-detail">
                       <div class="detail-meta">
                         <span class="detail-source">📖 {{ getSourceTitle(si.item.source) }}</span>
@@ -255,4 +267,3 @@
   </div><!-- /shops-list -->
 
 </div>
-

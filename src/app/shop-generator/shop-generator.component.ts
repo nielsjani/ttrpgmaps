@@ -1,10 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { forkJoin } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { ShopDataService, ShopType, BookTitles } from './services/shop-data.service';
 import { PriceCalculatorService } from './services/price-calculator.service';
 import { ItemData } from './types/item-data';
 import { ShopItem } from './types/shop-item';
 import { RarityConfig } from './types/rarity-config';
 import { ShopInstance } from './types/shop-instance';
+
+// ─── Share-link serialisation ─────────────────────────────────────────────────
+
+interface ShareItem { n: string; s: string; p: number; e: number; }
+interface ShareShop { nm: string; ed: string; t: string; d: number; it: ShareItem[]; }
 
 // ─── Export constants ─────────────────────────────────────────────────────────
 
@@ -86,6 +94,8 @@ export class ShopGeneratorComponent implements OnInit {
   shopTypes: ShopType[] = [];
   bookTitles: BookTitles = {};
   globalDiscount = 0;
+  isReadOnly = false;
+  linkCopied = false;
 
   readonly HALF_PRICE_SHOPS = ['all-potions', 'all-poisons-and-explosives', 'all-scrolls'];
 
@@ -93,14 +103,23 @@ export class ShopGeneratorComponent implements OnInit {
 
   constructor(
     public shopDataService: ShopDataService,
-    private priceCalc: PriceCalculatorService
+    private priceCalc: PriceCalculatorService,
+    private route: ActivatedRoute,
+    private router: Router,
   ) {}
 
   ngOnInit(): void {
     this.shopTypes = this.shopDataService.shopTypes;
     this.priceCalc.loadPrices().subscribe();
     this.shopDataService.getBookTitles().subscribe(titles => this.bookTitles = titles);
-    this.addShop();
+
+    const shareParam = this.route.snapshot.queryParamMap.get('share');
+    if (shareParam) {
+      this.isReadOnly = true;
+      this.loadSharedData(shareParam);
+    } else {
+      this.addShop();
+    }
   }
 
   // ── Shop management ──────────────────────────────────────────────────────────
@@ -616,5 +635,92 @@ ${rows}
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  // ── Share link ───────────────────────────────────────────────────────────────
+
+  shareToLink(): void {
+    const generatedShops = this.shops.filter(s => s.generated && s.shopItems.length > 0);
+    if (generatedShops.length === 0) return;
+
+    const shareData: ShareShop[] = generatedShops.map(s => ({
+      nm: s.name,
+      ed: s.edition,
+      t: s.selectedShopType,
+      d: s.discount,
+      it: s.shopItems.map(si => ({
+        n: si.item.name,
+        s: si.item.source,
+        p: si.calculatedPrice,
+        e: si.priceEditable ? 1 : 0,
+      })),
+    }));
+
+    const encoded = btoa(encodeURIComponent(JSON.stringify(shareData)));
+    const path = this.router.serializeUrl(
+      this.router.createUrlTree(['/shop-generator'], { queryParams: { share: encoded } })
+    );
+    const shareUrl = `${window.location.origin}${window.location.pathname}#${path}`;
+
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      this.linkCopied = true;
+      setTimeout(() => this.linkCopied = false, 2500);
+    });
+  }
+
+  private loadSharedData(encoded: string): void {
+    try {
+      const json = decodeURIComponent(atob(encoded));
+      const shareData: ShareShop[] = JSON.parse(json);
+
+      if (!Array.isArray(shareData) || shareData.length === 0) {
+        this.addShop();
+        return;
+      }
+
+      const observables = shareData.map(sd =>
+        this.shopDataService.getItems(sd.ed as '2014' | '2024', sd.t).pipe(
+          map(allItems => ({ sd, allItems }))
+        )
+      );
+
+      forkJoin(observables).subscribe({
+        next: (results) => {
+          this.shops = results.map(({ sd, allItems }) => {
+            const shopItems: ShopItem[] = sd.it.map(si => {
+              const item: ItemData = allItems.find(i => i.name === si.n && i.source === si.s)
+                ?? ({ name: si.n, source: si.s, rarity: 'none' } as ItemData);
+              return { id: this.nextId(), item, calculatedPrice: si.p, priceEditable: si.e === 1 };
+            });
+            return {
+              id: this.nextId(),
+              name: sd.nm,
+              edition: sd.ed as '2014' | '2024',
+              selectedShopType: sd.t,
+              discount: sd.d,
+              shopItems,
+              allItems,
+              generated: true,
+              configCollapsed: true,
+              isGenerating: false,
+              errorMessage: '',
+              selectedItemId: null,
+              excludeUnknownPrice: true,
+              rarityConfigs: [
+                { rarity: 'none',      label: 'Mundane',   count: 0, enabled: true, defaultExpression: '1D20+10' },
+                { rarity: 'uncommon',  label: 'Uncommon',  count: 0, enabled: true, defaultExpression: '1D12+6'  },
+                { rarity: 'rare',      label: 'Rare',      count: 0, enabled: true, defaultExpression: '1D6-3'   },
+                { rarity: 'very rare', label: 'Very Rare', count: 0, enabled: true, defaultExpression: '1D4-2'   },
+                { rarity: 'legendary', label: 'Legendary', count: 0, enabled: true, defaultExpression: '1D4-3'   },
+              ],
+            } as ShopInstance;
+          });
+        },
+        error: () => { this.addShop(); },
+      });
+    } catch {
+      console.error('Failed to decode share link');
+      this.addShop();
+    }
   }
 }

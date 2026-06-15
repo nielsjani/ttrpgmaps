@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, QueryList, ViewChildren, ElementRef, HostListener } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { StarfinderDataService } from '../services/starfinder-data.service';
 import { StarfinderEntry, StarfinderDetail } from '../types/starfinder.types';
@@ -77,6 +77,9 @@ export class EncounterBuilderComponent implements OnInit {
   exportDone = false;
   shareLinkCopied = false;
   playerMode = false;
+  focusedCreatureIndex = 0;
+
+  @ViewChildren('creatureCard') creatureCards!: QueryList<ElementRef>;
 
   private urlUpdateTimer: any = null;
   private pendingRestore: { apl: number; party: number; creatures: { slug: string; count: number }[] } | null = null;
@@ -257,6 +260,29 @@ export class EncounterBuilderComponent implements OnInit {
   toggleCollapse(entry: EncounterEntry): void { entry.collapsed = !entry.collapsed; }
 
   clearEncounter(): void { this.encounter = []; this.scheduleUrlUpdate(); }
+
+  scrollToCreature(index: number): void {
+    if (index < 0 || index >= this.encounter.length) return;
+    this.focusedCreatureIndex = index;
+    const cards = this.creatureCards.toArray();
+    if (cards[index]) {
+      cards[index].nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  onKeyDown(event: KeyboardEvent): void {
+    if (!this.playerMode || this.encounter.length === 0) return;
+    const tag = (event.target as HTMLElement)?.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      this.scrollToCreature(Math.min(this.focusedCreatureIndex + 1, this.encounter.length - 1));
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      this.scrollToCreature(Math.max(this.focusedCreatureIndex - 1, 0));
+    }
+  }
 
   isInEncounter(slug: string): boolean {
     return this.encounter.some(e => e.slug === slug);

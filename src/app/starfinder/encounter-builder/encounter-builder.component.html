@@ -1,13 +1,13 @@
-<div class="eb-page">
+<div class="eb-page" [class.player-mode]="playerMode">
 
   <!-- ── Top bar ─────────────────────────────────────────────── -->
   <div class="eb-topbar">
       <div class="eb-title-row">
       <h1>⚔ Encounter Builder</h1>
+      <button class="btn-mode" (click)="playerMode = !playerMode" [class.player-active]="playerMode">
+        {{ playerMode ? '🛠 Builder mode' : '🎲 Player mode' }}
+      </button>
       <div class="eb-actions">
-        <button class="btn-mode" (click)="playerMode = !playerMode" [class.player-active]="playerMode">
-          {{ playerMode ? '🛠 Builder mode' : '🎲 Player mode' }}
-        </button>
         <ng-container *ngIf="!playerMode">
           <button class="btn-share" (click)="copyShareLink()">
             {{ shareLinkCopied ? '✓ Link copied!' : '🔗 Copy link' }}
@@ -126,7 +126,9 @@
       </div>
 
       <div class="creature-cards">
-        <div class="creature-card" *ngFor="let entry of encounter">
+        <div class="creature-card" *ngFor="let entry of encounter; let i = index"
+             #creatureCard
+             [class.focused]="playerMode && focusedCreatureIndex === i">
 
           <!-- Card header -->
           <div class="card-header" (click)="toggleCollapse(entry)">
@@ -311,5 +313,21 @@
         </div><!-- /creature-card -->
       </div><!-- /creature-cards -->
     </main>
+
+    <!-- Player-mode side navigation -->
+    <nav class="player-sidenav" *ngIf="playerMode && encounter.length > 0" aria-label="Jump to creature">
+      <button
+        *ngFor="let entry of encounter; let i = index"
+        class="sidenav-btn"
+        [class.active]="focusedCreatureIndex === i"
+        (click)="scrollToCreature(i)"
+        [title]="entry.name + ' (CR ' + entry.cr + ')'">
+        <span class="sidenav-name">{{ entry.name }}</span>
+        <span class="sidenav-cr">CR {{ entry.cr }}</span>
+        <span class="sidenav-count" *ngIf="entry.count > 1">×{{ entry.count }}</span>
+      </button>
+      <div class="sidenav-hint">↑ ↓ arrow keys</div>
+    </nav>
+
   </div><!-- /eb-body -->
 </div>

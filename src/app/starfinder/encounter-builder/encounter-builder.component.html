@@ -1,0 +1,304 @@
+<div class="eb-page">
+
+  <!-- ── Top bar ─────────────────────────────────────────────── -->
+  <div class="eb-topbar">
+    <div class="eb-title-row">
+      <h1>⚔ Encounter Builder</h1>
+      <div class="eb-actions">
+        <button class="btn-clear" (click)="clearEncounter()" [disabled]="encounter.length === 0">
+          Clear Encounter
+        </button>
+        <button class="btn-export" (click)="exportToMarkdown()" [disabled]="encounter.length === 0">
+          {{ exportDone ? '✓ Copied!' : '📋 Export to Obsidian' }}
+        </button>
+      </div>
+    </div>
+
+    <!-- Settings row -->
+    <div class="eb-settings">
+      <div class="setting-group">
+        <label class="setting-label">APL (Average Party Level)</label>
+        <input type="number" class="setting-input" [(ngModel)]="apl" min="1" max="25" step="1">
+      </div>
+      <div class="setting-group">
+        <label class="setting-label">Party Size</label>
+        <input type="number" class="setting-input" [(ngModel)]="partySize" min="1" max="12" step="1">
+      </div>
+    </div>
+
+    <!-- Difficulty display -->
+    <div class="eb-difficulty-panel">
+      <div class="diff-summary">
+        <span class="diff-xp-total">{{ totalXp | number }} XP used</span>
+        <span class="diff-badge" [attr.data-diff]="currentDifficulty.color">
+          {{ currentDifficulty.label }}
+        </span>
+        <span class="diff-xp-ind" *ngIf="encounter.length > 0">
+          {{ individualXp | number }} XP / player
+        </span>
+      </div>
+
+      <div class="diff-bands">
+        <div
+          class="diff-band"
+          *ngFor="let band of difficultyBands"
+          [attr.data-diff]="band.color"
+          [class.active]="currentDifficulty.label === band.label">
+          <span class="band-label">{{ band.label }}</span>
+          <span class="band-budget">{{ band.budget | number }} XP</span>
+        </div>
+      </div>
+
+      <div class="diff-bar-track">
+        <div class="diff-bar-fill" [attr.data-diff]="currentDifficulty.color"
+             [style.width.%]="xpProgressPercent"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Main two-column layout ────────────────────────────────── -->
+  <div class="eb-body">
+
+    <!-- LEFT: alien browser -->
+    <aside class="eb-browser">
+      <h2 class="panel-title">Add Creatures</h2>
+
+      <div class="browser-filters">
+        <input
+          class="search-input"
+          type="text"
+          [(ngModel)]="alienSearch"
+          placeholder="Search by name…"
+          autocomplete="off">
+
+        <div class="cr-range">
+          <label class="setting-label">CR min</label>
+          <input type="number" class="cr-input" [(ngModel)]="crMin" min="0" max="25" step="1">
+          <span class="cr-sep">–</span>
+          <label class="setting-label">CR max</label>
+          <input type="number" class="cr-input" [(ngModel)]="crMax" min="0" max="25" step="1">
+        </div>
+      </div>
+
+      <div class="browser-count" *ngIf="!loadingAliens">
+        {{ filteredAliens.length }} results
+        <span *ngIf="filteredAliens.length === 200"> (showing first 200 — refine search)</span>
+      </div>
+      <div class="browser-loading" *ngIf="loadingAliens">Loading creatures…</div>
+
+      <ul class="alien-list">
+        <li
+          *ngFor="let alien of filteredAliens"
+          class="alien-row"
+          [class.in-encounter]="isInEncounter(alien.slug)"
+          (click)="addCreature(alien)">
+          <span class="alien-name">{{ alien.name }}</span>
+          <span class="alien-cr">CR {{ alien.cr }}</span>
+          <span class="alien-add-icon">{{ isInEncounter(alien.slug) ? '✓' : '+' }}</span>
+        </li>
+        <li *ngIf="filteredAliens.length === 0 && !loadingAliens" class="no-results">
+          No creatures match the current filters.
+        </li>
+      </ul>
+    </aside>
+
+    <!-- RIGHT: encounter creature list -->
+    <main class="eb-encounter">
+      <h2 class="panel-title">
+        Encounter
+        <span class="encounter-count" *ngIf="encounter.length > 0">
+          ({{ encounter.length }} type{{ encounter.length === 1 ? '' : 's' }},
+          {{ totalCreatureCount }} creatures)
+        </span>
+      </h2>
+
+      <div class="empty-encounter" *ngIf="encounter.length === 0">
+        <p>No creatures added yet.</p>
+        <p>Click a creature in the browser to add it to the encounter.</p>
+      </div>
+
+      <div class="creature-cards">
+        <div class="creature-card" *ngFor="let entry of encounter">
+
+          <!-- Card header -->
+          <div class="card-header" (click)="toggleCollapse(entry)">
+            <div class="card-header-left">
+              <span class="card-name">{{ entry.name }}</span>
+              <span class="card-cr">CR {{ entry.cr }}</span>
+              <span class="card-xp">{{ entry.xpEach | number }} XP each</span>
+            </div>
+            <div class="card-header-right">
+              <div class="count-controls" (click)="$event.stopPropagation()">
+                <button class="count-btn" (click)="decrement(entry)">−</button>
+                <span class="count-value">{{ entry.count }}</span>
+                <button class="count-btn" (click)="increment(entry)">+</button>
+              </div>
+              <span class="card-total-xp">= {{ entry.xpEach * entry.count | number }} XP</span>
+              <button class="remove-btn" (click)="remove(entry); $event.stopPropagation()" title="Remove">✕</button>
+              <span class="collapse-arrow">{{ entry.collapsed ? '▸' : '▾' }}</span>
+            </div>
+          </div>
+
+          <!-- Stat block (collapsible) -->
+          <div class="card-body" *ngIf="!entry.collapsed">
+            <div class="state-msg" *ngIf="entry.loadingDetail">Loading stat block…</div>
+
+            <div class="stat-block" *ngIf="entry.detail && !entry.loadingDetail">
+
+              <div class="creature-image" *ngIf="entry.detail.imageUrl">
+                <img [src]="entry.detail.imageUrl" [alt]="entry.detail.name" loading="lazy">
+              </div>
+
+              <div class="stat-header">
+                <h3>{{ entry.detail.name }}</h3>
+                <div class="header-badges">
+                  <span class="cr-badge" *ngIf="entry.detail.cr">CR {{ entry.detail.cr }}</span>
+                  <span class="xp-badge" *ngIf="entry.detail.xp">XP {{ entry.detail.xp }}</span>
+                </div>
+              </div>
+
+              <div class="type-line" *ngIf="headerLine(entry.detail)">{{ headerLine(entry.detail) }}</div>
+
+              <div class="source-line" *ngIf="entry.detail.source">
+                <b>Source</b> {{ entry.detail.source }}
+              </div>
+
+              <div class="inline-stats"
+                   *ngIf="entry.detail.init || entry.detail.senses || entry.detail.perception">
+                <span *ngIf="entry.detail.init"><b>Init</b> {{ entry.detail.init }}&ensp;</span>
+                <span *ngIf="entry.detail.senses"><b>Senses</b> {{ entry.detail.senses }}&ensp;</span>
+                <span *ngIf="entry.detail.perception"><b>Perception</b> {{ entry.detail.perception }}</span>
+              </div>
+
+              <!-- Defense -->
+              <div class="section"
+                   *ngIf="entry.detail.hp || entry.detail.eac || entry.detail.kac ||
+                          saves(entry.detail) || entry.detail.dr || entry.detail.sr ||
+                          entry.detail.immunities || entry.detail.resistances || entry.detail.weaknesses">
+                <div class="section-head">Defense</div>
+                <div class="section-body">
+                  <div class="stat-row" *ngIf="entry.detail.hp">
+                    <span class="lbl">HP</span> {{ entry.detail.hp }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.eac || entry.detail.kac">
+                    <span *ngIf="entry.detail.eac"><span class="lbl">EAC</span> {{ entry.detail.eac }}&emsp;</span>
+                    <span *ngIf="entry.detail.kac"><span class="lbl">KAC</span> {{ entry.detail.kac }}</span>
+                  </div>
+                  <div class="stat-row" *ngIf="saves(entry.detail)">
+                    <span class="lbl">Saving Throws</span> {{ saves(entry.detail) }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.dr">
+                    <span class="lbl">DR</span> {{ entry.detail.dr }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.sr">
+                    <span class="lbl">SR</span> {{ entry.detail.sr }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.immunities">
+                    <span class="lbl">Immunities</span> {{ entry.detail.immunities }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.resistances">
+                    <span class="lbl">Resistances</span> {{ entry.detail.resistances }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.weaknesses">
+                    <span class="lbl">Weaknesses</span> {{ entry.detail.weaknesses }}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Offense -->
+              <div class="section"
+                   *ngIf="entry.detail.speed || entry.detail.melee || entry.detail.ranged ||
+                          entry.detail.offensive_abilities || slaText(entry.detail) || entry.detail.spells">
+                <div class="section-head">Offense</div>
+                <div class="section-body">
+                  <div class="stat-row" *ngIf="entry.detail.speed">
+                    <span class="lbl">Speed</span> {{ entry.detail.speed }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.melee">
+                    <span class="lbl">Melee</span> {{ entry.detail.melee }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.ranged">
+                    <span class="lbl">Ranged</span> {{ entry.detail.ranged }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.space">
+                    <span class="lbl">Space</span> {{ entry.detail.space }};
+                    <span class="lbl">Reach</span> {{ entry.detail.reach }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.offensive_abilities">
+                    <span class="lbl">Offensive Abilities</span> {{ entry.detail.offensive_abilities }}
+                  </div>
+                  <div class="stat-row" *ngIf="slaText(entry.detail)">
+                    <span class="lbl">Spell-Like Abilities</span> {{ slaText(entry.detail) }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.spells">
+                    <span class="lbl">Spells</span> {{ entry.detail.spells }}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Statistics -->
+              <div class="section"
+                   *ngIf="abilityScores(entry.detail) || entry.detail.skills || entry.detail.feats ||
+                          entry.detail.languages || entry.detail.other_abilities || entry.detail.gear">
+                <div class="section-head">Statistics</div>
+                <div class="section-body">
+                  <div class="stat-row ability-row" *ngIf="abilityScores(entry.detail)">
+                    {{ abilityScores(entry.detail) }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.skills">
+                    <span class="lbl">Skills</span> {{ entry.detail.skills }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.feats">
+                    <span class="lbl">Feats</span> {{ entry.detail.feats }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.languages">
+                    <span class="lbl">Languages</span> {{ entry.detail.languages }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.other_abilities">
+                    <span class="lbl">Other Abilities</span> {{ entry.detail.other_abilities }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.gear">
+                    <span class="lbl">Gear</span> {{ entry.detail.gear }}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ecology -->
+              <div class="section" *ngIf="entry.detail.environment || entry.detail.organization">
+                <div class="section-head">Ecology</div>
+                <div class="section-body">
+                  <div class="stat-row" *ngIf="entry.detail.environment">
+                    <span class="lbl">Environment</span> {{ entry.detail.environment }}
+                  </div>
+                  <div class="stat-row" *ngIf="entry.detail.organization">
+                    <span class="lbl">Organization</span> {{ entry.detail.organization }}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Special Abilities -->
+              <div class="section" *ngIf="entry.detail.special_abilities?.length">
+                <div class="section-head">Special Abilities</div>
+                <div class="section-body sa-list">
+                  <div class="special-ability" *ngFor="let sa of entry.detail.special_abilities">
+                    <div class="sa-name">{{ sa.name }}</div>
+                    <div class="sa-desc" *ngIf="sa.description" [innerHTML]="sa.description | safeHtml"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Description -->
+              <div class="section" *ngIf="entry.detail.description">
+                <div class="section-head">Description</div>
+                <div class="section-body">
+                  <p class="description" [innerHTML]="entry.detail.description | safeHtml"></p>
+                </div>
+              </div>
+
+            </div><!-- /stat-block -->
+          </div><!-- /card-body -->
+        </div><!-- /creature-card -->
+      </div><!-- /creature-cards -->
+    </main>
+  </div><!-- /eb-body -->
+</div>

@@ -17,6 +17,7 @@ import { TemplateGraftsComponent } from './template-grafts/template-grafts.compo
 import { TemplateGraftDetailComponent } from './template-grafts/template-graft-detail.component';
 import { FightingStylesComponent } from './fighting-styles/fighting-styles.component';
 import { FightingStyleDetailComponent } from './fighting-styles/fighting-style-detail.component';
+import { EncounterBuilderComponent } from './encounter-builder/encounter-builder.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FightingStyleDetailComponent } from './fighting-styles/fighting-style-d
     TemplateGraftDetailComponent,
     FightingStylesComponent,
     FightingStyleDetailComponent,
+    EncounterBuilderComponent,
   ],
   imports: [
     CommonModule,

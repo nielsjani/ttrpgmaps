@@ -10,6 +10,7 @@ import { TemplateGraftsComponent } from './template-grafts/template-grafts.compo
 import { TemplateGraftDetailComponent } from './template-grafts/template-graft-detail.component';
 import { FightingStylesComponent } from './fighting-styles/fighting-styles.component';
 import { FightingStyleDetailComponent } from './fighting-styles/fighting-style-detail.component';
+import { EncounterBuilderComponent } from './encounter-builder/encounter-builder.component';
 
 const routes: Routes = [
   { path: 'starfinder', component: StarfinderComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'starfinder/template-grafts/:slug', component: TemplateGraftDetailComponent },
   { path: 'starfinder/fighting-styles', component: FightingStylesComponent },
   { path: 'starfinder/fighting-styles/:slug', component: FightingStyleDetailComponent },
+  { path: 'starfinder/encounter-builder', component: EncounterBuilderComponent },
 ];
 
 @NgModule({

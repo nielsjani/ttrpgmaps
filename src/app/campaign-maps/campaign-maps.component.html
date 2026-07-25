@@ -1,0 +1,14 @@
+<div class="campaign-maps">
+  <h1>Campaign maps</h1>
+  <p>Pick a campaign map to explore.</p>
+
+  <div class="map-list">
+    <a
+      class="map-card"
+      *ngFor="let map of maps"
+      [routerLink]="['/', map.id]"
+    >
+      {{ map.label }}
+    </a>
+  </div>
+</div>

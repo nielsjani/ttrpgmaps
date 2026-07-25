@@ -3,10 +3,12 @@ import {RouterModule, Routes} from '@angular/router';
 import {MapContainerComponent} from "./map-container/map-container.component";
 import {HomeComponent} from "./home/home.component";
 import {CharacterOverviewComponent} from "./character-creator/character-overview/character-overview.component";
+import {CampaignMapsComponent} from "./campaign-maps/campaign-maps.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'character-creator', component: CharacterOverviewComponent },
+  { path: 'maps', component: CampaignMapsComponent },
   { path: ':mapId/:subMapId', component: MapContainerComponent },
   { path: ':mapId', component: MapContainerComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }

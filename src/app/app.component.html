@@ -9,7 +9,7 @@
 
 
 <!-- Toolbar -->
-<div class="toolbar" role="banner">
+<div class="toolbar" role="banner" *ngIf="!isHomePage">
   <img
     width="40"
     alt="D20 Icon"
@@ -17,8 +17,18 @@
     routerLink="/"
   />
   <a class="toolbar-title" routerLink="/">TTRPG Maps</a>
-  <a class="nav-link" routerLink="/sword-coast-leuven">Sword Coast Leuven</a>
-  <a class="nav-link" routerLink="/bastion-antwerpen">Bastion Antwerpen</a>
+
+  <!-- Campaign maps dropdown -->
+  <div class="nav-dropdown">
+    <span class="nav-link nav-dropdown-trigger">🗺️ Campaign maps ▾</span>
+    <div class="nav-dropdown-menu">
+      <a class="nav-dropdown-item" routerLink="/maps">Overview</a>
+      <a class="nav-dropdown-item" routerLink="/sword-coast-leuven">Sword Coast Leuven</a>
+      <a class="nav-dropdown-item" routerLink="/bastion-antwerpen">Bastion Antwerpen</a>
+    </div>
+  </div>
+
+  <a class="nav-link shop-link" routerLink="/shop-generator">🏪 Shop Generator</a>
 
   <!-- Starfinder dropdown -->
   <div class="nav-dropdown">
@@ -34,8 +44,9 @@
     </div>
   </div>
 
+  <a class="nav-link" routerLink="/map-maker">🧱 Dungeon builder</a>
+
   <div class="spacer"></div>
-  <a class="nav-link shop-link" routerLink="/shop-generator">🏪 Shop Generator</a>
 <!--  <button class="create-character-button" routerLink="/character-creator">-->
 <!--    <img-->
 <!--      class="cog-icon"-->

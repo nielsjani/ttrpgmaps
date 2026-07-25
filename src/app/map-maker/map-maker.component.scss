@@ -1,12 +1,14 @@
-.map-maker-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 80px 20px;
+:host {
+  display: block;
+}
 
-  h1 {
-    margin-bottom: 12px;
-  }
+.map-maker-layout {
+  display: flex;
+  height: calc(100vh - 100px);
+  min-height: 400px;
+}
+
+.map-maker-canvas-wrapper {
+  flex: 1;
+  min-width: 0;
 }

@@ -1,0 +1,130 @@
+:host {
+  display: block;
+}
+
+.map-maker-sidebar {
+  width: 220px;
+  min-width: 220px;
+  height: 100%;
+  overflow-y: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tool-group,
+.shape-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tool-button,
+.shape-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+
+  &.active {
+    background: #d6e4ff;
+    border-color: #4a7dfc;
+  }
+
+  &:hover {
+    background: #eef3ff;
+  }
+}
+
+.tool-label {
+  font-size: 13px;
+}
+
+.pan-hint {
+  margin: -8px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.color-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.default-colors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.color-swatch-wrapper {
+  position: relative;
+}
+
+.color-swatch {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+
+  &.active {
+    border-color: #333;
+    box-shadow: 0 0 0 2px #4a7dfc;
+  }
+}
+
+/* Hidden native color input used only to open the OS color picker when a
+   swatch is double-clicked (see openPaletteEditor()); never shown directly. */
+.palette-color-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reset-palette-link {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #4a7dfc;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: #2f5fd6;
+  }
+}
+
+.custom-color-picker {
+  width: 100%;
+  height: 32px;
+  cursor: pointer;
+}
+
+.zoom-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+
+  input[type='range'] {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+<aside class="map-maker-sidebar">
+  <div class="tool-group" role="group" aria-label="Tools">
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'square'"
+      title="Square tool (S)"
+      (click)="selectTool('square')"
+    >⬛<span class="tool-label">Square (S)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'delete'"
+      title="Delete tool (D)"
+      (click)="selectTool('delete')"
+    >🗑️<span class="tool-label">Delete (D)</span></button>
+  </div>
+  <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
+
+  <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">
+    <button
+      *ngFor="let option of shapeOptions"
+      type="button"
+      class="shape-button"
+      [class.active]="state.activeShapeOption === option.value"
+      [title]="option.label"
+      (click)="selectShapeOption(option.value)"
+    >{{ option.icon }}<span class="tool-label">{{ option.label }}</span></button>
+  </div>
+
+  <div class="color-group" *ngIf="state.activeTool === 'square'">
+    <div class="default-colors">
+      <div class="color-swatch-wrapper" *ngFor="let color of state.paletteColors; let i = index; trackBy: trackByIndex">
+        <button
+          type="button"
+          class="color-swatch"
+          [class.active]="state.activeColor === color"
+          [style.backgroundColor]="color"
+          [title]="color + ' (double-click to customize)'"
+          (click)="selectColor(color)"
+          (dblclick)="openPaletteEditor(i)"
+        ></button>
+        <input
+          #paletteInput
+          type="color"
+          class="palette-color-input"
+          [value]="color"
+          (input)="updatePaletteColor(i, $any($event.target).value)"
+        />
+      </div>
+    </div>
+    <button type="button" class="reset-palette-link" (click)="resetPalette()">Reset palette to defaults</button>
+    <input
+      type="color"
+      class="custom-color-picker"
+      [value]="state.activeColor"
+      (input)="selectColor($any($event.target).value)"
+      title="Custom color"
+    />
+  </div>
+
+  <div class="zoom-group">
+    <label for="zoom-slider">Zoom</label>
+    <input
+      id="zoom-slider"
+      type="range"
+      [min]="minZoom"
+      [max]="maxZoom"
+      [step]="0.05"
+      [value]="state.zoom"
+      (input)="selectZoom($any($event.target).value)"
+    />
+    <span class="zoom-value">{{ (state.zoom * 100) | number: '1.0-0' }}%</span>
+  </div>
+</aside>

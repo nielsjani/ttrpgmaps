@@ -8,14 +8,16 @@ import {filter} from "rxjs/operators";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  isHomePage = true;
+  /** True when the toolbar/nav should be hidden — the actual home page, plus the popped-out player-view window (which is meant to be a clean, standalone screen for players, not a page users navigate away from via the main site nav). */
+  hideToolbar = true;
+  private hideToolbarPaths = ['/', '/map-maker/player'];
 
   constructor(private router: Router) {
-    this.isHomePage = this.router.url === '/';
+    this.hideToolbar = this.hideToolbarPaths.includes(this.router.url);
     this.router.events
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe(event => {
-        this.isHomePage = event.urlAfterRedirects === '/';
+        this.hideToolbar = this.hideToolbarPaths.includes(event.urlAfterRedirects);
       });
   }
 }

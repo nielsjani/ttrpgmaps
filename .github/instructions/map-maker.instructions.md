@@ -34,14 +34,22 @@ infinite, pannable, zoomable canvas.
   lets users browse a filterable list of furniture art assets (first batch
   imported from the "2minutetabletop" pack), place them on the canvas, then
   move/scale/rotate the placed instances. Described in detail below.
+- **Story 5 — Design vs Play mode**: implemented. A Design/Play toggle in a
+  new header bar disables all drawing tools in Play mode (only pan/zoom +
+  party/player icon placement/dragging remain active), pops out a second
+  "player view" browser window kept in sync with the DM window via
+  `BroadcastChannel`, and lets both windows place/move a shared "party"
+  icon plus any number of individually-colored/named "player" icons split
+  off from it. Described in detail below.
 
 ## Module structure
 
 ```
 src/app/map-maker/
 ├── map-maker.module.ts            # declares components, provides MapMakerStateService
-├── map-maker-routing.module.ts    # route: 'map-maker' -> MapMakerComponent
-├── map-maker.component.*          # container: lays out sidebar + canvas
+├── map-maker-routing.module.ts    # routes: 'map-maker' -> MapMakerComponent,
+│                                   # 'map-maker/player' -> MapMakerPlayerViewComponent (Story 5)
+├── map-maker.component.*          # container: header (Design/Play toggle) + sidebar + canvas
 ├── models/
 │   ├── grid.ts                    # GridCoordinate, gridKey()/parseGridKey()
 │   ├── fragment-shape.ts          # FragmentShape union, unit-space polygons,
@@ -54,13 +62,19 @@ src/app/map-maker/
 │   ├── art-asset.ts               # ArtAsset, buildArtAssets(), artAssetPath() — Story 4 asset browser
 │   ├── art-asset-data.ts          # ART_ASSET_MANIFEST — static list of imported art asset files
 │   ├── art-element.ts             # ArtElement, generateArtId() — Story 4 placed art instances
+│   ├── party-icon.ts              # PartyIcon — Story 5 shared party marker
+│   ├── player-icon.ts             # PlayerIcon, generatePlayerIconId() — Story 5 split-off markers
+│   ├── map-snapshot.ts            # MapSnapshot — serializable design-data mirror for the sync handshake
 │   └── index.ts                   # barrel export
 ├── services/
-│   └── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
+│   ├── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
+│   └── map-maker-sync.service.ts  # MapMakerSyncService — BroadcastChannel-based DM/player sync (Story 5)
 ├── canvas/
-│   └── map-maker-canvas.component.*  # <canvas> rendering + pan/zoom/draw/delete/text input
-└── sidebar/
-    └── map-maker-sidebar.component.*  # tool/shape/color/zoom controls + shortcuts
+│   └── map-maker-canvas.component.*  # <canvas> rendering + pan/zoom/draw/delete/text/art/icon input
+├── sidebar/
+│   └── map-maker-sidebar.component.*  # tool/shape/color/zoom/Play-mode controls + shortcuts
+└── player-view/
+    └── map-maker-player-view.component.*  # Story 5 popped-out player-view shell (canvas only)
 ```
 
 `MapMakerStateService` is a real `@Injectable()` provided in `MapMakerModule`'s
@@ -161,17 +175,22 @@ restrict it to cells within (plus one ring around) the visible viewport.
   part.
 - **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete' | 'text' |
   'door' | 'art'` (no `'pan'` tool). Panning is **always available**,
-  independent of the active tool: holding the **right** mouse button and
-  dragging pans the canvas (`event.button === 2`); the canvas suppresses the
-  browser's context menu on right-click (`onContextMenu`) so this doesn't
-  pop up a menu instead. The **left** mouse button always performs the
-  active tool's action. For `square`/`delete`, holding the left button down
-  and dragging paints/deletes every cell the cursor passes over (not just a
-  single click); the component tracks the last acted-on cell
-  (`lastActedCellKey`) so the same cell isn't repeatedly reprocessed while
-  the pointer lingers inside it. For `text`, see the dedicated section
-  below. For `door`, see the dedicated section below. For `art`, see the
-  dedicated section below.
+  independent of the active tool or mode: holding the **right** mouse button
+  and dragging pans the canvas (`event.button === 2`); the canvas suppresses
+  the browser's context menu on right-click (`onContextMenu`) so this
+  doesn't pop up a menu instead. The **left** mouse button always performs
+  the active tool's action **while `state.mode === 'design'`**; while
+  `state.mode === 'play'`, the left button instead only places/drags the
+  party/player icons (see the dedicated Story 5 section below) — every
+  design-tool branch in `onMouseDown`/`onMouseMove` is gated behind a
+  `state.mode === 'design'`/`!== 'design'` check so a stale `activeTool`
+  value can't leak drawing behavior into Play mode. For `square`/`delete`,
+  holding the left button down and dragging paints/deletes every cell the
+  cursor passes over (not just a single click); the component tracks the
+  last acted-on cell (`lastActedCellKey`) so the same cell isn't repeatedly
+  reprocessed while the pointer lingers inside it. For `text`, see the
+  dedicated section below. For `door`, see the dedicated section below. For
+  `art`, see the dedicated section below.
 - **Drawing/deleting**: left-button `mousedown` immediately performs the
   action for the cell under the cursor; every subsequent `mousemove` while
   the left button is held repeats this for whatever new cell the cursor
@@ -472,8 +491,137 @@ restrict it to cells within (plus one ring around) the visible viewport.
   rectangle plus the two square handles described above — is drawn only for
   `state.selectedArtId` while the Art tool is active.
 
+## Design vs Play mode (Story 5)
+
+- **Mode field** (`MapMakerStateService.mode: 'design' | 'play'`, default
+  `'design'`): switched via `setMode()`. Switching modes **never clears**
+  any drawn/placed content — fragments, doors, text, art, and even the
+  party/player icons all persist across mode switches, so a DM can freely
+  pause a play session (e.g. to draw a new room) and resume it later
+  without losing party/player icon positions.
+- **What's disabled in Play mode**: every design-tool interaction branch in
+  `MapMakerCanvasComponent.onMouseDown`/`onMouseMove` is gated behind
+  `state.mode === 'design'` (see the "Tools & mouse buttons" bullet above),
+  so square/delete/text/door/art placement, dragging, and double-click-to-
+  edit are all inert while in Play mode, regardless of `activeTool`'s
+  stale value. Keyboard tool shortcuts (`s`/`d`/`t`/`o`/`a`) are likewise
+  ignored by the sidebar's `window:keydown` listener while `mode !==
+  'design'`. **What stays active**: right-button panning, wheel/slider
+  zooming, and party/player icon placement/dragging (below) — all
+  independent of `mode`/`activeTool`.
+
+### Party & player icons
+
+- **Data model**: `PartyIcon { x, y, color }` (`models/party-icon.ts`) — a
+  single shared marker, stored as `MapMakerStateService.partyIcon: PartyIcon
+  | null` (not an array — "the party" is one marker). `PlayerIcon { id, x,
+  y, color, name }` (`models/player-icon.ts`) — any number of individually
+  colored/named markers split off from the party, stored as
+  `MapMakerStateService.playerIcons: PlayerIcon[]`. Both are world-space
+  coordinates, same as everything else.
+- **State service API**: `placePartyIcon(x, y, color)` (places or
+  re-places), `movePartyIcon(x, y)`, `setPartyColor(color)` (both no-ops if
+  no party icon exists yet), `splitPlayerIcon(color, name?)` (spawns a new
+  `PlayerIcon` at a small fixed offset — `PLAYER_ICON_SPLIT_OFFSET` — from
+  the party icon's current position, or a default fallback position if no
+  party icon exists yet), `movePlayerIcon(id, x, y)`,
+  `setPlayerIconColor(id, color)`, `setPlayerIconName(id, name)`,
+  `removePlayerIcon(id)`.
+- **`armPartyPlacement` / `playModeColor`**: purely local UI state (not
+  synced across windows — each window arms its own placement
+  independently). The sidebar's "Place/Move Party" button calls
+  `setArmPartyPlacement(true)`; the *next* Play-mode canvas click then
+  calls `placePartyIcon()` at that point and auto-disarms
+  (`handleIconMouseDown()` in the canvas). `playModeColor` is the color
+  currently selected in the Play-mode sidebar panel, used for the next
+  party placement/re-color or player split.
+- **Canvas interaction** (`handleIconMouseDown()`, `updateIconDrag()`,
+  `hitTestPartyIcon()`, `hitTestPlayerIcon()`): on a Play-mode left-click,
+  if placement is armed the party icon is placed/moved there; otherwise
+  player icons are hit-tested before the party icon (they're drawn on top
+  and may overlap it) and, if hit, begin a plain move-drag
+  (`IconDragState`) — there's no scale/rotate for icons, just move,
+  computed the same "absolute target from a fixed drag-start snapshot" way
+  as text/art drags.
+- **Rendering** (`drawPartyAndPlayerIcons()`, called last in `render()` so
+  icons always sit on top of everything else): each icon is a filled,
+  black-bordered circle (`drawIcon()`) — the party icon uses
+  `PARTY_ICON_RADIUS` (slightly larger), player icons use the smaller
+  `PLAYER_ICON_RADIUS` — with its name (if any) drawn as a small centered
+  label just below it.
+
+### Cross-window sync (`MapMakerSyncService`)
+
+The DM window and the popped-out player-view window are **two entirely
+separate Angular app instances** — `window.open()`ing a URL performs a full
+browser navigation, so the popup gets its own fresh bootstrap, injector, and
+`MapMakerStateService` instance. They're kept in sync purely client-side via
+the same-origin `BroadcastChannel('ttrpgmaps-map-maker-play')` API (no
+backend involved):
+
+- **Protocol** (see `services/map-maker-sync.service.ts` for the exact
+  message shapes): a `role: 'player'` instance posts `'request-state'`
+  immediately on construction; a `role: 'dm'` instance replies with
+  `'full-state'` containing `state.getSnapshot()` (see below) plus the
+  current `partyIcon`/`playerIcons` — a one-time handshake, since design
+  data can't change while in Play mode so it never needs re-sending.
+  Thereafter, **either** role posts a lightweight `'icons-update'` message
+  whenever its own `state.iconsChanged$` fires (i.e. whenever *that*
+  window's user placed/moved/recolored/renamed/added/removed a
+  party/player icon).
+- **`iconsChanged$` vs `changed$`**: `MapMakerStateService` fires the
+  general `changed$` (triggers a re-render) on every mutation as usual, but
+  also fires a narrower `iconsChanged$` *only* from the party/player icon
+  mutator methods above. `MapMakerSyncService` subscribes to `iconsChanged$`
+  (not `changed$`) so it only broadcasts on genuine icon changes, not on
+  every pan/zoom/fragment edit.
+- **No-echo apply**: incoming `'icons-update'`/`'full-state'` messages are
+  applied via `state.applyRemoteIcons(partyIcon, playerIcons)`, which
+  overwrites the icon fields and fires `changed$` (to re-render) but
+  deliberately **not** `iconsChanged$` — this is what prevents an infinite
+  broadcast echo loop between the two windows.
+- **Full-map snapshot handshake**: `MapMakerStateService.getSnapshot()` /
+  `applySnapshot(snapshot)` convert between live state (a `Map` for cells,
+  etc.) and a plain-object `MapSnapshot` (`models/map-snapshot.ts` — cells
+  as `[key, fragments][]` entries, plus arrays of doors/texts/artElements)
+  that's safe to pass through `BroadcastChannel`'s structured-clone
+  transport.
+- **`fullStateReceived$`**: a `Subject<void>` on `MapMakerSyncService` that
+  fires once a `'full-state'` message has been processed — used by
+  `MapMakerPlayerViewComponent` to flip its "Waiting for Dungeon Master…"
+  banner off.
+
+### Popup window management (`MapMakerComponent`)
+
+`togglePlayMode()` is the single entry point: switching to Play mode calls
+`state.setMode('play')`, constructs a `MapMakerSyncService(state, 'dm')`,
+and opens the popup via `window.open(`${origin}${pathname}#/map-maker/player`,
+'ttrpgmaps-player-view', 'width=1100,height=800')`, keeping the `Window`
+handle so it can be closed later. Switching back to Design mode closes both
+the popup and the sync service. A `setInterval` polls `playerWindow.closed`
+so that if the user manually closes the popup, the header can show a
+"🔁 Reopen player window" button instead of silently doing nothing.
+
+### Player-view route (`MapMakerPlayerViewComponent`)
+
+A minimal, tool-free shell at the `map-maker/player` route (declared in
+`MapMakerModule`, not linked from any nav menu — only reachable via the DM's
+popup): renders just `<app-map-maker-canvas>` (no sidebar) plus a "Waiting
+for Dungeon Master…" banner until `fullStateReceived$` fires. `ngOnInit`
+sets `state.setMode('play')` and constructs a
+`MapMakerSyncService(state, 'player')`; `ngOnDestroy` closes it. Note
+`AppComponent.hideToolbarPaths` also hides the site's main nav toolbar on
+this route (in addition to the actual home page), so the popped-out window
+reads as a clean, standalone player screen rather than a page users could
+navigate away from via the main site nav.
+
 ## Sidebar (`MapMakerSidebarComponent`)
 
+- All of the design-tool UI described below (tool buttons, shape options,
+  color picker, art panel) is wrapped in `*ngIf="state.mode === 'design'"`
+  and hidden entirely in Play mode; the Play-mode panel described further
+  down takes its place. The "hold right mouse to pan" hint and the zoom
+  slider are shown unconditionally in both modes.
 - Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut),
   **Text** (`t` shortcut), **Door** (`o` shortcut), and **Art** (`a`
   shortcut), bound to `MapMakerStateService.activeTool`. There is no "Pan"
@@ -489,7 +637,8 @@ restrict it to cells within (plus one ring around) the visible viewport.
   Shortcuts are handled via a `window:keydown` host listener that ignores
   keystrokes while an `<input>`/`<textarea>`/`<select>` has focus (so typing
   in the custom color picker, the text inline-edit overlay, or the art
-  search box, doesn't accidentally switch tools).
+  search box, doesn't accidentally switch tools), and are also ignored
+  entirely while `state.mode !== 'design'`.
 - Shape-option buttons (full/half/quarter/triangle) are only shown while the
   square tool is active, bound to `activeShapeOption`.
 - Color picker: a grid of swatch buttons bound to
@@ -513,6 +662,17 @@ restrict it to cells within (plus one ring around) the visible viewport.
   deselects it) — the active asset is highlighted in the list.
 - Zoom slider: an `<input type="range">` bound to `state.zoom`
   (`[MIN_ZOOM, MAX_ZOOM]`), kept in sync with wheel-zooming on the canvas.
+- **Play-mode panel** (`*ngIf="state.mode === 'play'"`, see "Design vs Play
+  mode (Story 5)" above for the full icon data model/sync design): a color
+  picker (palette swatches + custom `<input type="color">`) bound to a
+  local `playModeColor`; a "Place/Move Party" toggle button
+  (`togglePartyPlacement()`) that arms `state.armPartyPlacement` so the next
+  Play-mode canvas click places/moves the party icon; a "Split Player Icon"
+  button (`splitPlayerIcon()`, disabled until a party icon exists) plus an
+  optional name `<input>` (`newPlayerName`) next to it; and an editable
+  list of existing player icons — each row has a color `<input
+  type="color">` (`setPlayerColor()`), a name `<input>` (`setPlayerName()`),
+  and a remove button (`removePlayer()`).
 
 ## Extending this module (future stories)
 

@@ -7,3 +7,6 @@ export * from './text-element';
 export * from './door';
 export * from './art-asset';
 export * from './art-element';
+export * from './party-icon';
+export * from './player-icon';
+export * from './map-snapshot';

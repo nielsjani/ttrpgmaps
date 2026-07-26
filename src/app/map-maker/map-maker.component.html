@@ -1,3 +1,11 @@
+<div class="map-maker-header">
+  <button class="mode-toggle" (click)="togglePlayMode()">
+    {{ isPlayMode ? '🛠️ Switch to Design mode' : '▶️ Switch to Play mode' }}
+  </button>
+  <button *ngIf="playerWindowClosed" class="reopen-window" (click)="reopenPlayerWindow()">
+    🔁 Reopen player window
+  </button>
+</div>
 <div class="map-maker-layout">
   <app-map-maker-sidebar></app-map-maker-sidebar>
   <app-map-maker-canvas class="map-maker-canvas-wrapper"></app-map-maker-canvas>

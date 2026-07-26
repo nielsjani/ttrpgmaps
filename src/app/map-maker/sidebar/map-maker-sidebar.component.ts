@@ -2,6 +2,7 @@ import { Component, ElementRef, HostListener, QueryList, ViewChildren } from '@a
 import { MapMakerStateService, MIN_ZOOM, MAX_ZOOM } from '../services/map-maker-state.service';
 import { MapMakerTool, ShapeOption } from '../models/pick-shape';
 import { ArtAsset, artAssetPath } from '../models/art-asset';
+import { PlayerIcon } from '../models/player-icon';
 
 interface ShapeOptionDef {
   value: ShapeOption;
@@ -42,6 +43,9 @@ export class MapMakerSidebarComponent {
   artSearch = '';
   artCategoryFilter = '';
 
+  /** Optional name typed in the Play-mode panel for the *next* split player icon. */
+  newPlayerName = '';
+
   constructor(public state: MapMakerStateService) {
     this.artCategories = this.state.getArtCategories();
   }
@@ -51,6 +55,10 @@ export class MapMakerSidebarComponent {
     const target = event.target as HTMLElement | null;
     // Ignore shortcuts while typing into an input/select/textarea (e.g. the color picker).
     if (target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName)) {
+      return;
+    }
+    // Drawing-tool shortcuts only apply in Design mode — Play mode has no "tool" concept.
+    if (this.state.mode !== 'design') {
       return;
     }
     if (event.key === 's' || event.key === 'S') {
@@ -123,6 +131,43 @@ export class MapMakerSidebarComponent {
 
   trackByAssetId(_index: number, asset: ArtAsset): string {
     return asset.id;
+  }
+
+  // --- Play mode ------------------------------------------------------------
+
+  /** Sets the color used for the next party placement/re-color or player split. */
+  selectPlayModeColor(color: string): void {
+    this.state.setPlayModeColor(color);
+  }
+
+  /** Arms (or disarms) party placement: the next canvas click will place/move the party icon there. */
+  togglePartyPlacement(): void {
+    this.state.setArmPartyPlacement(!this.state.armPartyPlacement);
+  }
+
+  /** Spawns a new player icon near the party icon, using the current play-mode color and the typed name (if any), then clears the name field. */
+  splitPlayerIcon(): void {
+    if (!this.state.partyIcon) {
+      return;
+    }
+    this.state.splitPlayerIcon(this.state.playModeColor, this.newPlayerName.trim());
+    this.newPlayerName = '';
+  }
+
+  setPlayerColor(id: string, color: string): void {
+    this.state.setPlayerIconColor(id, color);
+  }
+
+  setPlayerName(id: string, name: string): void {
+    this.state.setPlayerIconName(id, name);
+  }
+
+  removePlayer(id: string): void {
+    this.state.removePlayerIcon(id);
+  }
+
+  trackByPlayerId(_index: number, player: PlayerIcon): string {
+    return player.id;
   }
 }
 

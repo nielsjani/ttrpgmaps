@@ -7,6 +7,7 @@ import {
   MIN_TEXT_FONT_SIZE,
   MAX_TEXT_FONT_SIZE,
 } from './map-maker-state.service';
+import { MapMakerSyncService } from './map-maker-sync.service';
 
 describe('MapMakerStateService', () => {
   const PALETTE_STORAGE_KEY = 'map-maker.palette-colors';
@@ -515,6 +516,234 @@ describe('MapMakerStateService — art assets', () => {
     service.clear();
     expect(service.artElements.length).toBe(0);
     expect(service.selectedArtId).toBeNull();
+  });
+});
+
+describe('MapMakerStateService — Play mode and icons', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    service = new MapMakerStateService();
+  });
+
+  it('starts in design mode and can switch to play mode without clearing content', () => {
+    expect(service.mode).toBe('design');
+    service.setShapeOption('square');
+    service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+
+    service.setMode('play');
+
+    expect(service.mode).toBe('play');
+    expect(service.getAllCells().size).toBe(1);
+
+    service.setMode('design');
+    expect(service.mode).toBe('design');
+    expect(service.getAllCells().size).toBe(1);
+  });
+
+  it('placePartyIcon places (or re-places) the single party icon', () => {
+    service.placePartyIcon(10, 20, '#ff0000');
+    expect(service.partyIcon).toEqual({ x: 10, y: 20, color: '#ff0000' });
+
+    service.placePartyIcon(30, 40, '#00ff00');
+    expect(service.partyIcon).toEqual({ x: 30, y: 40, color: '#00ff00' });
+  });
+
+  it('movePartyIcon moves an existing party icon and is a no-op if none exists', () => {
+    service.movePartyIcon(5, 5);
+    expect(service.partyIcon).toBeNull();
+
+    service.placePartyIcon(0, 0, '#ff0000');
+    service.movePartyIcon(15, 25);
+    expect(service.partyIcon).toEqual({ x: 15, y: 25, color: '#ff0000' });
+  });
+
+  it('setPartyColor recolors an existing party icon and is a no-op if none exists', () => {
+    service.setPartyColor('#0000ff');
+    expect(service.partyIcon).toBeNull();
+
+    service.placePartyIcon(0, 0, '#ff0000');
+    service.setPartyColor('#0000ff');
+    expect(service.partyIcon?.color).toBe('#0000ff');
+  });
+
+  it('splitPlayerIcon spawns a new player icon offset from the party icon', () => {
+    service.placePartyIcon(100, 100, '#ff0000');
+    const player = service.splitPlayerIcon('#00ff00', 'Alice');
+
+    expect(service.playerIcons).toEqual([player]);
+    expect(player.color).toBe('#00ff00');
+    expect(player.name).toBe('Alice');
+    expect(player.x).not.toBe(100);
+    expect(player.y).not.toBe(100);
+  });
+
+  it('splitPlayerIcon falls back to a default position if no party icon exists yet', () => {
+    const player = service.splitPlayerIcon('#00ff00');
+    expect(service.playerIcons).toEqual([player]);
+    expect(player.name).toBe('');
+  });
+
+  it('movePlayerIcon/setPlayerIconColor/setPlayerIconName update the matching icon only', () => {
+    service.placePartyIcon(0, 0, '#ff0000');
+    const a = service.splitPlayerIcon('#00ff00', 'Alice');
+    const b = service.splitPlayerIcon('#0000ff', 'Bob');
+
+    service.movePlayerIcon(a.id, 5, 6);
+    service.setPlayerIconColor(a.id, '#ffff00');
+    service.setPlayerIconName(a.id, 'Alicia');
+
+    const updatedA = service.playerIcons.find(p => p.id === a.id)!;
+    const untouchedB = service.playerIcons.find(p => p.id === b.id)!;
+    expect(updatedA).toEqual(jasmine.objectContaining({ x: 5, y: 6, color: '#ffff00', name: 'Alicia' }));
+    expect(untouchedB).toEqual(b);
+  });
+
+  it('removePlayerIcon removes only the matching icon', () => {
+    service.placePartyIcon(0, 0, '#ff0000');
+    const a = service.splitPlayerIcon('#00ff00', 'Alice');
+    const b = service.splitPlayerIcon('#0000ff', 'Bob');
+
+    service.removePlayerIcon(a.id);
+
+    expect(service.playerIcons).toEqual([b]);
+  });
+
+  it('iconsChanged$ fires only for icon mutations, not for unrelated state changes', () => {
+    let fireCount = 0;
+    service.iconsChanged$.subscribe(() => fireCount++);
+
+    service.setZoom(2);
+    service.setPan({ x: 1, y: 1 });
+    service.setShapeOption('square');
+    service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+    expect(fireCount).toBe(0);
+
+    service.placePartyIcon(0, 0, '#ff0000');
+    expect(fireCount).toBe(1);
+
+    const player = service.splitPlayerIcon('#00ff00');
+    expect(fireCount).toBe(2);
+
+    service.movePlayerIcon(player.id, 1, 1);
+    expect(fireCount).toBe(3);
+
+    service.removePlayerIcon(player.id);
+    expect(fireCount).toBe(4);
+  });
+
+  it('applyRemoteIcons overwrites icon state and emits changed$ but not iconsChanged$ (no echo loop)', () => {
+    let changedCount = 0;
+    let iconsChangedCount = 0;
+    service.changed$.subscribe(() => changedCount++);
+    service.iconsChanged$.subscribe(() => iconsChangedCount++);
+
+    const party = { x: 1, y: 2, color: '#abcdef' };
+    const players = [{ id: 'p1', x: 3, y: 4, color: '#123456', name: 'Remote' }];
+
+    service.applyRemoteIcons(party, players);
+
+    expect(service.partyIcon).toEqual(party);
+    expect(service.playerIcons).toEqual(players);
+    expect(changedCount).toBeGreaterThan(0);
+    expect(iconsChangedCount).toBe(0);
+  });
+
+  it('setArmPartyPlacement arms/disarms placement mode', () => {
+    expect(service.armPartyPlacement).toBe(false);
+    service.setArmPartyPlacement(true);
+    expect(service.armPartyPlacement).toBe(true);
+    service.setArmPartyPlacement(false);
+    expect(service.armPartyPlacement).toBe(false);
+  });
+
+  it('clear() resets mode and party/player icons', () => {
+    service.setMode('play');
+    service.placePartyIcon(0, 0, '#ff0000');
+    service.splitPlayerIcon('#00ff00');
+    service.setArmPartyPlacement(true);
+
+    service.clear();
+
+    expect(service.mode).toBe('design');
+    expect(service.partyIcon).toBeNull();
+    expect(service.playerIcons).toEqual([]);
+    expect(service.armPartyPlacement).toBe(false);
+  });
+
+  it('getSnapshot()/applySnapshot() round-trips cells, doors, texts, and art', () => {
+    service.setShapeOption('square');
+    service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+    service.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
+    service.toggleDoorAt('vertical', 1, 0);
+    service.addText(10, 20);
+    service.addArt(service.artAssets[0].fileName, 5, 5);
+
+    const snapshot = service.getSnapshot();
+
+    const other = new MapMakerStateService();
+    other.applySnapshot(snapshot);
+
+    expect(other.getAllCells().size).toBe(service.getAllCells().size);
+    expect(Array.from(other.getAllCells().keys()).sort()).toEqual(Array.from(service.getAllCells().keys()).sort());
+    expect(other.getAllDoors().size).toBe(1);
+    expect(other.texts.length).toBe(1);
+    expect(other.texts[0].text).toBe(service.texts[0].text);
+    expect(other.artElements.length).toBe(1);
+    expect(other.artElements[0].assetFileName).toBe(service.artElements[0].assetFileName);
+  });
+});
+
+describe('MapMakerSyncService', () => {
+  let dmState: MapMakerStateService;
+  let playerState: MapMakerStateService;
+  let dmSync: MapMakerSyncService;
+  let playerSync: MapMakerSyncService;
+
+  beforeEach(() => {
+    dmState = new MapMakerStateService();
+    playerState = new MapMakerStateService();
+  });
+
+  afterEach(() => {
+    dmSync?.close();
+    playerSync?.close();
+  });
+
+  it('sends the full map snapshot and current icons to a player-view instance on connect', done => {
+    dmState.setShapeOption('square');
+    dmState.placeFragment({ col: 2, row: 2 }, 0.5, 0.5);
+    dmState.placePartyIcon(10, 10, '#ff0000');
+
+    dmSync = new MapMakerSyncService(dmState, 'dm');
+    playerSync = new MapMakerSyncService(playerState, 'player');
+
+    playerSync.fullStateReceived$.subscribe(() => {
+      expect(playerState.getAllCells().size).toBe(1);
+      expect(playerState.partyIcon).toEqual({ x: 10, y: 10, color: '#ff0000' });
+      done();
+    });
+  });
+
+  it('propagates icon moves made in one window to the other, without echoing back', done => {
+    dmState.placePartyIcon(0, 0, '#ff0000');
+    dmSync = new MapMakerSyncService(dmState, 'dm');
+    playerSync = new MapMakerSyncService(playerState, 'player');
+
+    playerSync.fullStateReceived$.subscribe(() => {
+      // Player moves the party icon; the DM window should see the update.
+      let dmIconsChangedCount = 0;
+      dmState.iconsChanged$.subscribe(() => dmIconsChangedCount++);
+
+      playerState.movePartyIcon(99, 100);
+
+      setTimeout(() => {
+        expect(dmState.partyIcon).toEqual({ x: 99, y: 100, color: '#ff0000' });
+        // Applying the remote update must not itself re-fire iconsChanged$ on the DM side.
+        expect(dmIconsChangedCount).toBe(0);
+        done();
+      }, 50);
+    });
   });
 });
 

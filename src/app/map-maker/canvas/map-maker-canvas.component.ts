@@ -14,6 +14,8 @@ import { GridCoordinate, gridKey, parseGridKey } from '../models/grid';
 import { TextElement } from '../models/text-element';
 import { DoorOrientation, doorKey } from '../models/door';
 import { ArtElement } from '../models/art-element';
+import { PartyIcon } from '../models/party-icon';
+import { PlayerIcon } from '../models/player-icon';
 
 const GRID_LINE_COLOR = '#dddddd';
 const BORDER_COLOR = '#000000';
@@ -36,6 +38,12 @@ const DOOR_EDGE_SNAP_THRESHOLD = 0.3;
 const ART_SELECTION_COLOR = '#4a7dfc';
 const ART_HANDLE_SIZE_PX = 8;
 const ART_HANDLE_HIT_RADIUS_PX = 8;
+/** World-space radius (before zoom) of the party icon; player icons are drawn a bit smaller. */
+const PARTY_ICON_RADIUS = BASE_CELL_SIZE * 0.4;
+const PLAYER_ICON_RADIUS = BASE_CELL_SIZE * 0.3;
+const ICON_BORDER_COLOR = '#000000';
+const ICON_BORDER_WIDTH_PX = 2;
+const ICON_LABEL_COLOR = '#000000';
 
 type TextHandleKind = 'scale' | 'width' | 'height';
 type ArtHandleKind = 'scale' | 'rotate';
@@ -63,6 +71,15 @@ interface ArtDragState {
   /** For 'scale': distance from center to the bottom-right corner at drag start. For 'rotate': world-space angle from center to the bottom-left corner at drag start. */
   startCornerDistance: number;
   startCornerAngle: number;
+}
+
+/** Active party/player icon move drag, if any (Play mode only). Icons only ever move (no scale/rotate), so this only needs a start offset. */
+interface IconDragState {
+  kind: 'party' | 'player';
+  /** Only set for kind 'player' (the party icon is singular, so it needs no id). */
+  id?: string;
+  startWorld: { x: number; y: number };
+  startPos: { x: number; y: number };
 }
 
 /**
@@ -103,6 +120,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
 
   /** Active art element move/scale/rotate drag, if any (art tool only). */
   private artDrag: ArtDragState | null = null;
+
+  /** Active party/player icon drag, if any (Play mode only). */
+  private iconDrag: IconDragState | null = null;
 
   /** The id of the text element currently being inline-edited, if any (its canvas rendering is suppressed while the <textarea> overlay covers it). */
   editingTextId: string | null = null;
@@ -187,13 +207,15 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
 
     const pos = this.getPointerPosition(event);
     if (event.button === 2) {
-      // Right mouse button: pan, regardless of the active tool.
+      // Right mouse button: pan, regardless of the active tool or mode.
       this.isPanning = true;
       this.dragStart = pos;
       this.panStart = { ...this.state.pan };
     } else if (event.button === 0) {
       this.isPointerDown = true;
-      if (this.state.activeTool === 'text') {
+      if (this.state.mode === 'play') {
+        this.handleIconMouseDown(pos);
+      } else if (this.state.activeTool === 'text') {
         this.handleTextMouseDown(pos);
       } else if (this.state.activeTool === 'door') {
         this.lastToggledEdgeKey = null;
@@ -220,6 +242,12 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       const dx = pos.x - this.dragStart.x;
       const dy = pos.y - this.dragStart.y;
       this.state.setPan({ x: this.panStart.x + dx, y: this.panStart.y + dy });
+    } else if (this.iconDrag) {
+      this.updateIconDrag(pos);
+    } else if (this.state.mode === 'play') {
+      // Nothing else is interactive in Play mode besides pan/zoom and
+      // dragging an already-hit party/player icon (handled above).
+      return;
     } else if (this.textDrag) {
       this.updateTextDrag(pos);
     } else if (this.artDrag) {
@@ -242,6 +270,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.lastActedCellKey = null;
       this.textDrag = null;
       this.artDrag = null;
+      this.iconDrag = null;
       this.lastToggledEdgeKey = null;
     }
   }
@@ -252,6 +281,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.lastActedCellKey = null;
     this.textDrag = null;
     this.artDrag = null;
+    this.iconDrag = null;
     this.lastToggledEdgeKey = null;
     if (this.hoveredEdge) {
       this.hoveredEdge = null;
@@ -260,7 +290,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   }
 
   onDoubleClick(event: MouseEvent): void {
-    if (this.state.activeTool !== 'text') {
+    if (this.state.mode !== 'design' || this.state.activeTool !== 'text') {
       return;
     }
     const pos = this.getPointerPosition(event);
@@ -491,6 +521,73 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
   }
 
+  // --- Play mode: party/player icon interaction --------------------------------
+
+  /** Finds the party icon if the given world point falls within its radius, else undefined. */
+  private hitTestPartyIcon(worldX: number, worldY: number): PartyIcon | undefined {
+    const party = this.state.partyIcon;
+    if (!party) {
+      return undefined;
+    }
+    return Math.hypot(worldX - party.x, worldY - party.y) <= PARTY_ICON_RADIUS ? party : undefined;
+  }
+
+  /** Finds the topmost (last-added) player icon whose radius contains the given world point, if any. */
+  private hitTestPlayerIcon(worldX: number, worldY: number): PlayerIcon | undefined {
+    const icons = this.state.playerIcons;
+    for (let i = icons.length - 1; i >= 0; i--) {
+      const icon = icons[i];
+      if (Math.hypot(worldX - icon.x, worldY - icon.y) <= PLAYER_ICON_RADIUS) {
+        return icon;
+      }
+    }
+    return undefined;
+  }
+
+  /**
+   * Handles a left-mouse-down while in Play mode: if party placement is
+   * armed (via the sidebar's "Place/Move Party" button), places/moves the
+   * party icon at the click and disarms; otherwise, if an existing player
+   * icon or the party icon is hit, begins dragging it. Player icons are
+   * checked first since they're drawn on top of (and may overlap) the
+   * party icon. Clicking empty space does nothing else in Play mode.
+   */
+  private handleIconMouseDown(pos: { x: number; y: number }): void {
+    const world = this.screenToWorld(pos.x, pos.y);
+
+    if (this.state.armPartyPlacement) {
+      this.state.placePartyIcon(world.x, world.y, this.state.playModeColor);
+      this.state.setArmPartyPlacement(false);
+      return;
+    }
+
+    const hitPlayer = this.hitTestPlayerIcon(world.x, world.y);
+    if (hitPlayer) {
+      this.iconDrag = { kind: 'player', id: hitPlayer.id, startWorld: world, startPos: { x: hitPlayer.x, y: hitPlayer.y } };
+      return;
+    }
+
+    const hitParty = this.hitTestPartyIcon(world.x, world.y);
+    if (hitParty) {
+      this.iconDrag = { kind: 'party', startWorld: world, startPos: { x: hitParty.x, y: hitParty.y } };
+    }
+  }
+
+  private updateIconDrag(pos: { x: number; y: number }): void {
+    if (!this.iconDrag) {
+      return;
+    }
+    const { kind, id, startWorld, startPos } = this.iconDrag;
+    const world = this.screenToWorld(pos.x, pos.y);
+    const x = startPos.x + (world.x - startWorld.x);
+    const y = startPos.y + (world.y - startWorld.y);
+    if (kind === 'party') {
+      this.state.movePartyIcon(x, y);
+    } else if (id) {
+      this.state.movePlayerIcon(id, x, y);
+    }
+  }
+
   // --- Text tool interaction ---------------------------------------------------
 
   /** Finds the topmost (last-drawn) text element whose box contains the given world-space point, if any. */
@@ -682,6 +779,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawDoors(width, height);
     this.drawArt(width, height);
     this.drawTexts(width, height);
+    this.drawPartyAndPlayerIcons();
   }
 
   private drawGrid(width: number, height: number): void {
@@ -964,6 +1062,43 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     for (const kind of Object.keys(handles) as TextHandleKind[]) {
       const hp = handles[kind];
       this.ctx.fillRect(hp.x - half, hp.y - half, HANDLE_SIZE_PX, HANDLE_SIZE_PX);
+    }
+  }
+
+  // --- Play mode: party/player icon rendering ----------------------------------
+
+  /** Draws the party icon (if placed) and every player icon as a colored circle with a black border, each with its name label (if any) drawn just below it. Player icons are drawn after (on top of) the party icon. */
+  private drawPartyAndPlayerIcons(): void {
+    const party = this.state.partyIcon;
+    if (party) {
+      this.drawIcon(party.x, party.y, PARTY_ICON_RADIUS, party.color, 'Party');
+    }
+    for (const icon of this.state.playerIcons) {
+      this.drawIcon(icon.x, icon.y, PLAYER_ICON_RADIUS, icon.color, icon.name);
+    }
+  }
+
+  private drawIcon(worldX: number, worldY: number, worldRadius: number, color: string, label: string): void {
+    const { pan, zoom } = this.state;
+    const sx = worldX * zoom + pan.x;
+    const sy = worldY * zoom + pan.y;
+    const radius = worldRadius * zoom;
+
+    this.ctx.beginPath();
+    this.ctx.arc(sx, sy, radius, 0, Math.PI * 2);
+    this.ctx.fillStyle = color;
+    this.ctx.fill();
+    this.ctx.lineWidth = ICON_BORDER_WIDTH_PX;
+    this.ctx.strokeStyle = ICON_BORDER_COLOR;
+    this.ctx.stroke();
+
+    if (label) {
+      this.ctx.fillStyle = ICON_LABEL_COLOR;
+      this.ctx.textAlign = 'center';
+      this.ctx.textBaseline = 'top';
+      this.ctx.font = '12px sans-serif';
+      this.ctx.fillText(label, sx, sy + radius + 2);
+      this.ctx.textAlign = 'left';
     }
   }
 }

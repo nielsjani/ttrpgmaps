@@ -9,6 +9,9 @@ import { Door, DoorOrientation, doorKey, getAdjacentCells } from '../models/door
 import { ArtAsset, artAssetPath, buildArtAssets } from '../models/art-asset';
 import { ART_ASSET_MANIFEST } from '../models/art-asset-data';
 import { ArtElement, generateArtId } from '../models/art-element';
+import { PartyIcon } from '../models/party-icon';
+import { PlayerIcon, generatePlayerIconId } from '../models/player-icon';
+import { MapSnapshot } from '../models/map-snapshot';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -58,6 +61,12 @@ export const DEFAULT_ART_LONG_SIDE = BASE_CELL_SIZE * 2;
 export const DEFAULT_ART_FALLBACK_SIZE = BASE_CELL_SIZE * 2;
 export const MIN_ART_SIZE = 8;
 
+/** World-space offset (in each axis) applied when splitting a new player icon off from the party icon's current position, so it doesn't land exactly on top of the party icon. */
+export const PLAYER_ICON_SPLIT_OFFSET = BASE_CELL_SIZE * 0.6;
+/** Default fallback position (world-space) for a party icon placed before any placement has ever occurred, only used as a splitPlayerIcon() fallback if no party icon exists yet. */
+export const DEFAULT_ICON_POSITION = { x: 0, y: 0 };
+
+
 export interface PanOffset {
   x: number;
   y: number;
@@ -97,9 +106,27 @@ export class MapMakerStateService {
   /** The fileName of the asset currently chosen in the sidebar's Art panel for the *next* placement click, or null if none is selected. Stays selected across placements so the user can stamp multiple copies. */
   selectedArtAssetFileName: string | null = null;
 
+  /**
+   * 'design' (the default) enables the drawing tools (square/delete/text/
+   * door/art); 'play' disables all of them (only pan/zoom + party/player
+   * icon placement and dragging remain active). Switching modes does not
+   * clear any drawn/placed content, including party/player icons, so a DM
+   * can freely pause and resume a play session.
+   */
+  mode: 'design' | 'play' = 'design';
+
+  /** The single shared "party" marker shown in Play mode, or null if not yet placed. */
+  partyIcon: PartyIcon | null = null;
+  /** Individual player markers split off from the party icon. */
+  playerIcons: PlayerIcon[] = [];
+  /** When true, the *next* canvas click in Play mode places (or re-places) the party icon there, using `playModeColor`, instead of being interpreted as a drag-start. Set by the sidebar's "Place/Move Party" button; auto-cleared once the placement happens. */
+  armPartyPlacement = false;
+
   /** The user-customizable default color swatches shown in the sidebar, persisted to localStorage. */
   paletteColors: string[] = loadStoredPalette() ?? [...DEFAULT_COLORS];
   activeColor: string = this.paletteColors[0];
+  /** The color currently selected in the Play-mode sidebar panel, used for the next party placement or player split. */
+  playModeColor: string = this.paletteColors[0];
 
   pan: PanOffset = { x: 0, y: 0 };
   zoom = 1;
@@ -110,6 +137,16 @@ export class MapMakerStateService {
    * canvas itself, e.g. the sidebar's zoom slider.
    */
   readonly changed$ = new Subject<void>();
+
+  /**
+   * Emits only when the party icon or a player icon is placed, moved,
+   * recolored, renamed, added, or removed *locally* (not when applied via
+   * `applyRemoteIcons`, to avoid an echo loop). `MapMakerSyncService`
+   * subscribes to this to know when to broadcast a lightweight
+   * icons-only update to the other window, instead of re-sending the whole
+   * map on every drag frame.
+   */
+  readonly iconsChanged$ = new Subject<void>();
 
   /** Returns the fragments currently occupying a cell (empty array if none). */
   getFragments(coord: GridCoordinate): CellFragment[] {
@@ -172,6 +209,12 @@ export class MapMakerStateService {
     }
   }
 
+  /** Switches between Design and Play mode. Never clears any drawn/placed content (including party/player icons), so a DM can freely pause and resume a play session. */
+  setMode(mode: 'design' | 'play'): void {
+    this.mode = mode;
+    this.changed$.next();
+  }
+
   setShapeOption(option: ShapeOption): void {
     this.activeShapeOption = option;
   }
@@ -221,6 +264,12 @@ export class MapMakerStateService {
     this.doors.clear();
     this.artElements = [];
     this.selectedArtId = null;
+    this.texts = [];
+    this.selectedTextId = null;
+    this.mode = 'design';
+    this.partyIcon = null;
+    this.playerIcons = [];
+    this.armPartyPlacement = false;
     this.changed$.next();
   }
 
@@ -508,6 +557,136 @@ export class MapMakerStateService {
   /** Selects (or deselects, when passed null) a placed art element for showing move/scale/rotate handles. */
   setSelectedArt(id: string | null): void {
     this.selectedArtId = id;
+    this.changed$.next();
+  }
+
+  // --- Play mode: party/player icons ----------------------------------------
+
+  /** Places (or re-places) the single party icon at the given world-space position with the given color. */
+  placePartyIcon(x: number, y: number, color: string): void {
+    this.partyIcon = { x, y, color };
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Moves the party icon to a new world-space position (no-op if no party icon exists yet). */
+  movePartyIcon(x: number, y: number): void {
+    if (!this.partyIcon) {
+      return;
+    }
+    this.partyIcon = { ...this.partyIcon, x, y };
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Changes the party icon's color (no-op if no party icon exists yet). */
+  setPartyColor(color: string): void {
+    if (!this.partyIcon) {
+      return;
+    }
+    this.partyIcon = { ...this.partyIcon, color };
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Arms (or disarms) placement of the party icon: the next canvas click in Play mode will place/move it there. Purely local UI state (not synced across the BroadcastChannel — each window arms its own placement independently). */
+  setArmPartyPlacement(armed: boolean): void {
+    this.armPartyPlacement = armed;
+    this.changed$.next();
+  }
+
+  /** Sets the color currently selected in the Play-mode sidebar panel, used for the next party placement or player split. */
+  setPlayModeColor(color: string): void {
+    this.playModeColor = color;
+    this.changed$.next();
+  }
+
+  /**
+   * Spawns a new player icon at a small fixed offset from the party icon's
+   * current position (or a default fallback position if no party icon has
+   * been placed yet), with the given color and optional name.
+   */
+  splitPlayerIcon(color: string, name = ''): PlayerIcon {
+    const basePosition = this.partyIcon ?? DEFAULT_ICON_POSITION;
+    const icon: PlayerIcon = {
+      id: generatePlayerIconId(),
+      x: basePosition.x + PLAYER_ICON_SPLIT_OFFSET,
+      y: basePosition.y + PLAYER_ICON_SPLIT_OFFSET,
+      color,
+      name,
+    };
+    this.playerIcons = [...this.playerIcons, icon];
+    this.changed$.next();
+    this.iconsChanged$.next();
+    return icon;
+  }
+
+  /** Moves a player icon to a new world-space position. */
+  movePlayerIcon(id: string, x: number, y: number): void {
+    this.playerIcons = this.playerIcons.map(p => (p.id === id ? { ...p, x, y } : p));
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Changes a player icon's color. */
+  setPlayerIconColor(id: string, color: string): void {
+    this.playerIcons = this.playerIcons.map(p => (p.id === id ? { ...p, color } : p));
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Renames a player icon. */
+  setPlayerIconName(id: string, name: string): void {
+    this.playerIcons = this.playerIcons.map(p => (p.id === id ? { ...p, name } : p));
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /** Removes a player icon entirely. */
+  removePlayerIcon(id: string): void {
+    this.playerIcons = this.playerIcons.filter(p => p.id !== id);
+    this.changed$.next();
+    this.iconsChanged$.next();
+  }
+
+  /**
+   * Directly overwrites the party/player icon state — used when applying an
+   * incoming update received over `MapMakerSyncService`'s BroadcastChannel.
+   * Deliberately emits only `changed$` (to trigger a re-render) and *not*
+   * `iconsChanged$`, so applying a remote update doesn't get immediately
+   * re-broadcast back onto the channel (which would create an echo loop
+   * between the two windows).
+   */
+  applyRemoteIcons(partyIcon: PartyIcon | null, playerIcons: PlayerIcon[]): void {
+    this.partyIcon = partyIcon;
+    this.playerIcons = playerIcons;
+    this.changed$.next();
+  }
+
+  // --- Play mode: full-map snapshot (design data handshake) ------------------
+
+  /** Builds a plain-object, structurally-cloneable snapshot of all design-time map data, for `MapMakerSyncService` to hand to a freshly-connected player-view window. */
+  getSnapshot(): MapSnapshot {
+    return {
+      cells: Array.from(this.cells.entries()).map(([key, fragments]) => [key, [...fragments]]),
+      doors: Array.from(this.doors.values()).map(door => ({ ...door })),
+      texts: this.texts.map(t => ({ ...t })),
+      artElements: this.artElements.map(a => ({ ...a })),
+    };
+  }
+
+  /** Overwrites all design-time map data (cells/doors/texts/art) from a snapshot received over the sync channel. Does not touch play-mode state (mode/party/player icons). */
+  applySnapshot(snapshot: MapSnapshot): void {
+    this.cells.clear();
+    for (const [key, fragments] of snapshot.cells) {
+      this.cells.set(key, [...fragments]);
+    }
+    this.doors.clear();
+    for (const door of snapshot.doors) {
+      this.doors.set(doorKey(door), { ...door });
+    }
+    this.texts = snapshot.texts.map(t => ({ ...t }));
+    this.artElements = snapshot.artElements.map(a => ({ ...a }));
     this.changed$.next();
   }
 }

@@ -1,4 +1,5 @@
 <aside class="map-maker-sidebar">
+  <ng-container *ngIf="state.mode === 'design'">
   <div class="tool-group" role="group" aria-label="Tools">
     <button
       type="button"
@@ -40,7 +41,6 @@
       (click)="selectTool('art')"
     >🪑<span class="tool-label">Art (A)</span></button>
   </div>
-  <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
     Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
     Drag its bottom-right corner to scale, or its right/bottom edge to resize the box.
@@ -124,6 +124,78 @@
       <li class="art-asset-empty" *ngIf="filteredArtAssets.length === 0">No assets match your search.</li>
     </ul>
   </div>
+  </ng-container>
+
+  <div class="play-group" *ngIf="state.mode === 'play'">
+    <p class="pan-hint">
+      Pick a color, then use "Place/Move Party" to click the map and place (or re-place) the shared party
+      icon. Click and drag the party icon or any player icon directly to move it. "Split Player Icon"
+      spawns a new, independently-movable icon near the party.
+    </p>
+
+    <div class="default-colors">
+      <button
+        *ngFor="let color of state.paletteColors; trackBy: trackByIndex"
+        type="button"
+        class="color-swatch"
+        [class.active]="state.playModeColor === color"
+        [style.backgroundColor]="color"
+        [title]="color"
+        (click)="selectPlayModeColor(color)"
+      ></button>
+    </div>
+    <input
+      type="color"
+      class="custom-color-picker"
+      [value]="state.playModeColor"
+      (input)="selectPlayModeColor($any($event.target).value)"
+      title="Custom color"
+    />
+
+    <button
+      type="button"
+      class="tool-button play-action-button"
+      [class.active]="state.armPartyPlacement"
+      (click)="togglePartyPlacement()"
+    >🎯 {{ state.partyIcon ? 'Place/Move Party' : 'Place Party' }}</button>
+
+    <div class="split-player-row">
+      <input
+        type="text"
+        class="player-name-input"
+        placeholder="Name (optional)"
+        [(ngModel)]="newPlayerName"
+      />
+      <button
+        type="button"
+        class="tool-button play-action-button"
+        [disabled]="!state.partyIcon"
+        (click)="splitPlayerIcon()"
+      >➕ Split Player Icon</button>
+    </div>
+
+    <ul class="player-icon-list">
+      <li *ngFor="let player of state.playerIcons; trackBy: trackByPlayerId" class="player-icon-row">
+        <input
+          type="color"
+          class="player-color-input"
+          [value]="player.color"
+          (input)="setPlayerColor(player.id, $any($event.target).value)"
+        />
+        <input
+          type="text"
+          class="player-name-edit"
+          placeholder="Name"
+          [value]="player.name"
+          (change)="setPlayerName(player.id, $any($event.target).value)"
+        />
+        <button type="button" class="remove-player-button" title="Remove" (click)="removePlayer(player.id)">✕</button>
+      </li>
+      <li class="art-asset-empty" *ngIf="state.playerIcons.length === 0">No player icons yet.</li>
+    </ul>
+  </div>
+
+  <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
 
   <div class="zoom-group">
     <label for="zoom-slider">Zoom</label>

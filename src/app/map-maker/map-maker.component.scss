@@ -2,9 +2,32 @@
   display: block;
 }
 
+.map-maker-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  background: #f1f3f5;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.mode-toggle,
+.reopen-window {
+  padding: 6px 14px;
+  border: 1px solid #adb5bd;
+  border-radius: 4px;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+
+  &:hover {
+    background: #e9ecef;
+  }
+}
+
 .map-maker-layout {
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 140px);
   min-height: 400px;
 }
 

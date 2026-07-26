@@ -30,6 +30,10 @@ infinite, pannable, zoomable canvas.
   users toggle door icons on grid edges between two adjacent, non-empty
   cells, with hover preview and click/drag-to-toggle. Described in detail
   below.
+- **Story 4 — Adding art assets**: implemented. An Art tool (`a` shortcut)
+  lets users browse a filterable list of furniture art assets (first batch
+  imported from the "2minutetabletop" pack), place them on the canvas, then
+  move/scale/rotate the placed instances. Described in detail below.
 
 ## Module structure
 
@@ -47,6 +51,9 @@ src/app/map-maker/
 │   ├── fragment-borders.ts        # computeBorderSegments() — black border/seam logic
 │   ├── text-element.ts            # TextElement, generateTextId() — Story 2 text labels
 │   ├── door.ts                    # Door, DoorOrientation, doorKey(), getAdjacentCells() — Story 3 doors
+│   ├── art-asset.ts               # ArtAsset, buildArtAssets(), artAssetPath() — Story 4 asset browser
+│   ├── art-asset-data.ts          # ART_ASSET_MANIFEST — static list of imported art asset files
+│   ├── art-element.ts             # ArtElement, generateArtId() — Story 4 placed art instances
 │   └── index.ts                   # barrel export
 ├── services/
 │   └── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
@@ -153,17 +160,18 @@ restrict it to cells within (plus one ring around) the visible viewport.
   floor(world / BASE_CELL_SIZE)`, with `(fx, fy)` as the remaining fractional
   part.
 - **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete' | 'text' |
-  'door'` (no `'pan'` tool). Panning is **always available**, independent of
-  the active tool: holding the **right** mouse button and dragging pans the
-  canvas (`event.button === 2`); the canvas suppresses the browser's context
-  menu on right-click (`onContextMenu`) so this doesn't pop up a menu
-  instead. The **left** mouse button always performs the active tool's
-  action. For `square`/`delete`, holding the left button down and dragging
-  paints/deletes every cell the cursor passes over (not just a single
-  click); the component tracks the last acted-on cell (`lastActedCellKey`)
-  so the same cell isn't repeatedly reprocessed while the pointer lingers
-  inside it. For `text`, see the dedicated section below. For `door`, see
-  the dedicated section below.
+  'door' | 'art'` (no `'pan'` tool). Panning is **always available**,
+  independent of the active tool: holding the **right** mouse button and
+  dragging pans the canvas (`event.button === 2`); the canvas suppresses the
+  browser's context menu on right-click (`onContextMenu`) so this doesn't
+  pop up a menu instead. The **left** mouse button always performs the
+  active tool's action. For `square`/`delete`, holding the left button down
+  and dragging paints/deletes every cell the cursor passes over (not just a
+  single click); the component tracks the last acted-on cell
+  (`lastActedCellKey`) so the same cell isn't repeatedly reprocessed while
+  the pointer lingers inside it. For `text`, see the dedicated section
+  below. For `door`, see the dedicated section below. For `art`, see the
+  dedicated section below.
 - **Drawing/deleting**: left-button `mousedown` immediately performs the
   action for the cell under the cursor; every subsequent `mousemove` while
   the left button is held repeats this for whatever new cell the cursor
@@ -356,22 +364,132 @@ restrict it to cells within (plus one ring around) the visible viewport.
   everything else. A door has no "open/closed" state or icon variants in
   this pass — it's simply present or absent.
 
+## Art assets (Story 4)
+
+- **Source assets & manifest**: the first batch of furniture art was
+  imported from the "Furniture Map Assets" pack (253 flat PNG files) into
+  `src/assets/map-maker/art/2minutetabletop/`, one folder per category
+  (today only `2minutetabletop`, the pack's publisher — doubling as an
+  "author" facet for a future filter, per the story). `models/art-asset-data.ts`
+  (`ART_ASSET_MANIFEST`) is a plain, static TypeScript array of
+  `{ fileName, category }` rows — no HTTP fetch is needed since the asset
+  list never changes at runtime, mirroring how `MapDataService`'s map
+  registry is a hard-coded in-memory structure rather than JSON fetched over
+  HTTP. `models/art-asset.ts` builds the browsable `ArtAsset[]` list from
+  that manifest (`buildArtAssets()`): `id`/`fileName` is the file name
+  itself, `name` is the file name with its extension stripped (per the
+  story: "the names of the assets in the dropdown are the same as the
+  filenames"). `artAssetPath(category, fileName)` resolves the on-disk
+  `assets/...` path for a given asset.
+- **Placed element data model** (`models/art-element.ts`): `ArtElement {
+  id, assetFileName, centerX, centerY, width, height, rotation }`, all in
+  **world-space units** (same coordinate space as `BASE_CELL_SIZE`) except
+  `rotation`, which is in radians. Unlike `TextElement` (anchored at its
+  top-left corner), `ArtElement` stores its **center** point — since
+  rotation happens around the center, this avoids re-deriving the center
+  from a corner + size + rotation on every draw/hit-test/rotate.
+- **State** (`MapMakerStateService`): `readonly artAssets: ArtAsset[]` (built
+  once from the manifest), `getArtAssets({ search?, category? })` (filters
+  by case-insensitive name substring and/or exact category — used by the
+  sidebar's search box + category `<select>`), `getArtCategories()` (all
+  distinct categories, for the category filter's options). `artElements:
+  ArtElement[]`, `selectedArtId: string | null` (the placed element
+  currently showing move/scale/rotate handles), `selectedArtAssetFileName:
+  string | null` (which sidebar asset is armed for the *next* placement
+  click — stays selected across placements so the user can stamp multiple
+  copies, and stays selected across tool switches too, unlike
+  `selectedArtId` which `setTool()` clears whenever leaving the `'art'`
+  tool, mirroring how it clears `selectedTextId` when leaving `'text'`).
+  `getArtImage(fileName): HTMLImageElement` lazily creates and caches a
+  single `<img>`-backed `Image()` per asset file name (shared by canvas
+  rendering and by `addArt()`'s aspect-ratio lookup), kicking off its
+  network load on first request and emitting `changed$` on load so the
+  canvas re-renders once pixels (and real dimensions) are available.
+  `setSelectedArtAsset(fileName | null)` also proactively calls
+  `getArtImage()` to warm the cache as soon as the user picks an asset in
+  the sidebar, so its natural aspect ratio is usually already known by the
+  time they click the canvas to place it. `addArt(assetFileName, centerX,
+  centerY)` creates a new element centered on the given point, sized to
+  preserve the source image's aspect ratio (longer side =
+  `DEFAULT_ART_LONG_SIDE`, 2 grid cells) — or a small square fallback if the
+  image hasn't finished loading yet — selects it, and returns it.
+  `setArtTransform(id, partial)` is the lower-level absolute setter the
+  canvas uses during move/scale/rotate drags (same "absolute target from a
+  fixed drag-start snapshot" idiom as `setTextBox`), clamping `width`/
+  `height` to `MIN_ART_SIZE`. `removeArt(id)` deletes and clears selection
+  if it was selected. `setSelectedArt(id | null)` selects/deselects.
+  `clear()` also clears `artElements`/`selectedArtId`.
+- **Interaction** (`MapMakerCanvasComponent`, only meaningful while
+  `activeTool === 'art'`) — all hit-testing and handle math is
+  **rotation-aware**, via two small coordinate-transform helpers:
+  `worldToArtLocal()` (inverse-rotates a world point into the element's
+  local, center-origin, unrotated space — used for hit-testing) and
+  `artLocalToScreen()` (rotates a local point by the element's rotation,
+  then applies pan/zoom — used to compute handle screen positions). This
+  means rotation "just works" for hit-testing/dragging without any
+  special-casing beyond these two functions.
+  - **Select + move**: clicking an *existing* element (`hitTestArt()`,
+    topmost/last-placed wins, using `worldToArtLocal()` for the
+    point-in-rotated-rect test) selects it (`state.setSelectedArt`) and
+    begins a move drag; dragging updates `centerX`/`centerY` live via
+    `setArtTransform`.
+  - **Place**: clicking empty space (no existing element hit) stamps a new
+    instance of `state.selectedArtAssetFileName` (if any is selected in the
+    sidebar) centered on the click point, via `addArt()`. Nothing happens if
+    no asset is currently selected.
+  - **Scale handle** (bottom-right corner, local `(+width/2, +height/2)`):
+    uniformly scales `width`/`height` together, using the **ratio of the
+    cursor's current distance from the center to its distance at drag
+    start** — distance-from-center is rotation-invariant, so this factor
+    naturally preserves both the aspect ratio and the element's current
+    rotation without needing to un-rotate the drag delta.
+  - **Rotate handle** (bottom-left corner, local `(-width/2, +height/2)`):
+    rotates around the center by tracking the **change** in the world-space
+    angle from center to cursor since drag start, and adding that delta to
+    the rotation the element had at drag start (`startCornerAngle`,
+    `startBox.rotation`) — this specifically avoids the element snapping to
+    a new rotation the instant the drag begins (which a naive
+    absolute-angle assignment would cause, since the handle isn't
+    necessarily at angle 0 when idle).
+  - Handle hit-testing (`hitTestArtHandle()`) uses a small pixel-radius
+    tolerance (`ART_HANDLE_HIT_RADIUS_PX`), same idiom as text's handles.
+  - **Delete**: the Delete tool's hit-testing chain now checks art elements
+    first (`hitTestArt()`), then text elements, before falling through to
+    grid-fragment deletion — so clicking on a piece of furniture with the
+    Delete tool removes it rather than whatever fragment happens to be
+    underneath.
+- **Rendering** (`drawArt()`, called after `drawDoors()` and before
+  `drawTexts()` so art sits above the grid/fragments/doors but below text
+  labels): for each element, resolves its (possibly still-loading) `<img>`
+  via `state.getArtImage()`, skips it entirely if not yet loaded
+  (`img.complete && img.naturalWidth > 0` — it'll be drawn automatically
+  once loading finishes and `changed$` re-triggers a render), otherwise
+  `ctx.translate()`s to its screen-space center, `ctx.rotate()`s by its
+  `rotation` (canvas rotation and world rotation share the same sign
+  convention since both use a y-down coordinate system, so no sign flip is
+  needed), and `drawImage()`s it centered in its scaled screen-space
+  width/height. Selection UI (`drawArtSelection()`) — a rotated dashed blue
+  rectangle plus the two square handles described above — is drawn only for
+  `state.selectedArtId` while the Art tool is active.
+
 ## Sidebar (`MapMakerSidebarComponent`)
 
 - Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut),
-  **Text** (`t` shortcut), and **Door** (`o` shortcut), bound to
-  `MapMakerStateService.activeTool`. There is no "Pan" tool button — a hint
-  below the tool buttons reminds the user that holding the right mouse
-  button pans regardless of the selected tool; a second hint (shown only
-  while the Text tool is active) explains the click-to-create /
-  click-to-select-and-drag / double-click-to-edit / handle-drag
-  interactions, and a third hint (shown only while the Door tool is active)
-  explains hover-to-preview / click-or-drag-to-toggle and the "needs two
-  non-empty neighboring squares" requirement. Shortcuts are handled via a
-  `window:keydown` host listener that ignores keystrokes while an
-  `<input>`/`<textarea>`/`<select>` has focus (so typing in the custom color
-  picker, or in the text inline-edit overlay, doesn't accidentally switch
-  tools).
+  **Text** (`t` shortcut), **Door** (`o` shortcut), and **Art** (`a`
+  shortcut), bound to `MapMakerStateService.activeTool`. There is no "Pan"
+  tool button — a hint below the tool buttons reminds the user that holding
+  the right mouse button pans regardless of the selected tool; a second
+  hint (shown only while the Text tool is active) explains the
+  click-to-create / click-to-select-and-drag / double-click-to-edit /
+  handle-drag interactions; a third hint (shown only while the Door tool is
+  active) explains hover-to-preview / click-or-drag-to-toggle and the
+  "needs two non-empty neighboring squares" requirement; a fourth hint
+  (shown only while the Art tool is active) explains pick-then-click-to-
+  place / click-to-select-and-drag / corner-drag-to-scale-or-rotate.
+  Shortcuts are handled via a `window:keydown` host listener that ignores
+  keystrokes while an `<input>`/`<textarea>`/`<select>` has focus (so typing
+  in the custom color picker, the text inline-edit overlay, or the art
+  search box, doesn't accidentally switch tools).
 - Shape-option buttons (full/half/quarter/triangle) are only shown while the
   square tool is active, bound to `activeShapeOption`.
 - Color picker: a grid of swatch buttons bound to
@@ -382,6 +500,17 @@ restrict it to cells within (plus one ring around) the visible viewport.
   that slot (`openPaletteEditor()` / `#paletteInput` via `ViewChildren`),
   letting the user redefine that swatch's color permanently; a "Reset
   palette to defaults" link restores `DEFAULT_COLORS`.
+- Art panel (shown only while the Art tool is active, following the same
+  conditional-section pattern as the shape/color panels): a text search
+  input (`artSearch`, case-insensitive substring match against asset name)
+  and a category `<select>` (`artCategoryFilter`, defaults to "All
+  categories") both feed `MapMakerSidebarComponent.filteredArtAssets`
+  (a getter delegating to `state.getArtAssets({ search, category })`), which
+  drives a scrollable `<ul>` of asset rows — each showing a small lazy-
+  loaded `<img>` thumbnail (`artThumbPath()`) plus the asset's name.
+  Clicking a row calls `selectArtAsset()`, which toggles
+  `state.selectedArtAssetFileName` (clicking the already-selected asset
+  deselects it) — the active asset is highlighted in the list.
 - Zoom slider: an `<input type="range">` bound to `state.zoom`
   (`[MIN_ZOOM, MAX_ZOOM]`), kept in sync with wheel-zooming on the canvas.
 

@@ -392,3 +392,129 @@ describe('MapMakerStateService — doors', () => {
   });
 });
 
+describe('MapMakerStateService — art assets', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    localStorage.removeItem('map-maker.palette-colors');
+    service = new MapMakerStateService();
+  });
+
+  it('loads a non-empty art asset manifest, all under the 2minutetabletop category', () => {
+    expect(service.artAssets.length).toBeGreaterThan(0);
+    expect(service.getArtCategories()).toEqual(['2minutetabletop']);
+    expect(service.artAssets.every(a => a.category === '2minutetabletop')).toBe(true);
+  });
+
+  it('derives each asset name from its file name, stripping the extension', () => {
+    const asset = service.artAssets[0];
+    expect(asset.name).not.toContain('.png');
+    expect(asset.fileName.startsWith(asset.name)).toBe(true);
+  });
+
+  it('getArtAssets filters by case-insensitive name search', () => {
+    const all = service.getArtAssets();
+    const target = all.find(a => a.name.toLowerCase().includes('chair'))!;
+    const filtered = service.getArtAssets({ search: 'CHAIR' });
+    expect(filtered.length).toBeGreaterThan(0);
+    expect(filtered).toContain(target);
+    expect(filtered.every(a => a.name.toLowerCase().includes('chair'))).toBe(true);
+  });
+
+  it('getArtAssets filters by category, returning nothing for an unknown category', () => {
+    expect(service.getArtAssets({ category: '2minutetabletop' }).length).toBe(service.artAssets.length);
+    expect(service.getArtAssets({ category: 'nonexistent-author' }).length).toBe(0);
+  });
+
+  it('getArtImage lazily creates and caches a single <img> element per file name', () => {
+    const fileName = service.artAssets[0].fileName;
+    const first = service.getArtImage(fileName);
+    const second = service.getArtImage(fileName);
+    expect(first).toBe(second);
+    expect(first.src).toContain(encodeURI(fileName));
+  });
+
+  it('setSelectedArtAsset sets the pending-placement asset and can be cleared', () => {
+    const fileName = service.artAssets[0].fileName;
+    service.setSelectedArtAsset(fileName);
+    expect(service.selectedArtAssetFileName).toBe(fileName);
+    service.setSelectedArtAsset(null);
+    expect(service.selectedArtAssetFileName).toBeNull();
+  });
+
+  it('addArt creates an element centered at the given point and selects it', () => {
+    const fileName = service.artAssets[0].fileName;
+    const art = service.addArt(fileName, 100, 200);
+
+    expect(art.assetFileName).toBe(fileName);
+    expect(art.centerX).toBe(100);
+    expect(art.centerY).toBe(200);
+    expect(art.rotation).toBe(0);
+    expect(art.width).toBeGreaterThan(0);
+    expect(art.height).toBeGreaterThan(0);
+    expect(service.artElements).toEqual([art]);
+    expect(service.selectedArtId).toBe(art.id);
+  });
+
+  it('getArt finds a placed element by id', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    expect(service.getArt(art.id)).toEqual(art);
+    expect(service.getArt('does-not-exist')).toBeUndefined();
+  });
+
+  it('setArtTransform overwrites the given fields (move/scale/rotate) and clamps size to a minimum', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+
+    service.setArtTransform(art.id, { centerX: 50, centerY: 60 });
+    expect(service.getArt(art.id)).toEqual(jasmine.objectContaining({ centerX: 50, centerY: 60 }));
+
+    service.setArtTransform(art.id, { width: 200, height: 100 });
+    expect(service.getArt(art.id)).toEqual(jasmine.objectContaining({ width: 200, height: 100 }));
+
+    service.setArtTransform(art.id, { rotation: Math.PI / 2 });
+    expect(service.getArt(art.id)?.rotation).toBeCloseTo(Math.PI / 2);
+
+    service.setArtTransform(art.id, { width: -50, height: -50 });
+    const clamped = service.getArt(art.id)!;
+    expect(clamped.width).toBeGreaterThan(0);
+    expect(clamped.height).toBeGreaterThan(0);
+  });
+
+  it('removeArt deletes the element and clears selection if it was selected', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    expect(service.selectedArtId).toBe(art.id);
+
+    service.removeArt(art.id);
+
+    expect(service.getArt(art.id)).toBeUndefined();
+    expect(service.artElements.length).toBe(0);
+    expect(service.selectedArtId).toBeNull();
+  });
+
+  it('setSelectedArt selects/deselects a placed element', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    service.setSelectedArt(null);
+    expect(service.selectedArtId).toBeNull();
+    service.setSelectedArt(art.id);
+    expect(service.selectedArtId).toBe(art.id);
+  });
+
+  it('setTool clears selectedArtId when leaving the art tool, but keeps the pending sidebar asset selection', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    service.setSelectedArtAsset(service.artAssets[0].fileName);
+    service.setTool('art');
+
+    service.setTool('square');
+
+    expect(service.selectedArtId).toBeNull();
+    expect(service.selectedArtAssetFileName).toBe(service.artAssets[0].fileName);
+  });
+
+  it('clear() removes all art elements along with fragments and doors', () => {
+    service.addArt(service.artAssets[0].fileName, 0, 0);
+    service.clear();
+    expect(service.artElements.length).toBe(0);
+    expect(service.selectedArtId).toBeNull();
+  });
+});
+

@@ -31,6 +31,14 @@
       title="Door tool (O)"
       (click)="selectTool('door')"
     >🚪<span class="tool-label">Door (O)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'art'"
+      title="Art tool (A)"
+      (click)="selectTool('art')"
+    >🪑<span class="tool-label">Art (A)</span></button>
   </div>
   <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
@@ -40,6 +48,11 @@
   <p class="pan-hint" *ngIf="state.activeTool === 'door'">
     Hover a wall edge between two drawn squares to preview a door there. Click (or drag across several
     edges) to toggle doors on and off. Edges next to an empty square can't have a door.
+  </p>
+  <p class="pan-hint" *ngIf="state.activeTool === 'art'">
+    Pick an asset below, then click the map to place it (it stays selected so you can stamp more copies).
+    Click an existing piece to select and drag it; drag its bottom-right corner to scale, or its
+    bottom-left corner to rotate.
   </p>
 
   <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">
@@ -82,6 +95,34 @@
       (input)="selectColor($any($event.target).value)"
       title="Custom color"
     />
+  </div>
+
+  <div class="art-group" *ngIf="state.activeTool === 'art'">
+    <input
+      type="text"
+      class="art-search"
+      placeholder="Search assets by name…"
+      [(ngModel)]="artSearch"
+    />
+    <select class="art-category-filter" [(ngModel)]="artCategoryFilter">
+      <option value="">All categories</option>
+      <option *ngFor="let category of artCategories" [value]="category">{{ category }}</option>
+    </select>
+    <ul class="art-asset-list">
+      <li *ngFor="let asset of filteredArtAssets; trackBy: trackByAssetId">
+        <button
+          type="button"
+          class="art-asset-button"
+          [class.active]="state.selectedArtAssetFileName === asset.fileName"
+          [title]="asset.name"
+          (click)="selectArtAsset(asset)"
+        >
+          <img [src]="artThumbPath(asset)" [alt]="asset.name" loading="lazy" />
+          <span class="art-asset-name">{{ asset.name }}</span>
+        </button>
+      </li>
+      <li class="art-asset-empty" *ngIf="filteredArtAssets.length === 0">No assets match your search.</li>
+    </ul>
   </div>
 
   <div class="zoom-group">

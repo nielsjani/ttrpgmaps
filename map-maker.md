@@ -100,3 +100,9 @@ The screen will show the size in width and height of the square being drawn whil
 User can undo/redo the last actions.
 Undo/redo is implemented in the dungeon-master view.
 Can be toggled by using the buttons in the sidebar (left and right arrow) or by pressing left or right arrow keys.
+
+# 11. Additional art assets
+(Tom Cartos)
+
+# 12. Copying placed art assets
+Keeps the size, rotation and position of the art asset when copied, but places it two squares to the right of the original.

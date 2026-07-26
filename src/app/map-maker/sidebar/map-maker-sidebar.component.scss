@@ -118,6 +118,78 @@
   cursor: pointer;
 }
 
+.art-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.art-search,
+.art-category-filter {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.art-asset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.art-asset-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 8px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+
+  img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  &.active {
+    background: #d6e4ff;
+  }
+
+  &:hover {
+    background: #eef3ff;
+  }
+}
+
+.art-asset-name {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.art-asset-empty {
+  padding: 12px 8px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
 .zoom-group {
   display: flex;
   flex-direction: column;

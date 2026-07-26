@@ -13,6 +13,7 @@ import { computeBorderSegments } from '../models/fragment-borders';
 import { GridCoordinate, gridKey, parseGridKey } from '../models/grid';
 import { TextElement } from '../models/text-element';
 import { DoorOrientation, doorKey } from '../models/door';
+import { ArtElement } from '../models/art-element';
 
 const GRID_LINE_COLOR = '#dddddd';
 const BORDER_COLOR = '#000000';
@@ -32,8 +33,12 @@ const DOOR_THICKNESS_FACTOR = 0.28;
 const DOOR_HOVER_COLOR = 'rgba(74, 125, 252, 0.45)';
 /** How close (in cell units) the cursor must be to a grid edge for it to be considered "hovered"/toggleable. */
 const DOOR_EDGE_SNAP_THRESHOLD = 0.3;
+const ART_SELECTION_COLOR = '#4a7dfc';
+const ART_HANDLE_SIZE_PX = 8;
+const ART_HANDLE_HIT_RADIUS_PX = 8;
 
 type TextHandleKind = 'scale' | 'width' | 'height';
+type ArtHandleKind = 'scale' | 'rotate';
 
 interface EdgeCandidate {
   orientation: DoorOrientation;
@@ -47,6 +52,17 @@ interface TextDragState {
   id: string;
   startWorld: { x: number; y: number };
   startBox: { x: number; y: number; width: number; height: number; fontSize: number };
+}
+
+/** Snapshot of an art element move/scale/rotate drag, captured at drag start. Scale uses a distance-from-center ratio (rotation-invariant); rotate uses an angle-from-center delta (so there's no jump at drag start). */
+interface ArtDragState {
+  kind: 'move' | ArtHandleKind;
+  id: string;
+  startWorld: { x: number; y: number };
+  startBox: { centerX: number; centerY: number; width: number; height: number; rotation: number };
+  /** For 'scale': distance from center to the bottom-right corner at drag start. For 'rotate': world-space angle from center to the bottom-left corner at drag start. */
+  startCornerDistance: number;
+  startCornerAngle: number;
 }
 
 /**
@@ -84,6 +100,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
 
   /** Active text move/resize/scale drag, if any (text tool only). */
   private textDrag: TextDragState | null = null;
+
+  /** Active art element move/scale/rotate drag, if any (art tool only). */
+  private artDrag: ArtDragState | null = null;
 
   /** The id of the text element currently being inline-edited, if any (its canvas rendering is suppressed while the <textarea> overlay covers it). */
   editingTextId: string | null = null;
@@ -179,6 +198,8 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       } else if (this.state.activeTool === 'door') {
         this.lastToggledEdgeKey = null;
         this.toggleDoorAtPos(pos);
+      } else if (this.state.activeTool === 'art') {
+        this.handleArtMouseDown(pos);
       } else {
         this.lastActedCellKey = null;
         this.performToolActionAt(pos);
@@ -201,12 +222,14 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.state.setPan({ x: this.panStart.x + dx, y: this.panStart.y + dy });
     } else if (this.textDrag) {
       this.updateTextDrag(pos);
+    } else if (this.artDrag) {
+      this.updateArtDrag(pos);
     } else if (this.state.activeTool === 'door') {
       this.updateHoveredEdge(pos);
       if (this.isPointerDown) {
         this.toggleDoorAtPos(pos);
       }
-    } else if (this.isPointerDown && this.state.activeTool !== 'text') {
+    } else if (this.isPointerDown && this.state.activeTool !== 'text' && this.state.activeTool !== 'art') {
       this.performToolActionAt(pos);
     }
   }
@@ -218,6 +241,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.isPointerDown = false;
       this.lastActedCellKey = null;
       this.textDrag = null;
+      this.artDrag = null;
       this.lastToggledEdgeKey = null;
     }
   }
@@ -227,6 +251,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.isPanning = false;
     this.lastActedCellKey = null;
     this.textDrag = null;
+    this.artDrag = null;
     this.lastToggledEdgeKey = null;
     if (this.hoveredEdge) {
       this.hoveredEdge = null;
@@ -253,10 +278,15 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     event.preventDefault();
   }
 
-  /** Draws/deletes at the cell under the given screen position, skipping cells already acted on during this drag. Also lets the Delete tool remove a text element under the cursor, taking priority over grid-fragment deletion. */
+  /** Draws/deletes at the cell under the given screen position, skipping cells already acted on during this drag. Also lets the Delete tool remove an art element or text element under the cursor, taking priority over grid-fragment deletion. */
   private performToolActionAt(pos: { x: number; y: number }): void {
     if (this.state.activeTool === 'delete') {
       const world = this.screenToWorld(pos.x, pos.y);
+      const hitArt = this.hitTestArt(world.x, world.y);
+      if (hitArt) {
+        this.state.removeArt(hitArt.id);
+        return;
+      }
       const hitText = this.hitTestText(world.x, world.y);
       if (hitText) {
         this.state.removeText(hitText.id);
@@ -334,6 +364,131 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
     this.lastToggledEdgeKey = key;
     this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
+  }
+
+  // --- Art tool interaction ---------------------------------------------------
+
+  /** Finds the topmost (last-placed) art element whose (possibly rotated) box contains the given world-space point, if any. */
+  private hitTestArt(worldX: number, worldY: number): ArtElement | undefined {
+    const elements = this.state.artElements;
+    for (let i = elements.length - 1; i >= 0; i--) {
+      const art = elements[i];
+      const local = this.worldToArtLocal(art, worldX, worldY);
+      if (Math.abs(local.x) <= art.width / 2 && Math.abs(local.y) <= art.height / 2) {
+        return art;
+      }
+    }
+    return undefined;
+  }
+
+  /** Converts a world-space point into an art element's local, unrotated coordinate space (origin at its center), by inverse-rotating the point around the center. Used for both hit-testing and computing handle-drag deltas so rotation "just works" without special-casing. */
+  private worldToArtLocal(art: ArtElement, worldX: number, worldY: number): { x: number; y: number } {
+    const dx = worldX - art.centerX;
+    const dy = worldY - art.centerY;
+    const cos = Math.cos(art.rotation);
+    const sin = Math.sin(art.rotation);
+    // Inverse rotation: rotate the point by -rotation.
+    return { x: dx * cos + dy * sin, y: -dx * sin + dy * cos };
+  }
+
+  /** Screen-space positions of an art element's scale (bottom-right corner) and rotate (bottom-left corner) handles, accounting for its current rotation. */
+  private getArtHandlePositions(art: ArtElement): Record<ArtHandleKind, { x: number; y: number }> {
+    return {
+      scale: this.artLocalToScreen(art, art.width / 2, art.height / 2),
+      rotate: this.artLocalToScreen(art, -art.width / 2, art.height / 2),
+    };
+  }
+
+  /** Converts a point in an art element's local (unrotated, center-origin) space to screen coordinates, applying its rotation then the current pan/zoom. */
+  private artLocalToScreen(art: ArtElement, localX: number, localY: number): { x: number; y: number } {
+    const cos = Math.cos(art.rotation);
+    const sin = Math.sin(art.rotation);
+    const worldX = art.centerX + localX * cos - localY * sin;
+    const worldY = art.centerY + localX * sin + localY * cos;
+    const { pan, zoom } = this.state;
+    return { x: worldX * zoom + pan.x, y: worldY * zoom + pan.y };
+  }
+
+  private hitTestArtHandle(art: ArtElement, screenPos: { x: number; y: number }): ArtHandleKind | null {
+    const handles = this.getArtHandlePositions(art);
+    for (const kind of Object.keys(handles) as ArtHandleKind[]) {
+      const hp = handles[kind];
+      if (Math.hypot(screenPos.x - hp.x, screenPos.y - hp.y) <= ART_HANDLE_HIT_RADIUS_PX) {
+        return kind;
+      }
+    }
+    return null;
+  }
+
+  private handleArtMouseDown(pos: { x: number; y: number }): void {
+    const selected = this.state.selectedArtId ? this.state.getArt(this.state.selectedArtId) : undefined;
+    if (selected) {
+      const handle = this.hitTestArtHandle(selected, pos);
+      if (handle) {
+        this.beginArtDrag(handle, selected, pos);
+        return;
+      }
+    }
+
+    const world = this.screenToWorld(pos.x, pos.y);
+    const hit = this.hitTestArt(world.x, world.y);
+    if (hit) {
+      this.state.setSelectedArt(hit.id);
+      this.beginArtDrag('move', hit, pos);
+      return;
+    }
+
+    // Empty space, nothing hit: stamp a new instance of the currently
+    // selected sidebar asset (if any) centered on the click point.
+    if (this.state.selectedArtAssetFileName) {
+      this.state.addArt(this.state.selectedArtAssetFileName, world.x, world.y);
+    }
+  }
+
+  private beginArtDrag(kind: 'move' | ArtHandleKind, art: ArtElement, pos: { x: number; y: number }): void {
+    const startWorld = this.screenToWorld(pos.x, pos.y);
+    const startBox = { centerX: art.centerX, centerY: art.centerY, width: art.width, height: art.height, rotation: art.rotation };
+    const dxToCorner = startWorld.x - art.centerX;
+    const dyToCorner = startWorld.y - art.centerY;
+    this.artDrag = {
+      kind,
+      id: art.id,
+      startWorld,
+      startBox,
+      startCornerDistance: Math.hypot(art.width / 2, art.height / 2),
+      startCornerAngle: Math.atan2(dyToCorner, dxToCorner),
+    };
+  }
+
+  private updateArtDrag(pos: { x: number; y: number }): void {
+    if (!this.artDrag) {
+      return;
+    }
+    const { kind, id, startWorld, startBox, startCornerDistance, startCornerAngle } = this.artDrag;
+    const world = this.screenToWorld(pos.x, pos.y);
+
+    if (kind === 'move') {
+      const dx = world.x - startWorld.x;
+      const dy = world.y - startWorld.y;
+      this.state.setArtTransform(id, { centerX: startBox.centerX + dx, centerY: startBox.centerY + dy });
+    } else if (kind === 'scale') {
+      // Distance from center to cursor is rotation-invariant, so scaling by
+      // the ratio of current-to-start distance preserves both the aspect
+      // ratio and the element's current rotation.
+      const newDistance = Math.hypot(world.x - startBox.centerX, world.y - startBox.centerY);
+      const factor = Math.max(0.05, newDistance / (startCornerDistance || 1));
+      this.state.setArtTransform(id, {
+        width: startBox.width * factor,
+        height: startBox.height * factor,
+      });
+    } else if (kind === 'rotate') {
+      // Track the change in angle (center -> cursor) since drag start and
+      // apply that same delta to the starting rotation, so the element
+      // doesn't jump/snap the instant the drag begins.
+      const currentAngle = Math.atan2(world.y - startBox.centerY, world.x - startBox.centerX);
+      const rotation = startBox.rotation + (currentAngle - startCornerAngle);
+      this.state.setArtTransform(id, { rotation });
+    }
   }
 
   // --- Text tool interaction ---------------------------------------------------
@@ -525,6 +680,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawFragments(width, height);
     this.drawBorders(width, height);
     this.drawDoors(width, height);
+    this.drawArt(width, height);
     this.drawTexts(width, height);
   }
 
@@ -667,6 +823,59 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.ctx.lineTo((col + 1) * size + pan.x, y);
     }
     this.ctx.stroke();
+  }
+
+  /** Draws every placed art element as a rotated image (rotation applied around its own center), skipping any whose image hasn't finished loading yet (it'll be drawn once `getArtImage`'s onload handler fires `changed$` and triggers a re-render). Also draws selection handles for the selected element while the Art tool is active. */
+  private drawArt(_width: number, _height: number): void {
+    const { pan, zoom } = this.state;
+    for (const art of this.state.artElements) {
+      const img = this.state.getArtImage(art.assetFileName);
+      if (!img.complete || img.naturalWidth === 0) {
+        continue;
+      }
+      const screenCenterX = art.centerX * zoom + pan.x;
+      const screenCenterY = art.centerY * zoom + pan.y;
+      const screenWidth = art.width * zoom;
+      const screenHeight = art.height * zoom;
+      this.ctx.save();
+      this.ctx.translate(screenCenterX, screenCenterY);
+      this.ctx.rotate(art.rotation);
+      this.ctx.drawImage(img, -screenWidth / 2, -screenHeight / 2, screenWidth, screenHeight);
+      this.ctx.restore();
+    }
+
+    if (this.state.activeTool === 'art' && this.state.selectedArtId) {
+      const selected = this.state.getArt(this.state.selectedArtId);
+      if (selected) {
+        this.drawArtSelection(selected);
+      }
+    }
+  }
+
+  /** Draws a dashed selection outline (rotated with the element) plus the scale/rotate corner handles. */
+  private drawArtSelection(art: ArtElement): void {
+    const { pan, zoom } = this.state;
+    const screenCenterX = art.centerX * zoom + pan.x;
+    const screenCenterY = art.centerY * zoom + pan.y;
+    const screenWidth = art.width * zoom;
+    const screenHeight = art.height * zoom;
+
+    this.ctx.save();
+    this.ctx.translate(screenCenterX, screenCenterY);
+    this.ctx.rotate(art.rotation);
+    this.ctx.strokeStyle = ART_SELECTION_COLOR;
+    this.ctx.lineWidth = 1.5;
+    this.ctx.setLineDash([6, 4]);
+    this.ctx.strokeRect(-screenWidth / 2, -screenHeight / 2, screenWidth, screenHeight);
+    this.ctx.setLineDash([]);
+    this.ctx.restore();
+
+    const handles = this.getArtHandlePositions(art);
+    this.ctx.fillStyle = ART_SELECTION_COLOR;
+    for (const kind of Object.keys(handles) as ArtHandleKind[]) {
+      const hp = handles[kind];
+      this.ctx.fillRect(hp.x - ART_HANDLE_SIZE_PX / 2, hp.y - ART_HANDLE_SIZE_PX / 2, ART_HANDLE_SIZE_PX, ART_HANDLE_SIZE_PX);
+    }
   }
 
   /** Draws every text element: a thin black border around its box, plus its word-wrapped content (fixed black color), skipping whichever one is currently being inline-edited (the <textarea> overlay covers it instead). Also draws selection handles for the selected text while the Text tool is active. */

@@ -5,3 +5,5 @@ export * from './pick-shape';
 export * from './fragment-borders';
 export * from './text-element';
 export * from './door';
+export * from './art-asset';
+export * from './art-element';

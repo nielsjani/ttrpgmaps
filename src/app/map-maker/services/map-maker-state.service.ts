@@ -6,6 +6,9 @@ import { MapMakerTool, ShapeOption, pickFragmentShape } from '../models/pick-sha
 import { FragmentShape, shapeContainsPoint, shapesOverlap } from '../models/fragment-shape';
 import { TextElement, generateTextId } from '../models/text-element';
 import { Door, DoorOrientation, doorKey, getAdjacentCells } from '../models/door';
+import { ArtAsset, artAssetPath, buildArtAssets } from '../models/art-asset';
+import { ART_ASSET_MANIFEST } from '../models/art-asset-data';
+import { ArtElement, generateArtId } from '../models/art-element';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -49,6 +52,12 @@ export const MIN_TEXT_FONT_SIZE = 6;
 export const MAX_TEXT_FONT_SIZE = 200;
 export const MIN_TEXT_SIZE = 10;
 
+/** Default size (world-space units) for a newly-placed art element's longer side; the other side is scaled to preserve the source image's aspect ratio. */
+export const DEFAULT_ART_LONG_SIDE = BASE_CELL_SIZE * 2;
+/** Fallback square size (world-space units) used only if an art element is placed before its image has finished loading (so its natural aspect ratio isn't known yet). */
+export const DEFAULT_ART_FALLBACK_SIZE = BASE_CELL_SIZE * 2;
+export const MIN_ART_SIZE = 8;
+
 export interface PanOffset {
   x: number;
   y: number;
@@ -74,6 +83,19 @@ export class MapMakerStateService {
   texts: TextElement[] = [];
   /** The id of the currently-selected text element (shows move/resize/scale handles), or null. */
   selectedTextId: string | null = null;
+
+  /** The full browsable list of art assets (built once from the static manifest). */
+  readonly artAssets: ArtAsset[] = buildArtAssets(ART_ASSET_MANIFEST);
+  private readonly artAssetsById = new Map<string, ArtAsset>(this.artAssets.map(a => [a.id, a]));
+  /** Lazily-loaded/cached <img> elements for each art asset, keyed by fileName, shared by the sidebar preview and the canvas renderer. */
+  private readonly artImageCache = new Map<string, HTMLImageElement>();
+
+  /** All placed art elements (world-space units, see ArtElement). */
+  artElements: ArtElement[] = [];
+  /** The id of the currently-selected placed art element (shows move/scale/rotate handles), or null. */
+  selectedArtId: string | null = null;
+  /** The fileName of the asset currently chosen in the sidebar's Art panel for the *next* placement click, or null if none is selected. Stays selected across placements so the user can stamp multiple copies. */
+  selectedArtAssetFileName: string | null = null;
 
   /** The user-customizable default color swatches shown in the sidebar, persisted to localStorage. */
   paletteColors: string[] = loadStoredPalette() ?? [...DEFAULT_COLORS];
@@ -145,6 +167,9 @@ export class MapMakerStateService {
     if (tool !== 'text') {
       this.selectedTextId = null;
     }
+    if (tool !== 'art') {
+      this.selectedArtId = null;
+    }
   }
 
   setShapeOption(option: ShapeOption): void {
@@ -194,6 +219,8 @@ export class MapMakerStateService {
   clear(): void {
     this.cells.clear();
     this.doors.clear();
+    this.artElements = [];
+    this.selectedArtId = null;
     this.changed$.next();
   }
 
@@ -355,6 +382,132 @@ export class MapMakerStateService {
   /** Selects (or deselects, when passed null) a text element for showing move/resize/scale handles. */
   setSelectedText(id: string | null): void {
     this.selectedTextId = id;
+    this.changed$.next();
+  }
+
+  // --- Art assets -----------------------------------------------------------
+
+  /** Returns the browsable list of art assets, optionally filtered by a case-insensitive name substring and/or an exact category. */
+  getArtAssets(filter?: { search?: string; category?: string }): ArtAsset[] {
+    const search = filter?.search?.trim().toLowerCase();
+    const category = filter?.category;
+    return this.artAssets.filter(asset => {
+      if (category && asset.category !== category) {
+        return false;
+      }
+      if (search && !asset.name.toLowerCase().includes(search)) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  /** All distinct categories present in the art asset manifest (used to populate the sidebar's category filter). */
+  getArtCategories(): string[] {
+    return Array.from(new Set(this.artAssets.map(a => a.category)));
+  }
+
+  /**
+   * Returns the (lazily created, cached, and shared) `<img>` element for the
+   * given art asset file name, kicking off its network load the first time
+   * it's requested. Once loaded, `changed$` is emitted so the canvas
+   * re-renders (needed both to actually draw the image and, for a
+   * just-placed element, to pick up the image's real aspect ratio).
+   */
+  getArtImage(fileName: string): HTMLImageElement {
+    let img = this.artImageCache.get(fileName);
+    if (!img) {
+      const asset = this.artAssetsById.get(fileName);
+      img = new Image();
+      img.src = artAssetPath(asset?.category ?? '2minutetabletop', fileName);
+      img.onload = () => this.changed$.next();
+      this.artImageCache.set(fileName, img);
+    }
+    return img;
+  }
+
+  /** Selects (or deselects, when passed null) which art asset the next canvas click will stamp. Stays selected across multiple placements. */
+  setSelectedArtAsset(fileName: string | null): void {
+    this.selectedArtAssetFileName = fileName;
+    if (fileName) {
+      // Warm the image cache so the aspect ratio is likely already known by
+      // the time the user clicks the canvas to place it.
+      this.getArtImage(fileName);
+    }
+  }
+
+  /** Returns the ArtElement with the given id, if any. */
+  getArt(id: string): ArtElement | undefined {
+    return this.artElements.find(a => a.id === id);
+  }
+
+  /**
+   * Places a new instance of the given asset centered at the given
+   * world-space point, sized to preserve the source image's aspect ratio
+   * (its longer side set to DEFAULT_ART_LONG_SIDE), selects it, and returns
+   * it. Falls back to a small square if the image hasn't loaded yet.
+   */
+  addArt(assetFileName: string, centerX: number, centerY: number): ArtElement {
+    const img = this.getArtImage(assetFileName);
+    let width = DEFAULT_ART_FALLBACK_SIZE;
+    let height = DEFAULT_ART_FALLBACK_SIZE;
+    if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+      const aspect = img.naturalWidth / img.naturalHeight;
+      if (aspect >= 1) {
+        width = DEFAULT_ART_LONG_SIDE;
+        height = DEFAULT_ART_LONG_SIDE / aspect;
+      } else {
+        height = DEFAULT_ART_LONG_SIDE;
+        width = DEFAULT_ART_LONG_SIDE * aspect;
+      }
+    }
+    const art: ArtElement = {
+      id: generateArtId(),
+      assetFileName,
+      centerX,
+      centerY,
+      width,
+      height,
+      rotation: 0,
+    };
+    this.artElements = [...this.artElements, art];
+    this.selectedArtId = art.id;
+    this.changed$.next();
+    return art;
+  }
+
+  /**
+   * Directly overwrites the given absolute geometry fields of an art
+   * element (center position/size/rotation), clamped to a sane minimum
+   * size. Used by the canvas during move/scale/rotate drags, where each
+   * mousemove computes the intended absolute values from a fixed
+   * drag-start snapshot (same idiom as `setTextBox`).
+   */
+  setArtTransform(id: string, transform: Partial<Pick<ArtElement, 'centerX' | 'centerY' | 'width' | 'height' | 'rotation'>>): void {
+    this.artElements = this.artElements.map(a => {
+      if (a.id !== id) {
+        return a;
+      }
+      const next = { ...a, ...transform };
+      next.width = Math.max(MIN_ART_SIZE, next.width);
+      next.height = Math.max(MIN_ART_SIZE, next.height);
+      return next;
+    });
+    this.changed$.next();
+  }
+
+  /** Removes an art element entirely, deselecting it if it was selected. */
+  removeArt(id: string): void {
+    this.artElements = this.artElements.filter(a => a.id !== id);
+    if (this.selectedArtId === id) {
+      this.selectedArtId = null;
+    }
+    this.changed$.next();
+  }
+
+  /** Selects (or deselects, when passed null) a placed art element for showing move/scale/rotate handles. */
+  setSelectedArt(id: string | null): void {
+    this.selectedArtId = id;
     this.changed$.next();
   }
 }

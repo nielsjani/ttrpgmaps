@@ -1,6 +1,7 @@
 import { Component, ElementRef, HostListener, QueryList, ViewChildren } from '@angular/core';
 import { MapMakerStateService, MIN_ZOOM, MAX_ZOOM } from '../services/map-maker-state.service';
 import { MapMakerTool, ShapeOption } from '../models/pick-shape';
+import { ArtAsset, artAssetPath } from '../models/art-asset';
 
 interface ShapeOptionDef {
   value: ShapeOption;
@@ -9,12 +10,13 @@ interface ShapeOptionDef {
 }
 
 /**
- * Sidebar for the dungeon builder: tool selection (square/delete/text/door,
- * with 's'/'d'/'t'/'o' keyboard shortcuts), shape sub-option picker, color
- * picker (customizable default swatches, persisted to localStorage, + a
- * custom picker), and a zoom slider — all bound to MapMakerStateService.
- * Panning is not a selectable tool here; it's always available via the
- * right mouse button on the canvas.
+ * Sidebar for the dungeon builder: tool selection (square/delete/text/door/
+ * art, with 's'/'d'/'t'/'o'/'a' keyboard shortcuts), shape sub-option
+ * picker, color picker (customizable default swatches, persisted to
+ * localStorage, + a custom picker), a filterable art asset browser, and a
+ * zoom slider — all bound to MapMakerStateService. Panning is not a
+ * selectable tool here; it's always available via the right mouse button
+ * on the canvas.
  */
 @Component({
   selector: 'app-map-maker-sidebar',
@@ -34,7 +36,15 @@ export class MapMakerSidebarComponent {
     { value: 'triangle', label: 'Diagonal half (triangle)', icon: '◺' },
   ];
 
-  constructor(public state: MapMakerStateService) {}
+  /** Distinct categories in the art manifest, for the category filter <select> (currently just "2minutetabletop"). */
+  readonly artCategories: string[];
+
+  artSearch = '';
+  artCategoryFilter = '';
+
+  constructor(public state: MapMakerStateService) {
+    this.artCategories = this.state.getArtCategories();
+  }
 
   @HostListener('window:keydown', ['$event'])
   onKeyDown(event: KeyboardEvent): void {
@@ -51,6 +61,8 @@ export class MapMakerSidebarComponent {
       this.selectTool('text');
     } else if (event.key === 'o' || event.key === 'O') {
       this.selectTool('door');
+    } else if (event.key === 'a' || event.key === 'A') {
+      this.selectTool('art');
     }
   }
 
@@ -91,6 +103,26 @@ export class MapMakerSidebarComponent {
 
   selectZoom(value: string): void {
     this.state.setZoom(Number(value));
+  }
+
+  /** The art assets matching the current search text + category filter, for the Art tool's asset list. */
+  get filteredArtAssets(): ArtAsset[] {
+    return this.state.getArtAssets({ search: this.artSearch, category: this.artCategoryFilter || undefined });
+  }
+
+  /** Selects (or deselects, if already selected) an asset for the next canvas click to stamp. */
+  selectArtAsset(asset: ArtAsset): void {
+    const next = this.state.selectedArtAssetFileName === asset.fileName ? null : asset.fileName;
+    this.state.setSelectedArtAsset(next);
+  }
+
+  /** The thumbnail image path for an art asset, shown in the sidebar list. */
+  artThumbPath(asset: ArtAsset): string {
+    return artAssetPath(asset.category, asset.fileName);
+  }
+
+  trackByAssetId(_index: number, asset: ArtAsset): string {
+    return asset.id;
   }
 }
 

@@ -286,3 +286,109 @@ describe('MapMakerStateService — text elements', () => {
     expect(service.getText(b.id)?.text).toBe('B');
   });
 });
+
+describe('MapMakerStateService — doors', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    localStorage.removeItem('map-maker.palette-colors');
+    service = new MapMakerStateService();
+  });
+
+  function drawSquare(col: number, row: number): void {
+    service.setShapeOption('square');
+    service.placeFragment({ col, row }, 0.5, 0.5);
+  }
+
+  it('canPlaceDoorAt is false when either neighboring cell is empty', () => {
+    expect(service.canPlaceDoorAt('vertical', 1, 0)).toBe(false);
+    drawSquare(0, 0);
+    expect(service.canPlaceDoorAt('vertical', 1, 0)).toBe(false); // (1,0) still empty
+  });
+
+  it('canPlaceDoorAt is true when both neighboring cells are non-empty', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    expect(service.canPlaceDoorAt('vertical', 1, 0)).toBe(true);
+  });
+
+  it('toggleDoorAt adds a door when valid and none exists yet', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(false);
+
+    service.toggleDoorAt('vertical', 1, 0);
+
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(true);
+    expect(service.getAllDoors().size).toBe(1);
+  });
+
+  it('toggleDoorAt removes an existing door', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+
+    service.toggleDoorAt('vertical', 1, 0);
+
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(false);
+    expect(service.getAllDoors().size).toBe(0);
+  });
+
+  it('toggleDoorAt is a no-op when the edge is not adjacent to two non-empty cells', () => {
+    drawSquare(0, 0); // (1,0) is empty, so this vertical edge is invalid
+
+    service.toggleDoorAt('vertical', 1, 0);
+
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(false);
+    expect(service.getAllDoors().size).toBe(0);
+  });
+
+  it('works for horizontal edges too', () => {
+    drawSquare(0, 0);
+    drawSquare(0, 1);
+
+    expect(service.canPlaceDoorAt('horizontal', 0, 1)).toBe(true);
+    service.toggleDoorAt('horizontal', 0, 1);
+    expect(service.hasDoorAt('horizontal', 0, 1)).toBe(true);
+  });
+
+  it('automatically removes doors touching a cell that becomes empty', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(true);
+
+    // Remove the only fragment in cell (1, 0), emptying it entirely.
+    service.removeFragmentAt({ col: 1, row: 0 }, 0.5, 0.5);
+
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(false);
+    expect(service.getAllDoors().size).toBe(0);
+  });
+
+  it('leaves unrelated doors intact when a different cell becomes empty', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    drawSquare(2, 0);
+    service.toggleDoorAt('vertical', 1, 0); // between (0,0) and (1,0)
+    service.toggleDoorAt('vertical', 2, 0); // between (1,0) and (2,0)
+
+    // Emptying (2,0) should only remove the door between (1,0) and (2,0).
+    service.removeFragmentAt({ col: 2, row: 0 }, 0.5, 0.5);
+
+    expect(service.hasDoorAt('vertical', 1, 0)).toBe(true);
+    expect(service.hasDoorAt('vertical', 2, 0)).toBe(false);
+    expect(service.getAllDoors().size).toBe(1);
+  });
+
+  it('clear() removes all doors along with all fragments', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+
+    service.clear();
+
+    expect(service.getAllDoors().size).toBe(0);
+    expect(service.getAllCells().size).toBe(0);
+  });
+});
+

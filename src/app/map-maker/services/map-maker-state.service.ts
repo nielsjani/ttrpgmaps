@@ -5,6 +5,7 @@ import { GridCoordinate, gridKey } from '../models/grid';
 import { MapMakerTool, ShapeOption, pickFragmentShape } from '../models/pick-shape';
 import { FragmentShape, shapeContainsPoint, shapesOverlap } from '../models/fragment-shape';
 import { TextElement, generateTextId } from '../models/text-element';
+import { Door, DoorOrientation, doorKey, getAdjacentCells } from '../models/door';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -64,6 +65,7 @@ export interface PanOffset {
 @Injectable()
 export class MapMakerStateService {
   private readonly cells = new Map<string, CellFragment[]>();
+  private readonly doors = new Map<string, Door>();
 
   activeTool: MapMakerTool = 'square';
   activeShapeOption: ShapeOption = 'square';
@@ -118,7 +120,9 @@ export class MapMakerStateService {
    * Removes whichever single fragment (if any) occupies the sub-position
    * (fx, fy) within the given cell. Other fragments in the cell are left
    * untouched, so a merged-looking group of same-color shapes splits apart
-   * as pieces are individually deleted.
+   * as pieces are individually deleted. If this empties the cell entirely,
+   * any doors on edges touching that cell are removed too, since a door
+   * requires both of its neighboring cells to be non-empty.
    */
   removeFragmentAt(coord: GridCoordinate, fx: number, fy: number): void {
     const key = gridKey(coord);
@@ -129,6 +133,7 @@ export class MapMakerStateService {
     const remaining = existing.filter(fragment => !shapeContainsPoint(fragment.shape, fx, fy));
     if (remaining.length === 0) {
       this.cells.delete(key);
+      this.removeDoorsTouchingCell(coord);
     } else {
       this.cells.set(key, remaining);
     }
@@ -188,7 +193,55 @@ export class MapMakerStateService {
   /** Clears every drawn fragment (used mainly for tests). */
   clear(): void {
     this.cells.clear();
+    this.doors.clear();
     this.changed$.next();
+  }
+
+  // --- Doors --------------------------------------------------------------
+
+  /** Returns all placed doors, keyed by their canonical door-key string. */
+  getAllDoors(): ReadonlyMap<string, Door> {
+    return this.doors;
+  }
+
+  /** True if a door already exists on the given edge. */
+  hasDoorAt(orientation: DoorOrientation, col: number, row: number): boolean {
+    return this.doors.has(doorKey({ orientation, col, row }));
+  }
+
+  /** True if a door could legally be placed on the given edge — i.e. both of its neighboring cells currently have at least one drawn fragment. */
+  canPlaceDoorAt(orientation: DoorOrientation, col: number, row: number): boolean {
+    const [a, b] = getAdjacentCells(orientation, col, row);
+    return this.getFragments(a).length > 0 && this.getFragments(b).length > 0;
+  }
+
+  /**
+   * Toggles a door on the given edge: removes it if one is already there;
+   * otherwise adds one, but only if `canPlaceDoorAt` allows it (silently
+   * does nothing if the edge doesn't border two non-empty cells).
+   */
+  toggleDoorAt(orientation: DoorOrientation, col: number, row: number): void {
+    const key = doorKey({ orientation, col, row });
+    if (this.doors.has(key)) {
+      this.doors.delete(key);
+      this.changed$.next();
+      return;
+    }
+    if (!this.canPlaceDoorAt(orientation, col, row)) {
+      return;
+    }
+    this.doors.set(key, { orientation, col, row });
+    this.changed$.next();
+  }
+
+  /** Removes any doors on edges touching the given cell (used when a cell becomes empty, since a door requires both neighbors to be non-empty). */
+  private removeDoorsTouchingCell(coord: GridCoordinate): void {
+    for (const [key, door] of this.doors) {
+      const [a, b] = getAdjacentCells(door.orientation, door.col, door.row);
+      if ((a.col === coord.col && a.row === coord.row) || (b.col === coord.col && b.row === coord.row)) {
+        this.doors.delete(key);
+      }
+    }
   }
 
   /** Returns the TextElement with the given id, if any. */

@@ -9,12 +9,12 @@ interface ShapeOptionDef {
 }
 
 /**
- * Sidebar for the dungeon builder: tool selection (square/delete, with
- * 's'/'d' keyboard shortcuts), shape sub-option picker, color picker
- * (customizable default swatches, persisted to localStorage, + a custom
- * picker), and a zoom slider — all bound to MapMakerStateService. Panning
- * is not a selectable tool here; it's always available via the right mouse
- * button on the canvas.
+ * Sidebar for the dungeon builder: tool selection (square/delete/text/door,
+ * with 's'/'d'/'t'/'o' keyboard shortcuts), shape sub-option picker, color
+ * picker (customizable default swatches, persisted to localStorage, + a
+ * custom picker), and a zoom slider — all bound to MapMakerStateService.
+ * Panning is not a selectable tool here; it's always available via the
+ * right mouse button on the canvas.
  */
 @Component({
   selector: 'app-map-maker-sidebar',
@@ -49,6 +49,8 @@ export class MapMakerSidebarComponent {
       this.selectTool('delete');
     } else if (event.key === 't' || event.key === 'T') {
       this.selectTool('text');
+    } else if (event.key === 'o' || event.key === 'O') {
+      this.selectTool('door');
     }
   }
 

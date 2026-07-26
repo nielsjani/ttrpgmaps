@@ -26,6 +26,10 @@ infinite, pannable, zoomable canvas.
 - **Story 2 — Adding text**: implemented. A Text tool (`t` shortcut) lets
   users place, move, resize, scale, edit, and delete free-floating text
   labels on the canvas. Described in detail below.
+- **Story 3 — Adding doors**: implemented. A Door tool (`o` shortcut) lets
+  users toggle door icons on grid edges between two adjacent, non-empty
+  cells, with hover preview and click/drag-to-toggle. Described in detail
+  below.
 
 ## Module structure
 
@@ -42,6 +46,7 @@ src/app/map-maker/
 │   ├── pick-shape.ts              # MapMakerTool, ShapeOption, pickFragmentShape()
 │   ├── fragment-borders.ts        # computeBorderSegments() — black border/seam logic
 │   ├── text-element.ts            # TextElement, generateTextId() — Story 2 text labels
+│   ├── door.ts                    # Door, DoorOrientation, doorKey(), getAdjacentCells() — Story 3 doors
 │   └── index.ts                   # barrel export
 ├── services/
 │   └── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
@@ -147,9 +152,9 @@ restrict it to cells within (plus one ring around) the visible viewport.
   world: `world = (screen - pan) / zoom`. World → cell: `col/row =
   floor(world / BASE_CELL_SIZE)`, with `(fx, fy)` as the remaining fractional
   part.
-- **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete' | 'text'`
-  (no `'pan'` tool). Panning is **always available**, independent of the
-  active tool: holding the **right** mouse button and dragging pans the
+- **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete' | 'text' |
+  'door'` (no `'pan'` tool). Panning is **always available**, independent of
+  the active tool: holding the **right** mouse button and dragging pans the
   canvas (`event.button === 2`); the canvas suppresses the browser's context
   menu on right-click (`onContextMenu`) so this doesn't pop up a menu
   instead. The **left** mouse button always performs the active tool's
@@ -157,7 +162,8 @@ restrict it to cells within (plus one ring around) the visible viewport.
   paints/deletes every cell the cursor passes over (not just a single
   click); the component tracks the last acted-on cell (`lastActedCellKey`)
   so the same cell isn't repeatedly reprocessed while the pointer lingers
-  inside it. For `text`, see the dedicated section below.
+  inside it. For `text`, see the dedicated section below. For `door`, see
+  the dedicated section below.
 - **Drawing/deleting**: left-button `mousedown` immediately performs the
   action for the cell under the cursor; every subsequent `mousemove` while
   the left button is held repeats this for whatever new cell the cursor
@@ -273,16 +279,96 @@ restrict it to cells within (plus one ring around) the visible viewport.
   handles described above — is drawn only for `state.selectedTextId` while
   the Text tool is active, on top of the black box border.
 
+## Doors (Story 3)
+
+- **Data model** (`models/door.ts`): `DoorOrientation = 'vertical' |
+  'horizontal'`; `Door { orientation, col, row }`, where a door doesn't sit
+  *inside* a cell but on the **edge/boundary line** between two adjacent
+  cells: a `vertical` door sits on the line `x = col`, separating cells
+  `(col-1,row)` (left) and `(col,row)` (right); a `horizontal` door sits on
+  the line `y = row`, separating `(col,row-1)` (top) and `(col,row)`
+  (bottom). `doorKey(door)` builds a canonical string key (e.g. `v:3,2`) for
+  `Map` storage/dedup, mirroring `gridKey()` for cells.
+  `getAdjacentCells(orientation, col, row)` returns the two `GridCoordinate`s
+  bordering an edge.
+- **State** (`MapMakerStateService`): `private readonly doors = new
+  Map<string, Door>()`, exposed read-only via `getAllDoors():
+  ReadonlyMap<string, Door>`. `canPlaceDoorAt(orientation, col, row)` is true
+  only when **both** adjacent cells currently have at least one drawn
+  fragment (`getFragments(...).length > 0`) — a door can never exist next to
+  an empty cell. `hasDoorAt(orientation, col, row)` checks whether a door
+  already exists there. `toggleDoorAt(orientation, col, row)` removes the
+  door if one exists; otherwise adds one, but only if `canPlaceDoorAt`
+  allows it (silently does nothing otherwise) — this is the single entry
+  point the canvas calls on click/drag. `removeFragmentAt()`'s
+  cell-deletion branch (when a cell's last fragment is removed) additionally
+  calls a private `removeDoorsTouchingCell(coord)` helper that scans
+  `doors` and removes any whose adjacent cells include the now-empty cell,
+  since a door strictly requires both neighbors to stay non-empty.
+  `clear()` also clears `doors`.
+- **Interaction** (`MapMakerCanvasComponent`, only meaningful while
+  `activeTool === 'door'`):
+  - **Edge picking** (`findNearestEdge()`): converts the cursor's world
+    position to fractional cell coordinates, then separately finds the
+    nearest *vertical* grid line (`Math.round(cellX)`, at whichever row the
+    cursor's `y` falls in) and the nearest *horizontal* grid line
+    (`Math.round(cellY)`, at whichever column the cursor's `x` falls in).
+    Both candidates are sorted by distance and tried in order; a candidate
+    is accepted only if it's within `DOOR_EDGE_SNAP_THRESHOLD` (`0.3`, i.e.
+    within ~30% of a cell width/height of the line) **and**
+    `state.canPlaceDoorAt(...)` or `state.hasDoorAt(...)` is true for it.
+    Returns `null` if no edge qualifies (e.g. the cursor is over a cell
+    interior, or both neighboring cells aren't fully non-empty).
+  - **Hover preview**: `onMouseMove` calls `updateHoveredEdge()`, which
+    re-runs `findNearestEdge()` and stores the result in the `hoveredEdge`
+    field (only triggering a re-render when it actually changes, to avoid
+    redundant redraws on every pixel of mouse movement). `drawDoors()`
+    strokes a translucent blue highlight line along `hoveredEdge` (if any)
+    before drawing any doors, so the user sees exactly which edge a click
+    would affect — regardless of whether that edge already has a door.
+  - **Toggle on click/drag**: `onMouseDown` (left button, door tool active)
+    and every subsequent `onMouseMove` while the button is held both call
+    `toggleDoorAtPos()`, which resolves the nearest valid edge and calls
+    `state.toggleDoorAt(...)`. A drag toggles each newly-entered edge
+    exactly once via a dedup key (`lastToggledEdgeKey`, the edge's
+    `doorKey()`), reset on `mousedown`/`mouseup`/`mouseleave` — the same
+    drag-paint idiom used by the Square/Delete tools' `lastActedCellKey`.
+    Unlike the square tool, this does *not* mean "add" on every new cell —
+    since it's a toggle, dragging across several fresh edges places a door
+    on each of them (each edge is only touched once per drag, so it can't
+    flicker on/off within a single continuous drag gesture).
+  - **Panning/other tools unaffected**: right-click-drag still pans
+    regardless of the active tool; the Delete tool's own click/drag
+    behavior is unrelated to doors — the story intentionally routes door
+    removal only through the Door tool's own toggle click, not through
+    Delete.
+- **Rendering** (`drawDoors()`, called after `drawBorders()` and before
+  `drawTexts()` so doors sit above fragment fill/borders but below any text
+  labels): draws the hover highlight first (if the Door tool is active and
+  `hoveredEdge` is set), then iterates `state.getAllDoors()` and draws each
+  door as a small solid **white rectangle with a black border**
+  (`DOOR_FILL_COLOR`/`DOOR_BORDER_COLOR`), computed by `getEdgeRect()`:
+  centered on the edge's midpoint, with its **long axis running along the
+  edge** (e.g. a vertical door's rectangle is taller than it is wide, since
+  the wall itself runs vertically) sized as a fraction of the current
+  on-screen `cellSize` (`DOOR_LENGTH_FACTOR` = `0.6`,
+  `DOOR_THICKNESS_FACTOR` = `0.28`), so doors scale naturally with zoom like
+  everything else. A door has no "open/closed" state or icon variants in
+  this pass — it's simply present or absent.
+
 ## Sidebar (`MapMakerSidebarComponent`)
 
-- Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut), and
-  **Text** (`t` shortcut), bound to `MapMakerStateService.activeTool`. There
-  is no "Pan" tool button — a hint below the tool buttons reminds the user
-  that holding the right mouse button pans regardless of the selected tool;
-  a second hint (shown only while the Text tool is active) explains the
-  click-to-create / click-to-select-and-drag / double-click-to-edit /
-  handle-drag interactions. Shortcuts are handled via a `window:keydown`
-  host listener that ignores keystrokes while an
+- Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut),
+  **Text** (`t` shortcut), and **Door** (`o` shortcut), bound to
+  `MapMakerStateService.activeTool`. There is no "Pan" tool button — a hint
+  below the tool buttons reminds the user that holding the right mouse
+  button pans regardless of the selected tool; a second hint (shown only
+  while the Text tool is active) explains the click-to-create /
+  click-to-select-and-drag / double-click-to-edit / handle-drag
+  interactions, and a third hint (shown only while the Door tool is active)
+  explains hover-to-preview / click-or-drag-to-toggle and the "needs two
+  non-empty neighboring squares" requirement. Shortcuts are handled via a
+  `window:keydown` host listener that ignores keystrokes while an
   `<input>`/`<textarea>`/`<select>` has focus (so typing in the custom color
   picker, or in the text inline-edit overlay, doesn't accidentally switch
   tools).

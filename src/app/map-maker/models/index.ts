@@ -4,3 +4,4 @@ export * from './cell-fragment';
 export * from './pick-shape';
 export * from './fragment-borders';
 export * from './text-element';
+export * from './door';

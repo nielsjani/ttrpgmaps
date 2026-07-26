@@ -23,11 +23,23 @@
       title="Text tool (T)"
       (click)="selectTool('text')"
     >🔤<span class="tool-label">Text (T)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'door'"
+      title="Door tool (O)"
+      (click)="selectTool('door')"
+    >🚪<span class="tool-label">Door (O)</span></button>
   </div>
   <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
     Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
     Drag its bottom-right corner to scale, or its right/bottom edge to resize the box.
+  </p>
+  <p class="pan-hint" *ngIf="state.activeTool === 'door'">
+    Hover a wall edge between two drawn squares to preview a door there. Click (or drag across several
+    edges) to toggle doors on and off. Edges next to an empty square can't have a door.
   </p>
 
   <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">

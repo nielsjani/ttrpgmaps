@@ -12,6 +12,7 @@ import { FRAGMENT_POLYGONS } from '../models/fragment-shape';
 import { computeBorderSegments } from '../models/fragment-borders';
 import { GridCoordinate, gridKey, parseGridKey } from '../models/grid';
 import { TextElement } from '../models/text-element';
+import { DoorOrientation, doorKey } from '../models/door';
 
 const GRID_LINE_COLOR = '#dddddd';
 const BORDER_COLOR = '#000000';
@@ -23,8 +24,22 @@ const TEXT_LINE_HEIGHT_FACTOR = 1.2;
 const SELECTION_COLOR = '#4a7dfc';
 const HANDLE_SIZE_PX = 8;
 const HANDLE_HIT_RADIUS_PX = 8;
+const DOOR_FILL_COLOR = '#ffffff';
+const DOOR_BORDER_COLOR = '#000000';
+const DOOR_BORDER_WIDTH_PX = 1.5;
+const DOOR_LENGTH_FACTOR = 0.6;
+const DOOR_THICKNESS_FACTOR = 0.28;
+const DOOR_HOVER_COLOR = 'rgba(74, 125, 252, 0.45)';
+/** How close (in cell units) the cursor must be to a grid edge for it to be considered "hovered"/toggleable. */
+const DOOR_EDGE_SNAP_THRESHOLD = 0.3;
 
 type TextHandleKind = 'scale' | 'width' | 'height';
+
+interface EdgeCandidate {
+  orientation: DoorOrientation;
+  col: number;
+  row: number;
+}
 
 /** Snapshot of a text drag operation (move/resize/scale), captured at drag start so every mousemove computes absolute target values rather than compounding relative deltas. */
 interface TextDragState {
@@ -61,6 +76,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   private panStart = { x: 0, y: 0 };
   /** Grid cell (as a "col,row" key) last drawn/deleted during the current drag, to avoid redundant repeated actions on the same cell. */
   private lastActedCellKey: string | null = null;
+
+  /** The edge (if any) currently nearest the cursor while the Door tool is active and within snapping range of two non-empty cells. Highlighted on hover; toggled on click. */
+  hoveredEdge: EdgeCandidate | null = null;
+  /** Door edge key last toggled during the current drag, to avoid repeatedly toggling the same edge back and forth as the cursor lingers over it. */
+  private lastToggledEdgeKey: string | null = null;
 
   /** Active text move/resize/scale drag, if any (text tool only). */
   private textDrag: TextDragState | null = null;
@@ -156,6 +176,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.isPointerDown = true;
       if (this.state.activeTool === 'text') {
         this.handleTextMouseDown(pos);
+      } else if (this.state.activeTool === 'door') {
+        this.lastToggledEdgeKey = null;
+        this.toggleDoorAtPos(pos);
       } else {
         this.lastActedCellKey = null;
         this.performToolActionAt(pos);
@@ -178,6 +201,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.state.setPan({ x: this.panStart.x + dx, y: this.panStart.y + dy });
     } else if (this.textDrag) {
       this.updateTextDrag(pos);
+    } else if (this.state.activeTool === 'door') {
+      this.updateHoveredEdge(pos);
+      if (this.isPointerDown) {
+        this.toggleDoorAtPos(pos);
+      }
     } else if (this.isPointerDown && this.state.activeTool !== 'text') {
       this.performToolActionAt(pos);
     }
@@ -190,6 +218,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.isPointerDown = false;
       this.lastActedCellKey = null;
       this.textDrag = null;
+      this.lastToggledEdgeKey = null;
     }
   }
 
@@ -198,6 +227,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.isPanning = false;
     this.lastActedCellKey = null;
     this.textDrag = null;
+    this.lastToggledEdgeKey = null;
+    if (this.hoveredEdge) {
+      this.hoveredEdge = null;
+      this.render();
+    }
   }
 
   onDoubleClick(event: MouseEvent): void {
@@ -240,6 +274,66 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     } else if (this.state.activeTool === 'delete') {
       this.state.removeFragmentAt(coord, fx, fy);
     }
+  }
+
+  // --- Door tool interaction ---------------------------------------------------
+
+  /** Finds the grid edge (vertical or horizontal cell boundary) nearest the given world point, snapped within a small tolerance, but only if it borders two non-empty cells (or already has a door). Returns null if no such edge is close enough. */
+  private findNearestEdge(worldX: number, worldY: number): EdgeCandidate | null {
+    const cellX = worldX / BASE_CELL_SIZE;
+    const cellY = worldY / BASE_CELL_SIZE;
+
+    const verticalCol = Math.round(cellX);
+    const verticalRow = Math.floor(cellY);
+    const verticalDistance = Math.abs(cellX - verticalCol);
+
+    const horizontalCol = Math.floor(cellX);
+    const horizontalRow = Math.round(cellY);
+    const horizontalDistance = Math.abs(cellY - horizontalRow);
+
+    const candidates: Array<EdgeCandidate & { distance: number }> = [
+      { orientation: 'vertical' as const, col: verticalCol, row: verticalRow, distance: verticalDistance },
+      { orientation: 'horizontal' as const, col: horizontalCol, row: horizontalRow, distance: horizontalDistance },
+    ].sort((a, b) => a.distance - b.distance);
+
+    for (const candidate of candidates) {
+      if (candidate.distance > DOOR_EDGE_SNAP_THRESHOLD) {
+        continue;
+      }
+      const { orientation, col, row } = candidate;
+      if (this.state.canPlaceDoorAt(orientation, col, row) || this.state.hasDoorAt(orientation, col, row)) {
+        return { orientation, col, row };
+      }
+    }
+    return null;
+  }
+
+  private updateHoveredEdge(pos: { x: number; y: number }): void {
+    const world = this.screenToWorld(pos.x, pos.y);
+    const edge = this.findNearestEdge(world.x, world.y);
+    const changed =
+      (edge?.orientation ?? null) !== (this.hoveredEdge?.orientation ?? null) ||
+      edge?.col !== this.hoveredEdge?.col ||
+      edge?.row !== this.hoveredEdge?.row;
+    if (changed) {
+      this.hoveredEdge = edge;
+      this.render();
+    }
+  }
+
+  /** Toggles the door at the nearest valid edge to the given screen position, deduped per edge during a drag so repeated mousemoves over the same edge don't flip it back and forth. */
+  private toggleDoorAtPos(pos: { x: number; y: number }): void {
+    const world = this.screenToWorld(pos.x, pos.y);
+    const edge = this.findNearestEdge(world.x, world.y);
+    if (!edge) {
+      return;
+    }
+    const key = doorKey({ orientation: edge.orientation, col: edge.col, row: edge.row });
+    if (key === this.lastToggledEdgeKey) {
+      return;
+    }
+    this.lastToggledEdgeKey = key;
+    this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
   }
 
   // --- Text tool interaction ---------------------------------------------------
@@ -430,6 +524,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawGrid(width, height);
     this.drawFragments(width, height);
     this.drawBorders(width, height);
+    this.drawDoors(width, height);
     this.drawTexts(width, height);
   }
 
@@ -510,6 +605,66 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     for (const segment of segments) {
       this.ctx.moveTo(segment.x1 * halfSize + pan.x, segment.y1 * halfSize + pan.y);
       this.ctx.lineTo(segment.x2 * halfSize + pan.x, segment.y2 * halfSize + pan.y);
+    }
+    this.ctx.stroke();
+  }
+
+  /** Draws the hover-highlighted edge (if the Door tool is active and the cursor is near a valid edge), then every placed door as a white rectangle with a black border, oriented with its long axis along the edge it sits on. */
+  private drawDoors(_width: number, _height: number): void {
+    if (this.state.activeTool === 'door' && this.hoveredEdge) {
+      this.drawEdgeHighlight(this.hoveredEdge.orientation, this.hoveredEdge.col, this.hoveredEdge.row);
+    }
+    for (const door of this.state.getAllDoors().values()) {
+      this.drawDoorShape(door.orientation, door.col, door.row);
+    }
+  }
+
+  /** Computes the on-screen rectangle (x, y, width, height) for a door/hover-highlight on the given edge, centered on the edge with its long axis running along it. */
+  private getEdgeRect(
+    orientation: DoorOrientation,
+    col: number,
+    row: number,
+    lengthFactor: number,
+    thicknessFactor: number
+  ): { x: number; y: number; w: number; h: number } {
+    const size = this.cellSize;
+    const { pan } = this.state;
+    const length = size * lengthFactor;
+    const thickness = size * thicknessFactor;
+    if (orientation === 'vertical') {
+      const cx = col * size + pan.x;
+      const cy = row * size + pan.y + size / 2;
+      return { x: cx - thickness / 2, y: cy - length / 2, w: thickness, h: length };
+    }
+    const cx = col * size + pan.x + size / 2;
+    const cy = row * size + pan.y;
+    return { x: cx - length / 2, y: cy - thickness / 2, w: length, h: thickness };
+  }
+
+  private drawDoorShape(orientation: DoorOrientation, col: number, row: number): void {
+    const { x, y, w, h } = this.getEdgeRect(orientation, col, row, DOOR_LENGTH_FACTOR, DOOR_THICKNESS_FACTOR);
+    this.ctx.fillStyle = DOOR_FILL_COLOR;
+    this.ctx.fillRect(x, y, w, h);
+    this.ctx.strokeStyle = DOOR_BORDER_COLOR;
+    this.ctx.lineWidth = DOOR_BORDER_WIDTH_PX;
+    this.ctx.strokeRect(x, y, w, h);
+  }
+
+  private drawEdgeHighlight(orientation: DoorOrientation, col: number, row: number): void {
+    const size = this.cellSize;
+    const { pan } = this.state;
+    this.ctx.strokeStyle = DOOR_HOVER_COLOR;
+    this.ctx.lineWidth = Math.max(3, size * 0.12);
+    this.ctx.lineCap = 'round';
+    this.ctx.beginPath();
+    if (orientation === 'vertical') {
+      const x = col * size + pan.x;
+      this.ctx.moveTo(x, row * size + pan.y);
+      this.ctx.lineTo(x, (row + 1) * size + pan.y);
+    } else {
+      const y = row * size + pan.y;
+      this.ctx.moveTo(col * size + pan.x, y);
+      this.ctx.lineTo((col + 1) * size + pan.x, y);
     }
     this.ctx.stroke();
   }

@@ -95,3 +95,8 @@ Similarly, certain art assets can be designated as hidden and can be revealed by
 # 9. Draw large squares
 User can draw large squares by clicking on the square tool and then clicking and dragging the mouse.
 The screen will show the size in width and height of the square being drawn while the mouse is being dragged.
+
+# 10. Undo/redo
+User can undo/redo the last actions.
+Undo/redo is implemented in the dungeon-master view.
+Can be toggled by using the buttons in the sidebar (left and right arrow) or by pressing left or right arrow keys.

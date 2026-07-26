@@ -15,8 +15,20 @@
       title="Delete tool (D)"
       (click)="selectTool('delete')"
     >🗑️<span class="tool-label">Delete (D)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'text'"
+      title="Text tool (T)"
+      (click)="selectTool('text')"
+    >🔤<span class="tool-label">Text (T)</span></button>
   </div>
   <p class="pan-hint">🖱️ Hold the right mouse button to pan</p>
+  <p class="pan-hint" *ngIf="state.activeTool === 'text'">
+    Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
+    Drag its bottom-right corner to scale, or its right/bottom edge to resize the box.
+  </p>
 
   <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">
     <button

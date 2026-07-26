@@ -1,10 +1,23 @@
-<canvas
-  #canvasEl
-  class="map-maker-canvas"
-  (mousedown)="onMouseDown($event)"
-  (mousemove)="onMouseMove($event)"
-  (mouseup)="onMouseUp($event)"
-  (mouseleave)="onMouseLeave($event)"
-  (wheel)="onWheel($event)"
-  (contextmenu)="onContextMenu($event)"
-></canvas>
+<div class="map-maker-canvas-container">
+  <canvas
+    #canvasEl
+    class="map-maker-canvas"
+    (mousedown)="onMouseDown($event)"
+    (mousemove)="onMouseMove($event)"
+    (mouseup)="onMouseUp($event)"
+    (mouseleave)="onMouseLeave($event)"
+    (dblclick)="onDoubleClick($event)"
+    (wheel)="onWheel($event)"
+    (contextmenu)="onContextMenu($event)"
+  ></canvas>
+
+  <textarea
+    *ngIf="editingTextId"
+    #textEditor
+    class="text-editor-overlay"
+    [ngStyle]="editorStyle"
+    [(ngModel)]="editingValue"
+    (blur)="onEditorBlur()"
+    (keydown)="onEditorKeyDown($event)"
+  ></textarea>
+</div>

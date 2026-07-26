@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { MapMakerComponent } from './map-maker.component';
 import { MapMakerRoutingModule } from './map-maker-routing.module';
@@ -15,6 +16,7 @@ import { MapMakerStateService } from './services/map-maker-state.service';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     MapMakerRoutingModule,
   ],
   providers: [

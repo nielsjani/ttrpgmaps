@@ -21,7 +21,11 @@ infinite, pannable, zoomable canvas.
   `app-routing.module.ts`, `home.component.html`, `app.component.html`).
 - **Story 1 — Drawing tool**: implemented. Infinite grid canvas with pan/zoom,
   a square-drawing tool with full/half/quarter/triangle shape options, a
-  color picker, and a delete tool. Described in detail below.
+  user-customizable color picker, and a delete tool. Described in detail
+  below.
+- **Story 2 — Adding text**: implemented. A Text tool (`t` shortcut) lets
+  users place, move, resize, scale, edit, and delete free-floating text
+  labels on the canvas. Described in detail below.
 
 ## Module structure
 
@@ -36,11 +40,13 @@ src/app/map-maker/
 │   │                               # point-in-polygon & overlap helpers
 │   ├── cell-fragment.ts           # CellFragment { shape, color }
 │   ├── pick-shape.ts              # MapMakerTool, ShapeOption, pickFragmentShape()
+│   ├── fragment-borders.ts        # computeBorderSegments() — black border/seam logic
+│   ├── text-element.ts            # TextElement, generateTextId() — Story 2 text labels
 │   └── index.ts                   # barrel export
 ├── services/
 │   └── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
 ├── canvas/
-│   └── map-maker-canvas.component.*  # <canvas> rendering + pan/zoom/draw/delete input
+│   └── map-maker-canvas.component.*  # <canvas> rendering + pan/zoom/draw/delete/text input
 └── sidebar/
     └── map-maker-sidebar.component.*  # tool/shape/color/zoom controls + shortcuts
 ```
@@ -141,21 +147,23 @@ restrict it to cells within (plus one ring around) the visible viewport.
   world: `world = (screen - pan) / zoom`. World → cell: `col/row =
   floor(world / BASE_CELL_SIZE)`, with `(fx, fy)` as the remaining fractional
   part.
-- **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete'` (no
-  `'pan'` tool). Panning is **always available**, independent of the active
-  tool: holding the **right** mouse button and dragging pans the canvas
-  (`event.button === 2`); the canvas suppresses the browser's context menu
-  on right-click (`onContextMenu`) so this doesn't pop up a menu instead.
-  The **left** mouse button always performs the active tool's
-  (`square`/`delete`) action. Holding the left button down and dragging
+- **Tools & mouse buttons**: `MapMakerTool` is `'square' | 'delete' | 'text'`
+  (no `'pan'` tool). Panning is **always available**, independent of the
+  active tool: holding the **right** mouse button and dragging pans the
+  canvas (`event.button === 2`); the canvas suppresses the browser's context
+  menu on right-click (`onContextMenu`) so this doesn't pop up a menu
+  instead. The **left** mouse button always performs the active tool's
+  action. For `square`/`delete`, holding the left button down and dragging
   paints/deletes every cell the cursor passes over (not just a single
   click); the component tracks the last acted-on cell (`lastActedCellKey`)
   so the same cell isn't repeatedly reprocessed while the pointer lingers
-  inside it.
+  inside it. For `text`, see the dedicated section below.
 - **Drawing/deleting**: left-button `mousedown` immediately performs the
   action for the cell under the cursor; every subsequent `mousemove` while
   the left button is held repeats this for whatever new cell the cursor
-  enters, via `performToolActionAt()`.
+  enters, via `performToolActionAt()`. The **Delete** tool hit-tests text
+  elements first (`hitTestText()`) — if the click lands on a text box it
+  removes that text instead of falling through to grid-fragment deletion.
 - **Zooming**: mouse wheel zooms in/out (factor `1.1` per notch) around the
   cursor position, keeping the world point under the cursor fixed on screen.
   The sidebar's zoom slider calls `state.setZoom()` directly. Both zoom
@@ -170,15 +178,114 @@ restrict it to cells within (plus one ring around) the visible viewport.
   triggers a re-render.
 - **Cursor**: crosshair (no special pan cursor state currently).
 
+## Text elements (Story 2)
+
+- **Data model** (`models/text-element.ts`): `TextElement { id, x, y, width,
+  height, fontSize, text }`. Position, box size, and font size are all
+  **world-space units** (same coordinate space as `BASE_CELL_SIZE`, not
+  grid-locked) — text is not snapped to the grid and scales/pans naturally
+  with everything else (`screenX = pan.x + x * zoom`, etc.), needing no
+  special-casing in the zoom/pan math. Text is always rendered **fixed
+  black** — there is no color picker for text.
+- **State** (`MapMakerStateService`): `texts: TextElement[]`,
+  `selectedTextId: string | null`. `addText(x, y)` creates a new element
+  with defaults (`DEFAULT_TEXT_WIDTH` = 4 cells, `DEFAULT_TEXT_HEIGHT` = 1
+  cell, `DEFAULT_TEXT_FONT_SIZE` = 16), selects it, and returns it so the
+  canvas can immediately enter inline-edit mode. `updateTextContent(id,
+  text)` sets the content, but **auto-removes the element if the committed
+  text is blank/whitespace-only** (so users never leave invisible empty
+  boxes behind). `moveText`/`resizeText`/`scaleText` are convenience
+  absolute/relative setters; `setTextBox(id, partial)` is the lower-level
+  method the canvas actually uses during drags — it directly overwrites
+  whichever of `{x, y, width, height, fontSize}` are passed, clamped to
+  sane bounds (`MIN_TEXT_SIZE`, `[MIN_TEXT_FONT_SIZE, MAX_TEXT_FONT_SIZE]`).
+  Computing absolute target values from a fixed drag-start snapshot (rather
+  than repeatedly applying a relative delta to already-mutated state) is
+  what keeps move/resize/scale drags accurate instead of compounding.
+  `removeText(id)` deletes and clears selection if it was selected.
+  `setSelectedText(id | null)` selects/deselects. `MapMakerStateService.
+  setTool()` clears `selectedTextId` whenever switching away from the text
+  tool.
+- **Interaction** (`MapMakerCanvasComponent`, only meaningful while
+  `activeTool === 'text'`):
+  - **Create**: clicking empty canvas (no existing text hit) immediately
+    calls `state.addText()` at the clicked world position and enters
+    inline-edit mode on it (a real caret appears right there).
+  - **Select + move**: a single click on an *existing* text element
+    (`hitTestText()`, topmost/last-drawn wins) selects it
+    (`state.setSelectedText`) and begins a move drag; dragging updates its
+    position live via `setTextBox`.
+  - **Edit**: double-clicking an existing text element
+    (`onDoubleClick`/`ondblclick`) opens the inline-edit overlay for it.
+  - **Resize/scale handles**: when a text is selected, three small square
+    handles are drawn at its screen-space box corners/edges
+    (`getHandlePositions()`): the **bottom-right corner** handle
+    (`'scale'`) uniformly scales `fontSize` + `width` + `height` together,
+    based on how far the corner has been dragged relative to the box's
+    diagonal at drag-start; the **right-edge** handle (`'width'`) resizes
+    only `width`; the **bottom-edge** handle (`'height'`) resizes only
+    `height` — neither edge handle touches `fontSize` (this matches "a
+    corner scales, an edge resizes"). Handle hit-testing
+    (`hitTestHandle()`) uses a small pixel-radius tolerance
+    (`HANDLE_HIT_RADIUS_PX`).
+  - **Delete**: handled by the Delete tool (see above), not the Text tool.
+- **Inline editing overlay**: a single absolutely-positioned `<textarea
+  class="text-editor-overlay">` (Angular `FormsModule`/`ngModel`, `*ngIf`
+  bound to a component field `editingTextId`) sits on top of the `<canvas>`
+  inside a new `.map-maker-canvas-container` wrapper (`position: relative`)
+  so it can be positioned with plain `left/top/width/height/font-size`
+  computed from the text element's world rect via the current pan/zoom
+  (`get editorStyle()`), re-evaluated every change-detection tick so it
+  tracks pan/zoom live. Opening it (`beginEditingText()`) focuses and
+  selects all its content. **Committing**: on `blur`, the value is written
+  back via `state.updateTextContent()` (which itself removes the element if
+  left blank/whitespace-only). **Cancelling**: pressing `Escape` sets a
+  `discardEditOnBlur` flag and blurs the textarea programmatically; the
+  blur handler then skips the commit, effectively reverting. While an
+  element is being inline-edited, `drawTexts()` skips drawing its canvas
+  text (the overlay covers it visually).
+  - **Important ordering gotcha**: clicking elsewhere on the *canvas* while
+    editing must commit the old element *before* any new hit-test/create
+    logic runs for that same click. The browser only fires the native
+    `blur` event *after* all `mousedown` listeners on the newly-clicked
+    target have finished — so without special handling, a click just
+    outside the box would run `handleTextMouseDown()` (potentially creating
+    a brand-new text element and reassigning `editingTextId` to it) *before*
+    the old element's `blur`/commit ever happens, causing the old element's
+    typed content to be silently lost (or an empty box to never be
+    auto-deleted). Fixed by `commitActiveTextEdit()`, called first thing in
+    `onMouseDown()`: it calls `.blur()` on the editor textarea itself when
+    `editingTextId` is set, which dispatches `blur` (and thus
+    `onEditorBlur()`) *synchronously* right there, guaranteeing the old
+    element is fully committed/removed before any further mousedown logic
+    (hit-testing, new-text-creation, panning, etc.) runs.
+- **Rendering** (`drawTexts()`, drawn after fragments/borders so text sits
+  on top): each text element gets a thin **black border** stroked around
+  its box (`strokeRect`, `TEXT_BORDER_WIDTH_PX`) so placed labels are always
+  visually delineated, even when empty/unselected. Its `TextElement.text`
+  is then greedily word-wrapped (`wrapText()`) to fit `width * zoom` using
+  `ctx.measureText` against the currently-set `ctx.font`, honoring existing
+  `\n` line breaks as hard paragraph splits; wrapped lines are drawn
+  top-aligned (`textBaseline = 'top'`) at `fontSize * zoom`, line height
+  `1.2×` font size, soft-clipped so lines past the box's `height` aren't
+  drawn. Elements fully outside the visible viewport are skipped. Selection
+  UI (`drawTextSelection()`) — a dashed blue rectangle plus the three
+  handles described above — is drawn only for `state.selectedTextId` while
+  the Text tool is active, on top of the black box border.
+
 ## Sidebar (`MapMakerSidebarComponent`)
 
-- Tool buttons: **Square** (`s` shortcut) and **Delete** (`d` shortcut),
-  bound to `MapMakerStateService.activeTool`. There is no "Pan" tool button
-  — a hint below the tool buttons reminds the user that holding the right
-  mouse button pans regardless of the selected tool. Shortcuts are handled
-  via a `window:keydown` host listener that ignores keystrokes while an
+- Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut), and
+  **Text** (`t` shortcut), bound to `MapMakerStateService.activeTool`. There
+  is no "Pan" tool button — a hint below the tool buttons reminds the user
+  that holding the right mouse button pans regardless of the selected tool;
+  a second hint (shown only while the Text tool is active) explains the
+  click-to-create / click-to-select-and-drag / double-click-to-edit /
+  handle-drag interactions. Shortcuts are handled via a `window:keydown`
+  host listener that ignores keystrokes while an
   `<input>`/`<textarea>`/`<select>` has focus (so typing in the custom color
-  picker doesn't accidentally switch tools).
+  picker, or in the text inline-edit overlay, doesn't accidentally switch
+  tools).
 - Shape-option buttons (full/half/quarter/triangle) are only shown while the
   square tool is active, bound to `activeShapeOption`.
 - Color picker: a grid of swatch buttons bound to

@@ -4,7 +4,7 @@ import { FragmentShape } from './fragment-shape';
 export type ShapeOption = 'square' | 'half' | 'quarter' | 'triangle';
 
 /** Tools available in the sidebar. Panning is handled separately, via the right mouse button, regardless of the active tool. */
-export type MapMakerTool = 'square' | 'delete';
+export type MapMakerTool = 'square' | 'delete' | 'text';
 
 /**
  * Determines the concrete FragmentShape to place, given the selected shape

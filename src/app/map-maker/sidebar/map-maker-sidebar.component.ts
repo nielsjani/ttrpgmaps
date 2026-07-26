@@ -47,6 +47,8 @@ export class MapMakerSidebarComponent {
       this.selectTool('square');
     } else if (event.key === 'd' || event.key === 'D') {
       this.selectTool('delete');
+    } else if (event.key === 't' || event.key === 'T') {
+      this.selectTool('text');
     }
   }
 

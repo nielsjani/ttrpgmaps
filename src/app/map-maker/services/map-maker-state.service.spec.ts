@@ -1,4 +1,12 @@
-import { MapMakerStateService, DEFAULT_COLORS } from './map-maker-state.service';
+import {
+  MapMakerStateService,
+  DEFAULT_COLORS,
+  DEFAULT_TEXT_WIDTH,
+  DEFAULT_TEXT_HEIGHT,
+  DEFAULT_TEXT_FONT_SIZE,
+  MIN_TEXT_FONT_SIZE,
+  MAX_TEXT_FONT_SIZE,
+} from './map-maker-state.service';
 
 describe('MapMakerStateService', () => {
   const PALETTE_STORAGE_KEY = 'map-maker.palette-colors';
@@ -107,6 +115,13 @@ describe('MapMakerStateService', () => {
     expect(service.activeShapeOption).toBe('triangle');
   });
 
+  it('setTool clears the selected text when switching away from the text tool', () => {
+    const text = service.addText(0, 0);
+    service.setSelectedText(text.id);
+    service.setTool('square');
+    expect(service.selectedTextId).toBeNull();
+  });
+
   it('starts with the default palette when nothing is stored', () => {
     expect(service.paletteColors).toEqual(DEFAULT_COLORS);
   });
@@ -154,5 +169,120 @@ describe('MapMakerStateService', () => {
 
     const stored = JSON.parse(localStorage.getItem(PALETTE_STORAGE_KEY)!);
     expect(stored).toEqual(DEFAULT_COLORS);
+  });
+});
+
+describe('MapMakerStateService — text elements', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    localStorage.removeItem('map-maker.palette-colors');
+    service = new MapMakerStateService();
+  });
+
+  it('addText creates a text element with default size/font-size and selects it', () => {
+    const text = service.addText(100, 200);
+
+    expect(text.x).toBe(100);
+    expect(text.y).toBe(200);
+    expect(text.width).toBe(DEFAULT_TEXT_WIDTH);
+    expect(text.height).toBe(DEFAULT_TEXT_HEIGHT);
+    expect(text.fontSize).toBe(DEFAULT_TEXT_FONT_SIZE);
+    expect(text.text).toBe('');
+    expect(service.texts).toEqual([text]);
+    expect(service.selectedTextId).toBe(text.id);
+  });
+
+  it('getText finds a text element by id', () => {
+    const text = service.addText(0, 0);
+    expect(service.getText(text.id)).toEqual(text);
+    expect(service.getText('does-not-exist')).toBeUndefined();
+  });
+
+  it('updateTextContent sets the text content', () => {
+    const text = service.addText(0, 0);
+    service.updateTextContent(text.id, 'Hello, world!');
+    expect(service.getText(text.id)?.text).toBe('Hello, world!');
+  });
+
+  it('updateTextContent removes the element when committed content is blank', () => {
+    const text = service.addText(0, 0);
+    service.updateTextContent(text.id, '   ');
+    expect(service.getText(text.id)).toBeUndefined();
+    expect(service.texts.length).toBe(0);
+  });
+
+  it('moveText updates the position', () => {
+    const text = service.addText(0, 0);
+    service.moveText(text.id, 42, 84);
+    expect(service.getText(text.id)).toEqual(jasmine.objectContaining({ x: 42, y: 84 }));
+  });
+
+  it('resizeText updates width/height without touching fontSize, clamped to a sane minimum', () => {
+    const text = service.addText(0, 0);
+    service.resizeText(text.id, 300, 120);
+    expect(service.getText(text.id)).toEqual(
+      jasmine.objectContaining({ width: 300, height: 120, fontSize: DEFAULT_TEXT_FONT_SIZE })
+    );
+
+    service.resizeText(text.id, -50, -50);
+    const clamped = service.getText(text.id)!;
+    expect(clamped.width).toBeGreaterThan(0);
+    expect(clamped.height).toBeGreaterThan(0);
+  });
+
+  it('scaleText uniformly scales fontSize/width/height together', () => {
+    const text = service.addText(0, 0);
+    const before = service.getText(text.id)!;
+    service.scaleText(text.id, 2);
+    const after = service.getText(text.id)!;
+
+    expect(after.fontSize).toBeCloseTo(before.fontSize * 2, 5);
+    expect(after.width).toBeCloseTo(before.width * 2, 5);
+    expect(after.height).toBeCloseTo(before.height * 2, 5);
+  });
+
+  it('scaleText clamps fontSize within [MIN_TEXT_FONT_SIZE, MAX_TEXT_FONT_SIZE]', () => {
+    const text = service.addText(0, 0);
+    service.scaleText(text.id, 0.001);
+    expect(service.getText(text.id)!.fontSize).toBe(MIN_TEXT_FONT_SIZE);
+
+    service.scaleText(text.id, 1000000);
+    expect(service.getText(text.id)!.fontSize).toBe(MAX_TEXT_FONT_SIZE);
+  });
+
+  it('setTextBox overwrites given absolute fields only, clamping bounds', () => {
+    const text = service.addText(0, 0);
+    service.setTextBox(text.id, { x: 10, fontSize: 1000 });
+    const updated = service.getText(text.id)!;
+    expect(updated.x).toBe(10);
+    expect(updated.y).toBe(0);
+    expect(updated.fontSize).toBe(MAX_TEXT_FONT_SIZE);
+  });
+
+  it('removeText deletes the element and clears selection if it was selected', () => {
+    const text = service.addText(0, 0);
+    expect(service.selectedTextId).toBe(text.id);
+    service.removeText(text.id);
+    expect(service.getText(text.id)).toBeUndefined();
+    expect(service.selectedTextId).toBeNull();
+  });
+
+  it('setSelectedText selects/deselects a text element', () => {
+    const text = service.addText(0, 0);
+    service.setSelectedText(null);
+    expect(service.selectedTextId).toBeNull();
+    service.setSelectedText(text.id);
+    expect(service.selectedTextId).toBe(text.id);
+  });
+
+  it('supports multiple independent text elements', () => {
+    const a = service.addText(0, 0);
+    const b = service.addText(50, 50);
+    expect(service.texts.length).toBe(2);
+    service.updateTextContent(a.id, 'A');
+    service.updateTextContent(b.id, 'B');
+    expect(service.getText(a.id)?.text).toBe('A');
+    expect(service.getText(b.id)?.text).toBe('B');
   });
 });

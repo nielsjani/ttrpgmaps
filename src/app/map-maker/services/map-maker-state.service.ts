@@ -4,6 +4,7 @@ import { CellFragment } from '../models/cell-fragment';
 import { GridCoordinate, gridKey } from '../models/grid';
 import { MapMakerTool, ShapeOption, pickFragmentShape } from '../models/pick-shape';
 import { FragmentShape, shapeContainsPoint, shapesOverlap } from '../models/fragment-shape';
+import { TextElement, generateTextId } from '../models/text-element';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -39,6 +40,14 @@ export const BASE_CELL_SIZE = 40;
 export const MIN_ZOOM = 0.25;
 export const MAX_ZOOM = 4;
 
+/** Defaults for a newly-created text element (all in world-space units). */
+export const DEFAULT_TEXT_WIDTH = BASE_CELL_SIZE * 4;
+export const DEFAULT_TEXT_HEIGHT = BASE_CELL_SIZE;
+export const DEFAULT_TEXT_FONT_SIZE = 16;
+export const MIN_TEXT_FONT_SIZE = 6;
+export const MAX_TEXT_FONT_SIZE = 200;
+export const MIN_TEXT_SIZE = 10;
+
 export interface PanOffset {
   x: number;
   y: number;
@@ -46,11 +55,11 @@ export interface PanOffset {
 
 /**
  * Holds all shared, in-memory state for the dungeon-builder drawing tool:
- * the grid of drawn fragments, the active tool/shape/color, the color
- * palette, and the current pan/zoom of the canvas. The grid of drawn
- * fragments is not persisted (story 1 has no map save/load yet), but the
- * color palette *is* persisted to localStorage so a user's custom swatches
- * survive page reloads.
+ * the grid of drawn fragments, free-floating text elements, the active
+ * tool/shape/color, the color palette, and the current pan/zoom of the
+ * canvas. The grid of fragments and text elements are not persisted (story
+ * 1/2 have no map save/load yet), but the color palette *is* persisted to
+ * localStorage so a user's custom swatches survive page reloads.
  */
 @Injectable()
 export class MapMakerStateService {
@@ -58,6 +67,11 @@ export class MapMakerStateService {
 
   activeTool: MapMakerTool = 'square';
   activeShapeOption: ShapeOption = 'square';
+
+  /** All free-floating text elements placed on the map (world-space units, see TextElement). */
+  texts: TextElement[] = [];
+  /** The id of the currently-selected text element (shows move/resize/scale handles), or null. */
+  selectedTextId: string | null = null;
 
   /** The user-customizable default color swatches shown in the sidebar, persisted to localStorage. */
   paletteColors: string[] = loadStoredPalette() ?? [...DEFAULT_COLORS];
@@ -123,6 +137,9 @@ export class MapMakerStateService {
 
   setTool(tool: MapMakerTool): void {
     this.activeTool = tool;
+    if (tool !== 'text') {
+      this.selectedTextId = null;
+    }
   }
 
   setShapeOption(option: ShapeOption): void {
@@ -171,6 +188,120 @@ export class MapMakerStateService {
   /** Clears every drawn fragment (used mainly for tests). */
   clear(): void {
     this.cells.clear();
+    this.changed$.next();
+  }
+
+  /** Returns the TextElement with the given id, if any. */
+  getText(id: string): TextElement | undefined {
+    return this.texts.find(t => t.id === id);
+  }
+
+  /**
+   * Creates a new, empty text element at the given world-space position with
+   * default size/font-size, selects it, and returns it so the caller (the
+   * canvas) can immediately enter inline-edit mode on it.
+   */
+  addText(x: number, y: number): TextElement {
+    const text: TextElement = {
+      id: generateTextId(),
+      x,
+      y,
+      width: DEFAULT_TEXT_WIDTH,
+      height: DEFAULT_TEXT_HEIGHT,
+      fontSize: DEFAULT_TEXT_FONT_SIZE,
+      text: '',
+    };
+    this.texts = [...this.texts, text];
+    this.selectedTextId = text.id;
+    this.changed$.next();
+    return text;
+  }
+
+  /**
+   * Updates a text element's content. If the new content is blank/
+   * whitespace-only, the element is removed entirely instead, so users never
+   * end up with invisible empty text boxes left on the map.
+   */
+  updateTextContent(id: string, content: string): void {
+    if (content.trim().length === 0) {
+      this.removeText(id);
+      return;
+    }
+    this.texts = this.texts.map(t => (t.id === id ? { ...t, text: content } : t));
+    this.changed$.next();
+  }
+
+  /** Moves a text element to a new world-space top-left position. */
+  moveText(id: string, x: number, y: number): void {
+    this.texts = this.texts.map(t => (t.id === id ? { ...t, x, y } : t));
+    this.changed$.next();
+  }
+
+  /** Resizes a text element's wrapping box (width/height only; font size is unchanged), clamped to a sane minimum. */
+  resizeText(id: string, width: number, height: number): void {
+    const clampedWidth = Math.max(MIN_TEXT_SIZE, width);
+    const clampedHeight = Math.max(MIN_TEXT_SIZE, height);
+    this.texts = this.texts.map(t => (t.id === id ? { ...t, width: clampedWidth, height: clampedHeight } : t));
+    this.changed$.next();
+  }
+
+  /**
+   * Uniformly scales a text element's font size and box size together by
+   * `factor` (e.g. 1.1 to grow 10%), clamped so the font size stays within
+   * [MIN_TEXT_FONT_SIZE, MAX_TEXT_FONT_SIZE].
+   */
+  scaleText(id: string, factor: number): void {
+    this.texts = this.texts.map(t => {
+      if (t.id !== id) {
+        return t;
+      }
+      const targetFontSize = t.fontSize * factor;
+      const clampedFontSize = Math.min(MAX_TEXT_FONT_SIZE, Math.max(MIN_TEXT_FONT_SIZE, targetFontSize));
+      const appliedFactor = clampedFontSize / t.fontSize;
+      return {
+        ...t,
+        fontSize: clampedFontSize,
+        width: Math.max(MIN_TEXT_SIZE, t.width * appliedFactor),
+        height: Math.max(MIN_TEXT_SIZE, t.height * appliedFactor),
+      };
+    });
+    this.changed$.next();
+  }
+
+  /**
+   * Directly overwrites the given absolute geometry fields of a text element
+   * (position/size/font-size), clamped to sane bounds. Used by the canvas
+   * during move/resize/scale drags, where each mousemove computes the
+   * intended absolute values from a fixed drag-start snapshot (avoiding the
+   * compounding errors that would result from repeatedly applying a
+   * relative delta to state that has itself already changed).
+   */
+  setTextBox(id: string, box: Partial<Pick<TextElement, 'x' | 'y' | 'width' | 'height' | 'fontSize'>>): void {
+    this.texts = this.texts.map(t => {
+      if (t.id !== id) {
+        return t;
+      }
+      const next = { ...t, ...box };
+      next.width = Math.max(MIN_TEXT_SIZE, next.width);
+      next.height = Math.max(MIN_TEXT_SIZE, next.height);
+      next.fontSize = Math.min(MAX_TEXT_FONT_SIZE, Math.max(MIN_TEXT_FONT_SIZE, next.fontSize));
+      return next;
+    });
+    this.changed$.next();
+  }
+
+  /** Removes a text element entirely, deselecting it if it was selected. */
+  removeText(id: string): void {
+    this.texts = this.texts.filter(t => t.id !== id);
+    if (this.selectedTextId === id) {
+      this.selectedTextId = null;
+    }
+    this.changed$.next();
+  }
+
+  /** Selects (or deselects, when passed null) a text element for showing move/resize/scale handles. */
+  setSelectedText(id: string | null): void {
+    this.selectedTextId = id;
     this.changed$.next();
   }
 }

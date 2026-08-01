@@ -12,7 +12,9 @@
 }
 
 .mode-toggle,
-.reopen-window {
+.reopen-window,
+.save-button,
+.load-button {
   padding: 6px 14px;
   border: 1px solid #adb5bd;
   border-radius: 4px;
@@ -23,6 +25,18 @@
   &:hover {
     background: #e9ecef;
   }
+}
+
+.dungeon-name-input {
+  padding: 6px 10px;
+  border: 1px solid #adb5bd;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.hidden-file-input {
+  display: none;
 }
 
 .map-maker-layout {

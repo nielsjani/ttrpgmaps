@@ -1,4 +1,19 @@
 <div class="map-maker-header">
+  <input
+    type="text"
+    class="dungeon-name-input"
+    placeholder="Dungeon name"
+    [(ngModel)]="state.dungeonName"
+  />
+  <button class="save-button" (click)="saveToFile()">💾 Save</button>
+  <button class="load-button" (click)="triggerLoad()">📂 Load</button>
+  <input
+    #loadFileInput
+    type="file"
+    accept=".json,application/json"
+    class="hidden-file-input"
+    (change)="onLoadFileSelected($event)"
+  />
   <button class="mode-toggle" (click)="togglePlayMode()">
     {{ isPlayMode ? '🛠️ Switch to Design mode' : '▶️ Switch to Play mode' }}
   </button>

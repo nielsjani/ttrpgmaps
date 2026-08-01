@@ -692,6 +692,61 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(other.artElements.length).toBe(1);
     expect(other.artElements[0].assetFileName).toBe(service.artElements[0].assetFileName);
   });
+
+  it('exportSaveData()/importSaveData() round-trips design data, play data, and color prefs', () => {
+    service.dungeonName = 'My Dungeon';
+    service.setShapeOption('square');
+    service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+    service.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
+    service.toggleDoorAt('vertical', 1, 0);
+    service.addText(10, 20);
+    service.addArt(service.artAssets[0].fileName, 5, 5);
+    service.setMode('play');
+    service.placePartyIcon(3, 4, '#123456');
+    service.splitPlayerIcon('#abcdef', 'Alice');
+    service.setPaletteColor(0, '#111111');
+    service.setColor('#111111');
+    service.setPlayModeColor('#222222');
+
+    const saved = service.exportSaveData();
+
+    const other = new MapMakerStateService();
+    other.importSaveData(saved);
+
+    expect(other.dungeonName).toBe('My Dungeon');
+    expect(other.getAllCells().size).toBe(2);
+    expect(other.getAllDoors().size).toBe(1);
+    expect(other.texts.length).toBe(1);
+    expect(other.artElements.length).toBe(1);
+    expect(other.partyIcon).toEqual({ x: 3, y: 4, color: '#123456' });
+    expect(other.playerIcons.length).toBe(1);
+    expect(other.playerIcons[0].name).toBe('Alice');
+    expect(other.paletteColors[0]).toBe('#111111');
+    expect(other.activeColor).toBe('#111111');
+    expect(other.playModeColor).toBe('#222222');
+    // Loading always lands back in Design mode, regardless of the mode active when saved.
+    expect(other.mode).toBe('design');
+  });
+
+  it('importSaveData() tolerates missing optional fields (backward compatibility)', () => {
+    const minimal = {
+      version: 1,
+      dungeonName: '',
+      cells: [],
+      doors: [],
+      texts: [],
+      artElements: [],
+      partyIcon: null,
+      playerIcons: [],
+      paletteColors: [],
+      activeColor: '',
+      playModeColor: '',
+    } as unknown as Parameters<MapMakerStateService['importSaveData']>[0];
+
+    expect(() => service.importSaveData(minimal)).not.toThrow();
+    expect(service.mode).toBe('design');
+    expect(service.paletteColors).toEqual(DEFAULT_COLORS);
+  });
 });
 
 describe('MapMakerSyncService', () => {

@@ -2,7 +2,7 @@ Below are a number of stories to implement.
 Implement them one at a time and in ascending order.
 Starting from story 1, create/update an instructions file on 'map-maker' to keep track of its functionalities, structure, etc
 
-# 0. Rework app routing and menu
+# 0. Rework app routing and menu - DONE
 - New main/starting page is vertically divided in four sections:
 - - Campaign maps
 - - DnD: Shop generator
@@ -14,7 +14,7 @@ On other pages, it is shown and follows the structure of the main page to show i
 
 The dungeon builder page leads to a placeholder for now. The others already exist
 
-# 1. Drawing tool
+# 1. Drawing tool - DONE
 Begin implementing a map making tool for dungeons in a ttrpg.
 Use the map maker page created in story 0.
 User gets an infinite white canvas to draw on. It is populated with a grid of squares.
@@ -30,21 +30,21 @@ The user can also select a 'delete' tool (icon) in the sidebar (or using shortcu
 
 You can zoom in and out using the mouse wheel or using a slider in the sidebar.
 
-# 2. Adding text
+# 2. Adding text - DONE
 New tool in the toolbar.
 User can select a text tool (icon) in the sidebar (or using shortcut 't')
 User can draw text on the map.
 User can later edit the text or move it
 User can scale the text so the font size changes and can change the size of the text block so text is on one or multiple lines if it would get too long
 
-# 3. Adding doors
+# 3. Adding doors - DONE
 User can select a door tool (icon) in the sidebar (or using shortcut 'd')
 User can select the (horizontal or vertical) edge of two squares that are not empty. The edge will light up when hovering over it.
 A door icon will appear on the selected edge. 
 Clicking on an existing door will remove it.
 A door icon looks like a simple white rectangle with a black border.
 
-# 4. Adding art assets
+# 4. Adding art assets - DONE
 User can select an art tool (icon) in the sidebar (or using shortcut 'a').
 This will show a list of art assets that can be added to the map.
 User can filter these assets by name
@@ -56,7 +56,7 @@ It can be moved around by clicking and dragging it.
 It can be scaled by clicking and dragging the bottom right corner.
 It can be rotated by clicking and dragging the bottom left corner.
 
-# 5. Design vs play mode
+# 5. Design vs play mode - DONE
 User can switch between design mode and play mode.
 All stories so far were about design mode
 In Play mode, most of the tools are disabled.
@@ -71,10 +71,11 @@ This icon is 'the party'.
 Both the player-view and the dungeon-master-view can see and move the party icon.
 Additional icons can be split off from the party icon. These are 'player icons' and each have their own color. A name can be optionally provided to each one of these.
 
-# 6. Save and load
+# 6. Save and load - DONE
 User can save the map to a file.
 User can load a map from a file.
 All data from both design and play mode is saved/loaded.
+All features added in future stories will be saved/loaded.
 
 # 7. Hidden areas
 In design mode, the user can designate certain areas of the map as 'hidden'.
@@ -106,3 +107,6 @@ Can be toggled by using the buttons in the sidebar (left and right arrow) or by 
 
 # 12. Copying placed art assets
 Keeps the size, rotation and position of the art asset when copied, but places it two squares to the right of the original.
+
+# 13. Textured colors
+When drawing squares, the user can select a texture instead of a color. The textures are provided as images and can be tiled to fill the square.

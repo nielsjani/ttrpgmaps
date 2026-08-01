@@ -3,6 +3,7 @@ import {
   Component,
   ElementRef,
   HostListener,
+  Input,
   OnDestroy,
   ViewChild,
 } from '@angular/core';
@@ -98,6 +99,9 @@ interface IconDragState {
 export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   @ViewChild('canvasEl', { static: true }) canvasRef!: ElementRef<HTMLCanvasElement>;
   @ViewChild('textEditor') textEditorRef?: ElementRef<HTMLTextAreaElement>;
+
+  /** True when this canvas is rendered inside the popped-out player-view window (see `MapMakerPlayerViewComponent`). In Play mode, text elements are a DM-only aid (e.g. private notes) and are never drawn on the player-view canvas — see `drawTexts()`. */
+  @Input() isPlayerView = false;
 
   private ctx!: CanvasRenderingContext2D;
   private resizeObserver?: ResizeObserver;
@@ -976,10 +980,14 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
   }
 
-  /** Draws every text element: a thin black border around its box, plus its word-wrapped content (fixed black color), skipping whichever one is currently being inline-edited (the <textarea> overlay covers it instead). Also draws selection handles for the selected text while the Text tool is active. */
+  /** Draws every text element: in Design mode, a thin black border around its box plus its word-wrapped content; in Play mode (DM view only — see `isPlayerView`), just the word-wrapped content with no border, since the border is a design-time editing aid and texts are DM-only notes once play begins. Skips whichever text is currently being inline-edited (the <textarea> overlay covers it instead), and skips all texts entirely on the player-view canvas. Also draws selection handles for the selected text while the Text tool is active. */
   private drawTexts(width: number, height: number): void {
+    if (this.isPlayerView) {
+      return;
+    }
     const zoom = this.state.zoom;
     const { pan } = this.state;
+    const showBorder = this.state.mode !== 'play';
     this.ctx.fillStyle = TEXT_COLOR;
     this.ctx.textBaseline = 'top';
     for (const text of this.state.texts) {
@@ -997,9 +1005,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       if (fontPx < 1) {
         continue;
       }
-      this.ctx.strokeStyle = TEXT_COLOR;
-      this.ctx.lineWidth = TEXT_BORDER_WIDTH_PX;
-      this.ctx.strokeRect(sx, sy, sw, sh);
+      if (showBorder) {
+        this.ctx.strokeStyle = TEXT_COLOR;
+        this.ctx.lineWidth = TEXT_BORDER_WIDTH_PX;
+        this.ctx.strokeRect(sx, sy, sw, sh);
+      }
 
       this.ctx.font = `${fontPx}px sans-serif`;
       const lineHeight = fontPx * TEXT_LINE_HEIGHT_FACTOR;

@@ -41,15 +41,21 @@ infinite, pannable, zoomable canvas.
   `BroadcastChannel`, and lets both windows place/move a shared "party"
   icon plus any number of individually-colored/named "player" icons split
   off from it. Described in detail below.
+- **Story 6 — Save and load**: implemented. A dungeon name text input plus
+  💾 Save / 📂 Load buttons in the header bar let the user download the
+  full map (design data, play-mode party/player icons, and color
+  preferences) as a versioned `.json` file, and reload it later. The
+  downloaded file is named after the sanitized dungeon name. Described in
+  detail below.
 
 ## Module structure
 
 ```
 src/app/map-maker/
-├── map-maker.module.ts            # declares components, provides MapMakerStateService
+├── map-maker.module.ts            # declares components, provides MapMakerStateService/MapMakerFileService
 ├── map-maker-routing.module.ts    # routes: 'map-maker' -> MapMakerComponent,
 │                                   # 'map-maker/player' -> MapMakerPlayerViewComponent (Story 5)
-├── map-maker.component.*          # container: header (Design/Play toggle) + sidebar + canvas
+├── map-maker.component.*          # container: header (dungeon name + Save/Load + Design/Play toggle) + sidebar + canvas
 ├── models/
 │   ├── grid.ts                    # GridCoordinate, gridKey()/parseGridKey()
 │   ├── fragment-shape.ts          # FragmentShape union, unit-space polygons,
@@ -65,10 +71,12 @@ src/app/map-maker/
 │   ├── party-icon.ts              # PartyIcon — Story 5 shared party marker
 │   ├── player-icon.ts             # PlayerIcon, generatePlayerIconId() — Story 5 split-off markers
 │   ├── map-snapshot.ts            # MapSnapshot — serializable design-data mirror for the sync handshake
+│   ├── map-save-data.ts           # MapMakerSaveData — versioned full save-file payload (Story 6)
 │   └── index.ts                   # barrel export
 ├── services/
 │   ├── map-maker-state.service.ts # MapMakerStateService — shared state & grid data
-│   └── map-maker-sync.service.ts  # MapMakerSyncService — BroadcastChannel-based DM/player sync (Story 5)
+│   ├── map-maker-sync.service.ts  # MapMakerSyncService — BroadcastChannel-based DM/player sync (Story 5)
+│   └── map-maker-file.service.ts  # MapMakerFileService — serialize/deserialize/file-name logic (Story 6)
 ├── canvas/
 │   └── map-maker-canvas.component.*  # <canvas> rendering + pan/zoom/draw/delete/text/art/icon input
 ├── sidebar/
@@ -220,6 +228,17 @@ restrict it to cells within (plus one ring around) the visible viewport.
   with everything else (`screenX = pan.x + x * zoom`, etc.), needing no
   special-casing in the zoom/pan math. Text is always rendered **fixed
   black** — there is no color picker for text.
+- **Play-mode visibility** (see also "Design vs Play mode (Story 5)"
+  below): text elements are treated as DM-only notes once Play mode
+  starts. `MapMakerCanvasComponent.drawTexts()` only strokes the
+  black editing-aid border around each text box while `state.mode ===
+  'design'` (Play mode shows the text content with no border); and it skips
+  drawing *any* text at all when the canvas's `@Input() isPlayerView` is
+  `true` — set on the `<app-map-maker-canvas>` instance used by
+  `MapMakerPlayerViewComponent`'s template, but left `false` (default) on
+  the DM window's instance in `MapMakerComponent`'s template. So: DM view
+  in Design mode shows text+border, DM view in Play mode shows text with
+  no border, and the player-view canvas never shows text in either mode.
 - **State** (`MapMakerStateService`): `texts: TextElement[]`,
   `selectedTextId: string | null`. `addText(x, y)` creates a new element
   with defaults (`DEFAULT_TEXT_WIDTH` = 4 cells, `DEFAULT_TEXT_HEIGHT` = 1
@@ -673,6 +692,58 @@ navigate away from via the main site nav.
   list of existing player icons — each row has a color `<input
   type="color">` (`setPlayerColor()`), a name `<input>` (`setPlayerName()`),
   and a remove button (`removePlayer()`).
+
+## Save and load (Story 6)
+
+- **Header UI** (`map-maker.component.html`): a `dungeonName` text `<input>`
+  (two-way bound to `state.dungeonName`), a "💾 Save" button, and a
+  "📂 Load" button (which clicks a hidden `<input type="file"
+  accept=".json,application/json">` via a template ref, so the visible
+  button controls the native file picker).
+- **Data model** (`models/map-save-data.ts`): `MapMakerSaveData` is a
+  versioned (`version: 1`), plain-object payload containing *everything*
+  the story requires — both design-time data (`cells`, `doors`, `texts`,
+  `artElements`, mirroring `MapSnapshot`) and play-mode data (`partyIcon`,
+  `playerIcons`), plus color preferences (`paletteColors`, `activeColor`,
+  `playModeColor`) and the `dungeonName` itself. `mode` is deliberately
+  **not** persisted — loading a file always lands back in Design mode (see
+  below), so a stray player-view popup is never silently reopened just
+  from a load.
+- **`MapMakerStateService`**:
+  - `exportSaveData(): MapMakerSaveData` builds on the existing
+    `getSnapshot()` (cells/doors/texts/art) and adds
+    partyIcon/playerIcons/palette/colors/dungeonName.
+  - `importSaveData(data: MapMakerSaveData): void` mirrors
+    `applySnapshot()` for the design-time fields, then restores
+    partyIcon/playerIcons/palette/colors/dungeonName, persists the palette
+    to localStorage, clears any active text/art selection, forces
+    `mode = 'design'`, and emits `changed$`. Every field is read
+    defensively (`data.field ?? fallback`) so files saved by an older
+    version of this schema (missing newer optional fields) still load
+    without throwing.
+- **`MapMakerFileService`** (`services/map-maker-file.service.ts`) — kept
+  free of DOM/download APIs so it's trivially unit-testable:
+  - `serialize(data)` / `deserialize(json)`: wrap/unwrap a
+    `{ version, data }` JSON envelope; `deserialize()` throws a plain,
+    user-presentable `Error` on invalid JSON or an unrecognized shape
+    (missing/non-array `cells`), which the component catches and shows via
+    `alert()`.
+  - `fileNameFor(dungeonName)`: derives the download file name — spaces
+    become underscores, then any character that isn't alphanumeric or an
+    underscore is stripped out; falls back to `dungeon-map.json` if the
+    sanitized result is empty (blank name, or a name made entirely of
+    stripped characters).
+- **`MapMakerComponent`**:
+  - `saveToFile()`: `state.exportSaveData()` → `fileService.serialize()` →
+    wraps the JSON text in a `Blob`, creates an object URL, and clicks a
+    programmatically-created `<a download>` (then revokes the URL) — the
+    standard client-side-only download pattern (no backend exists).
+  - `triggerLoad()` / `onLoadFileSelected()`: the file `<input>`'s `change`
+    event reads the picked file via `File.text()`, deserializes it, and
+    (if currently in Play mode) first tears down the player window/sync
+    exactly like `togglePlayMode()` would, before calling
+    `state.importSaveData()`. The input's `value` is reset after every
+    selection so re-picking the same file re-fires `change`.
 
 ## Extending this module (future stories)
 

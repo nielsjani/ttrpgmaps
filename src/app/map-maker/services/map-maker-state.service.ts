@@ -12,6 +12,7 @@ import { ArtElement, generateArtId } from '../models/art-element';
 import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon, generatePlayerIconId } from '../models/player-icon';
 import { MapSnapshot } from '../models/map-snapshot';
+import { MapMakerSaveData } from '../models/map-save-data';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -130,6 +131,9 @@ export class MapMakerStateService {
 
   pan: PanOffset = { x: 0, y: 0 };
   zoom = 1;
+
+  /** User-provided name of the dungeon being worked on (Story 6). Shown in a header text input; also used, sanitized, as the downloaded save file's name. */
+  dungeonName = '';
 
   /**
    * Emits whenever any state changes that should trigger a canvas re-render
@@ -687,6 +691,64 @@ export class MapMakerStateService {
     }
     this.texts = snapshot.texts.map(t => ({ ...t }));
     this.artElements = snapshot.artElements.map(a => ({ ...a }));
+    this.changed$.next();
+  }
+
+  // --- Story 6: save/load ------------------------------------------------
+
+  /**
+   * Builds the full, versioned save-file payload: everything `getSnapshot()`
+   * covers (cells/doors/texts/art) plus play-mode data (party/player icons)
+   * and color preferences (palette/active/play-mode colors), per Story 6's
+   * "all data from both design and play mode is saved/loaded". Deliberately
+   * does *not* include `mode` itself — loading a file always lands back in
+   * Design mode (see `importSaveData`), so a stray popped-out player window
+   * is never auto-reopened just from loading a file.
+   */
+  exportSaveData(): MapMakerSaveData {
+    const snapshot = this.getSnapshot();
+    return {
+      version: 1,
+      dungeonName: this.dungeonName,
+      cells: snapshot.cells,
+      doors: snapshot.doors,
+      texts: snapshot.texts,
+      artElements: snapshot.artElements,
+      partyIcon: this.partyIcon ? { ...this.partyIcon } : null,
+      playerIcons: this.playerIcons.map(p => ({ ...p })),
+      paletteColors: [...this.paletteColors],
+      activeColor: this.activeColor,
+      playModeColor: this.playModeColor,
+    };
+  }
+
+  /**
+   * Restores full map state (design + play data + color preferences) from a
+   * previously-exported save payload. Tolerates missing optional fields
+   * (falls back to current/empty values) so files saved before a field
+   * existed still load without error. Always forces Design mode and clears
+   * any in-progress selections, so the canvas lands in a clean, predictable
+   * state regardless of what was selected/active before the load.
+   */
+  importSaveData(data: MapMakerSaveData): void {
+    this.dungeonName = data.dungeonName ?? '';
+    this.applySnapshot({
+      cells: data.cells ?? [],
+      doors: data.doors ?? [],
+      texts: data.texts ?? [],
+      artElements: data.artElements ?? [],
+    });
+    this.partyIcon = data.partyIcon ?? null;
+    this.playerIcons = data.playerIcons ? data.playerIcons.map(p => ({ ...p })) : [];
+    this.armPartyPlacement = false;
+    this.paletteColors = data.paletteColors && data.paletteColors.length > 0 ? [...data.paletteColors] : [...DEFAULT_COLORS];
+    this.activeColor = data.activeColor ?? this.paletteColors[0];
+    this.playModeColor = data.playModeColor ?? this.paletteColors[0];
+    this.persistPalette();
+    this.mode = 'design';
+    this.selectedTextId = null;
+    this.selectedArtId = null;
+    this.selectedArtAssetFileName = null;
     this.changed$.next();
   }
 }

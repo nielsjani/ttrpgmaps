@@ -8,7 +8,7 @@ describe('MapMakerFileService', () => {
     version: 1,
     dungeonName: 'My Dungeon',
     cells: [['0,0', [{ shape: 'full', color: '#ff0000' }]]],
-    doors: [{ orientation: 'vertical', col: 1, row: 0 }],
+    doors: [{ orientation: 'vertical', col: 1, row: 0, hidden: false, revealed: false }],
     texts: [],
     artElements: [],
     hiddenAreas: [{ id: 'hidden-area-1', letter: 'A', name: 'A', cellKeys: ['0,0'], revealed: false }],

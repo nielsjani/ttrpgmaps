@@ -391,6 +391,81 @@ describe('MapMakerStateService — doors', () => {
     expect(service.getAllDoors().size).toBe(0);
     expect(service.getAllCells().size).toBe(0);
   });
+
+  it('a newly-placed door starts with hidden/revealed both false', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+
+    const door = service.getAllDoors().get('v:1,0')!;
+    expect(door.hidden).toBe(false);
+    expect(door.revealed).toBe(false);
+  });
+
+  it('toggleDoorHidden flips the hidden flag of an existing door and resets revealed', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+    service.toggleDoorRevealed('vertical', 1, 0);
+    expect(service.getAllDoors().get('v:1,0')!.revealed).toBe(true);
+
+    service.toggleDoorHidden('vertical', 1, 0);
+
+    const door = service.getAllDoors().get('v:1,0')!;
+    expect(door.hidden).toBe(true);
+    expect(door.revealed).toBe(false);
+
+    service.toggleDoorHidden('vertical', 1, 0);
+    expect(service.getAllDoors().get('v:1,0')!.hidden).toBe(false);
+  });
+
+  it('toggleDoorHidden is a no-op when there is no door on the edge', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+
+    service.toggleDoorHidden('vertical', 1, 0);
+
+    expect(service.getAllDoors().size).toBe(0);
+  });
+
+  it('toggleDoorRevealed flips the revealed flag of an existing door', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+    service.toggleDoorHidden('vertical', 1, 0);
+
+    service.toggleDoorRevealed('vertical', 1, 0);
+    expect(service.getAllDoors().get('v:1,0')!.revealed).toBe(true);
+
+    service.toggleDoorRevealed('vertical', 1, 0);
+    expect(service.getAllDoors().get('v:1,0')!.revealed).toBe(false);
+  });
+
+  it('toggleDoorRevealed is a no-op when there is no door on the edge', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+
+    service.toggleDoorRevealed('vertical', 1, 0);
+
+    expect(service.getAllDoors().size).toBe(0);
+  });
+
+  it('setArmHiddenDoorMode arms/disarms Mark Hidden mode', () => {
+    expect(service.armHiddenDoorMode).toBe(false);
+    service.setArmHiddenDoorMode(true);
+    expect(service.armHiddenDoorMode).toBe(true);
+    service.setArmHiddenDoorMode(false);
+    expect(service.armHiddenDoorMode).toBe(false);
+  });
+
+  it('setTool disarms Mark Hidden mode when leaving the door tool', () => {
+    service.setTool('door');
+    service.setArmHiddenDoorMode(true);
+
+    service.setTool('square');
+
+    expect(service.armHiddenDoorMode).toBe(false);
+  });
 });
 
 describe('MapMakerStateService — hidden areas', () => {
@@ -664,6 +739,48 @@ describe('MapMakerStateService — art assets', () => {
     service.clear();
     expect(service.artElements.length).toBe(0);
     expect(service.selectedArtId).toBeNull();
+  });
+
+  it('a newly-placed art element starts with hidden/revealed both false', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    expect(art.hidden).toBe(false);
+    expect(art.revealed).toBe(false);
+  });
+
+  it('setArtHidden sets the hidden flag and resets revealed', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    service.toggleArtRevealed(art.id);
+    expect(service.getArt(art.id)!.revealed).toBe(true);
+
+    service.setArtHidden(art.id, true);
+
+    const updated = service.getArt(art.id)!;
+    expect(updated.hidden).toBe(true);
+    expect(updated.revealed).toBe(false);
+
+    service.setArtHidden(art.id, false);
+    expect(service.getArt(art.id)!.hidden).toBe(false);
+  });
+
+  it('setArtHidden is a no-op when the element does not exist', () => {
+    service.setArtHidden('does-not-exist', true);
+    expect(service.artElements.length).toBe(0);
+  });
+
+  it('toggleArtRevealed flips the revealed flag of an existing art element', () => {
+    const art = service.addArt(service.artAssets[0].fileName, 0, 0);
+    service.setArtHidden(art.id, true);
+
+    service.toggleArtRevealed(art.id);
+    expect(service.getArt(art.id)!.revealed).toBe(true);
+
+    service.toggleArtRevealed(art.id);
+    expect(service.getArt(art.id)!.revealed).toBe(false);
+  });
+
+  it('toggleArtRevealed is a no-op when the element does not exist', () => {
+    service.toggleArtRevealed('does-not-exist');
+    expect(service.artElements.length).toBe(0);
   });
 });
 
@@ -981,6 +1098,60 @@ describe('MapMakerSyncService', () => {
         expect(playerState.hiddenAreas[0].revealed).toBe(true);
         // Applying the remote update must not itself re-fire hiddenAreasChanged$ on the player side.
         expect(playerHiddenAreasChangedCount).toBe(0);
+        done();
+      }, 50);
+    });
+  });
+
+  it('propagates a hidden door reveal toggled on the DM side to the player-view, live during Play mode (Story 8)', done => {
+    dmState.setShapeOption('square');
+    dmState.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+    dmState.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
+    dmState.toggleDoorAt('vertical', 1, 0);
+    dmState.toggleDoorHidden('vertical', 1, 0);
+
+    dmSync = new MapMakerSyncService(dmState, 'dm');
+    playerSync = new MapMakerSyncService(playerState, 'player');
+
+    playerSync.fullStateReceived$.subscribe(() => {
+      expect(playerState.getAllDoors().get('v:1,0')?.revealed).toBe(false);
+
+      // DM reveals the hidden door *after* the initial handshake, as would happen during Play mode.
+      let playerDoorsChangedCount = 0;
+      playerState.doorsChanged$.subscribe(() => playerDoorsChangedCount++);
+
+      dmState.toggleDoorRevealed('vertical', 1, 0);
+
+      setTimeout(() => {
+        expect(playerState.getAllDoors().get('v:1,0')?.revealed).toBe(true);
+        // Applying the remote update must not itself re-fire doorsChanged$ on the player side.
+        expect(playerDoorsChangedCount).toBe(0);
+        done();
+      }, 50);
+    });
+  });
+
+  it('propagates a hidden art reveal toggled on the DM side to the player-view, live during Play mode (Story 8)', done => {
+    const fileName = dmState.artAssets[0].fileName;
+    const art = dmState.addArt(fileName, 5, 5);
+    dmState.setArtHidden(art.id, true);
+
+    dmSync = new MapMakerSyncService(dmState, 'dm');
+    playerSync = new MapMakerSyncService(playerState, 'player');
+
+    playerSync.fullStateReceived$.subscribe(() => {
+      expect(playerState.getArt(art.id)?.revealed).toBe(false);
+
+      // DM reveals the hidden art asset *after* the initial handshake, as would happen during Play mode.
+      let playerArtChangedCount = 0;
+      playerState.artChanged$.subscribe(() => playerArtChangedCount++);
+
+      dmState.toggleArtRevealed(art.id);
+
+      setTimeout(() => {
+        expect(playerState.getArt(art.id)?.revealed).toBe(true);
+        // Applying the remote update must not itself re-fire artChanged$ on the player side.
+        expect(playerArtChangedCount).toBe(0);
         done();
       }, 50);
     });

@@ -4,6 +4,8 @@ import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon } from '../models/player-icon';
 import { MapSnapshot } from '../models/map-snapshot';
 import { HiddenArea } from '../models/hidden-area';
+import { Door } from '../models/door';
+import { ArtElement } from '../models/art-element';
 
 /** The BroadcastChannel name shared by every dungeon-builder window (DM + any popped-out player views). Same-origin only, no backend involved. */
 const CHANNEL_NAME = 'ttrpgmaps-map-maker-play';
@@ -32,7 +34,17 @@ interface HiddenAreasUpdateMessage {
   hiddenAreas: HiddenArea[];
 }
 
-type SyncMessage = RequestStateMessage | FullStateMessage | IconsUpdateMessage | HiddenAreasUpdateMessage;
+interface DoorsUpdateMessage {
+  type: 'doors-update';
+  doors: Door[];
+}
+
+interface ArtUpdateMessage {
+  type: 'art-update';
+  artElements: ArtElement[];
+}
+
+type SyncMessage = RequestStateMessage | FullStateMessage | IconsUpdateMessage | HiddenAreasUpdateMessage | DoorsUpdateMessage | ArtUpdateMessage;
 
 /**
  * Keeps a dungeon-master window and any popped-out player-view window (each
@@ -60,11 +72,20 @@ type SyncMessage = RequestStateMessage | FullStateMessage | IconsUpdateMessage |
  *   the rest of the design-time map) can legitimately change after the
  *   initial handshake. Applied via `state.applyRemoteHiddenAreas()`, which
  *   likewise does not re-fire `hiddenAreasChanged$`.
+ * - Story 8: the same "can legitimately change after the initial handshake"
+ *   reasoning applies to hidden doors/art assets being revealed by the DM
+ *   during Play mode, so either role also posts a `'doors-update'` message
+ *   whenever `state.doorsChanged$` fires, and an `'art-update'` message
+ *   whenever `state.artChanged$` fires — applied via
+ *   `state.applyRemoteDoors()`/`state.applyRemoteArt()`, which likewise do
+ *   not re-fire their respective `*Changed$` subjects.
  */
 export class MapMakerSyncService {
   private readonly channel: BroadcastChannel;
   private readonly iconsSubscription: Subscription;
   private readonly hiddenAreasSubscription: Subscription;
+  private readonly doorsSubscription: Subscription;
+  private readonly artSubscription: Subscription;
 
   /** Emits once, the first time a `'full-state'` message is received (player role only) — a reliable "we've heard from the DM" signal for the player-view's connection banner. */
   readonly fullStateReceived$ = new Subject<void>();
@@ -75,6 +96,8 @@ export class MapMakerSyncService {
 
     this.iconsSubscription = this.state.iconsChanged$.subscribe(() => this.broadcastIconsUpdate());
     this.hiddenAreasSubscription = this.state.hiddenAreasChanged$.subscribe(() => this.broadcastHiddenAreasUpdate());
+    this.doorsSubscription = this.state.doorsChanged$.subscribe(() => this.broadcastDoorsUpdate());
+    this.artSubscription = this.state.artChanged$.subscribe(() => this.broadcastArtUpdate());
 
     if (this.role === 'player') {
       this.postMessage({ type: 'request-state' });
@@ -104,6 +127,12 @@ export class MapMakerSyncService {
       case 'hidden-areas-update':
         this.state.applyRemoteHiddenAreas(message.hiddenAreas);
         break;
+      case 'doors-update':
+        this.state.applyRemoteDoors(message.doors);
+        break;
+      case 'art-update':
+        this.state.applyRemoteArt(message.artElements);
+        break;
     }
   }
 
@@ -122,6 +151,20 @@ export class MapMakerSyncService {
     });
   }
 
+  private broadcastDoorsUpdate(): void {
+    this.postMessage({
+      type: 'doors-update',
+      doors: Array.from(this.state.getAllDoors().values()),
+    });
+  }
+
+  private broadcastArtUpdate(): void {
+    this.postMessage({
+      type: 'art-update',
+      artElements: this.state.artElements,
+    });
+  }
+
   private postMessage(message: SyncMessage): void {
     this.channel.postMessage(message);
   }
@@ -130,6 +173,8 @@ export class MapMakerSyncService {
   close(): void {
     this.iconsSubscription.unsubscribe();
     this.hiddenAreasSubscription.unsubscribe();
+    this.doorsSubscription.unsubscribe();
+    this.artSubscription.unsubscribe();
     this.channel.close();
     this.fullStateReceived$.complete();
   }

@@ -22,6 +22,10 @@ export interface ArtElement {
   height: number;
   /** Rotation around the center, in radians. */
   rotation: number;
+  /** Story 8: whether the DM has designated this art element as hidden (design-time flag). */
+  hidden: boolean;
+  /** Story 8: whether the DM has revealed this hidden art element during Play mode. Meaningless while `hidden` is false. */
+  revealed: boolean;
 }
 
 let nextArtId = 1;

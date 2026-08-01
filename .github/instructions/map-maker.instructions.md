@@ -55,6 +55,14 @@ infinite, pannable, zoomable canvas.
   bordered "fog of war"; the DM's own view always shows everything, plus a
   clickable letter badge per area to toggle its revealed state. Described
   in detail below.
+- **Story 8 — Hidden doors & hidden art assets**: implemented. In Design
+  mode, a "Mark Hidden" toggle button in the Door tool's sidebar panel
+  lets the DM flag individual doors as hidden; a "Hidden" checkbox on a
+  selected art element does the same for art assets. Hidden-and-unrevealed
+  doors show as a plain black-bordered wall edge in the player-view (no
+  door icon); hidden-and-unrevealed art is invisible there. In Play mode,
+  the DM reveals either by clicking the door icon / art asset directly in
+  the DM view. Described in detail below.
 
 ## Module structure
 
@@ -601,22 +609,33 @@ backend involved):
   or hiding a hidden area's letter badge *during Play mode* (Story 7) show
   up live in the other window, since (unlike the rest of the design-time
   map) a hidden area's `revealed` flag can legitimately change after Play
-  mode has already started.
-- **`iconsChanged$`/`hiddenAreasChanged$` vs `changed$`**:
-  `MapMakerStateService` fires the general `changed$` (triggers a
-  re-render) on every mutation as usual, but also fires narrower
-  `iconsChanged$` (party/player icon mutators) and `hiddenAreasChanged$`
-  (hidden-area designate/rename/remove/reveal mutators) subjects.
-  `MapMakerSyncService` subscribes to both of these narrower subjects (not
-  `changed$`) so it only broadcasts on genuine icon/hidden-area changes,
-  not on every pan/zoom/fragment edit.
+  mode has already started. Story 8 adds the same live-update treatment
+  for doors and art: **either** role posts a `'doors-update'` message
+  (carrying the full current door list) whenever `state.doorsChanged$`
+  fires, and an `'art-update'` message (carrying the full current
+  `artElements` list) whenever `state.artChanged$` fires — this is what
+  makes the DM revealing a hidden door/art asset *during Play mode* show up
+  live in the player-view; without it, the reveal only re-rendered the
+  DM's own canvas and never reached the popped-out player window.
+- **`iconsChanged$`/`hiddenAreasChanged$`/`doorsChanged$`/`artChanged$` vs
+  `changed$`**: `MapMakerStateService` fires the general `changed$`
+  (triggers a re-render) on every mutation as usual, but also fires
+  narrower `iconsChanged$` (party/player icon mutators),
+  `hiddenAreasChanged$` (hidden-area designate/rename/remove/reveal
+  mutators), `doorsChanged$` (door add/remove/hide/reveal mutators), and
+  `artChanged$` (art add/remove/transform/hide/reveal mutators) subjects.
+  `MapMakerSyncService` subscribes to all four of these narrower subjects
+  (not `changed$`) so it only broadcasts on genuine icon/hidden-area/door/
+  art changes, not on every pan/zoom/fragment edit.
 - **No-echo apply**: incoming `'icons-update'`/`'full-state'` messages are
-  applied via `state.applyRemoteIcons(partyIcon, playerIcons)`, and incoming
+  applied via `state.applyRemoteIcons(partyIcon, playerIcons)`, incoming
   `'hidden-areas-update'`/`'full-state'` messages via
-  `state.applyRemoteHiddenAreas(hiddenAreas)` — both overwrite the relevant
-  fields and fire `changed$` (to re-render) but deliberately **not**
-  `iconsChanged$`/`hiddenAreasChanged$` — this is what prevents an infinite
-  broadcast echo loop between the two windows.
+  `state.applyRemoteHiddenAreas(hiddenAreas)`, incoming `'doors-update'`
+  messages via `state.applyRemoteDoors(doors)`, and incoming `'art-update'`
+  messages via `state.applyRemoteArt(artElements)` — all overwrite the
+  relevant fields and fire `changed$` (to re-render) but deliberately
+  **not** their own `*Changed$` subject — this is what prevents an
+  infinite broadcast echo loop between the two windows.
 - **Full-map snapshot handshake**: `MapMakerStateService.getSnapshot()` /
   `applySnapshot(snapshot)` convert between live state (a `Map` for cells,
   etc.) and a plain-object `MapSnapshot` (`models/map-snapshot.ts` — cells
@@ -893,6 +912,85 @@ navigate away from via the main site nav.
   popped-out player-view's fog-of-war updates immediately — this is what
   makes the Reveal/Hide button actually show/hide the area on the player
   screen, not just locally on the DM's own canvas.
+
+## Hidden doors & hidden art (Story 8)
+
+Both doors (`models/door.ts`) and art elements (`models/art-element.ts`)
+gained two boolean fields: `hidden` (a design-time DM designation) and
+`revealed` (a Play-mode DM action, meaningless while `hidden` is `false`).
+Both default to `false` and are covered automatically by every existing
+save/load and DM↔player-view sync path, since those already round-trip
+whole `Door`/`ArtElement` objects via object spread (`{ ...door }` /
+`{ ...a }`) rather than naming individual fields.
+
+- **Marking a door hidden** (design mode): a new **"Mark Hidden"** toggle
+  button in the Door tool's sidebar panel arms/disarms
+  `MapMakerStateService.armHiddenDoorMode` (purely local UI state, like
+  `armPartyPlacement` — each window arms it independently, and it's
+  auto-disarmed by `setTool()` whenever the Door tool isn't active). While
+  disarmed, the Door tool behaves exactly as in Story 3 (click/drag toggles
+  a door's existence). While armed, `MapMakerCanvasComponent.toggleDoorAtPos()`
+  instead calls `state.toggleDoorHidden(orientation, col, row)` for the
+  nearest valid edge on each click/drag-entered edge — this flips the
+  `hidden` flag of whichever door already sits there (no-op if there's no
+  door on that edge; you can't hide a door that doesn't exist) and resets
+  `revealed` back to `false`, so re-marking a door never carries over a
+  stale Play-mode reveal state.
+- **Marking an art element hidden** (design mode): reuses the existing
+  Story 4 selection mechanism — no new modifier or arm-a-mode UI needed.
+  When an art element is selected (`state.selectedArtId` set, Art tool
+  active), the sidebar shows a **"Hidden"** checkbox
+  (`MapMakerSidebarComponent.selectedArt` getter +
+  `toggleSelectedArtHidden()`) bound to that element's `hidden` flag via
+  `state.setArtHidden(id, hidden)` (which likewise resets `revealed` to
+  `false`).
+- **Revealing in Play mode (DM view only)**: `MapMakerCanvasComponent.onMouseDown`'s
+  Play-mode, DM-view branch (`!isPlayerView`) tries, in order,
+  `handleHiddenAreaBadgeClick()` (Story 7), then two new handlers, each
+  short-circuiting the fall-through to party/player-icon click handling on
+  a hit:
+  - `handleDoorRevealClick()`: hit-tests every **hidden** door's on-screen
+    icon rectangle (`pointInDoorRect()`, reusing the existing
+    `getEdgeRect()` helper) and calls `state.toggleDoorRevealed(...)` on a
+    hit. Non-hidden doors are never hit-tested here — they stay
+    non-interactive in Play mode, same as before this story.
+  - `handleHiddenArtRevealClick()`: hit-tests only art elements with
+    `hidden === true`, reusing the same point-in-rotated-rect math as
+    `hitTestArt()`/`worldToArtLocal()`, and calls
+    `state.toggleArtRevealed(id)` on a hit. Non-hidden art is likewise
+    never hit-tested in Play mode.
+  - Both `toggleDoorRevealed`/`toggleArtRevealed` (like every other door/
+    art mutator) fire `doorsChanged$`/`artChanged$` in addition to
+    `changed$`, which `MapMakerSyncService` broadcasts to the popped-out
+    player-view window as a `'doors-update'`/`'art-update'` message (see
+    "Cross-window sync" above) — this is what makes a reveal made *during
+    Play mode* actually show up on the player screen, not just re-render
+    the DM's own canvas.
+- **Rendering** — the core trick for doors: the black perimeter border
+  between cells (`drawBorders()`/`computeBorderSegments()`) is computed
+  entirely independently of doors (see "Visual merging..." above), and is
+  drawn *before* `drawDoors()`. So simply skipping the door *icon* on the
+  player-view canvas when it's hidden-and-unrevealed automatically leaves
+  behind "a regular black-bordered edge" — exactly the story's wording —
+  with no extra rendering code required:
+  - `drawDoors()`: on the player-view canvas (`isPlayerView === true`),
+    skips drawing the icon entirely for any door with `hidden &&
+    !revealed`.
+  - `drawDoorShape()`: on the DM view, always draws the icon, but fills it
+    with a distinct tint color (`DOOR_HIDDEN_FILL_COLOR`, light blue)
+    instead of plain white whenever `door.hidden && (state.mode ===
+    'design' || !door.revealed)` — mirroring `drawHiddenAreas()`'s
+    design-vs-play `showTint` condition exactly, so the DM can spot
+    flagged/unrevealed doors at a glance. Once revealed in Play mode (or
+    always, in Design mode once un-hidden), it's plain white.
+  - `drawArt()`: on the player-view canvas, skips the element entirely
+    when `hidden && !revealed` (fully invisible — unlike doors there's no
+    "wall edge" fallback for a piece of furniture). On the DM view it
+    always draws normally, plus a small dashed indicator outline
+    (`drawArtHiddenIndicator()`, in a distinct color
+    `ART_HIDDEN_INDICATOR_COLOR` from the blue selection outline) whenever
+    `hidden && (state.mode === 'design' || !revealed)`, so hidden/
+    unrevealed art is spottable even when not currently selected.
 
 ## Extending this module (future stories)
 

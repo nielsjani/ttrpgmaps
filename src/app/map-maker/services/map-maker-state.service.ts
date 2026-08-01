@@ -127,6 +127,16 @@ export class MapMakerStateService {
   /** When true, the *next* canvas click in Play mode places (or re-places) the party icon there, using `playModeColor`, instead of being interpreted as a drag-start. Set by the sidebar's "Place/Move Party" button; auto-cleared once the placement happens. */
   armPartyPlacement = false;
 
+  /**
+   * When true (Story 8), clicking/dragging over an edge with the Door tool
+   * active no longer adds/removes doors — instead it toggles the `hidden`
+   * flag of whichever existing door sits on that edge (no-op on edges with
+   * no door). Armed/disarmed by the sidebar's "Mark Hidden" toggle button,
+   * purely local UI state (each window arms it independently, like
+   * `armPartyPlacement`).
+   */
+  armHiddenDoorMode = false;
+
   /** The user-customizable default color swatches shown in the sidebar, persisted to localStorage. */
   paletteColors: string[] = loadStoredPalette() ?? [...DEFAULT_COLORS];
   activeColor: string = this.paletteColors[0];
@@ -166,6 +176,25 @@ export class MapMakerStateService {
    * change after Play mode has started.
    */
   readonly hiddenAreasChanged$ = new Subject<void>();
+
+  /**
+   * Story 8: emits whenever a door is added, removed, or has its
+   * `hidden`/`revealed` flag toggled *locally* (not when applied via
+   * `applyRemoteDoors`, to avoid an echo loop). `MapMakerSyncService`
+   * subscribes to this so a DM revealing a hidden door *while already in
+   * Play mode* is broadcast to the player-view window — like hidden areas,
+   * this can legitimately change after the initial Play-mode handshake.
+   */
+  readonly doorsChanged$ = new Subject<void>();
+
+  /**
+   * Story 8: emits whenever an art element is added, removed, transformed,
+   * or has its `hidden`/`revealed` flag toggled *locally* (not when applied
+   * via `applyRemoteArt`, to avoid an echo loop). `MapMakerSyncService`
+   * subscribes to this so a DM revealing a hidden art asset *while already
+   * in Play mode* is broadcast to the player-view window.
+   */
+  readonly artChanged$ = new Subject<void>();
 
   /** Returns the fragments currently occupying a cell (empty array if none). */
   getFragments(coord: GridCoordinate): CellFragment[] {
@@ -226,6 +255,9 @@ export class MapMakerStateService {
     }
     if (tool !== 'art') {
       this.selectedArtId = null;
+    }
+    if (tool !== 'door') {
+      this.armHiddenDoorMode = false;
     }
   }
 
@@ -291,6 +323,7 @@ export class MapMakerStateService {
     this.partyIcon = null;
     this.playerIcons = [];
     this.armPartyPlacement = false;
+    this.armHiddenDoorMode = false;
     this.changed$.next();
   }
 
@@ -322,13 +355,50 @@ export class MapMakerStateService {
     if (this.doors.has(key)) {
       this.doors.delete(key);
       this.changed$.next();
+      this.doorsChanged$.next();
       return;
     }
     if (!this.canPlaceDoorAt(orientation, col, row)) {
       return;
     }
-    this.doors.set(key, { orientation, col, row });
+    this.doors.set(key, { orientation, col, row, hidden: false, revealed: false });
     this.changed$.next();
+    this.doorsChanged$.next();
+  }
+
+  /** Arms (or disarms) "Mark Hidden" mode for the Door tool (Story 8): see `armHiddenDoorMode`. */
+  setArmHiddenDoorMode(armed: boolean): void {
+    this.armHiddenDoorMode = armed;
+    this.changed$.next();
+  }
+
+  /**
+   * Story 8: flips the `hidden` flag of the door (if any) on the given
+   * edge — a no-op if there's no door there. Also resets `revealed` to
+   * `false`, so re-marking a door in design mode never carries over a
+   * stale Play-mode reveal state.
+   */
+  toggleDoorHidden(orientation: DoorOrientation, col: number, row: number): void {
+    const key = doorKey({ orientation, col, row });
+    const door = this.doors.get(key);
+    if (!door) {
+      return;
+    }
+    this.doors.set(key, { ...door, hidden: !door.hidden, revealed: false });
+    this.changed$.next();
+    this.doorsChanged$.next();
+  }
+
+  /** Story 8: flips the `revealed` flag of the door (if any) on the given edge — called when the DM clicks a hidden door's icon in Play mode. A no-op if there's no door there. */
+  toggleDoorRevealed(orientation: DoorOrientation, col: number, row: number): void {
+    const key = doorKey({ orientation, col, row });
+    const door = this.doors.get(key);
+    if (!door) {
+      return;
+    }
+    this.doors.set(key, { ...door, revealed: !door.revealed });
+    this.changed$.next();
+    this.doorsChanged$.next();
   }
 
   /** Removes any doors on edges touching the given cell (used when a cell becomes empty, since a door requires both neighbors to be non-empty). */
@@ -660,10 +730,13 @@ export class MapMakerStateService {
       width,
       height,
       rotation: 0,
+      hidden: false,
+      revealed: false,
     };
     this.artElements = [...this.artElements, art];
     this.selectedArtId = art.id;
     this.changed$.next();
+    this.artChanged$.next();
     return art;
   }
 
@@ -685,6 +758,7 @@ export class MapMakerStateService {
       return next;
     });
     this.changed$.next();
+    this.artChanged$.next();
   }
 
   /** Removes an art element entirely, deselecting it if it was selected. */
@@ -694,12 +768,33 @@ export class MapMakerStateService {
       this.selectedArtId = null;
     }
     this.changed$.next();
+    this.artChanged$.next();
   }
 
   /** Selects (or deselects, when passed null) a placed art element for showing move/scale/rotate handles. */
   setSelectedArt(id: string | null): void {
     this.selectedArtId = id;
     this.changed$.next();
+  }
+
+  /**
+   * Story 8: sets the `hidden` flag of a placed art element (design-time
+   * designation, driven by the sidebar's "Hidden" checkbox for the
+   * currently-selected element). Also resets `revealed` to `false`, so
+   * re-marking an element in design mode never carries over a stale
+   * Play-mode reveal state. No-op if the element doesn't exist.
+   */
+  setArtHidden(id: string, hidden: boolean): void {
+    this.artElements = this.artElements.map(a => (a.id === id ? { ...a, hidden, revealed: false } : a));
+    this.changed$.next();
+    this.artChanged$.next();
+  }
+
+  /** Story 8: flips the `revealed` flag of a placed art element — called when the DM clicks a hidden art element in Play mode. No-op if the element doesn't exist. */
+  toggleArtRevealed(id: string): void {
+    this.artElements = this.artElements.map(a => (a.id === id ? { ...a, revealed: !a.revealed } : a));
+    this.changed$.next();
+    this.artChanged$.next();
   }
 
   // --- Play mode: party/player icons ----------------------------------------
@@ -815,6 +910,35 @@ export class MapMakerStateService {
    */
   applyRemoteHiddenAreas(hiddenAreas: HiddenArea[]): void {
     this.hiddenAreas = hiddenAreas;
+    this.changed$.next();
+  }
+
+  /**
+   * Story 8: directly overwrites door state — used when applying an
+   * incoming `'doors-update'` message received over `MapMakerSyncService`'s
+   * BroadcastChannel (e.g. the DM revealing a hidden door while already in
+   * Play mode). Deliberately emits only `changed$` and *not*
+   * `doorsChanged$`, so applying a remote update doesn't get immediately
+   * re-broadcast back onto the channel (echo loop).
+   */
+  applyRemoteDoors(doors: Door[]): void {
+    this.doors.clear();
+    for (const door of doors) {
+      this.doors.set(doorKey(door), { ...door });
+    }
+    this.changed$.next();
+  }
+
+  /**
+   * Story 8: directly overwrites placed-art state — used when applying an
+   * incoming `'art-update'` message received over `MapMakerSyncService`'s
+   * BroadcastChannel (e.g. the DM revealing a hidden art asset while
+   * already in Play mode). Deliberately emits only `changed$` and *not*
+   * `artChanged$`, so applying a remote update doesn't get immediately
+   * re-broadcast back onto the channel (echo loop).
+   */
+  applyRemoteArt(artElements: ArtElement[]): void {
+    this.artElements = artElements.map(a => ({ ...a }));
     this.changed$.next();
   }
 

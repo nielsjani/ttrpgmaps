@@ -55,13 +55,33 @@
   </p>
   <p class="pan-hint" *ngIf="state.activeTool === 'door'">
     Hover a wall edge between two drawn squares to preview a door there. Click (or drag across several
-    edges) to toggle doors on and off. Edges next to an empty square can't have a door.
+    edges) to toggle doors on and off. Edges next to an empty square can't have a door. Toggle "Mark
+    Hidden" below, then click an existing door to hide it from the player-view until you reveal it in
+    Play mode.
   </p>
+  <div class="hidden-door-group" *ngIf="state.activeTool === 'door'">
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.armHiddenDoorMode"
+      (click)="toggleHiddenDoorMode()"
+    >🙈 Mark Hidden</button>
+  </div>
   <p class="pan-hint" *ngIf="state.activeTool === 'art'">
     Pick an asset below, then click the map to place it (it stays selected so you can stamp more copies).
     Click an existing piece to select and drag it; drag its bottom-right corner to scale, or its
     bottom-left corner to rotate.
   </p>
+  <div class="hidden-art-group" *ngIf="state.activeTool === 'art' && selectedArt as art">
+    <label class="hidden-art-checkbox">
+      <input
+        type="checkbox"
+        [checked]="art.hidden"
+        (change)="toggleSelectedArtHidden($any($event.target).checked)"
+      />
+      Hidden (revealed by the DM in Play mode)
+    </label>
+  </div>
   <p class="pan-hint" *ngIf="state.activeTool === 'hidden-area'">
     Click a drawn square to hide its whole connected room (stops automatically at walls and doors) —
     it's assigned the next free letter. Click any square in an already-hidden area to un-hide it. Rename

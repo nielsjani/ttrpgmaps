@@ -13,7 +13,7 @@ import { FRAGMENT_POLYGONS } from '../models/fragment-shape';
 import { computeBorderSegments } from '../models/fragment-borders';
 import { GridCoordinate, gridKey, parseGridKey } from '../models/grid';
 import { TextElement } from '../models/text-element';
-import { DoorOrientation, doorKey } from '../models/door';
+import { Door, DoorOrientation, doorKey } from '../models/door';
 import { ArtElement } from '../models/art-element';
 import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon } from '../models/player-icon';
@@ -35,6 +35,10 @@ const DOOR_BORDER_WIDTH_PX = 1.5;
 const DOOR_LENGTH_FACTOR = 0.6;
 const DOOR_THICKNESS_FACTOR = 0.28;
 const DOOR_HOVER_COLOR = 'rgba(74, 125, 252, 0.45)';
+/** Story 8: fill color for a hidden-and-not-yet-revealed door, shown only in the DM view (Design mode, or Play mode before it's revealed) so the DM can spot it at a glance. */
+const DOOR_HIDDEN_FILL_COLOR = '#a8dadc';
+/** Story 8: dashed outline color drawn around a hidden-and-not-yet-revealed art element, shown only in the DM view. */
+const ART_HIDDEN_INDICATOR_COLOR = '#e07a1f';
 /** How close (in cell units) the cursor must be to a grid edge for it to be considered "hovered"/toggleable. */
 const DOOR_EDGE_SNAP_THRESHOLD = 0.3;
 const ART_SELECTION_COLOR = '#4a7dfc';
@@ -233,6 +237,12 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
         if (!this.isPlayerView && this.handleHiddenAreaBadgeClick(pos)) {
           return;
         }
+        if (!this.isPlayerView && this.handleDoorRevealClick(pos)) {
+          return;
+        }
+        if (!this.isPlayerView && this.handleHiddenArtRevealClick(pos)) {
+          return;
+        }
         this.handleIconMouseDown(pos);
       } else if (this.state.activeTool === 'text') {
         this.handleTextMouseDown(pos);
@@ -402,7 +412,14 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
   }
 
-  /** Toggles the door at the nearest valid edge to the given screen position, deduped per edge during a drag so repeated mousemoves over the same edge don't flip it back and forth. */
+  /**
+   * Toggles the door at the nearest valid edge to the given screen
+   * position, deduped per edge during a drag so repeated mousemoves over
+   * the same edge don't flip it back and forth. While the sidebar's "Mark
+   * Hidden" toggle is armed (Story 8, `state.armHiddenDoorMode`), this
+   * toggles the `hidden` flag of an *existing* door on that edge instead
+   * of adding/removing it (a no-op on edges with no door).
+   */
   private toggleDoorAtPos(pos: { x: number; y: number }): void {
     const world = this.screenToWorld(pos.x, pos.y);
     const edge = this.findNearestEdge(world.x, world.y);
@@ -414,7 +431,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       return;
     }
     this.lastToggledEdgeKey = key;
-    this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
+    if (this.state.armHiddenDoorMode) {
+      this.state.toggleDoorHidden(edge.orientation, edge.col, edge.row);
+    } else {
+      this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
+    }
   }
 
   // --- Hidden area tool interaction -------------------------------------------
@@ -466,6 +487,51 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
     this.state.toggleHiddenAreaRevealed(hit.id);
     return true;
+  }
+
+  // --- Story 8: hidden door / hidden art reveal (Play mode, DM view only) -----
+
+  /** True if the given screen-space point falls within a door's on-screen icon rectangle. */
+  private pointInDoorRect(door: Door, screenPos: { x: number; y: number }): boolean {
+    const { x, y, w, h } = this.getEdgeRect(door.orientation, door.col, door.row, DOOR_LENGTH_FACTOR, DOOR_THICKNESS_FACTOR);
+    return screenPos.x >= x && screenPos.x <= x + w && screenPos.y >= y && screenPos.y <= y + h;
+  }
+
+  /**
+   * DM-view Play-mode click handler: if the click hits a **hidden** door's
+   * icon, toggles its `revealed` flag and reports `true` (so the caller
+   * skips its usual party/player-icon click handling). Non-hidden doors
+   * aren't hit-tested here — they stay non-interactive in Play mode, same
+   * as before Story 8.
+   */
+  private handleDoorRevealClick(pos: { x: number; y: number }): boolean {
+    for (const door of this.state.getAllDoors().values()) {
+      if (door.hidden && this.pointInDoorRect(door, pos)) {
+        this.state.toggleDoorRevealed(door.orientation, door.col, door.row);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /**
+   * DM-view Play-mode click handler: if the click hits a **hidden** art
+   * element, toggles its `revealed` flag and reports `true`. Non-hidden art
+   * isn't hit-tested here — it stays non-interactive in Play mode, same as
+   * before Story 8.
+   */
+  private handleHiddenArtRevealClick(pos: { x: number; y: number }): boolean {
+    const world = this.screenToWorld(pos.x, pos.y);
+    const hidden = this.state.artElements.filter(a => a.hidden);
+    for (let i = hidden.length - 1; i >= 0; i--) {
+      const art = hidden[i];
+      const local = this.worldToArtLocal(art, world.x, world.y);
+      if (Math.abs(local.x) <= art.width / 2 && Math.abs(local.y) <= art.height / 2) {
+        this.state.toggleArtRevealed(art.id);
+        return true;
+      }
+    }
+    return false;
   }
 
   // --- Art tool interaction ---------------------------------------------------
@@ -937,13 +1003,24 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.ctx.stroke();
   }
 
-  /** Draws the hover-highlighted edge (if the Door tool is active and the cursor is near a valid edge), then every placed door as a white rectangle with a black border, oriented with its long axis along the edge it sits on. */
+  /**
+   * Draws the hover-highlighted edge (if the Door tool is active and the
+   * cursor is near a valid edge), then every placed door as a white
+   * rectangle with a black border, oriented with its long axis along the
+   * edge it sits on. Story 8: on the player-view canvas, a hidden door that
+   * hasn't been revealed yet is skipped entirely — the plain black border
+   * `drawBorders()` already stroked underneath (independent of doors) shows
+   * through as a "regular black-bordered edge", exactly matching the story.
+   */
   private drawDoors(_width: number, _height: number): void {
     if (this.state.activeTool === 'door' && this.hoveredEdge) {
       this.drawEdgeHighlight(this.hoveredEdge.orientation, this.hoveredEdge.col, this.hoveredEdge.row);
     }
     for (const door of this.state.getAllDoors().values()) {
-      this.drawDoorShape(door.orientation, door.col, door.row);
+      if (this.isPlayerView && door.hidden && !door.revealed) {
+        continue;
+      }
+      this.drawDoorShape(door);
     }
   }
 
@@ -969,9 +1046,21 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     return { x: cx - length / 2, y: cy - thickness / 2, w: length, h: thickness };
   }
 
-  private drawDoorShape(orientation: DoorOrientation, col: number, row: number): void {
+  /**
+   * Draws a single door's icon rectangle. Story 8: in the DM view, a door
+   * that's designated `hidden` and not (yet) `revealed` — i.e. still
+   * hidden from the player-view — is filled with a distinct tint color
+   * instead of plain white, so the DM can see at a glance which doors are
+   * flagged and still un-revealed (mirroring `drawHiddenAreas()`'s
+   * design-vs-play tint logic). Once revealed in Play mode (or on the
+   * player-view canvas, which never draws unrevealed hidden doors at all —
+   * see `drawDoors()`), it renders as a normal white door.
+   */
+  private drawDoorShape(door: Door): void {
+    const { orientation, col, row } = door;
     const { x, y, w, h } = this.getEdgeRect(orientation, col, row, DOOR_LENGTH_FACTOR, DOOR_THICKNESS_FACTOR);
-    this.ctx.fillStyle = DOOR_FILL_COLOR;
+    const showHiddenTint = !this.isPlayerView && door.hidden && (this.state.mode === 'design' || !door.revealed);
+    this.ctx.fillStyle = showHiddenTint ? DOOR_HIDDEN_FILL_COLOR : DOOR_FILL_COLOR;
     this.ctx.fillRect(x, y, w, h);
     this.ctx.strokeStyle = DOOR_BORDER_COLOR;
     this.ctx.lineWidth = DOOR_BORDER_WIDTH_PX;
@@ -1087,10 +1176,24 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.ctx.fillText(area.name || area.letter, badge.x, badge.y);
   }
 
-  /** Draws every placed art element as a rotated image (rotation applied around its own center), skipping any whose image hasn't finished loading yet (it'll be drawn once `getArtImage`'s onload handler fires `changed$` and triggers a re-render). Also draws selection handles for the selected element while the Art tool is active. */
+  /**
+   * Draws every placed art element as a rotated image (rotation applied
+   * around its own center), skipping any whose image hasn't finished
+   * loading yet (it'll be drawn once `getArtImage`'s onload handler fires
+   * `changed$` and triggers a re-render). Story 8: on the player-view
+   * canvas, a hidden-and-not-yet-revealed art element is skipped entirely
+   * (fully invisible, unlike doors there's no "wall edge" fallback to show
+   * instead). In the DM view, hidden/not-yet-revealed elements draw
+   * normally plus a dashed indicator outline (`drawArtHiddenIndicator()`)
+   * so the DM can spot them even when not selected. Also draws selection
+   * handles for the selected element while the Art tool is active.
+   */
   private drawArt(_width: number, _height: number): void {
     const { pan, zoom } = this.state;
     for (const art of this.state.artElements) {
+      if (this.isPlayerView && art.hidden && !art.revealed) {
+        continue;
+      }
       const img = this.state.getArtImage(art.assetFileName);
       if (!img.complete || img.naturalWidth === 0) {
         continue;
@@ -1104,6 +1207,10 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.ctx.rotate(art.rotation);
       this.ctx.drawImage(img, -screenWidth / 2, -screenHeight / 2, screenWidth, screenHeight);
       this.ctx.restore();
+
+      if (!this.isPlayerView && art.hidden && (this.state.mode === 'design' || !art.revealed)) {
+        this.drawArtHiddenIndicator(art);
+      }
     }
 
     if (this.state.activeTool === 'art' && this.state.selectedArtId) {
@@ -1112,6 +1219,25 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
         this.drawArtSelection(selected);
       }
     }
+  }
+
+  /** Draws a dashed outline (in a distinct color from the blue selection outline) around a hidden-and-not-yet-revealed art element's bounding box, DM view only — see `drawArt()`. */
+  private drawArtHiddenIndicator(art: ArtElement): void {
+    const { pan, zoom } = this.state;
+    const screenCenterX = art.centerX * zoom + pan.x;
+    const screenCenterY = art.centerY * zoom + pan.y;
+    const screenWidth = art.width * zoom;
+    const screenHeight = art.height * zoom;
+
+    this.ctx.save();
+    this.ctx.translate(screenCenterX, screenCenterY);
+    this.ctx.rotate(art.rotation);
+    this.ctx.strokeStyle = ART_HIDDEN_INDICATOR_COLOR;
+    this.ctx.lineWidth = 1.5;
+    this.ctx.setLineDash([4, 3]);
+    this.ctx.strokeRect(-screenWidth / 2, -screenHeight / 2, screenWidth, screenHeight);
+    this.ctx.setLineDash([]);
+    this.ctx.restore();
   }
 
   /** Draws a dashed selection outline (rotated with the element) plus the scale/rotate corner handles. */

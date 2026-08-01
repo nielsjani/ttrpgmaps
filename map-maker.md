@@ -77,7 +77,7 @@ User can load a map from a file.
 All data from both design and play mode is saved/loaded.
 All features added in future stories will be saved/loaded.
 
-# 7. Hidden areas
+# 7. Hidden areas - DONE
 In design mode, the user can designate certain areas of the map as 'hidden'.
 These areas are not shown in the player-view.
 Each of these hidden areas gets assigned a letter (A, B, C, etc.). This name can be overridden.
@@ -87,7 +87,7 @@ In play mode, the dungeon-master can reveal certain areas by clicking on the cor
 The hidden areas are always visible in the dungeon-master-view but are only visible in the player-view when the corresponding letter is clicked by the dungeon master.
 The system will help the dungeon master indicating an area. An area is a collection of squares that are all connected to each other and are separated to the empty grid by a border or door(s).
 
-# 8. Hidden doors
+# 8. Hidden doors - DONE
 In design mode, the user can designate certain doors as 'hidden'.
 These doors appear as regular black-bordered edges in the player-view.
 The dungeon-master can reveal these doors by clicking on the corresponding door icon in dungeon master view.
@@ -113,3 +113,18 @@ Keeps the size, rotation and position of the art asset when copied, but places i
 
 # 13. Textured colors
 When drawing squares, the user can select a texture instead of a color. The textures are provided as images and can be tiled to fill the square.
+
+# 14. Add notes to a room
+New tool in the toolbar.
+User can select a note tool (icon) in the sidebar (or using shortcut 'n')
+User can select a room (room as defined in story 7). A form on the right hand side will appear.
+User can fill in text areas
+- Room name (simple input)
+- Description
+- Secrets
+- Loot 
+- Enemies
+- NPCs
+- Other
+All of these text areas need to allow hyperlinks to be added
+In play mode, these notes are only visible to the dungeon master. Empty notes are not shown here.

@@ -136,6 +136,28 @@ export class MapMakerSidebarComponent {
     return asset.id;
   }
 
+  // --- Story 8: hidden doors --------------------------------------------------
+
+  /** Arms (or disarms) "Mark Hidden" mode for the Door tool: while armed, clicking an existing door toggles its `hidden` flag instead of removing it. */
+  toggleHiddenDoorMode(): void {
+    this.state.setArmHiddenDoorMode(!this.state.armHiddenDoorMode);
+  }
+
+  // --- Story 8: hidden art -----------------------------------------------------
+
+  /** The currently-selected placed art element (shows the "Hidden" checkbox), or undefined if none is selected. */
+  get selectedArt() {
+    return this.state.selectedArtId ? this.state.getArt(this.state.selectedArtId) : undefined;
+  }
+
+  /** Sets the `hidden` flag of the currently-selected art element (no-op if none selected). */
+  toggleSelectedArtHidden(hidden: boolean): void {
+    if (!this.state.selectedArtId) {
+      return;
+    }
+    this.state.setArtHidden(this.state.selectedArtId, hidden);
+  }
+
   // --- Play mode ------------------------------------------------------------
 
   /** Sets the color used for the next party placement/re-color or player split. */

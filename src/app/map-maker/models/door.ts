@@ -13,11 +13,15 @@ export interface Door {
   orientation: DoorOrientation;
   col: number;
   row: number;
+  /** Story 8: whether the DM has designated this door as hidden (design-time flag). */
+  hidden: boolean;
+  /** Story 8: whether the DM has revealed this hidden door during Play mode. Meaningless while `hidden` is false. */
+  revealed: boolean;
 }
 
-/** Builds the canonical string key used to index/dedupe doors in a Map (e.g. "v:3,2"). */
-export function doorKey(door: Door): string {
-  return `${door.orientation === 'vertical' ? 'v' : 'h'}:${door.col},${door.row}`;
+/** Builds the canonical string key used to index/dedupe doors in a Map (e.g. "v:3,2"). Only needs the edge-identifying fields, not the full `Door` (so callers can build a key from just an orientation/col/row edge before a `Door` object even exists). */
+export function doorKey(edge: Pick<Door, 'orientation' | 'col' | 'row'>): string {
+  return `${edge.orientation === 'vertical' ? 'v' : 'h'}:${edge.col},${edge.row}`;
 }
 
 /** Returns the two grid cells adjacent to (bordering) a potential door edge. */

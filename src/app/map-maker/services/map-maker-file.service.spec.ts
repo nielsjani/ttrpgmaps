@@ -11,6 +11,7 @@ describe('MapMakerFileService', () => {
     doors: [{ orientation: 'vertical', col: 1, row: 0 }],
     texts: [],
     artElements: [],
+    hiddenAreas: [{ id: 'hidden-area-1', letter: 'A', name: 'A', cellKeys: ['0,0'], revealed: false }],
     partyIcon: null,
     playerIcons: [],
     paletteColors: ['#ffffff'],
@@ -47,6 +48,7 @@ describe('MapMakerFileService', () => {
     expect(restored.doors).toEqual([]);
     expect(restored.playerIcons).toEqual([]);
     expect(restored.partyIcon).toBeNull();
+    expect(restored.hiddenAreas).toEqual([]);
   });
 
   describe('fileNameFor()', () => {

@@ -3,6 +3,7 @@ import { MapMakerStateService, MIN_ZOOM, MAX_ZOOM } from '../services/map-maker-
 import { MapMakerTool, ShapeOption } from '../models/pick-shape';
 import { ArtAsset, artAssetPath } from '../models/art-asset';
 import { PlayerIcon } from '../models/player-icon';
+import { HiddenArea } from '../models/hidden-area';
 
 interface ShapeOptionDef {
   value: ShapeOption;
@@ -71,6 +72,8 @@ export class MapMakerSidebarComponent {
       this.selectTool('door');
     } else if (event.key === 'a' || event.key === 'A') {
       this.selectTool('art');
+    } else if (event.key === 'h' || event.key === 'H') {
+      this.selectTool('hidden-area');
     }
   }
 
@@ -168,6 +171,24 @@ export class MapMakerSidebarComponent {
 
   trackByPlayerId(_index: number, player: PlayerIcon): string {
     return player.id;
+  }
+
+  // --- Hidden areas (Story 7) ------------------------------------------------
+
+  renameHiddenArea(id: string, name: string): void {
+    this.state.renameHiddenArea(id, name);
+  }
+
+  removeHiddenArea(id: string): void {
+    this.state.removeHiddenArea(id);
+  }
+
+  toggleHiddenAreaRevealed(id: string): void {
+    this.state.toggleHiddenAreaRevealed(id);
+  }
+
+  trackByHiddenAreaId(_index: number, area: HiddenArea): string {
+    return area.id;
   }
 }
 

@@ -393,6 +393,154 @@ describe('MapMakerStateService — doors', () => {
   });
 });
 
+describe('MapMakerStateService — hidden areas', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    localStorage.removeItem('map-maker.palette-colors');
+    service = new MapMakerStateService();
+  });
+
+  function drawSquare(col: number, row: number): void {
+    service.setShapeOption('square');
+    service.placeFragment({ col, row }, 0.5, 0.5);
+  }
+
+  it('computeConnectedCells returns an empty set for an empty cell', () => {
+    expect(service.computeConnectedCells({ col: 0, row: 0 }).size).toBe(0);
+  });
+
+  it('computeConnectedCells includes all orthogonally-adjacent non-empty cells', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    drawSquare(1, 1);
+
+    const cells = service.computeConnectedCells({ col: 0, row: 0 });
+
+    expect(cells).toEqual(new Set(['0,0', '1,0', '1,1']));
+  });
+
+  it('computeConnectedCells stops at empty cells', () => {
+    drawSquare(0, 0);
+    drawSquare(2, 0); // not adjacent, (1,0) stays empty
+
+    const cells = service.computeConnectedCells({ col: 0, row: 0 });
+
+    expect(cells).toEqual(new Set(['0,0']));
+  });
+
+  it('computeConnectedCells stops at a door, even though both sides are non-empty', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleDoorAt('vertical', 1, 0);
+
+    const cells = service.computeConnectedCells({ col: 0, row: 0 });
+
+    expect(cells).toEqual(new Set(['0,0']));
+  });
+
+  it('toggleHiddenAreaAt creates a new hidden area covering the connected region, letter "A" first', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+
+    expect(service.hiddenAreas.length).toBe(1);
+    const area = service.hiddenAreas[0];
+    expect(area.letter).toBe('A');
+    expect(area.name).toBe('A');
+    expect(area.revealed).toBe(false);
+    expect(new Set(area.cellKeys)).toEqual(new Set(['0,0', '1,0']));
+  });
+
+  it('toggleHiddenAreaAt is a no-op when clicking an empty cell not part of any area', () => {
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    expect(service.hiddenAreas.length).toBe(0);
+  });
+
+  it('toggleHiddenAreaAt removes the whole area when clicking a cell already inside one', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    expect(service.hiddenAreas.length).toBe(1);
+
+    service.toggleHiddenAreaAt({ col: 1, row: 0 }); // any cell in the area un-hides it
+
+    expect(service.hiddenAreas.length).toBe(0);
+  });
+
+  it('assigns the next free letter and reuses a freed letter', () => {
+    drawSquare(0, 0);
+    drawSquare(5, 5);
+    drawSquare(9, 9);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    service.toggleHiddenAreaAt({ col: 5, row: 5 });
+    expect(service.hiddenAreas.map(a => a.letter).sort()).toEqual(['A', 'B']);
+
+    // Remove area "A" and create a new one — it should reuse letter "A".
+    const areaA = service.hiddenAreas.find(a => a.letter === 'A')!;
+    service.removeHiddenArea(areaA.id);
+    service.toggleHiddenAreaAt({ col: 9, row: 9 });
+
+    expect(service.hiddenAreas.map(a => a.letter).sort()).toEqual(['A', 'B']);
+  });
+
+  it('renameHiddenArea overrides the display name without affecting the letter', () => {
+    drawSquare(0, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    const area = service.hiddenAreas[0];
+
+    service.renameHiddenArea(area.id, 'Throne Room');
+
+    expect(service.hiddenAreas[0].name).toBe('Throne Room');
+    expect(service.hiddenAreas[0].letter).toBe('A');
+  });
+
+  it('toggleHiddenAreaRevealed flips the revealed flag', () => {
+    drawSquare(0, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    const id = service.hiddenAreas[0].id;
+    expect(service.hiddenAreas[0].revealed).toBe(false);
+
+    service.toggleHiddenAreaRevealed(id);
+    expect(service.hiddenAreas[0].revealed).toBe(true);
+
+    service.toggleHiddenAreaRevealed(id);
+    expect(service.hiddenAreas[0].revealed).toBe(false);
+  });
+
+  it('getHiddenAreaAt finds the area containing a given cell', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+
+    expect(service.getHiddenAreaAt({ col: 1, row: 0 })?.letter).toBe('A');
+    expect(service.getHiddenAreaAt({ col: 5, row: 5 })).toBeUndefined();
+  });
+
+  it('shrinks and eventually deletes a hidden area as its cells are individually erased', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    expect(service.hiddenAreas.length).toBe(1);
+
+    service.removeFragmentAt({ col: 1, row: 0 }, 0.5, 0.5);
+    expect(service.hiddenAreas[0].cellKeys).toEqual(['0,0']);
+
+    service.removeFragmentAt({ col: 0, row: 0 }, 0.5, 0.5);
+    expect(service.hiddenAreas.length).toBe(0);
+  });
+
+  it('clear() removes all hidden areas', () => {
+    drawSquare(0, 0);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+
+    service.clear();
+
+    expect(service.hiddenAreas.length).toBe(0);
+  });
+});
+
 describe('MapMakerStateService — art assets', () => {
   let service: MapMakerStateService;
 
@@ -671,13 +819,14 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(service.armPartyPlacement).toBe(false);
   });
 
-  it('getSnapshot()/applySnapshot() round-trips cells, doors, texts, and art', () => {
+  it('getSnapshot()/applySnapshot() round-trips cells, doors, texts, art, and hidden areas', () => {
     service.setShapeOption('square');
     service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
     service.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
     service.toggleDoorAt('vertical', 1, 0);
     service.addText(10, 20);
     service.addArt(service.artAssets[0].fileName, 5, 5);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
 
     const snapshot = service.getSnapshot();
 
@@ -691,9 +840,13 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(other.texts[0].text).toBe(service.texts[0].text);
     expect(other.artElements.length).toBe(1);
     expect(other.artElements[0].assetFileName).toBe(service.artElements[0].assetFileName);
+    expect(other.hiddenAreas.length).toBe(1);
+    expect(other.hiddenAreas[0].letter).toBe('A');
+    // A door already separates (0,0) from (1,0), so the designated area only covers (0,0).
+    expect(new Set(other.hiddenAreas[0].cellKeys)).toEqual(new Set(['0,0']));
   });
 
-  it('exportSaveData()/importSaveData() round-trips design data, play data, and color prefs', () => {
+  it('exportSaveData()/importSaveData() round-trips design data, play data, hidden areas, and color prefs', () => {
     service.dungeonName = 'My Dungeon';
     service.setShapeOption('square');
     service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
@@ -701,6 +854,8 @@ describe('MapMakerStateService — Play mode and icons', () => {
     service.toggleDoorAt('vertical', 1, 0);
     service.addText(10, 20);
     service.addArt(service.artAssets[0].fileName, 5, 5);
+    service.toggleHiddenAreaAt({ col: 0, row: 0 });
+    service.toggleHiddenAreaRevealed(service.hiddenAreas[0].id);
     service.setMode('play');
     service.placePartyIcon(3, 4, '#123456');
     service.splitPlayerIcon('#abcdef', 'Alice');
@@ -718,6 +873,8 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(other.getAllDoors().size).toBe(1);
     expect(other.texts.length).toBe(1);
     expect(other.artElements.length).toBe(1);
+    expect(other.hiddenAreas.length).toBe(1);
+    expect(other.hiddenAreas[0].revealed).toBe(true);
     expect(other.partyIcon).toEqual({ x: 3, y: 4, color: '#123456' });
     expect(other.playerIcons.length).toBe(1);
     expect(other.playerIcons[0].name).toBe('Alice');
@@ -746,6 +903,7 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(() => service.importSaveData(minimal)).not.toThrow();
     expect(service.mode).toBe('design');
     expect(service.paletteColors).toEqual(DEFAULT_COLORS);
+    expect(service.hiddenAreas).toEqual([]);
   });
 });
 
@@ -796,6 +954,33 @@ describe('MapMakerSyncService', () => {
         expect(dmState.partyIcon).toEqual({ x: 99, y: 100, color: '#ff0000' });
         // Applying the remote update must not itself re-fire iconsChanged$ on the DM side.
         expect(dmIconsChangedCount).toBe(0);
+        done();
+      }, 50);
+    });
+  });
+
+  it('propagates a hidden-area reveal toggled on the DM side to the player-view, live during Play mode', done => {
+    dmState.setShapeOption('square');
+    dmState.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
+    dmState.toggleHiddenAreaAt({ col: 0, row: 0 });
+    const areaId = dmState.hiddenAreas[0].id;
+
+    dmSync = new MapMakerSyncService(dmState, 'dm');
+    playerSync = new MapMakerSyncService(playerState, 'player');
+
+    playerSync.fullStateReceived$.subscribe(() => {
+      expect(playerState.hiddenAreas[0].revealed).toBe(false);
+
+      // DM reveals the area *after* the initial handshake, as would happen during Play mode.
+      let playerHiddenAreasChangedCount = 0;
+      playerState.hiddenAreasChanged$.subscribe(() => playerHiddenAreasChangedCount++);
+
+      dmState.toggleHiddenAreaRevealed(areaId);
+
+      setTimeout(() => {
+        expect(playerState.hiddenAreas[0].revealed).toBe(true);
+        // Applying the remote update must not itself re-fire hiddenAreasChanged$ on the player side.
+        expect(playerHiddenAreasChangedCount).toBe(0);
         done();
       }, 50);
     });

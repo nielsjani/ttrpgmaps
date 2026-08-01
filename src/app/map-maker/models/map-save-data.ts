@@ -4,6 +4,7 @@ import { TextElement } from './text-element';
 import { ArtElement } from './art-element';
 import { PartyIcon } from './party-icon';
 import { PlayerIcon } from './player-icon';
+import { HiddenArea } from './hidden-area';
 
 /**
  * The full, versioned payload persisted to/restored from a `.json` save
@@ -26,6 +27,7 @@ export interface MapMakerSaveData {
   doors: Door[];
   texts: TextElement[];
   artElements: ArtElement[];
+  hiddenAreas: HiddenArea[];
   partyIcon: PartyIcon | null;
   playerIcons: PlayerIcon[];
   paletteColors: string[];

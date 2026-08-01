@@ -11,3 +11,4 @@ export * from './party-icon';
 export * from './player-icon';
 export * from './map-snapshot';
 export * from './map-save-data';
+export * from './hidden-area';

@@ -281,3 +281,56 @@
     border-color: #d9534f;
   }
 }
+
+// --- Hidden areas (Story 7) -------------------------------------------------
+
+.hidden-area-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hidden-area-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hidden-area-letter {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #7b1fa2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.hidden-area-name-edit {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.hidden-area-name-readonly {
+  flex: 1;
+  min-width: 0;
+  font-size: 12px;
+}
+
+.reveal-toggle-button {
+  flex-shrink: 0;
+  padding: 4px 8px;
+  font-size: 11px;
+}

@@ -40,6 +40,14 @@
       title="Art tool (A)"
       (click)="selectTool('art')"
     >🪑<span class="tool-label">Art (A)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'hidden-area'"
+      title="Hidden area tool (H)"
+      (click)="selectTool('hidden-area')"
+    >🙈<span class="tool-label">Hidden area (H)</span></button>
   </div>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
     Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
@@ -53,6 +61,11 @@
     Pick an asset below, then click the map to place it (it stays selected so you can stamp more copies).
     Click an existing piece to select and drag it; drag its bottom-right corner to scale, or its
     bottom-left corner to rotate.
+  </p>
+  <p class="pan-hint" *ngIf="state.activeTool === 'hidden-area'">
+    Click a drawn square to hide its whole connected room (stops automatically at walls and doors) —
+    it's assigned the next free letter. Click any square in an already-hidden area to un-hide it. Rename
+    or remove areas in the list below.
   </p>
 
   <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">
@@ -124,6 +137,23 @@
       <li class="art-asset-empty" *ngIf="filteredArtAssets.length === 0">No assets match your search.</li>
     </ul>
   </div>
+
+  <div class="hidden-area-group" *ngIf="state.activeTool === 'hidden-area'">
+    <ul class="hidden-area-list">
+      <li *ngFor="let area of state.hiddenAreas; trackBy: trackByHiddenAreaId" class="hidden-area-row">
+        <span class="hidden-area-letter">{{ area.letter }}</span>
+        <input
+          type="text"
+          class="hidden-area-name-edit"
+          placeholder="Name"
+          [value]="area.name"
+          (change)="renameHiddenArea(area.id, $any($event.target).value)"
+        />
+        <button type="button" class="remove-player-button" title="Remove" (click)="removeHiddenArea(area.id)">✕</button>
+      </li>
+      <li class="art-asset-empty" *ngIf="state.hiddenAreas.length === 0">No hidden areas yet.</li>
+    </ul>
+  </div>
   </ng-container>
 
   <div class="play-group" *ngIf="state.mode === 'play'">
@@ -192,6 +222,18 @@
         <button type="button" class="remove-player-button" title="Remove" (click)="removePlayer(player.id)">✕</button>
       </li>
       <li class="art-asset-empty" *ngIf="state.playerIcons.length === 0">No player icons yet.</li>
+    </ul>
+
+    <ul class="hidden-area-list" *ngIf="state.hiddenAreas.length > 0">
+      <li *ngFor="let area of state.hiddenAreas; trackBy: trackByHiddenAreaId" class="hidden-area-row">
+        <span class="hidden-area-letter">{{ area.letter }}</span>
+        <span class="hidden-area-name-readonly">{{ area.name }}</span>
+        <button
+          type="button"
+          class="tool-button play-action-button reveal-toggle-button"
+          (click)="toggleHiddenAreaRevealed(area.id)"
+        >{{ area.revealed ? '🙉 Hide' : '👁️ Reveal' }}</button>
+      </li>
     </ul>
   </div>
 

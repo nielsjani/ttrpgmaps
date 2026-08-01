@@ -17,6 +17,7 @@ import { DoorOrientation, doorKey } from '../models/door';
 import { ArtElement } from '../models/art-element';
 import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon } from '../models/player-icon';
+import { HiddenArea } from '../models/hidden-area';
 
 const GRID_LINE_COLOR = '#dddddd';
 const BORDER_COLOR = '#000000';
@@ -45,6 +46,17 @@ const PLAYER_ICON_RADIUS = BASE_CELL_SIZE * 0.3;
 const ICON_BORDER_COLOR = '#000000';
 const ICON_BORDER_WIDTH_PX = 2;
 const ICON_LABEL_COLOR = '#000000';
+/** Design-mode tint over a hidden area's cells (both design-mode overview and, while not yet revealed, the DM's Play-mode view). */
+const HIDDEN_AREA_DESIGN_TINT = 'rgba(123, 31, 162, 0.22)';
+const HIDDEN_AREA_UNREVEALED_TINT = 'rgba(123, 31, 162, 0.32)';
+const HIDDEN_AREA_BADGE_FILL = '#7b1fa2';
+const HIDDEN_AREA_BADGE_BORDER = '#000000';
+const HIDDEN_AREA_BADGE_TEXT = '#ffffff';
+/** Screen-space (post-zoom) radius of a hidden area's clickable letter/name badge. */
+const HIDDEN_AREA_BADGE_RADIUS_PX = 14;
+/** Fog-of-war fill/border used on the player-view canvas for unrevealed hidden areas and empty grid space. */
+const FOG_FILL_COLOR = '#000000';
+const FOG_BORDER_COLOR = '#222222';
 
 type TextHandleKind = 'scale' | 'width' | 'height';
 type ArtHandleKind = 'scale' | 'rotate';
@@ -218,6 +230,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     } else if (event.button === 0) {
       this.isPointerDown = true;
       if (this.state.mode === 'play') {
+        if (!this.isPlayerView && this.handleHiddenAreaBadgeClick(pos)) {
+          return;
+        }
         this.handleIconMouseDown(pos);
       } else if (this.state.activeTool === 'text') {
         this.handleTextMouseDown(pos);
@@ -226,6 +241,8 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
         this.toggleDoorAtPos(pos);
       } else if (this.state.activeTool === 'art') {
         this.handleArtMouseDown(pos);
+      } else if (this.state.activeTool === 'hidden-area') {
+        this.handleHiddenAreaMouseDown(pos);
       } else {
         this.lastActedCellKey = null;
         this.performToolActionAt(pos);
@@ -398,6 +415,57 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     }
     this.lastToggledEdgeKey = key;
     this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
+  }
+
+  // --- Hidden area tool interaction -------------------------------------------
+
+  /** Design-mode click handler for the Hidden Area tool: toggles the hidden-area designation for whatever connected region contains the clicked cell. */
+  private handleHiddenAreaMouseDown(pos: { x: number; y: number }): void {
+    const { coord } = this.screenToCell(pos.x, pos.y);
+    this.state.toggleHiddenAreaAt(coord);
+  }
+
+  /** Computes the world-space centroid (cell-center average) of a hidden area's cells, used to place its letter/name badge. */
+  private hiddenAreaCentroid(area: HiddenArea): { x: number; y: number } {
+    let sumCol = 0;
+    let sumRow = 0;
+    for (const key of area.cellKeys) {
+      const { col, row } = parseGridKey(key);
+      sumCol += col + 0.5;
+      sumRow += row + 0.5;
+    }
+    const count = Math.max(1, area.cellKeys.length);
+    return { x: (sumCol / count) * BASE_CELL_SIZE, y: (sumRow / count) * BASE_CELL_SIZE };
+  }
+
+  /** Screen-space center + radius of a hidden area's clickable letter badge. */
+  private hiddenAreaBadgeScreenRect(area: HiddenArea): { x: number; y: number; radius: number } {
+    const center = this.hiddenAreaCentroid(area);
+    const { pan, zoom } = this.state;
+    return { x: center.x * zoom + pan.x, y: center.y * zoom + pan.y, radius: HIDDEN_AREA_BADGE_RADIUS_PX };
+  }
+
+  /** Finds the hidden area (if any) whose badge contains the given screen-space point. */
+  private hitTestHiddenAreaBadge(screenPos: { x: number; y: number }): HiddenArea | undefined {
+    return this.state.hiddenAreas.find(area => {
+      const badge = this.hiddenAreaBadgeScreenRect(area);
+      return Math.hypot(screenPos.x - badge.x, screenPos.y - badge.y) <= badge.radius;
+    });
+  }
+
+  /**
+   * DM-view Play-mode click handler: if the click hits a hidden area's
+   * letter badge, toggles its revealed state and reports `true` (so the
+   * caller skips its usual party/player-icon click handling); otherwise
+   * returns `false`.
+   */
+  private handleHiddenAreaBadgeClick(pos: { x: number; y: number }): boolean {
+    const hit = this.hitTestHiddenAreaBadge(pos);
+    if (!hit) {
+      return false;
+    }
+    this.state.toggleHiddenAreaRevealed(hit.id);
+    return true;
   }
 
   // --- Art tool interaction ---------------------------------------------------
@@ -783,6 +851,8 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawDoors(width, height);
     this.drawArt(width, height);
     this.drawTexts(width, height);
+    this.drawFogOfWar(width, height);
+    this.drawHiddenAreas(width, height);
     this.drawPartyAndPlayerIcons();
   }
 
@@ -925,6 +995,96 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.ctx.lineTo((col + 1) * size + pan.x, y);
     }
     this.ctx.stroke();
+  }
+
+  /**
+   * Fog-of-war pass, only meaningful on the player-view canvas while in Play
+   * mode (a no-op everywhere else — the DM's own view always shows the true
+   * map). Paints a solid black, black-bordered square over every visible
+   * cell that either belongs to a not-yet-revealed hidden area, or has no
+   * fragments at all (the story's "space between shown areas"), fully
+   * occluding whatever the earlier draw passes rendered there.
+   */
+  private drawFogOfWar(width: number, height: number): void {
+    if (!this.isPlayerView || this.state.mode !== 'play') {
+      return;
+    }
+    const size = this.cellSize;
+    if (size <= 0) {
+      return;
+    }
+    const { pan } = this.state;
+    const minCol = Math.floor(-pan.x / size);
+    const maxCol = Math.ceil((width - pan.x) / size);
+    const minRow = Math.floor(-pan.y / size);
+    const maxRow = Math.ceil((height - pan.y) / size);
+
+    this.ctx.lineWidth = 1;
+    for (let col = minCol; col <= maxCol; col++) {
+      for (let row = minRow; row <= maxRow; row++) {
+        const coord = { col, row };
+        const hiddenArea = this.state.getHiddenAreaAt(coord);
+        const isFogged = hiddenArea ? !hiddenArea.revealed : this.state.getFragments(coord).length === 0;
+        if (!isFogged) {
+          continue;
+        }
+        const x = col * size + pan.x;
+        const y = row * size + pan.y;
+        this.ctx.fillStyle = FOG_FILL_COLOR;
+        this.ctx.fillRect(x, y, size, size);
+        this.ctx.strokeStyle = FOG_BORDER_COLOR;
+        this.ctx.strokeRect(x, y, size, size);
+      }
+    }
+  }
+
+  /**
+   * Draws hidden-area indicators: never on the player-view canvas. In
+   * Design mode, every hidden area gets a translucent tint over its cells
+   * plus a letter/name badge, so the DM keeps track of them while drawing.
+   * In Play mode (DM view only), only not-yet-revealed areas keep the
+   * tint (so the DM can see at a glance what's still hidden), but every
+   * area's badge remains, now clickable (see `handleHiddenAreaBadgeClick`)
+   * to toggle its revealed state.
+   */
+  private drawHiddenAreas(width: number, height: number): void {
+    if (this.isPlayerView || this.state.hiddenAreas.length === 0) {
+      return;
+    }
+    const size = this.cellSize;
+    const { pan } = this.state;
+    for (const area of this.state.hiddenAreas) {
+      const showTint = this.state.mode === 'design' || !area.revealed;
+      if (showTint) {
+        this.ctx.fillStyle = this.state.mode === 'design' ? HIDDEN_AREA_DESIGN_TINT : HIDDEN_AREA_UNREVEALED_TINT;
+        for (const key of area.cellKeys) {
+          const { col, row } = parseGridKey(key);
+          const x = col * size + pan.x;
+          const y = row * size + pan.y;
+          if (x + size < 0 || x > width || y + size < 0 || y > height) {
+            continue;
+          }
+          this.ctx.fillRect(x, y, size, size);
+        }
+      }
+      this.drawHiddenAreaBadge(area);
+    }
+  }
+
+  private drawHiddenAreaBadge(area: HiddenArea): void {
+    const badge = this.hiddenAreaBadgeScreenRect(area);
+    this.ctx.beginPath();
+    this.ctx.arc(badge.x, badge.y, badge.radius, 0, Math.PI * 2);
+    this.ctx.fillStyle = HIDDEN_AREA_BADGE_FILL;
+    this.ctx.fill();
+    this.ctx.lineWidth = 1.5;
+    this.ctx.strokeStyle = HIDDEN_AREA_BADGE_BORDER;
+    this.ctx.stroke();
+    this.ctx.fillStyle = HIDDEN_AREA_BADGE_TEXT;
+    this.ctx.textAlign = 'center';
+    this.ctx.textBaseline = 'middle';
+    this.ctx.font = 'bold 12px sans-serif';
+    this.ctx.fillText(area.name || area.letter, badge.x, badge.y);
   }
 
   /** Draws every placed art element as a rotated image (rotation applied around its own center), skipping any whose image hasn't finished loading yet (it'll be drawn once `getArtImage`'s onload handler fires `changed$` and triggers a re-render). Also draws selection handles for the selected element while the Art tool is active. */

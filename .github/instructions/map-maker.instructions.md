@@ -47,6 +47,14 @@ infinite, pannable, zoomable canvas.
   preferences) as a versioned `.json` file, and reload it later. The
   downloaded file is named after the sanitized dungeon name. Described in
   detail below.
+- **Story 7 — Hidden areas**: implemented. A Hidden Area tool (`h`
+  shortcut) lets the DM designate a connected, wall/door-bounded region of
+  drawn cells as hidden, auto-assigning it the next free letter (A, B, C,
+  …, renamable). In Play mode, the player-view canvas renders unrevealed
+  hidden areas — and any undrawn grid space — as a solid black,
+  bordered "fog of war"; the DM's own view always shows everything, plus a
+  clickable letter badge per area to toggle its revealed state. Described
+  in detail below.
 
 ## Module structure
 
@@ -70,6 +78,7 @@ src/app/map-maker/
 │   ├── art-element.ts             # ArtElement, generateArtId() — Story 4 placed art instances
 │   ├── party-icon.ts              # PartyIcon — Story 5 shared party marker
 │   ├── player-icon.ts             # PlayerIcon, generatePlayerIconId() — Story 5 split-off markers
+│   ├── hidden-area.ts              # HiddenArea, generateHiddenAreaId(), letterForIndex(), nextAvailableLetter() — Story 7
 │   ├── map-snapshot.ts            # MapSnapshot — serializable design-data mirror for the sync handshake
 │   ├── map-save-data.ts           # MapMakerSaveData — versioned full save-file payload (Story 6)
 │   └── index.ts                   # barrel export
@@ -582,22 +591,31 @@ backend involved):
   message shapes): a `role: 'player'` instance posts `'request-state'`
   immediately on construction; a `role: 'dm'` instance replies with
   `'full-state'` containing `state.getSnapshot()` (see below) plus the
-  current `partyIcon`/`playerIcons` — a one-time handshake, since design
-  data can't change while in Play mode so it never needs re-sending.
-  Thereafter, **either** role posts a lightweight `'icons-update'` message
-  whenever its own `state.iconsChanged$` fires (i.e. whenever *that*
-  window's user placed/moved/recolored/renamed/added/removed a
-  party/player icon).
-- **`iconsChanged$` vs `changed$`**: `MapMakerStateService` fires the
-  general `changed$` (triggers a re-render) on every mutation as usual, but
-  also fires a narrower `iconsChanged$` *only* from the party/player icon
-  mutator methods above. `MapMakerSyncService` subscribes to `iconsChanged$`
-  (not `changed$`) so it only broadcasts on genuine icon changes, not on
-  every pan/zoom/fragment edit.
+  current `partyIcon`/`playerIcons` — a one-time handshake for data that's
+  otherwise fixed for the duration of Play mode. Thereafter, **either**
+  role posts a lightweight `'icons-update'` message whenever its own
+  `state.iconsChanged$` fires (i.e. whenever *that* window's user
+  placed/moved/recolored/renamed/added/removed a party/player icon).
+  Additionally, **either** role posts a `'hidden-areas-update'` message
+  whenever `state.hiddenAreasChanged$` fires — this is what makes revealing
+  or hiding a hidden area's letter badge *during Play mode* (Story 7) show
+  up live in the other window, since (unlike the rest of the design-time
+  map) a hidden area's `revealed` flag can legitimately change after Play
+  mode has already started.
+- **`iconsChanged$`/`hiddenAreasChanged$` vs `changed$`**:
+  `MapMakerStateService` fires the general `changed$` (triggers a
+  re-render) on every mutation as usual, but also fires narrower
+  `iconsChanged$` (party/player icon mutators) and `hiddenAreasChanged$`
+  (hidden-area designate/rename/remove/reveal mutators) subjects.
+  `MapMakerSyncService` subscribes to both of these narrower subjects (not
+  `changed$`) so it only broadcasts on genuine icon/hidden-area changes,
+  not on every pan/zoom/fragment edit.
 - **No-echo apply**: incoming `'icons-update'`/`'full-state'` messages are
-  applied via `state.applyRemoteIcons(partyIcon, playerIcons)`, which
-  overwrites the icon fields and fires `changed$` (to re-render) but
-  deliberately **not** `iconsChanged$` — this is what prevents an infinite
+  applied via `state.applyRemoteIcons(partyIcon, playerIcons)`, and incoming
+  `'hidden-areas-update'`/`'full-state'` messages via
+  `state.applyRemoteHiddenAreas(hiddenAreas)` — both overwrite the relevant
+  fields and fire `changed$` (to re-render) but deliberately **not**
+  `iconsChanged$`/`hiddenAreasChanged$` — this is what prevents an infinite
   broadcast echo loop between the two windows.
 - **Full-map snapshot handshake**: `MapMakerStateService.getSnapshot()` /
   `applySnapshot(snapshot)` convert between live state (a `Map` for cells,
@@ -642,8 +660,9 @@ navigate away from via the main site nav.
   down takes its place. The "hold right mouse to pan" hint and the zoom
   slider are shown unconditionally in both modes.
 - Tool buttons: **Square** (`s` shortcut), **Delete** (`d` shortcut),
-  **Text** (`t` shortcut), **Door** (`o` shortcut), and **Art** (`a`
-  shortcut), bound to `MapMakerStateService.activeTool`. There is no "Pan"
+  **Text** (`t` shortcut), **Door** (`o` shortcut), **Art** (`a`
+  shortcut), and **Hidden area** (`h` shortcut), bound to
+  `MapMakerStateService.activeTool`. There is no "Pan"
   tool button — a hint below the tool buttons reminds the user that holding
   the right mouse button pans regardless of the selected tool; a second
   hint (shown only while the Text tool is active) explains the
@@ -652,7 +671,10 @@ navigate away from via the main site nav.
   active) explains hover-to-preview / click-or-drag-to-toggle and the
   "needs two non-empty neighboring squares" requirement; a fourth hint
   (shown only while the Art tool is active) explains pick-then-click-to-
-  place / click-to-select-and-drag / corner-drag-to-scale-or-rotate.
+  place / click-to-select-and-drag / corner-drag-to-scale-or-rotate; a
+  fifth hint (shown only while the Hidden Area tool is active) explains
+  click-to-designate / click-again-to-remove and that regions stop
+  automatically at walls and doors.
   Shortcuts are handled via a `window:keydown` host listener that ignores
   keystrokes while an `<input>`/`<textarea>`/`<select>` has focus (so typing
   in the custom color picker, the text inline-edit overlay, or the art
@@ -679,6 +701,12 @@ navigate away from via the main site nav.
   Clicking a row calls `selectArtAsset()`, which toggles
   `state.selectedArtAssetFileName` (clicking the already-selected asset
   deselects it) — the active asset is highlighted in the list.
+- Hidden-area list (shown only while the Hidden Area tool is active): an
+  editable `<ul>` of `state.hiddenAreas` — each row shows the area's
+  `letter`, a name `<input>` (`renameHiddenArea()`) defaulting to the
+  letter but freely overridable, and a remove button
+  (`removeHiddenArea()`) — same row layout as the Play-mode player-icon
+  list.
 - Zoom slider: an `<input type="range">` bound to `state.zoom`
   (`[MIN_ZOOM, MAX_ZOOM]`), kept in sync with wheel-zooming on the canvas.
 - **Play-mode panel** (`*ngIf="state.mode === 'play'"`, see "Design vs Play
@@ -691,7 +719,11 @@ navigate away from via the main site nav.
   optional name `<input>` (`newPlayerName`) next to it; and an editable
   list of existing player icons — each row has a color `<input
   type="color">` (`setPlayerColor()`), a name `<input>` (`setPlayerName()`),
-  and a remove button (`removePlayer()`).
+  and a remove button (`removePlayer()`). Below that, if any hidden areas
+  exist, a read-only list mirroring them (letter + name + a Reveal/Hide
+  toggle button calling `toggleHiddenAreaRevealed()`) — a discoverable
+  alternative to clicking a hidden area's letter badge directly on the
+  canvas (see Story 7 below).
 
 ## Save and load (Story 6)
 
@@ -744,6 +776,123 @@ navigate away from via the main site nav.
     exactly like `togglePlayMode()` would, before calling
     `state.importSaveData()`. The input's `value` is reset after every
     selection so re-picking the same file re-fires `change`.
+
+## Hidden areas (Story 7)
+
+- **Data model** (`models/hidden-area.ts`): `HiddenArea { id, letter, name,
+  cellKeys, revealed }`. `cellKeys` is a **frozen snapshot** — an array of
+  `gridKey()` strings captured at the moment the area was designated — not
+  continuously recomputed as the map is edited, mirroring how doors and
+  fragments are each independently-tracked pieces of state elsewhere in
+  this module. `letter` is the stable, auto-assigned identifier used for
+  reuse ordering; `name` starts out equal to `letter` but can be freely
+  overridden by the user without affecting letter reuse.
+  `letterForIndex(n)` produces a spreadsheet-column-style base-26 sequence
+  (`A, B, … Z, AA, AB, …`) so there's no hard cap on the number of areas;
+  `nextAvailableLetter(existing)` picks the smallest letter in that
+  sequence not currently in use, so deleting an area frees its letter for
+  the next one.
+- **"Area" definition**: a maximal connected region of non-empty cells,
+  where connectivity stops at any edge that either borders an empty cell
+  **or** has a door on it — both act as the area's boundary, matching the
+  story text ("separated to the empty grid by a border or door(s)")
+  almost verbatim. In particular, two rooms joined by a door are always
+  two *separate* hidden areas, never one.
+- **State** (`MapMakerStateService`):
+  - `hiddenAreas: HiddenArea[]`.
+  - `computeConnectedCells(coord): Set<string>` — the flood-fill described
+    above (returns an empty set if `coord` itself has no fragments).
+  - `getHiddenAreaAt(coord)`: the (first) area whose `cellKeys` contains
+    that cell's key, if any.
+  - `toggleHiddenAreaAt(coord)`: the single entry point the canvas calls.
+    If `coord` already belongs to a hidden area, the **whole area** is
+    removed (a click anywhere inside an existing area un-hides it, not
+    just its originally-clicked cell); otherwise, provided the cell is
+    non-empty, a new `HiddenArea` is created covering
+    `computeConnectedCells(coord)` with the next free letter as both
+    `letter` and initial `name`. No-op on an empty cell not already part
+    of an area.
+  - `renameHiddenArea(id, name)`, `removeHiddenArea(id)` (frees the
+    letter for reuse), `toggleHiddenAreaRevealed(id)` (flips `revealed`,
+    called from the DM's canvas-badge click in Play mode, or the
+    Play-mode sidebar list's Reveal/Hide button).
+  - Cleanup: `removeFragmentAt()`'s existing cell-deletion branch (which
+    already calls `removeDoorsTouchingCell`) additionally calls a private
+    `removeHiddenAreaCell(coord)`, stripping that cell's key out of every
+    area's `cellKeys` and deleting any area that becomes fully empty as a
+    result — the same idiom as door cleanup.
+  - `clear()` also clears `hiddenAreas`.
+- **Snapshot & save-data plumbing**: `hiddenAreas` is included in both
+  `MapSnapshot` (`models/map-snapshot.ts` — needed by the DM→player sync
+  handshake, since the player-view's fog rendering depends on it, unlike
+  text/mode which are DM-only) and `MapMakerSaveData`
+  (`models/map-save-data.ts`). `getSnapshot()`/`applySnapshot()` and
+  `exportSaveData()`/`importSaveData()` all include/restore it
+  defensively (`data.hiddenAreas ?? []`, same pattern as every other
+  optional field, for backward compatibility with older save files).
+  `revealed` is deliberately persisted through save/load and through
+  Design↔Play mode switches — same "never silently clears content"
+  philosophy as Story 5/6 (a DM can save mid-session with some areas
+  already revealed).
+- **Canvas interaction** (`MapMakerCanvasComponent`):
+  - **Design mode, Hidden Area tool active**: `onMouseDown`'s design-tool
+    branch calls `handleHiddenAreaMouseDown()` → `state.toggleHiddenAreaAt()`
+    once per click. Unlike Square/Delete, this is a **whole-region toggle**,
+    not a per-cell paint, so there is deliberately no drag-repeat handling
+    (dragging across a freshly-designated area's cells would otherwise
+    flicker it on/off) — `performToolActionAt()`'s generic drag-repaint
+    path silently no-ops for this tool since neither of its `square`/
+    `delete` branches match it.
+  - **Play mode, DM view only** (`!isPlayerView`): before falling through
+    to the usual party/player-icon click handling, `onMouseDown` calls
+    `handleHiddenAreaBadgeClick()`, which hit-tests every hidden area's
+    letter badge (`hitTestHiddenAreaBadge()`/`hiddenAreaBadgeScreenRect()`,
+    a simple screen-space circle centered on `hiddenAreaCentroid()` — the
+    average cell-center of `cellKeys`) and, if hit, calls
+    `state.toggleHiddenAreaRevealed()` and reports handled (so the click
+    doesn't also try to place/drag an icon).
+- **Rendering**:
+  - `drawHiddenAreas()` (new pass, after `drawTexts()`/before the fog pass
+    in `render()`'s order — see below): a no-op on the player-view canvas
+    (`isPlayerView`) and when there are no hidden areas. In Design mode,
+    every area gets a translucent purple tint (`HIDDEN_AREA_DESIGN_TINT`)
+    over its cells; in Play mode (DM view), only **not-yet-revealed**
+    areas keep a (slightly stronger) tint, so the DM can tell at a glance
+    what's still hidden. Every area, in both modes, gets a small circular
+    letter/name badge (`drawHiddenAreaBadge()`) drawn at its centroid —
+    this badge becomes clickable once in Play mode (see above).
+  - `drawFogOfWar()` (new pass, only meaningful when `isPlayerView &&
+    state.mode === 'play'` — a no-op otherwise, including on the DM's own
+    canvas, which always shows the true map): iterates the same visible
+    cell range already computed by `drawGrid()` and paints a solid black,
+    black-bordered square over every cell that either belongs to a
+    not-yet-revealed hidden area, or has no fragments at all (the story's
+    "space between shown areas" — i.e. plain undrawn grid space becomes
+    fog too, not just designated hidden rooms). It runs *after*
+    fragments/doors/art/text have already been drawn normally, simply
+    painting over them — this fully occludes shape/color/door/art details
+    in fogged cells without needing to special-case any earlier draw
+    pass. `render()`'s order is: grid → fragments → borders → doors → art
+    → texts → **fog of war** → **hidden-area tint/badges** → party/player
+    icons (icons are always drawn last, on top of the fog, so the party
+    token stays visible even in unexplored territory).
+  - As with `computeBorderSegments()`, both new passes iterate every
+    visible cell on every render; fine at prototype scale, but a future
+    story should consider caching if large maps make this sluggish.
+- **Sidebar** (`MapMakerSidebarComponent`): a new **Hidden area** tool
+  button (`h` shortcut); a hint shown while it's active; an editable list
+  of `state.hiddenAreas` (letter + renamable name + remove button) shown
+  alongside the tool in Design mode; and, in the Play-mode panel, a
+  parallel read-only list with a Reveal/Hide toggle button per area (see
+  the Sidebar section above for both).
+- **Live reveal sync during Play mode**: toggling `revealed` (via the
+  DM's canvas badge click or the Play-mode sidebar button) fires
+  `hiddenAreasChanged$` in addition to `changed$`. `MapMakerSyncService`
+  subscribes to `hiddenAreasChanged$` and broadcasts a
+  `'hidden-areas-update'` message (see "Cross-window sync" above) so the
+  popped-out player-view's fog-of-war updates immediately — this is what
+  makes the Reveal/Hide button actually show/hide the area on the player
+  screen, not just locally on the DM's own canvas.
 
 ## Extending this module (future stories)
 

@@ -13,6 +13,7 @@ import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon, generatePlayerIconId } from '../models/player-icon';
 import { MapSnapshot } from '../models/map-snapshot';
 import { MapMakerSaveData } from '../models/map-save-data';
+import { HiddenArea, generateHiddenAreaId, nextAvailableLetter } from '../models/hidden-area';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -86,6 +87,9 @@ export class MapMakerStateService {
   private readonly cells = new Map<string, CellFragment[]>();
   private readonly doors = new Map<string, Door>();
 
+  /** Hidden areas designated by the DM (Story 7). See models/hidden-area.ts. */
+  hiddenAreas: HiddenArea[] = [];
+
   activeTool: MapMakerTool = 'square';
   activeShapeOption: ShapeOption = 'square';
 
@@ -152,6 +156,17 @@ export class MapMakerStateService {
    */
   readonly iconsChanged$ = new Subject<void>();
 
+  /**
+   * Emits only when a hidden area is designated, renamed, removed, or has
+   * its `revealed` flag toggled *locally* (not when applied via
+   * `applyRemoteHiddenAreas`, to avoid an echo loop). `MapMakerSyncService`
+   * subscribes to this so a DM revealing/hiding an area *while already in
+   * Play mode* is broadcast to the player-view window — unlike the rest of
+   * the design-time map, hidden-area `revealed` state can legitimately
+   * change after Play mode has started.
+   */
+  readonly hiddenAreasChanged$ = new Subject<void>();
+
   /** Returns the fragments currently occupying a cell (empty array if none). */
   getFragments(coord: GridCoordinate): CellFragment[] {
     return this.cells.get(gridKey(coord)) ?? [];
@@ -197,6 +212,7 @@ export class MapMakerStateService {
     if (remaining.length === 0) {
       this.cells.delete(key);
       this.removeDoorsTouchingCell(coord);
+      this.removeHiddenAreaCell(coord);
     } else {
       this.cells.set(key, remaining);
     }
@@ -270,6 +286,7 @@ export class MapMakerStateService {
     this.selectedArtId = null;
     this.texts = [];
     this.selectedTextId = null;
+    this.hiddenAreas = [];
     this.mode = 'design';
     this.partyIcon = null;
     this.playerIcons = [];
@@ -322,6 +339,127 @@ export class MapMakerStateService {
         this.doors.delete(key);
       }
     }
+  }
+
+  // --- Story 7: hidden areas -----------------------------------------------
+
+  /**
+   * Flood-fills from `coord` across orthogonally-adjacent non-empty cells,
+   * stopping at any edge that either borders an empty cell or has a door on
+   * it (both act as an area's boundary, per the story: "separated to the
+   * empty grid by a border or door(s)"). Returns an empty set if the
+   * starting cell itself has no fragments.
+   */
+  computeConnectedCells(coord: GridCoordinate): Set<string> {
+    const visited = new Set<string>();
+    if (this.getFragments(coord).length === 0) {
+      return visited;
+    }
+    const queue: GridCoordinate[] = [coord];
+    const neighbors: Array<{ orientation: DoorOrientation; col: number; row: number; next: GridCoordinate }> = [];
+    while (queue.length > 0) {
+      const current = queue.pop()!;
+      const key = gridKey(current);
+      if (visited.has(key)) {
+        continue;
+      }
+      visited.add(key);
+
+      neighbors.length = 0;
+      // Left neighbor: vertical edge at x = current.col.
+      neighbors.push({ orientation: 'vertical', col: current.col, row: current.row, next: { col: current.col - 1, row: current.row } });
+      // Right neighbor: vertical edge at x = current.col + 1.
+      neighbors.push({ orientation: 'vertical', col: current.col + 1, row: current.row, next: { col: current.col + 1, row: current.row } });
+      // Top neighbor: horizontal edge at y = current.row.
+      neighbors.push({ orientation: 'horizontal', col: current.col, row: current.row, next: { col: current.col, row: current.row - 1 } });
+      // Bottom neighbor: horizontal edge at y = current.row + 1.
+      neighbors.push({ orientation: 'horizontal', col: current.col, row: current.row + 1, next: { col: current.col, row: current.row + 1 } });
+
+      for (const { orientation, col, row, next } of neighbors) {
+        const nextKey = gridKey(next);
+        if (visited.has(nextKey)) {
+          continue;
+        }
+        if (this.getFragments(next).length === 0) {
+          continue;
+        }
+        if (this.hasDoorAt(orientation, col, row)) {
+          continue;
+        }
+        queue.push(next);
+      }
+    }
+    return visited;
+  }
+
+  /** Returns the hidden area (if any) that the given cell belongs to. */
+  getHiddenAreaAt(coord: GridCoordinate): HiddenArea | undefined {
+    const key = gridKey(coord);
+    return this.hiddenAreas.find(area => area.cellKeys.includes(key));
+  }
+
+  /**
+   * Toggles the hidden-area designation for the region containing `coord`:
+   * if that cell already belongs to a hidden area, the whole area is
+   * removed; otherwise (provided the cell is non-empty) a new hidden area
+   * is created covering `computeConnectedCells(coord)`, with the next free
+   * letter as both its `letter` and initial `name`. No-op if the cell is
+   * empty and not already part of an area.
+   */
+  toggleHiddenAreaAt(coord: GridCoordinate): void {
+    const existing = this.getHiddenAreaAt(coord);
+    if (existing) {
+      this.removeHiddenArea(existing.id);
+      return;
+    }
+    const cells = this.computeConnectedCells(coord);
+    if (cells.size === 0) {
+      return;
+    }
+    const letter = nextAvailableLetter(this.hiddenAreas);
+    this.hiddenAreas = [
+      ...this.hiddenAreas,
+      { id: generateHiddenAreaId(), letter, name: letter, cellKeys: Array.from(cells), revealed: false },
+    ];
+    this.changed$.next();
+    this.hiddenAreasChanged$.next();
+  }
+
+  /** Overrides the display name of a hidden area (its `letter` — used for re-assignment ordering — is unaffected). */
+  renameHiddenArea(id: string, name: string): void {
+    const area = this.hiddenAreas.find(a => a.id === id);
+    if (!area) {
+      return;
+    }
+    area.name = name;
+    this.changed$.next();
+    this.hiddenAreasChanged$.next();
+  }
+
+  /** Deletes a hidden area outright, freeing its letter for reuse by the next newly-designated area. */
+  removeHiddenArea(id: string): void {
+    this.hiddenAreas = this.hiddenAreas.filter(a => a.id !== id);
+    this.changed$.next();
+    this.hiddenAreasChanged$.next();
+  }
+
+  /** Flips a hidden area's `revealed` flag — called when the DM clicks its letter badge in Play mode. */
+  toggleHiddenAreaRevealed(id: string): void {
+    const area = this.hiddenAreas.find(a => a.id === id);
+    if (!area) {
+      return;
+    }
+    area.revealed = !area.revealed;
+    this.changed$.next();
+    this.hiddenAreasChanged$.next();
+  }
+
+  /** Strips the given cell's key out of every hidden area's membership (called when that cell's last fragment is deleted), deleting any area that becomes empty as a result. */
+  private removeHiddenAreaCell(coord: GridCoordinate): void {
+    const key = gridKey(coord);
+    this.hiddenAreas = this.hiddenAreas
+      .map(area => (area.cellKeys.includes(key) ? { ...area, cellKeys: area.cellKeys.filter(k => k !== key) } : area))
+      .filter(area => area.cellKeys.length > 0);
   }
 
   /** Returns the TextElement with the given id, if any. */
@@ -667,6 +805,19 @@ export class MapMakerStateService {
     this.changed$.next();
   }
 
+  /**
+   * Directly overwrites hidden-area state — used when applying an incoming
+   * `'hidden-areas-update'` message received over `MapMakerSyncService`'s
+   * BroadcastChannel (e.g. the DM revealing/hiding an area while already in
+   * Play mode). Deliberately emits only `changed$` and *not*
+   * `hiddenAreasChanged$`, so applying a remote update doesn't get
+   * immediately re-broadcast back onto the channel (echo loop).
+   */
+  applyRemoteHiddenAreas(hiddenAreas: HiddenArea[]): void {
+    this.hiddenAreas = hiddenAreas;
+    this.changed$.next();
+  }
+
   // --- Play mode: full-map snapshot (design data handshake) ------------------
 
   /** Builds a plain-object, structurally-cloneable snapshot of all design-time map data, for `MapMakerSyncService` to hand to a freshly-connected player-view window. */
@@ -676,10 +827,11 @@ export class MapMakerStateService {
       doors: Array.from(this.doors.values()).map(door => ({ ...door })),
       texts: this.texts.map(t => ({ ...t })),
       artElements: this.artElements.map(a => ({ ...a })),
+      hiddenAreas: this.hiddenAreas.map(h => ({ ...h, cellKeys: [...h.cellKeys] })),
     };
   }
 
-  /** Overwrites all design-time map data (cells/doors/texts/art) from a snapshot received over the sync channel. Does not touch play-mode state (mode/party/player icons). */
+  /** Overwrites all design-time map data (cells/doors/texts/art/hidden areas) from a snapshot received over the sync channel. Does not touch play-mode state (mode/party/player icons). */
   applySnapshot(snapshot: MapSnapshot): void {
     this.cells.clear();
     for (const [key, fragments] of snapshot.cells) {
@@ -691,6 +843,7 @@ export class MapMakerStateService {
     }
     this.texts = snapshot.texts.map(t => ({ ...t }));
     this.artElements = snapshot.artElements.map(a => ({ ...a }));
+    this.hiddenAreas = (snapshot.hiddenAreas ?? []).map(h => ({ ...h, cellKeys: [...h.cellKeys] }));
     this.changed$.next();
   }
 
@@ -714,6 +867,7 @@ export class MapMakerStateService {
       doors: snapshot.doors,
       texts: snapshot.texts,
       artElements: snapshot.artElements,
+      hiddenAreas: snapshot.hiddenAreas,
       partyIcon: this.partyIcon ? { ...this.partyIcon } : null,
       playerIcons: this.playerIcons.map(p => ({ ...p })),
       paletteColors: [...this.paletteColors],
@@ -737,6 +891,7 @@ export class MapMakerStateService {
       doors: data.doors ?? [],
       texts: data.texts ?? [],
       artElements: data.artElements ?? [],
+      hiddenAreas: data.hiddenAreas ?? [],
     });
     this.partyIcon = data.partyIcon ?? null;
     this.playerIcons = data.playerIcons ? data.playerIcons.map(p => ({ ...p })) : [];

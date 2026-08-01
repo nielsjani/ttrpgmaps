@@ -85,6 +85,7 @@ Each of these hidden areas gets assigned a letter (A, B, C, etc.). This name can
 In play mode, the player-view shows the hidden areas as black-bordered squares. Also all space between shown areas is black-bordered.
 In play mode, the dungeon-master can reveal certain areas by clicking on the corresponding letter.
 The hidden areas are always visible in the dungeon-master-view but are only visible in the player-view when the corresponding letter is clicked by the dungeon master.
+The system will help the dungeon master indicating an area. An area is a collection of squares that are all connected to each other and are separated to the empty grid by a border or door(s).
 
 # 8. Hidden doors
 In design mode, the user can designate certain doors as 'hidden'.
@@ -94,7 +95,7 @@ The dungeon-master can reveal these doors by clicking on the corresponding door 
 Similarly, certain art assets can be designated as hidden and can be revealed by the dungeon master.
 
 # 9. Draw large squares
-User can draw large squares by clicking on the square tool and then clicking and dragging the mouse.
+User can draw large squares by clicking on the square tool and then clicking and dragging the mouse while holding down the ctrl button.
 The screen will show the size in width and height of the square being drawn while the mouse is being dragged.
 
 # 10. Undo/redo
@@ -103,7 +104,9 @@ Undo/redo is implemented in the dungeon-master view.
 Can be toggled by using the buttons in the sidebar (left and right arrow) or by pressing left or right arrow keys.
 
 # 11. Additional art assets
-(Tom Cartos)
+Similar to story 4.
+Add the assets to the 'TomCartos' category.
+See 'C:\Users\nielsj\Downloads\myairbridge-TC_Basics Asset Pack\TC_Basics Asset Pack' for the files
 
 # 12. Copying placed art assets
 Keeps the size, rotation and position of the art asset when copied, but places it two squares to the right of the original.

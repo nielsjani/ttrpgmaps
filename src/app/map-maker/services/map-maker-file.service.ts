@@ -48,6 +48,7 @@ export class MapMakerFileService {
       doors: Array.isArray(data.doors) ? data.doors : [],
       texts: Array.isArray(data.texts) ? data.texts : [],
       artElements: Array.isArray(data.artElements) ? data.artElements : [],
+      hiddenAreas: Array.isArray(data.hiddenAreas) ? data.hiddenAreas : [],
       partyIcon: data.partyIcon ?? null,
       playerIcons: Array.isArray(data.playerIcons) ? data.playerIcons : [],
       paletteColors: Array.isArray(data.paletteColors) ? data.paletteColors : [],

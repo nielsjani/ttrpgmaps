@@ -63,6 +63,13 @@ infinite, pannable, zoomable canvas.
   door icon); hidden-and-unrevealed art is invisible there. In Play mode,
   the DM reveals either by clicking the door icon / art asset directly in
   the DM view. Described in detail below.
+- **Story 15 — Add walls**: implemented. A Wall tool (`w` shortcut) lets
+  the DM click or drag across any grid edge to toggle a plain black
+  border there — unlike doors, walls have no non-empty-cell placement
+  constraint (they can be drawn between two undrawn cells) and no hidden
+  state, so they render identically and unconditionally in both the DM
+  and player views. Walls also act as a boundary for Story 7's connected-
+  region flood fill, alongside doors. Described in detail below.
 
 ## Module structure
 
@@ -81,6 +88,7 @@ src/app/map-maker/
 │   ├── fragment-borders.ts        # computeBorderSegments() — black border/seam logic
 │   ├── text-element.ts            # TextElement, generateTextId() — Story 2 text labels
 │   ├── door.ts                    # Door, DoorOrientation, doorKey(), getAdjacentCells() — Story 3 doors
+│   ├── wall.ts                    # Wall, wallKey() — Story 15 walls (no non-empty-cell constraint, no hidden state)
 │   ├── art-asset.ts               # ArtAsset, buildArtAssets(), artAssetPath() — Story 4 asset browser
 │   ├── art-asset-data.ts          # ART_ASSET_MANIFEST — static list of imported art asset files
 │   ├── art-element.ts             # ArtElement, generateArtId() — Story 4 placed art instances
@@ -991,6 +999,72 @@ whole `Door`/`ArtElement` objects via object spread (`{ ...door }` /
     `ART_HIDDEN_INDICATOR_COLOR` from the blue selection outline) whenever
     `hidden && (state.mode === 'design' || !revealed)`, so hidden/
     unrevealed art is spottable even when not currently selected.
+
+## Walls (Story 15)
+
+`models/wall.ts` defines `Wall { orientation: DoorOrientation; col: number;
+row: number; }` (reusing `DoorOrientation` from `door.ts` — same
+vertical/horizontal grid-edge convention as doors) and `wallKey()` (same
+canonical `` `v:col,row` `` / `` `h:col,row` `` string-key pattern as
+`doorKey()`). `MapMakerStateService` holds them in a private `walls:
+Map<string, Wall>`, exposed via `getAllWalls()`/`hasWallAt()`/
+`toggleWallAt()`.
+
+- **Key design difference from doors**: a wall has **no non-empty-cell
+  placement constraint** — `toggleWallAt()` always succeeds, unlike
+  `toggleDoorAt()`'s `canPlaceDoorAt()` gate. The story's wording ("edges
+  between two squares") doesn't repeat Story 3's explicit "that are not
+  empty" qualifier, so a wall can be drawn on any grid edge, whether or
+  not either neighboring cell has ever been drawn on — it's a purely
+  structural/design element, independent of floor color. Consequently,
+  emptying a cell (`removeFragmentAt`) does **not** remove walls touching
+  it (contrast with `removeDoorsTouchingCell()`, which does, precisely
+  because a door *requires* two non-empty neighbors).
+- **No hidden/revealed state**: unlike Story 8's doors/art, walls have no
+  DM-only "Mark Hidden"/reveal concept — a wall is always a plain,
+  unconditionally-visible black border in both Design and Play mode, DM
+  and player view alike. There's therefore no `wallsChanged$` subject and
+  no `'walls-update'` message in `MapMakerSyncService` — walls can only be
+  toggled via the (Design-mode-only) Wall tool, so they can never change
+  once Play mode has started; the one-time `'full-state'` handshake
+  (which now carries `walls` as part of `MapSnapshot`) is always
+  sufficient.
+- **Interaction** (`MapMakerCanvasComponent`, Wall tool, `w` shortcut):
+  mirrors the Door tool's edge-toggle interaction almost exactly.
+  `findNearestEdge()`'s edge-snapping logic was factored out into a shared
+  `findNearestEdgeMatching(worldX, worldY, isValidEdge)` helper; the door
+  path calls it with the existing `canPlaceDoorAt || hasDoorAt` predicate,
+  while a new `findNearestWallEdge()` calls it with `() => true` (every
+  edge qualifies). `hoveredWallEdge`/`lastToggledWallEdgeKey` mirror
+  `hoveredEdge`/`lastToggledEdgeKey`; `toggleWallAtPos()` mirrors
+  `toggleDoorAtPos()` (minus the "Mark Hidden" branch) — dedupes per edge
+  during a drag via `lastToggledWallEdgeKey`, so a lingering cursor
+  doesn't flicker a wall on/off, and a drag across several fresh edges
+  adds a wall to each while a drag back across existing walls removes
+  them one by one, satisfying "click or drag to draw... clicking or
+  dragging on a drawn wall removes it".
+- **Rendering** (`drawWalls()`, called right after `drawBorders()` and
+  before `drawDoors()` in `render()`): draws the hover-highlight for the
+  Wall tool (reusing `drawEdgeHighlight()`, now parameterized with an
+  optional `color` argument so it can use a distinct pink/red
+  `WALL_HOVER_COLOR` instead of the door tool's blue `DOOR_HOVER_COLOR`),
+  then strokes every wall as a solid line the full length of its edge, in
+  the exact same `BORDER_COLOR`/`BORDER_WIDTH_PX` used by the automatic
+  fragment borders — per the story, "draws a black border... similar to
+  the border at the edge of the grid". Drawing walls before `drawDoors()`
+  means a door icon placed on the same edge as a wall still renders on
+  top of it.
+- **Interaction with Story 7's hidden areas**: `computeConnectedCells()`'s
+  flood fill now also stops at any edge with `hasWallAt(...)`, alongside
+  the existing `hasDoorAt(...)` check — consistent with that story's own
+  wording that a room is "separated to the empty grid by a border or
+  door(s)"; a wall is exactly such a border.
+- **Save/load & sync**: `walls: Wall[]` was added to both `MapSnapshot`
+  and `MapMakerSaveData`, threaded through
+  `getSnapshot()`/`applySnapshot()`/`exportSaveData()`/`importSaveData()`
+  and `MapMakerFileService.deserialize()` (defaulting to `[]` for older
+  save files that predate this field, exactly like every other
+  optional/added field in this module).
 
 ## Extending this module (future stories)
 

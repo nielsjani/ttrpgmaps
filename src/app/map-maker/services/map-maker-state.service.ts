@@ -6,6 +6,7 @@ import { MapMakerTool, ShapeOption, pickFragmentShape } from '../models/pick-sha
 import { FragmentShape, shapeContainsPoint, shapesOverlap } from '../models/fragment-shape';
 import { TextElement, generateTextId } from '../models/text-element';
 import { Door, DoorOrientation, doorKey, getAdjacentCells } from '../models/door';
+import { Wall, wallKey } from '../models/wall';
 import { ArtAsset, artAssetPath, buildArtAssets } from '../models/art-asset';
 import { ART_ASSET_MANIFEST } from '../models/art-asset-data';
 import { ArtElement, generateArtId } from '../models/art-element';
@@ -86,6 +87,8 @@ export interface PanOffset {
 export class MapMakerStateService {
   private readonly cells = new Map<string, CellFragment[]>();
   private readonly doors = new Map<string, Door>();
+  /** Story 15: walls, keyed by wallKey(). Unlike doors, a wall has no non-empty-cell placement constraint and no hidden/revealed state. */
+  private readonly walls = new Map<string, Wall>();
 
   /** Hidden areas designated by the DM (Story 7). See models/hidden-area.ts. */
   hiddenAreas: HiddenArea[] = [];
@@ -314,6 +317,7 @@ export class MapMakerStateService {
   clear(): void {
     this.cells.clear();
     this.doors.clear();
+    this.walls.clear();
     this.artElements = [];
     this.selectedArtId = null;
     this.texts = [];
@@ -411,6 +415,35 @@ export class MapMakerStateService {
     }
   }
 
+  // --- Story 15: walls ------------------------------------------------------
+
+  /** Returns all placed walls, keyed by their canonical wall-key string. */
+  getAllWalls(): ReadonlyMap<string, Wall> {
+    return this.walls;
+  }
+
+  /** True if a wall already exists on the given edge. */
+  hasWallAt(orientation: DoorOrientation, col: number, row: number): boolean {
+    return this.walls.has(wallKey({ orientation, col, row }));
+  }
+
+  /**
+   * Toggles a wall on the given edge: removes it if one is already there;
+   * otherwise adds one. Unlike doors, there is no non-empty-cell
+   * constraint — a wall can be drawn on any grid edge, whether or not
+   * either neighboring cell has been drawn on, since it's a purely
+   * structural/design element independent of floor color.
+   */
+  toggleWallAt(orientation: DoorOrientation, col: number, row: number): void {
+    const key = wallKey({ orientation, col, row });
+    if (this.walls.has(key)) {
+      this.walls.delete(key);
+    } else {
+      this.walls.set(key, { orientation, col, row });
+    }
+    this.changed$.next();
+  }
+
   // --- Story 7: hidden areas -----------------------------------------------
 
   /**
@@ -454,6 +487,9 @@ export class MapMakerStateService {
           continue;
         }
         if (this.hasDoorAt(orientation, col, row)) {
+          continue;
+        }
+        if (this.hasWallAt(orientation, col, row)) {
           continue;
         }
         queue.push(next);
@@ -949,13 +985,14 @@ export class MapMakerStateService {
     return {
       cells: Array.from(this.cells.entries()).map(([key, fragments]) => [key, [...fragments]]),
       doors: Array.from(this.doors.values()).map(door => ({ ...door })),
+      walls: Array.from(this.walls.values()).map(wall => ({ ...wall })),
       texts: this.texts.map(t => ({ ...t })),
       artElements: this.artElements.map(a => ({ ...a })),
       hiddenAreas: this.hiddenAreas.map(h => ({ ...h, cellKeys: [...h.cellKeys] })),
     };
   }
 
-  /** Overwrites all design-time map data (cells/doors/texts/art/hidden areas) from a snapshot received over the sync channel. Does not touch play-mode state (mode/party/player icons). */
+  /** Overwrites all design-time map data (cells/doors/walls/texts/art/hidden areas) from a snapshot received over the sync channel. Does not touch play-mode state (mode/party/player icons). */
   applySnapshot(snapshot: MapSnapshot): void {
     this.cells.clear();
     for (const [key, fragments] of snapshot.cells) {
@@ -964,6 +1001,10 @@ export class MapMakerStateService {
     this.doors.clear();
     for (const door of snapshot.doors) {
       this.doors.set(doorKey(door), { ...door });
+    }
+    this.walls.clear();
+    for (const wall of snapshot.walls ?? []) {
+      this.walls.set(wallKey(wall), { ...wall });
     }
     this.texts = snapshot.texts.map(t => ({ ...t }));
     this.artElements = snapshot.artElements.map(a => ({ ...a }));
@@ -989,6 +1030,7 @@ export class MapMakerStateService {
       dungeonName: this.dungeonName,
       cells: snapshot.cells,
       doors: snapshot.doors,
+      walls: snapshot.walls,
       texts: snapshot.texts,
       artElements: snapshot.artElements,
       hiddenAreas: snapshot.hiddenAreas,
@@ -1013,6 +1055,7 @@ export class MapMakerStateService {
     this.applySnapshot({
       cells: data.cells ?? [],
       doors: data.doors ?? [],
+      walls: data.walls ?? [],
       texts: data.texts ?? [],
       artElements: data.artElements ?? [],
       hiddenAreas: data.hiddenAreas ?? [],

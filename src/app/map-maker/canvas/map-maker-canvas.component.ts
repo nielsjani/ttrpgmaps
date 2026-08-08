@@ -14,6 +14,7 @@ import { computeBorderSegments } from '../models/fragment-borders';
 import { GridCoordinate, gridKey, parseGridKey } from '../models/grid';
 import { TextElement } from '../models/text-element';
 import { Door, DoorOrientation, doorKey } from '../models/door';
+import { Wall, wallKey } from '../models/wall';
 import { ArtElement } from '../models/art-element';
 import { PartyIcon } from '../models/party-icon';
 import { PlayerIcon } from '../models/player-icon';
@@ -41,6 +42,8 @@ const DOOR_HIDDEN_FILL_COLOR = '#a8dadc';
 const ART_HIDDEN_INDICATOR_COLOR = '#e07a1f';
 /** How close (in cell units) the cursor must be to a grid edge for it to be considered "hovered"/toggleable. */
 const DOOR_EDGE_SNAP_THRESHOLD = 0.3;
+/** Story 15: hover-highlight color for the Wall tool (distinct from the door hover color so the two tools' previews are visually distinguishable). */
+const WALL_HOVER_COLOR = 'rgba(233, 30, 99, 0.45)';
 const ART_SELECTION_COLOR = '#4a7dfc';
 const ART_HANDLE_SIZE_PX = 8;
 const ART_HANDLE_HIT_RADIUS_PX = 8;
@@ -134,6 +137,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   hoveredEdge: EdgeCandidate | null = null;
   /** Door edge key last toggled during the current drag, to avoid repeatedly toggling the same edge back and forth as the cursor lingers over it. */
   private lastToggledEdgeKey: string | null = null;
+
+  /** Story 15: the edge (if any) currently nearest the cursor while the Wall tool is active. Unlike doors, any edge qualifies (no non-empty-cell constraint). */
+  hoveredWallEdge: EdgeCandidate | null = null;
+  /** Wall edge key last toggled during the current drag, mirroring `lastToggledEdgeKey` for doors. */
+  private lastToggledWallEdgeKey: string | null = null;
 
   /** Active text move/resize/scale drag, if any (text tool only). */
   private textDrag: TextDragState | null = null;
@@ -249,6 +257,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       } else if (this.state.activeTool === 'door') {
         this.lastToggledEdgeKey = null;
         this.toggleDoorAtPos(pos);
+      } else if (this.state.activeTool === 'wall') {
+        this.lastToggledWallEdgeKey = null;
+        this.toggleWallAtPos(pos);
       } else if (this.state.activeTool === 'art') {
         this.handleArtMouseDown(pos);
       } else if (this.state.activeTool === 'hidden-area') {
@@ -288,6 +299,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       if (this.isPointerDown) {
         this.toggleDoorAtPos(pos);
       }
+    } else if (this.state.activeTool === 'wall') {
+      this.updateHoveredWallEdge(pos);
+      if (this.isPointerDown) {
+        this.toggleWallAtPos(pos);
+      }
     } else if (this.isPointerDown && this.state.activeTool !== 'text' && this.state.activeTool !== 'art') {
       this.performToolActionAt(pos);
     }
@@ -303,6 +319,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.artDrag = null;
       this.iconDrag = null;
       this.lastToggledEdgeKey = null;
+      this.lastToggledWallEdgeKey = null;
     }
   }
 
@@ -314,8 +331,13 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.artDrag = null;
     this.iconDrag = null;
     this.lastToggledEdgeKey = null;
+    this.lastToggledWallEdgeKey = null;
     if (this.hoveredEdge) {
       this.hoveredEdge = null;
+      this.render();
+    }
+    if (this.hoveredWallEdge) {
+      this.hoveredWallEdge = null;
       this.render();
     }
   }
@@ -369,8 +391,19 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
 
   // --- Door tool interaction ---------------------------------------------------
 
-  /** Finds the grid edge (vertical or horizontal cell boundary) nearest the given world point, snapped within a small tolerance, but only if it borders two non-empty cells (or already has a door). Returns null if no such edge is close enough. */
-  private findNearestEdge(worldX: number, worldY: number): EdgeCandidate | null {
+  /**
+   * Finds the grid edge (vertical or horizontal cell boundary) nearest the
+   * given world point, snapped within a small tolerance, restricted to
+   * edges for which `isValidEdge` returns true. Shared by the Door tool
+   * (only edges bordering two non-empty cells, or already having a door,
+   * qualify) and the Wall tool (Story 15 — every edge qualifies, since
+   * walls have no non-empty-cell constraint).
+   */
+  private findNearestEdgeMatching(
+    worldX: number,
+    worldY: number,
+    isValidEdge: (orientation: DoorOrientation, col: number, row: number) => boolean
+  ): EdgeCandidate | null {
     const cellX = worldX / BASE_CELL_SIZE;
     const cellY = worldY / BASE_CELL_SIZE;
 
@@ -392,11 +425,25 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
         continue;
       }
       const { orientation, col, row } = candidate;
-      if (this.state.canPlaceDoorAt(orientation, col, row) || this.state.hasDoorAt(orientation, col, row)) {
+      if (isValidEdge(orientation, col, row)) {
         return { orientation, col, row };
       }
     }
     return null;
+  }
+
+  /** Finds the grid edge (vertical or horizontal cell boundary) nearest the given world point, snapped within a small tolerance, but only if it borders two non-empty cells (or already has a door). Returns null if no such edge is close enough. */
+  private findNearestEdge(worldX: number, worldY: number): EdgeCandidate | null {
+    return this.findNearestEdgeMatching(
+      worldX,
+      worldY,
+      (orientation, col, row) => this.state.canPlaceDoorAt(orientation, col, row) || this.state.hasDoorAt(orientation, col, row)
+    );
+  }
+
+  /** Story 15: finds the grid edge nearest the given world point for the Wall tool — every edge qualifies, since walls have no non-empty-cell constraint. */
+  private findNearestWallEdge(worldX: number, worldY: number): EdgeCandidate | null {
+    return this.findNearestEdgeMatching(worldX, worldY, () => true);
   }
 
   private updateHoveredEdge(pos: { x: number; y: number }): void {
@@ -408,6 +455,20 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       edge?.row !== this.hoveredEdge?.row;
     if (changed) {
       this.hoveredEdge = edge;
+      this.render();
+    }
+  }
+
+  /** Story 15: hover-preview update for the Wall tool, mirroring `updateHoveredEdge`. */
+  private updateHoveredWallEdge(pos: { x: number; y: number }): void {
+    const world = this.screenToWorld(pos.x, pos.y);
+    const edge = this.findNearestWallEdge(world.x, world.y);
+    const changed =
+      (edge?.orientation ?? null) !== (this.hoveredWallEdge?.orientation ?? null) ||
+      edge?.col !== this.hoveredWallEdge?.col ||
+      edge?.row !== this.hoveredWallEdge?.row;
+    if (changed) {
+      this.hoveredWallEdge = edge;
       this.render();
     }
   }
@@ -436,6 +497,29 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     } else {
       this.state.toggleDoorAt(edge.orientation, edge.col, edge.row);
     }
+  }
+
+  // --- Story 15: wall tool interaction -----------------------------------------
+
+  /**
+   * Toggles the wall at the nearest edge to the given screen position,
+   * deduped per edge during a drag so repeated mousemoves over the same
+   * edge don't flip it back and forth — mirrors `toggleDoorAtPos`, but with
+   * no non-empty-cell constraint and no "Mark Hidden" mode (walls have no
+   * hidden/revealed state).
+   */
+  private toggleWallAtPos(pos: { x: number; y: number }): void {
+    const world = this.screenToWorld(pos.x, pos.y);
+    const edge = this.findNearestWallEdge(world.x, world.y);
+    if (!edge) {
+      return;
+    }
+    const key = wallKey({ orientation: edge.orientation, col: edge.col, row: edge.row });
+    if (key === this.lastToggledWallEdgeKey) {
+      return;
+    }
+    this.lastToggledWallEdgeKey = key;
+    this.state.toggleWallAt(edge.orientation, edge.col, edge.row);
   }
 
   // --- Hidden area tool interaction -------------------------------------------
@@ -914,6 +998,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawGrid(width, height);
     this.drawFragments(width, height);
     this.drawBorders(width, height);
+    this.drawWalls(width, height);
     this.drawDoors(width, height);
     this.drawArt(width, height);
     this.drawTexts(width, height);
@@ -1004,6 +1089,44 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   }
 
   /**
+   * Story 15: draws the hover-highlighted edge (if the Wall tool is active
+   * and the cursor is near a candidate edge — every edge qualifies, so this
+   * is really just "near enough"), then strokes every placed wall as a
+   * solid black line spanning the full edge, in the exact same color/width
+   * as `drawBorders()`'s automatic borders — per the story, a wall "draws a
+   * black border on those locations similar to the border at the edge of
+   * the grid". Walls have no hidden/revealed state, so — unlike
+   * `drawDoors()` — nothing here is ever skipped on the player-view canvas.
+   */
+  private drawWalls(_width: number, _height: number): void {
+    if (this.state.activeTool === 'wall' && this.hoveredWallEdge) {
+      this.drawEdgeHighlight(this.hoveredWallEdge.orientation, this.hoveredWallEdge.col, this.hoveredWallEdge.row, WALL_HOVER_COLOR);
+    }
+    const walls = this.state.getAllWalls();
+    if (walls.size === 0) {
+      return;
+    }
+    const size = this.cellSize;
+    const { pan } = this.state;
+    this.ctx.strokeStyle = BORDER_COLOR;
+    this.ctx.lineWidth = BORDER_WIDTH_PX;
+    this.ctx.lineCap = 'square';
+    this.ctx.beginPath();
+    for (const wall of walls.values()) {
+      if (wall.orientation === 'vertical') {
+        const x = wall.col * size + pan.x;
+        this.ctx.moveTo(x, wall.row * size + pan.y);
+        this.ctx.lineTo(x, (wall.row + 1) * size + pan.y);
+      } else {
+        const y = wall.row * size + pan.y;
+        this.ctx.moveTo(wall.col * size + pan.x, y);
+        this.ctx.lineTo((wall.col + 1) * size + pan.x, y);
+      }
+    }
+    this.ctx.stroke();
+  }
+
+  /**
    * Draws the hover-highlighted edge (if the Door tool is active and the
    * cursor is near a valid edge), then every placed door as a white
    * rectangle with a black border, oriented with its long axis along the
@@ -1067,10 +1190,10 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.ctx.strokeRect(x, y, w, h);
   }
 
-  private drawEdgeHighlight(orientation: DoorOrientation, col: number, row: number): void {
+  private drawEdgeHighlight(orientation: DoorOrientation, col: number, row: number, color: string = DOOR_HOVER_COLOR): void {
     const size = this.cellSize;
     const { pan } = this.state;
-    this.ctx.strokeStyle = DOOR_HOVER_COLOR;
+    this.ctx.strokeStyle = color;
     this.ctx.lineWidth = Math.max(3, size * 0.12);
     this.ctx.lineCap = 'round';
     this.ctx.beginPath();

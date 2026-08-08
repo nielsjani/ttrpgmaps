@@ -468,6 +468,112 @@ describe('MapMakerStateService — doors', () => {
   });
 });
 
+describe('MapMakerStateService — walls', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    localStorage.removeItem('map-maker.palette-colors');
+    service = new MapMakerStateService();
+  });
+
+  function drawSquare(col: number, row: number): void {
+    service.setShapeOption('square');
+    service.placeFragment({ col, row }, 0.5, 0.5);
+  }
+
+  it('toggleWallAt adds a wall when none exists yet', () => {
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(false);
+
+    service.toggleWallAt('vertical', 1, 0);
+
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(true);
+    expect(service.getAllWalls().size).toBe(1);
+  });
+
+  it('toggleWallAt removes an existing wall', () => {
+    service.toggleWallAt('vertical', 1, 0);
+
+    service.toggleWallAt('vertical', 1, 0);
+
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(false);
+    expect(service.getAllWalls().size).toBe(0);
+  });
+
+  it('works for horizontal edges too', () => {
+    service.toggleWallAt('horizontal', 0, 1);
+    expect(service.hasWallAt('horizontal', 0, 1)).toBe(true);
+  });
+
+  it('can be placed even when neither neighboring cell has any drawn fragments (unlike doors)', () => {
+    // Neither (0,0) nor (1,0) has been drawn on.
+    expect(service.getFragments({ col: 0, row: 0 })).toEqual([]);
+    expect(service.getFragments({ col: 1, row: 0 })).toEqual([]);
+
+    service.toggleWallAt('vertical', 1, 0);
+
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(true);
+  });
+
+  it('is NOT removed when a neighboring cell becomes empty (unlike doors)', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleWallAt('vertical', 1, 0);
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(true);
+
+    service.removeFragmentAt({ col: 1, row: 0 }, 0.5, 0.5);
+
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(true);
+  });
+
+  it('clear() removes all walls along with all fragments', () => {
+    service.toggleWallAt('vertical', 1, 0);
+    drawSquare(0, 0);
+
+    service.clear();
+
+    expect(service.getAllWalls().size).toBe(0);
+    expect(service.getAllCells().size).toBe(0);
+  });
+
+  it('computeConnectedCells stops at a wall, even though both sides are non-empty', () => {
+    drawSquare(0, 0);
+    drawSquare(1, 0);
+    service.toggleWallAt('vertical', 1, 0);
+
+    const connected = service.computeConnectedCells({ col: 0, row: 0 });
+
+    expect(connected.has('0,0')).toBe(true);
+    expect(connected.has('1,0')).toBe(false);
+  });
+
+  it('getSnapshot()/applySnapshot() round-trips walls', () => {
+    service.toggleWallAt('vertical', 1, 0);
+
+    const snapshot = service.getSnapshot();
+    const other = new MapMakerStateService();
+    other.applySnapshot(snapshot);
+
+    expect(other.getAllWalls().size).toBe(1);
+    expect(other.hasWallAt('vertical', 1, 0)).toBe(true);
+  });
+
+  it('exportSaveData()/importSaveData() round-trips walls, and tolerates a missing walls field', () => {
+    service.toggleWallAt('vertical', 1, 0);
+    const data = service.exportSaveData();
+
+    const other = new MapMakerStateService();
+    other.importSaveData(data);
+    expect(other.getAllWalls().size).toBe(1);
+    expect(other.hasWallAt('vertical', 1, 0)).toBe(true);
+
+    const legacyData = { ...data } as any;
+    delete legacyData.walls;
+    const legacy = new MapMakerStateService();
+    expect(() => legacy.importSaveData(legacyData)).not.toThrow();
+    expect(legacy.getAllWalls().size).toBe(0);
+  });
+});
+
 describe('MapMakerStateService — hidden areas', () => {
   let service: MapMakerStateService;
 
@@ -936,11 +1042,12 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(service.armPartyPlacement).toBe(false);
   });
 
-  it('getSnapshot()/applySnapshot() round-trips cells, doors, texts, art, and hidden areas', () => {
+  it('getSnapshot()/applySnapshot() round-trips cells, doors, walls, texts, art, and hidden areas', () => {
     service.setShapeOption('square');
     service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
     service.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
     service.toggleDoorAt('vertical', 1, 0);
+    service.toggleWallAt('horizontal', 0, 1);
     service.addText(10, 20);
     service.addArt(service.artAssets[0].fileName, 5, 5);
     service.toggleHiddenAreaAt({ col: 0, row: 0 });
@@ -953,6 +1060,8 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(other.getAllCells().size).toBe(service.getAllCells().size);
     expect(Array.from(other.getAllCells().keys()).sort()).toEqual(Array.from(service.getAllCells().keys()).sort());
     expect(other.getAllDoors().size).toBe(1);
+    expect(other.getAllWalls().size).toBe(1);
+    expect(other.hasWallAt('horizontal', 0, 1)).toBe(true);
     expect(other.texts.length).toBe(1);
     expect(other.texts[0].text).toBe(service.texts[0].text);
     expect(other.artElements.length).toBe(1);
@@ -969,6 +1078,7 @@ describe('MapMakerStateService — Play mode and icons', () => {
     service.placeFragment({ col: 0, row: 0 }, 0.5, 0.5);
     service.placeFragment({ col: 1, row: 0 }, 0.5, 0.5);
     service.toggleDoorAt('vertical', 1, 0);
+    service.toggleWallAt('horizontal', 0, 1);
     service.addText(10, 20);
     service.addArt(service.artAssets[0].fileName, 5, 5);
     service.toggleHiddenAreaAt({ col: 0, row: 0 });
@@ -988,6 +1098,7 @@ describe('MapMakerStateService — Play mode and icons', () => {
     expect(other.dungeonName).toBe('My Dungeon');
     expect(other.getAllCells().size).toBe(2);
     expect(other.getAllDoors().size).toBe(1);
+    expect(other.getAllWalls().size).toBe(1);
     expect(other.texts.length).toBe(1);
     expect(other.artElements.length).toBe(1);
     expect(other.hiddenAreas.length).toBe(1);

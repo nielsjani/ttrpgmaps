@@ -9,6 +9,7 @@ describe('MapMakerFileService', () => {
     dungeonName: 'My Dungeon',
     cells: [['0,0', [{ shape: 'full', color: '#ff0000' }]]],
     doors: [{ orientation: 'vertical', col: 1, row: 0, hidden: false, revealed: false }],
+    walls: [{ orientation: 'horizontal', col: 0, row: 1 }],
     texts: [],
     artElements: [],
     hiddenAreas: [{ id: 'hidden-area-1', letter: 'A', name: 'A', cellKeys: ['0,0'], revealed: false }],
@@ -46,6 +47,7 @@ describe('MapMakerFileService', () => {
     const restored = service.deserialize(JSON.stringify({ version: 1, data: { cells: [] } }));
     expect(restored.dungeonName).toBe('');
     expect(restored.doors).toEqual([]);
+    expect(restored.walls).toEqual([]);
     expect(restored.playerIcons).toEqual([]);
     expect(restored.partyIcon).toBeNull();
     expect(restored.hiddenAreas).toEqual([]);

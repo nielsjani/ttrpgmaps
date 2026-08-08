@@ -79,6 +79,12 @@ type SyncMessage = RequestStateMessage | FullStateMessage | IconsUpdateMessage |
  *   whenever `state.artChanged$` fires — applied via
  *   `state.applyRemoteDoors()`/`state.applyRemoteArt()`, which likewise do
  *   not re-fire their respective `*Changed$` subjects.
+ * - Story 15 (walls) deliberately gets **no** dedicated live-update message
+ *   type: walls have no hidden/revealed state and can only be added or
+ *   removed via the (Design-mode-only) Wall tool, so — unlike doors/art/
+ *   hidden areas — they can never change once Play mode has started. The
+ *   one-time `'full-state'` handshake (which now carries `walls` as part of
+ *   `MapSnapshot`) is therefore always sufficient.
  */
 export class MapMakerSyncService {
   private readonly channel: BroadcastChannel;

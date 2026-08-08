@@ -46,6 +46,7 @@ export class MapMakerFileService {
       dungeonName: typeof data.dungeonName === 'string' ? data.dungeonName : '',
       cells: data.cells ?? [],
       doors: Array.isArray(data.doors) ? data.doors : [],
+      walls: Array.isArray(data.walls) ? data.walls : [],
       texts: Array.isArray(data.texts) ? data.texts : [],
       artElements: Array.isArray(data.artElements) ? data.artElements : [],
       hiddenAreas: Array.isArray(data.hiddenAreas) ? data.hiddenAreas : [],

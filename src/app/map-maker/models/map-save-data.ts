@@ -1,5 +1,6 @@
 import { CellFragment } from './cell-fragment';
 import { Door } from './door';
+import { Wall } from './wall';
 import { TextElement } from './text-element';
 import { ArtElement } from './art-element';
 import { PartyIcon } from './party-icon';
@@ -25,6 +26,7 @@ export interface MapMakerSaveData {
   dungeonName: string;
   cells: Array<[string, CellFragment[]]>;
   doors: Door[];
+  walls: Wall[];
   texts: TextElement[];
   artElements: ArtElement[];
   hiddenAreas: HiddenArea[];

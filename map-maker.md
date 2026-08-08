@@ -128,3 +128,9 @@ User can fill in text areas
 - Other
 All of these text areas need to allow hyperlinks to be added
 In play mode, these notes are only visible to the dungeon master. Empty notes are not shown here.
+
+# 15. Add walls - DONE
+New tool in the toolbar.
+User can select a wall tool (icon) in the sidebar (or using shortcut 'w')
+User can click or drag the mouse to draw a wall on edges between two squares. This draws a black border on those locations similar to the border at the edge of the grid.
+Clicking or dragging on a drawn wall will remove it.

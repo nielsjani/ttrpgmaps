@@ -74,6 +74,8 @@ export class MapMakerSidebarComponent {
       this.selectTool('art');
     } else if (event.key === 'h' || event.key === 'H') {
       this.selectTool('hidden-area');
+    } else if (event.key === 'w' || event.key === 'W') {
+      this.selectTool('wall');
     }
   }
 

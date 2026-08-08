@@ -48,6 +48,14 @@
       title="Hidden area tool (H)"
       (click)="selectTool('hidden-area')"
     >🙈<span class="tool-label">Hidden area (H)</span></button>
+
+    <button
+      type="button"
+      class="tool-button"
+      [class.active]="state.activeTool === 'wall'"
+      title="Wall tool (W)"
+      (click)="selectTool('wall')"
+    >🧱<span class="tool-label">Wall (W)</span></button>
   </div>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
     Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
@@ -86,6 +94,11 @@
     Click a drawn square to hide its whole connected room (stops automatically at walls and doors) —
     it's assigned the next free letter. Click any square in an already-hidden area to un-hide it. Rename
     or remove areas in the list below.
+  </p>
+
+  <p class="pan-hint" *ngIf="state.activeTool === 'wall'">
+    Click or drag across grid edges to draw a wall (a solid black border), whether or not either side
+    has been drawn on. Click or drag over an existing wall to remove it.
   </p>
 
   <div class="shape-group" *ngIf="state.activeTool === 'square'" role="group" aria-label="Shape options">

@@ -864,10 +864,18 @@ navigate away from via the main site nav.
   sequence not currently in use, so deleting an area frees its letter for
   the next one.
 - **"Area" definition**: a maximal connected region of non-empty cells,
-  where connectivity stops at any edge that either borders an empty cell
-  **or** has a door on it — both act as the area's boundary, matching the
+  where connectivity stops at any edge that either borders an empty cell,
+  has a door on it, has an explicit `Wall` on it, **or** is a visible
+  color-boundary border between two differently-colored (or otherwise
+  non-merging) drawn fragments — e.g. where a Story 9 large-square fill of
+  one color partially overlaps a differently-colored area, the black
+  border rendered at that seam (`computeBorderSegmentKeySet()` in
+  `models/fragment-borders.ts`) counts as a boundary too, even without an
+  explicit `Wall` placed there, since the two areas already read visually
+  as separate. All of these act as the area's boundary, matching the
   story text ("separated to the empty grid by a border or door(s)")
-  almost verbatim. In particular, two rooms joined by a door are always
+  almost verbatim, extended to also cover any border that's actually
+  rendered. In particular, two rooms joined by a door are always
   two *separate* hidden areas, never one.
 - **State** (`MapMakerStateService`):
   - `hiddenAreas: HiddenArea[]`.

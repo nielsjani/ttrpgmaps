@@ -81,7 +81,7 @@ function splitIntoUnitEdges(a: HalfCellPoint, b: HalfCellPoint): Array<[HalfCell
  * shorter-sided neighbor (e.g. a quarter or half occupying only part of the
  * adjoining cell), rather than only merging when both sides match exactly.
  */
-export function computeBorderSegments(cells: ReadonlyMap<string, CellFragment[]>): BorderSegment[] {
+function buildEdgeContributors(cells: ReadonlyMap<string, CellFragment[]>): Map<string, EdgeContributor[]> {
   const contributors = new Map<string, EdgeContributor[]>();
 
   for (const [key, fragments] of cells) {
@@ -101,6 +101,12 @@ export function computeBorderSegments(cells: ReadonlyMap<string, CellFragment[]>
     }
   }
 
+  return contributors;
+}
+
+export function computeBorderSegments(cells: ReadonlyMap<string, CellFragment[]>): BorderSegment[] {
+  const contributors = buildEdgeContributors(cells);
+
   const segments: BorderSegment[] = [];
   for (const list of contributors.values()) {
     const isMergedSeam = list.length >= 2 && list.every(entry => entry.color === list[0].color);
@@ -110,4 +116,43 @@ export function computeBorderSegments(cells: ReadonlyMap<string, CellFragment[]>
     }
   }
   return segments;
+}
+
+/**
+ * Returns the canonical keys of every atomic unit-edge that would be
+ * stroked as a visible black border (see `computeBorderSegments`) — i.e.
+ * every unit-edge that either borders empty space or is shared by
+ * differently-colored fragments. Used by `MapMakerStateService` to treat a
+ * visible color-boundary border between two differently-colored drawn
+ * areas as an impassable boundary for connectivity purposes (Story 7's
+ * hidden-area flood fill), the same way an explicit wall or door already
+ * is — without needing to materialize an actual `Wall` object for it.
+ */
+export function computeBorderSegmentKeySet(cells: ReadonlyMap<string, CellFragment[]>): Set<string> {
+  const contributors = buildEdgeContributors(cells);
+  const keys = new Set<string>();
+  for (const [key, list] of contributors) {
+    const isMergedSeam = list.length >= 2 && list.every(entry => entry.color === list[0].color);
+    if (!isMergedSeam) {
+      keys.add(key);
+    }
+  }
+  return keys;
+}
+
+/**
+ * Returns the canonical keys of the (up to two) atomic unit-edge pieces
+ * that together make up one whole cell-to-cell edge (the same edges used
+ * by doors/walls — see `DoorOrientation`/`getAdjacentCells`), so they can
+ * be looked up in the set returned by `computeBorderSegmentKeySet`.
+ */
+export function wholeCellEdgeUnitKeys(orientation: 'vertical' | 'horizontal', col: number, row: number): string[] {
+  if (orientation === 'vertical') {
+    const x = col * 2;
+    const y = row * 2;
+    return [segmentKey([x, y], [x, y + 1]), segmentKey([x, y + 1], [x, y + 2])];
+  }
+  const x = col * 2;
+  const y = row * 2;
+  return [segmentKey([x, y], [x + 1, y]), segmentKey([x + 1, y], [x + 2, y])];
 }

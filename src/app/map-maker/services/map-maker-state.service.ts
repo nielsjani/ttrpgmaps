@@ -15,6 +15,7 @@ import { PlayerIcon, generatePlayerIconId } from '../models/player-icon';
 import { MapSnapshot } from '../models/map-snapshot';
 import { MapMakerSaveData } from '../models/map-save-data';
 import { HiddenArea, generateHiddenAreaId, nextAvailableLetter } from '../models/hidden-area';
+import { computeBorderSegmentKeySet, wholeCellEdgeUnitKeys } from '../models/fragment-borders';
 
 export const DEFAULT_COLORS: string[] = [
   '#e63946', // red
@@ -472,16 +473,22 @@ export class MapMakerStateService {
 
   /**
    * Flood-fills from `coord` across orthogonally-adjacent non-empty cells,
-   * stopping at any edge that either borders an empty cell or has a door on
-   * it (both act as an area's boundary, per the story: "separated to the
-   * empty grid by a border or door(s)"). Returns an empty set if the
-   * starting cell itself has no fragments.
+   * stopping at any edge that either borders an empty cell, has a door on
+   * it, has an explicit wall on it (both act as an area's boundary, per
+   * the story: "separated to the empty grid by a border or door(s)"), or
+   * is a visible color-boundary border between two differently-colored (or
+   * otherwise non-merging) drawn fragments — e.g. where a large-square fill
+   * of one color overlaps part of a differently-colored area, the black
+   * border rendered at that seam (see `computeBorderSegmentKeySet`) counts
+   * as a boundary too, even though no explicit `Wall` was placed there.
+   * Returns an empty set if the starting cell itself has no fragments.
    */
   computeConnectedCells(coord: GridCoordinate): Set<string> {
     const visited = new Set<string>();
     if (this.getFragments(coord).length === 0) {
       return visited;
     }
+    const borderKeys = computeBorderSegmentKeySet(this.cells);
     const queue: GridCoordinate[] = [coord];
     const neighbors: Array<{ orientation: DoorOrientation; col: number; row: number; next: GridCoordinate }> = [];
     while (queue.length > 0) {
@@ -514,6 +521,9 @@ export class MapMakerStateService {
           continue;
         }
         if (this.hasWallAt(orientation, col, row)) {
+          continue;
+        }
+        if (wholeCellEdgeUnitKeys(orientation, col, row).some(key => borderKeys.has(key))) {
           continue;
         }
         queue.push(next);

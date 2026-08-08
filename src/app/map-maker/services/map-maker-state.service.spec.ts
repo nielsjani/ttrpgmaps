@@ -673,6 +673,18 @@ describe('MapMakerStateService — hidden areas', () => {
     expect(cells).toEqual(new Set(['0,0']));
   });
 
+  it('computeConnectedCells stops at a visible color-boundary border between differently-colored areas, even with no explicit wall', () => {
+    service.setColor('#ff0000');
+    service.placeFullSquareRect(0, 0, 0, 0);
+    service.setColor('#0000ff');
+    service.placeFullSquareRect(1, 0, 1, 0);
+
+    const cells = service.computeConnectedCells({ col: 0, row: 0 });
+
+    expect(cells).toEqual(new Set(['0,0']));
+    expect(service.hasWallAt('vertical', 1, 0)).toBe(false);
+  });
+
   it('toggleHiddenAreaAt creates a new hidden area covering the connected region, letter "A" first', () => {
     drawSquare(0, 0);
     drawSquare(1, 0);

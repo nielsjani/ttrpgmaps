@@ -134,3 +134,11 @@ New tool in the toolbar.
 User can select a wall tool (icon) in the sidebar (or using shortcut 'w')
 User can click or drag the mouse to draw a wall on edges between two squares. This draws a black border on those locations similar to the border at the edge of the grid.
 Clicking or dragging on a drawn wall will remove it.
+
+# 16. Export to PDF
+User can export the map to a PDF file.
+He can select the number of squares (width and height) per page. Sensible defaults are provided.
+If a map is too big for a single page, the map will be split over multiple pages.
+
+# 17. Grid outline visible under drawn squares - DONE
+The grid outline is always visible under drawn squares. This is useful for the dungeon master and the players to see where the squares are located in relation to the grid.

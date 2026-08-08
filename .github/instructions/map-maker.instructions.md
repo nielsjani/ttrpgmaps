@@ -77,6 +77,12 @@ infinite, pannable, zoomable canvas.
   color via `MapMakerStateService.placeFullSquareRect()`, overwriting any
   existing fragments in the rectangle, regardless of the currently
   selected shape option. Described in detail below.
+- **Story 17 — Grid outline visible under drawn squares**: implemented.
+  The grid is now drawn twice per render — once before `drawFragments()`
+  in the original light-grey style (for empty cells), and again
+  immediately after, using a contrast-safe semi-transparent dark overlay
+  style, so the grid stays visible on top of colored squares regardless of
+  their fill color. Described in detail below.
 
 ## Module structure
 
@@ -206,10 +212,14 @@ Adjacent same-color shapes appear merged (no seam) via `computeBorderSegments()`
 (`models/fragment-borders.ts`) plus draw order, without any merge data structure:
 
 1. `MapMakerCanvasComponent` first draws the background grid lines across
-   the whole visible viewport.
+   the whole visible viewport (light grey, `GRID_LINE_COLOR`).
 2. It then draws every fragment as a flat, opaque, unstroked fill, exactly
    matching its polygon geometry (scaled to world/screen space).
-3. Finally it strokes a **black border** around the outer perimeter of each
+3. It redraws the grid lines a **second time**, across the whole viewport
+   again, in a contrast-safe semi-transparent dark style
+   (`GRID_OVERLAY_LINE_COLOR`) — see "Grid outline over drawn squares
+   (Story 17)" below.
+4. Finally it strokes a **black border** around the outer perimeter of each
    contiguous same-color region (`drawBorders()`).
 
 `computeBorderSegments(cells)` walks every fragment's polygon edges (derived
@@ -241,6 +251,30 @@ Note: `computeBorderSegments()` currently scans *all* drawn cells on every
 render (called every mouse move while dragging). This is fine at
 prototype scale; if large maps become sluggish, a future story should
 restrict it to cells within (plus one ring around) the visible viewport.
+
+## Grid outline over drawn squares (Story 17)
+
+`drawGrid(width, height, color?)` takes an optional `color` parameter
+(defaulting to `GRID_LINE_COLOR`) so the same line-generation logic can be
+reused for two passes per `render()`:
+
+1. Before `drawFragments()`, in the default light-grey style — this is what
+   makes the grid visible over **empty** cells, as before this story.
+2. Again immediately after `drawFragments()` (and before `drawBorders()`),
+   passing `GRID_OVERLAY_LINE_COLOR` (a semi-transparent dark color) — this
+   makes the grid visible **on top of colored squares** too, which the
+   opaque fragment fill would otherwise completely hide. A semi-transparent
+   dark line (rather than reusing the light-grey color) was chosen so the
+   grid stays legible regardless of how light or dark the fill color is.
+
+Both passes cover the entire visible viewport rather than being clipped to
+just the drawn cells, so grid lines over empty cells end up very slightly
+more visible than before this story too (light-grey pass + dark overlay
+stacked) — a deliberate simplicity trade-off, since per-cell clipping would
+add meaningful complexity for a purely cosmetic difference. `drawBorders()`
+(and `drawWalls()`/`drawDoors()` after it) still draw on top of both grid
+passes, so region borders and wall/door lines remain crisp and are never
+visually interrupted by the thinner grid lines.
 
 ## Canvas interaction (`MapMakerCanvasComponent`)
 

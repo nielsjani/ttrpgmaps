@@ -21,6 +21,8 @@ import { PlayerIcon } from '../models/player-icon';
 import { HiddenArea } from '../models/hidden-area';
 
 const GRID_LINE_COLOR = '#dddddd';
+/** Story 17: contrast-safe grid line style used for the second, "on top of drawn squares" grid pass, so the grid stays legible regardless of fill color (unlike the light-grey background pass, which would be invisible against similarly light fills). */
+const GRID_OVERLAY_LINE_COLOR = 'rgba(0, 0, 0, 0.3)';
 const BORDER_COLOR = '#000000';
 const BORDER_WIDTH_PX = 2;
 const ZOOM_WHEEL_FACTOR = 1.1;
@@ -1047,6 +1049,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.ctx.clearRect(0, 0, width, height);
     this.drawGrid(width, height);
     this.drawFragments(width, height);
+    this.drawGrid(width, height, GRID_OVERLAY_LINE_COLOR);
     this.drawBorders(width, height);
     this.drawLargeSquarePreview(width, height);
     this.drawWalls(width, height);
@@ -1058,7 +1061,14 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawPartyAndPlayerIcons();
   }
 
-  private drawGrid(width: number, height: number): void {
+  /**
+   * Draws the full grid of vertical/horizontal lines across the visible
+   * viewport. Called twice per render (Story 17): once before
+   * drawFragments() in the default light-grey style (for empty cells),
+   * and again after drawFragments() with GRID_OVERLAY_LINE_COLOR so the
+   * grid stays visible on top of colored squares too.
+   */
+  private drawGrid(width: number, height: number, color: string = GRID_LINE_COLOR): void {
     const size = this.cellSize;
     if (size <= 0) {
       return;
@@ -1069,7 +1079,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     const minRow = Math.floor(-pan.y / size);
     const maxRow = Math.ceil((height - pan.y) / size);
 
-    this.ctx.strokeStyle = GRID_LINE_COLOR;
+    this.ctx.strokeStyle = color;
     this.ctx.lineWidth = 1;
     this.ctx.beginPath();
     for (let col = minCol; col <= maxCol; col++) {

@@ -574,6 +574,59 @@ describe('MapMakerStateService — walls', () => {
   });
 });
 
+describe('MapMakerStateService — large squares (Story 9)', () => {
+  let service: MapMakerStateService;
+
+  beforeEach(() => {
+    service = new MapMakerStateService();
+  });
+
+  it('placeFullSquareRect fills every cell in the rectangle with a single full-square fragment in the active color', () => {
+    service.setColor('#ff0000');
+    service.placeFullSquareRect(0, 0, 2, 1);
+
+    for (let col = 0; col <= 2; col++) {
+      for (let row = 0; row <= 1; row++) {
+        const fragments = service.getFragments({ col, row });
+        expect(fragments).toEqual([{ shape: 'full', color: '#ff0000' }]);
+      }
+    }
+  });
+
+  it('placeFullSquareRect overwrites existing fragments (of any shape/color) within the rectangle', () => {
+    service.placeFragment({ col: 1, row: 1 }, 0.1, 0.1); // a quarter fragment
+    service.setColor('#00ff00');
+
+    service.placeFullSquareRect(0, 0, 1, 1);
+
+    expect(service.getFragments({ col: 1, row: 1 })).toEqual([{ shape: 'full', color: '#00ff00' }]);
+  });
+
+  it('placeFullSquareRect normalizes reversed corner order', () => {
+    service.setColor('#0000ff');
+    service.placeFullSquareRect(2, 1, 0, 0);
+
+    for (let col = 0; col <= 2; col++) {
+      for (let row = 0; row <= 1; row++) {
+        expect(service.getFragments({ col, row })).toEqual([{ shape: 'full', color: '#0000ff' }]);
+      }
+    }
+  });
+
+  it('placeFullSquareRect leaves cells outside the rectangle untouched', () => {
+    service.placeFullSquareRect(0, 0, 1, 1);
+    expect(service.getFragments({ col: 2, row: 2 })).toEqual([]);
+    expect(service.getFragments({ col: -1, row: 0 })).toEqual([]);
+  });
+
+  it('placeFullSquareRect emits changed$', () => {
+    let emitted = 0;
+    service.changed$.subscribe(() => emitted++);
+    service.placeFullSquareRect(0, 0, 1, 1);
+    expect(emitted).toBeGreaterThan(0);
+  });
+});
+
 describe('MapMakerStateService — hidden areas', () => {
   let service: MapMakerStateService;
 

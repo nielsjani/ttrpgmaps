@@ -57,6 +57,11 @@
       (click)="selectTool('wall')"
     >🧱<span class="tool-label">Wall (W)</span></button>
   </div>
+  <p class="pan-hint" *ngIf="state.activeTool === 'square'">
+    Click or drag to draw squares (or half/quarter/triangle shapes, per the shape option below) in the
+    active color. Hold Ctrl and drag to draw a large filled rectangle spanning multiple cells instead —
+    its size in cells is shown while dragging, and it's only filled in once you release the mouse.
+  </p>
   <p class="pan-hint" *ngIf="state.activeTool === 'text'">
     Click empty space to add text. Click an existing label to select and drag it; double-click to edit it.
     Drag its bottom-right corner to scale, or its right/bottom edge to resize the box.

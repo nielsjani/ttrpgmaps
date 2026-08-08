@@ -64,6 +64,12 @@ const HIDDEN_AREA_BADGE_RADIUS_PX = 14;
 /** Fog-of-war fill/border used on the player-view canvas for unrevealed hidden areas and empty grid space. */
 const FOG_FILL_COLOR = '#000000';
 const FOG_BORDER_COLOR = '#222222';
+/** Story 9: border/label styling for the live large-square preview shown while Ctrl-dragging with the Square tool. */
+const LARGE_SQUARE_PREVIEW_BORDER_COLOR = '#000000';
+const LARGE_SQUARE_PREVIEW_BORDER_WIDTH_PX = 2;
+const LARGE_SQUARE_PREVIEW_ALPHA = 0.5;
+const LARGE_SQUARE_LABEL_BG = 'rgba(0, 0, 0, 0.75)';
+const LARGE_SQUARE_LABEL_TEXT = '#ffffff';
 
 type TextHandleKind = 'scale' | 'width' | 'height';
 type ArtHandleKind = 'scale' | 'rotate';
@@ -72,6 +78,12 @@ interface EdgeCandidate {
   orientation: DoorOrientation;
   col: number;
   row: number;
+}
+
+/** Story 9: active Ctrl-drag "large square" gesture on the Square tool, tracked by anchor/current grid cell (not screen/world coordinates, since the rectangle is always cell-aligned). Only committed to state on mouseup; a plain render-time preview is drawn while it's active. */
+interface LargeSquareDragState {
+  anchor: GridCoordinate;
+  current: GridCoordinate;
 }
 
 /** Snapshot of a text drag operation (move/resize/scale), captured at drag start so every mousemove computes absolute target values rather than compounding relative deltas. */
@@ -142,6 +154,9 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
   hoveredWallEdge: EdgeCandidate | null = null;
   /** Wall edge key last toggled during the current drag, mirroring `lastToggledEdgeKey` for doors. */
   private lastToggledWallEdgeKey: string | null = null;
+
+  /** Story 9: active Ctrl-drag "large square" gesture, if any (Square tool, Design mode only). Non-null while dragging; drives the live preview render and is committed via `MapMakerStateService.placeFullSquareRect` on mouseup. */
+  private largeSquareDrag: LargeSquareDragState | null = null;
 
   /** Active text move/resize/scale drag, if any (text tool only). */
   private textDrag: TextDragState | null = null;
@@ -215,6 +230,16 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     return { x: (sx - this.state.pan.x) / this.state.zoom, y: (sy - this.state.pan.y) / this.state.zoom };
   }
 
+  /** Story 9: normalizes two grid-cell corners (in either order) into an inclusive rectangle, shared by the large-square drag's commit call and its live preview renderer. */
+  private normalizedRect(a: GridCoordinate, b: GridCoordinate): { colMin: number; colMax: number; rowMin: number; rowMax: number } {
+    return {
+      colMin: Math.min(a.col, b.col),
+      colMax: Math.max(a.col, b.col),
+      rowMin: Math.min(a.row, b.row),
+      rowMax: Math.max(a.row, b.row),
+    };
+  }
+
   private getPointerPosition(event: MouseEvent): { x: number; y: number } {
     const rect = this.canvasRef.nativeElement.getBoundingClientRect();
     return { x: event.clientX - rect.left, y: event.clientY - rect.top };
@@ -264,6 +289,14 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
         this.handleArtMouseDown(pos);
       } else if (this.state.activeTool === 'hidden-area') {
         this.handleHiddenAreaMouseDown(pos);
+      } else if (this.state.activeTool === 'square' && event.ctrlKey) {
+        // Story 9: Ctrl+drag with the Square tool draws a large filled
+        // rectangle instead of the normal per-cell drag-paint. Nothing is
+        // written to state yet — only a live preview is shown until the
+        // rectangle is committed on mouseup.
+        const { coord } = this.screenToCell(pos.x, pos.y);
+        this.largeSquareDrag = { anchor: coord, current: coord };
+        this.render();
       } else {
         this.lastActedCellKey = null;
         this.performToolActionAt(pos);
@@ -294,6 +327,12 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.updateTextDrag(pos);
     } else if (this.artDrag) {
       this.updateArtDrag(pos);
+    } else if (this.largeSquareDrag) {
+      // Story 9: update the preview rectangle's far corner; nothing is
+      // written to state until mouseup.
+      const { coord } = this.screenToCell(pos.x, pos.y);
+      this.largeSquareDrag.current = coord;
+      this.render();
     } else if (this.state.activeTool === 'door') {
       this.updateHoveredEdge(pos);
       if (this.isPointerDown) {
@@ -320,6 +359,11 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
       this.iconDrag = null;
       this.lastToggledEdgeKey = null;
       this.lastToggledWallEdgeKey = null;
+      if (this.largeSquareDrag) {
+        const { colMin, colMax, rowMin, rowMax } = this.normalizedRect(this.largeSquareDrag.anchor, this.largeSquareDrag.current);
+        this.largeSquareDrag = null;
+        this.state.placeFullSquareRect(colMin, rowMin, colMax, rowMax);
+      }
     }
   }
 
@@ -332,6 +376,12 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.iconDrag = null;
     this.lastToggledEdgeKey = null;
     this.lastToggledWallEdgeKey = null;
+    if (this.largeSquareDrag) {
+      // Story 9: leaving the canvas mid-drag cancels the preview without
+      // committing anything, mirroring how text/art drags are abandoned.
+      this.largeSquareDrag = null;
+      this.render();
+    }
     if (this.hoveredEdge) {
       this.hoveredEdge = null;
       this.render();
@@ -998,6 +1048,7 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.drawGrid(width, height);
     this.drawFragments(width, height);
     this.drawBorders(width, height);
+    this.drawLargeSquarePreview(width, height);
     this.drawWalls(width, height);
     this.drawDoors(width, height);
     this.drawArt(width, height);
@@ -1088,6 +1139,54 @@ export class MapMakerCanvasComponent implements AfterViewInit, OnDestroy {
     this.ctx.stroke();
   }
 
+  /**
+   * Story 9: while a Ctrl-drag "large square" gesture is active on the
+   * Square tool, draws a live preview of the rectangle that will be filled
+   * on mouseup: a semi-transparent fill in the active color, a solid
+   * border, and a "W x H" size label (in cells) near the drag's current
+   * corner. Nothing here mutates state; the actual fill only happens via
+   * `MapMakerStateService.placeFullSquareRect` on mouseup.
+   */
+  private drawLargeSquarePreview(_width: number, _height: number): void {
+    if (!this.largeSquareDrag) {
+      return;
+    }
+    const { colMin, colMax, rowMin, rowMax } = this.normalizedRect(this.largeSquareDrag.anchor, this.largeSquareDrag.current);
+    const size = this.cellSize;
+    const { pan } = this.state;
+    const x = colMin * size + pan.x;
+    const y = rowMin * size + pan.y;
+    const w = (colMax - colMin + 1) * size;
+    const h = (rowMax - rowMin + 1) * size;
+
+    this.ctx.save();
+    this.ctx.globalAlpha = LARGE_SQUARE_PREVIEW_ALPHA;
+    this.ctx.fillStyle = this.state.activeColor;
+    this.ctx.fillRect(x, y, w, h);
+    this.ctx.restore();
+
+    this.ctx.strokeStyle = LARGE_SQUARE_PREVIEW_BORDER_COLOR;
+    this.ctx.lineWidth = LARGE_SQUARE_PREVIEW_BORDER_WIDTH_PX;
+    this.ctx.strokeRect(x, y, w, h);
+
+    const widthCells = colMax - colMin + 1;
+    const heightCells = rowMax - rowMin + 1;
+    const label = `${widthCells} x ${heightCells}`;
+    const labelX = x + w / 2;
+    const labelY = y + h / 2;
+    this.ctx.font = 'bold 13px sans-serif';
+    this.ctx.textAlign = 'center';
+    this.ctx.textBaseline = 'middle';
+    const metrics = this.ctx.measureText(label);
+    const paddingX = 6;
+    const paddingY = 4;
+    const labelWidth = metrics.width + paddingX * 2;
+    const labelHeight = 16 + paddingY;
+    this.ctx.fillStyle = LARGE_SQUARE_LABEL_BG;
+    this.ctx.fillRect(labelX - labelWidth / 2, labelY - labelHeight / 2, labelWidth, labelHeight);
+    this.ctx.fillStyle = LARGE_SQUARE_LABEL_TEXT;
+    this.ctx.fillText(label, labelX, labelY);
+  }
   /**
    * Story 15: draws the hover-highlighted edge (if the Wall tool is active
    * and the cursor is near a candidate edge — every edge qualifies, so this

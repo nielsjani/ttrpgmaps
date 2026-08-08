@@ -70,6 +70,13 @@ infinite, pannable, zoomable canvas.
   state, so they render identically and unconditionally in both the DM
   and player views. Walls also act as a boundary for Story 7's connected-
   region flood fill, alongside doors. Described in detail below.
+- **Story 9 — Draw large squares**: implemented. Holding Ctrl while
+  dragging with the Square tool active (Design mode only) draws a live
+  preview rectangle with a "W x H" cell-size label; releasing the mouse
+  commits it as a single bulk fill of full-square fragments in the active
+  color via `MapMakerStateService.placeFullSquareRect()`, overwriting any
+  existing fragments in the rectangle, regardless of the currently
+  selected shape option. Described in detail below.
 
 ## Module structure
 
@@ -155,6 +162,43 @@ same instance via the constructor.
   `(fx, fy)` point (`shapeContainsPoint()`), leaving any other fragments in
   that cell untouched. Nothing is ever removed as a fused "blob" — see the
   merging note below.
+
+## Drawing large squares (Story 9)
+
+Holding **Ctrl** while dragging with the **Square tool** active (Design
+mode only) draws a filled rectangle spanning multiple cells, instead of
+the normal per-cell drag-paint:
+
+- **Preview-then-commit model**: while the Ctrl-drag is in progress,
+  nothing is written to `MapMakerStateService` — `MapMakerCanvasComponent`
+  only tracks a `largeSquareDrag: { anchor, current } | null` field (both
+  grid cells) and re-renders a **live preview** on every `mousemove`
+  (`drawLargeSquarePreview()`): a semi-transparent fill in the active
+  color, a solid border, and a "W x H" cell-count label centered on the
+  rectangle. The rectangle is only actually filled in on `mouseup`.
+- **Committing**: on `mouseup`, the anchor/current corners are normalized
+  (`normalizedRect()`, shared with the preview renderer) and passed to
+  `MapMakerStateService.placeFullSquareRect(colMin, rowMin, colMax,
+  rowMax)`, which directly overwrites every cell in the inclusive
+  rectangle with a single full-square fragment in `state.activeColor` —
+  ignoring whatever `activeShapeOption` (square/half/quarter/triangle) is
+  currently selected, since sub-shapes don't make sense applied across a
+  multi-cell rectangle — and emits `changed$` only once for the whole
+  bulk fill (not per-cell). Existing fragments of any shape/color inside
+  the rectangle are fully replaced, mirroring how a single full-square
+  `placeFragment()` call already becomes the sole fragment in a cell.
+- **Ctrl detection**: whether a drag is a "large square" gesture is
+  decided once, at `mousedown` (`event.ctrlKey`), not re-checked on every
+  `mousemove` — consistent with how other drag gestures (text/art/icon)
+  snapshot their mode at drag start. A plain (non-Ctrl) drag with the
+  Square tool is completely unaffected and still paints cell-by-cell via
+  `performToolActionAt()`.
+- **Cancel-on-leave**: if the cursor leaves the canvas mid-drag
+  (`onMouseLeave`), the preview is discarded without committing anything,
+  mirroring how text/art drags are already abandoned rather than
+  committed on `onMouseLeave`.
+- A Ctrl-click with no drag movement is just a degenerate 1×1 rectangle —
+  no special-casing needed, since it's a valid input to `placeFullSquareRect`.
 
 ## Visual merging of adjacent same-color shapes & black borders
 

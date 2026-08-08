@@ -227,6 +227,30 @@ export class MapMakerStateService {
   }
 
   /**
+   * Fills every cell in the inclusive rectangle spanning
+   * (colMin, rowMin)..(colMax, rowMax) with a single full-square fragment in
+   * the currently active color, replacing any existing fragments in those
+   * cells (mirroring how a single full-square `placeFragment` call always
+   * ends up as the sole fragment in a cell). Corner arguments are normalized
+   * internally, so either corner order works. Used by the Square tool's
+   * Ctrl-drag "large square" gesture (Story 9); emits `changed$` only once
+   * after the whole rectangle has been written.
+   */
+  placeFullSquareRect(colMin: number, rowMin: number, colMax: number, rowMax: number): void {
+    const minCol = Math.min(colMin, colMax);
+    const maxCol = Math.max(colMin, colMax);
+    const minRow = Math.min(rowMin, rowMax);
+    const maxRow = Math.max(rowMin, rowMax);
+    for (let col = minCol; col <= maxCol; col++) {
+      for (let row = minRow; row <= maxRow; row++) {
+        const key = gridKey({ col, row });
+        this.cells.set(key, [{ shape: 'full', color: this.activeColor }]);
+      }
+    }
+    this.changed$.next();
+  }
+
+  /**
    * Removes whichever single fragment (if any) occupies the sub-position
    * (fx, fy) within the given cell. Other fragments in the cell are left
    * untouched, so a merged-looking group of same-color shapes splits apart

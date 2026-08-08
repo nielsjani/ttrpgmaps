@@ -94,7 +94,7 @@ The dungeon-master can reveal these doors by clicking on the corresponding door 
 
 Similarly, certain art assets can be designated as hidden and can be revealed by the dungeon master.
 
-# 9. Draw large squares
+# 9. Draw large squares - DONE
 User can draw large squares by clicking on the square tool and then clicking and dragging the mouse while holding down the ctrl button.
 The screen will show the size in width and height of the square being drawn while the mouse is being dragged.
 

@@ -112,6 +112,143 @@
   background: linear-gradient(135deg, #d81b60, #f06292);
 }
 
+.pull-pity {
+  background: linear-gradient(135deg, #ef6c00, #ffa726);
+
+  .charge-count {
+    margin-left: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    opacity: 0.85;
+  }
+}
+
+/* ===== PITY BANNER & QUEUE ===== */
+.pity-banner {
+  background: #fff3e0;
+  border: 1px solid #ffcc80;
+  border-radius: 8px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  p {
+    margin: 0 0 10px;
+    font-weight: 600;
+    color: #7b4f00;
+  }
+}
+
+.pity-banner-choices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pity-choice-btn {
+  background: white;
+  border: 2px solid #ff9800;
+  color: #e65100;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #fff3e0;
+  }
+}
+
+.pity-queue-note {
+  text-align: center;
+  font-size: 0.88rem;
+  color: #6a1b9a;
+  background: #f3e5f5;
+  border: 1px solid #ce93d8;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+}
+
+/* ===== PITY PROGRESS PANEL ===== */
+.pity-panel {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+
+  h3 {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    color: #333;
+  }
+}
+
+.pity-hint {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 8px;
+}
+
+.pity-progress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pity-progress-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pity-progress-label {
+  min-width: 70px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.pity-progress-bar {
+  flex: 1;
+  min-width: 100px;
+  height: 10px;
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pity-progress-fill {
+  height: 100%;
+  transition: width 0.2s;
+
+  &.rarity-common { background: #9e9e9e; }
+  &.rarity-rare { background: #ffca28; }
+  &.rarity-mythic { background: #ba68c8; }
+}
+
+.pity-progress-value {
+  min-width: 40px;
+  font-size: 0.8rem;
+  color: #666;
+  font-family: monospace;
+}
+
+.pity-boost-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #2e7d32;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
 /* ===== RARITY COLOR SCHEME ===== */
 .rarity-common {
   color: #616161;
@@ -166,7 +303,6 @@
   padding: 10px;
   text-align: center;
   background: #fafafa;
-  cursor: pointer;
   transition: transform 0.12s;
 
   &:hover {
@@ -181,6 +317,83 @@
     background: #fff8ee;
     box-shadow: 0 0 10px rgba(255, 152, 0, 0.35);
   }
+
+  &.unopened { border-color: #e0e0e0; }
+}
+
+/* ===== GACHA CAPSULE (unopened) ===== */
+.capsule-wrap {
+  position: relative;
+  cursor: pointer;
+  padding: 6px 0 2px;
+}
+
+.capsule {
+  position: relative;
+  width: 100%;
+  max-width: 120px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s;
+}
+
+.capsule-wrap:hover .capsule {
+  transform: scale(1.06);
+}
+
+.capsule-top {
+  position: absolute;
+  inset: 0 0 50% 0;
+  background: var(--capsule-top, #e53935);
+}
+
+.capsule-bottom {
+  position: absolute;
+  inset: 50% 0 0 0;
+  background: var(--capsule-bottom, #ffffff);
+}
+
+.capsule-seam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+  height: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.capsule-shine {
+  position: absolute;
+  top: 10%;
+  left: 16%;
+  width: 30%;
+  height: 18%;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.capsule-hint {
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: #888;
+  font-style: italic;
+}
+
+@keyframes capsule-shake {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  20% { transform: rotate(-8deg) scale(1.03); }
+  40% { transform: rotate(8deg) scale(1.05); }
+  60% { transform: rotate(-6deg) scale(1.08); }
+  80% { transform: rotate(6deg) scale(1.1); }
+}
+
+.capsule-wrap.opening .capsule {
+  animation: capsule-shake 0.5s ease-in-out;
 }
 
 .prize-image {
@@ -189,8 +402,44 @@
   background-repeat: no-repeat;
   background-size: 200% 200%;
   border-radius: 6px;
-  margin-bottom: 8px;
   background-color: #222;
+}
+
+.prize-image-wrap {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.new-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #e53935;
+  color: white;
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 8px;
+  letter-spacing: 0.4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.insert-btn {
+  border: 1px solid #90a4ae;
+  background: #f5f5f5;
+  color: #455a64;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+
+  &:hover {
+    background: #e0e0e0;
+  }
 }
 
 .prize-rarity-badge {

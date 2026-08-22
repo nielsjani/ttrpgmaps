@@ -21,42 +21,105 @@
     <button class="pull-btn pull-ten" (click)="pullTen()">
       🔔 Pull x10 <span class="cost">{{ pullTenCost }}g</span>
     </button>
+    <button class="pull-btn pull-pity" *ngIf="pityPullCharges > 0" (click)="pityPull()">
+      🎗 Pity Pull x{{ pityPullCount }} <span class="cost">{{ pityPullCost }}g</span>
+      <span class="charge-count">({{ pityPullCharges }} left)</span>
+    </button>
   </div>
 
-  <section class="results-panel" *ngIf="lastResults.length">
+  <!-- ===== GUARANTEE CHOICE BANNER ===== -->
+  <div class="pity-banner" *ngIf="pendingGuaranteeChoices > 0">
+    <p>
+      🎉 Pity triggered{{ pendingGuaranteeChoices > 1 ? ' (x' + pendingGuaranteeChoices + ')' : '' }}!
+      Choose the guaranteed prize type for an upcoming Pity Pull:
+    </p>
+    <div class="pity-banner-choices">
+      <button
+        class="pity-choice-btn"
+        *ngFor="let prize of prizes"
+        (click)="chooseGuaranteedPrize(prize.id)"
+      >{{ prize.name }}</button>
+    </div>
+  </div>
+
+  <!-- ===== QUEUED GUARANTEES ===== -->
+  <div class="pity-queue-note" *ngIf="guaranteeQueue.length > 0">
+    🔒 Guaranteed for your next Pity Pull{{ guaranteeQueue.length > 1 ? 's' : '' }}: {{ guaranteedPrizeNames() }}
+  </div>
+
+  <!-- ===== PITY PROGRESS ===== -->
+  <section class="pity-panel">
+    <h3>Pity Machine <span class="pity-hint">Feed prizes of a given rarity back in to improve your next Pity Pulls.</span></h3>
+    <div class="pity-progress-list">
+      <div class="pity-progress-item" *ngFor="let key of pityRarityKeys">
+        <span class="pity-progress-label">{{ pityLabel(key) }}</span>
+        <div class="pity-progress-bar">
+          <div class="pity-progress-fill" [ngClass]="'rarity-' + key" [style.width.%]="(insertCounts[key] / insertThreshold) * 100"></div>
+        </div>
+        <span class="pity-progress-value">{{ insertCounts[key] }}/{{ insertThreshold }}</span>
+        <span class="pity-boost-badge" *ngIf="boostUnlocked[key]">{{ pityBoostDescription(key) }}</span>
+        <button class="insert-btn" (click)="insertIntoPity(key)" title="Feed a {{ pityLabel(key) }} prize into the machine">
+          ♻ Insert
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="results-panel" *ngIf="inventory.length">
     <h2 class="results-title">Your Prizes</h2>
-    <p class="click-hint">Click a prize to see a larger view and its effect.</p>
+    <p class="click-hint">Tap a capsule to crack it open. Once opened, click the prize to see a larger view and its effect.</p>
     <div class="results-grid">
       <div
         class="result-card"
-        *ngFor="let res of lastResults"
-        [ngClass]="'rarity-' + res.rarity"
-        (click)="selectResult(res)"
+        *ngFor="let res of inventory"
+        [ngClass]="res.opened ? 'rarity-' + res.rarity : 'unopened'"
       >
+        <!-- Closed capsule -->
         <div
-          class="prize-image"
-          [style.background-image]="'url(' + res.image + ')'"
-          [style.background-position]="res.backgroundPosition"
-        ></div>
-        <div class="prize-rarity-badge" [ngClass]="'badge-' + res.rarity">{{ res.rarityLabel }}</div>
-        <div class="prize-name">{{ res.prize.name }}</div>
+          class="capsule-wrap"
+          *ngIf="!res.opened"
+          [class.opening]="res.isOpening"
+          (click)="openCapsule(res)"
+        >
+          <div class="capsule" [style.--capsule-top]="res.capsuleTopColor" [style.--capsule-bottom]="res.capsuleBottomColor">
+            <div class="capsule-top"></div>
+            <div class="capsule-seam"></div>
+            <div class="capsule-bottom"></div>
+            <div class="capsule-shine"></div>
+          </div>
+          <span class="new-badge" *ngIf="isNewPull(res)">NEW</span>
+          <p class="capsule-hint">{{ res.isOpening ? 'Opening…' : 'Tap to open' }}</p>
+        </div>
+
+        <!-- Revealed prize -->
+        <ng-container *ngIf="res.opened">
+          <div class="prize-image-wrap" (click)="selectResult(res)">
+            <div
+              class="prize-image"
+              [style.background-image]="'url(' + res.image + ')'"
+              [style.background-position]="res.backgroundPosition"
+            ></div>
+          </div>
+          <div class="prize-rarity-badge" [ngClass]="'badge-' + res.rarity">{{ res.rarityLabel }}</div>
+          <div class="prize-name">{{ res.prize.name }}</div>
+        </ng-container>
       </div>
     </div>
   </section>
 
   <!-- ===== PRIZE DETAIL MODAL ===== -->
-  <div class="detail-overlay" *ngIf="selectedResult" (click)="closeDetail()">
-    <div class="detail-modal" [ngClass]="'rarity-' + selectedResult.rarity" (click)="$event.stopPropagation()">
+  <div class="detail-overlay" *ngIf="selectedResult as sel" (click)="closeDetail()">
+    <div class="detail-modal" [ngClass]="'rarity-' + sel.rarity" (click)="$event.stopPropagation()">
       <button class="detail-close-btn" (click)="closeDetail()" aria-label="Close">✕</button>
       <div
         class="detail-image"
-        [style.background-image]="'url(' + selectedResult.image + ')'"
-        [style.background-position]="selectedResult.backgroundPosition"
+        [style.background-image]="'url(' + sel.image + ')'"
+        [style.background-position]="sel.backgroundPosition"
       ></div>
-      <div class="detail-rarity-badge" [ngClass]="'badge-' + selectedResult.rarity">{{ selectedResult.rarityLabel }}</div>
-      <h3 class="detail-name">{{ selectedResult.prize.name }}</h3>
+      <div class="detail-rarity-badge" [ngClass]="'badge-' + sel.rarity">{{ sel.rarityLabel }}</div>
+      <h3 class="detail-name">{{ sel.prize.name }}</h3>
       <div class="detail-effect">
-        <p *ngFor="let paragraph of getEffectParagraphs(selectedResult)">{{ paragraph }}</p>
+        <p *ngFor="let paragraph of getEffectParagraphs(sel)">{{ paragraph }}</p>
       </div>
     </div>
   </div>

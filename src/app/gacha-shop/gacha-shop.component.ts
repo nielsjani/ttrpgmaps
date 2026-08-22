@@ -1,9 +1,23 @@
 import { Component } from '@angular/core';
-import { GachaPrizeDefinition, GachaRarityInfo, GachaResult } from './types/gacha-types';
+import { GachaPrizeDefinition, GachaRarityInfo, GachaResult, PityRarity, Rarity } from './types/gacha-types';
 
 const PULL_ONE_COST = 100;
 const PULL_TEN_COST = 900;
+const PITY_PULL_COUNT = 5;
+const PITY_PULL_COST = 250;
 const TOTAL_TRINKETS = 10000;
+const INSERT_THRESHOLD = 10;
+const CAPSULE_OPEN_ANIMATION_MS = 500;
+
+/** Purely cosmetic capsule colour pairs — random per pull, unrelated to rarity, so a capsule gives no hint of what's inside. */
+const CAPSULE_COLORS: { top: string; bottom: string }[] = [
+  { top: '#e53935', bottom: '#ffffff' },
+  { top: '#1e88e5', bottom: '#ffffff' },
+  { top: '#fdd835', bottom: '#ffffff' },
+  { top: '#43a047', bottom: '#ffffff' },
+  { top: '#8e24aa', bottom: '#ffffff' },
+  { top: '#fb8c00', bottom: '#ffffff' },
+];
 
 const RARITIES: GachaRarityInfo[] = [
   { rarity: 'common', label: 'Common', weight: 0.75, positionX: '0%', positionY: '0%' },
@@ -40,24 +54,114 @@ export class GachaShopComponent {
   readonly category = 'gacha - keychains';
   readonly pullOneCost = PULL_ONE_COST;
   readonly pullTenCost = PULL_TEN_COST;
+  readonly pityPullCount = PITY_PULL_COUNT;
+  readonly pityPullCost = PITY_PULL_COST;
+  readonly insertThreshold = INSERT_THRESHOLD;
+  readonly prizes = PRIZES;
+  readonly pityRarityKeys: PityRarity[] = ['common', 'rare', 'mythic'];
 
   lastResults: GachaResult[] = [];
   selectedResult: GachaResult | null = null;
 
+  /** All prizes currently owned (most recent first) that haven't been fed back into the machine. */
+  inventory: GachaResult[] = [];
+
+  /** Progress (0-9) towards the next pity threshold for each insertable rarity. */
+  insertCounts: Record<PityRarity, number> = { common: 0, rare: 0, mythic: 0 };
+
+  /** Whether the rarity-odds boost unlocked by a given rarity's pity threshold is active. Only applies to Pity Pulls. */
+  boostUnlocked: Record<PityRarity, boolean> = { common: false, rare: false, mythic: false };
+
+  /** Number of pity rewards waiting for the player to pick a guaranteed prize type. */
+  pendingGuaranteeChoices = 0;
+
+  /** Queue of prize ids already chosen; each entry guarantees the type of one upcoming Pity Pull (not regular pulls). */
+  guaranteeQueue: string[] = [];
+
+  /** Number of discounted Pity Pull (5 pulls / 250g) uses available. */
+  pityPullCharges = 0;
+
+  private idCounter = 0;
+
   pullOne(): void {
-    this.pull(1);
+    this.pull(1, false);
   }
 
   pullTen(): void {
-    this.pull(10);
+    this.pull(10, false);
+  }
+
+  pityPull(): void {
+    if (this.pityPullCharges <= 0) {
+      return;
+    }
+    this.pityPullCharges--;
+    this.pull(PITY_PULL_COUNT, true);
+  }
+
+  /** Cracks open a capsule; the prize is revealed once the opening animation finishes. */
+  openCapsule(result: GachaResult): void {
+    if (result.opened || result.isOpening) {
+      return;
+    }
+    result.isOpening = true;
+    setTimeout(() => {
+      result.isOpening = false;
+      result.opened = true;
+    }, CAPSULE_OPEN_ANIMATION_MS);
   }
 
   selectResult(result: GachaResult): void {
+    if (!result.opened) {
+      return;
+    }
     this.selectedResult = result;
   }
 
   closeDetail(): void {
     this.selectedResult = null;
+  }
+
+  /** Feeds a prize of the given rarity into the machine towards its pity threshold. Assumes the player has an effectively unlimited supply of prizes to trade in. */
+  insertIntoPity(key: PityRarity): void {
+    this.insertCounts[key]++;
+    if (this.insertCounts[key] >= INSERT_THRESHOLD) {
+      this.insertCounts[key] -= INSERT_THRESHOLD;
+      this.boostUnlocked[key] = true;
+      this.pendingGuaranteeChoices++;
+      this.pityPullCharges++;
+    }
+  }
+
+  /** Player picks which prize type will be the sole result of their next Pity Pull. */
+  chooseGuaranteedPrize(prizeId: string): void {
+    if (this.pendingGuaranteeChoices <= 0) {
+      return;
+    }
+    this.pendingGuaranteeChoices--;
+    this.guaranteeQueue.push(prizeId);
+  }
+
+  isNewPull(result: GachaResult): boolean {
+    return this.lastResults.some(r => r.id === result.id);
+  }
+
+  guaranteedPrizeNames(): string {
+    return this.guaranteeQueue
+      .map(id => PRIZES.find(p => p.id === id)?.name ?? id)
+      .join(', ');
+  }
+
+  pityLabel(key: PityRarity): string {
+    return RARITIES.find(r => r.rarity === key)!.label;
+  }
+
+  pityBoostDescription(key: PityRarity): string {
+    switch (key) {
+      case 'common': return 'Rare+ odds x2 on Pity Pulls';
+      case 'rare': return 'Mythic+ odds x3 on Pity Pulls';
+      case 'mythic': return 'Legendary odds x4 on Pity Pulls';
+    }
   }
 
   /** Builds the flavour/effect paragraphs shown for the selected prize, based on its rarity. */
@@ -92,29 +196,83 @@ export class GachaShopComponent {
     }
   }
 
-  private pull(count: number): void {
+  private pull(count: number, isPityPull: boolean): void {
+    const forcedPrizeId = isPityPull && this.guaranteeQueue.length ? this.guaranteeQueue.shift()! : null;
+    const weights = isPityPull ? this.getEffectiveWeights() : this.getBaseWeights();
+
     const results: GachaResult[] = [];
     for (let i = 0; i < count; i++) {
-      const rarity = this.rollRarity();
-      const prize = PRIZES[Math.floor(Math.random() * PRIZES.length)];
+      const rarity = this.rollRarity(weights);
+      const prize = forcedPrizeId
+        ? PRIZES.find(p => p.id === forcedPrizeId)!
+        : PRIZES[Math.floor(Math.random() * PRIZES.length)];
       results.push({
+        id: `prize-${++this.idCounter}`,
         prize,
         rarity: rarity.rarity,
         rarityLabel: rarity.label,
         image: prize.image,
         backgroundPosition: `${rarity.positionX} ${rarity.positionY}`,
         serialNumber: rarity.rarity === 'common' ? this.rollSerialNumber() : undefined,
+        opened: false,
+        isOpening: false,
+        capsuleTopColor: this.rollCapsuleColors().top,
+        capsuleBottomColor: this.rollCapsuleColors().bottom,
       });
     }
     this.lastResults = results;
+    this.inventory = [...results, ...this.inventory];
     this.selectedResult = null;
   }
 
-  private rollRarity(): GachaRarityInfo {
+  private rollCapsuleColors(): { top: string; bottom: string } {
+    return CAPSULE_COLORS[Math.floor(Math.random() * CAPSULE_COLORS.length)];
+  }
+
+  /**
+   * The plain, un-boosted rarity odds used for normal Pull x1 / Pull x10 actions.
+   */
+  private getBaseWeights(): Record<Rarity, number> {
+    const weights = {} as Record<Rarity, number>;
+    for (const rarity of RARITIES) {
+      weights[rarity.rarity] = rarity.weight;
+    }
+    return weights;
+  }
+
+  /**
+   * Computes the pity-adjusted rarity weights used only for Pity Pulls. Each unlocked pity boost
+   * multiplies the odds of every rarity above the rarity that was fed in: commons double
+   * rare-and-up, rares triple mythic-and-up, mythics quadruple legendary. Common absorbs whatever
+   * probability is left over so the weights always sum to 1.
+   */
+  private getEffectiveWeights(): Record<Rarity, number> {
+    let rare = RARITIES.find(r => r.rarity === 'rare')!.weight;
+    let mythic = RARITIES.find(r => r.rarity === 'mythic')!.weight;
+    let legendary = RARITIES.find(r => r.rarity === 'legendary')!.weight;
+
+    if (this.boostUnlocked.common) {
+      rare *= 2;
+      mythic *= 2;
+      legendary *= 2;
+    }
+    if (this.boostUnlocked.rare) {
+      mythic *= 3;
+      legendary *= 3;
+    }
+    if (this.boostUnlocked.mythic) {
+      legendary *= 4;
+    }
+
+    const common = Math.max(0, 1 - (rare + mythic + legendary));
+    return { common, rare, mythic, legendary };
+  }
+
+  private rollRarity(weights: Record<Rarity, number>): GachaRarityInfo {
     const roll = Math.random();
     let cumulative = 0;
     for (const rarity of RARITIES) {
-      cumulative += rarity.weight;
+      cumulative += weights[rarity.rarity];
       if (roll < cumulative) {
         return rarity;
       }

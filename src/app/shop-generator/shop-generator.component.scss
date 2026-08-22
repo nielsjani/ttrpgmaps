@@ -29,6 +29,34 @@
   flex-wrap: wrap;
 }
 
+/* ===== SUBMENU ===== */
+.shop-submenu {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.shop-submenu-link {
+  padding: 8px 18px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #666;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+
+  &:hover {
+    color: #1976d2;
+  }
+
+  &.active {
+    color: #1976d2;
+    border-color: #1976d2;
+  }
+}
+
 /* ===== GLOBAL DISCOUNT BAR ===== */
 .global-discount-bar {
   display: flex;

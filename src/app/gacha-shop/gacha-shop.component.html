@@ -1,0 +1,64 @@
+<div class="gacha-page">
+
+  <!-- ===== SUBMENU ===== -->
+  <nav class="shop-submenu">
+    <a class="shop-submenu-link" routerLink="/shop-generator">Item Shop</a>
+    <a class="shop-submenu-link active" routerLink="/shop-generator/gretchens-trinkets">🎰 Gretchen's Trinkets</a>
+  </nav>
+
+  <div class="gacha-header">
+    <h1 class="gacha-title">🎰 {{ shopName }}</h1>
+    <p class="gacha-category">{{ category }}</p>
+    <p class="gacha-intro">
+      Insert your gold, give the crank a turn, and see what keychain fortune has in store for you!
+    </p>
+  </div>
+
+  <div class="pull-panel">
+    <button class="pull-btn pull-one" (click)="pullOne()">
+      🔔 Pull x1 <span class="cost">{{ pullOneCost }}g</span>
+    </button>
+    <button class="pull-btn pull-ten" (click)="pullTen()">
+      🔔 Pull x10 <span class="cost">{{ pullTenCost }}g</span>
+    </button>
+  </div>
+
+  <section class="results-panel" *ngIf="lastResults.length">
+    <h2 class="results-title">Your Prizes</h2>
+    <p class="click-hint">Click a prize to see a larger view and its effect.</p>
+    <div class="results-grid">
+      <div
+        class="result-card"
+        *ngFor="let res of lastResults"
+        [ngClass]="'rarity-' + res.rarity"
+        (click)="selectResult(res)"
+      >
+        <div
+          class="prize-image"
+          [style.background-image]="'url(' + res.image + ')'"
+          [style.background-position]="res.backgroundPosition"
+        ></div>
+        <div class="prize-rarity-badge" [ngClass]="'badge-' + res.rarity">{{ res.rarityLabel }}</div>
+        <div class="prize-name">{{ res.prize.name }}</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRIZE DETAIL MODAL ===== -->
+  <div class="detail-overlay" *ngIf="selectedResult" (click)="closeDetail()">
+    <div class="detail-modal" [ngClass]="'rarity-' + selectedResult.rarity" (click)="$event.stopPropagation()">
+      <button class="detail-close-btn" (click)="closeDetail()" aria-label="Close">✕</button>
+      <div
+        class="detail-image"
+        [style.background-image]="'url(' + selectedResult.image + ')'"
+        [style.background-position]="selectedResult.backgroundPosition"
+      ></div>
+      <div class="detail-rarity-badge" [ngClass]="'badge-' + selectedResult.rarity">{{ selectedResult.rarityLabel }}</div>
+      <h3 class="detail-name">{{ selectedResult.prize.name }}</h3>
+      <div class="detail-effect">
+        <p *ngFor="let paragraph of getEffectParagraphs(selectedResult)">{{ paragraph }}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

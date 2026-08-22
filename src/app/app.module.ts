@@ -12,6 +12,7 @@ import {CharacterCreatorRoutingModule} from "./character-creator/character-creat
 import {ShopGeneratorModule} from "./shop-generator/shop-generator.module";
 import {StarfinderModule} from "./starfinder/starfinder.module";
 import {MapMakerModule} from "./map-maker/map-maker.module";
+import {GachaShopModule} from "./gacha-shop/gacha-shop.module";
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {MapMakerModule} from "./map-maker/map-maker.module";
     ShopGeneratorModule,
     StarfinderModule,
     MapMakerModule,
+    GachaShopModule,
     AppRoutingModule,
     CharacterCreatorModule
   ],

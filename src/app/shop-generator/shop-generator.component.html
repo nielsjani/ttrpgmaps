@@ -20,6 +20,12 @@
     </div>
   </div>
 
+  <!-- ===== SUBMENU ===== -->
+  <nav class="shop-submenu" *ngIf="!isReadOnly">
+    <a class="shop-submenu-link active" routerLink="/shop-generator">Item Shop</a>
+    <a class="shop-submenu-link" routerLink="/shop-generator/gretchens-trinkets">🎰 Gretchen's Trinkets</a>
+  </nav>
+
   <!-- ===== GLOBAL DISCOUNT BAR ===== -->
   <div class="global-discount-bar" *ngIf="!isReadOnly">
     <span class="global-discount-label">🌐 Global Discount</span>

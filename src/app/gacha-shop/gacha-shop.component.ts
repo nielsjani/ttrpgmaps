@@ -31,7 +31,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     id: 'cyclops',
     name: 'Keychain of the Cyclops',
     skill: 'Athletics',
-    legendarySpecial: 'Once per day, change your strength score to 30 before rolling for an Athletics check.',
+    legendarySpecial: 'Once per day, change your Strength score to 30 before rolling for an Athletics check.',
     image: 'assets/gacha/cyclops_gacha.png',
   },
   {
@@ -40,6 +40,34 @@ const PRIZES: GachaPrizeDefinition[] = [
     skill: 'Sleight of Hand',
     legendarySpecial: 'Once per day after performing a successful Sleight of Hand check, become invisible for a number of minutes equal to your levels in full martial classes.',
     image: 'assets/gacha/master_thief_gacha.png',
+  },
+  {
+    id: 'couatl',
+    name: 'Keychain of the Couatl',
+    skill: 'Acrobatics',
+    legendarySpecial: 'Once per day, change your Dexterity score to 30 before rolling for an Acrobatics check.',
+    image: 'assets/gacha/couatl_gacha.png',
+  },
+  {
+    id: 'invisible-stalker',
+    name: 'Keychain of the Invisible Stalker',
+    skill: 'Stealth',
+    legendarySpecial: 'Once per day, roll a Stealth check and make the result count for up to 5 other creatures you can see. You can choose to use this ability after seeing the result of the roll.',
+    image: 'assets/gacha/invisible_stalker_gacha.png',
+  },
+  {
+    id: 'lich',
+    name: 'Keychain of the Lich',
+    skill: 'Arcana',
+    legendarySpecial: 'Once per day, cast a spell from any spell list. You still have to expend a spell slot and require the material components. You cannot use this ability during combat.',
+    image: 'assets/gacha/lich_gacha.png',
+  },
+  {
+    id: 'empyrean',
+    name: 'Keychain of the Empyrean',
+    skill: 'History',
+    legendarySpecial: 'Once per session, after making a successful History check, ask the DM one yes-or-no question about the history of the subject and receive a truthful answer.',
+    image: 'assets/gacha/empyrean_gacha.png',
   },
 ];
 

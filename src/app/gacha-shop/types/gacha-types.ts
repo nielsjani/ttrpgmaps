@@ -3,10 +3,15 @@ export type Rarity = 'common' | 'rare' | 'mythic' | 'legendary';
 /** Rarities that can be fed back into the machine for the pity system (legendary is the top tier, so it can't be). */
 export type PityRarity = 'common' | 'rare' | 'mythic';
 
+/** Whether a prize's rare+ rarities boost a skill or a saving throw. */
+export type GachaBonusType = 'skill' | 'savingThrow';
+
 export interface GachaPrizeDefinition {
   id: string;
   name: string;
-  /** The skill granted/boosted by rare and higher rarities of this prize. */
+  /** Whether `skill` names a skill or a saving throw. Defaults to 'skill' when omitted. */
+  bonusType?: GachaBonusType;
+  /** The skill or saving throw granted/boosted by rare and higher rarities of this prize. */
   skill: string;
   /** Extra special ability text granted only at legendary rarity. */
   legendarySpecial: string;

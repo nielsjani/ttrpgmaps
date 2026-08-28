@@ -69,6 +69,54 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per session, after making a successful History check, ask the DM one yes-or-no question about the history of the subject and receive a truthful answer.',
     image: 'assets/gacha/empyrean_gacha.png',
   },
+  {
+    id: 'forcecage',
+    name: 'Keychain of Forcecage',
+    bonusType: 'savingThrow',
+    skill: 'Charisma',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Charisma. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/forcecage_gacha.png',
+  },
+  {
+    id: 'meteor-swarm',
+    name: 'Keychain of the Meteor Swarm',
+    bonusType: 'savingThrow',
+    skill: 'Dexterity',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Dexterity. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/meteor_swarm_gacha.png',
+  },
+  {
+    id: 'psychic-scream',
+    name: 'Keychain of the Psychic Scream',
+    bonusType: 'savingThrow',
+    skill: 'Intelligence',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Intelligence. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/psychic_scream_gacha.png',
+  },
+  {
+    id: 'ravenous-void',
+    name: 'Keychain of the Ravenous Void',
+    bonusType: 'savingThrow',
+    skill: 'Strength',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Strength. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/ravenous_void_gacha.png',
+  },
+  {
+    id: 'storm-of-vengeance',
+    name: 'Keychain of the Storm of Vengeance',
+    bonusType: 'savingThrow',
+    skill: 'Constitution',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Constitution. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/storm_of_vengeance_gacha.png',
+  },
+  {
+    id: 'weird',
+    name: 'Keychain of Weird',
+    bonusType: 'savingThrow',
+    skill: 'Wisdom',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Wisdom. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    image: 'assets/gacha/weird_gacha.png',
+  },
 ];
 
 @Component({
@@ -195,6 +243,11 @@ export class GachaShopComponent {
   /** Builds the flavour/effect paragraphs shown for the selected prize, based on its rarity. */
   getEffectParagraphs(result: GachaResult): string[] {
     const skill = result.prize.skill;
+    const isSavingThrow = result.prize.bonusType === 'savingThrow';
+    const attunementLine = 'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot.';
+    const mythicLine = isSavingThrow
+      ? `You become proficient in ${skill} saving throws. If you are already proficient, add half your proficiency bonus rounded down to this saving throw.`
+      : `You become proficient in ${skill}. If you are already proficient in this skill, you gain expertise in this skill. If you already have expertise in this skill, add half your proficiency bonus rounded down to this skill.`;
 
     switch (result.rarity) {
       case 'common':
@@ -202,22 +255,17 @@ export class GachaShopComponent {
 
       case 'rare':
         return [
-          'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot.',
-          `This item increases your ${skill} skill by half your proficiency bonus, rounded down.`,
+          attunementLine,
+          isSavingThrow
+            ? `This item increases your ${skill} saving throw by half your proficiency bonus, rounded down.`
+            : `This item increases your ${skill} skill by half your proficiency bonus, rounded down.`,
         ];
 
       case 'mythic':
-        return [
-          'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot.',
-          `You become proficient in ${skill}. If you are already proficient in this skill, you gain expertise in this skill. If you already have expertise in this skill, add half your proficiency bonus rounded down to this skill.`,
-        ];
+        return [attunementLine, mythicLine];
 
       case 'legendary':
-        return [
-          'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot.',
-          `You become proficient in ${skill}. If you are already proficient in this skill, you gain expertise in this skill. If you already have expertise in this skill, add half your proficiency bonus rounded down to this skill.`,
-          result.prize.legendarySpecial,
-        ];
+        return [attunementLine, mythicLine, result.prize.legendarySpecial];
 
       default:
         return [];

@@ -27,6 +27,7 @@ const RARITIES: GachaRarityInfo[] = [
 ];
 
 const PRIZES: GachaPrizeDefinition[] = [
+  //Str
   {
     id: 'cyclops',
     name: 'Keychain of the Cyclops',
@@ -34,6 +35,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per day, change your Strength score to 30 before rolling for an Athletics check.',
     image: 'assets/gacha/cyclops_gacha.png',
   },
+  //Dex
   {
     id: 'master-thief',
     name: 'Keychain of the Master Thief',
@@ -55,6 +57,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per day, roll a Stealth check and make the result count for up to 5 other creatures you can see. You can choose to use this ability after seeing the result of the roll.',
     image: 'assets/gacha/invisible_stalker_gacha.png',
   },
+  // INT
   {
     id: 'lich',
     name: 'Keychain of the Lich',
@@ -69,12 +72,72 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per session, after making a successful History check, ask the DM one yes-or-no question about the history of the subject and receive a truthful answer.',
     image: 'assets/gacha/empyrean_gacha.png',
   },
+  //WIS
+  {
+    id: 'solar',
+    name: 'Keychain of the Solar',
+    skill: 'Perception',
+    legendarySpecial: 'Once per day, if you would lose one of your senses (eg blinded or deafened), you ignore this effect.',
+    image: 'assets/gacha/solar_gacha.png',
+  },
+  {
+    id: 'rakshasa',
+    name: 'Keychain of the Rakshasa',
+    skill: 'Insight',
+    legendarySpecial: 'Once per day, after making a successful Insight check against a creature, learn a way to get into good graces with the target.',
+    image: 'assets/gacha/rakshasa_gacha.png',
+  },
+  {
+    id: 'kolyarut',
+    name: 'Keychain of the Kolyarut',
+    skill: 'Survival',
+    legendarySpecial: 'Once per day, know every place a target has been to and which routes they took within 1000 feet of you over the last year. You need a personal belonging or a piece of the target\s body to activate this ability. This item is consumed upon activation',
+    image: 'assets/gacha/kolyarut_gacha.png',
+  },
+
+  {
+    id: 'animal-lord',
+    name: 'Keychain of the Animal Lord',
+    skill: 'Animal Handling',
+    legendarySpecial: 'After a successful animal handling check, you can communicate with the creature using Common language. It understands you and you understand it.',
+    image: 'assets/gacha/animal_lord_gacha.png',
+  },
+  {
+    id: 'archpriest',
+    name: 'Keychain of the Archpriest',
+    skill: 'Medicine',
+    legendarySpecial: 'When you stabilize an ally, you automatically grant them Hit Points equal to two of their hit dice plus one of your hit dice. These hit dice are then spent',
+    image: 'assets/gacha/archpriest_gacha.png',
+  },
+  //CHA
+  {
+    id: 'succubus',
+    name: 'Keychain of the Succubus',
+    skill: 'Deception',
+    legendarySpecial: 'Once per day, have an ally retry a failed Deception check using your Deception skill modifier.',
+    image: 'assets/gacha/succubus_gacha.png',
+  },
+  {
+    id: 'arch-hag',
+    name: 'Keychain of the Arch Hag',
+    skill: 'Persuasion',
+    legendarySpecial: 'Once per day, you can try to persuade a target into doing you a favor. If they agree, the image in this keychain fades away. As soon as they have completed the favor, the image returns',
+    image: 'assets/gacha/arch_hag_gacha.png',
+  },
+  {
+    id: 'death-knight',
+    name: 'Keychain of the Death Knight',
+    skill: 'Intimidation',
+    legendarySpecial: 'Once per day, after a successful Intimidation check, you can force the target to become frightened of you for 1 minute.',
+    image: 'assets/gacha/death_knight_gacha.png',
+  },
+  //Saves
   {
     id: 'forcecage',
     name: 'Keychain of Forcecage',
     bonusType: 'savingThrow',
     skill: 'Charisma',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Charisma. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Charisma. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/forcecage_gacha.png',
   },
   {
@@ -82,7 +145,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     name: 'Keychain of the Meteor Swarm',
     bonusType: 'savingThrow',
     skill: 'Dexterity',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Dexterity. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Dexterity. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/meteor_swarm_gacha.png',
   },
   {
@@ -90,7 +153,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     name: 'Keychain of the Psychic Scream',
     bonusType: 'savingThrow',
     skill: 'Intelligence',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Intelligence. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Intelligence. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/psychic_scream_gacha.png',
   },
   {
@@ -98,7 +161,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     name: 'Keychain of the Ravenous Void',
     bonusType: 'savingThrow',
     skill: 'Strength',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Strength. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Strength. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/ravenous_void_gacha.png',
   },
   {
@@ -106,7 +169,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     name: 'Keychain of the Storm of Vengeance',
     bonusType: 'savingThrow',
     skill: 'Constitution',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Constitution. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Constitution. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/storm_of_vengeance_gacha.png',
   },
   {
@@ -114,7 +177,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     name: 'Keychain of Weird',
     bonusType: 'savingThrow',
     skill: 'Wisdom',
-    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Wisdom. If you are unable to cast spells, you can change to armor class of a foe to its current value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
+    legendarySpecial: 'Once per day, change the saving throw type of one your spells to Wisdom. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/weird_gacha.png',
   },
 ];

@@ -13,6 +13,10 @@ export interface GachaPrizeDefinition {
   bonusType?: GachaBonusType;
   /** The skill or saving throw granted/boosted by rare and higher rarities of this prize. */
   skill: string;
+  /** Overrides the generic rare-tier flavour text when this prize has a unique rare effect. */
+  rareSpecial?: string;
+  /** Overrides the generic mythic-tier flavour text when this prize has a unique mythic effect. */
+  mythicSpecial?: string;
   /** Extra special ability text granted only at legendary rarity. */
   legendarySpecial: string;
   /** Sprite sheet with 4 quadrants: common (top-left), rare (top-right), mythic (bottom-left), legendary (bottom-right). */

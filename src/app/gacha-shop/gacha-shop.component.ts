@@ -207,6 +207,16 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per day, change the saving throw type of one your spells to Wisdom. If you are unable to cast spells, you can reduce to armor class of a foe by an amount equal to the original value of this ability for a number of rounds equal to half your proficiency bonus rounded down',
     image: 'assets/gacha/weird_gacha.png',
   },
+  //Other
+  {
+    id: 'troll-trolling',
+    name: 'Keychain of the Trolling Troll',
+    skill: 'Deception',
+    rareSpecial: 'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot. You now have 2 gacha attunement slots',
+    mythicSpecial: 'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot. You now have 3 gacha attunement slots, but they can only be used by Keychains of the Troll',
+    legendarySpecial: 'Requires attunement. This uses your gacha-attunement slot, which is different from your standard attunement slots. You only have 1 gacha attunement slot. You now have 3 gacha attunement slots, but the effects of attuned keychains granted to you are one tier lower',
+    image: 'assets/gacha/troll_trolling_gacha.png',
+  },
 ];
 
 @Component({
@@ -346,13 +356,13 @@ export class GachaShopComponent {
       case 'rare':
         return [
           attunementLine,
-          isSavingThrow
+          result.prize.rareSpecial ?? (isSavingThrow
             ? `This item increases your ${skill} saving throw by half your proficiency bonus, rounded down.`
-            : `This item increases your ${skill} skill by half your proficiency bonus, rounded down.`,
+            : `This item increases your ${skill} skill by half your proficiency bonus, rounded down.`),
         ];
 
       case 'mythic':
-        return [attunementLine, mythicLine];
+        return [attunementLine, result.prize.mythicSpecial ?? mythicLine];
 
       case 'legendary':
         return [attunementLine, mythicLine, result.prize.legendarySpecial];

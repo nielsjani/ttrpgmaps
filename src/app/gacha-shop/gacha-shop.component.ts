@@ -40,7 +40,7 @@ const PRIZES: GachaPrizeDefinition[] = [
     id: 'master-thief',
     name: 'Keychain of the Master Thief',
     skill: 'Sleight of Hand',
-    legendarySpecial: 'Once per day after performing a successful Sleight of Hand check, become invisible for a number of minutes equal to your levels in full martial classes.',
+    legendarySpecial: 'Once per day after performing a successful Sleight of Hand check, become invisible for a number of minutes equal to your levels in full martial classes. Taking an offensive attack breaks the effect',
     image: 'assets/gacha/master_thief_gacha.png',
   },
   {
@@ -72,6 +72,27 @@ const PRIZES: GachaPrizeDefinition[] = [
     legendarySpecial: 'Once per session, after making a successful History check, ask the DM one yes-or-no question about the history of the subject and receive a truthful answer.',
     image: 'assets/gacha/empyrean_gacha.png',
   },
+  {
+    id: 'elder-brain',
+    name: 'Keychain of the Elder Brain',
+    skill: 'Investigation',
+    legendarySpecial: 'Once per day, after making a successful Investigation check that exceeds the required DC by 5 or more, you can roll once on the Treasure Hoard table that is one tier lower than your current tier. (Only applicable on spatial investigation checks like finding hidden doors in a room)',
+    image: 'assets/gacha/elder_brain_gacha.png',
+  },
+  {
+    id: 'oblex',
+    name: 'Keychain of the Oblex',
+    skill: 'Nature',
+    legendarySpecial: 'Once per day, after making a successful Nature check, absorb the memories of a plant or animal droppings you ingest, learning one true fact about events it has witnessed in the last year.',
+    image: 'assets/gacha/oblex_gacha.png',
+  },
+  {
+    id: 'androsphinx',
+    name: 'Keychain of the Androsphinx',
+    skill: 'Religion',
+    legendarySpecial: 'Once per day, after making a successful Religion check, pose one question formulated as a Limerick or Haiku to a deity or its servants and receive a truthful, if cryptic, answer. Also, the weather changes to a status related to the deity you contacted. This change lasts until the end of the day.',
+    image: 'assets/gacha/androsphinx_gacha.png',
+  },
   //WIS
   {
     id: 'solar',
@@ -91,10 +112,9 @@ const PRIZES: GachaPrizeDefinition[] = [
     id: 'kolyarut',
     name: 'Keychain of the Kolyarut',
     skill: 'Survival',
-    legendarySpecial: 'Once per day, know every place a target has been to and which routes they took within 1000 feet of you over the last year. You need a personal belonging or a piece of the target\s body to activate this ability. This item is consumed upon activation',
+    legendarySpecial: 'Once per day, know every place a target has been to and which routes they took within 1000 feet of you over the last year. You need a personal belonging or a piece of the target\'s body to activate this ability. This item is consumed upon activation',
     image: 'assets/gacha/kolyarut_gacha.png',
   },
-
   {
     id: 'animal-lord',
     name: 'Keychain of the Animal Lord',
@@ -130,6 +150,13 @@ const PRIZES: GachaPrizeDefinition[] = [
     skill: 'Intimidation',
     legendarySpecial: 'Once per day, after a successful Intimidation check, you can force the target to become frightened of you for 1 minute.',
     image: 'assets/gacha/death_knight_gacha.png',
+  },
+  {
+    id: 'copper-dragon',
+    name: 'Keychain of the Copper Dragon',
+    skill: 'Performance',
+    legendarySpecial: 'Once per day, after a successful Performance check that exceeds the required DC by 5 or more, roll twice on the Individual treasure Table and choose one result to keep. (Performance check needs to be properly role-played)',
+    image: 'assets/gacha/copper_dragon_gacha.png',
   },
   //Saves
   {
